@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+:root {
+  --primary: #FF4B6C;
+  --secondary: #FFE7EB;
+  --card: #FFFFFF;
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: var(--primary);
+  }
+  .bg-secondary {
+    background-color: var(--secondary);
+  }
+  .bg-card {
+    background-color: var(--card);
+  }
+  .text-primary {
+    color: var(--primary);
+  }
+} 

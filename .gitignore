@@ -1,0 +1,76 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+/server/node_modules
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Development
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Server storage
+/server/storage/docs/*
+!/server/storage/docs/.gitkeep
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+
+# Misc
+.DS_Store
+Thumbs.db
