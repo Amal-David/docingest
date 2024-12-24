@@ -1,267 +1,235 @@
 import React, { useState, useEffect } from 'react';
-import ReactMarkdown from 'react-markdown';
 import { Link } from 'react-router-dom';
+import { Card } from '../components/ui/card';
+import { Button } from '../components/ui/button';
+import { Progress } from '../components/ui/progress';
 
-interface DocStructure {
+// API Configuration
+const SERVER_API_URL = process.env.REACT_APP_SERVER_API_URL || 'http://localhost:8001/api';
+
+interface Doc {
+  domain: string;
+  timestamp: number;
+  title?: string;
+  description?: string;
+  content?: string;
   type: string;
-  url?: string;
-}
-
-interface DocPreview {
-  content: string;
-  domain: string;
-  lastUpdated: string;
-  url?: string;
-  filePath?: string;
-  structure: DocStructure[];
-}
-
-interface SavedUrl {
+  size?: number;
   url: string;
-  domain: string;
-  lastScraped: string;
-  totalPages: number;
-  successfulPages: number;
-  failedPages: string[];
-  structure: DocStructure[];
 }
 
-const API_URL = 'http://localhost:8001/api';
-
-// Helper function to get primary domain name
-const getPrimaryDomain = (domain: string) => {
-  const cleanDomain = domain.replace(/^docs\./, '').replace(/\.ai$/, '');
-  return cleanDomain.charAt(0).toUpperCase() + cleanDomain.slice(1);
-};
+interface DocContent {
+  content: string;
+  isLoading: boolean;
+}
 
 const ViewPage: React.FC = () => {
-  const [docs, setDocs] = useState<DocPreview[]>([]);
-  const [urls, setUrls] = useState<SavedUrl[]>([]);
-  const [selectedDoc, setSelectedDoc] = useState<DocPreview | null>(null);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [error, setError] = useState<string | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
-  const [showPreview, setShowPreview] = useState(false);
+  const [docs, setDocs] = useState<Doc[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [contentMap, setContentMap] = useState<Record<string, DocContent>>({});
 
   useEffect(() => {
-    const fetchDocs = async () => {
-      try {
-        const response = await fetch(`${API_URL}/docs/list`);
-        if (!response.ok) {
-          throw new Error('Failed to fetch documentation');
-        }
-        const data = await response.json();
-        console.log('Fetched data:', data);
-        setDocs(data.docs);
-        setUrls(data.urls);
-      } catch (err) {
-        console.error('Fetch error:', err);
-        setError('Failed to load documentation');
-      } finally {
-        setIsLoading(false);
-      }
-    };
-
     fetchDocs();
   }, []);
 
-  const filteredDocs = docs.filter(doc => {
-    const cleanDomain = doc.domain.replace(/^docs\./, '').replace(/\.ai$/, '').toLowerCase();
-    const cleanSearch = searchTerm.toLowerCase();
-    return cleanDomain.includes(cleanSearch);
-  });
-
-  const handleCopy = async (doc: DocPreview) => {
+  const fetchDocs = async () => {
     try {
-      if (!doc.filePath) {
-        throw new Error('File path not available');
-      }
-      const response = await fetch(`${API_URL}/docs/content?path=${encodeURIComponent(doc.filePath)}`);
-      if (!response.ok) {
-        throw new Error('Failed to fetch content');
-      }
-      const content = await response.text();
-      await navigator.clipboard.writeText(content);
-      alert('Content copied to clipboard!');
-    } catch (err) {
-      console.error('Copy error:', err);
-      setError('Failed to copy content');
+      setLoading(true);
+      const response = await fetch(`${process.env.REACT_APP_SERVER_API_URL}/docs/list`);
+      const data: Doc[] = await response.json();
+
+      // Remove duplicates based on domain
+      const uniqueDocs = Array.from(new Map(data.map((doc: Doc) => [doc.domain, doc])).values());
+
+      // Sort by timestamp, most recent first
+      setDocs(uniqueDocs as Doc[]);
+      uniqueDocs.sort((a: Doc, b: Doc) => b.timestamp - a.timestamp);
+    } catch (error) {
+      console.error('Error fetching docs:', error);
+    } finally {
+      setLoading(false);
     }
   };
 
-  const handleDownload = async (doc: DocPreview) => {
+  const getPrimaryDomain = (domain: string): string => {
+    return domain.replace(/^docs\./, '').replace(/\.ai$/, '');
+  };
+
+  const formatDate = (timestamp: number): string => {
+    return new Date(timestamp).toLocaleDateString();
+  };
+
+  const formatSize = (bytes?: number): string => {
+    if (!bytes) return 'Unknown size';
+    const units = ['B', 'KB', 'MB', 'GB'];
+    let size = bytes;
+    let unitIndex = 0;
+    while (size >= 1024 && unitIndex < units.length - 1) {
+      size /= 1024;
+      unitIndex++;
+    }
+    return `${size.toFixed(1)} ${units[unitIndex]}`;
+  };
+
+  const handleContentLoad = async (domain: string) => {
+    if (contentMap[domain]?.content) return;
+
+    setContentMap(prev => ({
+      ...prev,
+      [domain]: { content: '', isLoading: true }
+    }));
+
     try {
-      if (!doc.filePath) {
-        throw new Error('File path not available');
-      }
-      const response = await fetch(`${API_URL}/docs/download?path=${encodeURIComponent(doc.filePath)}`);
-      if (!response.ok) {
-        throw new Error('Failed to download file');
-      }
-      const blob = await response.blob();
+      const response = await fetch(`${process.env.REACT_APP_SERVER_API_URL}/docs/content/${domain}`);
+      const data = await response.json();
+
+      setContentMap(prev => ({
+        ...prev,
+        [domain]: { content: data.content, isLoading: false }
+      }));
+    } catch (error) {
+      console.error('Error loading content:', error);
+      setContentMap(prev => ({
+        ...prev,
+        [domain]: { content: 'Error loading content', isLoading: false }
+      }));
+    }
+  };
+
+  const handleCopy = async (domain: string) => {
+    const primaryDomain = getPrimaryDomain(domain);
+    
+    // Fetch content if not already loaded
+    if (!contentMap[primaryDomain]?.content) {
+      await handleContentLoad(primaryDomain);
+    }
+
+    // Copy content if available
+    if (contentMap[primaryDomain]?.content) {
+      navigator.clipboard.writeText(contentMap[primaryDomain].content);
+    }
+  };
+
+  const handleDownload = async (doc: Doc) => {
+    const primaryDomain = getPrimaryDomain(doc.domain);
+    
+    // Fetch content if not already loaded
+    if (!contentMap[primaryDomain]?.content) {
+      await handleContentLoad(primaryDomain);
+    }
+
+    // Download if content is available
+    if (contentMap[primaryDomain]?.content) {
+      const blob = new Blob([contentMap[primaryDomain].content], { type: 'text/markdown' });
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `${doc.domain}_documentation.md`;
+      a.download = `${primaryDomain}_documentation.md`;
       document.body.appendChild(a);
       a.click();
       window.URL.revokeObjectURL(url);
       document.body.removeChild(a);
-    } catch (err) {
-      console.error('Download error:', err);
-      setError('Failed to download file');
     }
   };
 
-  if (isLoading) {
+  const filteredDocs = docs.filter(doc => 
+    getPrimaryDomain(doc.domain).toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  if (loading) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center">
-        <div className="relative">
-          <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
-          <div className="rounded-xl relative z-20 p-8 border-[3px] border-gray-900 bg-card">
-            <div className="text-xl font-bold mb-4">Loading documentation...</div>
-            <div className="w-48 h-2 bg-blue-200 rounded-full">
-              <div className="w-24 h-2 bg-primary rounded-full animate-pulse"></div>
-            </div>
+      <div className="container max-w-4xl mx-auto p-4">
+        <Card className="p-6">
+          <div className="animate-pulse space-y-4">
+            <div className="h-4 bg-gray-200 rounded w-1/4"></div>
+            <div className="h-8 bg-gray-200 rounded w-1/2"></div>
+            <div className="h-4 bg-gray-200 rounded w-3/4"></div>
           </div>
-        </div>
+        </Card>
       </div>
     );
   }
 
   return (
-    <div className="space-y-8">
-      <div className="text-center space-y-4">
-        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
-          Saved <span className="text-primary">Documentation</span>
-        </h1>
-      </div>
-
-      <div className="relative">
-        <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
+    <div className="container max-w-4xl mx-auto p-4">
+      <div className="mb-6">
         <input
           type="text"
           placeholder="Search documentation..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          className="w-full p-4 border-[3px] border-gray-900 rounded relative z-10"
+          value={searchQuery}
+          onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSearchQuery(e.target.value)}
+          className="w-full p-4 border-[3px] border-gray-900 rounded bg-background"
         />
       </div>
 
-      {error && (
-        <div className="p-4 bg-red-50 border border-red-200 rounded-lg text-red-700">
-          <p className="font-medium">{error}</p>
-        </div>
-      )}
-
-      <div className={showPreview ? 'hidden' : ''}>
+      <div className="grid gap-6">
         {filteredDocs.length === 0 ? (
-          <div className="text-center text-gray-600">No documentation found</div>
+          <Card className="p-6">
+            <p className="text-center text-gray-600">
+              {searchQuery ? 'No documentation found matching your search.' : 'No documentation available.'}
+            </p>
+          </Card>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {filteredDocs.map((doc, index) => (
-              <div key={index} className="relative">
-                <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
-                <div className="rounded-xl relative z-20 p-6 border-[3px] border-gray-900 bg-card">
-                  <div className="space-y-2">
-                    <h3 className="text-xl font-bold">{getPrimaryDomain(doc.domain)}</h3>
-                    <p className="text-sm text-gray-600">
-                      Sections: {doc.structure.length}
-                    </p>
-                    <p className="text-sm text-gray-600">
-                      Saved: {new Date(doc.lastUpdated).toLocaleDateString()}
-                    </p>
-                    {doc.url && (
-                      <a 
-                        href={doc.url.startsWith('http') ? doc.url : `https://${doc.url}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm text-primary hover:underline block"
-                      >
-                        View Source
-                      </a>
-                    )}
-                  </div>
-                  <div className="mt-4 space-y-2">
-                    <button
-                      onClick={() => {
-                        setSelectedDoc(doc);
-                        setShowPreview(true);
-                      }}
-                      className="w-full px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
+          filteredDocs.map((doc, index) => {
+            const primaryDomain = getPrimaryDomain(doc.domain);
+            const docContent = contentMap[primaryDomain];
+
+            return (
+              <Card key={`${doc.domain}-${index}`} className="p-6">
+                <div className="space-y-4">
+                  <div>
+                    <h2 className="text-xl font-bold">{doc.title || doc.type}</h2>
+                    <p className="text-sm text-gray-600">Domain: {primaryDomain}</p>
+                    <p className="text-sm text-gray-600">Saved: {formatDate(doc.timestamp)}</p>
+                    <p className="text-sm text-gray-600">Size: {formatSize(doc.size)}</p>
+                    <a
+                      href={doc.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-primary hover:underline"
                     >
-                      Preview
-                    </button>
-                    <div className="grid grid-cols-2 gap-2">
-                      <button
-                        onClick={() => handleCopy(doc)}
-                        className="px-4 py-2 bg-gray-100 text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-                      >
-                        Copy All
-                      </button>
-                      <button
-                        onClick={() => handleDownload(doc)}
-                        className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-                      >
-                        Download
-                      </button>
-                    </div>
+                      View Source
+                    </a>
                   </div>
+
+                  <div className="grid grid-cols-2 gap-2">
+                    <Link
+                      to={`/docs/${primaryDomain}`}
+                      className="text-center px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
+                    >
+                      View Page
+                    </Link>
+                    <Button
+                      onClick={() => handleCopy(doc.domain)}
+                      className="bg-secondary text-gray-900"
+                      disabled={docContent?.isLoading}
+                    >
+                      {docContent?.isLoading ? 'Loading...' : 'Copy All'}
+                    </Button>
+                  </div>
+
+                  <div className="grid grid-cols-1">
+                    <Button
+                      onClick={() => handleDownload(doc)}
+                      className="bg-primary text-white"
+                      disabled={docContent?.isLoading}
+                    >
+                      {docContent?.isLoading ? 'Loading...' : 'Download'}
+                    </Button>
+                  </div>
+
+                  {docContent?.isLoading && (
+                    <div className="mt-2">
+                      <Progress value={50} className="animate-pulse" />
+                    </div>
+                  )}
                 </div>
-              </div>
-            ))}
-          </div>
+              </Card>
+            );
+          })
         )}
       </div>
-
-      {/* Preview Section */}
-      {showPreview && selectedDoc && (
-        <div className="space-y-4">
-          <div className="flex justify-between items-center">
-            <h2 className="text-2xl font-bold">{getPrimaryDomain(selectedDoc.domain)}</h2>
-            <div className="space-x-2">
-              <button
-                onClick={() => handleCopy(selectedDoc)}
-                className="px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-              >
-                Copy All
-              </button>
-              <button
-                onClick={() => handleDownload(selectedDoc)}
-                className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-              >
-                Download All
-              </button>
-              <button
-                onClick={() => setShowPreview(false)}
-                className="px-4 py-2 bg-gray-100 text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-              >
-                Back to List
-              </button>
-            </div>
-          </div>
-          <div className="grid grid-cols-4 gap-6">
-            <div className="col-span-1 bg-white rounded-lg shadow p-4 border-[3px] border-gray-900 h-fit">
-              <h3 className="font-bold mb-2">Table of Contents</h3>
-              <ul className="space-y-1">
-                {selectedDoc.structure.map((item, i) => (
-                  <li key={i} className="text-sm">
-                    <a 
-                      href={`#${item.type.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
-                      className="text-primary hover:underline"
-                    >
-                      {item.type}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="col-span-3 bg-white rounded-lg shadow p-6 prose max-w-none border-[3px] border-gray-900">
-              <ReactMarkdown>{selectedDoc.content}</ReactMarkdown>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };

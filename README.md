@@ -1,31 +1,44 @@
 # DocIngest
 
-A modern documentation scraping and management tool that allows you to download, save, and manage documentation from any website.
+A modern documentation download and archival tool that helps you save technical documentation for offline access.
 
 ## Features
 
-- 🚀 Scrape documentation from any URL
-- 📝 Convert HTML to clean Markdown
-- 📁 Save documentation locally
-- 🔍 Full-text search capabilities
-- 📱 Responsive design
-- 🎨 Modern UI with a consistent theme
-- 🔗 SEO-friendly URLs for saved documentation
+### Core Functionality
+- Download and archive documentation from any website
+- Automatic organization and indexing of content
+- Support for up to 250 pages per documentation
+- Easy search and navigation through saved documentation
+- SEO-friendly URLs for archived documentation
 
-## Tech Stack
+### Performance Optimizations
+- Lazy loading of documentation content
+  - Initial load only fetches metadata
+  - Content is loaded on-demand when copying or downloading
+  - Cached in memory after first load
+- Smart archival system
+  - Checks for existing documentation before downloading
+  - Auto re-downloads if content is older than 10 days
+  - Shows archive status and last update date
+- Efficient storage
+  - Stores metadata separately from content
+  - Displays file sizes before downloading
+  - Supports files up to 100MB
 
-- Frontend: React with TypeScript
-- Backend: Node.js with Express
-- Scraping: Custom Firecrawl API
-- Styling: Tailwind CSS
+### User Experience
+- Clean, modern interface with Inter font
+- Responsive design that works on all devices
+- Progress indicators for all operations
+- Quick search functionality
+- One-click copy and download options
 
-## Prerequisites
+## Getting Started
 
-- Node.js (v16 or higher)
+### Prerequisites
+- Node.js (v14 or higher)
 - npm or yarn
-- Python 3.8+ (for Firecrawl API)
 
-## Installation
+### Installation
 
 1. Clone the repository:
 ```bash
@@ -35,105 +48,95 @@ cd docingest
 
 2. Install dependencies:
 ```bash
-# Install frontend dependencies
-npm install
-
 # Install server dependencies
 cd server
 npm install
+
+# Install client dependencies
+cd ..
+npm install
 ```
 
-3. Set up environment variables:
+3. Create environment files:
 ```bash
-# Create .env file in root directory
-cp .env.example .env
-
-# Create .env file in server directory
-cd server
+# Copy example environment files
 cp .env.example .env
 ```
 
-4. Start the development servers:
+4. Configure environment variables in `.env`:
+```env
+# Server Configuration
+PORT=8001
+MAX_PAYLOAD_SIZE=100mb
+
+# API Endpoints
+REACT_APP_SERVER_API_URL=http://localhost:8001/api
+REACT_APP_FIRECRAWL_API_URL=http://localhost:3002/v1
+```
+
+### Running the Application
+
+1. Start the server:
 ```bash
-# Start frontend (in root directory)
-npm start
-
-# Start backend (in server directory)
 cd server
 npm start
-
-# Start Firecrawl API (in a new terminal)
-cd firecrawl
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python main.py
 ```
 
-## Deployment
+2. Start the client:
+```bash
+# In another terminal
+npm start
+```
 
-### Frontend Deployment (Vercel/Netlify)
+The application will be available at `http://localhost:3000`
 
-1. Connect your GitHub repository
-2. Set build command: `npm run build`
-3. Set output directory: `build`
-4. Add environment variables from `.env`
+## API Endpoints
 
-### Backend Deployment (DigitalOcean/Heroku)
-
-1. Create a new app/droplet
-2. Set up environment variables
-3. Configure build command: `npm install && npm run build`
-4. Start command: `npm start`
-
-### Firecrawl API Deployment
-
-1. Deploy as a separate service
-2. Update API endpoint in frontend configuration
-3. Set up rate limiting and security measures
-
-## Usage
-
-### Basic Usage
-
-1. Visit the homepage
-2. Enter a documentation URL
-3. Click "Download Documentation"
-4. Wait for the scraping to complete
-5. View, copy, or download the documentation
+### Documentation Management
+- `GET /api/docs/list` - List all saved documentation (metadata only)
+- `GET /api/docs/content/:domain` - Get content for specific documentation
+- `GET /api/docs/check/:domain` - Check if documentation exists and is recent
+- `POST /api/docs/save` - Save new documentation
+- `GET /api/docs/domain/:domain` - Get both metadata and content
 
 ### URL Structure
+- Main application: `http://localhost:3000`
+- Documentation view: `http://localhost:3000/docs/{domain}`
+- API server: `http://localhost:8001/api`
+- Firecrawl service: `http://localhost:3002/v1`
 
-- Homepage: `/`
-- View Documentation: `/:domain`
-- Example: `docingest.com/cartesia` shows Cartesia documentation
+## Performance Considerations
 
-### API Endpoints
+### Content Loading
+- Initial page load only fetches metadata (~1KB per doc)
+- Content is loaded on-demand when needed
+- In-memory caching prevents redundant fetches
+- Progress indicators for all loading states
 
-```typescript
-// Frontend API Configuration
-const FIRECRAWL_API = 'http://localhost:3002/v1';
-const API_URL = 'http://localhost:8001/api';
+### Storage Optimization
+- Metadata and content stored separately
+- File sizes displayed before downloading
+- Support for large documentation (up to 100MB)
+- Automatic cleanup of outdated content
 
-// Available Endpoints
-GET /api/docs/list         // List all saved documentation
-POST /api/docs/save        // Save new documentation
-GET /api/docs/content      // Get documentation content
-GET /api/docs/download     // Download documentation file
-```
+### Archive Management
+- Smart caching system with 10-day freshness
+- Automatic re-download of outdated content
+- Archive status indicators
+- Timestamp tracking for all content
 
 ## Contributing
 
 1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
 
-MIT License - feel free to use this project for your own purposes.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Support
 
-For support, email support@docingest.com or create an issue in the repository. 
+For support, please open an issue in the GitHub repository or contact @DavidAmal on Twitter/X. 
