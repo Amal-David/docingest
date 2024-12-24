@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <div className="flex justify-center items-center text-gray-900 text-sm">
           <div className="flex flex-col items-center">
             <div className="flex items-center">
-              UI Inspired by Gitingest
+              <a href="https://gitingest.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">UI Inspired by <span className="text-blue-500 hover:text-blue-700">Gitingest</span></a>
             </div>
           </div>
         </div>

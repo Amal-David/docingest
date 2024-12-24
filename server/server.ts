@@ -6,8 +6,10 @@ import path from 'path';
 const app = express();
 const PORT = process.env.PORT || 8001;
 
+// Increase payload size limits
+app.use(express.json({ limit: '50mb' }));
+app.use(express.urlencoded({ limit: '50mb', extended: true }));
 app.use(cors());
-app.use(express.json());
 
 // Storage path - using absolute path from project root
 const STORAGE_PATH = path.join(process.cwd(), 'storage', 'docs');
