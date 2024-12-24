@@ -2,20 +2,15 @@ import express from 'express';
 import cors from 'cors';
 import fs from 'fs-extra';
 import path from 'path';
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 
 const app = express();
-const PORT = 8001;
+const PORT = process.env.PORT || 8001;
 
 app.use(cors());
 app.use(express.json());
 
 // Storage path - using absolute path from project root
-const STORAGE_PATH = path.join(process.cwd(), 'server', 'storage', 'docs');
+const STORAGE_PATH = path.join(process.cwd(), 'storage', 'docs');
 console.log('Storage path:', STORAGE_PATH);
 
 // Ensure storage directory exists
