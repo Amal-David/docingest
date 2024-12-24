@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
             <h1 className="text-2xl font-bold tracking-tight">
               <Link to="/" className="hover:opacity-80 transition-opacity">
                 <span className="text-gray-900">Doc</span>
-                <span className="text-primary">ingest</span>
+                <span className="text-primary">Ingest</span>
               </Link>
             </h1>
           </div>

@@ -28,11 +28,16 @@ const Footer: React.FC = () => {
           </div>
           <div className="h-4 w-px bg-gray-900"></div>
           <div className="flex items-center">
-            <span className="flex items-center">
-              Created by 
-              <XLogo className="ml-1" />
-              <span className="ml-1">@DavidAmal</span>
-            </span>
+            <span>Created by </span>
+            <a 
+              href="https://x.com/DavidAmal" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="flex items-center ml-1 text-gray-900 hover:opacity-75 transition-opacity"
+            >
+              <XLogo className="mr-1" />
+              <span>@DavidAmal</span>
+            </a>
           </div>
         </div>
       </div>
