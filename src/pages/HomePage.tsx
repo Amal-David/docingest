@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import { totalmem } from 'os';
+import React, { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Link } from 'react-router-dom';
 
@@ -72,7 +73,12 @@ interface ScrapingMetrics {
 const HomePage: React.FC = () => {
   const [url, setUrl] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [newDataLoading, setnewDataLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [fetchedDomains, setFetchedDomains] = useState<Set<string>>(new Set());
+  const footerRef = useRef(null);
+  const pageref = useRef(1);
+  const totalDocsRef = useRef(null);
   const [debugInfo, setDebugInfo] = useState<string | null>(null);
   const [isCrawling, setIsCrawling] = useState(false);
   const [crawlId, setCrawlId] = useState<string | null>(null);
@@ -80,6 +86,7 @@ const HomePage: React.FC = () => {
   const [savedUrls, setSavedUrls] = useState<SavedUrl[]>([]);
   const [selectedDoc, setSelectedDoc] = useState<DocPreview | null>(null);
   const [showPreview, setShowPreview] = useState(false);
+  const [addedPage, setAddedPage] = useState<number>(1);
   const [metrics, setMetrics] = useState<ScrapingMetrics>({
     totalPages: 0,
     completedPages: 0,
@@ -112,8 +119,62 @@ const HomePage: React.FC = () => {
 
     return lastScrapedDate > tenDaysAgo ? savedUrl : null;
   };
+  useEffect(() => {
+    if(sessionStorage.getItem('savedDocs') != null && sessionStorage.getItem('savedDocs') != "[]") {
+      const savedDocs = JSON.parse(sessionStorage.getItem('savedDocs') || '[]');
+      setSavedDocs(savedDocs);
+    }
+    const footerElement = footerRef.current;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          loadSavedData(5);
+        }
+        
+      },
+      {
+        root: null,
+        threshold: 0.1, 
+      }
+    );
+  
+    if (footerElement) {
+      observer.observe(footerElement);
+    }
+  
+    return () => {
+      if (footerElement) {
+        observer.unobserve(footerElement);
+      }
+    };
+  }, []);
 
+  const getDomainFromUrl = (url: string): string => {
+    try {
+      const parsedUrl = new URL(url);
+      return parsedUrl.hostname;
+    } catch {
+      return 'unknown-domain';
+
+    }
+  };
+  
   const handleCrawlAndDownload = async () => {
+    // check if the url domain already exists in saved docs
+    
+    const domain = getDomainFromUrl(url);
+    console.log(domain);
+    console.log(savedDocs);
+    const existingDoc = savedDocs.find(doc => doc.domain === domain);
+    
+    if (existingDoc) {
+      alert(
+        "Documentation for this domain has already been scraped. Please check the saved documents."
+      );
+      return;
+    } else {
+      sessionStorage.clear();
+    }
     setIsLoading(true);
     setError(null);
     setDebugInfo(null);
@@ -159,7 +220,7 @@ const HomePage: React.FC = () => {
         },
         body: JSON.stringify({
           url: url,
-          limit: 100,
+          limit: 250,
           maxDepth: 5,
           allowBackwardLinks: true,
           scrapeOptions: {
@@ -357,24 +418,47 @@ const HomePage: React.FC = () => {
     }
   };
 
-  // Load saved data from localStorage on component mount
-  useEffect(() => {
-    const loadSavedData = async () => {
-      try {
-        const response = await fetch(`${API_URL}/docs/list`);
-        if (!response.ok) throw new Error('Failed to load saved documentation');
-        
-        const data = await response.json();
-        setSavedDocs(data.docs);
-        setSavedUrls(data.urls);
-      } catch (err) {
-        console.error('Load error:', err);
-        setError('Failed to load saved documentation.');
-      }
-    };
+  
+  const loadSavedData = async (limit: number) => {
+    try {
+      setnewDataLoading(true);
+      console.log('Loading saved data...', `${pageref.current}`);
+      const response = await fetch(`${API_URL}/docs/list?page=${pageref.current}&limit=${limit}`);
+      pageref.current = pageref.current + 1;
+      
+      if (!response.ok) throw new Error('Failed to load saved documentation');
+      const data = await response.json();
+      // Filter out duplicate documents
+      console.log(data, "data")
+      totalDocsRef.current = data.totalDocs;
+      setSavedDocs((prevDocs) => {
+        const existingDomains = new Set(prevDocs.map((doc) => doc.domain + doc.filePath));
+        const newDocs = data.docs.filter(
+          (doc: DocPreview) => !existingDomains.has(doc.domain + doc.filePath)
+        );
+        // update or store in browser session storage
+        const finaldoc = [...prevDocs, ...newDocs];
+        sessionStorage.setItem('savedDocs', JSON.stringify(finaldoc));
+        return finaldoc;
+      });
 
-    loadSavedData();
-  }, []);
+      // Filter out duplicate URLs
+      setSavedUrls((prevUrls) => {
+        const existingUrls = new Set(prevUrls.map((url) => url.url));
+        const newUrls = data.urls.filter(
+          (url: SavedUrl) => !existingUrls.has(url.url)
+        );
+        return [...prevUrls, ...newUrls];
+      });
+      setnewDataLoading(false);
+
+     // Set the total pages from the response
+    } catch (err) {
+      console.error('Load error:', err);
+      setError('Failed to load saved documentation.');
+    }
+  };
+  
 
   return (
     <div className="space-y-8">
@@ -390,7 +474,7 @@ const HomePage: React.FC = () => {
             to="/view"
             className="px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
           >
-            View All Docs
+            View Saved Docs
           </Link>
         </div>
       </div>
@@ -581,6 +665,13 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       )}
+      {/* beautiful tailwiund spinner */}
+      {newDataLoading && (
+        <div className="flex justify-center items-center h-screen">
+          <div className="animate-spin rounded-full h-32 w-32 border-t-4 border-b-4 border-primary"></div>
+        </div>
+      )}
+      <div ref={footerRef}></div>
     </div>
   );
 };

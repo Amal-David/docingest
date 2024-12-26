@@ -135,6 +135,9 @@ const ViewPage: React.FC = () => {
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
           Saved <span className="text-primary">Documentation</span>
         </h1>
+        <p className="text-3xl mt-7 sm:text-2xl font-semibold tracking-tight">
+        View all  <span className="text-primary"> saved documentation </span> that are  indexed by us or other users
+        </p>
       </div>
 
       <div className="relative">

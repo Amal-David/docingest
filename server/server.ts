@@ -131,22 +131,29 @@ app.post('/api/docs/save', async (req, res) => {
   }
 });
 
-// List saved documentation
 app.get('/api/docs/list', async (req, res) => {
   try {
     console.log('Reading storage directory:', STORAGE_PATH);
     
+    // Get pagination parameters from query string
+    const page = parseInt(req.query.page as string) || 1; // Default to page 1
+    const limit = parseInt(req.query.limit as string) || 10; // Default to 10 docs per page
+
+    if (page < 1 || limit < 1) {
+      return res.status(400).json({ success: false, error: 'Invalid page or limit values' });
+    }
+
     if (!await fs.pathExists(STORAGE_PATH)) {
       console.log('Storage directory does not exist, creating it');
       await fs.ensureDir(STORAGE_PATH);
-      return res.json({ docs: [], urls: [] });
+      return res.json({ docs: [], urls: [], totalDocs: 0 });
     }
 
     const domains = await fs.readdir(STORAGE_PATH);
     console.log('Found domains:', domains);
     
-    const docs: any[] = [];
-    const urls: any[] = [];
+    const allDocs: any[] = [];
+    const allUrls: any[] = [];
 
     for (const fullDomain of domains) {
       const domainPath = path.join(STORAGE_PATH, fullDomain);
@@ -191,7 +198,7 @@ app.get('/api/docs/list', async (req, res) => {
             }
           }
           
-          docs.push({
+          allDocs.push({
             content: fullContent,
             domain: fullDomain,
             lastUpdated: timestamp,
@@ -200,7 +207,7 @@ app.get('/api/docs/list', async (req, res) => {
             structure: metadata.structure
           });
           
-          urls.push(metadata);
+          allUrls.push(metadata);
           continue;
         }
         
@@ -208,7 +215,7 @@ app.get('/api/docs/list', async (req, res) => {
         if (await fs.pathExists(metadataPath)) {
           console.log('Reading metadata:', metadataPath);
           const metadata = await fs.readJSON(metadataPath);
-          urls.push(metadata);
+          allUrls.push(metadata);
 
           const files = await fs.readdir(domainPath);
           console.log('Found files in domain:', files);
@@ -223,7 +230,7 @@ app.get('/api/docs/list', async (req, res) => {
             console.log('Reading documentation file:', filePath);
             const content = await fs.readFile(filePath, 'utf-8');
             
-            docs.push({
+            allDocs.push({
               content,
               domain: fullDomain,
               lastUpdated: metadata.lastScraped,
@@ -239,13 +246,30 @@ app.get('/api/docs/list', async (req, res) => {
       }
     }
 
-    console.log(`Found ${docs.length} documents and ${urls.length} URLs`);
-    res.json({ docs, urls });
+    // Apply pagination to the results
+    const totalDocs = allDocs.length;
+    const totalUrls = allUrls.length;
+
+    const paginatedDocs = allDocs.slice((page - 1) * limit, page * limit);
+    const paginatedUrls = allUrls.slice((page - 1) * limit, page * limit);
+
+    console.log(`Returning ${paginatedDocs.length} documents for page ${page}`);
+    res.json({ 
+      docs: paginatedDocs,
+      urls: paginatedUrls,
+      totalDocs, 
+      totalUrls,
+      page, 
+      limit,
+      totalPages: Math.ceil(totalDocs / limit) 
+    });
   } catch (error) {
     console.error('List error:', error);
     res.status(500).json({ success: false, error: 'Failed to list documentation' });
   }
 });
+
+
 
 // Get file content
 app.get('/api/docs/content', async (req, res) => {
