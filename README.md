@@ -9,11 +9,11 @@ A modern documentation download and archival tool that helps you save technical 
 - Automatic organization and indexing of content
 - Support for up to 250 pages per documentation
 - Easy search and navigation through saved documentation
-- SEO-friendly URLs for archived documentation
+- SEO-friendly URLs for archived documentation (e.g., docingest.com/cartesia)
 
 ### Performance Optimizations
 - Lazy loading of documentation content
-  - Initial load only fetches metadata
+  - Initial load only fetches metadata (~1KB per doc)
   - Content is loaded on-demand when copying or downloading
   - Cached in memory after first load
 - Smart archival system
@@ -24,13 +24,34 @@ A modern documentation download and archival tool that helps you save technical 
   - Stores metadata separately from content
   - Displays file sizes before downloading
   - Supports files up to 100MB
+  - Automatic cleanup of outdated content
 
 ### User Experience
 - Clean, modern interface with Inter font
 - Responsive design that works on all devices
 - Progress indicators for all operations
-- Quick search functionality
+- Quick search functionality by domain name
 - One-click copy and download options
+- Collapsible preview sections
+- Social media preview support
+- Comprehensive meta tags for SEO
+
+## Recent Updates
+
+### Version 1.1.0
+- Added SEO-friendly URLs for documentation pages
+- Implemented lazy loading for better performance
+- Added smart archival system with 10-day freshness
+- Increased maximum page limit to 250
+- Added file size display and progress indicators
+- Improved search functionality for domain names
+- Added social media preview support
+- Added Google Analytics integration
+- Updated UI with Inter font and modern styling
+- Fixed duplicate entries in documentation list
+- Improved error handling and loading states
+- Added comprehensive meta tags for better SEO
+- Increased maximum payload size to 100MB
 
 ## Getting Started
 
@@ -124,6 +145,13 @@ The application will be available at `http://localhost:3000`
 - Automatic re-download of outdated content
 - Archive status indicators
 - Timestamp tracking for all content
+
+## Analytics and SEO
+- Google Analytics integration for tracking usage
+- Comprehensive meta tags for social media
+- SEO-friendly URLs for documentation
+- Social media preview images
+- Support for Twitter, Facebook, and WhatsApp sharing
 
 ## Contributing
 
