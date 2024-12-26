@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 
-const API_URL = 'http://localhost:8001/api';
+const API_URL = '/api';
 
 interface DocContent {
   content: string;

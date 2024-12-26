@@ -26,7 +26,7 @@ interface SavedUrl {
   structure: DocStructure[];
 }
 
-const API_URL = 'http://localhost:8001/api';
+const API_URL = '/api';
 
 // Helper function to get primary domain name
 const getPrimaryDomain = (domain: string) => {

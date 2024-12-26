@@ -3,8 +3,9 @@ import ReactMarkdown from 'react-markdown';
 import { Link } from 'react-router-dom';
 
 // API configuration
-const FIRECRAWL_API = 'http://localhost:3002/v1';
-const API_URL = 'http://localhost:8001/api';
+const FIRECRAWL_API = 'v1';
+//const FIRECRAWL_API = process.env.NEXT_PUBLIC_FIRECRAWL_API || 'http://docingest.com:3002'
+const API_URL = '/api';
 
 interface DocPreview {
   content: string;
