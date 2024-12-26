@@ -1,19 +1,17 @@
 import React from 'react';
 
 interface ProgressProps {
-  value: number;
+  value?: number;
   className?: string;
 }
 
-const Progress: React.FC<ProgressProps> = ({ value, className = '' }) => {
+export const Progress: React.FC<ProgressProps> = ({ value = 0, className = '' }) => {
   return (
-    <div className={`w-full bg-gray-200 rounded-full h-2 ${className}`}>
+    <div className={`w-full h-2 bg-gray-200 rounded overflow-hidden ${className}`}>
       <div
-        className="bg-primary h-2 rounded-full transition-all duration-300"
+        className="h-full bg-primary transition-all duration-300 ease-in-out"
         style={{ width: `${Math.min(Math.max(value, 0), 100)}%` }}
       />
     </div>
   );
-};
-
-export { Progress }; 
+}; 

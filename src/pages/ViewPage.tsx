@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, ChangeEvent } from 'react';
 import { Link } from 'react-router-dom';
-import { Card } from '../components/ui/card';
+import { Input } from '../components/ui/input';
 import { Button } from '../components/ui/button';
+import { Card } from '../components/ui/card';
 import { Progress } from '../components/ui/progress';
 
-// API Configuration
 const SERVER_API_URL = process.env.REACT_APP_SERVER_API_URL || 'http://localhost:8001/api';
+const DOCS_PER_PAGE = 10;
 
 interface Doc {
   domain: string;
@@ -28,23 +29,43 @@ const ViewPage: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [contentMap, setContentMap] = useState<Record<string, DocContent>>({});
+  const [page, setPage] = useState(1);
+  const [hasMore, setHasMore] = useState(true);
+  const [loadingMore, setLoadingMore] = useState(false);
+  const observerTarget = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     fetchDocs();
   }, []);
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      entries => {
+        if (entries[0].isIntersecting && hasMore && !loadingMore && !searchQuery) {
+          loadMoreDocs();
+        }
+      },
+      { threshold: 1.0 }
+    );
+
+    if (observerTarget.current) {
+      observer.observe(observerTarget.current);
+    }
+
+    return () => observer.disconnect();
+  }, [hasMore, loadingMore, searchQuery]);
+
   const fetchDocs = async () => {
     try {
       setLoading(true);
-      const response = await fetch(`${process.env.REACT_APP_SERVER_API_URL}/docs/list`);
-      const data: Doc[] = await response.json();
+      const response = await fetch(`${SERVER_API_URL}/docs/list?page=1&limit=${DOCS_PER_PAGE}`);
+      const data = await response.json();
 
       // Remove duplicates based on domain
-      const uniqueDocs = Array.from(new Map(data.map((doc: Doc) => [doc.domain, doc])).values());
-
-      // Sort by timestamp, most recent first
+      const uniqueDocs = Array.from(new Map(data.docs.map((doc: Doc) => [doc.domain, doc])).values());
       setDocs(uniqueDocs as Doc[]);
-      uniqueDocs.sort((a: Doc, b: Doc) => b.timestamp - a.timestamp);
+      setHasMore(data.docs.length === DOCS_PER_PAGE);
+      setPage(1);
     } catch (error) {
       console.error('Error fetching docs:', error);
     } finally {
@@ -52,24 +73,35 @@ const ViewPage: React.FC = () => {
     }
   };
 
+  const loadMoreDocs = async () => {
+    if (loadingMore || !hasMore) return;
+
+    setLoadingMore(true);
+    try {
+      const nextPage = page + 1;
+      const response = await fetch(`${SERVER_API_URL}/docs/list?page=${nextPage}&limit=${DOCS_PER_PAGE}`);
+      if (!response.ok) throw new Error('Failed to load more documentation');
+      
+      const data = await response.json();
+      const newDocs = data.docs;
+      
+      // Remove duplicates while preserving order
+      const uniqueDocs = Array.from(
+        new Map([...docs, ...newDocs].map(doc => [doc.domain, doc])).values()
+      );
+      
+      setDocs(uniqueDocs as Doc[]);
+      setHasMore(data.docs.length === DOCS_PER_PAGE);
+      setPage(nextPage);
+    } catch (err) {
+      console.error('Load more error:', err);
+    } finally {
+      setLoadingMore(false);
+    }
+  };
+
   const getPrimaryDomain = (domain: string): string => {
     return domain.replace(/^docs\./, '').replace(/\.ai$/, '');
-  };
-
-  const formatDate = (timestamp: number): string => {
-    return new Date(timestamp).toLocaleDateString();
-  };
-
-  const formatSize = (bytes?: number): string => {
-    if (!bytes) return 'Unknown size';
-    const units = ['B', 'KB', 'MB', 'GB'];
-    let size = bytes;
-    let unitIndex = 0;
-    while (size >= 1024 && unitIndex < units.length - 1) {
-      size /= 1024;
-      unitIndex++;
-    }
-    return `${size.toFixed(1)} ${units[unitIndex]}`;
   };
 
   const handleContentLoad = async (domain: string) => {
@@ -81,7 +113,7 @@ const ViewPage: React.FC = () => {
     }));
 
     try {
-      const response = await fetch(`${process.env.REACT_APP_SERVER_API_URL}/docs/content/${domain}`);
+      const response = await fetch(`${SERVER_API_URL}/docs/content/${domain}`);
       const data = await response.json();
 
       setContentMap(prev => ({
@@ -154,11 +186,11 @@ const ViewPage: React.FC = () => {
   return (
     <div className="container max-w-4xl mx-auto p-4">
       <div className="mb-6">
-        <input
+        <Input
           type="text"
           placeholder="Search documentation..."
           value={searchQuery}
-          onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSearchQuery(e.target.value)}
+          onChange={(e: ChangeEvent<HTMLInputElement>) => setSearchQuery(e.target.value)}
           className="w-full p-4 border-[3px] border-gray-900 rounded bg-background"
         />
       </div>
@@ -171,63 +203,75 @@ const ViewPage: React.FC = () => {
             </p>
           </Card>
         ) : (
-          filteredDocs.map((doc, index) => {
-            const primaryDomain = getPrimaryDomain(doc.domain);
-            const docContent = contentMap[primaryDomain];
+          <>
+            {filteredDocs.map((doc, index) => {
+              const primaryDomain = getPrimaryDomain(doc.domain);
+              const docContent = contentMap[primaryDomain];
 
-            return (
-              <Card key={`${doc.domain}-${index}`} className="p-6">
-                <div className="space-y-4">
-                  <div>
-                    <h2 className="text-xl font-bold">{doc.title || doc.type}</h2>
-                    <p className="text-sm text-gray-600">Domain: {primaryDomain}</p>
-                    <p className="text-sm text-gray-600">Saved: {formatDate(doc.timestamp)}</p>
-                    <p className="text-sm text-gray-600">Size: {formatSize(doc.size)}</p>
-                    <a
-                      href={doc.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm text-primary hover:underline"
-                    >
-                      View Source
-                    </a>
-                  </div>
-
-                  <div className="grid grid-cols-2 gap-2">
-                    <Link
-                      to={`/docs/${primaryDomain}`}
-                      className="text-center px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-                    >
-                      View Page
-                    </Link>
-                    <Button
-                      onClick={() => handleCopy(doc.domain)}
-                      className="bg-secondary text-gray-900"
-                      disabled={docContent?.isLoading}
-                    >
-                      {docContent?.isLoading ? 'Loading...' : 'Copy All'}
-                    </Button>
-                  </div>
-
-                  <div className="grid grid-cols-1">
-                    <Button
-                      onClick={() => handleDownload(doc)}
-                      className="bg-primary text-white"
-                      disabled={docContent?.isLoading}
-                    >
-                      {docContent?.isLoading ? 'Loading...' : 'Download'}
-                    </Button>
-                  </div>
-
-                  {docContent?.isLoading && (
-                    <div className="mt-2">
-                      <Progress value={50} className="animate-pulse" />
+              return (
+                <Card key={`${doc.domain}-${index}`} className="p-6">
+                  <div className="space-y-4">
+                    <div>
+                      <h2 className="text-xl font-bold">{doc.title || doc.type}</h2>
+                      <p className="text-sm text-gray-600">Domain: {primaryDomain}</p>
+                      <p className="text-sm text-gray-600">
+                        Saved: {new Date(doc.timestamp).toLocaleDateString()}
+                      </p>
+                      <a
+                        href={doc.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-[#F06B7A] hover:underline"
+                      >
+                        View Source
+                      </a>
                     </div>
-                  )}
-                </div>
-              </Card>
-            );
-          })
+
+                    <div className="grid grid-cols-2 gap-2">
+                      <Link
+                        to={`/docs/${primaryDomain}`}
+                        className="text-center px-4 py-2 bg-[#FFE5E8] text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
+                      >
+                        View Page
+                      </Link>
+                      <Button
+                        onClick={() => handleCopy(doc.domain)}
+                        className="bg-[#F06B7A] hover:bg-[#E85D6C]"
+                        disabled={docContent?.isLoading}
+                      >
+                        {docContent?.isLoading ? 'Loading...' : 'Copy All'}
+                      </Button>
+                    </div>
+
+                    <div className="grid grid-cols-1">
+                      <Button
+                        onClick={() => handleDownload(doc)}
+                        className="bg-[#F06B7A] hover:bg-[#E85D6C]"
+                        disabled={docContent?.isLoading}
+                      >
+                        {docContent?.isLoading ? 'Loading...' : 'Download'}
+                      </Button>
+                    </div>
+
+                    {docContent?.isLoading && (
+                      <div className="mt-2">
+                        <Progress value={50} className="animate-pulse" />
+                      </div>
+                    )}
+                  </div>
+                </Card>
+              );
+            })}
+            {!searchQuery && (
+              <div ref={observerTarget} className="h-4">
+                {loadingMore && (
+                  <div className="text-center py-4">
+                    <Progress value={undefined} className="w-24 mx-auto" />
+                  </div>
+                )}
+              </div>
+            )}
+          </>
         )}
       </div>
     </div>

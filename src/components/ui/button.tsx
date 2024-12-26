@@ -1,18 +1,14 @@
-import React from 'react';
+import React, { ButtonHTMLAttributes } from 'react';
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  className?: string;
-}
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {}
 
-const Button: React.FC<ButtonProps> = ({ className = '', children, ...props }) => {
+export const Button: React.FC<ButtonProps> = ({ className = '', children, ...props }) => {
   return (
     <button
-      className={`px-6 py-3 bg-primary text-white border-[3px] border-gray-900 rounded font-medium relative z-10 hover:-translate-y-0.5 transition-transform disabled:opacity-50 disabled:hover:translate-y-0 ${className}`}
+      className={`px-4 py-2 text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 ${className}`}
       {...props}
     >
       {children}
     </button>
   );
-};
-
-export { Button }; 
+}; 

@@ -18,10 +18,19 @@ const DocPage: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  const displayDomain = (domain?: string) => {
+    if (!domain) return '';
+    return domain.replace(/^docs\./, '').replace(/\.ai$/, '');
+  }
+
   useEffect(() => {
     const fetchDoc = async () => {
       try {
-        const response = await fetch(`${API_URL}/docs/domain/${domain}`);
+        if (!domain) {
+          throw new Error('Invalid domain');
+        }
+        const formattedDomain = `docs.${domain}.ai`;
+        const response = await fetch(`${API_URL}/docs/domain/${formattedDomain}`);
         if (!response.ok) {
           throw new Error('Documentation not found');
         }
@@ -35,9 +44,7 @@ const DocPage: React.FC = () => {
       }
     };
 
-    if (domain) {
-      fetchDoc();
-    }
+    fetchDoc();
   }, [domain]);
 
   const handleDownload = async () => {
@@ -61,10 +68,6 @@ const DocPage: React.FC = () => {
       setError('Failed to download file');
     }
   };
-
-  const displayDomain = (domain: string) => {
-    return domain.replace(/^docs\./, '').replace(/\.ai$/, '');
-  }
 
   if (isLoading) {
     return (
