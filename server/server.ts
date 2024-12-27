@@ -323,7 +323,10 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
       domain.replace(/^docs\./, ''),            // Without docs prefix
       domain.replace(/\.ai$/, ''),              // Without ai suffix
       domain.replace(/^docs\./, '').replace(/\.ai$/, ''), // Clean domain
-      `${domain}.ai`                            // With ai suffix
+      `${domain}.ai`,                            // With ai suffix
+      domain.replace(/^https?:\/\//, '').replace(/\/$/, ''),
+      // only link without https and / and www
+      domain.replace(/^https?:\/\//, '').replace(/\/$/, '').replace(/^www\./, ''),
     ].filter((d, i, arr) => arr.indexOf(d) === i); // Remove duplicates
 
     let foundDomain = null;
@@ -379,6 +382,78 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
       url: metadata.url,
       filePath: markdownPath,
       structure: metadata.structure || []
+    });
+  } catch (err) {
+    console.error('Error fetching documentation by domain:', err);
+    res.status(500).json({ error: 'Failed to fetch documentation' });
+  }
+});
+
+// check if domain already exixts and no need to scrap
+app.get('/api/docs/check-domain/:domain', async (req, res) => {
+  try {
+    const { domain } = req.params;
+    
+    // Try different domain formats
+    const possibleDomains = [
+      domain,                                    // As provided
+      `docs.${domain}.ai`,                      // Full storage format
+      `docs.${domain}`,                         // Partial storage format
+      domain.replace(/^docs\./, ''),            // Without docs prefix
+      domain.replace(/\.ai$/, ''),              // Without ai suffix
+      domain.replace(/^docs\./, '').replace(/\.ai$/, ''), // Clean domain
+      `${domain}.ai`  ,                          // With ai suffix
+      // only link without https and /
+      domain.replace(/^https?:\/\//, '').replace(/\/$/, ''),
+      // only link without https and / and www
+      domain.replace(/^https?:\/\//, '').replace(/\/$/, '').replace(/^www\./, ''),
+      
+    ].filter((d, i, arr) => arr.indexOf(d) === i); // Remove duplicates
+
+    let foundDomain = null;
+    let docsPath = null;
+
+    // Try each possible domain format
+    for (const d of possibleDomains) {
+      const testPath = path.join(STORAGE_PATH, d);
+      console.log('Trying path:', testPath);
+      if (fs.existsSync(testPath)) {
+        foundDomain = d;
+        docsPath = testPath;
+        console.log('Found matching domain:', d);
+        break;
+      }
+    }
+
+    if (!docsPath) {
+      console.log('No matching domain found for:', domain);
+      console.log('Tried formats:', possibleDomains);
+      return res.status(404).json({ error: 'Documentation not found' });
+    }
+
+    // Read the metadata file
+    const metadataPath = path.join(docsPath, 'metadata.json');
+    if (!fs.existsSync(metadataPath)) {
+      console.log('Metadata file not found at:', metadataPath);
+      return res.status(404).json({ error: 'Documentation metadata not found' });
+    }
+
+    const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
+    
+    // Find the latest documentation file
+    const files = await fs.readdir(docsPath);
+    const docFiles = files.filter(f => f.startsWith('documentation_'));
+    console.log('Found documentation files:', docFiles);
+    
+    const docFile = docFiles.sort().pop();
+
+    if (!docFile) {
+      console.log('No documentation file found in:', docsPath);
+      return res.status(404).json({ error: 'Documentation content not found' });
+    }
+
+    res.json({
+      "found": true
     });
   } catch (err) {
     console.error('Error fetching documentation by domain:', err);

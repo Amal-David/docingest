@@ -73,9 +73,12 @@ interface ScrapingMetrics {
 const HomePage: React.FC = () => {
   const [url, setUrl] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [pageLoading, setPageLoading] = useState(false);
+
   const [newDataLoading, setnewDataLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [fetchedDomains, setFetchedDomains] = useState<Set<string>>(new Set());
+  const [noMoreData, setNoMoreData] = useState<boolean>(false);
   const footerRef = useRef(null);
   const pageref = useRef(1);
   const totalDocsRef = useRef(null);
@@ -120,31 +123,11 @@ const HomePage: React.FC = () => {
     return lastScrapedDate > tenDaysAgo ? savedUrl : null;
   };
   useEffect(() => {
-   
-    const footerElement = footerRef.current;
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          loadSavedData(5);
-        }
-        
-      },
-      {
-        root: null,
-        threshold: 0.1, 
-      }
-    );
+    loadSavedData(5)
+  }, [])
   
-    if (footerElement) {
-      observer.observe(footerElement);
-    }
+
   
-    return () => {
-      if (footerElement) {
-        observer.unobserve(footerElement);
-      }
-    };
-  }, []);
 
   const getDomainFromUrl = (url: string): string => {
     try {
@@ -158,20 +141,27 @@ const HomePage: React.FC = () => {
   
   const handleCrawlAndDownload = async () => {
     // check if the url domain already exists in saved docs
-    
-    const domain = getDomainFromUrl(url);
-    console.log(domain);
-    console.log(savedDocs);
-    const existingDoc = savedDocs.find(doc => doc.domain === domain);
+    console.log(url);
+    const existingDoc = savedDocs.find(doc => doc.domain === url);
     
     if (existingDoc) {
-      alert(
-        "Documentation for this domain has already been scraped. Please check the saved documents."
-      );
+      
+      window.location.href = `/docs/${url}`;
       return;
     } else {
-      sessionStorage.clear();
+    // [] call /checkdomain api
+    const response = await fetch(`${API_URL}/docs/check-domain/${url}`);
+    
+   if(response.status == 200 || response.status == 201){ const data = await response.json();
+    console.log(response);
+
+    if (data.found == true) {
+      window.location.href = `/docs/${url}`;
+      return;
     }
+  }
+  }
+  console.log("comes");
     setIsLoading(true);
     setError(null);
     setDebugInfo(null);
@@ -425,6 +415,9 @@ const HomePage: React.FC = () => {
       
       if (!response.ok) throw new Error('Failed to load saved documentation');
       const data = await response.json();
+      if(data.docs.length === 0) {
+        setNoMoreData(true);
+      }
       // Filter out duplicate documents
       console.log(data, "data")
       totalDocsRef.current = data.totalDocs;
@@ -435,7 +428,6 @@ const HomePage: React.FC = () => {
         );
         // update or store in browser session storage
         const finaldoc = [...prevDocs, ...newDocs];
-        sessionStorage.setItem('savedDocs', JSON.stringify(finaldoc));
         return finaldoc;
       });
 
@@ -662,9 +654,25 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       )}
-     
-      <div ref={footerRef}></div>
-    </div>
+    {/* if newdataloadsing show beautiful loader spinner */}
+    {newDataLoading && (
+      <div className="flex justify-center items-center h-screen">
+        <div className="animate-spin rounded-full h-32 w-32 border-t-4 border-b-4 border-primary"></div>
+        </div>
+        )}
+         {!newDataLoading && !noMoreData && (
+        <div className="text-center mt-8">
+          <button
+            onClick={() => {
+              loadSavedData(5);
+            }}
+            className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
+          >
+            {newDataLoading ? 'Loading...' : 'Load More'}
+          </button>
+        </div>
+      )}
+      </div>
   );
 };
 
