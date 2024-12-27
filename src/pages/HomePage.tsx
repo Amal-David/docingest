@@ -120,10 +120,7 @@ const HomePage: React.FC = () => {
     return lastScrapedDate > tenDaysAgo ? savedUrl : null;
   };
   useEffect(() => {
-    if(sessionStorage.getItem('savedDocs') != null && sessionStorage.getItem('savedDocs') != "[]") {
-      const savedDocs = JSON.parse(sessionStorage.getItem('savedDocs') || '[]');
-      setSavedDocs(savedDocs);
-    }
+   
     const footerElement = footerRef.current;
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -665,12 +662,7 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       )}
-      {/* beautiful tailwiund spinner */}
-      {newDataLoading && (
-        <div className="flex justify-center items-center h-screen">
-          <div className="animate-spin rounded-full h-32 w-32 border-t-4 border-b-4 border-primary"></div>
-        </div>
-      )}
+     
       <div ref={footerRef}></div>
     </div>
   );

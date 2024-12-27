@@ -41,35 +41,60 @@ const ViewPage: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [isFetchingMore, setIsFetchingMore] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
+  const [page, setPage] = useState(1); // Track the current page
+  const [hasMore, setHasMore] = useState(true); // Track if more pages are available
 
   useEffect(() => {
-    const fetchDocs = async () => {
+    const fetchDocs = async (pageNumber: number) => {
       try {
-        const response = await fetch(`${API_URL}/docs/list`);
+        const response = await fetch(`${API_URL}/docs/list?page=${pageNumber}`);
         if (!response.ok) {
           throw new Error('Failed to fetch documentation');
         }
         const data = await response.json();
         console.log('Fetched data:', data);
-        setDocs(data.docs);
-        setUrls(data.urls);
+
+        // Append new docs to the existing list
+        setDocs((prevDocs) => {
+          const existingDocs = new Set(prevDocs.map((doc) => JSON.stringify(doc))); // Serialize existing docs
+          const newDocs = data.docs.filter((doc:any) => !existingDocs.has(JSON.stringify(doc))); // Filter out duplicates
+          return [...prevDocs, ...newDocs];
+        });
+        // Check if more pages are available
+        if (data.docs.length === 0) {
+          setHasMore(false);
+        }
+
+        // Update URLs
+        if (pageNumber === 1) {
+          setUrls(data.urls);
+        }
       } catch (err) {
         console.error('Fetch error:', err);
         setError('Failed to load documentation');
       } finally {
         setIsLoading(false);
+        setIsFetchingMore(false);
       }
     };
 
-    fetchDocs();
-  }, []);
+    fetchDocs(page);
+  }, [page]);
 
-  const filteredDocs = docs.filter(doc => {
+  const filteredDocs = docs.filter((doc) => {
     const cleanDomain = doc.domain.replace(/^docs\./, '').replace(/\.ai$/, '').toLowerCase();
     const cleanSearch = searchTerm.toLowerCase();
     return cleanDomain.includes(cleanSearch);
   });
+
+  const handleLoadMore = () => {
+    if (hasMore) {
+      setIsFetchingMore(true);
+      setPage((prevPage) => prevPage + 1);
+    }
+  };
 
   const handleCopy = async (doc: DocPreview) => {
     try {
@@ -113,7 +138,7 @@ const ViewPage: React.FC = () => {
     }
   };
 
-  if (isLoading) {
+  if (isLoading && page === 1) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center">
         <div className="relative">
@@ -136,7 +161,7 @@ const ViewPage: React.FC = () => {
           Saved <span className="text-primary">Documentation</span>
         </h1>
         <p className="text-3xl mt-7 sm:text-2xl font-semibold tracking-tight">
-        View all  <span className="text-primary"> saved documentation </span> that are  indexed by us or other users
+          View all <span className="text-primary">saved documentation</span> that are indexed by us or other users
         </p>
       </div>
 
@@ -175,7 +200,7 @@ const ViewPage: React.FC = () => {
                       Saved: {new Date(doc.lastUpdated).toLocaleDateString()}
                     </p>
                     {doc.url && (
-                      <a 
+                      <a
                         href={doc.url.startsWith('http') ? doc.url : `https://${doc.url}`}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -217,56 +242,19 @@ const ViewPage: React.FC = () => {
         )}
       </div>
 
-      {/* Preview Section */}
-      {showPreview && selectedDoc && (
-        <div className="space-y-4">
-          <div className="flex justify-between items-center">
-            <h2 className="text-2xl font-bold">{getPrimaryDomain(selectedDoc.domain)}</h2>
-            <div className="space-x-2">
-              <button
-                onClick={() => handleCopy(selectedDoc)}
-                className="px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-              >
-                Copy All
-              </button>
-              <button
-                onClick={() => handleDownload(selectedDoc)}
-                className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-              >
-                Download All
-              </button>
-              <button
-                onClick={() => setShowPreview(false)}
-                className="px-4 py-2 bg-gray-100 text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-              >
-                Back to List
-              </button>
-            </div>
-          </div>
-          <div className="grid grid-cols-4 gap-6">
-            <div className="col-span-1 bg-white rounded-lg shadow p-4 border-[3px] border-gray-900 h-fit">
-              <h3 className="font-bold mb-2">Table of Contents</h3>
-              <ul className="space-y-1">
-                {selectedDoc.structure.map((item, i) => (
-                  <li key={i} className="text-sm">
-                    <a 
-                      href={`#${item.type.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
-                      className="text-primary hover:underline"
-                    >
-                      {item.type}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="col-span-3 bg-white rounded-lg shadow p-6 prose max-w-none border-[3px] border-gray-900">
-              <ReactMarkdown>{selectedDoc.content}</ReactMarkdown>
-            </div>
-          </div>
+      {/* Load More Button */}
+      {hasMore && !isLoading && (
+        <div className="text-center mt-8">
+          <button
+            onClick={handleLoadMore}
+            className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
+          >
+            {isFetchingMore ? 'Loading...' : 'Load More'}
+          </button>
         </div>
       )}
     </div>
   );
 };
 
-export default ViewPage; 
+export default ViewPage;
