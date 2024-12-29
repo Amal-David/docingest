@@ -2,6 +2,7 @@ import { totalmem } from 'os';
 import React, { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Link } from 'react-router-dom';
+import ReactGA from "react-ga4";
 
 // API configuration
 const FIRECRAWL_API = 'v1';
@@ -101,7 +102,14 @@ const HomePage: React.FC = () => {
     console.log(message);
     setDebugInfo(prev => `${prev ? prev + '\n' : ''}${message}`);
   };
-
+  const logCustomEvent = (category: string, action: string, label?: string, value?: number) => {
+    ReactGA.event({
+      category,
+      action,
+      label,
+      value,
+    });
+  };
   // Extract domain from URL
   const getDomain = (urlString: string) => {
     try {
@@ -142,6 +150,8 @@ const HomePage: React.FC = () => {
   const handleCrawlAndDownload = async () => {
     // check if the url domain already exists in saved docs
     console.log(url);
+    logCustomEvent("User Interaction", "Button Click", `Crawl and Download - ${url}`);
+
     const existingDoc = savedDocs.find(doc => doc.domain === url);
     
     if (existingDoc) {
