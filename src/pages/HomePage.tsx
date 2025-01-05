@@ -223,7 +223,7 @@ const HomePage: React.FC = () => {
           url: url,
           limit: 1000,
           maxDepth: 5,
-          allowBackwardLinks: false,
+          allowBackwardLinks: true,
           scrapeOptions: {
             formats: ['markdown'],
             onlyMainContent: true,
