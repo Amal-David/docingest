@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import ReactMarkdown from 'react-markdown';
 import { Link } from 'react-router-dom';
 
@@ -59,7 +60,7 @@ const ViewPage: React.FC = () => {
         // Append new docs to the existing list
         setDocs((prevDocs) => {
           const existingDocs = new Set(prevDocs.map((doc) => JSON.stringify(doc))); // Serialize existing docs
-          const newDocs = data.docs.filter((doc:any) => !existingDocs.has(JSON.stringify(doc))); // Filter out duplicates
+          const newDocs = data.docs.filter((doc: any) => !existingDocs.has(JSON.stringify(doc))); // Filter out duplicates
           return [...prevDocs, ...newDocs];
         });
         // Check if more pages are available
@@ -155,104 +156,115 @@ const ViewPage: React.FC = () => {
   }
 
   return (
-    <div className="space-y-8">
-      <div className="text-center space-y-4">
-        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
-          Saved <span className="text-primary">Documentation</span>
-        </h1>
-        <p className="text-3xl mt-7 sm:text-2xl font-semibold tracking-tight">
-          View all <span className="text-primary">saved documentation</span> that are indexed by us or other users
-        </p>
-      </div>
-
-      <div className="relative">
-        <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
-        <input
-          type="text"
-          placeholder="Search documentation..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          className="w-full p-4 border-[3px] border-gray-900 rounded relative z-10"
-        />
-      </div>
-
-      {error && (
-        <div className="p-4 bg-red-50 border border-red-200 rounded-lg text-red-700">
-          <p className="font-medium">{error}</p>
+    <>
+      <Helmet>
+        <title>View Doc Docs | DocIngest</title>
+        <meta name="description" content="View All Docs  - Download and save documentation from any URL" />
+        <meta name="keywords" content="View All Docs  - documentation, download, save, URL" />
+        <meta property="og:title" content="View All Docs | DocIngest" />
+        <meta property="og:description" content="View All Docs  - documentation, download, save, URL" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://docingest.com/view" />
+      </Helmet>
+      <div className="space-y-8">
+        <div className="text-center space-y-4">
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
+            Saved <span className="text-primary">Documentation</span>
+          </h1>
+          <p className="text-3xl mt-7 sm:text-2xl font-semibold tracking-tight">
+            View all <span className="text-primary">saved documentation</span> that are indexed by us or other users
+          </p>
         </div>
-      )}
 
-      <div className={showPreview ? 'hidden' : ''}>
-        {filteredDocs.length === 0 ? (
-          <div className="text-center text-gray-600">No documentation found</div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {filteredDocs.map((doc, index) => (
-              <div key={index} className="relative">
-                <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
-                <div className="rounded-xl relative z-20 p-6 border-[3px] border-gray-900 bg-card">
-                  <div className="space-y-2">
-                    <h3 className="text-xl font-bold">{getPrimaryDomain(doc.domain)}</h3>
-                    <p className="text-sm text-gray-600">
-                      Sections: {doc.structure.length}
-                    </p>
-                    <p className="text-sm text-gray-600">
-                      Saved: {new Date(doc.lastUpdated).toLocaleDateString()}
-                    </p>
-                    {doc.url && (
-                      <a
-                        href={doc.url.startsWith('http') ? doc.url : `https://${doc.url}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm text-primary hover:underline block"
-                      >
-                        View Source
-                      </a>
-                    )}
-                  </div>
-                  <div className="mt-4 space-y-2">
-                    <button
-                      onClick={() => {
-                        window.location.href = `/docs/${doc.domain}`;
-                      }}
-                      className="w-full px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-                    >
-                      Preview
-                    </button>
-                    <div className="grid grid-cols-2 gap-2">
+        <div className="relative">
+          <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
+          <input
+            type="text"
+            placeholder="Search documentation..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="w-full p-4 border-[3px] border-gray-900 rounded relative z-10"
+          />
+        </div>
+
+        {error && (
+          <div className="p-4 bg-red-50 border border-red-200 rounded-lg text-red-700">
+            <p className="font-medium">{error}</p>
+          </div>
+        )}
+
+        <div className={showPreview ? 'hidden' : ''}>
+          {filteredDocs.length === 0 ? (
+            <div className="text-center text-gray-600">No documentation found</div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {filteredDocs.map((doc, index) => (
+                <div key={index} className="relative">
+                  <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
+                  <div className="rounded-xl relative z-20 p-6 border-[3px] border-gray-900 bg-card">
+                    <div className="space-y-2">
+                      <h3 className="text-xl font-bold">{getPrimaryDomain(doc.domain)}</h3>
+                      <p className="text-sm text-gray-600">
+                        Sections: {doc.structure.length}
+                      </p>
+                      <p className="text-sm text-gray-600">
+                        Saved: {new Date(doc.lastUpdated).toLocaleDateString()}
+                      </p>
+                      {doc.url && (
+                        <a
+                          href={doc.url.startsWith('http') ? doc.url : `https://${doc.url}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm text-primary hover:underline block"
+                        >
+                          View Source
+                        </a>
+                      )}
+                    </div>
+                    <div className="mt-4 space-y-2">
                       <button
-                        onClick={() => handleCopy(doc)}
-                        className="px-4 py-2 bg-gray-100 text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
+                        onClick={() => {
+                          window.location.href = `/docs/${doc.domain}`;
+                        }}
+                        className="w-full px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
                       >
-                        Copy All
+                        Preview
                       </button>
-                      <button
-                        onClick={() => handleDownload(doc)}
-                        className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-                      >
-                        Download
-                      </button>
+                      <div className="grid grid-cols-2 gap-2">
+                        <button
+                          onClick={() => handleCopy(doc)}
+                          className="px-4 py-2 bg-gray-100 text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
+                        >
+                          Copy All
+                        </button>
+                        <button
+                          onClick={() => handleDownload(doc)}
+                          className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
+                        >
+                          Download
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* Load More Button */}
+        {hasMore && !isLoading && (
+          <div className="text-center mt-8">
+            <button
+              onClick={handleLoadMore}
+              className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
+            >
+              {isFetchingMore ? 'Loading...' : 'Load More'}
+            </button>
           </div>
         )}
       </div>
-
-      {/* Load More Button */}
-      {hasMore && !isLoading && (
-        <div className="text-center mt-8">
-          <button
-            onClick={handleLoadMore}
-            className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-          >
-            {isFetchingMore ? 'Loading...' : 'Load More'}
-          </button>
-        </div>
-      )}
-    </div>
+    </>
   );
 };
 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
+import { Helmet } from 'react-helmet-async';
 
 const API_URL = '/api';
 
@@ -119,6 +120,16 @@ const DocPage: React.FC = () => {
   }
 
   return (
+     <>
+          <Helmet>
+            <title>Document {displayDomain(doc.domain)} | DocIngest</title>
+            <meta name="description" content={`View - ${displayDomain(doc.domain)} | DocIngest`} />
+            <meta name="keywords" content={`View - ${displayDomain(doc.domain)} | DocIngest`} />
+            <meta property="og:title" content={`Document ${displayDomain(doc.domain)} | DocIngest`} />
+            <meta property="og:description" content={`View - ${displayDomain(doc.domain)} | DocIngest`} />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://docingest.com/view" />
+          </Helmet>
     <div className="min-h-screen p-8">
       <div className="max-w-4xl mx-auto space-y-8">
         <div className="flex justify-between items-center">
@@ -149,6 +160,7 @@ const DocPage: React.FC = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

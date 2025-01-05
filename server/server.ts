@@ -2,7 +2,8 @@ import express from 'express';
 import cors from 'cors';
 import fs from 'fs-extra';
 import path from 'path';
-
+import { SitemapStream, streamToPromise } from 'sitemap';
+import { Readable } from 'stream';
 const app = express();
 const PORT = process.env.PORT || 8001;
 
@@ -61,7 +62,40 @@ const mergeExistingFiles = async (domainPath: string) => {
     return [];
   }
 };
+ async function generateSitemap(baseUrl: string, docDomains: any[]) {
+  try {
+    // Base URLs that are always present
+    const staticUrls: SitemapUrl[] = [
+      { url: '/', changefreq: 'daily', priority: 1.0 },
+      { url: '/view', changefreq: 'daily', priority: 0.8 },
+    ];
 
+    // Add doc URLs
+    const docUrls: SitemapUrl[] = docDomains.map(domain => ({
+      url: `/docs/${domain.domain}`,
+      changefreq: 'weekly',
+      priority: 0.7,
+      lastmod: new Date().toISOString()
+    }));
+
+    // Combine all URLs
+    const allUrls = [...staticUrls, ...docUrls];
+
+    // Create a stream to write to
+    const stream = new SitemapStream({ hostname: baseUrl });
+    
+    // Write URLs to sitemap
+    const data = await streamToPromise(Readable.from(allUrls).pipe(stream));
+    
+    // Write the XML to file
+    fs.writeFileSync('../public/sitemap.xml', data);
+    
+    return true;
+  } catch (error) {
+    console.error('Error generating sitemap:', error);
+    return false;
+  }
+} 
 // Save documentation
 app.post('/api/docs/save', async (req, res) => {
   try {
@@ -128,6 +162,145 @@ app.post('/api/docs/save', async (req, res) => {
   } catch (error) {
     console.error('Save error:', error);
     res.status(500).json({ success: false, error: 'Failed to save documentation' });
+  }
+});
+app.get('/api/docs/list/all', async (req, res) => {
+  try {
+    console.log('Reading storage directory:', STORAGE_PATH);
+    
+    // Get pagination parameters from query string
+    const page = parseInt(req.query.page as string) || 1; // Default to page 1
+    const limit = 5000 // Default to 10 docs per page
+
+    if (page < 1 || limit < 1) {
+      return res.status(400).json({ success: false, error: 'Invalid page or limit values' });
+    }
+
+    if (!await fs.pathExists(STORAGE_PATH)) {
+      console.log('Storage directory does not exist, creating it');
+      await fs.ensureDir(STORAGE_PATH);
+      return res.json({ docs: [], urls: [], totalDocs: 0 });
+    }
+
+    const domains = await fs.readdir(STORAGE_PATH);
+    console.log('Found domains:', domains);
+    
+    const allDocs: any[] = [];
+    const allUrls: any[] = [];
+
+    for (const fullDomain of domains) {
+      const domainPath = path.join(STORAGE_PATH, fullDomain);
+      const metadataPath = path.join(domainPath, 'metadata.json');
+      
+      try {
+        // Check for existing individual files that need to be merged
+        const existingPages = await mergeExistingFiles(domainPath);
+        if (existingPages.length > 0) {
+          console.log('Found existing files to merge:', existingPages.length);
+          const timestamp = new Date().toISOString();
+          
+          // Generate and save merged content
+          const toc = generateTableOfContents(existingPages);
+          const mergedContent = mergeMarkdownContent(existingPages);
+          const fullContent = toc + mergedContent;
+          
+          const fileName = `documentation_${timestamp}.md`;
+          const filePath = path.join(domainPath, fileName);
+          await fs.writeFile(filePath, fullContent);
+          
+          // Update metadata
+          const metadata = {
+            url: fullDomain,
+            domain: fullDomain,
+            lastScraped: timestamp,
+            totalPages: existingPages.length,
+            successfulPages: existingPages.length,
+            failedPages: [],
+            structure: existingPages.map(p => ({
+              type: p.type,
+              url: null
+            }))
+          };
+          await fs.writeJSON(metadataPath, metadata);
+          
+          // Clean up old files
+          const files = await fs.readdir(domainPath);
+          for (const file of files) {
+            if (file.endsWith('.md') && !file.startsWith('documentation_')) {
+              await fs.remove(path.join(domainPath, file));
+            }
+          }
+          
+          allDocs.push({
+            content: fullContent,
+            domain: fullDomain,
+            lastUpdated: timestamp,
+            url: fullDomain,
+            filePath,
+            structure: metadata.structure
+          });
+          
+          allUrls.push(metadata);
+          continue;
+        }
+        
+        // Handle already merged documentation
+        if (await fs.pathExists(metadataPath)) {
+          console.log('Reading metadata:', metadataPath);
+          const metadata = await fs.readJSON(metadataPath);
+          allUrls.push(metadata);
+
+          const files = await fs.readdir(domainPath);
+          console.log('Found files in domain:', files);
+
+          const docFile = files
+            .filter(f => f.startsWith('documentation_') && f.endsWith('.md'))
+            .sort()
+            .pop();
+
+          if (docFile) {
+            const filePath = path.join(domainPath, docFile);
+            console.log('Reading documentation file:', filePath);
+            const content = await fs.readFile(filePath, 'utf-8');
+            
+            allDocs.push({
+              content,
+              domain: fullDomain,
+              lastUpdated: metadata.lastScraped,
+              url: metadata.url,
+              filePath,
+              structure: metadata.structure || []
+            });
+          }
+        }
+      } catch (err) {
+        console.error(`Error processing domain ${fullDomain}:`, err);
+        continue;
+      }
+    }
+
+    // Apply pagination to the results
+    const totalDocs = allDocs.length;
+    const totalUrls = allUrls.length;
+
+    const paginatedDocs = allDocs.slice((page - 1) * limit, page * limit);
+    const paginatedUrls = allUrls.slice((page - 1) * limit, page * limit);
+
+    console.log(`Returning ${paginatedDocs.length} documents for page ${page}`);
+
+   await generateSitemap("https:docingest.com", allUrls);
+    res.json({ 
+      docs: paginatedDocs,
+      urls: paginatedUrls,
+      totalDocs, 
+      totalUrls,
+      page, 
+      limit,
+      totalPages: Math.ceil(totalDocs / limit) 
+    });
+  } catch (error) {
+    console.error('List error:', error);
+    res.status(500).json({ success: false, error: 'Failed to list documentation' });
   }
 });
 
@@ -496,4 +669,15 @@ app.get('/api/docs/check-domain/:domain', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
   console.log('Storage directory:', STORAGE_PATH);
+  
 }); 
+
+
+
+interface SitemapUrl {
+  url: string;
+  changefreq: string;
+  priority: number;
+  lastmod?: string;
+}
+

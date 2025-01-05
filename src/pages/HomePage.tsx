@@ -3,8 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Link, useNavigate } from 'react-router-dom';
 import ReactGA from "react-ga4";
-import { createFalse } from 'typescript';
-import { generateSitemap } from '../utils/sitemap';
+import { Helmet } from 'react-helmet-async';
 
 // API configuration
 const FIRECRAWL_API = 'v1';
@@ -459,8 +458,8 @@ const HomePage: React.FC = () => {
         
         // Generate sitemap with all domains
         const allDomains = finaldoc.map(doc => doc.domain);
-        generateSitemap(window.location.origin, allDomains);
-        
+        // generateSitemap(window.location.origin, allDomains);
+
         return finaldoc;
       });
 
@@ -483,6 +482,17 @@ const HomePage: React.FC = () => {
   
 
   return (
+    <>
+    <Helmet>
+        <title>Home | DocIngest</title>
+
+        <meta name="description" content="Download and save documentation from any URL" />
+        <meta name="keywords" content="documentation, download, save, URL" />
+        <meta property="og:title" content="Home | DocIngest" />
+        <meta property="og:description" content="Download and save documentation from any URL" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://docingest.com" />
+      </Helmet>
     <div className="space-y-8">
       <div className="text-center space-y-4">
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
@@ -650,6 +660,7 @@ const HomePage: React.FC = () => {
         </div>
       )}
       </div>
+     </>
   );
 };
 
