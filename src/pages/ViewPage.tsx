@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Helmet } from 'react-helmet-async';
 import ReactMarkdown from 'react-markdown';
 import { Link } from 'react-router-dom';
@@ -29,7 +29,6 @@ interface SavedUrl {
 
 const API_URL = '/api';
 
-// Helper function to get primary domain name
 const getPrimaryDomain = (domain: string) => {
   const cleanDomain = domain.replace(/^docs\./, '').replace(/\.ai$/, '');
   return cleanDomain.charAt(0).toUpperCase() + cleanDomain.slice(1);
@@ -44,34 +43,35 @@ const ViewPage: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [isFetchingMore, setIsFetchingMore] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
-  const [page, setPage] = useState(1); // Track the current page
-  const [hasMore, setHasMore] = useState(true); // Track if more pages are available
+  const [page, setPage] = useState(1);
+  const [hasMore, setHasMore] = useState(true);
+
+  const debouncedSearch = useCallback((value: string) => {
+    setSearchTerm(value);
+    setPage(1);
+  }, []);
 
   useEffect(() => {
-    const fetchDocs = async (pageNumber: number) => {
+    const fetchDocs = async () => {
       try {
-        const response = await fetch(`${API_URL}/docs/list?page=${pageNumber}`);
-        if (!response.ok) {
-          throw new Error('Failed to fetch documentation');
-        }
+        setIsLoading(true);
+        const endpoint = searchTerm 
+          ? `${API_URL}/docs/fullsearch?q=${encodeURIComponent(searchTerm)}&page=${page}`
+          : `${API_URL}/docs/list?page=${page}`;
+
+        const response = await fetch(endpoint);
+        if (!response.ok) throw new Error('Failed to fetch documentation');
+        
         const data = await response.json();
-        console.log('Fetched data:', data);
 
-        // Append new docs to the existing list
-        setDocs((prevDocs) => {
-          const existingDocs = new Set(prevDocs.map((doc) => JSON.stringify(doc))); // Serialize existing docs
-          const newDocs = data.docs.filter((doc: any) => !existingDocs.has(JSON.stringify(doc))); // Filter out duplicates
-          return [...prevDocs, ...newDocs];
-        });
-        // Check if more pages are available
-        if (data.docs.length === 0) {
-          setHasMore(false);
+        if (searchTerm || page === 1) {
+          setDocs(data.docs);
+        } else {
+          setDocs(prev => [...prev, ...data.docs]);
         }
 
-        // Update URLs
-        if (pageNumber === 1) {
-          setUrls(data.urls);
-        }
+        setUrls(data.urls || []);
+        setHasMore(data.docs.length > 0);
       } catch (err) {
         console.error('Fetch error:', err);
         setError('Failed to load documentation');
@@ -81,31 +81,24 @@ const ViewPage: React.FC = () => {
       }
     };
 
-    fetchDocs(page);
-  }, [page]);
-
-  const filteredDocs = docs.filter((doc) => {
-    const cleanDomain = doc.domain.replace(/^docs\./, '').replace(/\.ai$/, '').toLowerCase();
-    const cleanSearch = searchTerm.toLowerCase();
-    return cleanDomain.includes(cleanSearch);
-  });
+    const timeoutId = setTimeout(fetchDocs, 300);
+    return () => clearTimeout(timeoutId);
+  }, [searchTerm, page]);
 
   const handleLoadMore = () => {
-    if (hasMore) {
+    if (hasMore && !isLoading) {
       setIsFetchingMore(true);
-      setPage((prevPage) => prevPage + 1);
+      setPage(prev => prev + 1);
     }
   };
 
   const handleCopy = async (doc: DocPreview) => {
     try {
-      if (!doc.filePath) {
-        throw new Error('File path not available');
-      }
+      if (!doc.filePath) throw new Error('File path not available');
+      
       const response = await fetch(`${API_URL}/docs/content?path=${encodeURIComponent(doc.filePath)}`);
-      if (!response.ok) {
-        throw new Error('Failed to fetch content');
-      }
+      if (!response.ok) throw new Error('Failed to fetch content');
+      
       const content = await response.text();
       await navigator.clipboard.writeText(content);
       alert('Content copied to clipboard!');
@@ -117,13 +110,11 @@ const ViewPage: React.FC = () => {
 
   const handleDownload = async (doc: DocPreview) => {
     try {
-      if (!doc.filePath) {
-        throw new Error('File path not available');
-      }
+      if (!doc.filePath) throw new Error('File path not available');
+      
       const response = await fetch(`${API_URL}/docs/download?path=${encodeURIComponent(doc.filePath)}`);
-      if (!response.ok) {
-        throw new Error('Failed to download file');
-      }
+      if (!response.ok) throw new Error('Failed to download file');
+      
       const blob = await response.blob();
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
@@ -157,7 +148,7 @@ const ViewPage: React.FC = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet prioritizeSeoTags={true}>
         <title>View Doc Docs | DocIngest</title>
         <meta name="description" content="View All Docs  - Download and save documentation from any URL" />
         <meta name="keywords" content="View All Docs  - documentation, download, save, URL" />
@@ -181,8 +172,7 @@ const ViewPage: React.FC = () => {
           <input
             type="text"
             placeholder="Search documentation..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
+            onChange={(e) => debouncedSearch(e.target.value)}
             className="w-full p-4 border-[3px] border-gray-900 rounded relative z-10"
           />
         </div>
@@ -194,11 +184,11 @@ const ViewPage: React.FC = () => {
         )}
 
         <div className={showPreview ? 'hidden' : ''}>
-          {filteredDocs.length === 0 ? (
+          {docs.length === 0 ? (
             <div className="text-center text-gray-600">No documentation found</div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {filteredDocs.map((doc, index) => (
+              {docs.map((doc, index) => (
                 <div key={index} className="relative">
                   <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
                   <div className="rounded-xl relative z-20 p-6 border-[3px] border-gray-900 bg-card">
@@ -252,7 +242,6 @@ const ViewPage: React.FC = () => {
           )}
         </div>
 
-        {/* Load More Button */}
         {hasMore && !isLoading && (
           <div className="text-center mt-8">
             <button

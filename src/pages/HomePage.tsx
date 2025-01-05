@@ -483,7 +483,7 @@ const HomePage: React.FC = () => {
 
   return (
     <>
-    <Helmet>
+    <Helmet prioritizeSeoTags={true}>
         <title>Home | DocIngest</title>
         <meta name="description" content="Download and save documentation from any URL" />
         <meta name="keywords" content="documentation, download, save, URL" />

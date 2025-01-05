@@ -121,7 +121,7 @@ const DocPage: React.FC = () => {
 
   return (
      <>
-          <Helmet>
+          <Helmet prioritizeSeoTags={true}>
             <title>Document {displayDomain(doc.domain)} | DocIngest</title>
             <meta name="description" content={`View - ${displayDomain(doc.domain)} | DocIngest`} />
             <meta name="keywords" content={`View - ${displayDomain(doc.domain)} | DocIngest`} />

@@ -442,6 +442,100 @@ app.get('/api/docs/list', async (req, res) => {
   }
 });
 
+app.get('/api/docs/fullsearch', async (req, res) => {
+  try {
+    // @ts-ignore
+    const query = req.query.q?.toLowerCase();
+    const page = parseInt(req.query.page as string) || 1;
+    const limit = parseInt(req.query.limit as string) || 10;
+
+    if (!query) {
+      return res.status(400).json({ success: false, error: 'Missing search query parameter `q`' });
+    }
+
+    console.log('Full search query:', query);
+
+    if (!await fs.pathExists(STORAGE_PATH)) {
+      console.log('Storage directory does not exist.');
+      return res.json({ 
+        docs: [],
+        urls: [],
+        totalDocs: 0,
+        totalUrls: 0,
+        page,
+        limit,
+        totalPages: 0
+      });
+    }
+
+    const domains = await fs.readdir(STORAGE_PATH);
+    const allDocs = [];
+    const allUrls = [];
+
+    for (const fullDomain of domains) {
+      try {
+        const domainPath = path.join(STORAGE_PATH, fullDomain);
+        const files = await fs.readdir(domainPath);
+        
+        // Read metadata
+        const metadataPath = path.join(domainPath, 'metadata.json');
+        if (!await fs.pathExists(metadataPath)) continue;
+        
+        const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf-8'));
+        
+        // Check if domain name matches search query
+        if (fullDomain.toLowerCase().includes(query)) {
+          allUrls.push(metadata.url);
+          
+          const docFile = files
+            .filter(f => f.startsWith('documentation_') && f.endsWith('.md'))
+            .sort()
+            .pop();
+
+          if (docFile) {
+            const filePath = path.join(domainPath, docFile);
+            const content = await fs.readFile(filePath, 'utf-8');
+            
+            allDocs.push({
+              content,
+              domain: fullDomain,
+              lastUpdated: metadata.lastScraped,
+              url: metadata.url,
+              filePath,
+              structure: metadata.structure || []
+            });
+          }
+        }
+      } catch (err) {
+        console.error(`Error processing domain ${fullDomain}:`, err);
+        continue;
+      }
+    }
+
+    // Apply pagination to the results
+    const totalDocs = allDocs.length;
+    const totalUrls = allUrls.length;
+
+    const paginatedDocs = allDocs.slice((page - 1) * limit, page * limit);
+    const paginatedUrls = allUrls.slice((page - 1) * limit, page * limit);
+
+    console.log(`Returning ${paginatedDocs.length} documents for search query "${query}" on page ${page}`);
+    res.json({
+      docs: paginatedDocs,
+      urls: paginatedUrls,
+      totalDocs,
+      totalUrls,
+      page,
+      limit,
+      totalPages: Math.ceil(totalDocs / limit)
+    });
+  } catch (error) {
+    console.error('Full search error:', error);
+    res.status(500).json({ success: false, error: 'Failed to perform full search' });
+  }
+});
+
+
 app.get('/api/docs/search', async (req, res) => {
   try {
     // @ts-ignore
