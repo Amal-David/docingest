@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useCallback } from 'react';
 import { Helmet } from 'react-helmet-async';
 import ReactMarkdown from 'react-markdown';
@@ -40,21 +41,15 @@ const ViewPage: React.FC = () => {
   const [selectedDoc, setSelectedDoc] = useState<DocPreview | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [error, setError] = useState<string | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const [isFetchingMore, setIsFetchingMore] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
   const [page, setPage] = useState(1);
   const [hasMore, setHasMore] = useState(true);
 
-  const debouncedSearch = useCallback((value: string) => {
-    setSearchTerm(value);
-    setPage(1);
-  }, []);
-
   useEffect(() => {
     const fetchDocs = async () => {
       try {
-        setIsLoading(true);
         const endpoint = searchTerm 
           ? `${API_URL}/docs/fullsearch?q=${encodeURIComponent(searchTerm)}&page=${page}`
           : `${API_URL}/docs/list?page=${page}`;
@@ -63,13 +58,7 @@ const ViewPage: React.FC = () => {
         if (!response.ok) throw new Error('Failed to fetch documentation');
         
         const data = await response.json();
-
-        if (searchTerm || page === 1) {
-          setDocs(data.docs);
-        } else {
-          setDocs(prev => [...prev, ...data.docs]);
-        }
-
+        setDocs(data.docs);
         setUrls(data.urls || []);
         setHasMore(data.docs.length > 0);
       } catch (err) {
@@ -130,22 +119,6 @@ const ViewPage: React.FC = () => {
     }
   };
 
-  if (isLoading && page === 1) {
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-center">
-        <div className="relative">
-          <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
-          <div className="rounded-xl relative z-20 p-8 border-[3px] border-gray-900 bg-card">
-            <div className="text-xl font-bold mb-4">Loading documentation...</div>
-            <div className="w-48 h-2 bg-blue-200 rounded-full">
-              <div className="w-24 h-2 bg-primary rounded-full animate-pulse"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
   return (
     <>
       <Helmet prioritizeSeoTags={true}>
@@ -172,7 +145,8 @@ const ViewPage: React.FC = () => {
           <input
             type="text"
             placeholder="Search documentation..."
-            onChange={(e) => debouncedSearch(e.target.value)}
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
             className="w-full p-4 border-[3px] border-gray-900 rounded relative z-10"
           />
         </div>
