@@ -1,8 +1,10 @@
 import { totalmem } from 'os';
 import React, { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import ReactGA from "react-ga4";
+import { createFalse } from 'typescript';
+import { generateSitemap } from '../utils/sitemap';
 
 // API configuration
 const FIRECRAWL_API = 'v1';
@@ -72,6 +74,7 @@ interface ScrapingMetrics {
 }
 
 const HomePage: React.FC = () => {
+  const navigate = useNavigate();
   const [url, setUrl] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [pageLoading, setPageLoading] = useState(false);
@@ -91,6 +94,7 @@ const HomePage: React.FC = () => {
   const [selectedDoc, setSelectedDoc] = useState<DocPreview | null>(null);
   const [showPreview, setShowPreview] = useState(false);
   const [addedPage, setAddedPage] = useState<number>(1);
+  const[previewContent, setPreviewContent] = useState<string | null>(null);
   const [metrics, setMetrics] = useState<ScrapingMetrics>({
     totalPages: 0,
     completedPages: 0,
@@ -217,12 +221,15 @@ const HomePage: React.FC = () => {
         },
         body: JSON.stringify({
           url: url,
-          limit: 250,
+          limit: 1000,
           maxDepth: 5,
-          allowBackwardLinks: true,
+          allowBackwardLinks: false,
           scrapeOptions: {
-            formats: ['markdown', 'html'],
-            onlyMainContent: true
+            formats: ['markdown'],
+            onlyMainContent: true,
+            removeBase64Images: true,
+            timeout: 20000,
+            waitFor: 1000     
           }
         })
       });
@@ -342,7 +349,7 @@ const HomePage: React.FC = () => {
               // Set preview of first successful page
               setSelectedDoc(docsWithPaths[0]);
               setShowPreview(true);
-              
+              window.location.href = `/docs/${domain}`;
               // Update final metrics
               setMetrics(prev => ({
                 ...prev,
@@ -415,7 +422,20 @@ const HomePage: React.FC = () => {
     }
   };
 
-  
+  // Function to handle navigation to doc pages with GA tracking
+  const navigateToDoc = (domain: string) => {
+    // Track the doc page view
+    ReactGA.send({
+      hitType: "pageview",
+      page: `/docs/${domain}`,
+      title: `Documentation - ${domain}`
+    });
+    
+    // Navigate to the doc page
+    navigate(`/docs/${domain}`);
+  };
+
+  // Modified loadSavedData to generate sitemap
   const loadSavedData = async (limit: number) => {
     try {
       setnewDataLoading(true);
@@ -428,16 +448,19 @@ const HomePage: React.FC = () => {
       if(data.docs.length === 0) {
         setNoMoreData(true);
       }
-      // Filter out duplicate documents
-      console.log(data, "data")
-      totalDocsRef.current = data.totalDocs;
+
+      // Update saved docs state
       setSavedDocs((prevDocs) => {
         const existingDomains = new Set(prevDocs.map((doc) => doc.domain + doc.filePath));
         const newDocs = data.docs.filter(
           (doc: DocPreview) => !existingDomains.has(doc.domain + doc.filePath)
         );
-        // update or store in browser session storage
         const finaldoc = [...prevDocs, ...newDocs];
+        
+        // Generate sitemap with all domains
+        const allDomains = finaldoc.map(doc => doc.domain);
+        generateSitemap(window.location.origin, allDomains);
+        
         return finaldoc;
       });
 
@@ -468,6 +491,10 @@ const HomePage: React.FC = () => {
         <p className="text-gray-600 text-lg">
           Download and save documentation from any URL
         </p>
+        <p className="text-gray-500 mb-2 text-sm">
+          Use it with ChatGPT, Claude or Cursor / Windsurf IDE
+        </p>
+        
         <div className="flex justify-center space-x-4">
           <Link
             to="/view"
@@ -488,7 +515,7 @@ const HomePage: React.FC = () => {
                 type="url"
                 value={url}
                 onChange={(e) => setUrl(e.target.value)}
-                placeholder="Enter documentation URL..."
+                placeholder="https://docs.cartesia.ai/get-started/overview"
                 required
                 className="w-full p-4 border-[3px] border-gray-900 rounded relative z-10"
               />
@@ -523,64 +550,7 @@ const HomePage: React.FC = () => {
         </div>
       )}
 
-      {showPreview && selectedDoc && (
-        <div className="mt-8">
-          <div className="flex justify-between items-center mb-4">
-            <h2 className="text-xl font-semibold">Preview</h2>
-            <div className="space-x-2">
-              <button
-                onClick={() => {
-                  navigator.clipboard.writeText(selectedDoc.content);
-                  alert('Content copied to clipboard!');
-                }}
-                className="px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-              >
-                Copy
-              </button>
-              <button
-                onClick={async () => {
-                  if (!selectedDoc.filePath) {
-                    setError('File path not available');
-                    return;
-                  }
-                  try {
-                    const response = await fetch(`${API_URL}/docs/download?path=${encodeURIComponent(selectedDoc.filePath)}`);
-                    if (!response.ok) throw new Error('Download failed');
-                    
-                    const blob = await response.blob();
-                    const url = window.URL.createObjectURL(blob);
-                    const a = document.createElement('a');
-                    a.href = url;
-                    a.download = `${selectedDoc.domain}_${selectedDoc.type.toLowerCase()}.md`;
-                    document.body.appendChild(a);
-                    a.click();
-                    window.URL.revokeObjectURL(url);
-                    document.body.removeChild(a);
-                  } catch (err) {
-                    console.error('Download error:', err);
-                    setError('Failed to download file');
-                  }
-                }}
-                className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-              >
-                Download
-              </button>
-              <button
-                onClick={() => {
-                  setShowPreview(false);
-                  setSelectedDoc(null);
-                }}
-                className="px-4 py-2 bg-gray-100 text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-              >
-                Back to List
-              </button>
-            </div>
-          </div>
-          <div className="bg-white rounded-lg shadow p-6 prose max-w-none border-[3px] border-gray-900">
-            <ReactMarkdown>{selectedDoc.content}</ReactMarkdown>
-          </div>
-        </div>
-      )}
+     
 
       {error && (
         <div className="mt-4 p-4 bg-red-50 rounded-lg">
@@ -621,17 +591,14 @@ const HomePage: React.FC = () => {
                   </div>
                   <div className="mt-4 space-y-2">
                     <div className="grid grid-cols-2 gap-2">
-                      <Link
-                        to={`/docs/${doc.domain.replace(/^docs\./, '').replace(/\.ai$/, '')}`}
+                      <button
+                        onClick={() => navigateToDoc(doc.domain.replace(/^docs\./, '').replace(/\.ai$/, ''))}
                         className="px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform text-center"
                       >
                         View Page
-                      </Link>
+                      </button>
                       <button
-                        onClick={() => {
-                          setSelectedDoc(doc);
-                          setShowPreview(true);
-                        }}
+                        onClick={() => navigateToDoc(doc.domain)}
                         className="px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
                       >
                         Preview

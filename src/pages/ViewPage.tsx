@@ -213,8 +213,7 @@ const ViewPage: React.FC = () => {
                   <div className="mt-4 space-y-2">
                     <button
                       onClick={() => {
-                        setSelectedDoc(doc);
-                        setShowPreview(true);
+                        window.location.href = `/docs/${doc.domain}`;
                       }}
                       className="w-full px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
                     >

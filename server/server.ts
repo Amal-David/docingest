@@ -269,6 +269,35 @@ app.get('/api/docs/list', async (req, res) => {
   }
 });
 
+app.get('/api/docs/search', async (req, res) => {
+  try {
+    // @ts-ignore
+    const query = req.query.q?.toLowerCase(); // Extract the search query
+    if (!query) {
+      return res.status(400).json({ success: false, error: 'Missing search query parameter `q`' });
+    }
+
+    console.log('Search query:', query);
+
+    if (!await fs.pathExists(STORAGE_PATH)) {
+      console.log('Storage directory does not exist.');
+      return res.json({ matches: [], totalMatches: 0 });
+    }
+
+    const domains = await fs.readdir(STORAGE_PATH);
+    console.log('Found domains:', domains);
+
+    // Filter domains based on the search query
+    const matches = domains.filter(domain => domain.toLowerCase().includes(query));
+
+    console.log(`Found ${matches.length} matches for query: "${query}"`);
+
+    res.json({ matches, totalMatches: matches.length });
+  } catch (error) {
+    console.error('Search error:', error);
+    res.status(500).json({ success: false, error: 'Failed to perform search' });
+  }
+});
 
 
 // Get file content
@@ -388,6 +417,9 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
     res.status(500).json({ error: 'Failed to fetch documentation' });
   }
 });
+
+// search api by domain or something oin content.. should match any word 
+
 
 // check if domain already exixts and no need to scrap
 app.get('/api/docs/check-domain/:domain', async (req, res) => {
