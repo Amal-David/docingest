@@ -159,7 +159,7 @@ const ViewPage: React.FC = () => {
 
         <div className={showPreview ? 'hidden' : ''}>
           {docs.length === 0 ? (
-            <div className="text-center text-gray-600">No documentation found</div>
+            <div className="text-center text-gray-600">Loading documentation...</div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {docs.map((doc, index) => (

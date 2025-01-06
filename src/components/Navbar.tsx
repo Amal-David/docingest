@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
               to="/view" 
               className="text-gray-900 hover:-translate-y-0.5 transition-transform"
             >
-              View Saved Docs
+              View Indexed Docs
             </Link>
           </nav>
         </div>

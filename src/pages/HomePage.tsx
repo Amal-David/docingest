@@ -226,7 +226,7 @@ const HomePage: React.FC = () => {
           scrapeOptions: {
             formats: ['markdown'],
             onlyMainContent: true,
-            removeBase64Images: true,
+            removeBase64Images: false,
             timeout: 20000,
             waitFor: 1000     
           }
@@ -509,7 +509,7 @@ const HomePage: React.FC = () => {
             to="/view"
             className="px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
           >
-            View Saved Docs
+            View Indexed Docs
           </Link>
         </div>
       </div>
