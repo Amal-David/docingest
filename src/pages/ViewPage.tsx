@@ -123,7 +123,7 @@ const ViewPage: React.FC = () => {
     <>
       <Helmet prioritizeSeoTags={true}>
         <title>View Doc Docs | DocIngest</title>
-        <meta name="description" content="View All Docs  - Download and save documentation from any URL" />
+        <meta name="description" content="View All Docs  - Download documentation for any Framework, Library or API" />
         <meta name="keywords" content="View All Docs  - documentation, download, save, URL" />
         <meta property="og:title" content="View All Docs | DocIngest" />
         <meta property="og:description" content="View All Docs  - documentation, download, save, URL" />

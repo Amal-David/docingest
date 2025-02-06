@@ -1,0 +1,136 @@
+.markdown-content {
+  @apply text-base leading-relaxed text-gray-700 font-sans;
+}
+
+/* Remove duplicate Table of Contents heading */
+.markdown-content h1:first-child {
+  @apply hidden;
+}
+
+/* Headings */
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+  @apply font-bold text-gray-900 tracking-tight font-sans;
+}
+
+.markdown-content h1 {
+  @apply text-4xl mb-6 pb-2 border-b-2 border-gray-200;
+  background: linear-gradient(to right, theme('colors.gray.900'), theme('colors.gray.700'));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.markdown-content h2 {
+  @apply text-2xl mb-4 mt-8;
+}
+
+.markdown-content h3 {
+  @apply text-xl mb-3 mt-6 text-gray-700;
+}
+
+.markdown-content p {
+  @apply mb-4 text-gray-600 leading-7;
+}
+
+/* Table of Contents List */
+.markdown-content ul:first-of-type {
+  @apply grid gap-3 mb-8 mt-2;
+}
+
+.markdown-content ul:first-of-type li {
+  @apply text-[15px] leading-relaxed;
+}
+
+.markdown-content ul:first-of-type a {
+  @apply block w-full py-2 px-3 rounded-md text-gray-700 no-underline 
+         hover:bg-gray-50 hover:text-primary transition-all duration-200
+         border border-transparent hover:border-gray-200;
+  position: relative;
+  overflow: hidden;
+}
+
+.markdown-content ul:first-of-type a::before {
+  content: '';
+  @apply absolute left-0 top-0 w-1 h-full bg-primary transform -translate-y-full transition-transform duration-200;
+}
+
+.markdown-content ul:first-of-type a:hover::before {
+  @apply translate-y-0;
+}
+
+/* Regular Lists */
+.markdown-content ul:not(:first-of-type) {
+  @apply list-none space-y-2 mb-6 ml-4;
+}
+
+.markdown-content ul:not(:first-of-type) li {
+  @apply text-gray-600 relative pl-4;
+  position: relative;
+}
+
+.markdown-content ul:not(:first-of-type) li::before {
+  content: "•";
+  @apply absolute left-0 text-primary;
+}
+
+/* Links */
+.markdown-content a {
+  @apply text-gray-900 no-underline relative inline-flex items-center;
+  background-image: linear-gradient(to right, theme('colors.primary'), theme('colors.primary'));
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 1px;
+  opacity: 0.85;
+}
+
+.markdown-content a:hover {
+  @apply text-primary opacity-100;
+  background-size: 100% 2px;
+}
+
+/* Code blocks */
+.markdown-content code {
+  @apply bg-gray-50 px-2 py-0.5 rounded text-sm text-gray-800 font-mono border border-gray-200;
+}
+
+.markdown-content pre {
+  @apply bg-gray-50 p-4 rounded-lg mb-6 overflow-x-auto border border-gray-200;
+}
+
+.markdown-content pre code {
+  @apply bg-transparent p-0 text-sm border-0;
+}
+
+/* Blockquotes */
+.markdown-content blockquote {
+  @apply border-l-4 border-primary bg-gray-50 pl-4 py-3 my-6 text-gray-600 italic rounded-r;
+}
+
+/* Tables */
+.markdown-content table {
+  @apply w-full border-collapse mb-6;
+}
+
+.markdown-content th {
+  @apply bg-gray-50 text-left py-2 px-4 border-b-2 border-gray-200 font-semibold text-gray-700;
+}
+
+.markdown-content td {
+  @apply py-2 px-4 border-b border-gray-200 text-gray-600;
+}
+
+/* Selection */
+.markdown-content ::selection {
+  @apply bg-primary/20 text-gray-900;
+}
+
+/* Smooth scrolling for anchor links */
+.markdown-content {
+  scroll-behavior: smooth;
+}
+
+/* Add a subtle hover effect to table rows */
+.markdown-content tr:hover td {
+  @apply bg-gray-50 transition-colors duration-150;
+} 

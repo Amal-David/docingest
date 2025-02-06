@@ -96,6 +96,54 @@ const mergeExistingFiles = async (domainPath: string) => {
     return false;
   }
 } 
+app.get('/api/sitemap/generate', async (req, res) => {
+  try {
+      const domains = await fs.readdir(STORAGE_PATH);
+      const totalDomains = domains.length;
+      let processedDomains = 0;
+      const sitemapUrls: string[] = [];
+
+      // Process domains in batches
+      for (let i = 0; i < totalDomains; i += BATCH_SIZE) {
+          const batch = domains.slice(i, i + BATCH_SIZE);
+          
+          for (const domain of batch) {
+              const domainPath = path.join(STORAGE_PATH, domain);
+              const metadataPath = path.join(domainPath, 'metadata.json');
+              
+              if (await fs.pathExists(metadataPath)) {
+                  const metadata = await fs.readJSON(metadataPath);
+                  sitemapUrls.push(`https://docingest.com/docs/${domain}`);
+              }
+              processedDomains++;
+          }
+      }
+
+      // Generate sitemap XML
+      const sitemapContent = generateSitemapXML(sitemapUrls);
+      const sitemapPath = path.join(process.cwd(), '../public', 'sitemap.xml');
+      await fs.writeFile(sitemapPath, sitemapContent);
+
+      res.json({
+          success: true,
+          processedDomains,
+          totalDomains,
+          sitemapUrl: 'https://docingest.com/sitemap.xml'
+      });
+  } catch (error) {
+      console.error('Sitemap generation error:', error);
+      res.status(500).json({ 
+          success: false, 
+          error: 'Failed to generate sitemap' 
+      });
+  }
+});
+
+app.get("/api/see", (req, res) => {
+  return res.json({
+    'Success': "It works"
+  })
+})
 // Save documentation
 app.post('/api/docs/save', async (req, res) => {
   try {
@@ -303,6 +351,28 @@ app.get('/api/docs/list/all', async (req, res) => {
     res.status(500).json({ success: false, error: 'Failed to list documentation' });
   }
 });
+
+
+const BATCH_SIZE = 100; // Process 100 domains at a time
+
+
+
+function generateSitemapXML(urls: string[]): string {
+    const urlElements = urls.map(url => `
+        <url>
+            <loc>${url}</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    `).join('');
+
+    return `<?xml version="1.0" encoding="UTF-8"?>
+        <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+            ${urlElements}
+        </urlset>`;
+}
+
+
 
 app.get('/api/docs/list', async (req, res) => {
   try {
