@@ -381,6 +381,7 @@ app.get('/api/docs/list', async (req, res) => {
     // Get pagination parameters from query string
     const page = parseInt(req.query.page as string) || 1; // Default to page 1
     const limit = parseInt(req.query.limit as string) || 10; // Default to 10 docs per page
+    const sortBy = (req.query.sortBy as string) || 'newest'; // Default to newest first
 
     if (page < 1 || limit < 1) {
       return res.status(400).json({ success: false, error: 'Invalid page or limit values' });
@@ -489,14 +490,36 @@ app.get('/api/docs/list', async (req, res) => {
       }
     }
 
+    // Apply sorting based on the sortBy parameter
+    const sortDocs = (docs: any[]) => {
+      switch (sortBy) {
+        case 'newest':
+          return docs.sort((a, b) => new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime());
+        case 'oldest':
+          return docs.sort((a, b) => new Date(a.lastUpdated).getTime() - new Date(b.lastUpdated).getTime());
+        case 'name_asc':
+          return docs.sort((a, b) => a.domain.localeCompare(b.domain));
+        case 'name_desc':
+          return docs.sort((a, b) => b.domain.localeCompare(a.domain));
+        case 'sections':
+          return docs.sort((a, b) => (b.structure?.length || 0) - (a.structure?.length || 0));
+        default:
+          return docs.sort((a, b) => a.domain.localeCompare(b.domain)); // Default to name_asc
+      }
+    };
+
+    // Sort the documents
+    const sortedDocs = sortDocs(allDocs);
+    const sortedUrls = sortDocs(allUrls);
+
     // Apply pagination to the results
-    const totalDocs = allDocs.length;
-    const totalUrls = allUrls.length;
+    const totalDocs = sortedDocs.length;
+    const totalUrls = sortedUrls.length;
 
-    const paginatedDocs = allDocs.slice((page - 1) * limit, page * limit);
-    const paginatedUrls = allUrls.slice((page - 1) * limit, page * limit);
+    const paginatedDocs = sortedDocs.slice((page - 1) * limit, page * limit);
+    const paginatedUrls = sortedUrls.slice((page - 1) * limit, page * limit);
 
-    console.log(`Returning ${paginatedDocs.length} documents for page ${page}`);
+    console.log(`Returning ${paginatedDocs.length} documents for page ${page} sorted by ${sortBy}`);
     res.json({ 
       docs: paginatedDocs,
       urls: paginatedUrls,
@@ -508,7 +531,7 @@ app.get('/api/docs/list', async (req, res) => {
     });
   } catch (error) {
     console.error('List error:', error);
-    res.status(500).json({ success: false, error: 'Failed to list documentation' });
+    res.status(500).json({ success: false, error: 'Internal server error' });
   }
 });
 
@@ -518,6 +541,8 @@ app.get('/api/docs/fullsearch', async (req, res) => {
     const query = req.query.q?.toLowerCase();
     const page = parseInt(req.query.page as string) || 1;
     const limit = parseInt(req.query.limit as string) || 10;
+    // When searching, default to name_asc for better search experience
+    const sortBy = (req.query.sortBy as string) || 'name_asc';
 
     if (!query) {
       return res.status(400).json({ success: false, error: 'Missing search query parameter `q`' });
@@ -539,7 +564,9 @@ app.get('/api/docs/fullsearch', async (req, res) => {
     }
 
     const domains = await fs.readdir(STORAGE_PATH);
-    const allDocs = [];
+    const exactMatches = [];
+    const prefixMatches = [];
+    const otherMatches = [];
     const allUrls = [];
 
     for (const fullDomain of domains) {
@@ -554,27 +581,56 @@ app.get('/api/docs/fullsearch', async (req, res) => {
         const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf-8'));
         
         // Check if domain name matches search query
-        if (fullDomain.toLowerCase().includes(query)) {
-          allUrls.push(metadata.url);
-          
-          const docFile = files
-            .filter(f => f.startsWith('documentation_') && f.endsWith('.md'))
-            .sort()
-            .pop();
+        const domainLower = fullDomain.toLowerCase();
+        const domainParts = domainLower.split(/[.\-_]/);
+        const isPrefixStart = domainLower.startsWith(query);
+        // Check if query is at the start of any domain part (e.g., "on" at start of "onchain" in "example.onchain.xyz")
+        const isPartPrefix = !isPrefixStart && domainParts.some(part => part.startsWith(query));
+        
+        // Prepare document data
+        const docFile = files
+          .filter(f => f.startsWith('documentation_') && f.endsWith('.md'))
+          .sort()
+          .pop();
 
-          if (docFile) {
-            const filePath = path.join(domainPath, docFile);
-            const content = await fs.readFile(filePath, 'utf-8');
-            
-            allDocs.push({
-              content,
-              domain: fullDomain,
-              lastUpdated: metadata.lastScraped,
-              url: metadata.url,
-              filePath,
-              structure: metadata.structure || []
-            });
+        if (docFile && domainLower.includes(query)) {
+          const filePath = path.join(domainPath, docFile);
+          const content = await fs.readFile(filePath, 'utf-8');
+          
+          const docEntry = {
+            content,
+            domain: fullDomain,
+            lastUpdated: metadata.lastScraped,
+            url: metadata.url,
+            filePath,
+            structure: metadata.structure || [],
+            matchType: 'other' // Default match type
+          };
+          
+          // Categorize matches by relevance
+          if (domainLower === query) {
+            // Exact match
+            docEntry.matchType = 'exact';
+            exactMatches.push(docEntry);
+            console.log(`Exact match: ${fullDomain}`);
+          } else if (isPrefixStart) {
+            // Prefix match at the beginning (e.g., "on" matches "onchain.xyz")
+            docEntry.matchType = 'prefix_start';
+            prefixMatches.push(docEntry);
+            console.log(`Prefix match (start): ${fullDomain}`);
+          } else if (isPartPrefix) {
+            // Prefix match at the start of a domain part (e.g., "on" matches "example.onchain")
+            docEntry.matchType = 'prefix_part';
+            prefixMatches.push(docEntry);
+            console.log(`Prefix match (part): ${fullDomain}`);
+          } else {
+            // Contains match (e.g., "on" is somewhere in the domain)
+            docEntry.matchType = 'other';
+            otherMatches.push(docEntry);
+            console.log(`Other match: ${fullDomain}`);
           }
+          
+          allUrls.push(metadata.url);
         }
       } catch (err) {
         console.error(`Error processing domain ${fullDomain}:`, err);
@@ -582,14 +638,59 @@ app.get('/api/docs/fullsearch', async (req, res) => {
       }
     }
 
+    // Apply sorting based on the sortBy parameter
+    const sortDocs = (docs: any[]) => {
+      switch (sortBy) {
+        case 'newest':
+          return docs.sort((a, b) => new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime());
+        case 'oldest':
+          return docs.sort((a, b) => new Date(a.lastUpdated).getTime() - new Date(b.lastUpdated).getTime());
+        case 'name_asc':
+          return docs.sort((a, b) => a.domain.localeCompare(b.domain));
+        case 'name_desc':
+          return docs.sort((a, b) => b.domain.localeCompare(a.domain));
+        case 'sections':
+          return docs.sort((a, b) => (b.structure?.length || 0) - (a.structure?.length || 0));
+        default:
+          return docs.sort((a, b) => a.domain.localeCompare(b.domain)); // Default to name_asc
+      }
+    };
+
+    // Apply sorting within each category
+    const sortedExactMatches = sortDocs(exactMatches);
+    const sortedPrefixMatches = sortDocs(prefixMatches);
+    const sortedOtherMatches = sortDocs(otherMatches);
+
+    // If using alphabetical sorting, further organize prefix matches by position
+    if (sortBy === 'name_asc' || sortBy === 'name_desc' || !sortBy) {
+      // Sort prefix matches by whether they're at the start or in a subdomain part
+      sortedPrefixMatches.sort((a, b) => {
+        // First compare matchType (prefix_start comes before prefix_part)
+        if (a.matchType === 'prefix_start' && b.matchType === 'prefix_part') return -1;
+        if (a.matchType === 'prefix_part' && b.matchType === 'prefix_start') return 1;
+        
+        // Then apply the regular sort
+        return sortBy === 'name_desc' 
+          ? b.domain.localeCompare(a.domain) 
+          : a.domain.localeCompare(b.domain);
+      });
+    }
+
+    // Combine all sorted matches
+    const sortedDocs = [...sortedExactMatches, ...sortedPrefixMatches, ...sortedOtherMatches];
+    const sortedUrls = sortDocs(allUrls);
+
+    // Log the results for debugging
+    console.log(`Found matches - Exact: ${exactMatches.length}, Prefix: ${prefixMatches.length}, Other: ${otherMatches.length}`);
+    console.log(`Returning ${sortedDocs.length} documents for search query "${query}" on page ${page} sorted by ${sortBy}`);
+
     // Apply pagination to the results
-    const totalDocs = allDocs.length;
-    const totalUrls = allUrls.length;
+    const totalDocs = sortedDocs.length;
+    const totalUrls = sortedUrls.length;
 
-    const paginatedDocs = allDocs.slice((page - 1) * limit, page * limit);
-    const paginatedUrls = allUrls.slice((page - 1) * limit, page * limit);
+    const paginatedDocs = sortedDocs.slice((page - 1) * limit, page * limit);
+    const paginatedUrls = sortedUrls.slice((page - 1) * limit, page * limit);
 
-    console.log(`Returning ${paginatedDocs.length} documents for search query "${query}" on page ${page}`);
     res.json({
       docs: paginatedDocs,
       urls: paginatedUrls,

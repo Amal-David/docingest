@@ -1,5 +1,4 @@
-
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, FormEvent } from 'react';
 import { Helmet } from 'react-helmet-async';
 import ReactMarkdown from 'react-markdown';
 import { Link } from 'react-router-dom';
@@ -40,39 +39,59 @@ const ViewPage: React.FC = () => {
   const [urls, setUrls] = useState<SavedUrl[]>([]);
   const [selectedDoc, setSelectedDoc] = useState<DocPreview | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
+  const [searchQuery, setSearchQuery] = useState('');
+  const [sortBy, setSortBy] = useState('newest');
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
+  const [isSearching, setIsSearching] = useState(false);
   const [isFetchingMore, setIsFetchingMore] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
   const [page, setPage] = useState(1);
   const [hasMore, setHasMore] = useState(true);
 
+  const fetchDocs = useCallback(async () => {
+    setIsLoading(true);
+    try {
+      const endpoint = searchQuery 
+        ? `${API_URL}/docs/fullsearch?q=${encodeURIComponent(searchQuery)}&page=${page}&sortBy=${sortBy}`
+        : `${API_URL}/docs/list?page=${page}&sortBy=${sortBy}`;
+
+      const response = await fetch(endpoint);
+      if (!response.ok) throw new Error('Failed to fetch documentation');
+      
+      const data = await response.json();
+      setDocs(data.docs);
+      setUrls(data.urls || []);
+      setHasMore(data.docs.length > 0);
+    } catch (err) {
+      console.error('Fetch error:', err);
+      setError('Failed to load documentation');
+    } finally {
+      setIsLoading(false);
+      setIsSearching(false);
+      setIsFetchingMore(false);
+    }
+  }, [searchQuery, page, sortBy]);
+
   useEffect(() => {
-    const fetchDocs = async () => {
-      try {
-        const endpoint = searchTerm 
-          ? `${API_URL}/docs/fullsearch?q=${encodeURIComponent(searchTerm)}&page=${page}`
-          : `${API_URL}/docs/list?page=${page}`;
+    fetchDocs();
+  }, [fetchDocs]);
 
-        const response = await fetch(endpoint);
-        if (!response.ok) throw new Error('Failed to fetch documentation');
-        
-        const data = await response.json();
-        setDocs(data.docs);
-        setUrls(data.urls || []);
-        setHasMore(data.docs.length > 0);
-      } catch (err) {
-        console.error('Fetch error:', err);
-        setError('Failed to load documentation');
-      } finally {
-        setIsLoading(false);
-        setIsFetchingMore(false);
-      }
-    };
+  const handleSortChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setSortBy(e.target.value);
+    setPage(1); // Reset to first page when sort changes
+    setIsSearching(true);
+  };
 
-    const timeoutId = setTimeout(fetchDocs, 300);
-    return () => clearTimeout(timeoutId);
-  }, [searchTerm, page]);
+  const handleSubmit = (e: FormEvent) => {
+    e.preventDefault();
+    setIsSearching(true);
+    setSearchQuery(searchTerm);
+    if (searchTerm && sortBy === 'newest') {
+      setSortBy('name_asc');
+    }
+    setPage(1);
+  };
 
   const handleLoadMore = () => {
     if (hasMore && !isLoading) {
@@ -140,16 +159,57 @@ const ViewPage: React.FC = () => {
           </p>
         </div>
 
-        <div className="relative">
-          <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
-          <input
-            type="text"
-            placeholder="Search documentation..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full p-4 border-[3px] border-gray-900 rounded relative z-10"
-          />
-        </div>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div className="flex flex-col md:flex-row gap-4">
+            <div className="relative flex-grow">
+              <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
+              <input
+                type="text"
+                placeholder="Search documentation..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full p-4 border-[3px] border-gray-900 rounded relative z-10"
+              />
+            </div>
+            <div className="relative md:w-1/4">
+              <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
+              <select
+                value={sortBy}
+                onChange={handleSortChange}
+                className="w-full p-4 border-[3px] border-gray-900 rounded relative z-10 appearance-none bg-white"
+              >
+                <option value="newest">Newest First</option>
+                <option value="oldest">Oldest First</option>
+                <option value="name_asc">Name (A-Z)</option>
+                <option value="name_desc">Name (Z-A)</option>
+                <option value="sections">Most Sections</option>
+              </select>
+              <div className="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 pointer-events-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                </svg>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
+              <button 
+                type="submit"
+                disabled={isSearching}
+                className="px-6 py-4 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform relative z-10 whitespace-nowrap flex items-center justify-center min-w-[100px]"
+              >
+                {isSearching ? (
+                  <div className="flex items-center">
+                    <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Searching...
+                  </div>
+                ) : 'Search'}
+              </button>
+            </div>
+          </div>
+        </form>
 
         {error && (
           <div className="p-4 bg-red-50 border border-red-200 rounded-lg text-red-700">
@@ -157,9 +217,31 @@ const ViewPage: React.FC = () => {
           </div>
         )}
 
-        <div className={showPreview ? 'hidden' : ''}>
-          {docs.length === 0 ? (
-            <div className="text-center text-gray-600">Loading documentation...</div>
+        {isSearching && (
+          <div className="flex flex-col justify-center items-center py-8">
+            <div className="relative w-24 h-24">
+              <div className="absolute top-0 left-0 w-full h-full border-4 border-gray-200 rounded-full"></div>
+              <div className="absolute top-0 left-0 w-full h-full border-4 border-t-primary border-l-primary rounded-full animate-spin"></div>
+              <div className="absolute inset-0 flex items-center justify-center">
+                <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+              </div>
+            </div>
+            <div className="mt-4">
+              <p className="text-gray-700 font-medium">Searching documentation...</p>
+            </div>
+          </div>
+        )}
+
+        <div className={showPreview || isSearching ? 'hidden' : ''}>
+          {isLoading && docs.length === 0 && !isSearching ? (
+            <div className="text-center text-gray-600 py-8">
+              <div className="inline-block w-12 h-12 border-4 border-t-primary border-r-transparent border-b-transparent border-l-transparent rounded-full animate-spin mb-4"></div>
+              <p>Loading documentation...</p>
+            </div>
+          ) : docs.length === 0 ? (
+            <div className="text-center text-gray-600">No documentation found. Try a different search term.</div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {docs.map((doc, index) => (
@@ -216,13 +298,21 @@ const ViewPage: React.FC = () => {
           )}
         </div>
 
-        {hasMore && !isLoading && (
+        {hasMore && !isLoading && docs.length > 0 && !isSearching && (
           <div className="text-center mt-8">
             <button
               onClick={handleLoadMore}
-              className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
+              className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform inline-flex items-center"
             >
-              {isFetchingMore ? 'Loading...' : 'Load More'}
+              {isFetchingMore ? (
+                <>
+                  <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                  </svg>
+                  Loading...
+                </>
+              ) : 'Load More'}
             </button>
           </div>
         )}
