@@ -78,19 +78,29 @@ const ViewPage: React.FC = () => {
   }, [fetchDocs]);
 
   const handleSortChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setSortBy(e.target.value);
+    const newSortValue = e.target.value;
+    console.log(`Sort changed to: ${newSortValue}`);
+    setSortBy(newSortValue);
     setPage(1); // Reset to first page when sort changes
-    setIsSearching(true);
+    // When sort option changes, we need to immediately refresh data
+    setTimeout(() => {
+      fetchDocs();
+    }, 0);
   };
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     setIsSearching(true);
     setSearchQuery(searchTerm);
-    if (searchTerm && sortBy === 'newest') {
-      setSortBy('name_asc');
-    }
+    // Remove the conditional sort override that was causing inconsistent behavior
+    // if (searchTerm && sortBy === 'newest') {
+    //   setSortBy('name_asc');
+    // }
     setPage(1);
+    // Use setTimeout to ensure state updates are processed before API call
+    setTimeout(() => {
+      fetchDocs();
+    }, 0);
   };
 
   const handleLoadMore = () => {
@@ -171,6 +181,7 @@ const ViewPage: React.FC = () => {
                 className="w-full p-4 border-[3px] border-gray-900 rounded relative z-10"
               />
             </div>
+            {/* Sort dropdown temporarily hidden
             <div className="relative md:w-1/4">
               <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
               <select
@@ -190,6 +201,7 @@ const ViewPage: React.FC = () => {
                 </svg>
               </div>
             </div>
+            */}
             <div className="relative">
               <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
               <button 
@@ -254,7 +266,23 @@ const ViewPage: React.FC = () => {
                         Sections: {doc.structure.length}
                       </p>
                       <p className="text-sm text-gray-600">
-                        Saved: {new Date(doc.lastUpdated).toLocaleDateString()}
+                        Saved: {(() => {
+                          // Get the date value - handle different possible property names
+                          const dateStr = doc.lastUpdated || (doc as any).lastScraped;
+                          if (!dateStr) return 'Unknown date';
+                          
+                          try {
+                            // Parse the ISO date string
+                            const date = new Date(dateStr);
+                            if (isNaN(date.getTime())) return 'Invalid date';
+                            
+                            // Format with day/month/year 
+                            return date.toLocaleDateString('en-GB'); // DD/MM/YYYY format
+                          } catch (e) {
+                            console.error('Error formatting date:', e);
+                            return 'Error formatting date';
+                          }
+                        })()}
                       </p>
                       {doc.url && (
                         <a

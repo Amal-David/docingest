@@ -490,27 +490,24 @@ app.get('/api/docs/list', async (req, res) => {
       }
     }
 
-    // Apply sorting based on the sortBy parameter
-    const sortDocs = (docs: any[]) => {
-      switch (sortBy) {
-        case 'newest':
-          return docs.sort((a, b) => new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime());
-        case 'oldest':
-          return docs.sort((a, b) => new Date(a.lastUpdated).getTime() - new Date(b.lastUpdated).getTime());
-        case 'name_asc':
-          return docs.sort((a, b) => a.domain.localeCompare(b.domain));
-        case 'name_desc':
-          return docs.sort((a, b) => b.domain.localeCompare(a.domain));
-        case 'sections':
-          return docs.sort((a, b) => (b.structure?.length || 0) - (a.structure?.length || 0));
-        default:
-          return docs.sort((a, b) => a.domain.localeCompare(b.domain)); // Default to name_asc
-      }
-    };
+    // Now add diagnostic logging AFTER allDocs is defined
+    console.log(`\n============= SORT DIAGNOSTICS ============`);
+    console.log(`Requested sort parameter: "${req.query.sortBy}" (type: ${typeof req.query.sortBy})`);
+    console.log(`Normalized sort parameter: "${sortBy}"`);
+    
+    // Also log document date information to verify what we're working with
+    console.log(`\nSample document date formats:`);
+    const sampleDocs = allDocs.slice(0, Math.min(3, allDocs.length));
+    sampleDocs.forEach((doc, i) => {
+      console.log(`Doc ${i+1} (${doc.domain}):`);
+      console.log(`  - lastUpdated: ${doc.lastUpdated} (${typeof doc.lastUpdated})`);
+      console.log(`  - lastScraped: ${(doc.lastScraped)} (${typeof doc.lastScraped})`);
+      console.log(`  - ISO parse: ${new Date(doc.lastUpdated || doc.lastScraped || 0).toISOString()}`);
+    });
 
-    // Sort the documents
-    const sortedDocs = sortDocs(allDocs);
-    const sortedUrls = sortDocs(allUrls);
+    // Apply sorting based on the sortBy parameter
+    const sortedDocs = sortDocs(allDocs, sortBy);
+    const sortedUrls = sortDocs(allUrls, sortBy);
 
     // Apply pagination to the results
     const totalDocs = sortedDocs.length;
@@ -638,50 +635,36 @@ app.get('/api/docs/fullsearch', async (req, res) => {
       }
     }
 
-    // Apply sorting based on the sortBy parameter
-    const sortDocs = (docs: any[]) => {
-      switch (sortBy) {
-        case 'newest':
-          return docs.sort((a, b) => new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime());
-        case 'oldest':
-          return docs.sort((a, b) => new Date(a.lastUpdated).getTime() - new Date(b.lastUpdated).getTime());
-        case 'name_asc':
-          return docs.sort((a, b) => a.domain.localeCompare(b.domain));
-        case 'name_desc':
-          return docs.sort((a, b) => b.domain.localeCompare(a.domain));
-        case 'sections':
-          return docs.sort((a, b) => (b.structure?.length || 0) - (a.structure?.length || 0));
-        default:
-          return docs.sort((a, b) => a.domain.localeCompare(b.domain)); // Default to name_asc
-      }
-    };
-
-    // Apply sorting within each category
-    const sortedExactMatches = sortDocs(exactMatches);
-    const sortedPrefixMatches = sortDocs(prefixMatches);
-    const sortedOtherMatches = sortDocs(otherMatches);
-
-    // If using alphabetical sorting, further organize prefix matches by position
-    if (sortBy === 'name_asc' || sortBy === 'name_desc' || !sortBy) {
-      // Sort prefix matches by whether they're at the start or in a subdomain part
-      sortedPrefixMatches.sort((a, b) => {
-        // First compare matchType (prefix_start comes before prefix_part)
-        if (a.matchType === 'prefix_start' && b.matchType === 'prefix_part') return -1;
-        if (a.matchType === 'prefix_part' && b.matchType === 'prefix_start') return 1;
-        
-        // Then apply the regular sort
-        return sortBy === 'name_desc' 
-          ? b.domain.localeCompare(a.domain) 
-          : a.domain.localeCompare(b.domain);
-      });
-    }
-
-    // Combine all sorted matches
-    const sortedDocs = [...sortedExactMatches, ...sortedPrefixMatches, ...sortedOtherMatches];
-    const sortedUrls = sortDocs(allUrls);
-
     // Log the results for debugging
     console.log(`Found matches - Exact: ${exactMatches.length}, Prefix: ${prefixMatches.length}, Other: ${otherMatches.length}`);
+    
+    // Add diagnostic logging for search
+    console.log(`\n============= SEARCH SORT DIAGNOSTICS ============`);
+    console.log(`Requested sort parameter: "${req.query.sortBy}" (type: ${typeof req.query.sortBy})`);
+    console.log(`Normalized sort parameter: "${sortBy}"`);
+    
+    // Also log search result sample date information
+    const allResults = [...exactMatches, ...prefixMatches, ...otherMatches];
+    console.log(`\nSample search result date formats (before sorting):`);
+    const sampleResults = allResults.slice(0, Math.min(3, allResults.length));
+    sampleResults.forEach((doc, i) => {
+      console.log(`Result ${i+1} (${doc.domain}):`);
+      console.log(`  - lastUpdated: ${doc.lastUpdated} (${typeof doc.lastUpdated})`);
+      console.log(`  - lastScraped: ${(doc as any).lastScraped} (${typeof (doc as any).lastScraped})`);
+      console.log(`  - matchType: ${doc.matchType}`);
+    });
+    
+    // Sort each category separately
+    const sortedExactMatches = sortDocs(exactMatches, sortBy);
+    const sortedPrefixMatches = sortDocs(prefixMatches, sortBy);
+    const sortedOtherMatches = sortDocs(otherMatches, sortBy);
+    
+    // Maintain the categorization (exact > prefix > other) regardless of sort
+    const sortedDocs = [...sortedExactMatches, ...sortedPrefixMatches, ...sortedOtherMatches];
+    const sortedUrls = sortDocs(allUrls, sortBy);
+    
+    // Log the sorted matches
+    console.log(`Sorted results by ${sortBy} with priority: Exact (${sortedExactMatches.length}) > Prefix (${sortedPrefixMatches.length}) > Other (${sortedOtherMatches.length})`);
     console.log(`Returning ${sortedDocs.length} documents for search query "${query}" on page ${page} sorted by ${sortBy}`);
 
     // Apply pagination to the results
@@ -945,4 +928,133 @@ interface SitemapUrl {
   priority: number;
   lastmod?: string;
 }
+
+// Modify the sortDocs function to inspect its input and output:
+const sortDocs = (docs: any[], sortOption: string) => {
+  console.log(`\n============= SORT FUNCTION CALLED ============`);
+  console.log(`Called sortDocs with option: "${sortOption}" on ${docs.length} documents`);
+  
+  if (docs.length === 0) {
+    console.log(`No documents to sort, returning empty array`);
+    return [];
+  }
+  
+  // Sample the input array before sorting
+  console.log(`\nFirst few documents BEFORE sorting:`);
+  const beforeSample = docs.slice(0, Math.min(3, docs.length));
+  beforeSample.forEach((doc, i) => {
+    if (sortOption === 'newest' || sortOption === 'oldest') {
+      const dateStr = doc.lastUpdated || doc.lastScraped || '';
+      console.log(`${i+1}. ${doc.domain || 'unknown'}: Date=${dateStr} (${new Date(dateStr).getTime()})`);
+    } else {
+      console.log(`${i+1}. ${doc.domain || 'unknown'}`);
+    }
+  });
+  
+  // Create a fresh copy of the array
+  const docsCopy = [...docs];
+  let sortedDocs;
+  
+  switch (sortOption) {
+    case 'newest':
+      sortedDocs = docsCopy.sort((a, b) => {
+        // Get timestamp values
+        const aDate = a.lastUpdated || a.lastScraped || '';
+        const bDate = b.lastUpdated || b.lastScraped || '';
+        
+        // Convert to dates and then to numeric timestamps
+        const aTime = aDate ? new Date(aDate).getTime() : 0;
+        const bTime = bDate ? new Date(bDate).getTime() : 0;
+        
+        // Log comparison for debugging
+        if (Math.random() < 0.01) { // Only log a small percentage to avoid flooding
+          console.log(`Comparing dates: ${a.domain} (${aDate} → ${aTime}) vs ${b.domain} (${bDate} → ${bTime})`);
+        }
+        
+        return bTime - aTime; // Descending (newest first)
+      });
+      break;
+      
+    case 'oldest':
+      sortedDocs = docsCopy.sort((a, b) => {
+        // Get timestamp values
+        const aDate = a.lastUpdated || a.lastScraped || '';
+        const bDate = b.lastUpdated || b.lastScraped || '';
+        
+        // Convert to dates and then to numeric timestamps
+        const aTime = aDate ? new Date(aDate).getTime() : 0;
+        const bTime = bDate ? new Date(bDate).getTime() : 0;
+        
+        return aTime - bTime; // Ascending (oldest first)
+      });
+      break;
+      
+    case 'name_asc':
+      sortedDocs = docsCopy.sort((a, b) => {
+        const aStr = String(a.domain || '').toLowerCase();
+        const bStr = String(b.domain || '').toLowerCase();
+        return aStr.localeCompare(bStr);
+      });
+      break;
+      
+    case 'name_desc':
+      sortedDocs = docsCopy.sort((a, b) => {
+        const aStr = String(a.domain || '').toLowerCase();
+        const bStr = String(b.domain || '').toLowerCase();
+        return bStr.localeCompare(aStr);
+      });
+      break;
+      
+    case 'sections':
+      sortedDocs = docsCopy.sort((a, b) => {
+        const aCount = a.structure?.length || 0;
+        const bCount = b.structure?.length || 0;
+        return bCount - aCount;
+      });
+      break;
+      
+    default:
+      console.log(`Unknown sort option: "${sortOption}", falling back to name_asc`);
+      sortedDocs = docsCopy.sort((a, b) => {
+        const aStr = String(a.domain || '').toLowerCase();
+        const bStr = String(b.domain || '').toLowerCase();
+        return aStr.localeCompare(bStr);
+      });
+  }
+  
+  // Sample the output array after sorting
+  console.log(`\nFirst few documents AFTER sorting by "${sortOption}":`);
+  const afterSample = sortedDocs.slice(0, Math.min(3, sortedDocs.length));
+  afterSample.forEach((doc, i) => {
+    if (sortOption === 'newest' || sortOption === 'oldest') {
+      const dateStr = doc.lastUpdated || doc.lastScraped || '';
+      console.log(`${i+1}. ${doc.domain || 'unknown'}: Date=${dateStr} (${new Date(dateStr).getTime()})`);
+    } else {
+      console.log(`${i+1}. ${doc.domain || 'unknown'}`);
+    }
+  });
+  
+  console.log(`============= END SORT FUNCTION ============\n`);
+  
+  // Additional debug logging
+  console.log(`\n============= DETAILED SORT RESULTS ============`);
+  console.log(`Sort option: "${sortOption}"`);
+  console.log(`Total documents sorted: ${sortedDocs.length}`);
+  
+  // Log the first 5 results with detailed info
+  console.log(`\nFirst 5 results after sorting:`);
+  sortedDocs.slice(0, 5).forEach((doc, index) => {
+    console.log(`${index+1}. ${doc.domain || 'unknown'}`);
+    if (doc.lastUpdated || doc.lastScraped) {
+      console.log(`   Date: ${doc.lastUpdated || doc.lastScraped}`);
+      console.log(`   Timestamp: ${new Date(doc.lastUpdated || doc.lastScraped || 0).getTime()}`);
+    }
+    if (doc.matchType) {
+      console.log(`   Match type: ${doc.matchType}`);
+    }
+  });
+  console.log(`============= END DETAILED RESULTS ============\n`);
+  
+  return sortedDocs;
+};
 
