@@ -4,6 +4,8 @@ import fs from 'fs-extra';
 import path from 'path';
 import { SitemapStream, streamToPromise } from 'sitemap';
 import { Readable } from 'stream';
+import helmet from 'helmet';
+import rateLimit from 'express-rate-limit';
 const app = express();
 const PORT = process.env.PORT || 8001;
 
@@ -11,9 +13,74 @@ const PORT = process.env.PORT || 8001;
 app.use(express.json({ limit: '150mb' }));
 app.use(express.urlencoded({ limit: '150mb', extended: true }));
 app.use(cors());
+app.use(helmet());
+app.use(rateLimit({
+  windowMs: 1 * 60 * 1000, // 1 minute
+  max: 100, // limit each IP to 100 requests per windowMs
+  standardHeaders: true,
+  legacyHeaders: false,
+}));
+
+// Define SitemapUrl interface
+interface SitemapUrl {
+  url: string;
+  changefreq?: string;
+  priority?: number;
+  lastmod?: string;
+}
+
+// Define sortDocs function
+function sortDocs(docs: any[], sortBy: string): any[] {
+  const sortedDocs = [...docs]; // Create a copy to avoid mutating the original array
+  
+  if (!sortBy || docs.length === 0) {
+    return sortedDocs;
+  }
+
+  console.log(`Sorting ${docs.length} documents by '${sortBy}'`);
+  
+  switch (sortBy.toLowerCase()) {
+    case 'newest':
+      // Sort by lastUpdated or lastScraped in descending order (newest first)
+      return sortedDocs.sort((a, b) => {
+        const dateA = new Date(a.lastUpdated || a.lastScraped || 0).getTime();
+        const dateB = new Date(b.lastUpdated || b.lastScraped || 0).getTime();
+        return dateB - dateA;
+      });
+      
+    case 'oldest':
+      // Sort by lastUpdated or lastScraped in ascending order (oldest first)
+      return sortedDocs.sort((a, b) => {
+        const dateA = new Date(a.lastUpdated || a.lastScraped || 0).getTime();
+        const dateB = new Date(b.lastUpdated || b.lastScraped || 0).getTime();
+        return dateA - dateB;
+      });
+      
+    case 'name_asc':
+      // Sort by domain name in ascending order (A-Z)
+      return sortedDocs.sort((a, b) => {
+        const nameA = (a.domain || a.url || '').toLowerCase();
+        const nameB = (b.domain || b.url || '').toLowerCase();
+        return nameA.localeCompare(nameB);
+      });
+      
+    case 'name_desc':
+      // Sort by domain name in descending order (Z-A)
+      return sortedDocs.sort((a, b) => {
+        const nameA = (a.domain || a.url || '').toLowerCase();
+        const nameB = (b.domain || b.url || '').toLowerCase();
+        return nameB.localeCompare(nameA);
+      });
+      
+    default:
+      // Default to newest if sort parameter is not recognized
+      console.log(`Unknown sort parameter '${sortBy}', defaulting to 'newest'`);
+      return sortDocs(sortedDocs, 'newest');
+  }
+}
 
 // Storage path - using absolute path from project root
-const STORAGE_PATH = path.join(process.cwd(), 'storage', 'docs');
+const STORAGE_PATH = path.join(process.cwd(), 'server', 'storage', 'docs');
 console.log('Storage path:', STORAGE_PATH);
 
 // Ensure storage directory exists
@@ -62,7 +129,8 @@ const mergeExistingFiles = async (domainPath: string) => {
     return [];
   }
 };
- async function generateSitemap(baseUrl: string, docDomains: any[]) {
+
+async function generateSitemap(baseUrl: string, docDomains: any[]) {
   try {
     // Base URLs that are always present
     const staticUrls: SitemapUrl[] = [
@@ -88,14 +156,15 @@ const mergeExistingFiles = async (domainPath: string) => {
     const data = await streamToPromise(Readable.from(allUrls).pipe(stream));
     
     // Write the XML to file
-    fs.writeFileSync('../public/sitemap.xml', data);
+    fs.writeFileSync('public/sitemap.xml', data);
     
     return true;
   } catch (error) {
     console.error('Error generating sitemap:', error);
     return false;
   }
-} 
+}
+
 app.get('/api/sitemap/generate', async (req, res) => {
   try {
       const domains = await fs.readdir(STORAGE_PATH);
@@ -121,7 +190,7 @@ app.get('/api/sitemap/generate', async (req, res) => {
 
       // Generate sitemap XML
       const sitemapContent = generateSitemapXML(sitemapUrls);
-      const sitemapPath = path.join(process.cwd(), '../public', 'sitemap.xml');
+      const sitemapPath = path.join(process.cwd(), 'public', 'sitemap.xml');
       await fs.writeFile(sitemapPath, sitemapContent);
 
       res.json({
@@ -850,17 +919,7 @@ app.get('/api/docs/check-domain/:domain', async (req, res) => {
     // Try different domain formats
     const possibleDomains = [
       domain,                                    // As provided
-      `docs.${domain}.ai`,                      // Full storage format
-      `docs.${domain}`,                         // Partial storage format
-      domain.replace(/^docs\./, ''),            // Without docs prefix
-      domain.replace(/\.ai$/, ''),              // Without ai suffix
-      domain.replace(/^docs\./, '').replace(/\.ai$/, ''), // Clean domain
-      `${domain}.ai`  ,                          // With ai suffix
-      // only link without https and /
-      domain.replace(/^https?:\/\//, '').replace(/\/$/, ''),
-      // only link without https and / and www
-      domain.replace(/^https?:\/\//, '').replace(/\/$/, '').replace(/^www\./, ''),
-      
+      `docs.${domain}.ai`                       // Full storage format
     ].filter((d, i, arr) => arr.indexOf(d) === i); // Remove duplicates
 
     let foundDomain = null;
@@ -905,8 +964,17 @@ app.get('/api/docs/check-domain/:domain', async (req, res) => {
       return res.status(404).json({ error: 'Documentation content not found' });
     }
 
+    const markdownPath = path.join(docsPath, docFile);
+    console.log('Reading documentation from:', markdownPath);
+    const content = fs.readFileSync(markdownPath, 'utf-8');
+
     res.json({
-      "found": true
+      domain: foundDomain,
+      content,
+      lastUpdated: metadata.lastScraped,
+      url: metadata.url,
+      filePath: markdownPath,
+      structure: metadata.structure || []
     });
   } catch (err) {
     console.error('Error fetching documentation by domain:', err);
@@ -914,147 +982,78 @@ app.get('/api/docs/check-domain/:domain', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
-  console.log('Storage directory:', STORAGE_PATH);
-  
-}); 
+// search api by domain or something oin content.. should match any word 
 
 
+// check if domain already exixts and no need to scrap
+app.get('/api/docs/check-domain/:domain', async (req, res) => {
+  try {
+    const { domain } = req.params;
+    
+    // Try different domain formats
+    const possibleDomains = [
+      domain,                                    // As provided
+      `docs.${domain}.ai`,                      // Full storage format
+    ].filter((d, i, arr) => arr.indexOf(d) === i); // Remove duplicates
 
-interface SitemapUrl {
-  url: string;
-  changefreq: string;
-  priority: number;
-  lastmod?: string;
-}
+    let foundDomain = null;
+    let docsPath = null;
 
-// Modify the sortDocs function to inspect its input and output:
-const sortDocs = (docs: any[], sortOption: string) => {
-  console.log(`\n============= SORT FUNCTION CALLED ============`);
-  console.log(`Called sortDocs with option: "${sortOption}" on ${docs.length} documents`);
-  
-  if (docs.length === 0) {
-    console.log(`No documents to sort, returning empty array`);
-    return [];
+    // Try each possible domain format
+    for (const d of possibleDomains) {
+      const testPath = path.join(STORAGE_PATH, d);
+      console.log('Trying path:', testPath);
+      if (fs.existsSync(testPath)) {
+        foundDomain = d;
+        docsPath = testPath;
+        console.log('Found matching domain:', d);
+        break;
+      }
+    }
+
+    if (!docsPath) {
+      console.log('No matching domain found for:', domain);
+      console.log('Tried formats:', possibleDomains);
+      return res.status(404).json({ error: 'Documentation not found' });
+    }
+
+    // Read the metadata file
+    const metadataPath = path.join(docsPath, 'metadata.json');
+    if (!fs.existsSync(metadataPath)) {
+      console.log('Metadata file not found at:', metadataPath);
+      return res.status(404).json({ error: 'Documentation metadata not found' });
+    }
+
+    const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
+    
+    // Find the latest documentation file
+    const files = await fs.readdir(docsPath);
+    const docFiles = files.filter(f => f.startsWith('documentation_'));
+    console.log('Found documentation files:', docFiles);
+    
+    const docFile = docFiles.sort().pop();
+
+    if (!docFile) {
+      console.log('No documentation file found in:', docsPath);
+      return res.status(404).json({ error: 'Documentation content not found' });
+    }
+
+    const markdownPath = path.join(docsPath, docFile);
+    console.log('Reading documentation from:', markdownPath);
+    const content = fs.readFileSync(markdownPath, 'utf-8');
+
+    res.json({
+      domain: foundDomain,
+      content,
+      lastUpdated: metadata.lastScraped,
+      url: metadata.url,
+      filePath: markdownPath,
+      structure: metadata.structure || []
+    });
+  } catch (err) {
+    console.error('Error fetching documentation by domain:', err);
+    res.status(500).json({ error: 'Failed to fetch documentation' });
   }
-  
-  // Sample the input array before sorting
-  console.log(`\nFirst few documents BEFORE sorting:`);
-  const beforeSample = docs.slice(0, Math.min(3, docs.length));
-  beforeSample.forEach((doc, i) => {
-    if (sortOption === 'newest' || sortOption === 'oldest') {
-      const dateStr = doc.lastUpdated || doc.lastScraped || '';
-      console.log(`${i+1}. ${doc.domain || 'unknown'}: Date=${dateStr} (${new Date(dateStr).getTime()})`);
-    } else {
-      console.log(`${i+1}. ${doc.domain || 'unknown'}`);
-    }
-  });
-  
-  // Create a fresh copy of the array
-  const docsCopy = [...docs];
-  let sortedDocs;
-  
-  switch (sortOption) {
-    case 'newest':
-      sortedDocs = docsCopy.sort((a, b) => {
-        // Get timestamp values
-        const aDate = a.lastUpdated || a.lastScraped || '';
-        const bDate = b.lastUpdated || b.lastScraped || '';
-        
-        // Convert to dates and then to numeric timestamps
-        const aTime = aDate ? new Date(aDate).getTime() : 0;
-        const bTime = bDate ? new Date(bDate).getTime() : 0;
-        
-        // Log comparison for debugging
-        if (Math.random() < 0.01) { // Only log a small percentage to avoid flooding
-          console.log(`Comparing dates: ${a.domain} (${aDate} → ${aTime}) vs ${b.domain} (${bDate} → ${bTime})`);
-        }
-        
-        return bTime - aTime; // Descending (newest first)
-      });
-      break;
-      
-    case 'oldest':
-      sortedDocs = docsCopy.sort((a, b) => {
-        // Get timestamp values
-        const aDate = a.lastUpdated || a.lastScraped || '';
-        const bDate = b.lastUpdated || b.lastScraped || '';
-        
-        // Convert to dates and then to numeric timestamps
-        const aTime = aDate ? new Date(aDate).getTime() : 0;
-        const bTime = bDate ? new Date(bDate).getTime() : 0;
-        
-        return aTime - bTime; // Ascending (oldest first)
-      });
-      break;
-      
-    case 'name_asc':
-      sortedDocs = docsCopy.sort((a, b) => {
-        const aStr = String(a.domain || '').toLowerCase();
-        const bStr = String(b.domain || '').toLowerCase();
-        return aStr.localeCompare(bStr);
-      });
-      break;
-      
-    case 'name_desc':
-      sortedDocs = docsCopy.sort((a, b) => {
-        const aStr = String(a.domain || '').toLowerCase();
-        const bStr = String(b.domain || '').toLowerCase();
-        return bStr.localeCompare(aStr);
-      });
-      break;
-      
-    case 'sections':
-      sortedDocs = docsCopy.sort((a, b) => {
-        const aCount = a.structure?.length || 0;
-        const bCount = b.structure?.length || 0;
-        return bCount - aCount;
-      });
-      break;
-      
-    default:
-      console.log(`Unknown sort option: "${sortOption}", falling back to name_asc`);
-      sortedDocs = docsCopy.sort((a, b) => {
-        const aStr = String(a.domain || '').toLowerCase();
-        const bStr = String(b.domain || '').toLowerCase();
-        return aStr.localeCompare(bStr);
-      });
-  }
-  
-  // Sample the output array after sorting
-  console.log(`\nFirst few documents AFTER sorting by "${sortOption}":`);
-  const afterSample = sortedDocs.slice(0, Math.min(3, sortedDocs.length));
-  afterSample.forEach((doc, i) => {
-    if (sortOption === 'newest' || sortOption === 'oldest') {
-      const dateStr = doc.lastUpdated || doc.lastScraped || '';
-      console.log(`${i+1}. ${doc.domain || 'unknown'}: Date=${dateStr} (${new Date(dateStr).getTime()})`);
-    } else {
-      console.log(`${i+1}. ${doc.domain || 'unknown'}`);
-    }
-  });
-  
-  console.log(`============= END SORT FUNCTION ============\n`);
-  
-  // Additional debug logging
-  console.log(`\n============= DETAILED SORT RESULTS ============`);
-  console.log(`Sort option: "${sortOption}"`);
-  console.log(`Total documents sorted: ${sortedDocs.length}`);
-  
-  // Log the first 5 results with detailed info
-  console.log(`\nFirst 5 results after sorting:`);
-  sortedDocs.slice(0, 5).forEach((doc, index) => {
-    console.log(`${index+1}. ${doc.domain || 'unknown'}`);
-    if (doc.lastUpdated || doc.lastScraped) {
-      console.log(`   Date: ${doc.lastUpdated || doc.lastScraped}`);
-      console.log(`   Timestamp: ${new Date(doc.lastUpdated || doc.lastScraped || 0).getTime()}`);
-    }
-    if (doc.matchType) {
-      console.log(`   Match type: ${doc.matchType}`);
-    }
-  });
-  console.log(`============= END DETAILED RESULTS ============\n`);
-  
-  return sortedDocs;
-};
+});
 
+// search api by domain or something oin content.. should match any word 
