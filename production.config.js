@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'docingest-frontend',
+      name: 'docingest-frontend-prod',
       script: 'bun',
       args: ['./src/frontend-static-server.ts'],
       instances: 1,
@@ -13,15 +13,15 @@ module.exports = {
       max_memory_restart: '512M',
       env: {
         NODE_ENV: 'production',
-        PORT: '8000'  // Explicitly set PORT for clarity
-      },
-      cwd: process.cwd()  // Ensure correct working directory
+        PORT: '8000',
+        PM2_UNIQUE_ID: 'frontend-prod-1'
+      }
     },
     {
-      name: 'docingest-backend',
+      name: 'docingest-backend-prod',
       script: 'bun',
       args: ['./server/server.ts'],
-      instances: 1,
+      instances: 1, 
       exec_mode: 'fork',
       watch: false,
       autorestart: true,
@@ -30,8 +30,9 @@ module.exports = {
       max_memory_restart: '1G',
       env: {
         NODE_ENV: 'production',
-        PORT: '8001'
+        PORT: '8001',
+        PM2_UNIQUE_ID: 'backend-prod-1'
       }
     }
   ]
-}
+} 

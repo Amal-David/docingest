@@ -6,6 +6,10 @@ import { SitemapStream, streamToPromise } from 'sitemap';
 import { Readable } from 'stream';
 import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
+// @ts-ignore
+import compression from 'compression';
+// import { LRUCache } from 'lru-cache'; // Removed for Bun compatibility
+import crypto from 'crypto';
 const app = express();
 const PORT = process.env.PORT || 8001;
 
@@ -20,6 +24,32 @@ app.use(rateLimit({
   standardHeaders: true,
   legacyHeaders: false,
 }));
+app.use(compression());
+
+// Simple in-memory cache for markdown files (Map)
+const mdCache = new Map<string, { content: string, etag: string, mtime: number, cachedAt: number }>();
+const CACHE_TTL = 1000 * 60 * 60; // 1 hour
+
+// Simple per-file rate limiter (per IP, per file)
+const fileRateLimits = new Map<string, Map<string, { count: number, last: number }>>();
+const RATE_LIMIT = 30; // 30 requests
+const RATE_WINDOW = 60 * 1000; // per minute
+
+function checkRateLimit(ip: string, file: string): boolean {
+  const now = Date.now();
+  if (!fileRateLimits.has(file)) fileRateLimits.set(file, new Map());
+  const ipMap = fileRateLimits.get(file)!;
+  if (!ipMap.has(ip)) ipMap.set(ip, { count: 0, last: now });
+  const entry = ipMap.get(ip)!;
+  if (now - entry.last > RATE_WINDOW) {
+    entry.count = 1;
+    entry.last = now;
+    return false;
+  }
+  entry.count++;
+  entry.last = now;
+  return entry.count > RATE_LIMIT;
+}
 
 // Define SitemapUrl interface
 interface SitemapUrl {
@@ -790,39 +820,54 @@ app.get('/api/docs/search', async (req, res) => {
 });
 
 
-// Get file content
+// Get file content (optimized)
 app.get('/api/docs/content', async (req, res) => {
   try {
-    const filePath = req.query.path as string;
-    if (!filePath) {
-      return res.status(400).json({ success: false, error: 'No file path provided' });
+    const filePath = req.query.path as string | undefined;
+    if (!filePath) return res.status(400).json({ success: false, error: 'No file path provided' });
+    if (!await fs.pathExists(filePath)) return res.status(404).json({ success: false, error: 'File not found' });
+    const ip = req.ip;
+    const safePath = filePath as string;
+     // @ts-ignore
+    if (checkRateLimit(ip, safePath)) return res.status(429).json({ success: false, error: 'Rate limit exceeded' });
+    // Check cache
+    let cached = mdCache.get(safePath);
+    let stat = await fs.stat(safePath);
+    const now = Date.now();
+    if (!cached || cached.mtime !== stat.mtimeMs || now - cached.cachedAt > CACHE_TTL) {
+      const content = await fs.readFile(safePath, 'utf-8');
+      const etag = crypto.createHash('md5').update(content).digest('hex');
+      cached = { content, etag, mtime: stat.mtimeMs, cachedAt: now };
+      mdCache.set(safePath, cached);
     }
-
-    if (!await fs.pathExists(filePath)) {
-      return res.status(404).json({ success: false, error: 'File not found' });
-    }
-
-    const content = await fs.readFile(filePath, 'utf-8');
-    res.send(content);
+    // ETag/Last-Modified support
+    res.setHeader('ETag', cached.etag);
+    res.setHeader('Last-Modified', new Date(cached.mtime).toUTCString());
+    if (req.headers['if-none-match'] === cached.etag) return res.status(304).end();
+    if (req.headers['if-modified-since'] && new Date(req.headers['if-modified-since']).getTime() >= cached.mtime) return res.status(304).end();
+    res.send(cached.content);
   } catch (error) {
     console.error('Content error:', error);
     res.status(500).json({ success: false, error: 'Failed to read file content' });
   }
 });
 
-// Download file
+// Download file (streamed, optimized)
 app.get('/api/docs/download', async (req, res) => {
   try {
-    const filePath = req.query.path as string;
-    if (!filePath) {
-      return res.status(400).json({ success: false, error: 'No file path provided' });
-    }
-
-    if (!await fs.pathExists(filePath)) {
-      return res.status(404).json({ success: false, error: 'File not found' });
-    }
-
-    res.download(filePath);
+    const filePath = req.query.path as string | undefined;
+    if (!filePath) return res.status(400).json({ success: false, error: 'No file path provided' });
+    if (!await fs.pathExists(filePath)) return res.status(404).json({ success: false, error: 'File not found' });
+    const ip = req.ip;
+    const safePath = filePath as string;
+    // @ts-ignore
+    if (checkRateLimit(ip, safePath)) return res.status(429).json({ success: false, error: 'Rate limit exceeded' });
+    res.setHeader('Content-Type', 'text/markdown');
+    res.setHeader('Content-Disposition', `attachment; filename="${path.basename(safePath)}"`);
+    const stat = await fs.stat(safePath);
+    res.setHeader('Last-Modified', new Date(stat.mtimeMs).toUTCString());
+    const stream = fs.createReadStream(safePath);
+    stream.pipe(res);
   } catch (error) {
     console.error('Download error:', error);
     res.status(500).json({ success: false, error: 'Failed to download file' });
@@ -1057,3 +1102,14 @@ app.get('/api/docs/check-domain/:domain', async (req, res) => {
 });
 
 // search api by domain or something oin content.. should match any word 
+
+process.on('uncaughtException', (err) => {
+  console.error(`[${process.pid}] Uncaught Exception:`, err);
+});
+process.on('unhandledRejection', (reason, promise) => {
+  console.error(`[${process.pid}] Unhandled Rejection:`, reason);
+});
+console.log(`[${process.pid}] Starting ${process.env.NODE_ENV} - ${process.env.PORT || ''}`);
+app.listen(PORT, () => {
+  console.log(`[${process.pid}] Server running on port ${PORT}`);
+});
