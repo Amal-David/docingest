@@ -14,8 +14,21 @@ const app = express();
 const PORT = process.env.PORT || 8001;
 
 // Increase payload size limits
-app.use(express.json({ limit: '150mb' }));
-app.use(express.urlencoded({ limit: '150mb', extended: true }));
+app.use(express.json({ limit: '100mb' }));
+app.use(express.urlencoded({ limit: '100mb', extended: true }));
+
+// Add additional middleware for raw and text payloads
+app.use(express.raw({ limit: '100mb' }));
+app.use(express.text({ limit: '100mb' }));
+
+// Add headers to help identify the issue
+app.use((req, res, next) => {
+  // Set explicit content-length header for responses
+  res.setHeader('x-max-content-length', '104857600'); // 100MB in bytes
+  res.setHeader('x-server-limit', '100MB');
+  next();
+});
+
 app.use(cors());
 app.use(helmet());
 app.use(rateLimit({

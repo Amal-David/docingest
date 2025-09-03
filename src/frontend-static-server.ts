@@ -62,11 +62,14 @@ if (!fs.existsSync(buildPath)) {
   cleanupAndExit(1);
 }
 
-// Serve static files
-app.use(serveStatic(buildPath, { index: ['index.html'] }));
+// Serve static files with fallthrough enabled
+app.use(express.static(buildPath, { 
+  index: ['index.html'],
+  fallthrough: true 
+}));
 
-// For client-side routing, send index.html for any path not found
-app.get('*', (req, res) => {
+// For client-side routing, serve index.html for any request that doesn't match a file
+app.use((req, res) => {
   res.sendFile(path.join(buildPath, 'index.html'));
 });
 

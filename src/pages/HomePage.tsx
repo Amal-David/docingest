@@ -345,8 +345,8 @@ const HomePage: React.FC = () => {
           formats: ['markdown', 'html'],
           onlyMainContent: true,
           removeBase64Images: false,
-          timeout: 20000,
-          waitFor: 1000
+          timeout: 60000,  // Increased to 60 seconds (will give ~30s per engine)
+          waitFor: 2000    // Increased wait time for heavy pages
         }
       };
 
@@ -364,8 +364,28 @@ const HomePage: React.FC = () => {
         }
       }
 
-      // Log the request for debugging
-      console.log('Crawl request:', requestBody);
+      // Enhanced request logging
+      const requestLog = [
+        `🚀 STARTING CRAWL REQUEST:`,
+        `   Target URL: ${url}`,
+        `   Domain: ${domain}`,
+        `   Max Pages: ${maxPages}`,
+        `   Max Depth: 5`,
+        `   Include Patterns: ${includePattern || 'None'}`,
+        `   Exclude Patterns: ${excludePattern || 'None'}`,
+        `   Allow Backward Links: true`,
+        `   Scrape Options:`,
+        `     • Formats: markdown, html`,
+        `     • Main Content Only: true`,
+        `     • Remove Base64 Images: false`,
+        `     • Timeout: 20000ms`,
+        `     • Wait For: 1000ms`,
+        `   Request Size: ${new Blob([JSON.stringify(requestBody)]).size} bytes`,
+        ``
+      ].join('\n');
+      
+      console.log(requestLog);
+      logAndUpdateDebug(requestLog);
 
       const response = await fetch(`${FIRECRAWL_API}/crawl`, {
         method: 'POST',
@@ -376,15 +396,40 @@ const HomePage: React.FC = () => {
         body: JSON.stringify(requestBody)
       });
 
-      logAndUpdateDebug(`Response status: ${response.status}`);
+      const responseLog = [
+        `📡 FIRECRAWL RESPONSE:`,
+        `   Status: ${response.status} ${response.statusText}`,
+        `   Headers:`,
+        `     • Content-Type: ${response.headers.get('content-type')}`,
+        `     • Content-Length: ${response.headers.get('content-length')}`,
+        `     • Server: ${response.headers.get('server') || 'Unknown'}`,
+        ``
+      ].join('\n');
+      
+      console.log(responseLog);
+      logAndUpdateDebug(responseLog);
 
       if (!response.ok) {
         const errorText = await response.text();
         console.error('Error response:', errorText);
+        logAndUpdateDebug(`❌ CRAWL REQUEST FAILED: ${response.status} - ${errorText}`);
         throw new Error(`Failed to start download: ${response.status} - ${errorText}`);
       }
 
       const data = await response.json();
+      
+      const successLog = [
+        `✅ CRAWL STARTED SUCCESSFULLY:`,
+        `   Crawl ID: ${data.id}`,
+        `   Success: ${data.success}`,
+        `   URL: ${data.url || 'Not provided'}`,
+        `   Message: ${data.message || 'None'}`,
+        `   Estimated Cost: ${data.creditsUsed || 'Unknown'} credits`,
+        ``
+      ].join('\n');
+      
+      console.log(successLog);
+      logAndUpdateDebug(successLog);
       
       if (!data.success || !data.id) {
         throw new Error(data.error || 'Failed to start download: No crawl ID received');
@@ -392,7 +437,6 @@ const HomePage: React.FC = () => {
 
       setCrawlId(data.id);
       setIsCrawling(true);
-      logAndUpdateDebug(`Download started successfully. ID: ${data.id}`);
       
       pollCrawlStatus(data.id, domain);
     } catch (err) {
@@ -416,13 +460,122 @@ const HomePage: React.FC = () => {
       });
 
       const data = await response.json();
-      logAndUpdateDebug(`Download status: ${data.status} - Completed: ${data.completed}/${data.total}`);
+      
+      // Enhanced logging for debugging
+      const timestamp = new Date().toISOString();
+      const detailedLog = [
+        `📊 [${timestamp}] CRAWL STATUS REPORT - ID: ${id}`,
+        `   Status: ${data.status}`,
+        `   Progress: ${data.completed || 0}/${data.total || 0} pages`,
+        `   Success Rate: ${data.completed ? Math.round((data.completed / (data.total || 1)) * 100) : 0}%`,
+        `   Data Array Length: ${data.data?.length || 0}`,
+        ``
+      ];
 
-      // Update metrics
+      // Analyze the crawl data in detail
+      if (data.data && Array.isArray(data.data)) {
+        detailedLog.push(`📄 PAGE ANALYSIS:`);
+        let successfulPages = 0;
+        let failedPages = 0;
+        let emptyPages = 0;
+        const pageDetails: string[] = [];
+        const failureReasons: Record<string, number> = {};
+
+        data.data.forEach((item: any, index: number) => {
+          const url = item.metadata?.sourceURL || `Page ${index + 1}`;
+          const hasMarkdown = !!item.markdown;
+          const markdownLength = item.markdown?.length || 0;
+          const title = item.metadata?.title || 'No title';
+          const statusCode = item.metadata?.statusCode || 'Unknown';
+
+          if (hasMarkdown && markdownLength > 100) {
+            successfulPages++;
+            pageDetails.push(`   ✅ ${url} - ${markdownLength} chars - "${title}"`);
+          } else if (hasMarkdown && markdownLength <= 100) {
+            emptyPages++;
+            pageDetails.push(`   ⚠️  ${url} - ${markdownLength} chars (too short) - "${title}"`);
+            failureReasons['Content too short'] = (failureReasons['Content too short'] || 0) + 1;
+          } else {
+            failedPages++;
+            pageDetails.push(`   ❌ ${url} - No content - Status: ${statusCode} - "${title}"`);
+            const reason = statusCode === 200 ? 'No markdown extracted' : `HTTP ${statusCode}`;
+            failureReasons[reason] = (failureReasons[reason] || 0) + 1;
+          }
+        });
+
+        detailedLog.push(`   Total processed: ${data.data.length}`);
+        detailedLog.push(`   ✅ Successful: ${successfulPages}`);
+        detailedLog.push(`   ⚠️  Empty/Short: ${emptyPages}`);
+        detailedLog.push(`   ❌ Failed: ${failedPages}`);
+        detailedLog.push(``);
+
+        if (Object.keys(failureReasons).length > 0) {
+          detailedLog.push(`🔍 FAILURE BREAKDOWN:`);
+          Object.entries(failureReasons).forEach(([reason, count]) => {
+            detailedLog.push(`   ${reason}: ${count} pages`);
+          });
+          detailedLog.push(``);
+        }
+
+        detailedLog.push(`📋 DETAILED PAGE LIST:`);
+        pageDetails.forEach(detail => detailedLog.push(detail));
+        detailedLog.push(``);
+      }
+
+      // Log Firecrawl configuration being used
+      if (data.status === 'scraping' || data.status === 'completed') {
+        detailedLog.push(`⚙️  CRAWL CONFIGURATION:`);
+        detailedLog.push(`   URL: ${url}`);
+        detailedLog.push(`   Max Pages: ${maxPages}`);
+        detailedLog.push(`   Max Depth: 5`);
+        detailedLog.push(`   Include Pattern: ${includePattern || 'None'}`);
+        detailedLog.push(`   Exclude Pattern: ${excludePattern || 'None'}`);
+        detailedLog.push(`   Formats: markdown, html`);
+        detailedLog.push(`   Main Content Only: true`);
+        detailedLog.push(`   Timeout: 20000ms`);
+        detailedLog.push(`   Wait For: 1000ms`);
+        detailedLog.push(``);
+      }
+
+      // Check for potential issues
+      if (data.status === 'completed' && data.total && data.total < 5) {
+        detailedLog.push(`🚨 POTENTIAL ISSUES DETECTED:`);
+        detailedLog.push(`   Very few pages discovered (${data.total}). This could indicate:`);
+        detailedLog.push(`   • Website blocks crawlers (robots.txt, rate limiting)`);
+        detailedLog.push(`   • Include/exclude patterns too restrictive`);
+        detailedLog.push(`   • Site requires authentication`);
+        detailedLog.push(`   • Dynamic content loading issues`);
+        detailedLog.push(`   • Site structure doesn't match expected patterns`);
+        detailedLog.push(``);
+      }
+
+      if (data.data && data.completed && data.completed < data.total) {
+        const failureRate = Math.round(((data.total - data.completed) / data.total) * 100);
+        if (failureRate > 50) {
+          detailedLog.push(`🚨 HIGH FAILURE RATE DETECTED (${failureRate}%):`);
+          detailedLog.push(`   This suggests potential issues:`);
+          detailedLog.push(`   • Server rate limiting or blocking`);
+          detailedLog.push(`   • Unstable network connection`);
+          detailedLog.push(`   • Pages require JavaScript rendering`);
+          detailedLog.push(`   • Authentication required for content`);
+          detailedLog.push(`   • Server overload or timeouts`);
+          detailedLog.push(``);
+        }
+      }
+
+      const fullLog = detailedLog.join('\n');
+      console.log(fullLog);
+      logAndUpdateDebug(fullLog);
+
+      // Update metrics with enhanced data
       setMetrics(prev => ({
         ...prev,
         totalPages: data.total || 0,
         completedPages: data.completed || 0,
+        failedPages: data.data 
+          ? data.data.filter((item: any) => !item.markdown || item.markdown.length <= 100)
+              .map((item: any) => item.metadata?.sourceURL || 'Unknown URL')
+          : [],
         inProgress: data.status !== 'completed' && data.status !== 'failed'
       }));
 
@@ -433,8 +586,11 @@ const HomePage: React.FC = () => {
           const failedPages: string[] = [];
           
           const pages: DocPreview[] = data.data.map((item: CrawlStatusResponse['data'][0]) => {
-            if (!item.markdown) {
-              failedPages.push(item.metadata?.sourceURL || 'Unknown URL');
+            if (!item.markdown || item.markdown.length <= 100) {
+              const failureReason = !item.markdown 
+                ? 'No markdown content' 
+                : 'Content too short';
+              failedPages.push(`${item.metadata?.sourceURL || 'Unknown URL'} (${failureReason})`);
               return {
                 content: 'No content available',
                 type: item.metadata?.title || 'Unknown',
@@ -451,6 +607,8 @@ const HomePage: React.FC = () => {
               domain
             };
           }).filter((page: DocPreview) => page.content !== 'No content available');
+
+          logAndUpdateDebug(`🎯 FINAL RESULTS: ${pages.length} valid pages out of ${data.data.length} total pages processed`);
 
           if (pages.length > 0) {
             // Save URL status
@@ -476,7 +634,7 @@ const HomePage: React.FC = () => {
               const requestSize = new Blob([JSON.stringify(requestData)]).size;
               const requestSizeMB = (requestSize / (1024 * 1024)).toFixed(2);
               
-              logAndUpdateDebug(`Documentation size: ${requestSizeMB} MB`);
+              logAndUpdateDebug(`💾 Saving documentation: ${requestSizeMB} MB, ${pages.length} pages`);
 
               const saveResponse = await fetch(`${API_URL}/docs/save`, {
                 method: 'POST',
@@ -518,7 +676,7 @@ const HomePage: React.FC = () => {
                 throw new Error('Server response missing filePath');
               }
 
-              logAndUpdateDebug(`Successfully saved documentation. Request size was ${requestSizeMB} MB`);
+              logAndUpdateDebug(`✅ Successfully saved documentation to: ${savedData.filePath}`);
 
               const docsWithPaths = pages.map(page => ({
                 ...page,
@@ -527,50 +685,42 @@ const HomePage: React.FC = () => {
               
               // Update state with file paths
               setSavedDocs(prev => [...prev.filter(d => d.domain !== domain), ...docsWithPaths]);
-              
-              // Set preview of first successful page
-              if (docsWithPaths.length > 0) {
-                setSelectedDoc(docsWithPaths[0]);
-                setShowPreview(true);
-                // Use navigate instead of window.location for better routing
-                navigate(`/docs/${domain}`);
-              }
 
-              // Update final metrics
-              setMetrics(prev => ({
-                ...prev,
-                failedPages,
-                inProgress: false,
-                completedPages: pages.length,
-                totalPages: data.total
-              }));
+              // Show success message and navigate
+              setShowPreview(true);
+              setSelectedDoc(docsWithPaths[0]);
+              logAndUpdateDebug(`🎉 Documentation successfully downloaded! Navigating to results...`);
+              setTimeout(() => navigate(`/docs/${domain}`), 2000);
               
-              logAndUpdateDebug(`Download completed. Successfully saved ${pages.length} pages. Failed: ${failedPages.length}`);
-            } catch (err) {
-              console.error('Save error:', err);
-              setError(err instanceof Error ? err.message : 'Failed to save documentation to server');
-              setMetrics(prev => ({ ...prev, inProgress: false }));
-              // Clear any loading states
-              setIsCrawling(false);
+            } catch (saveError) {
+              console.error('Save error:', saveError);
+              logAndUpdateDebug(`❌ Failed to save documentation: ${saveError instanceof Error ? saveError.message : 'Unknown error'}`);
+              setError(saveError instanceof Error ? saveError.message : 'Failed to save documentation');
             }
           } else {
-            setError('No valid content found in the scraped pages');
-            setMetrics(prev => ({ ...prev, inProgress: false }));
+            logAndUpdateDebug(`❌ No valid content found. All ${data.data.length} pages failed to provide usable content.`);
+            setError(`No valid content found in the scraped pages. Processed ${data.data.length} pages but none contained sufficient content.`);
           }
         } else {
+          logAndUpdateDebug(`❌ Crawl completed but no data received from Firecrawl`);
           setError('No data received from the scraping process');
           setMetrics(prev => ({ ...prev, inProgress: false }));
         }
       } else if (data.status === 'failed') {
-        setError('Download failed. Please try again.');
+        logAndUpdateDebug(`❌ CRAWL FAILED: ${data.error || 'Unknown error'}`);
+        setError(`Download failed: ${data.error || 'Unknown error'}. Please try again.`);
         setIsCrawling(false);
         setMetrics(prev => ({ ...prev, inProgress: false }));
       } else {
-        // Continue polling
+        // Continue polling with time estimate
+        const remaining = (data.total || 0) - (data.completed || 0);
+        const estimatedTimeRemaining = remaining * 3; // Rough estimate: 3 seconds per page
+        logAndUpdateDebug(`⏳ Still processing... ETA: ~${estimatedTimeRemaining}s (${remaining} pages remaining)`);
         setTimeout(() => pollCrawlStatus(id, domain), 5000);
       }
     } catch (err) {
       console.error('Poll error:', err);
+      logAndUpdateDebug(`❌ Failed to check download status: ${err instanceof Error ? err.message : 'Unknown error'}`);
       setError('Failed to check download status. Please try again.');
       setIsCrawling(false);
       setMetrics(prev => ({ ...prev, inProgress: false }));
