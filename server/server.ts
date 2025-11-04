@@ -43,6 +43,10 @@ app.use(compression());
 const mdCache = new Map<string, { content: string, etag: string, mtime: number, cachedAt: number }>();
 const CACHE_TTL = 1000 * 60 * 60; // 1 hour
 
+// Cache for API responses
+const apiCache = new Map<string, { data: any, cachedAt: number }>();
+const API_CACHE_TTL = 1000 * 60 * 5; // 5 minutes for API responses
+
 // Simple per-file rate limiter (per IP, per file)
 const fileRateLimits = new Map<string, Map<string, { count: number, last: number }>>();
 const RATE_LIMIT = 30; // 30 requests
@@ -559,8 +563,6 @@ function generateSitemapXML(urls: Array<{
 
 app.get('/api/docs/list', async (req, res) => {
   try {
-    console.log('Reading storage directory:', STORAGE_PATH);
-    
     // Get pagination parameters from query string
     const page = parseInt(req.query.page as string) || 1; // Default to page 1
     const limit = parseInt(req.query.limit as string) || 10; // Default to 10 docs per page
@@ -569,6 +571,19 @@ app.get('/api/docs/list', async (req, res) => {
     if (page < 1 || limit < 1) {
       return res.status(400).json({ success: false, error: 'Invalid page or limit values' });
     }
+
+    // Check cache for this specific query
+    const cacheKey = `docs-list-${page}-${limit}-${sortBy}`;
+    const cached = apiCache.get(cacheKey);
+    const now = Date.now();
+    
+    if (cached && now - cached.cachedAt < API_CACHE_TTL) {
+      res.setHeader('X-Cache', 'HIT');
+      res.setHeader('Cache-Control', 'public, max-age=300'); // 5 minutes
+      return res.json(cached.data);
+    }
+    
+    console.log('Reading storage directory:', STORAGE_PATH);
 
     if (!await fs.pathExists(STORAGE_PATH)) {
       console.log('Storage directory does not exist, creating it');
@@ -700,7 +715,8 @@ app.get('/api/docs/list', async (req, res) => {
     const paginatedUrls = sortedUrls.slice((page - 1) * limit, page * limit);
 
     console.log(`Returning ${paginatedDocs.length} documents for page ${page} sorted by ${sortBy}`);
-    res.json({ 
+    
+    const responseData = { 
       docs: paginatedDocs,
       urls: paginatedUrls,
       totalDocs, 
@@ -708,7 +724,16 @@ app.get('/api/docs/list', async (req, res) => {
       page, 
       limit,
       totalPages: Math.ceil(totalDocs / limit) 
-    });
+    };
+    
+    // Cache the response
+    apiCache.set(cacheKey, { data: responseData, cachedAt: now });
+    
+    // Set cache headers
+    res.setHeader('X-Cache', 'MISS');
+    res.setHeader('Cache-Control', 'public, max-age=300'); // 5 minutes
+    
+    res.json(responseData);
   } catch (error) {
     console.error('List error:', error);
     res.status(500).json({ success: false, error: 'Internal server error' });
@@ -955,6 +980,27 @@ app.get('/api/docs/download', async (req, res) => {
   } catch (error) {
     console.error('Download error:', error);
     res.status(500).json({ success: false, error: 'Failed to download file' });
+  }
+});
+
+// Web Vitals analytics endpoint
+app.post('/api/analytics/web-vitals', async (req, res) => {
+  try {
+    const { name, value, delta, id, rating, page, url, userAgent, connection, timestamp } = req.body;
+    
+    // Log Web Vitals metrics (you can extend this to store in database)
+    console.log(`[Web Vitals] ${name}: ${value}${name === 'CLS' ? '' : 'ms'} (${rating}) - ${page}`);
+    
+    // Store in a simple file or extend to database
+    // For now, just acknowledge
+    res.json({ 
+      success: true, 
+      message: 'Web Vitals metric recorded',
+      metric: { name, value, rating }
+    });
+  } catch (error) {
+    console.error('Web Vitals error:', error);
+    res.status(500).json({ success: false, error: 'Failed to record metric' });
   }
 });
 

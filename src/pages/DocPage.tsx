@@ -1,10 +1,8 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, Suspense } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import type { Components } from 'react-markdown';
 import { Helmet } from 'react-helmet-async';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import rehypeSanitize from 'rehype-sanitize';
@@ -13,6 +11,44 @@ import type { Node as TurndownNode } from 'turndown';
 import DOMPurify from 'dompurify';
 import { ErrorBoundary } from '../components/error-boundary';
 import { TableOfContents } from '../components/table-of-contents';
+
+// Lazy load SyntaxHighlighter - it's a heavy library (~500KB)
+const SyntaxHighlighterLazy = React.lazy(() => 
+  Promise.all([
+    import('react-syntax-highlighter'),
+    import('react-syntax-highlighter/dist/esm/styles/prism')
+  ]).then(([module, styles]) => ({
+    default: ({ children, language }: { children: string; language: string }) => {
+      const { Prism } = module;
+      return (
+        <Prism
+          language={language}
+          style={styles.oneDark}
+          showLineNumbers={true}
+          customStyle={{
+            margin: 0,
+            padding: '1.5rem',
+            fontSize: '0.875rem',
+            lineHeight: '1.7',
+            background: 'transparent'
+          }}
+          lineNumberStyle={{
+            minWidth: '2.5em',
+            paddingRight: '1em',
+            color: '#666',
+            borderRight: '1px solid #404040',
+            marginRight: '1em',
+            userSelect: 'none'
+          }}
+          wrapLongLines={false}
+          preserveWhitespace={true}
+        >
+          {children}
+        </Prism>
+      );
+    }
+  }))
+);
 
 const API_URL = '/api';
 
@@ -347,30 +383,15 @@ const DocPage: React.FC = () => {
                 <code>{cleanContent}</code>
               </pre>
             }>
-              <SyntaxHighlighter
-                language={lang || 'text'}
-                style={oneDark}
-                showLineNumbers={true}
-                customStyle={{
-                  margin: 0,
-                  padding: '1.5rem',
-                  fontSize: '0.875rem',
-                  lineHeight: '1.7',
-                  background: 'transparent'
-                }}
-                lineNumberStyle={{
-                  minWidth: '2.5em',
-                  paddingRight: '1em',
-                  color: '#666',
-                  borderRight: '1px solid #404040',
-                  marginRight: '1em',
-                  userSelect: 'none'
-                }}
-                wrapLongLines={false}
-                preserveWhitespace={true}
-              >
-                {cleanContent}
-              </SyntaxHighlighter>
+              <Suspense fallback={
+                <pre className="p-4 text-sm text-gray-300 font-mono">
+                  <code>{cleanContent}</code>
+                </pre>
+              }>
+                <SyntaxHighlighterLazy language={lang || 'text'}>
+                  {cleanContent}
+                </SyntaxHighlighterLazy>
+              </Suspense>
             </ErrorBoundary>
           </div>
         </div>
