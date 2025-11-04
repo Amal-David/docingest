@@ -210,10 +210,33 @@ async function generateSitemap(baseUrl: string, docDomains: any[]) {
 
 app.get('/api/sitemap/generate', async (req, res) => {
   try {
+      const baseUrl = 'https://docingest.com';
       const domains = await fs.readdir(STORAGE_PATH);
       const totalDomains = domains.length;
       let processedDomains = 0;
-      const sitemapUrls: string[] = [];
+      
+      // Static pages with high priority
+      const staticPages = [
+          {
+              url: `${baseUrl}/`,
+              changefreq: 'daily',
+              priority: 1.0,
+              lastmod: new Date().toISOString()
+          },
+          {
+              url: `${baseUrl}/view`,
+              changefreq: 'daily',
+              priority: 0.9,
+              lastmod: new Date().toISOString()
+          }
+      ];
+
+      const sitemapUrls: Array<{
+          url: string;
+          changefreq: string;
+          priority: number;
+          lastmod?: string;
+      }> = [...staticPages];
 
       // Process domains in batches
       for (let i = 0; i < totalDomains; i += BATCH_SIZE) {
@@ -225,11 +248,52 @@ app.get('/api/sitemap/generate', async (req, res) => {
               
               if (await fs.pathExists(metadataPath)) {
                   const metadata = await fs.readJSON(metadataPath);
-                  sitemapUrls.push(`https://docingest.com/docs/${domain}`);
+                  const lastScraped = metadata.lastScraped || metadata.lastUpdated;
+                  const lastmod = lastScraped ? new Date(lastScraped).toISOString() : undefined;
+                  
+                  // Calculate priority based on:
+                  // - Total pages (more pages = higher priority)
+                  // - Recency (recently updated = higher priority)
+                  let priority = 0.7; // Base priority
+                  
+                  if (metadata.totalPages) {
+                      if (metadata.totalPages > 100) priority = 0.9;
+                      else if (metadata.totalPages > 50) priority = 0.8;
+                      else if (metadata.totalPages > 20) priority = 0.75;
+                  }
+                  
+                  // Boost priority for recently updated docs
+                  if (lastmod) {
+                      const daysSinceUpdate = (Date.now() - new Date(lastmod).getTime()) / (1000 * 60 * 60 * 24);
+                      if (daysSinceUpdate < 7) priority += 0.1;
+                      else if (daysSinceUpdate < 30) priority += 0.05;
+                  }
+                  
+                  // Cap priority at 0.9 (keep homepage at 1.0)
+                  priority = Math.min(0.9, priority);
+                  
+                  // Determine changefreq based on update recency
+                  let changefreq = 'monthly';
+                  if (lastmod) {
+                      const daysSinceUpdate = (Date.now() - new Date(lastmod).getTime()) / (1000 * 60 * 60 * 24);
+                      if (daysSinceUpdate < 7) changefreq = 'daily';
+                      else if (daysSinceUpdate < 30) changefreq = 'weekly';
+                      else if (daysSinceUpdate < 90) changefreq = 'monthly';
+                  }
+                  
+                  sitemapUrls.push({
+                      url: `${baseUrl}/docs/${domain}`,
+                      changefreq,
+                      priority: Math.round(priority * 10) / 10, // Round to 1 decimal
+                      lastmod
+                  });
               }
               processedDomains++;
           }
       }
+
+      // Sort by priority (descending) for better SEO
+      sitemapUrls.sort((a, b) => (b.priority || 0) - (a.priority || 0));
 
       // Generate sitemap XML
       const sitemapContent = generateSitemapXML(sitemapUrls);
@@ -240,6 +304,7 @@ app.get('/api/sitemap/generate', async (req, res) => {
           success: true,
           processedDomains,
           totalDomains,
+          totalUrls: sitemapUrls.length,
           sitemapUrl: 'https://docingest.com/sitemap.xml'
       });
   } catch (error) {
@@ -469,19 +534,25 @@ const BATCH_SIZE = 100; // Process 100 domains at a time
 
 
 
-function generateSitemapXML(urls: string[]): string {
-    const urlElements = urls.map(url => `
+function generateSitemapXML(urls: Array<{
+    url: string;
+    changefreq: string;
+    priority: number;
+    lastmod?: string;
+}>): string {
+    const urlElements = urls.map(entry => {
+        const lastmod = entry.lastmod ? `\n            <lastmod>${entry.lastmod}</lastmod>` : '';
+        return `
         <url>
-            <loc>${url}</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-        </url>
-    `).join('');
+            <loc>${entry.url}</loc>
+            <changefreq>${entry.changefreq}</changefreq>
+            <priority>${entry.priority}</priority>${lastmod}
+        </url>`;
+    }).join('');
 
     return `<?xml version="1.0" encoding="UTF-8"?>
-        <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-            ${urlElements}
-        </urlset>`;
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urlElements}
+</urlset>`;
 }
 
 
