@@ -10,6 +10,19 @@ import rateLimit from 'express-rate-limit';
 import compression from 'compression';
 // import { LRUCache } from 'lru-cache'; // Removed for Bun compatibility
 import crypto from 'crypto';
+
+// Redis for fast search
+import {
+  initRedis,
+  isRedisAvailable,
+  autocompleteSearch,
+  fullTextSearch,
+  trackSearch,
+  getPopularSearches,
+  getIndexStats,
+  indexDomain,
+  type DomainMeta,
+} from './lib/redis';
 const app = express();
 const PORT = process.env.PORT || 8001;
 
@@ -127,7 +140,11 @@ function sortDocs(docs: any[], sortBy: string): any[] {
 }
 
 // Storage path - using absolute path from project root
-const STORAGE_PATH = path.join(process.cwd(), 'server', 'storage', 'docs');
+// Detect if we're running from the server directory or project root
+const isInServerDir = process.cwd().endsWith('/server') || process.cwd().endsWith('\\server');
+const STORAGE_PATH = isInServerDir
+  ? path.join(process.cwd(), 'storage', 'docs')
+  : path.join(process.cwd(), 'server', 'storage', 'docs');
 console.log('Storage path:', STORAGE_PATH);
 
 // Ensure storage directory exists
@@ -1231,7 +1248,164 @@ app.get('/api/docs/check-domain/:domain', async (req, res) => {
   }
 });
 
-// search api by domain or something oin content.. should match any word 
+// search api by domain or something oin content.. should match any word
+
+// ============================================================================
+// REDIS-POWERED FAST SEARCH ENDPOINTS
+// ============================================================================
+
+/**
+ * Autocomplete endpoint - Lightning fast prefix search
+ * GET /api/docs/autocomplete?q=react&limit=8
+ */
+app.get('/api/docs/autocomplete', async (req, res) => {
+  const startTime = Date.now();
+
+  try {
+    const query = (req.query.q as string || '').trim();
+    const limit = Math.min(parseInt(req.query.limit as string) || 8, 20);
+
+    if (!query || query.length < 2) {
+      return res.json({
+        suggestions: [],
+        query,
+        timing: Date.now() - startTime,
+        source: 'none',
+      });
+    }
+
+    // Try Redis first
+    if (isRedisAvailable()) {
+      const suggestions = await autocompleteSearch(query, limit);
+
+      // Track the search for analytics
+      trackSearch(query);
+
+      return res.json({
+        suggestions: suggestions.map(s => ({
+          domain: s.domain,
+          title: s.title,
+          snippet: s.snippet,
+          url: s.url,
+          matchType: s.domain.toLowerCase().startsWith(query.toLowerCase()) ? 'prefix' : 'contains',
+        })),
+        query,
+        timing: Date.now() - startTime,
+        source: 'redis',
+        totalMatches: suggestions.length,
+      });
+    }
+
+    // Fallback to filesystem search
+    console.log('[Autocomplete] Redis unavailable, falling back to filesystem');
+    const domains = await fs.readdir(STORAGE_PATH);
+    const queryLower = query.toLowerCase();
+
+    const matches = domains
+      .filter(d => d.toLowerCase().includes(queryLower))
+      .slice(0, limit)
+      .map(domain => ({
+        domain,
+        title: domain.replace(/^docs\./, '').replace(/\.(com|org|io|dev|ai)$/, ''),
+        snippet: '',
+        url: `https://${domain}`,
+        matchType: domain.toLowerCase().startsWith(queryLower) ? 'prefix' : 'contains',
+      }));
+
+    return res.json({
+      suggestions: matches,
+      query,
+      timing: Date.now() - startTime,
+      source: 'filesystem',
+      totalMatches: matches.length,
+    });
+  } catch (error) {
+    console.error('Autocomplete error:', error);
+    res.status(500).json({
+      suggestions: [],
+      query: req.query.q,
+      timing: Date.now() - startTime,
+      error: 'Search failed',
+    });
+  }
+});
+
+/**
+ * Fast full-text search endpoint
+ * GET /api/docs/fast-search?q=hooks&limit=10
+ */
+app.get('/api/docs/fast-search', async (req, res) => {
+  const startTime = Date.now();
+
+  try {
+    const query = (req.query.q as string || '').trim();
+    const limit = Math.min(parseInt(req.query.limit as string) || 10, 50);
+
+    if (!query) {
+      return res.status(400).json({ error: 'Missing search query' });
+    }
+
+    // Try Redis first
+    if (isRedisAvailable()) {
+      const { domains, timing } = await fullTextSearch(query, limit);
+
+      trackSearch(query);
+
+      return res.json({
+        results: domains,
+        query,
+        timing,
+        source: 'redis',
+        totalMatches: domains.length,
+      });
+    }
+
+    // Fallback to existing fullsearch logic (slower)
+    return res.redirect(`/api/docs/fullsearch?q=${encodeURIComponent(query)}&limit=${limit}`);
+  } catch (error) {
+    console.error('Fast search error:', error);
+    res.status(500).json({ error: 'Search failed' });
+  }
+});
+
+/**
+ * Popular searches endpoint
+ * GET /api/docs/popular
+ */
+app.get('/api/docs/popular', async (req, res) => {
+  try {
+    const limit = Math.min(parseInt(req.query.limit as string) || 10, 20);
+
+    if (isRedisAvailable()) {
+      const popular = await getPopularSearches(limit);
+      return res.json({ searches: popular, source: 'redis' });
+    }
+
+    // No fallback for popular searches - requires Redis
+    return res.json({ searches: [], source: 'none' });
+  } catch (error) {
+    console.error('Popular searches error:', error);
+    res.status(500).json({ searches: [], error: 'Failed to get popular searches' });
+  }
+});
+
+/**
+ * Index stats endpoint (admin)
+ * GET /api/admin/index/stats
+ */
+app.get('/api/admin/index/stats', async (req, res) => {
+  try {
+    const stats = await getIndexStats();
+    res.json(stats);
+  } catch (error) {
+    console.error('Index stats error:', error);
+    res.status(500).json({ error: 'Failed to get index stats' });
+  }
+});
+
+// ============================================================================
+// SERVER INITIALIZATION
+// ============================================================================
 
 process.on('uncaughtException', (err) => {
   console.error(`[${process.pid}] Uncaught Exception:`, err);
@@ -1239,6 +1413,16 @@ process.on('uncaughtException', (err) => {
 process.on('unhandledRejection', (reason, promise) => {
   console.error(`[${process.pid}] Unhandled Rejection:`, reason);
 });
+
+// Initialize Redis connection (non-blocking)
+initRedis().then(connected => {
+  if (connected) {
+    console.log(`[${process.pid}] Redis connected - fast search enabled`);
+  } else {
+    console.log(`[${process.pid}] Redis not available - using filesystem fallback`);
+  }
+});
+
 console.log(`[${process.pid}] Starting ${process.env.NODE_ENV} - ${process.env.PORT || ''}`);
 app.listen(PORT, () => {
   console.log(`[${process.pid}] Server running on port ${PORT}`);

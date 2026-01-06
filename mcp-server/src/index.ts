@@ -1,0 +1,407 @@
+#!/usr/bin/env node
+
+/**
+ * DocIngest MCP Server
+ *
+ * Provides up-to-date documentation for LLMs and AI code editors.
+ *
+ * Usage:
+ *   claude mcp add docingest -- npx -y @docingest/mcp-server@latest
+ *
+ * Tools:
+ *   - resolve-library-id: Find documentation by library name
+ *   - get-library-docs: Fetch documentation content
+ *   - search-docs: Full-text search across all documentation
+ */
+
+import { Server } from "@modelcontextprotocol/sdk/server/index.js";
+import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
+import {
+  CallToolRequestSchema,
+  ListToolsRequestSchema,
+  ErrorCode,
+  McpError,
+} from "@modelcontextprotocol/sdk/types.js";
+import { z } from "zod";
+
+// Configuration
+const DOCINGEST_API_URL = process.env.DOCINGEST_API_URL || "https://docingest.com/api";
+const DEFAULT_MAX_TOKENS = 5000;
+const MAX_SNIPPET_LENGTH = 500;
+
+// Tool input schemas
+const ResolveLibrarySchema = z.object({
+  libraryName: z.string().min(1).describe("Name of the library or framework (e.g., 'react', 'nextjs', 'tailwind')"),
+});
+
+const GetLibraryDocsSchema = z.object({
+  domain: z.string().min(1).describe("Domain ID from resolve-library-id (e.g., 'react.dev', 'nextjs.org')"),
+  topic: z.string().optional().describe("Optional topic to filter documentation (e.g., 'hooks', 'routing', 'api')"),
+  maxTokens: z.number().optional().default(DEFAULT_MAX_TOKENS).describe("Maximum tokens to return (default: 5000)"),
+});
+
+const SearchDocsSchema = z.object({
+  query: z.string().min(1).describe("Search query to find across all documentation"),
+  limit: z.number().optional().default(5).describe("Maximum number of results (default: 5)"),
+});
+
+// Helper: Fetch from DocIngest API
+async function fetchFromAPI(endpoint: string): Promise<any> {
+  const url = `${DOCINGEST_API_URL}${endpoint}`;
+
+  try {
+    const response = await fetch(url, {
+      headers: {
+        "Accept": "application/json",
+        "User-Agent": "DocIngest-MCP-Server/1.0",
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error(`API request failed: ${response.status} ${response.statusText}`);
+    }
+
+    return await response.json();
+  } catch (error) {
+    console.error(`[DocIngest MCP] API error for ${endpoint}:`, error);
+    throw error;
+  }
+}
+
+// Helper: Truncate content to approximate token count
+function truncateToTokens(content: string, maxTokens: number): string {
+  // Rough approximation: 1 token ≈ 4 characters
+  const maxChars = maxTokens * 4;
+
+  if (content.length <= maxChars) {
+    return content;
+  }
+
+  // Find a good break point (paragraph or sentence)
+  let truncated = content.slice(0, maxChars);
+  const lastParagraph = truncated.lastIndexOf("\n\n");
+  const lastSentence = truncated.lastIndexOf(". ");
+
+  if (lastParagraph > maxChars * 0.8) {
+    truncated = truncated.slice(0, lastParagraph);
+  } else if (lastSentence > maxChars * 0.8) {
+    truncated = truncated.slice(0, lastSentence + 1);
+  }
+
+  return truncated + "\n\n[Content truncated to fit token limit]";
+}
+
+// Helper: Filter content by topic
+function filterByTopic(content: string, topic: string): string {
+  const topicLower = topic.toLowerCase();
+  const lines = content.split("\n");
+  const relevantSections: string[] = [];
+  let inRelevantSection = false;
+  let currentSection: string[] = [];
+  let currentHeadingLevel = 0;
+
+  for (const line of lines) {
+    const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
+
+    if (headingMatch) {
+      const level = headingMatch[1].length;
+      const heading = headingMatch[2].toLowerCase();
+
+      // If we were in a relevant section, save it
+      if (inRelevantSection && currentSection.length > 0) {
+        relevantSections.push(currentSection.join("\n"));
+        currentSection = [];
+      }
+
+      // Check if this heading matches the topic
+      if (heading.includes(topicLower)) {
+        inRelevantSection = true;
+        currentHeadingLevel = level;
+        currentSection.push(line);
+      } else if (inRelevantSection && level <= currentHeadingLevel) {
+        // We've moved past the relevant section
+        inRelevantSection = false;
+      } else if (inRelevantSection) {
+        currentSection.push(line);
+      }
+    } else if (inRelevantSection) {
+      currentSection.push(line);
+    }
+  }
+
+  // Don't forget the last section
+  if (currentSection.length > 0) {
+    relevantSections.push(currentSection.join("\n"));
+  }
+
+  if (relevantSections.length > 0) {
+    return relevantSections.join("\n\n---\n\n");
+  }
+
+  // If no sections match, return a message
+  return `No sections specifically about "${topic}" found. Try a different topic or omit the topic parameter to get full documentation.`;
+}
+
+// Create MCP Server
+const server = new Server(
+  {
+    name: "docingest",
+    version: "1.0.0",
+  },
+  {
+    capabilities: {
+      tools: {},
+    },
+  }
+);
+
+// List available tools
+server.setRequestHandler(ListToolsRequestSchema, async () => ({
+  tools: [
+    {
+      name: "resolve-library-id",
+      description:
+        "Resolves a library/framework name to DocIngest domain IDs. " +
+        "Returns a list of matching documentation sources with snippets. " +
+        "Call this first to find the correct domain ID before using get-library-docs.",
+      inputSchema: {
+        type: "object",
+        properties: {
+          libraryName: {
+            type: "string",
+            description: "Name of the library (e.g., 'react', 'nextjs', 'tailwind', 'express')",
+          },
+        },
+        required: ["libraryName"],
+      },
+    },
+    {
+      name: "get-library-docs",
+      description:
+        "Fetches up-to-date documentation for a library from DocIngest. " +
+        "Returns the full documentation content, optionally filtered by topic. " +
+        "Use the domain ID from resolve-library-id.",
+      inputSchema: {
+        type: "object",
+        properties: {
+          domain: {
+            type: "string",
+            description: "Domain ID from resolve-library-id (e.g., 'react.dev')",
+          },
+          topic: {
+            type: "string",
+            description: "Optional topic to filter (e.g., 'hooks', 'routing', 'api')",
+          },
+          maxTokens: {
+            type: "number",
+            description: "Maximum tokens to return (default: 5000)",
+          },
+        },
+        required: ["domain"],
+      },
+    },
+    {
+      name: "search-docs",
+      description:
+        "Full-text search across all DocIngest documentation. " +
+        "Returns matching documentation snippets from multiple libraries. " +
+        "Useful for finding examples or concepts across different frameworks.",
+      inputSchema: {
+        type: "object",
+        properties: {
+          query: {
+            type: "string",
+            description: "Search query",
+          },
+          limit: {
+            type: "number",
+            description: "Maximum results (default: 5)",
+          },
+        },
+        required: ["query"],
+      },
+    },
+  ],
+}));
+
+// Handle tool calls
+server.setRequestHandler(CallToolRequestSchema, async (request) => {
+  const { name, arguments: args } = request.params;
+
+  try {
+    switch (name) {
+      case "resolve-library-id": {
+        const { libraryName } = ResolveLibrarySchema.parse(args);
+
+        console.error(`[DocIngest MCP] Resolving library: ${libraryName}`);
+
+        const data = await fetchFromAPI(
+          `/docs/autocomplete?q=${encodeURIComponent(libraryName)}&limit=5`
+        );
+
+        if (!data.suggestions || data.suggestions.length === 0) {
+          return {
+            content: [
+              {
+                type: "text",
+                text: `No documentation found for "${libraryName}". Try a different name or check if the library is indexed on DocIngest.`,
+              },
+            ],
+          };
+        }
+
+        const results = data.suggestions.map((s: any) => ({
+          domain: s.domain,
+          title: s.title,
+          snippet: s.snippet?.slice(0, MAX_SNIPPET_LENGTH) || "",
+          url: s.url,
+          matchType: s.matchType,
+        }));
+
+        return {
+          content: [
+            {
+              type: "text",
+              text: JSON.stringify(
+                {
+                  message: `Found ${results.length} matching documentation source(s) for "${libraryName}"`,
+                  results,
+                  hint: "Use the 'domain' value with get-library-docs to fetch full documentation",
+                },
+                null,
+                2
+              ),
+            },
+          ],
+        };
+      }
+
+      case "get-library-docs": {
+        const { domain, topic, maxTokens } = GetLibraryDocsSchema.parse(args);
+
+        console.error(`[DocIngest MCP] Fetching docs for: ${domain}${topic ? ` (topic: ${topic})` : ""}`);
+
+        const data = await fetchFromAPI(`/docs/domain/${encodeURIComponent(domain)}`);
+
+        if (!data.content) {
+          return {
+            content: [
+              {
+                type: "text",
+                text: `Documentation for "${domain}" not found. Use resolve-library-id to find the correct domain.`,
+              },
+            ],
+          };
+        }
+
+        let content = data.content;
+
+        // Filter by topic if provided
+        if (topic) {
+          content = filterByTopic(content, topic);
+        }
+
+        // Truncate to token limit
+        content = truncateToTokens(content, maxTokens || DEFAULT_MAX_TOKENS);
+
+        return {
+          content: [
+            {
+              type: "text",
+              text: `# ${data.domain} Documentation\n\nSource: ${data.url || domain}\nLast Updated: ${data.lastUpdated || "Unknown"}\n\n---\n\n${content}`,
+            },
+          ],
+        };
+      }
+
+      case "search-docs": {
+        const { query, limit } = SearchDocsSchema.parse(args);
+
+        console.error(`[DocIngest MCP] Searching: ${query}`);
+
+        // Try fast-search first, fall back to fullsearch
+        let data;
+        try {
+          data = await fetchFromAPI(
+            `/docs/fast-search?q=${encodeURIComponent(query)}&limit=${limit || 5}`
+          );
+        } catch {
+          data = await fetchFromAPI(
+            `/docs/fullsearch?q=${encodeURIComponent(query)}&limit=${limit || 5}`
+          );
+        }
+
+        const results = (data.results || data.docs || []).map((doc: any) => ({
+          domain: doc.domain,
+          title: doc.title || doc.domain,
+          snippet: (doc.snippet || doc.content || "").slice(0, MAX_SNIPPET_LENGTH),
+          url: doc.url,
+        }));
+
+        if (results.length === 0) {
+          return {
+            content: [
+              {
+                type: "text",
+                text: `No documentation found for "${query}". Try different keywords.`,
+              },
+            ],
+          };
+        }
+
+        return {
+          content: [
+            {
+              type: "text",
+              text: JSON.stringify(
+                {
+                  message: `Found ${results.length} result(s) for "${query}"`,
+                  results,
+                  hint: "Use get-library-docs with a domain to fetch full documentation",
+                },
+                null,
+                2
+              ),
+            },
+          ],
+        };
+      }
+
+      default:
+        throw new McpError(ErrorCode.MethodNotFound, `Unknown tool: ${name}`);
+    }
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      throw new McpError(
+        ErrorCode.InvalidParams,
+        `Invalid parameters: ${error.errors.map((e) => e.message).join(", ")}`
+      );
+    }
+
+    if (error instanceof McpError) {
+      throw error;
+    }
+
+    console.error(`[DocIngest MCP] Error in ${name}:`, error);
+    throw new McpError(
+      ErrorCode.InternalError,
+      `Failed to execute ${name}: ${error instanceof Error ? error.message : "Unknown error"}`
+    );
+  }
+});
+
+// Start the server
+async function main() {
+  console.error("[DocIngest MCP] Starting server...");
+  console.error(`[DocIngest MCP] API URL: ${DOCINGEST_API_URL}`);
+
+  const transport = new StdioServerTransport();
+  await server.connect(transport);
+
+  console.error("[DocIngest MCP] Server running on stdio");
+}
+
+main().catch((error) => {
+  console.error("[DocIngest MCP] Fatal error:", error);
+  process.exit(1);
+});
