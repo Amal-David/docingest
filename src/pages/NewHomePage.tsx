@@ -26,6 +26,13 @@ interface DocPreview {
   totalPages: number;
 }
 
+interface FastSearchResponse {
+  results: SearchResult[];
+  query: string;
+  timing: number;
+  total: number;
+}
+
 const API_URL = '/api';
 
 // Debounce hook
@@ -120,30 +127,56 @@ export default function NewHomePage() {
       });
   }, [debouncedQuery]);
 
+  // Fast search function - fetches more results
+  const performFastSearch = useCallback(async (searchQuery: string) => {
+    if (searchQuery.length < 2) return;
+
+    setIsLoading(true);
+    try {
+      const response = await fetch(`${API_URL}/docs/fast-search?q=${encodeURIComponent(searchQuery)}&limit=12`);
+      const data: FastSearchResponse = await response.json();
+      if (data.results && data.results.length > 0) {
+        setResults(data.results);
+        setSearchTime(data.timing);
+        setShowDropdown(true);
+        setSelectedIndex(0);
+      }
+    } catch {
+      // Keep existing results on error
+    } finally {
+      setIsLoading(false);
+    }
+  }, []);
+
   // Handle keyboard navigation
   const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
-    if (!showDropdown || results.length === 0) return;
-
     switch (e.key) {
       case 'ArrowDown':
-        e.preventDefault();
-        setSelectedIndex(prev => (prev + 1) % results.length);
+        if (showDropdown && results.length > 0) {
+          e.preventDefault();
+          setSelectedIndex(prev => (prev + 1) % results.length);
+        }
         break;
       case 'ArrowUp':
-        e.preventDefault();
-        setSelectedIndex(prev => (prev - 1 + results.length) % results.length);
+        if (showDropdown && results.length > 0) {
+          e.preventDefault();
+          setSelectedIndex(prev => (prev - 1 + results.length) % results.length);
+        }
         break;
       case 'Enter':
         e.preventDefault();
-        if (results[selectedIndex]) {
+        if (showDropdown && results.length > 0 && results[selectedIndex]) {
           navigate(`/docs/${results[selectedIndex].domain}`);
+        } else if (query.length >= 2) {
+          // Use fast-search for more results
+          performFastSearch(query);
         }
         break;
       case 'Escape':
         setShowDropdown(false);
         break;
     }
-  }, [showDropdown, results, selectedIndex, navigate]);
+  }, [showDropdown, results, selectedIndex, navigate, query, performFastSearch]);
 
   // Click outside to close
   useEffect(() => {
