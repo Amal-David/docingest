@@ -8,8 +8,11 @@ import { initWebVitals } from './utils/web-vitals';
 import { PerformanceDashboard } from './components/performance-dashboard';
 
 // Lazy load pages for code splitting
-const NewHomePage = lazy(() => import('./pages/NewHomePage'));
+const HomePage = lazy(() => import('./pages/HomePage'));
 const DocPage = lazy(() => import('./pages/DocPage'));
+const ViewPage = lazy(() => import('./pages/ViewPage'));
+const AddPage = lazy(() => import('./pages/AddPage'));
+const MCPGuidePage = lazy(() => import('./pages/MCPGuidePage'));
 
 ReactGA.initialize("G-HMP2X2KNVX");
 
@@ -48,13 +51,56 @@ const App: React.FC = () => {
           </div>
         }>
           <Routes>
-            <Route path="/" element={<NewHomePage />} />
+            <Route path="/" element={
+              <div className="bg-background min-h-screen flex flex-col">
+                <Navbar />
+                <main className="flex-1 w-full">
+                  <div className="max-w-4xl mx-auto px-4 py-8">
+                    <HomePage />
+                  </div>
+                </main>
+                <Footer />
+              </div>
+            } />
+            <Route path="/view" element={
+              <div className="bg-background min-h-screen flex flex-col">
+                <Navbar />
+                <main className="flex-1 w-full">
+                  <div className="max-w-4xl mx-auto px-4 py-8">
+                    <ViewPage />
+                  </div>
+                </main>
+                <Footer />
+              </div>
+            } />
+            <Route path="/add" element={
+              <div className="bg-background min-h-screen flex flex-col">
+                <Navbar />
+                <main className="flex-1 w-full">
+                  <div className="max-w-4xl mx-auto px-4 py-8">
+                    <AddPage />
+                  </div>
+                </main>
+                <Footer />
+              </div>
+            } />
             <Route path="/docs/:domain" element={
               <div className="bg-background min-h-screen flex flex-col">
                 <Navbar />
                 <main className="flex-1 w-full">
                   <div className="max-w-4xl mx-auto px-4 py-8">
                     <DocPage />
+                  </div>
+                </main>
+                <Footer />
+              </div>
+            } />
+            <Route path="/mcp-guide" element={
+              <div className="bg-background min-h-screen flex flex-col">
+                <Navbar />
+                <main className="flex-1 w-full">
+                  <div className="max-w-4xl mx-auto px-4 py-8">
+                    <MCPGuidePage />
                   </div>
                 </main>
                 <Footer />
