@@ -6,12 +6,12 @@
  * Provides up-to-date documentation for LLMs and AI code editors.
  *
  * Usage:
- *   claude mcp add docingest -- npx -y @docingest/mcp-server@latest
+ *   npx @docingest/mcp-server
  *
  * Tools:
- *   - resolve-library-id: Find documentation by library name
- *   - get-library-docs: Fetch documentation content
- *   - search-docs: Full-text search across all documentation
+ *   - find-docs: Find documentation sources by library name
+ *   - read-docs: Fetch full documentation content
+ *   - query-docs: Full-text search across all documentation
  */
 
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
@@ -35,7 +35,7 @@ const ResolveLibrarySchema = z.object({
 });
 
 const GetLibraryDocsSchema = z.object({
-  domain: z.string().min(1).describe("Domain ID from resolve-library-id (e.g., 'react.dev', 'nextjs.org')"),
+  domain: z.string().min(1).describe("Domain ID from find-docs (e.g., 'react.dev', 'nextjs.org')"),
   topic: z.string().optional().describe("Optional topic to filter documentation (e.g., 'hooks', 'routing', 'api')"),
   maxTokens: z.number().optional().default(DEFAULT_MAX_TOKENS).describe("Maximum tokens to return (default: 5000)"),
 });
@@ -159,11 +159,11 @@ const server = new Server(
 server.setRequestHandler(ListToolsRequestSchema, async () => ({
   tools: [
     {
-      name: "resolve-library-id",
+      name: "find-docs",
       description:
-        "Resolves a library/framework name to DocIngest domain IDs. " +
-        "Returns a list of matching documentation sources with snippets. " +
-        "Call this first to find the correct domain ID before using get-library-docs.",
+        "Find documentation sources by library name. " +
+        "Returns matching domains with metadata and snippets. " +
+        "Call this first to get the domain ID for read-docs.",
       inputSchema: {
         type: "object",
         properties: {
@@ -176,17 +176,17 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
       },
     },
     {
-      name: "get-library-docs",
+      name: "read-docs",
       description:
-        "Fetches up-to-date documentation for a library from DocIngest. " +
-        "Returns the full documentation content, optionally filtered by topic. " +
-        "Use the domain ID from resolve-library-id.",
+        "Fetch full documentation content for a library. " +
+        "Returns the documentation text, optionally filtered by topic. " +
+        "Use the domain from find-docs.",
       inputSchema: {
         type: "object",
         properties: {
           domain: {
             type: "string",
-            description: "Domain ID from resolve-library-id (e.g., 'react.dev')",
+            description: "Domain from find-docs (e.g., 'react.dev')",
           },
           topic: {
             type: "string",
@@ -201,11 +201,11 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
       },
     },
     {
-      name: "search-docs",
+      name: "query-docs",
       description:
-        "Full-text search across all DocIngest documentation. " +
-        "Returns matching documentation snippets from multiple libraries. " +
-        "Useful for finding examples or concepts across different frameworks.",
+        "Full-text search across all indexed documentation. " +
+        "Returns matching snippets from multiple libraries. " +
+        "Great for finding examples and patterns across frameworks.",
       inputSchema: {
         type: "object",
         properties: {
@@ -230,7 +230,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
   try {
     switch (name) {
-      case "resolve-library-id": {
+      case "find-docs": {
         const { libraryName } = ResolveLibrarySchema.parse(args);
 
         console.error(`[DocIngest MCP] Resolving library: ${libraryName}`);
@@ -266,7 +266,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
                 {
                   message: `Found ${results.length} matching documentation source(s) for "${libraryName}"`,
                   results,
-                  hint: "Use the 'domain' value with get-library-docs to fetch full documentation",
+                  hint: "Use the 'domain' value with read-docs to fetch full documentation",
                 },
                 null,
                 2
@@ -276,7 +276,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         };
       }
 
-      case "get-library-docs": {
+      case "read-docs": {
         const { domain, topic, maxTokens } = GetLibraryDocsSchema.parse(args);
 
         console.error(`[DocIngest MCP] Fetching docs for: ${domain}${topic ? ` (topic: ${topic})` : ""}`);
@@ -288,7 +288,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             content: [
               {
                 type: "text",
-                text: `Documentation for "${domain}" not found. Use resolve-library-id to find the correct domain.`,
+                text: `Documentation for "${domain}" not found. Use find-docs to find the correct domain.`,
               },
             ],
           };
@@ -314,7 +314,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         };
       }
 
-      case "search-docs": {
+      case "query-docs": {
         const { query, limit } = SearchDocsSchema.parse(args);
 
         console.error(`[DocIngest MCP] Searching: ${query}`);
@@ -357,7 +357,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
                 {
                   message: `Found ${results.length} result(s) for "${query}"`,
                   results,
-                  hint: "Use get-library-docs with a domain to fetch full documentation",
+                  hint: "Use read-docs with a domain to fetch full documentation",
                 },
                 null,
                 2

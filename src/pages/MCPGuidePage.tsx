@@ -6,74 +6,45 @@ type Tab = 'claude-code' | 'cursor' | 'windsurf' | 'codex';
 const MCPGuidePage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<Tab>('claude-code');
 
-  const claudeCodeConfig = `# Step 1: Clone and build the MCP server
-git clone https://github.com/Amal-David/docingest
-cd docingest/mcp-server
-npm install && npm run build
-
-# Step 2: Add to Claude Code
-claude mcp add docingest -- node /path/to/docingest/mcp-server/dist/index.js
+  const claudeCodeConfig = `# One-line setup
+claude mcp add docingest -- npx -y @docingest/mcp-server
 
 # Or add manually to ~/.claude/claude_desktop_config.json:
 {
   "mcpServers": {
     "docingest": {
-      "command": "node",
-      "args": ["/path/to/docingest/mcp-server/dist/index.js"],
-      "env": {
-        "DOCINGEST_API_URL": "https://docingest.com/api"
-      }
+      "command": "npx",
+      "args": ["-y", "@docingest/mcp-server"]
     }
   }
 }`;
 
-  const cursorConfig = `// Step 1: Clone and build
-git clone https://github.com/Amal-David/docingest
-cd docingest/mcp-server && npm install && npm run build
-
-// Step 2: Add to ~/.cursor/mcp.json
+  const cursorConfig = `// Add to ~/.cursor/mcp.json
 {
   "mcpServers": {
     "docingest": {
-      "command": "node",
-      "args": ["/path/to/docingest/mcp-server/dist/index.js"],
-      "env": {
-        "DOCINGEST_API_URL": "https://docingest.com/api"
-      }
+      "command": "npx",
+      "args": ["-y", "@docingest/mcp-server"]
     }
   }
 }`;
 
-  const windsurfConfig = `// Step 1: Clone and build
-git clone https://github.com/Amal-David/docingest
-cd docingest/mcp-server && npm install && npm run build
-
-// Step 2: Add to Windsurf MCP configuration
+  const windsurfConfig = `// Add to Windsurf MCP configuration
 {
   "mcpServers": {
     "docingest": {
-      "command": "node",
-      "args": ["/path/to/docingest/mcp-server/dist/index.js"],
-      "env": {
-        "DOCINGEST_API_URL": "https://docingest.com/api"
-      }
+      "command": "npx",
+      "args": ["-y", "@docingest/mcp-server"]
     }
   }
 }`;
 
-  const codexConfig = `// Step 1: Clone and build
-git clone https://github.com/Amal-David/docingest
-cd docingest/mcp-server && npm install && npm run build
-
-// Step 2: Add to Codex MCP configuration
+  const codexConfig = `// Add to Codex MCP configuration
 {
   "mcpServers": {
     "docingest": {
-      "command": "node",
-      "args": ["/path/to/docingest/mcp-server/dist/index.js"],
-      "env": {
-        "DOCINGEST_API_URL": "https://docingest.com/api"
-      }
+      "command": "npx",
+      "args": ["-y", "@docingest/mcp-server"]
     }
   }
 }`;
@@ -166,52 +137,28 @@ cd docingest/mcp-server && npm install && npm run build
               {activeTab === 'claude-code' && (
                 <div className="space-y-3">
                   <p className="text-gray-700">
-                    <strong>Step 1:</strong> Clone and build the MCP server from GitHub
-                  </p>
-                  <p className="text-gray-700">
-                    <strong>Step 2:</strong> Add to Claude Code using the CLI or config file
-                  </p>
-                  <p className="text-gray-600 text-sm">
-                    Replace <code className="bg-gray-100 px-1 rounded">/path/to/</code> with your actual clone location
+                    Run the command below to add DocIngest to Claude Code. It uses npx so no installation needed.
                   </p>
                 </div>
               )}
               {activeTab === 'cursor' && (
                 <div className="space-y-3">
                   <p className="text-gray-700">
-                    <strong>Step 1:</strong> Open Cursor Settings (Cmd/Ctrl + ,)
-                  </p>
-                  <p className="text-gray-700">
-                    <strong>Step 2:</strong> Search for "MCP" in settings
-                  </p>
-                  <p className="text-gray-700">
-                    <strong>Step 3:</strong> Add the DocIngest MCP server:
+                    Add to your Cursor MCP configuration file:
                   </p>
                 </div>
               )}
               {activeTab === 'windsurf' && (
                 <div className="space-y-3">
                   <p className="text-gray-700">
-                    <strong>Step 1:</strong> Open Windsurf configuration
-                  </p>
-                  <p className="text-gray-700">
-                    <strong>Step 2:</strong> Navigate to MCP settings
-                  </p>
-                  <p className="text-gray-700">
-                    <strong>Step 3:</strong> Add the following:
+                    Add to your Windsurf MCP configuration:
                   </p>
                 </div>
               )}
               {activeTab === 'codex' && (
                 <div className="space-y-3">
                   <p className="text-gray-700">
-                    <strong>Step 1:</strong> Open Codex CLI configuration
-                  </p>
-                  <p className="text-gray-700">
-                    <strong>Step 2:</strong> Navigate to MCP servers section
-                  </p>
-                  <p className="text-gray-700">
-                    <strong>Step 3:</strong> Add the following configuration:
+                    Add to your Codex MCP configuration:
                   </p>
                 </div>
               )}
