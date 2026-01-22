@@ -30,6 +30,9 @@ import {
 const app = express();
 const PORT = process.env.PORT || 8001;
 
+// Trust proxy (nginx/load balancer) for correct IP detection in rate limiting
+app.set('trust proxy', 1);
+
 // Increase payload size limits
 app.use(express.json({ limit: '100mb' }));
 app.use(express.urlencoded({ limit: '100mb', extended: true }));
