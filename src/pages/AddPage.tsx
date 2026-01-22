@@ -90,6 +90,14 @@ const HomePage: React.FC = () => {
   const pageref = useRef(1);
   const totalDocsRef = useRef(null);
   const [debugInfo, setDebugInfo] = useState<string | null>(null);
+  const debugLogRef = useRef<HTMLDivElement>(null);
+
+  // Auto-scroll debug log to bottom when new content is added
+  useEffect(() => {
+    if (debugLogRef.current) {
+      debugLogRef.current.scrollTop = debugLogRef.current.scrollHeight;
+    }
+  }, [debugInfo]);
   const [isCrawling, setIsCrawling] = useState(false);
   const [crawlId, setCrawlId] = useState<string | null>(null);
   const [savedDocs, setSavedDocs] = useState<DocPreview[]>([]);
@@ -940,8 +948,8 @@ const HomePage: React.FC = () => {
               Clear
             </button>
           </div>
-          <div className="max-h-64 overflow-y-auto">
-            <pre className="text-sm text-gray-700 whitespace-pre-wrap">{debugInfo}</pre>
+          <div ref={debugLogRef} className="h-48 overflow-y-auto bg-white rounded border border-gray-100 p-2">
+            <pre className="text-sm text-gray-700 whitespace-pre-wrap font-mono">{debugInfo}</pre>
           </div>
         </div>
       )}
