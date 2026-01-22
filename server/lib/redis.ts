@@ -273,7 +273,7 @@ export async function fullTextSearch(
       }
     }
 
-    // 2. Contains matches (scan all domains)
+    // 2. Search in domain names, titles, and snippets
     if (results.length < limit) {
       const allDomains = await redis.zrange(KEYS.AUTOCOMPLETE_DOMAINS, 0, -1);
 
@@ -281,9 +281,12 @@ export async function fullTextSearch(
         if (results.length >= limit) break;
         if (seen.has(domain)) continue;
 
-        if (domain.includes(queryLower)) {
-          const meta = await redis.hgetall(KEYS.DOMAIN_META(domain));
-          if (meta && meta.domain) {
+        const meta = await redis.hgetall(KEYS.DOMAIN_META(domain));
+        if (meta && meta.domain) {
+          // Search in domain name, title, and snippet
+          const searchText = `${domain} ${meta.title || ''} ${meta.snippet || ''}`.toLowerCase();
+
+          if (searchText.includes(queryLower)) {
             results.push({
               domain: meta.domain,
               url: meta.url || '',

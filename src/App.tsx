@@ -43,10 +43,10 @@ const App: React.FC = () => {
       <Router>
         <TrackPageView />
         <Suspense fallback={
-          <div className="min-h-screen bg-[#0a0a0b] flex justify-center items-center">
+          <div className="min-h-screen bg-background flex justify-center items-center">
             <div className="relative w-16 h-16">
-              <div className="absolute top-0 left-0 w-full h-full border-2 border-zinc-800 rounded-full"></div>
-              <div className="absolute top-0 left-0 w-full h-full border-2 border-t-emerald-500 rounded-full animate-spin"></div>
+              <div className="absolute top-0 left-0 w-full h-full border-4 border-gray-200 rounded-full"></div>
+              <div className="absolute top-0 left-0 w-full h-full border-4 border-t-primary border-l-primary rounded-full animate-spin"></div>
             </div>
           </div>
         }>
