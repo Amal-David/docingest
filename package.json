@@ -46,6 +46,8 @@
   "scripts": {
     "dev-start": "PORT=8000 react-scripts start",
     "build": "react-scripts build",
+    "build:deploy": "react-scripts build && npm run deploy",
+    "deploy": "sudo cp -r build/* /var/www/html/ && sudo chown -R www-data:www-data /var/www/html/ && sudo systemctl reload nginx",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "node --loader ts-node/esm server/server.ts",
