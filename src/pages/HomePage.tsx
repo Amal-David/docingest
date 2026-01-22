@@ -552,8 +552,8 @@ export default function HomePage() {
               <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
               <code className="relative z-10 block bg-white px-4 py-3 rounded border-[3px] border-gray-900 font-mono text-sm text-left">
                 <span className="text-gray-500">$</span>
-                <span className="text-primary"> claude mcp add</span>
-                <span className="text-gray-900"> docingest</span>
+                <span className="text-primary"> git clone</span>
+                <span className="text-gray-900"> github.com/Amal-David/docingest</span>
               </code>
             </div>
             <div>

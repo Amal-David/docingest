@@ -4,22 +4,31 @@ Up-to-date documentation for LLMs and AI code editors.
 
 ## Installation
 
-### Claude Code
+### Step 1: Clone and Build
 
 ```bash
-claude mcp add docingest -- npx -y @docingest/mcp-server@latest
+git clone https://github.com/Amal-David/docingest
+cd docingest/mcp-server
+npm install
+npm run build
 ```
 
-### Cursor
+### Step 2: Configure Your AI Tool
 
-Add to your `~/.cursor/mcp.json`:
+#### Claude Code
+
+```bash
+claude mcp add docingest -- node /path/to/docingest/mcp-server/dist/index.js
+```
+
+Or add to `~/.claude/claude_desktop_config.json`:
 
 ```json
 {
   "mcpServers": {
     "docingest": {
-      "command": "npx",
-      "args": ["-y", "@docingest/mcp-server@latest"],
+      "command": "node",
+      "args": ["/path/to/docingest/mcp-server/dist/index.js"],
       "env": {
         "DOCINGEST_API_URL": "https://docingest.com/api"
       }
@@ -28,22 +37,25 @@ Add to your `~/.cursor/mcp.json`:
 }
 ```
 
-### VS Code (Copilot)
+#### Cursor
 
-Add to your MCP settings:
+Add to `~/.cursor/mcp.json`:
 
 ```json
 {
-  "mcp.servers": {
+  "mcpServers": {
     "docingest": {
-      "command": "npx",
-      "args": ["-y", "@docingest/mcp-server@latest"]
+      "command": "node",
+      "args": ["/path/to/docingest/mcp-server/dist/index.js"],
+      "env": {
+        "DOCINGEST_API_URL": "https://docingest.com/api"
+      }
     }
   }
 }
 ```
 
-### Windsurf
+#### Windsurf
 
 Add to your Windsurf MCP configuration:
 
@@ -51,12 +63,35 @@ Add to your Windsurf MCP configuration:
 {
   "mcpServers": {
     "docingest": {
-      "command": "npx",
-      "args": ["-y", "@docingest/mcp-server@latest"]
+      "command": "node",
+      "args": ["/path/to/docingest/mcp-server/dist/index.js"],
+      "env": {
+        "DOCINGEST_API_URL": "https://docingest.com/api"
+      }
     }
   }
 }
 ```
+
+#### Codex
+
+Add to your Codex MCP configuration:
+
+```json
+{
+  "mcpServers": {
+    "docingest": {
+      "command": "node",
+      "args": ["/path/to/docingest/mcp-server/dist/index.js"],
+      "env": {
+        "DOCINGEST_API_URL": "https://docingest.com/api"
+      }
+    }
+  }
+}
+```
+
+> **Note:** Replace `/path/to/docingest` with the actual path where you cloned the repository.
 
 ## Usage
 
@@ -74,9 +109,9 @@ First, resolve the library ID for "nextjs", then get the routing documentation
 
 ## Available Tools
 
-### `resolve-library-id`
+### `find-docs`
 
-Finds documentation sources by library name.
+Find documentation sources by library name.
 
 **Parameters:**
 - `libraryName` (required): Name of the library (e.g., "react", "nextjs", "tailwind")
@@ -88,12 +123,12 @@ Finds documentation sources by library name.
 }
 ```
 
-### `get-library-docs`
+### `read-docs`
 
-Fetches full documentation for a library.
+Fetch full documentation content for a library.
 
 **Parameters:**
-- `domain` (required): Domain ID from resolve-library-id (e.g., "react.dev")
+- `domain` (required): Domain from find-docs (e.g., "react.dev")
 - `topic` (optional): Filter to specific topic (e.g., "hooks", "routing")
 - `maxTokens` (optional): Maximum tokens to return (default: 5000)
 
@@ -106,9 +141,9 @@ Fetches full documentation for a library.
 }
 ```
 
-### `search-docs`
+### `query-docs`
 
-Full-text search across all documentation.
+Full-text search across all indexed documentation.
 
 **Parameters:**
 - `query` (required): Search query
@@ -140,7 +175,7 @@ DOCINGEST_API_URL=http://localhost:8001/api npx @docingest/mcp-server
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/docingest
+git clone https://github.com/Amal-David/docingest
 cd docingest/mcp-server
 
 # Install dependencies

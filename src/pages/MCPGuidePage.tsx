@@ -6,45 +6,74 @@ type Tab = 'claude-code' | 'cursor' | 'windsurf' | 'codex';
 const MCPGuidePage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<Tab>('claude-code');
 
-  const claudeCodeConfig = `# Run this command in your terminal:
-claude mcp add docingest
+  const claudeCodeConfig = `# Step 1: Clone and build the MCP server
+git clone https://github.com/Amal-David/docingest
+cd docingest/mcp-server
+npm install && npm run build
+
+# Step 2: Add to Claude Code
+claude mcp add docingest -- node /path/to/docingest/mcp-server/dist/index.js
 
 # Or add manually to ~/.claude/claude_desktop_config.json:
 {
   "mcpServers": {
     "docingest": {
-      "command": "npx",
-      "args": ["-y", "@anthropic/docingest-mcp"]
+      "command": "node",
+      "args": ["/path/to/docingest/mcp-server/dist/index.js"],
+      "env": {
+        "DOCINGEST_API_URL": "https://docingest.com/api"
+      }
     }
   }
 }`;
 
-  const cursorConfig = `// Add to your Cursor settings.json
-{
-  "mcp.servers": {
-    "docingest": {
-      "command": "npx",
-      "args": ["-y", "@anthropic/docingest-mcp"]
-    }
-  }
-}`;
+  const cursorConfig = `// Step 1: Clone and build
+git clone https://github.com/Amal-David/docingest
+cd docingest/mcp-server && npm install && npm run build
 
-  const windsurfConfig = `// Add to Windsurf MCP configuration
+// Step 2: Add to ~/.cursor/mcp.json
 {
   "mcpServers": {
     "docingest": {
-      "command": "npx",
-      "args": ["-y", "@anthropic/docingest-mcp"]
+      "command": "node",
+      "args": ["/path/to/docingest/mcp-server/dist/index.js"],
+      "env": {
+        "DOCINGEST_API_URL": "https://docingest.com/api"
+      }
     }
   }
 }`;
 
-  const codexConfig = `// Add to your Codex MCP configuration
+  const windsurfConfig = `// Step 1: Clone and build
+git clone https://github.com/Amal-David/docingest
+cd docingest/mcp-server && npm install && npm run build
+
+// Step 2: Add to Windsurf MCP configuration
 {
   "mcpServers": {
     "docingest": {
-      "command": "npx",
-      "args": ["-y", "@anthropic/docingest-mcp"]
+      "command": "node",
+      "args": ["/path/to/docingest/mcp-server/dist/index.js"],
+      "env": {
+        "DOCINGEST_API_URL": "https://docingest.com/api"
+      }
+    }
+  }
+}`;
+
+  const codexConfig = `// Step 1: Clone and build
+git clone https://github.com/Amal-David/docingest
+cd docingest/mcp-server && npm install && npm run build
+
+// Step 2: Add to Codex MCP configuration
+{
+  "mcpServers": {
+    "docingest": {
+      "command": "node",
+      "args": ["/path/to/docingest/mcp-server/dist/index.js"],
+      "env": {
+        "DOCINGEST_API_URL": "https://docingest.com/api"
+      }
     }
   }
 }`;
@@ -137,10 +166,13 @@ claude mcp add docingest
               {activeTab === 'claude-code' && (
                 <div className="space-y-3">
                   <p className="text-gray-700">
-                    <strong>Option 1:</strong> Run <code className="bg-gray-100 px-2 py-1 rounded">claude mcp add docingest</code> in your terminal
+                    <strong>Step 1:</strong> Clone and build the MCP server from GitHub
                   </p>
                   <p className="text-gray-700">
-                    <strong>Option 2:</strong> Manually add to <code className="bg-gray-100 px-2 py-1 rounded">~/.claude/claude_desktop_config.json</code>:
+                    <strong>Step 2:</strong> Add to Claude Code using the CLI or config file
+                  </p>
+                  <p className="text-gray-600 text-sm">
+                    Replace <code className="bg-gray-100 px-1 rounded">/path/to/</code> with your actual clone location
                   </p>
                 </div>
               )}
