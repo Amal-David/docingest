@@ -90,19 +90,24 @@ export default function HomePage() {
     };
   }, []);
 
-  // Fetch stats on mount
-  useEffect(() => {
+  // Function to refresh stats
+  const refreshStats = useCallback(() => {
     fetch(`${API_URL}/admin/index/stats`)
       .then(r => r.json())
       .then(data => setStats(data))
       .catch(() => {});
+  }, []);
+
+  // Fetch stats on mount
+  useEffect(() => {
+    refreshStats();
 
     // Fetch top 10 recently added docs
     fetch(`${API_URL}/docs/list?page=1&limit=10&sortBy=newest`)
       .then(r => r.json())
       .then(data => setPopularDocs(data.docs || []))
       .catch(() => {});
-  }, []);
+  }, [refreshStats]);
 
   // Keyboard shortcut to focus search
   useEffect(() => {
@@ -284,10 +289,11 @@ export default function HomePage() {
                   throw new Error(`Failed to save: ${saveError}`);
                 }
 
-                // Refresh the docs list
+                // Refresh the docs list and stats
                 const refreshResponse = await fetch(`${API_URL}/docs/list?page=1&limit=10&sortBy=newest`);
                 const refreshData = await refreshResponse.json();
                 setPopularDocs(refreshData.docs || []);
+                refreshStats();
               } else {
                 setSyncError('No valid content found in crawled pages.');
               }
@@ -319,7 +325,7 @@ export default function HomePage() {
       setSyncingDomain(null);
       setSyncProgress(null);
     }
-  }, [syncingDomain]);
+  }, [syncingDomain, refreshStats]);
 
   // Handle keyboard navigation
   const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
