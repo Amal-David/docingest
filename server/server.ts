@@ -11,7 +11,7 @@ import compression from 'compression';
 // import { LRUCache } from 'lru-cache'; // Removed for Bun compatibility
 import crypto from 'crypto';
 
-// Redis for fast search
+// Redis for fast search and caching
 import {
   initRedis,
   isRedisAvailable,
@@ -21,6 +21,10 @@ import {
   getPopularSearches,
   getIndexStats,
   indexDomain,
+  cacheDocContent,
+  getCachedDoc,
+  invalidateDocCache,
+  getCacheStats,
   type DomainMeta,
 } from './lib/redis';
 const app = express();
@@ -956,19 +960,42 @@ app.get('/api/docs/content', async (req, res) => {
     const safePath = filePath as string;
      // @ts-ignore
     if (checkRateLimit(ip, safePath)) return res.status(429).json({ success: false, error: 'Rate limit exceeded' });
-    // Check cache
-    let cached = mdCache.get(safePath);
-    let stat = await fs.stat(safePath);
+
+    const stat = await fs.stat(safePath);
     const now = Date.now();
+
+    // Try Redis cache first (survives restarts, scales across instances)
+    if (isRedisAvailable()) {
+      const redisCached = await getCachedDoc(safePath);
+      if (redisCached) {
+        res.setHeader('ETag', redisCached.etag);
+        res.setHeader('Last-Modified', new Date(stat.mtimeMs).toUTCString());
+        res.setHeader('X-Cache', 'HIT-REDIS');
+        if (req.headers['if-none-match'] === redisCached.etag) return res.status(304).end();
+        return res.send(redisCached.content);
+      }
+    }
+
+    // Fallback to in-memory cache
+    let cached = mdCache.get(safePath);
     if (!cached || cached.mtime !== stat.mtimeMs || now - cached.cachedAt > CACHE_TTL) {
       const content = await fs.readFile(safePath, 'utf-8');
       const etag = crypto.createHash('md5').update(content).digest('hex');
       cached = { content, etag, mtime: stat.mtimeMs, cachedAt: now };
       mdCache.set(safePath, cached);
+
+      // Also cache in Redis for persistence and scaling
+      if (isRedisAvailable()) {
+        cacheDocContent(safePath, content, etag).catch(err =>
+          console.error('[Redis] Failed to cache doc:', err)
+        );
+      }
     }
+
     // ETag/Last-Modified support
     res.setHeader('ETag', cached.etag);
     res.setHeader('Last-Modified', new Date(cached.mtime).toUTCString());
+    res.setHeader('X-Cache', 'HIT-MEMORY');
     if (req.headers['if-none-match'] === cached.etag) return res.status(304).end();
     if (req.headers['if-modified-since'] && new Date(req.headers['if-modified-since']).getTime() >= cached.mtime) return res.status(304).end();
     res.send(cached.content);
@@ -1415,6 +1442,29 @@ app.get('/api/admin/index/stats', async (req, res) => {
   } catch (error) {
     console.error('Index stats error:', error);
     res.status(500).json({ error: 'Failed to get index stats' });
+  }
+});
+
+/**
+ * Cache stats endpoint (admin)
+ * GET /api/admin/cache/stats
+ */
+app.get('/api/admin/cache/stats', async (req, res) => {
+  try {
+    const redisStats = await getCacheStats();
+    const memoryStats = {
+      docsInMemory: mdCache.size,
+      apiCacheSize: apiCache.size,
+    };
+
+    res.json({
+      redis: redisStats,
+      memory: memoryStats,
+      redisAvailable: isRedisAvailable(),
+    });
+  } catch (error) {
+    console.error('Cache stats error:', error);
+    res.status(500).json({ error: 'Failed to get cache stats' });
   }
 });
 
