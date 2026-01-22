@@ -1,1082 +1,664 @@
-import { totalmem } from 'os';
-import React, { useState, useEffect, useRef } from 'react';
-import ReactMarkdown from 'react-markdown';
-import { Link, useNavigate } from 'react-router-dom';
-import ReactGA from "react-ga4";
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { Tooltip as ReactTooltip } from 'react-tooltip';
-import 'react-tooltip/dist/react-tooltip.css';
 
-// API configuration
-const FIRECRAWL_API = process.env.REACT_APP_FIRECRAWL_API_URL || 'http://localhost:3002/v1';
-const API_URL = '/api';
+// Types
+interface SearchResult {
+  domain: string;
+  title: string;
+  snippet: string;
+  url: string;
+  matchType: 'prefix' | 'contains';
+}
+
+interface AutocompleteResponse {
+  suggestions: SearchResult[];
+  query: string;
+  timing: number;
+  source: string;
+  totalMatches: number;
+}
 
 interface DocPreview {
-  content: string;
-  type: string;
-  lastUpdated: string;
-  url?: string;
   domain: string;
-  filePath?: string;
-}
-
-interface SavedUrl {
   url: string;
-  domain: string;
-  lastScraped: string;
+  lastUpdated: string;
   totalPages: number;
-  successfulPages: number;
-  failedPages: string[];
 }
 
-interface Metrics {
-  totalPages: number;
-  completedPages: number;
-  inProgress: boolean;
-  failedPages: string[];
-}
-
-interface CrawlStatusResponse {
-  status: string;
-  completed: number;
+interface FastSearchResponse {
+  results: SearchResult[];
+  query: string;
+  timing: number;
   total: number;
-  data: Array<{
-    markdown?: string;
-    metadata?: {
-      sourceURL?: string;
-      title?: string;
-    };
-  }>;
 }
 
-interface FirecrawlResponse {
-  success: boolean;
-  data?: {
-    markdown?: string;
-    html?: string;
-    metadata?: {
-      title?: string;
-      description?: string;
-      sourceURL?: string;
-      statusCode?: number;
-    };
-  }[];
-  id?: string;
-  url?: string;
-  status?: string;
-}
+const API_URL = '/api';
+const FIRECRAWL_API = process.env.REACT_APP_FIRECRAWL_API_URL || 'http://localhost:3002/v2';
 
-interface ScrapingMetrics {
-  totalPages: number;
-  completedPages: number;
-  failedPages: string[];
-  inProgress: boolean;
-}
+// Debounce hook
+function useDebounce<T>(value: T, delay: number): T {
+  const [debouncedValue, setDebouncedValue] = useState<T>(value);
 
-const HomePage: React.FC = () => {
-  const navigate = useNavigate();
-  const [url, setUrl] = useState('');
-  const [includePattern, setIncludePattern] = useState('');
-  const [excludePattern, setExcludePattern] = useState('');
-  const [maxPages, setMaxPages] = useState(250);
-  const [isLoading, setIsLoading] = useState(false);
-  const [pageLoading, setPageLoading] = useState(false);
-
-  const [newDataLoading, setnewDataLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-  const [fetchedDomains, setFetchedDomains] = useState<Set<string>>(new Set());
-  const [noMoreData, setNoMoreData] = useState<boolean>(false);
-  const footerRef = useRef(null);
-  const pageref = useRef(1);
-  const totalDocsRef = useRef(null);
-  const [debugInfo, setDebugInfo] = useState<string | null>(null);
-  const [isCrawling, setIsCrawling] = useState(false);
-  const [crawlId, setCrawlId] = useState<string | null>(null);
-  const [savedDocs, setSavedDocs] = useState<DocPreview[]>([]);
-  const [savedUrls, setSavedUrls] = useState<SavedUrl[]>([]);
-  const [selectedDoc, setSelectedDoc] = useState<DocPreview | null>(null);
-  const [showPreview, setShowPreview] = useState(false);
-  const [addedPage, setAddedPage] = useState<number>(1);
-  const[previewContent, setPreviewContent] = useState<string | null>(null);
-  const [metrics, setMetrics] = useState<ScrapingMetrics>({
-    totalPages: 0,
-    completedPages: 0,
-    failedPages: [],
-    inProgress: false
-  });
-  const [urlError, setUrlError] = useState<string | null>(null);
-  const [includePatternError, setIncludePatternError] = useState<string | null>(null);
-  const [excludePatternError, setExcludePatternError] = useState<string | null>(null);
-
-  const logAndUpdateDebug = (message: string) => {
-    console.log(message);
-    setDebugInfo(prev => `${prev ? prev + '\n' : ''}${message}`);
-  };
-  const logCustomEvent = (category: string, action: string, label?: string, value?: number) => {
-    ReactGA.event({
-      category,
-      action,
-      label,
-      value,
-    });
-  };
-  // Extract domain from URL
-  const getDomain = (urlString: string) => {
-    try {
-      const url = new URL(urlString);
-      return url.hostname;
-    } catch {
-      return 'unknown-domain';
-    }
-  };
-
-  const checkUrlStatus = (urlToCheck: string): SavedUrl | null => {
-    const savedUrl = savedUrls.find(u => u.url === urlToCheck);
-    if (!savedUrl) return null;
-
-    const lastScrapedDate = new Date(savedUrl.lastScraped);
-    const tenDaysAgo = new Date();
-    tenDaysAgo.setDate(tenDaysAgo.getDate() - 10);
-
-    return lastScrapedDate > tenDaysAgo ? savedUrl : null;
-  };
   useEffect(() => {
-    loadSavedData(5)
-  }, [])
-  
+    const handler = setTimeout(() => {
+      setDebouncedValue(value);
+    }, delay);
 
-  
+    return () => clearTimeout(handler);
+  }, [value, delay]);
 
-  const getDomainFromUrl = (url: string): string => {
-    try {
-      const parsedUrl = new URL(url);
-      return parsedUrl.hostname;
-    } catch {
-      return 'unknown-domain';
+  return debouncedValue;
+}
 
-    }
-  };
-  
-  // Validation functions
-  const validateUrl = (url: string): boolean => {
-    try {
-      new URL(url);
-      setUrlError(null);
-      return true;
-    } catch {
-      setUrlError('Please enter a valid URL (e.g., https://example.com)');
-      return false;
-    }
-  };
+export default function HomePage() {
+  const navigate = useNavigate();
+  const inputRef = useRef<HTMLInputElement>(null);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
-  const validatePattern = (pattern: string, type: 'include' | 'exclude'): boolean => {
-    if (!pattern) {
-      if (type === 'include') {
-        setIncludePatternError(null);
-      } else {
-        setExcludePatternError(null);
+  // Search state
+  const [query, setQuery] = useState('');
+  const [results, setResults] = useState<SearchResult[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [searchTime, setSearchTime] = useState<number | null>(null);
+
+  // Stats state
+  const [stats, setStats] = useState({ totalDomains: 773, redisConnected: true });
+
+  // Popular docs
+  const [popularDocs, setPopularDocs] = useState<DocPreview[]>([]);
+
+  // Resync state
+  const [syncingDomain, setSyncingDomain] = useState<string | null>(null);
+  const [syncProgress, setSyncProgress] = useState<{ completed: number; total: number } | null>(null);
+  const [syncError, setSyncError] = useState<string | null>(null);
+  const pollTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const maxPollAttempts = 200; // ~10 minutes with 3s intervals
+  const pollAttemptsRef = useRef(0);
+
+  const debouncedQuery = useDebounce(query, 150);
+
+  // Cleanup polling on unmount
+  useEffect(() => {
+    const timeoutRef = pollTimeoutRef;
+    return () => {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
       }
-      return true;
+    };
+  }, []);
+
+  // Fetch stats on mount
+  useEffect(() => {
+    fetch(`${API_URL}/admin/index/stats`)
+      .then(r => r.json())
+      .then(data => setStats(data))
+      .catch(() => {});
+
+    // Fetch top 10 recently added docs
+    fetch(`${API_URL}/docs/list?page=1&limit=10&sortBy=newest`)
+      .then(r => r.json())
+      .then(data => setPopularDocs(data.docs || []))
+      .catch(() => {});
+  }, []);
+
+  // Keyboard shortcut to focus search
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        inputRef.current?.focus();
+      }
+      if (e.key === 'Escape') {
+        setShowDropdown(false);
+        inputRef.current?.blur();
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
+  // Fetch autocomplete results
+  useEffect(() => {
+    if (debouncedQuery.length < 2) {
+      setResults([]);
+      setShowDropdown(false);
+      return;
     }
 
-    try {
-      new RegExp(pattern.replace(/\*/g, '.*'));
-      if (type === 'include') {
-        setIncludePatternError(null);
-      } else {
-        setExcludePatternError(null);
-      }
-      return true;
-    } catch {
-      const error = 'Invalid pattern. Use * for wildcards (e.g., /api*, */docs/*)';
-      if (type === 'include') {
-        setIncludePatternError(error);
-      } else {
-        setExcludePatternError(error);
-      }
-      return false;
-    }
-  };
-
-  // Add this function to detect and suggest include pattern
-  const suggestIncludePattern = (url: string): string => {
-    try {
-      const urlObj = new URL(url);
-      const path = urlObj.pathname;
-
-      // Only suggest pattern for /docs paths
-      if (path.includes('/docs')) {
-        const docsIndex = path.indexOf('/docs');
-        return path.slice(0, docsIndex) + '/docs/*';
-      }
-      
-      // For API paths, only if it's explicitly /api
-      if (path === '/api' || path.startsWith('/api/')) {
-        return '/api/*';
-      }
-
-      // Don't suggest patterns for other paths
-      return '';
-    } catch {
-      return '';
-    }
-  };
-
-  // Modify the URL input handler to include logging
-  const handleUrlChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    const newUrl = e.target.value;
-    setUrl(newUrl);
-    setError('');
-
-    if (!newUrl) return;
-
-    try {
-      // Log URL to analytics
-      ReactGA.event({
-        category: 'URL Input',
-        action: 'URL Entered',
-        label: newUrl
+    setIsLoading(true);
+    fetch(`${API_URL}/docs/autocomplete?q=${encodeURIComponent(debouncedQuery)}&limit=8`)
+      .then(r => r.json())
+      .then((data: AutocompleteResponse) => {
+        setResults(data.suggestions || []);
+        setSearchTime(data.timing);
+        setShowDropdown(true);
+        setSelectedIndex(0);
+      })
+      .catch(() => {
+        setResults([]);
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
+  }, [debouncedQuery]);
 
-      // Log URL to server
-      await fetch('/api/logs/url', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          url: newUrl,
-          timestamp: new Date().toISOString(),
-          userAgent: navigator.userAgent
-        })
-      });
+  // Fast search function - fetches more results
+  const performFastSearch = useCallback(async (searchQuery: string) => {
+    if (searchQuery.length < 2) return;
 
-      // Check if URL is valid
-      const urlObj = new URL(newUrl);
-
-      // Suggest include pattern based on URL
-      const suggestedPattern = suggestIncludePattern(newUrl);
-      if (suggestedPattern && !includePattern) {
-        setIncludePattern(suggestedPattern);
-      }
-    } catch (err) {
-      if (err instanceof Error) {
-        setUrlError(err.message);
-      } else {
-        setUrlError('Invalid URL');
-      }
-    }
-  };
-
-  const handleIncludePatternChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const pattern = e.target.value;
-    setIncludePattern(pattern);
-    validatePattern(pattern, 'include');
-  };
-
-  const handleExcludePatternChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const pattern = e.target.value;
-    setExcludePattern(pattern);
-    validatePattern(pattern, 'exclude');
-  };
-
-  const handleCrawlAndDownload = async () => {
+    setIsLoading(true);
     try {
-      // Validate all inputs before proceeding
-      if (!validateUrl(url) || 
-          !validatePattern(includePattern, 'include') || 
-          !validatePattern(excludePattern, 'exclude')) {
-        return;
+      const response = await fetch(`${API_URL}/docs/fast-search?q=${encodeURIComponent(searchQuery)}&limit=12`);
+      const data: FastSearchResponse = await response.json();
+      if (data.results && data.results.length > 0) {
+        setResults(data.results);
+        setSearchTime(data.timing);
+        setShowDropdown(true);
+        setSelectedIndex(0);
       }
-
-      setIsLoading(true);
-      setError(null);
-      setDebugInfo(null);
-      setShowPreview(false);
-      setSelectedDoc(null);
-
-      const domain = getDomain(url);
-      logAndUpdateDebug(`Starting documentation download for: ${domain}`);
-      logCustomEvent("User Interaction", "Button Click", `Crawl and Download - ${url}`);
-
-      // Check if domain already exists
-      try {
-        const encodedUrl = encodeURIComponent(url);
-        const checkResponse = await fetch(`${API_URL}/docs/check-domain/${encodedUrl}`);
-        
-        if (checkResponse.ok) {
-          const checkData = await checkResponse.json();
-          if (checkData.found) {
-            // Check if the documentation was crawled within the last 10 days
-            const lastCrawled = new Date(checkData.lastUpdated);
-            const tenDaysAgo = new Date();
-            tenDaysAgo.setDate(tenDaysAgo.getDate() - 10);
-
-            if (lastCrawled > tenDaysAgo) {
-              logAndUpdateDebug(`Recent documentation found for: ${domain} (last updated: ${lastCrawled.toLocaleDateString()})`);
-              navigate(`/docs/${checkData.domain}`);
-              return;
-            } else {
-              logAndUpdateDebug(`Documentation found but outdated (last updated: ${lastCrawled.toLocaleDateString()}). Starting new crawl...`);
-            }
-          }
-        }
-      } catch (error) {
-        console.error('Error checking domain:', error);
-        // Continue with crawl even if check fails
-      }
-
-      // If no existing docs found, start crawling
-      logAndUpdateDebug(`No existing documentation found for: ${domain}. Starting crawl...`);
-      setMetrics({
-        totalPages: 0,
-        completedPages: 0,
-        failedPages: [],
-        inProgress: true
-      });
-
-      // Prepare the crawl request
-      const requestBody = {
-        url,
-        limit: maxPages,
-        maxDepth: 5,
-        allowBackwardLinks: true,
-        ...(includePattern && { includePaths: [includePattern] }),
-        ...(excludePattern && { excludePaths: [excludePattern] }),
-        scrapeOptions: {
-          formats: ['markdown', 'html'],
-          onlyMainContent: true,
-          removeBase64Images: false,
-          timeout: 60000,  // Increased to 60 seconds (will give ~30s per engine)
-          waitFor: 2000    // Increased wait time for heavy pages
-        }
-      };
-
-      // Validate patterns to avoid conflicts
-      if (includePattern && excludePattern) {
-        const includePatterns = includePattern.split(',').map(p => p.trim());
-        const excludePatterns = excludePattern.split(',').map(p => p.trim());
-        
-        const conflicts = includePatterns.filter(inc => 
-          excludePatterns.some(exc => inc === exc || inc.startsWith(exc) || exc.startsWith(inc))
-        );
-
-        if (conflicts.length > 0) {
-          throw new Error(`Pattern conflict detected: ${conflicts.join(', ')} appears in both include and exclude patterns`);
-        }
-      }
-
-      // Enhanced request logging
-      const requestLog = [
-        `🚀 STARTING CRAWL REQUEST:`,
-        `   Target URL: ${url}`,
-        `   Domain: ${domain}`,
-        `   Max Pages: ${maxPages}`,
-        `   Max Depth: 5`,
-        `   Include Patterns: ${includePattern || 'None'}`,
-        `   Exclude Patterns: ${excludePattern || 'None'}`,
-        `   Allow Backward Links: true`,
-        `   Scrape Options:`,
-        `     • Formats: markdown, html`,
-        `     • Main Content Only: true`,
-        `     • Remove Base64 Images: false`,
-        `     • Timeout: 20000ms`,
-        `     • Wait For: 1000ms`,
-        `   Request Size: ${new Blob([JSON.stringify(requestBody)]).size} bytes`,
-        ``
-      ].join('\n');
-      
-      console.log(requestLog);
-      logAndUpdateDebug(requestLog);
-
-      const response = await fetch(`${FIRECRAWL_API}/crawl`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        },
-        body: JSON.stringify(requestBody)
-      });
-
-      const responseLog = [
-        `📡 FIRECRAWL RESPONSE:`,
-        `   Status: ${response.status} ${response.statusText}`,
-        `   Headers:`,
-        `     • Content-Type: ${response.headers.get('content-type')}`,
-        `     • Content-Length: ${response.headers.get('content-length')}`,
-        `     • Server: ${response.headers.get('server') || 'Unknown'}`,
-        ``
-      ].join('\n');
-      
-      console.log(responseLog);
-      logAndUpdateDebug(responseLog);
-
-      if (!response.ok) {
-        const errorText = await response.text();
-        console.error('Error response:', errorText);
-        logAndUpdateDebug(`❌ CRAWL REQUEST FAILED: ${response.status} - ${errorText}`);
-        throw new Error(`Failed to start download: ${response.status} - ${errorText}`);
-      }
-
-      const data = await response.json();
-      
-      const successLog = [
-        `✅ CRAWL STARTED SUCCESSFULLY:`,
-        `   Crawl ID: ${data.id}`,
-        `   Success: ${data.success}`,
-        `   URL: ${data.url || 'Not provided'}`,
-        `   Message: ${data.message || 'None'}`,
-        `   Estimated Cost: ${data.creditsUsed || 'Unknown'} credits`,
-        ``
-      ].join('\n');
-      
-      console.log(successLog);
-      logAndUpdateDebug(successLog);
-      
-      if (!data.success || !data.id) {
-        throw new Error(data.error || 'Failed to start download: No crawl ID received');
-      }
-
-      setCrawlId(data.id);
-      setIsCrawling(true);
-      
-      pollCrawlStatus(data.id, domain);
-    } catch (err) {
-      console.error('Download error:', err);
-      setError(err instanceof Error ? err.message : 'Failed to start download. Please try again.');
-      logAndUpdateDebug(`Error: ${err instanceof Error ? err.message : 'Unknown error'}`);
-      setIsCrawling(false);
-      setMetrics(prev => ({ ...prev, inProgress: false }));
+    } catch {
+      // Keep existing results on error
     } finally {
       setIsLoading(false);
     }
-  };
+  }, []);
 
-  const pollCrawlStatus = async (id: string, domain: string) => {
+  // Resync documentation - re-crawl and update existing docs
+  const handleResync = useCallback(async (domain: string, url: string) => {
+    if (syncingDomain) return; // Already syncing
+
+    setSyncingDomain(domain);
+    setSyncProgress(null);
+    setSyncError(null);
+    pollAttemptsRef.current = 0;
+
+    // Clear any existing poll timeout
+    if (pollTimeoutRef.current) {
+      clearTimeout(pollTimeoutRef.current);
+    }
+
     try {
-      const response = await fetch(`${FIRECRAWL_API}/crawl/${id}`, {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
+      // Start crawl with Firecrawl v2 (optimized settings)
+      const requestBody = {
+        url: url.startsWith('http') ? url : `https://${url}`,
+        limit: 250,
+        maxDepth: 5,
+        allowBackwardLinks: true,
+        ignoreQueryParameters: true,  // Avoid re-scraping same path with different query params
+        scrapeOptions: {
+          formats: ['markdown', 'html'],
+          onlyMainContent: true,
+          removeBase64Images: true,   // Reduce payload size
+          blockAds: true,             // Block ads and cookie popups
+          timeout: 60000,
+          waitFor: 2000,
+          maxAge: 3600000             // Use cached version if < 1 hour old (500% faster)
         }
+      };
+
+      const response = await fetch(`${FIRECRAWL_API}/crawl`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(requestBody)
       });
 
+      if (!response.ok) {
+        const errorText = await response.text();
+        if (response.status === 429) {
+          throw new Error('Rate limited by Firecrawl. Please wait a few minutes and try again.');
+        }
+        throw new Error(`Failed to start resync: ${response.status} - ${errorText}`);
+      }
+
       const data = await response.json();
-      
-      // Enhanced logging for debugging
-      const timestamp = new Date().toISOString();
-      const detailedLog = [
-        `📊 [${timestamp}] CRAWL STATUS REPORT - ID: ${id}`,
-        `   Status: ${data.status}`,
-        `   Progress: ${data.completed || 0}/${data.total || 0} pages`,
-        `   Success Rate: ${data.completed ? Math.round((data.completed / (data.total || 1)) * 100) : 0}%`,
-        `   Data Array Length: ${data.data?.length || 0}`,
-        ``
-      ];
+      if (!data.success || !data.id) {
+        throw new Error(data.error || 'Failed to start resync: No crawl ID received');
+      }
 
-      // Analyze the crawl data in detail
-      if (data.data && Array.isArray(data.data)) {
-        detailedLog.push(`📄 PAGE ANALYSIS:`);
-        let successfulPages = 0;
-        let failedPages = 0;
-        let emptyPages = 0;
-        const pageDetails: string[] = [];
-        const failureReasons: Record<string, number> = {};
+      // Poll for completion with retry logic
+      const pollStatus = async (crawlId: string, retryCount = 0) => {
+        pollAttemptsRef.current++;
 
-        data.data.forEach((item: any, index: number) => {
-          const url = item.metadata?.sourceURL || `Page ${index + 1}`;
-          const hasMarkdown = !!item.markdown;
-          const markdownLength = item.markdown?.length || 0;
-          const title = item.metadata?.title || 'No title';
-          const statusCode = item.metadata?.statusCode || 'Unknown';
+        // Check max attempts
+        if (pollAttemptsRef.current > maxPollAttempts) {
+          setSyncError('Resync timed out. The crawl is taking too long.');
+          setSyncingDomain(null);
+          setSyncProgress(null);
+          return;
+        }
 
-          if (hasMarkdown && markdownLength > 100) {
-            successfulPages++;
-            pageDetails.push(`   ✅ ${url} - ${markdownLength} chars - "${title}"`);
-          } else if (hasMarkdown && markdownLength <= 100) {
-            emptyPages++;
-            pageDetails.push(`   ⚠️  ${url} - ${markdownLength} chars (too short) - "${title}"`);
-            failureReasons['Content too short'] = (failureReasons['Content too short'] || 0) + 1;
-          } else {
-            failedPages++;
-            pageDetails.push(`   ❌ ${url} - No content - Status: ${statusCode} - "${title}"`);
-            const reason = statusCode === 200 ? 'No markdown extracted' : `HTTP ${statusCode}`;
-            failureReasons[reason] = (failureReasons[reason] || 0) + 1;
+        try {
+          const statusResponse = await fetch(`${FIRECRAWL_API}/crawl/${crawlId}`);
+
+          // Handle HTTP errors
+          if (!statusResponse.ok) {
+            if (statusResponse.status === 429) {
+              // Rate limited - wait longer before retry
+              console.log('Rate limited, waiting 10s before retry...');
+              pollTimeoutRef.current = setTimeout(() => pollStatus(crawlId, 0), 10000);
+              return;
+            }
+            if (retryCount < 3) {
+              // Retry on other errors
+              console.log(`Poll error ${statusResponse.status}, retry ${retryCount + 1}/3`);
+              pollTimeoutRef.current = setTimeout(() => pollStatus(crawlId, retryCount + 1), 5000);
+              return;
+            }
+            throw new Error(`Failed to check status: ${statusResponse.status}`);
           }
-        });
 
-        detailedLog.push(`   Total processed: ${data.data.length}`);
-        detailedLog.push(`   ✅ Successful: ${successfulPages}`);
-        detailedLog.push(`   ⚠️  Empty/Short: ${emptyPages}`);
-        detailedLog.push(`   ❌ Failed: ${failedPages}`);
-        detailedLog.push(``);
+          const statusData = await statusResponse.json();
 
-        if (Object.keys(failureReasons).length > 0) {
-          detailedLog.push(`🔍 FAILURE BREAKDOWN:`);
-          Object.entries(failureReasons).forEach(([reason, count]) => {
-            detailedLog.push(`   ${reason}: ${count} pages`);
+          setSyncProgress({
+            completed: statusData.completed || 0,
+            total: statusData.total || 0
           });
-          detailedLog.push(``);
-        }
 
-        detailedLog.push(`📋 DETAILED PAGE LIST:`);
-        pageDetails.forEach(detail => detailedLog.push(detail));
-        detailedLog.push(``);
-      }
+          if (statusData.status === 'completed') {
+            // Save the updated documentation
+            if (statusData.data && statusData.data.length > 0) {
+              const timestamp = new Date().toISOString();
+              const pages = statusData.data
+                .filter((item: any) => item.markdown && item.markdown.length > 100)
+                .map((item: any) => ({
+                  content: item.markdown,
+                  type: item.metadata?.title || 'Unknown',
+                  lastUpdated: timestamp,
+                  url: item.metadata?.sourceURL,
+                  domain
+                }));
 
-      // Log Firecrawl configuration being used
-      if (data.status === 'scraping' || data.status === 'completed') {
-        detailedLog.push(`⚙️  CRAWL CONFIGURATION:`);
-        detailedLog.push(`   URL: ${url}`);
-        detailedLog.push(`   Max Pages: ${maxPages}`);
-        detailedLog.push(`   Max Depth: 5`);
-        detailedLog.push(`   Include Pattern: ${includePattern || 'None'}`);
-        detailedLog.push(`   Exclude Pattern: ${excludePattern || 'None'}`);
-        detailedLog.push(`   Formats: markdown, html`);
-        detailedLog.push(`   Main Content Only: true`);
-        detailedLog.push(`   Timeout: 20000ms`);
-        detailedLog.push(`   Wait For: 1000ms`);
-        detailedLog.push(``);
-      }
+              if (pages.length > 0) {
+                const saveResponse = await fetch(`${API_URL}/docs/save`, {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({ domain, timestamp, pages })
+                });
 
-      // Check for potential issues
-      if (data.status === 'completed' && data.total && data.total < 5) {
-        detailedLog.push(`🚨 POTENTIAL ISSUES DETECTED:`);
-        detailedLog.push(`   Very few pages discovered (${data.total}). This could indicate:`);
-        detailedLog.push(`   • Website blocks crawlers (robots.txt, rate limiting)`);
-        detailedLog.push(`   • Include/exclude patterns too restrictive`);
-        detailedLog.push(`   • Site requires authentication`);
-        detailedLog.push(`   • Dynamic content loading issues`);
-        detailedLog.push(`   • Site structure doesn't match expected patterns`);
-        detailedLog.push(``);
-      }
-
-      if (data.data && data.completed && data.completed < data.total) {
-        const failureRate = Math.round(((data.total - data.completed) / data.total) * 100);
-        if (failureRate > 50) {
-          detailedLog.push(`🚨 HIGH FAILURE RATE DETECTED (${failureRate}%):`);
-          detailedLog.push(`   This suggests potential issues:`);
-          detailedLog.push(`   • Server rate limiting or blocking`);
-          detailedLog.push(`   • Unstable network connection`);
-          detailedLog.push(`   • Pages require JavaScript rendering`);
-          detailedLog.push(`   • Authentication required for content`);
-          detailedLog.push(`   • Server overload or timeouts`);
-          detailedLog.push(``);
-        }
-      }
-
-      const fullLog = detailedLog.join('\n');
-      console.log(fullLog);
-      logAndUpdateDebug(fullLog);
-
-      // Update metrics with enhanced data
-      setMetrics(prev => ({
-        ...prev,
-        totalPages: data.total || 0,
-        completedPages: data.completed || 0,
-        failedPages: data.data 
-          ? data.data.filter((item: any) => !item.markdown || item.markdown.length <= 100)
-              .map((item: any) => item.metadata?.sourceURL || 'Unknown URL')
-          : [],
-        inProgress: data.status !== 'completed' && data.status !== 'failed'
-      }));
-
-      if (data.status === 'completed') {
-        setIsCrawling(false);
-        if (data.data && data.data.length > 0) {
-          const timestamp = new Date().toISOString();
-          const failedPages: string[] = [];
-          
-          const pages: DocPreview[] = data.data.map((item: CrawlStatusResponse['data'][0]) => {
-            if (!item.markdown || item.markdown.length <= 100) {
-              const failureReason = !item.markdown 
-                ? 'No markdown content' 
-                : 'Content too short';
-              failedPages.push(`${item.metadata?.sourceURL || 'Unknown URL'} (${failureReason})`);
-              return {
-                content: 'No content available',
-                type: item.metadata?.title || 'Unknown',
-                lastUpdated: timestamp,
-                url: item.metadata?.sourceURL,
-                domain
-              };
-            }
-            return {
-              content: item.markdown,
-              type: item.metadata?.title || 'Unknown',
-              lastUpdated: timestamp,
-              url: item.metadata?.sourceURL,
-              domain
-            };
-          }).filter((page: DocPreview) => page.content !== 'No content available');
-
-          logAndUpdateDebug(`🎯 FINAL RESULTS: ${pages.length} valid pages out of ${data.data.length} total pages processed`);
-
-          if (pages.length > 0) {
-            // Save URL status
-            const urlStatus: SavedUrl = {
-              url,
-              domain,
-              lastScraped: timestamp,
-              totalPages: data.total,
-              successfulPages: pages.length,
-              failedPages
-            };
-            
-            setSavedUrls(prev => [...prev.filter(u => u.url !== url), urlStatus]);
-            
-            // Save docs to server
-            try {
-              // Compute request size
-              const requestData = {
-                domain,
-                timestamp,
-                pages
-              };
-              const requestSize = new Blob([JSON.stringify(requestData)]).size;
-              const requestSizeMB = (requestSize / (1024 * 1024)).toFixed(2);
-              
-              logAndUpdateDebug(`💾 Saving documentation: ${requestSizeMB} MB, ${pages.length} pages`);
-
-              const saveResponse = await fetch(`${API_URL}/docs/save`, {
-                method: 'POST',
-                headers: {
-                  'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(requestData)
-              });
-
-              if (!saveResponse.ok) {
-                if (saveResponse.status === 413) {
-                  // Try to get the actual server limit from response headers if available
-                  const serverLimit = saveResponse.headers.get('x-max-content-length');
-                  const serverLimitMB = serverLimit ? (parseInt(serverLimit) / (1024 * 1024)).toFixed(2) : null;
-                  
-                  throw new Error(
-                    `Documentation size (${requestSizeMB} MB) exceeds server limit` +
-                    `${serverLimitMB ? ` of ${serverLimitMB} MB` : ''}. ` +
-                    `Please try one of the following:\n` +
-                    `1. Reduce the number of pages using the Max Pages slider\n` +
-                    `2. Use the exclude pattern to skip unnecessary content\n` +
-                    `3. Contact support if you need to process larger documentation`
-                  );
+                if (!saveResponse.ok) {
+                  const saveError = await saveResponse.text();
+                  throw new Error(`Failed to save: ${saveError}`);
                 }
-                const errorData = await saveResponse.json().catch(() => null);
-                throw new Error(
-                  errorData?.error || 
-                  `Failed to save documentation: ${saveResponse.status} ${saveResponse.statusText}`
-                );
+
+                // Refresh the docs list
+                const refreshResponse = await fetch(`${API_URL}/docs/list?page=1&limit=10&sortBy=newest`);
+                const refreshData = await refreshResponse.json();
+                setPopularDocs(refreshData.docs || []);
+              } else {
+                setSyncError('No valid content found in crawled pages.');
               }
-
-              const savedData = await saveResponse.json();
-              if (!savedData.success) {
-                throw new Error(savedData.error || 'Failed to save documentation');
-              }
-
-              // Ensure filePath exists in the response
-              if (!savedData.filePath) {
-                throw new Error('Server response missing filePath');
-              }
-
-              logAndUpdateDebug(`✅ Successfully saved documentation to: ${savedData.filePath}`);
-
-              const docsWithPaths = pages.map(page => ({
-                ...page,
-                filePath: savedData.filePath
-              }));
-              
-              // Update state with file paths
-              setSavedDocs(prev => [...prev.filter(d => d.domain !== domain), ...docsWithPaths]);
-
-              // Show success message and navigate
-              setShowPreview(true);
-              setSelectedDoc(docsWithPaths[0]);
-              logAndUpdateDebug(`🎉 Documentation successfully downloaded! Navigating to results...`);
-              setTimeout(() => navigate(`/docs/${domain}`), 2000);
-              
-            } catch (saveError) {
-              console.error('Save error:', saveError);
-              logAndUpdateDebug(`❌ Failed to save documentation: ${saveError instanceof Error ? saveError.message : 'Unknown error'}`);
-              setError(saveError instanceof Error ? saveError.message : 'Failed to save documentation');
+            } else {
+              setSyncError('Crawl completed but no data received.');
             }
+            setSyncingDomain(null);
+            setSyncProgress(null);
+          } else if (statusData.status === 'failed') {
+            throw new Error(statusData.error || 'Crawl failed on Firecrawl server');
           } else {
-            logAndUpdateDebug(`❌ No valid content found. All ${data.data.length} pages failed to provide usable content.`);
-            setError(`No valid content found in the scraped pages. Processed ${data.data.length} pages but none contained sufficient content.`);
+            // Continue polling
+            pollTimeoutRef.current = setTimeout(() => pollStatus(crawlId, 0), 3000);
           }
-        } else {
-          logAndUpdateDebug(`❌ Crawl completed but no data received from Firecrawl`);
-          setError('No data received from the scraping process');
-          setMetrics(prev => ({ ...prev, inProgress: false }));
+        } catch (pollError) {
+          console.error('Poll error:', pollError);
+          if (retryCount < 3) {
+            pollTimeoutRef.current = setTimeout(() => pollStatus(crawlId, retryCount + 1), 5000);
+          } else {
+            throw pollError;
+          }
         }
-      } else if (data.status === 'failed') {
-        logAndUpdateDebug(`❌ CRAWL FAILED: ${data.error || 'Unknown error'}`);
-        setError(`Download failed: ${data.error || 'Unknown error'}. Please try again.`);
-        setIsCrawling(false);
-        setMetrics(prev => ({ ...prev, inProgress: false }));
-      } else {
-        // Continue polling with time estimate
-        const remaining = (data.total || 0) - (data.completed || 0);
-        const estimatedTimeRemaining = remaining * 3; // Rough estimate: 3 seconds per page
-        logAndUpdateDebug(`⏳ Still processing... ETA: ~${estimatedTimeRemaining}s (${remaining} pages remaining)`);
-        setTimeout(() => pollCrawlStatus(id, domain), 5000);
+      };
+
+      pollStatus(data.id);
+    } catch (error) {
+      console.error('Resync error:', error);
+      setSyncError(error instanceof Error ? error.message : 'Resync failed. Please try again.');
+      setSyncingDomain(null);
+      setSyncProgress(null);
+    }
+  }, [syncingDomain]);
+
+  // Handle keyboard navigation
+  const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
+    switch (e.key) {
+      case 'ArrowDown':
+        if (showDropdown && results.length > 0) {
+          e.preventDefault();
+          setSelectedIndex(prev => (prev + 1) % results.length);
+        }
+        break;
+      case 'ArrowUp':
+        if (showDropdown && results.length > 0) {
+          e.preventDefault();
+          setSelectedIndex(prev => (prev - 1 + results.length) % results.length);
+        }
+        break;
+      case 'Enter':
+        e.preventDefault();
+        if (showDropdown && results.length > 0 && results[selectedIndex]) {
+          navigate(`/docs/${results[selectedIndex].domain}`);
+        } else if (query.length >= 2) {
+          // Use fast-search for more results
+          performFastSearch(query);
+        }
+        break;
+      case 'Escape':
+        setShowDropdown(false);
+        break;
+    }
+  }, [showDropdown, results, selectedIndex, navigate, query, performFastSearch]);
+
+  // Click outside to close
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setShowDropdown(false);
       }
-    } catch (err) {
-      console.error('Poll error:', err);
-      logAndUpdateDebug(`❌ Failed to check download status: ${err instanceof Error ? err.message : 'Unknown error'}`);
-      setError('Failed to check download status. Please try again.');
-      setIsCrawling(false);
-      setMetrics(prev => ({ ...prev, inProgress: false }));
-    }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const formatDomain = (domain: string) => {
+    return domain.replace(/^docs\./, '').replace(/\.(com|org|io|dev|ai)$/, '');
   };
-
-  const downloadFile = async (filePath: string, filename: string) => {
-    try {
-      const response = await fetch(`${API_URL}/docs/download?path=${encodeURIComponent(filePath)}`);
-      if (!response.ok) throw new Error('Failed to download file');
-      
-      const blob = await response.blob();
-      const url = window.URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `${filename || 'documentation'}.md`;
-      document.body.appendChild(a);
-      a.click();
-      window.URL.revokeObjectURL(url);
-      document.body.removeChild(a);
-    } catch (err) {
-      console.error('Download error:', err);
-      setError('Failed to download file. Please try again.');
-    }
-  };
-
-  const handleCopy = async (filePath: string) => {
-    try {
-      const response = await fetch(`${API_URL}/docs/content?path=${encodeURIComponent(filePath)}`);
-      if (!response.ok) throw new Error('Failed to fetch content');
-      
-      const content = await response.text();
-      navigator.clipboard.writeText(content);
-    } catch (err) {
-      console.error('Copy error:', err);
-      setError('Failed to copy content. Please try again.');
-    }
-  };
-
-  // Function to handle navigation to doc pages with GA tracking
-  const navigateToDoc = (domain: string) => {
-    // Track the doc page view
-    ReactGA.send({
-      hitType: "pageview",
-      page: `/docs/${domain}`,
-      title: `Documentation - ${domain}`
-    });
-    
-    // Navigate to the doc page
-    navigate(`/docs/${domain}`);
-  };
-
-  // Modified loadSavedData to generate sitemap
-  const loadSavedData = async (limit: number) => {
-    try {
-      setnewDataLoading(true);
-      console.log('Loading saved data...', `${pageref.current}`);
-      const response = await fetch(`${API_URL}/docs/list?page=${pageref.current}&limit=${limit}`);
-      pageref.current = pageref.current + 1;
-      
-      if (!response.ok) throw new Error('Failed to load saved documentation');
-      const data = await response.json();
-      if(data.docs.length === 0) {
-        setNoMoreData(true);
-      }
-
-      // Update saved docs state
-      setSavedDocs((prevDocs) => {
-        const existingDomains = new Set(prevDocs.map((doc) => doc.domain + doc.filePath));
-        const newDocs = data.docs.filter(
-          (doc: DocPreview) => !existingDomains.has(doc.domain + doc.filePath)
-        );
-        const finaldoc = [...prevDocs, ...newDocs];
-        
-        // Generate sitemap with all domains
-        const allDomains = finaldoc.map(doc => doc.domain);
-        // generateSitemap(window.location.origin, allDomains);
-
-        return finaldoc;
-      });
-
-      // Filter out duplicate URLs
-      setSavedUrls((prevUrls) => {
-        const existingUrls = new Set(prevUrls.map((url) => url.url));
-        const newUrls = data.urls.filter(
-          (url: SavedUrl) => !existingUrls.has(url.url)
-        );
-        return [...prevUrls, ...newUrls];
-      });
-      setnewDataLoading(false);
-
-     // Set the total pages from the response
-    } catch (err) {
-      console.error('Load error:', err);
-      setError('Failed to load saved documentation.');
-    }
-  };
-  
 
   return (
     <>
-    <Helmet prioritizeSeoTags={true}>
-        <title>Home | DocIngest</title>
-        <meta name="description" content="Download documentation for any Framework, Library or API" />
-        <meta name="keywords" content="documentation, download, save, framework, library, api" />
-        <meta property="og:title" content="Home | DocIngest" />
-        <meta property="og:description" content="Download documentation for any Framework, Library or API" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://docingest.com" />
+      <Helmet>
+        <title>DocIngest - Search Documentation for AI Coding Tools</title>
+        <meta name="description" content="Search 700+ documentation sources instantly. Built for developers using AI coding tools like Cursor, Claude, and Windsurf." />
       </Helmet>
-    <div className="space-y-8">
-      <div className="text-center space-y-4">
-        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
-          Doc<span className="text-primary">Ingest</span>
-        </h1>
-        <p className="text-gray-600 text-lg">
-          Download documentation for any Framework, Library or API
-        </p>
-        <p className="text-gray-500 mb-2 text-sm">
-          Always use latest documentation with ChatGPT, Claude or Cursor / Windsurf IDE
-        </p>
-        
-        <div className="flex justify-center space-x-4">
-          <Link
-            to="/view"
-            className="px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-          >
-            View Indexed Docs
-          </Link>
-        </div>
-      </div>
 
-      <div className="relative">
-        <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
-        <div className="rounded-xl relative z-20 p-8 border-[3px] border-gray-900 bg-card">
-          <div className="space-y-6">
+      <div className="space-y-8">
+        {/* Header */}
+        <div className="text-center space-y-4">
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
+            Doc<span className="text-primary">Ingest</span>
+          </h1>
+          <p className="text-gray-600 text-lg">
+            Search {stats.totalDomains}+ documentation sources instantly
+          </p>
+          <p className="text-gray-500 mb-2 text-sm">
+            Built for developers using ChatGPT, Claude, Cursor or Windsurf
+          </p>
+
+          <div className="flex justify-center space-x-4">
+            <Link
+              to="/add"
+              className="px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
+            >
+              Add New Docs
+            </Link>
+            <Link
+              to="/view"
+              className="px-4 py-2 bg-white text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
+            >
+              Browse All
+            </Link>
+          </div>
+        </div>
+
+        {/* Search Box */}
+        <div className="relative" ref={dropdownRef}>
+          <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
+          <div className="rounded-xl relative z-20 p-6 border-[3px] border-gray-900 bg-card">
             <div className="relative">
               <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
-              <input
-                type="url"
-                value={url}
-                onChange={handleUrlChange}
-                placeholder="https://docs.cartesia.ai/get-started/overview"
-                required
-                className={`w-full p-4 border-[3px] ${urlError ? 'border-red-500' : 'border-gray-900'} rounded relative z-10 bg-white`}
-              />
-              {urlError && (
-                <p className="mt-1 text-red-500 text-sm">{urlError}</p>
-              )}
-            </div>
+              <div className="relative z-10 flex items-center bg-white border-[3px] border-gray-900 rounded">
+                {/* Search icon */}
+                <div className="pl-4 text-gray-400">
+                  {isLoading ? (
+                    <svg className="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                    </svg>
+                  ) : (
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                  )}
+                </div>
 
-            <div className="grid grid-cols-3 gap-6">
-              <div className="space-y-2">
-                <label className="block text-sm font-semibold text-gray-900">
-                  Include files under: <span className="text-gray-500">(e.g., /docs/*)</span>
-                </label>
-                <div className="relative">
-                  <div className="w-full h-full rounded bg-gray-900 translate-y-[2px] translate-x-[2px] absolute inset-0"></div>
-                  <input
-                    type="text"
-                    value={includePattern}
-                    onChange={handleIncludePatternChange}
-                    placeholder="/docs/*"
-                    className={`w-full p-2 text-sm border-2 ${includePatternError ? 'border-red-500' : 'border-gray-900'} rounded relative z-10 bg-white`}
-                  />
-                </div>
-                <div className="text-xs text-gray-500 pl-1">
-                  Only crawl URLs starting with this path
-                </div>
-                {includePatternError && (
-                  <p className="text-red-500 text-xs pl-1">{includePatternError}</p>
-                )}
-              </div>
+                <input
+                  ref={inputRef}
+                  type="text"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  onKeyDown={handleKeyDown}
+                  onFocus={() => results.length > 0 && setShowDropdown(true)}
+                  placeholder="Search documentation... (e.g. react, nextjs, tailwind)"
+                  className="w-full p-4 bg-transparent outline-none text-gray-900 placeholder:text-gray-400"
+                  autoComplete="off"
+                  spellCheck={false}
+                />
 
-              <div className="space-y-2">
-                <label className="block text-sm font-semibold text-gray-900">
-                  Exclude files under: <span className="text-gray-500">(e.g., /api/*)</span>
-                </label>
-                <div className="relative">
-                  <div className="w-full h-full rounded bg-gray-900 translate-y-[2px] translate-x-[2px] absolute inset-0"></div>
-                  <input
-                    type="text"
-                    value={excludePattern}
-                    onChange={handleExcludePatternChange}
-                    placeholder="/api/*, /internal/*"
-                    className={`w-full p-2 text-sm border-2 ${excludePatternError ? 'border-red-500' : 'border-gray-900'} rounded relative z-10 bg-white`}
-                  />
-                </div>
-                <div className="text-xs text-gray-500 pl-1">
-                  Skip URLs matching these patterns
-                </div>
-                {excludePatternError && (
-                  <p className="text-red-500 text-xs pl-1">{excludePatternError}</p>
-                )}
-              </div>
-
-              <div className="space-y-2">
-                <label className="block text-sm font-semibold text-gray-900">
-                  Max Pages: {maxPages}
-                </label>
-                <div className="relative pt-1">
-                  <div className="relative h-2">
-                    <div className="h-2 bg-gray-200 rounded-none"></div>
-                    <div 
-                      className="absolute top-0 left-0 h-2 bg-primary rounded-none"
-                      style={{ width: `${(maxPages / 1000) * 100}%` }}
-                    ></div>
-                    <div 
-                      className="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-white border-2 border-gray-900 rounded-none cursor-pointer"
-                      style={{ left: `calc(${(maxPages / 1000) * 100}% - 8px)` }}
-                    ></div>
-                    <input
-                      type="range"
-                      min="0"
-                      max="1000"
-                      step="25"
-                      value={maxPages}
-                      onChange={(e) => {
-                        const value = Number(e.target.value);
-                        // Ensure the value is a multiple of 25
-                        const roundedValue = Math.round(value / 25) * 25;
-                        setMaxPages(roundedValue);
-                      }}
-                      className="absolute top-0 left-0 w-full h-2 opacity-0 cursor-pointer z-10"
-                    />
-                  </div>
-                  <div className="flex justify-between mt-2">
-                    <span className="text-xs font-semibold text-gray-600">0</span>
-                    <span className="text-xs font-semibold text-gray-600">500</span>
-                    <span className="text-xs font-semibold text-gray-600">1000</span>
-                  </div>
+                {/* Keyboard shortcut hint */}
+                <div className="pr-4 flex items-center gap-2">
+                  {searchTime !== null && query.length >= 2 && (
+                    <span className="text-xs text-gray-400 font-mono">{searchTime}ms</span>
+                  )}
+                  <kbd className="hidden sm:inline-flex items-center gap-1 px-2 py-1 text-xs text-gray-500 bg-gray-100 rounded border border-gray-300">
+                    ⌘K
+                  </kbd>
                 </div>
               </div>
             </div>
 
-            <div className="relative mt-6">
+            {/* Dropdown */}
+            {showDropdown && results.length > 0 && (
+              <div className="mt-4 border-[3px] border-gray-900 rounded bg-white overflow-hidden">
+                {results.map((result, index) => (
+                  <button
+                    key={result.domain}
+                    onClick={() => navigate(`/docs/${result.domain}`)}
+                    onMouseEnter={() => setSelectedIndex(index)}
+                    className={`
+                      w-full px-4 py-3 flex items-center gap-3 text-left transition-colors
+                      ${index === selectedIndex ? 'bg-gray-100' : 'hover:bg-gray-50'}
+                      ${index !== results.length - 1 ? 'border-b-2 border-gray-200' : ''}
+                    `}
+                  >
+                    {/* Icon */}
+                    <div className="w-10 h-10 rounded bg-primary flex items-center justify-center flex-shrink-0">
+                      <span className="text-sm font-bold text-white">
+                        {result.domain.charAt(0).toUpperCase()}
+                      </span>
+                    </div>
+
+                    {/* Content */}
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2">
+                        <span className="font-semibold text-gray-900 truncate">
+                          {result.title || formatDomain(result.domain)}
+                        </span>
+                        {result.matchType === 'prefix' && (
+                          <span className="px-2 py-0.5 text-xs font-bold bg-green-100 text-green-700 rounded">
+                            EXACT
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-sm text-gray-500 truncate">{result.domain}</p>
+                    </div>
+
+                    {/* Arrow indicator */}
+                    {index === selectedIndex && (
+                      <div className="text-gray-400">
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </div>
+                    )}
+                  </button>
+                ))}
+
+                {/* Footer hint */}
+                <div className="px-4 py-2 bg-gray-50 border-t-2 border-gray-200 flex items-center justify-between text-xs text-gray-500">
+                  <span>
+                    <kbd className="px-1.5 py-0.5 bg-white border border-gray-300 rounded text-[10px]">↑↓</kbd>
+                    {' '}to navigate
+                    {' '}
+                    <kbd className="px-1.5 py-0.5 bg-white border border-gray-300 rounded text-[10px]">↵</kbd>
+                    {' '}to select
+                  </span>
+                  <span>{results.length} results</span>
+                </div>
+              </div>
+            )}
+
+            {/* No results */}
+            {showDropdown && query.length >= 2 && results.length === 0 && !isLoading && (
+              <div className="mt-4 p-6 border-[3px] border-gray-900 rounded bg-white text-center">
+                <p className="text-gray-600 mb-2">No documentation found for "{query}"</p>
+                <button
+                  onClick={() => navigate('/add')}
+                  className="text-primary hover:underline text-sm font-medium"
+                >
+                  + Add this documentation
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Stats bar */}
+        <div className="flex items-center justify-center gap-6 text-sm text-gray-500">
+          <div className="flex items-center gap-2">
+            <div className={`w-2 h-2 rounded-full ${stats.redisConnected ? 'bg-green-500' : 'bg-red-500'}`} />
+            <span>{stats.totalDomains}+ docs indexed</span>
+          </div>
+          <span>•</span>
+          <span>{"<"}200ms search</span>
+          <span>•</span>
+          <span>Works with Claude Code, Cursor, Windsurf, Codex</span>
+        </div>
+
+        {/* MCP CTA */}
+        <div className="relative">
+          <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
+          <div className="rounded-xl relative z-20 p-8 border-[3px] border-gray-900 bg-blue-50 text-center">
+            <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-bold mb-4">
+              MCP Server Available
+            </span>
+            <h3 className="text-xl font-bold mb-2">Use with AI Coding Tools</h3>
+            <p className="text-gray-600 text-sm mb-4 max-w-md mx-auto">
+              Add DocIngest to Claude Code, Cursor, Windsurf, Codex, or any MCP-compatible tool for instant documentation access.
+            </p>
+            <div className="relative inline-block mb-4">
               <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
-              <button
-                onClick={handleCrawlAndDownload}
-                disabled={isLoading || isCrawling}
-                className="w-full px-6 py-3 bg-primary text-white border-[3px] border-gray-900 rounded font-medium relative z-10 hover:-translate-y-0.5 transition-transform disabled:opacity-50 disabled:cursor-not-allowed"
+              <code className="relative z-10 block bg-white px-4 py-3 rounded border-[3px] border-gray-900 font-mono text-sm text-left">
+                <span className="text-gray-500">$</span>
+                <span className="text-primary"> git clone</span>
+                <span className="text-gray-900"> github.com/Amal-David/docingest</span>
+              </code>
+            </div>
+            <div>
+              <Link
+                to="/mcp-guide"
+                className="text-blue-600 hover:text-blue-800 text-sm font-medium underline"
               >
-                {isCrawling ? 'Downloading...' : 'Download Documentation'}
+                View Setup Guide →
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* Sync Error Message */}
+        {syncError && (
+          <div className="relative">
+            <div className="w-full h-full absolute inset-0 bg-red-900 rounded-xl translate-y-1 translate-x-1"></div>
+            <div className="rounded-xl relative z-20 p-4 border-[3px] border-red-900 bg-red-50 flex items-center justify-between">
+              <p className="text-red-700 text-sm">{syncError}</p>
+              <button
+                onClick={() => setSyncError(null)}
+                className="text-red-700 hover:text-red-900 font-bold"
+              >
+                ✕
               </button>
             </div>
           </div>
-        </div>
-      </div>
+        )}
 
-      {metrics.inProgress && (
-        <div className="relative">
-          <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-1 translate-x-1"></div>
-          <div className="rounded-xl relative z-20 p-6 border-[3px] border-gray-900 bg-blue-50">
-            <div className="space-y-3">
-              <p className="text-blue-700 font-semibold">
-                Scraping in progress: {metrics.completedPages}/{metrics.totalPages} pages
-              </p>
-              <div className="relative h-2">
-                {/* Background track */}
-                <div className="h-2 bg-gray-200 rounded-none"></div>
-                {/* Progress bar */}
-                <div 
-                  className="absolute top-0 left-0 h-2 bg-primary rounded-none"
-                  style={{ width: `${(metrics.completedPages / metrics.totalPages) * 100}%` }}
-                ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-     
-
-      {error && (
-        <div className="mt-4 p-4 bg-red-50 rounded-lg">
-          <p className="text-red-700">{error}</p>
-        </div>
-      )}
-
-      {debugInfo && (
-        <div className="mt-4 p-4 bg-gray-50 rounded-lg">
-          <pre className="text-sm text-gray-700 whitespace-pre-wrap">{debugInfo}</pre>
-        </div>
-      )}
-
-      {savedDocs.length > 0 && (
-        <div className="space-y-4">
-          <h2 className="text-2xl font-bold">Saved Documentation</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {savedDocs.map((doc, index) => (
-              <div key={index} className="relative">
-                <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
-                <div className="rounded-xl relative z-20 p-6 border-[3px] border-gray-900 bg-card">
-                  <div className="space-y-2">
-                    <h3 className="text-xl font-bold">{doc.type}</h3>
-                    <p className="text-sm text-gray-600">Domain: {doc.domain}</p>
-                    <p className="text-sm text-gray-600">
-                      Saved: {new Date(doc.lastUpdated).toLocaleDateString()}
-                    </p>
-                    {doc.url && (
-                      <a 
-                        href={doc.url.startsWith('http') ? doc.url : `https://${doc.url}`}
+        {/* Recently Updated Docs */}
+        {popularDocs.length > 0 && (
+          <div className="space-y-4">
+            <h2 className="text-2xl font-bold">Recently Updated</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {popularDocs.slice(0, 10).map((doc) => (
+                <div key={doc.domain} className="relative">
+                  <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
+                  <div className="rounded-xl relative z-20 p-6 border-[3px] border-gray-900 bg-card">
+                    <div className="space-y-2">
+                      <h3 className="text-xl font-bold">{formatDomain(doc.domain)}</h3>
+                      <p className="text-sm text-gray-600">Domain: {doc.domain}</p>
+                      <p className="text-sm text-gray-600">
+                        Updated: {new Date(doc.lastUpdated).toLocaleDateString()}
+                      </p>
+                      <a
+                        href={`https://${doc.domain}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-sm text-primary hover:underline"
                       >
                         View Source
                       </a>
+                    </div>
+
+                    {/* Sync progress indicator */}
+                    {syncingDomain === doc.domain && syncProgress && (
+                      <div className="mt-3 space-y-2">
+                        <div className="flex justify-between text-xs text-gray-600">
+                          <span>Syncing...</span>
+                          <span>{syncProgress.completed}/{syncProgress.total} pages</span>
+                        </div>
+                        <div className="h-2 bg-gray-200 rounded">
+                          <div
+                            className="h-2 bg-primary rounded transition-all"
+                            style={{ width: `${syncProgress.total ? (syncProgress.completed / syncProgress.total) * 100 : 0}%` }}
+                          />
+                        </div>
+                      </div>
                     )}
-                  </div>
-                  <div className="mt-4 space-y-2">
-                    <div className="grid grid-cols-2 gap-2">
+
+                    {/* Syncing but no progress yet */}
+                    {syncingDomain === doc.domain && !syncProgress && (
+                      <div className="mt-3">
+                        <p className="text-xs text-blue-600">Starting crawl...</p>
+                      </div>
+                    )}
+
+                    <div className="mt-4 grid grid-cols-2 gap-2">
                       <button
-                        onClick={() => navigateToDoc(doc.domain)}
-                        className="px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-                      >
-                        Preview
-                      </button>
-                      <button
-                        onClick={() => doc.filePath && downloadFile(
-                          doc.filePath,
-                          `${doc.domain}_${doc.type ? doc.type.toLowerCase().replace(/\s+/g, '_') : 'documentation'}`
-                        )}
+                        onClick={() => navigate(`/docs/${doc.domain}`)}
                         className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
                       >
-                        Download
+                        View
+                      </button>
+                      <button
+                        onClick={() => handleResync(doc.domain, doc.url || doc.domain)}
+                        disabled={syncingDomain !== null}
+                        className={`px-4 py-2 border-[3px] border-gray-900 rounded transition-transform ${
+                          syncingDomain === doc.domain
+                            ? 'bg-blue-100 text-blue-700 cursor-wait'
+                            : syncingDomain
+                            ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                            : 'bg-secondary text-gray-900 hover:-translate-y-0.5'
+                        }`}
+                      >
+                        {syncingDomain === doc.domain ? 'Syncing...' : 'Resync'}
                       </button>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      )}
-    {/* if newdataloadsing show beautiful loader spinner */}
-    {newDataLoading && (
-      <div className="flex justify-center items-center h-screen">
-        <div className="animate-spin rounded-full h-32 w-32 border-t-4 border-b-4 border-primary"></div>
-        </div>
         )}
-         {!newDataLoading && !noMoreData && (
-        <div className="text-center mt-8">
-          <button
-            onClick={() => {
-              loadSavedData(5);
-            }}
-            className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-          >
-            {newDataLoading ? 'Loading...' : 'Load More'}
-          </button>
-        </div>
-      )}
       </div>
-     </>
+    </>
   );
-};
-
-export default HomePage; 
+}

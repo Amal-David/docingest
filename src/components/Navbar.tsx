@@ -16,12 +16,23 @@ const Navbar: React.FC = () => {
           </div>
 
           <nav className="flex items-center space-x-6">
-            
-            <Link 
-              to="/view" 
+            <Link
+              to="/add"
               className="text-gray-900 hover:-translate-y-0.5 transition-transform"
             >
-              View Indexed Docs
+              Add Docs
+            </Link>
+            <Link
+              to="/view"
+              className="text-gray-900 hover:-translate-y-0.5 transition-transform"
+            >
+              View Docs
+            </Link>
+            <Link
+              to="/mcp-guide"
+              className="text-gray-900 hover:-translate-y-0.5 transition-transform"
+            >
+              MCP Guide
             </Link>
           </nav>
         </div>
