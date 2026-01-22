@@ -49,7 +49,7 @@ interface CrawlStatusResponse {
   }>;
 }
 
-interface FirecrawlResponse {
+interface CrawlResponse {
   success: boolean;
   data?: {
     markdown?: string;
@@ -382,28 +382,12 @@ const HomePage: React.FC = () => {
         }
       }
 
-      // Enhanced request logging
-      const requestLog = [
-        `🚀 STARTING CRAWL REQUEST:`,
-        `   Target URL: ${url}`,
-        `   Domain: ${domain}`,
-        `   Max Pages: ${maxPages}`,
-        `   Max Depth: 5`,
-        `   Include Patterns: ${includePattern || 'None'}`,
-        `   Exclude Patterns: ${excludePattern || 'None'}`,
-        `   Allow Backward Links: true`,
-        `   Scrape Options:`,
-        `     • Formats: markdown, html`,
-        `     • Main Content Only: true`,
-        `     • Remove Base64 Images: false`,
-        `     • Timeout: 20000ms`,
-        `     • Wait For: 1000ms`,
-        `   Request Size: ${new Blob([JSON.stringify(requestBody)]).size} bytes`,
-        ``
-      ].join('\n');
-      
-      console.log(requestLog);
-      logAndUpdateDebug(requestLog);
+      // Log crawl start (simplified for user)
+      logAndUpdateDebug(`🚀 Starting crawl: ${url}`);
+      logAndUpdateDebug(`   Max pages: ${maxPages}, Include: ${includePattern || 'All'}, Exclude: ${excludePattern || 'None'}`);
+
+      // Detailed log to console only
+      console.log('Crawl request:', requestBody);
 
       const response = await fetch(`${FIRECRAWL_API}/crawl`, {
         method: 'POST',
@@ -414,18 +398,8 @@ const HomePage: React.FC = () => {
         body: JSON.stringify(requestBody)
       });
 
-      const responseLog = [
-        `📡 FIRECRAWL RESPONSE:`,
-        `   Status: ${response.status} ${response.statusText}`,
-        `   Headers:`,
-        `     • Content-Type: ${response.headers.get('content-type')}`,
-        `     • Content-Length: ${response.headers.get('content-length')}`,
-        `     • Server: ${response.headers.get('server') || 'Unknown'}`,
-        ``
-      ].join('\n');
-      
-      console.log(responseLog);
-      logAndUpdateDebug(responseLog);
+      // Log response status (keep in console only, not in user-visible debug)
+      console.log(`Response: ${response.status} ${response.statusText}`);
 
       if (!response.ok) {
         const errorText = await response.text();
@@ -435,19 +409,9 @@ const HomePage: React.FC = () => {
       }
 
       const data = await response.json();
-      
-      const successLog = [
-        `✅ CRAWL STARTED SUCCESSFULLY:`,
-        `   Crawl ID: ${data.id}`,
-        `   Success: ${data.success}`,
-        `   URL: ${data.url || 'Not provided'}`,
-        `   Message: ${data.message || 'None'}`,
-        `   Estimated Cost: ${data.creditsUsed || 'Unknown'} credits`,
-        ``
-      ].join('\n');
-      
-      console.log(successLog);
-      logAndUpdateDebug(successLog);
+
+      logAndUpdateDebug(`✅ Crawl started successfully`);
+      console.log('Crawl response:', data);
       
       if (!data.success || !data.id) {
         throw new Error(data.error || 'Failed to start download: No crawl ID received');
@@ -492,7 +456,7 @@ const HomePage: React.FC = () => {
       if (!response.ok) {
         if (response.status === 429) {
           // Rate limited - wait longer before retry
-          logAndUpdateDebug(`⚠️ Rate limited by Firecrawl. Waiting 15 seconds before retry...`);
+          logAndUpdateDebug(`⚠️ Rate limited. Waiting 15 seconds before retry...`);
           pollTimeoutRef.current = setTimeout(() => pollCrawlStatus(id, domain, 0), 15000);
           return;
         }
@@ -506,112 +470,23 @@ const HomePage: React.FC = () => {
       }
 
       const data = await response.json();
-      
-      // Enhanced logging for debugging
-      const timestamp = new Date().toISOString();
-      const detailedLog = [
-        `📊 [${timestamp}] CRAWL STATUS REPORT - ID: ${id}`,
-        `   Status: ${data.status}`,
-        `   Progress: ${data.completed || 0}/${data.total || 0} pages`,
-        `   Success Rate: ${data.completed ? Math.round((data.completed / (data.total || 1)) * 100) : 0}%`,
-        `   Data Array Length: ${data.data?.length || 0}`,
-        ``
-      ];
 
-      // Analyze the crawl data in detail
-      if (data.data && Array.isArray(data.data)) {
-        detailedLog.push(`📄 PAGE ANALYSIS:`);
-        let successfulPages = 0;
-        let failedPages = 0;
-        let emptyPages = 0;
-        const pageDetails: string[] = [];
-        const failureReasons: Record<string, number> = {};
+      // Simple user-visible progress update
+      const progressPercent = data.completed && data.total
+        ? Math.round((data.completed / data.total) * 100)
+        : 0;
 
-        data.data.forEach((item: any, index: number) => {
-          const url = item.metadata?.sourceURL || `Page ${index + 1}`;
-          const hasMarkdown = !!item.markdown;
-          const markdownLength = item.markdown?.length || 0;
-          const title = item.metadata?.title || 'No title';
-          const statusCode = item.metadata?.statusCode || 'Unknown';
-
-          if (hasMarkdown && markdownLength > 100) {
-            successfulPages++;
-            pageDetails.push(`   ✅ ${url} - ${markdownLength} chars - "${title}"`);
-          } else if (hasMarkdown && markdownLength <= 100) {
-            emptyPages++;
-            pageDetails.push(`   ⚠️  ${url} - ${markdownLength} chars (too short) - "${title}"`);
-            failureReasons['Content too short'] = (failureReasons['Content too short'] || 0) + 1;
-          } else {
-            failedPages++;
-            pageDetails.push(`   ❌ ${url} - No content - Status: ${statusCode} - "${title}"`);
-            const reason = statusCode === 200 ? 'No markdown extracted' : `HTTP ${statusCode}`;
-            failureReasons[reason] = (failureReasons[reason] || 0) + 1;
-          }
-        });
-
-        detailedLog.push(`   Total processed: ${data.data.length}`);
-        detailedLog.push(`   ✅ Successful: ${successfulPages}`);
-        detailedLog.push(`   ⚠️  Empty/Short: ${emptyPages}`);
-        detailedLog.push(`   ❌ Failed: ${failedPages}`);
-        detailedLog.push(``);
-
-        if (Object.keys(failureReasons).length > 0) {
-          detailedLog.push(`🔍 FAILURE BREAKDOWN:`);
-          Object.entries(failureReasons).forEach(([reason, count]) => {
-            detailedLog.push(`   ${reason}: ${count} pages`);
-          });
-          detailedLog.push(``);
-        }
-
-        detailedLog.push(`📋 DETAILED PAGE LIST:`);
-        pageDetails.forEach(detail => detailedLog.push(detail));
-        detailedLog.push(``);
+      if (data.status === 'scraping') {
+        logAndUpdateDebug(`📊 Progress: ${data.completed || 0}/${data.total || 0} pages (${progressPercent}%)`);
       }
 
-      // Log Firecrawl configuration being used
-      if (data.status === 'scraping' || data.status === 'completed') {
-        detailedLog.push(`⚙️  CRAWL CONFIGURATION:`);
-        detailedLog.push(`   URL: ${url}`);
-        detailedLog.push(`   Max Pages: ${maxPages}`);
-        detailedLog.push(`   Max Depth: 5`);
-        detailedLog.push(`   Include Pattern: ${includePattern || 'None'}`);
-        detailedLog.push(`   Exclude Pattern: ${excludePattern || 'None'}`);
-        detailedLog.push(`   Formats: markdown, html`);
-        detailedLog.push(`   Main Content Only: true`);
-        detailedLog.push(`   Timeout: 20000ms`);
-        detailedLog.push(`   Wait For: 1000ms`);
-        detailedLog.push(``);
-      }
-
-      // Check for potential issues
-      if (data.status === 'completed' && data.total && data.total < 5) {
-        detailedLog.push(`🚨 POTENTIAL ISSUES DETECTED:`);
-        detailedLog.push(`   Very few pages discovered (${data.total}). This could indicate:`);
-        detailedLog.push(`   • Website blocks crawlers (robots.txt, rate limiting)`);
-        detailedLog.push(`   • Include/exclude patterns too restrictive`);
-        detailedLog.push(`   • Site requires authentication`);
-        detailedLog.push(`   • Dynamic content loading issues`);
-        detailedLog.push(`   • Site structure doesn't match expected patterns`);
-        detailedLog.push(``);
-      }
-
-      if (data.data && data.completed && data.completed < data.total) {
-        const failureRate = Math.round(((data.total - data.completed) / data.total) * 100);
-        if (failureRate > 50) {
-          detailedLog.push(`🚨 HIGH FAILURE RATE DETECTED (${failureRate}%):`);
-          detailedLog.push(`   This suggests potential issues:`);
-          detailedLog.push(`   • Server rate limiting or blocking`);
-          detailedLog.push(`   • Unstable network connection`);
-          detailedLog.push(`   • Pages require JavaScript rendering`);
-          detailedLog.push(`   • Authentication required for content`);
-          detailedLog.push(`   • Server overload or timeouts`);
-          detailedLog.push(``);
-        }
-      }
-
-      const fullLog = detailedLog.join('\n');
-      console.log(fullLog);
-      logAndUpdateDebug(fullLog);
+      // Detailed logging to console only for debugging
+      console.log('Crawl status:', {
+        status: data.status,
+        completed: data.completed,
+        total: data.total,
+        dataLength: data.data?.length
+      });
 
       // Update metrics with enhanced data
       setMetrics(prev => ({
@@ -748,7 +623,7 @@ const HomePage: React.FC = () => {
             setError(`No valid content found in the scraped pages. Processed ${data.data.length} pages but none contained sufficient content.`);
           }
         } else {
-          logAndUpdateDebug(`❌ Crawl completed but no data received from Firecrawl`);
+          logAndUpdateDebug(`❌ Crawl completed but no data received`);
           setError('No data received from the scraping process');
           setMetrics(prev => ({ ...prev, inProgress: false }));
         }
@@ -1055,8 +930,19 @@ const HomePage: React.FC = () => {
       )}
 
       {debugInfo && (
-        <div className="mt-4 p-4 bg-gray-50 rounded-lg">
-          <pre className="text-sm text-gray-700 whitespace-pre-wrap">{debugInfo}</pre>
+        <div className="mt-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Processing Log</span>
+            <button
+              onClick={() => setDebugInfo(null)}
+              className="text-xs text-gray-400 hover:text-gray-600"
+            >
+              Clear
+            </button>
+          </div>
+          <div className="max-h-64 overflow-y-auto">
+            <pre className="text-sm text-gray-700 whitespace-pre-wrap">{debugInfo}</pre>
+          </div>
         </div>
       )}
 

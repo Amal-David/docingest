@@ -27,6 +27,31 @@ import {
   getCacheStats,
   type DomainMeta,
 } from './lib/redis';
+
+// Versioning support
+import {
+  normalizeVersion,
+  semverCompare,
+  calculateNextVersion,
+  extractVersionFromUrl,
+  migrateMetadataToV2,
+  findVersionFile,
+  getLatestVersion,
+  addVersionToMetadata,
+  versionExists,
+  determineVersion,
+} from './lib/versioning';
+import type {
+  DocVersion,
+  DomainMetadata,
+  DomainMetadataV1,
+  DomainMetadataV2,
+  hasVersioning,
+  VersionsListResponse,
+  DocWithVersionResponse,
+  SaveDocRequest,
+} from './types/versioning';
+import { hasVersioning as checkHasVersioning } from './types/versioning';
 const app = express();
 const PORT = process.env.PORT || 8001;
 
@@ -349,14 +374,14 @@ app.get("/api/see", (req, res) => {
     'Success': "It works"
   })
 })
-// Save documentation
+// Save documentation with versioning support
 app.post('/api/docs/save', async (req, res) => {
   try {
-    const { domain, timestamp, pages } = req.body;
+    const { domain, timestamp, pages, version: explicitVersion, versionLabel, overwrite } = req.body as SaveDocRequest;
     if (!domain || !timestamp || !Array.isArray(pages)) {
-      return res.status(400).json({ 
-        success: false, 
-        error: 'Invalid request body. Required: domain, timestamp, and pages array' 
+      return res.status(400).json({
+        success: false,
+        error: 'Invalid request body. Required: domain, timestamp, and pages array'
       });
     }
 
@@ -364,12 +389,47 @@ app.post('/api/docs/save', async (req, res) => {
     await fs.ensureDir(domainPath);
     console.log('Saving to domain path:', domainPath);
 
+    const metadataPath = path.join(domainPath, 'metadata.json');
+    const successfulPages = pages.filter((p: any) => p.content !== 'No content available').length;
+    const sourceUrl = pages[0]?.url || '';
+
+    // Load existing metadata or create new
+    let existingMetadata: DomainMetadataV2 | null = null;
+    let existingVersions: string[] = [];
+
+    if (await fs.pathExists(metadataPath)) {
+      const rawMetadata = await fs.readJSON(metadataPath) as DomainMetadata;
+
+      if (checkHasVersioning(rawMetadata)) {
+        existingMetadata = rawMetadata;
+        existingVersions = rawMetadata.versions.map(v => v.version);
+      } else {
+        // Migrate legacy metadata to V2
+        console.log('Migrating legacy metadata to V2 format');
+        existingMetadata = await migrateMetadataToV2(rawMetadata as DomainMetadataV1, domainPath);
+        existingVersions = existingMetadata.versions.map(v => v.version);
+      }
+    }
+
+    // Determine version
+    const version = determineVersion(explicitVersion, sourceUrl, existingVersions);
+    console.log(`Determined version: ${version} (explicit: ${explicitVersion}, url: ${sourceUrl})`);
+
+    // Check for version conflict
+    if (existingMetadata && versionExists(existingMetadata, version) && !overwrite) {
+      return res.status(409).json({
+        success: false,
+        error: `Version ${version} already exists. Set overwrite=true to replace it.`,
+        existingVersion: version,
+      });
+    }
+
     // Generate table of contents
     const toc = generateTableOfContents(pages);
-    
+
     // Merge all markdown content
     const mergedContent = mergeMarkdownContent(pages);
-    
+
     // Combine TOC and content
     const fullContent = toc + mergedContent;
 
@@ -379,27 +439,70 @@ app.post('/api/docs/save', async (req, res) => {
     await fs.writeFile(filePath, fullContent);
     console.log('Saved merged documentation to:', filePath);
 
-    // Save metadata
-    const metadataPath = path.join(domainPath, 'metadata.json');
-    const metadata = {
-      url: pages[0].url,
-      domain,
-      lastScraped: timestamp,
+    // Create new version entry
+    const newVersionEntry: Omit<DocVersion, 'isLatest'> = {
+      version,
+      label: versionLabel,
+      timestamp,
+      filename: fileName,
       totalPages: pages.length,
-      successfulPages: pages.filter((p: any) => p.content !== 'No content available').length,
-      failedPages: pages
-        .filter((p: any) => p.content === 'No content available')
-        .map((p: any) => p.url),
-      structure: pages.map(p => ({
-        type: p.type,
-        url: p.url
-      }))
+      successfulPages,
+      url: sourceUrl,
     };
-    
-    console.log('Saving metadata:', metadata);
-    await fs.writeJSON(metadataPath, metadata);
 
-    // Clean up old individual files
+    // Build updated metadata
+    let updatedMetadata: DomainMetadataV2;
+
+    if (existingMetadata) {
+      // If overwriting, remove the old version first
+      if (overwrite && versionExists(existingMetadata, version)) {
+        existingMetadata.versions = existingMetadata.versions.filter(
+          v => normalizeVersion(v.version) !== normalizeVersion(version)
+        );
+      }
+      updatedMetadata = addVersionToMetadata(existingMetadata, newVersionEntry);
+    } else {
+      // Create fresh V2 metadata
+      updatedMetadata = {
+        url: sourceUrl,
+        domain,
+        lastScraped: timestamp,
+        totalPages: pages.length,
+        successfulPages,
+        failedPages: pages
+          .filter((p: any) => p.content === 'No content available')
+          .map((p: any) => p.url),
+        structure: pages.map(p => ({
+          type: p.type,
+          url: p.url
+        })),
+        latestVersion: version,
+        versions: [{
+          ...newVersionEntry,
+          isLatest: true,
+          label: versionLabel || 'latest',
+        }],
+        schemaVersion: 2,
+      };
+    }
+
+    // Update structure to latest
+    updatedMetadata.structure = pages.map(p => ({
+      type: p.type,
+      url: p.url
+    }));
+    updatedMetadata.failedPages = pages
+      .filter((p: any) => p.content === 'No content available')
+      .map((p: any) => p.url);
+
+    console.log('Saving metadata with versioning:', {
+      domain: updatedMetadata.domain,
+      latestVersion: updatedMetadata.latestVersion,
+      totalVersions: updatedMetadata.versions.length,
+    });
+    await fs.writeJSON(metadataPath, updatedMetadata, { spaces: 2 });
+
+    // Clean up old individual files (non-documentation files)
     const existingFiles = await fs.readdir(domainPath);
     for (const file of existingFiles) {
       if (file.endsWith('.md') && !file.startsWith('documentation_')) {
@@ -407,10 +510,13 @@ app.post('/api/docs/save', async (req, res) => {
       }
     }
 
-    res.json({ 
-      success: true, 
+    res.json({
+      success: true,
       filePath,
-      structure: metadata.structure
+      version,
+      isLatest: true,
+      totalVersions: updatedMetadata.versions.length,
+      structure: updatedMetadata.structure,
     });
   } catch (error) {
     console.error('Save error:', error);
@@ -1051,43 +1157,90 @@ app.post('/api/analytics/web-vitals', async (req, res) => {
   }
 });
 
-// Get documentation by domain
+// Helper function to find domain path
+function findDomainPath(domain: string): { foundDomain: string | null; docsPath: string | null } {
+  const possibleDomains = [
+    domain,
+    `docs.${domain}.ai`,
+    `docs.${domain}`,
+    domain.replace(/^docs\./, ''),
+    domain.replace(/\.ai$/, ''),
+    domain.replace(/^docs\./, '').replace(/\.ai$/, ''),
+    `${domain}.ai`,
+    domain.replace(/^https?:\/\//, '').replace(/\/$/, ''),
+    domain.replace(/^https?:\/\//, '').replace(/\/$/, '').replace(/^www\./, ''),
+  ].filter((d, i, arr) => arr.indexOf(d) === i);
+
+  for (const d of possibleDomains) {
+    const testPath = path.join(STORAGE_PATH, d);
+    if (fs.existsSync(testPath)) {
+      return { foundDomain: d, docsPath: testPath };
+    }
+  }
+
+  return { foundDomain: null, docsPath: null };
+}
+
+// Get list of versions for a domain
+app.get('/api/docs/domain/:domain/versions', async (req, res) => {
+  try {
+    const { domain } = req.params;
+    const { foundDomain, docsPath } = findDomainPath(domain);
+
+    if (!docsPath || !foundDomain) {
+      return res.status(404).json({ error: 'Documentation not found' });
+    }
+
+    const metadataPath = path.join(docsPath, 'metadata.json');
+    if (!fs.existsSync(metadataPath)) {
+      return res.status(404).json({ error: 'Documentation metadata not found' });
+    }
+
+    const rawMetadata = await fs.readJSON(metadataPath) as DomainMetadata;
+
+    // If legacy metadata, migrate on-demand
+    let metadata: DomainMetadataV2;
+    if (checkHasVersioning(rawMetadata)) {
+      metadata = rawMetadata;
+    } else {
+      console.log('Migrating metadata on-demand for versions endpoint');
+      metadata = await migrateMetadataToV2(rawMetadata as DomainMetadataV1, docsPath);
+      // Save migrated metadata
+      await fs.writeJSON(metadataPath, metadata, { spaces: 2 });
+    }
+
+    // Sort versions by semver (newest first)
+    const sortedVersions = [...metadata.versions].sort((a, b) => semverCompare(b.version, a.version));
+
+    const response: VersionsListResponse = {
+      domain: foundDomain,
+      latestVersion: metadata.latestVersion,
+      versions: sortedVersions.map(v => ({
+        version: v.version,
+        label: v.label,
+        timestamp: v.timestamp,
+        isLatest: v.isLatest,
+        totalPages: v.totalPages,
+      })),
+    };
+
+    res.json(response);
+  } catch (err) {
+    console.error('Error fetching versions:', err);
+    res.status(500).json({ error: 'Failed to fetch versions' });
+  }
+});
+
+// Get documentation by domain with optional version parameter
 app.get('/api/docs/domain/:domain', async (req, res) => {
   try {
     const { domain } = req.params;
-    
-    // Try different domain formats
-    const possibleDomains = [
-      domain,                                    // As provided
-      `docs.${domain}.ai`,                      // Full storage format
-      `docs.${domain}`,                         // Partial storage format
-      domain.replace(/^docs\./, ''),            // Without docs prefix
-      domain.replace(/\.ai$/, ''),              // Without ai suffix
-      domain.replace(/^docs\./, '').replace(/\.ai$/, ''), // Clean domain
-      `${domain}.ai`,                            // With ai suffix
-      domain.replace(/^https?:\/\//, '').replace(/\/$/, ''),
-      // only link without https and / and www
-      domain.replace(/^https?:\/\//, '').replace(/\/$/, '').replace(/^www\./, ''),
-    ].filter((d, i, arr) => arr.indexOf(d) === i); // Remove duplicates
+    const requestedVersion = req.query.version as string | undefined;
 
-    let foundDomain = null;
-    let docsPath = null;
+    const { foundDomain, docsPath } = findDomainPath(domain);
 
-    // Try each possible domain format
-    for (const d of possibleDomains) {
-      const testPath = path.join(STORAGE_PATH, d);
-      console.log('Trying path:', testPath);
-      if (fs.existsSync(testPath)) {
-        foundDomain = d;
-        docsPath = testPath;
-        console.log('Found matching domain:', d);
-        break;
-      }
-    }
-
-    if (!docsPath) {
+    if (!docsPath || !foundDomain) {
       console.log('No matching domain found for:', domain);
-      console.log('Tried formats:', possibleDomains);
       return res.status(404).json({ error: 'Documentation not found' });
     }
 
@@ -1098,14 +1251,50 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
       return res.status(404).json({ error: 'Documentation metadata not found' });
     }
 
-    const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
-    
-    // Find the latest documentation file
-    const files = await fs.readdir(docsPath);
-    const docFiles = files.filter(f => f.startsWith('documentation_'));
-    console.log('Found documentation files:', docFiles);
-    
-    const docFile = docFiles.sort().pop();
+    const rawMetadata = await fs.readJSON(metadataPath) as DomainMetadata;
+
+    // Handle versioned metadata
+    let metadata: DomainMetadataV2;
+    let docFile: string | undefined;
+    let currentVersion: DocVersion | null = null;
+
+    if (checkHasVersioning(rawMetadata)) {
+      metadata = rawMetadata;
+
+      if (requestedVersion) {
+        // Find specific version
+        const normalizedRequested = normalizeVersion(requestedVersion);
+        currentVersion = metadata.versions.find(
+          v => normalizeVersion(v.version) === normalizedRequested
+        ) || null;
+
+        if (!currentVersion) {
+          return res.status(404).json({
+            error: `Version ${requestedVersion} not found`,
+            availableVersions: metadata.versions.map(v => v.version),
+          });
+        }
+        docFile = currentVersion.filename;
+      } else {
+        // Get latest version
+        currentVersion = getLatestVersion(metadata);
+        docFile = currentVersion?.filename;
+      }
+    } else {
+      // Legacy metadata - migrate on-demand
+      console.log('Migrating metadata on-demand');
+      metadata = await migrateMetadataToV2(rawMetadata as DomainMetadataV1, docsPath);
+      await fs.writeJSON(metadataPath, metadata, { spaces: 2 });
+      currentVersion = getLatestVersion(metadata);
+      docFile = currentVersion?.filename;
+    }
+
+    // Fallback to finding latest file if no version tracking
+    if (!docFile) {
+      const files = await fs.readdir(docsPath);
+      const docFiles = files.filter(f => f.startsWith('documentation_') && f.endsWith('.md'));
+      docFile = docFiles.sort().pop();
+    }
 
     if (!docFile) {
       console.log('No documentation file found in:', docsPath);
@@ -1114,16 +1303,35 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
 
     const markdownPath = path.join(docsPath, docFile);
     console.log('Reading documentation from:', markdownPath);
+
+    if (!fs.existsSync(markdownPath)) {
+      return res.status(404).json({ error: 'Documentation file not found' });
+    }
+
     const content = fs.readFileSync(markdownPath, 'utf-8');
 
-    res.json({
+    // Build available versions list (sorted newest first)
+    const availableVersions = [...metadata.versions]
+      .sort((a, b) => semverCompare(b.version, a.version))
+      .map(v => ({
+        version: v.version,
+        label: v.label,
+        isLatest: v.isLatest,
+      }));
+
+    const response: DocWithVersionResponse = {
       domain: foundDomain,
       content,
-      lastUpdated: metadata.lastScraped,
-      url: metadata.url,
+      lastUpdated: currentVersion?.timestamp || metadata.lastScraped,
+      url: currentVersion?.url || metadata.url,
       filePath: markdownPath,
-      structure: metadata.structure || []
-    });
+      structure: metadata.structure || [],
+      version: currentVersion?.version || metadata.latestVersion,
+      isLatest: currentVersion?.isLatest ?? true,
+      availableVersions,
+    };
+
+    res.json(response);
   } catch (err) {
     console.error('Error fetching documentation by domain:', err);
     res.status(500).json({ error: 'Failed to fetch documentation' });

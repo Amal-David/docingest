@@ -182,7 +182,7 @@ export default function HomePage() {
     }
 
     try {
-      // Start crawl with Firecrawl v2 (optimized settings)
+      // Start crawl with optimized settings
       const requestBody = {
         url: url.startsWith('http') ? url : `https://${url}`,
         limit: 250,
@@ -209,7 +209,7 @@ export default function HomePage() {
       if (!response.ok) {
         const errorText = await response.text();
         if (response.status === 429) {
-          throw new Error('Rate limited by Firecrawl. Please wait a few minutes and try again.');
+          throw new Error('Rate limited. Please wait a few minutes and try again.');
         }
         throw new Error(`Failed to start resync: ${response.status} - ${errorText}`);
       }
@@ -297,7 +297,7 @@ export default function HomePage() {
             setSyncingDomain(null);
             setSyncProgress(null);
           } else if (statusData.status === 'failed') {
-            throw new Error(statusData.error || 'Crawl failed on Firecrawl server');
+            throw new Error(statusData.error || 'Crawl failed');
           } else {
             // Continue polling
             pollTimeoutRef.current = setTimeout(() => pollStatus(crawlId, 0), 3000);

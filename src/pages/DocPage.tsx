@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, Suspense } from 'react';
+import React, { useState, useEffect, useMemo, Suspense, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import type { Components } from 'react-markdown';
@@ -11,6 +11,8 @@ import type { Node as TurndownNode } from 'turndown';
 import DOMPurify from 'dompurify';
 import { ErrorBoundary } from '../components/error-boundary';
 import { TableOfContents } from '../components/table-of-contents';
+import { DocSearch } from '../components/doc-search';
+import { VersionSelector, OlderVersionBanner, type VersionInfo } from '../components/version-selector';
 
 // Lazy load SyntaxHighlighter - it's a heavy library (~500KB)
 const SyntaxHighlighterLazy = React.lazy(() => 
@@ -59,6 +61,9 @@ interface DocContent {
   lastUpdated: string;
   url?: string;
   filePath?: string;
+  version?: string;
+  isLatest?: boolean;
+  availableVersions?: VersionInfo[];
 }
 
 interface MarkdownComponentProps {
@@ -81,75 +86,100 @@ const DocPage: React.FC = () => {
   const [displayMode, setDisplayMode] = useState<'markdown' | 'html'>('markdown');
   const [processedContent, setProcessedContent] = useState<string>('');
   const [imageErrors, setImageErrors] = useState<Set<string>>(new Set());
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [currentVersion, setCurrentVersion] = useState<string>('');
+  const [availableVersions, setAvailableVersions] = useState<VersionInfo[]>([]);
 
-  useEffect(() => {
-    const fetchDoc = async () => {
-      try {
-        setIsLoading(true);
-        setError(null);
-        
-        const response = await fetch(`${API_URL}/docs/domain/${domain}`);
-        if (!response.ok) {
-          throw new Error('Documentation not found');
-        }
-        
-        const data = await response.json();
-        setDoc(data);
+  const fetchDocWithVersion = useCallback(async (version?: string) => {
+    try {
+      setIsLoading(true);
+      setError(null);
 
-        let content = '';
-        
-        if (data.html) {
-          const cleanHtml = DOMPurify.sanitize(data.html, {
-            ALLOWED_TAGS: ['p', 'br', 'strong', 'em', 'u', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'ol', 'li', 'a', 'img', 'pre', 'code', 'blockquote', 'table', 'thead', 'tbody', 'tr', 'th', 'td'],
-            ALLOWED_ATTR: ['href', 'src', 'alt', 'title', 'class']
-          });
-          
-          if (!data.content || data.content.trim() === '') {
-            const turndownService = new TurndownService({
-              headingStyle: 'atx',
-              codeBlockStyle: 'fenced',
-              emDelimiter: '_',
-              bulletListMarker: '-'
-            });
-            
-            turndownService.addRule('codeBlocks', {
-              filter: ['pre', 'code'],
-              replacement: function(content: string, node: TurndownNode) {
-                if (node instanceof HTMLElement) {
-                  const language = node.className?.replace('language-', '') || '';
-                  if (node.nodeName === 'PRE') {
-                    return `\n\`\`\`${language}\n${content}\n\`\`\`\n`;
-                  }
-                  return `\`${content}\``;
-                }
-                return `\n\`\`\`\n${content}\n\`\`\`\n`;
-              }
-            });
-
-            content = turndownService.turndown(cleanHtml);
-          } else {
-            content = data.content;
-          }
-        } else {
-          content = data.content || '';
-        }
-
-        content = cleanMarkdownContent(content);
-        
-        setProcessedContent(content);
-        setDisplayMode('markdown');
-      } catch (err) {
-        console.error('Fetch error:', err);
-        setError(err instanceof Error ? err.message : 'Failed to load documentation');
-      } finally {
-        setIsLoading(false);
+      const versionParam = version ? `?version=${encodeURIComponent(version)}` : '';
+      const response = await fetch(`${API_URL}/docs/domain/${domain}${versionParam}`);
+      if (!response.ok) {
+        throw new Error('Documentation not found');
       }
-    };
 
-    if (domain) {
-      fetchDoc();
+      const data = await response.json();
+      setDoc(data);
+
+      // Update version state
+      if (data.version) {
+        setCurrentVersion(data.version);
+      }
+      if (data.availableVersions && Array.isArray(data.availableVersions)) {
+        setAvailableVersions(data.availableVersions);
+      }
+
+      let content = '';
+
+      if (data.html) {
+        const cleanHtml = DOMPurify.sanitize(data.html, {
+          ALLOWED_TAGS: ['p', 'br', 'strong', 'em', 'u', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'ol', 'li', 'a', 'img', 'pre', 'code', 'blockquote', 'table', 'thead', 'tbody', 'tr', 'th', 'td'],
+          ALLOWED_ATTR: ['href', 'src', 'alt', 'title', 'class']
+        });
+
+        if (!data.content || data.content.trim() === '') {
+          const turndownService = new TurndownService({
+            headingStyle: 'atx',
+            codeBlockStyle: 'fenced',
+            emDelimiter: '_',
+            bulletListMarker: '-'
+          });
+
+          turndownService.addRule('codeBlocks', {
+            filter: ['pre', 'code'],
+            replacement: function(content: string, node: TurndownNode) {
+              if (node instanceof HTMLElement) {
+                const language = node.className?.replace('language-', '') || '';
+                if (node.nodeName === 'PRE') {
+                  return `\n\`\`\`${language}\n${content}\n\`\`\`\n`;
+                }
+                return `\`${content}\``;
+              }
+              return `\n\`\`\`\n${content}\n\`\`\`\n`;
+            }
+          });
+
+          content = turndownService.turndown(cleanHtml);
+        } else {
+          content = data.content;
+        }
+      } else {
+        content = data.content || '';
+      }
+
+      content = cleanMarkdownContent(content);
+
+      setProcessedContent(content);
+      setDisplayMode('markdown');
+    } catch (err) {
+      console.error('Fetch error:', err);
+      setError(err instanceof Error ? err.message : 'Failed to load documentation');
+    } finally {
+      setIsLoading(false);
     }
   }, [domain]);
+
+  useEffect(() => {
+    if (domain) {
+      fetchDocWithVersion();
+    }
+  }, [domain, fetchDocWithVersion]);
+
+  const handleVersionChange = useCallback((version: string) => {
+    fetchDocWithVersion(version);
+  }, [fetchDocWithVersion]);
+
+  const handleViewLatest = useCallback(() => {
+    const latestVersion = availableVersions.find(v => v.isLatest);
+    if (latestVersion) {
+      fetchDocWithVersion(latestVersion.version);
+    } else {
+      fetchDocWithVersion();
+    }
+  }, [availableVersions, fetchDocWithVersion]);
 
   const cleanMarkdownContent = (content: string): string => {
     content = content.replace(/\n{4,}/g, '\n\n\n');
@@ -196,6 +226,11 @@ const DocPage: React.FC = () => {
   const handleImageError = (src: string) => {
     setImageErrors(prev => new Set(prev).add(src));
   };
+
+  const handleCopySection = useCallback((sectionId: string, content: string) => {
+    // Optional: could show a toast notification here
+    console.log(`Copied section: ${sectionId}`);
+  }, []);
 
   const displayDomain = (domain: string) => {
     return domain.replace(/^docs\./, '').replace(/\.ai$/, '');
@@ -558,12 +593,21 @@ const DocPage: React.FC = () => {
         <div className="space-y-8">
           <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-4">
             <div>
-              <h1 className="text-4xl font-bold mb-2">{displayDomain(doc?.domain || '')}</h1>
+              <div className="flex items-center gap-3 mb-2">
+                <h1 className="text-4xl font-bold">{displayDomain(doc?.domain || '')}</h1>
+                {availableVersions.length > 0 && (
+                  <VersionSelector
+                    versions={availableVersions}
+                    currentVersion={currentVersion}
+                    onVersionChange={handleVersionChange}
+                  />
+                )}
+              </div>
               <p className="text-gray-600">
-                Last updated: {doc?.lastUpdated ? new Date(doc.lastUpdated).toLocaleDateString('en-US', { 
-                  year: 'numeric', 
-                  month: 'long', 
-                  day: 'numeric' 
+                Last updated: {doc?.lastUpdated ? new Date(doc.lastUpdated).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
                 }) : 'Unknown'}
               </p>
               {doc?.url && (
@@ -617,6 +661,25 @@ const DocPage: React.FC = () => {
           </div>
 
           <div className="lg:pr-80">
+            {/* Older version warning banner */}
+            {currentVersion && !doc?.isLatest && availableVersions.length > 1 && (
+              <OlderVersionBanner
+                currentVersion={currentVersion}
+                latestVersion={availableVersions.find(v => v.isLatest)?.version || ''}
+                onViewLatest={handleViewLatest}
+              />
+            )}
+
+            {/* Search Bar */}
+            {processedContent && displayMode === 'markdown' && (
+              <div className="mb-6">
+                <DocSearch
+                  content={processedContent}
+                  onSearchChange={(query) => setSearchQuery(query)}
+                />
+              </div>
+            )}
+
             <div className="relative">
               <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
               <div className="rounded-xl relative z-20 p-6 md:p-10 border-[3px] border-gray-900 bg-white">
@@ -645,7 +708,11 @@ const DocPage: React.FC = () => {
           </div>
 
           {processedContent && displayMode === 'markdown' && (
-            <TableOfContents content={processedContent} />
+            <TableOfContents
+              content={processedContent}
+              searchQuery={searchQuery}
+              onCopySection={handleCopySection}
+            />
           )}
         </div>
       </div>

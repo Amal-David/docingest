@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
+import { Section, extractSections, getSectionById } from '../utils/section-extractor';
 
 interface Heading {
   id: string;
@@ -8,12 +9,17 @@ interface Heading {
 
 interface TableOfContentsProps {
   content: string;
+  searchQuery?: string;
+  onCopySection?: (sectionId: string, content: string) => void;
 }
 
-export function TableOfContents({ content }: TableOfContentsProps) {
+export function TableOfContents({ content, searchQuery, onCopySection }: TableOfContentsProps) {
   const [headings, setHeadings] = useState<Heading[]>([]);
+  const [sections, setSections] = useState<Section[]>([]);
   const [activeId, setActiveId] = useState<string>('');
   const [isOpen, setIsOpen] = useState(false);
+  const [copiedId, setCopiedId] = useState<string | null>(null);
+  const [matchingIds, setMatchingIds] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     const headingRegex = /^(#{1,6})\s+(.+)$/gm;
@@ -27,14 +33,40 @@ export function TableOfContents({ content }: TableOfContentsProps) {
         .toLowerCase()
         .replace(/[^\w\s-]/g, '')
         .replace(/\s+/g, '-');
-      
+
       if (text.toLowerCase() !== 'table of contents') {
         extractedHeadings.push({ id, text, level });
       }
     }
 
     setHeadings(extractedHeadings.slice(0, 50));
+
+    // Also extract sections for copy functionality
+    const extractedSections = extractSections(content);
+    setSections(extractedSections);
   }, [content]);
+
+  // Update matching IDs when search query changes
+  useEffect(() => {
+    if (!searchQuery || searchQuery.length < 2) {
+      setMatchingIds(new Set());
+      return;
+    }
+
+    const lowerQuery = searchQuery.toLowerCase();
+    const matching = new Set<string>();
+
+    sections.forEach((section) => {
+      if (
+        section.title.toLowerCase().includes(lowerQuery) ||
+        section.content.toLowerCase().includes(lowerQuery)
+      ) {
+        matching.add(section.id);
+      }
+    });
+
+    setMatchingIds(matching);
+  }, [searchQuery, sections]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -56,8 +88,6 @@ export function TableOfContents({ content }: TableOfContentsProps) {
     return () => observer.disconnect();
   }, [headings]);
 
-  if (headings.length === 0) return null;
-
   const scrollToHeading = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -66,6 +96,41 @@ export function TableOfContents({ content }: TableOfContentsProps) {
       setIsOpen(false);
     }
   };
+
+  const handleCopySection = useCallback(async (e: React.MouseEvent, headingId: string) => {
+    e.stopPropagation();
+
+    const section = getSectionById(sections, headingId);
+    if (!section) {
+      console.error('Section not found:', headingId);
+      return;
+    }
+
+    const sectionContent = section.content;
+
+    if (!sectionContent || sectionContent.trim() === '') {
+      alert('Section is empty');
+      return;
+    }
+
+    try {
+      await navigator.clipboard.writeText(sectionContent);
+      setCopiedId(headingId);
+      onCopySection?.(headingId, sectionContent);
+
+      // Reset copied state after 2 seconds
+      setTimeout(() => {
+        setCopiedId(null);
+      }, 2000);
+    } catch (error) {
+      console.error('Failed to copy section:', error);
+      alert('Failed to copy section. Please try again.');
+    }
+  }, [sections, onCopySection]);
+
+  if (headings.length === 0) return null;
+
+  const isSearchActive = searchQuery && searchQuery.length >= 2;
 
   return (
     <>
@@ -129,30 +194,73 @@ export function TableOfContents({ content }: TableOfContentsProps) {
             </svg>
           </button>
         </div>
-        
+
         <nav>
           <ul className="space-y-1">
-            {headings.map(({ id, text, level }) => (
-              <li key={id} style={{ paddingLeft: `${(level - 1) * 0.75}rem` }}>
-                <button
-                  onClick={() => scrollToHeading(id)}
-                  className={`
-                    text-left w-full text-sm py-1.5 px-2 rounded transition-colors
-                    ${
-                      activeId === id
-                        ? 'text-primary font-semibold bg-gray-50'
-                        : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
-                    }
-                  `}
+            {headings.map(({ id, text, level }) => {
+              const isMatching = !isSearchActive || matchingIds.has(id);
+              const isCopied = copiedId === id;
+
+              return (
+                <li
+                  key={id}
+                  style={{ paddingLeft: `${(level - 1) * 0.75}rem` }}
+                  className="group relative"
                 >
-                  {text}
-                </button>
-              </li>
-            ))}
+                  <div className="flex items-center gap-1">
+                    <button
+                      onClick={() => scrollToHeading(id)}
+                      className={`
+                        flex-1 text-left text-sm py-1.5 px-2 rounded transition-all
+                        ${
+                          activeId === id
+                            ? 'text-primary font-semibold bg-gray-50'
+                            : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                        }
+                        ${!isMatching ? 'opacity-30' : ''}
+                      `}
+                    >
+                      {text}
+                    </button>
+
+                    {/* Copy button - visible on hover or always on mobile */}
+                    <button
+                      onClick={(e) => handleCopySection(e, id)}
+                      className={`
+                        flex-shrink-0 p-1.5 rounded transition-all
+                        ${isCopied
+                          ? 'bg-green-100 text-green-600'
+                          : 'text-gray-400 hover:text-gray-600 hover:bg-gray-100 opacity-0 group-hover:opacity-100 lg:opacity-0 lg:group-hover:opacity-100'
+                        }
+                      `}
+                      title={isCopied ? 'Copied!' : 'Copy section'}
+                    >
+                      {isCopied ? (
+                        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                        </svg>
+                      ) : (
+                        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                        </svg>
+                      )}
+                    </button>
+                  </div>
+                </li>
+              );
+            })}
           </ul>
         </nav>
+
+        {/* Search hint when search is active */}
+        {isSearchActive && matchingIds.size > 0 && (
+          <div className="mt-4 pt-3 border-t border-gray-200">
+            <p className="text-xs text-gray-500">
+              {matchingIds.size} section{matchingIds.size !== 1 ? 's' : ''} match "{searchQuery}"
+            </p>
+          </div>
+        )}
       </div>
     </>
   );
 }
-
