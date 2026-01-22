@@ -633,6 +633,7 @@ export default function HomePage() {
                       <button
                         onClick={() => handleResync(doc.domain, doc.url || doc.domain)}
                         disabled={syncingDomain !== null}
+                        title="Re-crawl this documentation to get the latest version"
                         className={`px-4 py-2 border-[3px] border-gray-900 rounded transition-transform ${
                           syncingDomain === doc.domain
                             ? 'bg-blue-100 text-blue-700 cursor-wait'
