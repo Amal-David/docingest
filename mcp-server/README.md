@@ -21,14 +21,6 @@ npm install -g @docingest/mcp-server
 docingest-mcp
 ```
 
-### Option 3: Build from Source
-
-```bash
-git clone https://github.com/Amal-David/docingest
-cd docingest/mcp-server
-npm install && npm run build
-```
-
 ## Configure Your AI Tool
 
 #### Claude Code
@@ -130,31 +122,6 @@ Full-text search across all indexed documentation.
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `DOCINGEST_API_URL` | `https://docingest.com/api` | DocIngest API endpoint |
-
-## Self-Hosting
-
-If you're running your own DocIngest instance:
-
-```bash
-DOCINGEST_API_URL=http://localhost:8001/api npx @docingest/mcp-server
-```
-
-## Development
-
-```bash
-# Clone the repository
-git clone https://github.com/Amal-David/docingest
-cd docingest/mcp-server
-
-# Install dependencies
-npm install
-
-# Build
-npm run build
-
-# Run locally
-npm start
-```
 
 ## License
 
