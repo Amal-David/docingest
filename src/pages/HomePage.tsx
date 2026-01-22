@@ -438,10 +438,7 @@ export default function HomePage() {
                 />
 
                 {/* Keyboard shortcut hint */}
-                <div className="pr-4 flex items-center gap-2">
-                  {searchTime !== null && query.length >= 2 && (
-                    <span className="text-xs text-gray-400 font-mono">{searchTime}ms</span>
-                  )}
+                <div className="pr-4">
                   <kbd className="hidden sm:inline-flex items-center gap-1 px-2 py-1 text-xs text-gray-500 bg-gray-100 rounded border border-gray-300">
                     ⌘K
                   </kbd>
@@ -526,13 +523,8 @@ export default function HomePage() {
         </div>
 
         {/* Stats bar */}
-        <div className="flex items-center justify-center gap-6 text-sm text-gray-500">
-          <div className="flex items-center gap-2">
-            <div className={`w-2 h-2 rounded-full ${stats.redisConnected ? 'bg-green-500' : 'bg-red-500'}`} />
-            <span>{stats.totalDomains}+ docs indexed</span>
-          </div>
-          <span>•</span>
-          <span>{"<"}200ms search</span>
+        <div className="flex items-center justify-center gap-4 text-sm text-gray-500">
+          <span>{stats.totalDomains}+ docs indexed</span>
           <span>•</span>
           <span>Works with Claude Code, Cursor, Windsurf, Codex</span>
         </div>
@@ -552,8 +544,8 @@ export default function HomePage() {
               <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
               <code className="relative z-10 block bg-white px-4 py-3 rounded border-[3px] border-gray-900 font-mono text-sm text-left">
                 <span className="text-gray-500">$</span>
-                <span className="text-primary"> git clone</span>
-                <span className="text-gray-900"> github.com/Amal-David/docingest</span>
+                <span className="text-primary"> claude mcp add</span>
+                <span className="text-gray-900"> docingest -- npx -y @docingest/mcp-server</span>
               </code>
             </div>
             <div>
@@ -561,7 +553,7 @@ export default function HomePage() {
                 to="/mcp-guide"
                 className="text-blue-600 hover:text-blue-800 text-sm font-medium underline"
               >
-                View Setup Guide →
+                View Full Setup Guide →
               </Link>
             </div>
           </div>
