@@ -1,7 +1,7 @@
 import { totalmem } from 'os';
 import React, { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import ReactGA from "react-ga4";
 import { Helmet } from 'react-helmet-async';
 import { Tooltip as ReactTooltip } from 'react-tooltip';
@@ -75,8 +75,10 @@ interface ScrapingMetrics {
 
 const HomePage: React.FC = () => {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const [url, setUrl] = useState('');
   const [includePattern, setIncludePattern] = useState('');
+  const [autoStartTriggered, setAutoStartTriggered] = useState(false);
   const [excludePattern, setExcludePattern] = useState('');
   const [maxPages, setMaxPages] = useState(250);
   const [isLoading, setIsLoading] = useState(false);
@@ -98,6 +100,9 @@ const HomePage: React.FC = () => {
       debugLogRef.current.scrollTop = debugLogRef.current.scrollHeight;
     }
   }, [debugInfo]);
+
+  // Handle URL parameter from homepage redirect - auto-fill and optionally auto-start
+  const handleCrawlRef = useRef<(() => Promise<void>) | null>(null);
   const [isCrawling, setIsCrawling] = useState(false);
   const [crawlId, setCrawlId] = useState<string | null>(null);
   const [savedDocs, setSavedDocs] = useState<DocPreview[]>([]);
@@ -439,6 +444,37 @@ const HomePage: React.FC = () => {
       setIsLoading(false);
     }
   };
+
+  // Store handleCrawlAndDownload in ref for auto-start effect
+  handleCrawlRef.current = handleCrawlAndDownload;
+
+  // Handle URL parameter from homepage - auto-fill URL
+  useEffect(() => {
+    const urlParam = searchParams.get('url');
+    if (urlParam && !url) {
+      setUrl(urlParam);
+      // Suggest include pattern based on URL
+      const suggestedPattern = suggestIncludePattern(urlParam);
+      if (suggestedPattern) {
+        setIncludePattern(suggestedPattern);
+      }
+    }
+  }, [searchParams, url]);
+
+  // Auto-start crawling when URL is set from params
+  useEffect(() => {
+    const urlParam = searchParams.get('url');
+    const autoStart = searchParams.get('autoStart') === 'true';
+
+    // Only trigger if URL matches param, autoStart is true, and we haven't triggered yet
+    if (urlParam && url === urlParam && autoStart && !autoStartTriggered && !isLoading && !isCrawling) {
+      setAutoStartTriggered(true);
+      // Trigger crawl
+      if (handleCrawlRef.current) {
+        handleCrawlRef.current();
+      }
+    }
+  }, [url, searchParams, autoStartTriggered, isLoading, isCrawling]);
 
   const pollCrawlStatus = async (id: string, domain: string, retryCount = 0) => {
     pollAttemptsRef.current++;

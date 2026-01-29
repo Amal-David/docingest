@@ -518,7 +518,17 @@ export default function HomePage() {
               <div className="mt-4 p-6 border-[3px] border-gray-900 rounded bg-white text-center">
                 <p className="text-gray-600 mb-2">No documentation found for "{query}"</p>
                 <button
-                  onClick={() => navigate('/add')}
+                  onClick={() => {
+                    // Check if query looks like a URL
+                    const isUrl = query.startsWith('http://') || query.startsWith('https://') || query.includes('.');
+                    if (isUrl) {
+                      // Pass URL and auto-start flag
+                      const urlToPass = query.startsWith('http') ? query : `https://${query}`;
+                      navigate(`/add?url=${encodeURIComponent(urlToPass)}&autoStart=true`);
+                    } else {
+                      navigate('/add');
+                    }
+                  }}
                   className="text-primary hover:underline text-sm font-medium"
                 >
                   + Add this documentation
