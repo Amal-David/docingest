@@ -379,7 +379,7 @@ export default function HomePage() {
     <>
       <Helmet>
         <title>DocIngest - Search Documentation for AI Coding Tools</title>
-        <meta name="description" content="Search 700+ documentation sources instantly. Built for developers using AI coding tools like Cursor, Claude, and Windsurf." />
+        <meta name="description" content="Search 1175+ documentation sources instantly." />
       </Helmet>
 
       <div className="space-y-8">
@@ -390,9 +390,6 @@ export default function HomePage() {
           </h1>
           <p className="text-gray-600 text-lg">
             Search {stats.totalDomains > 0 ? `${stats.totalDomains}+` : ''} documentation sources instantly
-          </p>
-          <p className="text-gray-500 mb-2 text-sm">
-            Search documentation for any framework, library or API
           </p>
 
           <div className="flex justify-center space-x-4">

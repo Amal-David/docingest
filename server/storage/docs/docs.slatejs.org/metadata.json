@@ -1,1 +1,458 @@
-{"url":"https://docs.slatejs.org/","domain":"docs.slatejs.org","lastScraped":"2025-03-04T12:09:25.830Z","totalPages":27,"successfulPages":27,"failedPages":[],"structure":[{"type":"Introduction | Slate","url":"https://docs.slatejs.org/"},{"type":"Installing Slate | Slate","url":"https://docs.slatejs.org/walkthroughs/01-installing-slate"},{"type":"Adding Event Handlers | Slate","url":"https://docs.slatejs.org/walkthroughs/02-adding-event-handlers"},{"type":"Operations | Slate","url":"https://docs.slatejs.org/concepts/05-operations"},{"type":"Using the Bundled Source | Slate","url":"https://docs.slatejs.org/walkthroughs/xx-using-the-bundled-source"},{"type":"Saving to a Database | Slate","url":"https://docs.slatejs.org/walkthroughs/06-saving-to-a-database"},{"type":"Defining Custom Elements | Slate","url":"https://docs.slatejs.org/walkthroughs/03-defining-custom-elements"},{"type":"Enabling Collaborative Editing | Slate","url":"https://docs.slatejs.org/walkthroughs/07-enabling-collaborative-editing"},{"type":"Nodes | Slate","url":"https://docs.slatejs.org/concepts/02-nodes"},{"type":"Applying Custom Formatting | Slate","url":"https://docs.slatejs.org/walkthroughs/04-applying-custom-formatting"},{"type":"Locations | Slate","url":"https://docs.slatejs.org/concepts/03-locations"},{"type":"Executing Commands | Slate","url":"https://docs.slatejs.org/walkthroughs/05-executing-commands"},{"type":"Plugins | Slate","url":"https://docs.slatejs.org/concepts/08-plugins"},{"type":"Commands | Slate","url":"https://docs.slatejs.org/concepts/06-commands"},{"type":"Interfaces | Slate","url":"https://docs.slatejs.org/concepts/01-interfaces"},{"type":"Editor | Slate","url":"https://docs.slatejs.org/concepts/07-editor"},{"type":"TypeScript | Slate","url":"https://docs.slatejs.org/concepts/12-typescript"},{"type":"Node Types | Slate","url":"https://docs.slatejs.org/api/nodes"},{"type":"Element | Slate","url":"https://docs.slatejs.org/api/nodes/element"},{"type":"Text | Slate","url":"https://docs.slatejs.org/api/nodes/text"},{"type":"Rendering | Slate","url":"https://docs.slatejs.org/concepts/09-rendering"},{"type":"Transforms | Slate","url":"https://docs.slatejs.org/concepts/04-transforms"},{"type":"Location Types | Slate","url":"https://docs.slatejs.org/api/locations"},{"type":"Location | Slate","url":"https://docs.slatejs.org/api/locations/location"},{"type":"Transforms | Slate","url":"https://docs.slatejs.org/api/transforms"},{"type":"Migrating | Slate","url":"https://docs.slatejs.org/concepts/xx-migrating"},{"type":"Node | Slate","url":"https://docs.slatejs.org/api/nodes/node"}]}
+{
+  "url": "https://docs.slatejs.org/",
+  "domain": "docs.slatejs.org",
+  "lastScraped": "2026-01-27T19:23:00.712Z",
+  "totalPages": 104,
+  "successfulPages": 104,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Introduction | Slate",
+      "url": "https://docs.slatejs.org/"
+    },
+    {
+      "type": "Adding Event Handlers | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/walkthroughs/adding-event-handlers"
+    },
+    {
+      "type": "Introduction | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47"
+    },
+    {
+      "type": "Installing Slate | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/walkthroughs/installing-slate"
+    },
+    {
+      "type": "Defining Custom Block Nodes | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/walkthroughs/defining-custom-block-nodes"
+    },
+    {
+      "type": "Applying Custom Formatting | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/walkthroughs/applying-custom-formatting"
+    },
+    {
+      "type": "Saving to a Database | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/walkthroughs/saving-to-a-database"
+    },
+    {
+      "type": "Using Plugins | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/walkthroughs/using-plugins"
+    },
+    {
+      "type": "Resources | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/general/resources"
+    },
+    {
+      "type": "Commands & Queries | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/guides/commands-and-queries"
+    },
+    {
+      "type": "Saving and Loading HTML Content | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/walkthroughs/saving-and-loading-html-content"
+    },
+    {
+      "type": "Rendering | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/guides/rendering"
+    },
+    {
+      "type": "FAQ | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/general/faq"
+    },
+    {
+      "type": "Schemas | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/guides/schemas"
+    },
+    {
+      "type": "Data Model | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/guides/data-model"
+    },
+    {
+      "type": "Changelog | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/general/changelog"
+    },
+    {
+      "type": "Document | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/document"
+    },
+    {
+      "type": "Contributing | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/general/contributing"
+    },
+    {
+      "type": "Block | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/block"
+    },
+    {
+      "type": "Operations | Slate",
+      "url": "https://docs.slatejs.org/concepts/05-operations"
+    },
+    {
+      "type": "Data | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/data"
+    },
+    {
+      "type": "Glossary | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/general/glossary"
+    },
+    {
+      "type": "Adding Event Handlers | Slate",
+      "url": "https://docs.slatejs.org/walkthroughs/02-adding-event-handlers"
+    },
+    {
+      "type": "Using the Bundled Source | Slate",
+      "url": "https://docs.slatejs.org/walkthroughs/08-using-the-bundled-source"
+    },
+    {
+      "type": "Utils | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/utils"
+    },
+    {
+      "type": "Editor | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/editor"
+    },
+    {
+      "type": "Plugins | Slate",
+      "url": "https://docs.slatejs.org/concepts/08-plugins"
+    },
+    {
+      "type": "Decoration | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/decoration"
+    },
+    {
+      "type": "Mark | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/mark"
+    },
+    {
+      "type": "Saving to a Database | Slate",
+      "url": "https://docs.slatejs.org/walkthroughs/06-saving-to-a-database"
+    },
+    {
+      "type": "Text | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/text"
+    },
+    {
+      "type": "Range | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/range"
+    },
+    {
+      "type": "Interfaces | Slate",
+      "url": "https://docs.slatejs.org/concepts/01-interfaces"
+    },
+    {
+      "type": "Plugins | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/guides/plugins"
+    },
+    {
+      "type": "Selection | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/selection"
+    },
+    {
+      "type": "TypeScript | Slate",
+      "url": "https://docs.slatejs.org/concepts/12-typescript"
+    },
+    {
+      "type": "Commands | Slate",
+      "url": "https://docs.slatejs.org/concepts/06-commands"
+    },
+    {
+      "type": "Executing Commands | Slate",
+      "url": "https://docs.slatejs.org/walkthroughs/05-executing-commands"
+    },
+    {
+      "type": "Plugins | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/plugins"
+    },
+    {
+      "type": "Plugins | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/general/plugins"
+    },
+    {
+      "type": "Normalizing | Slate",
+      "url": "https://docs.slatejs.org/concepts/11-normalizing"
+    },
+    {
+      "type": "Installing Slate | Slate",
+      "url": "https://docs.slatejs.org/walkthroughs/01-installing-slate"
+    },
+    {
+      "type": "Utils | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-react/utils"
+    },
+    {
+      "type": "Defining Custom Elements | Slate",
+      "url": "https://docs.slatejs.org/walkthroughs/03-defining-custom-elements"
+    },
+    {
+      "type": "Inline | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/inline"
+    },
+    {
+      "type": "Applying Custom Formatting | Slate",
+      "url": "https://docs.slatejs.org/walkthroughs/04-applying-custom-formatting"
+    },
+    {
+      "type": "Improving Performance | Slate",
+      "url": "https://docs.slatejs.org/walkthroughs/09-performance"
+    },
+    {
+      "type": "slate-plain-serializer | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/other-packages/index-2"
+    },
+    {
+      "type": "Rendering | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-react/rendering"
+    },
+    {
+      "type": "Point | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/point"
+    },
+    {
+      "type": "Node Types | Slate",
+      "url": "https://docs.slatejs.org/api/nodes"
+    },
+    {
+      "type": "Transforms | Slate",
+      "url": "https://docs.slatejs.org/concepts/04-transforms"
+    },
+    {
+      "type": "Point | Slate",
+      "url": "https://docs.slatejs.org/api/locations/point"
+    },
+    {
+      "type": "Operation | Slate",
+      "url": "https://docs.slatejs.org/api/operations/operation"
+    },
+    {
+      "type": "Enabling Collaborative Editing | Slate",
+      "url": "https://docs.slatejs.org/walkthroughs/07-enabling-collaborative-editing"
+    },
+    {
+      "type": "slate-hyperscript | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/other-packages/index-1"
+    },
+    {
+      "type": "slate-html-serializer | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/other-packages/index"
+    },
+    {
+      "type": "Locations | Slate",
+      "url": "https://docs.slatejs.org/concepts/03-locations"
+    },
+    {
+      "type": "withHistory | Slate",
+      "url": "https://docs.slatejs.org/libraries/slate-history/with-history"
+    },
+    {
+      "type": "Rendering | Slate",
+      "url": "https://docs.slatejs.org/concepts/09-rendering"
+    },
+    {
+      "type": "Serializing | Slate",
+      "url": "https://docs.slatejs.org/concepts/10-serializing"
+    },
+    {
+      "type": "Editor | Slate",
+      "url": "https://docs.slatejs.org/concepts/07-editor"
+    },
+    {
+      "type": "Editor | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-react/editor"
+    },
+    {
+      "type": "NodeEntry | Slate",
+      "url": "https://docs.slatejs.org/api/nodes/node-entry"
+    },
+    {
+      "type": "FAQ | Slate",
+      "url": "https://docs.slatejs.org/general/faq"
+    },
+    {
+      "type": "Value | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/value"
+    },
+    {
+      "type": "Nodes | Slate",
+      "url": "https://docs.slatejs.org/concepts/02-nodes"
+    },
+    {
+      "type": "Migrating | Slate",
+      "url": "https://docs.slatejs.org/concepts/xx-migrating"
+    },
+    {
+      "type": "withReact | Slate",
+      "url": "https://docs.slatejs.org/libraries/slate-react/with-react"
+    },
+    {
+      "type": "Schema | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/schema"
+    },
+    {
+      "type": "Operation Types | Slate",
+      "url": "https://docs.slatejs.org/api/operations"
+    },
+    {
+      "type": "Scrubber | Slate",
+      "url": "https://docs.slatejs.org/api/scrubber"
+    },
+    {
+      "type": "Event Handling | Slate",
+      "url": "https://docs.slatejs.org/libraries/slate-react/event-handling"
+    },
+    {
+      "type": "Slate Hyperscript | Slate",
+      "url": "https://docs.slatejs.org/libraries/slate-hyperscript"
+    },
+    {
+      "type": "History | Slate",
+      "url": "https://docs.slatejs.org/libraries/slate-history/history"
+    },
+    {
+      "type": "slate-prop-types | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/other-packages/index-3"
+    },
+    {
+      "type": "PointEntry | Slate",
+      "url": "https://docs.slatejs.org/api/locations/point-entry"
+    },
+    {
+      "type": "Span | Slate",
+      "url": "https://docs.slatejs.org/api/locations/span"
+    },
+    {
+      "type": "PointRef | Slate",
+      "url": "https://docs.slatejs.org/api/locations/point-ref"
+    },
+    {
+      "type": "RangeRef | Slate",
+      "url": "https://docs.slatejs.org/api/locations/range-ref"
+    },
+    {
+      "type": "Slate History | Slate",
+      "url": "https://docs.slatejs.org/libraries/slate-history"
+    },
+    {
+      "type": "Slate React | Slate",
+      "url": "https://docs.slatejs.org/libraries/slate-react"
+    },
+    {
+      "type": "Location | Slate",
+      "url": "https://docs.slatejs.org/api/locations/location"
+    },
+    {
+      "type": "PathRef | Slate",
+      "url": "https://docs.slatejs.org/api/locations/path-ref"
+    },
+    {
+      "type": "Operation | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/operation"
+    },
+    {
+      "type": "Location Types | Slate",
+      "url": "https://docs.slatejs.org/api/locations"
+    },
+    {
+      "type": "Element | Slate",
+      "url": "https://docs.slatejs.org/api/nodes/element"
+    },
+    {
+      "type": "Range | Slate",
+      "url": "https://docs.slatejs.org/api/locations/range"
+    },
+    {
+      "type": "Hooks | Slate",
+      "url": "https://docs.slatejs.org/libraries/slate-react/hooks"
+    },
+    {
+      "type": "Text | Slate",
+      "url": "https://docs.slatejs.org/api/nodes/text"
+    },
+    {
+      "type": "Slate Component | Slate",
+      "url": "https://docs.slatejs.org/libraries/slate-react/slate"
+    },
+    {
+      "type": "Path | Slate",
+      "url": "https://docs.slatejs.org/api/locations/path"
+    },
+    {
+      "type": "HistoryEditor | Slate",
+      "url": "https://docs.slatejs.org/libraries/slate-history/history-editor"
+    },
+    {
+      "type": "ReactEditor | Slate",
+      "url": "https://docs.slatejs.org/libraries/slate-react/react-editor"
+    },
+    {
+      "type": "Plugins | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-react/plugins"
+    },
+    {
+      "type": "Transforms | Slate",
+      "url": "https://docs.slatejs.org/api/transforms"
+    },
+    {
+      "type": "Node | Slate",
+      "url": "https://docs.slatejs.org/api/nodes/node"
+    },
+    {
+      "type": "Resources | Slate",
+      "url": "https://docs.slatejs.org/general/resources"
+    },
+    {
+      "type": "Editable Component | Slate",
+      "url": "https://docs.slatejs.org/libraries/slate-react/editable"
+    },
+    {
+      "type": "Contributing | Slate",
+      "url": "https://docs.slatejs.org/general/contributing"
+    },
+    {
+      "type": "Node | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/node"
+    },
+    {
+      "type": "Editor | Slate",
+      "url": "https://docs.slatejs.org/api/nodes/editor"
+    },
+    {
+      "type": "Commands | v0.47 | Slate",
+      "url": "https://docs.slatejs.org/v0.47/slate-core/commands"
+    },
+    {
+      "type": "Changelog | Slate",
+      "url": "https://docs.slatejs.org/general/changelog"
+    }
+  ],
+  "latestVersion": "1.1.1",
+  "versions": [
+    {
+      "version": "1.1.1",
+      "label": "latest",
+      "timestamp": "2026-01-27T19:23:00.712Z",
+      "filename": "documentation_2026-01-27T19:23:00.712Z.md",
+      "totalPages": 104,
+      "successfulPages": 104,
+      "url": "https://docs.slatejs.org/",
+      "isLatest": true
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-03-04T12:09:25.830Z",
+      "filename": "documentation_2025-03-04T12:09:25.830Z.md",
+      "totalPages": 27,
+      "successfulPages": 27,
+      "url": "https://docs.slatejs.org/",
+      "isLatest": false
+    },
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-03-04T12:08:58.163Z",
+      "filename": "documentation_2025-03-04T12:08:58.163Z.md",
+      "totalPages": 27,
+      "successfulPages": 27,
+      "url": "https://docs.slatejs.org/",
+      "isLatest": false
+    }
+  ],
+  "schemaVersion": 2
+}

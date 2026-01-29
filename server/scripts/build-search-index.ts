@@ -200,8 +200,9 @@ async function buildIndex(): Promise<void> {
   stats.total = domains.length;
   console.log(`  Found ${stats.total} domains to index\n`);
 
-  // Process domains in batches
-  const BATCH_SIZE = 50;
+  // Process domains sequentially to avoid overwhelming Redis
+  // Use smaller batches processed sequentially with delays
+  const BATCH_SIZE = 10;
   for (let i = 0; i < domains.length; i += BATCH_SIZE) {
     const batch = domains.slice(i, i + BATCH_SIZE);
     const batchNum = Math.floor(i / BATCH_SIZE) + 1;
@@ -211,11 +212,21 @@ async function buildIndex(): Promise<void> {
       process.stdout.write(`  Processing batch ${batchNum}/${totalBatches}... `);
     }
 
-    await Promise.all(
-      batch.map(domain =>
-        indexSingleDomain(path.join(STORAGE_PATH, domain))
-      )
-    );
+    // Process batch sequentially (not in parallel) to reduce Redis load
+    for (const domain of batch) {
+      try {
+        await indexSingleDomain(path.join(STORAGE_PATH, domain));
+        // Small delay between domains
+        await new Promise(resolve => setTimeout(resolve, 50));
+      } catch (err) {
+        console.error(`\n  Error indexing ${domain}:`, err);
+      }
+    }
+
+    // Delay between batches to prevent connection overload
+    if (i + BATCH_SIZE < domains.length) {
+      await new Promise(resolve => setTimeout(resolve, 200));
+    }
 
     if (!verbose) {
       console.log('done');

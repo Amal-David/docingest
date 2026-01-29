@@ -1,1 +1,614 @@
-{"url":"https://docs.maestro.dev/api-reference/commands/inputtext","domain":"docs.maestro.dev","lastScraped":"2026-01-09T09:34:52.514Z","totalPages":143,"successfulPages":143,"failedPages":[],"structure":[{"type":"inputText | Maestro","url":"https://docs.maestro.dev/api-reference/commands/inputtext"},{"type":"Maestro Documentation | Maestro","url":"https://docs.maestro.dev"},{"type":"macOS | Maestro","url":"https://docs.maestro.dev/getting-started/installing-maestro/macos"},{"type":"Build and Install your App | Maestro","url":"https://docs.maestro.dev/getting-started/build-and-install-your-app"},{"type":"Linux | Maestro","url":"https://docs.maestro.dev/getting-started/installing-maestro/linux"},{"type":"Installing Maestro | Maestro","url":"https://docs.maestro.dev/getting-started/installing-maestro"},{"type":"Android | Maestro","url":"https://docs.maestro.dev/getting-started/build-and-install-your-app/android"},{"type":"Windows | Maestro","url":"https://docs.maestro.dev/getting-started/installing-maestro/windows"},{"type":"Run a Sample Flow | Maestro","url":"https://docs.maestro.dev/getting-started/run-a-sample-flow"},{"type":"iOS | Maestro","url":"https://docs.maestro.dev/getting-started/build-and-install-your-app/ios"},{"type":"Maestro MCP | Maestro","url":"https://docs.maestro.dev/getting-started/maestro-mcp"},{"type":"Cloud Quickstart | Maestro","url":"https://docs.maestro.dev/cloud/cloud-quickstart"},{"type":"Run Maestro tests in the cloud | Maestro","url":"https://docs.maestro.dev/cloud/run-maestro-tests-in-the-cloud"},{"type":"CI Integration | Maestro","url":"https://docs.maestro.dev/cloud/ci-integration"},{"type":"Maestro GitHub Action for Android | Maestro","url":"https://docs.maestro.dev/cloud/ci-integration/github-actions/maestro-github-action-for-android"},{"type":"Maestro GitHub Action for iOS | Maestro","url":"https://docs.maestro.dev/cloud/ci-integration/github-actions/maestro-github-action-for-ios"},{"type":"Maestro GitHub Action for Flutter | Maestro","url":"https://docs.maestro.dev/cloud/ci-integration/github-actions/maestro-github-action-for-flutter"},{"type":"GitHub Actions | Maestro","url":"https://docs.maestro.dev/cloud/ci-integration/github-actions"},{"type":"Bitbucket Pipelines | Maestro","url":"https://docs.maestro.dev/cloud/ci-integration/bitbucket-pipelines"},{"type":"Bitrise | Maestro","url":"https://docs.maestro.dev/cloud/ci-integration/bitrise"},{"type":"CircleCI | Maestro","url":"https://docs.maestro.dev/cloud/ci-integration/circleci"},{"type":"Writing Your First Flow | Maestro","url":"https://docs.maestro.dev/getting-started/writing-your-first-flow"},{"type":"Maestro Studio Desktop - Beta | Maestro","url":"https://docs.maestro.dev/getting-started/maestro-studio-desktop"},{"type":"Maestro Studio (CLI) | Maestro","url":"https://docs.maestro.dev/getting-started/maestro-studio-cli"},{"type":"Running Flows on CI | Maestro","url":"https://docs.maestro.dev/getting-started/running-flows-on-ci"},{"type":"Integration with any CI platform | Maestro","url":"https://docs.maestro.dev/cloud/ci-integration/integration-with-any-ci-platform"},{"type":"Pull Request Integration | Maestro","url":"https://docs.maestro.dev/cloud/pull-request-integration"},{"type":"Cloud Reference | Maestro","url":"https://docs.maestro.dev/cloud/reference"},{"type":"Build your app for the cloud | Maestro","url":"https://docs.maestro.dev/cloud/reference/build-your-app-for-cloud"},{"type":"Configuring OS Version | Maestro","url":"https://docs.maestro.dev/cloud/reference/configuring-os-version"},{"type":"Configuring device locale | Maestro","url":"https://docs.maestro.dev/cloud/reference/configuring-device-locale"},{"type":"Device timezones | Maestro","url":"https://docs.maestro.dev/cloud/reference/device-timezones"},{"type":"Email Notifications | Maestro","url":"https://docs.maestro.dev/cloud/reference/email-notifications"},{"type":"Email Protection | Cloudflare","url":"https://docs.maestro.dev/cdn-cgi/l/email-protection"},{"type":"Slack Notifications | Maestro","url":"https://docs.maestro.dev/cloud/reference/slack-notifications"},{"type":"Webhook Integration | Maestro","url":"https://docs.maestro.dev/cloud/reference/webhook-integration"},{"type":"IP Allowlist | Maestro","url":"https://docs.maestro.dev/cloud/reference/ip-allowlist"},{"type":"Managing Secrets | Maestro","url":"https://docs.maestro.dev/cloud/reference/managing-secrets"},{"type":"Supported Platforms | Maestro","url":"https://docs.maestro.dev/platform-support/supported-platforms"},{"type":"Limits | Maestro","url":"https://docs.maestro.dev/cloud/reference/limits"},{"type":"Android - Views | Maestro","url":"https://docs.maestro.dev/platform-support/android-views"},{"type":"Reusing App Binary | Maestro","url":"https://docs.maestro.dev/cloud/reference/reusing-app-binary"},{"type":"Web (Desktop Browser) | Maestro","url":"https://docs.maestro.dev/platform-support/web-desktop-browser"},{"type":"Web Views | Maestro","url":"https://docs.maestro.dev/platform-support/web-views"},{"type":"Android - Jetpack Compose | Maestro","url":"https://docs.maestro.dev/platform-support/android-jetpack-compose"},{"type":"Cloud | Maestro","url":"https://docs.maestro.dev/cli/cloud"},{"type":"Test Output Directory | Maestro","url":"https://docs.maestro.dev/cli/test-output-directory"},{"type":"Android contacts flow automation | Maestro","url":"https://docs.maestro.dev/examples/android-contacts-flow-automation"},{"type":"Facebook signup flow automation | Maestro","url":"https://docs.maestro.dev/examples/facebook-signup-flow-automation"},{"type":"iOS - UIKit | Maestro","url":"https://docs.maestro.dev/platform-support/ios-uikit"},{"type":"iOS - SwiftUI | Maestro","url":"https://docs.maestro.dev/platform-support/ios-swiftui"},{"type":"Continuous Mode | Maestro","url":"https://docs.maestro.dev/cli/continuous-mode"},{"type":"Start Device | Maestro","url":"https://docs.maestro.dev/cli/start-device"},{"type":"View Hierarchy | Maestro","url":"https://docs.maestro.dev/cli/view-hierarchy"},{"type":"React Native Support | Maestro","url":"https://docs.maestro.dev/platform-support/react-native"},{"type":"Record Your Flow | Maestro","url":"https://docs.maestro.dev/cli/recording-your-flow"},{"type":"Page Object Model | Maestro","url":"https://docs.maestro.dev/examples/page-object-model"},{"type":"Tags | Maestro","url":"https://docs.maestro.dev/cli/tags"},{"type":"Advanced: Wikipedia Android | Maestro","url":"https://docs.maestro.dev/examples/advanced-wikipedia-android"},{"type":"Test Suites & Reports | Maestro","url":"https://docs.maestro.dev/cli/test-suites-and-reports"},{"type":"Flutter | Maestro","url":"https://docs.maestro.dev/platform-support/flutter"},{"type":"Common command arguments | Maestro","url":"https://docs.maestro.dev/api-reference/common-commands-arguments"},{"type":"Configure Maestro Driver Timeout for Reliable Tests | Maestro","url":"https://docs.maestro.dev/advanced/configuring-maestro-driver-timeout"},{"type":"Loops | Maestro","url":"https://docs.maestro.dev/advanced/loops"},{"type":"Nested Flows | Maestro","url":"https://docs.maestro.dev/advanced/nested-flows"},{"type":"Contributions | Maestro","url":"https://docs.maestro.dev/community/contributions"},{"type":"Detect Maestro in your app | Maestro","url":"https://docs.maestro.dev/advanced/detect-maestro-in-your-app"},{"type":"Configuration | Maestro","url":"https://docs.maestro.dev/api-reference/configuration"},{"type":"Maestro Hooks: onFlowStart and onFlowComplete | Maestro","url":"https://docs.maestro.dev/advanced/onflowstart-onflowcomplete-hooks"},{"type":"Rollback Maestro | Maestro","url":"https://docs.maestro.dev/troubleshooting/rollback-maestro"},{"type":"Bug Report | Maestro","url":"https://docs.maestro.dev/troubleshooting/bug-report"},{"type":"Get the last matching element | Maestro","url":"https://docs.maestro.dev/advanced/recipes/get-the-last-matching-element"},{"type":"Clean a device | Maestro","url":"https://docs.maestro.dev/advanced/recipes/clean-a-device"},{"type":"AI configuration | Maestro","url":"https://docs.maestro.dev/api-reference/configuration/ai-configuration"},{"type":"Wait Commands in Maestro for Reliable Tests | Maestro","url":"https://docs.maestro.dev/advanced/wait"},{"type":"Arranging your repository for Maestro tests | Maestro","url":"https://docs.maestro.dev/troubleshooting/frequently-asked-questions/arrange-your-repository-for-maestro-tests"},{"type":"Case Studies | Maestro","url":"https://docs.maestro.dev/community/case-studies"},{"type":"Conditions | Maestro","url":"https://docs.maestro.dev/advanced/conditions"},{"type":"Access Element Text in Maestro JavaScript | Maestro","url":"https://docs.maestro.dev/advanced/javascript/access-element-text"},{"type":"Flow configuration | Maestro","url":"https://docs.maestro.dev/api-reference/configuration/flow-configuration"},{"type":"Specify a Device | Maestro","url":"https://docs.maestro.dev/advanced/specify-a-device"},{"type":"Articles & Tutorials | Maestro","url":"https://docs.maestro.dev/community/articles-and-tutorials"},{"type":"Downloading and opening a file | Maestro","url":"https://docs.maestro.dev/advanced/recipes/downloading-and-opening-a-file"},{"type":"Selectors | Maestro","url":"https://docs.maestro.dev/api-reference/selectors"},{"type":"Checking clipboard contents | Maestro","url":"https://docs.maestro.dev/advanced/recipes/checking-clipboard-contents"},{"type":"Using JavaScript in Maestro | Maestro","url":"https://docs.maestro.dev/advanced/javascript"},{"type":"Parameters & Constants | Maestro","url":"https://docs.maestro.dev/advanced/parameters-and-constants"},{"type":"Debug Output | Maestro","url":"https://docs.maestro.dev/troubleshooting/debug-output"},{"type":"Logging | Maestro","url":"https://docs.maestro.dev/advanced/javascript/logging"},{"type":"Recipes | Maestro","url":"https://docs.maestro.dev/advanced/recipes"},{"type":"Choosing images from the gallery | Maestro","url":"https://docs.maestro.dev/advanced/recipes/choosing-images-from-the-gallery"},{"type":"Permissions Setup for iOS and Android Apps | Maestro","url":"https://docs.maestro.dev/advanced/configuring-permissions"},{"type":"Outputs | Maestro","url":"https://docs.maestro.dev/advanced/javascript/outputs"},{"type":"Frequently Asked Questions | Maestro","url":"https://docs.maestro.dev/troubleshooting/frequently-asked-questions"},{"type":"Commands | Maestro","url":"https://docs.maestro.dev/api-reference/commands"},{"type":"Generating Random Data | Maestro","url":"https://docs.maestro.dev/advanced/javascript/generating-random-with-faker"},{"type":"scrollUntilVisible for fragments | Maestro","url":"https://docs.maestro.dev/advanced/recipes/scrolluntilvisible-for-fragments"},{"type":"addMedia | Maestro","url":"https://docs.maestro.dev/api-reference/commands/addmedia"},{"type":"Make HTTP requests | Maestro","url":"https://docs.maestro.dev/advanced/javascript/make-http-s-requests"},{"type":"Known Issues | Maestro","url":"https://docs.maestro.dev/troubleshooting/known-issues"},{"type":"GraalJS Support in Maestro Scripts | Maestro","url":"https://docs.maestro.dev/advanced/javascript/graaljs-support"},{"type":"back | Maestro","url":"https://docs.maestro.dev/api-reference/commands/back"},{"type":"assertTrue | Maestro","url":"https://docs.maestro.dev/api-reference/commands/asserttrue"},{"type":"assertVisible | Maestro","url":"https://docs.maestro.dev/api-reference/commands/assertvisible"},{"type":"hideKeyboard | Maestro","url":"https://docs.maestro.dev/api-reference/commands/hidekeyboard"},{"type":"Run JavaScript in Maestro Flows | Maestro","url":"https://docs.maestro.dev/advanced/javascript/run-javascript"},{"type":"extendedWaitUntil | Maestro","url":"https://docs.maestro.dev/api-reference/commands/extendedwaituntil"},{"type":"clearState | Maestro","url":"https://docs.maestro.dev/api-reference/commands/clearstate"},{"type":"clearKeychain | Maestro","url":"https://docs.maestro.dev/api-reference/commands/clearkeychain"},{"type":"setAirplaneMode | Maestro","url":"https://docs.maestro.dev/api-reference/commands/setairplanemode"},{"type":"runScript | Maestro","url":"https://docs.maestro.dev/api-reference/commands/runscript"},{"type":"assertWithAI | Maestro","url":"https://docs.maestro.dev/api-reference/commands/assertwithai"},{"type":"Test in different locales | Maestro","url":"https://docs.maestro.dev/advanced/testing-in-different-locales"},{"type":"assertNoDefectsWithAi | Maestro","url":"https://docs.maestro.dev/api-reference/commands/assertnodefectswithai"},{"type":"assertNotVisible | Maestro","url":"https://docs.maestro.dev/api-reference/commands/assertnotvisible"},{"type":"openLink | Maestro","url":"https://docs.maestro.dev/api-reference/commands/openlink"},{"type":"setOrientation | Maestro","url":"https://docs.maestro.dev/api-reference/commands/setorientation"},{"type":"copyTextFrom | Maestro","url":"https://docs.maestro.dev/api-reference/commands/copytextfrom"},{"type":"evalScript | Maestro","url":"https://docs.maestro.dev/api-reference/commands/evalscript"},{"type":"pressKey | Maestro","url":"https://docs.maestro.dev/api-reference/commands/presskey"},{"type":"killApp | Maestro","url":"https://docs.maestro.dev/api-reference/commands/killapp"},{"type":"eraseText | Maestro","url":"https://docs.maestro.dev/api-reference/commands/erasetext"},{"type":"Workspace configuration | Maestro","url":"https://docs.maestro.dev/api-reference/configuration/workspace-configuration"},{"type":"startRecording | Maestro","url":"https://docs.maestro.dev/api-reference/commands/startrecording"},{"type":"takeScreenshot | Maestro","url":"https://docs.maestro.dev/api-reference/commands/takescreenshot"},{"type":"scroll | Maestro","url":"https://docs.maestro.dev/api-reference/commands/scroll"},{"type":"doubleTapOn | Maestro","url":"https://docs.maestro.dev/api-reference/commands/doubletapon"},{"type":"toggleAirplaneMode | Maestro","url":"https://docs.maestro.dev/api-reference/commands/toggleairplanemode"},{"type":"pasteText | Maestro","url":"https://docs.maestro.dev/api-reference/commands/pastetext"},{"type":"swipe | Maestro","url":"https://docs.maestro.dev/api-reference/commands/swipe"},{"type":"waitForAnimationToEnd | Maestro","url":"https://docs.maestro.dev/api-reference/commands/waitforanimationtoend"},{"type":"stopRecording | Maestro","url":"https://docs.maestro.dev/api-reference/commands/stoprecording"},{"type":"retry | Maestro","url":"https://docs.maestro.dev/api-reference/commands/retry"},{"type":"extractTextWithAI | Maestro","url":"https://docs.maestro.dev/api-reference/commands/extracttextwithai"},{"type":"scrollUntilVisible | Maestro","url":"https://docs.maestro.dev/api-reference/commands/scrolluntilvisible"},{"type":"setLocation | Maestro","url":"https://docs.maestro.dev/api-reference/commands/setlocation"},{"type":"stopApp | Maestro","url":"https://docs.maestro.dev/api-reference/commands/stopapp"},{"type":"travel | Maestro","url":"https://docs.maestro.dev/api-reference/commands/travel"},{"type":"repeat | Maestro","url":"https://docs.maestro.dev/api-reference/commands/repeat"},{"type":"longPressOn | Maestro","url":"https://docs.maestro.dev/api-reference/commands/longpresson"},{"type":"launchApp | Maestro","url":"https://docs.maestro.dev/api-reference/commands/launchapp"},{"type":"runFlow | Maestro","url":"https://docs.maestro.dev/api-reference/commands/runflow"},{"type":"tapOn | Maestro","url":"https://docs.maestro.dev/api-reference/commands/tapon"}]}
+{
+  "url": "https://docs.maestro.dev/api-reference/commands/inputtext",
+  "domain": "docs.maestro.dev",
+  "lastScraped": "2026-01-09T09:34:52.514Z",
+  "totalPages": 143,
+  "successfulPages": 143,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "inputText | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/inputtext"
+    },
+    {
+      "type": "Maestro Documentation | Maestro",
+      "url": "https://docs.maestro.dev"
+    },
+    {
+      "type": "macOS | Maestro",
+      "url": "https://docs.maestro.dev/getting-started/installing-maestro/macos"
+    },
+    {
+      "type": "Build and Install your App | Maestro",
+      "url": "https://docs.maestro.dev/getting-started/build-and-install-your-app"
+    },
+    {
+      "type": "Linux | Maestro",
+      "url": "https://docs.maestro.dev/getting-started/installing-maestro/linux"
+    },
+    {
+      "type": "Installing Maestro | Maestro",
+      "url": "https://docs.maestro.dev/getting-started/installing-maestro"
+    },
+    {
+      "type": "Android | Maestro",
+      "url": "https://docs.maestro.dev/getting-started/build-and-install-your-app/android"
+    },
+    {
+      "type": "Windows | Maestro",
+      "url": "https://docs.maestro.dev/getting-started/installing-maestro/windows"
+    },
+    {
+      "type": "Run a Sample Flow | Maestro",
+      "url": "https://docs.maestro.dev/getting-started/run-a-sample-flow"
+    },
+    {
+      "type": "iOS | Maestro",
+      "url": "https://docs.maestro.dev/getting-started/build-and-install-your-app/ios"
+    },
+    {
+      "type": "Maestro MCP | Maestro",
+      "url": "https://docs.maestro.dev/getting-started/maestro-mcp"
+    },
+    {
+      "type": "Cloud Quickstart | Maestro",
+      "url": "https://docs.maestro.dev/cloud/cloud-quickstart"
+    },
+    {
+      "type": "Run Maestro tests in the cloud | Maestro",
+      "url": "https://docs.maestro.dev/cloud/run-maestro-tests-in-the-cloud"
+    },
+    {
+      "type": "CI Integration | Maestro",
+      "url": "https://docs.maestro.dev/cloud/ci-integration"
+    },
+    {
+      "type": "Maestro GitHub Action for Android | Maestro",
+      "url": "https://docs.maestro.dev/cloud/ci-integration/github-actions/maestro-github-action-for-android"
+    },
+    {
+      "type": "Maestro GitHub Action for iOS | Maestro",
+      "url": "https://docs.maestro.dev/cloud/ci-integration/github-actions/maestro-github-action-for-ios"
+    },
+    {
+      "type": "Maestro GitHub Action for Flutter | Maestro",
+      "url": "https://docs.maestro.dev/cloud/ci-integration/github-actions/maestro-github-action-for-flutter"
+    },
+    {
+      "type": "GitHub Actions | Maestro",
+      "url": "https://docs.maestro.dev/cloud/ci-integration/github-actions"
+    },
+    {
+      "type": "Bitbucket Pipelines | Maestro",
+      "url": "https://docs.maestro.dev/cloud/ci-integration/bitbucket-pipelines"
+    },
+    {
+      "type": "Bitrise | Maestro",
+      "url": "https://docs.maestro.dev/cloud/ci-integration/bitrise"
+    },
+    {
+      "type": "CircleCI | Maestro",
+      "url": "https://docs.maestro.dev/cloud/ci-integration/circleci"
+    },
+    {
+      "type": "Writing Your First Flow | Maestro",
+      "url": "https://docs.maestro.dev/getting-started/writing-your-first-flow"
+    },
+    {
+      "type": "Maestro Studio Desktop - Beta | Maestro",
+      "url": "https://docs.maestro.dev/getting-started/maestro-studio-desktop"
+    },
+    {
+      "type": "Maestro Studio (CLI) | Maestro",
+      "url": "https://docs.maestro.dev/getting-started/maestro-studio-cli"
+    },
+    {
+      "type": "Running Flows on CI | Maestro",
+      "url": "https://docs.maestro.dev/getting-started/running-flows-on-ci"
+    },
+    {
+      "type": "Integration with any CI platform | Maestro",
+      "url": "https://docs.maestro.dev/cloud/ci-integration/integration-with-any-ci-platform"
+    },
+    {
+      "type": "Pull Request Integration | Maestro",
+      "url": "https://docs.maestro.dev/cloud/pull-request-integration"
+    },
+    {
+      "type": "Cloud Reference | Maestro",
+      "url": "https://docs.maestro.dev/cloud/reference"
+    },
+    {
+      "type": "Build your app for the cloud | Maestro",
+      "url": "https://docs.maestro.dev/cloud/reference/build-your-app-for-cloud"
+    },
+    {
+      "type": "Configuring OS Version | Maestro",
+      "url": "https://docs.maestro.dev/cloud/reference/configuring-os-version"
+    },
+    {
+      "type": "Configuring device locale | Maestro",
+      "url": "https://docs.maestro.dev/cloud/reference/configuring-device-locale"
+    },
+    {
+      "type": "Device timezones | Maestro",
+      "url": "https://docs.maestro.dev/cloud/reference/device-timezones"
+    },
+    {
+      "type": "Email Notifications | Maestro",
+      "url": "https://docs.maestro.dev/cloud/reference/email-notifications"
+    },
+    {
+      "type": "Email Protection | Cloudflare",
+      "url": "https://docs.maestro.dev/cdn-cgi/l/email-protection"
+    },
+    {
+      "type": "Slack Notifications | Maestro",
+      "url": "https://docs.maestro.dev/cloud/reference/slack-notifications"
+    },
+    {
+      "type": "Webhook Integration | Maestro",
+      "url": "https://docs.maestro.dev/cloud/reference/webhook-integration"
+    },
+    {
+      "type": "IP Allowlist | Maestro",
+      "url": "https://docs.maestro.dev/cloud/reference/ip-allowlist"
+    },
+    {
+      "type": "Managing Secrets | Maestro",
+      "url": "https://docs.maestro.dev/cloud/reference/managing-secrets"
+    },
+    {
+      "type": "Supported Platforms | Maestro",
+      "url": "https://docs.maestro.dev/platform-support/supported-platforms"
+    },
+    {
+      "type": "Limits | Maestro",
+      "url": "https://docs.maestro.dev/cloud/reference/limits"
+    },
+    {
+      "type": "Android - Views | Maestro",
+      "url": "https://docs.maestro.dev/platform-support/android-views"
+    },
+    {
+      "type": "Reusing App Binary | Maestro",
+      "url": "https://docs.maestro.dev/cloud/reference/reusing-app-binary"
+    },
+    {
+      "type": "Web (Desktop Browser) | Maestro",
+      "url": "https://docs.maestro.dev/platform-support/web-desktop-browser"
+    },
+    {
+      "type": "Web Views | Maestro",
+      "url": "https://docs.maestro.dev/platform-support/web-views"
+    },
+    {
+      "type": "Android - Jetpack Compose | Maestro",
+      "url": "https://docs.maestro.dev/platform-support/android-jetpack-compose"
+    },
+    {
+      "type": "Cloud | Maestro",
+      "url": "https://docs.maestro.dev/cli/cloud"
+    },
+    {
+      "type": "Test Output Directory | Maestro",
+      "url": "https://docs.maestro.dev/cli/test-output-directory"
+    },
+    {
+      "type": "Android contacts flow automation | Maestro",
+      "url": "https://docs.maestro.dev/examples/android-contacts-flow-automation"
+    },
+    {
+      "type": "Facebook signup flow automation | Maestro",
+      "url": "https://docs.maestro.dev/examples/facebook-signup-flow-automation"
+    },
+    {
+      "type": "iOS - UIKit | Maestro",
+      "url": "https://docs.maestro.dev/platform-support/ios-uikit"
+    },
+    {
+      "type": "iOS - SwiftUI | Maestro",
+      "url": "https://docs.maestro.dev/platform-support/ios-swiftui"
+    },
+    {
+      "type": "Continuous Mode | Maestro",
+      "url": "https://docs.maestro.dev/cli/continuous-mode"
+    },
+    {
+      "type": "Start Device | Maestro",
+      "url": "https://docs.maestro.dev/cli/start-device"
+    },
+    {
+      "type": "View Hierarchy | Maestro",
+      "url": "https://docs.maestro.dev/cli/view-hierarchy"
+    },
+    {
+      "type": "React Native Support | Maestro",
+      "url": "https://docs.maestro.dev/platform-support/react-native"
+    },
+    {
+      "type": "Record Your Flow | Maestro",
+      "url": "https://docs.maestro.dev/cli/recording-your-flow"
+    },
+    {
+      "type": "Page Object Model | Maestro",
+      "url": "https://docs.maestro.dev/examples/page-object-model"
+    },
+    {
+      "type": "Tags | Maestro",
+      "url": "https://docs.maestro.dev/cli/tags"
+    },
+    {
+      "type": "Advanced: Wikipedia Android | Maestro",
+      "url": "https://docs.maestro.dev/examples/advanced-wikipedia-android"
+    },
+    {
+      "type": "Test Suites & Reports | Maestro",
+      "url": "https://docs.maestro.dev/cli/test-suites-and-reports"
+    },
+    {
+      "type": "Flutter | Maestro",
+      "url": "https://docs.maestro.dev/platform-support/flutter"
+    },
+    {
+      "type": "Common command arguments | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/common-commands-arguments"
+    },
+    {
+      "type": "Configure Maestro Driver Timeout for Reliable Tests | Maestro",
+      "url": "https://docs.maestro.dev/advanced/configuring-maestro-driver-timeout"
+    },
+    {
+      "type": "Loops | Maestro",
+      "url": "https://docs.maestro.dev/advanced/loops"
+    },
+    {
+      "type": "Nested Flows | Maestro",
+      "url": "https://docs.maestro.dev/advanced/nested-flows"
+    },
+    {
+      "type": "Contributions | Maestro",
+      "url": "https://docs.maestro.dev/community/contributions"
+    },
+    {
+      "type": "Detect Maestro in your app | Maestro",
+      "url": "https://docs.maestro.dev/advanced/detect-maestro-in-your-app"
+    },
+    {
+      "type": "Configuration | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/configuration"
+    },
+    {
+      "type": "Maestro Hooks: onFlowStart and onFlowComplete | Maestro",
+      "url": "https://docs.maestro.dev/advanced/onflowstart-onflowcomplete-hooks"
+    },
+    {
+      "type": "Rollback Maestro | Maestro",
+      "url": "https://docs.maestro.dev/troubleshooting/rollback-maestro"
+    },
+    {
+      "type": "Bug Report | Maestro",
+      "url": "https://docs.maestro.dev/troubleshooting/bug-report"
+    },
+    {
+      "type": "Get the last matching element | Maestro",
+      "url": "https://docs.maestro.dev/advanced/recipes/get-the-last-matching-element"
+    },
+    {
+      "type": "Clean a device | Maestro",
+      "url": "https://docs.maestro.dev/advanced/recipes/clean-a-device"
+    },
+    {
+      "type": "AI configuration | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/configuration/ai-configuration"
+    },
+    {
+      "type": "Wait Commands in Maestro for Reliable Tests | Maestro",
+      "url": "https://docs.maestro.dev/advanced/wait"
+    },
+    {
+      "type": "Arranging your repository for Maestro tests | Maestro",
+      "url": "https://docs.maestro.dev/troubleshooting/frequently-asked-questions/arrange-your-repository-for-maestro-tests"
+    },
+    {
+      "type": "Case Studies | Maestro",
+      "url": "https://docs.maestro.dev/community/case-studies"
+    },
+    {
+      "type": "Conditions | Maestro",
+      "url": "https://docs.maestro.dev/advanced/conditions"
+    },
+    {
+      "type": "Access Element Text in Maestro JavaScript | Maestro",
+      "url": "https://docs.maestro.dev/advanced/javascript/access-element-text"
+    },
+    {
+      "type": "Flow configuration | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/configuration/flow-configuration"
+    },
+    {
+      "type": "Specify a Device | Maestro",
+      "url": "https://docs.maestro.dev/advanced/specify-a-device"
+    },
+    {
+      "type": "Articles & Tutorials | Maestro",
+      "url": "https://docs.maestro.dev/community/articles-and-tutorials"
+    },
+    {
+      "type": "Downloading and opening a file | Maestro",
+      "url": "https://docs.maestro.dev/advanced/recipes/downloading-and-opening-a-file"
+    },
+    {
+      "type": "Selectors | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/selectors"
+    },
+    {
+      "type": "Checking clipboard contents | Maestro",
+      "url": "https://docs.maestro.dev/advanced/recipes/checking-clipboard-contents"
+    },
+    {
+      "type": "Using JavaScript in Maestro | Maestro",
+      "url": "https://docs.maestro.dev/advanced/javascript"
+    },
+    {
+      "type": "Parameters & Constants | Maestro",
+      "url": "https://docs.maestro.dev/advanced/parameters-and-constants"
+    },
+    {
+      "type": "Debug Output | Maestro",
+      "url": "https://docs.maestro.dev/troubleshooting/debug-output"
+    },
+    {
+      "type": "Logging | Maestro",
+      "url": "https://docs.maestro.dev/advanced/javascript/logging"
+    },
+    {
+      "type": "Recipes | Maestro",
+      "url": "https://docs.maestro.dev/advanced/recipes"
+    },
+    {
+      "type": "Choosing images from the gallery | Maestro",
+      "url": "https://docs.maestro.dev/advanced/recipes/choosing-images-from-the-gallery"
+    },
+    {
+      "type": "Permissions Setup for iOS and Android Apps | Maestro",
+      "url": "https://docs.maestro.dev/advanced/configuring-permissions"
+    },
+    {
+      "type": "Outputs | Maestro",
+      "url": "https://docs.maestro.dev/advanced/javascript/outputs"
+    },
+    {
+      "type": "Frequently Asked Questions | Maestro",
+      "url": "https://docs.maestro.dev/troubleshooting/frequently-asked-questions"
+    },
+    {
+      "type": "Commands | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands"
+    },
+    {
+      "type": "Generating Random Data | Maestro",
+      "url": "https://docs.maestro.dev/advanced/javascript/generating-random-with-faker"
+    },
+    {
+      "type": "scrollUntilVisible for fragments | Maestro",
+      "url": "https://docs.maestro.dev/advanced/recipes/scrolluntilvisible-for-fragments"
+    },
+    {
+      "type": "addMedia | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/addmedia"
+    },
+    {
+      "type": "Make HTTP requests | Maestro",
+      "url": "https://docs.maestro.dev/advanced/javascript/make-http-s-requests"
+    },
+    {
+      "type": "Known Issues | Maestro",
+      "url": "https://docs.maestro.dev/troubleshooting/known-issues"
+    },
+    {
+      "type": "GraalJS Support in Maestro Scripts | Maestro",
+      "url": "https://docs.maestro.dev/advanced/javascript/graaljs-support"
+    },
+    {
+      "type": "back | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/back"
+    },
+    {
+      "type": "assertTrue | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/asserttrue"
+    },
+    {
+      "type": "assertVisible | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/assertvisible"
+    },
+    {
+      "type": "hideKeyboard | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/hidekeyboard"
+    },
+    {
+      "type": "Run JavaScript in Maestro Flows | Maestro",
+      "url": "https://docs.maestro.dev/advanced/javascript/run-javascript"
+    },
+    {
+      "type": "extendedWaitUntil | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/extendedwaituntil"
+    },
+    {
+      "type": "clearState | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/clearstate"
+    },
+    {
+      "type": "clearKeychain | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/clearkeychain"
+    },
+    {
+      "type": "setAirplaneMode | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/setairplanemode"
+    },
+    {
+      "type": "runScript | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/runscript"
+    },
+    {
+      "type": "assertWithAI | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/assertwithai"
+    },
+    {
+      "type": "Test in different locales | Maestro",
+      "url": "https://docs.maestro.dev/advanced/testing-in-different-locales"
+    },
+    {
+      "type": "assertNoDefectsWithAi | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/assertnodefectswithai"
+    },
+    {
+      "type": "assertNotVisible | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/assertnotvisible"
+    },
+    {
+      "type": "openLink | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/openlink"
+    },
+    {
+      "type": "setOrientation | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/setorientation"
+    },
+    {
+      "type": "copyTextFrom | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/copytextfrom"
+    },
+    {
+      "type": "evalScript | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/evalscript"
+    },
+    {
+      "type": "pressKey | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/presskey"
+    },
+    {
+      "type": "killApp | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/killapp"
+    },
+    {
+      "type": "eraseText | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/erasetext"
+    },
+    {
+      "type": "Workspace configuration | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/configuration/workspace-configuration"
+    },
+    {
+      "type": "startRecording | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/startrecording"
+    },
+    {
+      "type": "takeScreenshot | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/takescreenshot"
+    },
+    {
+      "type": "scroll | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/scroll"
+    },
+    {
+      "type": "doubleTapOn | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/doubletapon"
+    },
+    {
+      "type": "toggleAirplaneMode | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/toggleairplanemode"
+    },
+    {
+      "type": "pasteText | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/pastetext"
+    },
+    {
+      "type": "swipe | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/swipe"
+    },
+    {
+      "type": "waitForAnimationToEnd | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/waitforanimationtoend"
+    },
+    {
+      "type": "stopRecording | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/stoprecording"
+    },
+    {
+      "type": "retry | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/retry"
+    },
+    {
+      "type": "extractTextWithAI | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/extracttextwithai"
+    },
+    {
+      "type": "scrollUntilVisible | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/scrolluntilvisible"
+    },
+    {
+      "type": "setLocation | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/setlocation"
+    },
+    {
+      "type": "stopApp | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/stopapp"
+    },
+    {
+      "type": "travel | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/travel"
+    },
+    {
+      "type": "repeat | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/repeat"
+    },
+    {
+      "type": "longPressOn | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/longpresson"
+    },
+    {
+      "type": "launchApp | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/launchapp"
+    },
+    {
+      "type": "runFlow | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/runflow"
+    },
+    {
+      "type": "tapOn | Maestro",
+      "url": "https://docs.maestro.dev/api-reference/commands/tapon"
+    }
+  ],
+  "latestVersion": "1.2.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-06-13T17:28:58.381Z",
+      "filename": "documentation_2025-06-13T17:28:58.381Z.md",
+      "totalPages": 143,
+      "successfulPages": 143,
+      "url": "https://docs.maestro.dev/api-reference/commands/inputtext",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-11-07T20:43:36.606Z",
+      "filename": "documentation_2025-11-07T20:43:36.606Z.md",
+      "totalPages": 143,
+      "successfulPages": 143,
+      "url": "https://docs.maestro.dev/api-reference/commands/inputtext",
+      "isLatest": false
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2026-01-09T09:34:52.514Z",
+      "filename": "documentation_2026-01-09T09:34:52.514Z.md",
+      "totalPages": 143,
+      "successfulPages": 143,
+      "url": "https://docs.maestro.dev/api-reference/commands/inputtext",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

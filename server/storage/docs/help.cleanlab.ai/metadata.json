@@ -1,1 +1,164 @@
-{"url":"https://help.cleanlab.ai/studio/quickstart/","domain":"help.cleanlab.ai","lastScraped":"2025-04-24T20:53:09.723Z","totalPages":35,"successfulPages":35,"failedPages":[],"structure":[{"type":"Cleanlab Studio | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/quickstart/"},{"type":"Python API Reference for Cleanlab Studio | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/api/"},{"type":"Docs | Cleanlab Documentation","url":"https://help.cleanlab.ai/"},{"type":"Getting Started with Cleanlab Studio Python API | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/quickstart/api/"},{"type":"Getting Started with Cleanlab Studio CLI | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/quickstart/cli/"},{"type":"Cleanlab Studio Documentation","url":"https://help.cleanlab.ai/studio/quickstart/web/"},{"type":"Datasets | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/concepts/datasets/"},{"type":"Concepts | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/concepts/"},{"type":"Projects | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/concepts/projects/"},{"type":"Models | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/concepts/models/"},{"type":"Cleanlab Columns | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/concepts/cleanlab_columns/"},{"type":"Resolver | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/concepts/resolver/"},{"type":"Welcome to the Cleanlab Studio tutorials! | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/tutorials/"},{"type":"Using Filters and Analytics to Understand Your data | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/understanding_data/"},{"type":"AI Automated Data Labeling with Cleanlab Studio","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/data_labeling/"},{"type":"Cleanset | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/concepts/cleanset/"},{"type":"Overview | Cleanlab Documentation","url":"https://help.cleanlab.ai/codex/"},{"type":"Datasets | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/concepts/datasets_v1/"},{"type":"Frequently Asked Questions | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/FAQ/"},{"type":"Data Curation with Train vs Test Splits","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/train_test/"},{"type":"Trustworthy Language Model (TLM) | Cleanlab Documentation","url":"https://help.cleanlab.ai/tlm/"},{"type":"How to Automatically Curate Multi-Label Datasets","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/multilabel/"},{"type":"Instant ML Model Training + Deployment for Multi-Label Data","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/multilabel_model_deployment/"},{"type":"Dynamically evolve your classification datasets by adding new classes","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/creating_new_classes/"},{"type":"Automatically Find and Fix Issues in Any Text Dataset","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/text_data_quickstart/"},{"type":"Automatically Find and Fix Issues in Any Tabular Dataset","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/tabular_data_quickstart/"},{"type":"Curating Heterogeneous Document Datasets with Data-Centric AI","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/document_data_quickstart/"},{"type":"AI to Detect Data Entry Errors (and Impute Missing Values) in any Tabular Dataset","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/data_entry/"},{"type":"Catching Issues in a Product Catalog (Multimodal Dataset)","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/multimodal_dataset/"},{"type":"How to Produce Better-Quality Data 10x Faster in any Data Annotation Platform","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/data_annotation_label_studio/"},{"type":"Automated Data Quality for Large-Scale Image Datasets","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/large_image_datasets/"},{"type":"Formatting common types of Python text datasets | Cleanlab Documentation","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/format_text_data/"},{"type":"Detecting Issues in Named Entity Recognition Datasets","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/named_entity_recognition/"},{"type":"Automatically Detect Erroneous Values in Numerical Data via AI","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/regression/"},{"type":"How to detect issues in datasets without labels (unsupervised learning)","url":"https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/unsupervised/"}]}
+{
+  "url": "https://help.cleanlab.ai/studio/quickstart/",
+  "domain": "help.cleanlab.ai",
+  "lastScraped": "2025-04-24T20:53:09.723Z",
+  "totalPages": 35,
+  "successfulPages": 35,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Cleanlab Studio | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/quickstart/"
+    },
+    {
+      "type": "Python API Reference for Cleanlab Studio | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/api/"
+    },
+    {
+      "type": "Docs | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/"
+    },
+    {
+      "type": "Getting Started with Cleanlab Studio Python API | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/quickstart/api/"
+    },
+    {
+      "type": "Getting Started with Cleanlab Studio CLI | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/quickstart/cli/"
+    },
+    {
+      "type": "Cleanlab Studio Documentation",
+      "url": "https://help.cleanlab.ai/studio/quickstart/web/"
+    },
+    {
+      "type": "Datasets | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/concepts/datasets/"
+    },
+    {
+      "type": "Concepts | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/concepts/"
+    },
+    {
+      "type": "Projects | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/concepts/projects/"
+    },
+    {
+      "type": "Models | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/concepts/models/"
+    },
+    {
+      "type": "Cleanlab Columns | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/concepts/cleanlab_columns/"
+    },
+    {
+      "type": "Resolver | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/concepts/resolver/"
+    },
+    {
+      "type": "Welcome to the Cleanlab Studio tutorials! | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/tutorials/"
+    },
+    {
+      "type": "Using Filters and Analytics to Understand Your data | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/understanding_data/"
+    },
+    {
+      "type": "AI Automated Data Labeling with Cleanlab Studio",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/data_labeling/"
+    },
+    {
+      "type": "Cleanset | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/concepts/cleanset/"
+    },
+    {
+      "type": "Overview | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/codex/"
+    },
+    {
+      "type": "Datasets | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/concepts/datasets_v1/"
+    },
+    {
+      "type": "Frequently Asked Questions | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/FAQ/"
+    },
+    {
+      "type": "Data Curation with Train vs Test Splits",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/train_test/"
+    },
+    {
+      "type": "Trustworthy Language Model (TLM) | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/tlm/"
+    },
+    {
+      "type": "How to Automatically Curate Multi-Label Datasets",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/multilabel/"
+    },
+    {
+      "type": "Instant ML Model Training + Deployment for Multi-Label Data",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/multilabel_model_deployment/"
+    },
+    {
+      "type": "Dynamically evolve your classification datasets by adding new classes",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/creating_new_classes/"
+    },
+    {
+      "type": "Automatically Find and Fix Issues in Any Text Dataset",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/text_data_quickstart/"
+    },
+    {
+      "type": "Automatically Find and Fix Issues in Any Tabular Dataset",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/tabular_data_quickstart/"
+    },
+    {
+      "type": "Curating Heterogeneous Document Datasets with Data-Centric AI",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/document_data_quickstart/"
+    },
+    {
+      "type": "AI to Detect Data Entry Errors (and Impute Missing Values) in any Tabular Dataset",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/data_entry/"
+    },
+    {
+      "type": "Catching Issues in a Product Catalog (Multimodal Dataset)",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/multimodal_dataset/"
+    },
+    {
+      "type": "How to Produce Better-Quality Data 10x Faster in any Data Annotation Platform",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/data_annotation_label_studio/"
+    },
+    {
+      "type": "Automated Data Quality for Large-Scale Image Datasets",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/large_image_datasets/"
+    },
+    {
+      "type": "Formatting common types of Python text datasets | Cleanlab Documentation",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/format_text_data/"
+    },
+    {
+      "type": "Detecting Issues in Named Entity Recognition Datasets",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/named_entity_recognition/"
+    },
+    {
+      "type": "Automatically Detect Erroneous Values in Numerical Data via AI",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/regression/"
+    },
+    {
+      "type": "How to detect issues in datasets without labels (unsupervised learning)",
+      "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/unsupervised/"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-04-24T20:53:09.723Z",
+      "filename": "documentation_2025-04-24T20:53:09.723Z.md",
+      "totalPages": 35,
+      "successfulPages": 35,
+      "url": "https://help.cleanlab.ai/studio/quickstart/",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

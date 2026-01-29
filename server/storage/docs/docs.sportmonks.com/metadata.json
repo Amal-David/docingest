@@ -1,1 +1,605 @@
-{"url":"https://docs.sportmonks.com/football/welcome/making-your-first-request","domain":"docs.sportmonks.com","lastScraped":"2025-05-16T12:38:57.120Z","totalPages":12,"successfulPages":12,"failedPages":[],"structure":[{"type":"Making your first request | API 3.0","url":"https://docs.sportmonks.com/football/welcome/making-your-first-request"},{"type":"Welcome | Football Widgets","url":"https://docs.sportmonks.com/football-widgets"},{"type":"Core | API 3.0","url":"https://docs.sportmonks.com/football/v/core-api/"},{"type":"Welcome | Football API Documentation","url":"https://docs.sportmonks.com/football-2"},{"type":"Welcome | API 3.0","url":"https://docs.sportmonks.com/football"},{"type":"Getting Started | API 3.0","url":"https://docs.sportmonks.com/football/welcome/getting-started"},{"type":"Differences between API 2 and API 3 | API 3.0","url":"https://docs.sportmonks.com/football/welcome/differences-between-api-2-and-api-3"},{"type":"New endpoints and data features | API 3.0","url":"https://docs.sportmonks.com/football/welcome/differences-between-api-2-and-api-3/new-endpoints-and-data-features"},{"type":"What can you do with Sportmonks' data? | API 3.0","url":"https://docs.sportmonks.com/football/welcome/what-can-you-do-with-sportmonks-data"},{"type":"API Changes | API 3.0","url":"https://docs.sportmonks.com/football/welcome/differences-between-api-2-and-api-3/api-changes"},{"type":"Best Practices | API 3.0","url":"https://docs.sportmonks.com/football/welcome/best-practices"},{"type":"Authentication | API 3.0","url":"https://docs.sportmonks.com/football/welcome/authentication"}]}
+{
+  "url": "https://docs.sportmonks.com/football/welcome/making-your-first-request",
+  "domain": "docs.sportmonks.com",
+  "lastScraped": "2026-01-28T23:16:20.942Z",
+  "totalPages": 143,
+  "successfulPages": 143,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Welcome | Cricket API Documentation | API 2.0",
+      "url": "https://docs.sportmonks.com/v2/cricket-api"
+    },
+    {
+      "type": "Welcome | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api"
+    },
+    {
+      "type": "Query complexity | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/query-complexity"
+    },
+    {
+      "type": "Authentication | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/authentication"
+    },
+    {
+      "type": "Response Codes | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/response-codes"
+    },
+    {
+      "type": "Endpoints | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints"
+    },
+    {
+      "type": "Entity | BETA Documentation | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/beta-documentation/expected-goals/entity"
+    },
+    {
+      "type": "Welcome | BETA Documentation | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/beta-documentation"
+    },
+    {
+      "type": "Endpoints | BETA Documentation | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/beta-documentation/expected-goals/endpoints"
+    },
+    {
+      "type": "Inplay Odds | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/inplay-odds"
+    },
+    {
+      "type": "Pre-match Odds | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/pre-match-odds"
+    },
+    {
+      "type": "Includes | BETA Documentation | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/beta-documentation/expected-goals/includes"
+    },
+    {
+      "type": "GET Expected by Team | BETA Documentation | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/beta-documentation/expected-goals/endpoints/get-expected-by-team"
+    },
+    {
+      "type": "FAQ | BETA Documentation | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/beta-documentation/expected-goals/faq"
+    },
+    {
+      "type": "GET Odds by Fixture ID and Market ID | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/pre-match-odds/get-odds-by-fixture-id-and-market-id"
+    },
+    {
+      "type": "Request options | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/request-options"
+    },
+    {
+      "type": "GET Expected by Player | BETA Documentation | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/beta-documentation/expected-goals/endpoints/get-expected-by-player"
+    },
+    {
+      "type": "GET Odds by Fixture ID | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/pre-match-odds/get-odds-by-fixture-id"
+    },
+    {
+      "type": "GET All Odds | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/pre-match-odds/get-all-odds"
+    },
+    {
+      "type": "Types | BETA Documentation | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/beta-documentation/expected-goals/types"
+    },
+    {
+      "type": "GET Last Updated Odds | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/pre-match-odds/get-last-updated-odds"
+    },
+    {
+      "type": "GET Odds by Fixture ID and Bookmaker ID | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/pre-match-odds/get-odds-by-fixture-id-and-bookmaker-id"
+    },
+    {
+      "type": "GET Odds by Fixture ID and Bookmaker ID | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/inplay-odds/get-odds-by-fixture-id-and-bookmaker-id"
+    },
+    {
+      "type": "GET All Odds | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/inplay-odds/get-all-odds"
+    },
+    {
+      "type": "GET Odds by Fixture ID and Market ID | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/inplay-odds/get-odds-by-fixture-id-and-market-id"
+    },
+    {
+      "type": "GET Odds by Fixture ID | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/inplay-odds/get-odds-by-fixture-id"
+    },
+    {
+      "type": "GET Last Updated Odds | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/inplay-odds/get-last-updated-odds"
+    },
+    {
+      "type": "GET Bookmaker by ID | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/bookmakers/get-bookmaker-by-id"
+    },
+    {
+      "type": "GET All Bookmakers | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/bookmakers/get-all-bookmakers"
+    },
+    {
+      "type": "GET Bookmakers Search by Name | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/bookmakers/get-bookmakers-search-by-name"
+    },
+    {
+      "type": "Bookmakers | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/bookmakers"
+    },
+    {
+      "type": "GET Bookmakers by Fixture ID | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/bookmakers/get-bookmakers-by-fixture-id"
+    },
+    {
+      "type": "GET All Markets | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/markets/get-all-markets"
+    },
+    {
+      "type": "Markets | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/markets"
+    },
+    {
+      "type": "GET Bookmaker Event ID's by Fixture Id | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/bookmakers/get-bookmaker-event-ids-by-fixture-id"
+    },
+    {
+      "type": "GET Market by ID | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/markets/get-market-by-id"
+    },
+    {
+      "type": "GET Markets by Search by Name | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/endpoints/markets/get-markets-by-search-by-name"
+    },
+    {
+      "type": "Entities | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/entities"
+    },
+    {
+      "type": "Bookmaker | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/entities/bookmaker"
+    },
+    {
+      "type": "Market | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/entities/market"
+    },
+    {
+      "type": "Odd | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/entities/odd"
+    },
+    {
+      "type": "InplayOdd | Odds API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/odds-api/getting-started/entities/inplayodd"
+    },
+    {
+      "type": "Continents | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/continents"
+    },
+    {
+      "type": "Countries | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/countries"
+    },
+    {
+      "type": "Core | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api"
+    },
+    {
+      "type": "Regions | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/regions"
+    },
+    {
+      "type": "GET Continent by ID | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/continents/get-continent-by-id"
+    },
+    {
+      "type": "GET All Continents | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/continents/get-all-continents"
+    },
+    {
+      "type": "GET All Regions | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/regions/get-all-regions"
+    },
+    {
+      "type": "GET Country by ID | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/countries/get-country-by-id"
+    },
+    {
+      "type": "GET Countries by Search | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/countries/get-countries-by-search"
+    },
+    {
+      "type": "GET Region by ID | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/regions/get-region-by-id"
+    },
+    {
+      "type": "GET Regions by Search | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/regions/get-regions-by-search"
+    },
+    {
+      "type": "Types | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/types"
+    },
+    {
+      "type": "Cities | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/cities"
+    },
+    {
+      "type": "Timezones | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/timezones"
+    },
+    {
+      "type": "Filters | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/filters"
+    },
+    {
+      "type": "GET All Types | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/types/get-all-types"
+    },
+    {
+      "type": "GET Type by ID | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/types/get-type-by-id"
+    },
+    {
+      "type": "My Sportmonks | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/my-sportmonks"
+    },
+    {
+      "type": "GET All Cities | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/cities/get-all-cities"
+    },
+    {
+      "type": "Welcome | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets"
+    },
+    {
+      "type": "GET City by ID | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/cities/get-city-by-id"
+    },
+    {
+      "type": "GET Cities by Search | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/cities/get-cities-by-search"
+    },
+    {
+      "type": "GET All Countries | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/countries/get-all-countries"
+    },
+    {
+      "type": "Livescore widgets | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/livescore-widgets"
+    },
+    {
+      "type": "Configurations | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/configurations"
+    },
+    {
+      "type": "League widgets | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/league-widgets"
+    },
+    {
+      "type": "Configurations | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/livescore-widgets/configurations"
+    },
+    {
+      "type": "Livescores | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/livescore-widgets/livescores"
+    },
+    {
+      "type": "Schedule | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/league-widgets/schedule"
+    },
+    {
+      "type": "GET All Supported Time Zones | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/timezones/get-all-supported-time-zones"
+    },
+    {
+      "type": "Standings | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/league-widgets/standings"
+    },
+    {
+      "type": "Team widgets | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/team-widgets"
+    },
+    {
+      "type": "Configurations | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/league-widgets/configurations"
+    },
+    {
+      "type": "Team statistics | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/league-widgets/team-statistics"
+    },
+    {
+      "type": "Topscorers | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/league-widgets/topscorers"
+    },
+    {
+      "type": "Squads | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/team-widgets/squads"
+    },
+    {
+      "type": "Configurations | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/team-widgets/configurations"
+    },
+    {
+      "type": "GET My Usage | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/my-sportmonks/get-my-usage"
+    },
+    {
+      "type": "GET My Enrichments | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/my-sportmonks/get-my-enrichments"
+    },
+    {
+      "type": "Match centre | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/livescore-widgets/match-centre"
+    },
+    {
+      "type": "Latest matches | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/team-widgets/latest-matches"
+    },
+    {
+      "type": "Next fixture | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/team-widgets/next-fixture"
+    },
+    {
+      "type": "Schedule | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/team-widgets/schedule"
+    },
+    {
+      "type": "GET My Leagues | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/my-sportmonks/get-my-leagues"
+    },
+    {
+      "type": "GET All Entity Filters | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/filters/get-all-entity-filters"
+    },
+    {
+      "type": "Query complexity | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/welcome/query-complexity"
+    },
+    {
+      "type": "Standings | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/team-widgets/standings"
+    },
+    {
+      "type": "How-to create your widget in three steps | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/guides/how-to-create-your-widget-in-three-steps"
+    },
+    {
+      "type": "GET My Resources | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/my-sportmonks/get-my-resources"
+    },
+    {
+      "type": "Getting Started | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/welcome/getting-started"
+    },
+    {
+      "type": "Response Codes | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/welcome/response-codes"
+    },
+    {
+      "type": "Current round | Football Widgets | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/football-widgets/our-widgets/team-widgets/current-round"
+    },
+    {
+      "type": "GET Type by Entity | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/endpoints/types/get-type-by-entity"
+    },
+    {
+      "type": "Changelog | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/changelog/changelog"
+    },
+    {
+      "type": "Welcome | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api"
+    },
+    {
+      "type": "Authentication | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/welcome/authentication"
+    },
+    {
+      "type": "Core | Core API 3.0 | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/core-api/entities/core"
+    },
+    {
+      "type": "Endpoints | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints"
+    },
+    {
+      "type": "Result Type Reference | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/welcome/result-type-reference"
+    },
+    {
+      "type": "Metadata / Season Details Type Reference | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/welcome/metadata-season-details-type-reference"
+    },
+    {
+      "type": "Venues | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/venues"
+    },
+    {
+      "type": "Request options | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/welcome/request-options"
+    },
+    {
+      "type": "Teams | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/teams"
+    },
+    {
+      "type": "Live | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/live"
+    },
+    {
+      "type": "Fixtures | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/fixtures"
+    },
+    {
+      "type": "Tutorials | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/tutorials-and-guides/tutorials"
+    },
+    {
+      "type": "Guides | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/tutorials-and-guides/guides"
+    },
+    {
+      "type": "Seasons | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/tutorials-and-guides/guides/migrating-from-formula-one-api-v2-to-motorsport-api-v3/seasons"
+    },
+    {
+      "type": "Teams | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/tutorials-and-guides/guides/migrating-from-formula-one-api-v2-to-motorsport-api-v3/teams"
+    },
+    {
+      "type": "Status / State | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/tutorials-and-guides/guides/migrating-from-formula-one-api-v2-to-motorsport-api-v3/status-state"
+    },
+    {
+      "type": "Pitstops | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/pitstops"
+    },
+    {
+      "type": "GET All Livescores | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/live/get-all-livescores"
+    },
+    {
+      "type": "Laps | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/laps"
+    },
+    {
+      "type": "GET Team by ID | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/teams/get-team-by-id"
+    },
+    {
+      "type": "Entities | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/entities"
+    },
+    {
+      "type": "GET Multiple Fixtures by IDs | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/fixtures/get-multiple-fixtures-by-ids"
+    },
+    {
+      "type": "GET Driver by ID | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/drivers/get-driver-by-id"
+    },
+    {
+      "type": "Stints | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/stints"
+    },
+    {
+      "type": "States | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/states"
+    },
+    {
+      "type": "Pitstop | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/entities/pitstop"
+    },
+    {
+      "type": "GET Teams by Search | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/teams/get-teams-by-search"
+    },
+    {
+      "type": "State | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/entities/state"
+    },
+    {
+      "type": "Schedules | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/schedules"
+    },
+    {
+      "type": "Standings | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/standings"
+    },
+    {
+      "type": "GET Venues by ID | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/venues/get-venues-by-id"
+    },
+    {
+      "type": "GET Latest Updated Fixture | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/fixtures/get-latest-updated-fixture"
+    },
+    {
+      "type": "Lap | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/entities/lap"
+    },
+    {
+      "type": "GET Fixture by ID | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/fixtures/get-fixture-by-id"
+    },
+    {
+      "type": "GET Drivers by Search | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/drivers/get-drivers-by-search"
+    },
+    {
+      "type": "GET All Fixtures | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/fixtures/get-all-fixtures"
+    },
+    {
+      "type": "Team | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/entities/team"
+    },
+    {
+      "type": "Stint | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/entities/stint"
+    },
+    {
+      "type": "GET Latest Updated Drivers | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/drivers/get-latest-updated-drivers"
+    },
+    {
+      "type": "Venue | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/entities/venue"
+    },
+    {
+      "type": "Season | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/entities/season"
+    },
+    {
+      "type": "GET Fixture by Date Range | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/fixtures/get-fixture-by-date-range"
+    },
+    {
+      "type": "GET All Drivers | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/drivers/get-all-drivers"
+    },
+    {
+      "type": "Drivers | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/drivers"
+    },
+    {
+      "type": "Stages | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/stages"
+    },
+    {
+      "type": "Standing | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/entities/standing"
+    },
+    {
+      "type": "Leagues | Motorsport 3.0 (beta) | API 3.0",
+      "url": "https://docs.sportmonks.com/v3/motorsport-api/endpoints-and-entities/endpoints/leagues"
+    }
+  ],
+  "latestVersion": "2.0.0",
+  "versions": [
+    {
+      "version": "2.0.0",
+      "label": "latest",
+      "timestamp": "2026-01-28T23:16:20.942Z",
+      "filename": "documentation_2026-01-28T23:16:20.942Z.md",
+      "totalPages": 143,
+      "successfulPages": 143,
+      "url": "https://docs.sportmonks.com/v2/cricket-api",
+      "isLatest": true
+    },
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-05-16T12:38:57.120Z",
+      "filename": "documentation_2025-05-16T12:38:57.120Z.md",
+      "totalPages": 12,
+      "successfulPages": 12,
+      "url": "https://docs.sportmonks.com/football/welcome/making-your-first-request",
+      "isLatest": false
+    }
+  ],
+  "schemaVersion": 2
+}

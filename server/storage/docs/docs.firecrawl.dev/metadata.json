@@ -1,1 +1,388 @@
-{"url":"https://docs.firecrawl.dev/introduction","domain":"docs.firecrawl.dev","lastScraped":"2025-07-08T03:19:21.238Z","totalPages":44,"successfulPages":44,"failedPages":[],"structure":[{"type":"Quickstart | Firecrawl","url":"https://docs.firecrawl.dev/introduction"},{"type":"Advanced Scraping Guide | Firecrawl","url":"https://docs.firecrawl.dev/advanced-scraping-guide"},{"type":"FIRE-1 AI Agent (Beta) | Firecrawl","url":"https://docs.firecrawl.dev/agents/fire-1"},{"type":"SDKs | Firecrawl","url":"https://docs.firecrawl.dev/sdks/overview"},{"type":"Cancel Batch Scrape - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/batch-scrape-delete"},{"type":"Get Batch Scrape Status - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/batch-scrape-get"},{"type":"Batch Scrape - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/batch-scrape"},{"type":"Cancel Crawl - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/crawl-delete"},{"type":"Get Batch Scrape Errors - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/batch-scrape-get-errors"},{"type":"Get Active Crawls - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/crawl-active"},{"type":"Open Source vs Cloud | Firecrawl","url":"https://docs.firecrawl.dev/contributing/open-source-or-cloud"},{"type":"Get Crawl Errors - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/crawl-get-errors"},{"type":"Get Crawl Status - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/crawl-get"},{"type":"Credit Usage - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/credit-usage"},{"type":"Python SDK | Firecrawl","url":"https://docs.firecrawl.dev/sdks/python"},{"type":"Go SDK | Firecrawl","url":"https://docs.firecrawl.dev/sdks/go"},{"type":"Extract - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/extract"},{"type":"Running locally | Firecrawl","url":"https://docs.firecrawl.dev/contributing/guide"},{"type":"Crawl - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/crawl-post"},{"type":"Node SDK | Firecrawl","url":"https://docs.firecrawl.dev/sdks/node"},{"type":"Self-hosting | Firecrawl","url":"https://docs.firecrawl.dev/contributing/self-host"},{"type":"Map - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/map"},{"type":"Get Extract Status - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/extract-get"},{"type":"Rate Limits | Firecrawl","url":"https://docs.firecrawl.dev/rate-limits"},{"type":"Launch Week III | Firecrawl","url":"https://docs.firecrawl.dev/launch-week"},{"type":"Introduction - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/introduction"},{"type":"Token Usage - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/token-usage"},{"type":"Scrape - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/scrape"},{"type":"Search - Firecrawl Docs","url":"https://docs.firecrawl.dev/api-reference/endpoint/search"},{"type":"Rust SDK | Firecrawl","url":"https://docs.firecrawl.dev/sdks/rust"},{"type":"Map | Firecrawl","url":"https://docs.firecrawl.dev/features/map"},{"type":"Change Tracking with Crawl | Firecrawl","url":"https://docs.firecrawl.dev/features/change-tracking-crawl"},{"type":"Proxies | Firecrawl","url":"https://docs.firecrawl.dev/features/proxies"},{"type":"Stealth Mode | Firecrawl","url":"https://docs.firecrawl.dev/features/stealth-mode"},{"type":"Extract | Firecrawl","url":"https://docs.firecrawl.dev/features/extract"},{"type":"Search | Firecrawl","url":"https://docs.firecrawl.dev/features/search"},{"type":"JSON mode | Firecrawl","url":"https://docs.firecrawl.dev/features/llm-extract"},{"type":"Batch Scrape | Firecrawl","url":"https://docs.firecrawl.dev/features/batch-scrape"},{"type":"Faster Scraping | Firecrawl","url":"https://docs.firecrawl.dev/features/fast-scraping"},{"type":"Firecrawl MCP Server","url":"https://docs.firecrawl.dev/mcp"},{"type":"Change tracking | Firecrawl","url":"https://docs.firecrawl.dev/features/change-tracking"},{"type":"Webhooks | Firecrawl","url":"https://docs.firecrawl.dev/features/webhooks"},{"type":"Crawl | Firecrawl","url":"https://docs.firecrawl.dev/features/crawl"},{"type":"Scrape | Firecrawl","url":"https://docs.firecrawl.dev/features/scrape"}]}
+{
+  "url": "https://docs.firecrawl.dev/introduction",
+  "domain": "docs.firecrawl.dev",
+  "lastScraped": "2026-01-22T18:03:57.509Z",
+  "totalPages": 82,
+  "successfulPages": 82,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Quickstart | Firecrawl",
+      "url": "https://docs.firecrawl.dev/introduction"
+    },
+    {
+      "type": "FIRE-1 AI Agent (Beta) | Firecrawl",
+      "url": "https://docs.firecrawl.dev/agents/fire-1"
+    },
+    {
+      "type": "Cancel Agent - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/agent-delete"
+    },
+    {
+      "type": "Get Agent Status - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/agent-get"
+    },
+    {
+      "type": "Agent - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/agent"
+    },
+    {
+      "type": "Advanced Scraping Guide | Firecrawl",
+      "url": "https://docs.firecrawl.dev/advanced-scraping-guide"
+    },
+    {
+      "type": "Batch Scrape - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/batch-scrape"
+    },
+    {
+      "type": "Get Batch Scrape Status - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/batch-scrape-get"
+    },
+    {
+      "type": "Get Crawl Errors - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/crawl-get-errors"
+    },
+    {
+      "type": "Get Batch Scrape Errors - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/batch-scrape-get-errors"
+    },
+    {
+      "type": "Crawl Params Preview - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/crawl-params-preview"
+    },
+    {
+      "type": "Cancel Crawl - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/crawl-delete"
+    },
+    {
+      "type": "Cancel Batch Scrape - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/batch-scrape-delete"
+    },
+    {
+      "type": "Credit Usage - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/credit-usage"
+    },
+    {
+      "type": "Historical Token Usage - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/token-usage-historical"
+    },
+    {
+      "type": "Token Usage - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/token-usage"
+    },
+    {
+      "type": "Get Crawl Status - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/crawl-get"
+    },
+    {
+      "type": "Get Extract Status - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/extract-get"
+    },
+    {
+      "type": "Crawl - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/crawl-post"
+    },
+    {
+      "type": "Cancel Batch Scrape - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/batch-scrape-delete"
+    },
+    {
+      "type": "Open Source vs Cloud | Firecrawl",
+      "url": "https://docs.firecrawl.dev/contributing/open-source-or-cloud"
+    },
+    {
+      "type": "Cancel Crawl - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/crawl-delete"
+    },
+    {
+      "type": "Batch Scrape - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/batch-scrape"
+    },
+    {
+      "type": "Extract - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/extract"
+    },
+    {
+      "type": "Get Active Crawls - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/crawl-active"
+    },
+    {
+      "type": "Get Batch Scrape Errors - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/batch-scrape-get-errors"
+    },
+    {
+      "type": "Token Usage - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/token-usage"
+    },
+    {
+      "type": "Queue Status - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/queue-status"
+    },
+    {
+      "type": "Get Extract Status - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/extract-get"
+    },
+    {
+      "type": "Historical Credit Usage - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/credit-usage-historical"
+    },
+    {
+      "type": "Queue Status - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/queue-status"
+    },
+    {
+      "type": "Historical Credit Usage - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/credit-usage-historical"
+    },
+    {
+      "type": "Credit Usage - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/credit-usage"
+    },
+    {
+      "type": "Map - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/map"
+    },
+    {
+      "type": "Full-Stack Templates - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/developer-guides/examples"
+    },
+    {
+      "type": "Get Batch Scrape Status - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/batch-scrape-get"
+    },
+    {
+      "type": "Map - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/map"
+    },
+    {
+      "type": "Historical Token Usage - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/token-usage-historical"
+    },
+    {
+      "type": "Crawl - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/crawl-post"
+    },
+    {
+      "type": "Self-hosting | Firecrawl",
+      "url": "https://docs.firecrawl.dev/contributing/self-host"
+    },
+    {
+      "type": "Search - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/search"
+    },
+    {
+      "type": "Running locally | Firecrawl",
+      "url": "https://docs.firecrawl.dev/contributing/guide"
+    },
+    {
+      "type": "Get Crawl Errors - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/crawl-get-errors"
+    },
+    {
+      "type": "Get Active Crawls - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/crawl-active"
+    },
+    {
+      "type": "Scrape - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/endpoint/scrape"
+    },
+    {
+      "type": "Agente - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/es/api-reference/endpoint/agent"
+    },
+    {
+      "type": "Extract - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/extract"
+    },
+    {
+      "type": "Agente de IA FIRE-1 (Beta) | Firecrawl",
+      "url": "https://docs.firecrawl.dev/es/agents/fire-1"
+    },
+    {
+      "type": "Scrape - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/scrape"
+    },
+    {
+      "type": "Get Crawl Status - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/crawl-get"
+    },
+    {
+      "type": "Search - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v1-endpoint/search"
+    },
+    {
+      "type": "Firecrawl + Make - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/developer-guides/workflow-automation/make"
+    },
+    {
+      "type": "Obtener el estado del agente - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/es/api-reference/endpoint/agent-get"
+    },
+    {
+      "type": "Cancelar agente - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/es/api-reference/endpoint/agent-delete"
+    },
+    {
+      "type": "Introduction - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/api-reference/v2-introduction"
+    },
+    {
+      "type": "Scraping Etsy - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/developer-guides/common-sites/etsy"
+    },
+    {
+      "type": "MCP Web Search & Scrape in Cursor - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/developer-guides/mcp-setup-guides/cursor"
+    },
+    {
+      "type": "MCP Web Search & Scrape in Claude Code - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/developer-guides/mcp-setup-guides/claude-code"
+    },
+    {
+      "type": "Authenticated Scraping - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/developer-guides/advanced-guides/authenticated-scraping"
+    },
+    {
+      "type": "MCP Web Search & Scrape in ChatGPT - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/developer-guides/mcp-setup-guides/chatgpt"
+    },
+    {
+      "type": "MCP Web Search & Scrape in Factory AI - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/developer-guides/mcp-setup-guides/factory-ai"
+    },
+    {
+      "type": "Firecrawl + Zapier - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/developer-guides/workflow-automation/zapier"
+    },
+    {
+      "type": "Agent Development Kit (ADK) - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/developer-guides/llm-sdks-and-frameworks/google-adk"
+    },
+    {
+      "type": "Firecrawl + Dify - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/developer-guides/workflow-automation/dify"
+    },
+    {
+      "type": "MCP Web Search & Scrape in Windsurf - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/developer-guides/mcp-setup-guides/windsurf"
+    },
+    {
+      "type": "SDKs | Firecrawl",
+      "url": "https://docs.firecrawl.dev/es/sdks/overview"
+    },
+    {
+      "type": "Page Not Found",
+      "url": "https://docs.firecrawl.dev/pricing"
+    },
+    {
+      "type": "Deep Research - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/use-cases/deep-research"
+    },
+    {
+      "type": "Limites de débit | Firecrawl",
+      "url": "https://docs.firecrawl.dev/fr/rate-limits"
+    },
+    {
+      "type": "Rate Limits | Firecrawl",
+      "url": "https://docs.firecrawl.dev/rate-limits"
+    },
+    {
+      "type": "SEO Platforms - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/use-cases/seo-platforms"
+    },
+    {
+      "type": "Webhooks | Firecrawl",
+      "url": "https://docs.firecrawl.dev/webhooks/overview"
+    },
+    {
+      "type": "Auto-hébergement | Firecrawl",
+      "url": "https://docs.firecrawl.dev/fr/contributing/self-host"
+    },
+    {
+      "type": "Webhook Testing | Firecrawl",
+      "url": "https://docs.firecrawl.dev/webhooks/testing"
+    },
+    {
+      "type": "Webhooks | Firecrawl",
+      "url": "https://docs.firecrawl.dev/fr/webhooks/overview"
+    },
+    {
+      "type": "Introduction - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/fr/v1/api-reference/introduction"
+    },
+    {
+      "type": "Tests des webhooks | Firecrawl",
+      "url": "https://docs.firecrawl.dev/fr/webhooks/testing"
+    },
+    {
+      "type": "Modèles full stack - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/fr/developer-guides/examples"
+    },
+    {
+      "type": "SDKs | Firecrawl",
+      "url": "https://docs.firecrawl.dev/sdks/overview"
+    },
+    {
+      "type": "Recherche approfondie - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/fr/use-cases/deep-research"
+    },
+    {
+      "type": "Webhook Security | Firecrawl",
+      "url": "https://docs.firecrawl.dev/webhooks/security"
+    },
+    {
+      "type": "AI Platforms - Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/use-cases/ai-platforms"
+    }
+  ],
+  "latestVersion": "1.3.1",
+  "versions": [
+    {
+      "version": "1.3.1",
+      "label": "latest",
+      "timestamp": "2026-01-22T18:03:57.509Z",
+      "filename": "documentation_2026-01-22T18:03:57.509Z.md",
+      "totalPages": 82,
+      "successfulPages": 82,
+      "url": "https://docs.firecrawl.dev/introduction",
+      "isLatest": true
+    },
+    {
+      "version": "1.3.0",
+      "timestamp": "2026-01-22T17:26:45.412Z",
+      "filename": "documentation_2026-01-22T17:26:45.412Z.md",
+      "totalPages": 44,
+      "successfulPages": 44,
+      "url": "https://docs.firecrawl.dev/introduction",
+      "isLatest": false
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2025-07-08T03:19:21.238Z",
+      "filename": "documentation_2025-07-08T03:19:21.238Z.md",
+      "totalPages": 44,
+      "successfulPages": 44,
+      "url": "https://docs.firecrawl.dev/introduction",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-03-19T15:51:54.585Z",
+      "filename": "documentation_2025-03-19T15:51:54.585Z.md",
+      "totalPages": 44,
+      "successfulPages": 44,
+      "url": "https://docs.firecrawl.dev/introduction",
+      "isLatest": false
+    },
+    {
+      "version": "1.0.0",
+      "timestamp": "2024-12-26T11:26:09.709Z",
+      "filename": "documentation_2024-12-26T11:26:09.709Z.md",
+      "totalPages": 44,
+      "successfulPages": 44,
+      "url": "https://docs.firecrawl.dev/introduction",
+      "isLatest": false
+    }
+  ],
+  "schemaVersion": 2
+}

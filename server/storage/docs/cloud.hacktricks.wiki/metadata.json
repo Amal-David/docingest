@@ -1,1 +1,668 @@
-{"url":"https://cloud.hacktricks.wiki/","domain":"cloud.hacktricks.wiki","lastScraped":"2025-03-16T09:18:49.821Z","totalPages":161,"successfulPages":161,"failedPages":[],"structure":[{"type":"HackTricks Cloud - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/"},{"type":"Pentesting Cloud Methodology - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/pentesting-cloud-methodology.html"},{"type":"Pentesting CI/CD Methodology - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-ci-cd/pentesting-ci-cd-methodology.html"},{"type":"GWS - Workspace Pentesting - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/index.html"},{"type":"GCP Pentesting - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/index.html"},{"type":"AWS Pentesting - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/index.html"},{"type":"TODO - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-ci-cd/todo.html"},{"type":"Azure Pentesting - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/index.html"},{"type":"GCP - Basic Information - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-basic-information/index.html"},{"type":"Github Security - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-ci-cd/github-security/index.html"},{"type":"Kubernetes Pentesting - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/index.html"},{"type":"GCP - Permissions for a Pentest - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-permissions-for-a-pentest.html"},{"type":"GCP - Services - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/index.html"},{"type":"GCP - Unauthenticated Enum & Access - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-unauthenticated-enum-and-access/index.html"},{"type":"GCP - IAM, Principals & Org Policies Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-iam-and-org-policies-enum.html"},{"type":"GCP <--> Workspace Pivoting - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-to-workspace-pivoting/index.html"},{"type":"GCP - Persistence - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-persistence/index.html"},{"type":"GCP - Privilege Escalation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/index.html"},{"type":"GCP - Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/index.html"},{"type":"GWS - Google Platforms Phishing - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-google-platforms-phishing/index.html"},{"type":"Kubernetes ValidatingWebhookConfiguration - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-validatingwebhookconfiguration.html"},{"type":"GWS - Workspace Sync Attacks (GCPW, GCDS, GPS, Directory Sync with AD & EntraID) - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-workspace-sync-attacks-gcpw-gcds-gps-directory-sync-with-ad-and-entraid/index.html"},{"type":"GWS - Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-post-exploitation.html"},{"type":"GWS - Persistence - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-persistence.html"},{"type":"AWS - Basic Information - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-basic-information/index.html"},{"type":"AWS - Unauthenticated Enum & Access - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/index.html"},{"type":"AWS - Permissions for a Pentest - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-permissions-for-a-pentest.html"},{"type":"AWS - Organizations Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-organizations-enum.html"},{"type":"Az - Unauthenticated Enum & Initial Entry - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-unauthenticated-enum-and-initial-entry/index.html"},{"type":"AWS - IAM, Identity Center & SSO Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-iam-enum.html"},{"type":"Az - Password Spraying - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-unauthenticated-enum-and-initial-entry/az-password-spraying.html"},{"type":"Az - Basic Information - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-basic-information/index.html"},{"type":"AWS - Services - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/index.html"},{"type":"GWS - App Scripts - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-google-platforms-phishing/gws-app-scripts.html"},{"type":"Az - Enumeration Tools - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-enumeration-tools.html"},{"type":"AWS - Privilege Escalation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-privilege-escalation/index.html"},{"type":"Az - Device Code Authentication Phishing - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-unauthenticated-enum-and-initial-entry/az-device-code-authentication-phishing.html"},{"type":"Az - Entra ID (AzureAD) & Azure IAM - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-services/az-azuread.html"},{"type":"Az - Services - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-services/index.html"},{"type":"AWS - S3 Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-s3-unauthenticated-enum.html"},{"type":"Az - Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-post-exploitation/index.html"},{"type":"Az - Persistence - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-persistence/index.html"},{"type":"Az - Privilege Escalation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-privilege-escalation/index.html"},{"type":"Vercel Security - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-ci-cd/vercel-security.html"},{"type":"Kubernetes Basics - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-basics.html"},{"type":"GCP - Federation Abuse - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-basic-information/gcp-federation-abuse.html"},{"type":"Basic Github Information - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-ci-cd/github-security/basic-github-information.html"},{"type":"Accessible Deleted Data in Github - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-ci-cd/github-security/accessible-deleted-data-in-github.html"},{"type":"Abusing Github Actions - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-ci-cd/github-security/abusing-github-actions/index.html"},{"type":"Attacking Kubernetes from inside a Pod - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/attacking-kubernetes-from-inside-a-pod.html"},{"type":"Kubernetes Hardening - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-hardening/index.html"},{"type":"GCP - API Keys Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-unauthenticated-enum-and-access/gcp-api-keys-unauthenticated-enum.html"},{"type":"Kubernetes Enumeration - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-enumeration.html"},{"type":"GCP - Understanding Domain-Wide Delegation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-to-workspace-pivoting/gcp-understanding-domain-wide-delegation.html"},{"type":"GCP - AI Platform Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-ai-platform-enum.html"},{"type":"GCP - Token Persistence - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-persistence/gcp-non-svc-persistence.html"},{"type":"Pentesting Kubernetes Services - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/pentesting-kubernetes-services/index.html"},{"type":"Kubernetes Namespace Escalation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-namespace-escalation.html"},{"type":"Kubernetes Role-Based Access Control(RBAC) - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-role-based-access-control-rbac.html"},{"type":"Kubernetes Pivoting to Clouds - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-pivoting-to-clouds.html"},{"type":"Abusing Roles/ClusterRoles in Kubernetes - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/abusing-roles-clusterroles-in-kubernetes/index.html"},{"type":"GCP - Storage Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/gcp-storage-post-exploitation.html"},{"type":"GCP - local privilege escalation ssh pivoting - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-local-privilege-escalation-ssh-pivoting.html"},{"type":"GCP - Workflows Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-workflows-enum.html"},{"type":"GCP - API Keys Persistence - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-persistence/gcp-api-keys-persistence.html"},{"type":"GCP - IAM Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-iam-privesc.html"},{"type":"GCP - Apikeys Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-apikeys-privesc.html"},{"type":"GCP - App Engine Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/gcp-app-engine-post-exploitation.html"},{"type":"GCP - ClientAuthConfig Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-clientauthconfig-privesc.html"},{"type":"Kubernetes Kyverno bypass - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-kyverno/kubernetes-kyverno-bypass.html"},{"type":"GCPW - Google Credential Provider for Windows - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-workspace-sync-attacks-gcpw-gcds-gps-directory-sync-with-ad-and-entraid/gcpw-google-credential-provider-for-windows.html"},{"type":"GCP - IAM, Principals & Org Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-unauthenticated-enum-and-access/gcp-iam-principals-and-org-unauthenticated-enum.html"},{"type":"GPS - Google Password Sync - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-workspace-sync-attacks-gcpw-gcds-gps-directory-sync-with-ad-and-entraid/gps-google-password-sync.html"},{"type":"GCDS - Google Cloud Directory Sync - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-workspace-sync-attacks-gcpw-gcds-gps-directory-sync-with-ad-and-entraid/gcds-google-cloud-directory-sync.html"},{"type":"GCP - IAM Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/gcp-iam-post-exploitation.html"},{"type":"GWS - Admin Directory Sync - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-workspace-sync-attacks-gcpw-gcds-gps-directory-sync-with-ad-and-entraid/gws-admin-directory-sync.html"},{"type":"GCP - Orgpolicy Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-orgpolicy-privesc.html"},{"type":"GCP - Firestore Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-firestore-enum.html"},{"type":"GCP - KMS Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-kms-enum.html"},{"type":"AWS - Federation Abuse - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-basic-information/aws-federation-abuse.html"},{"type":"Az - OAuth Apps Phishing - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-unauthenticated-enum-and-initial-entry/az-oauth-apps-phishing.html"},{"type":"AWS - IAM & STS Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-iam-and-sts-unauthenticated-enum.html"},{"type":"AWS - IAM Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-privilege-escalation/aws-iam-privesc.html"},{"type":"Az - Container Registry Unauth - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-unauthenticated-enum-and-initial-entry/az-container-registry-unauth.html"},{"type":"AWS - IAM Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-post-exploitation/aws-iam-post-exploitation.html"},{"type":"AWS - IAM Persistence - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-persistence/aws-iam-persistence.html"},{"type":"AWS - Accounts Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-accounts-unauthenticated-enum.html"},{"type":"AWS - Identity Center & SSO Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-identity-center-and-sso-unauthenticated-enum.html"},{"type":"AWS - SSO & identitystore Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-privilege-escalation/aws-sso-and-identitystore-privesc.html"},{"type":"AWS - Cloudfront Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-cloudfront-unauthenticated-enum.html"},{"type":"AWS - Persistence - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-persistence/index.html"},{"type":"AWS - MSK Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-msk-enum.html"},{"type":"Az - Tokens & Public Applications - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-basic-information/az-tokens-and-public-applications.html"},{"type":"AWS - WorkDocs Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-privilege-escalation/aws-workdocs-privesc.html"},{"type":"AWS - Cognito Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-cognito-unauthenticated-enum.html"},{"type":"AWS - Redshift Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-redshift-enum.html"},{"type":"AWS - SSO & identitystore Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-post-exploitation/aws-sso-and-identitystore-post-exploitation.html"},{"type":"AWS - Kinesis Data Firehose Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-kinesis-data-firehose-enum.html"},{"type":"AWS - VPN Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-post-exploitation/aws-vpn-post-exploitation.html"},{"type":"Az - VMs Unauth - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-unauthenticated-enum-and-initial-entry/az-vms-unauth.html"},{"type":"AWS - KMS Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-kms-enum.html"},{"type":"AWS - Apigateway Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-privilege-escalation/aws-apigateway-privesc.html"},{"type":"AWS - Security & Detection Services - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-security-and-detection-services/index.html"},{"type":"AWS - Elasticsearch Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-elasticsearch-unauthenticated-enum.html"},{"type":"AWS - DocumentDB Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-documentdb-enum.html"},{"type":"AWS - EC2 Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-ec2-unauthenticated-enum.html"},{"type":"AWS - IoT Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-iot-unauthenticated-enum.html"},{"type":"AWS - Kinesis Video Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-kinesis-video-unauthenticated-enum.html"},{"type":"Az - EntraID Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-privilege-escalation/az-entraid-privesc/index.html"},{"type":"Az - Azure IAM Privesc (Authorization) - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-privilege-escalation/az-authorization-privesc.html"},{"type":"AWS - Media Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-media-unauthenticated-enum.html"},{"type":"Az - ACR - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-services/az-acr.html"},{"type":"AWS - MQ Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-mq-unauthenticated-enum.html"},{"type":"AWS - MSK Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-msk-unauthenticated-enum.html"},{"type":"Az - Primary Refresh Token (PRT) - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-lateral-movement-cloud-on-prem/az-primary-refresh-token-prt.html"},{"type":"AWS - SNS Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-sns-unauthenticated-enum.html"},{"type":"Az - VMs & Network Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-post-exploitation/az-vms-and-network-post-exploitation.html"},{"type":"Az - Virtual Machines & Network Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-privilege-escalation/az-virtual-machines-and-network-privesc.html"},{"type":"Az - Blob Storage Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-post-exploitation/az-blob-storage-post-exploitation.html"},{"type":"AWS - RDS Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-rds-unauthenticated-enum.html"},{"type":"Az - Automation Accounts Persistence - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-persistence/az-automation-accounts-persistence.html"},{"type":"AWS - SQS Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-sqs-unauthenticated-enum.html"},{"type":"AWS - Redshift Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-redshift-unauthenticated-enum.html"},{"type":"Ansible Tower / AWX / Automation controller Security - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-ci-cd/ansible-tower-awx-automation-controller-security.html"},{"type":"Gh Actions - Artifact Poisoning - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-ci-cd/github-security/abusing-github-actions/gh-actions-artifact-poisoning.html"},{"type":"Gitea Security - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-ci-cd/gitea-security/index.html"},{"type":"Gh Actions - Context Script Injections - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-ci-cd/github-security/abusing-github-actions/gh-actions-context-script-injections.html"},{"type":"Kubernetes Network Attacks - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-network-attacks.html"},{"type":"GCP - API Keys Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-api-keys-enum.html"},{"type":"GH Actions - Cache Poisoning - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-ci-cd/github-security/abusing-github-actions/gh-actions-cache-poisoning.html"},{"type":"AWS - Other Services Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-other-services-enum.html"},{"type":"Kubernetes SecurityContext(s) - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-hardening/kubernetes-securitycontext-s.html"},{"type":"Kubernetes Roles Abuse Lab - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/abusing-roles-clusterroles-in-kubernetes/kubernetes-roles-abuse-lab.html"},{"type":"GCP - Storage Persistence - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-persistence/gcp-storage-persistence.html"},{"type":"GCP - App Engine Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-unauthenticated-enum-and-access/gcp-app-engine-unauthenticated-enum.html"},{"type":"Exposing Services in Kubernetes - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/exposing-services-in-kubernetes.html"},{"type":"Pod Escape Privileges - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/abusing-roles-clusterroles-in-kubernetes/pod-escape-privileges.html"},{"type":"Kubelet Authentication & Authorization - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/pentesting-kubernetes-services/kubelet-authentication-and-authorization.html"},{"type":"GCP - Network Docker Escape - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-network-docker-escape.html"},{"type":"Kubernetes External Secret Operator - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-external-secrets-operator.html"},{"type":"GCP - Container Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-container-privesc.html"},{"type":"GCP - Storage Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-storage-enum.html"},{"type":"GCP - Workflows Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-workflows-privesc.html"},{"type":"GCP - Serviceusage Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-serviceusage-privesc.html"},{"type":"GCP - Workflows Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/gcp-workflows-post-exploitation.html"},{"type":"Kubernetes OPA Gatekeeper bypass - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-opa-gatekeeper/kubernetes-opa-gatekeeper-bypass.html"},{"type":"GCP - Deploymentmaneger Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-deploymentmaneger-privesc.html"},{"type":"GCP - App Engine Persistence - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-persistence/gcp-app-engine-persistence.html"},{"type":"GCP - KMS Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-kms-privesc.html"},{"type":"GCP - AppEngine Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-appengine-privesc.html"},{"type":"GCP - App Engine Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-app-engine-enum.html"},{"type":"GCP - Artifact Registry Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/gcp-artifact-registry-post-exploitation.html"},{"type":"GCP - Cloudbuild Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-cloudbuild-privesc.html"},{"type":"GCP - BigQuery Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-bigquery-privesc.html"},{"type":"GCP - Source Repositories Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-unauthenticated-enum-and-access/gcp-source-repositories-unauthenticated-enum.html"},{"type":"Kubernetes Kyverno - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-kyverno/index.html"},{"type":"GCP - Compute Unauthenticated Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-unauthenticated-enum-and-access/gcp-compute-unauthenticated-enum.html"},{"type":"GCP - Filestore Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/gcp-filestore-post-exploitation.html"},{"type":"GCP - Firebase Enum - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-firebase-enum.html"},{"type":"GCP - Pubsub Privesc - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-pubsub-privesc.html"},{"type":"GCP - KMS Post Exploitation - HackTricks Cloud","url":"https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/gcp-kms-post-exploitation.html"}]}
+{
+  "url": "https://cloud.hacktricks.wiki/",
+  "domain": "cloud.hacktricks.wiki",
+  "lastScraped": "2025-03-16T09:18:49.821Z",
+  "totalPages": 161,
+  "successfulPages": 161,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "HackTricks Cloud - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/"
+    },
+    {
+      "type": "Pentesting Cloud Methodology - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/pentesting-cloud-methodology.html"
+    },
+    {
+      "type": "Pentesting CI/CD Methodology - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-ci-cd/pentesting-ci-cd-methodology.html"
+    },
+    {
+      "type": "GWS - Workspace Pentesting - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/index.html"
+    },
+    {
+      "type": "GCP Pentesting - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/index.html"
+    },
+    {
+      "type": "AWS Pentesting - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/index.html"
+    },
+    {
+      "type": "TODO - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-ci-cd/todo.html"
+    },
+    {
+      "type": "Azure Pentesting - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/index.html"
+    },
+    {
+      "type": "GCP - Basic Information - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-basic-information/index.html"
+    },
+    {
+      "type": "Github Security - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-ci-cd/github-security/index.html"
+    },
+    {
+      "type": "Kubernetes Pentesting - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/index.html"
+    },
+    {
+      "type": "GCP - Permissions for a Pentest - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-permissions-for-a-pentest.html"
+    },
+    {
+      "type": "GCP - Services - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/index.html"
+    },
+    {
+      "type": "GCP - Unauthenticated Enum & Access - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-unauthenticated-enum-and-access/index.html"
+    },
+    {
+      "type": "GCP - IAM, Principals & Org Policies Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-iam-and-org-policies-enum.html"
+    },
+    {
+      "type": "GCP <--> Workspace Pivoting - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-to-workspace-pivoting/index.html"
+    },
+    {
+      "type": "GCP - Persistence - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-persistence/index.html"
+    },
+    {
+      "type": "GCP - Privilege Escalation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/index.html"
+    },
+    {
+      "type": "GCP - Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/index.html"
+    },
+    {
+      "type": "GWS - Google Platforms Phishing - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-google-platforms-phishing/index.html"
+    },
+    {
+      "type": "Kubernetes ValidatingWebhookConfiguration - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-validatingwebhookconfiguration.html"
+    },
+    {
+      "type": "GWS - Workspace Sync Attacks (GCPW, GCDS, GPS, Directory Sync with AD & EntraID) - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-workspace-sync-attacks-gcpw-gcds-gps-directory-sync-with-ad-and-entraid/index.html"
+    },
+    {
+      "type": "GWS - Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-post-exploitation.html"
+    },
+    {
+      "type": "GWS - Persistence - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-persistence.html"
+    },
+    {
+      "type": "AWS - Basic Information - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-basic-information/index.html"
+    },
+    {
+      "type": "AWS - Unauthenticated Enum & Access - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/index.html"
+    },
+    {
+      "type": "AWS - Permissions for a Pentest - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-permissions-for-a-pentest.html"
+    },
+    {
+      "type": "AWS - Organizations Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-organizations-enum.html"
+    },
+    {
+      "type": "Az - Unauthenticated Enum & Initial Entry - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-unauthenticated-enum-and-initial-entry/index.html"
+    },
+    {
+      "type": "AWS - IAM, Identity Center & SSO Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-iam-enum.html"
+    },
+    {
+      "type": "Az - Password Spraying - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-unauthenticated-enum-and-initial-entry/az-password-spraying.html"
+    },
+    {
+      "type": "Az - Basic Information - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-basic-information/index.html"
+    },
+    {
+      "type": "AWS - Services - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/index.html"
+    },
+    {
+      "type": "GWS - App Scripts - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-google-platforms-phishing/gws-app-scripts.html"
+    },
+    {
+      "type": "Az - Enumeration Tools - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-enumeration-tools.html"
+    },
+    {
+      "type": "AWS - Privilege Escalation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-privilege-escalation/index.html"
+    },
+    {
+      "type": "Az - Device Code Authentication Phishing - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-unauthenticated-enum-and-initial-entry/az-device-code-authentication-phishing.html"
+    },
+    {
+      "type": "Az - Entra ID (AzureAD) & Azure IAM - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-services/az-azuread.html"
+    },
+    {
+      "type": "Az - Services - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-services/index.html"
+    },
+    {
+      "type": "AWS - S3 Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-s3-unauthenticated-enum.html"
+    },
+    {
+      "type": "Az - Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-post-exploitation/index.html"
+    },
+    {
+      "type": "Az - Persistence - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-persistence/index.html"
+    },
+    {
+      "type": "Az - Privilege Escalation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-privilege-escalation/index.html"
+    },
+    {
+      "type": "Vercel Security - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-ci-cd/vercel-security.html"
+    },
+    {
+      "type": "Kubernetes Basics - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-basics.html"
+    },
+    {
+      "type": "GCP - Federation Abuse - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-basic-information/gcp-federation-abuse.html"
+    },
+    {
+      "type": "Basic Github Information - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-ci-cd/github-security/basic-github-information.html"
+    },
+    {
+      "type": "Accessible Deleted Data in Github - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-ci-cd/github-security/accessible-deleted-data-in-github.html"
+    },
+    {
+      "type": "Abusing Github Actions - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-ci-cd/github-security/abusing-github-actions/index.html"
+    },
+    {
+      "type": "Attacking Kubernetes from inside a Pod - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/attacking-kubernetes-from-inside-a-pod.html"
+    },
+    {
+      "type": "Kubernetes Hardening - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-hardening/index.html"
+    },
+    {
+      "type": "GCP - API Keys Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-unauthenticated-enum-and-access/gcp-api-keys-unauthenticated-enum.html"
+    },
+    {
+      "type": "Kubernetes Enumeration - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-enumeration.html"
+    },
+    {
+      "type": "GCP - Understanding Domain-Wide Delegation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-to-workspace-pivoting/gcp-understanding-domain-wide-delegation.html"
+    },
+    {
+      "type": "GCP - AI Platform Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-ai-platform-enum.html"
+    },
+    {
+      "type": "GCP - Token Persistence - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-persistence/gcp-non-svc-persistence.html"
+    },
+    {
+      "type": "Pentesting Kubernetes Services - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/pentesting-kubernetes-services/index.html"
+    },
+    {
+      "type": "Kubernetes Namespace Escalation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-namespace-escalation.html"
+    },
+    {
+      "type": "Kubernetes Role-Based Access Control(RBAC) - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-role-based-access-control-rbac.html"
+    },
+    {
+      "type": "Kubernetes Pivoting to Clouds - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-pivoting-to-clouds.html"
+    },
+    {
+      "type": "Abusing Roles/ClusterRoles in Kubernetes - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/abusing-roles-clusterroles-in-kubernetes/index.html"
+    },
+    {
+      "type": "GCP - Storage Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/gcp-storage-post-exploitation.html"
+    },
+    {
+      "type": "GCP - local privilege escalation ssh pivoting - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-local-privilege-escalation-ssh-pivoting.html"
+    },
+    {
+      "type": "GCP - Workflows Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-workflows-enum.html"
+    },
+    {
+      "type": "GCP - API Keys Persistence - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-persistence/gcp-api-keys-persistence.html"
+    },
+    {
+      "type": "GCP - IAM Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-iam-privesc.html"
+    },
+    {
+      "type": "GCP - Apikeys Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-apikeys-privesc.html"
+    },
+    {
+      "type": "GCP - App Engine Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/gcp-app-engine-post-exploitation.html"
+    },
+    {
+      "type": "GCP - ClientAuthConfig Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-clientauthconfig-privesc.html"
+    },
+    {
+      "type": "Kubernetes Kyverno bypass - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-kyverno/kubernetes-kyverno-bypass.html"
+    },
+    {
+      "type": "GCPW - Google Credential Provider for Windows - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-workspace-sync-attacks-gcpw-gcds-gps-directory-sync-with-ad-and-entraid/gcpw-google-credential-provider-for-windows.html"
+    },
+    {
+      "type": "GCP - IAM, Principals & Org Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-unauthenticated-enum-and-access/gcp-iam-principals-and-org-unauthenticated-enum.html"
+    },
+    {
+      "type": "GPS - Google Password Sync - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-workspace-sync-attacks-gcpw-gcds-gps-directory-sync-with-ad-and-entraid/gps-google-password-sync.html"
+    },
+    {
+      "type": "GCDS - Google Cloud Directory Sync - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-workspace-sync-attacks-gcpw-gcds-gps-directory-sync-with-ad-and-entraid/gcds-google-cloud-directory-sync.html"
+    },
+    {
+      "type": "GCP - IAM Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/gcp-iam-post-exploitation.html"
+    },
+    {
+      "type": "GWS - Admin Directory Sync - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/workspace-security/gws-workspace-sync-attacks-gcpw-gcds-gps-directory-sync-with-ad-and-entraid/gws-admin-directory-sync.html"
+    },
+    {
+      "type": "GCP - Orgpolicy Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-orgpolicy-privesc.html"
+    },
+    {
+      "type": "GCP - Firestore Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-firestore-enum.html"
+    },
+    {
+      "type": "GCP - KMS Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-kms-enum.html"
+    },
+    {
+      "type": "AWS - Federation Abuse - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-basic-information/aws-federation-abuse.html"
+    },
+    {
+      "type": "Az - OAuth Apps Phishing - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-unauthenticated-enum-and-initial-entry/az-oauth-apps-phishing.html"
+    },
+    {
+      "type": "AWS - IAM & STS Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-iam-and-sts-unauthenticated-enum.html"
+    },
+    {
+      "type": "AWS - IAM Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-privilege-escalation/aws-iam-privesc.html"
+    },
+    {
+      "type": "Az - Container Registry Unauth - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-unauthenticated-enum-and-initial-entry/az-container-registry-unauth.html"
+    },
+    {
+      "type": "AWS - IAM Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-post-exploitation/aws-iam-post-exploitation.html"
+    },
+    {
+      "type": "AWS - IAM Persistence - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-persistence/aws-iam-persistence.html"
+    },
+    {
+      "type": "AWS - Accounts Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-accounts-unauthenticated-enum.html"
+    },
+    {
+      "type": "AWS - Identity Center & SSO Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-identity-center-and-sso-unauthenticated-enum.html"
+    },
+    {
+      "type": "AWS - SSO & identitystore Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-privilege-escalation/aws-sso-and-identitystore-privesc.html"
+    },
+    {
+      "type": "AWS - Cloudfront Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-cloudfront-unauthenticated-enum.html"
+    },
+    {
+      "type": "AWS - Persistence - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-persistence/index.html"
+    },
+    {
+      "type": "AWS - MSK Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-msk-enum.html"
+    },
+    {
+      "type": "Az - Tokens & Public Applications - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-basic-information/az-tokens-and-public-applications.html"
+    },
+    {
+      "type": "AWS - WorkDocs Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-privilege-escalation/aws-workdocs-privesc.html"
+    },
+    {
+      "type": "AWS - Cognito Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-cognito-unauthenticated-enum.html"
+    },
+    {
+      "type": "AWS - Redshift Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-redshift-enum.html"
+    },
+    {
+      "type": "AWS - SSO & identitystore Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-post-exploitation/aws-sso-and-identitystore-post-exploitation.html"
+    },
+    {
+      "type": "AWS - Kinesis Data Firehose Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-kinesis-data-firehose-enum.html"
+    },
+    {
+      "type": "AWS - VPN Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-post-exploitation/aws-vpn-post-exploitation.html"
+    },
+    {
+      "type": "Az - VMs Unauth - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-unauthenticated-enum-and-initial-entry/az-vms-unauth.html"
+    },
+    {
+      "type": "AWS - KMS Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-kms-enum.html"
+    },
+    {
+      "type": "AWS - Apigateway Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-privilege-escalation/aws-apigateway-privesc.html"
+    },
+    {
+      "type": "AWS - Security & Detection Services - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-security-and-detection-services/index.html"
+    },
+    {
+      "type": "AWS - Elasticsearch Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-elasticsearch-unauthenticated-enum.html"
+    },
+    {
+      "type": "AWS - DocumentDB Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-documentdb-enum.html"
+    },
+    {
+      "type": "AWS - EC2 Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-ec2-unauthenticated-enum.html"
+    },
+    {
+      "type": "AWS - IoT Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-iot-unauthenticated-enum.html"
+    },
+    {
+      "type": "AWS - Kinesis Video Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-kinesis-video-unauthenticated-enum.html"
+    },
+    {
+      "type": "Az - EntraID Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-privilege-escalation/az-entraid-privesc/index.html"
+    },
+    {
+      "type": "Az - Azure IAM Privesc (Authorization) - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-privilege-escalation/az-authorization-privesc.html"
+    },
+    {
+      "type": "AWS - Media Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-media-unauthenticated-enum.html"
+    },
+    {
+      "type": "Az - ACR - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-services/az-acr.html"
+    },
+    {
+      "type": "AWS - MQ Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-mq-unauthenticated-enum.html"
+    },
+    {
+      "type": "AWS - MSK Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-msk-unauthenticated-enum.html"
+    },
+    {
+      "type": "Az - Primary Refresh Token (PRT) - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-lateral-movement-cloud-on-prem/az-primary-refresh-token-prt.html"
+    },
+    {
+      "type": "AWS - SNS Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-sns-unauthenticated-enum.html"
+    },
+    {
+      "type": "Az - VMs & Network Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-post-exploitation/az-vms-and-network-post-exploitation.html"
+    },
+    {
+      "type": "Az - Virtual Machines & Network Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-privilege-escalation/az-virtual-machines-and-network-privesc.html"
+    },
+    {
+      "type": "Az - Blob Storage Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-post-exploitation/az-blob-storage-post-exploitation.html"
+    },
+    {
+      "type": "AWS - RDS Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-rds-unauthenticated-enum.html"
+    },
+    {
+      "type": "Az - Automation Accounts Persistence - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-persistence/az-automation-accounts-persistence.html"
+    },
+    {
+      "type": "AWS - SQS Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-sqs-unauthenticated-enum.html"
+    },
+    {
+      "type": "AWS - Redshift Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-redshift-unauthenticated-enum.html"
+    },
+    {
+      "type": "Ansible Tower / AWX / Automation controller Security - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-ci-cd/ansible-tower-awx-automation-controller-security.html"
+    },
+    {
+      "type": "Gh Actions - Artifact Poisoning - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-ci-cd/github-security/abusing-github-actions/gh-actions-artifact-poisoning.html"
+    },
+    {
+      "type": "Gitea Security - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-ci-cd/gitea-security/index.html"
+    },
+    {
+      "type": "Gh Actions - Context Script Injections - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-ci-cd/github-security/abusing-github-actions/gh-actions-context-script-injections.html"
+    },
+    {
+      "type": "Kubernetes Network Attacks - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-network-attacks.html"
+    },
+    {
+      "type": "GCP - API Keys Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-api-keys-enum.html"
+    },
+    {
+      "type": "GH Actions - Cache Poisoning - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-ci-cd/github-security/abusing-github-actions/gh-actions-cache-poisoning.html"
+    },
+    {
+      "type": "AWS - Other Services Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/aws-security/aws-services/aws-other-services-enum.html"
+    },
+    {
+      "type": "Kubernetes SecurityContext(s) - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-hardening/kubernetes-securitycontext-s.html"
+    },
+    {
+      "type": "Kubernetes Roles Abuse Lab - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/abusing-roles-clusterroles-in-kubernetes/kubernetes-roles-abuse-lab.html"
+    },
+    {
+      "type": "GCP - Storage Persistence - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-persistence/gcp-storage-persistence.html"
+    },
+    {
+      "type": "GCP - App Engine Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-unauthenticated-enum-and-access/gcp-app-engine-unauthenticated-enum.html"
+    },
+    {
+      "type": "Exposing Services in Kubernetes - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/exposing-services-in-kubernetes.html"
+    },
+    {
+      "type": "Pod Escape Privileges - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/abusing-roles-clusterroles-in-kubernetes/pod-escape-privileges.html"
+    },
+    {
+      "type": "Kubelet Authentication & Authorization - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/pentesting-kubernetes-services/kubelet-authentication-and-authorization.html"
+    },
+    {
+      "type": "GCP - Network Docker Escape - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-network-docker-escape.html"
+    },
+    {
+      "type": "Kubernetes External Secret Operator - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-external-secrets-operator.html"
+    },
+    {
+      "type": "GCP - Container Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-container-privesc.html"
+    },
+    {
+      "type": "GCP - Storage Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-storage-enum.html"
+    },
+    {
+      "type": "GCP - Workflows Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-workflows-privesc.html"
+    },
+    {
+      "type": "GCP - Serviceusage Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-serviceusage-privesc.html"
+    },
+    {
+      "type": "GCP - Workflows Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/gcp-workflows-post-exploitation.html"
+    },
+    {
+      "type": "Kubernetes OPA Gatekeeper bypass - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-opa-gatekeeper/kubernetes-opa-gatekeeper-bypass.html"
+    },
+    {
+      "type": "GCP - Deploymentmaneger Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-deploymentmaneger-privesc.html"
+    },
+    {
+      "type": "GCP - App Engine Persistence - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-persistence/gcp-app-engine-persistence.html"
+    },
+    {
+      "type": "GCP - KMS Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-kms-privesc.html"
+    },
+    {
+      "type": "GCP - AppEngine Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-appengine-privesc.html"
+    },
+    {
+      "type": "GCP - App Engine Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-app-engine-enum.html"
+    },
+    {
+      "type": "GCP - Artifact Registry Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/gcp-artifact-registry-post-exploitation.html"
+    },
+    {
+      "type": "GCP - Cloudbuild Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-cloudbuild-privesc.html"
+    },
+    {
+      "type": "GCP - BigQuery Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-bigquery-privesc.html"
+    },
+    {
+      "type": "GCP - Source Repositories Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-unauthenticated-enum-and-access/gcp-source-repositories-unauthenticated-enum.html"
+    },
+    {
+      "type": "Kubernetes Kyverno - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/kubernetes-security/kubernetes-kyverno/index.html"
+    },
+    {
+      "type": "GCP - Compute Unauthenticated Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-unauthenticated-enum-and-access/gcp-compute-unauthenticated-enum.html"
+    },
+    {
+      "type": "GCP - Filestore Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/gcp-filestore-post-exploitation.html"
+    },
+    {
+      "type": "GCP - Firebase Enum - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-services/gcp-firebase-enum.html"
+    },
+    {
+      "type": "GCP - Pubsub Privesc - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-privilege-escalation/gcp-pubsub-privesc.html"
+    },
+    {
+      "type": "GCP - KMS Post Exploitation - HackTricks Cloud",
+      "url": "https://cloud.hacktricks.wiki/en/pentesting-cloud/gcp-security/gcp-post-exploitation/gcp-kms-post-exploitation.html"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-03-16T09:18:49.821Z",
+      "filename": "documentation_2025-03-16T09:18:49.821Z.md",
+      "totalPages": 161,
+      "successfulPages": 161,
+      "url": "https://cloud.hacktricks.wiki/",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

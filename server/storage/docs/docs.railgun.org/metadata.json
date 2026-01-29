@@ -1,1 +1,215 @@
-{"url":"https://docs.railgun.org/developer-guide/wallet/getting-started","domain":"docs.railgun.org","lastScraped":"2025-06-14T23:21:10.410Z","totalPages":41,"successfulPages":41,"failedPages":[],"structure":[{"type":"Getting Started | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/getting-started"},{"type":"1. Start the RAILGUN Privacy Engine | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/getting-started/1.-start-the-railgun-privacy-engine"},{"type":"2. Build a persistent store for artifact downloads | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/getting-started/2.-build-a-persistent-store-for-artifact-downloads"},{"type":"4. Add networks and RPC providers | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/getting-started/4.-add-networks-and-rpc-providers"},{"type":"Private Wallets | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/private-wallets"},{"type":"5. Set up a debug logger | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/getting-started/5.-set-up-a-debug-logger"},{"type":"View-Only Wallets | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/private-wallets/view-only-wallets"},{"type":"RAILGUN Wallets | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/private-wallets/railgun-wallets"},{"type":"Encryption Keys | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/private-wallets/encryption-keys"},{"type":"3. Load a Groth16 prover for each platform | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/getting-started/3.-load-a-groth16-prover-for-each-platform"},{"type":"Private Balances | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/private-balances"},{"type":"Balance and Sync Callbacks | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/private-balances/balance-and-sync-callbacks"},{"type":"Updating Balances | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/private-balances/updating-balances"},{"type":"QuickSync | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/private-balances/quicksync"},{"type":"Transactions | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/transactions"},{"type":"Shielding | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/transactions/shielding"},{"type":"Shield ERC-20 tokens | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/transactions/shielding/shield-erc-20-tokens"},{"type":"Shield NFTs | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/transactions/shielding/shield-nfts"},{"type":"Private Transfers | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/transactions/private-transfers"},{"type":"Shield base token | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/transactions/shielding/shield-base-token"},{"type":"Private ERC-20 Transfers | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/transactions/private-transfers/private-erc-20-transfers"},{"type":"Unshielding | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/transactions/unshielding"},{"type":"Private NFT Transfers | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/transactions/private-transfers/private-nft-transfers"},{"type":"Cross-Contract Calls | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/transactions/cross-contract-calls"},{"type":"Unshield ERC-20 tokens | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/transactions/unshielding/unshield-erc-20-tokens"},{"type":"Unshield base token | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/transactions/unshielding/unshield-base-token"},{"type":"Unshield NFTs | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/transactions/unshielding/unshield-nfts"},{"type":"Cookbook Overview | Developer Guide","url":"https://docs.railgun.org/developer-guide/cookbook/cookbook-overview"},{"type":"Recipe Guide: Write a zkApp | Developer Guide","url":"https://docs.railgun.org/developer-guide/cookbook/write"},{"type":"UX: Private Transactions | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/transactions/ux-private-transactions"},{"type":"\"Step\" — A smart contract call | Developer Guide","url":"https://docs.railgun.org/developer-guide/cookbook/write/step"},{"type":"\"Recipe\" — Steps in series | Developer Guide","url":"https://docs.railgun.org/developer-guide/cookbook/write/recipe"},{"type":"\"Combo Meal\" — 2+ Recipes | Developer Guide","url":"https://docs.railgun.org/developer-guide/cookbook/write/combo-meal"},{"type":"Broadcasters | Developer Guide","url":"https://docs.railgun.org/developer-guide/wallet/broadcasters"},{"type":"Account Abstraction Overview | Developer Guide","url":"https://docs.railgun.org/developer-guide/engine-1/account-abstraction-overview"},{"type":"Engine Overview | Developer Guide","url":"https://docs.railgun.org/developer-guide/engine/engine-overview"},{"type":"Use your zkApp privately | Developer Guide","url":"https://docs.railgun.org/developer-guide/cookbook/use-your-zkapp-privately"},{"type":"Getting started with the contracts | Developer Guide","url":"https://docs.railgun.org/developer-guide/engine-1/getting-started-with-the-contracts"},{"type":"Wallets | Developer Guide","url":"https://docs.railgun.org/developer-guide/engine-1/wallets"},{"type":"State Structure | Developer Guide","url":"https://docs.railgun.org/developer-guide/engine-1/state-structure"},{"type":"Example Primitives | Developer Guide","url":"https://docs.railgun.org/developer-guide/engine-1/example-primitives"}]}
+{
+  "url": "https://docs.railgun.org/developer-guide/wallet/getting-started",
+  "domain": "docs.railgun.org",
+  "lastScraped": "2025-06-14T23:21:10.410Z",
+  "totalPages": 41,
+  "successfulPages": 41,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Getting Started | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/getting-started"
+    },
+    {
+      "type": "1. Start the RAILGUN Privacy Engine | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/getting-started/1.-start-the-railgun-privacy-engine"
+    },
+    {
+      "type": "2. Build a persistent store for artifact downloads | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/getting-started/2.-build-a-persistent-store-for-artifact-downloads"
+    },
+    {
+      "type": "4. Add networks and RPC providers | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/getting-started/4.-add-networks-and-rpc-providers"
+    },
+    {
+      "type": "Private Wallets | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/private-wallets"
+    },
+    {
+      "type": "5. Set up a debug logger | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/getting-started/5.-set-up-a-debug-logger"
+    },
+    {
+      "type": "View-Only Wallets | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/private-wallets/view-only-wallets"
+    },
+    {
+      "type": "RAILGUN Wallets | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/private-wallets/railgun-wallets"
+    },
+    {
+      "type": "Encryption Keys | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/private-wallets/encryption-keys"
+    },
+    {
+      "type": "3. Load a Groth16 prover for each platform | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/getting-started/3.-load-a-groth16-prover-for-each-platform"
+    },
+    {
+      "type": "Private Balances | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/private-balances"
+    },
+    {
+      "type": "Balance and Sync Callbacks | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/private-balances/balance-and-sync-callbacks"
+    },
+    {
+      "type": "Updating Balances | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/private-balances/updating-balances"
+    },
+    {
+      "type": "QuickSync | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/private-balances/quicksync"
+    },
+    {
+      "type": "Transactions | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/transactions"
+    },
+    {
+      "type": "Shielding | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/transactions/shielding"
+    },
+    {
+      "type": "Shield ERC-20 tokens | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/transactions/shielding/shield-erc-20-tokens"
+    },
+    {
+      "type": "Shield NFTs | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/transactions/shielding/shield-nfts"
+    },
+    {
+      "type": "Private Transfers | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/transactions/private-transfers"
+    },
+    {
+      "type": "Shield base token | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/transactions/shielding/shield-base-token"
+    },
+    {
+      "type": "Private ERC-20 Transfers | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/transactions/private-transfers/private-erc-20-transfers"
+    },
+    {
+      "type": "Unshielding | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/transactions/unshielding"
+    },
+    {
+      "type": "Private NFT Transfers | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/transactions/private-transfers/private-nft-transfers"
+    },
+    {
+      "type": "Cross-Contract Calls | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/transactions/cross-contract-calls"
+    },
+    {
+      "type": "Unshield ERC-20 tokens | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/transactions/unshielding/unshield-erc-20-tokens"
+    },
+    {
+      "type": "Unshield base token | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/transactions/unshielding/unshield-base-token"
+    },
+    {
+      "type": "Unshield NFTs | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/transactions/unshielding/unshield-nfts"
+    },
+    {
+      "type": "Cookbook Overview | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/cookbook/cookbook-overview"
+    },
+    {
+      "type": "Recipe Guide: Write a zkApp | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/cookbook/write"
+    },
+    {
+      "type": "UX: Private Transactions | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/transactions/ux-private-transactions"
+    },
+    {
+      "type": "\"Step\" — A smart contract call | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/cookbook/write/step"
+    },
+    {
+      "type": "\"Recipe\" — Steps in series | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/cookbook/write/recipe"
+    },
+    {
+      "type": "\"Combo Meal\" — 2+ Recipes | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/cookbook/write/combo-meal"
+    },
+    {
+      "type": "Broadcasters | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/wallet/broadcasters"
+    },
+    {
+      "type": "Account Abstraction Overview | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/engine-1/account-abstraction-overview"
+    },
+    {
+      "type": "Engine Overview | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/engine/engine-overview"
+    },
+    {
+      "type": "Use your zkApp privately | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/cookbook/use-your-zkapp-privately"
+    },
+    {
+      "type": "Getting started with the contracts | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/engine-1/getting-started-with-the-contracts"
+    },
+    {
+      "type": "Wallets | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/engine-1/wallets"
+    },
+    {
+      "type": "State Structure | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/engine-1/state-structure"
+    },
+    {
+      "type": "Example Primitives | Developer Guide",
+      "url": "https://docs.railgun.org/developer-guide/engine-1/example-primitives"
+    }
+  ],
+  "latestVersion": "1.3.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-04-30T08:04:16.371Z",
+      "filename": "documentation_2025-04-30T08:04:16.371Z.md",
+      "totalPages": 41,
+      "successfulPages": 41,
+      "url": "https://docs.railgun.org/developer-guide/wallet/getting-started",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-05-15T09:45:40.117Z",
+      "filename": "documentation_2025-05-15T09:45:40.117Z.md",
+      "totalPages": 41,
+      "successfulPages": 41,
+      "url": "https://docs.railgun.org/developer-guide/wallet/getting-started",
+      "isLatest": false
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2025-06-14T23:18:00.808Z",
+      "filename": "documentation_2025-06-14T23:18:00.808Z.md",
+      "totalPages": 41,
+      "successfulPages": 41,
+      "url": "https://docs.railgun.org/developer-guide/wallet/getting-started",
+      "isLatest": false
+    },
+    {
+      "version": "1.3.0",
+      "timestamp": "2025-06-14T23:21:10.410Z",
+      "filename": "documentation_2025-06-14T23:21:10.410Z.md",
+      "totalPages": 41,
+      "successfulPages": 41,
+      "url": "https://docs.railgun.org/developer-guide/wallet/getting-started",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

@@ -1,1 +1,712 @@
-{"url":"https://helm.sh/gr/docs/chart_best_practices/conventions/","domain":"helm.sh","lastScraped":"2025-09-24T15:58:16.639Z","totalPages":172,"successfulPages":172,"failedPages":[],"structure":[{"type":"Helm | Γενικές Συμβάσεις\n","url":"https://helm.sh/gr/docs/chart_best_practices/conventions/"},{"type":"Helm | Αλυσίδες Charts\n","url":"https://helm.sh/gr/docs/chart_best_practices/dependencies/"},{"type":"Helm | Docs\n","url":"https://helm.sh/gr/docs/chart_best_practices/"},{"type":"Helm | Docs\n","url":"https://helm.sh/gr/docs/"},{"type":"Helm | Краткое Руководство\n","url":"https://helm.sh/ru/docs/intro/quickstart/"},{"type":"Helm | Docs\n","url":"https://helm.sh/ru/docs/intro/"},{"type":"Helm | Установка Helm\n","url":"https://helm.sh/ru/docs/intro/install/"},{"type":"Helm | Использование Helm\n","url":"https://helm.sh/ru/docs/intro/using_helm/"},{"type":"Helm | Docs\n","url":"https://helm.sh/ru/docs/"},{"type":"Helm | Änderungen seit Helm 2\n","url":"https://helm.sh/de/docs/faq/changes_since_helm2/"},{"type":"Helm | Chart Entwicklung Tipps und Tricks\n","url":"https://helm.sh/de/docs/howto/charts_tips_and_tricks/"},{"type":"Helm | Installieren\n","url":"https://helm.sh/de/docs/faq/installing/"},{"type":"Helm | Deinstallieren\n","url":"https://helm.sh/de/docs/faq/uninstalling/"},{"type":"Helm | Fehlersuche\n","url":"https://helm.sh/de/docs/faq/troubleshooting/"},{"type":"Helm | Helm Push\n","url":"https://helm.sh/uk/docs/helm/helm_push/"},{"type":"Helm | Helm Registry\n","url":"https://helm.sh/uk/docs/helm/helm_registry/"},{"type":"Helm | Helm Registry Login\n","url":"https://helm.sh/uk/docs/helm/helm_registry_login/"},{"type":"Helm | Helm Registry Logout\n","url":"https://helm.sh/uk/docs/helm/helm_registry_logout/"},{"type":"Helm | Helm Repo\n","url":"https://helm.sh/uk/docs/helm/helm_repo/"},{"type":"Helm | Helm Repo Add\n","url":"https://helm.sh/uk/docs/helm/helm_repo_add/"},{"type":"Helm | Helm Repo Index\n","url":"https://helm.sh/uk/docs/helm/helm_repo_index/"},{"type":"Helm | Helm Repo List\n","url":"https://helm.sh/uk/docs/helm/helm_repo_list/"},{"type":"Helm | Helm Repo Remove\n","url":"https://helm.sh/uk/docs/helm/helm_repo_remove/"},{"type":"Helm | Helm Repo Update\n","url":"https://helm.sh/uk/docs/helm/helm_repo_update/"},{"type":"Helm | Helm Rollback\n","url":"https://helm.sh/uk/docs/helm/helm_rollback/"},{"type":"Helm | Helm Search\n","url":"https://helm.sh/uk/docs/helm/helm_search/"},{"type":"Helm | Helm Search Hub\n","url":"https://helm.sh/uk/docs/helm/helm_search_hub/"},{"type":"Helm | Helm Search Repo\n","url":"https://helm.sh/uk/docs/helm/helm_search_repo/"},{"type":"Helm | Helm Show\n","url":"https://helm.sh/uk/docs/helm/helm_show/"},{"type":"Helm | Helm Show All\n","url":"https://helm.sh/uk/docs/helm/helm_show_all/"},{"type":"Helm | Helm Show Chart\n","url":"https://helm.sh/uk/docs/helm/helm_show_chart/"},{"type":"Helm | Helm Show Crds\n","url":"https://helm.sh/uk/docs/helm/helm_show_crds/"},{"type":"Helm | Helm Show Readme\n","url":"https://helm.sh/uk/docs/helm/helm_show_readme/"},{"type":"Helm | Helm Show Values\n","url":"https://helm.sh/uk/docs/helm/helm_show_values/"},{"type":"Helm | Helm Status\n","url":"https://helm.sh/uk/docs/helm/helm_status/"},{"type":"Helm | Helm Template\n","url":"https://helm.sh/uk/docs/helm/helm_template/"},{"type":"Helm | Helm Test\n","url":"https://helm.sh/uk/docs/helm/helm_test/"},{"type":"Helm | Helm Uninstall\n","url":"https://helm.sh/uk/docs/helm/helm_uninstall/"},{"type":"Helm | Helm Upgrade\n","url":"https://helm.sh/uk/docs/helm/helm_upgrade/"},{"type":"Helm | Helm Verify\n","url":"https://helm.sh/uk/docs/helm/helm_verify/"},{"type":"Helm | Helm Version\n","url":"https://helm.sh/uk/docs/helm/helm_version/"},{"type":"Helm | Docs\n","url":"https://helm.sh/uk/docs/"},{"type":"Helm | Changes Since Helm 2\n","url":"https://helm.sh/docs/faq/changes_since_helm2/"},{"type":"Helm | Chart Development Tips and Tricks\n","url":"https://helm.sh/docs/howto/charts_tips_and_tricks/"},{"type":"Helm | Charts\n","url":"https://helm.sh/docs/topics/charts/"},{"type":"Helm | Developer Guide\n","url":"https://helm.sh/docs/community/developers/"},{"type":"Helm | General Conventions\n","url":"https://helm.sh/docs/chart_best_practices/conventions/"},{"type":"Helm | Docs\n","url":"https://helm.sh/docs/intro/"},{"type":"Helm | Introduction\n","url":"https://helm.sh/docs/sdk/gosdk/"},{"type":"Helm | Quickstart Guide\n","url":"https://helm.sh/docs/intro/quickstart/"},{"type":"Helm | Chart Hooks\n","url":"https://helm.sh/docs/topics/charts_hooks/"},{"type":"Helm | Getting Started\n","url":"https://helm.sh/docs/chart_template_guide/getting_started/"},{"type":"Helm | Examples\n","url":"https://helm.sh/docs/sdk/examples/"},{"type":"Helm | Docs\n","url":"https://helm.sh/docs/howto/"},{"type":"Helm | Installing Helm\n","url":"https://helm.sh/docs/intro/install/"},{"type":"Helm | Installing\n","url":"https://helm.sh/docs/faq/installing/"},{"type":"Helm | Release Checklist\n","url":"https://helm.sh/docs/community/release_checklist/"},{"type":"Helm | Syncing Your Chart Repository\n","url":"https://helm.sh/docs/howto/chart_repository_sync_example/"},{"type":"Helm | Values\n","url":"https://helm.sh/docs/chart_best_practices/values/"},{"type":"Helm | Built-in Objects\n","url":"https://helm.sh/docs/chart_template_guide/builtin_objects/"},{"type":"Helm | Chart Releaser Action to Automate GitHub Page Charts\n","url":"https://helm.sh/docs/howto/chart_releaser_action/"},{"type":"Helm | Chart Tests\n","url":"https://helm.sh/docs/topics/chart_tests/"},{"type":"Helm | Related Projects and Documentation\n","url":"https://helm.sh/docs/community/related/"},{"type":"Helm | Templates\n","url":"https://helm.sh/docs/chart_best_practices/templates/"},{"type":"Helm | Docs\n","url":"https://helm.sh/docs/topics/"},{"type":"Helm | Uninstalling\n","url":"https://helm.sh/docs/faq/uninstalling/"},{"type":"Helm | Using Helm\n","url":"https://helm.sh/docs/intro/using_helm/"},{"type":"Helm | Cheat Sheet\n","url":"https://helm.sh/docs/intro/cheatsheet/"},{"type":"Helm | Docs\n","url":"https://helm.sh/docs/chart_best_practices/"},{"type":"Helm | Dependencies\n","url":"https://helm.sh/docs/chart_best_practices/dependencies/"},{"type":"Helm | Library Charts\n","url":"https://helm.sh/docs/topics/library_charts/"},{"type":"Helm | The History of the Project\n","url":"https://helm.sh/docs/community/history/"},{"type":"Helm | Troubleshooting\n","url":"https://helm.sh/docs/faq/troubleshooting/"},{"type":"Helm | Values Files\n","url":"https://helm.sh/docs/chart_template_guide/values_files/"},{"type":"Helm | Docs\n","url":"https://helm.sh/docs/chart_template_guide/"},{"type":"Helm | Helm Provenance and Integrity\n","url":"https://helm.sh/docs/topics/provenance/"},{"type":"Helm | Template Functions and Pipelines\n","url":"https://helm.sh/docs/chart_template_guide/functions_and_pipelines/"},{"type":"Helm | Pods and PodTemplates\n","url":"https://helm.sh/docs/chart_best_practices/pods/"},{"type":"Helm | Labels and Annotations\n","url":"https://helm.sh/docs/chart_best_practices/labels/"},{"type":"Helm | The Chart Repository Guide\n","url":"https://helm.sh/docs/topics/chart_repository/"},{"type":"Helm | Docs\n","url":"https://helm.sh/docs/sdk/"},{"type":"Helm | Docs\n","url":"https://helm.sh/docs/helm/"},{"type":"Helm | Localizing Helm Documentation\n","url":"https://helm.sh/docs/community/localization/"},{"type":"Helm | Template Function List\n","url":"https://helm.sh/docs/chart_template_guide/function_list/"},{"type":"Helm | Custom Resource Definitions\n","url":"https://helm.sh/docs/chart_best_practices/custom_resource_definitions/"},{"type":"Helm | Flow Control\n","url":"https://helm.sh/docs/chart_template_guide/control_structures/"},{"type":"Helm | Use OCI-based registries\n","url":"https://helm.sh/docs/topics/registries/"},{"type":"Helm | Role-Based Access Control\n","url":"https://helm.sh/docs/chart_best_practices/rbac/"},{"type":"Helm | Creating a NOTES.txt File\n","url":"https://helm.sh/docs/chart_template_guide/notes_files/"},{"type":"Helm | Variables\n","url":"https://helm.sh/docs/chart_template_guide/variables/"},{"type":"Helm | Named Templates\n","url":"https://helm.sh/docs/chart_template_guide/named_templates/"},{"type":"Helm | Kubernetes Distribution Guide\n","url":"https://helm.sh/docs/topics/kubernetes_distros/"},{"type":"Helm | The .helmignore file\n","url":"https://helm.sh/docs/chart_template_guide/helm_ignore_file/"},{"type":"Helm | Accessing Files Inside Templates\n","url":"https://helm.sh/docs/chart_template_guide/accessing_files/"},{"type":"Helm | Subcharts and Global Values\n","url":"https://helm.sh/docs/chart_template_guide/subcharts_and_globals/"},{"type":"Helm | Helm Architecture\n","url":"https://helm.sh/docs/topics/architecture/"},{"type":"Helm | Docs\n","url":"https://helm.sh/docs/community/"},{"type":"Helm | Docs\n","url":"https://helm.sh/docs/faq/"},{"type":"Helm | Debugging Templates\n","url":"https://helm.sh/docs/chart_template_guide/debugging/"},{"type":"Helm | Advanced Helm Techniques\n","url":"https://helm.sh/docs/topics/advanced/"},{"type":"Helm | Migrating Helm v2 to v3\n","url":"https://helm.sh/docs/topics/v2_v3_migration/"},{"type":"Helm | Next Steps\n","url":"https://helm.sh/docs/chart_template_guide/wrapping_up/"},{"type":"Helm | Role-based Access Control\n","url":"https://helm.sh/docs/topics/rbac/"},{"type":"Helm |\n","url":"https://helm.sh/docs/helm/helm_inspect/"},{"type":"Helm |\n","url":"https://helm.sh/docs/helm/helm_delete/"},{"type":"Helm | Appendix: YAML Techniques\n","url":"https://helm.sh/docs/chart_template_guide/yaml_techniques/"},{"type":"Helm | Docs\n","url":"https://helm.sh/docs/glossary/"},{"type":"Helm |\n","url":"https://helm.sh/docs/helm/helm_init/"},{"type":"Helm | The Helm Plugins Guide\n","url":"https://helm.sh/docs/topics/plugins/"},{"type":"Helm | Appendix: Go Data Types and Templates\n","url":"https://helm.sh/docs/chart_template_guide/data_types/"},{"type":"Helm | Deprecated Kubernetes APIs\n","url":"https://helm.sh/docs/topics/kubernetes_apis/"},{"type":"Helm | Helm Completion Powershell\n","url":"https://helm.sh/docs/helm/helm_completion_powershell/"},{"type":"Helm | Helm Dependency Build\n","url":"https://helm.sh/docs/helm/helm_dependency_build/"},{"type":"Helm | Helm Completion\n","url":"https://helm.sh/docs/helm/helm_completion/"},{"type":"Helm | Helm Completion Bash\n","url":"https://helm.sh/docs/helm/helm_completion_bash/"},{"type":"Helm | Helm Get Metadata\n","url":"https://helm.sh/docs/helm/helm_get_metadata/"},{"type":"Helm | Helm\n","url":"https://helm.sh/docs/helm/helm/"},{"type":"Helm | Helm Dependency\n","url":"https://helm.sh/docs/helm/helm_dependency/"},{"type":"Helm | Helm Get\n","url":"https://helm.sh/docs/helm/helm_get/"},{"type":"Helm | Helm Get Hooks\n","url":"https://helm.sh/docs/helm/helm_get_hooks/"},{"type":"Helm | Helm Get Manifest\n","url":"https://helm.sh/docs/helm/helm_get_manifest/"},{"type":"Helm | Helm Create\n","url":"https://helm.sh/docs/helm/helm_create/"},{"type":"Helm | Helm Dependency Update\n","url":"https://helm.sh/docs/helm/helm_dependency_update/"},{"type":"Helm | Helm Env\n","url":"https://helm.sh/docs/helm/helm_env/"},{"type":"Helm | Helm Push\n","url":"https://helm.sh/docs/helm/helm_push/"},{"type":"Helm | Helm Get Notes\n","url":"https://helm.sh/docs/helm/helm_get_notes/"},{"type":"Helm | Helm Lint\n","url":"https://helm.sh/docs/helm/helm_lint/"},{"type":"Helm | Helm List\n","url":"https://helm.sh/docs/helm/helm_list/"},{"type":"Helm | Helm Dependency List\n","url":"https://helm.sh/docs/helm/helm_dependency_list/"},{"type":"Helm | Helm Completion Fish\n","url":"https://helm.sh/docs/helm/helm_completion_fish/"},{"type":"Helm | Helm Get Values\n","url":"https://helm.sh/docs/helm/helm_get_values/"},{"type":"Helm | Helm Package\n","url":"https://helm.sh/docs/helm/helm_package/"},{"type":"Helm | Helm Plugin Install\n","url":"https://helm.sh/docs/helm/helm_plugin_install/"},{"type":"Helm | Helm Get All\n","url":"https://helm.sh/docs/helm/helm_get_all/"},{"type":"Helm | Helm Registry\n","url":"https://helm.sh/docs/helm/helm_registry/"},{"type":"Helm | Helm Completion Zsh\n","url":"https://helm.sh/docs/helm/helm_completion_zsh/"},{"type":"Helm | Helm History\n","url":"https://helm.sh/docs/helm/helm_history/"},{"type":"Helm | Helm Plugin List\n","url":"https://helm.sh/docs/helm/helm_plugin_list/"},{"type":"Helm | Helm Repo\n","url":"https://helm.sh/docs/helm/helm_repo/"},{"type":"Helm | Helm Registry Login\n","url":"https://helm.sh/docs/helm/helm_registry_login/"},{"type":"Helm | Helm Repo List\n","url":"https://helm.sh/docs/helm/helm_repo_list/"},{"type":"Helm | Helm Plugin Uninstall\n","url":"https://helm.sh/docs/helm/helm_plugin_uninstall/"},{"type":"Helm | Helm Plugin\n","url":"https://helm.sh/docs/helm/helm_plugin/"},{"type":"Helm | Helm Repo Remove\n","url":"https://helm.sh/docs/helm/helm_repo_remove/"},{"type":"Helm | Helm Registry Logout\n","url":"https://helm.sh/docs/helm/helm_registry_logout/"},{"type":"Helm | Helm Plugin Update\n","url":"https://helm.sh/docs/helm/helm_plugin_update/"},{"type":"Helm | Helm Pull\n","url":"https://helm.sh/docs/helm/helm_pull/"},{"type":"Helm | Helm Version Support Policy\n","url":"https://helm.sh/docs/topics/version_skew/"},{"type":"Helm | Helm Rollback\n","url":"https://helm.sh/docs/helm/helm_rollback/"},{"type":"Helm | Helm Repo Index\n","url":"https://helm.sh/docs/helm/helm_repo_index/"},{"type":"Helm | Helm Repo Add\n","url":"https://helm.sh/docs/helm/helm_repo_add/"},{"type":"Helm | Permissions management for SQL storage backend\n","url":"https://helm.sh/docs/topics/permissions_sql_storage_backend/"},{"type":"Helm | Helm Install\n","url":"https://helm.sh/docs/helm/helm_install/"},{"type":"Helm | Helm Repo Update\n","url":"https://helm.sh/docs/helm/helm_repo_update/"},{"type":"Helm | Helm Search Repo\n","url":"https://helm.sh/docs/helm/helm_search_repo/"},{"type":"Helm | Helm Search Hub\n","url":"https://helm.sh/docs/helm/helm_search_hub/"},{"type":"Helm | Helm Show Values\n","url":"https://helm.sh/docs/helm/helm_show_values/"},{"type":"Helm | Helm Show Crds\n","url":"https://helm.sh/docs/helm/helm_show_crds/"},{"type":"Helm | Helm Show Chart\n","url":"https://helm.sh/docs/helm/helm_show_chart/"},{"type":"Helm | Helm Search\n","url":"https://helm.sh/docs/helm/helm_search/"},{"type":"Helm | Helm Show\n","url":"https://helm.sh/docs/helm/helm_show/"},{"type":"Helm | Helm Show All\n","url":"https://helm.sh/docs/helm/helm_show_all/"},{"type":"Helm | Helm Verify\n","url":"https://helm.sh/docs/helm/helm_verify/"},{"type":"Helm | Helm Uninstall\n","url":"https://helm.sh/docs/helm/helm_uninstall/"},{"type":"Helm | Helm Status\n","url":"https://helm.sh/docs/helm/helm_status/"},{"type":"Helm | Helm Template\n","url":"https://helm.sh/docs/helm/helm_template/"},{"type":"Helm | Docs\n","url":"https://helm.sh/docs/"},{"type":"Helm | Helm Upgrade\n","url":"https://helm.sh/docs/helm/helm_upgrade/"},{"type":"Helm | Helm Show Readme\n","url":"https://helm.sh/docs/helm/helm_show_readme/"},{"type":"Helm | Release schedule policy\n","url":"https://helm.sh/docs/topics/release_policy/"},{"type":"Helm | Helm Test\n","url":"https://helm.sh/docs/helm/helm_test/"},{"type":"Helm | Helm Version\n","url":"https://helm.sh/docs/helm/helm_version/"}]}
+{
+  "url": "https://helm.sh/gr/docs/chart_best_practices/conventions/",
+  "domain": "helm.sh",
+  "lastScraped": "2025-09-24T15:58:16.639Z",
+  "totalPages": 172,
+  "successfulPages": 172,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Helm | Γενικές Συμβάσεις\n",
+      "url": "https://helm.sh/gr/docs/chart_best_practices/conventions/"
+    },
+    {
+      "type": "Helm | Αλυσίδες Charts\n",
+      "url": "https://helm.sh/gr/docs/chart_best_practices/dependencies/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/gr/docs/chart_best_practices/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/gr/docs/"
+    },
+    {
+      "type": "Helm | Краткое Руководство\n",
+      "url": "https://helm.sh/ru/docs/intro/quickstart/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/ru/docs/intro/"
+    },
+    {
+      "type": "Helm | Установка Helm\n",
+      "url": "https://helm.sh/ru/docs/intro/install/"
+    },
+    {
+      "type": "Helm | Использование Helm\n",
+      "url": "https://helm.sh/ru/docs/intro/using_helm/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/ru/docs/"
+    },
+    {
+      "type": "Helm | Änderungen seit Helm 2\n",
+      "url": "https://helm.sh/de/docs/faq/changes_since_helm2/"
+    },
+    {
+      "type": "Helm | Chart Entwicklung Tipps und Tricks\n",
+      "url": "https://helm.sh/de/docs/howto/charts_tips_and_tricks/"
+    },
+    {
+      "type": "Helm | Installieren\n",
+      "url": "https://helm.sh/de/docs/faq/installing/"
+    },
+    {
+      "type": "Helm | Deinstallieren\n",
+      "url": "https://helm.sh/de/docs/faq/uninstalling/"
+    },
+    {
+      "type": "Helm | Fehlersuche\n",
+      "url": "https://helm.sh/de/docs/faq/troubleshooting/"
+    },
+    {
+      "type": "Helm | Helm Push\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_push/"
+    },
+    {
+      "type": "Helm | Helm Registry\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_registry/"
+    },
+    {
+      "type": "Helm | Helm Registry Login\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_registry_login/"
+    },
+    {
+      "type": "Helm | Helm Registry Logout\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_registry_logout/"
+    },
+    {
+      "type": "Helm | Helm Repo\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_repo/"
+    },
+    {
+      "type": "Helm | Helm Repo Add\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_repo_add/"
+    },
+    {
+      "type": "Helm | Helm Repo Index\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_repo_index/"
+    },
+    {
+      "type": "Helm | Helm Repo List\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_repo_list/"
+    },
+    {
+      "type": "Helm | Helm Repo Remove\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_repo_remove/"
+    },
+    {
+      "type": "Helm | Helm Repo Update\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_repo_update/"
+    },
+    {
+      "type": "Helm | Helm Rollback\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_rollback/"
+    },
+    {
+      "type": "Helm | Helm Search\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_search/"
+    },
+    {
+      "type": "Helm | Helm Search Hub\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_search_hub/"
+    },
+    {
+      "type": "Helm | Helm Search Repo\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_search_repo/"
+    },
+    {
+      "type": "Helm | Helm Show\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_show/"
+    },
+    {
+      "type": "Helm | Helm Show All\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_show_all/"
+    },
+    {
+      "type": "Helm | Helm Show Chart\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_show_chart/"
+    },
+    {
+      "type": "Helm | Helm Show Crds\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_show_crds/"
+    },
+    {
+      "type": "Helm | Helm Show Readme\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_show_readme/"
+    },
+    {
+      "type": "Helm | Helm Show Values\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_show_values/"
+    },
+    {
+      "type": "Helm | Helm Status\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_status/"
+    },
+    {
+      "type": "Helm | Helm Template\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_template/"
+    },
+    {
+      "type": "Helm | Helm Test\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_test/"
+    },
+    {
+      "type": "Helm | Helm Uninstall\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_uninstall/"
+    },
+    {
+      "type": "Helm | Helm Upgrade\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_upgrade/"
+    },
+    {
+      "type": "Helm | Helm Verify\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_verify/"
+    },
+    {
+      "type": "Helm | Helm Version\n",
+      "url": "https://helm.sh/uk/docs/helm/helm_version/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/uk/docs/"
+    },
+    {
+      "type": "Helm | Changes Since Helm 2\n",
+      "url": "https://helm.sh/docs/faq/changes_since_helm2/"
+    },
+    {
+      "type": "Helm | Chart Development Tips and Tricks\n",
+      "url": "https://helm.sh/docs/howto/charts_tips_and_tricks/"
+    },
+    {
+      "type": "Helm | Charts\n",
+      "url": "https://helm.sh/docs/topics/charts/"
+    },
+    {
+      "type": "Helm | Developer Guide\n",
+      "url": "https://helm.sh/docs/community/developers/"
+    },
+    {
+      "type": "Helm | General Conventions\n",
+      "url": "https://helm.sh/docs/chart_best_practices/conventions/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/docs/intro/"
+    },
+    {
+      "type": "Helm | Introduction\n",
+      "url": "https://helm.sh/docs/sdk/gosdk/"
+    },
+    {
+      "type": "Helm | Quickstart Guide\n",
+      "url": "https://helm.sh/docs/intro/quickstart/"
+    },
+    {
+      "type": "Helm | Chart Hooks\n",
+      "url": "https://helm.sh/docs/topics/charts_hooks/"
+    },
+    {
+      "type": "Helm | Getting Started\n",
+      "url": "https://helm.sh/docs/chart_template_guide/getting_started/"
+    },
+    {
+      "type": "Helm | Examples\n",
+      "url": "https://helm.sh/docs/sdk/examples/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/docs/howto/"
+    },
+    {
+      "type": "Helm | Installing Helm\n",
+      "url": "https://helm.sh/docs/intro/install/"
+    },
+    {
+      "type": "Helm | Installing\n",
+      "url": "https://helm.sh/docs/faq/installing/"
+    },
+    {
+      "type": "Helm | Release Checklist\n",
+      "url": "https://helm.sh/docs/community/release_checklist/"
+    },
+    {
+      "type": "Helm | Syncing Your Chart Repository\n",
+      "url": "https://helm.sh/docs/howto/chart_repository_sync_example/"
+    },
+    {
+      "type": "Helm | Values\n",
+      "url": "https://helm.sh/docs/chart_best_practices/values/"
+    },
+    {
+      "type": "Helm | Built-in Objects\n",
+      "url": "https://helm.sh/docs/chart_template_guide/builtin_objects/"
+    },
+    {
+      "type": "Helm | Chart Releaser Action to Automate GitHub Page Charts\n",
+      "url": "https://helm.sh/docs/howto/chart_releaser_action/"
+    },
+    {
+      "type": "Helm | Chart Tests\n",
+      "url": "https://helm.sh/docs/topics/chart_tests/"
+    },
+    {
+      "type": "Helm | Related Projects and Documentation\n",
+      "url": "https://helm.sh/docs/community/related/"
+    },
+    {
+      "type": "Helm | Templates\n",
+      "url": "https://helm.sh/docs/chart_best_practices/templates/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/docs/topics/"
+    },
+    {
+      "type": "Helm | Uninstalling\n",
+      "url": "https://helm.sh/docs/faq/uninstalling/"
+    },
+    {
+      "type": "Helm | Using Helm\n",
+      "url": "https://helm.sh/docs/intro/using_helm/"
+    },
+    {
+      "type": "Helm | Cheat Sheet\n",
+      "url": "https://helm.sh/docs/intro/cheatsheet/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/docs/chart_best_practices/"
+    },
+    {
+      "type": "Helm | Dependencies\n",
+      "url": "https://helm.sh/docs/chart_best_practices/dependencies/"
+    },
+    {
+      "type": "Helm | Library Charts\n",
+      "url": "https://helm.sh/docs/topics/library_charts/"
+    },
+    {
+      "type": "Helm | The History of the Project\n",
+      "url": "https://helm.sh/docs/community/history/"
+    },
+    {
+      "type": "Helm | Troubleshooting\n",
+      "url": "https://helm.sh/docs/faq/troubleshooting/"
+    },
+    {
+      "type": "Helm | Values Files\n",
+      "url": "https://helm.sh/docs/chart_template_guide/values_files/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/docs/chart_template_guide/"
+    },
+    {
+      "type": "Helm | Helm Provenance and Integrity\n",
+      "url": "https://helm.sh/docs/topics/provenance/"
+    },
+    {
+      "type": "Helm | Template Functions and Pipelines\n",
+      "url": "https://helm.sh/docs/chart_template_guide/functions_and_pipelines/"
+    },
+    {
+      "type": "Helm | Pods and PodTemplates\n",
+      "url": "https://helm.sh/docs/chart_best_practices/pods/"
+    },
+    {
+      "type": "Helm | Labels and Annotations\n",
+      "url": "https://helm.sh/docs/chart_best_practices/labels/"
+    },
+    {
+      "type": "Helm | The Chart Repository Guide\n",
+      "url": "https://helm.sh/docs/topics/chart_repository/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/docs/sdk/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/docs/helm/"
+    },
+    {
+      "type": "Helm | Localizing Helm Documentation\n",
+      "url": "https://helm.sh/docs/community/localization/"
+    },
+    {
+      "type": "Helm | Template Function List\n",
+      "url": "https://helm.sh/docs/chart_template_guide/function_list/"
+    },
+    {
+      "type": "Helm | Custom Resource Definitions\n",
+      "url": "https://helm.sh/docs/chart_best_practices/custom_resource_definitions/"
+    },
+    {
+      "type": "Helm | Flow Control\n",
+      "url": "https://helm.sh/docs/chart_template_guide/control_structures/"
+    },
+    {
+      "type": "Helm | Use OCI-based registries\n",
+      "url": "https://helm.sh/docs/topics/registries/"
+    },
+    {
+      "type": "Helm | Role-Based Access Control\n",
+      "url": "https://helm.sh/docs/chart_best_practices/rbac/"
+    },
+    {
+      "type": "Helm | Creating a NOTES.txt File\n",
+      "url": "https://helm.sh/docs/chart_template_guide/notes_files/"
+    },
+    {
+      "type": "Helm | Variables\n",
+      "url": "https://helm.sh/docs/chart_template_guide/variables/"
+    },
+    {
+      "type": "Helm | Named Templates\n",
+      "url": "https://helm.sh/docs/chart_template_guide/named_templates/"
+    },
+    {
+      "type": "Helm | Kubernetes Distribution Guide\n",
+      "url": "https://helm.sh/docs/topics/kubernetes_distros/"
+    },
+    {
+      "type": "Helm | The .helmignore file\n",
+      "url": "https://helm.sh/docs/chart_template_guide/helm_ignore_file/"
+    },
+    {
+      "type": "Helm | Accessing Files Inside Templates\n",
+      "url": "https://helm.sh/docs/chart_template_guide/accessing_files/"
+    },
+    {
+      "type": "Helm | Subcharts and Global Values\n",
+      "url": "https://helm.sh/docs/chart_template_guide/subcharts_and_globals/"
+    },
+    {
+      "type": "Helm | Helm Architecture\n",
+      "url": "https://helm.sh/docs/topics/architecture/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/docs/community/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/docs/faq/"
+    },
+    {
+      "type": "Helm | Debugging Templates\n",
+      "url": "https://helm.sh/docs/chart_template_guide/debugging/"
+    },
+    {
+      "type": "Helm | Advanced Helm Techniques\n",
+      "url": "https://helm.sh/docs/topics/advanced/"
+    },
+    {
+      "type": "Helm | Migrating Helm v2 to v3\n",
+      "url": "https://helm.sh/docs/topics/v2_v3_migration/"
+    },
+    {
+      "type": "Helm | Next Steps\n",
+      "url": "https://helm.sh/docs/chart_template_guide/wrapping_up/"
+    },
+    {
+      "type": "Helm | Role-based Access Control\n",
+      "url": "https://helm.sh/docs/topics/rbac/"
+    },
+    {
+      "type": "Helm |\n",
+      "url": "https://helm.sh/docs/helm/helm_inspect/"
+    },
+    {
+      "type": "Helm |\n",
+      "url": "https://helm.sh/docs/helm/helm_delete/"
+    },
+    {
+      "type": "Helm | Appendix: YAML Techniques\n",
+      "url": "https://helm.sh/docs/chart_template_guide/yaml_techniques/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/docs/glossary/"
+    },
+    {
+      "type": "Helm |\n",
+      "url": "https://helm.sh/docs/helm/helm_init/"
+    },
+    {
+      "type": "Helm | The Helm Plugins Guide\n",
+      "url": "https://helm.sh/docs/topics/plugins/"
+    },
+    {
+      "type": "Helm | Appendix: Go Data Types and Templates\n",
+      "url": "https://helm.sh/docs/chart_template_guide/data_types/"
+    },
+    {
+      "type": "Helm | Deprecated Kubernetes APIs\n",
+      "url": "https://helm.sh/docs/topics/kubernetes_apis/"
+    },
+    {
+      "type": "Helm | Helm Completion Powershell\n",
+      "url": "https://helm.sh/docs/helm/helm_completion_powershell/"
+    },
+    {
+      "type": "Helm | Helm Dependency Build\n",
+      "url": "https://helm.sh/docs/helm/helm_dependency_build/"
+    },
+    {
+      "type": "Helm | Helm Completion\n",
+      "url": "https://helm.sh/docs/helm/helm_completion/"
+    },
+    {
+      "type": "Helm | Helm Completion Bash\n",
+      "url": "https://helm.sh/docs/helm/helm_completion_bash/"
+    },
+    {
+      "type": "Helm | Helm Get Metadata\n",
+      "url": "https://helm.sh/docs/helm/helm_get_metadata/"
+    },
+    {
+      "type": "Helm | Helm\n",
+      "url": "https://helm.sh/docs/helm/helm/"
+    },
+    {
+      "type": "Helm | Helm Dependency\n",
+      "url": "https://helm.sh/docs/helm/helm_dependency/"
+    },
+    {
+      "type": "Helm | Helm Get\n",
+      "url": "https://helm.sh/docs/helm/helm_get/"
+    },
+    {
+      "type": "Helm | Helm Get Hooks\n",
+      "url": "https://helm.sh/docs/helm/helm_get_hooks/"
+    },
+    {
+      "type": "Helm | Helm Get Manifest\n",
+      "url": "https://helm.sh/docs/helm/helm_get_manifest/"
+    },
+    {
+      "type": "Helm | Helm Create\n",
+      "url": "https://helm.sh/docs/helm/helm_create/"
+    },
+    {
+      "type": "Helm | Helm Dependency Update\n",
+      "url": "https://helm.sh/docs/helm/helm_dependency_update/"
+    },
+    {
+      "type": "Helm | Helm Env\n",
+      "url": "https://helm.sh/docs/helm/helm_env/"
+    },
+    {
+      "type": "Helm | Helm Push\n",
+      "url": "https://helm.sh/docs/helm/helm_push/"
+    },
+    {
+      "type": "Helm | Helm Get Notes\n",
+      "url": "https://helm.sh/docs/helm/helm_get_notes/"
+    },
+    {
+      "type": "Helm | Helm Lint\n",
+      "url": "https://helm.sh/docs/helm/helm_lint/"
+    },
+    {
+      "type": "Helm | Helm List\n",
+      "url": "https://helm.sh/docs/helm/helm_list/"
+    },
+    {
+      "type": "Helm | Helm Dependency List\n",
+      "url": "https://helm.sh/docs/helm/helm_dependency_list/"
+    },
+    {
+      "type": "Helm | Helm Completion Fish\n",
+      "url": "https://helm.sh/docs/helm/helm_completion_fish/"
+    },
+    {
+      "type": "Helm | Helm Get Values\n",
+      "url": "https://helm.sh/docs/helm/helm_get_values/"
+    },
+    {
+      "type": "Helm | Helm Package\n",
+      "url": "https://helm.sh/docs/helm/helm_package/"
+    },
+    {
+      "type": "Helm | Helm Plugin Install\n",
+      "url": "https://helm.sh/docs/helm/helm_plugin_install/"
+    },
+    {
+      "type": "Helm | Helm Get All\n",
+      "url": "https://helm.sh/docs/helm/helm_get_all/"
+    },
+    {
+      "type": "Helm | Helm Registry\n",
+      "url": "https://helm.sh/docs/helm/helm_registry/"
+    },
+    {
+      "type": "Helm | Helm Completion Zsh\n",
+      "url": "https://helm.sh/docs/helm/helm_completion_zsh/"
+    },
+    {
+      "type": "Helm | Helm History\n",
+      "url": "https://helm.sh/docs/helm/helm_history/"
+    },
+    {
+      "type": "Helm | Helm Plugin List\n",
+      "url": "https://helm.sh/docs/helm/helm_plugin_list/"
+    },
+    {
+      "type": "Helm | Helm Repo\n",
+      "url": "https://helm.sh/docs/helm/helm_repo/"
+    },
+    {
+      "type": "Helm | Helm Registry Login\n",
+      "url": "https://helm.sh/docs/helm/helm_registry_login/"
+    },
+    {
+      "type": "Helm | Helm Repo List\n",
+      "url": "https://helm.sh/docs/helm/helm_repo_list/"
+    },
+    {
+      "type": "Helm | Helm Plugin Uninstall\n",
+      "url": "https://helm.sh/docs/helm/helm_plugin_uninstall/"
+    },
+    {
+      "type": "Helm | Helm Plugin\n",
+      "url": "https://helm.sh/docs/helm/helm_plugin/"
+    },
+    {
+      "type": "Helm | Helm Repo Remove\n",
+      "url": "https://helm.sh/docs/helm/helm_repo_remove/"
+    },
+    {
+      "type": "Helm | Helm Registry Logout\n",
+      "url": "https://helm.sh/docs/helm/helm_registry_logout/"
+    },
+    {
+      "type": "Helm | Helm Plugin Update\n",
+      "url": "https://helm.sh/docs/helm/helm_plugin_update/"
+    },
+    {
+      "type": "Helm | Helm Pull\n",
+      "url": "https://helm.sh/docs/helm/helm_pull/"
+    },
+    {
+      "type": "Helm | Helm Version Support Policy\n",
+      "url": "https://helm.sh/docs/topics/version_skew/"
+    },
+    {
+      "type": "Helm | Helm Rollback\n",
+      "url": "https://helm.sh/docs/helm/helm_rollback/"
+    },
+    {
+      "type": "Helm | Helm Repo Index\n",
+      "url": "https://helm.sh/docs/helm/helm_repo_index/"
+    },
+    {
+      "type": "Helm | Helm Repo Add\n",
+      "url": "https://helm.sh/docs/helm/helm_repo_add/"
+    },
+    {
+      "type": "Helm | Permissions management for SQL storage backend\n",
+      "url": "https://helm.sh/docs/topics/permissions_sql_storage_backend/"
+    },
+    {
+      "type": "Helm | Helm Install\n",
+      "url": "https://helm.sh/docs/helm/helm_install/"
+    },
+    {
+      "type": "Helm | Helm Repo Update\n",
+      "url": "https://helm.sh/docs/helm/helm_repo_update/"
+    },
+    {
+      "type": "Helm | Helm Search Repo\n",
+      "url": "https://helm.sh/docs/helm/helm_search_repo/"
+    },
+    {
+      "type": "Helm | Helm Search Hub\n",
+      "url": "https://helm.sh/docs/helm/helm_search_hub/"
+    },
+    {
+      "type": "Helm | Helm Show Values\n",
+      "url": "https://helm.sh/docs/helm/helm_show_values/"
+    },
+    {
+      "type": "Helm | Helm Show Crds\n",
+      "url": "https://helm.sh/docs/helm/helm_show_crds/"
+    },
+    {
+      "type": "Helm | Helm Show Chart\n",
+      "url": "https://helm.sh/docs/helm/helm_show_chart/"
+    },
+    {
+      "type": "Helm | Helm Search\n",
+      "url": "https://helm.sh/docs/helm/helm_search/"
+    },
+    {
+      "type": "Helm | Helm Show\n",
+      "url": "https://helm.sh/docs/helm/helm_show/"
+    },
+    {
+      "type": "Helm | Helm Show All\n",
+      "url": "https://helm.sh/docs/helm/helm_show_all/"
+    },
+    {
+      "type": "Helm | Helm Verify\n",
+      "url": "https://helm.sh/docs/helm/helm_verify/"
+    },
+    {
+      "type": "Helm | Helm Uninstall\n",
+      "url": "https://helm.sh/docs/helm/helm_uninstall/"
+    },
+    {
+      "type": "Helm | Helm Status\n",
+      "url": "https://helm.sh/docs/helm/helm_status/"
+    },
+    {
+      "type": "Helm | Helm Template\n",
+      "url": "https://helm.sh/docs/helm/helm_template/"
+    },
+    {
+      "type": "Helm | Docs\n",
+      "url": "https://helm.sh/docs/"
+    },
+    {
+      "type": "Helm | Helm Upgrade\n",
+      "url": "https://helm.sh/docs/helm/helm_upgrade/"
+    },
+    {
+      "type": "Helm | Helm Show Readme\n",
+      "url": "https://helm.sh/docs/helm/helm_show_readme/"
+    },
+    {
+      "type": "Helm | Release schedule policy\n",
+      "url": "https://helm.sh/docs/topics/release_policy/"
+    },
+    {
+      "type": "Helm | Helm Test\n",
+      "url": "https://helm.sh/docs/helm/helm_test/"
+    },
+    {
+      "type": "Helm | Helm Version\n",
+      "url": "https://helm.sh/docs/helm/helm_version/"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-09-24T15:58:16.639Z",
+      "filename": "documentation_2025-09-24T15:58:16.639Z.md",
+      "totalPages": 172,
+      "successfulPages": 172,
+      "url": "https://helm.sh/gr/docs/chart_best_practices/conventions/",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

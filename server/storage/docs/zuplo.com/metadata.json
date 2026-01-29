@@ -1,1 +1,363 @@
-{"url":"https://zuplo.com/docs/policies/upstream-gcp-jwt-inbound","domain":"zuplo.com","lastScraped":"2025-04-03T09:00:59.271Z","totalPages":78,"successfulPages":78,"failedPages":[],"structure":[{"type":"Upstream GCP Self-Signed JWT Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/upstream-gcp-jwt-inbound"},{"type":"Upstream GCP Federated Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/upstream-gcp-federated-auth-inbound"},{"type":"Upstream Firebase User Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/upstream-firebase-user-auth-inbound"},{"type":"Upstream Azure AD Service Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/upstream-azure-ad-service-auth-inbound"},{"type":"JSON Body Validation Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/validate-json-schema-inbound"},{"type":"Stripe Webhook Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/stripe-webhook-verification-inbound"},{"type":"Transform Response Body Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/transform-body-outbound"},{"type":"XML to JSON Outbound Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/xml-to-json-outbound"},{"type":"Transform Request Body Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/transform-body-inbound"},{"type":"Supabase JWT Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/supabase-jwt-auth-inbound"},{"type":"Sleep / Delay Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/sleep-inbound"},{"type":"Set Status Code Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/set-status-outbound"},{"type":"Upstream Firebase Admin Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/upstream-firebase-admin-auth-inbound"},{"type":"Upstream GCP Service Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/upstream-gcp-service-auth-inbound"},{"type":"Add or Set Query Parameters Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/set-query-params-inbound"},{"type":"Set Body Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/set-body-inbound"},{"type":"Set Headers Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/set-headers-outbound"},{"type":"Add or Set Request Headers Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/set-headers-inbound"},{"type":"Replace String in Response Body Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/replace-string-outbound"},{"type":"Remove Request Headers Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/remove-headers-inbound"},{"type":"Request Size Limit Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/request-size-limit-inbound"},{"type":"Require Origin Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/require-origin-inbound"},{"type":"Request Validation Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/request-validation-inbound"},{"type":"Remove Query Parameters Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/remove-query-params-inbound"},{"type":"RBAC Authorization Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/rbac-policy-inbound"},{"type":"Remove Response Headers Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/remove-headers-outbound"},{"type":"Readme Metrics Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/readme-metrics-inbound"},{"type":"Quota Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/quota-inbound"},{"type":"Rate Limiting Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/rate-limit-inbound"},{"type":"PropelAuth JWT Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/propel-auth-jwt-inbound"},{"type":"Okta FGA Authorization Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/okta-fga-authz-inbound"},{"type":"OpenFGA Authorization Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/openfga-authz-inbound"},{"type":"JWT Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/open-id-jwt-auth-inbound"},{"type":"Okta JWT Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/okta-jwt-auth-inbound"},{"type":"Policy Catalog - Zuplo Docs","url":"https://zuplo.com/docs/policies/overview"},{"type":"mTLS Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/mtls-auth-inbound"},{"type":"LDAP Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/ldap-auth-inbound"},{"type":"Monetization Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/monetization-inbound"},{"type":"Mock API Response Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/mock-api-inbound"},{"type":"Moesif Analytics & Billing Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/moesif-inbound"},{"type":"IP Restriction Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/ip-restriction-inbound"},{"type":"JWT Scope Validation Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/jwt-scopes-inbound"},{"type":"HMAC Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/hmac-auth-inbound"},{"type":"GraphQL Disable Introspection Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/graphql-disable-introspection-inbound"},{"type":"Geo-location filtering Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/geo-filter-inbound"},{"type":"GraphQL Complexity Limit Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/graphql-complexity-limit-inbound"},{"type":"Firebase JWT Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/firebase-jwt-inbound"},{"type":"Custom Code Outbound Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/custom-code-outbound"},{"type":"Curity Phantom Token Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/curity-phantom-token-inbound"},{"type":"Composite Outbound (Group Policies) Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/composite-outbound"},{"type":"Form Data to JSON Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/formdata-to-json-inbound"},{"type":"Composite Inbound (Group Policies) Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/composite-inbound"},{"type":"Custom Code Inbound Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/custom-code-inbound"},{"type":"Clerk JWT Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/clerk-jwt-auth-inbound"},{"type":"AWS Cognito JWT Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/cognito-jwt-auth-inbound"},{"type":"Clear Request Headers Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/clear-headers-inbound"},{"type":"Clear Response Headers Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/clear-headers-outbound"},{"type":"Change Method Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/change-method-inbound"},{"type":"Caching Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/caching-inbound"},{"type":"Brown Out Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/brownout-inbound"},{"type":"Bot Detection Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/bot-detection-inbound"},{"type":"Basic Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/basic-auth-inbound"},{"type":"AuthZEN Authorization Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/authzen-inbound"},{"type":"Axiomatics Authorization Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/axiomatics-authz-inbound"},{"type":"Complex Rate Limiting Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/complex-rate-limit-inbound"},{"type":"Auth0 JWT Auth Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/auth0-jwt-auth-inbound"},{"type":"Audit Logs Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/audit-log-inbound"},{"type":"Archive Response to Azure Storage Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/archive-response-azure-storage-outbound"},{"type":"Aserto Authorization Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/aserto-authz-inbound"},{"type":"API Key Authentication Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/api-key-inbound"},{"type":"Archive Response to AWS S3 Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/archive-response-aws-s3-outbound"},{"type":"Archive Request to AWS S3 Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/archive-request-aws-s3-inbound"},{"type":"Archive Request to GCP Storage Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/archive-request-gcp-storage-inbound"},{"type":"Archive Request to Azure Storage Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/archive-request-azure-storage-inbound"},{"type":"Amberflo Metering / Billing Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/amberflo-metering-inbound"},{"type":"A/B Test Outbound Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/ab-test-outbound"},{"type":"Access Control List Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/acl-policy-inbound"},{"type":"A/B Test Inbound Policy - Zuplo Docs","url":"https://zuplo.com/docs/policies/ab-test-inbound"}]}
+{
+  "url": "https://zuplo.com/docs/policies/upstream-gcp-jwt-inbound",
+  "domain": "zuplo.com",
+  "lastScraped": "2025-04-03T09:00:59.271Z",
+  "totalPages": 78,
+  "successfulPages": 78,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Upstream GCP Self-Signed JWT Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/upstream-gcp-jwt-inbound"
+    },
+    {
+      "type": "Upstream GCP Federated Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/upstream-gcp-federated-auth-inbound"
+    },
+    {
+      "type": "Upstream Firebase User Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/upstream-firebase-user-auth-inbound"
+    },
+    {
+      "type": "Upstream Azure AD Service Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/upstream-azure-ad-service-auth-inbound"
+    },
+    {
+      "type": "JSON Body Validation Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/validate-json-schema-inbound"
+    },
+    {
+      "type": "Stripe Webhook Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/stripe-webhook-verification-inbound"
+    },
+    {
+      "type": "Transform Response Body Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/transform-body-outbound"
+    },
+    {
+      "type": "XML to JSON Outbound Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/xml-to-json-outbound"
+    },
+    {
+      "type": "Transform Request Body Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/transform-body-inbound"
+    },
+    {
+      "type": "Supabase JWT Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/supabase-jwt-auth-inbound"
+    },
+    {
+      "type": "Sleep / Delay Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/sleep-inbound"
+    },
+    {
+      "type": "Set Status Code Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/set-status-outbound"
+    },
+    {
+      "type": "Upstream Firebase Admin Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/upstream-firebase-admin-auth-inbound"
+    },
+    {
+      "type": "Upstream GCP Service Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/upstream-gcp-service-auth-inbound"
+    },
+    {
+      "type": "Add or Set Query Parameters Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/set-query-params-inbound"
+    },
+    {
+      "type": "Set Body Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/set-body-inbound"
+    },
+    {
+      "type": "Set Headers Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/set-headers-outbound"
+    },
+    {
+      "type": "Add or Set Request Headers Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/set-headers-inbound"
+    },
+    {
+      "type": "Replace String in Response Body Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/replace-string-outbound"
+    },
+    {
+      "type": "Remove Request Headers Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/remove-headers-inbound"
+    },
+    {
+      "type": "Request Size Limit Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/request-size-limit-inbound"
+    },
+    {
+      "type": "Require Origin Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/require-origin-inbound"
+    },
+    {
+      "type": "Request Validation Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/request-validation-inbound"
+    },
+    {
+      "type": "Remove Query Parameters Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/remove-query-params-inbound"
+    },
+    {
+      "type": "RBAC Authorization Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/rbac-policy-inbound"
+    },
+    {
+      "type": "Remove Response Headers Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/remove-headers-outbound"
+    },
+    {
+      "type": "Readme Metrics Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/readme-metrics-inbound"
+    },
+    {
+      "type": "Quota Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/quota-inbound"
+    },
+    {
+      "type": "Rate Limiting Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/rate-limit-inbound"
+    },
+    {
+      "type": "PropelAuth JWT Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/propel-auth-jwt-inbound"
+    },
+    {
+      "type": "Okta FGA Authorization Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/okta-fga-authz-inbound"
+    },
+    {
+      "type": "OpenFGA Authorization Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/openfga-authz-inbound"
+    },
+    {
+      "type": "JWT Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/open-id-jwt-auth-inbound"
+    },
+    {
+      "type": "Okta JWT Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/okta-jwt-auth-inbound"
+    },
+    {
+      "type": "Policy Catalog - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/overview"
+    },
+    {
+      "type": "mTLS Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/mtls-auth-inbound"
+    },
+    {
+      "type": "LDAP Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/ldap-auth-inbound"
+    },
+    {
+      "type": "Monetization Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/monetization-inbound"
+    },
+    {
+      "type": "Mock API Response Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/mock-api-inbound"
+    },
+    {
+      "type": "Moesif Analytics & Billing Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/moesif-inbound"
+    },
+    {
+      "type": "IP Restriction Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/ip-restriction-inbound"
+    },
+    {
+      "type": "JWT Scope Validation Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/jwt-scopes-inbound"
+    },
+    {
+      "type": "HMAC Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/hmac-auth-inbound"
+    },
+    {
+      "type": "GraphQL Disable Introspection Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/graphql-disable-introspection-inbound"
+    },
+    {
+      "type": "Geo-location filtering Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/geo-filter-inbound"
+    },
+    {
+      "type": "GraphQL Complexity Limit Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/graphql-complexity-limit-inbound"
+    },
+    {
+      "type": "Firebase JWT Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/firebase-jwt-inbound"
+    },
+    {
+      "type": "Custom Code Outbound Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/custom-code-outbound"
+    },
+    {
+      "type": "Curity Phantom Token Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/curity-phantom-token-inbound"
+    },
+    {
+      "type": "Composite Outbound (Group Policies) Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/composite-outbound"
+    },
+    {
+      "type": "Form Data to JSON Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/formdata-to-json-inbound"
+    },
+    {
+      "type": "Composite Inbound (Group Policies) Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/composite-inbound"
+    },
+    {
+      "type": "Custom Code Inbound Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/custom-code-inbound"
+    },
+    {
+      "type": "Clerk JWT Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/clerk-jwt-auth-inbound"
+    },
+    {
+      "type": "AWS Cognito JWT Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/cognito-jwt-auth-inbound"
+    },
+    {
+      "type": "Clear Request Headers Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/clear-headers-inbound"
+    },
+    {
+      "type": "Clear Response Headers Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/clear-headers-outbound"
+    },
+    {
+      "type": "Change Method Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/change-method-inbound"
+    },
+    {
+      "type": "Caching Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/caching-inbound"
+    },
+    {
+      "type": "Brown Out Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/brownout-inbound"
+    },
+    {
+      "type": "Bot Detection Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/bot-detection-inbound"
+    },
+    {
+      "type": "Basic Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/basic-auth-inbound"
+    },
+    {
+      "type": "AuthZEN Authorization Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/authzen-inbound"
+    },
+    {
+      "type": "Axiomatics Authorization Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/axiomatics-authz-inbound"
+    },
+    {
+      "type": "Complex Rate Limiting Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/complex-rate-limit-inbound"
+    },
+    {
+      "type": "Auth0 JWT Auth Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/auth0-jwt-auth-inbound"
+    },
+    {
+      "type": "Audit Logs Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/audit-log-inbound"
+    },
+    {
+      "type": "Archive Response to Azure Storage Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/archive-response-azure-storage-outbound"
+    },
+    {
+      "type": "Aserto Authorization Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/aserto-authz-inbound"
+    },
+    {
+      "type": "API Key Authentication Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/api-key-inbound"
+    },
+    {
+      "type": "Archive Response to AWS S3 Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/archive-response-aws-s3-outbound"
+    },
+    {
+      "type": "Archive Request to AWS S3 Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/archive-request-aws-s3-inbound"
+    },
+    {
+      "type": "Archive Request to GCP Storage Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/archive-request-gcp-storage-inbound"
+    },
+    {
+      "type": "Archive Request to Azure Storage Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/archive-request-azure-storage-inbound"
+    },
+    {
+      "type": "Amberflo Metering / Billing Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/amberflo-metering-inbound"
+    },
+    {
+      "type": "A/B Test Outbound Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/ab-test-outbound"
+    },
+    {
+      "type": "Access Control List Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/acl-policy-inbound"
+    },
+    {
+      "type": "A/B Test Inbound Policy - Zuplo Docs",
+      "url": "https://zuplo.com/docs/policies/ab-test-inbound"
+    }
+  ],
+  "latestVersion": "1.3.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-03-06T10:28:39.348Z",
+      "filename": "documentation_2025-03-06T10:28:39.348Z.md",
+      "totalPages": 78,
+      "successfulPages": 78,
+      "url": "https://zuplo.com/docs/policies/upstream-gcp-jwt-inbound",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-04-03T08:56:11.177Z",
+      "filename": "documentation_2025-04-03T08:56:11.177Z.md",
+      "totalPages": 78,
+      "successfulPages": 78,
+      "url": "https://zuplo.com/docs/policies/upstream-gcp-jwt-inbound",
+      "isLatest": false
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2025-04-03T08:57:38.769Z",
+      "filename": "documentation_2025-04-03T08:57:38.769Z.md",
+      "totalPages": 78,
+      "successfulPages": 78,
+      "url": "https://zuplo.com/docs/policies/upstream-gcp-jwt-inbound",
+      "isLatest": false
+    },
+    {
+      "version": "1.3.0",
+      "timestamp": "2025-04-03T09:00:59.271Z",
+      "filename": "documentation_2025-04-03T09:00:59.271Z.md",
+      "totalPages": 78,
+      "successfulPages": 78,
+      "url": "https://zuplo.com/docs/policies/upstream-gcp-jwt-inbound",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

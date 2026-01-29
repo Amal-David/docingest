@@ -1,1 +1,237 @@
-{"url":"https://elizaos.github.io/eliza/docs/intro","domain":"elizaos.github.io","lastScraped":"2025-03-11T02:42:17.454Z","totalPages":42,"successfulPages":42,"failedPages":[],"structure":[{"type":"Introduction to Eliza | eliza","url":"https://elizaos.github.io/eliza/docs/intro"},{"type":"Frequently Asked Questions | eliza","url":"https://elizaos.github.io/eliza/docs/faq"},{"type":"Quickstart Guide | eliza","url":"https://elizaos.github.io/eliza/docs/quickstart"},{"type":"AI Agent Dev School | eliza","url":"https://elizaos.github.io/eliza/docs"},{"type":"Changelog | eliza","url":"https://elizaos.github.io/eliza/docs/changelog"},{"type":"Overview | eliza","url":"https://elizaos.github.io/eliza/docs/core/overview"},{"type":"📝 Character Files | eliza","url":"https://elizaos.github.io/eliza/docs/core/characterfile"},{"type":"🤖 Agent Runtime | eliza","url":"https://elizaos.github.io/eliza/docs/core/agents"},{"type":"Plugins | eliza","url":"https://elizaos.github.io/eliza/docs/core/plugins"},{"type":"🔌 Clients | eliza","url":"https://elizaos.github.io/eliza/docs/core/clients"},{"type":"🔌 Providers | eliza","url":"https://elizaos.github.io/eliza/docs/core/providers"},{"type":"⚡ Actions | eliza","url":"https://elizaos.github.io/eliza/docs/core/actions"},{"type":"📊 Evaluators | eliza","url":"https://elizaos.github.io/eliza/docs/core/evaluators"},{"type":"Part 1: Introduction and Foundations | eliza","url":"https://elizaos.github.io/eliza/docs/tutorials/part1"},{"type":"Part 2: Deep Dive into Actions, Providers, and Evaluators | eliza","url":"https://elizaos.github.io/eliza/docs/tutorials/part2"},{"type":"Deploying ElizaOS to Production | eliza","url":"https://elizaos.github.io/eliza/docs/guides/remote-deployment"},{"type":"💾 Database Adapters | eliza","url":"https://elizaos.github.io/eliza/docs/core/database"},{"type":"🎯 Fine-tuning Guide | eliza","url":"https://elizaos.github.io/eliza/docs/guides/fine-tuning"},{"type":"Part 3: Building a User Data Extraction Agent | eliza","url":"https://elizaos.github.io/eliza/docs/tutorials/part3"},{"type":"🔐 Secrets Management | eliza","url":"https://elizaos.github.io/eliza/docs/guides/secrets-management"},{"type":"⚙️ Configuration Guide | eliza","url":"https://elizaos.github.io/eliza/docs/guides/configuration"},{"type":"Building a Social AI Agent in 15 Minutes | eliza","url":"https://elizaos.github.io/eliza/docs/tutorials/nader_tutorial_15min"},{"type":"Creating an AI Agent with Your Own Personality | eliza","url":"https://elizaos.github.io/eliza/docs/tutorials/nader_tutorial_10min"},{"type":"Memory Management | eliza","url":"https://elizaos.github.io/eliza/docs/guides/memory-management"},{"type":"How to Build an API Plugin | eliza","url":"https://elizaos.github.io/eliza/docs/tutorials/nader_tutorial_35min"},{"type":"WSL Setup Guide | eliza","url":"https://elizaos.github.io/eliza/docs/guides/wsl"},{"type":"🤝 Trust Engine | eliza","url":"https://elizaos.github.io/eliza/docs/advanced/trust-engine"},{"type":"📈 Autonomous Trading | eliza","url":"https://elizaos.github.io/eliza/docs/advanced/autonomous-trading"},{"type":"Page Not Found | eliza","url":"https://elizaos.github.io/eliza/docs/"},{"type":"Page Not Found | eliza","url":"https://elizaos.github.io/eliza/docs/core/providers.ts"},{"type":"🫖 Eliza in TEE | eliza","url":"https://elizaos.github.io/eliza/docs/advanced/eliza-in-tee"},{"type":"Page Not Found | eliza","url":"https://elizaos.github.io/eliza/docs/evaluators"},{"type":"🪪 Verified Inference | eliza","url":"https://elizaos.github.io/eliza/docs/advanced/verified-inference"},{"type":"Page Not Found | eliza","url":"https://elizaos.github.io/eliza/docs/providers"},{"type":"Fact Evaluator: Memory Formation System | eliza","url":"https://elizaos.github.io/eliza/docs/core/fact-evaluator"},{"type":"Page Not Found | eliza","url":"https://elizaos.github.io/eliza/docs/actions"},{"type":"Page Not Found | eliza","url":"https://elizaos.github.io/eliza/docs/core/"},{"type":"Page Not Found | eliza","url":"https://elizaos.github.io/eliza/docs/tutorials/"},{"type":"Page Not Found | eliza","url":"https://elizaos.github.io/eliza/docs/guides/"},{"type":"Page Not Found | eliza","url":"https://elizaos.github.io/eliza/docs/guides/local-development"},{"type":"Page Not Found | eliza","url":"https://elizaos.github.io/eliza/docs/advanced/"},{"type":"Page Not Found | eliza","url":"https://elizaos.github.io/eliza/docs/advanced/eliza-in-tee/"}]}
+{
+  "url": "https://elizaos.github.io/eliza/docs/intro",
+  "domain": "elizaos.github.io",
+  "lastScraped": "2025-03-11T02:42:17.454Z",
+  "totalPages": 42,
+  "successfulPages": 42,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Introduction to Eliza | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/intro"
+    },
+    {
+      "type": "Frequently Asked Questions | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/faq"
+    },
+    {
+      "type": "Quickstart Guide | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/quickstart"
+    },
+    {
+      "type": "AI Agent Dev School | eliza",
+      "url": "https://elizaos.github.io/eliza/docs"
+    },
+    {
+      "type": "Changelog | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/changelog"
+    },
+    {
+      "type": "Overview | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/core/overview"
+    },
+    {
+      "type": "📝 Character Files | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/core/characterfile"
+    },
+    {
+      "type": "🤖 Agent Runtime | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/core/agents"
+    },
+    {
+      "type": "Plugins | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/core/plugins"
+    },
+    {
+      "type": "🔌 Clients | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/core/clients"
+    },
+    {
+      "type": "🔌 Providers | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/core/providers"
+    },
+    {
+      "type": "⚡ Actions | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/core/actions"
+    },
+    {
+      "type": "📊 Evaluators | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/core/evaluators"
+    },
+    {
+      "type": "Part 1: Introduction and Foundations | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/tutorials/part1"
+    },
+    {
+      "type": "Part 2: Deep Dive into Actions, Providers, and Evaluators | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/tutorials/part2"
+    },
+    {
+      "type": "Deploying ElizaOS to Production | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/guides/remote-deployment"
+    },
+    {
+      "type": "💾 Database Adapters | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/core/database"
+    },
+    {
+      "type": "🎯 Fine-tuning Guide | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/guides/fine-tuning"
+    },
+    {
+      "type": "Part 3: Building a User Data Extraction Agent | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/tutorials/part3"
+    },
+    {
+      "type": "🔐 Secrets Management | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/guides/secrets-management"
+    },
+    {
+      "type": "⚙️ Configuration Guide | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/guides/configuration"
+    },
+    {
+      "type": "Building a Social AI Agent in 15 Minutes | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/tutorials/nader_tutorial_15min"
+    },
+    {
+      "type": "Creating an AI Agent with Your Own Personality | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/tutorials/nader_tutorial_10min"
+    },
+    {
+      "type": "Memory Management | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/guides/memory-management"
+    },
+    {
+      "type": "How to Build an API Plugin | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/tutorials/nader_tutorial_35min"
+    },
+    {
+      "type": "WSL Setup Guide | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/guides/wsl"
+    },
+    {
+      "type": "🤝 Trust Engine | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/advanced/trust-engine"
+    },
+    {
+      "type": "📈 Autonomous Trading | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/advanced/autonomous-trading"
+    },
+    {
+      "type": "Page Not Found | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/"
+    },
+    {
+      "type": "Page Not Found | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/core/providers.ts"
+    },
+    {
+      "type": "🫖 Eliza in TEE | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/advanced/eliza-in-tee"
+    },
+    {
+      "type": "Page Not Found | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/evaluators"
+    },
+    {
+      "type": "🪪 Verified Inference | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/advanced/verified-inference"
+    },
+    {
+      "type": "Page Not Found | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/providers"
+    },
+    {
+      "type": "Fact Evaluator: Memory Formation System | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/core/fact-evaluator"
+    },
+    {
+      "type": "Page Not Found | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/actions"
+    },
+    {
+      "type": "Page Not Found | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/core/"
+    },
+    {
+      "type": "Page Not Found | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/tutorials/"
+    },
+    {
+      "type": "Page Not Found | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/guides/"
+    },
+    {
+      "type": "Page Not Found | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/guides/local-development"
+    },
+    {
+      "type": "Page Not Found | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/advanced/"
+    },
+    {
+      "type": "Page Not Found | eliza",
+      "url": "https://elizaos.github.io/eliza/docs/advanced/eliza-in-tee/"
+    }
+  ],
+  "latestVersion": "1.5.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-01-21T07:12:45.193Z",
+      "filename": "documentation_2025-01-21T07:12:45.193Z.md",
+      "totalPages": 42,
+      "successfulPages": 42,
+      "url": "https://elizaos.github.io/eliza/docs/intro",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-01-26T04:17:17.032Z",
+      "filename": "documentation_2025-01-26T04:17:17.032Z.md",
+      "totalPages": 42,
+      "successfulPages": 42,
+      "url": "https://elizaos.github.io/eliza/docs/intro",
+      "isLatest": false
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2025-02-07T16:23:35.807Z",
+      "filename": "documentation_2025-02-07T16:23:35.807Z.md",
+      "totalPages": 42,
+      "successfulPages": 42,
+      "url": "https://elizaos.github.io/eliza/docs/intro",
+      "isLatest": false
+    },
+    {
+      "version": "1.3.0",
+      "timestamp": "2025-02-14T08:24:30.120Z",
+      "filename": "documentation_2025-02-14T08:24:30.120Z.md",
+      "totalPages": 42,
+      "successfulPages": 42,
+      "url": "https://elizaos.github.io/eliza/docs/intro",
+      "isLatest": false
+    },
+    {
+      "version": "1.4.0",
+      "timestamp": "2025-02-23T18:33:26.342Z",
+      "filename": "documentation_2025-02-23T18:33:26.342Z.md",
+      "totalPages": 42,
+      "successfulPages": 42,
+      "url": "https://elizaos.github.io/eliza/docs/intro",
+      "isLatest": false
+    },
+    {
+      "version": "1.5.0",
+      "timestamp": "2025-03-11T02:42:17.454Z",
+      "filename": "documentation_2025-03-11T02:42:17.454Z.md",
+      "totalPages": 42,
+      "successfulPages": 42,
+      "url": "https://elizaos.github.io/eliza/docs/intro",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

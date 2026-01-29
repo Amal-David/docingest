@@ -1,1 +1,1033 @@
-{"url":"https://doc.rust-lang.org/stable/","domain":"doc.rust-lang.org","lastScraped":"2025-12-17T11:36:27.624Z","totalPages":250,"successfulPages":250,"failedPages":[],"structure":[{"type":"Rust Documentation","url":"https://doc.rust-lang.org/stable/"},{"type":"std - Rust","url":"https://doc.rust-lang.org/stable/std/index.html"},{"type":"The Rust Programming Language - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/index.html"},{"type":"Introduction - The Rust Edition Guide","url":"https://doc.rust-lang.org/stable/edition-guide/index.html"},{"type":"Introduction - The Rust Style Guide","url":"https://doc.rust-lang.org/stable/style-guide/index.html"},{"type":"What is rustdoc? - The rustdoc book","url":"https://doc.rust-lang.org/stable/rustdoc/index.html"},{"type":"Introduction - Clippy Documentation","url":"https://doc.rust-lang.org/stable/clippy/index.html"},{"type":"Introduction - The Embedded Rust Book","url":"https://doc.rust-lang.org/stable/embedded-book/index.html"},{"type":"Introduction - The Rustonomicon","url":"https://doc.rust-lang.org/stable/nomicon/index.html"},{"type":"Introduction - The Cargo Book","url":"https://doc.rust-lang.org/stable/cargo/index.html"},{"type":"Introduction - The Rust Reference","url":"https://doc.rust-lang.org/stable/reference/index.html"},{"type":"What is rustc? - The rustc book","url":"https://doc.rust-lang.org/stable/rustc/index.html"},{"type":"Introduction - Rust By Example","url":"https://doc.rust-lang.org/stable/rust-by-example/index.html"},{"type":"Rust Release Notes","url":"https://doc.rust-lang.org/stable/releases.html"},{"type":"Rust error codes index - Error codes index","url":"https://doc.rust-lang.org/stable/error_codes/index.html"},{"type":"The Unstable Book - The Rust Unstable Book","url":"https://doc.rust-lang.org/stable/unstable-book/index.html"},{"type":"Settings","url":"https://doc.rust-lang.org/stable/settings.html"},{"type":"Help","url":"https://doc.rust-lang.org/stable/help.html"},{"type":"Control Scope and Privacy with Modules - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/ch07-02-defining-modules-to-control-scope-and-privacy.html"},{"type":"std_detect - Rust","url":"https://doc.rust-lang.org/stable/std_detect/index.html"},{"type":"Data Types - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/ch03-02-data-types.html"},{"type":"alloc - Rust","url":"https://doc.rust-lang.org/stable/alloc/index.html"},{"type":"proc_macro - Rust","url":"https://doc.rust-lang.org/stable/proc_macro/index.html"},{"type":"std::cmp - Rust","url":"https://doc.rust-lang.org/stable/std/cmp/index.html"},{"type":"current in std::thread - Rust","url":"https://doc.rust-lang.org/stable/std/thread/fn.current.html"},{"type":"format in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.format.html"},{"type":"std::boxed - Rust","url":"https://doc.rust-lang.org/stable/std/boxed/index.html"},{"type":"std::char - Rust","url":"https://doc.rust-lang.org/stable/std/char/index.html"},{"type":"test - Rust","url":"https://doc.rust-lang.org/stable/test/index.html"},{"type":"std::env - Rust","url":"https://doc.rust-lang.org/stable/std/env/index.html"},{"type":"std::default - Rust","url":"https://doc.rust-lang.org/stable/std/default/index.html"},{"type":"std::result - Rust","url":"https://doc.rust-lang.org/stable/std/result/index.html"},{"type":"std::backtrace - Rust","url":"https://doc.rust-lang.org/stable/std/backtrace/index.html"},{"type":"std::any - Rust","url":"https://doc.rust-lang.org/stable/std/any/index.html"},{"type":"std::ascii - Rust","url":"https://doc.rust-lang.org/stable/std/ascii/index.html"},{"type":"std::borrow - Rust","url":"https://doc.rust-lang.org/stable/std/borrow/index.html"},{"type":"std::i8 - Rust","url":"https://doc.rust-lang.org/stable/std/i8/index.html"},{"type":"std::thread - Rust","url":"https://doc.rust-lang.org/stable/std/thread/index.html"},{"type":"std::i16 - Rust","url":"https://doc.rust-lang.org/stable/std/i16/index.html"},{"type":"std::i32 - Rust","url":"https://doc.rust-lang.org/stable/std/i32/index.html"},{"type":"std::i64 - Rust","url":"https://doc.rust-lang.org/stable/std/i64/index.html"},{"type":"std::i128 - Rust","url":"https://doc.rust-lang.org/stable/std/i128/index.html"},{"type":"std::isize - Rust","url":"https://doc.rust-lang.org/stable/std/isize/index.html"},{"type":"std::clone - Rust","url":"https://doc.rust-lang.org/stable/std/clone/index.html"},{"type":"std::option - Rust","url":"https://doc.rust-lang.org/stable/std/option/index.html"},{"type":"std::net - Rust","url":"https://doc.rust-lang.org/stable/std/net/index.html"},{"type":"std::sync::mpmc - Rust","url":"https://doc.rust-lang.org/stable/std/sync/mpmc/index.html"},{"type":"std::array - Rust","url":"https://doc.rust-lang.org/stable/std/array/index.html"},{"type":"std::assert_matches - Rust","url":"https://doc.rust-lang.org/stable/std/assert_matches/index.html"},{"type":"std::from - Rust","url":"https://doc.rust-lang.org/stable/std/from/index.html"},{"type":"cfg in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.cfg.html"},{"type":"std::sync::mpsc - Rust","url":"https://doc.rust-lang.org/stable/std/sync/mpsc/index.html"},{"type":"std::u8 - Rust","url":"https://doc.rust-lang.org/stable/std/u8/index.html"},{"type":"std::u16 - Rust","url":"https://doc.rust-lang.org/stable/std/u16/index.html"},{"type":"std::u32 - Rust","url":"https://doc.rust-lang.org/stable/std/u32/index.html"},{"type":"std::u64 - Rust","url":"https://doc.rust-lang.org/stable/std/u64/index.html"},{"type":"std::u128 - Rust","url":"https://doc.rust-lang.org/stable/std/u128/index.html"},{"type":"std::usize - Rust","url":"https://doc.rust-lang.org/stable/std/usize/index.html"},{"type":"std::autodiff - Rust","url":"https://doc.rust-lang.org/stable/std/autodiff/index.html"},{"type":"std::bstr - Rust","url":"https://doc.rust-lang.org/stable/std/bstr/index.html"},{"type":"std::f16 - Rust","url":"https://doc.rust-lang.org/stable/std/f16/index.html"},{"type":"std::f128 - Rust","url":"https://doc.rust-lang.org/stable/std/f128/index.html"},{"type":"std::pat - Rust","url":"https://doc.rust-lang.org/stable/std/pat/index.html"},{"type":"concat in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.concat.html"},{"type":"compile_error in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.compile_error.html"},{"type":"dbg in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.dbg.html"},{"type":"std::convert - Rust","url":"https://doc.rust-lang.org/stable/std/convert/index.html"},{"type":"std::hint - Rust","url":"https://doc.rust-lang.org/stable/std/hint/index.html"},{"type":"std::unsafe_binder - Rust","url":"https://doc.rust-lang.org/stable/std/unsafe_binder/index.html"},{"type":"column in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.column.html"},{"type":"debug_assert_eq in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.debug_assert_eq.html"},{"type":"debug_assert_ne in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.debug_assert_ne.html"},{"type":"std::collections - Rust","url":"https://doc.rust-lang.org/stable/std/collections/index.html"},{"type":"std::async_iter - Rust","url":"https://doc.rust-lang.org/stable/std/async_iter/index.html"},{"type":"assert_eq in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.assert_eq.html"},{"type":"assert_ne in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.assert_ne.html"},{"type":"assert in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.assert.html"},{"type":"debug_assert in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.debug_assert.html"},{"type":"env in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.env.html"},{"type":"std::hash - Rust","url":"https://doc.rust-lang.org/stable/std/hash/index.html"},{"type":"std::os - Rust","url":"https://doc.rust-lang.org/stable/std/os/index.html"},{"type":"std::time - Rust","url":"https://doc.rust-lang.org/stable/std/time/index.html"},{"type":"std::random - Rust","url":"https://doc.rust-lang.org/stable/std/random/index.html"},{"type":"file in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.file.html"},{"type":"std::slice - Rust","url":"https://doc.rust-lang.org/stable/std/slice/index.html"},{"type":"std::alloc - Rust","url":"https://doc.rust-lang.org/stable/std/alloc/index.html"},{"type":"std::string - Rust","url":"https://doc.rust-lang.org/stable/std/string/index.html"},{"type":"eprint in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.eprint.html"},{"type":"eprintln in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.eprintln.html"},{"type":"std::future - Rust","url":"https://doc.rust-lang.org/stable/std/future/index.html"},{"type":"std::rc - Rust","url":"https://doc.rust-lang.org/stable/std/rc/index.html"},{"type":"std::f32 - Rust","url":"https://doc.rust-lang.org/stable/std/f32/index.html"},{"type":"std::f64 - Rust","url":"https://doc.rust-lang.org/stable/std/f64/index.html"},{"type":"std::vec - Rust","url":"https://doc.rust-lang.org/stable/std/vec/index.html"},{"type":"format_args in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.format_args.html"},{"type":"std::sync::atomic - Rust","url":"https://doc.rust-lang.org/stable/std/sync/atomic/index.html"},{"type":"std::error - Rust","url":"https://doc.rust-lang.org/stable/std/error/index.html"},{"type":"std::task - Rust","url":"https://doc.rust-lang.org/stable/std/task/index.html"},{"type":"std::panic - Rust","url":"https://doc.rust-lang.org/stable/std/panic/index.html"},{"type":"std::primitive - Rust","url":"https://doc.rust-lang.org/stable/std/primitive/index.html"},{"type":"std::fs - Rust","url":"https://doc.rust-lang.org/stable/std/fs/index.html"},{"type":"std::cell - Rust","url":"https://doc.rust-lang.org/stable/std/cell/index.html"},{"type":"std::process - Rust","url":"https://doc.rust-lang.org/stable/std/process/index.html"},{"type":"std::range - Rust","url":"https://doc.rust-lang.org/stable/std/range/index.html"},{"type":"std::path - Rust","url":"https://doc.rust-lang.org/stable/std/path/index.html"},{"type":"std::sync - Rust","url":"https://doc.rust-lang.org/stable/std/sync/index.html"},{"type":"std::arch - Rust","url":"https://doc.rust-lang.org/stable/std/arch/index.html"},{"type":"include_str in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.include_str.html"},{"type":"include_bytes in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.include_bytes.html"},{"type":"is_x86_feature_detected in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.is_x86_feature_detected.html"},{"type":"std::marker - Rust","url":"https://doc.rust-lang.org/stable/std/marker/index.html"},{"type":"matches in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.matches.html"},{"type":"line in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.line.html"},{"type":"cfg_select in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.cfg_select.html"},{"type":"std::mem - Rust","url":"https://doc.rust-lang.org/stable/std/mem/index.html"},{"type":"try in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.try.html"},{"type":"include in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.include.html"},{"type":"break - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.break.html"},{"type":"become - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.become.html"},{"type":"Redirecting...","url":"https://doc.rust-lang.org/stable/book/ch17-02-trait-objects.html"},{"type":"continue - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.continue.html"},{"type":"concat_bytes in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.concat_bytes.html"},{"type":"SelfTy - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.SelfTy.html"},{"type":"impl - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.impl.html"},{"type":"crate - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.crate.html"},{"type":"if - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.if.html"},{"type":"stringify in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.stringify.html"},{"type":"trace_macros in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.trace_macros.html"},{"type":"log_syntax in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.log_syntax.html"},{"type":"module_path in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.module_path.html"},{"type":"print in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.print.html"},{"type":"thread_local in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.thread_local.html"},{"type":"std::num - Rust","url":"https://doc.rust-lang.org/stable/std/num/index.html"},{"type":"await - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.await.html"},{"type":"dyn - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.dyn.html"},{"type":"false - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.false.html"},{"type":"extern - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.extern.html"},{"type":"in - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.in.html"},{"type":"unimplemented in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.unimplemented.html"},{"type":"vec in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.vec.html"},{"type":"unreachable in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.unreachable.html"},{"type":"match - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.match.html"},{"type":"const_format_args in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.const_format_args.html"},{"type":"write in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.write.html"},{"type":"else - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.else.html"},{"type":"option_env in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.option_env.html"},{"type":"writeln in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.writeln.html"},{"type":"todo in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.todo.html"},{"type":"as - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.as.html"},{"type":"Redirecting...","url":"https://doc.rust-lang.org/stable/book/ch19-01-unsafe-rust.html"},{"type":"const - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.const.html"},{"type":"ref - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.ref.html"},{"type":"self - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.self.html"},{"type":"super - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.super.html"},{"type":"type - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.type.html"},{"type":"where - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.where.html"},{"type":"mut - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.mut.html"},{"type":"println in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.println.html"},{"type":"return - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.return.html"},{"type":"union - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.union.html"},{"type":"while - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.while.html"},{"type":"Foreword - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/foreword.html"},{"type":"pub - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.pub.html"},{"type":"let - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.let.html"},{"type":"Installation - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/ch01-01-installation.html"},{"type":"Introduction - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/ch00-00-introduction.html"},{"type":"true - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.true.html"},{"type":"mod - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.mod.html"},{"type":"move - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.move.html"},{"type":"use - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.use.html"},{"type":"The Rust Programming Language - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/title-page.html"},{"type":"Common Programming Concepts - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/ch03-00-common-programming-concepts.html"},{"type":"Hello, World! - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html"},{"type":"Hello, Cargo! - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html"},{"type":"Closures - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/ch13-01-closures.html"},{"type":"Variables and Mutability - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html"},{"type":"std::str - Rust","url":"https://doc.rust-lang.org/stable/std/str/index.html"},{"type":"Type aliases - The Rust Reference","url":"https://doc.rust-lang.org/stable/reference/items/type-aliases.html"},{"type":"static - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.static.html"},{"type":"unsafe - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.unsafe.html"},{"type":"enum - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.enum.html"},{"type":"fn - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.fn.html"},{"type":"async - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.async.html"},{"type":"struct - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.struct.html"},{"type":"std::pin - Rust","url":"https://doc.rust-lang.org/stable/std/pin/index.html"},{"type":"for - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.for.html"},{"type":"loop - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.loop.html"},{"type":"Getting Started - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/ch01-00-getting-started.html"},{"type":"panic in std - Rust","url":"https://doc.rust-lang.org/stable/std/macro.panic.html"},{"type":"std::ffi - Rust","url":"https://doc.rust-lang.org/stable/std/ffi/index.html"},{"type":"Programming a Guessing Game - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/ch02-00-guessing-game-tutorial.html"},{"type":"trait - Rust","url":"https://doc.rust-lang.org/stable/std/keyword.trait.html"},{"type":"Modules - The Rust Reference","url":"https://doc.rust-lang.org/stable/reference/items/modules.html"},{"type":"Unions - The Rust Reference","url":"https://doc.rust-lang.org/stable/reference/items/unions.html"},{"type":"std::fmt - Rust","url":"https://doc.rust-lang.org/stable/std/fmt/index.html"},{"type":"std::ptr - Rust","url":"https://doc.rust-lang.org/stable/std/ptr/index.html"},{"type":"Future in std::future - Rust","url":"https://doc.rust-lang.org/stable/std/future/trait.Future.html"},{"type":"LocalKey in std::thread - Rust","url":"https://doc.rust-lang.org/stable/std/thread/struct.LocalKey.html"},{"type":"std::ops - Rust","url":"https://doc.rust-lang.org/stable/std/ops/index.html"},{"type":"without_provenance in std::ptr - Rust","url":"https://doc.rust-lang.org/stable/std/ptr/fn.without_provenance.html"},{"type":"with_exposed_provenance in std::ptr - Rust","url":"https://doc.rust-lang.org/stable/std/ptr/fn.with_exposed_provenance.html"},{"type":"Using Structs to Structure Related Data - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/ch05-00-structs.html"},{"type":"Hash in std::hash - Rust","url":"https://doc.rust-lang.org/stable/std/hash/derive.Hash.html"},{"type":"Tuple types - The Rust Reference","url":"https://doc.rust-lang.org/stable/reference/types/tuple.html"},{"type":"Textual types - The Rust Reference","url":"https://doc.rust-lang.org/stable/reference/types/textual.html"},{"type":"An Example Program Using Structs - The Rust Programming Language","url":"https://doc.rust-lang.org/stable/book/ch05-02-example-structs.html"},{"type":"Allocator in std::alloc - Rust","url":"https://doc.rust-lang.org/stable/std/alloc/trait.Allocator.html"},{"type":"Redirection","url":"https://doc.rust-lang.org/stable/core/core_arch/x86/struct.__m128h.html"},{"type":"Receiver in std::ops - Rust","url":"https://doc.rust-lang.org/stable/std/ops/trait.Receiver.html"},{"type":"Redirection","url":"https://doc.rust-lang.org/stable/core/core_arch/x86/struct.__m128.html"},{"type":"Redirection","url":"https://doc.rust-lang.org/stable/core/core_arch/x86/struct.__m128d.html"},{"type":"Redirection","url":"https://doc.rust-lang.org/stable/core/core_arch/x86/struct.__m256.html"},{"type":"Redirection","url":"https://doc.rust-lang.org/stable/core/core_arch/x86/struct.__m256bh.html"},{"type":"Redirection","url":"https://doc.rust-lang.org/stable/core/core_arch/x86/struct.__m128i.html"},{"type":"Redirection","url":"https://doc.rust-lang.org/stable/core/core_arch/x86/struct.__m128bh.html"},{"type":"ToString in std::string - Rust","url":"https://doc.rust-lang.org/stable/std/string/trait.ToString.html"},{"type":"Into in std::convert - Rust","url":"https://doc.rust-lang.org/stable/std/convert/trait.Into.html"},{"type":"Any in std::any - Rust","url":"https://doc.rust-lang.org/stable/std/any/trait.Any.html"},{"type":"DerefPure in std::ops - Rust","url":"https://doc.rust-lang.org/stable/std/ops/trait.DerefPure.html"},{"type":"CloneToUninit in std::clone - Rust","url":"https://doc.rust-lang.org/stable/std/clone/trait.CloneToUninit.html"},{"type":"Alignment in std::fmt - Rust","url":"https://doc.rust-lang.org/stable/std/fmt/enum.Alignment.html"},{"type":"Sign in std::fmt - Rust","url":"https://doc.rust-lang.org/stable/std/fmt/enum.Sign.html"},{"type":"DebugAsHex in std::fmt - Rust","url":"https://doc.rust-lang.org/stable/std/fmt/enum.DebugAsHex.html"},{"type":"TypeId in std::any - Rust","url":"https://doc.rust-lang.org/stable/std/any/struct.TypeId.html"},{"type":"TryReserveErrorKind in std::collections - Rust","url":"https://doc.rust-lang.org/stable/std/collections/enum.TryReserveErrorKind.html"},{"type":"BacktraceStyle in std::panic - Rust","url":"https://doc.rust-lang.org/stable/std/panic/enum.BacktraceStyle.html"},{"type":"IntErrorKind in std::num - Rust","url":"https://doc.rust-lang.org/stable/std/num/enum.IntErrorKind.html"},{"type":"SeekFrom in std::io - Rust","url":"https://doc.rust-lang.org/stable/std/io/enum.SeekFrom.html"},{"type":"Shutdown in std::net - Rust","url":"https://doc.rust-lang.org/stable/std/net/enum.Shutdown.html"},{"type":"VarError in std::env - Rust","url":"https://doc.rust-lang.org/stable/std/env/enum.VarError.html"},{"type":"FpCategory in std::num - Rust","url":"https://doc.rust-lang.org/stable/std/num/enum.FpCategory.html"},{"type":"ErrorKind in std::io - Rust","url":"https://doc.rust-lang.org/stable/std/io/enum.ErrorKind.html"},{"type":"GetDisjointMutError in std::slice - Rust","url":"https://doc.rust-lang.org/stable/std/slice/enum.GetDisjointMutError.html"},{"type":"Ordering in std::sync::atomic - Rust","url":"https://doc.rust-lang.org/stable/std/sync/atomic/enum.Ordering.html"},{"type":"FromBytesWithNulError in std::ffi - Rust","url":"https://doc.rust-lang.org/stable/std/ffi/enum.FromBytesWithNulError.html"},{"type":"Char in std::ascii - Rust","url":"https://doc.rust-lang.org/stable/std/ascii/enum.Char.html"},{"type":"SearchStep in std::str::pattern - Rust","url":"https://doc.rust-lang.org/stable/std/str/pattern/enum.SearchStep.html"},{"type":"Ipv6MulticastScope in std::net - Rust","url":"https://doc.rust-lang.org/stable/std/net/enum.Ipv6MulticastScope.html"},{"type":"RecvTimeoutError in std::sync::mpsc - Rust","url":"https://doc.rust-lang.org/stable/std/sync/mpsc/enum.RecvTimeoutError.html"},{"type":"TryRecvError in std::sync::mpsc - Rust","url":"https://doc.rust-lang.org/stable/std/sync/mpsc/enum.TryRecvError.html"},{"type":"IpAddr in std::net - Rust","url":"https://doc.rust-lang.org/stable/std/net/enum.IpAddr.html"},{"type":"BinaryHeap in std::collections - Rust","url":"https://doc.rust-lang.org/stable/std/collections/struct.BinaryHeap.html"},{"type":"Ord in std::cmp - Rust","url":"https://doc.rust-lang.org/stable/std/cmp/trait.Ord.html"},{"type":"PartialOrd in std::cmp - Rust","url":"https://doc.rust-lang.org/stable/std/cmp/trait.PartialOrd.html"},{"type":"Eq in std::cmp - Rust","url":"https://doc.rust-lang.org/stable/std/cmp/trait.Eq.html"},{"type":"RecvError in std::sync::mpsc - Rust","url":"https://doc.rust-lang.org/stable/std/sync/mpsc/struct.RecvError.html"},{"type":"Duration in std::time - Rust","url":"https://doc.rust-lang.org/stable/std/time/struct.Duration.html"},{"type":"LazyLock in std::sync - Rust","url":"https://doc.rust-lang.org/stable/std/sync/struct.LazyLock.html"},{"type":"EncodeUtf16 in std::str - Rust","url":"https://doc.rust-lang.org/stable/std/str/struct.EncodeUtf16.html"},{"type":"Receiver in std::sync::mpsc - Rust","url":"https://doc.rust-lang.org/stable/std/sync/mpsc/struct.Receiver.html"}]}
+{
+  "url": "https://doc.rust-lang.org/stable/",
+  "domain": "doc.rust-lang.org",
+  "lastScraped": "2025-12-17T11:36:27.624Z",
+  "totalPages": 250,
+  "successfulPages": 250,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Rust Documentation",
+      "url": "https://doc.rust-lang.org/stable/"
+    },
+    {
+      "type": "std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/index.html"
+    },
+    {
+      "type": "The Rust Programming Language - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/index.html"
+    },
+    {
+      "type": "Introduction - The Rust Edition Guide",
+      "url": "https://doc.rust-lang.org/stable/edition-guide/index.html"
+    },
+    {
+      "type": "Introduction - The Rust Style Guide",
+      "url": "https://doc.rust-lang.org/stable/style-guide/index.html"
+    },
+    {
+      "type": "What is rustdoc? - The rustdoc book",
+      "url": "https://doc.rust-lang.org/stable/rustdoc/index.html"
+    },
+    {
+      "type": "Introduction - Clippy Documentation",
+      "url": "https://doc.rust-lang.org/stable/clippy/index.html"
+    },
+    {
+      "type": "Introduction - The Embedded Rust Book",
+      "url": "https://doc.rust-lang.org/stable/embedded-book/index.html"
+    },
+    {
+      "type": "Introduction - The Rustonomicon",
+      "url": "https://doc.rust-lang.org/stable/nomicon/index.html"
+    },
+    {
+      "type": "Introduction - The Cargo Book",
+      "url": "https://doc.rust-lang.org/stable/cargo/index.html"
+    },
+    {
+      "type": "Introduction - The Rust Reference",
+      "url": "https://doc.rust-lang.org/stable/reference/index.html"
+    },
+    {
+      "type": "What is rustc? - The rustc book",
+      "url": "https://doc.rust-lang.org/stable/rustc/index.html"
+    },
+    {
+      "type": "Introduction - Rust By Example",
+      "url": "https://doc.rust-lang.org/stable/rust-by-example/index.html"
+    },
+    {
+      "type": "Rust Release Notes",
+      "url": "https://doc.rust-lang.org/stable/releases.html"
+    },
+    {
+      "type": "Rust error codes index - Error codes index",
+      "url": "https://doc.rust-lang.org/stable/error_codes/index.html"
+    },
+    {
+      "type": "The Unstable Book - The Rust Unstable Book",
+      "url": "https://doc.rust-lang.org/stable/unstable-book/index.html"
+    },
+    {
+      "type": "Settings",
+      "url": "https://doc.rust-lang.org/stable/settings.html"
+    },
+    {
+      "type": "Help",
+      "url": "https://doc.rust-lang.org/stable/help.html"
+    },
+    {
+      "type": "Control Scope and Privacy with Modules - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/ch07-02-defining-modules-to-control-scope-and-privacy.html"
+    },
+    {
+      "type": "std_detect - Rust",
+      "url": "https://doc.rust-lang.org/stable/std_detect/index.html"
+    },
+    {
+      "type": "Data Types - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/ch03-02-data-types.html"
+    },
+    {
+      "type": "alloc - Rust",
+      "url": "https://doc.rust-lang.org/stable/alloc/index.html"
+    },
+    {
+      "type": "proc_macro - Rust",
+      "url": "https://doc.rust-lang.org/stable/proc_macro/index.html"
+    },
+    {
+      "type": "std::cmp - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/cmp/index.html"
+    },
+    {
+      "type": "current in std::thread - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/thread/fn.current.html"
+    },
+    {
+      "type": "format in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.format.html"
+    },
+    {
+      "type": "std::boxed - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/boxed/index.html"
+    },
+    {
+      "type": "std::char - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/char/index.html"
+    },
+    {
+      "type": "test - Rust",
+      "url": "https://doc.rust-lang.org/stable/test/index.html"
+    },
+    {
+      "type": "std::env - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/env/index.html"
+    },
+    {
+      "type": "std::default - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/default/index.html"
+    },
+    {
+      "type": "std::result - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/result/index.html"
+    },
+    {
+      "type": "std::backtrace - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/backtrace/index.html"
+    },
+    {
+      "type": "std::any - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/any/index.html"
+    },
+    {
+      "type": "std::ascii - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/ascii/index.html"
+    },
+    {
+      "type": "std::borrow - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/borrow/index.html"
+    },
+    {
+      "type": "std::i8 - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/i8/index.html"
+    },
+    {
+      "type": "std::thread - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/thread/index.html"
+    },
+    {
+      "type": "std::i16 - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/i16/index.html"
+    },
+    {
+      "type": "std::i32 - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/i32/index.html"
+    },
+    {
+      "type": "std::i64 - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/i64/index.html"
+    },
+    {
+      "type": "std::i128 - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/i128/index.html"
+    },
+    {
+      "type": "std::isize - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/isize/index.html"
+    },
+    {
+      "type": "std::clone - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/clone/index.html"
+    },
+    {
+      "type": "std::option - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/option/index.html"
+    },
+    {
+      "type": "std::net - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/net/index.html"
+    },
+    {
+      "type": "std::sync::mpmc - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/sync/mpmc/index.html"
+    },
+    {
+      "type": "std::array - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/array/index.html"
+    },
+    {
+      "type": "std::assert_matches - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/assert_matches/index.html"
+    },
+    {
+      "type": "std::from - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/from/index.html"
+    },
+    {
+      "type": "cfg in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.cfg.html"
+    },
+    {
+      "type": "std::sync::mpsc - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/sync/mpsc/index.html"
+    },
+    {
+      "type": "std::u8 - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/u8/index.html"
+    },
+    {
+      "type": "std::u16 - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/u16/index.html"
+    },
+    {
+      "type": "std::u32 - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/u32/index.html"
+    },
+    {
+      "type": "std::u64 - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/u64/index.html"
+    },
+    {
+      "type": "std::u128 - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/u128/index.html"
+    },
+    {
+      "type": "std::usize - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/usize/index.html"
+    },
+    {
+      "type": "std::autodiff - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/autodiff/index.html"
+    },
+    {
+      "type": "std::bstr - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/bstr/index.html"
+    },
+    {
+      "type": "std::f16 - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/f16/index.html"
+    },
+    {
+      "type": "std::f128 - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/f128/index.html"
+    },
+    {
+      "type": "std::pat - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/pat/index.html"
+    },
+    {
+      "type": "concat in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.concat.html"
+    },
+    {
+      "type": "compile_error in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.compile_error.html"
+    },
+    {
+      "type": "dbg in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.dbg.html"
+    },
+    {
+      "type": "std::convert - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/convert/index.html"
+    },
+    {
+      "type": "std::hint - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/hint/index.html"
+    },
+    {
+      "type": "std::unsafe_binder - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/unsafe_binder/index.html"
+    },
+    {
+      "type": "column in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.column.html"
+    },
+    {
+      "type": "debug_assert_eq in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.debug_assert_eq.html"
+    },
+    {
+      "type": "debug_assert_ne in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.debug_assert_ne.html"
+    },
+    {
+      "type": "std::collections - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/collections/index.html"
+    },
+    {
+      "type": "std::async_iter - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/async_iter/index.html"
+    },
+    {
+      "type": "assert_eq in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.assert_eq.html"
+    },
+    {
+      "type": "assert_ne in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.assert_ne.html"
+    },
+    {
+      "type": "assert in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.assert.html"
+    },
+    {
+      "type": "debug_assert in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.debug_assert.html"
+    },
+    {
+      "type": "env in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.env.html"
+    },
+    {
+      "type": "std::hash - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/hash/index.html"
+    },
+    {
+      "type": "std::os - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/os/index.html"
+    },
+    {
+      "type": "std::time - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/time/index.html"
+    },
+    {
+      "type": "std::random - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/random/index.html"
+    },
+    {
+      "type": "file in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.file.html"
+    },
+    {
+      "type": "std::slice - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/slice/index.html"
+    },
+    {
+      "type": "std::alloc - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/alloc/index.html"
+    },
+    {
+      "type": "std::string - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/string/index.html"
+    },
+    {
+      "type": "eprint in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.eprint.html"
+    },
+    {
+      "type": "eprintln in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.eprintln.html"
+    },
+    {
+      "type": "std::future - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/future/index.html"
+    },
+    {
+      "type": "std::rc - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/rc/index.html"
+    },
+    {
+      "type": "std::f32 - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/f32/index.html"
+    },
+    {
+      "type": "std::f64 - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/f64/index.html"
+    },
+    {
+      "type": "std::vec - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/vec/index.html"
+    },
+    {
+      "type": "format_args in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.format_args.html"
+    },
+    {
+      "type": "std::sync::atomic - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/sync/atomic/index.html"
+    },
+    {
+      "type": "std::error - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/error/index.html"
+    },
+    {
+      "type": "std::task - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/task/index.html"
+    },
+    {
+      "type": "std::panic - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/panic/index.html"
+    },
+    {
+      "type": "std::primitive - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/primitive/index.html"
+    },
+    {
+      "type": "std::fs - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/fs/index.html"
+    },
+    {
+      "type": "std::cell - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/cell/index.html"
+    },
+    {
+      "type": "std::process - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/process/index.html"
+    },
+    {
+      "type": "std::range - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/range/index.html"
+    },
+    {
+      "type": "std::path - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/path/index.html"
+    },
+    {
+      "type": "std::sync - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/sync/index.html"
+    },
+    {
+      "type": "std::arch - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/arch/index.html"
+    },
+    {
+      "type": "include_str in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.include_str.html"
+    },
+    {
+      "type": "include_bytes in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.include_bytes.html"
+    },
+    {
+      "type": "is_x86_feature_detected in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.is_x86_feature_detected.html"
+    },
+    {
+      "type": "std::marker - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/marker/index.html"
+    },
+    {
+      "type": "matches in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.matches.html"
+    },
+    {
+      "type": "line in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.line.html"
+    },
+    {
+      "type": "cfg_select in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.cfg_select.html"
+    },
+    {
+      "type": "std::mem - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/mem/index.html"
+    },
+    {
+      "type": "try in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.try.html"
+    },
+    {
+      "type": "include in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.include.html"
+    },
+    {
+      "type": "break - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.break.html"
+    },
+    {
+      "type": "become - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.become.html"
+    },
+    {
+      "type": "Redirecting...",
+      "url": "https://doc.rust-lang.org/stable/book/ch17-02-trait-objects.html"
+    },
+    {
+      "type": "continue - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.continue.html"
+    },
+    {
+      "type": "concat_bytes in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.concat_bytes.html"
+    },
+    {
+      "type": "SelfTy - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.SelfTy.html"
+    },
+    {
+      "type": "impl - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.impl.html"
+    },
+    {
+      "type": "crate - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.crate.html"
+    },
+    {
+      "type": "if - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.if.html"
+    },
+    {
+      "type": "stringify in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.stringify.html"
+    },
+    {
+      "type": "trace_macros in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.trace_macros.html"
+    },
+    {
+      "type": "log_syntax in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.log_syntax.html"
+    },
+    {
+      "type": "module_path in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.module_path.html"
+    },
+    {
+      "type": "print in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.print.html"
+    },
+    {
+      "type": "thread_local in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.thread_local.html"
+    },
+    {
+      "type": "std::num - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/num/index.html"
+    },
+    {
+      "type": "await - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.await.html"
+    },
+    {
+      "type": "dyn - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.dyn.html"
+    },
+    {
+      "type": "false - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.false.html"
+    },
+    {
+      "type": "extern - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.extern.html"
+    },
+    {
+      "type": "in - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.in.html"
+    },
+    {
+      "type": "unimplemented in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.unimplemented.html"
+    },
+    {
+      "type": "vec in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.vec.html"
+    },
+    {
+      "type": "unreachable in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.unreachable.html"
+    },
+    {
+      "type": "match - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.match.html"
+    },
+    {
+      "type": "const_format_args in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.const_format_args.html"
+    },
+    {
+      "type": "write in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.write.html"
+    },
+    {
+      "type": "else - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.else.html"
+    },
+    {
+      "type": "option_env in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.option_env.html"
+    },
+    {
+      "type": "writeln in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.writeln.html"
+    },
+    {
+      "type": "todo in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.todo.html"
+    },
+    {
+      "type": "as - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.as.html"
+    },
+    {
+      "type": "Redirecting...",
+      "url": "https://doc.rust-lang.org/stable/book/ch19-01-unsafe-rust.html"
+    },
+    {
+      "type": "const - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.const.html"
+    },
+    {
+      "type": "ref - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.ref.html"
+    },
+    {
+      "type": "self - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.self.html"
+    },
+    {
+      "type": "super - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.super.html"
+    },
+    {
+      "type": "type - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.type.html"
+    },
+    {
+      "type": "where - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.where.html"
+    },
+    {
+      "type": "mut - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.mut.html"
+    },
+    {
+      "type": "println in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.println.html"
+    },
+    {
+      "type": "return - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.return.html"
+    },
+    {
+      "type": "union - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.union.html"
+    },
+    {
+      "type": "while - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.while.html"
+    },
+    {
+      "type": "Foreword - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/foreword.html"
+    },
+    {
+      "type": "pub - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.pub.html"
+    },
+    {
+      "type": "let - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.let.html"
+    },
+    {
+      "type": "Installation - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/ch01-01-installation.html"
+    },
+    {
+      "type": "Introduction - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/ch00-00-introduction.html"
+    },
+    {
+      "type": "true - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.true.html"
+    },
+    {
+      "type": "mod - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.mod.html"
+    },
+    {
+      "type": "move - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.move.html"
+    },
+    {
+      "type": "use - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.use.html"
+    },
+    {
+      "type": "The Rust Programming Language - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/title-page.html"
+    },
+    {
+      "type": "Common Programming Concepts - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/ch03-00-common-programming-concepts.html"
+    },
+    {
+      "type": "Hello, World! - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/ch01-02-hello-world.html"
+    },
+    {
+      "type": "Hello, Cargo! - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/ch01-03-hello-cargo.html"
+    },
+    {
+      "type": "Closures - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/ch13-01-closures.html"
+    },
+    {
+      "type": "Variables and Mutability - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/ch03-01-variables-and-mutability.html"
+    },
+    {
+      "type": "std::str - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/str/index.html"
+    },
+    {
+      "type": "Type aliases - The Rust Reference",
+      "url": "https://doc.rust-lang.org/stable/reference/items/type-aliases.html"
+    },
+    {
+      "type": "static - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.static.html"
+    },
+    {
+      "type": "unsafe - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.unsafe.html"
+    },
+    {
+      "type": "enum - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.enum.html"
+    },
+    {
+      "type": "fn - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.fn.html"
+    },
+    {
+      "type": "async - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.async.html"
+    },
+    {
+      "type": "struct - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.struct.html"
+    },
+    {
+      "type": "std::pin - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/pin/index.html"
+    },
+    {
+      "type": "for - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.for.html"
+    },
+    {
+      "type": "loop - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.loop.html"
+    },
+    {
+      "type": "Getting Started - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/ch01-00-getting-started.html"
+    },
+    {
+      "type": "panic in std - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/macro.panic.html"
+    },
+    {
+      "type": "std::ffi - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/ffi/index.html"
+    },
+    {
+      "type": "Programming a Guessing Game - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/ch02-00-guessing-game-tutorial.html"
+    },
+    {
+      "type": "trait - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/keyword.trait.html"
+    },
+    {
+      "type": "Modules - The Rust Reference",
+      "url": "https://doc.rust-lang.org/stable/reference/items/modules.html"
+    },
+    {
+      "type": "Unions - The Rust Reference",
+      "url": "https://doc.rust-lang.org/stable/reference/items/unions.html"
+    },
+    {
+      "type": "std::fmt - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/fmt/index.html"
+    },
+    {
+      "type": "std::ptr - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/ptr/index.html"
+    },
+    {
+      "type": "Future in std::future - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/future/trait.Future.html"
+    },
+    {
+      "type": "LocalKey in std::thread - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/thread/struct.LocalKey.html"
+    },
+    {
+      "type": "std::ops - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/ops/index.html"
+    },
+    {
+      "type": "without_provenance in std::ptr - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/ptr/fn.without_provenance.html"
+    },
+    {
+      "type": "with_exposed_provenance in std::ptr - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/ptr/fn.with_exposed_provenance.html"
+    },
+    {
+      "type": "Using Structs to Structure Related Data - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/ch05-00-structs.html"
+    },
+    {
+      "type": "Hash in std::hash - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/hash/derive.Hash.html"
+    },
+    {
+      "type": "Tuple types - The Rust Reference",
+      "url": "https://doc.rust-lang.org/stable/reference/types/tuple.html"
+    },
+    {
+      "type": "Textual types - The Rust Reference",
+      "url": "https://doc.rust-lang.org/stable/reference/types/textual.html"
+    },
+    {
+      "type": "An Example Program Using Structs - The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/stable/book/ch05-02-example-structs.html"
+    },
+    {
+      "type": "Allocator in std::alloc - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/alloc/trait.Allocator.html"
+    },
+    {
+      "type": "Redirection",
+      "url": "https://doc.rust-lang.org/stable/core/core_arch/x86/struct.__m128h.html"
+    },
+    {
+      "type": "Receiver in std::ops - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/ops/trait.Receiver.html"
+    },
+    {
+      "type": "Redirection",
+      "url": "https://doc.rust-lang.org/stable/core/core_arch/x86/struct.__m128.html"
+    },
+    {
+      "type": "Redirection",
+      "url": "https://doc.rust-lang.org/stable/core/core_arch/x86/struct.__m128d.html"
+    },
+    {
+      "type": "Redirection",
+      "url": "https://doc.rust-lang.org/stable/core/core_arch/x86/struct.__m256.html"
+    },
+    {
+      "type": "Redirection",
+      "url": "https://doc.rust-lang.org/stable/core/core_arch/x86/struct.__m256bh.html"
+    },
+    {
+      "type": "Redirection",
+      "url": "https://doc.rust-lang.org/stable/core/core_arch/x86/struct.__m128i.html"
+    },
+    {
+      "type": "Redirection",
+      "url": "https://doc.rust-lang.org/stable/core/core_arch/x86/struct.__m128bh.html"
+    },
+    {
+      "type": "ToString in std::string - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/string/trait.ToString.html"
+    },
+    {
+      "type": "Into in std::convert - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/convert/trait.Into.html"
+    },
+    {
+      "type": "Any in std::any - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/any/trait.Any.html"
+    },
+    {
+      "type": "DerefPure in std::ops - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/ops/trait.DerefPure.html"
+    },
+    {
+      "type": "CloneToUninit in std::clone - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/clone/trait.CloneToUninit.html"
+    },
+    {
+      "type": "Alignment in std::fmt - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/fmt/enum.Alignment.html"
+    },
+    {
+      "type": "Sign in std::fmt - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/fmt/enum.Sign.html"
+    },
+    {
+      "type": "DebugAsHex in std::fmt - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/fmt/enum.DebugAsHex.html"
+    },
+    {
+      "type": "TypeId in std::any - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/any/struct.TypeId.html"
+    },
+    {
+      "type": "TryReserveErrorKind in std::collections - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/collections/enum.TryReserveErrorKind.html"
+    },
+    {
+      "type": "BacktraceStyle in std::panic - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/panic/enum.BacktraceStyle.html"
+    },
+    {
+      "type": "IntErrorKind in std::num - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/num/enum.IntErrorKind.html"
+    },
+    {
+      "type": "SeekFrom in std::io - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/io/enum.SeekFrom.html"
+    },
+    {
+      "type": "Shutdown in std::net - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/net/enum.Shutdown.html"
+    },
+    {
+      "type": "VarError in std::env - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/env/enum.VarError.html"
+    },
+    {
+      "type": "FpCategory in std::num - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/num/enum.FpCategory.html"
+    },
+    {
+      "type": "ErrorKind in std::io - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/io/enum.ErrorKind.html"
+    },
+    {
+      "type": "GetDisjointMutError in std::slice - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/slice/enum.GetDisjointMutError.html"
+    },
+    {
+      "type": "Ordering in std::sync::atomic - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/sync/atomic/enum.Ordering.html"
+    },
+    {
+      "type": "FromBytesWithNulError in std::ffi - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/ffi/enum.FromBytesWithNulError.html"
+    },
+    {
+      "type": "Char in std::ascii - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/ascii/enum.Char.html"
+    },
+    {
+      "type": "SearchStep in std::str::pattern - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/str/pattern/enum.SearchStep.html"
+    },
+    {
+      "type": "Ipv6MulticastScope in std::net - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/net/enum.Ipv6MulticastScope.html"
+    },
+    {
+      "type": "RecvTimeoutError in std::sync::mpsc - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/sync/mpsc/enum.RecvTimeoutError.html"
+    },
+    {
+      "type": "TryRecvError in std::sync::mpsc - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/sync/mpsc/enum.TryRecvError.html"
+    },
+    {
+      "type": "IpAddr in std::net - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/net/enum.IpAddr.html"
+    },
+    {
+      "type": "BinaryHeap in std::collections - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/collections/struct.BinaryHeap.html"
+    },
+    {
+      "type": "Ord in std::cmp - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/cmp/trait.Ord.html"
+    },
+    {
+      "type": "PartialOrd in std::cmp - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/cmp/trait.PartialOrd.html"
+    },
+    {
+      "type": "Eq in std::cmp - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/cmp/trait.Eq.html"
+    },
+    {
+      "type": "RecvError in std::sync::mpsc - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/sync/mpsc/struct.RecvError.html"
+    },
+    {
+      "type": "Duration in std::time - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/time/struct.Duration.html"
+    },
+    {
+      "type": "LazyLock in std::sync - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/sync/struct.LazyLock.html"
+    },
+    {
+      "type": "EncodeUtf16 in std::str - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/str/struct.EncodeUtf16.html"
+    },
+    {
+      "type": "Receiver in std::sync::mpsc - Rust",
+      "url": "https://doc.rust-lang.org/stable/std/sync/mpsc/struct.Receiver.html"
+    }
+  ],
+  "latestVersion": "1.1.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-02-05T06:19:45.482Z",
+      "filename": "documentation_2025-02-05T06:19:45.482Z.md",
+      "totalPages": 250,
+      "successfulPages": 250,
+      "url": "https://doc.rust-lang.org/stable/",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-12-17T11:36:27.624Z",
+      "filename": "documentation_2025-12-17T11:36:27.624Z.md",
+      "totalPages": 250,
+      "successfulPages": 250,
+      "url": "https://doc.rust-lang.org/stable/",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

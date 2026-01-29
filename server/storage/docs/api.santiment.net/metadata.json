@@ -1,1 +1,36 @@
-{"url":"https://api.santiment.net/","domain":"api.santiment.net","lastScraped":"2025-10-27T10:14:31.457Z","totalPages":3,"successfulPages":3,"failedPages":[],"structure":[{"type":"Cryptocurrency Data API - On-chain, Social, Dev & Pricing Data","url":"https://api.santiment.net/"},{"type":"Cryptocurrency Data API - On-chain, Social, Dev & Pricing Data","url":"https://api.santiment.net/ja"},{"type":"Unknown","url":"https://api.santiment.net/graphiql?query=query($fn:json)%7B%0A%20%20%20%20allProjectsByFunction(function:%20$fn)%20%7B%0A%20%20%20%20%20%20projects%20%7B%0A%20%20%20%20%20%20%20%20slug%20name%20ticker%0A%20%20%20%20%20%20%20%20price_usd_change_1d:aggregatedTimeseriesData(%0A%20%20%20%20%20%20%20%20%20%20%20%20metric:%22price_usd_change_1d%22%0A%20%20%20%20%20%20%20%20%20%20%20%20from:%22utc_now-1d%22%0A%20%20%20%20%20%20%20%20%20%20%20%20to:%22utc_now%22%0A%20%20%20%20%20%20%20%20%20%20%20%20aggregation:LAST%0A%20%20%20%20%20%20%20%20%20%20)%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%7D&variables=%7B%0A%09%09%22fn%22:%20%22%7B%5C%22name%5C%22:%5C%22selector%5C%22,%5C%22args%5C%22:%7B%5C%22filters%5C%22:%5B%7B%5C%22args%5C%22:%7B%5C%22metric%5C%22:%5C%22marketcap_usd%5C%22,%5C%22operator%5C%22:%5C%22greater_than%5C%22,%5C%22dynamicFrom%5C%22:%5C%221d%5C%22,%5C%22dynamicTo%5C%22:%5C%22now%5C%22,%5C%22aggregation%5C%22:%5C%22last%5C%22,%5C%22threshold%5C%22:10000000%7D,%5C%22name%5C%22:%5C%22metric%5C%22%7D%5D,%5C%22orderBy%5C%22:%7B%5C%22aggregation%5C%22:%5C%22last%5C%22,%5C%22dynamicFrom%5C%22:%5C%221d%5C%22,%5C%22direction%5C%22:%5C%22desc%5C%22,%5C%22dynamicTo%5C%22:%5C%22now%5C%22,%5C%22metric%5C%22:%5C%22price_usd_change_1d%5C%22%7D,%5C%22pagination%5C%22:%7B%5C%22page%5C%22:1,%5C%22pageSize%5C%22:10%7D%7D%7D%22%0A%09%7D"}]}
+{
+  "url": "https://api.santiment.net/",
+  "domain": "api.santiment.net",
+  "lastScraped": "2025-10-27T10:14:31.457Z",
+  "totalPages": 3,
+  "successfulPages": 3,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Cryptocurrency Data API - On-chain, Social, Dev & Pricing Data",
+      "url": "https://api.santiment.net/"
+    },
+    {
+      "type": "Cryptocurrency Data API - On-chain, Social, Dev & Pricing Data",
+      "url": "https://api.santiment.net/ja"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://api.santiment.net/graphiql?query=query($fn:json)%7B%0A%20%20%20%20allProjectsByFunction(function:%20$fn)%20%7B%0A%20%20%20%20%20%20projects%20%7B%0A%20%20%20%20%20%20%20%20slug%20name%20ticker%0A%20%20%20%20%20%20%20%20price_usd_change_1d:aggregatedTimeseriesData(%0A%20%20%20%20%20%20%20%20%20%20%20%20metric:%22price_usd_change_1d%22%0A%20%20%20%20%20%20%20%20%20%20%20%20from:%22utc_now-1d%22%0A%20%20%20%20%20%20%20%20%20%20%20%20to:%22utc_now%22%0A%20%20%20%20%20%20%20%20%20%20%20%20aggregation:LAST%0A%20%20%20%20%20%20%20%20%20%20)%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%7D&variables=%7B%0A%09%09%22fn%22:%20%22%7B%5C%22name%5C%22:%5C%22selector%5C%22,%5C%22args%5C%22:%7B%5C%22filters%5C%22:%5B%7B%5C%22args%5C%22:%7B%5C%22metric%5C%22:%5C%22marketcap_usd%5C%22,%5C%22operator%5C%22:%5C%22greater_than%5C%22,%5C%22dynamicFrom%5C%22:%5C%221d%5C%22,%5C%22dynamicTo%5C%22:%5C%22now%5C%22,%5C%22aggregation%5C%22:%5C%22last%5C%22,%5C%22threshold%5C%22:10000000%7D,%5C%22name%5C%22:%5C%22metric%5C%22%7D%5D,%5C%22orderBy%5C%22:%7B%5C%22aggregation%5C%22:%5C%22last%5C%22,%5C%22dynamicFrom%5C%22:%5C%221d%5C%22,%5C%22direction%5C%22:%5C%22desc%5C%22,%5C%22dynamicTo%5C%22:%5C%22now%5C%22,%5C%22metric%5C%22:%5C%22price_usd_change_1d%5C%22%7D,%5C%22pagination%5C%22:%7B%5C%22page%5C%22:1,%5C%22pageSize%5C%22:10%7D%7D%7D%22%0A%09%7D"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-10-27T10:14:31.457Z",
+      "filename": "documentation_2025-10-27T10:14:31.457Z.md",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "url": "https://api.santiment.net/",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}
