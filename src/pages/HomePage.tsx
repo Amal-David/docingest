@@ -65,7 +65,7 @@ export default function HomePage() {
   const [searchTime, setSearchTime] = useState<number | null>(null);
 
   // Stats state
-  const [stats, setStats] = useState({ totalDomains: 773, redisConnected: true });
+  const [stats, setStats] = useState({ totalDomains: 0, redisConnected: true });
 
   // Popular docs
   const [popularDocs, setPopularDocs] = useState<DocPreview[]>([]);
@@ -109,11 +109,12 @@ export default function HomePage() {
       .catch(() => {});
   }, [refreshStats]);
 
-  // Keyboard shortcut to focus search
+  // Keyboard shortcut to focus search (Ctrl+K or Cmd+K)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
+        e.stopPropagation();
         inputRef.current?.focus();
       }
       if (e.key === 'Escape') {
@@ -122,8 +123,9 @@ export default function HomePage() {
       }
     };
 
-    document.addEventListener('keydown', handleKeyDown);
-    return () => document.removeEventListener('keydown', handleKeyDown);
+    // Use capture phase to intercept before browser handles it
+    document.addEventListener('keydown', handleKeyDown, true);
+    return () => document.removeEventListener('keydown', handleKeyDown, true);
   }, []);
 
   // Fetch autocomplete results
@@ -387,10 +389,10 @@ export default function HomePage() {
             Doc<span className="text-primary">Ingest</span>
           </h1>
           <p className="text-gray-600 text-lg">
-            Search {stats.totalDomains}+ documentation sources instantly
+            Search {stats.totalDomains > 0 ? `${stats.totalDomains}+` : ''} documentation sources instantly
           </p>
           <p className="text-gray-500 mb-2 text-sm">
-            Built for developers using ChatGPT, Claude, Cursor or Windsurf
+            Search documentation for any framework, library or API
           </p>
 
           <div className="flex justify-center space-x-4">
@@ -540,7 +542,7 @@ export default function HomePage() {
 
         {/* Stats bar */}
         <div className="flex items-center justify-center gap-4 text-sm text-gray-500">
-          <span>{stats.totalDomains}+ docs indexed</span>
+          <span>{stats.totalDomains > 0 ? `${stats.totalDomains}+` : '...'} docs indexed</span>
           <span>•</span>
           <span>Works with Claude Code, Cursor, Windsurf, Codex</span>
         </div>
