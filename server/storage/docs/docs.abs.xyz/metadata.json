@@ -1,1 +1,215 @@
-{"url":"https://docs.abs.xyz/connect-to-abstract","domain":"docs.abs.xyz","lastScraped":"2025-02-27T05:14:34.093Z","totalPages":41,"successfulPages":41,"failedPages":[],"structure":[{"type":"Connect to Abstract - Abstract","url":"https://docs.abs.xyz/connect-to-abstract"},{"type":"Introduction - Abstract","url":"https://docs.abs.xyz/overview"},{"type":"Abstract Global Wallet - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/overview"},{"type":"Getting Started - Abstract","url":"https://docs.abs.xyz/build-on-abstract/getting-started"},{"type":"Bridges - Abstract","url":"https://docs.abs.xyz/ecosystem/bridges"},{"type":"What is Abstract? - Abstract","url":"https://docs.abs.xyz/what-is-abstract"},{"type":"Portal - Abstract","url":"https://docs.abs.xyz/portal/overview"},{"type":"ZKsync CLI - Abstract","url":"https://docs.abs.xyz/build-on-abstract/zksync-cli"},{"type":"Block Explorers - Abstract","url":"https://docs.abs.xyz/tooling/block-explorers"},{"type":"Faucets - Abstract","url":"https://docs.abs.xyz/tooling/faucets"},{"type":"Getting Started - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/getting-started"},{"type":"Deployed Contracts - Abstract","url":"https://docs.abs.xyz/tooling/deployed-contracts"},{"type":"Bridges - Abstract","url":"https://docs.abs.xyz/tooling/bridges"},{"type":"Interoperability - Abstract","url":"https://docs.abs.xyz/ecosystem/interoperability"},{"type":"Data & Indexing - Abstract","url":"https://docs.abs.xyz/ecosystem/indexers"},{"type":"Oracles - Abstract","url":"https://docs.abs.xyz/ecosystem/oracles"},{"type":"Layer 2s - Abstract","url":"https://docs.abs.xyz/how-abstract-works/architecture/layer-2s"},{"type":"How It Works - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/architecture"},{"type":"EVM Differences - Abstract","url":"https://docs.abs.xyz/how-abstract-works/evm-differences/overview"},{"type":"Paymasters - Abstract","url":"https://docs.abs.xyz/ecosystem/paymasters"},{"type":"RPC Providers - Abstract","url":"https://docs.abs.xyz/ecosystem/rpc-providers"},{"type":"Frequently Asked Questions - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/frequently-asked-questions"},{"type":"Automation - Abstract","url":"https://docs.abs.xyz/ecosystem/automation"},{"type":"Relayers - Abstract","url":"https://docs.abs.xyz/ecosystem/relayers"},{"type":"Native Integration - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/agw-react/native-integration"},{"type":"Dynamic - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/agw-react/integrating-with-dynamic"},{"type":"ConnectKit - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/agw-react/integrating-with-connectkit"},{"type":"RainbowKit - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/agw-react/integrating-with-rainbowkit"},{"type":"Privy - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/agw-react/integrating-with-privy"},{"type":"Ethers - Abstract","url":"https://docs.abs.xyz/build-on-abstract/applications/ethers"},{"type":"Foundry - Abstract","url":"https://docs.abs.xyz/build-on-abstract/smart-contracts/foundry"},{"type":"Thirdweb - Abstract","url":"https://docs.abs.xyz/build-on-abstract/applications/thirdweb"},{"type":"Hardhat - Abstract","url":"https://docs.abs.xyz/build-on-abstract/smart-contracts/hardhat"},{"type":"Thirdweb - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/agw-react/integrating-with-thirdweb"},{"type":"useAbstractClient - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/agw-react/hooks/useAbstractClient"},{"type":"AbstractWalletProvider - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/agw-react/AbstractWalletProvider"},{"type":"useLoginWithAbstract - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/agw-react/hooks/useLoginWithAbstract"},{"type":"Viem - Abstract","url":"https://docs.abs.xyz/build-on-abstract/applications/viem"},{"type":"signTransaction - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/agw-client/actions/signTransaction"},{"type":"sendTransactionBatch - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/agw-client/actions/sendTransactionBatch"},{"type":"useGlobalWalletSignerAccount - Abstract","url":"https://docs.abs.xyz/abstract-global-wallet/agw-react/hooks/useGlobalWalletSignerAccount"}]}
+{
+  "url": "https://docs.abs.xyz/connect-to-abstract",
+  "domain": "docs.abs.xyz",
+  "lastScraped": "2025-02-27T05:14:34.093Z",
+  "totalPages": 41,
+  "successfulPages": 41,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Connect to Abstract - Abstract",
+      "url": "https://docs.abs.xyz/connect-to-abstract"
+    },
+    {
+      "type": "Introduction - Abstract",
+      "url": "https://docs.abs.xyz/overview"
+    },
+    {
+      "type": "Abstract Global Wallet - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/overview"
+    },
+    {
+      "type": "Getting Started - Abstract",
+      "url": "https://docs.abs.xyz/build-on-abstract/getting-started"
+    },
+    {
+      "type": "Bridges - Abstract",
+      "url": "https://docs.abs.xyz/ecosystem/bridges"
+    },
+    {
+      "type": "What is Abstract? - Abstract",
+      "url": "https://docs.abs.xyz/what-is-abstract"
+    },
+    {
+      "type": "Portal - Abstract",
+      "url": "https://docs.abs.xyz/portal/overview"
+    },
+    {
+      "type": "ZKsync CLI - Abstract",
+      "url": "https://docs.abs.xyz/build-on-abstract/zksync-cli"
+    },
+    {
+      "type": "Block Explorers - Abstract",
+      "url": "https://docs.abs.xyz/tooling/block-explorers"
+    },
+    {
+      "type": "Faucets - Abstract",
+      "url": "https://docs.abs.xyz/tooling/faucets"
+    },
+    {
+      "type": "Getting Started - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/getting-started"
+    },
+    {
+      "type": "Deployed Contracts - Abstract",
+      "url": "https://docs.abs.xyz/tooling/deployed-contracts"
+    },
+    {
+      "type": "Bridges - Abstract",
+      "url": "https://docs.abs.xyz/tooling/bridges"
+    },
+    {
+      "type": "Interoperability - Abstract",
+      "url": "https://docs.abs.xyz/ecosystem/interoperability"
+    },
+    {
+      "type": "Data & Indexing - Abstract",
+      "url": "https://docs.abs.xyz/ecosystem/indexers"
+    },
+    {
+      "type": "Oracles - Abstract",
+      "url": "https://docs.abs.xyz/ecosystem/oracles"
+    },
+    {
+      "type": "Layer 2s - Abstract",
+      "url": "https://docs.abs.xyz/how-abstract-works/architecture/layer-2s"
+    },
+    {
+      "type": "How It Works - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/architecture"
+    },
+    {
+      "type": "EVM Differences - Abstract",
+      "url": "https://docs.abs.xyz/how-abstract-works/evm-differences/overview"
+    },
+    {
+      "type": "Paymasters - Abstract",
+      "url": "https://docs.abs.xyz/ecosystem/paymasters"
+    },
+    {
+      "type": "RPC Providers - Abstract",
+      "url": "https://docs.abs.xyz/ecosystem/rpc-providers"
+    },
+    {
+      "type": "Frequently Asked Questions - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/frequently-asked-questions"
+    },
+    {
+      "type": "Automation - Abstract",
+      "url": "https://docs.abs.xyz/ecosystem/automation"
+    },
+    {
+      "type": "Relayers - Abstract",
+      "url": "https://docs.abs.xyz/ecosystem/relayers"
+    },
+    {
+      "type": "Native Integration - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/agw-react/native-integration"
+    },
+    {
+      "type": "Dynamic - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/agw-react/integrating-with-dynamic"
+    },
+    {
+      "type": "ConnectKit - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/agw-react/integrating-with-connectkit"
+    },
+    {
+      "type": "RainbowKit - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/agw-react/integrating-with-rainbowkit"
+    },
+    {
+      "type": "Privy - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/agw-react/integrating-with-privy"
+    },
+    {
+      "type": "Ethers - Abstract",
+      "url": "https://docs.abs.xyz/build-on-abstract/applications/ethers"
+    },
+    {
+      "type": "Foundry - Abstract",
+      "url": "https://docs.abs.xyz/build-on-abstract/smart-contracts/foundry"
+    },
+    {
+      "type": "Thirdweb - Abstract",
+      "url": "https://docs.abs.xyz/build-on-abstract/applications/thirdweb"
+    },
+    {
+      "type": "Hardhat - Abstract",
+      "url": "https://docs.abs.xyz/build-on-abstract/smart-contracts/hardhat"
+    },
+    {
+      "type": "Thirdweb - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/agw-react/integrating-with-thirdweb"
+    },
+    {
+      "type": "useAbstractClient - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/agw-react/hooks/useAbstractClient"
+    },
+    {
+      "type": "AbstractWalletProvider - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/agw-react/AbstractWalletProvider"
+    },
+    {
+      "type": "useLoginWithAbstract - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/agw-react/hooks/useLoginWithAbstract"
+    },
+    {
+      "type": "Viem - Abstract",
+      "url": "https://docs.abs.xyz/build-on-abstract/applications/viem"
+    },
+    {
+      "type": "signTransaction - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/agw-client/actions/signTransaction"
+    },
+    {
+      "type": "sendTransactionBatch - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/agw-client/actions/sendTransactionBatch"
+    },
+    {
+      "type": "useGlobalWalletSignerAccount - Abstract",
+      "url": "https://docs.abs.xyz/abstract-global-wallet/agw-react/hooks/useGlobalWalletSignerAccount"
+    }
+  ],
+  "latestVersion": "1.3.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2024-12-26T10:31:01.159Z",
+      "filename": "documentation_2024-12-26T10:31:01.159Z.md",
+      "totalPages": 41,
+      "successfulPages": 41,
+      "url": "https://docs.abs.xyz/connect-to-abstract",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-01-27T07:48:21.723Z",
+      "filename": "documentation_2025-01-27T07:48:21.723Z.md",
+      "totalPages": 41,
+      "successfulPages": 41,
+      "url": "https://docs.abs.xyz/connect-to-abstract",
+      "isLatest": false
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2025-02-25T07:15:05.324Z",
+      "filename": "documentation_2025-02-25T07:15:05.324Z.md",
+      "totalPages": 41,
+      "successfulPages": 41,
+      "url": "https://docs.abs.xyz/connect-to-abstract",
+      "isLatest": false
+    },
+    {
+      "version": "1.3.0",
+      "timestamp": "2025-02-27T05:14:34.093Z",
+      "filename": "documentation_2025-02-27T05:14:34.093Z.md",
+      "totalPages": 41,
+      "successfulPages": 41,
+      "url": "https://docs.abs.xyz/connect-to-abstract",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

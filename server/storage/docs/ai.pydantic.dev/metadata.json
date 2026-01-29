@@ -1,1 +1,245 @@
-{"url":"https://ai.pydantic.dev/mcp/","domain":"ai.pydantic.dev","lastScraped":"2025-04-05T20:43:03.513Z","totalPages":53,"successfulPages":53,"failedPages":[],"structure":[{"type":"Model Context Protocol (MCP) - PydanticAI","url":"https://ai.pydantic.dev/mcp/"},{"type":"Installation - PydanticAI","url":"https://ai.pydantic.dev/install/"},{"type":"Getting Help - PydanticAI","url":"https://ai.pydantic.dev/help/"},{"type":"PydanticAI","url":"https://ai.pydantic.dev/"},{"type":"Troubleshooting - PydanticAI","url":"https://ai.pydantic.dev/troubleshooting/"},{"type":"Contributing - PydanticAI","url":"https://ai.pydantic.dev/contributing/"},{"type":"Dependencies - PydanticAI","url":"https://ai.pydantic.dev/dependencies/"},{"type":"Agents - PydanticAI","url":"https://ai.pydantic.dev/agents/"},{"type":"Function Tools - PydanticAI","url":"https://ai.pydantic.dev/tools/"},{"type":"Models - PydanticAI","url":"https://ai.pydantic.dev/models/"},{"type":"Common Tools - PydanticAI","url":"https://ai.pydantic.dev/common-tools/"},{"type":"Messages and chat history - PydanticAI","url":"https://ai.pydantic.dev/message-history/"},{"type":"Debugging and Monitoring - PydanticAI","url":"https://ai.pydantic.dev/logfire/"},{"type":"Results - PydanticAI","url":"https://ai.pydantic.dev/results/"},{"type":"Multi-agent Applications - PydanticAI","url":"https://ai.pydantic.dev/multi-agent-applications/"},{"type":"Unit testing - PydanticAI","url":"https://ai.pydantic.dev/testing/"},{"type":"Client - PydanticAI","url":"https://ai.pydantic.dev/mcp/client/"},{"type":"Evals - PydanticAI","url":"https://ai.pydantic.dev/evals/"},{"type":"Graphs - PydanticAI","url":"https://ai.pydantic.dev/graph/"},{"type":"Image, Audio & Document Input - PydanticAI","url":"https://ai.pydantic.dev/input/"},{"type":"Server - PydanticAI","url":"https://ai.pydantic.dev/mcp/server/"},{"type":"MCP Run Python - PydanticAI","url":"https://ai.pydantic.dev/mcp/run-python/"},{"type":"Examples - PydanticAI","url":"https://ai.pydantic.dev/examples/"},{"type":"Command Line Interface (CLI) - PydanticAI","url":"https://ai.pydantic.dev/cli/"},{"type":"Pydantic Model - PydanticAI","url":"https://ai.pydantic.dev/examples/pydantic-model/"},{"type":"Bank support - PydanticAI","url":"https://ai.pydantic.dev/examples/bank-support/"},{"type":"Weather agent - PydanticAI","url":"https://ai.pydantic.dev/examples/weather-agent/"},{"type":"Flight booking - PydanticAI","url":"https://ai.pydantic.dev/examples/flight-booking/"},{"type":"Stream markdown - PydanticAI","url":"https://ai.pydantic.dev/examples/stream-markdown/"},{"type":"SQL Generation - PydanticAI","url":"https://ai.pydantic.dev/examples/sql-gen/"},{"type":"Stream whales - PydanticAI","url":"https://ai.pydantic.dev/examples/stream-whales/"},{"type":"Question Graph - PydanticAI","url":"https://ai.pydantic.dev/examples/question-graph/"},{"type":"RAG - PydanticAI","url":"https://ai.pydantic.dev/examples/rag/"},{"type":"Chat App with FastAPI - PydanticAI","url":"https://ai.pydantic.dev/examples/chat-app/"},{"type":"pydantic_ai.result - PydanticAI","url":"https://ai.pydantic.dev/api/result/"},{"type":"pydantic_ai.tools - PydanticAI","url":"https://ai.pydantic.dev/api/tools/"},{"type":"pydantic_ai.common_tools - PydanticAI","url":"https://ai.pydantic.dev/api/common_tools/"},{"type":"pydantic_ai.usage - PydanticAI","url":"https://ai.pydantic.dev/api/usage/"},{"type":"pydantic_ai.format_as_xml - PydanticAI","url":"https://ai.pydantic.dev/api/format_as_xml/"},{"type":"pydantic_ai.mcp - PydanticAI","url":"https://ai.pydantic.dev/api/mcp/"},{"type":"pydantic_ai.models - PydanticAI","url":"https://ai.pydantic.dev/api/models/base/"},{"type":"pydantic_ai.models.openai - PydanticAI","url":"https://ai.pydantic.dev/api/models/openai/"},{"type":"pydantic_ai.models.anthropic - PydanticAI","url":"https://ai.pydantic.dev/api/models/anthropic/"},{"type":"pydantic_ai.models.bedrock - PydanticAI","url":"https://ai.pydantic.dev/api/models/bedrock/"},{"type":"pydantic_ai.models.cohere - PydanticAI","url":"https://ai.pydantic.dev/api/models/cohere/"},{"type":"pydantic_ai.models.gemini - PydanticAI","url":"https://ai.pydantic.dev/api/models/gemini/"},{"type":"pydantic_ai.agent - PydanticAI","url":"https://ai.pydantic.dev/api/agent/"},{"type":"pydantic_ai.messages - PydanticAI","url":"https://ai.pydantic.dev/api/messages/"},{"type":"pydantic_ai.models.groq - PydanticAI","url":"https://ai.pydantic.dev/api/models/groq/"},{"type":"pydantic_ai.exceptions - PydanticAI","url":"https://ai.pydantic.dev/api/exceptions/"},{"type":"pydantic_ai.settings - PydanticAI","url":"https://ai.pydantic.dev/api/settings/"},{"type":"pydantic_ai.models.instrumented - PydanticAI","url":"https://ai.pydantic.dev/api/models/instrumented/"},{"type":"pydantic_ai.models.test - PydanticAI","url":"https://ai.pydantic.dev/api/models/test/"}]}
+{
+  "url": "https://ai.pydantic.dev/mcp/",
+  "domain": "ai.pydantic.dev",
+  "lastScraped": "2025-04-05T20:43:03.513Z",
+  "totalPages": 53,
+  "successfulPages": 53,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Model Context Protocol (MCP) - PydanticAI",
+      "url": "https://ai.pydantic.dev/mcp/"
+    },
+    {
+      "type": "Installation - PydanticAI",
+      "url": "https://ai.pydantic.dev/install/"
+    },
+    {
+      "type": "Getting Help - PydanticAI",
+      "url": "https://ai.pydantic.dev/help/"
+    },
+    {
+      "type": "PydanticAI",
+      "url": "https://ai.pydantic.dev/"
+    },
+    {
+      "type": "Troubleshooting - PydanticAI",
+      "url": "https://ai.pydantic.dev/troubleshooting/"
+    },
+    {
+      "type": "Contributing - PydanticAI",
+      "url": "https://ai.pydantic.dev/contributing/"
+    },
+    {
+      "type": "Dependencies - PydanticAI",
+      "url": "https://ai.pydantic.dev/dependencies/"
+    },
+    {
+      "type": "Agents - PydanticAI",
+      "url": "https://ai.pydantic.dev/agents/"
+    },
+    {
+      "type": "Function Tools - PydanticAI",
+      "url": "https://ai.pydantic.dev/tools/"
+    },
+    {
+      "type": "Models - PydanticAI",
+      "url": "https://ai.pydantic.dev/models/"
+    },
+    {
+      "type": "Common Tools - PydanticAI",
+      "url": "https://ai.pydantic.dev/common-tools/"
+    },
+    {
+      "type": "Messages and chat history - PydanticAI",
+      "url": "https://ai.pydantic.dev/message-history/"
+    },
+    {
+      "type": "Debugging and Monitoring - PydanticAI",
+      "url": "https://ai.pydantic.dev/logfire/"
+    },
+    {
+      "type": "Results - PydanticAI",
+      "url": "https://ai.pydantic.dev/results/"
+    },
+    {
+      "type": "Multi-agent Applications - PydanticAI",
+      "url": "https://ai.pydantic.dev/multi-agent-applications/"
+    },
+    {
+      "type": "Unit testing - PydanticAI",
+      "url": "https://ai.pydantic.dev/testing/"
+    },
+    {
+      "type": "Client - PydanticAI",
+      "url": "https://ai.pydantic.dev/mcp/client/"
+    },
+    {
+      "type": "Evals - PydanticAI",
+      "url": "https://ai.pydantic.dev/evals/"
+    },
+    {
+      "type": "Graphs - PydanticAI",
+      "url": "https://ai.pydantic.dev/graph/"
+    },
+    {
+      "type": "Image, Audio & Document Input - PydanticAI",
+      "url": "https://ai.pydantic.dev/input/"
+    },
+    {
+      "type": "Server - PydanticAI",
+      "url": "https://ai.pydantic.dev/mcp/server/"
+    },
+    {
+      "type": "MCP Run Python - PydanticAI",
+      "url": "https://ai.pydantic.dev/mcp/run-python/"
+    },
+    {
+      "type": "Examples - PydanticAI",
+      "url": "https://ai.pydantic.dev/examples/"
+    },
+    {
+      "type": "Command Line Interface (CLI) - PydanticAI",
+      "url": "https://ai.pydantic.dev/cli/"
+    },
+    {
+      "type": "Pydantic Model - PydanticAI",
+      "url": "https://ai.pydantic.dev/examples/pydantic-model/"
+    },
+    {
+      "type": "Bank support - PydanticAI",
+      "url": "https://ai.pydantic.dev/examples/bank-support/"
+    },
+    {
+      "type": "Weather agent - PydanticAI",
+      "url": "https://ai.pydantic.dev/examples/weather-agent/"
+    },
+    {
+      "type": "Flight booking - PydanticAI",
+      "url": "https://ai.pydantic.dev/examples/flight-booking/"
+    },
+    {
+      "type": "Stream markdown - PydanticAI",
+      "url": "https://ai.pydantic.dev/examples/stream-markdown/"
+    },
+    {
+      "type": "SQL Generation - PydanticAI",
+      "url": "https://ai.pydantic.dev/examples/sql-gen/"
+    },
+    {
+      "type": "Stream whales - PydanticAI",
+      "url": "https://ai.pydantic.dev/examples/stream-whales/"
+    },
+    {
+      "type": "Question Graph - PydanticAI",
+      "url": "https://ai.pydantic.dev/examples/question-graph/"
+    },
+    {
+      "type": "RAG - PydanticAI",
+      "url": "https://ai.pydantic.dev/examples/rag/"
+    },
+    {
+      "type": "Chat App with FastAPI - PydanticAI",
+      "url": "https://ai.pydantic.dev/examples/chat-app/"
+    },
+    {
+      "type": "pydantic_ai.result - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/result/"
+    },
+    {
+      "type": "pydantic_ai.tools - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/tools/"
+    },
+    {
+      "type": "pydantic_ai.common_tools - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/common_tools/"
+    },
+    {
+      "type": "pydantic_ai.usage - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/usage/"
+    },
+    {
+      "type": "pydantic_ai.format_as_xml - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/format_as_xml/"
+    },
+    {
+      "type": "pydantic_ai.mcp - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/mcp/"
+    },
+    {
+      "type": "pydantic_ai.models - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/models/base/"
+    },
+    {
+      "type": "pydantic_ai.models.openai - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/models/openai/"
+    },
+    {
+      "type": "pydantic_ai.models.anthropic - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/models/anthropic/"
+    },
+    {
+      "type": "pydantic_ai.models.bedrock - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/models/bedrock/"
+    },
+    {
+      "type": "pydantic_ai.models.cohere - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/models/cohere/"
+    },
+    {
+      "type": "pydantic_ai.models.gemini - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/models/gemini/"
+    },
+    {
+      "type": "pydantic_ai.agent - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/agent/"
+    },
+    {
+      "type": "pydantic_ai.messages - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/messages/"
+    },
+    {
+      "type": "pydantic_ai.models.groq - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/models/groq/"
+    },
+    {
+      "type": "pydantic_ai.exceptions - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/exceptions/"
+    },
+    {
+      "type": "pydantic_ai.settings - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/settings/"
+    },
+    {
+      "type": "pydantic_ai.models.instrumented - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/models/instrumented/"
+    },
+    {
+      "type": "pydantic_ai.models.test - PydanticAI",
+      "url": "https://ai.pydantic.dev/api/models/test/"
+    }
+  ],
+  "latestVersion": "1.1.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-02-26T16:56:28.487Z",
+      "filename": "documentation_2025-02-26T16:56:28.487Z.md",
+      "totalPages": 53,
+      "successfulPages": 53,
+      "url": "https://ai.pydantic.dev/mcp/",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-04-05T20:43:03.513Z",
+      "filename": "documentation_2025-04-05T20:43:03.513Z.md",
+      "totalPages": 53,
+      "successfulPages": 53,
+      "url": "https://ai.pydantic.dev/mcp/",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

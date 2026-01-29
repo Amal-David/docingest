@@ -11,7 +11,8 @@ const redis = new Redis({
   port: REDIS_PORT,
   password: REDIS_PASSWORD,
   retryStrategy: (times: number) => {
-    if (times > 3) {
+    // Retry up to 10 times with exponential backoff
+    if (times > 10) {
       console.error('[Redis] Max retries reached, giving up');
       return null; // Stop retrying
     }
@@ -19,31 +20,101 @@ const redis = new Redis({
     console.log(`[Redis] Retrying connection in ${delay}ms...`);
     return delay;
   },
-  maxRetriesPerRequest: 3,
+  maxRetriesPerRequest: 5,
   enableReadyCheck: true,
   lazyConnect: true, // Don't connect immediately
+  keepAlive: 30000, // Keep connection alive with 30s interval
+  connectTimeout: 10000, // 10 second connection timeout
+  enableOfflineQueue: false, // Don't queue commands when offline
 });
 
 // Connection state
 let isConnected = false;
+let isConnecting = false;
 
 redis.on('connect', () => {
   console.log('[Redis] Connecting...');
+  isConnecting = true;
 });
 
 redis.on('ready', () => {
   isConnected = true;
+  isConnecting = false;
   console.log('[Redis] Connected and ready');
 });
 
 redis.on('error', (err) => {
   console.error('[Redis] Error:', err.message);
+  // Don't set isConnected to false on error - let retry strategy handle it
 });
 
 redis.on('close', () => {
   isConnected = false;
+  isConnecting = false;
   console.log('[Redis] Connection closed');
 });
+
+redis.on('reconnecting', (delay: number) => {
+  console.log(`[Redis] Reconnecting in ${delay}ms...`);
+  isConnecting = true;
+});
+
+/**
+ * Ensure Redis connection is active, reconnect if needed
+ */
+async function ensureConnection(maxRetries: number = 5): Promise<boolean> {
+  // Quick check if already connected
+  if (isConnected) {
+    try {
+      await redis.ping();
+      return true;
+    } catch (err) {
+      // Connection lost, mark as disconnected
+      isConnected = false;
+    }
+  }
+
+  // If not connected, try to connect
+  if (!isConnected) {
+    for (let attempt = 0; attempt < maxRetries; attempt++) {
+      try {
+        // Check if Redis client is already connecting
+        const status = redis.status;
+        if (status === 'ready') {
+          isConnected = true;
+          return true;
+        }
+        
+        if (status === 'connecting' || status === 'reconnecting') {
+          // Wait for connection to complete
+          await new Promise(resolve => setTimeout(resolve, 1000));
+          if (isConnected) {
+            return true;
+          }
+          continue;
+        }
+
+        // Try to connect
+        if (status === 'end' || status === 'close' || status === 'wait') {
+          await redis.connect();
+          await redis.ping();
+          isConnected = true;
+          return true;
+        }
+      } catch (err) {
+        if (attempt < maxRetries - 1) {
+          // Wait before retrying
+          await new Promise(resolve => setTimeout(resolve, 500 * (attempt + 1)));
+        } else {
+          console.error('[Redis] Failed to reconnect after', maxRetries, 'attempts:', err);
+          return false;
+        }
+      }
+    }
+  }
+
+  return isConnected;
+}
 
 // Redis key prefixes
 export const KEYS = {
@@ -86,6 +157,13 @@ export function isRedisAvailable(): boolean {
 }
 
 /**
+ * Check if Redis is available (async, ensures connection)
+ */
+export async function ensureRedisAvailable(): Promise<boolean> {
+  return await ensureConnection();
+}
+
+/**
  * Graceful shutdown
  */
 export async function closeRedis(): Promise<void> {
@@ -112,59 +190,73 @@ export interface DomainMeta {
  * Add a domain to the autocomplete index
  */
 export async function indexDomain(meta: DomainMeta): Promise<void> {
-  if (!isConnected) {
+  if (!(await ensureConnection())) {
     console.warn('[Redis] Not connected, skipping indexDomain');
     return;
   }
 
-  const pipeline = redis.pipeline();
+  try {
+    const pipeline = redis.pipeline();
 
-  // Add to sorted set for autocomplete (score 0 for lexicographic ordering)
-  pipeline.zadd(KEYS.AUTOCOMPLETE_DOMAINS, 0, meta.domain.toLowerCase());
+    // Add to sorted set for autocomplete (score 0 for lexicographic ordering)
+    pipeline.zadd(KEYS.AUTOCOMPLETE_DOMAINS, 0, meta.domain.toLowerCase());
 
-  // Store domain metadata as hash
-  pipeline.hset(KEYS.DOMAIN_META(meta.domain), {
-    domain: meta.domain,
-    url: meta.url,
-    title: meta.title || meta.domain,
-    snippet: meta.snippet.slice(0, 500), // Limit snippet size
-    lastScraped: meta.lastScraped,
-    totalPages: meta.totalPages.toString(),
-    successfulPages: meta.successfulPages.toString(),
-  });
+    // Store domain metadata as hash
+    pipeline.hset(KEYS.DOMAIN_META(meta.domain), {
+      domain: meta.domain,
+      url: meta.url,
+      title: meta.title || meta.domain,
+      snippet: meta.snippet.slice(0, 500), // Limit snippet size
+      lastScraped: meta.lastScraped,
+      totalPages: meta.totalPages.toString(),
+      successfulPages: meta.successfulPages.toString(),
+    });
 
-  await pipeline.exec();
+    await pipeline.exec();
+  } catch (err) {
+    console.error('[Redis] indexDomain error:', err);
+    // Try to reconnect on error
+    isConnected = false;
+    throw err;
+  }
 }
 
 /**
  * Index content chunks for full-text search
  */
 export async function indexContentChunks(domain: string, content: string): Promise<void> {
-  if (!isConnected) {
+  if (!(await ensureConnection())) {
     console.warn('[Redis] Not connected, skipping indexContentChunks');
     return;
   }
 
-  // Split content into chunks of ~500 chars
-  const CHUNK_SIZE = 500;
-  const chunks: string[] = [];
+  try {
+    // Split content into chunks of ~500 chars
+    const CHUNK_SIZE = 500;
+    const chunks: string[] = [];
 
-  for (let i = 0; i < content.length; i += CHUNK_SIZE) {
-    chunks.push(content.slice(i, i + CHUNK_SIZE));
-  }
+    for (let i = 0; i < content.length; i += CHUNK_SIZE) {
+      chunks.push(content.slice(i, i + CHUNK_SIZE));
+    }
 
-  const pipeline = redis.pipeline();
+    const pipeline = redis.pipeline();
 
-  // Store each chunk
-  chunks.slice(0, 100).forEach((chunk, index) => { // Limit to 100 chunks per domain
-    pipeline.hset(KEYS.CONTENT_CHUNK(domain, index), {
-      text: chunk,
-      index: index.toString(),
+    // Store each chunk
+    chunks.slice(0, 100).forEach((chunk, index) => { // Limit to 100 chunks per domain
+      pipeline.hset(KEYS.CONTENT_CHUNK(domain, index), {
+        text: chunk,
+        index: index.toString(),
+      });
+      pipeline.expire(KEYS.CONTENT_CHUNK(domain, index), TTL.CONTENT_CACHE);
     });
-    pipeline.expire(KEYS.CONTENT_CHUNK(domain, index), TTL.CONTENT_CACHE);
-  });
 
-  await pipeline.exec();
+    await pipeline.exec();
+  } catch (err) {
+    console.error('[Redis] indexContentChunks error:', err);
+    // Try to reconnect on error
+    isConnected = false;
+    throw err;
+  }
 }
 
 /**

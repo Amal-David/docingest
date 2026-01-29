@@ -1,1 +1,130 @@
-{"url":"https://node-llama-cpp.withcat.ai/guide/electron#electron-support","domain":"node-llama-cpp.withcat.ai","lastScraped":"2025-11-01T14:48:46.968Z","totalPages":22,"successfulPages":22,"failedPages":[],"structure":[{"type":"Using in Electron | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/guide/electron#electron-support"},{"type":"Blog | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/blog/"},{"type":"node-llama-cpp | Run AI models locally on your machine","url":"https://node-llama-cpp.withcat.ai/"},{"type":"node-llama-cpp v3.0 | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/blog/v3"},{"type":"gpt-oss is here! | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/blog/v3.12-gpt-oss"},{"type":"DeepSeek R1 with function calling | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/blog/v3.6-deepseek-r1"},{"type":"Awesome node-llama-cpp | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/guide/awesome"},{"type":"Metal Support | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/guide/Metal"},{"type":"Opening a PR on node-llama-cpp | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/guide/contributing"},{"type":"Using Batching | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/guide/batching"},{"type":"Using node-llama-cpp in Docker | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/guide/docker"},{"type":"CLI | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/cli/"},{"type":"init command | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/cli/init"},{"type":"inspect command | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/cli/inspect"},{"type":"inspect gpu command | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/cli/inspect/gpu"},{"type":"source command | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/cli/source"},{"type":"source clear command | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/cli/source/clear"},{"type":"source build command | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/cli/source/build"},{"type":"Variable: specializedChatWrapperTypeNames | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/api/variables/specializedChatWrapperTypeNames"},{"type":"Variable: templateChatWrapperTypeNames | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/api/variables/templateChatWrapperTypeNames"},{"type":"Variable: resolvableChatWrapperTypeNames | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/api/variables/resolvableChatWrapperTypeNames"},{"type":"Variable: chatWrappers | node-llama-cpp","url":"https://node-llama-cpp.withcat.ai/api/variables/chatWrappers"}]}
+{
+  "url": "https://node-llama-cpp.withcat.ai/guide/electron#electron-support",
+  "domain": "node-llama-cpp.withcat.ai",
+  "lastScraped": "2025-11-01T14:48:46.968Z",
+  "totalPages": 22,
+  "successfulPages": 22,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Using in Electron | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/guide/electron#electron-support"
+    },
+    {
+      "type": "Blog | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/blog/"
+    },
+    {
+      "type": "node-llama-cpp | Run AI models locally on your machine",
+      "url": "https://node-llama-cpp.withcat.ai/"
+    },
+    {
+      "type": "node-llama-cpp v3.0 | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/blog/v3"
+    },
+    {
+      "type": "gpt-oss is here! | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/blog/v3.12-gpt-oss"
+    },
+    {
+      "type": "DeepSeek R1 with function calling | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/blog/v3.6-deepseek-r1"
+    },
+    {
+      "type": "Awesome node-llama-cpp | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/guide/awesome"
+    },
+    {
+      "type": "Metal Support | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/guide/Metal"
+    },
+    {
+      "type": "Opening a PR on node-llama-cpp | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/guide/contributing"
+    },
+    {
+      "type": "Using Batching | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/guide/batching"
+    },
+    {
+      "type": "Using node-llama-cpp in Docker | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/guide/docker"
+    },
+    {
+      "type": "CLI | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/cli/"
+    },
+    {
+      "type": "init command | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/cli/init"
+    },
+    {
+      "type": "inspect command | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/cli/inspect"
+    },
+    {
+      "type": "inspect gpu command | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/cli/inspect/gpu"
+    },
+    {
+      "type": "source command | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/cli/source"
+    },
+    {
+      "type": "source clear command | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/cli/source/clear"
+    },
+    {
+      "type": "source build command | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/cli/source/build"
+    },
+    {
+      "type": "Variable: specializedChatWrapperTypeNames | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/api/variables/specializedChatWrapperTypeNames"
+    },
+    {
+      "type": "Variable: templateChatWrapperTypeNames | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/api/variables/templateChatWrapperTypeNames"
+    },
+    {
+      "type": "Variable: resolvableChatWrapperTypeNames | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/api/variables/resolvableChatWrapperTypeNames"
+    },
+    {
+      "type": "Variable: chatWrappers | node-llama-cpp",
+      "url": "https://node-llama-cpp.withcat.ai/api/variables/chatWrappers"
+    }
+  ],
+  "latestVersion": "1.2.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-03-24T08:51:23.933Z",
+      "filename": "documentation_2025-03-24T08:51:23.933Z.md",
+      "totalPages": 22,
+      "successfulPages": 22,
+      "url": "https://node-llama-cpp.withcat.ai/guide/electron#electron-support",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-03-24T17:24:47.768Z",
+      "filename": "documentation_2025-03-24T17:24:47.768Z.md",
+      "totalPages": 22,
+      "successfulPages": 22,
+      "url": "https://node-llama-cpp.withcat.ai/guide/electron#electron-support",
+      "isLatest": false
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2025-11-01T14:48:46.968Z",
+      "filename": "documentation_2025-11-01T14:48:46.968Z.md",
+      "totalPages": 22,
+      "successfulPages": 22,
+      "url": "https://node-llama-cpp.withcat.ai/guide/electron#electron-support",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

@@ -1,1 +1,1008 @@
-{"url":"https://emotiv.gitbook.io/cortex-api","domain":"emotiv.gitbook.io","lastScraped":"2025-07-19T07:28:32.051Z","totalPages":246,"successfulPages":246,"failedPages":[],"structure":[{"type":"Getting Started | Cortex API","url":"https://emotiv.gitbook.io/cortex-api"},{"type":"EMOTIV Home | EMOTIV Home","url":"https://emotiv.gitbook.io/emotiv-home"},{"type":"Overview of API flow | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/overview-of-api-flow"},{"type":"getCortexInfo | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/connecting-to-the-cortex-api/getcortexinfo"},{"type":"Connecting to the Cortex API | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/connecting-to-the-cortex-api"},{"type":"Offline support | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/overview-of-api-flow/offline-support"},{"type":"Authentication | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/authentication"},{"type":"hasAccessRight | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/authentication/hasaccessright"},{"type":"Cortex API | System requirements","url":"https://emotiv.gitbook.io/system-requirements/cortex-api"},{"type":"Headsets | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/headset"},{"type":"getUserLogin | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/authentication/getuserlogin"},{"type":"requestAccess | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/authentication/requestaccess"},{"type":"generateNewToken | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/authentication/generatenewtoken"},{"type":"getUserInformation | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/authentication/getuserinformation"},{"type":"getLicenseInfo | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/authentication/getlicenseinfo"},{"type":"controlDevice | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/headset/controldevice"},{"type":"authorize | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/authentication/authorize"},{"type":"queryHeadsets | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/headset/queryheadsets"},{"type":"updateHeadset | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/headset/updateheadset"},{"type":"Sessions | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/session"},{"type":"updateHeadsetCustomInfo | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/headset/updateheadsetcustominfo"},{"type":"createSession | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/session/createsession"},{"type":"unsubscribe | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/data-subscription/unsubscribe"},{"type":"Session object | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/session/session-object"},{"type":"querySessions | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/session/querysessions"},{"type":"updateSession | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/session/updatesession"},{"type":"syncWithHeadsetClock | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/headset/syncwithheadsetclock"},{"type":"Records | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/records"},{"type":"Insight User Manual | INSIGHT Manual","url":"https://emotiv.gitbook.io/insight-manual/"},{"type":"Markers | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/markers"},{"type":"createRecord | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/records/createrecord"},{"type":"Subjects | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/subjects"},{"type":"Headset object | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/headset/headset-object"},{"type":"updateRecord | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/records/updaterecord"},{"type":"subscribe | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/data-subscription/subscribe"},{"type":"injectMarker | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/markers/injectmarker"},{"type":"stopRecord | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/records/stoprecord"},{"type":"deleteRecord | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/records/deleterecord"},{"type":"Introduction | EmotivBCI Toolbox","url":"https://emotiv.gitbook.io/emotivbci-node-red-toolbox/"},{"type":"getRecordInfos | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/records/getrecordinfos"},{"type":"requestToDownloadRecordData | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/records/requesttodownloadrecorddata"},{"type":"Readonly profile | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/bci/readonly-profile"},{"type":"updateMarker | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/markers/updatemarker"},{"type":"Marker object | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/markers/marker-object"},{"type":"Record object | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/records/record-object"},{"type":"queryProfile | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/bci/queryprofile"},{"type":"updateSubject | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/subjects/updatesubject"},{"type":"BCI | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/bci"},{"type":"Subject object | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/subjects/subject-object"},{"type":"deleteSubjects | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/subjects/deletesubjects"},{"type":"configOptOut | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/records/configoptout"},{"type":"Data Subscription | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/data-subscription"},{"type":"queryRecords | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/records/queryrecords"},{"type":"getCurrentProfile | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/bci/getcurrentprofile"},{"type":"getDemographicAttributes | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/subjects/getdemographicattributes"},{"type":"loadGuestProfile | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/bci/loadguestprofile"},{"type":"Advanced BCI | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/advanced-bci"},{"type":"createSubject | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/subjects/createsubject"},{"type":"querySubjects | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/subjects/querysubjects"},{"type":"getTrainingTime | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/advanced-bci/gettrainingtime"},{"type":"getTrainedSignatureActions | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/advanced-bci/gettrainedsignatureactions"},{"type":"training | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/bci/training"},{"type":"mentalCommandGetSkillRating | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/advanced-bci/mentalcommandgetskillrating"},{"type":"setupProfile | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/bci/setupprofile"},{"type":"cortexaccess tool | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/cortexaccess-tool"},{"type":"Troubleshooting Guide | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/troubleshooting-guide"},{"type":"facialExpressionSignatureType | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/advanced-bci/facialexpressionsignaturetype"},{"type":"facialExpressionThreshold | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/advanced-bci/facialexpressionthreshold"},{"type":"mentalCommandTrainingThreshold | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/advanced-bci/mentalcommandtrainingthreshold"},{"type":"exportRecord | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/records/exportrecord"},{"type":"getDetectionInfo | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/bci/getdetectioninfo"},{"type":"MN8 User Manual | MN8 User Manual","url":"https://emotiv.gitbook.io/mn8-user-manual/"},{"type":"mentalCommandActionSensitivity | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/advanced-bci/mentalcommandactionsensitivity"},{"type":"mentalCommandBrainMap | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/advanced-bci/mentalcommandbrainmap"},{"type":"Data sample object | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/data-subscription/data-sample-object"},{"type":"Warning Objects | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/warning-objects"},{"type":"mentalCommandActiveAction | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/advanced-bci/mentalcommandactiveaction"},{"type":"Release Notes | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/release-notes"},{"type":"Error Codes | Cortex API","url":"https://emotiv.gitbook.io/cortex-api/error-codes"},{"type":"EPOC+ User Manual | EPOC+","url":"https://emotiv.gitbook.io/epoc-user-manual/"},{"type":"What is EmotivPRO Analyzer? | EmotivPRO Analyzer","url":"https://emotiv.gitbook.io/emotivpro-analyzer/"},{"type":"Insight 2 | Insight 2 User Manual","url":"https://emotiv.gitbook.io/insight-2-user-manual/"},{"type":"Abbreviations | X-trodes User Manual","url":"https://emotiv.gitbook.io/x-trodes-user-manual/"},{"type":"EPOC FLEX User Manual | EPOC Flex User Manual","url":"https://emotiv.gitbook.io/epoc-flex-user-manual/"},{"type":"EPOC X | EPOC X User Manual","url":"https://emotiv.gitbook.io/epoc-x-user-manual/"},{"type":"FLEX | FLEX 2.0 User Manual","url":"https://emotiv.gitbook.io/flex-2.0-user-manual/"},{"type":"Emotiv BrainViz - User Manual | BrainViz","url":"https://emotiv.gitbook.io/emotiv-brainviz/"},{"type":"What is EMOTIV Launcher? | Emotiv Launcher","url":"https://emotiv.gitbook.io/emotiv-launcher/"},{"type":"Extender Manual | Extender","url":"https://emotiv.gitbook.io/extender-manual/"},{"type":"What is EmotivPRO Builder? | EmotivPRO Builder","url":"https://emotiv.gitbook.io/emotivpro-builder/"},{"type":"EmotivPRO | EmotivPRO v3.0","url":"https://emotiv.gitbook.io/emotivpro-v3/"},{"type":"EmotivBCI | EmotivBCI","url":"https://emotiv.gitbook.io/emotivbci/"},{"type":"EMOTIV Launcher | System requirements","url":"https://emotiv.gitbook.io/system-requirements/launcher"},{"type":"System requirements and supported platforms | System requirements","url":"https://emotiv.gitbook.io/system-requirements"},{"type":"Warranties and Copyright | FLEX 2.0 User Manual","url":"https://emotiv.gitbook.io/flex-2.0-user-manual/warranties-and-copyright"},{"type":"Regulatory Compliance | FLEX 2.0 User Manual","url":"https://emotiv.gitbook.io/flex-2.0-user-manual/regulatory-compliance"},{"type":"Introduction to FLEX | FLEX 2.0 User Manual","url":"https://emotiv.gitbook.io/flex-2.0-user-manual/introduction/introduction-to-flex"},{"type":"EmotivPRO | System requirements","url":"https://emotiv.gitbook.io/system-requirements/emotivpro-v3.0"},{"type":"Warranties and Copyright | MN8 User Manual","url":"https://emotiv.gitbook.io/mn8-user-manual/warranties-and-copyright"},{"type":"Warranties and Copyright | EPOC X User Manual","url":"https://emotiv.gitbook.io/epoc-x-user-manual/warranties-and-copyright"},{"type":"Regulatory compliance | Insight 2 User Manual","url":"https://emotiv.gitbook.io/insight-2-user-manual/compliance/regulatory-compliance"},{"type":"Technical Specifications | INSIGHT Manual","url":"https://emotiv.gitbook.io/insight-manual/introduction/technical-specifications"},{"type":"System requirements | Emotiv Launcher","url":"https://emotiv.gitbook.io/emotiv-launcher/getting-started/system-requirements"},{"type":"System requirements | EmotivPRO Analyzer","url":"https://emotiv.gitbook.io/emotivpro-analyzer/getting-started/system-requirements"},{"type":"System requirements | EmotivPRO Builder","url":"https://emotiv.gitbook.io/emotivpro-builder/getting-started/system-requirements"},{"type":"Application Compatibility | FLEX 2.0 User Manual","url":"https://emotiv.gitbook.io/flex-2.0-user-manual/introduction/application-compatibility"},{"type":"EmotivPRO Builder | System requirements","url":"https://emotiv.gitbook.io/system-requirements/emotivpro-builder"},{"type":"Safety Precautions | INSIGHT Manual","url":"https://emotiv.gitbook.io/insight-manual/introduction/safety-precautions"},{"type":"About | EPOC+","url":"https://emotiv.gitbook.io/epoc-user-manual/introduction-1/about"},{"type":"Introduction | EPOC Flex User Manual","url":"https://emotiv.gitbook.io/epoc-flex-user-manual/epoc-flex/readme"},{"type":"Technical Specifications | EPOC Flex User Manual","url":"https://emotiv.gitbook.io/epoc-flex-user-manual/epoc-flex/technical-spec"},{"type":"Introduction | Extender","url":"https://emotiv.gitbook.io/extender-manual/introduction"},{"type":"Regulatory compliance | EPOC X User Manual","url":"https://emotiv.gitbook.io/epoc-x-user-manual/regulatory-compliance"},{"type":"Technical Specifications | EPOC+","url":"https://emotiv.gitbook.io/epoc-user-manual/introduction-1/technical_specifications"},{"type":"Regulatory Compliance | MN8 User Manual","url":"https://emotiv.gitbook.io/mn8-user-manual/regulatory-compliance"},{"type":"Installation | Emotiv Launcher","url":"https://emotiv.gitbook.io/emotiv-launcher/getting-started/installation"},{"type":"Integration with EmotivBCI | EmotivBCI Toolbox","url":"https://emotiv.gitbook.io/emotivbci-node-red-toolbox/integration-with-emotivbci"},{"type":"Introduction | BrainViz","url":"https://emotiv.gitbook.io/emotiv-brainviz/introduction"},{"type":"Turning your Insight on and off | Insight 2 User Manual","url":"https://emotiv.gitbook.io/insight-2-user-manual/getting-started/turning-your-insight-on-and-off"},{"type":"Changing reference sensor location | EPOC X User Manual","url":"https://emotiv.gitbook.io/epoc-x-user-manual/getting-started/changing-reference-sensor-location"},{"type":"Important information about using a computer to charge your Insight | Insight 2 User Manual","url":"https://emotiv.gitbook.io/insight-2-user-manual/getting-started/charging-your-insight/important-information-about-using-a-computer-to-charge-your-insight"},{"type":"Gel Sensors | EPOC Flex User Manual","url":"https://emotiv.gitbook.io/epoc-flex-user-manual/electrodes/electrode-assembly"},{"type":"Fitting the sensor felts | EPOC X User Manual","url":"https://emotiv.gitbook.io/epoc-x-user-manual/getting-started/fitting-the-sensor-felts"},{"type":"SD card recording mode | Extender","url":"https://emotiv.gitbook.io/extender-manual/modes-of-operation/connecting_your_headset_-_sd_card_recording"},{"type":"Job Management | EmotivPRO Analyzer","url":"https://emotiv.gitbook.io/emotivpro-analyzer/job-management/job-management"},{"type":"Saline Sensors | EPOC Flex User Manual","url":"https://emotiv.gitbook.io/epoc-flex-user-manual/electrodes/saline-electrodes"},{"type":"Storage | EPOC+","url":"https://emotiv.gitbook.io/epoc-user-manual/troubleshooting/storage"},{"type":"Contact quality map | BrainViz","url":"https://emotiv.gitbook.io/emotiv-brainviz/contact_quality_map"},{"type":"Contact quality indicator | BrainViz","url":"https://emotiv.gitbook.io/emotiv-brainviz/contact_quality_map/contact_quality_indicator"},{"type":"Connecting your Insight to a computer using Bluetooth | Insight 2 User Manual","url":"https://emotiv.gitbook.io/insight-2-user-manual/getting-started/connecting-your-insight-to-a-computer-using-bluetooth"},{"type":"Performance Metric Reports | EmotivPRO Analyzer","url":"https://emotiv.gitbook.io/emotivpro-analyzer/job-management/name-and-pipeline/performance-metric-reports"},{"type":"Electrode Assembly | EPOC+","url":"https://emotiv.gitbook.io/epoc-user-manual/troubleshooting/electrode_assembly"},{"type":"Connecting your EPOC X to a device | EPOC X User Manual","url":"https://emotiv.gitbook.io/epoc-x-user-manual/getting-started/connecting-your-epoc-x-to-a-device"},{"type":"Band Power calculation | EmotivPRO Analyzer","url":"https://emotiv.gitbook.io/emotivpro-analyzer/understanding-analyzer-outputs/band-power-calculation"},{"type":"Inserting Sensors | FLEX 2.0 User Manual","url":"https://emotiv.gitbook.io/flex-2.0-user-manual/setting-up-flex-cap/inserting-sensors"},{"type":"Connecting your EPOC X using the USB receiver dongle | EPOC X User Manual","url":"https://emotiv.gitbook.io/epoc-x-user-manual/getting-started/connecting-your-epoc-x-to-a-device/connecting-your-epoc-x-using-the-usb-receiver-dongle"},{"type":"Reattaching Sensor Frame | EPOC+","url":"https://emotiv.gitbook.io/epoc-user-manual/troubleshooting/reattaching-sensor-frame"},{"type":"Pass-through mode | Extender","url":"https://emotiv.gitbook.io/extender-manual/modes-of-operation/connecting_your_headset_-_pass-through_mode"},{"type":"Inserting the Sensors into the Cap | EPOC Flex User Manual","url":"https://emotiv.gitbook.io/epoc-flex-user-manual/setup/inserting-the-sensors-into-the-cap"},{"type":"Upgrading firmware | Emotiv Launcher","url":"https://emotiv.gitbook.io/emotiv-launcher/devices/upgrading-firmware"},{"type":"Fitting your Insight | Insight 2 User Manual","url":"https://emotiv.gitbook.io/insight-2-user-manual/fitting-and-adjusting-insight/fitting-your-insight"},{"type":"Contact quality map | Emotiv Launcher","url":"https://emotiv.gitbook.io/emotiv-launcher/devices/contact-quality-map"},{"type":"Software requirements | EmotivPRO Builder","url":"https://emotiv.gitbook.io/emotivpro-builder/getting-started/installation"},{"type":"Adjusting Insight to fit your head | Insight 2 User Manual","url":"https://emotiv.gitbook.io/insight-2-user-manual/fitting-and-adjusting-insight/adjusting-insight-to-fit-your-head"},{"type":"Specifications & Information | X-trodes User Manual","url":"https://emotiv.gitbook.io/x-trodes-user-manual/specifications-and-information"},{"type":"csv outputs | EmotivPRO Analyzer","url":"https://emotiv.gitbook.io/emotivpro-analyzer/understanding-analyzer-outputs/csv-outputs"},{"type":"What are elements? | EmotivPRO Builder","url":"https://emotiv.gitbook.io/emotivpro-builder/building-an-experiment-in-builder/what-are-elements"},{"type":"Fitting FLEX Cap to a Participant | FLEX 2.0 User Manual","url":"https://emotiv.gitbook.io/flex-2.0-user-manual/setting-up-flex-cap/fitting-flex-cap-to-a-participant"},{"type":"Positioning the FLEX Controller | FLEX 2.0 User Manual","url":"https://emotiv.gitbook.io/flex-2.0-user-manual/setting-up-flex-cap/positioning-the-flex-controller"},{"type":"EMOTIV Applications | EPOC+","url":"https://emotiv.gitbook.io/epoc-user-manual/software-1/software"},{"type":"System requirements | EmotivPRO v3.0","url":"https://emotiv.gitbook.io/emotivpro-v3/getting-started/system-requirements"},{"type":"System Removal | X-trodes User Manual","url":"https://emotiv.gitbook.io/x-trodes-user-manual/system-removal"},{"type":"Inserting silicon skirts onto Sensors | EPOC Flex User Manual","url":"https://emotiv.gitbook.io/epoc-flex-user-manual/setup/inserting-silicon-skirts-onto-sensors"},{"type":"Creating a Virtual Brainwear device | Emotiv Launcher","url":"https://emotiv.gitbook.io/emotiv-launcher/devices-setting-up-virtual-brainwear-r/creating-a-virtual-brainwear-device"},{"type":"Placing the Control Box | EPOC Flex User Manual","url":"https://emotiv.gitbook.io/epoc-flex-user-manual/setup/placing-the-control-box"},{"type":"Channel mapping | X-trodes User Manual","url":"https://emotiv.gitbook.io/x-trodes-user-manual/setting-up/xtr-exg2-xtelc0002005rm/channel-mapping"},{"type":"Naming elements | EmotivPRO Builder","url":"https://emotiv.gitbook.io/emotivpro-builder/building-an-experiment-in-builder/naming-elements"},{"type":"USB receiver dongle behaviour | EPOC X User Manual","url":"https://emotiv.gitbook.io/epoc-x-user-manual/getting-started/connecting-your-epoc-x-to-a-device/connecting-your-epoc-x-using-the-usb-receiver-dongle/usb-receiver-dongle-behaviour"},{"type":"How to achieve the best contact quality | Insight 2 User Manual","url":"https://emotiv.gitbook.io/insight-2-user-manual/fitting-and-adjusting-insight/how-to-achieve-the-best-contact-quality"},{"type":"Connecting your EPOC X using Bluetooth Low Energy | EPOC X User Manual","url":"https://emotiv.gitbook.io/epoc-x-user-manual/getting-started/connecting-your-epoc-x-to-a-device/connecting-your-epoc-x-using-bluetooth-low-energy"},{"type":"EmotivPRO Analyzer | System requirements","url":"https://emotiv.gitbook.io/system-requirements/emotivpro-analyzer"},{"type":"Node descriptions and use | EmotivBCI Toolbox","url":"https://emotiv.gitbook.io/emotivbci-node-red-toolbox/node-descriptions-and-use"},{"type":"Using Training Profiles | EmotivBCI Toolbox","url":"https://emotiv.gitbook.io/emotivbci-node-red-toolbox/using-training-profiles"},{"type":"Create and deploy flows | EmotivBCI Toolbox","url":"https://emotiv.gitbook.io/emotivbci-node-red-toolbox/create-and-deploy-flows"},{"type":"Charging | INSIGHT Manual","url":"https://emotiv.gitbook.io/insight-manual/tips-and-tricks/charging"},{"type":"Example flows | EmotivBCI Toolbox","url":"https://emotiv.gitbook.io/emotivbci-node-red-toolbox/example-flows"},{"type":"Obtaining Good Contact Quality | INSIGHT Manual","url":"https://emotiv.gitbook.io/insight-manual/tips-and-tricks/obtaining-good-contact-quality"},{"type":"Connecting MN8 to a Device | MN8 User Manual","url":"https://emotiv.gitbook.io/mn8-user-manual/getting-started/connecting-mn8-to-a-device"},{"type":"Band Power Reports | EmotivPRO Analyzer","url":"https://emotiv.gitbook.io/emotivpro-analyzer/job-management/name-and-pipeline/band-power-reports"},{"type":"Individual Band-Power Reports | EmotivPRO Analyzer","url":"https://emotiv.gitbook.io/emotivpro-analyzer/job-management/name-and-pipeline/band-power-reports/individual-band-power-reports"},{"type":"Universal USB Receiver (Dongle) | EPOC+","url":"https://emotiv.gitbook.io/epoc-user-manual/using-headset/universal_usb_receiver_dongle"},{"type":"Updating firmware | Updating firmware","url":"https://emotiv.gitbook.io/updating-firmware-1/"},{"type":"EMOTIV App | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/"},{"type":"Objective-C API for iOS | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/objective-c-api"},{"type":"CortexLib class | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/objective-c-api/cortexlib-class"},{"type":"Java API for Android | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/java-api"},{"type":"CortexClient class | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/objective-c-api/cortexclient-class"},{"type":"Create an account | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/getting_started/create_an_account"},{"type":"About EMOTIV App | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/settings/about-emotiv-app"},{"type":"EPOC+/Flex | Updating firmware","url":"https://emotiv.gitbook.io/updating-firmware-1/epoc+-flex"},{"type":"logout | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/logout"},{"type":"queryVirtualHeadsets | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/queryvirtualheadsets"},{"type":"createVirtualHeadset | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/createvirtualheadset"},{"type":"User manual | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/settings/user-manual"},{"type":"EPOC+ and EPOC X configurations | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device/epoc+-and-epocx-configurations"},{"type":"deleteVirtualHeadset | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/deletevirtualheadset"},{"type":"Bluetooth | Updating firmware","url":"https://emotiv.gitbook.io/updating-firmware-1/insight/bluetooth"},{"type":"updateVirtualHeadset | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/updatevirtualheadset"},{"type":"Cable | Updating firmware","url":"https://emotiv.gitbook.io/updating-firmware-1/insight/cable"},{"type":"acceptLicense | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/accept-license"},{"type":"Setting up your EEG device | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device"},{"type":"Connecting and disconnecting your Virtual Brainwear® device | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/connecting-and-disconnecting-your-virtual-brainwear-r-device"},{"type":"Connected headset | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device/connected_headset"},{"type":"Contact quality for Virtual Brainwear ® | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/contact-quality-for-virtual-brainwear-r"},{"type":"Release Notes | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/release-notes"},{"type":"Virtual Brainwear® | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r"},{"type":"Update Apps | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/settings/update-apps"},{"type":"Account screen | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/account_screen"},{"type":"Settings | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/settings/settings"},{"type":"Apps screen | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/apps-screen"},{"type":"Tools screen | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/tools-screen"},{"type":"Insight | Updating firmware","url":"https://emotiv.gitbook.io/updating-firmware-1/insight"},{"type":"Devices  screen | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device/devices_screen"},{"type":"Disconnecting your headset | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device/disconnecting_your_headset"},{"type":"v 2.6.3 | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/release-notes/v-2.6.3"},{"type":"Configuring a Virtual Brainwear ® | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/configuring-a-virtual-brainwear-r"},{"type":"v2.5 | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/release-notes/v2.5"},{"type":"Virtual headset object | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/virtual-headset-object"},{"type":"EPOC X | Updating firmware","url":"https://emotiv.gitbook.io/updating-firmware-1/epoc-x"},{"type":"Creating a new virtual device | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/creating-a-new-virtual-device"},{"type":"Release Notes | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/release-notes"},{"type":"triggerVirtualHeadsetEvent | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/triggervirtualheadsetevent"},{"type":"freeUpRecords | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/freeuprecords"},{"type":"CortexLib class | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/java-api/cortexlib-class"},{"type":"Forgot password | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/getting_started/forgot_password"},{"type":"Licenses | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/account_screen/licenses"},{"type":"EmotivLibraryLoader class | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/java-api/emotivlibraryloader-class"},{"type":"v2.3 | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/release-notes/v2.3"},{"type":"Virtual Brainwear ® Detections | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/virtual-brainwear-r-detections"},{"type":"v2.6.1 | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/release-notes/v2.6.1"},{"type":"Logging in | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/getting_started/logging_in"},{"type":"Virtual Brainwear® device statuses and configuration | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/virtual-brainwear-r-device-statuses-and-configuration"},{"type":"Settings | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/settings"},{"type":"Getting Started | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile"},{"type":"v2.4.1 | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/release-notes/v2.4.1"},{"type":"Running the app | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/getting_started/running_the_app"},{"type":"Additional JSON methods | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi"},{"type":"v2.7 | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/release-notes/v2.7"},{"type":"v 2.6 | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/release-notes/v-2.6"},{"type":"v2.6.2 | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/release-notes/v2.6.2"},{"type":"Closing the app | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/settings/closing_the_app"},{"type":"Virtual Brainwear ® Simulation | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/virtual-brainwear-r-simulation"},{"type":"v2.7.2 | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/release-notes/v2.7.2"},{"type":"v 2.2.1 | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/release-notes/v-2.2.1"},{"type":"Connecting your headset | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device/connecting_your_headset"},{"type":"Logging out | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/settings/logging_out"},{"type":"System requirements | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/getting_started/system_requirements"},{"type":"EMOTIV Setup Wizard | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/settings/update-apps/emotiv-setup-wizard"},{"type":"View device fitting instructions | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device/view_headset_fitting_instructions"},{"type":"v2.7.3 | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/release-notes/v2.7.3"},{"type":"View contact quality map | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device/view_contact_quality_map"},{"type":"Getting started | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/getting_started"},{"type":"Installation | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/getting_started/installation"},{"type":"Turning your virtual device ON/OFF | EMOTIV App","url":"https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/turning-your-virtual-device-on-off"},{"type":"CortexClientDelegate protocol | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/objective-c-api/cortexclientdelegate-protocol"},{"type":"CortexClient class | Cortex Library for Mobile","url":"https://emotiv.gitbook.io/cortex-library-for-mobile/java-api/cortexclient-class"}]}
+{
+  "url": "https://emotiv.gitbook.io/cortex-api",
+  "domain": "emotiv.gitbook.io",
+  "lastScraped": "2025-07-19T07:28:32.051Z",
+  "totalPages": 246,
+  "successfulPages": 246,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Getting Started | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api"
+    },
+    {
+      "type": "EMOTIV Home | EMOTIV Home",
+      "url": "https://emotiv.gitbook.io/emotiv-home"
+    },
+    {
+      "type": "Overview of API flow | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/overview-of-api-flow"
+    },
+    {
+      "type": "getCortexInfo | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/connecting-to-the-cortex-api/getcortexinfo"
+    },
+    {
+      "type": "Connecting to the Cortex API | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/connecting-to-the-cortex-api"
+    },
+    {
+      "type": "Offline support | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/overview-of-api-flow/offline-support"
+    },
+    {
+      "type": "Authentication | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/authentication"
+    },
+    {
+      "type": "hasAccessRight | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/authentication/hasaccessright"
+    },
+    {
+      "type": "Cortex API | System requirements",
+      "url": "https://emotiv.gitbook.io/system-requirements/cortex-api"
+    },
+    {
+      "type": "Headsets | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/headset"
+    },
+    {
+      "type": "getUserLogin | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/authentication/getuserlogin"
+    },
+    {
+      "type": "requestAccess | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/authentication/requestaccess"
+    },
+    {
+      "type": "generateNewToken | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/authentication/generatenewtoken"
+    },
+    {
+      "type": "getUserInformation | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/authentication/getuserinformation"
+    },
+    {
+      "type": "getLicenseInfo | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/authentication/getlicenseinfo"
+    },
+    {
+      "type": "controlDevice | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/headset/controldevice"
+    },
+    {
+      "type": "authorize | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/authentication/authorize"
+    },
+    {
+      "type": "queryHeadsets | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/headset/queryheadsets"
+    },
+    {
+      "type": "updateHeadset | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/headset/updateheadset"
+    },
+    {
+      "type": "Sessions | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/session"
+    },
+    {
+      "type": "updateHeadsetCustomInfo | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/headset/updateheadsetcustominfo"
+    },
+    {
+      "type": "createSession | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/session/createsession"
+    },
+    {
+      "type": "unsubscribe | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/data-subscription/unsubscribe"
+    },
+    {
+      "type": "Session object | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/session/session-object"
+    },
+    {
+      "type": "querySessions | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/session/querysessions"
+    },
+    {
+      "type": "updateSession | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/session/updatesession"
+    },
+    {
+      "type": "syncWithHeadsetClock | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/headset/syncwithheadsetclock"
+    },
+    {
+      "type": "Records | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/records"
+    },
+    {
+      "type": "Insight User Manual | INSIGHT Manual",
+      "url": "https://emotiv.gitbook.io/insight-manual/"
+    },
+    {
+      "type": "Markers | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/markers"
+    },
+    {
+      "type": "createRecord | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/records/createrecord"
+    },
+    {
+      "type": "Subjects | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/subjects"
+    },
+    {
+      "type": "Headset object | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/headset/headset-object"
+    },
+    {
+      "type": "updateRecord | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/records/updaterecord"
+    },
+    {
+      "type": "subscribe | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/data-subscription/subscribe"
+    },
+    {
+      "type": "injectMarker | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/markers/injectmarker"
+    },
+    {
+      "type": "stopRecord | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/records/stoprecord"
+    },
+    {
+      "type": "deleteRecord | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/records/deleterecord"
+    },
+    {
+      "type": "Introduction | EmotivBCI Toolbox",
+      "url": "https://emotiv.gitbook.io/emotivbci-node-red-toolbox/"
+    },
+    {
+      "type": "getRecordInfos | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/records/getrecordinfos"
+    },
+    {
+      "type": "requestToDownloadRecordData | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/records/requesttodownloadrecorddata"
+    },
+    {
+      "type": "Readonly profile | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/bci/readonly-profile"
+    },
+    {
+      "type": "updateMarker | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/markers/updatemarker"
+    },
+    {
+      "type": "Marker object | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/markers/marker-object"
+    },
+    {
+      "type": "Record object | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/records/record-object"
+    },
+    {
+      "type": "queryProfile | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/bci/queryprofile"
+    },
+    {
+      "type": "updateSubject | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/subjects/updatesubject"
+    },
+    {
+      "type": "BCI | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/bci"
+    },
+    {
+      "type": "Subject object | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/subjects/subject-object"
+    },
+    {
+      "type": "deleteSubjects | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/subjects/deletesubjects"
+    },
+    {
+      "type": "configOptOut | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/records/configoptout"
+    },
+    {
+      "type": "Data Subscription | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/data-subscription"
+    },
+    {
+      "type": "queryRecords | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/records/queryrecords"
+    },
+    {
+      "type": "getCurrentProfile | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/bci/getcurrentprofile"
+    },
+    {
+      "type": "getDemographicAttributes | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/subjects/getdemographicattributes"
+    },
+    {
+      "type": "loadGuestProfile | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/bci/loadguestprofile"
+    },
+    {
+      "type": "Advanced BCI | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/advanced-bci"
+    },
+    {
+      "type": "createSubject | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/subjects/createsubject"
+    },
+    {
+      "type": "querySubjects | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/subjects/querysubjects"
+    },
+    {
+      "type": "getTrainingTime | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/advanced-bci/gettrainingtime"
+    },
+    {
+      "type": "getTrainedSignatureActions | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/advanced-bci/gettrainedsignatureactions"
+    },
+    {
+      "type": "training | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/bci/training"
+    },
+    {
+      "type": "mentalCommandGetSkillRating | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/advanced-bci/mentalcommandgetskillrating"
+    },
+    {
+      "type": "setupProfile | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/bci/setupprofile"
+    },
+    {
+      "type": "cortexaccess tool | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/cortexaccess-tool"
+    },
+    {
+      "type": "Troubleshooting Guide | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/troubleshooting-guide"
+    },
+    {
+      "type": "facialExpressionSignatureType | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/advanced-bci/facialexpressionsignaturetype"
+    },
+    {
+      "type": "facialExpressionThreshold | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/advanced-bci/facialexpressionthreshold"
+    },
+    {
+      "type": "mentalCommandTrainingThreshold | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/advanced-bci/mentalcommandtrainingthreshold"
+    },
+    {
+      "type": "exportRecord | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/records/exportrecord"
+    },
+    {
+      "type": "getDetectionInfo | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/bci/getdetectioninfo"
+    },
+    {
+      "type": "MN8 User Manual | MN8 User Manual",
+      "url": "https://emotiv.gitbook.io/mn8-user-manual/"
+    },
+    {
+      "type": "mentalCommandActionSensitivity | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/advanced-bci/mentalcommandactionsensitivity"
+    },
+    {
+      "type": "mentalCommandBrainMap | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/advanced-bci/mentalcommandbrainmap"
+    },
+    {
+      "type": "Data sample object | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/data-subscription/data-sample-object"
+    },
+    {
+      "type": "Warning Objects | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/warning-objects"
+    },
+    {
+      "type": "mentalCommandActiveAction | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/advanced-bci/mentalcommandactiveaction"
+    },
+    {
+      "type": "Release Notes | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/release-notes"
+    },
+    {
+      "type": "Error Codes | Cortex API",
+      "url": "https://emotiv.gitbook.io/cortex-api/error-codes"
+    },
+    {
+      "type": "EPOC+ User Manual | EPOC+",
+      "url": "https://emotiv.gitbook.io/epoc-user-manual/"
+    },
+    {
+      "type": "What is EmotivPRO Analyzer? | EmotivPRO Analyzer",
+      "url": "https://emotiv.gitbook.io/emotivpro-analyzer/"
+    },
+    {
+      "type": "Insight 2 | Insight 2 User Manual",
+      "url": "https://emotiv.gitbook.io/insight-2-user-manual/"
+    },
+    {
+      "type": "Abbreviations | X-trodes User Manual",
+      "url": "https://emotiv.gitbook.io/x-trodes-user-manual/"
+    },
+    {
+      "type": "EPOC FLEX User Manual | EPOC Flex User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-flex-user-manual/"
+    },
+    {
+      "type": "EPOC X | EPOC X User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-x-user-manual/"
+    },
+    {
+      "type": "FLEX | FLEX 2.0 User Manual",
+      "url": "https://emotiv.gitbook.io/flex-2.0-user-manual/"
+    },
+    {
+      "type": "Emotiv BrainViz - User Manual | BrainViz",
+      "url": "https://emotiv.gitbook.io/emotiv-brainviz/"
+    },
+    {
+      "type": "What is EMOTIV Launcher? | Emotiv Launcher",
+      "url": "https://emotiv.gitbook.io/emotiv-launcher/"
+    },
+    {
+      "type": "Extender Manual | Extender",
+      "url": "https://emotiv.gitbook.io/extender-manual/"
+    },
+    {
+      "type": "What is EmotivPRO Builder? | EmotivPRO Builder",
+      "url": "https://emotiv.gitbook.io/emotivpro-builder/"
+    },
+    {
+      "type": "EmotivPRO | EmotivPRO v3.0",
+      "url": "https://emotiv.gitbook.io/emotivpro-v3/"
+    },
+    {
+      "type": "EmotivBCI | EmotivBCI",
+      "url": "https://emotiv.gitbook.io/emotivbci/"
+    },
+    {
+      "type": "EMOTIV Launcher | System requirements",
+      "url": "https://emotiv.gitbook.io/system-requirements/launcher"
+    },
+    {
+      "type": "System requirements and supported platforms | System requirements",
+      "url": "https://emotiv.gitbook.io/system-requirements"
+    },
+    {
+      "type": "Warranties and Copyright | FLEX 2.0 User Manual",
+      "url": "https://emotiv.gitbook.io/flex-2.0-user-manual/warranties-and-copyright"
+    },
+    {
+      "type": "Regulatory Compliance | FLEX 2.0 User Manual",
+      "url": "https://emotiv.gitbook.io/flex-2.0-user-manual/regulatory-compliance"
+    },
+    {
+      "type": "Introduction to FLEX | FLEX 2.0 User Manual",
+      "url": "https://emotiv.gitbook.io/flex-2.0-user-manual/introduction/introduction-to-flex"
+    },
+    {
+      "type": "EmotivPRO | System requirements",
+      "url": "https://emotiv.gitbook.io/system-requirements/emotivpro-v3.0"
+    },
+    {
+      "type": "Warranties and Copyright | MN8 User Manual",
+      "url": "https://emotiv.gitbook.io/mn8-user-manual/warranties-and-copyright"
+    },
+    {
+      "type": "Warranties and Copyright | EPOC X User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-x-user-manual/warranties-and-copyright"
+    },
+    {
+      "type": "Regulatory compliance | Insight 2 User Manual",
+      "url": "https://emotiv.gitbook.io/insight-2-user-manual/compliance/regulatory-compliance"
+    },
+    {
+      "type": "Technical Specifications | INSIGHT Manual",
+      "url": "https://emotiv.gitbook.io/insight-manual/introduction/technical-specifications"
+    },
+    {
+      "type": "System requirements | Emotiv Launcher",
+      "url": "https://emotiv.gitbook.io/emotiv-launcher/getting-started/system-requirements"
+    },
+    {
+      "type": "System requirements | EmotivPRO Analyzer",
+      "url": "https://emotiv.gitbook.io/emotivpro-analyzer/getting-started/system-requirements"
+    },
+    {
+      "type": "System requirements | EmotivPRO Builder",
+      "url": "https://emotiv.gitbook.io/emotivpro-builder/getting-started/system-requirements"
+    },
+    {
+      "type": "Application Compatibility | FLEX 2.0 User Manual",
+      "url": "https://emotiv.gitbook.io/flex-2.0-user-manual/introduction/application-compatibility"
+    },
+    {
+      "type": "EmotivPRO Builder | System requirements",
+      "url": "https://emotiv.gitbook.io/system-requirements/emotivpro-builder"
+    },
+    {
+      "type": "Safety Precautions | INSIGHT Manual",
+      "url": "https://emotiv.gitbook.io/insight-manual/introduction/safety-precautions"
+    },
+    {
+      "type": "About | EPOC+",
+      "url": "https://emotiv.gitbook.io/epoc-user-manual/introduction-1/about"
+    },
+    {
+      "type": "Introduction | EPOC Flex User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-flex-user-manual/epoc-flex/readme"
+    },
+    {
+      "type": "Technical Specifications | EPOC Flex User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-flex-user-manual/epoc-flex/technical-spec"
+    },
+    {
+      "type": "Introduction | Extender",
+      "url": "https://emotiv.gitbook.io/extender-manual/introduction"
+    },
+    {
+      "type": "Regulatory compliance | EPOC X User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-x-user-manual/regulatory-compliance"
+    },
+    {
+      "type": "Technical Specifications | EPOC+",
+      "url": "https://emotiv.gitbook.io/epoc-user-manual/introduction-1/technical_specifications"
+    },
+    {
+      "type": "Regulatory Compliance | MN8 User Manual",
+      "url": "https://emotiv.gitbook.io/mn8-user-manual/regulatory-compliance"
+    },
+    {
+      "type": "Installation | Emotiv Launcher",
+      "url": "https://emotiv.gitbook.io/emotiv-launcher/getting-started/installation"
+    },
+    {
+      "type": "Integration with EmotivBCI | EmotivBCI Toolbox",
+      "url": "https://emotiv.gitbook.io/emotivbci-node-red-toolbox/integration-with-emotivbci"
+    },
+    {
+      "type": "Introduction | BrainViz",
+      "url": "https://emotiv.gitbook.io/emotiv-brainviz/introduction"
+    },
+    {
+      "type": "Turning your Insight on and off | Insight 2 User Manual",
+      "url": "https://emotiv.gitbook.io/insight-2-user-manual/getting-started/turning-your-insight-on-and-off"
+    },
+    {
+      "type": "Changing reference sensor location | EPOC X User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-x-user-manual/getting-started/changing-reference-sensor-location"
+    },
+    {
+      "type": "Important information about using a computer to charge your Insight | Insight 2 User Manual",
+      "url": "https://emotiv.gitbook.io/insight-2-user-manual/getting-started/charging-your-insight/important-information-about-using-a-computer-to-charge-your-insight"
+    },
+    {
+      "type": "Gel Sensors | EPOC Flex User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-flex-user-manual/electrodes/electrode-assembly"
+    },
+    {
+      "type": "Fitting the sensor felts | EPOC X User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-x-user-manual/getting-started/fitting-the-sensor-felts"
+    },
+    {
+      "type": "SD card recording mode | Extender",
+      "url": "https://emotiv.gitbook.io/extender-manual/modes-of-operation/connecting_your_headset_-_sd_card_recording"
+    },
+    {
+      "type": "Job Management | EmotivPRO Analyzer",
+      "url": "https://emotiv.gitbook.io/emotivpro-analyzer/job-management/job-management"
+    },
+    {
+      "type": "Saline Sensors | EPOC Flex User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-flex-user-manual/electrodes/saline-electrodes"
+    },
+    {
+      "type": "Storage | EPOC+",
+      "url": "https://emotiv.gitbook.io/epoc-user-manual/troubleshooting/storage"
+    },
+    {
+      "type": "Contact quality map | BrainViz",
+      "url": "https://emotiv.gitbook.io/emotiv-brainviz/contact_quality_map"
+    },
+    {
+      "type": "Contact quality indicator | BrainViz",
+      "url": "https://emotiv.gitbook.io/emotiv-brainviz/contact_quality_map/contact_quality_indicator"
+    },
+    {
+      "type": "Connecting your Insight to a computer using Bluetooth | Insight 2 User Manual",
+      "url": "https://emotiv.gitbook.io/insight-2-user-manual/getting-started/connecting-your-insight-to-a-computer-using-bluetooth"
+    },
+    {
+      "type": "Performance Metric Reports | EmotivPRO Analyzer",
+      "url": "https://emotiv.gitbook.io/emotivpro-analyzer/job-management/name-and-pipeline/performance-metric-reports"
+    },
+    {
+      "type": "Electrode Assembly | EPOC+",
+      "url": "https://emotiv.gitbook.io/epoc-user-manual/troubleshooting/electrode_assembly"
+    },
+    {
+      "type": "Connecting your EPOC X to a device | EPOC X User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-x-user-manual/getting-started/connecting-your-epoc-x-to-a-device"
+    },
+    {
+      "type": "Band Power calculation | EmotivPRO Analyzer",
+      "url": "https://emotiv.gitbook.io/emotivpro-analyzer/understanding-analyzer-outputs/band-power-calculation"
+    },
+    {
+      "type": "Inserting Sensors | FLEX 2.0 User Manual",
+      "url": "https://emotiv.gitbook.io/flex-2.0-user-manual/setting-up-flex-cap/inserting-sensors"
+    },
+    {
+      "type": "Connecting your EPOC X using the USB receiver dongle | EPOC X User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-x-user-manual/getting-started/connecting-your-epoc-x-to-a-device/connecting-your-epoc-x-using-the-usb-receiver-dongle"
+    },
+    {
+      "type": "Reattaching Sensor Frame | EPOC+",
+      "url": "https://emotiv.gitbook.io/epoc-user-manual/troubleshooting/reattaching-sensor-frame"
+    },
+    {
+      "type": "Pass-through mode | Extender",
+      "url": "https://emotiv.gitbook.io/extender-manual/modes-of-operation/connecting_your_headset_-_pass-through_mode"
+    },
+    {
+      "type": "Inserting the Sensors into the Cap | EPOC Flex User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-flex-user-manual/setup/inserting-the-sensors-into-the-cap"
+    },
+    {
+      "type": "Upgrading firmware | Emotiv Launcher",
+      "url": "https://emotiv.gitbook.io/emotiv-launcher/devices/upgrading-firmware"
+    },
+    {
+      "type": "Fitting your Insight | Insight 2 User Manual",
+      "url": "https://emotiv.gitbook.io/insight-2-user-manual/fitting-and-adjusting-insight/fitting-your-insight"
+    },
+    {
+      "type": "Contact quality map | Emotiv Launcher",
+      "url": "https://emotiv.gitbook.io/emotiv-launcher/devices/contact-quality-map"
+    },
+    {
+      "type": "Software requirements | EmotivPRO Builder",
+      "url": "https://emotiv.gitbook.io/emotivpro-builder/getting-started/installation"
+    },
+    {
+      "type": "Adjusting Insight to fit your head | Insight 2 User Manual",
+      "url": "https://emotiv.gitbook.io/insight-2-user-manual/fitting-and-adjusting-insight/adjusting-insight-to-fit-your-head"
+    },
+    {
+      "type": "Specifications & Information | X-trodes User Manual",
+      "url": "https://emotiv.gitbook.io/x-trodes-user-manual/specifications-and-information"
+    },
+    {
+      "type": "csv outputs | EmotivPRO Analyzer",
+      "url": "https://emotiv.gitbook.io/emotivpro-analyzer/understanding-analyzer-outputs/csv-outputs"
+    },
+    {
+      "type": "What are elements? | EmotivPRO Builder",
+      "url": "https://emotiv.gitbook.io/emotivpro-builder/building-an-experiment-in-builder/what-are-elements"
+    },
+    {
+      "type": "Fitting FLEX Cap to a Participant | FLEX 2.0 User Manual",
+      "url": "https://emotiv.gitbook.io/flex-2.0-user-manual/setting-up-flex-cap/fitting-flex-cap-to-a-participant"
+    },
+    {
+      "type": "Positioning the FLEX Controller | FLEX 2.0 User Manual",
+      "url": "https://emotiv.gitbook.io/flex-2.0-user-manual/setting-up-flex-cap/positioning-the-flex-controller"
+    },
+    {
+      "type": "EMOTIV Applications | EPOC+",
+      "url": "https://emotiv.gitbook.io/epoc-user-manual/software-1/software"
+    },
+    {
+      "type": "System requirements | EmotivPRO v3.0",
+      "url": "https://emotiv.gitbook.io/emotivpro-v3/getting-started/system-requirements"
+    },
+    {
+      "type": "System Removal | X-trodes User Manual",
+      "url": "https://emotiv.gitbook.io/x-trodes-user-manual/system-removal"
+    },
+    {
+      "type": "Inserting silicon skirts onto Sensors | EPOC Flex User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-flex-user-manual/setup/inserting-silicon-skirts-onto-sensors"
+    },
+    {
+      "type": "Creating a Virtual Brainwear device | Emotiv Launcher",
+      "url": "https://emotiv.gitbook.io/emotiv-launcher/devices-setting-up-virtual-brainwear-r/creating-a-virtual-brainwear-device"
+    },
+    {
+      "type": "Placing the Control Box | EPOC Flex User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-flex-user-manual/setup/placing-the-control-box"
+    },
+    {
+      "type": "Channel mapping | X-trodes User Manual",
+      "url": "https://emotiv.gitbook.io/x-trodes-user-manual/setting-up/xtr-exg2-xtelc0002005rm/channel-mapping"
+    },
+    {
+      "type": "Naming elements | EmotivPRO Builder",
+      "url": "https://emotiv.gitbook.io/emotivpro-builder/building-an-experiment-in-builder/naming-elements"
+    },
+    {
+      "type": "USB receiver dongle behaviour | EPOC X User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-x-user-manual/getting-started/connecting-your-epoc-x-to-a-device/connecting-your-epoc-x-using-the-usb-receiver-dongle/usb-receiver-dongle-behaviour"
+    },
+    {
+      "type": "How to achieve the best contact quality | Insight 2 User Manual",
+      "url": "https://emotiv.gitbook.io/insight-2-user-manual/fitting-and-adjusting-insight/how-to-achieve-the-best-contact-quality"
+    },
+    {
+      "type": "Connecting your EPOC X using Bluetooth Low Energy | EPOC X User Manual",
+      "url": "https://emotiv.gitbook.io/epoc-x-user-manual/getting-started/connecting-your-epoc-x-to-a-device/connecting-your-epoc-x-using-bluetooth-low-energy"
+    },
+    {
+      "type": "EmotivPRO Analyzer | System requirements",
+      "url": "https://emotiv.gitbook.io/system-requirements/emotivpro-analyzer"
+    },
+    {
+      "type": "Node descriptions and use | EmotivBCI Toolbox",
+      "url": "https://emotiv.gitbook.io/emotivbci-node-red-toolbox/node-descriptions-and-use"
+    },
+    {
+      "type": "Using Training Profiles | EmotivBCI Toolbox",
+      "url": "https://emotiv.gitbook.io/emotivbci-node-red-toolbox/using-training-profiles"
+    },
+    {
+      "type": "Create and deploy flows | EmotivBCI Toolbox",
+      "url": "https://emotiv.gitbook.io/emotivbci-node-red-toolbox/create-and-deploy-flows"
+    },
+    {
+      "type": "Charging | INSIGHT Manual",
+      "url": "https://emotiv.gitbook.io/insight-manual/tips-and-tricks/charging"
+    },
+    {
+      "type": "Example flows | EmotivBCI Toolbox",
+      "url": "https://emotiv.gitbook.io/emotivbci-node-red-toolbox/example-flows"
+    },
+    {
+      "type": "Obtaining Good Contact Quality | INSIGHT Manual",
+      "url": "https://emotiv.gitbook.io/insight-manual/tips-and-tricks/obtaining-good-contact-quality"
+    },
+    {
+      "type": "Connecting MN8 to a Device | MN8 User Manual",
+      "url": "https://emotiv.gitbook.io/mn8-user-manual/getting-started/connecting-mn8-to-a-device"
+    },
+    {
+      "type": "Band Power Reports | EmotivPRO Analyzer",
+      "url": "https://emotiv.gitbook.io/emotivpro-analyzer/job-management/name-and-pipeline/band-power-reports"
+    },
+    {
+      "type": "Individual Band-Power Reports | EmotivPRO Analyzer",
+      "url": "https://emotiv.gitbook.io/emotivpro-analyzer/job-management/name-and-pipeline/band-power-reports/individual-band-power-reports"
+    },
+    {
+      "type": "Universal USB Receiver (Dongle) | EPOC+",
+      "url": "https://emotiv.gitbook.io/epoc-user-manual/using-headset/universal_usb_receiver_dongle"
+    },
+    {
+      "type": "Updating firmware | Updating firmware",
+      "url": "https://emotiv.gitbook.io/updating-firmware-1/"
+    },
+    {
+      "type": "EMOTIV App | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/"
+    },
+    {
+      "type": "Objective-C API for iOS | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/objective-c-api"
+    },
+    {
+      "type": "CortexLib class | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/objective-c-api/cortexlib-class"
+    },
+    {
+      "type": "Java API for Android | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/java-api"
+    },
+    {
+      "type": "CortexClient class | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/objective-c-api/cortexclient-class"
+    },
+    {
+      "type": "Create an account | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/getting_started/create_an_account"
+    },
+    {
+      "type": "About EMOTIV App | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/settings/about-emotiv-app"
+    },
+    {
+      "type": "EPOC+/Flex | Updating firmware",
+      "url": "https://emotiv.gitbook.io/updating-firmware-1/epoc+-flex"
+    },
+    {
+      "type": "logout | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/logout"
+    },
+    {
+      "type": "queryVirtualHeadsets | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/queryvirtualheadsets"
+    },
+    {
+      "type": "createVirtualHeadset | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/createvirtualheadset"
+    },
+    {
+      "type": "User manual | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/settings/user-manual"
+    },
+    {
+      "type": "EPOC+ and EPOC X configurations | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device/epoc+-and-epocx-configurations"
+    },
+    {
+      "type": "deleteVirtualHeadset | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/deletevirtualheadset"
+    },
+    {
+      "type": "Bluetooth | Updating firmware",
+      "url": "https://emotiv.gitbook.io/updating-firmware-1/insight/bluetooth"
+    },
+    {
+      "type": "updateVirtualHeadset | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/updatevirtualheadset"
+    },
+    {
+      "type": "Cable | Updating firmware",
+      "url": "https://emotiv.gitbook.io/updating-firmware-1/insight/cable"
+    },
+    {
+      "type": "acceptLicense | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/accept-license"
+    },
+    {
+      "type": "Setting up your EEG device | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device"
+    },
+    {
+      "type": "Connecting and disconnecting your Virtual Brainwear® device | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/connecting-and-disconnecting-your-virtual-brainwear-r-device"
+    },
+    {
+      "type": "Connected headset | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device/connected_headset"
+    },
+    {
+      "type": "Contact quality for Virtual Brainwear ® | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/contact-quality-for-virtual-brainwear-r"
+    },
+    {
+      "type": "Release Notes | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/release-notes"
+    },
+    {
+      "type": "Virtual Brainwear® | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r"
+    },
+    {
+      "type": "Update Apps | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/settings/update-apps"
+    },
+    {
+      "type": "Account screen | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/account_screen"
+    },
+    {
+      "type": "Settings | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/settings/settings"
+    },
+    {
+      "type": "Apps screen | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/apps-screen"
+    },
+    {
+      "type": "Tools screen | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/tools-screen"
+    },
+    {
+      "type": "Insight | Updating firmware",
+      "url": "https://emotiv.gitbook.io/updating-firmware-1/insight"
+    },
+    {
+      "type": "Devices  screen | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device/devices_screen"
+    },
+    {
+      "type": "Disconnecting your headset | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device/disconnecting_your_headset"
+    },
+    {
+      "type": "v 2.6.3 | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/release-notes/v-2.6.3"
+    },
+    {
+      "type": "Configuring a Virtual Brainwear ® | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/configuring-a-virtual-brainwear-r"
+    },
+    {
+      "type": "v2.5 | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/release-notes/v2.5"
+    },
+    {
+      "type": "Virtual headset object | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/virtual-headset-object"
+    },
+    {
+      "type": "EPOC X | Updating firmware",
+      "url": "https://emotiv.gitbook.io/updating-firmware-1/epoc-x"
+    },
+    {
+      "type": "Creating a new virtual device | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/creating-a-new-virtual-device"
+    },
+    {
+      "type": "Release Notes | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/release-notes"
+    },
+    {
+      "type": "triggerVirtualHeadsetEvent | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/triggervirtualheadsetevent"
+    },
+    {
+      "type": "freeUpRecords | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi/freeuprecords"
+    },
+    {
+      "type": "CortexLib class | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/java-api/cortexlib-class"
+    },
+    {
+      "type": "Forgot password | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/getting_started/forgot_password"
+    },
+    {
+      "type": "Licenses | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/account_screen/licenses"
+    },
+    {
+      "type": "EmotivLibraryLoader class | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/java-api/emotivlibraryloader-class"
+    },
+    {
+      "type": "v2.3 | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/release-notes/v2.3"
+    },
+    {
+      "type": "Virtual Brainwear ® Detections | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/virtual-brainwear-r-detections"
+    },
+    {
+      "type": "v2.6.1 | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/release-notes/v2.6.1"
+    },
+    {
+      "type": "Logging in | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/getting_started/logging_in"
+    },
+    {
+      "type": "Virtual Brainwear® device statuses and configuration | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/virtual-brainwear-r-device-statuses-and-configuration"
+    },
+    {
+      "type": "Settings | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/settings"
+    },
+    {
+      "type": "Getting Started | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile"
+    },
+    {
+      "type": "v2.4.1 | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/release-notes/v2.4.1"
+    },
+    {
+      "type": "Running the app | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/getting_started/running_the_app"
+    },
+    {
+      "type": "Additional JSON methods | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/jsonapi"
+    },
+    {
+      "type": "v2.7 | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/release-notes/v2.7"
+    },
+    {
+      "type": "v 2.6 | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/release-notes/v-2.6"
+    },
+    {
+      "type": "v2.6.2 | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/release-notes/v2.6.2"
+    },
+    {
+      "type": "Closing the app | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/settings/closing_the_app"
+    },
+    {
+      "type": "Virtual Brainwear ® Simulation | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/virtual-brainwear-r-simulation"
+    },
+    {
+      "type": "v2.7.2 | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/release-notes/v2.7.2"
+    },
+    {
+      "type": "v 2.2.1 | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/release-notes/v-2.2.1"
+    },
+    {
+      "type": "Connecting your headset | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device/connecting_your_headset"
+    },
+    {
+      "type": "Logging out | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/settings/logging_out"
+    },
+    {
+      "type": "System requirements | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/getting_started/system_requirements"
+    },
+    {
+      "type": "EMOTIV Setup Wizard | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/settings/update-apps/emotiv-setup-wizard"
+    },
+    {
+      "type": "View device fitting instructions | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device/view_headset_fitting_instructions"
+    },
+    {
+      "type": "v2.7.3 | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/release-notes/v2.7.3"
+    },
+    {
+      "type": "View contact quality map | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/setting_up_your_eeg_device/view_contact_quality_map"
+    },
+    {
+      "type": "Getting started | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/getting_started"
+    },
+    {
+      "type": "Installation | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/getting_started/installation"
+    },
+    {
+      "type": "Turning your virtual device ON/OFF | EMOTIV App",
+      "url": "https://emotiv.gitbook.io/cortex-manual/virtual-brainwear-r/turning-your-virtual-device-on-off"
+    },
+    {
+      "type": "CortexClientDelegate protocol | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/objective-c-api/cortexclientdelegate-protocol"
+    },
+    {
+      "type": "CortexClient class | Cortex Library for Mobile",
+      "url": "https://emotiv.gitbook.io/cortex-library-for-mobile/java-api/cortexclient-class"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-07-19T07:28:32.051Z",
+      "filename": "documentation_2025-07-19T07:28:32.051Z.md",
+      "totalPages": 246,
+      "successfulPages": 246,
+      "url": "https://emotiv.gitbook.io/cortex-api",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

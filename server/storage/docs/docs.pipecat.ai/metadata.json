@@ -1,1 +1,189 @@
-{"url":"https://docs.pipecat.ai/getting-started/overview","domain":"docs.pipecat.ai","lastScraped":"2025-04-01T14:58:15.624Z","totalPages":30,"successfulPages":30,"failedPages":[],"structure":[{"type":"Overview - Pipecat","url":"https://docs.pipecat.ai/getting-started/overview"},{"type":"Guides - Pipecat","url":"https://docs.pipecat.ai/guides/introduction"},{"type":"Server API Reference - Pipecat","url":"https://docs.pipecat.ai/server/introduction"},{"type":"Client SDKs - Pipecat","url":"https://docs.pipecat.ai/client/introduction"},{"type":"Use Cases - Pipecat","url":"https://docs.pipecat.ai/getting-started/use-cases"},{"type":"Core Concepts - Pipecat","url":"https://docs.pipecat.ai/getting-started/core-concepts"},{"type":"Installation & Setup - Pipecat","url":"https://docs.pipecat.ai/getting-started/installation"},{"type":"Quickstart - Pipecat","url":"https://docs.pipecat.ai/getting-started/quickstart"},{"type":"Supported Services - Pipecat","url":"https://docs.pipecat.ai/server/services/supported-services"},{"type":"Building With OpenAI Audio Models and APIs - Pipecat","url":"https://docs.pipecat.ai/guides/features/openai-audio-models-and-apis"},{"type":"Building with Gemini Multimodal Live - Pipecat","url":"https://docs.pipecat.ai/guides/features/gemini-multimodal-live"},{"type":"SDK Introduction - Pipecat","url":"https://docs.pipecat.ai/client/react-native/introduction"},{"type":"Metrics - Pipecat","url":"https://docs.pipecat.ai/guides/features/metrics"},{"type":"SDK Introduction - Pipecat","url":"https://docs.pipecat.ai/client/react/introduction"},{"type":"SDK Introduction - Pipecat","url":"https://docs.pipecat.ai/client/js/introduction"},{"type":"UserIdleProcessor - Pipecat","url":"https://docs.pipecat.ai/server/utilities/user-idle-processor"},{"type":"TranscriptProcessor - Pipecat","url":"https://docs.pipecat.ai/server/utilities/transcript-processor"},{"type":"Function Calling - Pipecat","url":"https://docs.pipecat.ai/guides/features/function-calling"},{"type":"API Reference - Pipecat","url":"https://docs.pipecat.ai/client/react-native/api-reference"},{"type":"Noise cancellation with Krisp - Pipecat","url":"https://docs.pipecat.ai/guides/features/krisp"},{"type":"SDK Introduction - Pipecat","url":"https://docs.pipecat.ai/client/ios/introduction"},{"type":"SDK Introduction - Pipecat","url":"https://docs.pipecat.ai/client/android/introduction"},{"type":"Overview - Pipecat","url":"https://docs.pipecat.ai/guides/telephony/overview"},{"type":"Pipecat Flows - Pipecat","url":"https://docs.pipecat.ai/server/frameworks/flows/pipecat-flows"},{"type":"SDK Introduction - Pipecat","url":"https://docs.pipecat.ai/client/c++/introduction"},{"type":"Dial-in: WebRTC (Daily) - Pipecat","url":"https://docs.pipecat.ai/guides/telephony/daily-webrtc"},{"type":"PipelineParams - Pipecat","url":"https://docs.pipecat.ai/server/pipeline/pipeline-params"},{"type":"PipelineTask - Pipecat","url":"https://docs.pipecat.ai/server/pipeline/pipeline-task"},{"type":"Pipeline Idle Detection - Pipecat","url":"https://docs.pipecat.ai/server/pipeline/pipeline-idle-detection"},{"type":"Speech Service - Pipecat","url":"https://docs.pipecat.ai/server/base-classes/speech"}]}
+{
+  "url": "https://docs.pipecat.ai/getting-started/overview",
+  "domain": "docs.pipecat.ai",
+  "lastScraped": "2025-04-01T14:58:15.624Z",
+  "totalPages": 30,
+  "successfulPages": 30,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Overview - Pipecat",
+      "url": "https://docs.pipecat.ai/getting-started/overview"
+    },
+    {
+      "type": "Guides - Pipecat",
+      "url": "https://docs.pipecat.ai/guides/introduction"
+    },
+    {
+      "type": "Server API Reference - Pipecat",
+      "url": "https://docs.pipecat.ai/server/introduction"
+    },
+    {
+      "type": "Client SDKs - Pipecat",
+      "url": "https://docs.pipecat.ai/client/introduction"
+    },
+    {
+      "type": "Use Cases - Pipecat",
+      "url": "https://docs.pipecat.ai/getting-started/use-cases"
+    },
+    {
+      "type": "Core Concepts - Pipecat",
+      "url": "https://docs.pipecat.ai/getting-started/core-concepts"
+    },
+    {
+      "type": "Installation & Setup - Pipecat",
+      "url": "https://docs.pipecat.ai/getting-started/installation"
+    },
+    {
+      "type": "Quickstart - Pipecat",
+      "url": "https://docs.pipecat.ai/getting-started/quickstart"
+    },
+    {
+      "type": "Supported Services - Pipecat",
+      "url": "https://docs.pipecat.ai/server/services/supported-services"
+    },
+    {
+      "type": "Building With OpenAI Audio Models and APIs - Pipecat",
+      "url": "https://docs.pipecat.ai/guides/features/openai-audio-models-and-apis"
+    },
+    {
+      "type": "Building with Gemini Multimodal Live - Pipecat",
+      "url": "https://docs.pipecat.ai/guides/features/gemini-multimodal-live"
+    },
+    {
+      "type": "SDK Introduction - Pipecat",
+      "url": "https://docs.pipecat.ai/client/react-native/introduction"
+    },
+    {
+      "type": "Metrics - Pipecat",
+      "url": "https://docs.pipecat.ai/guides/features/metrics"
+    },
+    {
+      "type": "SDK Introduction - Pipecat",
+      "url": "https://docs.pipecat.ai/client/react/introduction"
+    },
+    {
+      "type": "SDK Introduction - Pipecat",
+      "url": "https://docs.pipecat.ai/client/js/introduction"
+    },
+    {
+      "type": "UserIdleProcessor - Pipecat",
+      "url": "https://docs.pipecat.ai/server/utilities/user-idle-processor"
+    },
+    {
+      "type": "TranscriptProcessor - Pipecat",
+      "url": "https://docs.pipecat.ai/server/utilities/transcript-processor"
+    },
+    {
+      "type": "Function Calling - Pipecat",
+      "url": "https://docs.pipecat.ai/guides/features/function-calling"
+    },
+    {
+      "type": "API Reference - Pipecat",
+      "url": "https://docs.pipecat.ai/client/react-native/api-reference"
+    },
+    {
+      "type": "Noise cancellation with Krisp - Pipecat",
+      "url": "https://docs.pipecat.ai/guides/features/krisp"
+    },
+    {
+      "type": "SDK Introduction - Pipecat",
+      "url": "https://docs.pipecat.ai/client/ios/introduction"
+    },
+    {
+      "type": "SDK Introduction - Pipecat",
+      "url": "https://docs.pipecat.ai/client/android/introduction"
+    },
+    {
+      "type": "Overview - Pipecat",
+      "url": "https://docs.pipecat.ai/guides/telephony/overview"
+    },
+    {
+      "type": "Pipecat Flows - Pipecat",
+      "url": "https://docs.pipecat.ai/server/frameworks/flows/pipecat-flows"
+    },
+    {
+      "type": "SDK Introduction - Pipecat",
+      "url": "https://docs.pipecat.ai/client/c++/introduction"
+    },
+    {
+      "type": "Dial-in: WebRTC (Daily) - Pipecat",
+      "url": "https://docs.pipecat.ai/guides/telephony/daily-webrtc"
+    },
+    {
+      "type": "PipelineParams - Pipecat",
+      "url": "https://docs.pipecat.ai/server/pipeline/pipeline-params"
+    },
+    {
+      "type": "PipelineTask - Pipecat",
+      "url": "https://docs.pipecat.ai/server/pipeline/pipeline-task"
+    },
+    {
+      "type": "Pipeline Idle Detection - Pipecat",
+      "url": "https://docs.pipecat.ai/server/pipeline/pipeline-idle-detection"
+    },
+    {
+      "type": "Speech Service - Pipecat",
+      "url": "https://docs.pipecat.ai/server/base-classes/speech"
+    }
+  ],
+  "latestVersion": "1.5.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2024-12-24T07:41:27.927Z",
+      "filename": "documentation_2024-12-24T07:41:27.927Z.md",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "url": "https://docs.pipecat.ai/getting-started/overview",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-02-02T10:30:55.012Z",
+      "filename": "documentation_2025-02-02T10:30:55.012Z.md",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "url": "https://docs.pipecat.ai/getting-started/overview",
+      "isLatest": false
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2025-02-10T12:06:57.321Z",
+      "filename": "documentation_2025-02-10T12:06:57.321Z.md",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "url": "https://docs.pipecat.ai/getting-started/overview",
+      "isLatest": false
+    },
+    {
+      "version": "1.3.0",
+      "timestamp": "2025-03-02T10:45:47.802Z",
+      "filename": "documentation_2025-03-02T10:45:47.802Z.md",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "url": "https://docs.pipecat.ai/getting-started/overview",
+      "isLatest": false
+    },
+    {
+      "version": "1.4.0",
+      "timestamp": "2025-03-02T10:46:31.213Z",
+      "filename": "documentation_2025-03-02T10:46:31.213Z.md",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "url": "https://docs.pipecat.ai/getting-started/overview",
+      "isLatest": false
+    },
+    {
+      "version": "1.5.0",
+      "timestamp": "2025-04-01T14:58:15.624Z",
+      "filename": "documentation_2025-04-01T14:58:15.624Z.md",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "url": "https://docs.pipecat.ai/getting-started/overview",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

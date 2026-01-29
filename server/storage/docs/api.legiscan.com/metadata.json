@@ -1,1 +1,196 @@
-{"url":"https://api.legiscan.com/docs/","domain":"api.legiscan.com","lastScraped":"2025-07-16T02:14:02.205Z","totalPages":43,"successfulPages":43,"failedPages":[],"structure":[{"type":"LegiScan API Client","url":"https://api.legiscan.com/docs/"},{"type":"Package LegiScan | LegiScan API Client","url":"https://api.legiscan.com/docs/package-LegiScan.html"},{"type":"Package LegiScan\\API | LegiScan API Client","url":"https://api.legiscan.com/docs/package-LegiScan.API.html"},{"type":"Package LegiScan\\Cache | LegiScan API Client","url":"https://api.legiscan.com/docs/package-LegiScan.Cache.html"},{"type":"Package LegiScan\\Exceptions | LegiScan API Client","url":"https://api.legiscan.com/docs/package-LegiScan.Exceptions.html"},{"type":"Package LegiScan\\Common | LegiScan API Client","url":"https://api.legiscan.com/docs/package-LegiScan.Common.html"},{"type":"Package LegiScan\\Utility | LegiScan API Client","url":"https://api.legiscan.com/docs/package-LegiScan.Utility.html"},{"type":"Class LegiScan | LegiScan API Client","url":"https://api.legiscan.com/docs/class-LegiScan.html"},{"type":"Package PHP | LegiScan API Client","url":"https://api.legiscan.com/docs/package-PHP.html"},{"type":"Class LegiScan_Bulk | LegiScan API Client","url":"https://api.legiscan.com/docs/class-LegiScan_Bulk.html"},{"type":"Class LegiScan_Cache_File | LegiScan API Client","url":"https://api.legiscan.com/docs/class-LegiScan_Cache_File.html"},{"type":"Class LegiScan_Cache_Memory | LegiScan API Client","url":"https://api.legiscan.com/docs/class-LegiScan_Cache_Memory.html"},{"type":"Class LegiScan_Push | LegiScan API Client","url":"https://api.legiscan.com/docs/class-LegiScan_Push.html"},{"type":"Class LegiScan_CommandLine | LegiScan API Client","url":"https://api.legiscan.com/docs/class-LegiScan_CommandLine.html"},{"type":"Class LegiScan_Endpoint | LegiScan API Client","url":"https://api.legiscan.com/docs/class-LegiScan_Endpoint.html"},{"type":"Class LegiScan_WebTest | LegiScan API Client","url":"https://api.legiscan.com/docs/class-LegiScan_WebTest.html"},{"type":"Class LegiScan_Worker | LegiScan API Client","url":"https://api.legiscan.com/docs/class-LegiScan_Worker.html"},{"type":"Class LegiScan_Pull | LegiScan API Client","url":"https://api.legiscan.com/docs/class-LegiScan_Pull.html"},{"type":"Class LegiScan_Import | LegiScan API Client","url":"https://api.legiscan.com/docs/class-LegiScan_Import.html"},{"type":"Class LegiScan_Process | LegiScan API Client","url":"https://api.legiscan.com/docs/class-LegiScan_Process.html"},{"type":"Class APIAccessException | LegiScan API Client","url":"https://api.legiscan.com/docs/class-APIAccessException.html"},{"type":"Class APIAuthTokenException | LegiScan API Client","url":"https://api.legiscan.com/docs/class-APIAuthTokenException.html"},{"type":"Class APIException | LegiScan API Client","url":"https://api.legiscan.com/docs/class-APIException.html"},{"type":"Class APIStatusException | LegiScan API Client","url":"https://api.legiscan.com/docs/class-APIStatusException.html"},{"type":"Function expect_user | LegiScan API Client","url":"https://api.legiscan.com/docs/function-expect_user.html"},{"type":"Function is_cli | LegiScan API Client","url":"https://api.legiscan.com/docs/function-is_cli.html"},{"type":"Function legiscan_getopt | LegiScan API Client","url":"https://api.legiscan.com/docs/function-legiscan_getopt.html"},{"type":"Function legiscan_help | LegiScan API Client","url":"https://api.legiscan.com/docs/function-legiscan_help.html"},{"type":"Function legiscan_option | LegiScan API Client","url":"https://api.legiscan.com/docs/function-legiscan_option.html"},{"type":"Function memory_usage | LegiScan API Client","url":"https://api.legiscan.com/docs/function-memory_usage.html"},{"type":"Function prettyPrint | LegiScan API Client","url":"https://api.legiscan.com/docs/function-prettyPrint.html"},{"type":"Function sec2hms | LegiScan API Client","url":"https://api.legiscan.com/docs/function-sec2hms.html"},{"type":"Function timer_clear | LegiScan API Client","url":"https://api.legiscan.com/docs/function-timer_clear.html"},{"type":"Function timer_read | LegiScan API Client","url":"https://api.legiscan.com/docs/function-timer_read.html"},{"type":"Function timer_start | LegiScan API Client","url":"https://api.legiscan.com/docs/function-timer_start.html"},{"type":"Function timer_stop | LegiScan API Client","url":"https://api.legiscan.com/docs/function-timer_stop.html"},{"type":"Function yes_no_prompt | LegiScan API Client","url":"https://api.legiscan.com/docs/function-yes_no_prompt.html"},{"type":"Interface Traversable | LegiScan API Client","url":"https://api.legiscan.com/docs/class-Traversable.html"},{"type":"Class PDOException | LegiScan API Client","url":"https://api.legiscan.com/docs/class-PDOException.html"},{"type":"Class RuntimeException | LegiScan API Client","url":"https://api.legiscan.com/docs/class-RuntimeException.html"},{"type":"Class PDOStatement | LegiScan API Client","url":"https://api.legiscan.com/docs/class-PDOStatement.html"},{"type":"Class PDO | LegiScan API Client","url":"https://api.legiscan.com/docs/class-PDO.html"},{"type":"Class Exception | LegiScan API Client","url":"https://api.legiscan.com/docs/class-Exception.html"}]}
+{
+  "url": "https://api.legiscan.com/docs/",
+  "domain": "api.legiscan.com",
+  "lastScraped": "2025-07-16T02:14:02.205Z",
+  "totalPages": 43,
+  "successfulPages": 43,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/"
+    },
+    {
+      "type": "Package LegiScan | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/package-LegiScan.html"
+    },
+    {
+      "type": "Package LegiScan\\API | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/package-LegiScan.API.html"
+    },
+    {
+      "type": "Package LegiScan\\Cache | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/package-LegiScan.Cache.html"
+    },
+    {
+      "type": "Package LegiScan\\Exceptions | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/package-LegiScan.Exceptions.html"
+    },
+    {
+      "type": "Package LegiScan\\Common | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/package-LegiScan.Common.html"
+    },
+    {
+      "type": "Package LegiScan\\Utility | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/package-LegiScan.Utility.html"
+    },
+    {
+      "type": "Class LegiScan | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-LegiScan.html"
+    },
+    {
+      "type": "Package PHP | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/package-PHP.html"
+    },
+    {
+      "type": "Class LegiScan_Bulk | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-LegiScan_Bulk.html"
+    },
+    {
+      "type": "Class LegiScan_Cache_File | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-LegiScan_Cache_File.html"
+    },
+    {
+      "type": "Class LegiScan_Cache_Memory | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-LegiScan_Cache_Memory.html"
+    },
+    {
+      "type": "Class LegiScan_Push | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-LegiScan_Push.html"
+    },
+    {
+      "type": "Class LegiScan_CommandLine | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-LegiScan_CommandLine.html"
+    },
+    {
+      "type": "Class LegiScan_Endpoint | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-LegiScan_Endpoint.html"
+    },
+    {
+      "type": "Class LegiScan_WebTest | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-LegiScan_WebTest.html"
+    },
+    {
+      "type": "Class LegiScan_Worker | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-LegiScan_Worker.html"
+    },
+    {
+      "type": "Class LegiScan_Pull | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-LegiScan_Pull.html"
+    },
+    {
+      "type": "Class LegiScan_Import | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-LegiScan_Import.html"
+    },
+    {
+      "type": "Class LegiScan_Process | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-LegiScan_Process.html"
+    },
+    {
+      "type": "Class APIAccessException | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-APIAccessException.html"
+    },
+    {
+      "type": "Class APIAuthTokenException | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-APIAuthTokenException.html"
+    },
+    {
+      "type": "Class APIException | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-APIException.html"
+    },
+    {
+      "type": "Class APIStatusException | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-APIStatusException.html"
+    },
+    {
+      "type": "Function expect_user | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/function-expect_user.html"
+    },
+    {
+      "type": "Function is_cli | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/function-is_cli.html"
+    },
+    {
+      "type": "Function legiscan_getopt | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/function-legiscan_getopt.html"
+    },
+    {
+      "type": "Function legiscan_help | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/function-legiscan_help.html"
+    },
+    {
+      "type": "Function legiscan_option | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/function-legiscan_option.html"
+    },
+    {
+      "type": "Function memory_usage | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/function-memory_usage.html"
+    },
+    {
+      "type": "Function prettyPrint | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/function-prettyPrint.html"
+    },
+    {
+      "type": "Function sec2hms | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/function-sec2hms.html"
+    },
+    {
+      "type": "Function timer_clear | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/function-timer_clear.html"
+    },
+    {
+      "type": "Function timer_read | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/function-timer_read.html"
+    },
+    {
+      "type": "Function timer_start | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/function-timer_start.html"
+    },
+    {
+      "type": "Function timer_stop | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/function-timer_stop.html"
+    },
+    {
+      "type": "Function yes_no_prompt | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/function-yes_no_prompt.html"
+    },
+    {
+      "type": "Interface Traversable | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-Traversable.html"
+    },
+    {
+      "type": "Class PDOException | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-PDOException.html"
+    },
+    {
+      "type": "Class RuntimeException | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-RuntimeException.html"
+    },
+    {
+      "type": "Class PDOStatement | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-PDOStatement.html"
+    },
+    {
+      "type": "Class PDO | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-PDO.html"
+    },
+    {
+      "type": "Class Exception | LegiScan API Client",
+      "url": "https://api.legiscan.com/docs/class-Exception.html"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-07-16T02:14:02.205Z",
+      "filename": "documentation_2025-07-16T02:14:02.205Z.md",
+      "totalPages": 43,
+      "successfulPages": 43,
+      "url": "https://api.legiscan.com/docs/",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

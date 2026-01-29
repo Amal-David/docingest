@@ -1,1 +1,208 @@
-{"url":"https://www.anchor-lang.com/docs","domain":"www.anchor-lang.com","lastScraped":"2025-08-30T05:33:39.614Z","totalPages":46,"successfulPages":46,"failedPages":[],"structure":[{"type":"Introduction","url":"https://www.anchor-lang.com/docs"},{"type":"Installation","url":"https://www.anchor-lang.com/docs/installation"},{"type":"Anchor Framework Basics","url":"https://www.anchor-lang.com/docs/basics"},{"type":"Local Development","url":"https://www.anchor-lang.com/docs/quickstart/local"},{"type":"Quickstart","url":"https://www.anchor-lang.com/docs/quickstart"},{"type":"Solana Playground","url":"https://www.anchor-lang.com/docs/quickstart/solpg"},{"type":"Program Structure","url":"https://www.anchor-lang.com/docs/basics/program-structure"},{"type":"Program IDL File","url":"https://www.anchor-lang.com/docs/basics/idl"},{"type":"Program Derived Address","url":"https://www.anchor-lang.com/docs/basics/pda"},{"type":"Cross Program Invocation","url":"https://www.anchor-lang.com/docs/basics/cpi"},{"type":"Clients","url":"https://www.anchor-lang.com/docs/clients"},{"type":"TypeScript","url":"https://www.anchor-lang.com/docs/clients/typescript"},{"type":"Dependency Free Composability","url":"https://www.anchor-lang.com/docs/features/declare-program"},{"type":"Rust","url":"https://www.anchor-lang.com/docs/clients/rust"},{"type":"Zero Copy","url":"https://www.anchor-lang.com/docs/features/zero-copy"},{"type":"Testing","url":"https://www.anchor-lang.com/docs/testing"},{"type":"Features","url":"https://www.anchor-lang.com/docs/features"},{"type":"Token Integration with Anchor","url":"https://www.anchor-lang.com/docs/tokens"},{"type":"Extensions","url":"https://www.anchor-lang.com/docs/tokens/extensions"},{"type":"Anchor References","url":"https://www.anchor-lang.com/docs/references"},{"type":"Custom Errors","url":"https://www.anchor-lang.com/docs/features/errors"},{"type":"Emit Events","url":"https://www.anchor-lang.com/docs/features/events"},{"type":"Mollusk","url":"https://www.anchor-lang.com/docs/testing/mollusk"},{"type":"Anchor.toml Configuration","url":"https://www.anchor-lang.com/docs/references/anchor-toml"},{"type":"Anchor Version Manager","url":"https://www.anchor-lang.com/docs/references/avm"},{"type":"Account Types","url":"https://www.anchor-lang.com/docs/references/account-types"},{"type":"LiteSVM","url":"https://www.anchor-lang.com/docs/testing/litesvm"},{"type":"Verifiable Builds","url":"https://www.anchor-lang.com/docs/references/verifiable-builds"},{"type":"Anchor CLI","url":"https://www.anchor-lang.com/docs/references/cli"},{"type":"Sealevel Attacks","url":"https://www.anchor-lang.com/docs/references/security-exploits"},{"type":"Account Space","url":"https://www.anchor-lang.com/docs/references/space"},{"type":"Rust to JS Type Conversion","url":"https://www.anchor-lang.com/docs/references/type-conversion"},{"type":"Contribution Guide","url":"https://www.anchor-lang.com/docs/updates/contribution-guide"},{"type":"Example Programs","url":"https://www.anchor-lang.com/docs/references/examples"},{"type":"SPL Token Basics","url":"https://www.anchor-lang.com/docs/tokens/basics"},{"type":"Account Constraints","url":"https://www.anchor-lang.com/docs/references/account-constraints"},{"type":"Changelog","url":"https://www.anchor-lang.com/docs/updates/changelog"},{"type":"Create a Token Mint","url":"https://www.anchor-lang.com/docs/tokens/basics/create-mint"},{"type":"0.31.1","url":"https://www.anchor-lang.com/docs/updates/release-notes/0-31-1"},{"type":"Create a Token Account","url":"https://www.anchor-lang.com/docs/tokens/basics/create-token-account"},{"type":"Mint Tokens","url":"https://www.anchor-lang.com/docs/tokens/basics/mint-tokens"},{"type":"Transfer Tokens","url":"https://www.anchor-lang.com/docs/tokens/basics/transfer-tokens"},{"type":"0.29.0","url":"https://www.anchor-lang.com/docs/updates/release-notes/0-29-0"},{"type":"0.30.0","url":"https://www.anchor-lang.com/docs/updates/release-notes/0-30-0"},{"type":"0.31.0","url":"https://www.anchor-lang.com/docs/updates/release-notes/0-31-0"},{"type":"0.30.1","url":"https://www.anchor-lang.com/docs/updates/release-notes/0-30-1"}]}
+{
+  "url": "https://www.anchor-lang.com/docs",
+  "domain": "www.anchor-lang.com",
+  "lastScraped": "2025-08-30T05:33:39.614Z",
+  "totalPages": 46,
+  "successfulPages": 46,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Introduction",
+      "url": "https://www.anchor-lang.com/docs"
+    },
+    {
+      "type": "Installation",
+      "url": "https://www.anchor-lang.com/docs/installation"
+    },
+    {
+      "type": "Anchor Framework Basics",
+      "url": "https://www.anchor-lang.com/docs/basics"
+    },
+    {
+      "type": "Local Development",
+      "url": "https://www.anchor-lang.com/docs/quickstart/local"
+    },
+    {
+      "type": "Quickstart",
+      "url": "https://www.anchor-lang.com/docs/quickstart"
+    },
+    {
+      "type": "Solana Playground",
+      "url": "https://www.anchor-lang.com/docs/quickstart/solpg"
+    },
+    {
+      "type": "Program Structure",
+      "url": "https://www.anchor-lang.com/docs/basics/program-structure"
+    },
+    {
+      "type": "Program IDL File",
+      "url": "https://www.anchor-lang.com/docs/basics/idl"
+    },
+    {
+      "type": "Program Derived Address",
+      "url": "https://www.anchor-lang.com/docs/basics/pda"
+    },
+    {
+      "type": "Cross Program Invocation",
+      "url": "https://www.anchor-lang.com/docs/basics/cpi"
+    },
+    {
+      "type": "Clients",
+      "url": "https://www.anchor-lang.com/docs/clients"
+    },
+    {
+      "type": "TypeScript",
+      "url": "https://www.anchor-lang.com/docs/clients/typescript"
+    },
+    {
+      "type": "Dependency Free Composability",
+      "url": "https://www.anchor-lang.com/docs/features/declare-program"
+    },
+    {
+      "type": "Rust",
+      "url": "https://www.anchor-lang.com/docs/clients/rust"
+    },
+    {
+      "type": "Zero Copy",
+      "url": "https://www.anchor-lang.com/docs/features/zero-copy"
+    },
+    {
+      "type": "Testing",
+      "url": "https://www.anchor-lang.com/docs/testing"
+    },
+    {
+      "type": "Features",
+      "url": "https://www.anchor-lang.com/docs/features"
+    },
+    {
+      "type": "Token Integration with Anchor",
+      "url": "https://www.anchor-lang.com/docs/tokens"
+    },
+    {
+      "type": "Extensions",
+      "url": "https://www.anchor-lang.com/docs/tokens/extensions"
+    },
+    {
+      "type": "Anchor References",
+      "url": "https://www.anchor-lang.com/docs/references"
+    },
+    {
+      "type": "Custom Errors",
+      "url": "https://www.anchor-lang.com/docs/features/errors"
+    },
+    {
+      "type": "Emit Events",
+      "url": "https://www.anchor-lang.com/docs/features/events"
+    },
+    {
+      "type": "Mollusk",
+      "url": "https://www.anchor-lang.com/docs/testing/mollusk"
+    },
+    {
+      "type": "Anchor.toml Configuration",
+      "url": "https://www.anchor-lang.com/docs/references/anchor-toml"
+    },
+    {
+      "type": "Anchor Version Manager",
+      "url": "https://www.anchor-lang.com/docs/references/avm"
+    },
+    {
+      "type": "Account Types",
+      "url": "https://www.anchor-lang.com/docs/references/account-types"
+    },
+    {
+      "type": "LiteSVM",
+      "url": "https://www.anchor-lang.com/docs/testing/litesvm"
+    },
+    {
+      "type": "Verifiable Builds",
+      "url": "https://www.anchor-lang.com/docs/references/verifiable-builds"
+    },
+    {
+      "type": "Anchor CLI",
+      "url": "https://www.anchor-lang.com/docs/references/cli"
+    },
+    {
+      "type": "Sealevel Attacks",
+      "url": "https://www.anchor-lang.com/docs/references/security-exploits"
+    },
+    {
+      "type": "Account Space",
+      "url": "https://www.anchor-lang.com/docs/references/space"
+    },
+    {
+      "type": "Rust to JS Type Conversion",
+      "url": "https://www.anchor-lang.com/docs/references/type-conversion"
+    },
+    {
+      "type": "Contribution Guide",
+      "url": "https://www.anchor-lang.com/docs/updates/contribution-guide"
+    },
+    {
+      "type": "Example Programs",
+      "url": "https://www.anchor-lang.com/docs/references/examples"
+    },
+    {
+      "type": "SPL Token Basics",
+      "url": "https://www.anchor-lang.com/docs/tokens/basics"
+    },
+    {
+      "type": "Account Constraints",
+      "url": "https://www.anchor-lang.com/docs/references/account-constraints"
+    },
+    {
+      "type": "Changelog",
+      "url": "https://www.anchor-lang.com/docs/updates/changelog"
+    },
+    {
+      "type": "Create a Token Mint",
+      "url": "https://www.anchor-lang.com/docs/tokens/basics/create-mint"
+    },
+    {
+      "type": "0.31.1",
+      "url": "https://www.anchor-lang.com/docs/updates/release-notes/0-31-1"
+    },
+    {
+      "type": "Create a Token Account",
+      "url": "https://www.anchor-lang.com/docs/tokens/basics/create-token-account"
+    },
+    {
+      "type": "Mint Tokens",
+      "url": "https://www.anchor-lang.com/docs/tokens/basics/mint-tokens"
+    },
+    {
+      "type": "Transfer Tokens",
+      "url": "https://www.anchor-lang.com/docs/tokens/basics/transfer-tokens"
+    },
+    {
+      "type": "0.29.0",
+      "url": "https://www.anchor-lang.com/docs/updates/release-notes/0-29-0"
+    },
+    {
+      "type": "0.30.0",
+      "url": "https://www.anchor-lang.com/docs/updates/release-notes/0-30-0"
+    },
+    {
+      "type": "0.31.0",
+      "url": "https://www.anchor-lang.com/docs/updates/release-notes/0-31-0"
+    },
+    {
+      "type": "0.30.1",
+      "url": "https://www.anchor-lang.com/docs/updates/release-notes/0-30-1"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-08-30T05:33:39.614Z",
+      "filename": "documentation_2025-08-30T05:33:39.614Z.md",
+      "totalPages": 46,
+      "successfulPages": 46,
+      "url": "https://www.anchor-lang.com/docs",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

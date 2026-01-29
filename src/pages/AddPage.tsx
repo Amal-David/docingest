@@ -776,9 +776,6 @@ const HomePage: React.FC = () => {
         <p className="text-gray-600 text-lg">
           Download documentation for any Framework, Library or API
         </p>
-        <p className="text-gray-500 mb-2 text-sm">
-          Always use latest documentation with ChatGPT, Claude or Cursor / Windsurf IDE
-        </p>
         
         <div className="flex justify-center space-x-4">
           <Link

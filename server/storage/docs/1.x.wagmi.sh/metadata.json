@@ -1,1 +1,160 @@
-{"url":"https://1.x.wagmi.sh/core","domain":"1.x.wagmi.sh","lastScraped":"2025-04-11T14:17:22.499Z","totalPages":34,"successfulPages":34,"failedPages":[],"structure":[{"type":"Getting Started – @wagmi/core","url":"https://1.x.wagmi.sh/core"},{"type":"Getting Started – wagmi","url":"https://1.x.wagmi.sh/react/getting-started"},{"type":"wagmi: React Hooks for Ethereum – wagmi","url":"https://1.x.wagmi.sh/"},{"type":"wagmi Blog – wagmi","url":"https://1.x.wagmi.sh/blog"},{"type":"Getting Started – @wagmi/cli","url":"https://1.x.wagmi.sh/cli/getting-started"},{"type":"TypeScript – @wagmi/core","url":"https://1.x.wagmi.sh/core/typescript"},{"type":"Connect Wallet Example – wagmi","url":"https://1.x.wagmi.sh/examples/connect-wallet"},{"type":"Chains – @wagmi/core","url":"https://1.x.wagmi.sh/core/chains"},{"type":"Config – @wagmi/core","url":"https://1.x.wagmi.sh/core/config"},{"type":"Migration Guide – @wagmi/core","url":"https://1.x.wagmi.sh/core/migration-guide"},{"type":"Configuring Chains – @wagmi/core","url":"https://1.x.wagmi.sh/core/providers/configuring-chains"},{"type":"Alchemy – @wagmi/core","url":"https://1.x.wagmi.sh/core/providers/alchemy"},{"type":"Infura – @wagmi/core","url":"https://1.x.wagmi.sh/core/providers/infura"},{"type":"Public – @wagmi/core","url":"https://1.x.wagmi.sh/core/providers/public"},{"type":"JSON RPC – @wagmi/core","url":"https://1.x.wagmi.sh/core/providers/jsonRpc"},{"type":"Injected – @wagmi/core","url":"https://1.x.wagmi.sh/core/connectors/injected"},{"type":"Coinbase Wallet – @wagmi/core","url":"https://1.x.wagmi.sh/core/connectors/coinbaseWallet"},{"type":"MetaMask – @wagmi/core","url":"https://1.x.wagmi.sh/core/connectors/metaMask"},{"type":"Mock – @wagmi/core","url":"https://1.x.wagmi.sh/core/connectors/mock"},{"type":"Safe Wallet – @wagmi/core","url":"https://1.x.wagmi.sh/core/connectors/safe"},{"type":"WalletConnect – @wagmi/core","url":"https://1.x.wagmi.sh/core/connectors/walletConnect"},{"type":"WalletConnectLegacy – @wagmi/core","url":"https://1.x.wagmi.sh/core/connectors/walletConnectLegacy"},{"type":"disconnect – @wagmi/core","url":"https://1.x.wagmi.sh/core/actions/disconnect"},{"type":"connect – @wagmi/core","url":"https://1.x.wagmi.sh/core/actions/connect"},{"type":"fetchBalance – @wagmi/core","url":"https://1.x.wagmi.sh/core/actions/fetchBalance"},{"type":"fetchBlockNumber – @wagmi/core","url":"https://1.x.wagmi.sh/core/actions/fetchBlockNumber"},{"type":"fetchEnsAddress – @wagmi/core","url":"https://1.x.wagmi.sh/core/actions/fetchEnsAddress"},{"type":"Library Comparison – wagmi","url":"https://1.x.wagmi.sh/react/comparison"},{"type":"fetchEnsAvatar – @wagmi/core","url":"https://1.x.wagmi.sh/core/actions/fetchEnsAvatar"},{"type":"fetchEnsName – @wagmi/core","url":"https://1.x.wagmi.sh/core/actions/fetchEnsName"},{"type":"fetchEnsResolver – @wagmi/core","url":"https://1.x.wagmi.sh/core/actions/fetchEnsResolver"},{"type":"Config – wagmi","url":"https://1.x.wagmi.sh/react/config"},{"type":"Config Options – @wagmi/cli","url":"https://1.x.wagmi.sh/cli/configuration/options"},{"type":"fetchFeeData – @wagmi/core","url":"https://1.x.wagmi.sh/core/actions/fetchFeeData"}]}
+{
+  "url": "https://1.x.wagmi.sh/core",
+  "domain": "1.x.wagmi.sh",
+  "lastScraped": "2025-04-11T14:17:22.499Z",
+  "totalPages": 34,
+  "successfulPages": 34,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Getting Started – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core"
+    },
+    {
+      "type": "Getting Started – wagmi",
+      "url": "https://1.x.wagmi.sh/react/getting-started"
+    },
+    {
+      "type": "wagmi: React Hooks for Ethereum – wagmi",
+      "url": "https://1.x.wagmi.sh/"
+    },
+    {
+      "type": "wagmi Blog – wagmi",
+      "url": "https://1.x.wagmi.sh/blog"
+    },
+    {
+      "type": "Getting Started – @wagmi/cli",
+      "url": "https://1.x.wagmi.sh/cli/getting-started"
+    },
+    {
+      "type": "TypeScript – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/typescript"
+    },
+    {
+      "type": "Connect Wallet Example – wagmi",
+      "url": "https://1.x.wagmi.sh/examples/connect-wallet"
+    },
+    {
+      "type": "Chains – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/chains"
+    },
+    {
+      "type": "Config – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/config"
+    },
+    {
+      "type": "Migration Guide – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/migration-guide"
+    },
+    {
+      "type": "Configuring Chains – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/providers/configuring-chains"
+    },
+    {
+      "type": "Alchemy – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/providers/alchemy"
+    },
+    {
+      "type": "Infura – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/providers/infura"
+    },
+    {
+      "type": "Public – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/providers/public"
+    },
+    {
+      "type": "JSON RPC – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/providers/jsonRpc"
+    },
+    {
+      "type": "Injected – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/connectors/injected"
+    },
+    {
+      "type": "Coinbase Wallet – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/connectors/coinbaseWallet"
+    },
+    {
+      "type": "MetaMask – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/connectors/metaMask"
+    },
+    {
+      "type": "Mock – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/connectors/mock"
+    },
+    {
+      "type": "Safe Wallet – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/connectors/safe"
+    },
+    {
+      "type": "WalletConnect – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/connectors/walletConnect"
+    },
+    {
+      "type": "WalletConnectLegacy – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/connectors/walletConnectLegacy"
+    },
+    {
+      "type": "disconnect – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/actions/disconnect"
+    },
+    {
+      "type": "connect – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/actions/connect"
+    },
+    {
+      "type": "fetchBalance – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/actions/fetchBalance"
+    },
+    {
+      "type": "fetchBlockNumber – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/actions/fetchBlockNumber"
+    },
+    {
+      "type": "fetchEnsAddress – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/actions/fetchEnsAddress"
+    },
+    {
+      "type": "Library Comparison – wagmi",
+      "url": "https://1.x.wagmi.sh/react/comparison"
+    },
+    {
+      "type": "fetchEnsAvatar – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/actions/fetchEnsAvatar"
+    },
+    {
+      "type": "fetchEnsName – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/actions/fetchEnsName"
+    },
+    {
+      "type": "fetchEnsResolver – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/actions/fetchEnsResolver"
+    },
+    {
+      "type": "Config – wagmi",
+      "url": "https://1.x.wagmi.sh/react/config"
+    },
+    {
+      "type": "Config Options – @wagmi/cli",
+      "url": "https://1.x.wagmi.sh/cli/configuration/options"
+    },
+    {
+      "type": "fetchFeeData – @wagmi/core",
+      "url": "https://1.x.wagmi.sh/core/actions/fetchFeeData"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-04-11T14:17:22.499Z",
+      "filename": "documentation_2025-04-11T14:17:22.499Z.md",
+      "totalPages": 34,
+      "successfulPages": 34,
+      "url": "https://1.x.wagmi.sh/core",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}
