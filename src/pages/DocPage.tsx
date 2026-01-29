@@ -589,7 +589,7 @@ const DocPage: React.FC = () => {
         <meta property="og:url" content={`https://docingest.com/docs/${doc?.domain}`} />
       </Helmet>
 
-      <div className="max-w-7xl mx-auto px-4 py-8">
+      <div className="max-w-[1600px] mx-auto px-4 lg:px-8 py-8">
         <div className="space-y-8">
           <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-4">
             <div>
@@ -660,7 +660,7 @@ const DocPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="lg:pr-80">
+          <div className="lg:pr-96">
             {/* Older version warning banner */}
             {currentVersion && !doc?.isLatest && availableVersions.length > 1 && (
               <OlderVersionBanner

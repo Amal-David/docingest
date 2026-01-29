@@ -29,10 +29,12 @@ export function TableOfContents({ content, searchQuery, onCopySection }: TableOf
     while ((match = headingRegex.exec(content)) !== null) {
       const level = match[1].length;
       const text = match[2].trim();
+      // Match the ID generation logic in DocPage.tsx createHeadingId
       const id = text
         .toLowerCase()
         .replace(/[^\w\s-]/g, '')
-        .replace(/\s+/g, '-');
+        .replace(/\s+/g, '-')
+        .replace(/^-+|-+$/g, '');
 
       if (text.toLowerCase() !== 'table of contents') {
         extractedHeadings.push({ id, text, level });
@@ -164,7 +166,7 @@ export function TableOfContents({ content, searchQuery, onCopySection }: TableOf
 
       <div
         className={`
-          fixed top-24 right-6 w-72 max-h-[calc(100vh-200px)] overflow-y-auto
+          fixed top-24 right-8 w-80 max-h-[calc(100vh-160px)] overflow-y-auto
           bg-white border-[3px] border-gray-900 rounded-xl p-6 shadow-lg z-50
           transition-transform duration-300 ease-in-out
           ${isOpen ? 'translate-x-0' : 'translate-x-[400px]'}
