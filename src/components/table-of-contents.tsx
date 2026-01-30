@@ -11,9 +11,10 @@ interface TableOfContentsProps {
   content: string;
   searchQuery?: string;
   onCopySection?: (sectionId: string, content: string) => void;
+  inline?: boolean; // When true, renders as a simple inline box (for desktop sidebar)
 }
 
-export function TableOfContents({ content, searchQuery, onCopySection }: TableOfContentsProps) {
+export function TableOfContents({ content, searchQuery, onCopySection, inline = false }: TableOfContentsProps) {
   const [headings, setHeadings] = useState<Heading[]>([]);
   const [sections, setSections] = useState<Section[]>([]);
   const [activeId, setActiveId] = useState<string>('');
@@ -28,7 +29,23 @@ export function TableOfContents({ content, searchQuery, onCopySection }: TableOf
 
     while ((match = headingRegex.exec(content)) !== null) {
       const level = match[1].length;
-      const text = match[2].trim();
+      let text = match[2].trim();
+
+      // Clean up the heading text - remove markdown links and other artifacts
+      // Remove markdown link syntax: [text](url) -> text
+      text = text.replace(/\[([^\]]*)\]\([^)]*\)/g, '$1');
+      // Remove empty brackets
+      text = text.replace(/\[\]\([^)]*\)/g, '');
+      // Remove standalone brackets
+      text = text.replace(/\[\]/g, '');
+      // Clean up extra whitespace
+      text = text.replace(/\s+/g, ' ').trim();
+
+      // Skip empty headings or those that are just URLs
+      if (!text || text.startsWith('http') || text.startsWith('(http')) {
+        continue;
+      }
+
       // Match the ID generation logic in DocPage.tsx createHeadingId
       const id = text
         .toLowerCase()
@@ -36,7 +53,7 @@ export function TableOfContents({ content, searchQuery, onCopySection }: TableOf
         .replace(/\s+/g, '-')
         .replace(/^-+|-+$/g, '');
 
-      if (text.toLowerCase() !== 'table of contents') {
+      if (text.toLowerCase() !== 'table of contents' && id) {
         extractedHeadings.push({ id, text, level });
       }
     }
@@ -134,47 +151,11 @@ export function TableOfContents({ content, searchQuery, onCopySection }: TableOf
 
   const isSearchActive = searchQuery && searchQuery.length >= 2;
 
-  return (
+  const tocContent = (
     <>
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="lg:hidden fixed bottom-6 right-6 z-50 p-4 bg-primary text-white border-[3px] border-gray-900 rounded-full shadow-lg hover:-translate-y-1 transition-transform"
-        aria-label="Toggle Table of Contents"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M4 6h16M4 12h16M4 18h16"
-          />
-        </svg>
-      </button>
-
-      {isOpen && (
-        <div
-          className="lg:hidden fixed inset-0 bg-black bg-opacity-50 z-40"
-          onClick={() => setIsOpen(false)}
-        />
-      )}
-
-      <div
-        className={`
-          fixed top-24 right-8 w-80 max-h-[calc(100vh-160px)] overflow-y-auto
-          bg-white border-[3px] border-gray-900 rounded-xl p-6 shadow-lg z-50
-          transition-transform duration-300 ease-in-out
-          ${isOpen ? 'translate-x-0' : 'translate-x-[400px]'}
-          lg:translate-x-0
-        `}
-      >
-        <div className="flex items-center justify-between mb-4">
-          <h3 className="text-lg font-bold text-gray-900">On This Page</h3>
+      <div className="flex items-center justify-between mb-4">
+        <h3 className="text-lg font-bold text-gray-900">On This Page</h3>
+        {!inline && (
           <button
             onClick={() => setIsOpen(false)}
             className="lg:hidden text-gray-500 hover:text-gray-700"
@@ -195,73 +176,127 @@ export function TableOfContents({ content, searchQuery, onCopySection }: TableOf
               />
             </svg>
           </button>
-        </div>
-
-        <nav>
-          <ul className="space-y-1">
-            {headings.map(({ id, text, level }) => {
-              const isMatching = !isSearchActive || matchingIds.has(id);
-              const isCopied = copiedId === id;
-
-              return (
-                <li
-                  key={id}
-                  style={{ paddingLeft: `${(level - 1) * 0.75}rem` }}
-                  className="group relative"
-                >
-                  <div className="flex items-center gap-1">
-                    <button
-                      onClick={() => scrollToHeading(id)}
-                      className={`
-                        flex-1 text-left text-sm py-1.5 px-2 rounded transition-all
-                        ${
-                          activeId === id
-                            ? 'text-primary font-semibold bg-gray-50'
-                            : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
-                        }
-                        ${!isMatching ? 'opacity-30' : ''}
-                      `}
-                    >
-                      {text}
-                    </button>
-
-                    {/* Copy button - visible on hover or always on mobile */}
-                    <button
-                      onClick={(e) => handleCopySection(e, id)}
-                      className={`
-                        flex-shrink-0 p-1.5 rounded transition-all
-                        ${isCopied
-                          ? 'bg-green-100 text-green-600'
-                          : 'text-gray-400 hover:text-gray-600 hover:bg-gray-100 opacity-0 group-hover:opacity-100 lg:opacity-0 lg:group-hover:opacity-100'
-                        }
-                      `}
-                      title={isCopied ? 'Copied!' : 'Copy section'}
-                    >
-                      {isCopied ? (
-                        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                      ) : (
-                        <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                        </svg>
-                      )}
-                    </button>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        </nav>
-
-        {/* Search hint when search is active */}
-        {isSearchActive && matchingIds.size > 0 && (
-          <div className="mt-4 pt-3 border-t border-gray-200">
-            <p className="text-xs text-gray-500">
-              {matchingIds.size} section{matchingIds.size !== 1 ? 's' : ''} match "{searchQuery}"
-            </p>
-          </div>
         )}
+      </div>
+
+      <nav>
+        <ul className="space-y-1">
+          {headings.map(({ id, text, level }) => {
+            const isMatching = !isSearchActive || matchingIds.has(id);
+            const isCopied = copiedId === id;
+
+            return (
+              <li
+                key={id}
+                style={{ paddingLeft: `${(level - 1) * 0.75}rem` }}
+                className="group relative"
+              >
+                <div className="flex items-center gap-1">
+                  <button
+                    onClick={() => scrollToHeading(id)}
+                    className={`
+                      flex-1 text-left text-sm py-1.5 px-2 rounded transition-all truncate
+                      ${
+                        activeId === id
+                          ? 'text-primary font-semibold bg-gray-50'
+                          : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                      }
+                      ${!isMatching ? 'opacity-30' : ''}
+                    `}
+                    title={text}
+                  >
+                    {text}
+                  </button>
+
+                  {/* Copy button - visible on hover */}
+                  <button
+                    onClick={(e) => handleCopySection(e, id)}
+                    className={`
+                      flex-shrink-0 p-1.5 rounded transition-all
+                      ${isCopied
+                        ? 'bg-green-100 text-green-600'
+                        : 'text-gray-400 hover:text-gray-600 hover:bg-gray-100 opacity-0 group-hover:opacity-100'
+                      }
+                    `}
+                    title={isCopied ? 'Copied!' : 'Copy section'}
+                  >
+                    {isCopied ? (
+                      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    ) : (
+                      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                      </svg>
+                    )}
+                  </button>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
+
+      {/* Search hint when search is active */}
+      {isSearchActive && matchingIds.size > 0 && (
+        <div className="mt-4 pt-3 border-t border-gray-200">
+          <p className="text-xs text-gray-500">
+            {matchingIds.size} section{matchingIds.size !== 1 ? 's' : ''} match "{searchQuery}"
+          </p>
+        </div>
+      )}
+    </>
+  );
+
+  // Inline mode: just render the content in a simple box
+  if (inline) {
+    return (
+      <div className="bg-white border-[3px] border-gray-900 rounded-xl p-5 max-h-[calc(100vh-140px)] overflow-y-auto">
+        {tocContent}
+      </div>
+    );
+  }
+
+  // Mobile mode: floating button + slide-out panel
+  return (
+    <>
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="fixed bottom-6 right-6 z-50 p-4 bg-primary text-white border-[3px] border-gray-900 rounded-full shadow-lg hover:-translate-y-1 transition-transform"
+        aria-label="Toggle Table of Contents"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </button>
+
+      {isOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 z-40"
+          onClick={() => setIsOpen(false)}
+        />
+      )}
+
+      <div
+        className={`
+          fixed top-20 right-4 w-80 max-h-[calc(100vh-120px)] overflow-y-auto
+          bg-white border-[3px] border-gray-900 rounded-xl p-5 shadow-lg z-50
+          transition-transform duration-300 ease-in-out
+          ${isOpen ? 'translate-x-0' : 'translate-x-[400px]'}
+        `}
+      >
+        {tocContent}
       </div>
     </>
   );

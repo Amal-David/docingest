@@ -10,7 +10,6 @@ import TurndownService from 'turndown';
 import type { Node as TurndownNode } from 'turndown';
 import DOMPurify from 'dompurify';
 import { ErrorBoundary } from '../components/error-boundary';
-import { TableOfContents } from '../components/table-of-contents';
 import { DocSearch } from '../components/doc-search';
 import { VersionSelector, OlderVersionBanner, type VersionInfo } from '../components/version-selector';
 
@@ -38,9 +37,9 @@ const SyntaxHighlighterLazy = React.lazy(() =>
             minWidth: '2.5em',
             paddingRight: '1em',
             color: '#666',
-            borderRight: '1px solid #404040',
             marginRight: '1em',
-            userSelect: 'none'
+            userSelect: 'none',
+            background: 'transparent'
           }}
           wrapLongLines={false}
           preserveWhitespace={true}
@@ -182,12 +181,41 @@ const DocPage: React.FC = () => {
   }, [availableVersions, fetchDocWithVersion]);
 
   const cleanMarkdownContent = (content: string): string => {
+    // Remove excessive newlines
     content = content.replace(/\n{4,}/g, '\n\n\n');
+
+    // Remove escaped brackets
     content = content.replace(/\\([[\]()])/g, '$1');
+
+    // Remove empty code blocks
     content = content.replace(/```(\w+)?\s*\n\s*```/g, '');
+
+    // Fix heading spacing
     content = content.replace(/^(#{1,6})\s{2,}/gm, '$1 ');
+
+    // Remove null characters
     content = content.replace(/\0/g, '');
-    return content;
+
+    // Remove empty anchor links with invisible characters [​](url) or [](url)
+    content = content.replace(/\[[\u200B\u200C\u200D\uFEFF]*\]\([^)]*\)/g, '');
+
+    // Remove standalone "Copy" lines (often artifacts from doc sites)
+    content = content.replace(/^Copy\s*$/gm, '');
+
+    // Remove lines that are just dashes (decorative separators)
+    content = content.replace(/^-{10,}$/gm, '');
+
+    // Convert setext-style headings (underlines) to ATX-style
+    content = content.replace(/^(.+)\n={3,}\s*$/gm, '# $1');
+    content = content.replace(/^(.+)\n-{3,}\s*$/gm, '## $1');
+
+    // Remove empty headings (### followed by nothing meaningful)
+    content = content.replace(/^#{1,6}\s*$/gm, '');
+
+    // Clean up multiple consecutive blank lines
+    content = content.replace(/\n{3,}/g, '\n\n');
+
+    return content.trim();
   };
 
   const handleDownload = async () => {
@@ -227,10 +255,6 @@ const DocPage: React.FC = () => {
     setImageErrors(prev => new Set(prev).add(src));
   };
 
-  const handleCopySection = useCallback((sectionId: string, content: string) => {
-    // Optional: could show a toast notification here
-    console.log(`Copied section: ${sectionId}`);
-  }, []);
 
   const displayDomain = (domain: string) => {
     return domain.replace(/^docs\./, '').replace(/\.ai$/, '');
@@ -589,8 +613,9 @@ const DocPage: React.FC = () => {
         <meta property="og:url" content={`https://docingest.com/docs/${doc?.domain}`} />
       </Helmet>
 
-      <div className="max-w-[1600px] mx-auto px-4 lg:px-8 py-8">
-        <div className="space-y-8">
+      <div className="w-full px-4 lg:px-8 py-8">
+        {/* Header Section - Full Width */}
+        <div className="max-w-screen-2xl mx-auto mb-8">
           <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-4">
             <div>
               <div className="flex items-center gap-3 mb-2">
@@ -659,61 +684,54 @@ const DocPage: React.FC = () => {
               )}
             </div>
           </div>
+        </div>
 
-          <div className="lg:pr-96">
-            {/* Older version warning banner */}
-            {currentVersion && !doc?.isLatest && availableVersions.length > 1 && (
-              <OlderVersionBanner
-                currentVersion={currentVersion}
-                latestVersion={availableVersions.find(v => v.isLatest)?.version || ''}
-                onViewLatest={handleViewLatest}
-              />
-            )}
-
-            {/* Search Bar */}
-            {processedContent && displayMode === 'markdown' && (
-              <div className="mb-6">
-                <DocSearch
-                  content={processedContent}
-                  onSearchChange={(query) => setSearchQuery(query)}
-                />
-              </div>
-            )}
-
-            <div className="relative">
-              <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
-              <div className="rounded-xl relative z-20 p-6 md:p-10 border-[3px] border-gray-900 bg-white">
-                <ErrorBoundary>
-                  <div className="prose prose-lg max-w-none">
-                    {displayMode === 'markdown' ? (
-                      <ReactMarkdown
-                        components={markdownComponents}
-                        remarkPlugins={[remarkGfm]}
-                        rehypePlugins={[rehypeRaw, rehypeSanitize]}
-                      >
-                        {processedContent}
-                      </ReactMarkdown>
-                    ) : (
-                      <div 
-                        dangerouslySetInnerHTML={{ 
-                          __html: DOMPurify.sanitize(doc?.html || '') 
-                        }} 
-                        className="markdown-body"
-                      />
-                    )}
-                  </div>
-                </ErrorBoundary>
-              </div>
-            </div>
-          </div>
-
-          {processedContent && displayMode === 'markdown' && (
-            <TableOfContents
-              content={processedContent}
-              searchQuery={searchQuery}
-              onCopySection={handleCopySection}
+        {/* Main Content Area - Full Width */}
+        <div className="max-w-5xl mx-auto">
+          {/* Older version warning banner */}
+          {currentVersion && !doc?.isLatest && availableVersions.length > 1 && (
+            <OlderVersionBanner
+              currentVersion={currentVersion}
+              latestVersion={availableVersions.find(v => v.isLatest)?.version || ''}
+              onViewLatest={handleViewLatest}
             />
           )}
+
+          {/* Search Bar */}
+          {processedContent && displayMode === 'markdown' && (
+            <div className="mb-6">
+              <DocSearch
+                content={processedContent}
+                onSearchChange={(query) => setSearchQuery(query)}
+              />
+            </div>
+          )}
+
+          <div className="relative">
+            <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
+            <div className="rounded-xl relative z-20 p-6 md:p-12 border-[3px] border-gray-900 bg-white">
+              <ErrorBoundary>
+                <div className="prose prose-lg max-w-none">
+                  {displayMode === 'markdown' ? (
+                    <ReactMarkdown
+                      components={markdownComponents}
+                      remarkPlugins={[remarkGfm]}
+                      rehypePlugins={[rehypeRaw, rehypeSanitize]}
+                    >
+                      {processedContent}
+                    </ReactMarkdown>
+                  ) : (
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: DOMPurify.sanitize(doc?.html || '')
+                      }}
+                      className="markdown-body"
+                    />
+                  )}
+                </div>
+              </ErrorBoundary>
+            </div>
+          </div>
         </div>
       </div>
     </>

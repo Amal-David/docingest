@@ -4,8 +4,6 @@ import { HelmetProvider } from 'react-helmet-async';
 import ReactGA from "react-ga4";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import { initWebVitals } from './utils/web-vitals';
-import { PerformanceDashboard } from './components/performance-dashboard';
 
 // Lazy load pages for code splitting
 const HomePage = lazy(() => import('./pages/HomePage'));
@@ -34,8 +32,6 @@ const App: React.FC = () => {
     // Initial GA setup
     ReactGA.send({ hitType: "pageview", page: window.location.pathname });
     
-    // Initialize Web Vitals monitoring
-    initWebVitals();
   }, []);
 
   return (
@@ -108,7 +104,6 @@ const App: React.FC = () => {
             } />
           </Routes>
         </Suspense>
-        <PerformanceDashboard />
       </Router>
     </HelmetProvider>
   );
