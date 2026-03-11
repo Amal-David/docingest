@@ -1633,20 +1633,18 @@ app.get('/api/docs/popular', async (req, res) => {
  */
 app.get('/api/admin/index/stats', async (req, res) => {
   try {
+    res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate');
     const stats = await getIndexStats();
 
-    // If Redis is not connected, count domains from filesystem
-    if (!stats.redisConnected || stats.totalDomains === 0) {
-      try {
-        if (await fs.pathExists(STORAGE_PATH)) {
-          const domains = await fs.readdir(STORAGE_PATH);
-          // Filter out hidden files/folders
-          const validDomains = domains.filter(d => !d.startsWith('.'));
-          stats.totalDomains = validDomains.length;
-        }
-      } catch (fsError) {
-        console.error('Filesystem count error:', fsError);
+    // Always use filesystem count for totalDomains (source of truth for docs indexed)
+    try {
+      if (await fs.pathExists(STORAGE_PATH)) {
+        const domains = await fs.readdir(STORAGE_PATH);
+        const validDomains = domains.filter(d => !d.startsWith('.'));
+        stats.totalDomains = validDomains.length;
       }
+    } catch (fsError) {
+      console.error('Filesystem count error:', fsError);
     }
 
     res.json(stats);
