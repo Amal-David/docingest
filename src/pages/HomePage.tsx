@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
+import { isLikelyBlockedPage } from '../utils/scrape-filter';
 
 // Types
 interface SearchResult {
@@ -34,7 +35,6 @@ interface FastSearchResponse {
 }
 
 const API_URL = '/api';
-const FIRECRAWL_API = process.env.REACT_APP_FIRECRAWL_API_URL || 'http://localhost:3002/v2';
 
 // Debounce hook
 function useDebounce<T>(value: T, delay: number): T {
@@ -189,25 +189,25 @@ export default function HomePage() {
     }
 
     try {
-      // Start crawl with optimized settings
+      // Start crawl via server proxy (Cloudflare Browser Rendering)
       const requestBody = {
         url: url.startsWith('http') ? url : `https://${url}`,
         limit: 250,
         maxDepth: 5,
         allowBackwardLinks: true,
-        ignoreQueryParameters: true,  // Avoid re-scraping same path with different query params
+        ignoreQueryParameters: true,
         scrapeOptions: {
           formats: ['markdown', 'html'],
           onlyMainContent: true,
-          removeBase64Images: true,   // Reduce payload size
-          blockAds: true,             // Block ads and cookie popups
+          removeBase64Images: true,
+          blockAds: true,
           timeout: 60000,
           waitFor: 2000,
-          maxAge: 3600000             // Use cached version if < 1 hour old (500% faster)
+          maxAge: 3600000
         }
       };
 
-      const response = await fetch(`${FIRECRAWL_API}/crawl`, {
+      const response = await fetch(`${API_URL}/crawl/start`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(requestBody)
@@ -239,7 +239,7 @@ export default function HomePage() {
         }
 
         try {
-          const statusResponse = await fetch(`${FIRECRAWL_API}/crawl/${crawlId}`);
+          const statusResponse = await fetch(`${API_URL}/crawl/status/${crawlId}`);
 
           // Handle HTTP errors
           if (!statusResponse.ok) {
@@ -270,7 +270,14 @@ export default function HomePage() {
             if (statusData.data && statusData.data.length > 0) {
               const timestamp = new Date().toISOString();
               const pages = statusData.data
-                .filter((item: any) => item.markdown && item.markdown.length > 100)
+                .filter((item: any) => {
+                  const blocked = isLikelyBlockedPage(
+                    item.metadata?.title,
+                    item.markdown,
+                    item.metadata?.sourceURL
+                  );
+                  return !blocked && item.markdown && item.markdown.length > 100;
+                })
                 .map((item: any) => ({
                   content: item.markdown,
                   type: item.metadata?.title || 'Unknown',

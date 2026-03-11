@@ -52,6 +52,14 @@ import type {
   SaveDocRequest,
 } from './types/versioning';
 import { hasVersioning as checkHasVersioning } from './types/versioning';
+
+// Cloudflare Browser Rendering crawl client
+import {
+  startCrawl,
+  getCrawlStatus,
+  isCloudflareConfigured,
+  type CrawlStartRequest,
+} from './lib/cloudflare-crawl';
 const app = express();
 const PORT = process.env.PORT || 8001;
 
@@ -192,6 +200,24 @@ const generateTableOfContents = (pages: any[]) => {
   });
   return toc + '\n---\n\n';
 };
+
+// Detect likely bot-block / interstitial pages (e.g., Cloudflare challenge)
+const BLOCKED_TITLE_RE = /(just a moment|attention required|one more step|please wait|access denied|checking your browser|verify you are human)/i;
+const BLOCKED_CHALLENGE_RE = /(checking your browser|verify you are human|enable javascript|ddos protection|cf-browser-verification|cf-challenge|turnstile|pardon our interruption|access denied|please wait|one more step)/i;
+const BLOCKED_CLOUDFLARE_RE = /(cloudflare ray id|performance & security by cloudflare)/i;
+const BLOCKED_URL_RE = /(\/cdn-cgi\/|\/cf-challenge\/|\/cf-cgi\/)/i;
+
+function isLikelyBlockedPage(page: { type?: string; content?: string; url?: string }): boolean {
+  const title = (page.type || '').toLowerCase();
+  const content = (page.content || '').toLowerCase();
+  const url = (page.url || '').toLowerCase();
+
+  if (BLOCKED_TITLE_RE.test(title)) return true;
+  if (BLOCKED_URL_RE.test(url)) return true;
+  if (BLOCKED_CHALLENGE_RE.test(content)) return true;
+  if (content.includes('cloudflare') && BLOCKED_CLOUDFLARE_RE.test(content)) return true;
+  return false;
+}
 
 // Helper function to merge markdown content
 const mergeMarkdownContent = (pages: any[]) => {
@@ -390,8 +416,23 @@ app.post('/api/docs/save', async (req, res) => {
     console.log('Saving to domain path:', domainPath);
 
     const metadataPath = path.join(domainPath, 'metadata.json');
-    const successfulPages = pages.filter((p: any) => p.content !== 'No content available').length;
-    const sourceUrl = pages[0]?.url || '';
+    const blockedPages = pages.filter((p: any) => isLikelyBlockedPage(p));
+    const validPages = pages.filter((p: any) => !isLikelyBlockedPage(p) && p.content !== 'No content available');
+    const totalPages = pages.length;
+    const successfulPages = validPages.length;
+    const sourceUrl = validPages[0]?.url || pages[0]?.url || '';
+
+    if (blockedPages.length > 0) {
+      console.warn(`Detected ${blockedPages.length} likely bot-block pages for ${domain}`);
+    }
+
+    if (validPages.length === 0) {
+      return res.status(422).json({
+        success: false,
+        error: 'All scraped pages appear to be blocked by anti-bot protection (e.g., Cloudflare). Try again with a different source or allowlist the crawler.',
+        blockedPages: blockedPages.map((p: any) => p.url).filter(Boolean),
+      });
+    }
 
     // Load existing metadata or create new
     let existingMetadata: DomainMetadataV2 | null = null;
@@ -425,10 +466,10 @@ app.post('/api/docs/save', async (req, res) => {
     }
 
     // Generate table of contents
-    const toc = generateTableOfContents(pages);
+    const toc = generateTableOfContents(validPages);
 
     // Merge all markdown content
-    const mergedContent = mergeMarkdownContent(pages);
+    const mergedContent = mergeMarkdownContent(validPages);
 
     // Combine TOC and content
     const fullContent = toc + mergedContent;
@@ -445,7 +486,7 @@ app.post('/api/docs/save', async (req, res) => {
       label: versionLabel,
       timestamp,
       filename: fileName,
-      totalPages: pages.length,
+      totalPages,
       successfulPages,
       url: sourceUrl,
     };
@@ -467,12 +508,15 @@ app.post('/api/docs/save', async (req, res) => {
         url: sourceUrl,
         domain,
         lastScraped: timestamp,
-        totalPages: pages.length,
+        totalPages,
         successfulPages,
-        failedPages: pages
-          .filter((p: any) => p.content === 'No content available')
-          .map((p: any) => p.url),
-        structure: pages.map(p => ({
+        failedPages: [
+          ...pages
+            .filter((p: any) => p.content === 'No content available')
+            .map((p: any) => p.url),
+          ...blockedPages.map((p: any) => p.url),
+        ].filter(Boolean),
+        structure: validPages.map(p => ({
           type: p.type,
           url: p.url
         })),
@@ -487,13 +531,16 @@ app.post('/api/docs/save', async (req, res) => {
     }
 
     // Update structure to latest
-    updatedMetadata.structure = pages.map(p => ({
+    updatedMetadata.structure = validPages.map(p => ({
       type: p.type,
       url: p.url
     }));
-    updatedMetadata.failedPages = pages
-      .filter((p: any) => p.content === 'No content available')
-      .map((p: any) => p.url);
+    updatedMetadata.failedPages = [
+      ...pages
+        .filter((p: any) => p.content === 'No content available')
+        .map((p: any) => p.url),
+      ...blockedPages.map((p: any) => p.url),
+    ].filter(Boolean);
 
     console.log('Saving metadata with versioning:', {
       domain: updatedMetadata.domain,
@@ -1675,6 +1722,80 @@ app.get('/api/admin/cache/stats', async (req, res) => {
     console.error('Cache stats error:', error);
     res.status(500).json({ error: 'Failed to get cache stats' });
   }
+});
+
+// ============================================================================
+// CRAWL PROXY ENDPOINTS (Cloudflare Browser Rendering)
+// ============================================================================
+
+/**
+ * POST /api/crawl/start
+ * Start a crawl job via Cloudflare Browser Rendering.
+ * Accepts the same body shape the frontend previously sent to Firecrawl.
+ * Returns { success, id } matching Firecrawl's response shape.
+ */
+app.post('/api/crawl/start', async (req, res) => {
+  try {
+    if (!isCloudflareConfigured()) {
+      res.status(503).json({
+        success: false,
+        error: 'Crawl service not configured. Set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID.',
+      });
+      return;
+    }
+
+    const body: CrawlStartRequest = req.body;
+
+    if (!body.url) {
+      res.status(400).json({ success: false, error: 'Missing required field: url' });
+      return;
+    }
+
+    console.log(`[crawl-proxy] Starting crawl for: ${body.url}`);
+    const result = await startCrawl(body);
+
+    if (result.success) {
+      res.json({ success: true, id: result.id });
+    } else {
+      res.status(502).json({ success: false, error: result.error });
+    }
+  } catch (error: any) {
+    console.error('[crawl-proxy] Start error:', error);
+    res.status(500).json({ success: false, error: error.message || 'Internal server error' });
+  }
+});
+
+/**
+ * GET /api/crawl/status/:id
+ * Poll crawl status. Returns the same shape as Firecrawl's GET /crawl/:id:
+ * { status, completed, total, data: [{ markdown, metadata: { sourceURL, title } }] }
+ */
+app.get('/api/crawl/status/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    if (!id) {
+      res.status(400).json({ status: 'failed', error: 'Missing crawl ID' });
+      return;
+    }
+
+    const status = await getCrawlStatus(id);
+    res.json(status);
+  } catch (error: any) {
+    console.error('[crawl-proxy] Status error:', error);
+    res.status(500).json({ status: 'failed', error: error.message || 'Internal server error' });
+  }
+});
+
+/**
+ * GET /api/crawl/health
+ * Check if the crawl backend (Cloudflare) is configured and reachable.
+ */
+app.get('/api/crawl/health', async (_req, res) => {
+  res.json({
+    configured: isCloudflareConfigured(),
+    provider: 'cloudflare-browser-rendering',
+  });
 });
 
 // ============================================================================
