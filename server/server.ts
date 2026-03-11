@@ -215,8 +215,11 @@ function isLikelyBlockedPage(page: { type?: string; content?: string; url?: stri
 
   if (BLOCKED_TITLE_RE.test(title)) return true;
   if (BLOCKED_URL_RE.test(url)) return true;
-  if (BLOCKED_CHALLENGE_RE.test(content)) return true;
-  if (content.includes('cloudflare') && BLOCKED_CLOUDFLARE_RE.test(content)) return true;
+  // Only test challenge phrases against short content — interstitial pages are
+  // tiny, but legitimate docs routinely contain phrases like "access denied" or
+  // "enable javascript" in their body text.
+  if (content.length < 2000 && BLOCKED_CHALLENGE_RE.test(content)) return true;
+  if (content.length < 2000 && content.includes('cloudflare') && BLOCKED_CLOUDFLARE_RE.test(content)) return true;
   return false;
 }
 
