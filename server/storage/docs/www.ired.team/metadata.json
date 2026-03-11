@@ -1,1 +1,208 @@
-{"url":"https://www.ired.team/offensive-security/code-injection-process-injection","domain":"www.ired.team","lastScraped":"2025-11-25T11:12:56.613Z","totalPages":37,"successfulPages":37,"failedPages":[],"structure":[{"type":"Code & Process Injection | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection"},{"type":"CreateRemoteThread Shellcode Injection | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/process-injection"},{"type":"DLL Injection | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/dll-injection"},{"type":"Process Doppelganging | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/process-doppelganging"},{"type":"Shellcode Reflective DLL Injection | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/reflective-shellcode-dll-injection"},{"type":"Loading and Executing Shellcode From PE Resources | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/loading-and-executing-shellcode-from-portable-executable-resources"},{"type":"Shellcode Execution via CreateThreadpoolWait | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/shellcode-execution-via-createthreadpoolwait"},{"type":"Shellcode Execution through Fibers | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/executing-shellcode-with-createfiber"},{"type":"Shellcode Execution in a Local Process with QueueUserAPC and NtTestAlert | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/shellcode-execution-in-a-local-process-with-queueuserapc-and-nttestalert"},{"type":"Local Shellcode Execution without Windows APIs | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/local-shellcode-execution-without-windows-apis"},{"type":"Executing Shellcode with Inline Assembly in C/C++ | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/executing-shellcode-with-inline-assembly-in-c-c++"},{"type":"Reflective DLL Injection | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/reflective-dll-injection"},{"type":"AddressOfEntryPoint Code Injection without VirtualAllocEx RWX | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/addressofentrypoint-code-injection-without-virtualallocex-rwx"},{"type":"Module Stomping for Shellcode Injection | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/modulestomping-dll-hollowing-shellcode-injection"},{"type":"Early Bird APC Queue Code Injection | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/early-bird-apc-queue-code-injection"},{"type":"SetWindowHookEx Code Injection | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/setwindowhookex-code-injection"},{"type":"Binary Exploitation | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation"},{"type":"Injecting .NET Assembly to an Unmanaged Process | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/injecting-and-executing-.net-assemblies-to-unmanaged-process"},{"type":"NtCreateSection + NtMapViewOfSection Code Injection | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/ntcreatesection-+-ntmapviewofsection-code-injection"},{"type":"Injecting to Remote Process via Thread Hijacking | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/injecting-to-remote-process-via-thread-hijacking"},{"type":"Import Adress Table (IAT) Hooking | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/import-adress-table-iat-hooking"},{"type":"DLL Injection via a Custom .NET Garbage Collector | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/injecting-dll-via-custom-.net-garbage-collector-environment-variable-complus_gcname"},{"type":"APC Queue Code Injection | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/apc-queue-code-injection"},{"type":"Windows API Hooking | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/how-to-hook-windows-api-using-c++"},{"type":"Backdooring PE Files with Shellcode | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/backdooring-portable-executables-pe-with-shellcode"},{"type":"PE Injection: Executing PEs inside Remote Processes | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/pe-injection-executing-pes-inside-remote-processes"},{"type":"64-bit Stack-based Buffer Overflow | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/64-bit-stack-based-buffer-overflow"},{"type":"API Monitoring and Hooking for Offensive Tooling | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/api-monitoring-and-hooking-for-offensive-tooling"},{"type":"Writing Custom Shellcode Encoders and Decoders | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/writing-custom-shellcode-encoders-and-decoders"},{"type":"Writing and Compiling Shellcode in C | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/writing-and-compiling-shellcode-in-c"},{"type":"Format String Bug | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/format-string-bug"},{"type":"Return-to-libc / ret2libc | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/return-to-libc-ret2libc"},{"type":"Process Hollowing and Portable Executable Relocations | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/process-hollowing-and-pe-image-relocations"},{"type":"32-bit Stack-based Buffer Overflow | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/stack-based-buffer-overflow"},{"type":"ROP Chaining: Return Oriented Programming | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/rop-chaining-return-oriented-programming"},{"type":"SEH Based Buffer Overflow | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/seh-based-buffer-overflow"},{"type":"Finding Kernel32 Base and Function Addresses in Shellcode | Red Team Notes","url":"https://www.ired.team/offensive-security/code-injection-process-injection/finding-kernel32-base-and-function-addresses-in-shellcode"}]}
+{
+  "url": "https://www.ired.team/offensive-security/code-injection-process-injection",
+  "domain": "www.ired.team",
+  "lastScraped": "2025-11-25T11:12:56.613Z",
+  "totalPages": 37,
+  "successfulPages": 37,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Code & Process Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection"
+    },
+    {
+      "type": "CreateRemoteThread Shellcode Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/process-injection"
+    },
+    {
+      "type": "DLL Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/dll-injection"
+    },
+    {
+      "type": "Process Doppelganging | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/process-doppelganging"
+    },
+    {
+      "type": "Shellcode Reflective DLL Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/reflective-shellcode-dll-injection"
+    },
+    {
+      "type": "Loading and Executing Shellcode From PE Resources | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/loading-and-executing-shellcode-from-portable-executable-resources"
+    },
+    {
+      "type": "Shellcode Execution via CreateThreadpoolWait | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/shellcode-execution-via-createthreadpoolwait"
+    },
+    {
+      "type": "Shellcode Execution through Fibers | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/executing-shellcode-with-createfiber"
+    },
+    {
+      "type": "Shellcode Execution in a Local Process with QueueUserAPC and NtTestAlert | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/shellcode-execution-in-a-local-process-with-queueuserapc-and-nttestalert"
+    },
+    {
+      "type": "Local Shellcode Execution without Windows APIs | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/local-shellcode-execution-without-windows-apis"
+    },
+    {
+      "type": "Executing Shellcode with Inline Assembly in C/C++ | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/executing-shellcode-with-inline-assembly-in-c-c++"
+    },
+    {
+      "type": "Reflective DLL Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/reflective-dll-injection"
+    },
+    {
+      "type": "AddressOfEntryPoint Code Injection without VirtualAllocEx RWX | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/addressofentrypoint-code-injection-without-virtualallocex-rwx"
+    },
+    {
+      "type": "Module Stomping for Shellcode Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/modulestomping-dll-hollowing-shellcode-injection"
+    },
+    {
+      "type": "Early Bird APC Queue Code Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/early-bird-apc-queue-code-injection"
+    },
+    {
+      "type": "SetWindowHookEx Code Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/setwindowhookex-code-injection"
+    },
+    {
+      "type": "Binary Exploitation | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation"
+    },
+    {
+      "type": "Injecting .NET Assembly to an Unmanaged Process | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/injecting-and-executing-.net-assemblies-to-unmanaged-process"
+    },
+    {
+      "type": "NtCreateSection + NtMapViewOfSection Code Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/ntcreatesection-+-ntmapviewofsection-code-injection"
+    },
+    {
+      "type": "Injecting to Remote Process via Thread Hijacking | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/injecting-to-remote-process-via-thread-hijacking"
+    },
+    {
+      "type": "Import Adress Table (IAT) Hooking | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/import-adress-table-iat-hooking"
+    },
+    {
+      "type": "DLL Injection via a Custom .NET Garbage Collector | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/injecting-dll-via-custom-.net-garbage-collector-environment-variable-complus_gcname"
+    },
+    {
+      "type": "APC Queue Code Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/apc-queue-code-injection"
+    },
+    {
+      "type": "Windows API Hooking | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/how-to-hook-windows-api-using-c++"
+    },
+    {
+      "type": "Backdooring PE Files with Shellcode | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/backdooring-portable-executables-pe-with-shellcode"
+    },
+    {
+      "type": "PE Injection: Executing PEs inside Remote Processes | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/pe-injection-executing-pes-inside-remote-processes"
+    },
+    {
+      "type": "64-bit Stack-based Buffer Overflow | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/64-bit-stack-based-buffer-overflow"
+    },
+    {
+      "type": "API Monitoring and Hooking for Offensive Tooling | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/api-monitoring-and-hooking-for-offensive-tooling"
+    },
+    {
+      "type": "Writing Custom Shellcode Encoders and Decoders | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/writing-custom-shellcode-encoders-and-decoders"
+    },
+    {
+      "type": "Writing and Compiling Shellcode in C | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/writing-and-compiling-shellcode-in-c"
+    },
+    {
+      "type": "Format String Bug | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/format-string-bug"
+    },
+    {
+      "type": "Return-to-libc / ret2libc | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/return-to-libc-ret2libc"
+    },
+    {
+      "type": "Process Hollowing and Portable Executable Relocations | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/process-hollowing-and-pe-image-relocations"
+    },
+    {
+      "type": "32-bit Stack-based Buffer Overflow | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/stack-based-buffer-overflow"
+    },
+    {
+      "type": "ROP Chaining: Return Oriented Programming | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/rop-chaining-return-oriented-programming"
+    },
+    {
+      "type": "SEH Based Buffer Overflow | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/seh-based-buffer-overflow"
+    },
+    {
+      "type": "Finding Kernel32 Base and Function Addresses in Shellcode | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/finding-kernel32-base-and-function-addresses-in-shellcode"
+    }
+  ],
+  "latestVersion": "1.4.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-07-14T12:26:41.225Z",
+      "filename": "documentation_2025-07-14T12:26:41.225Z.md",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-07-24T12:49:57.453Z",
+      "filename": "documentation_2025-07-24T12:49:57.453Z.md",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection",
+      "isLatest": false
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2025-11-25T11:06:37.770Z",
+      "filename": "documentation_2025-11-25T11:06:37.770Z.md",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection",
+      "isLatest": false
+    },
+    {
+      "version": "1.3.0",
+      "timestamp": "2025-11-25T11:10:02.370Z",
+      "filename": "documentation_2025-11-25T11:10:02.370Z.md",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection",
+      "isLatest": false
+    },
+    {
+      "version": "1.4.0",
+      "timestamp": "2025-11-25T11:12:56.613Z",
+      "filename": "documentation_2025-11-25T11:12:56.613Z.md",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

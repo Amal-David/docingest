@@ -1,1 +1,989 @@
-{"url":"https://static.network.keeta.com/docs/","domain":"static.network.keeta.com","lastScraped":"2026-01-18T12:05:23.738Z","totalPages":239,"successfulPages":239,"failedPages":[],"structure":[{"type":"@keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/"},{"type":"@keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/modules.html"},{"type":"GETTING-STARTED | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/documents/GETTING-STARTED.html"},{"type":"KeetaNetSDK | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/modules/KeetaNetSDK.html"},{"type":"BaseFlag | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/enums/KeetaNetSDK.Referenced.BaseFlag.html"},{"type":"networksArray | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/variables/KeetaNetSDK.Referenced.src_config.networksArray.html"},{"type":"Permissions | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Permissions.html"},{"type":"BaseSet | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BaseSet.html"},{"type":"ExternalSet | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ExternalSet.html"},{"type":"BlockOperationSEND | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationSEND.html"},{"type":"BlockOperationCREATE_IDENTIFIER | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationCREATE_IDENTIFIER.html"},{"type":"BlockOperation | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperation.html"},{"type":"ExternalKeyPair | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ExternalKeyPair.html"},{"type":"VoteStaple | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteStaple.html"},{"type":"Vote | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Vote.html"},{"type":"lib | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/variables/KeetaNetSDK.lib.html"},{"type":"Client | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Client.html"},{"type":"UserClientBuilder | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.UserClientBuilder.html"},{"type":"BlockBuilder | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockBuilder.html"},{"type":"Block | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Block.html"},{"type":"UserClient | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.UserClient.html"},{"type":"Account | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Account.html"},{"type":"AccountKeyAlgorithm | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/enums/KeetaNetSDK.Referenced.AccountKeyAlgorithm.html"},{"type":"BlockJSON | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockJSON.html"},{"type":"default | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.default.html"},{"type":"BasePermissionGroup | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/enums/KeetaNetSDK.Referenced.BasePermissionGroup.html"},{"type":"ExternalPermissionOffsetSet | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ExternalPermissionOffsetSet.html"},{"type":"PermissionSetHolder | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.PermissionSetHolder.html"},{"type":"ComputeBlocksResponse | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.ComputeBlocksResponse.html"},{"type":"BuilderOptions | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BuilderOptions.html"},{"type":"BlockV2Canonical | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockV2Canonical.html"},{"type":"ClientRepresentative | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ClientRepresentative.html"},{"type":"AcceptedPermissionTypes | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AcceptedPermissionTypes.html"},{"type":"VoteOptions | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.VoteOptions.html"},{"type":"GenericAccount | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.GenericAccount.html"},{"type":"TokenAddress | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.TokenAddress.html"},{"type":"BlockPurpose | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/enums/KeetaNetSDK.Referenced.BlockPurpose.html"},{"type":"BlockHashString | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockHashString.html"},{"type":"VoteJSON | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.VoteJSON.html"},{"type":"MultisigAddress | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.MultisigAddress.html"},{"type":"NetworkAddress | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.NetworkAddress.html"},{"type":"MultisigPublicKeyString | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.MultisigPublicKeyString.html"},{"type":"Secp256K1PublicKeyString | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.Secp256K1PublicKeyString.html"},{"type":"Secp256R1PublicKeyString | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.Secp256R1PublicKeyString.html"},{"type":"UserClientOrClientAndNetwork | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.UserClientOrClientAndNetwork.html"},{"type":"BlockJSONIncomplete | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockJSONIncomplete.html"},{"type":"BlockHash | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockHash.html"},{"type":"BaseFlagNames | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BaseFlagNames.html"},{"type":"BlockOperations | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockOperations.html"},{"type":"IdentifierAddress | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.IdentifierAddress.html"},{"type":"BlockOperationValidateContext | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockOperationValidateContext.html"},{"type":"RepresentativeInfo | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.RepresentativeInfo.html"},{"type":"signOptionsType | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.signOptionsType.html"},{"type":"AdjustMethod | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/enums/KeetaNetSDK.Referenced.AdjustMethod.html"},{"type":"BlockOperationSET_REP | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationSET_REP.html"},{"type":"Representative | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_config.Representative.html"},{"type":"VoteStapleHash | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteStapleHash.html"},{"type":"IdentifierKeyAlgorithm | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.IdentifierKeyAlgorithm.html"},{"type":"seedDerivationFunction | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.seedDerivationFunction.html"},{"type":"GetAllBalancesResponse | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.GetAllBalancesResponse.html"},{"type":"ED25519PublicKeyString | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ED25519PublicKeyString.html"},{"type":"ToJSONSerializableOptions | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.src_lib_utils_conversion.ToJSONSerializableOptions.html"},{"type":"UserClientOptionsReadOnly | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.UserClientOptionsReadOnly.html"},{"type":"BlockSignerField | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockSignerField.html"},{"type":"ECDSASECP256R1PrivateKey | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSASECP256R1PrivateKey.html"},{"type":"ECDSASECP256K1PrivateKey | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSASECP256K1PrivateKey.html"},{"type":"CertificateWithIntermediatesResponse | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.CertificateWithIntermediatesResponse.html"},{"type":"LedgerStorage | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.LedgerStorage.html"},{"type":"OperationType | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/enums/KeetaNetSDK.Referenced.OperationType.html"},{"type":"DbStats | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.DbStats.html"},{"type":"UserClientConfig | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.UserClientConfig.html"},{"type":"BlockOperationSET_INFO | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationSET_INFO.html"},{"type":"BuilderBlockOptions | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BuilderBlockOptions.html"},{"type":"AccountKeyAlgorithmHex | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AccountKeyAlgorithmHex.html"},{"type":"FlagOrExternalNames | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.FlagOrExternalNames.html"},{"type":"FlagGroupType | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.FlagGroupType.html"},{"type":"PendingAccount | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.PendingAccount.html"},{"type":"LedgerSelector | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.LedgerSelector.html"},{"type":"TokenPublicKeyString | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.TokenPublicKeyString.html"},{"type":"ExternalKeyPairFunctions | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ExternalKeyPairFunctions.html"},{"type":"BlockJSONOperationCREATE_IDENTIFIER | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationCREATE_IDENTIFIER.html"},{"type":"VoteBlockHashMap | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteBlockHashMap.html"},{"type":"CertificateBundle | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.CertificateBundle.html"},{"type":"TokenOrPending | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.TokenOrPending.html"},{"type":"VoteHash | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteHash.html"},{"type":"AccountSignerOptionsJSON | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.AccountSignerOptionsJSON.html"},{"type":"P2PSwitchStatistics | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.P2PSwitchStatistics.html"},{"type":"FeeAmountAndTokenJSON | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.FeeAmountAndTokenJSON.html"},{"type":"CreateSwapRequest | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.CreateSwapRequest.html"},{"type":"ECDSASECP256R1Signature | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSASECP256R1Signature.html"},{"type":"BlockOperationTOKEN_ADMIN_SUPPLY | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationTOKEN_ADMIN_SUPPLY.html"},{"type":"VoteBlockHash | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteBlockHash.html"},{"type":"ED25519PrivateKey | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ED25519PrivateKey.html"},{"type":"ED25519Signature | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ED25519Signature.html"},{"type":"AllPendingJSON | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.AllPendingJSON.html"},{"type":"BlockJSONOperationSEND | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationSEND.html"},{"type":"UserClientListenerOptions | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.UserClientListenerOptions.html"},{"type":"AllPending | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AllPending.html"},{"type":"PermissionOffsetSet | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.PermissionOffsetSet.html"},{"type":"NetworkPublicKeyString | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.NetworkPublicKeyString.html"},{"type":"BaseTokenInfo | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BaseTokenInfo.html"},{"type":"StoragePublicKeyString | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.StoragePublicKeyString.html"},{"type":"UserClientListenerTypes | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.UserClientListenerTypes.html"},{"type":"GetAccountStateAPIResponseFormatted | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.GetAccountStateAPIResponseFormatted.html"},{"type":"UserClientOptions | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.UserClientOptions.html"},{"type":"IdentifierKey | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.IdentifierKey.html"},{"type":"BlockJSONOperationSET_REP | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationSET_REP.html"},{"type":"AccountInfo | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.AccountInfo.html"},{"type":"BlockSignatureField | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockSignatureField.html"},{"type":"LedgerStatistics | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.LedgerStatistics.html"},{"type":"BlockJSONOperationTOKEN_ADMIN_SUPPLY | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationTOKEN_ADMIN_SUPPLY.html"},{"type":"BlockOperationMODIFY_PERMISSIONS | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationMODIFY_PERMISSIONS.html"},{"type":"ACLRow | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.ACLRow.html"},{"type":"AccountSignerOptions | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.AccountSignerOptions.html"},{"type":"ASN1String | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.src_lib_utils_asn1.ASN1String.html"},{"type":"BlockV1UnsignedCanonical | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockV1UnsignedCanonical.html"},{"type":"BlockJSONOperationSET_INFO | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationSET_INFO.html"},{"type":"fromSeedFunctionType | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.fromSeedFunctionType.html"},{"type":"ECDSASECP256R1PublicKey | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSASECP256R1PublicKey.html"},{"type":"ExportedJSONOperation | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ExportedJSONOperation.html"},{"type":"IdentifierPublicKeyString | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.IdentifierPublicKeyString.html"},{"type":"Networks | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_config.Networks.html"},{"type":"KeyPairTypes | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.KeyPairTypes.html"},{"type":"BlockV2UnsignedCanonical | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockV2UnsignedCanonical.html"},{"type":"RenderOptions | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.RenderOptions.html"},{"type":"AcceptSwapRequest | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.AcceptSwapRequest.html"},{"type":"ECDSASECP256K1Signature | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSASECP256K1Signature.html"},{"type":"ECDSASECP256K1PublicKey | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSASECP256K1PublicKey.html"},{"type":"AccountOrPending | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AccountOrPending.html"},{"type":"BlockOperationRECEIVE | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationRECEIVE.html"},{"type":"BlockV1Canonical | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockV1Canonical.html"},{"type":"AccountPublicKeyString | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AccountPublicKeyString.html"},{"type":"PublicKeyString | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.PublicKeyString.html"},{"type":"FeeAmountAndToken | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.FeeAmountAndToken.html"},{"type":"InstanceSetConstructor | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.src_lib_utils_helper.InstanceSetConstructor.html"},{"type":"MultiSigIdentifierCreateArguments | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.MultiSigIdentifierCreateArguments.html"},{"type":"BlockJSONOperationMODIFY_PERMISSIONS | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationMODIFY_PERMISSIONS.html"},{"type":"BlockJSONOperationMANAGE_CERTIFICATE | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationMANAGE_CERTIFICATE.html"},{"type":"ED25519PublicKey | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ED25519PublicKey.html"},{"type":"BlockSignerFieldJSON | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockSignerFieldJSON.html"},{"type":"ComputedEffectOfBlocks | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ComputedEffectOfBlocks.html"},{"type":"VoteBlockBundle | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteBlockBundle.html"},{"type":"PossiblyExpiredVote | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.PossiblyExpiredVote.html"},{"type":"BlockOperationTOKEN_ADMIN_MODIFY_BALANCE | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationTOKEN_ADMIN_MODIFY_BALANCE.html"},{"type":"VoteBundleConstructor | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.VoteBundleConstructor.html"},{"type":"BlockJSONOperationTOKEN_ADMIN_MODIFY_BALANCE | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationTOKEN_ADMIN_MODIFY_BALANCE.html"},{"type":"PublishOptions | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.PublishOptions.html"},{"type":"BlockJSONOperationRECEIVE | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationRECEIVE.html"},{"type":"TimeStats | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.TimeStats.html"},{"type":"PrincipalACLWithInfoParsed | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.PrincipalACLWithInfoParsed.html"},{"type":"src/lib/utils/hash | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_hash.html"},{"type":"BlockOperationMANAGE_CERTIFICATE | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationMANAGE_CERTIFICATE.html"},{"type":"publicKeyASN1 | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.publicKeyASN1.html"},{"type":"BlockASN1SchemaWithoutSignature | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockASN1SchemaWithoutSignature.html"},{"type":"PublicKeyStringMapping | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.PublicKeyStringMapping.html"},{"type":"VoteStapleJSON | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.VoteStapleJSON.html"},{"type":"GetPeersAPIResponse | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.GetPeersAPIResponse.html"},{"type":"src/lib/utils/certificate | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_certificate.html"},{"type":"BufferStorage | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.src_lib_utils_buffer.BufferStorage.html"},{"type":"Node | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Node.html"},{"type":"src/lib/utils/initial | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_initial.html"},{"type":"CertificateHash | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.CertificateHash.html"},{"type":"src/lib/utils/conversion | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_conversion.html"},{"type":"Log | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Log.html"},{"type":"KeyInterface | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.KeyInterface.html"},{"type":"PendingOperationsJSON | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.PendingOperationsJSON.html"},{"type":"VoteLikeBase | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteLikeBase.html"},{"type":"Certificate | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Certificate.html"},{"type":"src/lib/utils/buffer | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_buffer.html"},{"type":"VoteBuilder | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteBuilder.html"},{"type":"ASN1Date | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.src_lib_utils_asn1.ASN1Date.html"},{"type":"BlockV1JSON | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockV1JSON.html"},{"type":"ASN1ContextTag | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_lib_utils_asn1.ASN1ContextTag.html"},{"type":"AccountKeyAlgorithmHexToType | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AccountKeyAlgorithmHexToType.html"},{"type":"VoteQuote | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteQuote.html"},{"type":"BlockV2JSON | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockV2JSON.html"},{"type":"P2PSwitch | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.P2PSwitch.html"},{"type":"src/lib/utils/bloom | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_bloom.html"},{"type":"Stats | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Stats.html"},{"type":"KeetaNetError | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.KeetaNetError.html"},{"type":"src/config | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_config.html"},{"type":"Ledger | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Ledger.html"},{"type":"src/lib/utils/helper | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_helper.html"},{"type":"src/lib/utils/asn1 | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_asn1.html"},{"type":"Referenced | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.html"},{"type":"ValidationConfig | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.src_config.ValidationConfig.html"},{"type":"ECDSAKeyPair | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSAKeyPair.html"},{"type":"ExternalKeyPairFunctionsSupportsEncryption | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.ExternalKeyPairFunctionsSupportsEncryption.html"},{"type":"BaseFlagName | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BaseFlagName.html"},{"type":"identifierKeyTypes | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/variables/KeetaNetSDK.Referenced.identifierKeyTypes.html"},{"type":"ECDSASECP256R1KeyPair | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSASECP256R1KeyPair.html"},{"type":"DeepMutable | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_lib_utils_helper.DeepMutable.html"},{"type":"ValidationOptions | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.ValidationOptions.html"},{"type":"PerAccount | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.PerAccount.html"},{"type":"serializeBloomFilter | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/functions/KeetaNetSDK.Referenced.src_lib_utils_bloom.serializeBloomFilter.html"},{"type":"NetworkOrID | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_config.NetworkOrID.html"},{"type":"ValidateASN1 | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.src_lib_utils_asn1.ValidateASN1.html"},{"type":"ASN1Object | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.ASN1Object.html"},{"type":"ASN1ExplicitContextTag | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.ASN1ExplicitContextTag.html"},{"type":"AccountKeyAlgorithmHexReverse | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AccountKeyAlgorithmHexReverse.html"},{"type":"StatsConfig | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.StatsConfig.html"},{"type":"JSONSerializable | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_lib_utils_conversion.JSONSerializable.html"},{"type":"MultisigSignerFieldJSON | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.MultisigSignerFieldJSON.html"},{"type":"BlockV1ASN1WithoutSignature | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockV1ASN1WithoutSignature.html"},{"type":"P2PConfig | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.P2PConfig.html"},{"type":"ComputedEffectOfBlocksByAccount | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ComputedEffectOfBlocksByAccount.html"},{"type":"AcceptSwapRequestExpectedDeprecated | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AcceptSwapRequestExpectedDeprecated.html"},{"type":"LedgerKind | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/enums/KeetaNetSDK.Referenced.LedgerKind.html"},{"type":"PeerInfo | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.PeerInfo.html"},{"type":"BaseNetworkInfo | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_lib_utils_initial.BaseNetworkInfo.html"},{"type":"CertificateHashString | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.CertificateHashString.html"},{"type":"ErrorCode | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ErrorCode.html"},{"type":"SchemaMap | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_lib_utils_asn1.ValidateASN1.SchemaMap.html"},{"type":"deserializeBloomFilter | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/functions/KeetaNetSDK.Referenced.src_lib_utils_bloom.deserializeBloomFilter.html"},{"type":"ToJSONSerializable | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_lib_utils_conversion.ToJSONSerializable.html"},{"type":"StorageAddress | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.StorageAddress.html"},{"type":"SignatureStorage | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.SignatureStorage.html"},{"type":"NetworkConfig | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_config.NetworkConfig.html"},{"type":"LedgerConfig | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.LedgerConfig.html"},{"type":"CertificateBuilder | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.src_lib_utils_certificate.CertificateBuilder.html"},{"type":"DecodeBase32 | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/functions/KeetaNetSDK.Referenced.src_lib_utils_buffer.DecodeBase32.html"},{"type":"BlockSignature | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockSignature.html"},{"type":"GetPrevFunction | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.GetPrevFunction.html"},{"type":"DurationBreakdowns | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.DurationBreakdowns.html"},{"type":"HashFunctionLength | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/variables/KeetaNetSDK.Referenced.src_lib_utils_hash.HashFunctionLength.html"},{"type":"CertificateOptions | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.CertificateOptions.html"},{"type":"InstanceSet | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.InstanceSet.html"},{"type":"LogOptions | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.LogOptions.html"},{"type":"MultisigConfig | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.MultisigConfig.html"},{"type":"StatsPending | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.StatsPending.html"},{"type":"KeyStorage | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.KeyStorage.html"},{"type":"Endpoints | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_config.Endpoints.html"},{"type":"ValidateASN1 | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_asn1.ValidateASN1.html"},{"type":"FlagOrExternalName | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.FlagOrExternalName.html"},{"type":"BufferStorageASN1 | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.src_lib_utils_asn1.BufferStorageASN1.html"},{"type":"KeetaNetErrorBase | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.KeetaNetErrorBase.html"},{"type":"Operation | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/variables/KeetaNetSDK.Referenced.Operation.html"},{"type":"BaseFlagRule | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BaseFlagRule.html"},{"type":"ED25519KeyPair | @keetanetwork/keetanet-client","url":"https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ED25519KeyPair.html"}]}
+{
+  "url": "https://static.network.keeta.com/docs/",
+  "domain": "static.network.keeta.com",
+  "lastScraped": "2026-01-18T12:05:23.738Z",
+  "totalPages": 239,
+  "successfulPages": 239,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "@keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/"
+    },
+    {
+      "type": "@keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/modules.html"
+    },
+    {
+      "type": "GETTING-STARTED | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/documents/GETTING-STARTED.html"
+    },
+    {
+      "type": "KeetaNetSDK | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/modules/KeetaNetSDK.html"
+    },
+    {
+      "type": "BaseFlag | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/enums/KeetaNetSDK.Referenced.BaseFlag.html"
+    },
+    {
+      "type": "networksArray | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/variables/KeetaNetSDK.Referenced.src_config.networksArray.html"
+    },
+    {
+      "type": "Permissions | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Permissions.html"
+    },
+    {
+      "type": "BaseSet | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BaseSet.html"
+    },
+    {
+      "type": "ExternalSet | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ExternalSet.html"
+    },
+    {
+      "type": "BlockOperationSEND | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationSEND.html"
+    },
+    {
+      "type": "BlockOperationCREATE_IDENTIFIER | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationCREATE_IDENTIFIER.html"
+    },
+    {
+      "type": "BlockOperation | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperation.html"
+    },
+    {
+      "type": "ExternalKeyPair | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ExternalKeyPair.html"
+    },
+    {
+      "type": "VoteStaple | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteStaple.html"
+    },
+    {
+      "type": "Vote | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Vote.html"
+    },
+    {
+      "type": "lib | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/variables/KeetaNetSDK.lib.html"
+    },
+    {
+      "type": "Client | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Client.html"
+    },
+    {
+      "type": "UserClientBuilder | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.UserClientBuilder.html"
+    },
+    {
+      "type": "BlockBuilder | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockBuilder.html"
+    },
+    {
+      "type": "Block | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Block.html"
+    },
+    {
+      "type": "UserClient | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.UserClient.html"
+    },
+    {
+      "type": "Account | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Account.html"
+    },
+    {
+      "type": "AccountKeyAlgorithm | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/enums/KeetaNetSDK.Referenced.AccountKeyAlgorithm.html"
+    },
+    {
+      "type": "BlockJSON | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockJSON.html"
+    },
+    {
+      "type": "default | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.default.html"
+    },
+    {
+      "type": "BasePermissionGroup | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/enums/KeetaNetSDK.Referenced.BasePermissionGroup.html"
+    },
+    {
+      "type": "ExternalPermissionOffsetSet | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ExternalPermissionOffsetSet.html"
+    },
+    {
+      "type": "PermissionSetHolder | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.PermissionSetHolder.html"
+    },
+    {
+      "type": "ComputeBlocksResponse | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.ComputeBlocksResponse.html"
+    },
+    {
+      "type": "BuilderOptions | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BuilderOptions.html"
+    },
+    {
+      "type": "BlockV2Canonical | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockV2Canonical.html"
+    },
+    {
+      "type": "ClientRepresentative | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ClientRepresentative.html"
+    },
+    {
+      "type": "AcceptedPermissionTypes | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AcceptedPermissionTypes.html"
+    },
+    {
+      "type": "VoteOptions | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.VoteOptions.html"
+    },
+    {
+      "type": "GenericAccount | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.GenericAccount.html"
+    },
+    {
+      "type": "TokenAddress | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.TokenAddress.html"
+    },
+    {
+      "type": "BlockPurpose | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/enums/KeetaNetSDK.Referenced.BlockPurpose.html"
+    },
+    {
+      "type": "BlockHashString | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockHashString.html"
+    },
+    {
+      "type": "VoteJSON | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.VoteJSON.html"
+    },
+    {
+      "type": "MultisigAddress | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.MultisigAddress.html"
+    },
+    {
+      "type": "NetworkAddress | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.NetworkAddress.html"
+    },
+    {
+      "type": "MultisigPublicKeyString | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.MultisigPublicKeyString.html"
+    },
+    {
+      "type": "Secp256K1PublicKeyString | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.Secp256K1PublicKeyString.html"
+    },
+    {
+      "type": "Secp256R1PublicKeyString | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.Secp256R1PublicKeyString.html"
+    },
+    {
+      "type": "UserClientOrClientAndNetwork | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.UserClientOrClientAndNetwork.html"
+    },
+    {
+      "type": "BlockJSONIncomplete | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockJSONIncomplete.html"
+    },
+    {
+      "type": "BlockHash | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockHash.html"
+    },
+    {
+      "type": "BaseFlagNames | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BaseFlagNames.html"
+    },
+    {
+      "type": "BlockOperations | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockOperations.html"
+    },
+    {
+      "type": "IdentifierAddress | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.IdentifierAddress.html"
+    },
+    {
+      "type": "BlockOperationValidateContext | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockOperationValidateContext.html"
+    },
+    {
+      "type": "RepresentativeInfo | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.RepresentativeInfo.html"
+    },
+    {
+      "type": "signOptionsType | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.signOptionsType.html"
+    },
+    {
+      "type": "AdjustMethod | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/enums/KeetaNetSDK.Referenced.AdjustMethod.html"
+    },
+    {
+      "type": "BlockOperationSET_REP | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationSET_REP.html"
+    },
+    {
+      "type": "Representative | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_config.Representative.html"
+    },
+    {
+      "type": "VoteStapleHash | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteStapleHash.html"
+    },
+    {
+      "type": "IdentifierKeyAlgorithm | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.IdentifierKeyAlgorithm.html"
+    },
+    {
+      "type": "seedDerivationFunction | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.seedDerivationFunction.html"
+    },
+    {
+      "type": "GetAllBalancesResponse | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.GetAllBalancesResponse.html"
+    },
+    {
+      "type": "ED25519PublicKeyString | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ED25519PublicKeyString.html"
+    },
+    {
+      "type": "ToJSONSerializableOptions | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.src_lib_utils_conversion.ToJSONSerializableOptions.html"
+    },
+    {
+      "type": "UserClientOptionsReadOnly | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.UserClientOptionsReadOnly.html"
+    },
+    {
+      "type": "BlockSignerField | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockSignerField.html"
+    },
+    {
+      "type": "ECDSASECP256R1PrivateKey | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSASECP256R1PrivateKey.html"
+    },
+    {
+      "type": "ECDSASECP256K1PrivateKey | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSASECP256K1PrivateKey.html"
+    },
+    {
+      "type": "CertificateWithIntermediatesResponse | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.CertificateWithIntermediatesResponse.html"
+    },
+    {
+      "type": "LedgerStorage | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.LedgerStorage.html"
+    },
+    {
+      "type": "OperationType | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/enums/KeetaNetSDK.Referenced.OperationType.html"
+    },
+    {
+      "type": "DbStats | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.DbStats.html"
+    },
+    {
+      "type": "UserClientConfig | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.UserClientConfig.html"
+    },
+    {
+      "type": "BlockOperationSET_INFO | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationSET_INFO.html"
+    },
+    {
+      "type": "BuilderBlockOptions | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BuilderBlockOptions.html"
+    },
+    {
+      "type": "AccountKeyAlgorithmHex | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AccountKeyAlgorithmHex.html"
+    },
+    {
+      "type": "FlagOrExternalNames | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.FlagOrExternalNames.html"
+    },
+    {
+      "type": "FlagGroupType | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.FlagGroupType.html"
+    },
+    {
+      "type": "PendingAccount | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.PendingAccount.html"
+    },
+    {
+      "type": "LedgerSelector | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.LedgerSelector.html"
+    },
+    {
+      "type": "TokenPublicKeyString | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.TokenPublicKeyString.html"
+    },
+    {
+      "type": "ExternalKeyPairFunctions | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ExternalKeyPairFunctions.html"
+    },
+    {
+      "type": "BlockJSONOperationCREATE_IDENTIFIER | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationCREATE_IDENTIFIER.html"
+    },
+    {
+      "type": "VoteBlockHashMap | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteBlockHashMap.html"
+    },
+    {
+      "type": "CertificateBundle | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.CertificateBundle.html"
+    },
+    {
+      "type": "TokenOrPending | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.TokenOrPending.html"
+    },
+    {
+      "type": "VoteHash | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteHash.html"
+    },
+    {
+      "type": "AccountSignerOptionsJSON | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.AccountSignerOptionsJSON.html"
+    },
+    {
+      "type": "P2PSwitchStatistics | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.P2PSwitchStatistics.html"
+    },
+    {
+      "type": "FeeAmountAndTokenJSON | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.FeeAmountAndTokenJSON.html"
+    },
+    {
+      "type": "CreateSwapRequest | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.CreateSwapRequest.html"
+    },
+    {
+      "type": "ECDSASECP256R1Signature | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSASECP256R1Signature.html"
+    },
+    {
+      "type": "BlockOperationTOKEN_ADMIN_SUPPLY | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationTOKEN_ADMIN_SUPPLY.html"
+    },
+    {
+      "type": "VoteBlockHash | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteBlockHash.html"
+    },
+    {
+      "type": "ED25519PrivateKey | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ED25519PrivateKey.html"
+    },
+    {
+      "type": "ED25519Signature | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ED25519Signature.html"
+    },
+    {
+      "type": "AllPendingJSON | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.AllPendingJSON.html"
+    },
+    {
+      "type": "BlockJSONOperationSEND | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationSEND.html"
+    },
+    {
+      "type": "UserClientListenerOptions | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.UserClientListenerOptions.html"
+    },
+    {
+      "type": "AllPending | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AllPending.html"
+    },
+    {
+      "type": "PermissionOffsetSet | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.PermissionOffsetSet.html"
+    },
+    {
+      "type": "NetworkPublicKeyString | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.NetworkPublicKeyString.html"
+    },
+    {
+      "type": "BaseTokenInfo | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BaseTokenInfo.html"
+    },
+    {
+      "type": "StoragePublicKeyString | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.StoragePublicKeyString.html"
+    },
+    {
+      "type": "UserClientListenerTypes | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.UserClientListenerTypes.html"
+    },
+    {
+      "type": "GetAccountStateAPIResponseFormatted | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.GetAccountStateAPIResponseFormatted.html"
+    },
+    {
+      "type": "UserClientOptions | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.UserClientOptions.html"
+    },
+    {
+      "type": "IdentifierKey | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.IdentifierKey.html"
+    },
+    {
+      "type": "BlockJSONOperationSET_REP | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationSET_REP.html"
+    },
+    {
+      "type": "AccountInfo | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.AccountInfo.html"
+    },
+    {
+      "type": "BlockSignatureField | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockSignatureField.html"
+    },
+    {
+      "type": "LedgerStatistics | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.LedgerStatistics.html"
+    },
+    {
+      "type": "BlockJSONOperationTOKEN_ADMIN_SUPPLY | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationTOKEN_ADMIN_SUPPLY.html"
+    },
+    {
+      "type": "BlockOperationMODIFY_PERMISSIONS | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationMODIFY_PERMISSIONS.html"
+    },
+    {
+      "type": "ACLRow | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.ACLRow.html"
+    },
+    {
+      "type": "AccountSignerOptions | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.AccountSignerOptions.html"
+    },
+    {
+      "type": "ASN1String | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.src_lib_utils_asn1.ASN1String.html"
+    },
+    {
+      "type": "BlockV1UnsignedCanonical | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockV1UnsignedCanonical.html"
+    },
+    {
+      "type": "BlockJSONOperationSET_INFO | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationSET_INFO.html"
+    },
+    {
+      "type": "fromSeedFunctionType | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.fromSeedFunctionType.html"
+    },
+    {
+      "type": "ECDSASECP256R1PublicKey | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSASECP256R1PublicKey.html"
+    },
+    {
+      "type": "ExportedJSONOperation | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ExportedJSONOperation.html"
+    },
+    {
+      "type": "IdentifierPublicKeyString | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.IdentifierPublicKeyString.html"
+    },
+    {
+      "type": "Networks | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_config.Networks.html"
+    },
+    {
+      "type": "KeyPairTypes | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.KeyPairTypes.html"
+    },
+    {
+      "type": "BlockV2UnsignedCanonical | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockV2UnsignedCanonical.html"
+    },
+    {
+      "type": "RenderOptions | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.RenderOptions.html"
+    },
+    {
+      "type": "AcceptSwapRequest | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.AcceptSwapRequest.html"
+    },
+    {
+      "type": "ECDSASECP256K1Signature | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSASECP256K1Signature.html"
+    },
+    {
+      "type": "ECDSASECP256K1PublicKey | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSASECP256K1PublicKey.html"
+    },
+    {
+      "type": "AccountOrPending | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AccountOrPending.html"
+    },
+    {
+      "type": "BlockOperationRECEIVE | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationRECEIVE.html"
+    },
+    {
+      "type": "BlockV1Canonical | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockV1Canonical.html"
+    },
+    {
+      "type": "AccountPublicKeyString | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AccountPublicKeyString.html"
+    },
+    {
+      "type": "PublicKeyString | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.PublicKeyString.html"
+    },
+    {
+      "type": "FeeAmountAndToken | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.FeeAmountAndToken.html"
+    },
+    {
+      "type": "InstanceSetConstructor | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.src_lib_utils_helper.InstanceSetConstructor.html"
+    },
+    {
+      "type": "MultiSigIdentifierCreateArguments | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.MultiSigIdentifierCreateArguments.html"
+    },
+    {
+      "type": "BlockJSONOperationMODIFY_PERMISSIONS | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationMODIFY_PERMISSIONS.html"
+    },
+    {
+      "type": "BlockJSONOperationMANAGE_CERTIFICATE | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationMANAGE_CERTIFICATE.html"
+    },
+    {
+      "type": "ED25519PublicKey | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ED25519PublicKey.html"
+    },
+    {
+      "type": "BlockSignerFieldJSON | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockSignerFieldJSON.html"
+    },
+    {
+      "type": "ComputedEffectOfBlocks | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ComputedEffectOfBlocks.html"
+    },
+    {
+      "type": "VoteBlockBundle | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteBlockBundle.html"
+    },
+    {
+      "type": "PossiblyExpiredVote | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.PossiblyExpiredVote.html"
+    },
+    {
+      "type": "BlockOperationTOKEN_ADMIN_MODIFY_BALANCE | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationTOKEN_ADMIN_MODIFY_BALANCE.html"
+    },
+    {
+      "type": "VoteBundleConstructor | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.VoteBundleConstructor.html"
+    },
+    {
+      "type": "BlockJSONOperationTOKEN_ADMIN_MODIFY_BALANCE | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationTOKEN_ADMIN_MODIFY_BALANCE.html"
+    },
+    {
+      "type": "PublishOptions | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.PublishOptions.html"
+    },
+    {
+      "type": "BlockJSONOperationRECEIVE | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockJSONOperationRECEIVE.html"
+    },
+    {
+      "type": "TimeStats | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.TimeStats.html"
+    },
+    {
+      "type": "PrincipalACLWithInfoParsed | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.PrincipalACLWithInfoParsed.html"
+    },
+    {
+      "type": "src/lib/utils/hash | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_hash.html"
+    },
+    {
+      "type": "BlockOperationMANAGE_CERTIFICATE | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.BlockOperationMANAGE_CERTIFICATE.html"
+    },
+    {
+      "type": "publicKeyASN1 | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.publicKeyASN1.html"
+    },
+    {
+      "type": "BlockASN1SchemaWithoutSignature | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockASN1SchemaWithoutSignature.html"
+    },
+    {
+      "type": "PublicKeyStringMapping | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.PublicKeyStringMapping.html"
+    },
+    {
+      "type": "VoteStapleJSON | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.VoteStapleJSON.html"
+    },
+    {
+      "type": "GetPeersAPIResponse | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.GetPeersAPIResponse.html"
+    },
+    {
+      "type": "src/lib/utils/certificate | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_certificate.html"
+    },
+    {
+      "type": "BufferStorage | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.src_lib_utils_buffer.BufferStorage.html"
+    },
+    {
+      "type": "Node | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Node.html"
+    },
+    {
+      "type": "src/lib/utils/initial | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_initial.html"
+    },
+    {
+      "type": "CertificateHash | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.CertificateHash.html"
+    },
+    {
+      "type": "src/lib/utils/conversion | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_conversion.html"
+    },
+    {
+      "type": "Log | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Log.html"
+    },
+    {
+      "type": "KeyInterface | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.KeyInterface.html"
+    },
+    {
+      "type": "PendingOperationsJSON | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.PendingOperationsJSON.html"
+    },
+    {
+      "type": "VoteLikeBase | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteLikeBase.html"
+    },
+    {
+      "type": "Certificate | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Certificate.html"
+    },
+    {
+      "type": "src/lib/utils/buffer | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_buffer.html"
+    },
+    {
+      "type": "VoteBuilder | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteBuilder.html"
+    },
+    {
+      "type": "ASN1Date | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.src_lib_utils_asn1.ASN1Date.html"
+    },
+    {
+      "type": "BlockV1JSON | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockV1JSON.html"
+    },
+    {
+      "type": "ASN1ContextTag | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_lib_utils_asn1.ASN1ContextTag.html"
+    },
+    {
+      "type": "AccountKeyAlgorithmHexToType | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AccountKeyAlgorithmHexToType.html"
+    },
+    {
+      "type": "VoteQuote | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.VoteQuote.html"
+    },
+    {
+      "type": "BlockV2JSON | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BlockV2JSON.html"
+    },
+    {
+      "type": "P2PSwitch | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.P2PSwitch.html"
+    },
+    {
+      "type": "src/lib/utils/bloom | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_bloom.html"
+    },
+    {
+      "type": "Stats | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Stats.html"
+    },
+    {
+      "type": "KeetaNetError | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.KeetaNetError.html"
+    },
+    {
+      "type": "src/config | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_config.html"
+    },
+    {
+      "type": "Ledger | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.Ledger.html"
+    },
+    {
+      "type": "src/lib/utils/helper | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_helper.html"
+    },
+    {
+      "type": "src/lib/utils/asn1 | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_asn1.html"
+    },
+    {
+      "type": "Referenced | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.html"
+    },
+    {
+      "type": "ValidationConfig | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.src_config.ValidationConfig.html"
+    },
+    {
+      "type": "ECDSAKeyPair | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSAKeyPair.html"
+    },
+    {
+      "type": "ExternalKeyPairFunctionsSupportsEncryption | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.ExternalKeyPairFunctionsSupportsEncryption.html"
+    },
+    {
+      "type": "BaseFlagName | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BaseFlagName.html"
+    },
+    {
+      "type": "identifierKeyTypes | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/variables/KeetaNetSDK.Referenced.identifierKeyTypes.html"
+    },
+    {
+      "type": "ECDSASECP256R1KeyPair | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ECDSASECP256R1KeyPair.html"
+    },
+    {
+      "type": "DeepMutable | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_lib_utils_helper.DeepMutable.html"
+    },
+    {
+      "type": "ValidationOptions | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.ValidationOptions.html"
+    },
+    {
+      "type": "PerAccount | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.PerAccount.html"
+    },
+    {
+      "type": "serializeBloomFilter | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/functions/KeetaNetSDK.Referenced.src_lib_utils_bloom.serializeBloomFilter.html"
+    },
+    {
+      "type": "NetworkOrID | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_config.NetworkOrID.html"
+    },
+    {
+      "type": "ValidateASN1 | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.src_lib_utils_asn1.ValidateASN1.html"
+    },
+    {
+      "type": "ASN1Object | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.ASN1Object.html"
+    },
+    {
+      "type": "ASN1ExplicitContextTag | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.ASN1ExplicitContextTag.html"
+    },
+    {
+      "type": "AccountKeyAlgorithmHexReverse | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AccountKeyAlgorithmHexReverse.html"
+    },
+    {
+      "type": "StatsConfig | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.StatsConfig.html"
+    },
+    {
+      "type": "JSONSerializable | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_lib_utils_conversion.JSONSerializable.html"
+    },
+    {
+      "type": "MultisigSignerFieldJSON | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.MultisigSignerFieldJSON.html"
+    },
+    {
+      "type": "BlockV1ASN1WithoutSignature | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockV1ASN1WithoutSignature.html"
+    },
+    {
+      "type": "P2PConfig | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.P2PConfig.html"
+    },
+    {
+      "type": "ComputedEffectOfBlocksByAccount | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ComputedEffectOfBlocksByAccount.html"
+    },
+    {
+      "type": "AcceptSwapRequestExpectedDeprecated | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.AcceptSwapRequestExpectedDeprecated.html"
+    },
+    {
+      "type": "LedgerKind | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/enums/KeetaNetSDK.Referenced.LedgerKind.html"
+    },
+    {
+      "type": "PeerInfo | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.PeerInfo.html"
+    },
+    {
+      "type": "BaseNetworkInfo | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_lib_utils_initial.BaseNetworkInfo.html"
+    },
+    {
+      "type": "CertificateHashString | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.CertificateHashString.html"
+    },
+    {
+      "type": "ErrorCode | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.ErrorCode.html"
+    },
+    {
+      "type": "SchemaMap | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_lib_utils_asn1.ValidateASN1.SchemaMap.html"
+    },
+    {
+      "type": "deserializeBloomFilter | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/functions/KeetaNetSDK.Referenced.src_lib_utils_bloom.deserializeBloomFilter.html"
+    },
+    {
+      "type": "ToJSONSerializable | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_lib_utils_conversion.ToJSONSerializable.html"
+    },
+    {
+      "type": "StorageAddress | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.StorageAddress.html"
+    },
+    {
+      "type": "SignatureStorage | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.SignatureStorage.html"
+    },
+    {
+      "type": "NetworkConfig | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_config.NetworkConfig.html"
+    },
+    {
+      "type": "LedgerConfig | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.LedgerConfig.html"
+    },
+    {
+      "type": "CertificateBuilder | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.src_lib_utils_certificate.CertificateBuilder.html"
+    },
+    {
+      "type": "DecodeBase32 | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/functions/KeetaNetSDK.Referenced.src_lib_utils_buffer.DecodeBase32.html"
+    },
+    {
+      "type": "BlockSignature | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.BlockSignature.html"
+    },
+    {
+      "type": "GetPrevFunction | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.GetPrevFunction.html"
+    },
+    {
+      "type": "DurationBreakdowns | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.DurationBreakdowns.html"
+    },
+    {
+      "type": "HashFunctionLength | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/variables/KeetaNetSDK.Referenced.src_lib_utils_hash.HashFunctionLength.html"
+    },
+    {
+      "type": "CertificateOptions | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.CertificateOptions.html"
+    },
+    {
+      "type": "InstanceSet | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.InstanceSet.html"
+    },
+    {
+      "type": "LogOptions | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.LogOptions.html"
+    },
+    {
+      "type": "MultisigConfig | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.MultisigConfig.html"
+    },
+    {
+      "type": "StatsPending | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.StatsPending.html"
+    },
+    {
+      "type": "KeyStorage | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.KeyStorage.html"
+    },
+    {
+      "type": "Endpoints | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.src_config.Endpoints.html"
+    },
+    {
+      "type": "ValidateASN1 | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/modules/KeetaNetSDK.Referenced.src_lib_utils_asn1.ValidateASN1.html"
+    },
+    {
+      "type": "FlagOrExternalName | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/types/KeetaNetSDK.Referenced.FlagOrExternalName.html"
+    },
+    {
+      "type": "BufferStorageASN1 | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.src_lib_utils_asn1.BufferStorageASN1.html"
+    },
+    {
+      "type": "KeetaNetErrorBase | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.KeetaNetErrorBase.html"
+    },
+    {
+      "type": "Operation | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/variables/KeetaNetSDK.Referenced.Operation.html"
+    },
+    {
+      "type": "BaseFlagRule | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/interfaces/KeetaNetSDK.Referenced.BaseFlagRule.html"
+    },
+    {
+      "type": "ED25519KeyPair | @keetanetwork/keetanet-client",
+      "url": "https://static.network.keeta.com/docs/classes/KeetaNetSDK.Referenced.ED25519KeyPair.html"
+    }
+  ],
+  "latestVersion": "1.1.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-12-14T20:42:01.926Z",
+      "filename": "documentation_2025-12-14T20:42:01.926Z.md",
+      "totalPages": 239,
+      "successfulPages": 239,
+      "url": "https://static.network.keeta.com/docs/",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2026-01-18T12:05:23.738Z",
+      "filename": "documentation_2026-01-18T12:05:23.738Z.md",
+      "totalPages": 239,
+      "successfulPages": 239,
+      "url": "https://static.network.keeta.com/docs/",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

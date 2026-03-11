@@ -1,1 +1,986 @@
-{"url":"https://docs.portainer.io/advanced/cli","domain":"docs.portainer.io","lastScraped":"2025-11-15T20:08:55.403Z","totalPages":236,"successfulPages":236,"failedPages":[],"structure":[{"type":"CLI configuration options | Portainer Documentation","url":"https://docs.portainer.io/advanced/cli"},{"type":"Welcome | Portainer Documentation","url":"https://docs.portainer.io"},{"type":"What's new in version 2.33 | Portainer Documentation","url":"https://docs.portainer.io/whats-new"},{"type":"Install Portainer BE | Portainer Documentation","url":"https://docs.portainer.io/start/install"},{"type":"Introduction | Portainer Documentation","url":"https://docs.portainer.io/start/intro"},{"type":"Lifecycle policy | Portainer Documentation","url":"https://docs.portainer.io/start/lifecycle"},{"type":"Portainer architecture | Portainer Documentation","url":"https://docs.portainer.io/start/architecture"},{"type":"Install Portainer BE with Docker on WSL / Docker Desktop | Portainer Documentation","url":"https://docs.portainer.io/start/install/server/docker/wsl"},{"type":"Docker Swarm | Portainer Documentation","url":"https://docs.portainer.io/start/install/server/swarm"},{"type":"Set up a new Portainer BE Server installation | Portainer Documentation","url":"https://docs.portainer.io/start/install/server"},{"type":"Install Portainer BE with Docker Swarm on Linux | Portainer Documentation","url":"https://docs.portainer.io/start/install/server/swarm/linux"},{"type":"Docker Standalone | Portainer Documentation","url":"https://docs.portainer.io/start/install/server/docker"},{"type":"Install Portainer BE with Docker on Windows Container Service | Portainer Documentation","url":"https://docs.portainer.io/start/install/server/docker/wcs"},{"type":"Install Portainer CE | Portainer Documentation","url":"https://docs.portainer.io/start/install-ce"},{"type":"Install Portainer BE with Docker on Linux | Portainer Documentation","url":"https://docs.portainer.io/start/install/server/docker/linux"},{"type":"Podman | Portainer Documentation","url":"https://docs.portainer.io/start/install/server/podman"},{"type":"Set up a new Portainer CE Server installation | Portainer Documentation","url":"https://docs.portainer.io/start/install-ce/server"},{"type":"Initial setup | Portainer Documentation","url":"https://docs.portainer.io/start/install/server/setup"},{"type":"Kubernetes | Portainer Documentation","url":"https://docs.portainer.io/start/install/server/kubernetes"},{"type":"Install Portainer BE with Docker Swarm on WSL / Docker Desktop | Portainer Documentation","url":"https://docs.portainer.io/start/install/server/swarm/wsl"},{"type":"Docker Standalone | Portainer Documentation","url":"https://docs.portainer.io/start/install-ce/server/docker"},{"type":"Install Portainer BE with Docker Swarm on Windows Container Service | Portainer Documentation","url":"https://docs.portainer.io/start/install/server/swarm/wcs"},{"type":"Install Portainer BE on your Kubernetes environment | Portainer Documentation","url":"https://docs.portainer.io/start/install/server/kubernetes/baremetal"},{"type":"Install Portainer CE with Docker on Linux | Portainer Documentation","url":"https://docs.portainer.io/start/install-ce/server/docker/linux"},{"type":"Add a Nomad environment | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/admin/environments/add/nomad"},{"type":"Add an ACI environment | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/admin/environments/add/aci"},{"type":"Provision KaaS Cluster | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/admin/environments/add/kaas"},{"type":"Civo | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/admin/environments/add/kaas/civo"},{"type":"Google Cloud | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/admin/environments/add/kaas/gke"},{"type":"DigitalOcean | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/admin/environments/add/kaas/digitalocean"},{"type":"Akamai Connected Cloud | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/admin/environments/add/kaas/linode"},{"type":"AWS | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/admin/environments/add/kaas/eks"},{"type":"Azure | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/admin/environments/add/kaas/aks"},{"type":"Create a Kubernetes cluster | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/admin/environments/add/kube-create"},{"type":"Talos Kubernetes | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/admin/environments/add/kube-create/omni"},{"type":"MicroK8s | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/admin/environments/add/kube-create/microk8s"},{"type":"Helm chart configuration options | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/advanced/helm-chart-configuration-options"},{"type":"How Relative Path Support works in Portainer | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/advanced/relative-paths"},{"type":"Deprecated and removed features | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/advanced/deprecated"},{"type":"API documentation | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/api/docs"},{"type":"Deploying Portainer behind nginx reverse proxy | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/advanced/reverse-proxy/nginx"},{"type":"Accessing the Portainer API | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/api/access"},{"type":"API usage examples | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/api/examples"},{"type":"Build instructions | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/contribute/build"},{"type":"Contribute | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/contribute/contribute"},{"type":"Kubernetes roles and bindings | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/advanced/kubernetes-roles-and-bindings"},{"type":"Privacy Policy | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/privacy"},{"type":"Set up a macOS build environment | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/contribute/build/mac"},{"type":"Set up a Linux build environment | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/contribute/build/linux"},{"type":"Docker roles and permissions | 2.27 LTS | Portainer Documentation","url":"https://docs.portainer.io/2.27/advanced/docker-roles-and-permissions"},{"type":"What's new in version 2.35 | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/whats-new"},{"type":"Welcome | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts"},{"type":"Introduction | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/intro"},{"type":"Set up a new Portainer BE Server installation | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server"},{"type":"Install Portainer BE | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install"},{"type":"Docker Standalone | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server/docker"},{"type":"Install Portainer BE with Docker on Linux | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server/docker/linux"},{"type":"Install Portainer BE with Docker on WSL / Docker Desktop | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server/docker/wsl"},{"type":"Install Portainer BE with Docker Swarm on Linux | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server/swarm/linux"},{"type":"Install Portainer BE with Docker Swarm on WSL / Docker Desktop | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server/swarm/wsl"},{"type":"Docker Swarm | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server/swarm"},{"type":"Install Portainer BE with Docker on Windows Container Service | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server/docker/wcs"},{"type":"Podman | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server/podman"},{"type":"Install Portainer BE with Docker Swarm on Windows Container Service | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server/swarm/wcs"},{"type":"Kubernetes | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server/kubernetes"},{"type":"Install Portainer BE with Podman on Linux | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server/podman/linux"},{"type":"Install Portainer CE with Docker on Linux | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server/docker/linux"},{"type":"Install Portainer CE | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce"},{"type":"Initial setup | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server/setup"},{"type":"Docker Standalone | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server/docker"},{"type":"Install Portainer BE with Kubernetes on WSL / Docker Desktop | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server/kubernetes/wsl"},{"type":"Install Portainer CE with Docker on WSL / Docker Desktop | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server/docker/wsl"},{"type":"Set up a new Portainer CE Server installation | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server"},{"type":"Install Portainer BE on your Kubernetes environment | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install/server/kubernetes/baremetal"},{"type":"Install Portainer CE with Docker on Windows Container Service | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server/docker/wcs"},{"type":"Install Portainer CE with Docker Swarm on Linux | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server/swarm/linux"},{"type":"Docker Swarm | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server/swarm"},{"type":"Install Portainer CE with Docker Swarm on Windows Container Service | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server/swarm/wcs"},{"type":"Install Portainer CE with Docker Swarm on WSL / Docker Desktop | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server/swarm/wsl"},{"type":"Podman | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server/podman"},{"type":"Install Portainer CE with Podman on Linux | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server/podman/linux"},{"type":"Initial setup | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server/setup"},{"type":"Add an environment to an existing installation | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/agent"},{"type":"Updating Portainer | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade"},{"type":"Kubernetes | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server/kubernetes"},{"type":"Updating on Nomad | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade/nomad"},{"type":"Updating on Docker Standalone | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade/docker"},{"type":"Updating the Edge Agent | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade/edge"},{"type":"Updating from Portainer 1.x | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade/from-1.x"},{"type":"Updating on Podman | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade/podman"},{"type":"Switching to Portainer Business Edition | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade/tobe"},{"type":"Install Portainer CE with Kubernetes on WSL / Docker Desktop | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server/kubernetes/wsl"},{"type":"Install Portainer CE on your Kubernetes environment | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/install-ce/server/kubernetes/baremetal"},{"type":"Updating on Docker Swarm | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade/swarm"},{"type":"Updating on Kubernetes | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade/kubernetes"},{"type":"Upgrade to Business Edition from within Portainer Community Edition | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade/tobe/inapp"},{"type":"Docker Standalone | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade/tobe/docker"},{"type":"Docker Swarm | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade/tobe/swarm"},{"type":"Kubernetes | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade/tobe/kubernetes"},{"type":"Podman | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade/tobe/podman"},{"type":"Upgrading Agent-only deployments | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/start/upgrade/tobe/agent"},{"type":"Home | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/home"},{"type":"Snapshot browsing | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/home/snapshot"},{"type":"OpenAMT | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/home/openamt"},{"type":"Docker/Swarm/Podman | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker"},{"type":"Dashboard | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/dashboard"},{"type":"Application | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/templates/application"},{"type":"Templates | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/templates"},{"type":"Custom templates | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/templates/custom"},{"type":"Deploy a stack | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/templates/deploy-stack"},{"type":"Deploy a container | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/templates/deploy-container"},{"type":"Stacks | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/stacks"},{"type":"Inspect or edit a stack | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/stacks/edit"},{"type":"Add a new stack | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/stacks/add"},{"type":"Create a template from a deployed stack | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/stacks/template"},{"type":"Migrate or duplicate a stack | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/stacks/migrate"},{"type":"Webhooks | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/stacks/webhooks"},{"type":"Remove a stack | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/stacks/remove"},{"type":"Services | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/services"},{"type":"Add a new service | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/services/add"},{"type":"Configure service options | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/services/configure"},{"type":"Scale a service | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/user/docker/services/scale"},{"type":"Troubleshooting | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting"},{"type":"Access and authentication | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/access-and-authentication"},{"type":"How do I renew my 5 nodes free license? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/licensing/how-do-i-renew-my-5-nodes-free-license"},{"type":"How can I switch back to internal authentication? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/access-and-authentication/how-can-i-switch-back-to-internal-authentication"},{"type":"How do I reset my Portainer password? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/access-and-authentication/how-do-i-reset-my-portainer-password"},{"type":"Why has my Environment IP not updated after I changed it? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/agents-and-environment-management/why-has-my-environment-ip-not-updated-after-i-changed-it"},{"type":"Unable to Authenticate After Portainer Update | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/access-and-authentication/unable-to-authenticate-after-portainer-update"},{"type":"Client sent an HTTP request to an HTTPS server | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/access-and-authentication/client-sent-an-http-request-to-an-https-server"},{"type":"I enabled \"Force HTTPS only\" and now I'm locked out of Portainer. How do I get back in? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/access-and-authentication/i-enabled-force-https-only-and-now-im-locked-out-of-portainer.-how-do-i-get-back-in"},{"type":"Agents and environment management | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/agents-and-environment-management"},{"type":"Why is my Portainer Edge Agent using a large amount of memory? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/agents-and-environment-management/why-is-my-portainer-edge-agent-using-a-large-amount-of-memory"},{"type":"Troubleshooting Edge Agent Connection Issues | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/agents-and-environment-management/troubleshooting-edge-agent-connection-issues"},{"type":"How can I move existing Edge Agent deployments to a new Portainer Server instance? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/agents-and-environment-management/how-can-i-move-existing-edge-agent-deployments-to-a-new-portainer-server-instance"},{"type":"Why can't my agents communicate with Portainer on Swarm? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/agents-and-environment-management/why-cant-my-agents-communicate-with-portainer-on-swarm"},{"type":"Unable to Login via LDAP in Portainer | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/access-and-authentication/unable-to-login-via-ldap-in-portainer"},{"type":"How do I change the way I connect to an environment without losing my existing stacks? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/agents-and-environment-management/how-do-i-change-the-way-i-connect-to-an-environment-without-losing-my-existing-stacks"},{"type":"Stacks, deployments and updates | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates"},{"type":"How does the image update notification icon work? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/how-does-the-image-update-notification-icon-work"},{"type":"How do automatic updates for stacks/applications work? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/how-do-automatic-updates-for-stacks-applications-work"},{"type":"Can I build an image while deploying a stack/application from Git? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/can-i-build-an-image-while-deploying-a-stack-application-from-git"},{"type":"Why don't custom standalone app templates show when using Docker Swarm? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/why-dont-custom-standalone-app-templates-show-when-using-docker-swarm"},{"type":"How do I configure Portainer's GitOps features to authenticate to a Bitbucket repository? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/how-do-i-configure-portainers-gitops-features-to-authenticate-to-a-bitbucket-repository"},{"type":"Why are stack deployment times slow? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/why-are-stack-deployment-times-slow"},{"type":"Environment Variable Management in Docker: .env vs. stack.env | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/environment-variable-management-in-docker-.env-vs.-stack.env"},{"type":"How do I recover orphaned stacks from a previously deleted environment? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/how-do-i-recover-orphaned-stacks-from-a-previously-deleted-environment"},{"type":"UI and features | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/ui-and-features"},{"type":"Why can't I use the console with my container? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/ui-and-features/why-cant-i-use-the-console-with-my-container"},{"type":"Exposed ports in the container view redirect me to 0.0.0.0. What can I do? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/ui-and-features/exposed-ports-in-the-container-view-redirect-me-to-0.0.0.0.-what-can-i-do"},{"type":"Why is a feature only available in Portainer Business Edition? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/ui-and-features/why-is-a-feature-only-available-in-portainer-business-edition"},{"type":"Runtime and Resource sliders are not showing the set value on ARM | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/ui-and-features/runtime-and-resource-sliders-are-not-showing-the-set-value-on-arm"},{"type":"Why doesn’t the Portainer UI load inside an iframe? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/ui-and-features/why-doesnt-the-portainer-ui-load-inside-an-iframe"},{"type":"Logs, errors and debugging | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging"},{"type":"Can you view deleted container logs in Portainer? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/can-you-view-deleted-container-logs-in-portainer"},{"type":"How can I get the logs for Portainer itself? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/how-can-i-get-the-logs-for-portainer-itself"},{"type":"Unable to Access Pod Logs in My k0s Cluster | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/unable-to-access-pod-logs-in-my-k0s-cluster"},{"type":"Why do I see a lot of TLS handshake errors in my Portainer and/or Agent logs? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/why-do-i-see-a-lot-of-tls-handshake-errors-in-my-portainer-and-or-agent-logs"},{"type":"Why can't my users see anything in the environment they have access to? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/why-cant-my-users-see-anything-in-the-environment-they-have-access-to"},{"type":"\"Failed to get license info\" or \"Unable to retrieve license info\" message with valid license | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/failed-to-get-license-info-or-unable-to-retrieve-license-info-message-with-valid-license"},{"type":"What does a 500 error code mean? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/what-does-a-500-error-code-mean"},{"type":"Why is my console closing after a certain time? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/why-is-my-console-closing-after-a-certain-time"},{"type":"“Failed logging user activity” error in Portainer | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/failed-logging-user-activity-error-in-portainer"},{"type":"Certificates and security | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/certificates-and-security"},{"type":"How to enable/disable image Up-to-date indicator | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/certificates-and-security/how-to-enable-disable-image-up-to-date-indicator"},{"type":"How can I use my custom certificate authority (CA) with Portainer? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/certificates-and-security/how-can-i-use-my-custom-certificate-authority-ca-with-portainer"},{"type":"Registry and image management | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/registry-and-image-management"},{"type":"Why is my node count higher than it should be? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/registry-and-image-management/why-is-my-node-count-higher-than-it-should-be"},{"type":"Contributing | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/contributing"},{"type":"I am unable to push an image to an AWS Elastic Container Registry | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/troubleshooting/registry-and-image-management/i-am-unable-to-push-an-image-to-an-aws-elastic-container-registry"},{"type":"How do I report a bug? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/contributing/how-do-i-report-a-bug"},{"type":"How do I raise a feature request? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/contributing/how-do-i-raise-a-feature-request"},{"type":"How do you decide which bugs and features to work on first? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/contributing/how-do-you-decide-which-bugs-and-features-to-work-on-first"},{"type":"How do I log a Support Request? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/contributing/how-do-i-log-a-support-request"},{"type":"Email Protection | Cloudflare","url":"https://docs.portainer.io/cdn-cgi/l/email-protection"},{"type":"Known issues | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/known-issues"},{"type":"Edge stacks do not support authenticating to deploy applications from private registries. | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/known-issues/edge-stacks-do-not-support-authenticating-to-deploy-applications-from-private-registries."},{"type":"Known issues with VMware | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/known-issues/known-issues-with-vmware"},{"type":"Resource limits in a compose file are not applying | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/known-issues/resource-limits-in-a-compose-file-are-not-applying"},{"type":"Groups info issue with OAuth using Microsoft AD | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/known-issues/groups-info-issue-with-oauth-using-microsoft-ad"},{"type":"Hardware Acceleration GPU button is missing | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/known-issues/hardware-acceleration-gpu-button-is-missing"},{"type":"Nomad Jobs only displays Service Jobs | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/known-issues/nomad-jobs-only-displays-service-jobs"},{"type":"Unable to update environment variables when running on Synology NAS | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/known-issues/unable-to-update-environment-variables-when-running-on-synology-nas"},{"type":"\"Image not found on registry\" error when upgrading from CE to BE or self-updating on Synology NAS | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/known-issues/image-not-found-on-registry-error-when-upgrading-from-ce-to-be-or-self-updating-on-synology-nas"},{"type":"Unable to remove the Group Configuration from Active Directory authentication configuration | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/known-issues/unable-to-remove-the-group-configuration-from-active-directory-authentication-configuration"},{"type":"MicroK8s Known Issues | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/known-issues/microk8s-known-issues"},{"type":"Where can I find the documentation for Portainer? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/getting-support/where-can-i-find-the-documentation-for-portainer"},{"type":"Which versions of Portainer do you provide support for? | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/getting-support/which-versions-of-portainer-do-you-provide-support-for"},{"type":"Access control | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/access-control"},{"type":"Getting support | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/getting-support"},{"type":"How to get support for Community Edition and 5 Nodes Free Users | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/getting-support/how-to-get-support-for-community-edition-and-5-nodes-free-users"},{"type":"Security and compliance | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/security"},{"type":"Reset the admin user's password | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/reset-admin"},{"type":"App templates | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/app-templates"},{"type":"\"Unauthorized\" error when pushing images to ACR with Service Principal account | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/known-issues/unauthorized-error-when-pushing-images-to-acr-with-service-principal-account"},{"type":"Known compatibility issues with Docker Engine 29.0.0 | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/known-issues/known-compatibility-issues-with-docker-engine-29.0.0"},{"type":"How to get support for Business Edition Customers with a subscription | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/getting-support/how-to-get-support-for-business-edition-customers-with-a-subscription"},{"type":"The Portainer Edge Agent | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/edge-agent"},{"type":"Build and host your own app templates | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/app-templates/build"},{"type":"\"Invalid certificate file\" error when browsing empty Azure Container Registry | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/faqs/known-issues/invalid-certificate-file-error-when-browsing-empty-azure-container-registry"},{"type":"Stream auth and activity logs to an external provider | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/siem"},{"type":"Using Portainer with reverse proxies | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/reverse-proxy"},{"type":"Using your own SSL certificate with Portainer | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/ssl"},{"type":"Privacy Policy | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/privacy"},{"type":"Build instructions | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/contribute/build"},{"type":"Deprecated and removed features | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/deprecated"},{"type":"Deploying Portainer behind Traefik Proxy | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/reverse-proxy/traefik"},{"type":"Using mTLS with Portainer | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/mtls"},{"type":"Accessing the Portainer API | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/api/access"},{"type":"Encrypting the Portainer database | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/db-encryption"},{"type":"API documentation | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/api/docs"},{"type":"How Relative Path Support works in Portainer | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/relative-paths"},{"type":"Set up a macOS build environment | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/contribute/build/mac"},{"type":"Contribute | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/contribute/contribute"},{"type":"Deploying Portainer behind nginx reverse proxy | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/reverse-proxy/nginx"},{"type":"Deprecated and removed features | Portainer Documentation","url":"https://docs.portainer.io/advanced/deprecated"},{"type":"Helm chart configuration options | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/helm-chart-configuration-options"},{"type":"The Portainer Edge Agent | Portainer Documentation","url":"https://docs.portainer.io/advanced/edge-agent"},{"type":"Access control | Portainer Documentation","url":"https://docs.portainer.io/advanced/access-control"},{"type":"Security and compliance | Portainer Documentation","url":"https://docs.portainer.io/advanced/security"},{"type":"API documentation | Portainer Documentation","url":"https://docs.portainer.io/api/docs"},{"type":"App template JSON format | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/app-templates/format"},{"type":"Using your own SSL certificate with Portainer | Portainer Documentation","url":"https://docs.portainer.io/advanced/ssl"},{"type":"API usage examples | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/api/examples"},{"type":"Build and host your own app templates | Portainer Documentation","url":"https://docs.portainer.io/advanced/app-templates/build"},{"type":"How Relative Path Support works in Portainer | Portainer Documentation","url":"https://docs.portainer.io/advanced/relative-paths"},{"type":"Set up a Linux build environment | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/contribute/build/linux"},{"type":"CLI configuration options | 2.35 STS | Portainer Documentation","url":"https://docs.portainer.io/sts/advanced/cli"},{"type":"Encrypting the Portainer database | Portainer Documentation","url":"https://docs.portainer.io/advanced/db-encryption"},{"type":"Using mTLS with Portainer | Portainer Documentation","url":"https://docs.portainer.io/advanced/mtls"},{"type":"Privacy Policy | Portainer Documentation","url":"https://docs.portainer.io/privacy"},{"type":"Reset the admin user's password | Portainer Documentation","url":"https://docs.portainer.io/advanced/reset-admin"},{"type":"App templates | Portainer Documentation","url":"https://docs.portainer.io/advanced/app-templates"},{"type":"Build instructions | Portainer Documentation","url":"https://docs.portainer.io/contribute/build"},{"type":"Contribute | Portainer Documentation","url":"https://docs.portainer.io/contribute/contribute"},{"type":"Stream auth and activity logs to an external provider | Portainer Documentation","url":"https://docs.portainer.io/advanced/siem"}]}
+{
+  "url": "https://docs.portainer.io/advanced/cli",
+  "domain": "docs.portainer.io",
+  "lastScraped": "2025-11-15T20:08:55.403Z",
+  "totalPages": 236,
+  "successfulPages": 236,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "CLI configuration options | Portainer Documentation",
+      "url": "https://docs.portainer.io/advanced/cli"
+    },
+    {
+      "type": "Welcome | Portainer Documentation",
+      "url": "https://docs.portainer.io"
+    },
+    {
+      "type": "What's new in version 2.33 | Portainer Documentation",
+      "url": "https://docs.portainer.io/whats-new"
+    },
+    {
+      "type": "Install Portainer BE | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install"
+    },
+    {
+      "type": "Introduction | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/intro"
+    },
+    {
+      "type": "Lifecycle policy | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/lifecycle"
+    },
+    {
+      "type": "Portainer architecture | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/architecture"
+    },
+    {
+      "type": "Install Portainer BE with Docker on WSL / Docker Desktop | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install/server/docker/wsl"
+    },
+    {
+      "type": "Docker Swarm | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install/server/swarm"
+    },
+    {
+      "type": "Set up a new Portainer BE Server installation | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install/server"
+    },
+    {
+      "type": "Install Portainer BE with Docker Swarm on Linux | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install/server/swarm/linux"
+    },
+    {
+      "type": "Docker Standalone | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install/server/docker"
+    },
+    {
+      "type": "Install Portainer BE with Docker on Windows Container Service | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install/server/docker/wcs"
+    },
+    {
+      "type": "Install Portainer CE | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install-ce"
+    },
+    {
+      "type": "Install Portainer BE with Docker on Linux | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install/server/docker/linux"
+    },
+    {
+      "type": "Podman | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install/server/podman"
+    },
+    {
+      "type": "Set up a new Portainer CE Server installation | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install-ce/server"
+    },
+    {
+      "type": "Initial setup | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install/server/setup"
+    },
+    {
+      "type": "Kubernetes | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install/server/kubernetes"
+    },
+    {
+      "type": "Install Portainer BE with Docker Swarm on WSL / Docker Desktop | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install/server/swarm/wsl"
+    },
+    {
+      "type": "Docker Standalone | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install-ce/server/docker"
+    },
+    {
+      "type": "Install Portainer BE with Docker Swarm on Windows Container Service | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install/server/swarm/wcs"
+    },
+    {
+      "type": "Install Portainer BE on your Kubernetes environment | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install/server/kubernetes/baremetal"
+    },
+    {
+      "type": "Install Portainer CE with Docker on Linux | Portainer Documentation",
+      "url": "https://docs.portainer.io/start/install-ce/server/docker/linux"
+    },
+    {
+      "type": "Add a Nomad environment | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/admin/environments/add/nomad"
+    },
+    {
+      "type": "Add an ACI environment | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/admin/environments/add/aci"
+    },
+    {
+      "type": "Provision KaaS Cluster | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/admin/environments/add/kaas"
+    },
+    {
+      "type": "Civo | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/admin/environments/add/kaas/civo"
+    },
+    {
+      "type": "Google Cloud | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/admin/environments/add/kaas/gke"
+    },
+    {
+      "type": "DigitalOcean | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/admin/environments/add/kaas/digitalocean"
+    },
+    {
+      "type": "Akamai Connected Cloud | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/admin/environments/add/kaas/linode"
+    },
+    {
+      "type": "AWS | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/admin/environments/add/kaas/eks"
+    },
+    {
+      "type": "Azure | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/admin/environments/add/kaas/aks"
+    },
+    {
+      "type": "Create a Kubernetes cluster | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/admin/environments/add/kube-create"
+    },
+    {
+      "type": "Talos Kubernetes | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/admin/environments/add/kube-create/omni"
+    },
+    {
+      "type": "MicroK8s | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/admin/environments/add/kube-create/microk8s"
+    },
+    {
+      "type": "Helm chart configuration options | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/advanced/helm-chart-configuration-options"
+    },
+    {
+      "type": "How Relative Path Support works in Portainer | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/advanced/relative-paths"
+    },
+    {
+      "type": "Deprecated and removed features | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/advanced/deprecated"
+    },
+    {
+      "type": "API documentation | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/api/docs"
+    },
+    {
+      "type": "Deploying Portainer behind nginx reverse proxy | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/advanced/reverse-proxy/nginx"
+    },
+    {
+      "type": "Accessing the Portainer API | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/api/access"
+    },
+    {
+      "type": "API usage examples | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/api/examples"
+    },
+    {
+      "type": "Build instructions | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/contribute/build"
+    },
+    {
+      "type": "Contribute | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/contribute/contribute"
+    },
+    {
+      "type": "Kubernetes roles and bindings | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/advanced/kubernetes-roles-and-bindings"
+    },
+    {
+      "type": "Privacy Policy | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/privacy"
+    },
+    {
+      "type": "Set up a macOS build environment | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/contribute/build/mac"
+    },
+    {
+      "type": "Set up a Linux build environment | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/contribute/build/linux"
+    },
+    {
+      "type": "Docker roles and permissions | 2.27 LTS | Portainer Documentation",
+      "url": "https://docs.portainer.io/2.27/advanced/docker-roles-and-permissions"
+    },
+    {
+      "type": "What's new in version 2.35 | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/whats-new"
+    },
+    {
+      "type": "Welcome | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts"
+    },
+    {
+      "type": "Introduction | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/intro"
+    },
+    {
+      "type": "Set up a new Portainer BE Server installation | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server"
+    },
+    {
+      "type": "Install Portainer BE | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install"
+    },
+    {
+      "type": "Docker Standalone | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server/docker"
+    },
+    {
+      "type": "Install Portainer BE with Docker on Linux | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server/docker/linux"
+    },
+    {
+      "type": "Install Portainer BE with Docker on WSL / Docker Desktop | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server/docker/wsl"
+    },
+    {
+      "type": "Install Portainer BE with Docker Swarm on Linux | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server/swarm/linux"
+    },
+    {
+      "type": "Install Portainer BE with Docker Swarm on WSL / Docker Desktop | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server/swarm/wsl"
+    },
+    {
+      "type": "Docker Swarm | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server/swarm"
+    },
+    {
+      "type": "Install Portainer BE with Docker on Windows Container Service | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server/docker/wcs"
+    },
+    {
+      "type": "Podman | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server/podman"
+    },
+    {
+      "type": "Install Portainer BE with Docker Swarm on Windows Container Service | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server/swarm/wcs"
+    },
+    {
+      "type": "Kubernetes | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server/kubernetes"
+    },
+    {
+      "type": "Install Portainer BE with Podman on Linux | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server/podman/linux"
+    },
+    {
+      "type": "Install Portainer CE with Docker on Linux | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server/docker/linux"
+    },
+    {
+      "type": "Install Portainer CE | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce"
+    },
+    {
+      "type": "Initial setup | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server/setup"
+    },
+    {
+      "type": "Docker Standalone | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server/docker"
+    },
+    {
+      "type": "Install Portainer BE with Kubernetes on WSL / Docker Desktop | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server/kubernetes/wsl"
+    },
+    {
+      "type": "Install Portainer CE with Docker on WSL / Docker Desktop | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server/docker/wsl"
+    },
+    {
+      "type": "Set up a new Portainer CE Server installation | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server"
+    },
+    {
+      "type": "Install Portainer BE on your Kubernetes environment | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install/server/kubernetes/baremetal"
+    },
+    {
+      "type": "Install Portainer CE with Docker on Windows Container Service | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server/docker/wcs"
+    },
+    {
+      "type": "Install Portainer CE with Docker Swarm on Linux | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server/swarm/linux"
+    },
+    {
+      "type": "Docker Swarm | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server/swarm"
+    },
+    {
+      "type": "Install Portainer CE with Docker Swarm on Windows Container Service | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server/swarm/wcs"
+    },
+    {
+      "type": "Install Portainer CE with Docker Swarm on WSL / Docker Desktop | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server/swarm/wsl"
+    },
+    {
+      "type": "Podman | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server/podman"
+    },
+    {
+      "type": "Install Portainer CE with Podman on Linux | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server/podman/linux"
+    },
+    {
+      "type": "Initial setup | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server/setup"
+    },
+    {
+      "type": "Add an environment to an existing installation | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/agent"
+    },
+    {
+      "type": "Updating Portainer | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade"
+    },
+    {
+      "type": "Kubernetes | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server/kubernetes"
+    },
+    {
+      "type": "Updating on Nomad | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade/nomad"
+    },
+    {
+      "type": "Updating on Docker Standalone | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade/docker"
+    },
+    {
+      "type": "Updating the Edge Agent | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade/edge"
+    },
+    {
+      "type": "Updating from Portainer 1.x | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade/from-1.x"
+    },
+    {
+      "type": "Updating on Podman | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade/podman"
+    },
+    {
+      "type": "Switching to Portainer Business Edition | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade/tobe"
+    },
+    {
+      "type": "Install Portainer CE with Kubernetes on WSL / Docker Desktop | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server/kubernetes/wsl"
+    },
+    {
+      "type": "Install Portainer CE on your Kubernetes environment | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/install-ce/server/kubernetes/baremetal"
+    },
+    {
+      "type": "Updating on Docker Swarm | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade/swarm"
+    },
+    {
+      "type": "Updating on Kubernetes | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade/kubernetes"
+    },
+    {
+      "type": "Upgrade to Business Edition from within Portainer Community Edition | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade/tobe/inapp"
+    },
+    {
+      "type": "Docker Standalone | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade/tobe/docker"
+    },
+    {
+      "type": "Docker Swarm | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade/tobe/swarm"
+    },
+    {
+      "type": "Kubernetes | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade/tobe/kubernetes"
+    },
+    {
+      "type": "Podman | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade/tobe/podman"
+    },
+    {
+      "type": "Upgrading Agent-only deployments | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/start/upgrade/tobe/agent"
+    },
+    {
+      "type": "Home | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/home"
+    },
+    {
+      "type": "Snapshot browsing | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/home/snapshot"
+    },
+    {
+      "type": "OpenAMT | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/home/openamt"
+    },
+    {
+      "type": "Docker/Swarm/Podman | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker"
+    },
+    {
+      "type": "Dashboard | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/dashboard"
+    },
+    {
+      "type": "Application | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/templates/application"
+    },
+    {
+      "type": "Templates | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/templates"
+    },
+    {
+      "type": "Custom templates | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/templates/custom"
+    },
+    {
+      "type": "Deploy a stack | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/templates/deploy-stack"
+    },
+    {
+      "type": "Deploy a container | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/templates/deploy-container"
+    },
+    {
+      "type": "Stacks | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/stacks"
+    },
+    {
+      "type": "Inspect or edit a stack | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/stacks/edit"
+    },
+    {
+      "type": "Add a new stack | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/stacks/add"
+    },
+    {
+      "type": "Create a template from a deployed stack | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/stacks/template"
+    },
+    {
+      "type": "Migrate or duplicate a stack | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/stacks/migrate"
+    },
+    {
+      "type": "Webhooks | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/stacks/webhooks"
+    },
+    {
+      "type": "Remove a stack | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/stacks/remove"
+    },
+    {
+      "type": "Services | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/services"
+    },
+    {
+      "type": "Add a new service | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/services/add"
+    },
+    {
+      "type": "Configure service options | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/services/configure"
+    },
+    {
+      "type": "Scale a service | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/user/docker/services/scale"
+    },
+    {
+      "type": "Troubleshooting | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting"
+    },
+    {
+      "type": "Access and authentication | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/access-and-authentication"
+    },
+    {
+      "type": "How do I renew my 5 nodes free license? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/licensing/how-do-i-renew-my-5-nodes-free-license"
+    },
+    {
+      "type": "How can I switch back to internal authentication? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/access-and-authentication/how-can-i-switch-back-to-internal-authentication"
+    },
+    {
+      "type": "How do I reset my Portainer password? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/access-and-authentication/how-do-i-reset-my-portainer-password"
+    },
+    {
+      "type": "Why has my Environment IP not updated after I changed it? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/agents-and-environment-management/why-has-my-environment-ip-not-updated-after-i-changed-it"
+    },
+    {
+      "type": "Unable to Authenticate After Portainer Update | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/access-and-authentication/unable-to-authenticate-after-portainer-update"
+    },
+    {
+      "type": "Client sent an HTTP request to an HTTPS server | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/access-and-authentication/client-sent-an-http-request-to-an-https-server"
+    },
+    {
+      "type": "I enabled \"Force HTTPS only\" and now I'm locked out of Portainer. How do I get back in? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/access-and-authentication/i-enabled-force-https-only-and-now-im-locked-out-of-portainer.-how-do-i-get-back-in"
+    },
+    {
+      "type": "Agents and environment management | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/agents-and-environment-management"
+    },
+    {
+      "type": "Why is my Portainer Edge Agent using a large amount of memory? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/agents-and-environment-management/why-is-my-portainer-edge-agent-using-a-large-amount-of-memory"
+    },
+    {
+      "type": "Troubleshooting Edge Agent Connection Issues | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/agents-and-environment-management/troubleshooting-edge-agent-connection-issues"
+    },
+    {
+      "type": "How can I move existing Edge Agent deployments to a new Portainer Server instance? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/agents-and-environment-management/how-can-i-move-existing-edge-agent-deployments-to-a-new-portainer-server-instance"
+    },
+    {
+      "type": "Why can't my agents communicate with Portainer on Swarm? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/agents-and-environment-management/why-cant-my-agents-communicate-with-portainer-on-swarm"
+    },
+    {
+      "type": "Unable to Login via LDAP in Portainer | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/access-and-authentication/unable-to-login-via-ldap-in-portainer"
+    },
+    {
+      "type": "How do I change the way I connect to an environment without losing my existing stacks? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/agents-and-environment-management/how-do-i-change-the-way-i-connect-to-an-environment-without-losing-my-existing-stacks"
+    },
+    {
+      "type": "Stacks, deployments and updates | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates"
+    },
+    {
+      "type": "How does the image update notification icon work? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/how-does-the-image-update-notification-icon-work"
+    },
+    {
+      "type": "How do automatic updates for stacks/applications work? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/how-do-automatic-updates-for-stacks-applications-work"
+    },
+    {
+      "type": "Can I build an image while deploying a stack/application from Git? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/can-i-build-an-image-while-deploying-a-stack-application-from-git"
+    },
+    {
+      "type": "Why don't custom standalone app templates show when using Docker Swarm? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/why-dont-custom-standalone-app-templates-show-when-using-docker-swarm"
+    },
+    {
+      "type": "How do I configure Portainer's GitOps features to authenticate to a Bitbucket repository? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/how-do-i-configure-portainers-gitops-features-to-authenticate-to-a-bitbucket-repository"
+    },
+    {
+      "type": "Why are stack deployment times slow? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/why-are-stack-deployment-times-slow"
+    },
+    {
+      "type": "Environment Variable Management in Docker: .env vs. stack.env | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/environment-variable-management-in-docker-.env-vs.-stack.env"
+    },
+    {
+      "type": "How do I recover orphaned stacks from a previously deleted environment? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/stacks-deployments-and-updates/how-do-i-recover-orphaned-stacks-from-a-previously-deleted-environment"
+    },
+    {
+      "type": "UI and features | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/ui-and-features"
+    },
+    {
+      "type": "Why can't I use the console with my container? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/ui-and-features/why-cant-i-use-the-console-with-my-container"
+    },
+    {
+      "type": "Exposed ports in the container view redirect me to 0.0.0.0. What can I do? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/ui-and-features/exposed-ports-in-the-container-view-redirect-me-to-0.0.0.0.-what-can-i-do"
+    },
+    {
+      "type": "Why is a feature only available in Portainer Business Edition? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/ui-and-features/why-is-a-feature-only-available-in-portainer-business-edition"
+    },
+    {
+      "type": "Runtime and Resource sliders are not showing the set value on ARM | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/ui-and-features/runtime-and-resource-sliders-are-not-showing-the-set-value-on-arm"
+    },
+    {
+      "type": "Why doesn’t the Portainer UI load inside an iframe? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/ui-and-features/why-doesnt-the-portainer-ui-load-inside-an-iframe"
+    },
+    {
+      "type": "Logs, errors and debugging | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging"
+    },
+    {
+      "type": "Can you view deleted container logs in Portainer? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/can-you-view-deleted-container-logs-in-portainer"
+    },
+    {
+      "type": "How can I get the logs for Portainer itself? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/how-can-i-get-the-logs-for-portainer-itself"
+    },
+    {
+      "type": "Unable to Access Pod Logs in My k0s Cluster | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/unable-to-access-pod-logs-in-my-k0s-cluster"
+    },
+    {
+      "type": "Why do I see a lot of TLS handshake errors in my Portainer and/or Agent logs? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/why-do-i-see-a-lot-of-tls-handshake-errors-in-my-portainer-and-or-agent-logs"
+    },
+    {
+      "type": "Why can't my users see anything in the environment they have access to? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/why-cant-my-users-see-anything-in-the-environment-they-have-access-to"
+    },
+    {
+      "type": "\"Failed to get license info\" or \"Unable to retrieve license info\" message with valid license | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/failed-to-get-license-info-or-unable-to-retrieve-license-info-message-with-valid-license"
+    },
+    {
+      "type": "What does a 500 error code mean? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/what-does-a-500-error-code-mean"
+    },
+    {
+      "type": "Why is my console closing after a certain time? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/why-is-my-console-closing-after-a-certain-time"
+    },
+    {
+      "type": "“Failed logging user activity” error in Portainer | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/logs-errors-and-debugging/failed-logging-user-activity-error-in-portainer"
+    },
+    {
+      "type": "Certificates and security | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/certificates-and-security"
+    },
+    {
+      "type": "How to enable/disable image Up-to-date indicator | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/certificates-and-security/how-to-enable-disable-image-up-to-date-indicator"
+    },
+    {
+      "type": "How can I use my custom certificate authority (CA) with Portainer? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/certificates-and-security/how-can-i-use-my-custom-certificate-authority-ca-with-portainer"
+    },
+    {
+      "type": "Registry and image management | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/registry-and-image-management"
+    },
+    {
+      "type": "Why is my node count higher than it should be? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/registry-and-image-management/why-is-my-node-count-higher-than-it-should-be"
+    },
+    {
+      "type": "Contributing | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/contributing"
+    },
+    {
+      "type": "I am unable to push an image to an AWS Elastic Container Registry | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/troubleshooting/registry-and-image-management/i-am-unable-to-push-an-image-to-an-aws-elastic-container-registry"
+    },
+    {
+      "type": "How do I report a bug? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/contributing/how-do-i-report-a-bug"
+    },
+    {
+      "type": "How do I raise a feature request? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/contributing/how-do-i-raise-a-feature-request"
+    },
+    {
+      "type": "How do you decide which bugs and features to work on first? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/contributing/how-do-you-decide-which-bugs-and-features-to-work-on-first"
+    },
+    {
+      "type": "How do I log a Support Request? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/contributing/how-do-i-log-a-support-request"
+    },
+    {
+      "type": "Email Protection | Cloudflare",
+      "url": "https://docs.portainer.io/cdn-cgi/l/email-protection"
+    },
+    {
+      "type": "Known issues | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/known-issues"
+    },
+    {
+      "type": "Edge stacks do not support authenticating to deploy applications from private registries. | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/known-issues/edge-stacks-do-not-support-authenticating-to-deploy-applications-from-private-registries."
+    },
+    {
+      "type": "Known issues with VMware | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/known-issues/known-issues-with-vmware"
+    },
+    {
+      "type": "Resource limits in a compose file are not applying | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/known-issues/resource-limits-in-a-compose-file-are-not-applying"
+    },
+    {
+      "type": "Groups info issue with OAuth using Microsoft AD | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/known-issues/groups-info-issue-with-oauth-using-microsoft-ad"
+    },
+    {
+      "type": "Hardware Acceleration GPU button is missing | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/known-issues/hardware-acceleration-gpu-button-is-missing"
+    },
+    {
+      "type": "Nomad Jobs only displays Service Jobs | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/known-issues/nomad-jobs-only-displays-service-jobs"
+    },
+    {
+      "type": "Unable to update environment variables when running on Synology NAS | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/known-issues/unable-to-update-environment-variables-when-running-on-synology-nas"
+    },
+    {
+      "type": "\"Image not found on registry\" error when upgrading from CE to BE or self-updating on Synology NAS | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/known-issues/image-not-found-on-registry-error-when-upgrading-from-ce-to-be-or-self-updating-on-synology-nas"
+    },
+    {
+      "type": "Unable to remove the Group Configuration from Active Directory authentication configuration | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/known-issues/unable-to-remove-the-group-configuration-from-active-directory-authentication-configuration"
+    },
+    {
+      "type": "MicroK8s Known Issues | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/known-issues/microk8s-known-issues"
+    },
+    {
+      "type": "Where can I find the documentation for Portainer? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/getting-support/where-can-i-find-the-documentation-for-portainer"
+    },
+    {
+      "type": "Which versions of Portainer do you provide support for? | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/getting-support/which-versions-of-portainer-do-you-provide-support-for"
+    },
+    {
+      "type": "Access control | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/access-control"
+    },
+    {
+      "type": "Getting support | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/getting-support"
+    },
+    {
+      "type": "How to get support for Community Edition and 5 Nodes Free Users | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/getting-support/how-to-get-support-for-community-edition-and-5-nodes-free-users"
+    },
+    {
+      "type": "Security and compliance | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/security"
+    },
+    {
+      "type": "Reset the admin user's password | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/reset-admin"
+    },
+    {
+      "type": "App templates | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/app-templates"
+    },
+    {
+      "type": "\"Unauthorized\" error when pushing images to ACR with Service Principal account | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/known-issues/unauthorized-error-when-pushing-images-to-acr-with-service-principal-account"
+    },
+    {
+      "type": "Known compatibility issues with Docker Engine 29.0.0 | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/known-issues/known-compatibility-issues-with-docker-engine-29.0.0"
+    },
+    {
+      "type": "How to get support for Business Edition Customers with a subscription | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/getting-support/how-to-get-support-for-business-edition-customers-with-a-subscription"
+    },
+    {
+      "type": "The Portainer Edge Agent | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/edge-agent"
+    },
+    {
+      "type": "Build and host your own app templates | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/app-templates/build"
+    },
+    {
+      "type": "\"Invalid certificate file\" error when browsing empty Azure Container Registry | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/faqs/known-issues/invalid-certificate-file-error-when-browsing-empty-azure-container-registry"
+    },
+    {
+      "type": "Stream auth and activity logs to an external provider | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/siem"
+    },
+    {
+      "type": "Using Portainer with reverse proxies | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/reverse-proxy"
+    },
+    {
+      "type": "Using your own SSL certificate with Portainer | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/ssl"
+    },
+    {
+      "type": "Privacy Policy | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/privacy"
+    },
+    {
+      "type": "Build instructions | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/contribute/build"
+    },
+    {
+      "type": "Deprecated and removed features | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/deprecated"
+    },
+    {
+      "type": "Deploying Portainer behind Traefik Proxy | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/reverse-proxy/traefik"
+    },
+    {
+      "type": "Using mTLS with Portainer | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/mtls"
+    },
+    {
+      "type": "Accessing the Portainer API | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/api/access"
+    },
+    {
+      "type": "Encrypting the Portainer database | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/db-encryption"
+    },
+    {
+      "type": "API documentation | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/api/docs"
+    },
+    {
+      "type": "How Relative Path Support works in Portainer | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/relative-paths"
+    },
+    {
+      "type": "Set up a macOS build environment | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/contribute/build/mac"
+    },
+    {
+      "type": "Contribute | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/contribute/contribute"
+    },
+    {
+      "type": "Deploying Portainer behind nginx reverse proxy | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/reverse-proxy/nginx"
+    },
+    {
+      "type": "Deprecated and removed features | Portainer Documentation",
+      "url": "https://docs.portainer.io/advanced/deprecated"
+    },
+    {
+      "type": "Helm chart configuration options | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/helm-chart-configuration-options"
+    },
+    {
+      "type": "The Portainer Edge Agent | Portainer Documentation",
+      "url": "https://docs.portainer.io/advanced/edge-agent"
+    },
+    {
+      "type": "Access control | Portainer Documentation",
+      "url": "https://docs.portainer.io/advanced/access-control"
+    },
+    {
+      "type": "Security and compliance | Portainer Documentation",
+      "url": "https://docs.portainer.io/advanced/security"
+    },
+    {
+      "type": "API documentation | Portainer Documentation",
+      "url": "https://docs.portainer.io/api/docs"
+    },
+    {
+      "type": "App template JSON format | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/app-templates/format"
+    },
+    {
+      "type": "Using your own SSL certificate with Portainer | Portainer Documentation",
+      "url": "https://docs.portainer.io/advanced/ssl"
+    },
+    {
+      "type": "API usage examples | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/api/examples"
+    },
+    {
+      "type": "Build and host your own app templates | Portainer Documentation",
+      "url": "https://docs.portainer.io/advanced/app-templates/build"
+    },
+    {
+      "type": "How Relative Path Support works in Portainer | Portainer Documentation",
+      "url": "https://docs.portainer.io/advanced/relative-paths"
+    },
+    {
+      "type": "Set up a Linux build environment | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/contribute/build/linux"
+    },
+    {
+      "type": "CLI configuration options | 2.35 STS | Portainer Documentation",
+      "url": "https://docs.portainer.io/sts/advanced/cli"
+    },
+    {
+      "type": "Encrypting the Portainer database | Portainer Documentation",
+      "url": "https://docs.portainer.io/advanced/db-encryption"
+    },
+    {
+      "type": "Using mTLS with Portainer | Portainer Documentation",
+      "url": "https://docs.portainer.io/advanced/mtls"
+    },
+    {
+      "type": "Privacy Policy | Portainer Documentation",
+      "url": "https://docs.portainer.io/privacy"
+    },
+    {
+      "type": "Reset the admin user's password | Portainer Documentation",
+      "url": "https://docs.portainer.io/advanced/reset-admin"
+    },
+    {
+      "type": "App templates | Portainer Documentation",
+      "url": "https://docs.portainer.io/advanced/app-templates"
+    },
+    {
+      "type": "Build instructions | Portainer Documentation",
+      "url": "https://docs.portainer.io/contribute/build"
+    },
+    {
+      "type": "Contribute | Portainer Documentation",
+      "url": "https://docs.portainer.io/contribute/contribute"
+    },
+    {
+      "type": "Stream auth and activity logs to an external provider | Portainer Documentation",
+      "url": "https://docs.portainer.io/advanced/siem"
+    }
+  ],
+  "latestVersion": "1.2.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-11-15T19:56:11.438Z",
+      "filename": "documentation_2025-11-15T19:56:11.438Z.md",
+      "totalPages": 236,
+      "successfulPages": 236,
+      "url": "https://docs.portainer.io/advanced/cli",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-11-15T20:00:22.578Z",
+      "filename": "documentation_2025-11-15T20:00:22.578Z.md",
+      "totalPages": 236,
+      "successfulPages": 236,
+      "url": "https://docs.portainer.io/advanced/cli",
+      "isLatest": false
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2025-11-15T20:08:55.403Z",
+      "filename": "documentation_2025-11-15T20:08:55.403Z.md",
+      "totalPages": 236,
+      "successfulPages": 236,
+      "url": "https://docs.portainer.io/advanced/cli",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

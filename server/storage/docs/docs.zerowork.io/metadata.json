@@ -1,122 +1,623 @@
 {
   "url": "https://docs.zerowork.io/getting-started",
   "domain": "docs.zerowork.io",
-  "lastScraped": "2025-02-21T19:15:09.322Z",
-  "totalPages": 25,
-  "successfulPages": 25,
+  "lastScraped": "2026-02-16T13:09:29.710Z",
+  "totalPages": 150,
+  "successfulPages": 150,
   "failedPages": [],
   "structure": [
     {
+      "type": "Home and Welcome | ZeroWork",
+      "url": "https://docs.zerowork.io/"
+    },
+    {
       "type": "Getting Started | ZeroWork",
       "url": "https://docs.zerowork.io/getting-started"
-    },
-    {
-      "type": "Run | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run"
-    },
-    {
-      "type": "General: Run, Schedule, Share, Webhooks | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks"
-    },
-    {
-      "type": "Stop | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/stop"
-    },
-    {
-      "type": "Run Incognito | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-modes/run-incognito"
-    },
-    {
-      "type": "One Element Can Have Many Selector Expressions | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/how-to-build-custom-selectors/one-element-can-have-many-selector-expressions"
-    },
-    {
-      "type": "Run Non-Incognito | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-modes/run-non-incognito"
-    },
-    {
-      "type": "Log in to the Agent | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/log-in-to-the-agent"
-    },
-    {
-      "type": "Run Settings | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-settings"
-    },
-    {
-      "type": "What Are Selectors | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/what-are-selectors"
-    },
-    {
-      "type": "Run Modes | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-modes"
-    },
-    {
-      "type": "Crash Course | ZeroWork",
-      "url": "https://docs.zerowork.io/crash-course"
-    },
-    {
-      "type": "Remote (Cloud) Execution | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/remote-cloud-execution"
-    },
-    {
-      "type": "Proxies | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/proxies"
-    },
-    {
-      "type": "Copy Selectors | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/copy-selectors"
-    },
-    {
-      "type": "Run in Background | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-settings/run-in-background"
-    },
-    {
-      "type": "Exact or Loose Match | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/how-to-build-custom-selectors/exact-or-loose-match"
-    },
-    {
-      "type": "Bring Pages to Front | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-settings/bring-pages-to-front"
-    },
-    {
-      "type": "How to Check Your Agent Version | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/how-to-check-your-agent-version"
     },
     {
       "type": "Install the Agent | ZeroWork",
       "url": "https://docs.zerowork.io/install-the-agent"
     },
     {
-      "type": "Combine Filters with Standard CSS Logic | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/how-to-build-custom-selectors/combine-filters-with-standard-css-logic"
+      "type": "Crash Course | ZeroWork",
+      "url": "https://docs.zerowork.io/crash-course"
+    },
+    {
+      "type": "Log in to the Agent | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/log-in-to-the-agent"
+    },
+    {
+      "type": "General: Run, Schedule, Share, Webhooks | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks"
+    },
+    {
+      "type": "Run Modes | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-modes"
+    },
+    {
+      "type": "Stop | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/stop"
+    },
+    {
+      "type": "Run | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run"
+    },
+    {
+      "type": "Run Non-Incognito | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-modes/run-non-incognito"
+    },
+    {
+      "type": "Run Incognito | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-modes/run-incognito"
+    },
+    {
+      "type": "What Are Selectors | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/what-are-selectors"
+    },
+    {
+      "type": "Remote (Cloud) Execution | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/remote-cloud-execution"
+    },
+    {
+      "type": "How to Check and Update Your Agent | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/how-to-check-and-update-your-agent"
+    },
+    {
+      "type": "TaskBot Sharing Options | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/taskbot-sharing-options"
+    },
+    {
+      "type": "Scheduler | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/scheduler"
+    },
+    {
+      "type": "Run Settings | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-settings"
+    },
+    {
+      "type": "Copy Selectors | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/copy-selectors"
+    },
+    {
+      "type": "Use Element's Text | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/use-elements-text"
     },
     {
       "type": "Using Selectors | ZeroWork",
       "url": "https://docs.zerowork.io/using-zerowork/using-selectors"
     },
     {
-      "type": "Check if Selector Is Correct and Unique | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/how-to-build-custom-selectors/check-if-selector-is-correct-and-unique"
+      "type": "Run in Background | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-settings/run-in-background"
+    },
+    {
+      "type": "Install ZeroWork Agent on VPS | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/install-zerowork-agent-on-vps"
+    },
+    {
+      "type": "CSS Selectors Master Class | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/css-selectors-master-class"
+    },
+    {
+      "type": "Bring Pages to Front | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-settings/bring-pages-to-front"
+    },
+    {
+      "type": "Cookies | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/cookies"
+    },
+    {
+      "type": "Proxies | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/proxies"
+    },
+    {
+      "type": "Stay on Page after Run | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-settings/stay-on-page-after-run"
     },
     {
       "type": "Run in My Regular Browser | ZeroWork",
       "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-modes/run-in-my-regular-browser"
     },
     {
-      "type": "Stay on Page after Run | ZeroWork",
-      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/run-settings/stay-on-page-after-run"
+      "type": "Trigger Run via Webhook | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/general-run-schedule-share-webhooks/trigger-run-via-webhook"
+    },
+    {
+      "type": "How to Build Custom Selectors | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/how-to-build-custom-selectors"
+    },
+    {
+      "type": "How to Use XPath in ZeroWork (advanced) | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/how-to-use-xpath-in-zerowork-advanced"
+    },
+    {
+      "type": "One Element Can Have Many Selector Expressions | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/how-to-build-custom-selectors/one-element-can-have-many-selector-expressions"
+    },
+    {
+      "type": "Addressing Siblings | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/how-to-build-custom-selectors/addressing-siblings"
+    },
+    {
+      "type": "Exact or Loose Match | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/how-to-build-custom-selectors/exact-or-loose-match"
+    },
+    {
+      "type": "Check if Selector Is Correct and Unique | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/how-to-build-custom-selectors/check-if-selector-is-correct-and-unique"
+    },
+    {
+      "type": "Combine Filters with Standard CSS Logic | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/how-to-build-custom-selectors/combine-filters-with-standard-css-logic"
+    },
+    {
+      "type": "Basic Concepts of Selectors | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/how-to-build-custom-selectors/basic-concepts-of-selectors"
+    },
+    {
+      "type": "Hierarchy | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/how-to-build-custom-selectors/hierarchy"
+    },
+    {
+      "type": "Lists: Incremental CSS Selectors | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-selectors/how-to-build-custom-selectors/lists-incremental-css-selectors"
+    },
+    {
+      "type": "Version 1.1.69 | ZeroWork",
+      "url": "https://docs.zerowork.io/release-notes/version-1.1.69"
+    },
+    {
+      "type": "Version 1.1.62 | ZeroWork",
+      "url": "https://docs.zerowork.io/release-notes/version-1.1.62"
+    },
+    {
+      "type": "Using Tables | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-tables"
+    },
+    {
+      "type": "Version 1.1.70 | ZeroWork",
+      "url": "https://docs.zerowork.io/release-notes/version-1.1.70"
+    },
+    {
+      "type": "Version 1.1.64 | ZeroWork",
+      "url": "https://docs.zerowork.io/release-notes/version-1.1.64"
+    },
+    {
+      "type": "Version 1.1.65 | ZeroWork",
+      "url": "https://docs.zerowork.io/release-notes/version-1.1.65"
+    },
+    {
+      "type": "Version 1.1.67 | ZeroWork",
+      "url": "https://docs.zerowork.io/release-notes/version-1.1.67"
+    },
+    {
+      "type": "Version 1.1.71 | ZeroWork",
+      "url": "https://docs.zerowork.io/release-notes/version-1.1.71"
+    },
+    {
+      "type": "Common Problems | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/common-problems"
+    },
+    {
+      "type": "Google Sheets | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-tables/google-sheets"
+    },
+    {
+      "type": "How to Add Tables | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-tables/how-to-add-tables"
+    },
+    {
+      "type": "Version 1.1.63 | ZeroWork",
+      "url": "https://docs.zerowork.io/release-notes/version-1.1.63"
+    },
+    {
+      "type": "Version 1.1.66 | ZeroWork",
+      "url": "https://docs.zerowork.io/release-notes/version-1.1.66"
+    },
+    {
+      "type": "Version 1.1.68 | ZeroWork",
+      "url": "https://docs.zerowork.io/release-notes/version-1.1.68"
+    },
+    {
+      "type": "Convert Native Table to a Google Sheet | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-tables/convert-native-table-to-a-google-sheet"
+    },
+    {
+      "type": "Using Google Sheet vs. Native Tables | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-tables/using-google-sheet-vs.-native-tables"
+    },
+    {
+      "type": "Using Variables | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-variables"
+    },
+    {
+      "type": "Keyboard Action Is Not Working As Expected | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/common-problems/keyboard-action-is-not-working-as-expected"
+    },
+    {
+      "type": "Data Is Saved in Wrong Format | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/common-problems/data-is-saved-in-wrong-format"
+    },
+    {
+      "type": "Website is Glitching and Flashing | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/common-problems/website-is-glitching-and-flashing"
+    },
+    {
+      "type": "Native Tables | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-tables/native-tables"
+    },
+    {
+      "type": "Export Data as CSV | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-tables/export-data-as-csv"
+    },
+    {
+      "type": "When Using Insert Data Block, First Letters Are Cut Off | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/common-problems/when-using-insert-data-block-first-letters-are-cut-off"
+    },
+    {
+      "type": "Import Data from CSV | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-tables/import-data-from-csv"
+    },
+    {
+      "type": "Create Columns | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-tables/create-columns"
+    },
+    {
+      "type": "Using Run Reports | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-run-reports"
+    },
+    {
+      "type": "My TaskBot Does Not Start Run | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/common-problems/my-taskbot-does-not-start-run"
+    },
+    {
+      "type": "Click Web Element | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/click-web-element"
+    },
+    {
+      "type": "My TaskBot Saves Some Data but Not All | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/common-problems/my-taskbot-saves-some-data-but-not-all"
+    },
+    {
+      "type": "TaskBot Does Not Automatically Scroll | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/common-problems/taskbot-does-not-automatically-scroll"
+    },
+    {
+      "type": "Using Building Blocks | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks"
+    },
+    {
+      "type": "When I Use Data from Table, No Data is Being Pulled | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/common-problems/when-i-use-data-from-table-no-data-is-being-pulled"
+    },
+    {
+      "type": "Workflow Has More than One Starting Building Block | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/common-problems/workflow-has-more-than-one-starting-building-block"
+    },
+    {
+      "type": "Website Requires SMS or Email Verification | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/common-problems/website-requires-sms-or-email-verification"
+    },
+    {
+      "type": "No Selector is Found | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/common-problems/no-selector-is-found"
+    },
+    {
+      "type": "Check Web Element Identifies Selector as Found but Next Action Does Not | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/common-problems/check-web-element-identifies-selector-as-found-but-next-action-does-not"
+    },
+    {
+      "type": "Getting Support | ZeroWork",
+      "url": "https://docs.zerowork.io/support/getting-support"
+    },
+    {
+      "type": "Version 1.1.61 | ZeroWork",
+      "url": "https://docs.zerowork.io/release-notes/version-1.1.61"
+    },
+    {
+      "type": "Select Web Dropdown | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/select-web-dropdown"
+    },
+    {
+      "type": "Dynamic Inputs | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/dynamic-inputs"
+    },
+    {
+      "type": "Version 1.1.72 (upcoming) | ZeroWork",
+      "url": "https://docs.zerowork.io/release-notes/version-1.1.72-upcoming"
+    },
+    {
+      "type": "References to Variables and Tables | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/dynamic-inputs/references-to-variables-and-tables"
+    },
+    {
+      "type": "Go Back or Forward | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/go-back-or-forward"
+    },
+    {
+      "type": "Hover Web Element | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/hover-web-element"
+    },
+    {
+      "type": "Save Page URL | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/save-page-url"
+    },
+    {
+      "type": "Check Web Element | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/check-web-element"
+    },
+    {
+      "type": "Code in Inputs | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/dynamic-inputs/code-in-inputs"
+    },
+    {
+      "type": "Save Web Element | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/save-web-element"
+    },
+    {
+      "type": "Switch or Close Tab | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/switch-or-close-tab"
+    },
+    {
+      "type": "Insert Text or Data | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/insert-text-or-data"
+    },
+    {
+      "type": "Spintax | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/dynamic-inputs/spintax"
+    },
+    {
+      "type": "Shorten Content Length | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/format-data/shorten-content-length"
+    },
+    {
+      "type": "Switch Frame | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/switch-frame"
+    },
+    {
+      "type": "Before (Date) & After (Date) | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/start-condition-and-set-condition/before-date-and-after-date"
+    },
+    {
+      "type": "Open Link | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/open-link"
+    },
+    {
+      "type": "Delete Data | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/delete-data"
+    },
+    {
+      "type": "Abort Run | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/abort-run"
+    },
+    {
+      "type": "Actions <, ≤, >, ≥ | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/start-condition-and-set-condition/actions-less-than-greater-than"
+    },
+    {
+      "type": "Browser Alert | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/browser-alert"
+    },
+    {
+      "type": "Break Repeat | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/break-repeat"
+    },
+    {
+      "type": "Contains & Does Not Contain | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/start-condition-and-set-condition/contains-and-does-not-contain"
+    },
+    {
+      "type": "Raise Error | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/raise-error"
+    },
+    {
+      "type": "Actions = & ≠ | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/start-condition-and-set-condition/actions-and"
+    },
+    {
+      "type": "Try-Catch | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/try-catch"
+    },
+    {
+      "type": "Remove Duplicates | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/remove-duplicates"
+    },
+    {
+      "type": "Continue until No Element Is Found | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/start-repeat/continue-until-no-element-is-found"
+    },
+    {
+      "type": "Data Found & Data not Found | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/start-condition-and-set-condition/data-found-and-data-not-found"
+    },
+    {
+      "type": "Dynamic Loop | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/start-repeat/dynamic-loop"
+    },
+    {
+      "type": "Start Condition and Set Condition | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/start-condition-and-set-condition"
+    },
+    {
+      "type": "Example: Standardize different formats | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/number-operations/example-standardize-different-formats"
+    },
+    {
+      "type": "Standard Loop | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/start-repeat/standard-loop"
+    },
+    {
+      "type": "Record Date | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/record-date"
+    },
+    {
+      "type": "Keyboard Action | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/keyboard-action"
+    },
+    {
+      "type": "Format Data | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/format-data"
+    },
+    {
+      "type": "Start Repeat | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/start-repeat"
+    },
+    {
+      "type": "Save Lists | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/save-web-element/save-lists"
+    },
+    {
+      "type": "Save from Clipboard | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/save-from-clipboard"
+    },
+    {
+      "type": "Remove Words | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/format-data/remove-words"
+    },
+    {
+      "type": "Send Notification | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/send-notification"
+    },
+    {
+      "type": "Auto-Scroll | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/start-repeat/auto-scroll"
+    },
+    {
+      "type": "Log | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/log"
+    },
+    {
+      "type": "Split Data | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/split-data"
+    },
+    {
+      "type": "Apply Regex | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/apply-regex"
+    },
+    {
+      "type": "Take Screenshot | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/take-screenshot"
+    },
+    {
+      "type": "After Repeat | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/after-repeat"
+    },
+    {
+      "type": "Delay | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/delay"
+    },
+    {
+      "type": "Building Block Options | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/building-block-options"
+    },
+    {
+      "type": "Auto-Continue from Last Row or Element | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/start-repeat/auto-continue-from-last-row-or-element"
+    },
+    {
+      "type": "Enrich Existing Data | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/save-web-element/enrich-existing-data"
+    },
+    {
+      "type": "Update Data | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/update-data"
+    },
+    {
+      "type": "Number Operations | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/number-operations"
+    },
+    {
+      "type": "Sticky Notes | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/building-block-options/sticky-notes"
+    },
+    {
+      "type": "Delay Times between the Building Blocks | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/building-block-options/delay-times-between-the-building-blocks"
+    },
+    {
+      "type": "Auto-Align | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/building-block-options/auto-align"
+    },
+    {
+      "type": "Shortcuts | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/building-block-options/shortcuts"
+    },
+    {
+      "type": "Local and Global State (upcoming) | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/write-javascript/local-and-global-state-upcoming"
+    },
+    {
+      "type": "Nested Loops - Handle Pagination | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/start-repeat/nested-loops-handle-pagination"
+    },
+    {
+      "type": "Upload File | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/upload-file"
+    },
+    {
+      "type": "Ask ChatGPT | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/ask-chatgpt"
+    },
+    {
+      "type": "Save File | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/save-file"
+    },
+    {
+      "type": "Device Storage (upcoming) | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/write-javascript/device-storage-upcoming"
+    },
+    {
+      "type": "Deactivate Building Blocks | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/building-block-options/deactivate-building-blocks"
+    },
+    {
+      "type": "APIs: Send HTTP Request | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/apis-send-http-request"
+    },
+    {
+      "type": "Utilities (upcoming) | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/write-javascript/utilities-upcoming"
+    },
+    {
+      "type": "Metadata (upcoming) | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/write-javascript/metadata-upcoming"
+    },
+    {
+      "type": "Write and Read Variables and Tables | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/write-javascript/write-and-read-variables-and-tables"
+    },
+    {
+      "type": "Write JavaScript (upcoming) | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/write-javascript/write-javascript-upcoming"
+    },
+    {
+      "type": "Imports and Package Management (upcoming) | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/write-javascript/imports-and-package-management-upcoming"
+    },
+    {
+      "type": "Write JavaScript | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/write-javascript"
+    },
+    {
+      "type": "Browser Context (upcoming) | ZeroWork",
+      "url": "https://docs.zerowork.io/using-zerowork/using-building-blocks/write-javascript/browser-context-upcoming"
+    },
+    {
+      "type": "Email Protection | Cloudflare",
+      "url": "https://docs.zerowork.io/cdn-cgi/l/email-protection"
     }
   ],
-  "latestVersion": "1.1.0",
+  "latestVersion": "1.1.1",
   "versions": [
     {
-      "version": "1.0.0",
-      "timestamp": "2025-02-21T19:13:40.033Z",
-      "filename": "documentation_2025-02-21T19:13:40.033Z.md",
-      "totalPages": 25,
-      "successfulPages": 25,
-      "url": "https://docs.zerowork.io/getting-started",
-      "isLatest": false
+      "version": "1.1.1",
+      "label": "latest",
+      "timestamp": "2026-02-16T13:09:29.710Z",
+      "filename": "documentation_2026-02-16T13:09:29.710Z.md",
+      "totalPages": 150,
+      "successfulPages": 150,
+      "url": "https://docs.zerowork.io/",
+      "isLatest": true
     },
     {
       "version": "1.1.0",
@@ -125,8 +626,16 @@
       "totalPages": 25,
       "successfulPages": 25,
       "url": "https://docs.zerowork.io/getting-started",
-      "isLatest": true,
-      "label": "latest"
+      "isLatest": false
+    },
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-02-21T19:13:40.033Z",
+      "filename": "documentation_2025-02-21T19:13:40.033Z.md",
+      "totalPages": 25,
+      "successfulPages": 25,
+      "url": "https://docs.zerowork.io/getting-started",
+      "isLatest": false
     }
   ],
   "schemaVersion": 2

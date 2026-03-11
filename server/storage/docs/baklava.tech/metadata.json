@@ -1,1 +1,913 @@
-{"url":"https://baklava.tech/getting-started.html","domain":"baklava.tech","lastScraped":"2025-12-07T05:05:20.472Z","totalPages":220,"successfulPages":220,"failedPages":[],"structure":[{"type":"Getting Started | BaklavaJS","url":"https://baklava.tech/getting-started.html"},{"type":"BaklavaJS","url":"https://baklava.tech/"},{"type":"Reference - BaklavaJS","url":"https://baklava.tech/api/"},{"type":"Forward Engine | BaklavaJS","url":"https://baklava.tech/execution/forward.html"},{"type":"Node Lifecycle | BaklavaJS","url":"https://baklava.tech/nodes/lifecycle.html"},{"type":"Core Concepts | BaklavaJS","url":"https://baklava.tech/core-concepts.html"},{"type":"Migrating from Baklava V1 | BaklavaJS","url":"https://baklava.tech/migration.html"},{"type":"Dependency Engine | BaklavaJS","url":"https://baklava.tech/execution/dependency.html"},{"type":"Browser Build | BaklavaJS","url":"https://baklava.tech/browser-build.html"},{"type":"Saving and Loading | BaklavaJS","url":"https://baklava.tech/editor/saving-loading.html"},{"type":"Registering Nodes | BaklavaJS","url":"https://baklava.tech/editor/registering-nodes.html"},{"type":"Pre-defined interfaces | BaklavaJS","url":"https://baklava.tech/nodes/pre-defined-interfaces.html"},{"type":"Graph Execution | BaklavaJS","url":"https://baklava.tech/execution/setup.html"},{"type":"Event System | BaklavaJS","url":"https://baklava.tech/event-system.html"},{"type":"Interface Types | BaklavaJS","url":"https://baklava.tech/nodes/interface-types.html"},{"type":"Toolbar | BaklavaJS","url":"https://baklava.tech/visual-editor/toolbar.html"},{"type":"Subgraphs | BaklavaJS","url":"https://baklava.tech/editor/subgraphs.html"},{"type":"Commands | BaklavaJS","url":"https://baklava.tech/visual-editor/commands.html"},{"type":"Dynamic Nodes | BaklavaJS","url":"https://baklava.tech/nodes/dynamic-nodes.html"},{"type":"Sidebar | BaklavaJS","url":"https://baklava.tech/visual-editor/sidebar.html"},{"type":"Creating Nodes | BaklavaJS","url":"https://baklava.tech/nodes/nodes.html"},{"type":"Setup | BaklavaJS","url":"https://baklava.tech/visual-editor/setup.html"},{"type":"Node Interfaces | BaklavaJS","url":"https://baklava.tech/nodes/interfaces.html"},{"type":"Customization | BaklavaJS","url":"https://baklava.tech/visual-editor/customization.html"},{"type":"Reference - BaklavaJS","url":"https://baklava.tech/api/modules.html"},{"type":"NodeInterface | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_core.NodeInterface.html"},{"type":"@baklavajs/engine | Reference - BaklavaJS","url":"https://baklava.tech/api/modules/_baklavajs_engine.html"},{"type":"@baklavajs/events | Reference - BaklavaJS","url":"https://baklava.tech/api/modules/_baklavajs_events.html"},{"type":"@baklavajs/interface-types | Reference - BaklavaJS","url":"https://baklava.tech/api/modules/_baklavajs_interface-types.html"},{"type":"@baklavajs/renderer-vue | Reference - BaklavaJS","url":"https://baklava.tech/api/modules/_baklavajs_renderer-vue.html"},{"type":"@baklavajs/core | Reference - BaklavaJS","url":"https://baklava.tech/api/modules/_baklavajs_core.html"},{"type":"AbstractNode | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_core.AbstractNode.html"},{"type":"GraphTemplate | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_core.GraphTemplate.html"},{"type":"defineDynamicNode | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_core.defineDynamicNode.html"},{"type":"Connection | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_core.Connection.html"},{"type":"INodeDefinition | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.INodeDefinition.html"},{"type":"EngineStatus | Reference - BaklavaJS","url":"https://baklava.tech/api/enums/_baklavajs_engine.EngineStatus.html"},{"type":"CycleError | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_engine.CycleError.html"},{"type":"AfterNodeCalculationEventData | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_engine.AfterNodeCalculationEventData.html"},{"type":"BeforeNodeCalculationEventData | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_engine.BeforeNodeCalculationEventData.html"},{"type":"BaseEngine | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_engine.BaseEngine.html"},{"type":"ITopologicalSortingResult | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_engine.ITopologicalSortingResult.html"},{"type":"allowMultipleConnections | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_engine.allowMultipleConnections.html"},{"type":"DependencyEngine | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_engine.DependencyEngine.html"},{"type":"applyResult | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_engine.applyResult.html"},{"type":"containsCycle | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_engine.containsCycle.html"},{"type":"sortTopologically | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_engine.sortTopologically.html"},{"type":"DummyConnection | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_core.DummyConnection.html"},{"type":"CheckConnectionHookResult | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.CheckConnectionHookResult.html"},{"type":"DynamicNode | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_core.DynamicNode.html"},{"type":"CalculationContext | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.CalculationContext.html"},{"type":"DynamicNodeUpdateResult | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.DynamicNodeUpdateResult.html"},{"type":"IAddConnectionEventData | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.IAddConnectionEventData.html"},{"type":"IConnectionState | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.IConnectionState.html"},{"type":"IAddNodeTypeEventData | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.IAddNodeTypeEventData.html"},{"type":"GraphInputNode | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_core.GraphInputNode.html"},{"type":"IConnection | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.IConnection.html"},{"type":"IEditorState | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.IEditorState.html"},{"type":"GraphOutputNode | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_core.GraphOutputNode.html"},{"type":"IDynamicNodeDefinition | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.IDynamicNodeDefinition.html"},{"type":"Node | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_core.Node.html"},{"type":"Editor | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_core.Editor.html"},{"type":"Graph | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_core.Graph.html"},{"type":"IEngine | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.IEngine.html"},{"type":"IGraphInterface | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.IGraphInterface.html"},{"type":"IGraphNodeState | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.IGraphNodeState.html"},{"type":"IGraphNode | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.IGraphNode.html"},{"type":"IGraphState | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.IGraphState.html"},{"type":"IGraphTemplateState | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.IGraphTemplateState.html"},{"type":"INodeInterfaceState | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.INodeInterfaceState.html"},{"type":"INodeState | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.INodeState.html"},{"type":"INodeTypeInformation | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.INodeTypeInformation.html"},{"type":"INodeUpdateEventData | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.INodeUpdateEventData.html"},{"type":"IRegisterNodeTypeOptions | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_core.IRegisterNodeTypeOptions.html"},{"type":"AbstractNodeConstructor | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.AbstractNodeConstructor.html"},{"type":"CalculateFunction | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.CalculateFunction.html"},{"type":"CalculateFunctionReturnType | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.CalculateFunctionReturnType.html"},{"type":"CalculationResult | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.CalculationResult.html"},{"type":"CheckConnectionResult | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.CheckConnectionResult.html"},{"type":"DynamicNodeDefinition | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.DynamicNodeDefinition.html"},{"type":"GraphOutputNodeState | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.GraphOutputNodeState.html"},{"type":"GraphInputNodeState | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.GraphInputNodeState.html"},{"type":"InterfaceFactory | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.InterfaceFactory.html"},{"type":"NodeConstructor | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.NodeConstructor.html"},{"type":"NodeInstanceOf | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.NodeInstanceOf.html"},{"type":"NodeInterfaceDefinition | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.NodeInterfaceDefinition.html"},{"type":"NodeInterfaceDefinitionStates | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.NodeInterfaceDefinitionStates.html"},{"type":"NodeInterfaceFactory | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.NodeInterfaceFactory.html"},{"type":"NodeInterfaceMiddleware | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_core.NodeInterfaceMiddleware.html"},{"type":"GRAPH_INPUT_NODE_TYPE | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_core.GRAPH_INPUT_NODE_TYPE.html"},{"type":"GRAPH_NODE_TYPE_PREFIX | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_core.GRAPH_NODE_TYPE_PREFIX.html"},{"type":"GRAPH_OUTPUT_NODE_TYPE | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_core.GRAPH_OUTPUT_NODE_TYPE.html"},{"type":"createGraphNodeType | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_core.createGraphNodeType.html"},{"type":"defineNode | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_core.defineNode.html"},{"type":"getGraphNodeTypeString | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_core.getGraphNodeTypeString.html"},{"type":"BaklavaEvent | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_events.BaklavaEvent.html"},{"type":"DynamicSequentialHook | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_events.DynamicSequentialHook.html"},{"type":"ParallelHook | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_events.ParallelHook.html"},{"type":"PreventableBaklavaEvent | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_events.PreventableBaklavaEvent.html"},{"type":"SequentialHook | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_events.SequentialHook.html"},{"type":"IBaklavaEventEmitter | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_events.IBaklavaEventEmitter.html"},{"type":"IBaklavaTapable | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_events.IBaklavaTapable.html"},{"type":"ISubscribableProxy | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_events.ISubscribableProxy.html"},{"type":"Subscribable | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_events.Subscribable.html"},{"type":"EventListener | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_events.EventListener.html"},{"type":"GetListenersFn | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_events.GetListenersFn.html"},{"type":"HookTap | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_events.HookTap.html"},{"type":"PreventableEventListener | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_events.PreventableEventListener.html"},{"type":"TokenType | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_events.TokenType.html"},{"type":"createProxy | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_events.createProxy.html"},{"type":"BaklavaInterfaceTypesOptions | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_interface-types.BaklavaInterfaceTypesOptions.html"},{"type":"IConversion | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_interface-types.IConversion.html"},{"type":"getType | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_interface-types.getType.html"},{"type":"NodeInterfaceType | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_interface-types.NodeInterfaceType.html"},{"type":"setType | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_interface-types.setType.html"},{"type":"BaklavaInterfaceTypes | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_interface-types.BaklavaInterfaceTypes.html"},{"type":"setTypeForMultipleConnections | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_interface-types.setTypeForMultipleConnections.html"},{"type":"StartSelectionBoxCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.Commands.StartSelectionBoxCommand.html"},{"type":"START_SELECTION_BOX_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.Commands.START_SELECTION_BOX_COMMAND.html"},{"type":"Components | Reference - BaklavaJS","url":"https://baklava.tech/api/modules/_baklavajs_renderer-vue.Components.html"},{"type":"TemporaryConnectionState | Reference - BaklavaJS","url":"https://baklava.tech/api/enums/_baklavajs_renderer-vue.TemporaryConnectionState.html"},{"type":"ButtonInterface | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_renderer-vue.ButtonInterface.html"},{"type":"CheckboxInterface | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_renderer-vue.CheckboxInterface.html"},{"type":"IntegerInterface | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_renderer-vue.IntegerInterface.html"},{"type":"NumberInterface | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_renderer-vue.NumberInterface.html"},{"type":"SelectInterface | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_renderer-vue.SelectInterface.html"},{"type":"SliderInterface | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_renderer-vue.SliderInterface.html"},{"type":"SubgraphInputNode | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_renderer-vue.SubgraphInputNode.html"},{"type":"TextareaInputInterface | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_renderer-vue.TextareaInputInterface.html"},{"type":"IAdvancedSelectInterfaceItem | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.IAdvancedSelectInterfaceItem.html"},{"type":"TextInputInterface | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_renderer-vue.TextInputInterface.html"},{"type":"IClipboard | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.IClipboard.html"},{"type":"TextInterface | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_renderer-vue.TextInterface.html"},{"type":"SubgraphOutputNode | Reference - BaklavaJS","url":"https://baklava.tech/api/classes/_baklavajs_renderer-vue.SubgraphOutputNode.html"},{"type":"ICommand | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.ICommand.html"},{"type":"IResolvedDomElements | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.IResolvedDomElements.html"},{"type":"IHistory | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.IHistory.html"},{"type":"ISubgraphInterfaceNode | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.ISubgraphInterfaceNode.html"},{"type":"ICommandHandler | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.ICommandHandler.html"},{"type":"ITemporaryConnectionHandler | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.ITemporaryConnectionHandler.html"},{"type":"ITemporaryConnection | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.ITemporaryConnection.html"},{"type":"IBaklavaViewModel | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.IBaklavaViewModel.html"},{"type":"IViewNodeState | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.IViewNodeState.html"},{"type":"SetViewNodePropertiesSettings | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.SetViewNodePropertiesSettings.html"},{"type":"ToolbarCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.ToolbarCommand.html"},{"type":"Commands | Reference - BaklavaJS","url":"https://baklava.tech/api/modules/_baklavajs_renderer-vue.Commands.html"},{"type":"IViewSettings | Reference - BaklavaJS","url":"https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.IViewSettings.html"},{"type":"ClearClipboardCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.ClearClipboardCommand.html"},{"type":"ClearHistoryCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.ClearHistoryCommand.html"},{"type":"CommitTransactionCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.CommitTransactionCommand.html"},{"type":"ContextMenuItem | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.ContextMenuItem.html"},{"type":"CopyCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.CopyCommand.html"},{"type":"CreateSubgraphCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.CreateSubgraphCommand.html"},{"type":"DeleteNodesCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.DeleteNodesCommand.html"},{"type":"InputNode | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.InputNode.html"},{"type":"OpenSidebarCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.OpenSidebarCommand.html"},{"type":"OutputNode | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.OutputNode.html"},{"type":"PasteCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.PasteCommand.html"},{"type":"RedoCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.RedoCommand.html"},{"type":"SaveSubgraphCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.SaveSubgraphCommand.html"},{"type":"SelectInterfaceItem | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.SelectInterfaceItem.html"},{"type":"StartTransactionCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.StartTransactionCommand.html"},{"type":"SwitchGraph | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.SwitchGraph.html"},{"type":"SwitchToMainGraphCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.SwitchToMainGraphCommand.html"},{"type":"UndoCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.UndoCommand.html"},{"type":"ZoomToFitGraphCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.ZoomToFitGraphCommand.html"},{"type":"ZoomToFitNodesCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.ZoomToFitNodesCommand.html"},{"type":"ZoomToFitRectCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/types/_baklavajs_renderer-vue.ZoomToFitRectCommand.html"},{"type":"CLEAR_CLIPBOARD_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.CLEAR_CLIPBOARD_COMMAND.html"},{"type":"CLEAR_HISTORY_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.CLEAR_HISTORY_COMMAND.html"},{"type":"COMMIT_TRANSACTION_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.COMMIT_TRANSACTION_COMMAND.html"},{"type":"COPY_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.COPY_COMMAND.html"},{"type":"CREATE_SUBGRAPH_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.CREATE_SUBGRAPH_COMMAND.html"},{"type":"DEFAULT_SETTINGS | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.DEFAULT_SETTINGS.html"},{"type":"DEFAULT_TOOLBAR_SUBGRAPH_COMMANDS | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.DEFAULT_TOOLBAR_SUBGRAPH_COMMANDS.html"},{"type":"DEFAULT_TOOLBAR_COMMANDS | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.DEFAULT_TOOLBAR_COMMANDS.html"},{"type":"DELETE_NODES_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.DELETE_NODES_COMMAND.html"},{"type":"EditorComponent | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.EditorComponent.html"},{"type":"OPEN_SIDEBAR_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.OPEN_SIDEBAR_COMMAND.html"},{"type":"PASTE_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.PASTE_COMMAND.html"},{"type":"REDO_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.REDO_COMMAND.html"},{"type":"SAVE_SUBGRAPH_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.SAVE_SUBGRAPH_COMMAND.html"},{"type":"START_TRANSACTION_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.START_TRANSACTION_COMMAND.html"},{"type":"SUBGRAPH_INPUT_NODE_TYPE | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.SUBGRAPH_INPUT_NODE_TYPE.html"},{"type":"SUBGRAPH_OUTPUT_NODE_TYPE | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.SUBGRAPH_OUTPUT_NODE_TYPE.html"},{"type":"SWITCH_TO_MAIN_GRAPH_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.SWITCH_TO_MAIN_GRAPH_COMMAND.html"},{"type":"TOOLBAR_COMMANDS | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.TOOLBAR_COMMANDS.html"},{"type":"TOOLBAR_SUBGRAPH_COMMANDS | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.TOOLBAR_SUBGRAPH_COMMANDS.html"},{"type":"UNDO_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.UNDO_COMMAND.html"},{"type":"useCommandHandler | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.useCommandHandler.html"},{"type":"ZOOM_TO_FIT_GRAPH_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.ZOOM_TO_FIT_GRAPH_COMMAND.html"},{"type":"ZOOM_TO_FIT_NODES_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.ZOOM_TO_FIT_NODES_COMMAND.html"},{"type":"ZOOM_TO_FIT_RECT_COMMAND | Reference - BaklavaJS","url":"https://baklava.tech/api/variables/_baklavajs_renderer-vue.ZOOM_TO_FIT_RECT_COMMAND.html"},{"type":"displayInSidebar | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.displayInSidebar.html"},{"type":"getDomElementOfNode | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.getDomElementOfNode.html"},{"type":"getDomElements | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.getDomElements.html"},{"type":"getNodePosition | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.getNodePosition.html"},{"type":"getPortCoordinates | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.getPortCoordinates.html"},{"type":"isInputElement | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.isInputElement.html"},{"type":"providePlugin | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.providePlugin.html"},{"type":"provideTemporaryConnection | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.provideTemporaryConnection.html"},{"type":"registerCreateSubgraphCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.registerCreateSubgraphCommand.html"},{"type":"registerDeleteNodesCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.registerDeleteNodesCommand.html"},{"type":"registerGraphCommands | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.registerGraphCommands.html"},{"type":"registerSaveSubgraphCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.registerSaveSubgraphCommand.html"},{"type":"registerSidebarCommands | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.registerSidebarCommands.html"},{"type":"registerSwitchToMainGraphCommand | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.registerSwitchToMainGraphCommand.html"},{"type":"registerZoomToFitCommands | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.registerZoomToFitCommands.html"},{"type":"setNodePosition | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.setNodePosition.html"},{"type":"setViewNodeProperties | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.setViewNodeProperties.html"},{"type":"useBaklava | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.useBaklava.html"},{"type":"useClipboard | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.useClipboard.html"},{"type":"useDragMove | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.useDragMove.html"},{"type":"useGraph | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.useGraph.html"},{"type":"useHistory | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.useHistory.html"},{"type":"useNodeCategories | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.useNodeCategories.html"},{"type":"useSwitchGraph | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.useSwitchGraph.html"},{"type":"useTemporaryConnection | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.useTemporaryConnection.html"},{"type":"useTransform | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.useTransform.html"},{"type":"useViewModel | Reference - BaklavaJS","url":"https://baklava.tech/api/functions/_baklavajs_renderer-vue.useViewModel.html"}]}
+{
+  "url": "https://baklava.tech/getting-started.html",
+  "domain": "baklava.tech",
+  "lastScraped": "2025-12-07T05:05:20.472Z",
+  "totalPages": 220,
+  "successfulPages": 220,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Getting Started | BaklavaJS",
+      "url": "https://baklava.tech/getting-started.html"
+    },
+    {
+      "type": "BaklavaJS",
+      "url": "https://baklava.tech/"
+    },
+    {
+      "type": "Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/"
+    },
+    {
+      "type": "Forward Engine | BaklavaJS",
+      "url": "https://baklava.tech/execution/forward.html"
+    },
+    {
+      "type": "Node Lifecycle | BaklavaJS",
+      "url": "https://baklava.tech/nodes/lifecycle.html"
+    },
+    {
+      "type": "Core Concepts | BaklavaJS",
+      "url": "https://baklava.tech/core-concepts.html"
+    },
+    {
+      "type": "Migrating from Baklava V1 | BaklavaJS",
+      "url": "https://baklava.tech/migration.html"
+    },
+    {
+      "type": "Dependency Engine | BaklavaJS",
+      "url": "https://baklava.tech/execution/dependency.html"
+    },
+    {
+      "type": "Browser Build | BaklavaJS",
+      "url": "https://baklava.tech/browser-build.html"
+    },
+    {
+      "type": "Saving and Loading | BaklavaJS",
+      "url": "https://baklava.tech/editor/saving-loading.html"
+    },
+    {
+      "type": "Registering Nodes | BaklavaJS",
+      "url": "https://baklava.tech/editor/registering-nodes.html"
+    },
+    {
+      "type": "Pre-defined interfaces | BaklavaJS",
+      "url": "https://baklava.tech/nodes/pre-defined-interfaces.html"
+    },
+    {
+      "type": "Graph Execution | BaklavaJS",
+      "url": "https://baklava.tech/execution/setup.html"
+    },
+    {
+      "type": "Event System | BaklavaJS",
+      "url": "https://baklava.tech/event-system.html"
+    },
+    {
+      "type": "Interface Types | BaklavaJS",
+      "url": "https://baklava.tech/nodes/interface-types.html"
+    },
+    {
+      "type": "Toolbar | BaklavaJS",
+      "url": "https://baklava.tech/visual-editor/toolbar.html"
+    },
+    {
+      "type": "Subgraphs | BaklavaJS",
+      "url": "https://baklava.tech/editor/subgraphs.html"
+    },
+    {
+      "type": "Commands | BaklavaJS",
+      "url": "https://baklava.tech/visual-editor/commands.html"
+    },
+    {
+      "type": "Dynamic Nodes | BaklavaJS",
+      "url": "https://baklava.tech/nodes/dynamic-nodes.html"
+    },
+    {
+      "type": "Sidebar | BaklavaJS",
+      "url": "https://baklava.tech/visual-editor/sidebar.html"
+    },
+    {
+      "type": "Creating Nodes | BaklavaJS",
+      "url": "https://baklava.tech/nodes/nodes.html"
+    },
+    {
+      "type": "Setup | BaklavaJS",
+      "url": "https://baklava.tech/visual-editor/setup.html"
+    },
+    {
+      "type": "Node Interfaces | BaklavaJS",
+      "url": "https://baklava.tech/nodes/interfaces.html"
+    },
+    {
+      "type": "Customization | BaklavaJS",
+      "url": "https://baklava.tech/visual-editor/customization.html"
+    },
+    {
+      "type": "Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/modules.html"
+    },
+    {
+      "type": "NodeInterface | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_core.NodeInterface.html"
+    },
+    {
+      "type": "@baklavajs/engine | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/modules/_baklavajs_engine.html"
+    },
+    {
+      "type": "@baklavajs/events | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/modules/_baklavajs_events.html"
+    },
+    {
+      "type": "@baklavajs/interface-types | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/modules/_baklavajs_interface-types.html"
+    },
+    {
+      "type": "@baklavajs/renderer-vue | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/modules/_baklavajs_renderer-vue.html"
+    },
+    {
+      "type": "@baklavajs/core | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/modules/_baklavajs_core.html"
+    },
+    {
+      "type": "AbstractNode | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_core.AbstractNode.html"
+    },
+    {
+      "type": "GraphTemplate | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_core.GraphTemplate.html"
+    },
+    {
+      "type": "defineDynamicNode | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_core.defineDynamicNode.html"
+    },
+    {
+      "type": "Connection | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_core.Connection.html"
+    },
+    {
+      "type": "INodeDefinition | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.INodeDefinition.html"
+    },
+    {
+      "type": "EngineStatus | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/enums/_baklavajs_engine.EngineStatus.html"
+    },
+    {
+      "type": "CycleError | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_engine.CycleError.html"
+    },
+    {
+      "type": "AfterNodeCalculationEventData | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_engine.AfterNodeCalculationEventData.html"
+    },
+    {
+      "type": "BeforeNodeCalculationEventData | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_engine.BeforeNodeCalculationEventData.html"
+    },
+    {
+      "type": "BaseEngine | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_engine.BaseEngine.html"
+    },
+    {
+      "type": "ITopologicalSortingResult | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_engine.ITopologicalSortingResult.html"
+    },
+    {
+      "type": "allowMultipleConnections | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_engine.allowMultipleConnections.html"
+    },
+    {
+      "type": "DependencyEngine | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_engine.DependencyEngine.html"
+    },
+    {
+      "type": "applyResult | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_engine.applyResult.html"
+    },
+    {
+      "type": "containsCycle | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_engine.containsCycle.html"
+    },
+    {
+      "type": "sortTopologically | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_engine.sortTopologically.html"
+    },
+    {
+      "type": "DummyConnection | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_core.DummyConnection.html"
+    },
+    {
+      "type": "CheckConnectionHookResult | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.CheckConnectionHookResult.html"
+    },
+    {
+      "type": "DynamicNode | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_core.DynamicNode.html"
+    },
+    {
+      "type": "CalculationContext | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.CalculationContext.html"
+    },
+    {
+      "type": "DynamicNodeUpdateResult | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.DynamicNodeUpdateResult.html"
+    },
+    {
+      "type": "IAddConnectionEventData | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.IAddConnectionEventData.html"
+    },
+    {
+      "type": "IConnectionState | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.IConnectionState.html"
+    },
+    {
+      "type": "IAddNodeTypeEventData | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.IAddNodeTypeEventData.html"
+    },
+    {
+      "type": "GraphInputNode | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_core.GraphInputNode.html"
+    },
+    {
+      "type": "IConnection | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.IConnection.html"
+    },
+    {
+      "type": "IEditorState | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.IEditorState.html"
+    },
+    {
+      "type": "GraphOutputNode | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_core.GraphOutputNode.html"
+    },
+    {
+      "type": "IDynamicNodeDefinition | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.IDynamicNodeDefinition.html"
+    },
+    {
+      "type": "Node | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_core.Node.html"
+    },
+    {
+      "type": "Editor | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_core.Editor.html"
+    },
+    {
+      "type": "Graph | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_core.Graph.html"
+    },
+    {
+      "type": "IEngine | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.IEngine.html"
+    },
+    {
+      "type": "IGraphInterface | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.IGraphInterface.html"
+    },
+    {
+      "type": "IGraphNodeState | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.IGraphNodeState.html"
+    },
+    {
+      "type": "IGraphNode | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.IGraphNode.html"
+    },
+    {
+      "type": "IGraphState | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.IGraphState.html"
+    },
+    {
+      "type": "IGraphTemplateState | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.IGraphTemplateState.html"
+    },
+    {
+      "type": "INodeInterfaceState | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.INodeInterfaceState.html"
+    },
+    {
+      "type": "INodeState | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.INodeState.html"
+    },
+    {
+      "type": "INodeTypeInformation | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.INodeTypeInformation.html"
+    },
+    {
+      "type": "INodeUpdateEventData | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.INodeUpdateEventData.html"
+    },
+    {
+      "type": "IRegisterNodeTypeOptions | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_core.IRegisterNodeTypeOptions.html"
+    },
+    {
+      "type": "AbstractNodeConstructor | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.AbstractNodeConstructor.html"
+    },
+    {
+      "type": "CalculateFunction | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.CalculateFunction.html"
+    },
+    {
+      "type": "CalculateFunctionReturnType | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.CalculateFunctionReturnType.html"
+    },
+    {
+      "type": "CalculationResult | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.CalculationResult.html"
+    },
+    {
+      "type": "CheckConnectionResult | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.CheckConnectionResult.html"
+    },
+    {
+      "type": "DynamicNodeDefinition | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.DynamicNodeDefinition.html"
+    },
+    {
+      "type": "GraphOutputNodeState | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.GraphOutputNodeState.html"
+    },
+    {
+      "type": "GraphInputNodeState | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.GraphInputNodeState.html"
+    },
+    {
+      "type": "InterfaceFactory | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.InterfaceFactory.html"
+    },
+    {
+      "type": "NodeConstructor | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.NodeConstructor.html"
+    },
+    {
+      "type": "NodeInstanceOf | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.NodeInstanceOf.html"
+    },
+    {
+      "type": "NodeInterfaceDefinition | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.NodeInterfaceDefinition.html"
+    },
+    {
+      "type": "NodeInterfaceDefinitionStates | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.NodeInterfaceDefinitionStates.html"
+    },
+    {
+      "type": "NodeInterfaceFactory | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.NodeInterfaceFactory.html"
+    },
+    {
+      "type": "NodeInterfaceMiddleware | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_core.NodeInterfaceMiddleware.html"
+    },
+    {
+      "type": "GRAPH_INPUT_NODE_TYPE | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_core.GRAPH_INPUT_NODE_TYPE.html"
+    },
+    {
+      "type": "GRAPH_NODE_TYPE_PREFIX | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_core.GRAPH_NODE_TYPE_PREFIX.html"
+    },
+    {
+      "type": "GRAPH_OUTPUT_NODE_TYPE | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_core.GRAPH_OUTPUT_NODE_TYPE.html"
+    },
+    {
+      "type": "createGraphNodeType | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_core.createGraphNodeType.html"
+    },
+    {
+      "type": "defineNode | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_core.defineNode.html"
+    },
+    {
+      "type": "getGraphNodeTypeString | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_core.getGraphNodeTypeString.html"
+    },
+    {
+      "type": "BaklavaEvent | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_events.BaklavaEvent.html"
+    },
+    {
+      "type": "DynamicSequentialHook | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_events.DynamicSequentialHook.html"
+    },
+    {
+      "type": "ParallelHook | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_events.ParallelHook.html"
+    },
+    {
+      "type": "PreventableBaklavaEvent | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_events.PreventableBaklavaEvent.html"
+    },
+    {
+      "type": "SequentialHook | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_events.SequentialHook.html"
+    },
+    {
+      "type": "IBaklavaEventEmitter | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_events.IBaklavaEventEmitter.html"
+    },
+    {
+      "type": "IBaklavaTapable | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_events.IBaklavaTapable.html"
+    },
+    {
+      "type": "ISubscribableProxy | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_events.ISubscribableProxy.html"
+    },
+    {
+      "type": "Subscribable | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_events.Subscribable.html"
+    },
+    {
+      "type": "EventListener | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_events.EventListener.html"
+    },
+    {
+      "type": "GetListenersFn | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_events.GetListenersFn.html"
+    },
+    {
+      "type": "HookTap | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_events.HookTap.html"
+    },
+    {
+      "type": "PreventableEventListener | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_events.PreventableEventListener.html"
+    },
+    {
+      "type": "TokenType | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_events.TokenType.html"
+    },
+    {
+      "type": "createProxy | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_events.createProxy.html"
+    },
+    {
+      "type": "BaklavaInterfaceTypesOptions | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_interface-types.BaklavaInterfaceTypesOptions.html"
+    },
+    {
+      "type": "IConversion | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_interface-types.IConversion.html"
+    },
+    {
+      "type": "getType | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_interface-types.getType.html"
+    },
+    {
+      "type": "NodeInterfaceType | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_interface-types.NodeInterfaceType.html"
+    },
+    {
+      "type": "setType | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_interface-types.setType.html"
+    },
+    {
+      "type": "BaklavaInterfaceTypes | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_interface-types.BaklavaInterfaceTypes.html"
+    },
+    {
+      "type": "setTypeForMultipleConnections | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_interface-types.setTypeForMultipleConnections.html"
+    },
+    {
+      "type": "StartSelectionBoxCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.Commands.StartSelectionBoxCommand.html"
+    },
+    {
+      "type": "START_SELECTION_BOX_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.Commands.START_SELECTION_BOX_COMMAND.html"
+    },
+    {
+      "type": "Components | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/modules/_baklavajs_renderer-vue.Components.html"
+    },
+    {
+      "type": "TemporaryConnectionState | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/enums/_baklavajs_renderer-vue.TemporaryConnectionState.html"
+    },
+    {
+      "type": "ButtonInterface | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_renderer-vue.ButtonInterface.html"
+    },
+    {
+      "type": "CheckboxInterface | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_renderer-vue.CheckboxInterface.html"
+    },
+    {
+      "type": "IntegerInterface | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_renderer-vue.IntegerInterface.html"
+    },
+    {
+      "type": "NumberInterface | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_renderer-vue.NumberInterface.html"
+    },
+    {
+      "type": "SelectInterface | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_renderer-vue.SelectInterface.html"
+    },
+    {
+      "type": "SliderInterface | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_renderer-vue.SliderInterface.html"
+    },
+    {
+      "type": "SubgraphInputNode | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_renderer-vue.SubgraphInputNode.html"
+    },
+    {
+      "type": "TextareaInputInterface | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_renderer-vue.TextareaInputInterface.html"
+    },
+    {
+      "type": "IAdvancedSelectInterfaceItem | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.IAdvancedSelectInterfaceItem.html"
+    },
+    {
+      "type": "TextInputInterface | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_renderer-vue.TextInputInterface.html"
+    },
+    {
+      "type": "IClipboard | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.IClipboard.html"
+    },
+    {
+      "type": "TextInterface | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_renderer-vue.TextInterface.html"
+    },
+    {
+      "type": "SubgraphOutputNode | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/classes/_baklavajs_renderer-vue.SubgraphOutputNode.html"
+    },
+    {
+      "type": "ICommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.ICommand.html"
+    },
+    {
+      "type": "IResolvedDomElements | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.IResolvedDomElements.html"
+    },
+    {
+      "type": "IHistory | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.IHistory.html"
+    },
+    {
+      "type": "ISubgraphInterfaceNode | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.ISubgraphInterfaceNode.html"
+    },
+    {
+      "type": "ICommandHandler | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.ICommandHandler.html"
+    },
+    {
+      "type": "ITemporaryConnectionHandler | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.ITemporaryConnectionHandler.html"
+    },
+    {
+      "type": "ITemporaryConnection | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.ITemporaryConnection.html"
+    },
+    {
+      "type": "IBaklavaViewModel | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.IBaklavaViewModel.html"
+    },
+    {
+      "type": "IViewNodeState | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.IViewNodeState.html"
+    },
+    {
+      "type": "SetViewNodePropertiesSettings | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.SetViewNodePropertiesSettings.html"
+    },
+    {
+      "type": "ToolbarCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.ToolbarCommand.html"
+    },
+    {
+      "type": "Commands | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/modules/_baklavajs_renderer-vue.Commands.html"
+    },
+    {
+      "type": "IViewSettings | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/interfaces/_baklavajs_renderer-vue.IViewSettings.html"
+    },
+    {
+      "type": "ClearClipboardCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.ClearClipboardCommand.html"
+    },
+    {
+      "type": "ClearHistoryCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.ClearHistoryCommand.html"
+    },
+    {
+      "type": "CommitTransactionCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.CommitTransactionCommand.html"
+    },
+    {
+      "type": "ContextMenuItem | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.ContextMenuItem.html"
+    },
+    {
+      "type": "CopyCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.CopyCommand.html"
+    },
+    {
+      "type": "CreateSubgraphCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.CreateSubgraphCommand.html"
+    },
+    {
+      "type": "DeleteNodesCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.DeleteNodesCommand.html"
+    },
+    {
+      "type": "InputNode | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.InputNode.html"
+    },
+    {
+      "type": "OpenSidebarCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.OpenSidebarCommand.html"
+    },
+    {
+      "type": "OutputNode | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.OutputNode.html"
+    },
+    {
+      "type": "PasteCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.PasteCommand.html"
+    },
+    {
+      "type": "RedoCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.RedoCommand.html"
+    },
+    {
+      "type": "SaveSubgraphCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.SaveSubgraphCommand.html"
+    },
+    {
+      "type": "SelectInterfaceItem | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.SelectInterfaceItem.html"
+    },
+    {
+      "type": "StartTransactionCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.StartTransactionCommand.html"
+    },
+    {
+      "type": "SwitchGraph | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.SwitchGraph.html"
+    },
+    {
+      "type": "SwitchToMainGraphCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.SwitchToMainGraphCommand.html"
+    },
+    {
+      "type": "UndoCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.UndoCommand.html"
+    },
+    {
+      "type": "ZoomToFitGraphCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.ZoomToFitGraphCommand.html"
+    },
+    {
+      "type": "ZoomToFitNodesCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.ZoomToFitNodesCommand.html"
+    },
+    {
+      "type": "ZoomToFitRectCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/types/_baklavajs_renderer-vue.ZoomToFitRectCommand.html"
+    },
+    {
+      "type": "CLEAR_CLIPBOARD_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.CLEAR_CLIPBOARD_COMMAND.html"
+    },
+    {
+      "type": "CLEAR_HISTORY_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.CLEAR_HISTORY_COMMAND.html"
+    },
+    {
+      "type": "COMMIT_TRANSACTION_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.COMMIT_TRANSACTION_COMMAND.html"
+    },
+    {
+      "type": "COPY_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.COPY_COMMAND.html"
+    },
+    {
+      "type": "CREATE_SUBGRAPH_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.CREATE_SUBGRAPH_COMMAND.html"
+    },
+    {
+      "type": "DEFAULT_SETTINGS | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.DEFAULT_SETTINGS.html"
+    },
+    {
+      "type": "DEFAULT_TOOLBAR_SUBGRAPH_COMMANDS | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.DEFAULT_TOOLBAR_SUBGRAPH_COMMANDS.html"
+    },
+    {
+      "type": "DEFAULT_TOOLBAR_COMMANDS | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.DEFAULT_TOOLBAR_COMMANDS.html"
+    },
+    {
+      "type": "DELETE_NODES_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.DELETE_NODES_COMMAND.html"
+    },
+    {
+      "type": "EditorComponent | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.EditorComponent.html"
+    },
+    {
+      "type": "OPEN_SIDEBAR_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.OPEN_SIDEBAR_COMMAND.html"
+    },
+    {
+      "type": "PASTE_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.PASTE_COMMAND.html"
+    },
+    {
+      "type": "REDO_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.REDO_COMMAND.html"
+    },
+    {
+      "type": "SAVE_SUBGRAPH_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.SAVE_SUBGRAPH_COMMAND.html"
+    },
+    {
+      "type": "START_TRANSACTION_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.START_TRANSACTION_COMMAND.html"
+    },
+    {
+      "type": "SUBGRAPH_INPUT_NODE_TYPE | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.SUBGRAPH_INPUT_NODE_TYPE.html"
+    },
+    {
+      "type": "SUBGRAPH_OUTPUT_NODE_TYPE | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.SUBGRAPH_OUTPUT_NODE_TYPE.html"
+    },
+    {
+      "type": "SWITCH_TO_MAIN_GRAPH_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.SWITCH_TO_MAIN_GRAPH_COMMAND.html"
+    },
+    {
+      "type": "TOOLBAR_COMMANDS | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.TOOLBAR_COMMANDS.html"
+    },
+    {
+      "type": "TOOLBAR_SUBGRAPH_COMMANDS | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.TOOLBAR_SUBGRAPH_COMMANDS.html"
+    },
+    {
+      "type": "UNDO_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.UNDO_COMMAND.html"
+    },
+    {
+      "type": "useCommandHandler | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.useCommandHandler.html"
+    },
+    {
+      "type": "ZOOM_TO_FIT_GRAPH_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.ZOOM_TO_FIT_GRAPH_COMMAND.html"
+    },
+    {
+      "type": "ZOOM_TO_FIT_NODES_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.ZOOM_TO_FIT_NODES_COMMAND.html"
+    },
+    {
+      "type": "ZOOM_TO_FIT_RECT_COMMAND | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/variables/_baklavajs_renderer-vue.ZOOM_TO_FIT_RECT_COMMAND.html"
+    },
+    {
+      "type": "displayInSidebar | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.displayInSidebar.html"
+    },
+    {
+      "type": "getDomElementOfNode | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.getDomElementOfNode.html"
+    },
+    {
+      "type": "getDomElements | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.getDomElements.html"
+    },
+    {
+      "type": "getNodePosition | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.getNodePosition.html"
+    },
+    {
+      "type": "getPortCoordinates | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.getPortCoordinates.html"
+    },
+    {
+      "type": "isInputElement | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.isInputElement.html"
+    },
+    {
+      "type": "providePlugin | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.providePlugin.html"
+    },
+    {
+      "type": "provideTemporaryConnection | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.provideTemporaryConnection.html"
+    },
+    {
+      "type": "registerCreateSubgraphCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.registerCreateSubgraphCommand.html"
+    },
+    {
+      "type": "registerDeleteNodesCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.registerDeleteNodesCommand.html"
+    },
+    {
+      "type": "registerGraphCommands | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.registerGraphCommands.html"
+    },
+    {
+      "type": "registerSaveSubgraphCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.registerSaveSubgraphCommand.html"
+    },
+    {
+      "type": "registerSidebarCommands | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.registerSidebarCommands.html"
+    },
+    {
+      "type": "registerSwitchToMainGraphCommand | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.registerSwitchToMainGraphCommand.html"
+    },
+    {
+      "type": "registerZoomToFitCommands | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.registerZoomToFitCommands.html"
+    },
+    {
+      "type": "setNodePosition | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.setNodePosition.html"
+    },
+    {
+      "type": "setViewNodeProperties | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.setViewNodeProperties.html"
+    },
+    {
+      "type": "useBaklava | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.useBaklava.html"
+    },
+    {
+      "type": "useClipboard | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.useClipboard.html"
+    },
+    {
+      "type": "useDragMove | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.useDragMove.html"
+    },
+    {
+      "type": "useGraph | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.useGraph.html"
+    },
+    {
+      "type": "useHistory | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.useHistory.html"
+    },
+    {
+      "type": "useNodeCategories | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.useNodeCategories.html"
+    },
+    {
+      "type": "useSwitchGraph | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.useSwitchGraph.html"
+    },
+    {
+      "type": "useTemporaryConnection | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.useTemporaryConnection.html"
+    },
+    {
+      "type": "useTransform | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.useTransform.html"
+    },
+    {
+      "type": "useViewModel | Reference - BaklavaJS",
+      "url": "https://baklava.tech/api/functions/_baklavajs_renderer-vue.useViewModel.html"
+    }
+  ],
+  "latestVersion": "1.1.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-12-07T05:05:16.902Z",
+      "filename": "documentation_2025-12-07T05:05:16.902Z.md",
+      "totalPages": 220,
+      "successfulPages": 220,
+      "url": "https://baklava.tech/getting-started.html",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-12-07T05:05:20.472Z",
+      "filename": "documentation_2025-12-07T05:05:20.472Z.md",
+      "totalPages": 220,
+      "successfulPages": 220,
+      "url": "https://baklava.tech/getting-started.html",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

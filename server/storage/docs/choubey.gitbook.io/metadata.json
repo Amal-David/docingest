@@ -1,1 +1,340 @@
-{"url":"https://choubey.gitbook.io/internals-of-deno","domain":"choubey.gitbook.io","lastScraped":"2025-12-03T08:39:34.191Z","totalPages":79,"successfulPages":79,"failedPages":[],"structure":[{"type":"The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno"},{"type":"Audience | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/audience"},{"type":"Reviews | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/reviews"},{"type":"Translations | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/translations"},{"type":"Formats | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/formats"},{"type":"Contents | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/content"},{"type":"1.1 Introduction | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/introduction/introduction"},{"type":"1.0 Cover page | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/introduction/chapter-cover-page"},{"type":"1.5 The Deno Company | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/introduction/1.5-the-deno-company"},{"type":"1.6 Deno's source | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/introduction/1.6-denos-source"},{"type":"1.4 Releases | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/introduction/releases"},{"type":"1.2 History of Deno | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/introduction/history-of-deno"},{"type":"1.3 About Deno | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/introduction/about"},{"type":"2.1 Architecture | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/architecture/architecture"},{"type":"1.7 What's next | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/introduction/whats-next"},{"type":"2.6 TSC/SWC | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/architecture/tsc"},{"type":"2.3 Programming Languages | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/architecture/2.3-programming-languages"},{"type":"2.0 Cover page | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/architecture/chapter-cover-page"},{"type":"2.7 Rusty_v8 | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/architecture/rusty_v8"},{"type":"2.2 Overall architecture | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/architecture/overall-architecture"},{"type":"2.5 OPs | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/architecture/ops"},{"type":"2.10 What's next | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/architecture/2.7-whats-next"},{"type":"3.1 Threading model | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/threading-model/3.1-threading-model"},{"type":"3.4 What's next | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/threading-model/3.4-whats-next"},{"type":"4.4 What's next | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/bridge/4.6-whats-next"},{"type":"2.4 Deno components | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/architecture/core"},{"type":"3.0 Cover page | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/threading-model/threading-model"},{"type":"4.2 Print | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/bridge/4.2-print"},{"type":"2.9 V8 | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/architecture/v8"},{"type":"4.0 Cover page | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/bridge/chapter-cover-page"},{"type":"3.2 Default threading model | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/threading-model/default-threads"},{"type":"5.1 Hello world program | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/hello-world"},{"type":"4.1 The bridge | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/bridge/4.1-the-bridge"},{"type":"3.3 Asynchronous green threads | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/threading-model/tokio-threads"},{"type":"5.2 Basic hello world | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/basic-hello-world"},{"type":"4.3 Encode and decode | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/bridge/4.4-encode-and-decode"},{"type":"5.0 Cover page | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/chapter-cover-page"},{"type":"2.8 Tokio | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/architecture/tokio"},{"type":"5.5 CLI Factory | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/program-state"},{"type":"5.4 Module Specifier | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/resolve_url_or_path"},{"type":"5.18 What's next | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/4.18-whats-next"},{"type":"5.9 Run main module | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/execute_module"},{"type":"5.10 Load module | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/load-module"},{"type":"6.1 Imports and ops | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/import-and-ops/console-print-with-delay"},{"type":"5.16 Instantiate module | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/instantiate-module"},{"type":"5.11 Recursive module loading | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/4.11-recursive-module-loading-and-module-graphs"},{"type":"5.3 Main program of Deno | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/main-program"},{"type":"7.4 What's next | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/chapter-7-local-and-session-storage/7.4-whats-next"},{"type":"6.10 What's next | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/import-and-ops/5.11-whats-next"},{"type":"5.6 Permissions | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/permissions"},{"type":"6.2 Hello world program v2 | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/import-and-ops/basic-console-print-with-delay"},{"type":"6.0 Cover page | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/import-and-ops/chapter-cover-page"},{"type":"6.9 Debug logs | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/import-and-ops/6.9-debug-logs"},{"type":"5.14 Transpile | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/4.13-check-and-or-transpilation"},{"type":"7.1 Introduction | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/chapter-7-local-and-session-storage/7.1-introduction"},{"type":"6.7 Evaluate module | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/import-and-ops/evaluate-module"},{"type":"5.13 File fetching | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/4.13-file-fetcher"},{"type":"6.3 Module graph with imports | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/import-and-ops/building-module-graph"},{"type":"7.0 Cover page | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/chapter-7-local-and-session-storage/7.0-cover-page"},{"type":"6.8 Sync OPs | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/import-and-ops/5.8-sync-op"},{"type":"Afterword | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/afterword/afterword"},{"type":"7.3 Session storage | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/chapter-7-local-and-session-storage/7.3-session-storage"},{"type":"5.8 JS Runtime | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/jsruntime"},{"type":"5.12 Module graphs | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/4.12-module-graphs"},{"type":"5.15 Register / compile module | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/register-and-instantation"},{"type":"6.4 Transpile | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/import-and-ops/5.4-transpile"},{"type":"5.7 Main Worker | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/mainworker"},{"type":"5.17 Evaluate module | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations/evaluate-module"},{"type":"7.2 Local storage | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/chapter-7-local-and-session-storage/7.2-local-storage"},{"type":"6.5 Registration and instantiation | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/import-and-ops/registration-and-instantiation"},{"type":"6.6 Registration of ops | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/import-and-ops/5.6-registration-of-ops"},{"type":"1.0 Cover page | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/introduction"},{"type":"2.0 Cover page | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/architecture"},{"type":"7.0 Cover page | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/chapter-7-local-and-session-storage"},{"type":"5.0 Cover page | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/foundations"},{"type":"4.0 Cover page | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/bridge"},{"type":"3.0 Cover page | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/threading-model"},{"type":"6.0 Cover page | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/import-and-ops"},{"type":"Afterword | The Internals of Deno","url":"https://choubey.gitbook.io/internals-of-deno/afterword"}]}
+{
+  "url": "https://choubey.gitbook.io/internals-of-deno",
+  "domain": "choubey.gitbook.io",
+  "lastScraped": "2025-12-03T08:39:34.191Z",
+  "totalPages": 79,
+  "successfulPages": 79,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno"
+    },
+    {
+      "type": "Audience | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/audience"
+    },
+    {
+      "type": "Reviews | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/reviews"
+    },
+    {
+      "type": "Translations | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/translations"
+    },
+    {
+      "type": "Formats | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/formats"
+    },
+    {
+      "type": "Contents | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/content"
+    },
+    {
+      "type": "1.1 Introduction | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/introduction/introduction"
+    },
+    {
+      "type": "1.0 Cover page | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/introduction/chapter-cover-page"
+    },
+    {
+      "type": "1.5 The Deno Company | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/introduction/1.5-the-deno-company"
+    },
+    {
+      "type": "1.6 Deno's source | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/introduction/1.6-denos-source"
+    },
+    {
+      "type": "1.4 Releases | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/introduction/releases"
+    },
+    {
+      "type": "1.2 History of Deno | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/introduction/history-of-deno"
+    },
+    {
+      "type": "1.3 About Deno | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/introduction/about"
+    },
+    {
+      "type": "2.1 Architecture | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/architecture/architecture"
+    },
+    {
+      "type": "1.7 What's next | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/introduction/whats-next"
+    },
+    {
+      "type": "2.6 TSC/SWC | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/architecture/tsc"
+    },
+    {
+      "type": "2.3 Programming Languages | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/architecture/2.3-programming-languages"
+    },
+    {
+      "type": "2.0 Cover page | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/architecture/chapter-cover-page"
+    },
+    {
+      "type": "2.7 Rusty_v8 | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/architecture/rusty_v8"
+    },
+    {
+      "type": "2.2 Overall architecture | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/architecture/overall-architecture"
+    },
+    {
+      "type": "2.5 OPs | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/architecture/ops"
+    },
+    {
+      "type": "2.10 What's next | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/architecture/2.7-whats-next"
+    },
+    {
+      "type": "3.1 Threading model | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/threading-model/3.1-threading-model"
+    },
+    {
+      "type": "3.4 What's next | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/threading-model/3.4-whats-next"
+    },
+    {
+      "type": "4.4 What's next | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/bridge/4.6-whats-next"
+    },
+    {
+      "type": "2.4 Deno components | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/architecture/core"
+    },
+    {
+      "type": "3.0 Cover page | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/threading-model/threading-model"
+    },
+    {
+      "type": "4.2 Print | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/bridge/4.2-print"
+    },
+    {
+      "type": "2.9 V8 | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/architecture/v8"
+    },
+    {
+      "type": "4.0 Cover page | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/bridge/chapter-cover-page"
+    },
+    {
+      "type": "3.2 Default threading model | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/threading-model/default-threads"
+    },
+    {
+      "type": "5.1 Hello world program | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/hello-world"
+    },
+    {
+      "type": "4.1 The bridge | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/bridge/4.1-the-bridge"
+    },
+    {
+      "type": "3.3 Asynchronous green threads | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/threading-model/tokio-threads"
+    },
+    {
+      "type": "5.2 Basic hello world | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/basic-hello-world"
+    },
+    {
+      "type": "4.3 Encode and decode | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/bridge/4.4-encode-and-decode"
+    },
+    {
+      "type": "5.0 Cover page | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/chapter-cover-page"
+    },
+    {
+      "type": "2.8 Tokio | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/architecture/tokio"
+    },
+    {
+      "type": "5.5 CLI Factory | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/program-state"
+    },
+    {
+      "type": "5.4 Module Specifier | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/resolve_url_or_path"
+    },
+    {
+      "type": "5.18 What's next | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/4.18-whats-next"
+    },
+    {
+      "type": "5.9 Run main module | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/execute_module"
+    },
+    {
+      "type": "5.10 Load module | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/load-module"
+    },
+    {
+      "type": "6.1 Imports and ops | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/import-and-ops/console-print-with-delay"
+    },
+    {
+      "type": "5.16 Instantiate module | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/instantiate-module"
+    },
+    {
+      "type": "5.11 Recursive module loading | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/4.11-recursive-module-loading-and-module-graphs"
+    },
+    {
+      "type": "5.3 Main program of Deno | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/main-program"
+    },
+    {
+      "type": "7.4 What's next | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/chapter-7-local-and-session-storage/7.4-whats-next"
+    },
+    {
+      "type": "6.10 What's next | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/import-and-ops/5.11-whats-next"
+    },
+    {
+      "type": "5.6 Permissions | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/permissions"
+    },
+    {
+      "type": "6.2 Hello world program v2 | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/import-and-ops/basic-console-print-with-delay"
+    },
+    {
+      "type": "6.0 Cover page | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/import-and-ops/chapter-cover-page"
+    },
+    {
+      "type": "6.9 Debug logs | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/import-and-ops/6.9-debug-logs"
+    },
+    {
+      "type": "5.14 Transpile | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/4.13-check-and-or-transpilation"
+    },
+    {
+      "type": "7.1 Introduction | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/chapter-7-local-and-session-storage/7.1-introduction"
+    },
+    {
+      "type": "6.7 Evaluate module | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/import-and-ops/evaluate-module"
+    },
+    {
+      "type": "5.13 File fetching | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/4.13-file-fetcher"
+    },
+    {
+      "type": "6.3 Module graph with imports | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/import-and-ops/building-module-graph"
+    },
+    {
+      "type": "7.0 Cover page | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/chapter-7-local-and-session-storage/7.0-cover-page"
+    },
+    {
+      "type": "6.8 Sync OPs | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/import-and-ops/5.8-sync-op"
+    },
+    {
+      "type": "Afterword | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/afterword/afterword"
+    },
+    {
+      "type": "7.3 Session storage | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/chapter-7-local-and-session-storage/7.3-session-storage"
+    },
+    {
+      "type": "5.8 JS Runtime | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/jsruntime"
+    },
+    {
+      "type": "5.12 Module graphs | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/4.12-module-graphs"
+    },
+    {
+      "type": "5.15 Register / compile module | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/register-and-instantation"
+    },
+    {
+      "type": "6.4 Transpile | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/import-and-ops/5.4-transpile"
+    },
+    {
+      "type": "5.7 Main Worker | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/mainworker"
+    },
+    {
+      "type": "5.17 Evaluate module | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations/evaluate-module"
+    },
+    {
+      "type": "7.2 Local storage | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/chapter-7-local-and-session-storage/7.2-local-storage"
+    },
+    {
+      "type": "6.5 Registration and instantiation | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/import-and-ops/registration-and-instantiation"
+    },
+    {
+      "type": "6.6 Registration of ops | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/import-and-ops/5.6-registration-of-ops"
+    },
+    {
+      "type": "1.0 Cover page | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/introduction"
+    },
+    {
+      "type": "2.0 Cover page | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/architecture"
+    },
+    {
+      "type": "7.0 Cover page | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/chapter-7-local-and-session-storage"
+    },
+    {
+      "type": "5.0 Cover page | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/foundations"
+    },
+    {
+      "type": "4.0 Cover page | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/bridge"
+    },
+    {
+      "type": "3.0 Cover page | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/threading-model"
+    },
+    {
+      "type": "6.0 Cover page | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/import-and-ops"
+    },
+    {
+      "type": "Afterword | The Internals of Deno",
+      "url": "https://choubey.gitbook.io/internals-of-deno/afterword"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-12-03T08:39:34.191Z",
+      "filename": "documentation_2025-12-03T08:39:34.191Z.md",
+      "totalPages": 79,
+      "successfulPages": 79,
+      "url": "https://choubey.gitbook.io/internals-of-deno",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

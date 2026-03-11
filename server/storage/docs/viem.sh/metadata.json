@@ -1,378 +1,86 @@
 {
   "url": "https://viem.sh/docs/getting-started.html",
   "domain": "viem.sh",
-  "lastScraped": "2025-01-05T22:51:41.367Z",
-  "totalPages": 115,
-  "successfulPages": 115,
+  "lastScraped": "2026-02-17T03:04:16.053Z",
+  "totalPages": 210,
+  "successfulPages": 210,
   "failedPages": [],
   "structure": [
     {
-      "type": "Getting Started · Viem",
-      "url": "https://viem.sh/docs/getting-started.html"
-    },
-    {
-      "type": "Installation · Viem",
-      "url": "https://viem.sh/docs/installation"
-    },
-    {
-      "type": "Why Viem",
-      "url": "https://viem.sh/docs/introduction"
-    },
-    {
-      "type": "Viem · TypeScript Interface for Ethereum",
-      "url": "https://viem.sh/"
-    },
-    {
-      "type": "Platform Compatibility · Viem",
-      "url": "https://viem.sh/docs/compatibility"
-    },
-    {
-      "type": "Getting Started · Viem",
-      "url": "https://viem.sh/docs/getting-started"
-    },
-    {
-      "type": "Frequently Asked Questions · Viem",
-      "url": "https://viem.sh/docs/faq"
-    },
-    {
-      "type": "Introduction to Clients & Transports · Viem",
-      "url": "https://viem.sh/docs/clients/intro"
-    },
-    {
-      "type": "TypeScript · Viem",
-      "url": "https://viem.sh/docs/typescript"
-    },
-    {
-      "type": "Viem",
-      "url": "https://viem.sh/docs/migration-guide"
-    },
-    {
-      "type": "Blob Transactions · Viem",
-      "url": "https://viem.sh/docs/guides/blob-transactions"
-    },
-    {
-      "type": "Error Handling · Viem",
-      "url": "https://viem.sh/docs/error-handling"
-    },
-    {
-      "type": "Public Client · Viem",
-      "url": "https://viem.sh/docs/clients/public"
-    },
-    {
-      "type": "Ethers v5 → viem Migration Guide · Viem",
-      "url": "https://viem.sh/docs/ethers-migration"
-    },
-    {
-      "type": "Wallet Client · Viem",
-      "url": "https://viem.sh/docs/clients/wallet"
-    },
-    {
-      "type": "WebSocket Transport · Viem",
-      "url": "https://viem.sh/docs/clients/transports/websocket"
-    },
-    {
-      "type": "Build your own Client · Viem",
-      "url": "https://viem.sh/docs/clients/custom"
-    },
-    {
-      "type": "Custom Transport · Viem",
-      "url": "https://viem.sh/docs/clients/transports/custom"
-    },
-    {
-      "type": "HTTP Transport · Viem",
-      "url": "https://viem.sh/docs/clients/transports/http"
-    },
-    {
-      "type": "Test Client · Viem",
-      "url": "https://viem.sh/docs/clients/test"
-    },
-    {
-      "type": "Chains · Viem",
-      "url": "https://viem.sh/docs/chains/introduction"
-    },
-    {
-      "type": "IPC Transport · Viem",
-      "url": "https://viem.sh/docs/clients/transports/ipc"
-    },
-    {
-      "type": "Fallback Transport · Viem",
-      "url": "https://viem.sh/docs/clients/transports/fallback"
-    },
-    {
-      "type": "readContract · Viem",
-      "url": "https://viem.sh/docs/contract/readContract"
-    },
-    {
-      "type": "Introduction to Public Actions · Viem",
-      "url": "https://viem.sh/docs/actions/public/introduction"
-    },
-    {
-      "type": "createEventFilter · Viem",
-      "url": "https://viem.sh/docs/actions/public/createEventFilter"
-    },
-    {
-      "type": "createContractEventFilter · Viem",
-      "url": "https://viem.sh/docs/contract/createContractEventFilter"
-    },
-    {
-      "type": "deployContract · Viem",
-      "url": "https://viem.sh/docs/contract/deployContract"
-    },
-    {
-      "type": "watchEvent · Viem",
-      "url": "https://viem.sh/docs/actions/public/watchEvent"
-    },
-    {
-      "type": "estimateContractGas · Viem",
-      "url": "https://viem.sh/docs/contract/estimateContractGas"
-    },
-    {
-      "type": "multicall · Viem",
-      "url": "https://viem.sh/docs/contract/multicall"
-    },
-    {
-      "type": "watchContractEvent · Viem",
-      "url": "https://viem.sh/docs/contract/watchContractEvent"
-    },
-    {
-      "type": "Introduction to Wallet Actions · Viem",
-      "url": "https://viem.sh/docs/actions/wallet/introduction"
-    },
-    {
-      "type": "simulateContract · Viem",
-      "url": "https://viem.sh/docs/contract/simulateContract"
-    },
-    {
-      "type": "encodeErrorResult · Viem",
-      "url": "https://viem.sh/docs/contract/encodeErrorResult"
-    },
-    {
-      "type": "writeContract · Viem",
-      "url": "https://viem.sh/docs/contract/writeContract"
-    },
-    {
-      "type": "decodeFunctionResult · Viem",
-      "url": "https://viem.sh/docs/contract/decodeFunctionResult"
-    },
-    {
-      "type": "decodeEventLog · Viem",
-      "url": "https://viem.sh/docs/contract/decodeEventLog"
-    },
-    {
-      "type": "encodeEventTopics · Viem",
-      "url": "https://viem.sh/docs/contract/encodeEventTopics"
-    },
-    {
-      "type": "encodeFunctionData · Viem",
-      "url": "https://viem.sh/docs/contract/encodeFunctionData"
-    },
-    {
-      "type": "Contract Instances · Viem",
-      "url": "https://viem.sh/docs/contract/getContract"
-    },
-    {
-      "type": "encodeDeployData · Viem",
-      "url": "https://viem.sh/docs/contract/encodeDeployData"
-    },
-    {
-      "type": "encodeFunctionResult · Viem",
-      "url": "https://viem.sh/docs/contract/encodeFunctionResult"
-    },
-    {
-      "type": "Introduction to Test Actions · Viem",
-      "url": "https://viem.sh/docs/actions/test/introduction"
-    },
-    {
-      "type": "getAbiItem · Viem",
-      "url": "https://viem.sh/docs/abi/getAbiItem"
-    },
-    {
-      "type": "encodeAbiParameters · Viem",
-      "url": "https://viem.sh/docs/abi/encodeAbiParameters"
-    },
-    {
-      "type": "encodePacked · Viem",
-      "url": "https://viem.sh/docs/abi/encodePacked"
-    },
-    {
-      "type": "signTypedData · Viem",
-      "url": "https://viem.sh/docs/actions/wallet/signTypedData"
-    },
-    {
-      "type": "parseAbiItem · Viem",
-      "url": "https://viem.sh/docs/abi/parseAbiItem"
+      "type": "decodeAbiParameters · Viem",
+      "url": "https://viem.sh/docs/abi/decodeAbiParameters"
     },
     {
       "type": "parseAbi · Viem",
       "url": "https://viem.sh/docs/abi/parseAbi"
     },
     {
-      "type": "decodeAbiParameters · Viem",
-      "url": "https://viem.sh/docs/abi/decodeAbiParameters"
-    },
-    {
       "type": "parseAbiParameter · Viem",
       "url": "https://viem.sh/docs/abi/parseAbiParameter"
+    },
+    {
+      "type": "getAbiItem · Viem",
+      "url": "https://viem.sh/docs/abi/getAbiItem"
+    },
+    {
+      "type": "encodePacked · Viem",
+      "url": "https://viem.sh/docs/abi/encodePacked"
+    },
+    {
+      "type": "parseAbiItem · Viem",
+      "url": "https://viem.sh/docs/abi/parseAbiItem"
     },
     {
       "type": "parseAbiParameters · Viem",
       "url": "https://viem.sh/docs/abi/parseAbiParameters"
     },
     {
-      "type": "privateKeyToAccount · Viem",
-      "url": "https://viem.sh/docs/accounts/local/privateKeyToAccount"
+      "type": "encodeAbiParameters · Viem",
+      "url": "https://viem.sh/docs/abi/encodeAbiParameters"
     },
     {
-      "type": "mnemonicToAccount · Viem",
-      "url": "https://viem.sh/docs/accounts/local/mnemonicToAccount"
+      "type": "privateKeyToAccount · Viem",
+      "url": "https://viem.sh/docs/accounts/local/privateKeyToAccount"
     },
     {
       "type": "JSON-RPC Account · Viem",
       "url": "https://viem.sh/docs/accounts/jsonRpc"
     },
     {
-      "type": "requestAddresses · Viem",
-      "url": "https://viem.sh/docs/actions/wallet/requestAddresses"
+      "type": "createNonceManager · Viem",
+      "url": "https://viem.sh/docs/accounts/local/createNonceManager"
+    },
+    {
+      "type": "signMessage (Local Account) · Viem",
+      "url": "https://viem.sh/docs/accounts/local/signMessage"
+    },
+    {
+      "type": "toAccount · Viem",
+      "url": "https://viem.sh/docs/accounts/local/toAccount"
+    },
+    {
+      "type": "mnemonicToAccount · Viem",
+      "url": "https://viem.sh/docs/accounts/local/mnemonicToAccount"
     },
     {
       "type": "hdKeyToAccount · Viem",
       "url": "https://viem.sh/docs/accounts/local/hdKeyToAccount"
     },
     {
-      "type": "sendTransaction · Viem",
-      "url": "https://viem.sh/docs/actions/wallet/sendTransaction"
-    },
-    {
-      "type": "Serializers · Viem",
-      "url": "https://viem.sh/docs/chains/serializers"
-    },
-    {
-      "type": "Fees · Viem",
-      "url": "https://viem.sh/docs/chains/fees"
-    },
-    {
-      "type": "Getting Started with OP Stack · Viem",
-      "url": "https://viem.sh/op-stack"
-    },
-    {
-      "type": "Formatters · Viem",
-      "url": "https://viem.sh/docs/chains/formatters"
-    },
-    {
       "type": "createAccessList · Viem",
       "url": "https://viem.sh/docs/actions/public/createAccessList"
     },
     {
-      "type": "getBalance · Viem",
-      "url": "https://viem.sh/docs/actions/public/getBalance"
+      "type": "Local Accounts (Private Key, Mnemonic, etc) · Viem",
+      "url": "https://viem.sh/docs/accounts/local"
     },
     {
-      "type": "getCode · Viem",
-      "url": "https://viem.sh/docs/contract/getCode"
+      "type": "signTypedData (Local Account) · Viem",
+      "url": "https://viem.sh/docs/accounts/local/signTypedData"
     },
     {
-      "type": "Celo · Viem",
-      "url": "https://viem.sh/docs/chains/celo"
-    },
-    {
-      "type": "getTransactionCount · Viem",
-      "url": "https://viem.sh/docs/actions/public/getTransactionCount"
-    },
-    {
-      "type": "getContractEvents · Viem",
-      "url": "https://viem.sh/docs/contract/getContractEvents"
-    },
-    {
-      "type": "Getting Started with ZKsync · Viem",
-      "url": "https://viem.sh/zksync"
-    },
-    {
-      "type": "getBlock · Viem",
-      "url": "https://viem.sh/docs/actions/public/getBlock"
-    },
-    {
-      "type": "getStorageAt · Viem",
-      "url": "https://viem.sh/docs/contract/getStorageAt"
-    },
-    {
-      "type": "getBlockTransactionCount · Viem",
-      "url": "https://viem.sh/docs/actions/public/getBlockTransactionCount"
-    },
-    {
-      "type": "getBlockNumber · Viem",
-      "url": "https://viem.sh/docs/actions/public/getBlockNumber"
-    },
-    {
-      "type": "decodeDeployData · Viem",
-      "url": "https://viem.sh/docs/contract/decodeDeployData"
-    },
-    {
-      "type": "decodeErrorResult · Viem",
-      "url": "https://viem.sh/docs/contract/decodeErrorResult"
-    },
-    {
-      "type": "watchBlockNumber · Viem",
-      "url": "https://viem.sh/docs/actions/public/watchBlockNumber"
-    },
-    {
-      "type": "decodeFunctionData · Viem",
-      "url": "https://viem.sh/docs/contract/decodeFunctionData"
-    },
-    {
-      "type": "getChainId · Viem",
-      "url": "https://viem.sh/docs/actions/public/getChainId"
-    },
-    {
-      "type": "getEip712Domain · Viem",
-      "url": "https://viem.sh/docs/actions/public/getEip712Domain"
-    },
-    {
-      "type": "simulate · Viem",
-      "url": "https://viem.sh/docs/actions/public/simulate"
-    },
-    {
-      "type": "estimateFeesPerGas · Viem",
-      "url": "https://viem.sh/docs/actions/public/estimateFeesPerGas"
-    },
-    {
-      "type": "call · Viem",
-      "url": "https://viem.sh/docs/actions/public/call"
-    },
-    {
-      "type": "getFilterLogs · Viem",
-      "url": "https://viem.sh/docs/actions/public/getFilterLogs"
-    },
-    {
-      "type": "watchBlocks · Viem",
-      "url": "https://viem.sh/docs/actions/public/watchBlocks"
-    },
-    {
-      "type": "getFilterChanges · Viem",
-      "url": "https://viem.sh/docs/actions/public/getFilterChanges"
-    },
-    {
-      "type": "parseEventLogs · Viem",
-      "url": "https://viem.sh/docs/contract/parseEventLogs"
-    },
-    {
-      "type": "estimateGas · Viem",
-      "url": "https://viem.sh/docs/actions/public/estimateGas"
-    },
-    {
-      "type": "estimateMaxPriorityFeePerGas · Viem",
-      "url": "https://viem.sh/docs/actions/public/estimateMaxPriorityFeePerGas"
-    },
-    {
-      "type": "getGasPrice · Viem",
-      "url": "https://viem.sh/docs/actions/public/getGasPrice"
-    },
-    {
-      "type": "getBlobBaseFee · Viem",
-      "url": "https://viem.sh/docs/actions/public/getBlobBaseFee"
-    },
-    {
-      "type": "getFeeHistory · Viem",
-      "url": "https://viem.sh/docs/actions/public/getFeeHistory"
+      "type": "signTransaction (Local Account) · Viem",
+      "url": "https://viem.sh/docs/accounts/local/signTransaction"
     },
     {
       "type": "createBlockFilter · Viem",
@@ -383,92 +91,774 @@
       "url": "https://viem.sh/docs/actions/public/createPendingTransactionFilter"
     },
     {
-      "type": "verifyMessage · Viem",
-      "url": "https://viem.sh/docs/actions/public/verifyMessage"
+      "type": "getBlobBaseFee · Viem",
+      "url": "https://viem.sh/docs/actions/public/getBlobBaseFee"
     },
     {
-      "type": "getProof · Viem",
-      "url": "https://viem.sh/docs/actions/public/getProof"
+      "type": "estimateFeesPerGas · Viem",
+      "url": "https://viem.sh/docs/actions/public/estimateFeesPerGas"
     },
     {
-      "type": "uninstallFilter · Viem",
-      "url": "https://viem.sh/docs/actions/public/uninstallFilter"
+      "type": "getBalance · Viem",
+      "url": "https://viem.sh/docs/actions/public/getBalance"
     },
     {
-      "type": "getLogs · Viem",
-      "url": "https://viem.sh/docs/actions/public/getLogs"
+      "type": "estimateMaxPriorityFeePerGas · Viem",
+      "url": "https://viem.sh/docs/actions/public/estimateMaxPriorityFeePerGas"
     },
     {
-      "type": "getTransactionConfirmations · Viem",
-      "url": "https://viem.sh/docs/actions/public/getTransactionConfirmations"
+      "type": "verifyHash · Viem",
+      "url": "https://viem.sh/docs/actions/public/verifyHash"
     },
     {
-      "type": "verifyTypedData · Viem",
-      "url": "https://viem.sh/docs/actions/public/verifyTypedData"
+      "type": "getChainId · Viem",
+      "url": "https://viem.sh/docs/actions/public/getChainId"
     },
     {
-      "type": "getTransaction · Viem",
-      "url": "https://viem.sh/docs/actions/public/getTransaction"
+      "type": "getBlockNumber · Viem",
+      "url": "https://viem.sh/docs/actions/public/getBlockNumber"
     },
     {
-      "type": "prepareTransactionRequest · Viem",
-      "url": "https://viem.sh/docs/actions/wallet/prepareTransactionRequest"
+      "type": "getBlock · Viem",
+      "url": "https://viem.sh/docs/actions/public/getBlock"
+    },
+    {
+      "type": "getBlockTransactionCount · Viem",
+      "url": "https://viem.sh/docs/actions/public/getBlockTransactionCount"
+    },
+    {
+      "type": "getGasPrice · Viem",
+      "url": "https://viem.sh/docs/actions/public/getGasPrice"
+    },
+    {
+      "type": "getFeeHistory · Viem",
+      "url": "https://viem.sh/docs/actions/public/getFeeHistory"
+    },
+    {
+      "type": "getFilterLogs · Viem",
+      "url": "https://viem.sh/docs/actions/public/getFilterLogs"
+    },
+    {
+      "type": "getEip712Domain · Viem",
+      "url": "https://viem.sh/docs/actions/public/getEip712Domain"
+    },
+    {
+      "type": "Introduction to Public Actions · Viem",
+      "url": "https://viem.sh/docs/actions/public/introduction"
+    },
+    {
+      "type": "Introduction to Clients & Transports · Viem",
+      "url": "https://viem.sh/docs/clients/intro"
+    },
+    {
+      "type": "dumpState · Viem",
+      "url": "https://viem.sh/docs/actions/test/dumpState"
+    },
+    {
+      "type": "dropTransaction · Viem",
+      "url": "https://viem.sh/docs/actions/test/dropTransaction"
+    },
+    {
+      "type": "getTxpoolContent · Viem",
+      "url": "https://viem.sh/docs/actions/test/getTxpoolContent"
+    },
+    {
+      "type": "Chains · Viem",
+      "url": "https://viem.sh/docs/chains/introduction"
+    },
+    {
+      "type": "Fees · Viem",
+      "url": "https://viem.sh/docs/chains/fees"
+    },
+    {
+      "type": "Platform Compatibility · Viem",
+      "url": "https://viem.sh/docs/compatibility"
+    },
+    {
+      "type": "getAutomine · Viem",
+      "url": "https://viem.sh/docs/actions/test/getAutomine"
+    },
+    {
+      "type": "getTxpoolStatus · Viem",
+      "url": "https://viem.sh/docs/actions/test/getTxpoolStatus"
     },
     {
       "type": "getTransactionReceipt · Viem",
       "url": "https://viem.sh/docs/actions/public/getTransactionReceipt"
     },
     {
-      "type": "sendRawTransaction · Viem",
-      "url": "https://viem.sh/docs/actions/wallet/sendRawTransaction"
+      "type": "getTransactionCount · Viem",
+      "url": "https://viem.sh/docs/actions/public/getTransactionCount"
     },
     {
-      "type": "waitForTransactionReceipt · Viem",
-      "url": "https://viem.sh/docs/actions/public/waitForTransactionReceipt"
+      "type": "Introduction to Test Actions · Viem",
+      "url": "https://viem.sh/docs/actions/test/introduction"
     },
     {
-      "type": "watchPendingTransactions · Viem",
-      "url": "https://viem.sh/docs/actions/public/watchPendingTransactions"
+      "type": "loadState · Viem",
+      "url": "https://viem.sh/docs/actions/test/loadState"
+    },
+    {
+      "type": "Introduction to Wallet Actions · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/introduction"
+    },
+    {
+      "type": "getProof · Viem",
+      "url": "https://viem.sh/docs/actions/public/getProof"
+    },
+    {
+      "type": "increaseTime · Viem",
+      "url": "https://viem.sh/docs/actions/test/increaseTime"
+    },
+    {
+      "type": "removeBlockTimestampInterval · Viem",
+      "url": "https://viem.sh/docs/actions/test/removeBlockTimestampInterval"
     },
     {
       "type": "getAddresses · Viem",
       "url": "https://viem.sh/docs/actions/wallet/getAddresses"
     },
     {
-      "type": "watchAsset · Viem",
-      "url": "https://viem.sh/docs/actions/wallet/watchAsset"
-    },
-    {
-      "type": "addChain · Viem",
-      "url": "https://viem.sh/docs/actions/wallet/addChain"
-    },
-    {
-      "type": "switchChain · Viem",
-      "url": "https://viem.sh/docs/actions/wallet/switchChain"
-    },
-    {
-      "type": "getPermissions · Viem",
-      "url": "https://viem.sh/docs/actions/wallet/getPermissions"
-    },
-    {
       "type": "requestPermissions · Viem",
       "url": "https://viem.sh/docs/actions/wallet/requestPermissions"
     },
     {
-      "type": "signMessage · Viem",
-      "url": "https://viem.sh/docs/actions/wallet/signMessage"
+      "type": "ZKsync · Viem",
+      "url": "https://viem.sh/docs/chains/zksync"
+    },
+    {
+      "type": "getTransactionConfirmations · Viem",
+      "url": "https://viem.sh/docs/actions/public/getTransactionConfirmations"
     },
     {
       "type": "impersonateAccount · Viem",
       "url": "https://viem.sh/docs/actions/test/impersonateAccount"
     },
     {
+      "type": "mine · Viem",
+      "url": "https://viem.sh/docs/actions/test/mine"
+    },
+    {
+      "type": "getCallsStatus · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/getCallsStatus"
+    },
+    {
+      "type": "requestAddresses · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/requestAddresses"
+    },
+    {
+      "type": "uninstallFilter · Viem",
+      "url": "https://viem.sh/docs/actions/public/uninstallFilter"
+    },
+    {
+      "type": "reset · Viem",
+      "url": "https://viem.sh/docs/actions/test/reset"
+    },
+    {
+      "type": "estimateGas · Viem",
+      "url": "https://viem.sh/docs/actions/public/estimateGas"
+    },
+    {
+      "type": "getTransaction · Viem",
+      "url": "https://viem.sh/docs/actions/public/getTransaction"
+    },
+    {
+      "type": "setBalance · Viem",
+      "url": "https://viem.sh/docs/actions/test/setBalance"
+    },
+    {
+      "type": "revert · Viem",
+      "url": "https://viem.sh/docs/actions/test/revert"
+    },
+    {
+      "type": "setBlockGasLimit · Viem",
+      "url": "https://viem.sh/docs/actions/test/setBlockGasLimit"
+    },
+    {
+      "type": "setAutomine · Viem",
+      "url": "https://viem.sh/docs/actions/test/setAutomine"
+    },
+    {
+      "type": "getCapabilities · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/getCapabilities"
+    },
+    {
+      "type": "addChain · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/addChain"
+    },
+    {
+      "type": "setBlockTimestampInterval · Viem",
+      "url": "https://viem.sh/docs/actions/test/setBlockTimestampInterval"
+    },
+    {
+      "type": "setCode · Viem",
+      "url": "https://viem.sh/docs/actions/test/setCode"
+    },
+    {
+      "type": "sendRawTransactionSync · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/sendRawTransactionSync"
+    },
+    {
+      "type": "Serializers · Viem",
+      "url": "https://viem.sh/docs/chains/serializers"
+    },
+    {
+      "type": "snapshot · Viem",
+      "url": "https://viem.sh/docs/actions/test/snapshot"
+    },
+    {
+      "type": "IPC Transport · Viem",
+      "url": "https://viem.sh/docs/clients/transports/ipc"
+    },
+    {
+      "type": "inspectTxpool · Viem",
+      "url": "https://viem.sh/docs/actions/test/inspectTxpool"
+    },
+    {
+      "type": "setLoggingEnabled · Viem",
+      "url": "https://viem.sh/docs/actions/test/setLoggingEnabled"
+    },
+    {
+      "type": "Why Viem",
+      "url": "https://viem.sh/docs/introduction"
+    },
+    {
+      "type": "showCallsStatus · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/showCallsStatus"
+    },
+    {
+      "type": "getFilterChanges · Viem",
+      "url": "https://viem.sh/docs/actions/public/getFilterChanges"
+    },
+    {
+      "type": "setNextBlockTimestamp · Viem",
+      "url": "https://viem.sh/docs/actions/test/setNextBlockTimestamp"
+    },
+    {
+      "type": "setRpcUrl · Viem",
+      "url": "https://viem.sh/docs/actions/test/setRpcUrl"
+    },
+    {
+      "type": "setCoinbase · Viem",
+      "url": "https://viem.sh/docs/actions/test/setCoinbase"
+    },
+    {
+      "type": "sendUnsignedTransaction · Viem",
+      "url": "https://viem.sh/docs/actions/test/sendUnsignedTransaction"
+    },
+    {
+      "type": "setNextBlockBaseFeePerGas · Viem",
+      "url": "https://viem.sh/docs/actions/test/setNextBlockBaseFeePerGas"
+    },
+    {
+      "type": "switchChain · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/switchChain"
+    },
+    {
+      "type": "WebSocket Transport · Viem",
+      "url": "https://viem.sh/docs/clients/transports/websocket"
+    },
+    {
+      "type": "Installation · Viem",
+      "url": "https://viem.sh/docs/installation"
+    },
+    {
+      "type": "setIntervalMining · Viem",
+      "url": "https://viem.sh/docs/actions/test/setIntervalMining"
+    },
+    {
+      "type": "stopImpersonatingAccount · Viem",
+      "url": "https://viem.sh/docs/actions/test/stopImpersonatingAccount"
+    },
+    {
+      "type": "setMinGasPrice · Viem",
+      "url": "https://viem.sh/docs/actions/test/setMinGasPrice"
+    },
+    {
       "type": "setNonce · Viem",
       "url": "https://viem.sh/docs/actions/test/setNonce"
+    },
+    {
+      "type": "Celo · Viem",
+      "url": "https://viem.sh/docs/chains/celo"
+    },
+    {
+      "type": "fromBase58 · Viem",
+      "url": "https://viem.sh/docs/utilities/fromBase58"
+    },
+    {
+      "type": "fromBase64 · Viem",
+      "url": "https://viem.sh/docs/utilities/fromBase64"
+    },
+    {
+      "type": "EIP-7702 Overview · Viem",
+      "url": "https://viem.sh/docs/eip7702"
+    },
+    {
+      "type": "labelhash · Viem",
+      "url": "https://viem.sh/docs/ens/utilities/labelhash"
+    },
+    {
+      "type": "Formatters · Viem",
+      "url": "https://viem.sh/docs/chains/formatters"
+    },
+    {
+      "type": "Error Handling · Viem",
+      "url": "https://viem.sh/docs/error-handling"
+    },
+    {
+      "type": "defineKzg · Viem",
+      "url": "https://viem.sh/docs/utilities/defineKzg"
+    },
+    {
+      "type": "waitForTransactionReceipt · Viem",
+      "url": "https://viem.sh/docs/actions/public/waitForTransactionReceipt"
+    },
+    {
+      "type": "namehash · Viem",
+      "url": "https://viem.sh/docs/ens/utilities/namehash"
+    },
+    {
+      "type": "generateSiweNonce · Viem",
+      "url": "https://viem.sh/docs/siwe/utilities/generateSiweNonce"
+    },
+    {
+      "type": "Types · Viem",
+      "url": "https://viem.sh/docs/glossary/types"
+    },
+    {
+      "type": "Frequently Asked Questions · Viem",
+      "url": "https://viem.sh/docs/faq"
+    },
+    {
+      "type": "HTTP Transport · Viem",
+      "url": "https://viem.sh/docs/clients/transports/http"
+    },
+    {
+      "type": "toBase64 · Viem",
+      "url": "https://viem.sh/docs/utilities/toBase64"
+    },
+    {
+      "type": "getEnsResolver · Viem",
+      "url": "https://viem.sh/docs/ens/actions/getEnsResolver"
+    },
+    {
+      "type": "hashAuthorization · Viem",
+      "url": "https://viem.sh/docs/eip7702/hashAuthorization"
+    },
+    {
+      "type": "Terms · Viem",
+      "url": "https://viem.sh/docs/glossary/terms"
+    },
+    {
+      "type": "Getting Started · Viem",
+      "url": "https://viem.sh/docs/getting-started"
+    },
+    {
+      "type": "Custom Transport · Viem",
+      "url": "https://viem.sh/docs/clients/transports/custom"
+    },
+    {
+      "type": "normalize · Viem",
+      "url": "https://viem.sh/docs/ens/utilities/normalize"
+    },
+    {
+      "type": "getEnsAvatar · Viem",
+      "url": "https://viem.sh/docs/ens/actions/getEnsAvatar"
+    },
+    {
+      "type": "parseSiweMessage · Viem",
+      "url": "https://viem.sh/docs/siwe/utilities/parseSiweMessage"
+    },
+    {
+      "type": "getEnsText · Viem",
+      "url": "https://viem.sh/docs/ens/actions/getEnsText"
+    },
+    {
+      "type": "getEnsName · Viem",
+      "url": "https://viem.sh/docs/ens/actions/getEnsName"
+    },
+    {
+      "type": "validateSiweMessage · Viem",
+      "url": "https://viem.sh/docs/siwe/utilities/validateSiweMessage"
+    },
+    {
+      "type": "Fallback Transport · Viem",
+      "url": "https://viem.sh/docs/clients/transports/fallback"
+    },
+    {
+      "type": "Blob Transactions · Viem",
+      "url": "https://viem.sh/docs/guides/blob-transactions"
+    },
+    {
+      "type": "recoverAuthorizationAddress · Viem",
+      "url": "https://viem.sh/docs/eip7702/recoverAuthorizationAddress"
+    },
+    {
+      "type": "Test Client · Viem",
+      "url": "https://viem.sh/docs/clients/test"
+    },
+    {
+      "type": "verifyMessage · Viem",
+      "url": "https://viem.sh/docs/actions/public/verifyMessage"
+    },
+    {
+      "type": "getEnsAddress · Viem",
+      "url": "https://viem.sh/docs/ens/actions/getEnsAddress"
+    },
+    {
+      "type": "getPermissions · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/getPermissions"
+    },
+    {
+      "type": "Build your own Client · Viem",
+      "url": "https://viem.sh/docs/clients/custom"
+    },
+    {
+      "type": "toBase58 · Viem",
+      "url": "https://viem.sh/docs/utilities/toBase58"
+    },
+    {
+      "type": "Errors · Viem",
+      "url": "https://viem.sh/docs/glossary/errors"
+    },
+    {
+      "type": "verifyAuthorization · Viem",
+      "url": "https://viem.sh/docs/eip7702/verifyAuthorization"
+    },
+    {
+      "type": "decodeErrorResult · Viem",
+      "url": "https://viem.sh/docs/contract/decodeErrorResult"
+    },
+    {
+      "type": "watchBlockNumber · Viem",
+      "url": "https://viem.sh/docs/actions/public/watchBlockNumber"
+    },
+    {
+      "type": "getCode · Viem",
+      "url": "https://viem.sh/docs/contract/getCode"
+    },
+    {
+      "type": "waitForCallsStatus · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/waitForCallsStatus"
+    },
+    {
+      "type": "createEventFilter · Viem",
+      "url": "https://viem.sh/docs/actions/public/createEventFilter"
+    },
+    {
+      "type": "prepareAuthorization · Viem",
+      "url": "https://viem.sh/docs/eip7702/prepareAuthorization"
+    },
+    {
+      "type": "signMessage · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/signMessage"
+    },
+    {
+      "type": "decodeDeployData · Viem",
+      "url": "https://viem.sh/docs/contract/decodeDeployData"
+    },
+    {
+      "type": "encodeDeployData · Viem",
+      "url": "https://viem.sh/docs/contract/encodeDeployData"
+    },
+    {
+      "type": "deployContract · Viem",
+      "url": "https://viem.sh/docs/contract/deployContract"
+    },
+    {
+      "type": "getStorageAt · Viem",
+      "url": "https://viem.sh/docs/contract/getStorageAt"
+    },
+    {
+      "type": "watchPendingTransactions · Viem",
+      "url": "https://viem.sh/docs/actions/public/watchPendingTransactions"
+    },
+    {
+      "type": "decodeFunctionData · Viem",
+      "url": "https://viem.sh/docs/contract/decodeFunctionData"
+    },
+    {
+      "type": "encodeEventTopics · Viem",
+      "url": "https://viem.sh/docs/contract/encodeEventTopics"
+    },
+    {
+      "type": "encodeErrorResult · Viem",
+      "url": "https://viem.sh/docs/contract/encodeErrorResult"
+    },
+    {
+      "type": "decodeFunctionResult · Viem",
+      "url": "https://viem.sh/docs/contract/decodeFunctionResult"
+    },
+    {
+      "type": "encodeFunctionData · Viem",
+      "url": "https://viem.sh/docs/contract/encodeFunctionData"
+    },
+    {
+      "type": "verifySiweMessage · Viem",
+      "url": "https://viem.sh/docs/siwe/actions/verifySiweMessage"
+    },
+    {
+      "type": "setStorageAt · Viem",
+      "url": "https://viem.sh/docs/actions/test/setStorageAt"
+    },
+    {
+      "type": "decodeEventLog · Viem",
+      "url": "https://viem.sh/docs/contract/decodeEventLog"
+    },
+    {
+      "type": "encodeFunctionResult · Viem",
+      "url": "https://viem.sh/docs/contract/encodeFunctionResult"
+    },
+    {
+      "type": "signAuthorization · Viem",
+      "url": "https://viem.sh/docs/eip7702/signAuthorization"
+    },
+    {
+      "type": "Migration Guide · Viem",
+      "url": "https://viem.sh/docs/migration-guide"
+    },
+    {
+      "type": "Contract Instances · Viem",
+      "url": "https://viem.sh/docs/contract/getContract"
+    },
+    {
+      "type": "call · Viem",
+      "url": "https://viem.sh/docs/actions/public/call"
+    },
+    {
+      "type": "getLogs · Viem",
+      "url": "https://viem.sh/docs/actions/public/getLogs"
+    },
+    {
+      "type": "createContractEventFilter · Viem",
+      "url": "https://viem.sh/docs/contract/createContractEventFilter"
+    },
+    {
+      "type": "multicall · Viem",
+      "url": "https://viem.sh/docs/contract/multicall"
+    },
+    {
+      "type": "watchContractEvent · Viem",
+      "url": "https://viem.sh/docs/contract/watchContractEvent"
+    },
+    {
+      "type": "sendCallsSync · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/sendCallsSync"
+    },
+    {
+      "type": "watchAsset · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/watchAsset"
+    },
+    {
+      "type": "watchBlocks · Viem",
+      "url": "https://viem.sh/docs/actions/public/watchBlocks"
+    },
+    {
+      "type": "estimateContractGas · Viem",
+      "url": "https://viem.sh/docs/contract/estimateContractGas"
+    },
+    {
+      "type": "getContractEvents · Viem",
+      "url": "https://viem.sh/docs/contract/getContractEvents"
+    },
+    {
+      "type": "createSiweMessage · Viem",
+      "url": "https://viem.sh/docs/siwe/utilities/createSiweMessage"
+    },
+    {
+      "type": "sendRawTransaction · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/sendRawTransaction"
+    },
+    {
+      "type": "readContract · Viem",
+      "url": "https://viem.sh/docs/contract/readContract"
+    },
+    {
+      "type": "TypeScript · Viem",
+      "url": "https://viem.sh/docs/typescript"
+    },
+    {
+      "type": "parseEventLogs · Viem",
+      "url": "https://viem.sh/docs/contract/parseEventLogs"
+    },
+    {
+      "type": "writeContract · Viem",
+      "url": "https://viem.sh/docs/contract/writeContract"
+    },
+    {
+      "type": "writeContractSync · Viem",
+      "url": "https://viem.sh/docs/contract/writeContractSync"
+    },
+    {
+      "type": "sendTransactionSync · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/sendTransactionSync"
+    },
+    {
+      "type": "signTransaction · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/signTransaction"
+    },
+    {
+      "type": "sendTransaction · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/sendTransaction"
+    },
+    {
+      "type": "Contract Writes with EIP-7702 · Viem",
+      "url": "https://viem.sh/docs/eip7702/contract-writes"
+    },
+    {
+      "type": "Sending Transactions with EIP-7702 · Viem",
+      "url": "https://viem.sh/docs/eip7702/sending-transactions"
+    },
+    {
+      "type": "Wallet Client · Viem",
+      "url": "https://viem.sh/docs/clients/wallet"
+    },
+    {
+      "type": "Public Client · Viem",
+      "url": "https://viem.sh/docs/clients/public"
+    },
+    {
+      "type": "simulateBlocks · Viem",
+      "url": "https://viem.sh/docs/actions/public/simulateBlocks"
+    },
+    {
+      "type": "sendCalls · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/sendCalls"
+    },
+    {
+      "type": "signTypedData · Viem",
+      "url": "https://viem.sh/docs/actions/wallet/signTypedData"
+    },
+    {
+      "type": "simulateContract · Viem",
+      "url": "https://viem.sh/docs/contract/simulateContract"
+    },
+    {
+      "type": "concat · Viem",
+      "url": "https://viem.sh/docs/utilities/concat"
+    },
+    {
+      "type": "formatUnits · Viem",
+      "url": "https://viem.sh/docs/utilities/formatUnits"
+    },
+    {
+      "type": "formatGwei · Viem",
+      "url": "https://viem.sh/docs/utilities/formatGwei"
+    },
+    {
+      "type": "compactSignatureToSignature · Viem",
+      "url": "https://viem.sh/docs/utilities/compactSignatureToSignature"
+    },
+    {
+      "type": "extractChain · Viem",
+      "url": "https://viem.sh/docs/utilities/extractChain"
+    },
+    {
+      "type": "parseEther · Viem",
+      "url": "https://viem.sh/docs/utilities/parseEther"
+    },
+    {
+      "type": "isAddressEqual · Viem",
+      "url": "https://viem.sh/docs/utilities/isAddressEqual"
+    },
+    {
+      "type": "fromRlp · Viem",
+      "url": "https://viem.sh/docs/utilities/fromRlp"
+    },
+    {
+      "type": "hashMessage · Viem",
+      "url": "https://viem.sh/docs/utilities/hashMessage"
+    },
+    {
+      "type": "formatEther · Viem",
+      "url": "https://viem.sh/docs/utilities/formatEther"
+    },
+    {
+      "type": "isBytes · Viem",
+      "url": "https://viem.sh/docs/utilities/isBytes"
+    },
+    {
+      "type": "fromBlobs · Viem",
+      "url": "https://viem.sh/docs/utilities/fromBlobs"
+    },
+    {
+      "type": "parseGwei · Viem",
+      "url": "https://viem.sh/docs/utilities/parseGwei"
+    },
+    {
+      "type": "pad · Viem",
+      "url": "https://viem.sh/docs/utilities/pad"
+    },
+    {
+      "type": "parseErc6492Signature · Viem",
+      "url": "https://viem.sh/docs/utilities/parseErc6492Signature"
+    },
+    {
+      "type": "recoverAddress · Viem",
+      "url": "https://viem.sh/docs/utilities/recoverAddress"
+    },
+    {
+      "type": "isHash · Viem",
+      "url": "https://viem.sh/docs/utilities/isHash"
+    },
+    {
+      "type": "isAddress · Viem",
+      "url": "https://viem.sh/docs/utilities/isAddress"
+    },
+    {
+      "type": "keccak256 · Viem",
+      "url": "https://viem.sh/docs/utilities/keccak256"
+    },
+    {
+      "type": "getAddress · Viem",
+      "url": "https://viem.sh/docs/utilities/getAddress"
+    },
+    {
+      "type": "parseUnits · Viem",
+      "url": "https://viem.sh/docs/utilities/parseUnits"
+    },
+    {
+      "type": "isErc6492Signature · Viem",
+      "url": "https://viem.sh/docs/utilities/isErc6492Signature"
+    },
+    {
+      "type": "isHex · Viem",
+      "url": "https://viem.sh/docs/utilities/isHex"
+    },
+    {
+      "type": "recoverPublicKey · Viem",
+      "url": "https://viem.sh/docs/utilities/recoverPublicKey"
+    },
+    {
+      "type": "parseTransaction · Viem",
+      "url": "https://viem.sh/docs/utilities/parseTransaction"
+    },
+    {
+      "type": "parseSignature · Viem",
+      "url": "https://viem.sh/docs/utilities/parseSignature"
+    },
+    {
+      "type": "parseCompactSignature · Viem",
+      "url": "https://viem.sh/docs/utilities/parseCompactSignature"
+    },
+    {
+      "type": "size · Viem",
+      "url": "https://viem.sh/docs/utilities/size"
     }
   ],
-  "latestVersion": "1.0.0",
+  "latestVersion": "1.0.1",
   "versions": [
+    {
+      "version": "1.0.1",
+      "label": "latest",
+      "timestamp": "2026-02-17T03:04:16.053Z",
+      "filename": "documentation_2026-02-17T03:04:16.053Z.md",
+      "totalPages": 210,
+      "successfulPages": 210,
+      "url": "https://viem.sh/docs/abi/decodeAbiParameters",
+      "isLatest": true
+    },
     {
       "version": "1.0.0",
       "timestamp": "2025-01-05T22:51:41.367Z",
@@ -476,8 +866,7 @@
       "totalPages": 115,
       "successfulPages": 115,
       "url": "https://viem.sh/docs/getting-started.html",
-      "isLatest": true,
-      "label": "latest"
+      "isLatest": false
     }
   ],
   "schemaVersion": 2

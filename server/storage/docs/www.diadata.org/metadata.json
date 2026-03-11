@@ -1,1 +1,648 @@
-{"url":"https://www.diadata.org/docs/reference/apis","domain":"www.diadata.org","lastScraped":"2025-12-20T01:10:53.899Z","totalPages":156,"successfulPages":156,"failedPages":[],"structure":[{"type":"DIA APIs - DIA Oracles","url":"https://www.diadata.org/docs/reference/apis"},{"type":"RWA Prices - DIA Oracles","url":"https://www.diadata.org/docs/reference/apis/rwa-prices"},{"type":"Commodities - DIA Oracles","url":"https://www.diadata.org/docs/reference/apis/commodities"},{"type":"Forex - DIA Oracles","url":"https://www.diadata.org/docs/reference/apis/forex"},{"type":"Token Prices - DIA Oracles","url":"https://www.diadata.org/docs/reference/apis/token-prices"},{"type":"ETFs - DIA Oracles","url":"https://www.diadata.org/docs/reference/apis/etfs"},{"type":"Home - DIA Oracles","url":"https://www.diadata.org/docs/home"},{"type":"DIA Stack Overview - DIA Oracles","url":"https://www.diadata.org/docs/dia-stack/overview"},{"type":"Quickstart - DIA Oracles","url":"https://www.diadata.org/docs/guides/quickstart"},{"type":"Fetch Price Data - DIA Oracles","url":"https://www.diadata.org/docs/guides/how-to-guides/fetch-price-data"},{"type":"RestAPI - DIA Oracles","url":"https://www.diadata.org/docs/reference/apis/token-prices/api-endpoints"},{"type":"Token Price Feeds - DIA Oracles","url":"https://www.diadata.org/docs/dia-stack/data-products/token-price-feeds"},{"type":"Fund your Oracle - DIA Oracles","url":"https://www.diadata.org/docs/guides/how-to-guides/fund-the-oracle"},{"type":"Real-World Asset Feeds - DIA Oracles","url":"https://www.diadata.org/docs/dia-stack/data-products/rwa-price-feeds"},{"type":"Migrate from Chainlink - DIA Oracles","url":"https://www.diadata.org/docs/guides/how-to-guides/migrate-to-dia"},{"type":"Generate Randomness - DIA Oracles","url":"https://www.diadata.org/docs/guides/how-to-guides/generate-randomness"},{"type":"Verifiable Randomness - DIA Oracles","url":"https://www.diadata.org/docs/dia-stack/data-products/verifiable-randomness"},{"type":"Fundamental Feeds - DIA Oracles","url":"https://www.diadata.org/docs/dia-stack/data-products/fundamental-feeds"},{"type":"Spectra (Cross-chain Messaging Layer) - DIA Oracles","url":"https://www.diadata.org/docs/dia-stack/architecture/core-components/spectra"},{"type":"Request a Custom Oracle - DIA Oracles","url":"https://www.diadata.org/docs/guides/how-to-guides/request-a-custom-oracle"},{"type":"GraphQL - DIA Oracles","url":"https://www.diadata.org/docs/reference/apis/token-prices/graphql"},{"type":"Feeders (Sourcing Layer) - DIA Oracles","url":"https://www.diadata.org/docs/dia-stack/architecture/core-components/feeders"},{"type":"Page Not Found","url":"https://www.diadata.org/docs/dia-stack/how-it-works"},{"type":"Architecture Overview - DIA Oracles","url":"https://www.diadata.org/docs/dia-stack/architecture/core-components/overview"},{"type":"Oracle Grants - DIA Oracles","url":"https://www.diadata.org/docs/guides/oracle-grants"},{"type":"Community & Support - DIA Oracles","url":"https://www.diadata.org/docs/guides/resources/community-and-support"},{"type":"DIA Deployments - DIA Oracles","url":"https://www.diadata.org/docs/guides/dia-deployments"},{"type":"Audits - DIA Oracles","url":"https://www.diadata.org/docs/guides/resources/audits"},{"type":"Security Bounty Program - DIA Oracles","url":"https://www.diadata.org/docs/guides/resources/security-bounty-program"},{"type":"DIA Staking - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/dia-staking"},{"type":"DIAOracleV2.sol - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/smart-contracts/diaoraclev2.sol"},{"type":"Methodologies - DIA Oracles","url":"https://www.diadata.org/docs/guides/methodologies-overview"},{"type":"Overview - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-guides-overview"},{"type":"Request a Custom Oracle - DIA Oracles","url":"https://www.diadata.org/docs/request-a-custom-oracle"},{"type":"updates Method - DIA Oracles","url":"https://www.diadata.org/docs/guides/how-to-guides/fetch-price-data/push-based-oracles"},{"type":"getValue Method - DIA Oracles","url":"https://www.diadata.org/docs/guides/how-to-guides/fetch-price-data/solidity"},{"type":"request Method - DIA Oracles","url":"https://www.diadata.org/docs/guides/how-to-guides/fetch-price-data/pull-based-oracles"},{"type":"Solidity - DIA Oracles","url":"https://www.diadata.org/docs/guides/how-to-guides/generate-randomness/solidity"},{"type":"Data Sources - DIA Oracles","url":"https://www.diadata.org/docs/dia-stack/architecture/data-sources/overview"},{"type":"Distributed Randomness Beacon - DIA Oracles","url":"https://www.diadata.org/docs/dia-stack/architecture/data-sources/randomness"},{"type":"Update Triggers - DIA Oracles","url":"https://www.diadata.org/docs/guides/methodologies/data-processing/update-triggers"},{"type":"DIARandomOracle.sol - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/smart-contracts/diarandomoracle.sol"},{"type":"Trades Collection - DIA Oracles","url":"https://www.diadata.org/docs/guides/methodologies/data-processing/trades-collection"},{"type":"Run a Feeder - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/run-a-feeder"},{"type":"Price Aggregation - DIA Oracles","url":"https://www.diadata.org/docs/guides/methodologies/data-processing/price-aggregation"},{"type":"OracleRequestRecipient.sol - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/smart-contracts/OracleRequestRecipient.sol"},{"type":"PushOracleReceiver.sol - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/smart-contracts/PushOracleReceiver.sol"},{"type":"Chain Information - DIA Oracles","url":"https://www.diadata.org/docs/resources/chain-information"},{"type":"MAIR: Moving Average with Interquartile Range Filter - DIA Oracles","url":"https://www.diadata.org/docs/guides/methodologies/pricing-methodologies/mair-moving-average-with-interquartile-range-filter"},{"type":"VWAP: Volume Weighted Average Price - DIA Oracles","url":"https://www.diadata.org/docs/guides/methodologies/pricing-methodologies/vwap-volume-weighted-average-price"},{"type":"VWAPIR: Volume Weighted Average Price with Interquartile Range Filter - DIA Oracles","url":"https://www.diadata.org/docs/guides/methodologies/pricing-methodologies/vwapir-volume-weighted-average-price-with-interquartile-range-filter"},{"type":"LST Fair Price - DIA Oracles","url":"https://www.diadata.org/docs/guides/methodologies/pricing-methodologies/lst-fair-price"},{"type":"IR: Interquartile Range Filter - DIA Oracles","url":"https://www.diadata.org/docs/guides/methodologies/pricing-methodologies/ir-interquartile-range-filter"},{"type":"Additional Notes - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/tutorials/additional-notes"},{"type":"Research - DIA Oracles","url":"https://www.diadata.org/docs/guides/resources/research"},{"type":"Build a Scraper - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/tutorials"},{"type":"zkSync - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/zksync"},{"type":"Alephium - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/alephium"},{"type":"Arbitrum - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/arbitrum"},{"type":"Astar - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/astar"},{"type":"Avalanche - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/avalanche"},{"type":"Aurora - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/aurora"},{"type":"BNB Chain - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/bnb-chain"},{"type":"BOB Build on Bitcoin - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/bob-build-on-bitcoin"},{"type":"GEB Network - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/bevm"},{"type":"Boba Network - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/boba-network"},{"type":"Celo - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/celo"},{"type":"Clover - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/clover"},{"type":"Evmos - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/evmos"},{"type":"Fantom - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/fantom"},{"type":"Fuse - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/fuse"},{"type":"Gnosis Chain - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/gnosis-chain"},{"type":"Base - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/base"},{"type":"Nervos - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/nervos"},{"type":"ETHPar - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/ethpar"},{"type":"CrossFi - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/crossfi"},{"type":"Metis - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/metis"},{"type":"Moonriver - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/moonriver"},{"type":"Plume - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/plume"},{"type":"Moonbase - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/moonbase"},{"type":"OKT Chain (OKX) - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/okt-chain"},{"type":"Edu Chain - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/edu-chain"},{"type":"Moonbeam - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/moonbeam"},{"type":"Linea - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/linea"},{"type":"GOAT Network - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/goat-network"},{"type":"Polygon - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/polygon"},{"type":"Soroban - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/soroban"},{"type":"Shiden - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/shiden"},{"type":"Shido - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/shido"},{"type":"Polygon zkEVM - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/polygon-zkevm"},{"type":"Shibuya - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/shibuya"},{"type":"Swell - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/swell"},{"type":"Hydration - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/hydration"},{"type":"Telos - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/telos"},{"type":"Ethereum - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/ethereum"},{"type":"Velas - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/velas"},{"type":"Wanchain - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/wanchain"},{"type":"XRP Ledger (XRPL) - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/xrp-ledger-xrpl"},{"type":"Units Network - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/units-network"},{"type":"LUKSO - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/lukso"},{"type":"Optimism - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/optimism"},{"type":"Superseed - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/superseed"},{"type":"Sonic - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/sonic"},{"type":"W Chain - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/w-chain"},{"type":"Unichain - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/unichain"},{"type":"Stacks - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/stacks"},{"type":"Kadena - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/kadena"},{"type":"Somnia - DIA Oracles","url":"https://www.diadata.org/docs/guides/chain-specific-guide/somnia"},{"type":"Cross-chain Messaging - DIA Oracles","url":"https://www.diadata.org/docs/reference/cross-chain-messaging"},{"type":"CEXes Data - DIA Oracles","url":"https://www.diadata.org/docs/dia-stack/architecture/data-sources/cexes-data"},{"type":"DEXes Data - DIA Oracles","url":"https://www.diadata.org/docs/dia-stack/architecture/data-sources/dexes-data"},{"type":"Page Not Found","url":"https://www.diadata.org/docs/dia-stack/data-sources/dexes-data"},{"type":"Page Not Found","url":"https://www.diadata.org/docs/dia-stack/data-sources/cexes-data"},{"type":"Hardware Specs - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/run-a-feeder/hardware-specs"},{"type":"Development Cluster Stack - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/tutorials/development-cluster-stack"},{"type":"DIA Test‐Space with Docker Compose - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/tutorials/dia-test-space-with-docker-compose"},{"type":"Setting Up the Node - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/run-a-feeder/setting-up-the-node"},{"type":"Return Rates in Crypto Farming - DIA Oracles","url":"https://www.diadata.org/docs/guides/resources/research/return-rates-in-crypto-farming"},{"type":"DIA Test‐Space with Minikube - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/tutorials/dia-test-space-with-minikube"},{"type":"Add a New Liquidity Scraper - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/tutorials/add-a-new-liquidity-scraper"},{"type":"Page Not Found","url":"https://www.diadata.org/docs/resources/research/return-rates-in-crypto-farming"},{"type":"Add a New Foreign Scraper - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/tutorials/add-a-new-foreign-scraper"},{"type":"Crypto Volatility Index - DIA Oracles","url":"https://www.diadata.org/docs/guides/resources/research/cvi"},{"type":"Add a New Exchange Scraper - DIA Oracles","url":"https://www.diadata.org/docs/guides/general-guides/tutorials/add-a-new-exchange-scraper"},{"type":"Compounded Rates - DIA Oracles","url":"https://www.diadata.org/docs/guides/resources/research/compounded-rates"},{"type":"Page Not Found","url":"https://www.diadata.org/docs/guides/how-to-guides/tutorials/add-a-new-liquidity-scraper"},{"type":"Polkadot Medianizer - DIA Oracles","url":"https://www.diadata.org/docs/guides/resources/research/polkadot-medianizer"},{"type":"Page Not Found","url":"https://www.diadata.org/docs/dia-stack/architecture/data-computation"},{"type":"Page Not Found","url":"https://www.diadata.org/docs/guides/how-to-guides/tutorials/add-a-new-foreign-scraper"},{"type":"Page Not Found","url":"https://www.diadata.org/docs/dia-stack/architecture/data-sourcing"},{"type":"Page Not Found","url":"https://www.diadata.org/docs/resources/research/cvi"},{"type":"Page Not Found","url":"https://www.diadata.org/docs/guides/how-to-guides/tutorials/add-a-new-exchange-scraper"},{"type":"Page Not Found","url":"https://www.diadata.org/docs/guides/how-to-guides/tutorials/development-cluster-stack"},{"type":"Data Delivery - DIA Oracles","url":"https://www.diadata.org/docs/reference/architecture/data-delivery"},{"type":"Pull Based Oracles - DIA Oracles","url":"https://www.diadata.org/docs/how-to-guides/fetch-price-data/pull-based-oracles"},{"type":"Architecture - DIA Oracles","url":"https://www.diadata.org/docs/reference/architecture"},{"type":"Docker Compose - DIA Oracles","url":"https://www.diadata.org/docs/how-to-guides/run-a-feeder/setting-up-the-node/docker-compose"},{"type":"Kubernetes - DIA Oracles","url":"https://www.diadata.org/docs/how-to-guides/run-a-feeder/setting-up-the-node/kubernetes"},{"type":"Docker Run - DIA Oracles","url":"https://www.diadata.org/docs/how-to-guides/run-a-feeder/setting-up-the-node/docker-run"},{"type":"Terms & Conditions - DIA Oracles","url":"https://www.diadata.org/docs/guides/resources/t-and-c"},{"type":"Data Sourcing - DIA Oracles","url":"https://www.diadata.org/docs/reference/architecture/data-sourcing"},{"type":"Contributor Covenant Code of Conduct - DIA Oracles","url":"https://www.diadata.org/docs/guides/resources/t-and-c/code_of_conduct"},{"type":"Licence Agreement - DIA Oracles","url":"https://www.diadata.org/docs/guides/resources/t-and-c/licence-agreement"},{"type":"Disclaimer - DIA Oracles","url":"https://www.diadata.org/docs/guides/resources/t-and-c/disclaimer"},{"type":"Data Computation - DIA Oracles","url":"https://www.diadata.org/docs/reference/architecture/data-computation"},{"type":"Disclaimer - DIA Oracles","url":"https://www.diadata.org/docs/resources/t-and-c/disclaimer"},{"type":"Licence Agreement - DIA Oracles","url":"https://www.diadata.org/docs/resources/t-and-c/licence-agreement"},{"type":"Contributor Covenant Code of Conduct - DIA Oracles","url":"https://www.diadata.org/docs/resources/t-and-c/code_of_conduct"},{"type":"Run a Feeder - DIA Oracles","url":"https://www.diadata.org/docs/how-to-guides/run-a-feeder"},{"type":"Contract Addresses - DIA Oracles","url":"https://www.diadata.org/docs/how-to-guides/fetch-price-data/contract-addresses"},{"type":"Hardware Specs - DIA Oracles","url":"https://www.diadata.org/docs/how-to-guides/run-a-feeder/hardware-specs"},{"type":"Token Price Feeds - DIA Oracles","url":"https://www.diadata.org/docs/how-to-guides/fetch-price-data/contract-addresses/token-addresses"},{"type":"Setting Up the Node - DIA Oracles","url":"https://www.diadata.org/docs/how-to-guides/run-a-feeder/setting-up-the-node"},{"type":"Community & Support - DIA Oracles","url":"https://www.diadata.org/docs/resources/community-and-support"},{"type":"RWA Price Feeds - DIA Oracles","url":"https://www.diadata.org/docs/how-to-guides/fetch-price-data/contract-addresses/rwa-addresses"},{"type":"Request a Custom Oracle - DIA Oracles","url":"https://www.diadata.org/docs/how-to-guides/request-a-custom-oracle"}]}
+{
+  "url": "https://www.diadata.org/docs/reference/apis",
+  "domain": "www.diadata.org",
+  "lastScraped": "2025-12-20T01:10:53.899Z",
+  "totalPages": 156,
+  "successfulPages": 156,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "DIA APIs - DIA Oracles",
+      "url": "https://www.diadata.org/docs/reference/apis"
+    },
+    {
+      "type": "RWA Prices - DIA Oracles",
+      "url": "https://www.diadata.org/docs/reference/apis/rwa-prices"
+    },
+    {
+      "type": "Commodities - DIA Oracles",
+      "url": "https://www.diadata.org/docs/reference/apis/commodities"
+    },
+    {
+      "type": "Forex - DIA Oracles",
+      "url": "https://www.diadata.org/docs/reference/apis/forex"
+    },
+    {
+      "type": "Token Prices - DIA Oracles",
+      "url": "https://www.diadata.org/docs/reference/apis/token-prices"
+    },
+    {
+      "type": "ETFs - DIA Oracles",
+      "url": "https://www.diadata.org/docs/reference/apis/etfs"
+    },
+    {
+      "type": "Home - DIA Oracles",
+      "url": "https://www.diadata.org/docs/home"
+    },
+    {
+      "type": "DIA Stack Overview - DIA Oracles",
+      "url": "https://www.diadata.org/docs/dia-stack/overview"
+    },
+    {
+      "type": "Quickstart - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/quickstart"
+    },
+    {
+      "type": "Fetch Price Data - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/how-to-guides/fetch-price-data"
+    },
+    {
+      "type": "RestAPI - DIA Oracles",
+      "url": "https://www.diadata.org/docs/reference/apis/token-prices/api-endpoints"
+    },
+    {
+      "type": "Token Price Feeds - DIA Oracles",
+      "url": "https://www.diadata.org/docs/dia-stack/data-products/token-price-feeds"
+    },
+    {
+      "type": "Fund your Oracle - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/how-to-guides/fund-the-oracle"
+    },
+    {
+      "type": "Real-World Asset Feeds - DIA Oracles",
+      "url": "https://www.diadata.org/docs/dia-stack/data-products/rwa-price-feeds"
+    },
+    {
+      "type": "Migrate from Chainlink - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/how-to-guides/migrate-to-dia"
+    },
+    {
+      "type": "Generate Randomness - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/how-to-guides/generate-randomness"
+    },
+    {
+      "type": "Verifiable Randomness - DIA Oracles",
+      "url": "https://www.diadata.org/docs/dia-stack/data-products/verifiable-randomness"
+    },
+    {
+      "type": "Fundamental Feeds - DIA Oracles",
+      "url": "https://www.diadata.org/docs/dia-stack/data-products/fundamental-feeds"
+    },
+    {
+      "type": "Spectra (Cross-chain Messaging Layer) - DIA Oracles",
+      "url": "https://www.diadata.org/docs/dia-stack/architecture/core-components/spectra"
+    },
+    {
+      "type": "Request a Custom Oracle - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/how-to-guides/request-a-custom-oracle"
+    },
+    {
+      "type": "GraphQL - DIA Oracles",
+      "url": "https://www.diadata.org/docs/reference/apis/token-prices/graphql"
+    },
+    {
+      "type": "Feeders (Sourcing Layer) - DIA Oracles",
+      "url": "https://www.diadata.org/docs/dia-stack/architecture/core-components/feeders"
+    },
+    {
+      "type": "Page Not Found",
+      "url": "https://www.diadata.org/docs/dia-stack/how-it-works"
+    },
+    {
+      "type": "Architecture Overview - DIA Oracles",
+      "url": "https://www.diadata.org/docs/dia-stack/architecture/core-components/overview"
+    },
+    {
+      "type": "Oracle Grants - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/oracle-grants"
+    },
+    {
+      "type": "Community & Support - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/resources/community-and-support"
+    },
+    {
+      "type": "DIA Deployments - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/dia-deployments"
+    },
+    {
+      "type": "Audits - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/resources/audits"
+    },
+    {
+      "type": "Security Bounty Program - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/resources/security-bounty-program"
+    },
+    {
+      "type": "DIA Staking - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/dia-staking"
+    },
+    {
+      "type": "DIAOracleV2.sol - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/smart-contracts/diaoraclev2.sol"
+    },
+    {
+      "type": "Methodologies - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/methodologies-overview"
+    },
+    {
+      "type": "Overview - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-guides-overview"
+    },
+    {
+      "type": "Request a Custom Oracle - DIA Oracles",
+      "url": "https://www.diadata.org/docs/request-a-custom-oracle"
+    },
+    {
+      "type": "updates Method - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/how-to-guides/fetch-price-data/push-based-oracles"
+    },
+    {
+      "type": "getValue Method - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/how-to-guides/fetch-price-data/solidity"
+    },
+    {
+      "type": "request Method - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/how-to-guides/fetch-price-data/pull-based-oracles"
+    },
+    {
+      "type": "Solidity - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/how-to-guides/generate-randomness/solidity"
+    },
+    {
+      "type": "Data Sources - DIA Oracles",
+      "url": "https://www.diadata.org/docs/dia-stack/architecture/data-sources/overview"
+    },
+    {
+      "type": "Distributed Randomness Beacon - DIA Oracles",
+      "url": "https://www.diadata.org/docs/dia-stack/architecture/data-sources/randomness"
+    },
+    {
+      "type": "Update Triggers - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/methodologies/data-processing/update-triggers"
+    },
+    {
+      "type": "DIARandomOracle.sol - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/smart-contracts/diarandomoracle.sol"
+    },
+    {
+      "type": "Trades Collection - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/methodologies/data-processing/trades-collection"
+    },
+    {
+      "type": "Run a Feeder - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/run-a-feeder"
+    },
+    {
+      "type": "Price Aggregation - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/methodologies/data-processing/price-aggregation"
+    },
+    {
+      "type": "OracleRequestRecipient.sol - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/smart-contracts/OracleRequestRecipient.sol"
+    },
+    {
+      "type": "PushOracleReceiver.sol - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/smart-contracts/PushOracleReceiver.sol"
+    },
+    {
+      "type": "Chain Information - DIA Oracles",
+      "url": "https://www.diadata.org/docs/resources/chain-information"
+    },
+    {
+      "type": "MAIR: Moving Average with Interquartile Range Filter - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/methodologies/pricing-methodologies/mair-moving-average-with-interquartile-range-filter"
+    },
+    {
+      "type": "VWAP: Volume Weighted Average Price - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/methodologies/pricing-methodologies/vwap-volume-weighted-average-price"
+    },
+    {
+      "type": "VWAPIR: Volume Weighted Average Price with Interquartile Range Filter - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/methodologies/pricing-methodologies/vwapir-volume-weighted-average-price-with-interquartile-range-filter"
+    },
+    {
+      "type": "LST Fair Price - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/methodologies/pricing-methodologies/lst-fair-price"
+    },
+    {
+      "type": "IR: Interquartile Range Filter - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/methodologies/pricing-methodologies/ir-interquartile-range-filter"
+    },
+    {
+      "type": "Additional Notes - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/tutorials/additional-notes"
+    },
+    {
+      "type": "Research - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/resources/research"
+    },
+    {
+      "type": "Build a Scraper - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/tutorials"
+    },
+    {
+      "type": "zkSync - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/zksync"
+    },
+    {
+      "type": "Alephium - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/alephium"
+    },
+    {
+      "type": "Arbitrum - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/arbitrum"
+    },
+    {
+      "type": "Astar - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/astar"
+    },
+    {
+      "type": "Avalanche - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/avalanche"
+    },
+    {
+      "type": "Aurora - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/aurora"
+    },
+    {
+      "type": "BNB Chain - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/bnb-chain"
+    },
+    {
+      "type": "BOB Build on Bitcoin - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/bob-build-on-bitcoin"
+    },
+    {
+      "type": "GEB Network - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/bevm"
+    },
+    {
+      "type": "Boba Network - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/boba-network"
+    },
+    {
+      "type": "Celo - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/celo"
+    },
+    {
+      "type": "Clover - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/clover"
+    },
+    {
+      "type": "Evmos - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/evmos"
+    },
+    {
+      "type": "Fantom - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/fantom"
+    },
+    {
+      "type": "Fuse - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/fuse"
+    },
+    {
+      "type": "Gnosis Chain - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/gnosis-chain"
+    },
+    {
+      "type": "Base - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/base"
+    },
+    {
+      "type": "Nervos - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/nervos"
+    },
+    {
+      "type": "ETHPar - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/ethpar"
+    },
+    {
+      "type": "CrossFi - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/crossfi"
+    },
+    {
+      "type": "Metis - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/metis"
+    },
+    {
+      "type": "Moonriver - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/moonriver"
+    },
+    {
+      "type": "Plume - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/plume"
+    },
+    {
+      "type": "Moonbase - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/moonbase"
+    },
+    {
+      "type": "OKT Chain (OKX) - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/okt-chain"
+    },
+    {
+      "type": "Edu Chain - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/edu-chain"
+    },
+    {
+      "type": "Moonbeam - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/moonbeam"
+    },
+    {
+      "type": "Linea - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/linea"
+    },
+    {
+      "type": "GOAT Network - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/goat-network"
+    },
+    {
+      "type": "Polygon - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/polygon"
+    },
+    {
+      "type": "Soroban - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/soroban"
+    },
+    {
+      "type": "Shiden - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/shiden"
+    },
+    {
+      "type": "Shido - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/shido"
+    },
+    {
+      "type": "Polygon zkEVM - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/polygon-zkevm"
+    },
+    {
+      "type": "Shibuya - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/shibuya"
+    },
+    {
+      "type": "Swell - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/swell"
+    },
+    {
+      "type": "Hydration - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/hydration"
+    },
+    {
+      "type": "Telos - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/telos"
+    },
+    {
+      "type": "Ethereum - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/ethereum"
+    },
+    {
+      "type": "Velas - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/velas"
+    },
+    {
+      "type": "Wanchain - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/wanchain"
+    },
+    {
+      "type": "XRP Ledger (XRPL) - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/xrp-ledger-xrpl"
+    },
+    {
+      "type": "Units Network - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/units-network"
+    },
+    {
+      "type": "LUKSO - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/lukso"
+    },
+    {
+      "type": "Optimism - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/optimism"
+    },
+    {
+      "type": "Superseed - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/superseed"
+    },
+    {
+      "type": "Sonic - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/sonic"
+    },
+    {
+      "type": "W Chain - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/w-chain"
+    },
+    {
+      "type": "Unichain - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/unichain"
+    },
+    {
+      "type": "Stacks - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/stacks"
+    },
+    {
+      "type": "Kadena - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/kadena"
+    },
+    {
+      "type": "Somnia - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/chain-specific-guide/somnia"
+    },
+    {
+      "type": "Cross-chain Messaging - DIA Oracles",
+      "url": "https://www.diadata.org/docs/reference/cross-chain-messaging"
+    },
+    {
+      "type": "CEXes Data - DIA Oracles",
+      "url": "https://www.diadata.org/docs/dia-stack/architecture/data-sources/cexes-data"
+    },
+    {
+      "type": "DEXes Data - DIA Oracles",
+      "url": "https://www.diadata.org/docs/dia-stack/architecture/data-sources/dexes-data"
+    },
+    {
+      "type": "Page Not Found",
+      "url": "https://www.diadata.org/docs/dia-stack/data-sources/dexes-data"
+    },
+    {
+      "type": "Page Not Found",
+      "url": "https://www.diadata.org/docs/dia-stack/data-sources/cexes-data"
+    },
+    {
+      "type": "Hardware Specs - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/run-a-feeder/hardware-specs"
+    },
+    {
+      "type": "Development Cluster Stack - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/tutorials/development-cluster-stack"
+    },
+    {
+      "type": "DIA Test‐Space with Docker Compose - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/tutorials/dia-test-space-with-docker-compose"
+    },
+    {
+      "type": "Setting Up the Node - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/run-a-feeder/setting-up-the-node"
+    },
+    {
+      "type": "Return Rates in Crypto Farming - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/resources/research/return-rates-in-crypto-farming"
+    },
+    {
+      "type": "DIA Test‐Space with Minikube - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/tutorials/dia-test-space-with-minikube"
+    },
+    {
+      "type": "Add a New Liquidity Scraper - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/tutorials/add-a-new-liquidity-scraper"
+    },
+    {
+      "type": "Page Not Found",
+      "url": "https://www.diadata.org/docs/resources/research/return-rates-in-crypto-farming"
+    },
+    {
+      "type": "Add a New Foreign Scraper - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/tutorials/add-a-new-foreign-scraper"
+    },
+    {
+      "type": "Crypto Volatility Index - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/resources/research/cvi"
+    },
+    {
+      "type": "Add a New Exchange Scraper - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/general-guides/tutorials/add-a-new-exchange-scraper"
+    },
+    {
+      "type": "Compounded Rates - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/resources/research/compounded-rates"
+    },
+    {
+      "type": "Page Not Found",
+      "url": "https://www.diadata.org/docs/guides/how-to-guides/tutorials/add-a-new-liquidity-scraper"
+    },
+    {
+      "type": "Polkadot Medianizer - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/resources/research/polkadot-medianizer"
+    },
+    {
+      "type": "Page Not Found",
+      "url": "https://www.diadata.org/docs/dia-stack/architecture/data-computation"
+    },
+    {
+      "type": "Page Not Found",
+      "url": "https://www.diadata.org/docs/guides/how-to-guides/tutorials/add-a-new-foreign-scraper"
+    },
+    {
+      "type": "Page Not Found",
+      "url": "https://www.diadata.org/docs/dia-stack/architecture/data-sourcing"
+    },
+    {
+      "type": "Page Not Found",
+      "url": "https://www.diadata.org/docs/resources/research/cvi"
+    },
+    {
+      "type": "Page Not Found",
+      "url": "https://www.diadata.org/docs/guides/how-to-guides/tutorials/add-a-new-exchange-scraper"
+    },
+    {
+      "type": "Page Not Found",
+      "url": "https://www.diadata.org/docs/guides/how-to-guides/tutorials/development-cluster-stack"
+    },
+    {
+      "type": "Data Delivery - DIA Oracles",
+      "url": "https://www.diadata.org/docs/reference/architecture/data-delivery"
+    },
+    {
+      "type": "Pull Based Oracles - DIA Oracles",
+      "url": "https://www.diadata.org/docs/how-to-guides/fetch-price-data/pull-based-oracles"
+    },
+    {
+      "type": "Architecture - DIA Oracles",
+      "url": "https://www.diadata.org/docs/reference/architecture"
+    },
+    {
+      "type": "Docker Compose - DIA Oracles",
+      "url": "https://www.diadata.org/docs/how-to-guides/run-a-feeder/setting-up-the-node/docker-compose"
+    },
+    {
+      "type": "Kubernetes - DIA Oracles",
+      "url": "https://www.diadata.org/docs/how-to-guides/run-a-feeder/setting-up-the-node/kubernetes"
+    },
+    {
+      "type": "Docker Run - DIA Oracles",
+      "url": "https://www.diadata.org/docs/how-to-guides/run-a-feeder/setting-up-the-node/docker-run"
+    },
+    {
+      "type": "Terms & Conditions - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/resources/t-and-c"
+    },
+    {
+      "type": "Data Sourcing - DIA Oracles",
+      "url": "https://www.diadata.org/docs/reference/architecture/data-sourcing"
+    },
+    {
+      "type": "Contributor Covenant Code of Conduct - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/resources/t-and-c/code_of_conduct"
+    },
+    {
+      "type": "Licence Agreement - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/resources/t-and-c/licence-agreement"
+    },
+    {
+      "type": "Disclaimer - DIA Oracles",
+      "url": "https://www.diadata.org/docs/guides/resources/t-and-c/disclaimer"
+    },
+    {
+      "type": "Data Computation - DIA Oracles",
+      "url": "https://www.diadata.org/docs/reference/architecture/data-computation"
+    },
+    {
+      "type": "Disclaimer - DIA Oracles",
+      "url": "https://www.diadata.org/docs/resources/t-and-c/disclaimer"
+    },
+    {
+      "type": "Licence Agreement - DIA Oracles",
+      "url": "https://www.diadata.org/docs/resources/t-and-c/licence-agreement"
+    },
+    {
+      "type": "Contributor Covenant Code of Conduct - DIA Oracles",
+      "url": "https://www.diadata.org/docs/resources/t-and-c/code_of_conduct"
+    },
+    {
+      "type": "Run a Feeder - DIA Oracles",
+      "url": "https://www.diadata.org/docs/how-to-guides/run-a-feeder"
+    },
+    {
+      "type": "Contract Addresses - DIA Oracles",
+      "url": "https://www.diadata.org/docs/how-to-guides/fetch-price-data/contract-addresses"
+    },
+    {
+      "type": "Hardware Specs - DIA Oracles",
+      "url": "https://www.diadata.org/docs/how-to-guides/run-a-feeder/hardware-specs"
+    },
+    {
+      "type": "Token Price Feeds - DIA Oracles",
+      "url": "https://www.diadata.org/docs/how-to-guides/fetch-price-data/contract-addresses/token-addresses"
+    },
+    {
+      "type": "Setting Up the Node - DIA Oracles",
+      "url": "https://www.diadata.org/docs/how-to-guides/run-a-feeder/setting-up-the-node"
+    },
+    {
+      "type": "Community & Support - DIA Oracles",
+      "url": "https://www.diadata.org/docs/resources/community-and-support"
+    },
+    {
+      "type": "RWA Price Feeds - DIA Oracles",
+      "url": "https://www.diadata.org/docs/how-to-guides/fetch-price-data/contract-addresses/rwa-addresses"
+    },
+    {
+      "type": "Request a Custom Oracle - DIA Oracles",
+      "url": "https://www.diadata.org/docs/how-to-guides/request-a-custom-oracle"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-12-20T01:10:53.899Z",
+      "filename": "documentation_2025-12-20T01:10:53.899Z.md",
+      "totalPages": 156,
+      "successfulPages": 156,
+      "url": "https://www.diadata.org/docs/reference/apis",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

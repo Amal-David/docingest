@@ -1,1 +1,612 @@
-{"url":"https://docs.temporal.io/","domain":"docs.temporal.io","lastScraped":"2025-12-26T20:13:20.064Z","totalPages":147,"successfulPages":147,"failedPages":[],"structure":[{"type":"Temporal Platform Documentation","url":"https://docs.temporal.io/"},{"type":"AI Cookbook | Temporal Platform Documentation","url":"https://docs.temporal.io/ai-cookbook"},{"type":"Temporal Platform Documentation","url":"https://docs.temporal.io/index-legacy"},{"type":"Search the documentation | Temporal Platform Documentation","url":"https://docs.temporal.io/search"},{"type":"4 docs tagged with \"agents\" | Temporal Platform Documentation","url":"https://docs.temporal.io/ai-cookbook/tags/agents"},{"type":"3 docs tagged with \"foundations\" | Temporal Platform Documentation","url":"https://docs.temporal.io/ai-cookbook/tags/foundations"},{"type":"One doc tagged with \"litellm\" | Temporal Platform Documentation","url":"https://docs.temporal.io/ai-cookbook/tags/litellm"},{"type":"Tags | Temporal Platform Documentation","url":"https://docs.temporal.io/ai-cookbook/tags"},{"type":"One doc tagged with \"mcp\" | Temporal Platform Documentation","url":"https://docs.temporal.io/ai-cookbook/tags/mcp"},{"type":"One doc tagged with \"provider-neutral\" | Temporal Platform Documentation","url":"https://docs.temporal.io/ai-cookbook/tags/provider-neutral"},{"type":"4 docs tagged with \"openai\" | Temporal Platform Documentation","url":"https://docs.temporal.io/ai-cookbook/tags/openai"},{"type":"One doc tagged with \"toolcalling\" | Temporal Platform Documentation","url":"https://docs.temporal.io/ai-cookbook/tags/toolcalling"},{"type":"One doc tagged with \"workflows\" | Temporal Platform Documentation","url":"https://docs.temporal.io/ai-cookbook/tags/workflows"},{"type":"Hello World","url":"https://docs.temporal.io/ai-cookbook/hello-world-openai-responses-python"},{"type":"Deep Research","url":"https://docs.temporal.io/ai-cookbook/basic-openai-python"},{"type":"Hello World with LiteLLM","url":"https://docs.temporal.io/ai-cookbook/hello-world-litellm-python"},{"type":"Basic Agentic Loop with Tool Calling","url":"https://docs.temporal.io/ai-cookbook/agentic-loop-tool-call-openai-python"},{"type":"Hello World - Agent with Tools","url":"https://docs.temporal.io/ai-cookbook/openai-agents-sdk-python"},{"type":"Durable MCP Weather Server","url":"https://docs.temporal.io/ai-cookbook/hello-world-durable-mcp-server"},{"type":"Retry Policy from HTTP Responses","url":"https://docs.temporal.io/ai-cookbook/http-retry-enhancement-python"},{"type":"9 docs tagged with \"python\" | Temporal Platform Documentation","url":"https://docs.temporal.io/ai-cookbook/tags/python"},{"type":"Structured Outputs with Temporal and OpenAI","url":"https://docs.temporal.io/ai-cookbook/structured-output-openai-responses-python"},{"type":"One doc tagged with \"Actions\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/actions"},{"type":"One doc tagged with \"Accounts\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/accounts"},{"type":"Tool calling agent","url":"https://docs.temporal.io/ai-cookbook/tool-call-openai-python"},{"type":"One doc tagged with \"AI SDK\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/ai-sdk"},{"type":"One doc tagged with \"AI Agents\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/ai-agents"},{"type":"One doc tagged with \"Authentication\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/authentication"},{"type":"One doc tagged with \"Billing\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/billing"},{"type":"One doc tagged with \"Deploy\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/deploy"},{"type":"One doc tagged with \"Deployment\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/deployment"},{"type":"2 docs tagged with \"Capacity Modes\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/capacity-modes"},{"type":"One doc tagged with \"Development Server\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/development-server"},{"type":"One doc tagged with \"design-patterns\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/design-patterns"},{"type":"One doc tagged with \"enable-nexus\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/enable-nexus"},{"type":"2 docs tagged with \"Configuration\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/configuration"},{"type":"3 docs tagged with \"AWS\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/aws"},{"type":"2 docs tagged with \"developer guide\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/developer-guide"},{"type":"One doc tagged with \"evaluate temporal\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/evaluate-temporal"},{"type":"2 docs tagged with \"Environment Variables\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/environment-variables"},{"type":"4 docs tagged with \"API Keys\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/api-keys"},{"type":"One doc tagged with \"Kubernetes\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/kubernetes"},{"type":"One doc tagged with \"Logging\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/logging"},{"type":"4 docs tagged with \"Deprecated\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/deprecated"},{"type":"2 docs tagged with \"Interceptors\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/interceptors"},{"type":"One doc tagged with \"Migration\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/migration"},{"type":"5 docs tagged with \"API\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/api"},{"type":"3 docs tagged with \"GCP\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/gcp"},{"type":"3 docs tagged with \"Export Workflow History\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/export-workflow-history"},{"type":"2 docs tagged with \"Limits\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/limits"},{"type":"One doc tagged with \"Notification\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/notification"},{"type":"One doc tagged with \"operations\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/operations"},{"type":"One doc tagged with \"Parent Close Policy\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/parent-close-policy"},{"type":"One doc tagged with \"Performance\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/performance"},{"type":"5 docs tagged with \"Connectivity\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/connectivity"},{"type":"3 docs tagged with \"Logs\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/logs"},{"type":"2 docs tagged with \"On-Demand Capacity\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/on-demand-capacity"},{"type":"One doc tagged with \"Recovery Point Objective\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/recovery-point-objective"},{"type":"One doc tagged with \"rate limiting\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/rate-limiting"},{"type":"4 docs tagged with \"High Availability\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/high-availability"},{"type":"One doc tagged with \"Recovery Time Objective\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/recovery-time-objective"},{"type":"One doc tagged with \"Replay\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/replay"},{"type":"7 docs tagged with \"Best Practices\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/best-practices"},{"type":"2 docs tagged with \"Provisioned Capacity\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/provisioned-capacity"},{"type":"7 docs tagged with \"continue-as-new\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/continue-as-new"},{"type":"3 docs tagged with \"Pricing\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/pricing"},{"type":"6 docs tagged with \"getting started\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/getting-started"},{"type":"6 docs tagged with \"Event History\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/event-history"},{"type":"One doc tagged with \"Spring Boot\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/spring-boot"},{"type":"8 docs tagged with \"Codec Server\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/codec-server"},{"type":"4 docs tagged with \"OpenMetrics\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/open-metrics"},{"type":"8 docs tagged with \"Debugging\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/debugging"},{"type":"8 docs tagged with \"Durable Timers\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/durable-timers"},{"type":"One doc tagged with \"Tasks\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/tasks"},{"type":"3 docs tagged with \"Side-effects\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/side-effects"},{"type":"10 docs tagged with \"Certificates\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/certificates"},{"type":"10 docs tagged with \"Child Workflows\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/child-workflows"},{"type":"8 docs tagged with \"Messages\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/messages"},{"type":"7 docs tagged with \"Patching\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/patching"},{"type":"4 docs tagged with \"Support\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/support"},{"type":"2 docs tagged with \"Terraform\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/terraform"},{"type":"11 docs tagged with \"Durable Execution\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/durable-execution"},{"type":"6 docs tagged with \"setup\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/setup"},{"type":"3 docs tagged with \"Temporal Web UI\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/temporal-web-ui"},{"type":"2 docs tagged with \"TRUs\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/tr-us"},{"type":"2 docs tagged with \"TOML\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/toml"},{"type":"5 docs tagged with \"Temporal\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/temporal"},{"type":"One doc tagged with \"use-cases\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/use-cases"},{"type":"9 docs tagged with \"Queries\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/queries"},{"type":"14 docs tagged with \"Data Converters\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/data-converters"},{"type":"11 docs tagged with \"Namespaces\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/namespaces"},{"type":"10 docs tagged with \"Production\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/production"},{"type":"5 docs tagged with \"Timeouts\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/timeouts"},{"type":"9 docs tagged with \"Search Attributes\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/search-attributes"},{"type":"9 docs tagged with \"Schedules\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/schedules"},{"type":"8 docs tagged with \"Task Queues\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/task-queues"},{"type":"9 docs tagged with \"Signals\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/signals"},{"type":"4 docs tagged with \"User groups\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/user-groups"},{"type":"15 docs tagged with \"Encryption\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/encryption"},{"type":"8 docs tagged with \"Testing\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/testing"},{"type":"13 docs tagged with \"Reference\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/reference"},{"type":"7 docs tagged with \"UI Enrichment\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/ui-enrichment"},{"type":"16 docs tagged with \"Metrics\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/metrics"},{"type":"7 docs tagged with \"Users\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/users"},{"type":"6 docs tagged with \"Visibility\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/visibility"},{"type":"12 docs tagged with \"Temporal CLI\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/temporal-cli"},{"type":"9 docs tagged with \"Updates\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/updates"},{"type":"17 docs tagged with \"PHP SDK\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/php-sdk"},{"type":"16 docs tagged with \"Self-hosting\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/self-hosting"},{"type":"10 docs tagged with \"Versioning\" | Temporal Platform Documentation","url":"https://docs.temporal.io/tags/versioning"},{"type":"Temporal CLI command options reference | Temporal Platform Documentation","url":"https://docs.temporal.io/cli/cmd-options"},{"type":"tctl v1.17 data-converter command reference | Temporal Platform Documentation","url":"https://docs.temporal.io/tctl-v1/dataconverter"},{"type":"tctl v1.17 activity command reference | Temporal Platform Documentation","url":"https://docs.temporal.io/tctl-v1/activity"},{"type":"tctl v1.17 cluster command reference | Temporal Platform Documentation","url":"https://docs.temporal.io/tctl-v1/cluster"},{"type":"tctl v1.17 taskqueue command reference | Temporal Platform Documentation","url":"https://docs.temporal.io/tctl-v1/taskqueue"},{"type":"tctl 1.17 schedule command reference | Temporal Platform Documentation","url":"https://docs.temporal.io/tctl-v1/schedule"},{"type":"tctl v1.17 batch command reference | Temporal Platform Documentation","url":"https://docs.temporal.io/tctl-v1/batch"},{"type":"tctl v1.17 admin command reference | Temporal Platform Documentation","url":"https://docs.temporal.io/tctl-v1/admin"},{"type":"tctl v1.17 namespace command reference | Temporal Platform Documentation","url":"https://docs.temporal.io/tctl-v1/namespace"},{"type":"tctl v1.17 workflow command reference | Temporal Platform Documentation","url":"https://docs.temporal.io/tctl-v1/workflow"},{"type":"Unknown","url":"https://docs.temporal.io/pdf/temporal-tos-2021-07-24.pdf"},{"type":"What is Temporal? | Temporal Platform Documentation","url":"https://docs.temporal.io/temporal"},{"type":"Temporal Service | Temporal Platform Documentation","url":"https://docs.temporal.io/temporal-service"},{"type":"Troubleshoot the failed reaching server error | Temporal Platform Documentation","url":"https://docs.temporal.io/troubleshooting/last-connection-error"},{"type":"Troubleshoot the blob size limit error | Temporal Platform Documentation","url":"https://docs.temporal.io/troubleshooting/blob-size-limit-error"},{"type":"Error Handling and Troubleshooting | Temporal Platform Documentation","url":"https://docs.temporal.io/troubleshooting/"},{"type":"Troubleshoot the deadline-exceeded error | Temporal Platform Documentation","url":"https://docs.temporal.io/troubleshooting/deadline-exceeded-error"},{"type":"Performance bottlenecks troubleshooting guide | Temporal Platform Documentation","url":"https://docs.temporal.io/troubleshooting/performance-bottlenecks"},{"type":"Persistence | Temporal Platform Documentation","url":"https://docs.temporal.io/temporal-service/persistence"},{"type":"Archival | Temporal Platform Documentation","url":"https://docs.temporal.io/temporal-service/archival"},{"type":"Temporal Workflow | Temporal Platform Documentation","url":"https://docs.temporal.io/workflows"},{"type":"Multi-Cluster Replication | Temporal Platform Documentation","url":"https://docs.temporal.io/temporal-service/multi-cluster-replication"},{"type":"Visibility | Temporal Platform Documentation","url":"https://docs.temporal.io/temporal-service/visibility"},{"type":"What is a Temporal Worker? | Temporal Platform Documentation","url":"https://docs.temporal.io/workers"},{"type":"Temporal Server | Temporal Platform Documentation","url":"https://docs.temporal.io/temporal-service/temporal-server"},{"type":"Temporal Visibility | Temporal Platform Documentation","url":"https://docs.temporal.io/visibility"},{"type":"Temporal Workflow Definition | Temporal Platform Documentation","url":"https://docs.temporal.io/workflow-definition"},{"type":"Workflow Execution Limits | Temporal Platform Documentation","url":"https://docs.temporal.io/workflow-execution/limits"},{"type":"Temporal Service configuration | Temporal Platform Documentation","url":"https://docs.temporal.io/temporal-service/configuration"},{"type":"Cloud Ops API | Temporal Platform Documentation","url":"https://docs.temporal.io/ops?_gl=1*1yf937l*_gcl_au*MTg1MTAxMTEwNC4xNzEzOTcxMjYw*_ga*MTgwODU1MzQyNi4xNzA3NzA4ODIz*_ga_R90Q9SJD3D*MTcyMTI0MTAyNy41MjIuMS4xNzIxMjQ5NTYxLjAuMC4w"},{"type":"Worker Versioning | Temporal Platform Documentation","url":"https://docs.temporal.io/worker-versioning"},{"type":"Workflow Id and Run Id | Temporal Platform Documentation","url":"https://docs.temporal.io/workflow-execution/workflowid-runid"},{"type":"Events and Event History | Temporal Platform Documentation","url":"https://docs.temporal.io/workflow-execution/event"},{"type":"Continue-As-New | Temporal Platform Documentation","url":"https://docs.temporal.io/workflow-execution/continue-as-new"},{"type":"Temporal Workflow Execution Overview | Temporal Platform Documentation","url":"https://docs.temporal.io/workflow-execution"},{"type":"Timers and Start Delays | Temporal Platform Documentation","url":"https://docs.temporal.io/workflow-execution/timers-delays"},{"type":"Temporal Web UI | Temporal Platform Documentation","url":"https://docs.temporal.io/web-ui"}]}
+{
+  "url": "https://docs.temporal.io/",
+  "domain": "docs.temporal.io",
+  "lastScraped": "2025-12-26T20:13:20.064Z",
+  "totalPages": 147,
+  "successfulPages": 147,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/"
+    },
+    {
+      "type": "AI Cookbook | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/ai-cookbook"
+    },
+    {
+      "type": "Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/index-legacy"
+    },
+    {
+      "type": "Search the documentation | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/search"
+    },
+    {
+      "type": "4 docs tagged with \"agents\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/ai-cookbook/tags/agents"
+    },
+    {
+      "type": "3 docs tagged with \"foundations\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/ai-cookbook/tags/foundations"
+    },
+    {
+      "type": "One doc tagged with \"litellm\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/ai-cookbook/tags/litellm"
+    },
+    {
+      "type": "Tags | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/ai-cookbook/tags"
+    },
+    {
+      "type": "One doc tagged with \"mcp\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/ai-cookbook/tags/mcp"
+    },
+    {
+      "type": "One doc tagged with \"provider-neutral\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/ai-cookbook/tags/provider-neutral"
+    },
+    {
+      "type": "4 docs tagged with \"openai\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/ai-cookbook/tags/openai"
+    },
+    {
+      "type": "One doc tagged with \"toolcalling\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/ai-cookbook/tags/toolcalling"
+    },
+    {
+      "type": "One doc tagged with \"workflows\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/ai-cookbook/tags/workflows"
+    },
+    {
+      "type": "Hello World",
+      "url": "https://docs.temporal.io/ai-cookbook/hello-world-openai-responses-python"
+    },
+    {
+      "type": "Deep Research",
+      "url": "https://docs.temporal.io/ai-cookbook/basic-openai-python"
+    },
+    {
+      "type": "Hello World with LiteLLM",
+      "url": "https://docs.temporal.io/ai-cookbook/hello-world-litellm-python"
+    },
+    {
+      "type": "Basic Agentic Loop with Tool Calling",
+      "url": "https://docs.temporal.io/ai-cookbook/agentic-loop-tool-call-openai-python"
+    },
+    {
+      "type": "Hello World - Agent with Tools",
+      "url": "https://docs.temporal.io/ai-cookbook/openai-agents-sdk-python"
+    },
+    {
+      "type": "Durable MCP Weather Server",
+      "url": "https://docs.temporal.io/ai-cookbook/hello-world-durable-mcp-server"
+    },
+    {
+      "type": "Retry Policy from HTTP Responses",
+      "url": "https://docs.temporal.io/ai-cookbook/http-retry-enhancement-python"
+    },
+    {
+      "type": "9 docs tagged with \"python\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/ai-cookbook/tags/python"
+    },
+    {
+      "type": "Structured Outputs with Temporal and OpenAI",
+      "url": "https://docs.temporal.io/ai-cookbook/structured-output-openai-responses-python"
+    },
+    {
+      "type": "One doc tagged with \"Actions\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/actions"
+    },
+    {
+      "type": "One doc tagged with \"Accounts\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/accounts"
+    },
+    {
+      "type": "Tool calling agent",
+      "url": "https://docs.temporal.io/ai-cookbook/tool-call-openai-python"
+    },
+    {
+      "type": "One doc tagged with \"AI SDK\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/ai-sdk"
+    },
+    {
+      "type": "One doc tagged with \"AI Agents\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/ai-agents"
+    },
+    {
+      "type": "One doc tagged with \"Authentication\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/authentication"
+    },
+    {
+      "type": "One doc tagged with \"Billing\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/billing"
+    },
+    {
+      "type": "One doc tagged with \"Deploy\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/deploy"
+    },
+    {
+      "type": "One doc tagged with \"Deployment\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/deployment"
+    },
+    {
+      "type": "2 docs tagged with \"Capacity Modes\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/capacity-modes"
+    },
+    {
+      "type": "One doc tagged with \"Development Server\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/development-server"
+    },
+    {
+      "type": "One doc tagged with \"design-patterns\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/design-patterns"
+    },
+    {
+      "type": "One doc tagged with \"enable-nexus\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/enable-nexus"
+    },
+    {
+      "type": "2 docs tagged with \"Configuration\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/configuration"
+    },
+    {
+      "type": "3 docs tagged with \"AWS\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/aws"
+    },
+    {
+      "type": "2 docs tagged with \"developer guide\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/developer-guide"
+    },
+    {
+      "type": "One doc tagged with \"evaluate temporal\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/evaluate-temporal"
+    },
+    {
+      "type": "2 docs tagged with \"Environment Variables\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/environment-variables"
+    },
+    {
+      "type": "4 docs tagged with \"API Keys\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/api-keys"
+    },
+    {
+      "type": "One doc tagged with \"Kubernetes\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/kubernetes"
+    },
+    {
+      "type": "One doc tagged with \"Logging\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/logging"
+    },
+    {
+      "type": "4 docs tagged with \"Deprecated\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/deprecated"
+    },
+    {
+      "type": "2 docs tagged with \"Interceptors\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/interceptors"
+    },
+    {
+      "type": "One doc tagged with \"Migration\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/migration"
+    },
+    {
+      "type": "5 docs tagged with \"API\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/api"
+    },
+    {
+      "type": "3 docs tagged with \"GCP\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/gcp"
+    },
+    {
+      "type": "3 docs tagged with \"Export Workflow History\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/export-workflow-history"
+    },
+    {
+      "type": "2 docs tagged with \"Limits\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/limits"
+    },
+    {
+      "type": "One doc tagged with \"Notification\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/notification"
+    },
+    {
+      "type": "One doc tagged with \"operations\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/operations"
+    },
+    {
+      "type": "One doc tagged with \"Parent Close Policy\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/parent-close-policy"
+    },
+    {
+      "type": "One doc tagged with \"Performance\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/performance"
+    },
+    {
+      "type": "5 docs tagged with \"Connectivity\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/connectivity"
+    },
+    {
+      "type": "3 docs tagged with \"Logs\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/logs"
+    },
+    {
+      "type": "2 docs tagged with \"On-Demand Capacity\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/on-demand-capacity"
+    },
+    {
+      "type": "One doc tagged with \"Recovery Point Objective\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/recovery-point-objective"
+    },
+    {
+      "type": "One doc tagged with \"rate limiting\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/rate-limiting"
+    },
+    {
+      "type": "4 docs tagged with \"High Availability\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/high-availability"
+    },
+    {
+      "type": "One doc tagged with \"Recovery Time Objective\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/recovery-time-objective"
+    },
+    {
+      "type": "One doc tagged with \"Replay\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/replay"
+    },
+    {
+      "type": "7 docs tagged with \"Best Practices\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/best-practices"
+    },
+    {
+      "type": "2 docs tagged with \"Provisioned Capacity\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/provisioned-capacity"
+    },
+    {
+      "type": "7 docs tagged with \"continue-as-new\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/continue-as-new"
+    },
+    {
+      "type": "3 docs tagged with \"Pricing\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/pricing"
+    },
+    {
+      "type": "6 docs tagged with \"getting started\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/getting-started"
+    },
+    {
+      "type": "6 docs tagged with \"Event History\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/event-history"
+    },
+    {
+      "type": "One doc tagged with \"Spring Boot\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/spring-boot"
+    },
+    {
+      "type": "8 docs tagged with \"Codec Server\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/codec-server"
+    },
+    {
+      "type": "4 docs tagged with \"OpenMetrics\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/open-metrics"
+    },
+    {
+      "type": "8 docs tagged with \"Debugging\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/debugging"
+    },
+    {
+      "type": "8 docs tagged with \"Durable Timers\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/durable-timers"
+    },
+    {
+      "type": "One doc tagged with \"Tasks\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/tasks"
+    },
+    {
+      "type": "3 docs tagged with \"Side-effects\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/side-effects"
+    },
+    {
+      "type": "10 docs tagged with \"Certificates\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/certificates"
+    },
+    {
+      "type": "10 docs tagged with \"Child Workflows\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/child-workflows"
+    },
+    {
+      "type": "8 docs tagged with \"Messages\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/messages"
+    },
+    {
+      "type": "7 docs tagged with \"Patching\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/patching"
+    },
+    {
+      "type": "4 docs tagged with \"Support\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/support"
+    },
+    {
+      "type": "2 docs tagged with \"Terraform\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/terraform"
+    },
+    {
+      "type": "11 docs tagged with \"Durable Execution\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/durable-execution"
+    },
+    {
+      "type": "6 docs tagged with \"setup\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/setup"
+    },
+    {
+      "type": "3 docs tagged with \"Temporal Web UI\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/temporal-web-ui"
+    },
+    {
+      "type": "2 docs tagged with \"TRUs\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/tr-us"
+    },
+    {
+      "type": "2 docs tagged with \"TOML\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/toml"
+    },
+    {
+      "type": "5 docs tagged with \"Temporal\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/temporal"
+    },
+    {
+      "type": "One doc tagged with \"use-cases\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/use-cases"
+    },
+    {
+      "type": "9 docs tagged with \"Queries\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/queries"
+    },
+    {
+      "type": "14 docs tagged with \"Data Converters\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/data-converters"
+    },
+    {
+      "type": "11 docs tagged with \"Namespaces\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/namespaces"
+    },
+    {
+      "type": "10 docs tagged with \"Production\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/production"
+    },
+    {
+      "type": "5 docs tagged with \"Timeouts\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/timeouts"
+    },
+    {
+      "type": "9 docs tagged with \"Search Attributes\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/search-attributes"
+    },
+    {
+      "type": "9 docs tagged with \"Schedules\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/schedules"
+    },
+    {
+      "type": "8 docs tagged with \"Task Queues\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/task-queues"
+    },
+    {
+      "type": "9 docs tagged with \"Signals\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/signals"
+    },
+    {
+      "type": "4 docs tagged with \"User groups\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/user-groups"
+    },
+    {
+      "type": "15 docs tagged with \"Encryption\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/encryption"
+    },
+    {
+      "type": "8 docs tagged with \"Testing\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/testing"
+    },
+    {
+      "type": "13 docs tagged with \"Reference\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/reference"
+    },
+    {
+      "type": "7 docs tagged with \"UI Enrichment\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/ui-enrichment"
+    },
+    {
+      "type": "16 docs tagged with \"Metrics\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/metrics"
+    },
+    {
+      "type": "7 docs tagged with \"Users\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/users"
+    },
+    {
+      "type": "6 docs tagged with \"Visibility\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/visibility"
+    },
+    {
+      "type": "12 docs tagged with \"Temporal CLI\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/temporal-cli"
+    },
+    {
+      "type": "9 docs tagged with \"Updates\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/updates"
+    },
+    {
+      "type": "17 docs tagged with \"PHP SDK\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/php-sdk"
+    },
+    {
+      "type": "16 docs tagged with \"Self-hosting\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/self-hosting"
+    },
+    {
+      "type": "10 docs tagged with \"Versioning\" | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tags/versioning"
+    },
+    {
+      "type": "Temporal CLI command options reference | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/cli/cmd-options"
+    },
+    {
+      "type": "tctl v1.17 data-converter command reference | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tctl-v1/dataconverter"
+    },
+    {
+      "type": "tctl v1.17 activity command reference | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tctl-v1/activity"
+    },
+    {
+      "type": "tctl v1.17 cluster command reference | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tctl-v1/cluster"
+    },
+    {
+      "type": "tctl v1.17 taskqueue command reference | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tctl-v1/taskqueue"
+    },
+    {
+      "type": "tctl 1.17 schedule command reference | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tctl-v1/schedule"
+    },
+    {
+      "type": "tctl v1.17 batch command reference | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tctl-v1/batch"
+    },
+    {
+      "type": "tctl v1.17 admin command reference | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tctl-v1/admin"
+    },
+    {
+      "type": "tctl v1.17 namespace command reference | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tctl-v1/namespace"
+    },
+    {
+      "type": "tctl v1.17 workflow command reference | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/tctl-v1/workflow"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.temporal.io/pdf/temporal-tos-2021-07-24.pdf"
+    },
+    {
+      "type": "What is Temporal? | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/temporal"
+    },
+    {
+      "type": "Temporal Service | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/temporal-service"
+    },
+    {
+      "type": "Troubleshoot the failed reaching server error | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/troubleshooting/last-connection-error"
+    },
+    {
+      "type": "Troubleshoot the blob size limit error | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/troubleshooting/blob-size-limit-error"
+    },
+    {
+      "type": "Error Handling and Troubleshooting | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/troubleshooting/"
+    },
+    {
+      "type": "Troubleshoot the deadline-exceeded error | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/troubleshooting/deadline-exceeded-error"
+    },
+    {
+      "type": "Performance bottlenecks troubleshooting guide | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/troubleshooting/performance-bottlenecks"
+    },
+    {
+      "type": "Persistence | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/temporal-service/persistence"
+    },
+    {
+      "type": "Archival | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/temporal-service/archival"
+    },
+    {
+      "type": "Temporal Workflow | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/workflows"
+    },
+    {
+      "type": "Multi-Cluster Replication | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/temporal-service/multi-cluster-replication"
+    },
+    {
+      "type": "Visibility | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/temporal-service/visibility"
+    },
+    {
+      "type": "What is a Temporal Worker? | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/workers"
+    },
+    {
+      "type": "Temporal Server | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/temporal-service/temporal-server"
+    },
+    {
+      "type": "Temporal Visibility | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/visibility"
+    },
+    {
+      "type": "Temporal Workflow Definition | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/workflow-definition"
+    },
+    {
+      "type": "Workflow Execution Limits | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/workflow-execution/limits"
+    },
+    {
+      "type": "Temporal Service configuration | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/temporal-service/configuration"
+    },
+    {
+      "type": "Cloud Ops API | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/ops?_gl=1*1yf937l*_gcl_au*MTg1MTAxMTEwNC4xNzEzOTcxMjYw*_ga*MTgwODU1MzQyNi4xNzA3NzA4ODIz*_ga_R90Q9SJD3D*MTcyMTI0MTAyNy41MjIuMS4xNzIxMjQ5NTYxLjAuMC4w"
+    },
+    {
+      "type": "Worker Versioning | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/worker-versioning"
+    },
+    {
+      "type": "Workflow Id and Run Id | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/workflow-execution/workflowid-runid"
+    },
+    {
+      "type": "Events and Event History | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/workflow-execution/event"
+    },
+    {
+      "type": "Continue-As-New | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/workflow-execution/continue-as-new"
+    },
+    {
+      "type": "Temporal Workflow Execution Overview | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/workflow-execution"
+    },
+    {
+      "type": "Timers and Start Delays | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/workflow-execution/timers-delays"
+    },
+    {
+      "type": "Temporal Web UI | Temporal Platform Documentation",
+      "url": "https://docs.temporal.io/web-ui"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-12-26T20:13:20.064Z",
+      "filename": "documentation_2025-12-26T20:13:20.064Z.md",
+      "totalPages": 147,
+      "successfulPages": 147,
+      "url": "https://docs.temporal.io/",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

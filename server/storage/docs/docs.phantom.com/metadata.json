@@ -1,142 +1,480 @@
 {
   "url": "https://docs.phantom.com/solana/integrating-phantom",
   "domain": "docs.phantom.com",
-  "lastScraped": "2025-04-01T12:01:49.384Z",
-  "totalPages": 32,
-  "successfulPages": 32,
+  "lastScraped": "2026-02-05T10:19:58.576Z",
+  "totalPages": 114,
+  "successfulPages": 114,
   "failedPages": [],
   "structure": [
     {
-      "type": "Getting Started With Solana | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/solana/integrating-phantom"
+      "type": "Build with Phantom - Phantom developer documentation",
+      "url": "https://docs.phantom.com/introduction"
     },
     {
-      "type": "Detecting the Provider | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/solana/detecting-the-provider"
+      "type": "Display apps in the Recent Activity tab - Phantom developer documentation",
+      "url": "https://docs.phantom.com/best-practices/displaying-apps-within-the-activity-tab"
     },
     {
-      "type": "Getting Started with Phantom Embedded Wallets | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/embedded/getting-started-with-phantom-embedded-wallets"
+      "type": "Go-live checklist - Phantom developer documentation",
+      "url": "https://docs.phantom.com/best-practices/launching-a-dapp"
     },
     {
-      "type": "Introduction | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/"
-    },
-    {
-      "type": "Signing a Message | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/solana/signing-a-message"
-    },
-    {
-      "type": "Sending a Legacy Transaction | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/solana/sending-a-transaction"
-    },
-    {
-      "type": "Establishing a Connection | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/solana/establishing-a-connection"
-    },
-    {
-      "type": "Sending a Versioned Transaction | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/solana/sending-a-transaction-1"
-    },
-    {
-      "type": "Embedded Web SDK | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/embedded/embedded-web-sdk"
-    },
-    {
-      "type": "Error Messages and Codes | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/solana/errors"
-    },
-    {
-      "type": "Getting Started with Ethereum, Monad Testnet, Base, and Polygon | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/getting-started"
-    },
-    {
-      "type": "Signing a Message | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/signing-a-message"
-    },
-    {
-      "type": "Monad Testnet | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/monad-testnet"
-    },
-    {
-      "type": "Sending a Transaction | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/sending-a-transaction"
-    },
-    {
-      "type": "isPhantom | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/properties/isphantom"
-    },
-    {
-      "type": "Provider API Reference | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference"
-    },
-    {
-      "type": "Detecting the Provider | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/detecting-the-provider"
-    },
-    {
-      "type": "Establishing a Connection | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/establishing-a-connection"
-    },
-    {
-      "type": "chainId | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/properties/chainid"
-    },
-    {
-      "type": "networkVersion | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/properties/networkversion"
-    },
-    {
-      "type": "Properties | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/properties"
-    },
-    {
-      "type": "selectedAddress | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/properties/selectedaddress"
-    },
-    {
-      "type": "_events | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/properties/_events"
-    },
-    {
-      "type": "Disconnect | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/events/disconnect"
-    },
-    {
-      "type": "Chain Changed | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/events/chain-changed"
-    },
-    {
-      "type": "Connect | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/events/connect"
-    },
-    {
-      "type": "Events | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/events"
-    },
-    {
-      "type": "Detecting the Provider | Phantom Developer Docs",
+      "type": "Detect the provider - Phantom developer documentation",
       "url": "https://docs.phantom.com/bitcoin/detecting-the-provider"
     },
     {
-      "type": "_eventsCount | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/properties/_eventscount"
+      "type": "Get started with Bitcoin - Phantom developer documentation",
+      "url": "https://docs.phantom.com/bitcoin/integrating-phantom"
     },
     {
-      "type": "Establishing a Connection | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/sui-beta/establishing-a-connection"
+      "type": "Establish a connection - Phantom developer documentation",
+      "url": "https://docs.phantom.com/bitcoin/establishing-a-connection"
     },
     {
-      "type": "request | Phantom Developer Docs",
+      "type": "Display apps within dialogs - Phantom developer documentation",
+      "url": "https://docs.phantom.com/best-practices/displaying-your-app"
+    },
+    {
+      "type": "Sign a message - Phantom developer documentation",
+      "url": "https://docs.phantom.com/bitcoin/signing-a-message"
+    },
+    {
+      "type": "Provider API reference - Phantom developer documentation",
+      "url": "https://docs.phantom.com/bitcoin/provider-api-reference"
+    },
+    {
+      "type": "Send a transaction - Phantom developer documentation",
+      "url": "https://docs.phantom.com/bitcoin/sending-a-transaction"
+    },
+    {
+      "type": "Display tokens on Solana - Phantom developer documentation",
+      "url": "https://docs.phantom.com/best-practices/tokens/README"
+    },
+    {
+      "type": "NFTs and semi-fungibles - Phantom developer documentation",
+      "url": "https://docs.phantom.com/best-practices/tokens/collectibles-nfts-and-semi-fungibles"
+    },
+    {
+      "type": "Get started with EVM networks - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/getting-started"
+    },
+    {
+      "type": "Detect the provider - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/detecting-the-provider"
+    },
+    {
+      "type": "Wallet Standard - Phantom developer documentation",
+      "url": "https://docs.phantom.com/developer-powertools/wallet-standard"
+    },
+    {
+      "type": "Make your token appear as verified - Phantom developer documentation",
+      "url": "https://docs.phantom.com/best-practices/tokens/token-verification"
+    },
+    {
+      "type": "Limitations - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/limitations"
+    },
+    {
+      "type": "Supported media types - Phantom developer documentation",
+      "url": "https://docs.phantom.com/best-practices/tokens/supported-media-types"
+    },
+    {
+      "type": "Fungibles - Phantom developer documentation",
+      "url": "https://docs.phantom.com/best-practices/tokens/home-tab-fungibles"
+    },
+    {
+      "type": "Provider API reference - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/README"
+    },
+    {
+      "type": "Establish a connection - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/establishing-a-connection"
+    },
+    {
+      "type": "Error messages and codes - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/errors"
+    },
+    {
+      "type": "Transaction Validation - Phantom developer documentation",
+      "url": "https://docs.phantom.com/developer-powertools/lighthouse"
+    },
+    {
+      "type": "Phantom deep links - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/deeplinks-ios-and-android"
+    },
+    {
+      "type": "Encryption - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/encryption"
+    },
+    {
+      "type": "Specifying redirects - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/specifying-redirects"
+    },
+    {
+      "type": "Domain and transaction warnings - Phantom developer documentation",
+      "url": "https://docs.phantom.com/developer-powertools/domain-and-transaction-warnings"
+    },
+    {
+      "type": "Create an app - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-portal/create-app"
+    },
+    {
+      "type": "Configure allowed origins and redirect URLs - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-portal/configure-urls"
+    },
+    {
+      "type": "AI-assisted development - Phantom developer documentation",
+      "url": "https://docs.phantom.com/developer-powertools/ai-tools"
+    },
+    {
+      "type": "Send a transaction - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/sending-a-transaction"
+    },
+    {
+      "type": "Shortcuts - Phantom developer documentation",
+      "url": "https://docs.phantom.com/developer-powertools/shortcuts"
+    },
+    {
+      "type": "Mobile web debugging - Phantom developer documentation",
+      "url": "https://docs.phantom.com/developer-powertools/mobile-web-debugging"
+    },
+    {
+      "type": "Create an account - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-portal/create-account"
+    },
+    {
+      "type": "Add your app information - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-portal/edit-app-info"
+    },
+    {
+      "type": "Solana Actions and Blinks - Phantom developer documentation",
+      "url": "https://docs.phantom.com/developer-powertools/solana-actions-and-blinks"
+    },
+    {
+      "type": "Other methods - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/other-methods/README"
+    },
+    {
+      "type": "Browse - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/other-methods/browse"
+    },
+    {
+      "type": "Sign a message - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/signing-a-message"
+    },
+    {
+      "type": "Swap - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/other-methods/swap"
+    },
+    {
+      "type": "Events - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/events/README"
+    },
+    {
+      "type": "isConnected - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/methods/isconnected"
+    },
+    {
+      "type": "Fungible - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/other-methods/fungible"
+    },
+    {
+      "type": "Accounts changed - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/events/accounts-changed"
+    },
+    {
+      "type": "Testnet mode - Phantom developer documentation",
+      "url": "https://docs.phantom.com/developer-powertools/testnet-mode"
+    },
+    {
+      "type": "Token pages - Phantom developer documentation",
+      "url": "https://docs.phantom.com/developer-powertools/token-pages"
+    },
+    {
+      "type": "request - Phantom developer documentation",
       "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/methods/request"
     },
     {
-      "type": "Accounts Changed | Phantom Developer Docs",
-      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/events/accounts-changed"
+      "type": "Get started - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-portal/getting-started"
+    },
+    {
+      "type": "Developer tools and resources - Phantom developer documentation",
+      "url": "https://docs.phantom.com/developer-powertools/overview"
+    },
+    {
+      "type": "Disconnect - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/events/disconnect"
+    },
+    {
+      "type": "Connect - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/events/connect"
+    },
+    {
+      "type": "Provider methods - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/provider-methods/README"
+    },
+    {
+      "type": "Verify your domain - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-portal/verify-domain"
+    },
+    {
+      "type": "Phantom Connect - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-connect"
+    },
+    {
+      "type": "Chain changed - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/events/chain-changed"
+    },
+    {
+      "type": "SignAndSendTransaction (deprecated) - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/provider-methods/signandsendtransaction"
+    },
+    {
+      "type": "Solana priority fees - Phantom developer documentation",
+      "url": "https://docs.phantom.com/developer-powertools/solana-priority-fees"
+    },
+    {
+      "type": "Methods - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/methods/README"
+    },
+    {
+      "type": "Phantom Portal overview - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-portal/portal"
+    },
+    {
+      "type": "Solana Token Extensions (Token22) - Phantom developer documentation",
+      "url": "https://docs.phantom.com/developer-powertools/solana-token-extensions-token22"
+    },
+    {
+      "type": "Contracts and Auto-Confirm - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-portal/contracts"
+    },
+    {
+      "type": "Disconnect - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/provider-methods/disconnect"
+    },
+    {
+      "type": "Solana Versioned Transactions - Phantom developer documentation",
+      "url": "https://docs.phantom.com/developer-powertools/solana-versioned-transactions"
+    },
+    {
+      "type": "SignTransaction - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/provider-methods/signtransaction"
+    },
+    {
+      "type": "Establish a connection - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sui/establishing-a-connection"
+    },
+    {
+      "type": "Connect - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/provider-methods/connect"
+    },
+    {
+      "type": "SignAllTransactions - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/provider-methods/signalltransactions"
+    },
+    {
+      "type": "Get started with Sui - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sui/getting-started-with-sui"
+    },
+    {
+      "type": "Get your App ID and integrate - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-portal/get-app-id"
+    },
+    {
+      "type": "Send a transaction - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sui/sending-a-transaction"
+    },
+    {
+      "type": "Updates - Phantom developer documentation",
+      "url": "https://docs.phantom.com/updates"
+    },
+    {
+      "type": "Properties - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/properties/README"
+    },
+    {
+      "type": "Get started with Solana - Phantom developer documentation",
+      "url": "https://docs.phantom.com/solana/integrating-phantom"
+    },
+    {
+      "type": "Detect the provider - Phantom developer documentation",
+      "url": "https://docs.phantom.com/solana/detecting-the-provider"
+    },
+    {
+      "type": "Detect the provider - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sui/detecting-the-provider"
+    },
+    {
+      "type": "isPhantom - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/properties/isphantom"
+    },
+    {
+      "type": "chainId - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/properties/chainid"
+    },
+    {
+      "type": "Sign-In-With (SIW) standards - Phantom developer documentation",
+      "url": "https://docs.phantom.com/developer-powertools/signing-a-message"
+    },
+    {
+      "type": "Sign a message - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sui/signing-a-message"
+    },
+    {
+      "type": " events - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/properties/_events"
+    },
+    {
+      "type": " eventsCount - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/properties/_eventscount"
+    },
+    {
+      "type": "Error messages and codes - Phantom developer documentation",
+      "url": "https://docs.phantom.com/solana/errors"
+    },
+    {
+      "type": "networkVersion - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/properties/networkversion"
+    },
+    {
+      "type": "SignMessage - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/provider-methods/signmessage"
+    },
+    {
+      "type": "Sign a message - Phantom developer documentation",
+      "url": "https://docs.phantom.com/solana/signing-a-message"
+    },
+    {
+      "type": "selectedAddress - Phantom developer documentation",
+      "url": "https://docs.phantom.com/ethereum-monad-testnet-base-and-polygon/provider-api-reference/properties/selectedaddress"
+    },
+    {
+      "type": "Sign messages - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/browser-sdk/sign-messages"
+    },
+    {
+      "type": "Handle sessions - Phantom developer documentation",
+      "url": "https://docs.phantom.com/phantom-deeplinks/handling-sessions"
+    },
+    {
+      "type": "Establish a connection - Phantom developer documentation",
+      "url": "https://docs.phantom.com/solana/establishing-a-connection"
+    },
+    {
+      "type": "Send a legacy transaction - Phantom developer documentation",
+      "url": "https://docs.phantom.com/solana/sending-a-transaction"
+    },
+    {
+      "type": "Logos and assets - Phantom developer documentation",
+      "url": "https://docs.phantom.com/resources/assets"
+    },
+    {
+      "type": "Send a versioned transaction - Phantom developer documentation",
+      "url": "https://docs.phantom.com/solana/sending-a-transaction-1"
+    },
+    {
+      "type": "Demo apps - Phantom developer documentation",
+      "url": "https://docs.phantom.com/resources/sandbox"
+    },
+    {
+      "type": "Sign and send transactions - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/browser-sdk/sign-and-send-transaction"
+    },
+    {
+      "type": "Sign messages - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/react-sdk/sign-messages"
+    },
+    {
+      "type": "Sign and send transactions - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/react-sdk/sign-and-send-transaction"
+    },
+    {
+      "type": "MCP server - Phantom developer documentation",
+      "url": "https://docs.phantom.com/resources/mcp-server"
+    },
+    {
+      "type": "Connect - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/react-native-sdk/connect"
+    },
+    {
+      "type": "Phantom Connect SDK overview - Phantom developer documentation",
+      "url": "https://docs.phantom.com/wallet-sdks-overview"
+    },
+    {
+      "type": "Sign messages - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/react-native-sdk/sign-messages"
+    },
+    {
+      "type": "Connect - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/browser-sdk/connect"
+    },
+    {
+      "type": "Sign and send transactions - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/react-native-sdk/sign-and-send-transaction"
+    },
+    {
+      "type": "Connect - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/react-sdk/connect"
+    },
+    {
+      "type": "Recipes and starter kits - Phantom developer documentation",
+      "url": "https://docs.phantom.com/resources/recipes"
+    },
+    {
+      "type": "Cursor AI prompts - Phantom developer documentation",
+      "url": "https://docs.phantom.com/resources/cursor-prompts"
+    },
+    {
+      "type": "FAQ - Phantom developer documentation",
+      "url": "https://docs.phantom.com/resources/faq"
+    },
+    {
+      "type": "Browser SDK - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/browser-sdk"
+    },
+    {
+      "type": "Phantom React SDK - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/react-sdk"
+    },
+    {
+      "type": "Phantom React Native SDK - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/react-native-sdk"
+    },
+    {
+      "type": "Wallet authentication with JWTs - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/guides/wallet-authentication-with-jwts"
+    },
+    {
+      "type": "Phantom React SDK - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/react-sdk/index"
+    },
+    {
+      "type": "Phantom React Native SDK - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/react-native-sdk/index"
+    },
+    {
+      "type": "Browser SDK - Phantom developer documentation",
+      "url": "https://docs.phantom.com/sdks/browser-sdk/index"
+    },
+    {
+      "type": "Spending limits - Phantom developer documentation",
+      "url": "https://docs.phantom.com/spending-limits"
     }
   ],
-  "latestVersion": "1.0.0",
+  "latestVersion": "1.0.1",
   "versions": [
+    {
+      "version": "1.0.1",
+      "label": "latest",
+      "timestamp": "2026-02-05T10:19:58.576Z",
+      "filename": "documentation_2026-02-05T10:19:58.576Z.md",
+      "totalPages": 114,
+      "successfulPages": 114,
+      "url": "https://docs.phantom.com/introduction",
+      "isLatest": true
+    },
     {
       "version": "1.0.0",
       "timestamp": "2025-04-01T12:01:49.384Z",
@@ -144,8 +482,7 @@
       "totalPages": 32,
       "successfulPages": 32,
       "url": "https://docs.phantom.com/solana/integrating-phantom",
-      "isLatest": true,
-      "label": "latest"
+      "isLatest": false
     }
   ],
   "schemaVersion": 2

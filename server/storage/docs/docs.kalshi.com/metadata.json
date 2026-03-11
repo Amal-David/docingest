@@ -1,78 +1,50 @@
 {
   "url": "https://docs.kalshi.com/",
   "domain": "docs.kalshi.com",
-  "lastScraped": "2026-01-03T21:48:07.393Z",
-  "totalPages": 141,
-  "successfulPages": 141,
+  "lastScraped": "2026-03-08T03:38:50.381Z",
+  "totalPages": 107,
+  "successfulPages": 107,
   "failedPages": [],
   "structure": [
     {
-      "type": "Introduction - API Documentation",
-      "url": "https://docs.kalshi.com/"
+      "type": "Confirm Quote - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/communications/confirm-quote"
     },
     {
-      "type": "Introduction - API Documentation",
-      "url": "https://docs.kalshi.com/welcome"
+      "type": "Accept Quote - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/communications/accept-quote"
     },
     {
-      "type": "Unknown",
-      "url": "https://docs.kalshi.com/openapi.yaml"
+      "type": "Generate API Key - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/api-keys/generate-api-key"
     },
     {
-      "type": "Making Your First Request - API Documentation",
-      "url": "https://docs.kalshi.com/getting_started/making_your_first_request"
+      "type": "Get Account API Limits - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/account/get-account-api-limits"
+    },
+    {
+      "type": "Get Historical Cutoff Timestamps - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/historical/get-historical-cutoff-timestamps"
     },
     {
       "type": "Kalshi SDKs - API Documentation",
       "url": "https://docs.kalshi.com/sdks/overview"
     },
     {
-      "type": "Quick Start: Market Data - API Documentation",
-      "url": "https://docs.kalshi.com/getting_started/quick_start_market_data"
-    },
-    {
       "type": "FIX API Overview - API Documentation",
       "url": "https://docs.kalshi.com/fix"
-    },
-    {
-      "type": "Kalshi Glossary - API Documentation",
-      "url": "https://docs.kalshi.com/getting_started/terms"
-    },
-    {
-      "type": "API Changelog - API Documentation",
-      "url": "https://docs.kalshi.com/changelog"
-    },
-    {
-      "type": "Test In The Demo Environment - API Documentation",
-      "url": "https://docs.kalshi.com/getting_started/demo_env"
-    },
-    {
-      "type": "WebSocket Connection - API Documentation",
-      "url": "https://docs.kalshi.com/websockets/websocket-connection"
-    },
-    {
-      "type": "API Keys - API Documentation",
-      "url": "https://docs.kalshi.com/getting_started/api_keys"
     },
     {
       "type": "Python SDK Quick Start - API Documentation",
       "url": "https://docs.kalshi.com/sdks/python/quickstart"
     },
     {
-      "type": "TypeScript SDK Quick Start - API Documentation",
-      "url": "https://docs.kalshi.com/sdks/typescript/quickstart"
-    },
-    {
-      "type": "Subpenny Pricing - API Documentation",
-      "url": "https://docs.kalshi.com/getting_started/subpenny_pricing"
+      "type": "Test In The Demo Environment - API Documentation",
+      "url": "https://docs.kalshi.com/getting_started/demo_env"
     },
     {
       "type": "Connectivity - API Documentation",
       "url": "https://docs.kalshi.com/fix/connectivity"
-    },
-    {
-      "type": "Subpenny Pricing - API Documentation",
-      "url": "https://docs.kalshi.com/fix/subpenny-pricing"
     },
     {
       "type": "Drop Copy Session - API Documentation",
@@ -83,16 +55,32 @@
       "url": "https://docs.kalshi.com/fix/order-groups"
     },
     {
-      "type": "Connection Keep-Alive - API Documentation",
-      "url": "https://docs.kalshi.com/websockets/connection-keep-alive"
+      "type": "TypeScript SDK Quick Start - API Documentation",
+      "url": "https://docs.kalshi.com/sdks/typescript/quickstart"
     },
     {
-      "type": "Market Positions - API Documentation",
-      "url": "https://docs.kalshi.com/websockets/market-positions"
+      "type": "Historical Data - API Documentation",
+      "url": "https://docs.kalshi.com/getting_started/historical_data"
     },
     {
-      "type": "Quick Start: Create your first order - API Documentation",
+      "type": "Fixed-Point Migration - API Documentation",
+      "url": "https://docs.kalshi.com/getting_started/fixed_point_migration"
+    },
+    {
+      "type": "Fee Rounding - API Documentation",
+      "url": "https://docs.kalshi.com/getting_started/fee_rounding"
+    },
+    {
+      "type": "Subpenny Pricing - API Documentation",
+      "url": "https://docs.kalshi.com/fix/subpenny-pricing"
+    },
+    {
+      "type": "Quick Start: Create your first order (No SDK) - API Documentation",
       "url": "https://docs.kalshi.com/getting_started/quick_start_create_order"
+    },
+    {
+      "type": "Kalshi Glossary - API Documentation",
+      "url": "https://docs.kalshi.com/getting_started/terms"
     },
     {
       "type": "Market Settlement - API Documentation",
@@ -103,6 +91,54 @@
       "url": "https://docs.kalshi.com/fix/rfq-messages"
     },
     {
+      "type": "Making Your First Request - API Documentation",
+      "url": "https://docs.kalshi.com/getting_started/making_your_first_request"
+    },
+    {
+      "type": "Order Entry Messages - API Documentation",
+      "url": "https://docs.kalshi.com/fix/order-entry"
+    },
+    {
+      "type": "Error Handling - API Documentation",
+      "url": "https://docs.kalshi.com/fix/error-handling"
+    },
+    {
+      "type": "Session Management - API Documentation",
+      "url": "https://docs.kalshi.com/fix/session-management"
+    },
+    {
+      "type": "Quick Start: Authenticated Requests (No SDK) - API Documentation",
+      "url": "https://docs.kalshi.com/getting_started/quick_start_authenticated_requests"
+    },
+    {
+      "type": "API Keys - API Documentation",
+      "url": "https://docs.kalshi.com/getting_started/api_keys"
+    },
+    {
+      "type": "Order Group Updates - API Documentation",
+      "url": "https://docs.kalshi.com/websockets/order-group-updates"
+    },
+    {
+      "type": "Market Positions - API Documentation",
+      "url": "https://docs.kalshi.com/websockets/market-positions"
+    },
+    {
+      "type": "Multivariate Lookups - API Documentation",
+      "url": "https://docs.kalshi.com/websockets/multivariate-lookups"
+    },
+    {
+      "type": "Market & Event Lifecycle - API Documentation",
+      "url": "https://docs.kalshi.com/websockets/market-&-event-lifecycle"
+    },
+    {
+      "type": "Connection Keep-Alive - API Documentation",
+      "url": "https://docs.kalshi.com/websockets/connection-keep-alive"
+    },
+    {
+      "type": "ApiKeys - API Documentation",
+      "url": "https://docs.kalshi.com/typescript-sdk/api/ApiKeysApi"
+    },
+    {
       "type": "Market Ticker - API Documentation",
       "url": "https://docs.kalshi.com/websockets/market-ticker"
     },
@@ -111,52 +147,28 @@
       "url": "https://docs.kalshi.com/websockets/public-trades"
     },
     {
-      "type": "Multivariate Lookups - API Documentation",
-      "url": "https://docs.kalshi.com/websockets/multivariate-lookups"
-    },
-    {
-      "type": "Order Entry Messages - API Documentation",
-      "url": "https://docs.kalshi.com/fix/order-entry"
-    },
-    {
-      "type": "Market & Event Lifecycle - API Documentation",
-      "url": "https://docs.kalshi.com/websockets/market-&-event-lifecycle"
-    },
-    {
-      "type": "Error Handling - API Documentation",
-      "url": "https://docs.kalshi.com/fix/error-handling"
-    },
-    {
-      "type": "User Fills - API Documentation",
-      "url": "https://docs.kalshi.com/websockets/user-fills"
-    },
-    {
-      "type": "Orderbook Updates - API Documentation",
-      "url": "https://docs.kalshi.com/websockets/orderbook-updates"
-    },
-    {
-      "type": "Session Management - API Documentation",
-      "url": "https://docs.kalshi.com/fix/session-management"
-    },
-    {
       "type": "StructuredTargets - API Documentation",
       "url": "https://docs.kalshi.com/typescript-sdk/api/StructuredTargetsApi"
-    },
-    {
-      "type": "Communications - API Documentation",
-      "url": "https://docs.kalshi.com/websockets/communications"
-    },
-    {
-      "type": "Quick Start: Authenticated Requests - API Documentation",
-      "url": "https://docs.kalshi.com/getting_started/quick_start_authenticated_requests"
     },
     {
       "type": "Exchange - API Documentation",
       "url": "https://docs.kalshi.com/typescript-sdk/api/ExchangeApi"
     },
     {
-      "type": "ApiKeys - API Documentation",
-      "url": "https://docs.kalshi.com/typescript-sdk/api/ApiKeysApi"
+      "type": "Orderbook Updates - API Documentation",
+      "url": "https://docs.kalshi.com/websockets/orderbook-updates"
+    },
+    {
+      "type": "User Fills - API Documentation",
+      "url": "https://docs.kalshi.com/websockets/user-fills"
+    },
+    {
+      "type": "User Orders - API Documentation",
+      "url": "https://docs.kalshi.com/websockets/user-orders"
+    },
+    {
+      "type": "Communications - API Documentation",
+      "url": "https://docs.kalshi.com/websockets/communications"
     },
     {
       "type": "Milestones - API Documentation",
@@ -167,24 +179,40 @@
       "url": "https://docs.kalshi.com/getting_started/orderbook_responses"
     },
     {
-      "type": "Portfolio - API Documentation",
-      "url": "https://docs.kalshi.com/typescript-sdk/api/PortfolioApi"
+      "type": "Events - API Documentation",
+      "url": "https://docs.kalshi.com/typescript-sdk/api/EventsApi"
     },
     {
       "type": "MultivariateCollections - API Documentation",
       "url": "https://docs.kalshi.com/typescript-sdk/api/MultivariateCollectionsApi"
     },
     {
-      "type": "Events - API Documentation",
-      "url": "https://docs.kalshi.com/typescript-sdk/api/EventsApi"
-    },
-    {
       "type": "Communications - API Documentation",
       "url": "https://docs.kalshi.com/typescript-sdk/api/CommunicationsApi"
     },
     {
+      "type": "Quick Start: Market Data (No SDK) - API Documentation",
+      "url": "https://docs.kalshi.com/getting_started/quick_start_market_data"
+    },
+    {
+      "type": "Portfolio - API Documentation",
+      "url": "https://docs.kalshi.com/typescript-sdk/api/PortfolioApi"
+    },
+    {
+      "type": "WebSocket Connection - API Documentation",
+      "url": "https://docs.kalshi.com/websockets/websocket-connection"
+    },
+    {
+      "type": "Introduction - API Documentation",
+      "url": "https://docs.kalshi.com/welcome"
+    },
+    {
       "type": "Series - API Documentation",
       "url": "https://docs.kalshi.com/typescript-sdk/api/SeriesApi"
+    },
+    {
+      "type": "Quick Start: WebSockets (No SDK) - API Documentation",
+      "url": "https://docs.kalshi.com/getting_started/quick_start_websockets"
     },
     {
       "type": "StructuredTargets - API Documentation",
@@ -195,406 +223,243 @@
       "url": "https://docs.kalshi.com/typescript-sdk/api/MarketsApi"
     },
     {
+      "type": "API Changelog - API Documentation",
+      "url": "https://docs.kalshi.com/changelog"
+    },
+    {
+      "type": "Understanding Pagination - API Documentation",
+      "url": "https://docs.kalshi.com/getting_started/pagination"
+    },
+    {
+      "type": "Milestones - API Documentation",
+      "url": "https://docs.kalshi.com/python-sdk/api/MilestonesApi"
+    },
+    {
       "type": "Series - API Documentation",
       "url": "https://docs.kalshi.com/python-sdk/api/SeriesApi"
     },
     {
-      "type": "Page Not Found",
-      "url": "https://docs.kalshi.com/api-reference/market/get-market-order-book"
+      "type": "Rate Limits and Tiers - API Documentation",
+      "url": "https://docs.kalshi.com/getting_started/rate_limits"
     },
     {
-      "type": "Page Not Found",
-      "url": "https://docs.kalshi.com/api-reference/websockets/communications"
+      "type": "ApiKeys - API Documentation",
+      "url": "https://docs.kalshi.com/python-sdk/api/ApiKeysApi"
     },
     {
-      "type": "Page Not Found",
-      "url": "https://docs.kalshi.com/api-reference/portfolio/batch-create-orders"
+      "type": "Exchange - API Documentation",
+      "url": "https://docs.kalshi.com/python-sdk/api/ExchangeApi"
     },
     {
-      "type": "Page Not Found",
-      "url": "https://docs.kalshi.com/api-reference/portfolio/batch-cancel-orders"
+      "type": "Portfolio - API Documentation",
+      "url": "https://docs.kalshi.com/python-sdk/api/PortfolioApi"
     },
     {
-      "type": "Page Not Found",
-      "url": "https://docs.kalshi.com/api-reference/portfolio/create-order"
+      "type": "Delete API Key - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/api-keys/delete-api-key"
     },
     {
-      "type": "Page Not Found",
-      "url": "https://docs.kalshi.com/api-reference/portfolio/cancel-order"
+      "type": "Create API Key - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/api-keys/create-api-key"
     },
     {
-      "type": "Page Not Found",
-      "url": "https://docs.kalshi.com/getting_started/complete_order_lifecycle"
+      "type": "Get API Keys - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/api-keys/get-api-keys"
     },
     {
-      "type": "Page Not Found",
-      "url": "https://docs.kalshi.com/api-reference/portfolio/amend-order"
+      "type": "MultivariateCollections - API Documentation",
+      "url": "https://docs.kalshi.com/python-sdk/api/MultivariateCollectionsApi"
     },
     {
-      "type": "CreateApiKeyRequest - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/CreateApiKeyRequest"
+      "type": "Create Quote - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/communications/create-quote"
     },
     {
-      "type": "GetBalanceResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetBalanceResponse"
+      "type": "Markets - API Documentation",
+      "url": "https://docs.kalshi.com/python-sdk/api/MarketsApi"
     },
     {
-      "type": "GetStructuredTargetResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetStructuredTargetResponse"
+      "type": "Events - API Documentation",
+      "url": "https://docs.kalshi.com/python-sdk/api/EventsApi"
     },
     {
-      "type": "GetExchangeAnnouncementsResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetExchangeAnnouncementsResponse"
+      "type": "Create RFQ - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/communications/create-rfq"
     },
     {
-      "type": "GetSeriesResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetSeriesResponse"
+      "type": "Get Quote - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/communications/get-quote"
     },
     {
-      "type": "GetEventResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetEventResponse"
+      "type": "Delete RFQ - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/communications/delete-rfq"
     },
     {
-      "type": "GetMultivariateEventCollectionResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetMultivariateEventCollectionResponse"
+      "type": "Get Communications ID - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/communications/get-communications-id"
     },
     {
-      "type": "Page Not Found",
-      "url": "https://docs.kalshi.com/api-reference/portfolio/decrease-order"
+      "type": "Delete Quote - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/communications/delete-quote"
     },
     {
-      "type": "AcceptQuoteRequest - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/AcceptQuoteRequest"
+      "type": "Get Live Data - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/live-data/get-live-data"
     },
     {
-      "type": "GetMilestoneResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetMilestoneResponse"
+      "type": "Get Historical Fills - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/historical/get-historical-fills"
     },
     {
-      "type": "CreateApiKeyResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/CreateApiKeyResponse"
+      "type": "Get Historical Market Candlesticks - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/historical/get-historical-market-candlesticks"
     },
     {
-      "type": "GetFillsResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetFillsResponse"
+      "type": "Get Historical Orders - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/historical/get-historical-orders"
     },
     {
-      "type": "GetExchangeScheduleResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetExchangeScheduleResponse"
+      "type": "Get Historical Trades - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/historical/get-historical-trades"
     },
     {
-      "type": "GetStructuredTargetsResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetStructuredTargetsResponse"
+      "type": "Get Incentives - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/incentive-programs/get-incentives"
     },
     {
-      "type": "Page Not Found",
-      "url": "https://docs.kalshi.com/python-sdk/models/int"
+      "type": "Get FCM Positions - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/fcm/get-fcm-positions"
     },
     {
-      "type": "Page Not Found",
-      "url": "https://docs.kalshi.com/api-reference/portfolio/get-portfolio-history"
+      "type": "Get Historical Markets - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/historical/get-historical-markets"
     },
     {
-      "type": "CreateQuoteRequest - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/CreateQuoteRequest"
+      "type": "Get Multiple Live Data - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/live-data/get-multiple-live-data"
     },
     {
-      "type": "Page Not Found",
-      "url": "https://docs.kalshi.com/python-sdk/models"
+      "type": "Communications - API Documentation",
+      "url": "https://docs.kalshi.com/python-sdk/api/CommunicationsApi"
     },
     {
-      "type": "GetPortfolioRestingOrderTotalValueResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetPortfolioRestingOrderTotalValueResponse"
+      "type": "Get Market - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/market/get-market"
     },
     {
-      "type": "GenerateApiKeyRequest - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GenerateApiKeyRequest"
+      "type": "Get Market Orderbook - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/market/get-market-orderbook"
     },
     {
-      "type": "ExchangeStatus - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/ExchangeStatus"
+      "type": "Get Market Candlesticks - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/market/get-market-candlesticks"
     },
     {
-      "type": "GetMarketResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetMarketResponse"
+      "type": "Get Series - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/market/get-series"
     },
     {
-      "type": "Python SDK Documentation - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk"
+      "type": "Get Series List - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/market/get-series-list"
     },
     {
-      "type": "CreateQuoteResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/CreateQuoteResponse"
+      "type": "Batch Get Market Candlesticks - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/market/batch-get-market-candlesticks"
     },
     {
-      "type": "GetEventForecastPercentilesHistoryResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetEventForecastPercentilesHistoryResponse"
+      "type": "Get Historical Market - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/historical/get-historical-market"
     },
     {
-      "type": "Page Not Found",
-      "url": "https://docs.kalshi.com/api-reference/portfolio/get-orders"
+      "type": "Get Milestones - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/milestone/get-milestones"
     },
     {
-      "type": "GetRFQsResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetRFQsResponse"
+      "type": "Get Markets - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/market/get-markets"
     },
     {
-      "type": "GenerateApiKeyResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GenerateApiKeyResponse"
+      "type": "Get Multivariate Event Collection - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/multivariate/get-multivariate-event-collection"
     },
     {
-      "type": "GetRFQResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetRFQResponse"
+      "type": "Get Milestone - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/milestone/get-milestone"
     },
     {
-      "type": "GetSeriesByTickerResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetSeriesByTickerResponse"
+      "type": "Get Trades - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/market/get-trades"
     },
     {
-      "type": "GetMultivariateEventCollectionsResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetMultivariateEventCollectionsResponse"
+      "type": "Get Multivariate Event Collection Lookup History - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/multivariate/get-multivariate-event-collection-lookup-history"
     },
     {
-      "type": "GetSeriesFeeChangesResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetSeriesFeeChangesResponse"
+      "type": "Get Multivariate Event Collections - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/multivariate/get-multivariate-event-collections"
     },
     {
-      "type": "CreateRFQRequest - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/CreateRFQRequest"
+      "type": "Get Order Groups - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/order-groups/get-order-groups"
     },
     {
-      "type": "GetMilestonesResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetMilestonesResponse"
+      "type": "Create Order Group - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/order-groups/create-order-group"
     },
     {
-      "type": "GetPositionsResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetPositionsResponse"
+      "type": "Delete Order Group - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/order-groups/delete-order-group"
     },
     {
-      "type": "GetMarketCandlesticksResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetMarketCandlesticksResponse"
+      "type": "Update Order Group Limit - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/order-groups/update-order-group-limit"
     },
     {
-      "type": "GetSettlementsResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetSettlementsResponse"
+      "type": "Reset Order Group - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/order-groups/reset-order-group"
     },
     {
-      "type": "GetApiKeysResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetApiKeysResponse"
+      "type": "Trigger Order Group - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/order-groups/trigger-order-group"
     },
     {
-      "type": "GetUserDataTimestampResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetUserDataTimestampResponse"
+      "type": "Get Balance - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/portfolio/get-balance"
     },
     {
-      "type": "CreateRFQResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/CreateRFQResponse"
+      "type": "Get Queue Positions for Orders - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/orders/get-queue-positions-for-orders"
     },
     {
-      "type": "GetEventCandlesticksResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetEventCandlesticksResponse"
-    },
-    {
-      "type": "GetCommunicationsIDResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetCommunicationsIDResponse"
-    },
-    {
-      "type": "LookupBundleRequest - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/LookupBundleRequest"
-    },
-    {
-      "type": "GetMarketsResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetMarketsResponse"
-    },
-    {
-      "type": "GetEventsResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetEventsResponse"
-    },
-    {
-      "type": "LookupBundleResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/LookupBundleResponse"
-    },
-    {
-      "type": "GetEventMetadataResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetEventMetadataResponse"
-    },
-    {
-      "type": "GetMarketOrderbookResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetMarketOrderbookResponse"
-    },
-    {
-      "type": "GetQuotesResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetQuotesResponse"
-    },
-    {
-      "type": "GetMultivariateEventsResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetMultivariateEventsResponse"
-    },
-    {
-      "type": "GetTradesResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetTradesResponse"
-    },
-    {
-      "type": "GetQuoteResponse - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/GetQuoteResponse"
-    },
-    {
-      "type": "Page Not Found",
-      "url": "https://docs.kalshi.com/api-reference/market/get-events"
-    },
-    {
-      "type": "StructuredTarget - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/StructuredTarget"
-    },
-    {
-      "type": "Announcement - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/Announcement"
-    },
-    {
-      "type": "EventData - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/EventData"
-    },
-    {
-      "type": "Series - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/Series"
-    },
-    {
-      "type": "Market - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/Market"
-    },
-    {
-      "type": "MultivariateEventCollection - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/MultivariateEventCollection"
-    },
-    {
-      "type": "Milestone - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/Milestone"
-    },
-    {
-      "type": "Fill - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/Fill"
-    },
-    {
-      "type": "Schedule - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/Schedule"
-    },
-    {
-      "type": "ForecastPercentilesPoint - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/ForecastPercentilesPoint"
-    },
-    {
-      "type": "RFQ - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/RFQ"
-    },
-    {
-      "type": "MarketPosition - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/MarketPosition"
-    },
-    {
-      "type": "EventPosition - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/EventPosition"
-    },
-    {
-      "type": "SeriesFeeChange - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/SeriesFeeChange"
-    },
-    {
-      "type": "Trade - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/Trade"
-    },
-    {
-      "type": "MarketCandlestick - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/MarketCandlestick"
-    },
-    {
-      "type": "Settlement - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/Settlement"
-    },
-    {
-      "type": "MarketMetadata - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/MarketMetadata"
-    },
-    {
-      "type": "Quote - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/Quote"
-    },
-    {
-      "type": "LookupBundleRequestBundleInner - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/LookupBundleRequestBundleInner"
-    },
-    {
-      "type": "ApiKey - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/ApiKey"
-    },
-    {
-      "type": "Orderbook - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/Orderbook"
-    },
-    {
-      "type": "SettlementSource - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/SettlementSource"
-    },
-    {
-      "type": "MveSelectedLeg - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/MveSelectedLeg"
-    },
-    {
-      "type": "PriceRange - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/PriceRange"
-    },
-    {
-      "type": "AssociatedEvent - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/AssociatedEvent"
-    },
-    {
-      "type": "MaintenanceWindow - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/MaintenanceWindow"
-    },
-    {
-      "type": "WeeklySchedule - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/WeeklySchedule"
-    },
-    {
-      "type": "PercentilePoint - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/PercentilePoint"
-    },
-    {
-      "type": "BidAskDistribution - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/BidAskDistribution"
-    },
-    {
-      "type": "PriceDistribution - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/PriceDistribution"
-    },
-    {
-      "type": "DailySchedule - API Documentation",
-      "url": "https://docs.kalshi.com/python-sdk/models/DailySchedule"
+      "type": "Create Market In Multivariate Event Collection - API Documentation",
+      "url": "https://docs.kalshi.com/api-reference/multivariate/create-market-in-multivariate-event-collection"
     }
   ],
-  "latestVersion": "1.4.0",
+  "latestVersion": "1.4.2",
   "versions": [
     {
-      "version": "1.0.0",
-      "timestamp": "2025-08-15T23:50:58.250Z",
-      "filename": "documentation_2025-08-15T23:50:58.250Z.md",
-      "totalPages": 141,
-      "successfulPages": 141,
-      "url": "https://docs.kalshi.com/",
+      "version": "1.4.2",
+      "label": "latest",
+      "timestamp": "2026-03-08T03:38:50.381Z",
+      "filename": "documentation_2026-03-08T03:38:50.381Z.md",
+      "totalPages": 107,
+      "successfulPages": 107,
+      "url": "https://docs.kalshi.com/api-reference/communications/confirm-quote",
+      "isLatest": true
+    },
+    {
+      "version": "1.4.1",
+      "timestamp": "2026-02-02T03:21:47.713Z",
+      "filename": "documentation_2026-02-02T03:21:47.713Z.md",
+      "totalPages": 126,
+      "successfulPages": 126,
+      "url": "https://docs.kalshi.com/sdks/python/quickstart",
       "isLatest": false
     },
     {
-      "version": "1.1.0",
-      "timestamp": "2025-10-30T18:29:11.938Z",
-      "filename": "documentation_2025-10-30T18:29:11.938Z.md",
-      "totalPages": 141,
-      "successfulPages": 141,
-      "url": "https://docs.kalshi.com/",
-      "isLatest": false
-    },
-    {
-      "version": "1.2.0",
-      "timestamp": "2025-11-18T01:46:01.115Z",
-      "filename": "documentation_2025-11-18T01:46:01.115Z.md",
+      "version": "1.4.0",
+      "timestamp": "2026-01-03T21:48:07.393Z",
+      "filename": "documentation_2026-01-03T21:48:07.393Z.md",
       "totalPages": 141,
       "successfulPages": 141,
       "url": "https://docs.kalshi.com/",
@@ -610,14 +475,31 @@
       "isLatest": false
     },
     {
-      "version": "1.4.0",
-      "timestamp": "2026-01-03T21:48:07.393Z",
-      "filename": "documentation_2026-01-03T21:48:07.393Z.md",
+      "version": "1.2.0",
+      "timestamp": "2025-11-18T01:46:01.115Z",
+      "filename": "documentation_2025-11-18T01:46:01.115Z.md",
       "totalPages": 141,
       "successfulPages": 141,
       "url": "https://docs.kalshi.com/",
-      "isLatest": true,
-      "label": "latest"
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-10-30T18:29:11.938Z",
+      "filename": "documentation_2025-10-30T18:29:11.938Z.md",
+      "totalPages": 141,
+      "successfulPages": 141,
+      "url": "https://docs.kalshi.com/",
+      "isLatest": false
+    },
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-08-15T23:50:58.250Z",
+      "filename": "documentation_2025-08-15T23:50:58.250Z.md",
+      "totalPages": 141,
+      "successfulPages": 141,
+      "url": "https://docs.kalshi.com/",
+      "isLatest": false
     }
   ],
   "schemaVersion": 2

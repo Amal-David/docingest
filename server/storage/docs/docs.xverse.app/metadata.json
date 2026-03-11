@@ -1,1 +1,867 @@
-{"url":"https://docs.xverse.app/api","domain":"docs.xverse.app","lastScraped":"2025-10-25T04:11:41.593Z","totalPages":209,"successfulPages":209,"failedPages":[],"structure":[{"type":"Xverse API | xverse","url":"https://docs.xverse.app/api"},{"type":"Get Started | xverse","url":"https://docs.xverse.app/api/get-started"},{"type":"API reference | xverse","url":"https://docs.xverse.app/api/api-reference"},{"type":"Bitcoin | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin"},{"type":"[v1] Get Bitcoin UTXOs | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/address/v1-get-bitcoin-utxos"},{"type":"Address | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/address"},{"type":"[v2] Get Bitcoin UTXOs (Mempool-Aware) | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/address/v2-get-bitcoin-utxos-mempool-aware"},{"type":"spark_getAddress | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods"},{"type":"Ordinal Transaction Inputs | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/transactions/ordinal-transaction-inputs"},{"type":"Outputs | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/outputs"},{"type":"Node & Mempool | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/node-and-mempool"},{"type":"Estimate Transaction Fee | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/node-and-mempool/estimate-transaction-fee"},{"type":"Mempool Fees | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/node-and-mempool/mempool-fees"},{"type":"Blocks | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/blocks"},{"type":"Mempool Acceptance Test | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/node-and-mempool/mempool-acceptance-test"},{"type":"Send Transaction | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/node-and-mempool/send-transaction"},{"type":"Get Current Block | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/blocks/get-current-block"},{"type":"Get Block by Height | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/blocks/get-block-by-height"},{"type":"getblockhash | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getblockhash"},{"type":"getblockcount | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getblockcount"},{"type":"Bitcoin JSON-RPC | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc"},{"type":"getblockhash | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getblockhash-1"},{"type":"getblock | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getblock"},{"type":"getblockfilter | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getblockfilter"},{"type":"getblockchaininfo | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getblockchaininfo"},{"type":"getblockheader | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getblockheader"},{"type":"Balance | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/address/balance"},{"type":"Activity | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/address/activity"},{"type":"Historical Activity (Confirmed) | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/address/activity/historical-activity-confirmed"},{"type":"Unconfirmed Transactions | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/address/activity/unconfirmed-transactions"},{"type":"Real-Time Mempool Activity (Unconfirmed) | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/address/activity/real-time-mempool-activity-unconfirmed"},{"type":"Transactions | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/transactions"},{"type":"Get Raw Bitcoin Transaction Hex | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/transactions/get-raw-bitcoin-transaction-hex"},{"type":"Decode Raw Bitcoin Transaction | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/transactions/decode-raw-bitcoin-transaction"},{"type":"Get Bitcoin Transaction | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/transactions/get-bitcoin-transaction"},{"type":"Ordinal Transaction Outputs | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/transactions/ordinal-transaction-outputs"},{"type":"getblockstats | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getblockstats"},{"type":"getchaintips | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getchaintips"},{"type":"getchaintxstats | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getchaintxstats"},{"type":"getdifficulty | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getdifficulty"},{"type":"getmempoolancestors | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getmempoolancestors"},{"type":"Ordinals | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals"},{"type":"getmempooldescendants | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getmempooldescendants"},{"type":"getmempoolentry | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getmempoolentry"},{"type":"Ordinals by Address | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/ordinals-by-address"},{"type":"getrawmempool | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getrawmempool"},{"type":"gettxout | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/gettxout"},{"type":"Bitcoin Price | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-price"},{"type":"getmempoolinfo | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getmempoolinfo"},{"type":"Unconfirmed Inscriptions (Mempool) | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/ordinals-by-address/unconfirmed-inscriptions-mempool"},{"type":"gettxoutproof | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/gettxoutproof"},{"type":"decodescript | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/decodescript"},{"type":"UTXOs | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/ordinals-by-address/utxos"},{"type":"decoderawtransaction | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/decoderawtransaction"},{"type":"Inscriptions | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/ordinals-by-address/inscriptions"},{"type":"Inscription Activity | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/inscriptions/inscription-activity"},{"type":"Holders by Collection | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/collections/holders-by-collection"},{"type":"Inscriptions of a Collection | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/ordinals-by-address/inscriptions-of-a-collection"},{"type":"Collections | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/ordinals-by-address/collections"},{"type":"createrawtransaction | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/createrawtransaction"},{"type":"Collections | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/collections/collections"},{"type":"Inscriptions | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/inscriptions"},{"type":"Inscription Service | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/inscription-service"},{"type":"Order | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/inscription-service/order"},{"type":"Collections | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/collections"},{"type":"Inscriptions by Collection | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/collections/inscriptions-by-collection"},{"type":"Estimate | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/inscription-service/estimate"},{"type":"Collection by ID | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/collections/collection-by-id"},{"type":"sendrawtransaction | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/sendrawtransaction"},{"type":"Inscription by ID | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/inscriptions/inscription-by-id"},{"type":"getrawtransaction | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/getrawtransaction"},{"type":"Collection Historical Floor Prices | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/collections/collection-historical-floor-prices"},{"type":"Execute | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/inscription-service/order/execute"},{"type":"BRC-20 | xverse","url":"https://docs.xverse.app/api/api-reference/brc-20"},{"type":"Inscriptions by IDs | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/inscriptions/inscriptions-by-ids"},{"type":"Holders by Rune | xverse","url":"https://docs.xverse.app/api/api-reference/runes/holders-by-rune"},{"type":"Top Collections by Volume | xverse","url":"https://docs.xverse.app/api/api-reference/ordinals/collections/top-collections-by-volume"},{"type":"Runes | xverse","url":"https://docs.xverse.app/api/api-reference/runes"},{"type":"BRC-20 by Address | xverse","url":"https://docs.xverse.app/api/api-reference/brc-20/brc-20-by-address"},{"type":"testmempoolaccept | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/testmempoolaccept"},{"type":"verifymessage | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/verifymessage"},{"type":"Rune Activity | xverse","url":"https://docs.xverse.app/api/api-reference/runes/rune-activity"},{"type":"Mint BRC-20 | xverse","url":"https://docs.xverse.app/api/api-reference/brc-20/mint-brc-20"},{"type":"createmultisig | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/createmultisig"},{"type":"Rune Transaction History | xverse","url":"https://docs.xverse.app/api/api-reference/runes/runes-by-address/rune-transaction-history"},{"type":"Estimate | xverse","url":"https://docs.xverse.app/api/api-reference/brc-20/mint-brc-20/estimate"},{"type":"Rune by ID | xverse","url":"https://docs.xverse.app/api/api-reference/runes/rune-by-id"},{"type":"Decode Runestone | xverse","url":"https://docs.xverse.app/api/api-reference/runes/decode-runestone"},{"type":"BRC-20 by Ticker | xverse","url":"https://docs.xverse.app/api/api-reference/brc-20/brc-20-by-ticker"},{"type":"estimatesmartfee | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/estimatesmartfee"},{"type":"BRC-20 balances | xverse","url":"https://docs.xverse.app/api/api-reference/brc-20/brc-20-by-address/brc-20-balances"},{"type":"Runes by Address | xverse","url":"https://docs.xverse.app/api/api-reference/runes/runes-by-address"},{"type":"Runes by IDs | xverse","url":"https://docs.xverse.app/api/api-reference/runes/runes-by-ids"},{"type":"validateaddress | xverse","url":"https://docs.xverse.app/api/api-reference/bitcoin/bitcoin-json-rpc/validateaddress"},{"type":"[v1] Rune Balances | xverse","url":"https://docs.xverse.app/api/api-reference/runes/runes-by-address/v1-rune-balances"},{"type":"Execute | xverse","url":"https://docs.xverse.app/api/api-reference/brc-20/mint-brc-20/order/execute"},{"type":"Execute Mint | xverse","url":"https://docs.xverse.app/api/api-reference/runes/mint-rune/mint-order/execute-mint"},{"type":"BRC-20 Activity | xverse","url":"https://docs.xverse.app/api/api-reference/brc-20/brc-20-by-address/brc-20-activity"},{"type":"Deploy BRC-20 | xverse","url":"https://docs.xverse.app/api/api-reference/brc-20/deploy-brc-20"},{"type":"Order | xverse","url":"https://docs.xverse.app/api/api-reference/brc-20/deploy-brc-20/order"},{"type":"Spark | xverse","url":"https://docs.xverse.app/api/api-reference/spark"},{"type":"Holders by BTKN | xverse","url":"https://docs.xverse.app/api/api-reference/spark/holders-by-btkn"},{"type":"Search Runes | xverse","url":"https://docs.xverse.app/api/api-reference/runes/search-runes"},{"type":"Stacks Swaps | xverse","url":"https://docs.xverse.app/api/api-reference/swaps/stacks-swaps"},{"type":"Runes Historical Prices | xverse","url":"https://docs.xverse.app/api/api-reference/runes/runes-historical-prices"},{"type":"Mint Rune | xverse","url":"https://docs.xverse.app/api/api-reference/runes/mint-rune"},{"type":"Estimate | xverse","url":"https://docs.xverse.app/api/api-reference/brc-20/deploy-brc-20/estimate"},{"type":"Runes Swaps | xverse","url":"https://docs.xverse.app/api/api-reference/swaps/runes-swaps"},{"type":"BTKN by ID | xverse","url":"https://docs.xverse.app/api/api-reference/spark/btkn-by-id"},{"type":"Etch Rune | xverse","url":"https://docs.xverse.app/api/api-reference/runes/etch-rune"},{"type":"Top Runes by Volume | xverse","url":"https://docs.xverse.app/api/api-reference/runes/top-runes-by-volume"},{"type":"Crosschain Swaps | xverse","url":"https://docs.xverse.app/api/api-reference/swaps/crosschain-swaps"},{"type":"Swaps | xverse","url":"https://docs.xverse.app/api/api-reference/swaps"},{"type":"Estimate Mint | xverse","url":"https://docs.xverse.app/api/api-reference/runes/mint-rune/estimate-mint"},{"type":"Rune Activity | xverse","url":"https://docs.xverse.app/api/api-reference/runes/runes-by-address/rune-activity"},{"type":"Validate Rune Name | xverse","url":"https://docs.xverse.app/api/api-reference/runes/etch-rune/validate-rune-name"},{"type":"BRC-20 transaction history | xverse","url":"https://docs.xverse.app/api/api-reference/brc-20/brc-20-by-address/brc-20-transaction-history"},{"type":"Runes Top Gainers & Losers | xverse","url":"https://docs.xverse.app/api/api-reference/runes/runes-top-gainers-and-losers"},{"type":"Order | xverse","url":"https://docs.xverse.app/api/api-reference/brc-20/mint-brc-20/order"},{"type":"Execute order | xverse","url":"https://docs.xverse.app/api/api-reference/swaps/utxo/execute-order"},{"type":"UTXOs | xverse","url":"https://docs.xverse.app/api/api-reference/runes/runes-by-address/utxos"},{"type":"Execute | xverse","url":"https://docs.xverse.app/api/api-reference/brc-20/deploy-brc-20/order/execute"},{"type":"Top BTKN by Volume | xverse","url":"https://docs.xverse.app/api/api-reference/spark/top-btkn-by-volume"},{"type":"Spark Balances | xverse","url":"https://docs.xverse.app/api/api-reference/spark/spark-balances"},{"type":"Place order | xverse","url":"https://docs.xverse.app/api/api-reference/swaps/crosschain-swaps/place-order"},{"type":"Mint Order | xverse","url":"https://docs.xverse.app/api/api-reference/runes/mint-rune/mint-order"},{"type":"Place order | xverse","url":"https://docs.xverse.app/api/api-reference/swaps/stacks-swaps/place-order"},{"type":"Spark Transaction History | xverse","url":"https://docs.xverse.app/api/api-reference/spark/spark-transaction-history"},{"type":"Get destination tokens | xverse","url":"https://docs.xverse.app/api/api-reference/swaps/get-destination-tokens"},{"type":"[v2] Rune Balances (Mempool-Aware) | xverse","url":"https://docs.xverse.app/api/api-reference/runes/runes-by-address/v2-rune-balances-mempool-aware"},{"type":"Estimate Etch | xverse","url":"https://docs.xverse.app/api/api-reference/runes/etch-rune/estimate-etch"},{"type":"UTXO | xverse","url":"https://docs.xverse.app/api/api-reference/swaps/utxo"},{"type":"Execute order | xverse","url":"https://docs.xverse.app/api/api-reference/swaps/stacks-swaps/execute-order"},{"type":"Execute Etch | xverse","url":"https://docs.xverse.app/api/api-reference/runes/etch-rune/etch-order/execute-etch"},{"type":"Get quotes | xverse","url":"https://docs.xverse.app/api/api-reference/swaps/get-quotes"},{"type":"Place order | xverse","url":"https://docs.xverse.app/api/api-reference/swaps/utxo/place-order"},{"type":"Get utxos | xverse","url":"https://docs.xverse.app/api/api-reference/swaps/utxo/get-utxos"},{"type":"Execute order | xverse","url":"https://docs.xverse.app/api/api-reference/swaps/runes-swaps/execute-order"},{"type":"Etch Order | xverse","url":"https://docs.xverse.app/api/api-reference/runes/etch-rune/etch-order"},{"type":"Place order | xverse","url":"https://docs.xverse.app/api/api-reference/swaps/runes-swaps/place-order"},{"type":"signMessage | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/signmessage"},{"type":"ord_sendInscriptions | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/ord_sendinscriptions"},{"type":"stx_signTransaction | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/stacks-methods/stx_signtransaction"},{"type":"sendTransfer | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/sendtransfer"},{"type":"createInscription | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/createinscription"},{"type":"getBalance | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/getbalance"},{"type":"getAddresses | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/getaddresses"},{"type":"signPsbt | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/signpsbt"},{"type":"stx_deployContract | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/stacks-methods/stx_deploycontract"},{"type":"Introduction | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect"},{"type":"spark_transfer | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/spark_transfer"},{"type":"stx_signMessage | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/stacks-methods/stx_signmessage"},{"type":"Next.js support | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/guides/next.js-support"},{"type":"runes_getBalance | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/runes_getbalance"},{"type":"spark_getBalance | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/spark_getbalance"},{"type":"createRepeatInscriptions | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/createrepeatinscriptions"},{"type":"spark_transferToken | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/spark_transfertoken"},{"type":"signMultipleTransactions | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/signmultipletransactions"},{"type":"stx_transferStx | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/stacks-methods/stx_transferstx"},{"type":"ord_getInscriptions | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/ord_getinscriptions"},{"type":"runes_transfer | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/runes_transfer"},{"type":"runes_getOrder | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/runes_getorder"},{"type":"Mobile Integration | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/guides/mobile-integration"},{"type":"stx_getAccounts | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/stacks-methods/stx_getaccounts"},{"type":"Xverse Wallet events | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/xverse-wallet-events"},{"type":"Creating Bitcoin PSBTs | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/guides/creating-bitcoin-psbts"},{"type":"stx_signStructuredMessage | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/stacks-methods/stx_signstructuredmessage"},{"type":"stx_callContract | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/stacks-methods/stx_callcontract"},{"type":"Xverse Wallet Permissions | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/xverse-wallet-permissions"},{"type":"Wallet Providers | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/wallet-providers"},{"type":"Speed up a Rune Mint or Etch order | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/speed-up-a-rune-mint-or-etch-order"},{"type":"spark_signMessage | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/spark_signmessage"},{"type":"Verify Bitcoin message signatures | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/guides/verify-bitcoin-message-signatures"},{"type":"Mint Runes | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/mint-runes"},{"type":"Etch Runes | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/etch-runes"},{"type":"Connecting to the wallet | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/connecting-to-the-wallet"},{"type":"Connect to Xverse Wallet | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/connecting-to-the-wallet/connect-to-xverse-wallet"},{"type":"Wallet Methods | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/wallet-methods"},{"type":"Flashnet Trading | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/flashnet-trading"},{"type":"getInfo | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/wallet-providers/getinfo"},{"type":"getProviders & getProviderById | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/wallet-providers/getproviders-and-getproviderbyid"},{"type":"request methods | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/wallet-methods/request-methods"},{"type":"Email Protection | Cloudflare","url":"https://docs.xverse.app/cdn-cgi/l/email-protection"},{"type":"Disconnect from Xverse Wallet | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/connecting-to-the-wallet/disconnect-from-xverse-wallet"},{"type":"Connect to other wallets | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/connecting-to-the-wallet/connect-to-other-wallets"},{"type":"wallet_changeNetwork | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/wallet-methods/wallet_changenetwork"},{"type":"wallet_addNetwork | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/wallet-methods/wallet_addnetwork"},{"type":"runes_estimateMint | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/mint-runes/runes_estimatemint"},{"type":"runes_etch | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/etch-runes/runes_etch"},{"type":"runes_estimateRbfOrder | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/speed-up-a-rune-mint-or-etch-order/runes_estimaterbforder"},{"type":"runes_estimateEtch | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/etch-runes/runes_estimateetch"},{"type":"runes_mint | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/mint-runes/runes_mint"},{"type":"[Legacy ⚠️] getAccounts | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/connecting-to-the-wallet/legacy-getaccounts"},{"type":"spark_flashnet_signStructuredMessage | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/flashnet-trading/spark_flashnet_signstructuredmessage"},{"type":"spark_flashnet_clawbackFunds | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/flashnet-trading/spark_flashnet_clawbackfunds"},{"type":"wallet_getNetwork | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/wallet-methods/wallet_getnetwork"},{"type":"runes_rbfOrder | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/bitcoin-methods/speed-up-a-rune-mint-or-etch-order/runes_rbforder"},{"type":"wallet_getAccount | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/wallet-methods/wallet_getaccount"},{"type":"spark_flashnet_executeSwap | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/flashnet-trading/spark_flashnet_executeswap"},{"type":"spark_flashnet_createCPPool | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/flashnet-trading/spark_flashnet_createcppool"},{"type":"Xverse Custom Methods | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/wallet-methods/xverse-custom-methods"},{"type":"spark_flashnet_confirmInitialDeposit | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/flashnet-trading/spark_flashnet_confirminitialdeposit"},{"type":"spark_flashnet_signIntent | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/flashnet-trading/spark_flashnet_signintent"},{"type":"spark_flashnet_getJWT | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/flashnet-trading/spark_flashnet_getjwt"},{"type":"spark_flashnet_createBondingPool | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/flashnet-trading/spark_flashnet_createbondingpool"},{"type":"spark_flashnet_executeRouteSwap | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/flashnet-trading/spark_flashnet_executerouteswap"},{"type":"spark_flashnet_removeLiquidity | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/flashnet-trading/spark_flashnet_removeliquidity"},{"type":"spark_flashnet_addLiquidity | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/spark-methods/flashnet-trading/spark_flashnet_addliquidity"},{"type":"Manage a user's default wallet | Sats Connect - Wallet API for Bitcoin & Stacks","url":"https://docs.xverse.app/sats-connect/connecting-to-the-wallet/connect-to-other-wallets/manage-a-users-default-wallet"}]}
+{
+  "url": "https://docs.xverse.app/api",
+  "domain": "docs.xverse.app",
+  "lastScraped": "2026-02-05T11:16:19.689Z",
+  "totalPages": 204,
+  "successfulPages": 204,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Introduction | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect"
+    },
+    {
+      "type": "getInfo | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-providers/getinfo"
+    },
+    {
+      "type": "Wallet Providers | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-providers"
+    },
+    {
+      "type": "Connecting to the wallet | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/connecting-to-the-wallet"
+    },
+    {
+      "type": "getProviders & getProviderById | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-providers/getproviders-and-getproviderbyid"
+    },
+    {
+      "type": "Connect to other wallets | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/connecting-to-the-wallet/connect-to-other-wallets"
+    },
+    {
+      "type": "Disconnect from Xverse Wallet | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/connecting-to-the-wallet/disconnect-from-xverse-wallet"
+    },
+    {
+      "type": "Wallet Methods | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-methods"
+    },
+    {
+      "type": "Connect to Xverse Wallet | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/connecting-to-the-wallet/connect-to-xverse-wallet"
+    },
+    {
+      "type": "[Legacy ⚠️] getAccounts | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/connecting-to-the-wallet/legacy-getaccounts"
+    },
+    {
+      "type": "Get Started | xverse",
+      "url": "https://docs.xverse.app/api/get-started"
+    },
+    {
+      "type": "Bitcoin | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin"
+    },
+    {
+      "type": "wallet_open | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-methods/wallet_open"
+    },
+    {
+      "type": "request methods | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-methods/request-methods"
+    },
+    {
+      "type": "Xverse Wallet events | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/xverse-wallet-events"
+    },
+    {
+      "type": "Blocks | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/blocks"
+    },
+    {
+      "type": "Xverse API | xverse",
+      "url": "https://docs.xverse.app/api"
+    },
+    {
+      "type": "Bitcoin Price | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/bitcoin-price"
+    },
+    {
+      "type": "Get Bitcoin Transaction | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/transactions/get-bitcoin-transaction"
+    },
+    {
+      "type": "Mempool Fees | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/node-and-mempool/mempool-fees"
+    },
+    {
+      "type": "wallet_getNetwork | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-methods/wallet_getnetwork"
+    },
+    {
+      "type": "Node & Mempool | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/node-and-mempool"
+    },
+    {
+      "type": "Get Current Block | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/blocks/get-current-block"
+    },
+    {
+      "type": "Manage a user's default wallet | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/connecting-to-the-wallet/connect-to-other-wallets/manage-a-users-default-wallet"
+    },
+    {
+      "type": "Ordinal Transaction Outputs | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/transactions/ordinal-transaction-outputs"
+    },
+    {
+      "type": "runes_getBalance | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/runes_getbalance"
+    },
+    {
+      "type": "Address | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/address"
+    },
+    {
+      "type": "getBalance | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/getbalance"
+    },
+    {
+      "type": "Ordinals | xverse",
+      "url": "https://docs.xverse.app/api/ordinals"
+    },
+    {
+      "type": "Activity | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/address/activity"
+    },
+    {
+      "type": "runes_estimateMint | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/mint-runes/runes_estimatemint"
+    },
+    {
+      "type": "wallet_addNetwork | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-methods/wallet_addnetwork"
+    },
+    {
+      "type": "wallet_openEarn | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-methods/wallet_open/wallet_openearn"
+    },
+    {
+      "type": "wallet_openReceive | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-methods/wallet_open/wallet_openreceive"
+    },
+    {
+      "type": "Xverse Custom Methods | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-methods/xverse-custom-methods"
+    },
+    {
+      "type": "Void inscriptions | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/ordinals-by-address/void-inscriptions"
+    },
+    {
+      "type": "Collection Historical Floor Prices | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/collections/collection-historical-floor-prices"
+    },
+    {
+      "type": "Inscriptions of a Collection | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/ordinals-by-address/inscriptions-of-a-collection"
+    },
+    {
+      "type": "Address | xverse",
+      "url": "https://docs.xverse.app/api/spark/address"
+    },
+    {
+      "type": "Transactions | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/transactions"
+    },
+    {
+      "type": "Bitcoin Address Summary | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/address/bitcoin-address-summary"
+    },
+    {
+      "type": "wallet_getAccount | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-methods/wallet_getaccount"
+    },
+    {
+      "type": "Register Portfolio Address | xverse",
+      "url": "https://docs.xverse.app/api/portfolio/register-portfolio-address"
+    },
+    {
+      "type": "Balance | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/address/balance"
+    },
+    {
+      "type": "Outputs | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/outputs"
+    },
+    {
+      "type": "Order | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/inscription-service/order"
+    },
+    {
+      "type": "BRC-20 | xverse",
+      "url": "https://docs.xverse.app/api/brc-20"
+    },
+    {
+      "type": "Estimate Transaction Fee | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/node-and-mempool/estimate-transaction-fee"
+    },
+    {
+      "type": "Inscription Service | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/inscription-service"
+    },
+    {
+      "type": "signPsbt | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/signpsbt"
+    },
+    {
+      "type": "UTXOs | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/ordinals-by-address/utxos"
+    },
+    {
+      "type": "Inscription Activity | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/inscriptions/inscription-activity"
+    },
+    {
+      "type": "Execute | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/inscription-service/order/execute"
+    },
+    {
+      "type": "wallet_changeNetwork | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-methods/wallet_changenetwork"
+    },
+    {
+      "type": "Decode Raw Bitcoin Transaction | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/transactions/decode-raw-bitcoin-transaction"
+    },
+    {
+      "type": "Ordinals by Address | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/ordinals-by-address"
+    },
+    {
+      "type": "Get Raw Bitcoin Transaction Hex | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/transactions/get-raw-bitcoin-transaction-hex"
+    },
+    {
+      "type": "Get Block by Height | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/blocks/get-block-by-height"
+    },
+    {
+      "type": "Inscriptions | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/inscriptions"
+    },
+    {
+      "type": "Mint Runes | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/mint-runes"
+    },
+    {
+      "type": "[v1] Get Bitcoin UTXOs | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/address/v1-get-bitcoin-utxos"
+    },
+    {
+      "type": "Unconfirmed Inscriptions (Mempool) | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/ordinals-by-address/unconfirmed-inscriptions-mempool"
+    },
+    {
+      "type": "Mempool Acceptance Test | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/node-and-mempool/mempool-acceptance-test"
+    },
+    {
+      "type": "Portfolio | xverse",
+      "url": "https://docs.xverse.app/api/portfolio"
+    },
+    {
+      "type": "Runes | xverse",
+      "url": "https://docs.xverse.app/api/runes"
+    },
+    {
+      "type": "Ordinal Transaction Inputs | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/transactions/ordinal-transaction-inputs"
+    },
+    {
+      "type": "Collections | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/collections"
+    },
+    {
+      "type": "Estimate | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/inscription-service/estimate"
+    },
+    {
+      "type": "Real-Time Mempool Activity (Unconfirmed) | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/address/activity/real-time-mempool-activity-unconfirmed"
+    },
+    {
+      "type": "Latest Spark Transactions | xverse",
+      "url": "https://docs.xverse.app/api/spark/transactions/latest-spark-transactions"
+    },
+    {
+      "type": "Get Portfolio Address History | xverse",
+      "url": "https://docs.xverse.app/api/portfolio/get-portfolio-address-history"
+    },
+    {
+      "type": "Spark | xverse",
+      "url": "https://docs.xverse.app/api/spark"
+    },
+    {
+      "type": "[v2] Get Bitcoin UTXOs (Mempool-Aware) | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/address/v2-get-bitcoin-utxos-mempool-aware"
+    },
+    {
+      "type": "Spark Address Summary | xverse",
+      "url": "https://docs.xverse.app/api/spark/address/spark-address-summary"
+    },
+    {
+      "type": "wallet_openBridge | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-methods/wallet_open/wallet_openbridge"
+    },
+    {
+      "type": "createRepeatInscriptions | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/createrepeatinscriptions"
+    },
+    {
+      "type": "signMultipleMessages | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/signmultiplemessages"
+    },
+    {
+      "type": "Collections | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/ordinals-by-address/collections"
+    },
+    {
+      "type": "Estimate | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/deploy-brc-20/estimate"
+    },
+    {
+      "type": "Speed up a Rune Mint or Etch order | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/speed-up-a-rune-mint-or-etch-order"
+    },
+    {
+      "type": "BRC-20 by Address | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/brc-20-by-address"
+    },
+    {
+      "type": "Crosschain Swaps | xverse",
+      "url": "https://docs.xverse.app/api/swaps/crosschain-swaps"
+    },
+    {
+      "type": "Unconfirmed Transactions | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/address/activity/unconfirmed-transactions"
+    },
+    {
+      "type": "Ordinal Transaction | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/transactions/ordinal-transaction"
+    },
+    {
+      "type": "Mint BRC-20 | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/mint-brc-20"
+    },
+    {
+      "type": "getAddresses | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/getaddresses"
+    },
+    {
+      "type": "ord_getInscriptions | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/ord_getinscriptions"
+    },
+    {
+      "type": "ord_sendInscriptions | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/ord_sendinscriptions"
+    },
+    {
+      "type": "wallet_openBuy | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/wallet-methods/wallet_open/wallet_openbuy"
+    },
+    {
+      "type": "Etch Runes | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/etch-runes"
+    },
+    {
+      "type": "Send Transaction | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/node-and-mempool/send-transaction"
+    },
+    {
+      "type": "Inscriptions | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/ordinals-by-address/inscriptions"
+    },
+    {
+      "type": "Stacks Swaps | xverse",
+      "url": "https://docs.xverse.app/api/swaps/stacks-swaps"
+    },
+    {
+      "type": "Inscription Thumbnail | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/inscriptions/inscription-thumbnail"
+    },
+    {
+      "type": "signMessage | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/signmessage"
+    },
+    {
+      "type": "UTXO Listings | xverse",
+      "url": "https://docs.xverse.app/api/swaps/utxo-listings"
+    },
+    {
+      "type": "Transactions | xverse",
+      "url": "https://docs.xverse.app/api/spark/transactions"
+    },
+    {
+      "type": "Xverse Wallet Permissions | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/xverse-wallet-permissions"
+    },
+    {
+      "type": "sendTransfer | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/sendtransfer"
+    },
+    {
+      "type": "Inscription by ID | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/inscriptions/inscription-by-id"
+    },
+    {
+      "type": "BRC-20 Transfer Validity Check | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/brc-20-transfer-validity-check"
+    },
+    {
+      "type": "signMultipleTransactions | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/signmultipletransactions"
+    },
+    {
+      "type": "Top Collections by Volume | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/collections/top-collections-by-volume"
+    },
+    {
+      "type": "Place order | xverse",
+      "url": "https://docs.xverse.app/api/swaps/utxo-listings/place-order"
+    },
+    {
+      "type": "Collection by ID | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/collections/collection-by-id"
+    },
+    {
+      "type": "Place order | xverse",
+      "url": "https://docs.xverse.app/api/swaps/crosschain-swaps/place-order"
+    },
+    {
+      "type": "Collections | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/collections/collections"
+    },
+    {
+      "type": "Holders by Collection | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/collections/holders-by-collection"
+    },
+    {
+      "type": "BTKN Token by ID | xverse",
+      "url": "https://docs.xverse.app/api/spark/btkn-tokens/btkn-token-by-id"
+    },
+    {
+      "type": "Inscriptions by IDs | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/inscriptions/inscriptions-by-ids"
+    },
+    {
+      "type": "Inscriptions by Collection | xverse",
+      "url": "https://docs.xverse.app/api/ordinals/collections/inscriptions-by-collection"
+    },
+    {
+      "type": "stx_callContract | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/stacks-methods/stx_callcontract"
+    },
+    {
+      "type": "Deploy BRC-20 | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/deploy-brc-20"
+    },
+    {
+      "type": "Estimate | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/mint-brc-20/estimate"
+    },
+    {
+      "type": "Runes Swaps | xverse",
+      "url": "https://docs.xverse.app/api/swaps/runes-swaps"
+    },
+    {
+      "type": "Historical Activity (Confirmed) | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/address/activity/historical-activity-confirmed"
+    },
+    {
+      "type": "Rune by ID | xverse",
+      "url": "https://docs.xverse.app/api/runes/rune-by-id"
+    },
+    {
+      "type": "stx_getAccounts | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/stacks-methods/stx_getaccounts"
+    },
+    {
+      "type": "Swaps | xverse",
+      "url": "https://docs.xverse.app/api/swaps"
+    },
+    {
+      "type": "List Registered Portfolio Addresses | xverse",
+      "url": "https://docs.xverse.app/api/portfolio/list-registered-portfolio-addresses"
+    },
+    {
+      "type": "runes_estimateEtch | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/etch-runes/runes_estimateetch"
+    },
+    {
+      "type": "createInscription | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/createinscription"
+    },
+    {
+      "type": "Spark Balances | xverse",
+      "url": "https://docs.xverse.app/api/spark/address/spark-balances"
+    },
+    {
+      "type": "stx_signMessage | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/stacks-methods/stx_signmessage"
+    },
+    {
+      "type": "Spark Transaction History | xverse",
+      "url": "https://docs.xverse.app/api/spark/address/spark-transaction-history"
+    },
+    {
+      "type": "Spark Transaction Details | xverse",
+      "url": "https://docs.xverse.app/api/spark/transactions/spark-transaction-details"
+    },
+    {
+      "type": "BTKN Tokens | xverse",
+      "url": "https://docs.xverse.app/api/spark/btkn-tokens"
+    },
+    {
+      "type": "BRC-20 by Ticker | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/brc-20-by-ticker"
+    },
+    {
+      "type": "spark_getAddress | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/spark-methods/spark_getaddress"
+    },
+    {
+      "type": "Runes Historical Prices | xverse",
+      "url": "https://docs.xverse.app/api/runes/runes-historical-prices"
+    },
+    {
+      "type": "spark_transfer | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/spark-methods/spark_transfer"
+    },
+    {
+      "type": "Runes by Address | xverse",
+      "url": "https://docs.xverse.app/api/runes/runes-by-address"
+    },
+    {
+      "type": "Runes by Blocks | xverse",
+      "url": "https://docs.xverse.app/api/runes/runes-by-blocks"
+    },
+    {
+      "type": "Get All Rune Transfers by Blocks | xverse",
+      "url": "https://docs.xverse.app/api/runes/runes-by-blocks/get-all-rune-transfers-by-blocks"
+    },
+    {
+      "type": "BRC-20 transaction history | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/brc-20-by-address/brc-20-transaction-history"
+    },
+    {
+      "type": "Execute | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/mint-brc-20/order/execute"
+    },
+    {
+      "type": "Holders by Rune | xverse",
+      "url": "https://docs.xverse.app/api/runes/holders-by-rune"
+    },
+    {
+      "type": "BRC-20 Activity | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/brc-20-by-address/brc-20-activity"
+    },
+    {
+      "type": "BRC-20s by Tickers | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/brc-20s-by-tickers"
+    },
+    {
+      "type": "stx_signStructuredMessage | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/stacks-methods/stx_signstructuredmessage"
+    },
+    {
+      "type": "stx_transferStx | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/stacks-methods/stx_transferstx"
+    },
+    {
+      "type": "Get All Rune Trades by Blocks | xverse",
+      "url": "https://docs.xverse.app/api/runes/runes-by-blocks/get-all-rune-trades-by-blocks"
+    },
+    {
+      "type": "Search Runes | xverse",
+      "url": "https://docs.xverse.app/api/runes/search-runes"
+    },
+    {
+      "type": "Void inscriptions (spent BRC-20 transfers) | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/brc-20-by-address/void-inscriptions-spent-brc-20-transfers"
+    },
+    {
+      "type": "runes_transfer | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/runes_transfer"
+    },
+    {
+      "type": "Execute | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/deploy-brc-20/order/execute"
+    },
+    {
+      "type": "Get destination tokens | xverse",
+      "url": "https://docs.xverse.app/api/swaps/get-destination-tokens"
+    },
+    {
+      "type": "Get quotes | xverse",
+      "url": "https://docs.xverse.app/api/swaps/get-quotes"
+    },
+    {
+      "type": "BRC-20 balances | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/brc-20-by-address/brc-20-balances"
+    },
+    {
+      "type": "Place order | xverse",
+      "url": "https://docs.xverse.app/api/swaps/stacks-swaps/place-order"
+    },
+    {
+      "type": "List Rune Etch Orders | xverse",
+      "url": "https://docs.xverse.app/api/runes/etch-rune/list-rune-etch-orders"
+    },
+    {
+      "type": "Runes Top Gainers & Losers | xverse",
+      "url": "https://docs.xverse.app/api/runes/runes-top-gainers-and-losers"
+    },
+    {
+      "type": "BTKN Tokens by IDs (Batch) | xverse",
+      "url": "https://docs.xverse.app/api/spark/btkn-tokens/btkn-tokens-by-ids-batch"
+    },
+    {
+      "type": "BTKN Token Rankings | xverse",
+      "url": "https://docs.xverse.app/api/spark/btkn-tokens/btkn-token-rankings"
+    },
+    {
+      "type": "Spark BTKN Airdrops | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/spark-methods/spark-btkn-airdrops"
+    },
+    {
+      "type": "BTKN Token by Pubkey/Address or Search BTKN | xverse",
+      "url": "https://docs.xverse.app/api/spark/btkn-tokens/btkn-token-by-pubkey-address-or-search-btkn"
+    },
+    {
+      "type": "Mint Rune | xverse",
+      "url": "https://docs.xverse.app/api/runes/mint-rune"
+    },
+    {
+      "type": "Mobile Integration | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/guides/mobile-integration"
+    },
+    {
+      "type": "Rune Activity | xverse",
+      "url": "https://docs.xverse.app/api/runes/rune-activity"
+    },
+    {
+      "type": "BTKN Token Transactions | xverse",
+      "url": "https://docs.xverse.app/api/spark/btkn-tokens/btkn-token-transactions"
+    },
+    {
+      "type": "Order | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/mint-brc-20/order"
+    },
+    {
+      "type": "Execute order | xverse",
+      "url": "https://docs.xverse.app/api/swaps/utxo-listings/execute-order"
+    },
+    {
+      "type": "Execute order | xverse",
+      "url": "https://docs.xverse.app/api/swaps/stacks-swaps/execute-order"
+    },
+    {
+      "type": "spark_flashnet_signStructuredMessage | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/spark-methods/flashnet-trading/spark_flashnet_signstructuredmessage"
+    },
+    {
+      "type": "stx_deployContract | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/stacks-methods/stx_deploycontract"
+    },
+    {
+      "type": "Holders by BTKN Token | xverse",
+      "url": "https://docs.xverse.app/api/spark/btkn-tokens/holders-by-btkn-token"
+    },
+    {
+      "type": "Verify Bitcoin message signatures | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/guides/verify-bitcoin-message-signatures"
+    },
+    {
+      "type": "Top Runes by Volume | xverse",
+      "url": "https://docs.xverse.app/api/runes/top-runes-by-volume"
+    },
+    {
+      "type": "Runes by IDs | xverse",
+      "url": "https://docs.xverse.app/api/runes/runes-by-ids"
+    },
+    {
+      "type": "Get utxos | xverse",
+      "url": "https://docs.xverse.app/api/swaps/utxo-listings/get-utxos"
+    },
+    {
+      "type": "Order | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/deploy-brc-20/order"
+    },
+    {
+      "type": "UTXOs | xverse",
+      "url": "https://docs.xverse.app/api/runes/runes-by-address/utxos"
+    },
+    {
+      "type": "spark_transferToken | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/spark-methods/spark_transfertoken"
+    },
+    {
+      "type": "Unspent BRC-20 Transfers | xverse",
+      "url": "https://docs.xverse.app/api/brc-20/brc-20-by-address/unspent-brc-20-transfers"
+    },
+    {
+      "type": "runes_estimateRbfOrder | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/speed-up-a-rune-mint-or-etch-order/runes_estimaterbforder"
+    },
+    {
+      "type": "runes_rbfOrder | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/speed-up-a-rune-mint-or-etch-order/runes_rbforder"
+    },
+    {
+      "type": "runes_mint | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/mint-runes/runes_mint"
+    },
+    {
+      "type": "runes_getOrder | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/runes_getorder"
+    },
+    {
+      "type": "spark_getBalance | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/spark-methods/spark_getbalance"
+    },
+    {
+      "type": "Rune Activity | xverse",
+      "url": "https://docs.xverse.app/api/runes/runes-by-address/rune-activity"
+    },
+    {
+      "type": "Place order | xverse",
+      "url": "https://docs.xverse.app/api/swaps/runes-swaps/place-order"
+    },
+    {
+      "type": "Validate Rune Name | xverse",
+      "url": "https://docs.xverse.app/api/runes/etch-rune/validate-rune-name"
+    },
+    {
+      "type": "BTKN Tokens by Pubkey/Address | xverse",
+      "url": "https://docs.xverse.app/api/spark/btkn-tokens/btkn-tokens-by-pubkey-address"
+    },
+    {
+      "type": "Etch Rune | xverse",
+      "url": "https://docs.xverse.app/api/runes/etch-rune"
+    },
+    {
+      "type": "getblockstats | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/bitcoin-json-rpc/getblockstats"
+    },
+    {
+      "type": "Estimate Rune Mint Order | xverse",
+      "url": "https://docs.xverse.app/api/runes/mint-rune/estimate-rune-mint-order"
+    },
+    {
+      "type": "List Rune Mint Orders | xverse",
+      "url": "https://docs.xverse.app/api/runes/mint-rune/list-rune-mint-orders"
+    },
+    {
+      "type": "[v1] Rune Balances | xverse",
+      "url": "https://docs.xverse.app/api/runes/runes-by-address/v1-rune-balances"
+    },
+    {
+      "type": "Execute order | xverse",
+      "url": "https://docs.xverse.app/api/swaps/runes-swaps/execute-order"
+    },
+    {
+      "type": "Watch Addresses | xverse",
+      "url": "https://docs.xverse.app/api/portfolio/watch-addresses"
+    },
+    {
+      "type": "getchaintips | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/bitcoin-json-rpc/getchaintips"
+    },
+    {
+      "type": "getmempoolentry | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/bitcoin-json-rpc/getmempoolentry"
+    },
+    {
+      "type": "Decode Runestone | xverse",
+      "url": "https://docs.xverse.app/api/runes/decode-runestone"
+    },
+    {
+      "type": "Next.js support | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/guides/next.js-support"
+    },
+    {
+      "type": "[v2] Rune Balances (Mempool-Aware) | xverse",
+      "url": "https://docs.xverse.app/api/runes/runes-by-address/v2-rune-balances-mempool-aware"
+    },
+    {
+      "type": "getblockhash | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/bitcoin-json-rpc/getblockhash-1"
+    },
+    {
+      "type": "spark_signMessage | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/spark-methods/spark_signmessage"
+    },
+    {
+      "type": "decodescript | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/bitcoin-json-rpc/decodescript"
+    },
+    {
+      "type": "spark_flashnet_getClawbackEligibleTransfers | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/spark-methods/flashnet-trading/spark_flashnet_getclawbackeligibletransfers"
+    },
+    {
+      "type": "estimatesmartfee | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/bitcoin-json-rpc/estimatesmartfee"
+    },
+    {
+      "type": "runes_etch | Sats Connect - Wallet API for BitcoinFi",
+      "url": "https://docs.xverse.app/sats-connect/bitcoin-methods/etch-runes/runes_etch"
+    },
+    {
+      "type": "Execute Rune Mint Order | xverse",
+      "url": "https://docs.xverse.app/api/runes/mint-rune/execute-rune-mint-order"
+    },
+    {
+      "type": "sendrawtransaction | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/bitcoin-json-rpc/sendrawtransaction"
+    },
+    {
+      "type": "getblockcount | xverse",
+      "url": "https://docs.xverse.app/api/bitcoin/bitcoin-json-rpc/getblockcount"
+    }
+  ],
+  "latestVersion": "1.2.1",
+  "versions": [
+    {
+      "version": "1.2.1",
+      "label": "latest",
+      "timestamp": "2026-02-05T11:16:19.689Z",
+      "filename": "documentation_2026-02-05T11:16:19.689Z.md",
+      "totalPages": 204,
+      "successfulPages": 204,
+      "url": "https://docs.xverse.app/sats-connect",
+      "isLatest": true
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2025-10-25T04:11:41.593Z",
+      "filename": "documentation_2025-10-25T04:11:41.593Z.md",
+      "totalPages": 209,
+      "successfulPages": 209,
+      "url": "https://docs.xverse.app/api",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-10-23T23:29:14.793Z",
+      "filename": "documentation_2025-10-23T23:29:14.793Z.md",
+      "totalPages": 209,
+      "successfulPages": 209,
+      "url": "https://docs.xverse.app/api",
+      "isLatest": false
+    },
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-07-29T02:28:38.514Z",
+      "filename": "documentation_2025-07-29T02:28:38.514Z.md",
+      "totalPages": 209,
+      "successfulPages": 209,
+      "url": "https://docs.xverse.app/api",
+      "isLatest": false
+    }
+  ],
+  "schemaVersion": 2
+}

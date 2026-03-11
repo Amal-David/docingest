@@ -1,0 +1,1352 @@
+{
+  "url": "https://opentofu.org/docs/v1.11/",
+  "domain": "opentofu.org",
+  "lastScraped": "2026-03-01T17:04:33.941Z",
+  "totalPages": 332,
+  "successfulPages": 332,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Documentation | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/"
+    },
+    {
+      "type": "OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/"
+    },
+    {
+      "type": "OpenTofu CLI Documentation | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/"
+    },
+    {
+      "type": "CLI Authentication | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/auth/"
+    },
+    {
+      "type": "Using the Cloud Backend with OpenTofu CLI | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/cloud/"
+    },
+    {
+      "type": "Command Line Arguments | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/cloud/command-line-arguments/"
+    },
+    {
+      "type": "Writing and Modifying OpenTofu Code | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/code/"
+    },
+    {
+      "type": "Initializing and Migrating | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/cloud/migrating/"
+    },
+    {
+      "type": "Cloud Backend Settings | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/cloud/settings/"
+    },
+    {
+      "type": "Command: env | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/env/"
+    },
+    {
+      "type": "Command: destroy | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/destroy/"
+    },
+    {
+      "type": "Command: fmt | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/fmt/"
+    },
+    {
+      "type": "Basic CLI Features | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/"
+    },
+    {
+      "type": "Command: force-unlock | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/force-unlock/"
+    },
+    {
+      "type": "Command: apply | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/apply/"
+    },
+    {
+      "type": "Command: get | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/get/"
+    },
+    {
+      "type": "Command: console | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/console/"
+    },
+    {
+      "type": "Command: login | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/login/"
+    },
+    {
+      "type": "CLI Configuration | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/config/"
+    },
+    {
+      "type": "Command: logout | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/logout/"
+    },
+    {
+      "type": "Command: graph | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/graph/"
+    },
+    {
+      "type": "Command: providers | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/providers/"
+    },
+    {
+      "type": "Command: providers mirror | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/providers/mirror/"
+    },
+    {
+      "type": "Resource Importability | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/import/importability/"
+    },
+    {
+      "type": "Initializing Working Directories | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/init/"
+    },
+    {
+      "type": "Import | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/import/"
+    },
+    {
+      "type": "Inspecting Infrastructure | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/inspect/"
+    },
+    {
+      "type": "Command: output | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/output/"
+    },
+    {
+      "type": "Command: init | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/init/"
+    },
+    {
+      "type": "Command: providers lock | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/providers/lock/"
+    },
+    {
+      "type": "Command: providers schema | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/providers/schema/"
+    },
+    {
+      "type": "Command: state | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/state/"
+    },
+    {
+      "type": "Environment Variables | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/config/environment-variables/"
+    },
+    {
+      "type": "Command: import | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/import/"
+    },
+    {
+      "type": "Command: refresh | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/refresh/"
+    },
+    {
+      "type": "Command: show | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/show/"
+    },
+    {
+      "type": "Import Usage | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/import/usage/"
+    },
+    {
+      "type": "Private Registries | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/private_registry/"
+    },
+    {
+      "type": "Plugin Signing | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/plugins/signing/"
+    },
+    {
+      "type": "OCI Registry Integrations | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/oci_registries/"
+    },
+    {
+      "type": "Command: state list | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/state/list/"
+    },
+    {
+      "type": "Provisioning Infrastructure with OpenTofu | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/run/"
+    },
+    {
+      "type": "Command: plan | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/plan/"
+    },
+    {
+      "type": "OpenTofu Internals | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/internals/"
+    },
+    {
+      "type": "Module Packages in OCI Registries | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/oci_registries/module-package/"
+    },
+    {
+      "type": "OCI Registry Credentials | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/oci_registries/credentials/"
+    },
+    {
+      "type": "Managing Plugins | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/plugins/"
+    },
+    {
+      "type": "Credentials Helpers | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/internals/credentials-helpers/"
+    },
+    {
+      "type": "Debugging OpenTofu | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/internals/debugging/"
+    },
+    {
+      "type": "Recovering from State Disasters | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/state/recover/"
+    },
+    {
+      "type": "Moving Resources | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/state/move/"
+    },
+    {
+      "type": "CLI Configuration File | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/config/config-file/"
+    },
+    {
+      "type": "Inspecting State | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/state/inspect/"
+    },
+    {
+      "type": "Manipulating OpenTofu State | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/state/"
+    },
+    {
+      "type": "Command: state push | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/state/push/"
+    },
+    {
+      "type": "Command: state pull | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/state/pull/"
+    },
+    {
+      "type": "Command: state replace-provider | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/state/replace-provider/"
+    },
+    {
+      "type": "Command: taint | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/taint/"
+    },
+    {
+      "type": "Provider Mirrors in OCI Registries | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/oci_registries/provider-mirror/"
+    },
+    {
+      "type": "Resource Graph | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/internals/graph/"
+    },
+    {
+      "type": "Server-side Login Protocol | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/internals/login-protocol/"
+    },
+    {
+      "type": "Functions Metadata | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/internals/functions-meta/"
+    },
+    {
+      "type": "Command: workspace | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/workspace/"
+    },
+    {
+      "type": "Managing Workspaces | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/workspaces/"
+    },
+    {
+      "type": "Provider Metadata | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/internals/provider-meta/"
+    },
+    {
+      "type": "Getting started | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/"
+    },
+    {
+      "type": "Forcing Re-creation of Resources | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/state/taint/"
+    },
+    {
+      "type": "Command: workspace show | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/workspace/show/"
+    },
+    {
+      "type": "Resource Addressing | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/state/resource-addressing/"
+    },
+    {
+      "type": "Working with OpenTofu | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/core-workflow/"
+    },
+    {
+      "type": "Command: version | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/version/"
+    },
+    {
+      "type": "Command: state show | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/state/show/"
+    },
+    {
+      "type": "Command: untaint | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/untaint/"
+    },
+    {
+      "type": "Command: workspace delete | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/workspace/delete/"
+    },
+    {
+      "type": "Command: workspace new | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/workspace/new/"
+    },
+    {
+      "type": "Command: state rm | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/state/rm/"
+    },
+    {
+      "type": "Command: state mv | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/state/mv/"
+    },
+    {
+      "type": "Command: workspace list | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/workspace/list/"
+    },
+    {
+      "type": "Remote Service Discovery | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/internals/remote-service-discovery/"
+    },
+    {
+      "type": "Command: workspace select | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/workspace/select/"
+    },
+    {
+      "type": "OpenTelemetry Tracing | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/internals/tracing/"
+    },
+    {
+      "type": "Migrating to OpenTofu from Terraform | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/migration/"
+    },
+    {
+      "type": "Command: validate | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/validate/"
+    },
+    {
+      "type": "Module Registry Protocol | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/internals/module-registry-protocol/"
+    },
+    {
+      "type": "Provider Registry Protocol | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/internals/provider-registry-protocol/"
+    },
+    {
+      "type": "What are TACOS? | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/tacos/"
+    },
+    {
+      "type": "Provider Network Mirror Protocol | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/internals/provider-network-mirror-protocol/"
+    },
+    {
+      "type": "Installing OpenTofu on FreeBSD | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/install/bsd/"
+    },
+    {
+      "type": "Use Cases | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/use-cases/"
+    },
+    {
+      "type": "Installing OpenTofu on Alpine Linux | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/install/alpine/"
+    },
+    {
+      "type": "Migration Guide | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/migration/migration-guide/"
+    },
+    {
+      "type": "Installing OpenTofu via Homebrew | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/install/homebrew/"
+    },
+    {
+      "type": "Installing OpenTofu on Fedora | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/install/fedora/"
+    },
+    {
+      "type": "Upgrading from OpenTofu 1.7.x/1.8.x/1.9.x | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/upgrading/"
+    },
+    {
+      "type": "Installing OpenTofu via Snapcraft (Linux) | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/install/snap/"
+    },
+    {
+      "type": "Installing OpenTofu | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/install/"
+    },
+    {
+      "type": "OpenTofu vs. Alternatives | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/vs/"
+    },
+    {
+      "type": "OpenTofu vs. Boto, Fog, etc. | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/vs/boto/"
+    },
+    {
+      "type": "OpenTofu vs. CloudFormation, Heat, etc. | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/vs/cloudformation/"
+    },
+    {
+      "type": "OpenTofu vs. Chef, Puppet, etc. | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/vs/chef-puppet/"
+    },
+    {
+      "type": "Installing OpenTofu from GitHub Releases | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/install/windows/"
+    },
+    {
+      "type": "Building a Docker Image with OpenTofu | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/install/docker/"
+    },
+    {
+      "type": "Installing OpenTofu on .deb-based Linux (Debian, Ubuntu, etc.) | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/install/deb/"
+    },
+    {
+      "type": "Machine-Readable UI | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/internals/machine-readable-ui/"
+    },
+    {
+      "type": "OpenTofu vs. Custom Solutions | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/vs/custom/"
+    },
+    {
+      "type": "Installing OpenTofu on RHEL, openSUSE, AlmaLinux and other RPM-based distributions | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/install/rpm/"
+    },
+    {
+      "type": "Installing OpenTofu from GitHub Releases | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/install/standalone/"
+    },
+    {
+      "type": "What's new in OpenTofu 1.10? | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/intro/whats-new/"
+    },
+    {
+      "type": "Command: test | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/cli/commands/test/"
+    },
+    {
+      "type": "OpenTofu Language Documentation | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/"
+    },
+    {
+      "type": "Checks | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/checks/"
+    },
+    {
+      "type": "Attributes as Blocks | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/attr-as-blocks/"
+    },
+    {
+      "type": "JSON Output Format | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/internals/json-format/"
+    },
+    {
+      "type": "Files and Directories | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/files/"
+    },
+    {
+      "type": "Data Sources | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/data-sources/"
+    },
+    {
+      "type": "Override Files | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/files/override/"
+    },
+    {
+      "type": "Expressions | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/expressions/"
+    },
+    {
+      "type": "Conditional Expressions | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/expressions/conditionals/"
+    },
+    {
+      "type": "Splat Expressions | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/expressions/splat/"
+    },
+    {
+      "type": "Arithmetic and Logical Operators | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/expressions/operators/"
+    },
+    {
+      "type": "Types and Values | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/expressions/types/"
+    },
+    {
+      "type": "Dynamic Blocks | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/expressions/dynamic-blocks/"
+    },
+    {
+      "type": "Dependency Lock File | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/files/dependency-lock/"
+    },
+    {
+      "type": "For Expressions | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/expressions/for/"
+    },
+    {
+      "type": "Strings and Templates | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/expressions/strings/"
+    },
+    {
+      "type": "Function Calls | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/expressions/function-calls/"
+    },
+    {
+      "type": "Version Constraints | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/expressions/version-constraints/"
+    },
+    {
+      "type": "References to Named Values | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/expressions/references/"
+    },
+    {
+      "type": "Type Constraints | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/expressions/type-constraints/"
+    },
+    {
+      "type": "Custom Conditions | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/expressions/custom-conditions/"
+    },
+    {
+      "type": "Generating configuration | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/import/generating-configuration/"
+    },
+    {
+      "type": "Built-in Provider | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/providers/builtin/"
+    },
+    {
+      "type": "Publishing Modules | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/modules/develop/publish/"
+    },
+    {
+      "type": "Creating Modules | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/modules/develop/"
+    },
+    {
+      "type": "The depends_on Meta-Argument | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/meta-arguments/depends_on/"
+    },
+    {
+      "type": "Provisioners Without a Resource | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/resources/provisioners/null_resource/"
+    },
+    {
+      "type": "OpenTofu CLI Documentation | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/"
+    },
+    {
+      "type": "The Resource provider Meta-Argument | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/meta-arguments/resource-provider/"
+    },
+    {
+      "type": "Resources | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/resources/"
+    },
+    {
+      "type": "Modules | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/modules/"
+    },
+    {
+      "type": "Import | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/import/"
+    },
+    {
+      "type": "Standard Module Structure | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/modules/develop/structure/"
+    },
+    {
+      "type": "Resource Behavior | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/resources/behavior/"
+    },
+    {
+      "type": "remote-exec Provisioner | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/resources/provisioners/remote-exec/"
+    },
+    {
+      "type": "local-exec Provisioner | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/resources/provisioners/local-exec/"
+    },
+    {
+      "type": "File Provisioner | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/resources/provisioners/file/"
+    },
+    {
+      "type": "Using the Cloud Backend with OpenTofu CLI | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/cloud/"
+    },
+    {
+      "type": "Command Line Arguments | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/cloud/command-line-arguments/"
+    },
+    {
+      "type": "CLI Authentication | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/auth/"
+    },
+    {
+      "type": "Backend Type: consul | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/settings/backends/consul/"
+    },
+    {
+      "type": "Backend Type: http | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/settings/backends/http/"
+    },
+    {
+      "type": "Upgrading to OpenTofu v1.6 | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/upgrade-guides/"
+    },
+    {
+      "type": "The lifecycle Meta-Argument | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/meta-arguments/lifecycle/"
+    },
+    {
+      "type": "Cloud Configuration | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/settings/tf-cloud/"
+    },
+    {
+      "type": "Backend Type: local | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/settings/backends/local/"
+    },
+    {
+      "type": "The count Meta-Argument | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/meta-arguments/count/"
+    },
+    {
+      "type": "Providers | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/providers/"
+    },
+    {
+      "type": "The Module providers Meta-Argument | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/meta-arguments/module-providers/"
+    },
+    {
+      "type": "OpenTofu Settings | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/settings/"
+    },
+    {
+      "type": "The terraform_data Managed Resource Type | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/resources/tf-data/"
+    },
+    {
+      "type": "Provisioner Connection Settings | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/resources/provisioners/connection/"
+    },
+    {
+      "type": "Variables and Outputs | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/values/"
+    },
+    {
+      "type": "Writing and Modifying OpenTofu Code | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/code/"
+    },
+    {
+      "type": "Backend Type: kubernetes | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/settings/backends/kubernetes/"
+    },
+    {
+      "type": "Providers Within Modules | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/modules/develop/providers/"
+    },
+    {
+      "type": "Syntax | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/syntax/"
+    },
+    {
+      "type": "Backend Type: COS | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/settings/backends/cos/"
+    },
+    {
+      "type": "Initializing and Migrating | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/cloud/migrating/"
+    },
+    {
+      "type": "Backend Type: gcs | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/settings/backends/gcs/"
+    },
+    {
+      "type": "Backend Type: oss | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/settings/backends/oss/"
+    },
+    {
+      "type": "Module Composition | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/modules/develop/composition/"
+    },
+    {
+      "type": "Backend Type: azurerm | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/settings/backends/azurerm/"
+    },
+    {
+      "type": "What are TACOS? | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/tacos/"
+    },
+    {
+      "type": "CLI Configuration | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/config/"
+    },
+    {
+      "type": "Backend Configuration | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/settings/backends/configuration/"
+    },
+    {
+      "type": "Style Conventions | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/syntax/style/"
+    },
+    {
+      "type": "The for_each Meta-Argument | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/meta-arguments/for_each/"
+    },
+    {
+      "type": "Import Existing Resources | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/state/import/"
+    },
+    {
+      "type": "Provider Configuration | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/providers/configuration/"
+    },
+    {
+      "type": "Configuration Syntax | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/syntax/configuration/"
+    },
+    {
+      "type": "Local Values | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/values/locals/"
+    },
+    {
+      "type": "Cloud Backend Settings | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/cloud/settings/"
+    },
+    {
+      "type": "OpenTofu Internals | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/internals/"
+    },
+    {
+      "type": "Backend Type: pg | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/settings/backends/pg/"
+    },
+    {
+      "type": "Module Blocks | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/modules/syntax/"
+    },
+    {
+      "type": "Sensitive Data in State | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/state/sensitive-data/"
+    },
+    {
+      "type": "State Storage and Locking | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/state/backends/"
+    },
+    {
+      "type": "Provider Requirements | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/providers/requirements/"
+    },
+    {
+      "type": "Provisioners | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/resources/provisioners/syntax/"
+    },
+    {
+      "type": "Debugging OpenTofu | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/internals/debugging/"
+    },
+    {
+      "type": "Getting started | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/"
+    },
+    {
+      "type": "Migrating to OpenTofu from Terraform | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/migration/"
+    },
+    {
+      "type": "Working with OpenTofu | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/core-workflow/"
+    },
+    {
+      "type": "Use Cases | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/use-cases/"
+    },
+    {
+      "type": "Resource Importability | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/import/importability/"
+    },
+    {
+      "type": "State Locking | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/state/locking/"
+    },
+    {
+      "type": "Plugin Signing | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/plugins/signing/"
+    },
+    {
+      "type": "Private Registries | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/private_registry/"
+    },
+    {
+      "type": "Server-side Login Protocol | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/internals/login-protocol/"
+    },
+    {
+      "type": "Provider Metadata | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/internals/provider-meta/"
+    },
+    {
+      "type": "What's new in OpenTofu 1.11? | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/whats-new/"
+    },
+    {
+      "type": "Upgrading from OpenTofu 1.8.x/1.9.x/1.10.x | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/upgrading/"
+    },
+    {
+      "type": "Purpose of OpenTofu State | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/state/purpose/"
+    },
+    {
+      "type": "Backend Type: remote | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/settings/backends/remote/"
+    },
+    {
+      "type": "Initializing Working Directories | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/init/"
+    },
+    {
+      "type": "Functions Metadata | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/internals/functions-meta/"
+    },
+    {
+      "type": "OpenTofu vs. Alternatives | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/vs/"
+    },
+    {
+      "type": "OpenTofu vs. Boto, Fog, etc. | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/vs/boto/"
+    },
+    {
+      "type": "OpenTofu vs. Custom Solutions | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/vs/custom/"
+    },
+    {
+      "type": "OpenTofu vs. Chef, Puppet, etc. | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/vs/chef-puppet/"
+    },
+    {
+      "type": "Migration Guide | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/migration/migration-guide/"
+    },
+    {
+      "type": "Remote State | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/state/remote/"
+    },
+    {
+      "type": "Remote Service Discovery | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/internals/remote-service-discovery/"
+    },
+    {
+      "type": "Credentials Helpers | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/internals/credentials-helpers/"
+    },
+    {
+      "type": "Module Registry Protocol | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/internals/module-registry-protocol/"
+    },
+    {
+      "type": "OpenTofu vs. CloudFormation, Heat, etc. | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/vs/cloudformation/"
+    },
+    {
+      "type": "Refactoring | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/modules/develop/refactoring/"
+    },
+    {
+      "type": "Resource Blocks | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/resources/syntax/"
+    },
+    {
+      "type": "OCI Registry Integrations | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/oci_registries/"
+    },
+    {
+      "type": "Provisioning Infrastructure with OpenTofu | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/run/"
+    },
+    {
+      "type": "Resource Graph | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/internals/graph/"
+    },
+    {
+      "type": "Workspaces | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/state/workspaces/"
+    },
+    {
+      "type": "Module Sources | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/modules/sources/"
+    },
+    {
+      "type": "Import | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/import/"
+    },
+    {
+      "type": "Import Usage | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/import/usage/"
+    },
+    {
+      "type": "Provider Network Mirror Protocol | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/internals/provider-network-mirror-protocol/"
+    },
+    {
+      "type": "State | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/state/"
+    },
+    {
+      "type": "Recovering from State Disasters | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/state/recover/"
+    },
+    {
+      "type": "Inspecting State | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/state/inspect/"
+    },
+    {
+      "type": "Moving Resources | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/state/move/"
+    },
+    {
+      "type": "Module Packages in OCI Registries | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/oci_registries/module-package/"
+    },
+    {
+      "type": "Installing OpenTofu | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/install/"
+    },
+    {
+      "type": "Manipulating OpenTofu State | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/state/"
+    },
+    {
+      "type": "JSON Configuration Syntax | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/syntax/json/"
+    },
+    {
+      "type": "OCI Registry Credentials | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/oci_registries/credentials/"
+    },
+    {
+      "type": "Installing OpenTofu on Alpine Linux | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/install/alpine/"
+    },
+    {
+      "type": "Installing OpenTofu on FreeBSD | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/install/bsd/"
+    },
+    {
+      "type": "Installing OpenTofu on Fedora | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/install/fedora/"
+    },
+    {
+      "type": "Installing OpenTofu via Homebrew | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/install/homebrew/"
+    },
+    {
+      "type": "Installing OpenTofu via Snapcraft (Linux) | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/install/snap/"
+    },
+    {
+      "type": "Output Values | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/values/outputs/"
+    },
+    {
+      "type": "Managing Plugins | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/plugins/"
+    },
+    {
+      "type": "Forcing Re-creation of Resources | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/state/taint/"
+    },
+    {
+      "type": "Installing OpenTofu from GitHub Releases | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/install/windows/"
+    },
+    {
+      "type": "Environment Variables | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/config/environment-variables/"
+    },
+    {
+      "type": "Provider Registry Protocol | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/internals/provider-registry-protocol/"
+    },
+    {
+      "type": "Managing Workspaces | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/workspaces/"
+    },
+    {
+      "type": "Installing OpenTofu on .deb-based Linux (Debian, Ubuntu, etc.) | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/install/deb/"
+    },
+    {
+      "type": "Inspecting Infrastructure | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/inspect/"
+    },
+    {
+      "type": "The terraform_remote_state Data Source | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/state/remote-state-data/"
+    },
+    {
+      "type": "Resource Addressing | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/state/resource-addressing/"
+    },
+    {
+      "type": "Building a Docker Image with OpenTofu | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/install/docker/"
+    },
+    {
+      "type": "Installing OpenTofu on RHEL, openSUSE, AlmaLinux and other RPM-based distributions | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/install/rpm/"
+    },
+    {
+      "type": "Documentation | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.6/"
+    },
+    {
+      "type": "Provider Mirrors in OCI Registries | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/oci_registries/provider-mirror/"
+    },
+    {
+      "type": "Input Variables | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/values/variables/"
+    },
+    {
+      "type": "Write-only attributes | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/ephemerality/write-only-attributes/"
+    },
+    {
+      "type": "Backend Type: s3 | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/settings/backends/s3/"
+    },
+    {
+      "type": "Installing OpenTofu from GitHub Releases | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/intro/install/standalone/"
+    },
+    {
+      "type": "OpenTofu Language Documentation | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/"
+    },
+    {
+      "type": "Machine-Readable UI | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/internals/machine-readable-ui/"
+    },
+    {
+      "type": "Command: env | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/env/"
+    },
+    {
+      "type": "Command: logout | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/logout/"
+    },
+    {
+      "type": "Files and Directories | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/files/"
+    },
+    {
+      "type": "Attributes as Blocks | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/attr-as-blocks/"
+    },
+    {
+      "type": "Override Files | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/files/override/"
+    },
+    {
+      "type": "Command: login | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/login/"
+    },
+    {
+      "type": "Command: fmt | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/fmt/"
+    },
+    {
+      "type": "Command: force-unlock | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/force-unlock/"
+    },
+    {
+      "type": "Command: destroy | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/destroy/"
+    },
+    {
+      "type": "Checks | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/checks/"
+    },
+    {
+      "type": "Command: get | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/get/"
+    },
+    {
+      "type": "Basic CLI Features | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/"
+    },
+    {
+      "type": "Data Sources | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/data-sources/"
+    },
+    {
+      "type": "Command: graph | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/graph/"
+    },
+    {
+      "type": "Command: workspace | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/workspace/"
+    },
+    {
+      "type": "Command: state | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/state/"
+    },
+    {
+      "type": "Ephemeral resources | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/ephemerality/ephemeral-resources/"
+    },
+    {
+      "type": "Command: apply | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/apply/"
+    },
+    {
+      "type": "CLI Configuration File | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/config/config-file/"
+    },
+    {
+      "type": "Command: refresh | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/refresh/"
+    },
+    {
+      "type": "Command: show | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/show/"
+    },
+    {
+      "type": "Command: version | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/version/"
+    },
+    {
+      "type": "Command: workspace show | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/workspace/show/"
+    },
+    {
+      "type": "Command: providers | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/providers/"
+    },
+    {
+      "type": "Expressions | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/expressions/"
+    },
+    {
+      "type": "Command: untaint | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/untaint/"
+    },
+    {
+      "type": "Command: taint | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/taint/"
+    },
+    {
+      "type": "Command: providers mirror | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/providers/mirror/"
+    },
+    {
+      "type": "Command: state push | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/state/push/"
+    },
+    {
+      "type": "Command: state pull | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/state/pull/"
+    },
+    {
+      "type": "Command: workspace new | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/workspace/new/"
+    },
+    {
+      "type": "Command: workspace list | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/workspace/list/"
+    },
+    {
+      "type": "Command: workspace delete | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/workspace/delete/"
+    },
+    {
+      "type": "OpenTofu CLI Documentation | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.6/cli/"
+    },
+    {
+      "type": "Command: workspace select | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/workspace/select/"
+    },
+    {
+      "type": "Ephemerality | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/ephemerality/"
+    },
+    {
+      "type": "Dependency Lock File | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/files/dependency-lock/"
+    },
+    {
+      "type": "CLI Authentication | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.6/cli/auth/"
+    },
+    {
+      "type": "Command: init | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/init/"
+    },
+    {
+      "type": "Command: state list | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/state/list/"
+    },
+    {
+      "type": "Command: console | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/console/"
+    },
+    {
+      "type": "Command: output | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/output/"
+    },
+    {
+      "type": "Command: providers schema | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/providers/schema/"
+    },
+    {
+      "type": "OpenTofu v1.x Compatibility Promises | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.10/language/v1-compatibility-promises/"
+    },
+    {
+      "type": "Version Constraints | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/expressions/version-constraints/"
+    },
+    {
+      "type": "Arithmetic and Logical Operators | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/expressions/operators/"
+    },
+    {
+      "type": "Conditional Expressions | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/expressions/conditionals/"
+    },
+    {
+      "type": "Command Line Arguments | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.6/cli/cloud/command-line-arguments/"
+    },
+    {
+      "type": "Using the Cloud Backend with OpenTofu CLI | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.6/cli/cloud/"
+    },
+    {
+      "type": "Splat Expressions | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/expressions/splat/"
+    },
+    {
+      "type": "Command: import | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/import/"
+    },
+    {
+      "type": "Command: providers lock | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/providers/lock/"
+    },
+    {
+      "type": "Command: validate | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/validate/"
+    },
+    {
+      "type": "Types and Values | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/expressions/types/"
+    },
+    {
+      "type": "Command: state show | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/state/show/"
+    },
+    {
+      "type": "Command: state replace-provider | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/state/replace-provider/"
+    },
+    {
+      "type": "Writing and Modifying OpenTofu Code | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.6/cli/code/"
+    },
+    {
+      "type": "Migrating to OpenTofu 1.7.x from Terraform | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.6/intro/migration/"
+    },
+    {
+      "type": "Use Cases | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.6/intro/use-cases/"
+    },
+    {
+      "type": "Getting started | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.6/intro/"
+    },
+    {
+      "type": "Command: state rm | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/state/rm/"
+    },
+    {
+      "type": "Function Calls | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/expressions/function-calls/"
+    },
+    {
+      "type": "Dynamic Blocks | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/expressions/dynamic-blocks/"
+    },
+    {
+      "type": "For Expressions | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/expressions/for/"
+    },
+    {
+      "type": "lifecycle Blocks | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/meta-arguments/lifecycle/"
+    },
+    {
+      "type": "Publishing Modules | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/modules/develop/publish/"
+    },
+    {
+      "type": "Generating configuration | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/import/generating-configuration/"
+    },
+    {
+      "type": "OpenTofu vs. Chef, Puppet, etc. | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.6/intro/vs/chef-puppet/"
+    },
+    {
+      "type": "Command: state mv | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/cli/commands/state/mv/"
+    },
+    {
+      "type": "Strings and Templates | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/expressions/strings/"
+    },
+    {
+      "type": "Built-in Provider | OpenTofu",
+      "url": "https://opentofu.org/docs/v1.11/language/providers/builtin/"
+    }
+  ],
+  "latestVersion": "1.11.0",
+  "versions": [
+    {
+      "version": "1.11.0",
+      "label": "latest",
+      "timestamp": "2026-03-01T17:04:33.941Z",
+      "filename": "documentation_2026-03-01T17:04:33.941Z.md",
+      "totalPages": 332,
+      "successfulPages": 332,
+      "url": "https://opentofu.org/docs/v1.11/",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 2
+}

@@ -1,1 +1,201 @@
-{"url":"https://nudgesecurity.readme.io/reference/post_api-1-0-apps-app-category-app-id","domain":"nudgesecurity.readme.io","lastScraped":"2025-11-24T06:10:58.980Z","totalPages":42,"successfulPages":42,"failedPages":[],"structure":[{"type":"Set the app category of an app","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-apps-app-category-app-id"},{"type":"Search apps","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-apps-search"},{"type":"Search apps by supply chain","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-apps-search-supply-chain"},{"type":"Get an app","url":"https://nudgesecurity.readme.io/reference/get_api-1-0-apps-app-id"},{"type":"Delete a field from an app","url":"https://nudgesecurity.readme.io/reference/delete_api-1-0-apps-app-id-fields-field-id"},{"type":"Add a field to an app","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-apps-app-id-fields-field-id"},{"type":"Add a label to an app","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-apps-app-id-labels"},{"type":"Delete a label from an app","url":"https://nudgesecurity.readme.io/reference/delete_api-1-0-apps-app-id-labels"},{"type":"Remove the technical contact of an app","url":"https://nudgesecurity.readme.io/reference/delete_api-1-0-apps-app-id-technical-contact"},{"type":"Update the technical contact of an app","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-apps-app-id-technical-contact-user-id"},{"type":"Search accounts","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-accounts-search"},{"type":"Get an account","url":"https://nudgesecurity.readme.io/reference/get_api-1-0-accounts-account-id"},{"type":"Delete a label from an account","url":"https://nudgesecurity.readme.io/reference/delete_api-1-0-accounts-account-id-labels"},{"type":"Delete a field from an account","url":"https://nudgesecurity.readme.io/reference/delete_api-1-0-accounts-account-id-fields-field-id"},{"type":"Add a field to an account","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-accounts-account-id-fields-field-id"},{"type":"Add a label to an account","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-accounts-account-id-labels"},{"type":"Get an oauth grant","url":"https://nudgesecurity.readme.io/reference/get_api-1-0-oauth-grants-oauth-id"},{"type":"Search oauth grants","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-oauth-grants-search"},{"type":"Search events","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-events-search"},{"type":"Get an event","url":"https://nudgesecurity.readme.io/reference/get_api-1-0-events-event-id"},{"type":"Search users","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-users-search"},{"type":"Get a notification","url":"https://nudgesecurity.readme.io/reference/get_api-1-0-notifications-notification-id"},{"type":"Get a user","url":"https://nudgesecurity.readme.io/reference/get_api-1-0-users-user-id"},{"type":"Search group members","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-groups-group-id-members-search"},{"type":"Search groups","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-groups-search"},{"type":"Get a group","url":"https://nudgesecurity.readme.io/reference/get_api-1-0-groups-group-id"},{"type":"Get a field","url":"https://nudgesecurity.readme.io/reference/get_api-1-0-fields-field-id"},{"type":"Search notifications","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-notifications-search"},{"type":"Create a field","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-fields"},{"type":"Delete a field","url":"https://nudgesecurity.readme.io/reference/delete_api-1-0-fields-field-id"},{"type":"Update a field","url":"https://nudgesecurity.readme.io/reference/put_api-1-0-fields-field-id"},{"type":"Add an allowed value to a field","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-fields-field-id-allowed-values"},{"type":"Update an allowed value of a field","url":"https://nudgesecurity.readme.io/reference/put_api-1-0-fields-field-id-allowed-values"},{"type":"Delete a label","url":"https://nudgesecurity.readme.io/reference/delete_api-1-0-labels"},{"type":"Delete an allowed value of a field","url":"https://nudgesecurity.readme.io/reference/delete_api-1-0-fields-field-id-allowed-values"},{"type":"Search fields","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-fields-search"},{"type":"Create a label","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-labels"},{"type":"Update a label","url":"https://nudgesecurity.readme.io/reference/put_api-1-0-labels"},{"type":"Search labels","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-labels-search"},{"type":"Search findings","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-findings-search"},{"type":"Start offboarding of an user","url":"https://nudgesecurity.readme.io/reference/post_api-1-0-playbooks-offboarding"},{"type":"Get a finding","url":"https://nudgesecurity.readme.io/reference/get_api-1-0-findings-finding-id"}]}
+{
+  "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-apps-app-category-app-id",
+  "domain": "nudgesecurity.readme.io",
+  "lastScraped": "2025-11-24T06:10:58.980Z",
+  "totalPages": 42,
+  "successfulPages": 42,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Set the app category of an app",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-apps-app-category-app-id"
+    },
+    {
+      "type": "Search apps",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-apps-search"
+    },
+    {
+      "type": "Search apps by supply chain",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-apps-search-supply-chain"
+    },
+    {
+      "type": "Get an app",
+      "url": "https://nudgesecurity.readme.io/reference/get_api-1-0-apps-app-id"
+    },
+    {
+      "type": "Delete a field from an app",
+      "url": "https://nudgesecurity.readme.io/reference/delete_api-1-0-apps-app-id-fields-field-id"
+    },
+    {
+      "type": "Add a field to an app",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-apps-app-id-fields-field-id"
+    },
+    {
+      "type": "Add a label to an app",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-apps-app-id-labels"
+    },
+    {
+      "type": "Delete a label from an app",
+      "url": "https://nudgesecurity.readme.io/reference/delete_api-1-0-apps-app-id-labels"
+    },
+    {
+      "type": "Remove the technical contact of an app",
+      "url": "https://nudgesecurity.readme.io/reference/delete_api-1-0-apps-app-id-technical-contact"
+    },
+    {
+      "type": "Update the technical contact of an app",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-apps-app-id-technical-contact-user-id"
+    },
+    {
+      "type": "Search accounts",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-accounts-search"
+    },
+    {
+      "type": "Get an account",
+      "url": "https://nudgesecurity.readme.io/reference/get_api-1-0-accounts-account-id"
+    },
+    {
+      "type": "Delete a label from an account",
+      "url": "https://nudgesecurity.readme.io/reference/delete_api-1-0-accounts-account-id-labels"
+    },
+    {
+      "type": "Delete a field from an account",
+      "url": "https://nudgesecurity.readme.io/reference/delete_api-1-0-accounts-account-id-fields-field-id"
+    },
+    {
+      "type": "Add a field to an account",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-accounts-account-id-fields-field-id"
+    },
+    {
+      "type": "Add a label to an account",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-accounts-account-id-labels"
+    },
+    {
+      "type": "Get an oauth grant",
+      "url": "https://nudgesecurity.readme.io/reference/get_api-1-0-oauth-grants-oauth-id"
+    },
+    {
+      "type": "Search oauth grants",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-oauth-grants-search"
+    },
+    {
+      "type": "Search events",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-events-search"
+    },
+    {
+      "type": "Get an event",
+      "url": "https://nudgesecurity.readme.io/reference/get_api-1-0-events-event-id"
+    },
+    {
+      "type": "Search users",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-users-search"
+    },
+    {
+      "type": "Get a notification",
+      "url": "https://nudgesecurity.readme.io/reference/get_api-1-0-notifications-notification-id"
+    },
+    {
+      "type": "Get a user",
+      "url": "https://nudgesecurity.readme.io/reference/get_api-1-0-users-user-id"
+    },
+    {
+      "type": "Search group members",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-groups-group-id-members-search"
+    },
+    {
+      "type": "Search groups",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-groups-search"
+    },
+    {
+      "type": "Get a group",
+      "url": "https://nudgesecurity.readme.io/reference/get_api-1-0-groups-group-id"
+    },
+    {
+      "type": "Get a field",
+      "url": "https://nudgesecurity.readme.io/reference/get_api-1-0-fields-field-id"
+    },
+    {
+      "type": "Search notifications",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-notifications-search"
+    },
+    {
+      "type": "Create a field",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-fields"
+    },
+    {
+      "type": "Delete a field",
+      "url": "https://nudgesecurity.readme.io/reference/delete_api-1-0-fields-field-id"
+    },
+    {
+      "type": "Update a field",
+      "url": "https://nudgesecurity.readme.io/reference/put_api-1-0-fields-field-id"
+    },
+    {
+      "type": "Add an allowed value to a field",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-fields-field-id-allowed-values"
+    },
+    {
+      "type": "Update an allowed value of a field",
+      "url": "https://nudgesecurity.readme.io/reference/put_api-1-0-fields-field-id-allowed-values"
+    },
+    {
+      "type": "Delete a label",
+      "url": "https://nudgesecurity.readme.io/reference/delete_api-1-0-labels"
+    },
+    {
+      "type": "Delete an allowed value of a field",
+      "url": "https://nudgesecurity.readme.io/reference/delete_api-1-0-fields-field-id-allowed-values"
+    },
+    {
+      "type": "Search fields",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-fields-search"
+    },
+    {
+      "type": "Create a label",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-labels"
+    },
+    {
+      "type": "Update a label",
+      "url": "https://nudgesecurity.readme.io/reference/put_api-1-0-labels"
+    },
+    {
+      "type": "Search labels",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-labels-search"
+    },
+    {
+      "type": "Search findings",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-findings-search"
+    },
+    {
+      "type": "Start offboarding of an user",
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-playbooks-offboarding"
+    },
+    {
+      "type": "Get a finding",
+      "url": "https://nudgesecurity.readme.io/reference/get_api-1-0-findings-finding-id"
+    }
+  ],
+  "latestVersion": "1.1.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-11-19T05:22:02.755Z",
+      "filename": "documentation_2025-11-19T05:22:02.755Z.md",
+      "totalPages": 42,
+      "successfulPages": 42,
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-apps-app-category-app-id",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-11-24T06:10:58.980Z",
+      "filename": "documentation_2025-11-24T06:10:58.980Z.md",
+      "totalPages": 42,
+      "successfulPages": 42,
+      "url": "https://nudgesecurity.readme.io/reference/post_api-1-0-apps-app-category-app-id",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

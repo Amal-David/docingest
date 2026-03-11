@@ -1,1 +1,763 @@
-{"url":"https://nktkas.gitbook.io/hyperliquid","domain":"nktkas.gitbook.io","lastScraped":"2025-12-13T07:12:47.031Z","totalPages":155,"successfulPages":155,"failedPages":[],"structure":[{"type":"Introduction | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid"},{"type":"Installation | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/getting-started/installation"},{"type":"Transports | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/core-concepts/transports"},{"type":"Quick Start | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/getting-started/quick-start"},{"type":"Error Handling | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/core-concepts/error-handling"},{"type":"Clients | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/core-concepts/clients"},{"type":"Info Methods | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods"},{"type":"Subscription Methods | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods"},{"type":"Exchange Methods | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods"},{"type":"activeAssetCtx | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/activeassetctx"},{"type":"activeAssetData | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/activeassetdata"},{"type":"activeSpotAssetCtx | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/activespotassetctx"},{"type":"allDexsAssetCtxs | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/alldexsassetctxs"},{"type":"allDexsClearinghouseState | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/alldexsclearinghousestate"},{"type":"agentEnableDexAbstraction | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/agentenabledexabstraction"},{"type":"approveBuilderFee | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/approvebuilderfee"},{"type":"allMids | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/allmids"},{"type":"batchModify | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/batchmodify"},{"type":"approveAgent | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/approveagent"},{"type":"activeAssetData | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/activeassetdata"},{"type":"cDeposit | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/cdeposit"},{"type":"alignedQuoteTokenInfo | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/alignedquotetokeninfo"},{"type":"cSignerAction | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/csigneraction"},{"type":"allMids | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/allmids"},{"type":"allPerpMetas | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/allperpmetas"},{"type":"blockDetails | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/blockdetails"},{"type":"Symbol Converter | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/utilities/symbol-converter"},{"type":"Formatting | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/utilities/formatting"},{"type":"Signing | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/utilities/signing"},{"type":"cValidatorAction | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/cvalidatoraction"},{"type":"assetCtxs | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/assetctxs"},{"type":"Tree-shaking | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/other/tree-shaking"},{"type":"CLI | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/other/cli"},{"type":"FAQ | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/other/faq"},{"type":"candleSnapshot | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/candlesnapshot"},{"type":"bbo | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/bbo"},{"type":"cWithdraw | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/cwithdraw"},{"type":"clearinghouseState | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/clearinghousestate"},{"type":"candle | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/candle"},{"type":"cancel | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/cancel"},{"type":"delegatorRewards | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/delegatorrewards"},{"type":"explorerBlock | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/explorerblock"},{"type":"l2Book | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/l2book"},{"type":"clearinghouseState | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/clearinghousestate"},{"type":"explorerTxs | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/explorertxs"},{"type":"cancelByCloid | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/cancelbycloid"},{"type":"notification | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/notification"},{"type":"claimRewards | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/claimrewards"},{"type":"orderUpdates | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/orderupdates"},{"type":"openOrders | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/openorders"},{"type":"spotAssetCtxs | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/spotassetctxs"},{"type":"convertToMultiSigUser | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/converttomultisiguser"},{"type":"createSubAccount | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/createsubaccount"},{"type":"spotState | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/spotstate"},{"type":"trades | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/trades"},{"type":"userFills | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/userfills"},{"type":"userEvents | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/userevents"},{"type":"userFundings | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/userfundings"},{"type":"userHistoricalOrders | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/userhistoricalorders"},{"type":"userTwapHistory | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/usertwaphistory"},{"type":"userNonFundingLedgerUpdates | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/usernonfundingledgerupdates"},{"type":"createVault | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/createvault"},{"type":"userTwapSliceFills | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/usertwapslicefills"},{"type":"evmUserModify | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/evmusermodify"},{"type":"webData3 | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/webdata3"},{"type":"linkStakingUser | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/linkstakinguser"},{"type":"noop | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/noop"},{"type":"webData2 | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/webdata2"},{"type":"modify | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/modify"},{"type":"order | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/order"},{"type":"isVip | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/isvip"},{"type":"reserveRequestWeight | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/reserverequestweight"},{"type":"perpDeploy | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/perpdeploy"},{"type":"registerReferrer | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/registerreferrer"},{"type":"setDisplayName | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/setdisplayname"},{"type":"setReferrer | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/setreferrer"},{"type":"scheduleCancel | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/schedulecancel"},{"type":"sendAsset | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/sendasset"},{"type":"spotUser | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/spotuser"},{"type":"vaultModify | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/vaultmodify"},{"type":"spotSend | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/spotsend"},{"type":"twapOrder | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/twaporder"},{"type":"withdraw3 | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/withdraw3"},{"type":"spotDeploy | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/spotdeploy"},{"type":"metaAndAssetCtxs | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/metaandassetctxs"},{"type":"portfolio | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/portfolio"},{"type":"spotPairDeployAuctionStatus | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/spotpairdeployauctionstatus"},{"type":"subAccountSpotTransfer | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/subaccountspottransfer"},{"type":"subAccountModify | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/subaccountmodify"},{"type":"twapCancel | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/twapcancel"},{"type":"subAccountTransfer | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/subaccounttransfer"},{"type":"updateLeverage | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/updateleverage"},{"type":"tokenDelegate | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/tokendelegate"},{"type":"updateIsolatedMargin | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/updateisolatedmargin"},{"type":"userDexAbstraction | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/userdexabstraction"},{"type":"userFillsByTime | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userfillsbytime"},{"type":"vaultTransfer | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/vaulttransfer"},{"type":"vaultDistribute | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/vaultdistribute"},{"type":"validatorL1Stream | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/validatorl1stream"},{"type":"usdSend | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/usdsend"},{"type":"usdClassTransfer | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/usdclasstransfer"},{"type":"userTwapSliceFillsByTime | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/usertwapslicefillsbytime"},{"type":"delegations | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/delegations"},{"type":"delegatorSummary | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/delegatorsummary"},{"type":"exchangeStatus | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/exchangestatus"},{"type":"l2Book | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/l2book"},{"type":"fundingHistory | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/fundinghistory"},{"type":"legalCheck | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/legalcheck"},{"type":"gossipRootIps | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/gossiprootips"},{"type":"leadingVaults | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/leadingvaults"},{"type":"maxBuilderFee | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/maxbuilderfee"},{"type":"frontendOpenOrders | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/frontendopenorders"},{"type":"historicalOrders | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/historicalorders"},{"type":"delegatorHistory | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/delegatorhistory"},{"type":"liquidatable | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/liquidatable"},{"type":"marginTable | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/margintable"},{"type":"perpDexs | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/perpdexs"},{"type":"perpsAtOpenInterestCap | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/perpsatopeninterestcap"},{"type":"extraAgents | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/extraagents"},{"type":"perpDeployAuctionStatus | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/perpdeployauctionstatus"},{"type":"maxMarketOrderNtls | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/maxmarketorderntls"},{"type":"perpDexLimits | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/perpdexlimits"},{"type":"recentTrades | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/recenttrades"},{"type":"perpDexStatus | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/perpdexstatus"},{"type":"spotClearinghouseState | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/spotclearinghousestate"},{"type":"meta | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/meta"},{"type":"preTransferCheck | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/pretransfercheck"},{"type":"userDexAbstraction | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userdexabstraction"},{"type":"spotMeta | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/spotmeta"},{"type":"openOrders | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/openorders"},{"type":"referral | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/referral"},{"type":"spotDeployState | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/spotdeploystate"},{"type":"predictedFundings | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/predictedfundings"},{"type":"tokenDetails | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/tokendetails"},{"type":"twapHistory | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/twaphistory"},{"type":"userDetails | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userdetails"},{"type":"txDetails | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/txdetails"},{"type":"subAccounts2 | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/subaccounts2"},{"type":"userRateLimit | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userratelimit"},{"type":"subAccounts | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/subaccounts"},{"type":"orderStatus | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/orderstatus"},{"type":"spotMetaAndAssetCtxs | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/spotmetaandassetctxs"},{"type":"userFills | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userfills"},{"type":"userFunding | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userfunding"},{"type":"userToMultiSigSigners | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/usertomultisigsigners"},{"type":"userRole | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userrole"},{"type":"userTwapSliceFills | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/usertwapslicefills"},{"type":"userNonFundingLedgerUpdates | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/usernonfundingledgerupdates"},{"type":"userVaultEquities | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/uservaultequities"},{"type":"userFees | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userfees"},{"type":"validatorSummaries | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/validatorsummaries"},{"type":"validatorL1Votes | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/validatorl1votes"},{"type":"vaultSummaries | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/vaultsummaries"},{"type":"vaultDetails | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/vaultdetails"},{"type":"webData2 | Hyperliquid","url":"https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/webdata2"}]}
+{
+  "url": "https://nktkas.gitbook.io/hyperliquid",
+  "domain": "nktkas.gitbook.io",
+  "lastScraped": "2026-03-05T17:46:10.926Z",
+  "totalPages": 169,
+  "successfulPages": 169,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Introduction | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid"
+    },
+    {
+      "type": "Connect to Hyperliquid | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/transports"
+    },
+    {
+      "type": "Market orders | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/guides/market-orders"
+    },
+    {
+      "type": "Utilities | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/utilities"
+    },
+    {
+      "type": "Error handling | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/error-handling"
+    },
+    {
+      "type": "Agent wallets and vaults | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/guides/agent-wallets-and-vaults"
+    },
+    {
+      "type": "Tree-shaking | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/guides/tree-shaking"
+    },
+    {
+      "type": "Clients | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/clients"
+    },
+    {
+      "type": "Signing | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/signing"
+    },
+    {
+      "type": "Browser wallets | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/guides/browser-wallets"
+    },
+    {
+      "type": "activeAssetData | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/activeassetdata"
+    },
+    {
+      "type": "activeAssetCtx | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/activeassetctx"
+    },
+    {
+      "type": "activeSpotAssetCtx | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/activespotassetctx"
+    },
+    {
+      "type": "allMids | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/allmids"
+    },
+    {
+      "type": "explorerTxs | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/explorertxs"
+    },
+    {
+      "type": "bbo | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/bbo"
+    },
+    {
+      "type": "assetCtxs | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/assetctxs"
+    },
+    {
+      "type": "explorerBlock | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/explorerblock"
+    },
+    {
+      "type": "allDexsClearinghouseState | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/alldexsclearinghousestate"
+    },
+    {
+      "type": "l2Book | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/l2book"
+    },
+    {
+      "type": "clearinghouseState | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/clearinghousestate"
+    },
+    {
+      "type": "notification | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/notification"
+    },
+    {
+      "type": "openOrders | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/openorders"
+    },
+    {
+      "type": "spotState | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/spotstate"
+    },
+    {
+      "type": "spotAssetCtxs | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/spotassetctxs"
+    },
+    {
+      "type": "trades | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/trades"
+    },
+    {
+      "type": "userTwapHistory | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/usertwaphistory"
+    },
+    {
+      "type": "candle | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/candle"
+    },
+    {
+      "type": "userFills | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/userfills"
+    },
+    {
+      "type": "allDexsAssetCtxs | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/alldexsassetctxs"
+    },
+    {
+      "type": "webData3 | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/webdata3"
+    },
+    {
+      "type": "twapStates | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/twapstates"
+    },
+    {
+      "type": "Subscription Methods | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods"
+    },
+    {
+      "type": "userHistoricalOrders | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/userhistoricalorders"
+    },
+    {
+      "type": "userFundings | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/userfundings"
+    },
+    {
+      "type": "userNonFundingLedgerUpdates | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/usernonfundingledgerupdates"
+    },
+    {
+      "type": "orderUpdates | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/orderupdates"
+    },
+    {
+      "type": "webData2 | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/webdata2"
+    },
+    {
+      "type": "userEvents | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/userevents"
+    },
+    {
+      "type": "userTwapSliceFills | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/subscription-methods/usertwapslicefills"
+    },
+    {
+      "type": "activeAssetData | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/activeassetdata"
+    },
+    {
+      "type": "approveAgent | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/approveagent"
+    },
+    {
+      "type": "Exchange Methods | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods"
+    },
+    {
+      "type": "agentSetAbstraction | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/agentsetabstraction"
+    },
+    {
+      "type": "agentEnableDexAbstraction | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/agentenabledexabstraction"
+    },
+    {
+      "type": "approveBuilderFee | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/approvebuilderfee"
+    },
+    {
+      "type": "cDeposit | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/cdeposit"
+    },
+    {
+      "type": "cancel | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/cancel"
+    },
+    {
+      "type": "linkStakingUser | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/linkstakinguser"
+    },
+    {
+      "type": "noop | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/noop"
+    },
+    {
+      "type": "claimRewards | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/claimrewards"
+    },
+    {
+      "type": "cValidatorAction | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/cvalidatoraction"
+    },
+    {
+      "type": "evmUserModify | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/evmusermodify"
+    },
+    {
+      "type": "borrowLend | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/borrowlend"
+    },
+    {
+      "type": "registerReferrer | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/registerreferrer"
+    },
+    {
+      "type": "createSubAccount | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/createsubaccount"
+    },
+    {
+      "type": "cWithdraw | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/cwithdraw"
+    },
+    {
+      "type": "createVault | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/createvault"
+    },
+    {
+      "type": "batchModify | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/batchmodify"
+    },
+    {
+      "type": "setReferrer | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/setreferrer"
+    },
+    {
+      "type": "modify | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/modify"
+    },
+    {
+      "type": "spotSend | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/spotsend"
+    },
+    {
+      "type": "reserveRequestWeight | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/reserverequestweight"
+    },
+    {
+      "type": "withdraw3 | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/withdraw3"
+    },
+    {
+      "type": "convertToMultiSigUser | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/converttomultisiguser"
+    },
+    {
+      "type": "scheduleCancel | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/schedulecancel"
+    },
+    {
+      "type": "order | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/order"
+    },
+    {
+      "type": "setDisplayName | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/setdisplayname"
+    },
+    {
+      "type": "cancelByCloid | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/cancelbycloid"
+    },
+    {
+      "type": "userDexAbstraction | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/userdexabstraction"
+    },
+    {
+      "type": "vaultTransfer | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/vaulttransfer"
+    },
+    {
+      "type": "cSignerAction | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/csigneraction"
+    },
+    {
+      "type": "sendToEvmWithData | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/sendtoevmwithdata"
+    },
+    {
+      "type": "sendAsset | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/sendasset"
+    },
+    {
+      "type": "updateIsolatedMargin | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/updateisolatedmargin"
+    },
+    {
+      "type": "updateLeverage | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/updateleverage"
+    },
+    {
+      "type": "tokenDelegate | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/tokendelegate"
+    },
+    {
+      "type": "twapCancel | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/twapcancel"
+    },
+    {
+      "type": "vaultDistribute | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/vaultdistribute"
+    },
+    {
+      "type": "subAccountTransfer | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/subaccounttransfer"
+    },
+    {
+      "type": "spotUser | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/spotuser"
+    },
+    {
+      "type": "userPortfolioMargin | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/userportfoliomargin"
+    },
+    {
+      "type": "subAccountSpotTransfer | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/subaccountspottransfer"
+    },
+    {
+      "type": "validatorL1Stream | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/validatorl1stream"
+    },
+    {
+      "type": "userSetAbstraction | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/usersetabstraction"
+    },
+    {
+      "type": "spotDeploy | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/spotdeploy"
+    },
+    {
+      "type": "twapOrder | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/twaporder"
+    },
+    {
+      "type": "usdSend | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/usdsend"
+    },
+    {
+      "type": "vaultModify | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/vaultmodify"
+    },
+    {
+      "type": "subAccountModify | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/subaccountmodify"
+    },
+    {
+      "type": "usdClassTransfer | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/usdclasstransfer"
+    },
+    {
+      "type": "perpDeploy | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/perpdeploy"
+    },
+    {
+      "type": "topUpIsolatedOnlyMargin | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/exchange-methods/topupisolatedonlymargin"
+    },
+    {
+      "type": "Info Methods | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods"
+    },
+    {
+      "type": "approvedBuilders | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/approvedbuilders"
+    },
+    {
+      "type": "allMids | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/allmids"
+    },
+    {
+      "type": "borrowLendReserveState | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/borrowlendreservestate"
+    },
+    {
+      "type": "borrowLendUserState | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/borrowlenduserstate"
+    },
+    {
+      "type": "candleSnapshot | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/candlesnapshot"
+    },
+    {
+      "type": "blockDetails | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/blockdetails"
+    },
+    {
+      "type": "delegatorHistory | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/delegatorhistory"
+    },
+    {
+      "type": "allBorrowLendReserveStates | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/allborrowlendreservestates"
+    },
+    {
+      "type": "allPerpMetas | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/allperpmetas"
+    },
+    {
+      "type": "exchangeStatus | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/exchangestatus"
+    },
+    {
+      "type": "delegatorRewards | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/delegatorrewards"
+    },
+    {
+      "type": "alignedQuoteTokenInfo | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/alignedquotetokeninfo"
+    },
+    {
+      "type": "delegatorSummary | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/delegatorsummary"
+    },
+    {
+      "type": "extraAgents | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/extraagents"
+    },
+    {
+      "type": "fundingHistory | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/fundinghistory"
+    },
+    {
+      "type": "gossipRootIps | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/gossiprootips"
+    },
+    {
+      "type": "clearinghouseState | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/clearinghousestate"
+    },
+    {
+      "type": "legalCheck | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/legalcheck"
+    },
+    {
+      "type": "isVip | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/isvip"
+    },
+    {
+      "type": "marginTable | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/margintable"
+    },
+    {
+      "type": "delegations | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/delegations"
+    },
+    {
+      "type": "frontendOpenOrders | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/frontendopenorders"
+    },
+    {
+      "type": "historicalOrders | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/historicalorders"
+    },
+    {
+      "type": "leadingVaults | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/leadingvaults"
+    },
+    {
+      "type": "liquidatable | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/liquidatable"
+    },
+    {
+      "type": "maxBuilderFee | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/maxbuilderfee"
+    },
+    {
+      "type": "maxMarketOrderNtls | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/maxmarketorderntls"
+    },
+    {
+      "type": "perpDexStatus | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/perpdexstatus"
+    },
+    {
+      "type": "predictedFundings | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/predictedfundings"
+    },
+    {
+      "type": "openOrders | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/openorders"
+    },
+    {
+      "type": "outcomeMeta | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/outcomemeta"
+    },
+    {
+      "type": "perpDeployAuctionStatus | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/perpdeployauctionstatus"
+    },
+    {
+      "type": "recentTrades | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/recenttrades"
+    },
+    {
+      "type": "perpAnnotation | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/perpannotation"
+    },
+    {
+      "type": "spotClearinghouseState | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/spotclearinghousestate"
+    },
+    {
+      "type": "portfolio | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/portfolio"
+    },
+    {
+      "type": "metaAndAssetCtxs | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/metaandassetctxs"
+    },
+    {
+      "type": "perpDexLimits | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/perpdexlimits"
+    },
+    {
+      "type": "l2Book | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/l2book"
+    },
+    {
+      "type": "perpsAtOpenInterestCap | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/perpsatopeninterestcap"
+    },
+    {
+      "type": "perpCategories | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/perpcategories"
+    },
+    {
+      "type": "spotDeployState | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/spotdeploystate"
+    },
+    {
+      "type": "meta | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/meta"
+    },
+    {
+      "type": "preTransferCheck | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/pretransfercheck"
+    },
+    {
+      "type": "referral | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/referral"
+    },
+    {
+      "type": "perpDexs | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/perpdexs"
+    },
+    {
+      "type": "orderStatus | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/orderstatus"
+    },
+    {
+      "type": "spotMeta | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/spotmeta"
+    },
+    {
+      "type": "spotMetaAndAssetCtxs | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/spotmetaandassetctxs"
+    },
+    {
+      "type": "spotPairDeployAuctionStatus | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/spotpairdeployauctionstatus"
+    },
+    {
+      "type": "validatorL1Votes | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/validatorl1votes"
+    },
+    {
+      "type": "userBorrowLendInterest | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userborrowlendinterest"
+    },
+    {
+      "type": "tokenDetails | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/tokendetails"
+    },
+    {
+      "type": "subAccounts | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/subaccounts"
+    },
+    {
+      "type": "subAccounts2 | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/subaccounts2"
+    },
+    {
+      "type": "userDexAbstraction | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userdexabstraction"
+    },
+    {
+      "type": "txDetails | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/txdetails"
+    },
+    {
+      "type": "userVaultEquities | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/uservaultequities"
+    },
+    {
+      "type": "userFillsByTime | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userfillsbytime"
+    },
+    {
+      "type": "userAbstraction | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userabstraction"
+    },
+    {
+      "type": "userRole | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userrole"
+    },
+    {
+      "type": "userRateLimit | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userratelimit"
+    },
+    {
+      "type": "userDetails | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userdetails"
+    },
+    {
+      "type": "userTwapSliceFills | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/usertwapslicefills"
+    },
+    {
+      "type": "userToMultiSigSigners | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/usertomultisigsigners"
+    },
+    {
+      "type": "userTwapSliceFillsByTime | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/usertwapslicefillsbytime"
+    },
+    {
+      "type": "userFunding | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userfunding"
+    },
+    {
+      "type": "vaultSummaries | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/vaultsummaries"
+    },
+    {
+      "type": "userFills | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userfills"
+    },
+    {
+      "type": "userFees | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/userfees"
+    },
+    {
+      "type": "twapHistory | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/twaphistory"
+    },
+    {
+      "type": "validatorSummaries | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/validatorsummaries"
+    },
+    {
+      "type": "vaultDetails | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/vaultdetails"
+    },
+    {
+      "type": "userNonFundingLedgerUpdates | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/usernonfundingledgerupdates"
+    },
+    {
+      "type": "webData2 | Hyperliquid",
+      "url": "https://nktkas.gitbook.io/hyperliquid/api-reference/info-methods/webdata2"
+    }
+  ],
+  "latestVersion": "1.4.3",
+  "versions": [
+    {
+      "version": "1.4.3",
+      "label": "latest",
+      "timestamp": "2026-03-05T17:46:10.926Z",
+      "filename": "documentation_2026-03-05T17:46:10.926Z.md",
+      "totalPages": 169,
+      "successfulPages": 169,
+      "url": "https://nktkas.gitbook.io/hyperliquid",
+      "isLatest": true
+    },
+    {
+      "version": "1.4.2",
+      "timestamp": "2026-02-25T09:31:17.339Z",
+      "filename": "documentation_2026-02-25T09:31:17.339Z.md",
+      "totalPages": 163,
+      "successfulPages": 163,
+      "url": "https://nktkas.gitbook.io/hyperliquid",
+      "isLatest": false
+    },
+    {
+      "version": "1.4.1",
+      "timestamp": "2026-02-01T22:24:48.960Z",
+      "filename": "documentation_2026-02-01T22:24:48.960Z.md",
+      "totalPages": 162,
+      "successfulPages": 162,
+      "url": "https://nktkas.gitbook.io/hyperliquid",
+      "isLatest": false
+    },
+    {
+      "version": "1.4.0",
+      "timestamp": "2025-12-13T07:12:47.031Z",
+      "filename": "documentation_2025-12-13T07:12:47.031Z.md",
+      "totalPages": 155,
+      "successfulPages": 155,
+      "url": "https://nktkas.gitbook.io/hyperliquid",
+      "isLatest": false
+    },
+    {
+      "version": "1.3.0",
+      "timestamp": "2025-12-12T16:53:52.260Z",
+      "filename": "documentation_2025-12-12T16:53:52.260Z.md",
+      "totalPages": 155,
+      "successfulPages": 155,
+      "url": "https://nktkas.gitbook.io/hyperliquid",
+      "isLatest": false
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2025-12-12T16:31:48.387Z",
+      "filename": "documentation_2025-12-12T16:31:48.387Z.md",
+      "totalPages": 155,
+      "successfulPages": 155,
+      "url": "https://nktkas.gitbook.io/hyperliquid",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-12-08T18:09:57.746Z",
+      "filename": "documentation_2025-12-08T18:09:57.746Z.md",
+      "totalPages": 155,
+      "successfulPages": 155,
+      "url": "https://nktkas.gitbook.io/hyperliquid",
+      "isLatest": false
+    },
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-11-24T23:41:54.868Z",
+      "filename": "documentation_2025-11-24T23:41:54.868Z.md",
+      "totalPages": 155,
+      "successfulPages": 155,
+      "url": "https://nktkas.gitbook.io/hyperliquid",
+      "isLatest": false
+    }
+  ],
+  "schemaVersion": 2
+}

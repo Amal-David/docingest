@@ -1,1 +1,236 @@
-{"url":"https://react.email/docs/integrations/resend","domain":"react.email","lastScraped":"2025-12-11T14:35:14.674Z","totalPages":53,"successfulPages":53,"failedPages":[],"structure":[{"type":"Send email using Resend - React Email","url":"https://react.email/docs/integrations/resend"},{"type":"Send email using SendGrid - React Email","url":"https://react.email/docs/integrations/sendgrid"},{"type":"React Email - React Email","url":"https://react.email/docs"},{"type":"Send email using Postmark - React Email","url":"https://react.email/docs/integrations/postmark"},{"type":"Send email using AWS SES - React Email","url":"https://react.email/docs/integrations/aws-ses"},{"type":"React Email - React Email","url":"https://react.email/docs/introduction"},{"type":"Roadmap - React Email","url":"https://react.email/docs/roadmap"},{"type":"CLI - React Email","url":"https://react.email/docs/cli"},{"type":"Deployment - React Email","url":"https://react.email/docs/deployment"},{"type":"Updating React Email - React Email","url":"https://react.email/docs/getting-started/updating-react-email"},{"type":"Changelog - React Email","url":"https://react.email/docs/changelog"},{"type":"Migrating to React Email - React Email","url":"https://react.email/docs/getting-started/migrating-to-react-email"},{"type":"HTML - React Email","url":"https://react.email/docs/components/html"},{"type":"Automatic Setup - React Email","url":"https://react.email/docs/getting-started/automatic-setup"},{"type":"Head - React Email","url":"https://react.email/docs/components/head"},{"type":"Container - React Email","url":"https://react.email/docs/components/container"},{"type":"Button - React Email","url":"https://react.email/docs/components/button"},{"type":"Row - React Email","url":"https://react.email/docs/components/row"},{"type":"Code Inline - React Email","url":"https://react.email/docs/components/code-inline"},{"type":"Manual Setup - React Email","url":"https://react.email/docs/getting-started/manual-setup"},{"type":"Column - React Email","url":"https://react.email/docs/components/column"},{"type":"Hr - React Email","url":"https://react.email/docs/components/hr"},{"type":"Code Block - React Email","url":"https://react.email/docs/components/code-block"},{"type":"Section - React Email","url":"https://react.email/docs/components/section"},{"type":"Preview - React Email","url":"https://react.email/docs/components/preview"},{"type":"Font - React Email","url":"https://react.email/docs/components/font"},{"type":"Link - React Email","url":"https://react.email/docs/components/link"},{"type":"Image - React Email","url":"https://react.email/docs/components/image"},{"type":"Markdown - React Email","url":"https://react.email/docs/components/markdown"},{"type":"Overview - React Email","url":"https://react.email/docs/integrations/overview"},{"type":"Tailwind - React Email","url":"https://react.email/docs/components/tailwind"},{"type":"Heading - React Email","url":"https://react.email/docs/components/heading"},{"type":"Opening issues - React Email","url":"https://react.email/docs/contributing/opening-issues"},{"type":"Text - React Email","url":"https://react.email/docs/components/text"},{"type":"Opening pull requests - React Email","url":"https://react.email/docs/contributing/opening-pull-requests"},{"type":"Send email using Scaleway Transactional Email - React Email","url":"https://react.email/docs/integrations/scaleway"},{"type":"Send email using Plunk - React Email","url":"https://react.email/docs/integrations/plunk"},{"type":"Send email using MailerSend - React Email","url":"https://react.email/docs/integrations/mailersend"},{"type":"Send email using Nodemailer - React Email","url":"https://react.email/docs/integrations/nodemailer"},{"type":"Render - React Email","url":"https://react.email/docs/utilities/render"},{"type":"Codebase overview - React Email","url":"https://react.email/docs/contributing/codebase-overview"},{"type":"Getting Started - React Email","url":"https://react.email/docs/contributing/introduction"},{"type":"Monorepo setup - React Email","url":"https://react.email/docs/getting-started/monorepo-setup/choose-package-manager"},{"type":"Setting up for npm workspaces - React Email","url":"https://react.email/docs/getting-started/monorepo-setup/npm"},{"type":"Setting up for bun workspaces - React Email","url":"https://react.email/docs/getting-started/monorepo-setup/bun"},{"type":"Linting - React Email","url":"https://react.email/docs/contributing/development-workflow/3-linting"},{"type":"Running tests - React Email","url":"https://react.email/docs/contributing/development-workflow/2-running-tests"},{"type":"Building - React Email","url":"https://react.email/docs/contributing/development-workflow/4-building"},{"type":"Setup - React Email","url":"https://react.email/docs/contributing/development-workflow/1-setup"},{"type":"Writing docs - React Email","url":"https://react.email/docs/contributing/development-workflow/5-writing-docs"},{"type":"Setting up for pnpm workspaces - React Email","url":"https://react.email/docs/getting-started/monorepo-setup/pnpm"},{"type":"Setting up for yarn workspaces - React Email","url":"https://react.email/docs/getting-started/monorepo-setup/yarn"},{"type":"Editing the components - React Email","url":"https://react.email/docs/contributing/development-workflow/6-editing-the-components"}]}
+{
+  "url": "https://react.email/docs/integrations/resend",
+  "domain": "react.email",
+  "lastScraped": "2025-12-11T14:35:14.674Z",
+  "totalPages": 53,
+  "successfulPages": 53,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Send email using Resend - React Email",
+      "url": "https://react.email/docs/integrations/resend"
+    },
+    {
+      "type": "Send email using SendGrid - React Email",
+      "url": "https://react.email/docs/integrations/sendgrid"
+    },
+    {
+      "type": "React Email - React Email",
+      "url": "https://react.email/docs"
+    },
+    {
+      "type": "Send email using Postmark - React Email",
+      "url": "https://react.email/docs/integrations/postmark"
+    },
+    {
+      "type": "Send email using AWS SES - React Email",
+      "url": "https://react.email/docs/integrations/aws-ses"
+    },
+    {
+      "type": "React Email - React Email",
+      "url": "https://react.email/docs/introduction"
+    },
+    {
+      "type": "Roadmap - React Email",
+      "url": "https://react.email/docs/roadmap"
+    },
+    {
+      "type": "CLI - React Email",
+      "url": "https://react.email/docs/cli"
+    },
+    {
+      "type": "Deployment - React Email",
+      "url": "https://react.email/docs/deployment"
+    },
+    {
+      "type": "Updating React Email - React Email",
+      "url": "https://react.email/docs/getting-started/updating-react-email"
+    },
+    {
+      "type": "Changelog - React Email",
+      "url": "https://react.email/docs/changelog"
+    },
+    {
+      "type": "Migrating to React Email - React Email",
+      "url": "https://react.email/docs/getting-started/migrating-to-react-email"
+    },
+    {
+      "type": "HTML - React Email",
+      "url": "https://react.email/docs/components/html"
+    },
+    {
+      "type": "Automatic Setup - React Email",
+      "url": "https://react.email/docs/getting-started/automatic-setup"
+    },
+    {
+      "type": "Head - React Email",
+      "url": "https://react.email/docs/components/head"
+    },
+    {
+      "type": "Container - React Email",
+      "url": "https://react.email/docs/components/container"
+    },
+    {
+      "type": "Button - React Email",
+      "url": "https://react.email/docs/components/button"
+    },
+    {
+      "type": "Row - React Email",
+      "url": "https://react.email/docs/components/row"
+    },
+    {
+      "type": "Code Inline - React Email",
+      "url": "https://react.email/docs/components/code-inline"
+    },
+    {
+      "type": "Manual Setup - React Email",
+      "url": "https://react.email/docs/getting-started/manual-setup"
+    },
+    {
+      "type": "Column - React Email",
+      "url": "https://react.email/docs/components/column"
+    },
+    {
+      "type": "Hr - React Email",
+      "url": "https://react.email/docs/components/hr"
+    },
+    {
+      "type": "Code Block - React Email",
+      "url": "https://react.email/docs/components/code-block"
+    },
+    {
+      "type": "Section - React Email",
+      "url": "https://react.email/docs/components/section"
+    },
+    {
+      "type": "Preview - React Email",
+      "url": "https://react.email/docs/components/preview"
+    },
+    {
+      "type": "Font - React Email",
+      "url": "https://react.email/docs/components/font"
+    },
+    {
+      "type": "Link - React Email",
+      "url": "https://react.email/docs/components/link"
+    },
+    {
+      "type": "Image - React Email",
+      "url": "https://react.email/docs/components/image"
+    },
+    {
+      "type": "Markdown - React Email",
+      "url": "https://react.email/docs/components/markdown"
+    },
+    {
+      "type": "Overview - React Email",
+      "url": "https://react.email/docs/integrations/overview"
+    },
+    {
+      "type": "Tailwind - React Email",
+      "url": "https://react.email/docs/components/tailwind"
+    },
+    {
+      "type": "Heading - React Email",
+      "url": "https://react.email/docs/components/heading"
+    },
+    {
+      "type": "Opening issues - React Email",
+      "url": "https://react.email/docs/contributing/opening-issues"
+    },
+    {
+      "type": "Text - React Email",
+      "url": "https://react.email/docs/components/text"
+    },
+    {
+      "type": "Opening pull requests - React Email",
+      "url": "https://react.email/docs/contributing/opening-pull-requests"
+    },
+    {
+      "type": "Send email using Scaleway Transactional Email - React Email",
+      "url": "https://react.email/docs/integrations/scaleway"
+    },
+    {
+      "type": "Send email using Plunk - React Email",
+      "url": "https://react.email/docs/integrations/plunk"
+    },
+    {
+      "type": "Send email using MailerSend - React Email",
+      "url": "https://react.email/docs/integrations/mailersend"
+    },
+    {
+      "type": "Send email using Nodemailer - React Email",
+      "url": "https://react.email/docs/integrations/nodemailer"
+    },
+    {
+      "type": "Render - React Email",
+      "url": "https://react.email/docs/utilities/render"
+    },
+    {
+      "type": "Codebase overview - React Email",
+      "url": "https://react.email/docs/contributing/codebase-overview"
+    },
+    {
+      "type": "Getting Started - React Email",
+      "url": "https://react.email/docs/contributing/introduction"
+    },
+    {
+      "type": "Monorepo setup - React Email",
+      "url": "https://react.email/docs/getting-started/monorepo-setup/choose-package-manager"
+    },
+    {
+      "type": "Setting up for npm workspaces - React Email",
+      "url": "https://react.email/docs/getting-started/monorepo-setup/npm"
+    },
+    {
+      "type": "Setting up for bun workspaces - React Email",
+      "url": "https://react.email/docs/getting-started/monorepo-setup/bun"
+    },
+    {
+      "type": "Linting - React Email",
+      "url": "https://react.email/docs/contributing/development-workflow/3-linting"
+    },
+    {
+      "type": "Running tests - React Email",
+      "url": "https://react.email/docs/contributing/development-workflow/2-running-tests"
+    },
+    {
+      "type": "Building - React Email",
+      "url": "https://react.email/docs/contributing/development-workflow/4-building"
+    },
+    {
+      "type": "Setup - React Email",
+      "url": "https://react.email/docs/contributing/development-workflow/1-setup"
+    },
+    {
+      "type": "Writing docs - React Email",
+      "url": "https://react.email/docs/contributing/development-workflow/5-writing-docs"
+    },
+    {
+      "type": "Setting up for pnpm workspaces - React Email",
+      "url": "https://react.email/docs/getting-started/monorepo-setup/pnpm"
+    },
+    {
+      "type": "Setting up for yarn workspaces - React Email",
+      "url": "https://react.email/docs/getting-started/monorepo-setup/yarn"
+    },
+    {
+      "type": "Editing the components - React Email",
+      "url": "https://react.email/docs/contributing/development-workflow/6-editing-the-components"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-12-11T14:35:14.674Z",
+      "filename": "documentation_2025-12-11T14:35:14.674Z.md",
+      "totalPages": 53,
+      "successfulPages": 53,
+      "url": "https://react.email/docs/integrations/resend",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

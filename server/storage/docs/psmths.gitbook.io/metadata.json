@@ -1,1 +1,364 @@
-{"url":"https://psmths.gitbook.io/windows-forensics","domain":"psmths.gitbook.io","lastScraped":"2025-11-17T14:09:16.417Z","totalPages":85,"successfulPages":85,"failedPages":[],"structure":[{"type":"Welcome | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics"},{"type":"Registry Artifacts | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts"},{"type":"Image File Execution Options Registry Keys | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/image-file-execution-options"},{"type":"Background Activity Montitor | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/bam-dam"},{"type":"System Resource Usage Monitor (SRUM) | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/srum-db"},{"type":"Amcache.hve | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/amcache"},{"type":"Filesystem Artifacts | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/filesystem-artifacts"},{"type":"ComputerName Registry Key | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/computer-name"},{"type":"NetworkCards Registry Key | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/network-cards"},{"type":"Select Registry Key | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/select"},{"type":"CurrentVersion Registry Key | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/current-version"},{"type":"Services Registry Keys | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/registry-services"},{"type":"Run/RunOnce Registry Keys | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/reg-run-runonce"},{"type":"Interfaces Registry Key | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/interfaces"},{"type":"Tracing Registry Keys | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/tracing-keys"},{"type":"TimeZoneInformation Registry Key | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/time-zone-information"},{"type":"Task Scheduler Files | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/filesystem-artifacts/task-scheduler-files"},{"type":"Event Log Artifacts | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts"},{"type":"AutomaticDestinations Jumplists | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/filesystem-artifacts/automatic-destinations"},{"type":"TerminalServices-RDPClient | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/terminalservices-rdpclient"},{"type":"System | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/system"},{"type":"Security | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/security"},{"type":"File Activity | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity"},{"type":"USN Journal | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/filesystem-artifacts/usn-journal"},{"type":"Microsoft Windows Shell Core | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-shell-core"},{"type":"TerminalServices-RemoteConnectionManager | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/terminalservices-remoteconnectionmanager"},{"type":"Execution Timestamp | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution/execution-timestamp"},{"type":"File Creation | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity/creation"},{"type":"TerminalServices-LocalSessionManager | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/terminalservices-localsessionmanager"},{"type":"File Origin | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity/origin"},{"type":"Microsoft-Windows-PowerShell | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-powershell"},{"type":"File Deletion | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity/deletion"},{"type":"Recycle Bin $I/$R Files | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/filesystem-artifacts/recycle-bin-files"},{"type":"Windows Error Reporting Files (.WER) | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/filesystem-artifacts/wer-files"},{"type":"Last Modified | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity/last-modified"},{"type":"File Hash | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity/file-hash"},{"type":"Browser Activity | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/browser-activity"},{"type":"Execution | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution"},{"type":"Account Activity | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity"},{"type":"File Size | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity/size"},{"type":"Account Creation Time | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/creation-time"},{"type":"Command Line Options | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution/command-line-options"},{"type":"Last Login | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/last-login"},{"type":"Group Membership | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/group-membership"},{"type":"History | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/browser-activity/history"},{"type":"First Executed | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution/first-executed"},{"type":"Microsoft Windows Windows Firewall With Advanced Security | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-windows-firewall-with-advanced-security"},{"type":"Relative Identifier | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/relative-identifier"},{"type":"EventID 2071: Firewall Rule Added | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-windows-firewall-with-advanced-security/evtx-2071-firewall-windows-11"},{"type":"Prefetch | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/filesystem-artifacts/prefetch"},{"type":"Login History | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/login-history"},{"type":"Stored Passwords/Secrets | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/browser-activity/stored-passwords-secrets"},{"type":"EventID 2073: Firewall Rule Modified | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-windows-firewall-with-advanced-security/evtx-2073-firewall-windows-11"},{"type":"Wireless Activity | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/network-activity/wireless-activity"},{"type":"EventID 2052: Firewall Rule Deleted | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-windows-firewall-with-advanced-security/evtx-2052-firewall-windows-11"},{"type":"Last Executed | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution/last-executed"},{"type":"Logon ID | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/logon-id"},{"type":"Bookmarks | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/browser-activity/bookmarks"},{"type":"Destination Identification | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/network-activity/destination-identification"},{"type":"Network Activity | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/network-activity"},{"type":"Event ID 7045: Service Installed | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/system/evtx-7045-service-install"},{"type":"Transmit Volume | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/network-activity/transmit-volume"},{"type":"EventID 1024: RDP ClientActiveX is trying to connect to the server | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/terminalservices-rdpclient/evtx-1024-rdp-activex"},{"type":"System Enumeration | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/system-enumeration"},{"type":"Task Scheduler Operational Log | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/task-scheduler-operational-log"},{"type":"Parent and Child Information | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution/parent-and-child-information"},{"type":"EventID 24: Session has been disconnected | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/terminalservices-localsessionmanager/terminal-services-local-24"},{"type":"Evidence of Network Activity | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/network-activity/evidence-of-network-activity"},{"type":"EventID 4104: PowerShell Script Block Logging | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-powershell/evtx-4104-script-block-logging"},{"type":"EventID 1149: User Authentication Succeeded | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/terminalservices-remoteconnectionmanager/terminal-services-remote-1149"},{"type":"EventID 9707: Command Execution Started | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-shell-core/evtx-9707-shell-core"},{"type":"Execution Account | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution/execution-account"},{"type":"EventID 21: Session logon succeeded | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/terminalservices-localsessionmanager/terminal-services-local-21"},{"type":"Source Identification | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/network-activity/source-identification"},{"type":"Username | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/username"},{"type":"Firewall Activity | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/network-activity/firewall-activity"},{"type":"Firefox places.sqlite Database | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/browser-activity/history/firefox-places-sqlite"},{"type":"EventID 4624: An account was successfully logged on | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/security/evtx-4624-successful-logon"},{"type":"EventID 2006: Firewall Rule Deleted | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-windows-firewall-with-advanced-security/evtx-2006-firewall"},{"type":"EventID 4688: A new process has been created | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/security/evtx-4688-process-created"},{"type":"Evidence of Execution | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution/evidence-of-execution"},{"type":"EventID 2005: Firewall Rule Modified | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-windows-firewall-with-advanced-security/evtx-2005-firewall"},{"type":"EventID 2004: Firewall Rule Added | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-windows-firewall-with-advanced-security/evtx-2004-firewall"},{"type":"Security Identifier | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/security-identifier"},{"type":"File Path | Windows Forensic Handbook","url":"https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity/file-path"}]}
+{
+  "url": "https://psmths.gitbook.io/windows-forensics",
+  "domain": "psmths.gitbook.io",
+  "lastScraped": "2025-11-17T14:09:16.417Z",
+  "totalPages": 85,
+  "successfulPages": 85,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Welcome | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics"
+    },
+    {
+      "type": "Registry Artifacts | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts"
+    },
+    {
+      "type": "Image File Execution Options Registry Keys | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/image-file-execution-options"
+    },
+    {
+      "type": "Background Activity Montitor | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/bam-dam"
+    },
+    {
+      "type": "System Resource Usage Monitor (SRUM) | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/srum-db"
+    },
+    {
+      "type": "Amcache.hve | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/amcache"
+    },
+    {
+      "type": "Filesystem Artifacts | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/filesystem-artifacts"
+    },
+    {
+      "type": "ComputerName Registry Key | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/computer-name"
+    },
+    {
+      "type": "NetworkCards Registry Key | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/network-cards"
+    },
+    {
+      "type": "Select Registry Key | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/select"
+    },
+    {
+      "type": "CurrentVersion Registry Key | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/current-version"
+    },
+    {
+      "type": "Services Registry Keys | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/registry-services"
+    },
+    {
+      "type": "Run/RunOnce Registry Keys | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/reg-run-runonce"
+    },
+    {
+      "type": "Interfaces Registry Key | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/interfaces"
+    },
+    {
+      "type": "Tracing Registry Keys | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/tracing-keys"
+    },
+    {
+      "type": "TimeZoneInformation Registry Key | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/registry-artifacts/time-zone-information"
+    },
+    {
+      "type": "Task Scheduler Files | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/filesystem-artifacts/task-scheduler-files"
+    },
+    {
+      "type": "Event Log Artifacts | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts"
+    },
+    {
+      "type": "AutomaticDestinations Jumplists | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/filesystem-artifacts/automatic-destinations"
+    },
+    {
+      "type": "TerminalServices-RDPClient | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/terminalservices-rdpclient"
+    },
+    {
+      "type": "System | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/system"
+    },
+    {
+      "type": "Security | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/security"
+    },
+    {
+      "type": "File Activity | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity"
+    },
+    {
+      "type": "USN Journal | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/filesystem-artifacts/usn-journal"
+    },
+    {
+      "type": "Microsoft Windows Shell Core | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-shell-core"
+    },
+    {
+      "type": "TerminalServices-RemoteConnectionManager | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/terminalservices-remoteconnectionmanager"
+    },
+    {
+      "type": "Execution Timestamp | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution/execution-timestamp"
+    },
+    {
+      "type": "File Creation | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity/creation"
+    },
+    {
+      "type": "TerminalServices-LocalSessionManager | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/terminalservices-localsessionmanager"
+    },
+    {
+      "type": "File Origin | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity/origin"
+    },
+    {
+      "type": "Microsoft-Windows-PowerShell | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-powershell"
+    },
+    {
+      "type": "File Deletion | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity/deletion"
+    },
+    {
+      "type": "Recycle Bin $I/$R Files | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/filesystem-artifacts/recycle-bin-files"
+    },
+    {
+      "type": "Windows Error Reporting Files (.WER) | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/filesystem-artifacts/wer-files"
+    },
+    {
+      "type": "Last Modified | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity/last-modified"
+    },
+    {
+      "type": "File Hash | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity/file-hash"
+    },
+    {
+      "type": "Browser Activity | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/browser-activity"
+    },
+    {
+      "type": "Execution | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution"
+    },
+    {
+      "type": "Account Activity | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity"
+    },
+    {
+      "type": "File Size | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity/size"
+    },
+    {
+      "type": "Account Creation Time | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/creation-time"
+    },
+    {
+      "type": "Command Line Options | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution/command-line-options"
+    },
+    {
+      "type": "Last Login | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/last-login"
+    },
+    {
+      "type": "Group Membership | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/group-membership"
+    },
+    {
+      "type": "History | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/browser-activity/history"
+    },
+    {
+      "type": "First Executed | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution/first-executed"
+    },
+    {
+      "type": "Microsoft Windows Windows Firewall With Advanced Security | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-windows-firewall-with-advanced-security"
+    },
+    {
+      "type": "Relative Identifier | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/relative-identifier"
+    },
+    {
+      "type": "EventID 2071: Firewall Rule Added | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-windows-firewall-with-advanced-security/evtx-2071-firewall-windows-11"
+    },
+    {
+      "type": "Prefetch | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/filesystem-artifacts/prefetch"
+    },
+    {
+      "type": "Login History | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/login-history"
+    },
+    {
+      "type": "Stored Passwords/Secrets | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/browser-activity/stored-passwords-secrets"
+    },
+    {
+      "type": "EventID 2073: Firewall Rule Modified | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-windows-firewall-with-advanced-security/evtx-2073-firewall-windows-11"
+    },
+    {
+      "type": "Wireless Activity | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/network-activity/wireless-activity"
+    },
+    {
+      "type": "EventID 2052: Firewall Rule Deleted | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-windows-firewall-with-advanced-security/evtx-2052-firewall-windows-11"
+    },
+    {
+      "type": "Last Executed | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution/last-executed"
+    },
+    {
+      "type": "Logon ID | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/logon-id"
+    },
+    {
+      "type": "Bookmarks | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/browser-activity/bookmarks"
+    },
+    {
+      "type": "Destination Identification | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/network-activity/destination-identification"
+    },
+    {
+      "type": "Network Activity | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/network-activity"
+    },
+    {
+      "type": "Event ID 7045: Service Installed | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/system/evtx-7045-service-install"
+    },
+    {
+      "type": "Transmit Volume | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/network-activity/transmit-volume"
+    },
+    {
+      "type": "EventID 1024: RDP ClientActiveX is trying to connect to the server | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/terminalservices-rdpclient/evtx-1024-rdp-activex"
+    },
+    {
+      "type": "System Enumeration | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/system-enumeration"
+    },
+    {
+      "type": "Task Scheduler Operational Log | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/task-scheduler-operational-log"
+    },
+    {
+      "type": "Parent and Child Information | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution/parent-and-child-information"
+    },
+    {
+      "type": "EventID 24: Session has been disconnected | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/terminalservices-localsessionmanager/terminal-services-local-24"
+    },
+    {
+      "type": "Evidence of Network Activity | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/network-activity/evidence-of-network-activity"
+    },
+    {
+      "type": "EventID 4104: PowerShell Script Block Logging | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-powershell/evtx-4104-script-block-logging"
+    },
+    {
+      "type": "EventID 1149: User Authentication Succeeded | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/terminalservices-remoteconnectionmanager/terminal-services-remote-1149"
+    },
+    {
+      "type": "EventID 9707: Command Execution Started | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-shell-core/evtx-9707-shell-core"
+    },
+    {
+      "type": "Execution Account | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution/execution-account"
+    },
+    {
+      "type": "EventID 21: Session logon succeeded | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/terminalservices-localsessionmanager/terminal-services-local-21"
+    },
+    {
+      "type": "Source Identification | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/network-activity/source-identification"
+    },
+    {
+      "type": "Username | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/username"
+    },
+    {
+      "type": "Firewall Activity | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/network-activity/firewall-activity"
+    },
+    {
+      "type": "Firefox places.sqlite Database | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/browser-activity/history/firefox-places-sqlite"
+    },
+    {
+      "type": "EventID 4624: An account was successfully logged on | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/security/evtx-4624-successful-logon"
+    },
+    {
+      "type": "EventID 2006: Firewall Rule Deleted | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-windows-firewall-with-advanced-security/evtx-2006-firewall"
+    },
+    {
+      "type": "EventID 4688: A new process has been created | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/security/evtx-4688-process-created"
+    },
+    {
+      "type": "Evidence of Execution | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/execution/evidence-of-execution"
+    },
+    {
+      "type": "EventID 2005: Firewall Rule Modified | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-windows-firewall-with-advanced-security/evtx-2005-firewall"
+    },
+    {
+      "type": "EventID 2004: Firewall Rule Added | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-type/event-log-artifacts/microsoft-windows-windows-firewall-with-advanced-security/evtx-2004-firewall"
+    },
+    {
+      "type": "Security Identifier | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/account-activity/security-identifier"
+    },
+    {
+      "type": "File Path | Windows Forensic Handbook",
+      "url": "https://psmths.gitbook.io/windows-forensics/artifacts-by-activity/file-activity/file-path"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-11-17T14:09:16.417Z",
+      "filename": "documentation_2025-11-17T14:09:16.417Z.md",
+      "totalPages": 85,
+      "successfulPages": 85,
+      "url": "https://psmths.gitbook.io/windows-forensics",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

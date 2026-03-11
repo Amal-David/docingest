@@ -1,630 +1,92 @@
 {
   "url": "https://docs.sim.ai/introduction",
   "domain": "docs.sim.ai",
-  "lastScraped": "2025-12-29T01:05:56.982Z",
-  "totalPages": 153,
-  "successfulPages": 153,
+  "lastScraped": "2026-02-05T17:06:24.290Z",
+  "totalPages": 16,
+  "successfulPages": 16,
   "failedPages": [],
   "structure": [
-    {
-      "type": "Introduction",
-      "url": "https://docs.sim.ai/introduction"
-    },
-    {
-      "type": "Start",
-      "url": "https://docs.sim.ai/triggers/start"
-    },
-    {
-      "type": "Overview",
-      "url": "https://docs.sim.ai/triggers"
-    },
     {
       "type": "Getting Started",
       "url": "https://docs.sim.ai/getting-started"
     },
     {
-      "type": "Webhooks",
-      "url": "https://docs.sim.ai/triggers/webhook"
+      "type": "ElevenLabs",
+      "url": "https://docs.sim.ai/zh/tools/elevenlabs"
     },
     {
-      "type": "Schedule",
-      "url": "https://docs.sim.ai/triggers/schedule"
+      "type": "ElevenLabs",
+      "url": "https://docs.sim.ai/de/tools/elevenlabs"
     },
     {
-      "type": "RSS Feed",
-      "url": "https://docs.sim.ai/triggers/rss"
+      "type": "ElevenLabs",
+      "url": "https://docs.sim.ai/fr/tools/elevenlabs"
     },
     {
-      "type": "Overview",
-      "url": "https://docs.sim.ai/blocks"
+      "type": "ElevenLabs",
+      "url": "https://docs.sim.ai/ja/tools/elevenlabs"
     },
     {
-      "type": "Agent",
-      "url": "https://docs.sim.ai/blocks/agent"
+      "type": "Exa",
+      "url": "https://docs.sim.ai/es/tools/exa"
     },
     {
-      "type": "Evaluator",
-      "url": "https://docs.sim.ai/blocks/evaluator"
+      "type": "Exa",
+      "url": "https://docs.sim.ai/fr/tools/exa"
     },
     {
-      "type": "API",
-      "url": "https://docs.sim.ai/blocks/api"
+      "type": "Exa",
+      "url": "https://docs.sim.ai/de/tools/exa"
     },
     {
-      "type": "Function",
-      "url": "https://docs.sim.ai/blocks/function"
+      "type": "Enrich",
+      "url": "https://docs.sim.ai/fr/tools/enrich"
     },
     {
-      "type": "Condition",
-      "url": "https://docs.sim.ai/blocks/condition"
+      "type": "Enrich",
+      "url": "https://docs.sim.ai/de/tools/enrich"
     },
     {
-      "type": "Guardrails",
-      "url": "https://docs.sim.ai/blocks/guardrails"
+      "type": "Enrich",
+      "url": "https://docs.sim.ai/es/tools/enrich"
     },
     {
-      "type": "Loop",
-      "url": "https://docs.sim.ai/blocks/loop"
+      "type": "Enrich",
+      "url": "https://docs.sim.ai/ja/tools/enrich"
     },
     {
-      "type": "Parallel",
-      "url": "https://docs.sim.ai/blocks/parallel"
+      "type": "Enrich",
+      "url": "https://docs.sim.ai/zh/tools/enrich"
     },
     {
-      "type": "Human in the Loop",
-      "url": "https://docs.sim.ai/blocks/human-in-the-loop"
+      "type": "Exa",
+      "url": "https://docs.sim.ai/ja/tools/exa"
     },
     {
-      "type": "Response",
-      "url": "https://docs.sim.ai/blocks/response"
+      "type": "Exa",
+      "url": "https://docs.sim.ai/zh/tools/exa"
     },
     {
-      "type": "Wait",
-      "url": "https://docs.sim.ai/blocks/wait"
-    },
-    {
-      "type": "Router",
-      "url": "https://docs.sim.ai/blocks/router"
-    },
-    {
-      "type": "Variables",
-      "url": "https://docs.sim.ai/blocks/variables"
-    },
-    {
-      "type": "Workflow Block",
-      "url": "https://docs.sim.ai/blocks/workflow"
-    },
-    {
-      "type": "Apify",
-      "url": "https://docs.sim.ai/tools/apify"
-    },
-    {
-      "type": "ArXiv",
-      "url": "https://docs.sim.ai/tools/arxiv"
-    },
-    {
-      "type": "Ahrefs",
-      "url": "https://docs.sim.ai/tools/ahrefs"
-    },
-    {
-      "type": "Airtable",
-      "url": "https://docs.sim.ai/tools/airtable"
-    },
-    {
-      "type": "Overview",
-      "url": "https://docs.sim.ai/tools"
-    },
-    {
-      "type": "Browser Use",
-      "url": "https://docs.sim.ai/tools/browser_use"
-    },
-    {
-      "type": "Circleback",
-      "url": "https://docs.sim.ai/tools/circleback"
-    },
-    {
-      "type": "Asana",
-      "url": "https://docs.sim.ai/tools/asana"
-    },
-    {
-      "type": "Calendly",
-      "url": "https://docs.sim.ai/tools/calendly"
-    },
-    {
-      "type": "Clay",
-      "url": "https://docs.sim.ai/tools/clay"
-    },
-    {
-      "type": "Cursor",
-      "url": "https://docs.sim.ai/tools/cursor"
-    },
-    {
-      "type": "Apollo",
-      "url": "https://docs.sim.ai/tools/apollo"
-    },
-    {
-      "type": "Confluence",
-      "url": "https://docs.sim.ai/tools/confluence"
-    },
-    {
-      "type": "ArXiv",
-      "url": "https://docs.sim.ai/es/tools/arxiv"
-    },
-    {
-      "type": "ArXiv",
-      "url": "https://docs.sim.ai/de/tools/arxiv"
-    },
-    {
-      "type": "ArXiv",
-      "url": "https://docs.sim.ai/fr/tools/arxiv"
-    },
-    {
-      "type": "ArXiv",
-      "url": "https://docs.sim.ai/zh/tools/arxiv"
-    },
-    {
-      "type": "ArXiv",
-      "url": "https://docs.sim.ai/ja/tools/arxiv"
-    },
-    {
-      "type": "Utilisation du navigateur",
-      "url": "https://docs.sim.ai/fr/tools/browser_use"
-    },
-    {
-      "type": "Asana",
-      "url": "https://docs.sim.ai/es/tools/asana"
-    },
-    {
-      "type": "Asana",
-      "url": "https://docs.sim.ai/fr/tools/asana"
-    },
-    {
-      "type": "Apollo",
-      "url": "https://docs.sim.ai/ja/tools/apollo"
-    },
-    {
-      "type": "Browser-Nutzung",
-      "url": "https://docs.sim.ai/de/tools/browser_use"
-    },
-    {
-      "type": "ブラウザの使用",
-      "url": "https://docs.sim.ai/ja/tools/browser_use"
-    },
-    {
-      "type": "Uso del navegador",
-      "url": "https://docs.sim.ai/es/tools/browser_use"
-    },
-    {
-      "type": "Circleback",
-      "url": "https://docs.sim.ai/fr/tools/circleback"
-    },
-    {
-      "type": "Calendly",
-      "url": "https://docs.sim.ai/ja/tools/calendly"
-    },
-    {
-      "type": "Calendly",
-      "url": "https://docs.sim.ai/fr/tools/calendly"
-    },
-    {
-      "type": "Asana",
-      "url": "https://docs.sim.ai/ja/tools/asana"
-    },
-    {
-      "type": "Circleback",
-      "url": "https://docs.sim.ai/de/tools/circleback"
-    },
-    {
-      "type": "浏览器使用",
-      "url": "https://docs.sim.ai/zh/tools/browser_use"
-    },
-    {
-      "type": "Calendly",
-      "url": "https://docs.sim.ai/de/tools/calendly"
-    },
-    {
-      "type": "Asana",
-      "url": "https://docs.sim.ai/zh/tools/asana"
-    },
-    {
-      "type": "Circleback",
-      "url": "https://docs.sim.ai/zh/tools/circleback"
-    },
-    {
-      "type": "Clay",
-      "url": "https://docs.sim.ai/es/tools/clay"
-    },
-    {
-      "type": "Circleback",
-      "url": "https://docs.sim.ai/es/tools/circleback"
-    },
-    {
-      "type": "Clay",
-      "url": "https://docs.sim.ai/fr/tools/clay"
-    },
-    {
-      "type": "Circleback",
-      "url": "https://docs.sim.ai/ja/tools/circleback"
-    },
-    {
-      "type": "Clay",
-      "url": "https://docs.sim.ai/de/tools/clay"
-    },
-    {
-      "type": "Asana",
-      "url": "https://docs.sim.ai/de/tools/asana"
-    },
-    {
-      "type": "Calendly",
-      "url": "https://docs.sim.ai/zh/tools/calendly"
-    },
-    {
-      "type": "Calendly",
-      "url": "https://docs.sim.ai/es/tools/calendly"
-    },
-    {
-      "type": "Apollo",
-      "url": "https://docs.sim.ai/zh/tools/apollo"
-    },
-    {
-      "type": "Clay",
-      "url": "https://docs.sim.ai/ja/tools/clay"
-    },
-    {
-      "type": "Clay",
-      "url": "https://docs.sim.ai/zh/tools/clay"
-    },
-    {
-      "type": "Confluence",
-      "url": "https://docs.sim.ai/es/tools/confluence"
-    },
-    {
-      "type": "Confluence",
-      "url": "https://docs.sim.ai/fr/tools/confluence"
-    },
-    {
-      "type": "Cursor",
-      "url": "https://docs.sim.ai/es/tools/cursor"
-    },
-    {
-      "type": "Confluence",
-      "url": "https://docs.sim.ai/de/tools/confluence"
-    },
-    {
-      "type": "Cursor",
-      "url": "https://docs.sim.ai/fr/tools/cursor"
-    },
-    {
-      "type": "Cursor",
-      "url": "https://docs.sim.ai/de/tools/cursor"
-    },
-    {
-      "type": "Confluence",
-      "url": "https://docs.sim.ai/zh/tools/confluence"
-    },
-    {
-      "type": "Confluence",
-      "url": "https://docs.sim.ai/ja/tools/confluence"
-    },
-    {
-      "type": "Cursor",
-      "url": "https://docs.sim.ai/ja/tools/cursor"
-    },
-    {
-      "type": "Cursor",
-      "url": "https://docs.sim.ai/zh/tools/cursor"
-    },
-    {
-      "type": "Datadog",
-      "url": "https://docs.sim.ai/es/tools/datadog"
-    },
-    {
-      "type": "Datadog",
-      "url": "https://docs.sim.ai/fr/tools/datadog"
-    },
-    {
-      "type": "Datadog",
-      "url": "https://docs.sim.ai/de/tools/datadog"
-    },
-    {
-      "type": "Datadog",
-      "url": "https://docs.sim.ai/ja/tools/datadog"
-    },
-    {
-      "type": "Datadog",
-      "url": "https://docs.sim.ai/zh/tools/datadog"
-    },
-    {
-      "type": "Discord",
-      "url": "https://docs.sim.ai/es/tools/discord"
-    },
-    {
-      "type": "Discord",
-      "url": "https://docs.sim.ai/fr/tools/discord"
-    },
-    {
-      "type": "Discord",
-      "url": "https://docs.sim.ai/de/tools/discord"
-    },
-    {
-      "type": "Dropbox",
-      "url": "https://docs.sim.ai/es/tools/dropbox"
-    },
-    {
-      "type": "Dropbox",
-      "url": "https://docs.sim.ai/fr/tools/dropbox"
-    },
-    {
-      "type": "Dropbox",
-      "url": "https://docs.sim.ai/zh/tools/dropbox"
-    },
-    {
-      "type": "Dropbox",
-      "url": "https://docs.sim.ai/ja/tools/dropbox"
-    },
-    {
-      "type": "Discord",
-      "url": "https://docs.sim.ai/zh/tools/discord"
-    },
-    {
-      "type": "Dropbox",
-      "url": "https://docs.sim.ai/de/tools/dropbox"
-    },
-    {
-      "type": "Discord",
-      "url": "https://docs.sim.ai/ja/tools/discord"
-    },
-    {
-      "type": "DuckDuckGo",
-      "url": "https://docs.sim.ai/es/tools/duckduckgo"
-    },
-    {
-      "type": "DuckDuckGo",
-      "url": "https://docs.sim.ai/fr/tools/duckduckgo"
-    },
-    {
-      "type": "DuckDuckGo",
-      "url": "https://docs.sim.ai/de/tools/duckduckgo"
-    },
-    {
-      "type": "DuckDuckGo",
-      "url": "https://docs.sim.ai/zh/tools/duckduckgo"
-    },
-    {
-      "type": "DuckDuckGo",
-      "url": "https://docs.sim.ai/ja/tools/duckduckgo"
-    },
-    {
-      "type": "Amazon DynamoDB",
-      "url": "https://docs.sim.ai/es/tools/dynamodb"
-    },
-    {
-      "type": "Amazon DynamoDB",
-      "url": "https://docs.sim.ai/fr/tools/dynamodb"
-    },
-    {
-      "type": "Amazon DynamoDB",
-      "url": "https://docs.sim.ai/de/tools/dynamodb"
-    },
-    {
-      "type": "Amazon DynamoDB",
-      "url": "https://docs.sim.ai/ja/tools/dynamodb"
-    },
-    {
-      "type": "Amazon DynamoDB",
-      "url": "https://docs.sim.ai/zh/tools/dynamodb"
-    },
-    {
-      "type": "Elasticsearch",
-      "url": "https://docs.sim.ai/de/tools/elasticsearch"
-    },
-    {
-      "type": "Elasticsearch",
-      "url": "https://docs.sim.ai/es/tools/elasticsearch"
-    },
-    {
-      "type": "Elasticsearch",
-      "url": "https://docs.sim.ai/fr/tools/elasticsearch"
-    },
-    {
-      "type": "Elasticsearch",
-      "url": "https://docs.sim.ai/ja/tools/elasticsearch"
-    },
-    {
-      "type": "Sharepoint",
-      "url": "https://docs.sim.ai/fr/tools/sharepoint"
-    },
-    {
-      "type": "Sharepoint",
-      "url": "https://docs.sim.ai/es/tools/sharepoint"
-    },
-    {
-      "type": "Sharepoint",
-      "url": "https://docs.sim.ai/de/tools/sharepoint"
-    },
-    {
-      "type": "Sharepoint",
-      "url": "https://docs.sim.ai/ja/tools/sharepoint"
-    },
-    {
-      "type": "SharePoint",
-      "url": "https://docs.sim.ai/zh/tools/sharepoint"
-    },
-    {
-      "type": "Zoom",
-      "url": "https://docs.sim.ai/zh/tools/zoom"
-    },
-    {
-      "type": "Webhook",
-      "url": "https://docs.sim.ai/es/tools/generic_webhook"
-    },
-    {
-      "type": "Webhook",
-      "url": "https://docs.sim.ai/fr/tools/generic_webhook"
-    },
-    {
-      "type": "Webhook",
-      "url": "https://docs.sim.ai/de/tools/generic_webhook"
-    },
-    {
-      "type": "Webhook",
-      "url": "https://docs.sim.ai/ja/tools/generic_webhook"
-    },
-    {
-      "type": "Webhook",
-      "url": "https://docs.sim.ai/zh/tools/generic_webhook"
-    },
-    {
-      "type": "Herramienta MCP",
-      "url": "https://docs.sim.ai/es/tools/mcp"
-    },
-    {
-      "type": "Outil MCP",
-      "url": "https://docs.sim.ai/fr/tools/mcp"
-    },
-    {
-      "type": "MCP Tool",
-      "url": "https://docs.sim.ai/de/tools/mcp"
-    },
-    {
-      "type": "MCPツール",
-      "url": "https://docs.sim.ai/ja/tools/mcp"
-    },
-    {
-      "type": "MCP 工具",
-      "url": "https://docs.sim.ai/zh/tools/mcp"
-    },
-    {
-      "type": "Programación",
-      "url": "https://docs.sim.ai/es/tools/schedule"
-    },
-    {
-      "type": "Planification",
-      "url": "https://docs.sim.ai/fr/tools/schedule"
-    },
-    {
-      "type": "Zeitplan",
-      "url": "https://docs.sim.ai/de/tools/schedule"
-    },
-    {
-      "type": "YouTube",
-      "url": "https://docs.sim.ai/tools/youtube"
-    },
-    {
-      "type": "WordPress",
-      "url": "https://docs.sim.ai/tools/wordpress"
-    },
-    {
-      "type": "X",
-      "url": "https://docs.sim.ai/tools/x"
-    },
-    {
-      "type": "Zep",
-      "url": "https://docs.sim.ai/tools/zep"
-    },
-    {
-      "type": "Tags",
-      "url": "https://docs.sim.ai/connections/tags"
-    },
-    {
-      "type": "MCP (Model Context Protocol)",
-      "url": "https://docs.sim.ai/mcp"
-    },
-    {
-      "type": "Zendesk",
-      "url": "https://docs.sim.ai/tools/zendesk"
-    },
-    {
-      "type": "Basics",
-      "url": "https://docs.sim.ai/connections/basics"
-    },
-    {
-      "type": "Copilot",
-      "url": "https://docs.sim.ai/copilot"
-    },
-    {
-      "type": "Overview",
-      "url": "https://docs.sim.ai/execution"
-    },
-    {
-      "type": "Workflow Variables",
-      "url": "https://docs.sim.ai/variables/workflow-variables"
-    },
-    {
-      "type": "Environment Variables",
-      "url": "https://docs.sim.ai/variables/environment-variables"
-    },
-    {
-      "type": "Zoom",
-      "url": "https://docs.sim.ai/tools/zoom"
-    },
-    {
-      "type": "Logging",
-      "url": "https://docs.sim.ai/execution/logging"
-    },
-    {
-      "type": "Roles and Permissions",
-      "url": "https://docs.sim.ai/permissions/roles-and-permissions"
-    },
-    {
-      "type": "Tags and Filtering",
-      "url": "https://docs.sim.ai/knowledgebase/tags"
-    },
-    {
-      "type": "Data Structure",
-      "url": "https://docs.sim.ai/connections/data-structure"
-    },
-    {
-      "type": "Overview",
-      "url": "https://docs.sim.ai/knowledgebase"
-    },
-    {
-      "type": "Overview",
-      "url": "https://docs.sim.ai/connections"
-    },
-    {
-      "type": "Basics",
-      "url": "https://docs.sim.ai/execution/basics"
-    },
-    {
-      "type": "Cost Calculation",
-      "url": "https://docs.sim.ai/execution/costs"
-    },
-    {
-      "type": "Environment Variables",
-      "url": "https://docs.sim.ai/self-hosting/environment-variables"
-    },
-    {
-      "type": "Self-Hosting",
-      "url": "https://docs.sim.ai/self-hosting"
-    },
-    {
-      "type": "Cloud Platforms",
-      "url": "https://docs.sim.ai/self-hosting/platforms"
-    },
-    {
-      "type": "External API",
-      "url": "https://docs.sim.ai/execution/api"
-    },
-    {
-      "type": "Troubleshooting",
-      "url": "https://docs.sim.ai/self-hosting/troubleshooting"
-    },
-    {
-      "type": "Kubernetes",
-      "url": "https://docs.sim.ai/self-hosting/kubernetes"
-    },
-    {
-      "type": "Docker",
-      "url": "https://docs.sim.ai/self-hosting/docker"
+      "type": "Archivo",
+      "url": "https://docs.sim.ai/es/tools/file"
     }
   ],
-  "latestVersion": "1.2.0",
+  "latestVersion": "1.2.1",
   "versions": [
     {
-      "version": "1.0.0",
-      "timestamp": "2025-10-18T15:15:01.028Z",
-      "filename": "documentation_2025-10-18T15:15:01.028Z.md",
+      "version": "1.2.1",
+      "label": "latest",
+      "timestamp": "2026-02-05T17:06:24.290Z",
+      "filename": "documentation_2026-02-05T17:06:24.290Z.md",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "url": "https://docs.sim.ai/getting-started",
+      "isLatest": true
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2025-12-29T01:05:56.982Z",
+      "filename": "documentation_2025-12-29T01:05:56.982Z.md",
       "totalPages": 153,
       "successfulPages": 153,
       "url": "https://docs.sim.ai/introduction",
@@ -640,14 +102,13 @@
       "isLatest": false
     },
     {
-      "version": "1.2.0",
-      "timestamp": "2025-12-29T01:05:56.982Z",
-      "filename": "documentation_2025-12-29T01:05:56.982Z.md",
+      "version": "1.0.0",
+      "timestamp": "2025-10-18T15:15:01.028Z",
+      "filename": "documentation_2025-10-18T15:15:01.028Z.md",
       "totalPages": 153,
       "successfulPages": 153,
       "url": "https://docs.sim.ai/introduction",
-      "isLatest": true,
-      "label": "latest"
+      "isLatest": false
     }
   ],
   "schemaVersion": 2

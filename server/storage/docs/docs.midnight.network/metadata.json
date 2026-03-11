@@ -1,1 +1,2403 @@
-{"url":"https://docs.midnight.network/compact/compact-std-library","domain":"docs.midnight.network","lastScraped":"2026-01-15T04:34:32.277Z","totalPages":4,"successfulPages":4,"failedPages":[],"structure":[{"type":"Compact standard library | Midnight Docs","url":"https://docs.midnight.network/compact/compact-std-library"},{"type":"Detailed API reference | Midnight Docs","url":"https://docs.midnight.network/compact/compact-std-library/exports"},{"type":"Compact standard library | Midnight Docs","url":"https://docs.midnight.network/develop/reference/compact/compact-std-library"},{"type":"Detailed API reference | Midnight Docs","url":"https://docs.midnight.network/develop/reference/compact/compact-std-library/exports"}]}
+{
+  "url": "https://docs.midnight.network/compact/compact-std-library",
+  "domain": "docs.midnight.network",
+  "lastScraped": "2026-02-18T17:02:22.576Z",
+  "totalPages": 579,
+  "successfulPages": 579,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Midnight Documentation | Midnight Docs",
+      "url": "https://docs.midnight.network/"
+    },
+    {
+      "type": "Dev Diaries | Midnight Docs",
+      "url": "https://docs.midnight.network/blog"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/archive"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/authors"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/bech32m-hex"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/community-hub"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/compact-developer-tools"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/connect-dapp-lace-wallet"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/compact-division"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/dust-architecture"
+    },
+    {
+      "type": "How-To | Midnight Docs",
+      "url": "https://docs.midnight.network/develop/how-to"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/compact-2"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/compact"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/compact-3"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/dapp-developers-bls-upgrade"
+    },
+    {
+      "type": "Search the documentation | Midnight Docs",
+      "url": "https://docs.midnight.network/search"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/hacktoberfest25"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/from-frustration-to-framework"
+    },
+    {
+      "type": "One doc tagged with \"error codes\" | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/tags/error-codes"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/funbigle-token-contract-open-zeppelin"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/meeting"
+    },
+    {
+      "type": "One doc tagged with \"rate limits\" | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/tags/rate-limits"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/midnight-indexer"
+    },
+    {
+      "type": "One doc tagged with \"authentication\" | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/tags/authentication"
+    },
+    {
+      "type": "Tags | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/tags"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/midnight-indexer-replaces-scala"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/query-the-blockchain"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/midnight-testnet-upgrade-key-changes"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/open-sourcing-examples"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/midnight-mcp-ai-assisted-development"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/ai"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/bls"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/dust"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/indexer"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/community"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/javascript"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/meeting"
+    },
+    {
+      "type": "Midnight APIs | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference"
+    },
+    {
+      "type": "API reference | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/category/midnight-indexer-api"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/developer-tools"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/dapp"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/midnight-js"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/partner-chains"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/hackathon"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/mcp"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/spo"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/spos"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/night"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/zkp"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/testnet-02-transition"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/web3-intro-hashing-and-digital-signatures"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/midnight"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/wallet"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/web3-intro"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/testnet"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/web3-intro-encryption-and-pbft"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/zkp"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/zero-knowledge"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/intro"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/web3-intro-history-and-tokens"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/web3-intro-merkle-trees-and-dao"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/web3-intro-understanding-ethereum"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/web3-intro-smart-contracts-and-compact"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/beginner"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/web3-intro-what-are-zkps"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/blockchain"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/web3-intro-selective-disclosure"
+    },
+    {
+      "type": "Compact runtime API | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime"
+    },
+    {
+      "type": "NetworkId | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/enumerations/NetworkId"
+    },
+    {
+      "type": "ChargedState | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/ChargedState"
+    },
+    {
+      "type": "CompactTypeBoolean | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/CompactTypeBoolean"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/web-3"
+    },
+    {
+      "type": "CompactTypeCurvePoint | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/CompactTypeCurvePoint"
+    },
+    {
+      "type": "CompactTypeEnum | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/CompactTypeEnum"
+    },
+    {
+      "type": "CompactTypeBytes | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/CompactTypeBytes"
+    },
+    {
+      "type": "CompactTypeField | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/CompactTypeField"
+    },
+    {
+      "type": "CompactTypeMerkleTreeDigest | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/CompactTypeMerkleTreeDigest"
+    },
+    {
+      "type": "CompactTypeMerkleTreePath | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/CompactTypeMerkleTreePath"
+    },
+    {
+      "type": "CompactError | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/CompactError"
+    },
+    {
+      "type": "ContractMaintenanceAuthority | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/ContractMaintenanceAuthority"
+    },
+    {
+      "type": "CompactTypeOpaqueString | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/CompactTypeOpaqueString"
+    },
+    {
+      "type": "CompactTypeMerkleTreePathEntry | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/CompactTypeMerkleTreePathEntry"
+    },
+    {
+      "type": "CompactTypeOpaqueUint8Array | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/CompactTypeOpaqueUint8Array"
+    },
+    {
+      "type": "CostModel | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/CostModel"
+    },
+    {
+      "type": "ContractOperation | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/ContractOperation"
+    },
+    {
+      "type": "VmResults | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/VmResults"
+    },
+    {
+      "type": "QueryResults | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/QueryResults"
+    },
+    {
+      "type": "StateValue | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/StateValue"
+    },
+    {
+      "type": "CompactTypeVector | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/CompactTypeVector"
+    },
+    {
+      "type": "StateMap | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/StateMap"
+    },
+    {
+      "type": "StateBoundedMerkleTree | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/StateBoundedMerkleTree"
+    },
+    {
+      "type": "VmStack | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/VmStack"
+    },
+    {
+      "type": "CompactTypeUnsignedInteger | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/CompactTypeUnsignedInteger"
+    },
+    {
+      "type": "QueryContext | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/QueryContext"
+    },
+    {
+      "type": "ContractState | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/classes/ContractState"
+    },
+    {
+      "type": "ErrorCodes | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/dapp-connector/variables/ErrorCodes"
+    },
+    {
+      "type": "APIError | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/dapp-connector/classes/APIError"
+    },
+    {
+      "type": "ErrorCode | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/dapp-connector/type-aliases/ErrorCode"
+    },
+    {
+      "type": "globals | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/dapp-connector/globals"
+    },
+    {
+      "type": "ServiceUriConfig | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/dapp-connector/interfaces/ServiceUriConfig"
+    },
+    {
+      "type": "DAppConnectorAPI | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/dapp-connector/interfaces/DAppConnectorAPI"
+    },
+    {
+      "type": "DAppConnectorWalletState | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/dapp-connector/interfaces/DAppConnectorWalletState"
+    },
+    {
+      "type": "DAppConnectorWalletAPI | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/dapp-connector/interfaces/DAppConnectorWalletAPI"
+    },
+    {
+      "type": "NetworkId | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/enumerations/NetworkId"
+    },
+    {
+      "type": "Midnight DApp connector API | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/dapp-connector"
+    },
+    {
+      "type": "Midnight.js API | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/midnight-js"
+    },
+    {
+      "type": "Midnight Indexer API Documentation v1 | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/midnight-indexer"
+    },
+    {
+      "type": "Midnight Dev Diaries",
+      "url": "https://docs.midnight.network/blog/tags/compact"
+    },
+    {
+      "type": "NetworkId | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/enumerations/NetworkId"
+    },
+    {
+      "type": "ConstructorContext | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/ConstructorContext"
+    },
+    {
+      "type": "CircuitContext | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/CircuitContext"
+    },
+    {
+      "type": "CircuitResults | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/CircuitResults"
+    },
+    {
+      "type": "Authentication | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/overview/authentication"
+    },
+    {
+      "type": "Rate limits | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/overview/rate-limits"
+    },
+    {
+      "type": "Error codes | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/overview/error-codes"
+    },
+    {
+      "type": "On-Chain runtime API | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime"
+    },
+    {
+      "type": "ConstructorResult | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/ConstructorResult"
+    },
+    {
+      "type": "CurvePoint | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/CurvePoint"
+    },
+    {
+      "type": "EncodedQualifiedShieldedCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/EncodedQualifiedShieldedCoinInfo"
+    },
+    {
+      "type": "EncodedCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/EncodedCoinInfo"
+    },
+    {
+      "type": "MerkleTreePathEntry | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/MerkleTreePathEntry"
+    },
+    {
+      "type": "MerkleTreePath | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/MerkleTreePath"
+    },
+    {
+      "type": "MerkleTreeDigest | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/MerkleTreeDigest"
+    },
+    {
+      "type": "NativePoint | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/NativePoint"
+    },
+    {
+      "type": "EncodedRecipient | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/EncodedRecipient"
+    },
+    {
+      "type": "EncodedZswapLocalState | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/EncodedZswapLocalState"
+    },
+    {
+      "type": "midnight-js-fetch-zk-config-provider | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/midnight-js/@midnight-ntwrk/midnight-js-fetch-zk-config-provider"
+    },
+    {
+      "type": "EncodedQualifiedCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/EncodedQualifiedCoinInfo"
+    },
+    {
+      "type": "EncodedContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/EncodedContractAddress"
+    },
+    {
+      "type": "midnight-js-logger-provider | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/midnight-js/@midnight-ntwrk/midnight-js-logger-provider"
+    },
+    {
+      "type": "midnight-js-http-client-proof-provider | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/midnight-js/@midnight-ntwrk/midnight-js-http-client-proof-provider"
+    },
+    {
+      "type": "PartialProofData | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/PartialProofData"
+    },
+    {
+      "type": "midnight-js-level-private-state-provider | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/midnight-js/@midnight-ntwrk/midnight-js-level-private-state-provider"
+    },
+    {
+      "type": "midnight-js-node-zk-config-provider | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/midnight-js/@midnight-ntwrk/midnight-js-node-zk-config-provider"
+    },
+    {
+      "type": "packages | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/midnight-js/packages"
+    },
+    {
+      "type": "midnight-js-indexer-public-data-provider | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/midnight-js/@midnight-ntwrk/midnight-js-indexer-public-data-provider"
+    },
+    {
+      "type": "CompactType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/CompactType"
+    },
+    {
+      "type": "EncodedCoinPublicKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/EncodedCoinPublicKey"
+    },
+    {
+      "type": "Recipient | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/Recipient"
+    },
+    {
+      "type": "WitnessContext | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/WitnessContext"
+    },
+    {
+      "type": "EncodedShieldedCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/EncodedShieldedCoinInfo"
+    },
+    {
+      "type": "ZswapLocalState | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/ZswapLocalState"
+    },
+    {
+      "type": "Ledger API | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger"
+    },
+    {
+      "type": "midnight-js-utils | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/midnight-js/@midnight-ntwrk/midnight-js-utils"
+    },
+    {
+      "type": "midnight-js-network-id | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/midnight-js/@midnight-ntwrk/midnight-js-network-id"
+    },
+    {
+      "type": "midnight-js-contract | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/midnight-js/@midnight-ntwrk/midnight-js-contracts"
+    },
+    {
+      "type": "ProofData | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/interfaces/ProofData"
+    },
+    {
+      "type": "midnight-js-types | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/midnight-js/@midnight-ntwrk/midnight-js-types"
+    },
+    {
+      "type": "Wallet API | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api"
+    },
+    {
+      "type": "Bytes32Descriptor | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/Bytes32Descriptor"
+    },
+    {
+      "type": "midnight-js-testing | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/midnight-js/@midnight-ntwrk/midnight-js-testing"
+    },
+    {
+      "type": "BooleanDescriptor | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/BooleanDescriptor"
+    },
+    {
+      "type": "CompactTypeField | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/CompactTypeField"
+    },
+    {
+      "type": "CompactTypeOpaqueString | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/CompactTypeOpaqueString"
+    },
+    {
+      "type": "TRANSACTION_TO_PROVE | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/variables/TRANSACTION_TO_PROVE"
+    },
+    {
+      "type": "NOTHING_TO_PROVE | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/variables/NOTHING_TO_PROVE"
+    },
+    {
+      "type": "Compact runtime API | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/compact-runtime"
+    },
+    {
+      "type": "CONTRACT_ADDRESS_BYTE_LENGTH | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/CONTRACT_ADDRESS_BYTE_LENGTH"
+    },
+    {
+      "type": "MAX_FIELD | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/MAX_FIELD"
+    },
+    {
+      "type": "CompactTypeOpaqueUint8Array | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/CompactTypeOpaqueUint8Array"
+    },
+    {
+      "type": "CompactTypeBoolean | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/CompactTypeBoolean"
+    },
+    {
+      "type": "HEX_REGEX_NO_PREFIX | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/HEX_REGEX_NO_PREFIX"
+    },
+    {
+      "type": "CompactTypeMerkleTreePathEntry | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/CompactTypeMerkleTreePathEntry"
+    },
+    {
+      "type": "MaxUint8Descriptor | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/MaxUint8Descriptor"
+    },
+    {
+      "type": "versionString | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/versionString"
+    },
+    {
+      "type": "BALANCE_TRANSACTION_TO_PROVE | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/variables/BALANCE_TRANSACTION_TO_PROVE"
+    },
+    {
+      "type": "Reference documentation | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference"
+    },
+    {
+      "type": "CompactTypeNativePoint | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/CompactTypeNativePoint"
+    },
+    {
+      "type": "CompactTypeMerkleTreeDigest | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/CompactTypeMerkleTreeDigest"
+    },
+    {
+      "type": "ContractOperation | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/classes/ContractOperation"
+    },
+    {
+      "type": "QueryResults | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/classes/QueryResults"
+    },
+    {
+      "type": "CostModel | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/classes/CostModel"
+    },
+    {
+      "type": "StateMap | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/classes/StateMap"
+    },
+    {
+      "type": "VmResults | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/classes/VmResults"
+    },
+    {
+      "type": "VmStack | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/classes/VmStack"
+    },
+    {
+      "type": "ContractMaintenanceAuthority | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/classes/ContractMaintenanceAuthority"
+    },
+    {
+      "type": "CoinInfoDescriptor | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/CoinInfoDescriptor"
+    },
+    {
+      "type": "DUMMY_ADDRESS | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/DUMMY_ADDRESS"
+    },
+    {
+      "type": "README | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/midnight-js"
+    },
+    {
+      "type": "globals | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/dapp-connector/globals"
+    },
+    {
+      "type": "CoinRecipientDescriptor | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/CoinRecipientDescriptor"
+    },
+    {
+      "type": "StateBoundedMerkleTree | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/classes/StateBoundedMerkleTree"
+    },
+    {
+      "type": "ContractAddressDescriptor | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/ContractAddressDescriptor"
+    },
+    {
+      "type": "StateValue | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/classes/StateValue"
+    },
+    {
+      "type": "Ledger API | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/ledger"
+    },
+    {
+      "type": "packages | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/midnight-js/packages"
+    },
+    {
+      "type": "globals | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/ledger/globals"
+    },
+    {
+      "type": "On-Chain runtime API | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/onchain-runtime"
+    },
+    {
+      "type": "globals | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/wallet-api/globals"
+    },
+    {
+      "type": "globals | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/onchain-runtime/globals"
+    },
+    {
+      "type": "One doc tagged with \"developer-tools\" | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/tags/developer-tools"
+    },
+    {
+      "type": "ShieldedCoinInfoDescriptor | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/ShieldedCoinInfoDescriptor"
+    },
+    {
+      "type": "ShieldedCoinRecipientDescriptor | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/ShieldedCoinRecipientDescriptor"
+    },
+    {
+      "type": "ContractState | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/classes/ContractState"
+    },
+    {
+      "type": "ZswapCoinPublicKeyDescriptor | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/variables/ZswapCoinPublicKeyDescriptor"
+    },
+    {
+      "type": "The Compact language | Midnight Docs",
+      "url": "https://docs.midnight.network/compact"
+    },
+    {
+      "type": "Formal grammar | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/compact-grammar"
+    },
+    {
+      "type": "Wallet API | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/wallet-api"
+    },
+    {
+      "type": "globals | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/zswap/globals"
+    },
+    {
+      "type": "globals | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/compact-runtime/globals"
+    },
+    {
+      "type": "ZSwap API | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/zswap"
+    },
+    {
+      "type": "Wallet | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/interfaces/Wallet"
+    },
+    {
+      "type": "NetworkId | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/enumerations/NetworkId"
+    },
+    {
+      "type": "Opaque data types | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/opaque_data"
+    },
+    {
+      "type": "2 docs tagged with \"developer guide\" | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/tags/developer-guide"
+    },
+    {
+      "type": "DApp connector API | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/dapp-connector"
+    },
+    {
+      "type": "One doc tagged with \"authentication\" | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/tags/authentication"
+    },
+    {
+      "type": "Compact standard library | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/compact-std-library"
+    },
+    {
+      "type": "One doc tagged with \"typescript\" | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/tags/typescript"
+    },
+    {
+      "type": "Midnight APIs | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api"
+    },
+    {
+      "type": "QueryContext | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/classes/QueryContext"
+    },
+    {
+      "type": "One doc tagged with \"midnight.js\" | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/tags/midnight-js"
+    },
+    {
+      "type": "One doc tagged with \"issues\" | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/tags/issues"
+    },
+    {
+      "type": "One doc tagged with \"rate limits\" | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/tags/rate-limits"
+    },
+    {
+      "type": "One doc tagged with \"wallet\" | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/tags/wallet"
+    },
+    {
+      "type": "One doc tagged with \"error codes\" | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/tags/error-codes"
+    },
+    {
+      "type": "Midnight Indexer API Documentation v1 | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/midnight-api/midnight-indexer"
+    },
+    {
+      "type": "One doc tagged with \"integration\" | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/tags/integration"
+    },
+    {
+      "type": "Explicit disclosure | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/explicit_disclosure"
+    },
+    {
+      "type": "ZSwap API | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap"
+    },
+    {
+      "type": "createCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/functions/createCoinInfo"
+    },
+    {
+      "type": "nativeToken | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/functions/nativeToken"
+    },
+    {
+      "type": "sampleContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/functions/sampleContractAddress"
+    },
+    {
+      "type": "sampleTokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/functions/sampleTokenType"
+    },
+    {
+      "type": "4 docs tagged with \"sdk\" | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/tags/sdk"
+    },
+    {
+      "type": "sampleCoinPublicKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/functions/sampleCoinPublicKey"
+    },
+    {
+      "type": "Detailed API reference | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/compact-std-library/exports"
+    },
+    {
+      "type": "EncPublicKeyLegacy | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/EncPublicKeyLegacy"
+    },
+    {
+      "type": "CoinPublicKeyLegacy | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/CoinPublicKeyLegacy"
+    },
+    {
+      "type": "Address | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/Address"
+    },
+    {
+      "type": "AddressLegacy | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/AddressLegacy"
+    },
+    {
+      "type": "CoinPublicKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/CoinPublicKey"
+    },
+    {
+      "type": "TransactionHash | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/TransactionHash"
+    },
+    {
+      "type": "NothingToProve | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/NothingToProve"
+    },
+    {
+      "type": "SyncLag | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/SyncLag"
+    },
+    {
+      "type": "Ledger data types | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/ledger-adt"
+    },
+    {
+      "type": "Tools | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/tools"
+    },
+    {
+      "type": "Tags | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/tags"
+    },
+    {
+      "type": "ApplyStage | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/ApplyStage"
+    },
+    {
+      "type": "ProvingRecipe | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/ProvingRecipe"
+    },
+    {
+      "type": "BalanceTransactionToProve | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/BalanceTransactionToProve"
+    },
+    {
+      "type": "globals | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/globals"
+    },
+    {
+      "type": "TransactionIdentifier | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/TransactionIdentifier"
+    },
+    {
+      "type": "TokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/TokenType"
+    },
+    {
+      "type": "Compact Compiler Manual Page | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/tools/compiler-usage"
+    },
+    {
+      "type": "One doc tagged with \"advanced\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/advanced"
+    },
+    {
+      "type": "One doc tagged with \"best practices\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/best-practices"
+    },
+    {
+      "type": "One doc tagged with \"builder\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/builder"
+    },
+    {
+      "type": "One doc tagged with \"bun\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/bun"
+    },
+    {
+      "type": "Troubleshoot | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/category/troubleshoot"
+    },
+    {
+      "type": "Community SDKs | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/category/community-sdks"
+    },
+    {
+      "type": "Error codes | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/category/error-codes"
+    },
+    {
+      "type": "TokenTransfer | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/TokenTransfer"
+    },
+    {
+      "type": "SyncProgress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/SyncProgress"
+    },
+    {
+      "type": "TransactionHistoryEntry | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/TransactionHistoryEntry"
+    },
+    {
+      "type": "CoinCommitment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/type-aliases/CoinCommitment"
+    },
+    {
+      "type": "ContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/type-aliases/ContractAddress"
+    },
+    {
+      "type": "CoinPublicKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/type-aliases/CoinPublicKey"
+    },
+    {
+      "type": "One doc tagged with \"compatibility\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/compatibility"
+    },
+    {
+      "type": "One doc tagged with \"DApps\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/d-apps"
+    },
+    {
+      "type": "One doc tagged with \"deployment\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/deployment"
+    },
+    {
+      "type": "One doc tagged with \"development\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/development"
+    },
+    {
+      "type": "Official SDKs | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/category/official-sdks"
+    },
+    {
+      "type": "Visual Studio Code extension for Compact | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/reference/tools/vsc-plugin"
+    },
+    {
+      "type": "TransactionToProve | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/TransactionToProve"
+    },
+    {
+      "type": "Nonce | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/type-aliases/Nonce"
+    },
+    {
+      "type": "EncPublicKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/type-aliases/EncPublicKey"
+    },
+    {
+      "type": "One doc tagged with \"getting-started\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/getting-started"
+    },
+    {
+      "type": "One doc tagged with \"glossary\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/glossary"
+    },
+    {
+      "type": "One doc tagged with \"dapp\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/dapp"
+    },
+    {
+      "type": "Midnight SDKs | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks"
+    },
+    {
+      "type": "WalletState | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/wallet-api/type-aliases/WalletState"
+    },
+    {
+      "type": "CoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/type-aliases/CoinInfo"
+    },
+    {
+      "type": "TokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/type-aliases/TokenType"
+    },
+    {
+      "type": "Nullifier | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/type-aliases/Nullifier"
+    },
+    {
+      "type": "2 docs tagged with \"errors\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/errors"
+    },
+    {
+      "type": "One doc tagged with \"loan\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/loan"
+    },
+    {
+      "type": "One doc tagged with \"Midnight.js\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/midnight-js"
+    },
+    {
+      "type": "One doc tagged with \"nextjs\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/nextjs"
+    },
+    {
+      "type": "One doc tagged with \"nixos\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/nixos"
+    },
+    {
+      "type": "Writing a contract | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/writing"
+    },
+    {
+      "type": "Alignment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/Alignment"
+    },
+    {
+      "type": "CoinCommitment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/CoinCommitment"
+    },
+    {
+      "type": "CoinPublicKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/CoinPublicKey"
+    },
+    {
+      "type": "DomainSeperator | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/DomainSeperator"
+    },
+    {
+      "type": "Alignment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/Alignment"
+    },
+    {
+      "type": "AlignedValue | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/AlignedValue"
+    },
+    {
+      "type": "AlignmentAtom | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/AlignmentAtom"
+    },
+    {
+      "type": "AlignmentSegment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/AlignmentSegment"
+    },
+    {
+      "type": "CommunicationCommitmentRand | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/CommunicationCommitmentRand"
+    },
+    {
+      "type": "EncPublicKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/EncPublicKey"
+    },
+    {
+      "type": "ContractAction | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/ContractAction"
+    },
+    {
+      "type": "CommunicationCommitment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/CommunicationCommitment"
+    },
+    {
+      "type": "AlignmentSegment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/AlignmentSegment"
+    },
+    {
+      "type": "AlignmentAtom | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/AlignmentAtom"
+    },
+    {
+      "type": "CoinCommitment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/CoinCommitment"
+    },
+    {
+      "type": "CoinPublicKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/CoinPublicKey"
+    },
+    {
+      "type": "DomainSeperator | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/DomainSeperator"
+    },
+    {
+      "type": "ContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/ContractAddress"
+    },
+    {
+      "type": "TransactionId | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/type-aliases/TransactionId"
+    },
+    {
+      "type": "TransactionHash | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/type-aliases/TransactionHash"
+    },
+    {
+      "type": "3 docs tagged with \"compact\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/compact"
+    },
+    {
+      "type": "2 docs tagged with \"installation\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/installation"
+    },
+    {
+      "type": "ContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/ContractAddress"
+    },
+    {
+      "type": "Fr | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/Fr"
+    },
+    {
+      "type": "Effects | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/Effects"
+    },
+    {
+      "type": "BlockContext | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/BlockContext"
+    },
+    {
+      "type": "CoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/CoinInfo"
+    },
+    {
+      "type": "Nullifier | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/Nullifier"
+    },
+    {
+      "type": "Nonce | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/Nonce"
+    },
+    {
+      "type": "GatherResult | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/GatherResult"
+    },
+    {
+      "type": "Signature | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/Signature"
+    },
+    {
+      "type": "Key | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/Key"
+    },
+    {
+      "type": "SigningKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/SigningKey"
+    },
+    {
+      "type": "TransactionHash | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/TransactionHash"
+    },
+    {
+      "type": "QualifiedCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/QualifiedCoinInfo"
+    },
+    {
+      "type": "SignatureVerifyingKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/SignatureVerifyingKey"
+    },
+    {
+      "type": "TokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/TokenType"
+    },
+    {
+      "type": "TransactionId | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/TransactionId"
+    },
+    {
+      "type": "Value | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/Value"
+    },
+    {
+      "type": "QualifiedCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/type-aliases/QualifiedCoinInfo"
+    },
+    {
+      "type": "Build using MeshSDK | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/community/build-using-meshsdk"
+    },
+    {
+      "type": "Core API methods | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/community/build-using-meshsdk/core-api-methods"
+    },
+    {
+      "type": "List of error codes | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/error-codes"
+    },
+    {
+      "type": "One doc tagged with \"preview\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/preview"
+    },
+    {
+      "type": "One doc tagged with \"preprod\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/preprod"
+    },
+    {
+      "type": "One doc tagged with \"react\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/react"
+    },
+    {
+      "type": "One doc tagged with \"npm\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/npm"
+    },
+    {
+      "type": "One doc tagged with \"JavaScript\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/java-script"
+    },
+    {
+      "type": "AlignedValue | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/AlignedValue"
+    },
+    {
+      "type": "Nonce | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/Nonce"
+    },
+    {
+      "type": "BlockContext | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/BlockContext"
+    },
+    {
+      "type": "CoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/CoinInfo"
+    },
+    {
+      "type": "Effects | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/Effects"
+    },
+    {
+      "type": "GatherResult | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/GatherResult"
+    },
+    {
+      "type": "SignatureVerifyingKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/SignatureVerifyingKey"
+    },
+    {
+      "type": "Key | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/Key"
+    },
+    {
+      "type": "SigningKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/SigningKey"
+    },
+    {
+      "type": "TokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/TokenType"
+    },
+    {
+      "type": "Value | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/Value"
+    },
+    {
+      "type": "Fr | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/Fr"
+    },
+    {
+      "type": "Nullifier | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/Nullifier"
+    },
+    {
+      "type": "QualifiedCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/QualifiedCoinInfo"
+    },
+    {
+      "type": "Op | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/Op"
+    },
+    {
+      "type": "EncodedStateValue | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/EncodedStateValue"
+    },
+    {
+      "type": "Transcript | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/Transcript"
+    },
+    {
+      "type": "Signature | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/Signature"
+    },
+    {
+      "type": "Authentication | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/overview/authentication"
+    },
+    {
+      "type": "Rate limits | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/overview/rate-limits"
+    },
+    {
+      "type": "EncodedStateValue | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/EncodedStateValue"
+    },
+    {
+      "type": "Transcript | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/Transcript"
+    },
+    {
+      "type": "Op | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/type-aliases/Op"
+    },
+    {
+      "type": "SingleUpdate | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/type-aliases/SingleUpdate"
+    },
+    {
+      "type": "3 docs tagged with \"security\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/security"
+    },
+    {
+      "type": "Getting started | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/community/build-using-meshsdk/getting-started"
+    },
+    {
+      "type": "Common SDK integration issues | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/troubleshoot"
+    },
+    {
+      "type": "2 docs tagged with \"setup\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/setup"
+    },
+    {
+      "type": "Midnight.js | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/official/midnight-js"
+    },
+    {
+      "type": "Lace wallet integration | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/community/build-using-meshsdk/lace-wallet"
+    },
+    {
+      "type": "2 docs tagged with \"troubleshooting\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/troubleshooting"
+    },
+    {
+      "type": "2 docs tagged with \"tutorial\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/tutorial"
+    },
+    {
+      "type": "AuthorizedMint | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/AuthorizedMint"
+    },
+    {
+      "type": "One doc tagged with \"version\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/version"
+    },
+    {
+      "type": "One doc tagged with \"tutorials\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/tutorials"
+    },
+    {
+      "type": "One doc tagged with \"zero-knowledge\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/zero-knowledge"
+    },
+    {
+      "type": "One doc tagged with \"ZK\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/zk"
+    },
+    {
+      "type": "Input | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/Input"
+    },
+    {
+      "type": "5 docs tagged with \"node\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/node"
+    },
+    {
+      "type": "AlignmentAtom | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/AlignmentAtom"
+    },
+    {
+      "type": "Alignment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/Alignment"
+    },
+    {
+      "type": "AlignmentSegment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/AlignmentSegment"
+    },
+    {
+      "type": "CoinCommitment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/CoinCommitment"
+    },
+    {
+      "type": "CoinPublicKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/CoinPublicKey"
+    },
+    {
+      "type": "CommunicationCommitment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/CommunicationCommitment"
+    },
+    {
+      "type": "CoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/CoinInfo"
+    },
+    {
+      "type": "CommunicationCommitmentRand | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/CommunicationCommitmentRand"
+    },
+    {
+      "type": "ContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/ContractAddress"
+    },
+    {
+      "type": "BlockContext | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/BlockContext"
+    },
+    {
+      "type": "MerkleTreeCollapsedUpdate | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/MerkleTreeCollapsedUpdate"
+    },
+    {
+      "type": "ProofErasedOffer | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/ProofErasedOffer"
+    },
+    {
+      "type": "Output | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/Output"
+    },
+    {
+      "type": "ProofErasedInput | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/ProofErasedInput"
+    },
+    {
+      "type": "LedgerParameters | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/LedgerParameters"
+    },
+    {
+      "type": "EncryptionSecretKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/EncryptionSecretKey"
+    },
+    {
+      "type": "3 docs tagged with \"smart contract\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/smart-contract"
+    },
+    {
+      "type": "AlignedValue | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/AlignedValue"
+    },
+    {
+      "type": "DustTokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/DustTokenType"
+    },
+    {
+      "type": "CallContext | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/CallContext"
+    },
+    {
+      "type": "bigIntModFr | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/bigIntModFr"
+    },
+    {
+      "type": "Nonce | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/Nonce"
+    },
+    {
+      "type": "DomainSeparator | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/DomainSeparator"
+    },
+    {
+      "type": "Key | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/Key"
+    },
+    {
+      "type": "DomainSeperator | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/DomainSeperator"
+    },
+    {
+      "type": "dummyContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/dummyContractAddress"
+    },
+    {
+      "type": "coinCommitment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/coinCommitment"
+    },
+    {
+      "type": "PublicAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/PublicAddress"
+    },
+    {
+      "type": "PublicLedgerSegments | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/PublicLedgerSegments"
+    },
+    {
+      "type": "Effects | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/Effects"
+    },
+    {
+      "type": "EmptyPublicLedger | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/EmptyPublicLedger"
+    },
+    {
+      "type": "Fr | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/Fr"
+    },
+    {
+      "type": "Nullifier | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/Nullifier"
+    },
+    {
+      "type": "GatherResult | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/GatherResult"
+    },
+    {
+      "type": "checkProofData | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/checkProofData"
+    },
+    {
+      "type": "bigIntModFr | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/bigIntModFr"
+    },
+    {
+      "type": "coinCommitment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/coinCommitment"
+    },
+    {
+      "type": "ProofErasedTransaction | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/ProofErasedTransaction"
+    },
+    {
+      "type": "Offer | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/Offer"
+    },
+    {
+      "type": "ProofErasedTransient | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/ProofErasedTransient"
+    },
+    {
+      "type": "ProofErasedOutput | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/ProofErasedOutput"
+    },
+    {
+      "type": "ProofErasedAuthorizedMint | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/ProofErasedAuthorizedMint"
+    },
+    {
+      "type": "3 docs tagged with \"wallet\" | Midnight Docs",
+      "url": "https://docs.midnight.network/next/tags/wallet"
+    },
+    {
+      "type": "Compact reference | Midnight Docs",
+      "url": "https://docs.midnight.network/compact/lang-ref"
+    },
+    {
+      "type": "RawTokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/RawTokenType"
+    },
+    {
+      "type": "QualifiedShieldedCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/QualifiedShieldedCoinInfo"
+    },
+    {
+      "type": "RunningCost | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/RunningCost"
+    },
+    {
+      "type": "communicationCommitment | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/communicationCommitment"
+    },
+    {
+      "type": "bigIntToValue | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/bigIntToValue"
+    },
+    {
+      "type": "dummyContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/dummyContractAddress"
+    },
+    {
+      "type": "ContractReferenceLocations | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/ContractReferenceLocations"
+    },
+    {
+      "type": "SigningKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/SigningKey"
+    },
+    {
+      "type": "Signature | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/Signature"
+    },
+    {
+      "type": "ShieldedTokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/ShieldedTokenType"
+    },
+    {
+      "type": "ShieldedCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/ShieldedCoinInfo"
+    },
+    {
+      "type": "SignatureVerifyingKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/SignatureVerifyingKey"
+    },
+    {
+      "type": "QualifiedCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/QualifiedCoinInfo"
+    },
+    {
+      "type": "decodeCoinPublicKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/decodeCoinPublicKey"
+    },
+    {
+      "type": "decodeContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/decodeContractAddress"
+    },
+    {
+      "type": "decodeTokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/decodeTokenType"
+    },
+    {
+      "type": "ecMul | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/ecMul"
+    },
+    {
+      "type": "communicationCommitmentRandomness | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/communicationCommitmentRandomness"
+    },
+    {
+      "type": "ecAdd | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/ecAdd"
+    },
+    {
+      "type": "SparseCompactADT | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/SparseCompactADT"
+    },
+    {
+      "type": "Op | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/Op"
+    },
+    {
+      "type": "ecMulGenerator | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/ecMulGenerator"
+    },
+    {
+      "type": "degradeToTransient | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/degradeToTransient"
+    },
+    {
+      "type": "encodeCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/encodeCoinInfo"
+    },
+    {
+      "type": "decodeCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/decodeCoinInfo"
+    },
+    {
+      "type": "createCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/createCoinInfo"
+    },
+    {
+      "type": "decodeQualifiedCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/decodeQualifiedCoinInfo"
+    },
+    {
+      "type": "maxField | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/maxField"
+    },
+    {
+      "type": "leafHash | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/leafHash"
+    },
+    {
+      "type": "checkProofData | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/checkProofData"
+    },
+    {
+      "type": "SystemTransaction | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/SystemTransaction"
+    },
+    {
+      "type": "TransactionCostModel | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/TransactionCostModel"
+    },
+    {
+      "type": "Transient | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/Transient"
+    },
+    {
+      "type": "UnprovenAuthorizedMint | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/UnprovenAuthorizedMint"
+    },
+    {
+      "type": "EncodedStateValue | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/EncodedStateValue"
+    },
+    {
+      "type": "SparseCompactArrayLikeADT | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/SparseCompactArrayLikeADT"
+    },
+    {
+      "type": "encodeCoinPublicKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/encodeCoinPublicKey"
+    },
+    {
+      "type": "encodeTokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/encodeTokenType"
+    },
+    {
+      "type": "degradeToTransient | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/degradeToTransient"
+    },
+    {
+      "type": "decodeTokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/decodeTokenType"
+    },
+    {
+      "type": "decodeContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/decodeContractAddress"
+    },
+    {
+      "type": "decodeQualifiedCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/decodeQualifiedCoinInfo"
+    },
+    {
+      "type": "decodeCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/decodeCoinInfo"
+    },
+    {
+      "type": "decodeCoinPublicKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/decodeCoinPublicKey"
+    },
+    {
+      "type": "bigIntToValue | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/bigIntToValue"
+    },
+    {
+      "type": "SparseCompactCellADT | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/SparseCompactCellADT"
+    },
+    {
+      "type": "SparseCompactListADT | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/SparseCompactListADT"
+    },
+    {
+      "type": "SparseCompactSetADT | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/SparseCompactSetADT"
+    },
+    {
+      "type": "SparseCompactContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/SparseCompactContractAddress"
+    },
+    {
+      "type": "maxAlignedSize | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/maxAlignedSize"
+    },
+    {
+      "type": "encodeQualifiedCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/encodeQualifiedCoinInfo"
+    },
+    {
+      "type": "encodeContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/encodeContractAddress"
+    },
+    {
+      "type": "leafHash | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/leafHash"
+    },
+    {
+      "type": "maxField | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/maxField"
+    },
+    {
+      "type": "SparseCompactMapADT | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/SparseCompactMapADT"
+    },
+    {
+      "type": "SparseCompactType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/SparseCompactType"
+    },
+    {
+      "type": "SparseCompactValue | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/SparseCompactValue"
+    },
+    {
+      "type": "SparseCompactVector | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/SparseCompactVector"
+    },
+    {
+      "type": "nativeToken | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/nativeToken"
+    },
+    {
+      "type": "verifySignature | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/verifySignature"
+    },
+    {
+      "type": "UnprovenInput | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/UnprovenInput"
+    },
+    {
+      "type": "UnprovenOutput | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/UnprovenOutput"
+    },
+    {
+      "type": "UnprovenOffer | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/UnprovenOffer"
+    },
+    {
+      "type": "Transaction | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/Transaction"
+    },
+    {
+      "type": "ZswapChainState | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/ZswapChainState"
+    },
+    {
+      "type": "ecMulGenerator | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/ecMulGenerator"
+    },
+    {
+      "type": "encodeCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/encodeCoinInfo"
+    },
+    {
+      "type": "sampleCoinPublicKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/sampleCoinPublicKey"
+    },
+    {
+      "type": "ecAdd | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/ecAdd"
+    },
+    {
+      "type": "UnshieldedTokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/UnshieldedTokenType"
+    },
+    {
+      "type": "UserAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/UserAddress"
+    },
+    {
+      "type": "TokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/TokenType"
+    },
+    {
+      "type": "Transcript | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/Transcript"
+    },
+    {
+      "type": "SparseCompactStruct | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/SparseCompactStruct"
+    },
+    {
+      "type": "ContractDeploy | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ContractDeploy"
+    },
+    {
+      "type": "ContractMaintenanceAuthority | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ContractMaintenanceAuthority"
+    },
+    {
+      "type": "hashToCurve | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/hashToCurve"
+    },
+    {
+      "type": "sampleTokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/sampleTokenType"
+    },
+    {
+      "type": "signatureVerifyingKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/signatureVerifyingKey"
+    },
+    {
+      "type": "signData | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/signData"
+    },
+    {
+      "type": "sampleSigningKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/sampleSigningKey"
+    },
+    {
+      "type": "sampleContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/sampleContractAddress"
+    },
+    {
+      "type": "encodeTokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/encodeTokenType"
+    },
+    {
+      "type": "maxAlignedSize | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/maxAlignedSize"
+    },
+    {
+      "type": "encodeCoinPublicKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/encodeCoinPublicKey"
+    },
+    {
+      "type": "Value | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/type-aliases/Value"
+    },
+    {
+      "type": "CostModel | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/CostModel"
+    },
+    {
+      "type": "ContractOperationVersion | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ContractOperationVersion"
+    },
+    {
+      "type": "ContractOperationVersionedVerifierKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ContractOperationVersionedVerifierKey"
+    },
+    {
+      "type": "Input | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/Input"
+    },
+    {
+      "type": "AuthorizedMint | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/AuthorizedMint"
+    },
+    {
+      "type": "ContractOperation | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ContractOperation"
+    },
+    {
+      "type": "persistentCommit | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/persistentCommit"
+    },
+    {
+      "type": "persistentHash | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/persistentHash"
+    },
+    {
+      "type": "upgradeFromTransient | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/upgradeFromTransient"
+    },
+    {
+      "type": "valueToBigInt | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/valueToBigInt"
+    },
+    {
+      "type": "encodeContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/encodeContractAddress"
+    },
+    {
+      "type": "ecMul | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/ecMul"
+    },
+    {
+      "type": "encodeQualifiedCoinInfo | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/encodeQualifiedCoinInfo"
+    },
+    {
+      "type": "verifySignature | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/verifySignature"
+    },
+    {
+      "type": "LocalState | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/LocalState"
+    },
+    {
+      "type": "UnprovenTransient | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/UnprovenTransient"
+    },
+    {
+      "type": "UnprovenTransaction | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/zswap/classes/UnprovenTransaction"
+    },
+    {
+      "type": "ContractCallPrototype | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ContractCallPrototype"
+    },
+    {
+      "type": "ContractCall | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ContractCall"
+    },
+    {
+      "type": "LocalState | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/LocalState"
+    },
+    {
+      "type": "signatureVerifyingKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/signatureVerifyingKey"
+    },
+    {
+      "type": "sampleContractAddress | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/sampleContractAddress"
+    },
+    {
+      "type": "sampleSigningKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/sampleSigningKey"
+    },
+    {
+      "type": "LedgerParameters | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/LedgerParameters"
+    },
+    {
+      "type": "tokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/tokenType"
+    },
+    {
+      "type": "hashToCurve | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/hashToCurve"
+    },
+    {
+      "type": "persistentCommit | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/persistentCommit"
+    },
+    {
+      "type": "persistentHash | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/persistentHash"
+    },
+    {
+      "type": "sampleTokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/sampleTokenType"
+    },
+    {
+      "type": "signData | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/signData"
+    },
+    {
+      "type": "ContractCallsPrototype | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ContractCallsPrototype"
+    },
+    {
+      "type": "LedgerState | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/LedgerState"
+    },
+    {
+      "type": "partitionTranscripts | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/partitionTranscripts"
+    },
+    {
+      "type": "transientHash | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/transientHash"
+    },
+    {
+      "type": "transientCommit | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/transientCommit"
+    },
+    {
+      "type": "valueToBigInt | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/valueToBigInt"
+    },
+    {
+      "type": "EncryptionSecretKey | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/EncryptionSecretKey"
+    },
+    {
+      "type": "ProofErasedInput | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ProofErasedInput"
+    },
+    {
+      "type": "ProofErasedOffer | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ProofErasedOffer"
+    },
+    {
+      "type": "Output | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/Output"
+    },
+    {
+      "type": "MerkleTreeCollapsedUpdate | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/MerkleTreeCollapsedUpdate"
+    },
+    {
+      "type": "Offer | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/Offer"
+    },
+    {
+      "type": "StateMap | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/StateMap"
+    },
+    {
+      "type": "tokenType | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/tokenType"
+    },
+    {
+      "type": "transientCommit | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/transientCommit"
+    },
+    {
+      "type": "PreTranscript | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/PreTranscript"
+    },
+    {
+      "type": "MaintenanceUpdate | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/MaintenanceUpdate"
+    },
+    {
+      "type": "ReplaceAuthority | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ReplaceAuthority"
+    },
+    {
+      "type": "ProofErasedOutput | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ProofErasedOutput"
+    },
+    {
+      "type": "ProofErasedTransient | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ProofErasedTransient"
+    },
+    {
+      "type": "ProofErasedAuthorizedMint | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ProofErasedAuthorizedMint"
+    },
+    {
+      "type": "Example integration | Midnight Docs",
+      "url": "https://docs.midnight.network/sdks/community/build-using-meshsdk/example-integration"
+    },
+    {
+      "type": "upgradeFromTransient | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/upgradeFromTransient"
+    },
+    {
+      "type": "ProofErasedTransaction | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ProofErasedTransaction"
+    },
+    {
+      "type": "QueryResults | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/QueryResults"
+    },
+    {
+      "type": "runProgram | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/functions/runProgram"
+    },
+    {
+      "type": "TransactionCostModel | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/TransactionCostModel"
+    },
+    {
+      "type": "ContractState | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ContractState"
+    },
+    {
+      "type": "SystemTransaction | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/SystemTransaction"
+    },
+    {
+      "type": "runProgram | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/runProgram"
+    },
+    {
+      "type": "transientHash | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/onchain-runtime/functions/transientHash"
+    },
+    {
+      "type": "TransactionResult | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/TransactionResult"
+    },
+    {
+      "type": "VerifierKeyRemove | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/VerifierKeyRemove"
+    },
+    {
+      "type": "VmResults | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/VmResults"
+    },
+    {
+      "type": "VmStack | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/VmStack"
+    },
+    {
+      "type": "Transient | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/Transient"
+    },
+    {
+      "type": "VerifierKeyInsert | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/VerifierKeyInsert"
+    },
+    {
+      "type": "UnprovenAuthorizedMint | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/UnprovenAuthorizedMint"
+    },
+    {
+      "type": "StateBoundedMerkleTree | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/StateBoundedMerkleTree"
+    },
+    {
+      "type": "TransactionContext | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/TransactionContext"
+    },
+    {
+      "type": "StateValue | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/StateValue"
+    },
+    {
+      "type": "WellFormedStrictness | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/WellFormedStrictness"
+    },
+    {
+      "type": "UnprovenOffer | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/UnprovenOffer"
+    },
+    {
+      "type": "UnprovenTransaction | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/UnprovenTransaction"
+    },
+    {
+      "type": "UnprovenInput | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/UnprovenInput"
+    },
+    {
+      "type": "Transaction | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/Transaction"
+    },
+    {
+      "type": "UnprovenOutput | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/UnprovenOutput"
+    },
+    {
+      "type": "ZswapChainState | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/ZswapChainState"
+    },
+    {
+      "type": "UnprovenTransient | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/ledger/classes/UnprovenTransient"
+    },
+    {
+      "type": "addField | Midnight Docs",
+      "url": "https://docs.midnight.network/api-reference/compact-runtime/functions/addField"
+    }
+  ],
+  "latestVersion": "1.4.3",
+  "versions": [
+    {
+      "version": "1.4.3",
+      "label": "latest",
+      "timestamp": "2026-02-18T17:02:22.576Z",
+      "filename": "documentation_2026-02-18T17:02:22.576Z.md",
+      "totalPages": 579,
+      "successfulPages": 579,
+      "url": "https://docs.midnight.network/",
+      "isLatest": true
+    },
+    {
+      "version": "1.4.2",
+      "timestamp": "2026-02-11T12:41:51.420Z",
+      "filename": "documentation_2026-02-11T12:41:51.420Z.md",
+      "totalPages": 602,
+      "successfulPages": 602,
+      "url": "https://docs.midnight.network/",
+      "isLatest": false
+    },
+    {
+      "version": "1.4.1",
+      "timestamp": "2026-02-11T12:39:02.533Z",
+      "filename": "documentation_2026-02-11T12:39:02.533Z.md",
+      "totalPages": 449,
+      "successfulPages": 449,
+      "url": "https://docs.midnight.network/",
+      "isLatest": false
+    },
+    {
+      "version": "1.4.0",
+      "timestamp": "2026-01-15T04:34:32.277Z",
+      "filename": "documentation_2026-01-15T04:34:32.277Z.md",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "url": "https://docs.midnight.network/compact/compact-std-library",
+      "isLatest": false
+    },
+    {
+      "version": "1.3.0",
+      "timestamp": "2026-01-15T04:33:56.589Z",
+      "filename": "documentation_2026-01-15T04:33:56.589Z.md",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "url": "https://docs.midnight.network/compact/compact-std-library",
+      "isLatest": false
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2026-01-15T04:33:38.162Z",
+      "filename": "documentation_2026-01-15T04:33:38.162Z.md",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "url": "https://docs.midnight.network/compact/compact-std-library",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-12-24T11:33:03.198Z",
+      "filename": "documentation_2025-12-24T11:33:03.198Z.md",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "url": "https://docs.midnight.network/compact/compact-std-library",
+      "isLatest": false
+    },
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-11-14T05:19:42.608Z",
+      "filename": "documentation_2025-11-14T05:19:42.608Z.md",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "url": "https://docs.midnight.network/compact/compact-std-library",
+      "isLatest": false
+    }
+  ],
+  "schemaVersion": 2
+}

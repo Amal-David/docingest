@@ -1,1 +1,1500 @@
-{"url":"https://docs.yubico.com/software/yubikey/tools/ykman/index.html","domain":"docs.yubico.com","lastScraped":"2025-11-24T20:52:23.112Z","totalPages":369,"successfulPages":369,"failedPages":[],"structure":[{"type":"YubiKey Manager (ykman) CLI User Guide — YubiKey Manager (ykman) CLI Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/ykman/index.html"},{"type":"Introduction — YubiKey Manager (ykman) CLI Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/ykman/intro.html"},{"type":"Installation — YubiKey Manager (ykman) CLI Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/ykman/Install_ykman.html"},{"type":"Using the YubiKey Manager GUI — YubiKey Manager (ykman) CLI Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/ykman/Using_the_ykman_GUI.html"},{"type":"Hidden Commands — YubiKey Manager (ykman) CLI Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/ykman/Hidden_Commands.html"},{"type":"OpenPGP Commands — YubiKey Manager (ykman) CLI Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/ykman/OpenPGP_Commands.html"},{"type":"FIDO Commands — YubiKey Manager (ykman) CLI Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/ykman/FIDO_Commands.html"},{"type":"OATH Commands — YubiKey Manager (ykman) CLI Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/ykman/OATH_Commands.html"},{"type":"Using the ykman CLI — YubiKey Manager (ykman) CLI Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/ykman/Using_the_ykman_CLI.html"},{"type":"Base Commands — YubiKey Manager (ykman) CLI Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/ykman/Base_Commands.html"},{"type":"OTP Commands — YubiKey Manager (ykman) CLI Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/ykman/OTP_Commands.html"},{"type":"HSMauth Commands — YubiKey Manager (ykman) CLI Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/ykman/HSMauth_Commands.html"},{"type":"PIV Commands — YubiKey Manager (ykman) CLI Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/ykman/PIV_Commands.html"},{"type":"Copyright — YubiKey Manager (ykman) CLI Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/ykman/copyright.html"},{"type":"APDUs ","url":"https://docs.yubico.com/yesdk/users-manual/yubikey-reference/apdu.html"},{"type":"YubiHSM 2 User Guide — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/index.html"},{"type":".NET YubiKey SDK: User's Manual ","url":"https://docs.yubico.com/yesdk/users-manual/intro.html"},{"type":".NET YubiKey SDK ","url":"https://docs.yubico.com/yesdk/index.html"},{"type":".NET YubiKey SDK: YubiKey API reference ","url":"https://docs.yubico.com/yesdk/yubikey-api/index.html"},{"type":".NET YubiKey SDK: Core API reference ","url":"https://docs.yubico.com/yesdk/core-api/index.html"},{"type":"What is a YubiKey? ","url":"https://docs.yubico.com/yesdk/users-manual/getting-started/what-is-a-yubikey.html"},{"type":"How to install the SDK ","url":"https://docs.yubico.com/yesdk/users-manual/getting-started/how-to-install.html"},{"type":"Running .NET SDK applications on Linux ","url":"https://docs.yubico.com/yesdk/users-manual/getting-started/running-on-linux.html"},{"type":"Threads ","url":"https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/threads.html"},{"type":"The KeyCollector's touch notification ","url":"https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/key-collector-touch.html"},{"type":"Delegates (callbacks) in the SDK ","url":"https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/delegates-in-sdk.html"},{"type":"The KeyCollector and alternatives ","url":"https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/key-collector.html"},{"type":"Handling Sensitive Data (PINs, Passwords, and Keys) ","url":"https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/sensitive-data.html"},{"type":"Making a connection ","url":"https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/making-a-connection.html"},{"type":"Unknown","url":"https://docs.yubico.com/hardware/yubikey/yk-fips-4/webdocs.pdf"},{"type":"Providing alternate cryptographic implementations ","url":"https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/alternate-crypto.html"},{"type":"Physical interfaces ","url":"https://docs.yubico.com/yesdk/users-manual/yubikey-reference/transports/overview.html"},{"type":"Unknown","url":"https://docs.yubico.com/hardware/oid/webdocs.pdf"},{"type":"Configure slot ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/commands-configure-slot.html"},{"type":"How to retrieve a slot's status ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-retrieve-slot-status.html"},{"type":"How to swap slot configurations ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-swap-slot-configs.html"},{"type":"Swap slot configurations ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/commands-swap-slots.html"},{"type":"Program NDEF ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/commands-program-ndef.html"},{"type":"Update slot ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/commands-update-slot.html"},{"type":"Unknown","url":"https://docs.yubico.com/hardware/yubikey-guidance/best-practices/webdocs.pdf"},{"type":"OTP application concepts ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/application-concepts-overview.html"},{"type":"Update scan-code map ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/commands-update-scan-code-map.html"},{"type":"Get serial number ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/commands-get-serial.html"},{"type":"Get device information ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/commands-get-device-info.html"},{"type":"How to read NDEF information ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-read-ndef-information.html"},{"type":"How to delete a slot's configuration ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-delete-a-slot-configuration.html"},{"type":"Challenge-response ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/commands-challenge-response.html"},{"type":"Query FIPs mode ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/commands-query-fips-mode.html"},{"type":"Read status ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/commands-read-status.html"},{"type":"Read NDEF payload (NFC only) ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/commands-read-ndef.html"},{"type":"How to back up credentials ","url":"https://docs.yubico.com/yesdk/users-manual/application-oath/oath-backup-credentials.html"},{"type":"Configuration concepts ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/configuration-concepts-overview.html"},{"type":"OATH-HOTP ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/hotp.html"},{"type":"OATH credentials overview ","url":"https://docs.yubico.com/yesdk/users-manual/application-oath/oath-credentials.html"},{"type":"Protecting the OATH application with a password ","url":"https://docs.yubico.com/yesdk/users-manual/application-oath/oath-password.html"},{"type":"URI string format ","url":"https://docs.yubico.com/yesdk/users-manual/application-oath/uri-string-format.html"},{"type":"OATH commands and APDUs ","url":"https://docs.yubico.com/yesdk/users-manual/application-oath/oath-commands.html"},{"type":"Building a certificate request for a PIV private key ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/cert-request.html"},{"type":"PIV attestation statements ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/attestation.html"},{"type":"Maximum certificate sizes ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/cert-size.html"},{"type":"ECDSA signatures ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/ecdsa-signatures.html"},{"type":"Elliptic Curve Diffie-Hellman key agreement ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/key-agreement.html"},{"type":"Public key handling ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/public-keys.html"},{"type":"Overview of the SDK ","url":"https://docs.yubico.com/yesdk/users-manual/getting-started/overview-of-sdk.html"},{"type":"YubiKey-host device communication ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/hid.html"},{"type":"Static passwords ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/static-password.html"},{"type":"Yubico OTP ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/yubico-otp.html"},{"type":"Private key handling ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/private-keys.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/attest.html"},{"type":"Keeping track of PIV slot contents ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/keeping-track.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/auth-decrypt.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/auth-key-agree.html"},{"type":"Secure Channel Protocol (SCP) ","url":"https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/secure-channel-protocol.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/generate-pair.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/auth-mgmt.html"},{"type":"OATH session APIs ","url":"https://docs.yubico.com/yesdk/users-manual/application-oath/oath-session.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/bio-metadata.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/get-data.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/auth-sign.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/metadata.html"},{"type":"Device notifications ","url":"https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/device-notifications.html"},{"type":"PIV access control ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/access-control.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/put-data.html"},{"type":"PIV PIN, touch and bio policies ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/pin-touch-policies.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/import-asym.html"},{"type":"Building a basic authenticator ","url":"https://docs.yubico.com/yesdk/users-manual/application-oath/oath-use-case.html"},{"type":"How to update slot settings ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-update-slot-settings.html"},{"type":"Modified hexadecimal encoding (ModHex) ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/modhex.html"},{"type":"How to configure NDEF to use a slot to generate an OTP ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-configure-ndef.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/set-mgmt-key.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/serial.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/reset-piv.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/set-pin-retries.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/version.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/verify-temporary-pin.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/verify.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/change-ref.html"},{"type":"How FIDO U2F works ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/how-u2f-works.html"},{"type":"Maintaining compatibility ","url":"https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/appcompat.html"},{"type":"Challenge-response ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/challenge-response.html"},{"type":"FIDO U2F and FIPS ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/fips-mode.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/reset-retry.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/verify-uv.html"},{"type":"Security Domain certificate management ","url":"https://docs.yubico.com/yesdk/users-manual/application-security-domain/security-domain-certificates.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/get-device-info.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/echo-cmd.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/set-device-info.html"},{"type":"OATH overview ","url":"https://docs.yubico.com/yesdk/users-manual/application-oath/oath-overview.html"},{"type":"The FIDO U2F PIN ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/u2f-pin.html"},{"type":"Security Domain device information ","url":"https://docs.yubico.com/yesdk/users-manual/application-security-domain/security-domain-device.html"},{"type":"Security Domain common tasks ","url":"https://docs.yubico.com/yesdk/users-manual/application-security-domain/security-domain-tasks.html"},{"type":"Security Domain key management ","url":"https://docs.yubico.com/yesdk/users-manual/application-security-domain/security-domain-keys.html"},{"type":"How to set, modify, remove, and use slot access codes ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-slot-access-codes.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/get-protocol-version.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/set-legacy-device-config.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/set-pin.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/verify-pin.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/authenticate.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/verify-fips.html"},{"type":"How to program a slot with an OATH HOTP credential ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-program-an-hotp-credential.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/register.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/reset.html"},{"type":"How to send a challenge to a YubiKey and receive a response code ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-calculate-a-challenge-response-code.html"},{"type":"Slots ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/slots.html"},{"type":"PIV PIN-only mode ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/pin-only.html"},{"type":"How FIDO2 works ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/how-fido2-works.html"},{"type":"How to program a slot with a Yubico OTP credential ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-program-a-yubico-otp-credential.html"},{"type":"The PIV PIN, PUK, and management key ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/pin-puk-mgmt-key.html"},{"type":"How to program a slot with a challenge-response credential ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-program-a-challenge-response-credential.html"},{"type":"NDEF overview ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/ndef.html"},{"type":"FIDO2 touch and fingerprint notification ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-touch-notification.html"},{"type":"OTP commands and APDUs ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/otp-commands.html"},{"type":"CTAP2 PIN/UV authentication protocols ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/pin-uv-auth-protocols.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/version.html"},{"type":"The minimum PIN length ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-min-pin-len.html"},{"type":"The SDK's \"automatic\" AuthToken logic ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/sdk-auth-token-logic.html"},{"type":"YubiKey Bio Multi-protocol Edition considerations and quirks ","url":"https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/bio-mpe.html"},{"type":"FIDO2 HMAC secret (\"hmac-secret\" extension) ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/hmac-secret.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-key-agree.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-info.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/set-pin.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/change-pin.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-auth-token-using-pin.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-pin-token.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-auth-token-using-uv.html"},{"type":"Migrating from SmartCard.NET to the SDK ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/migrate-smartcardnet.html"},{"type":"PIN complexity policy ","url":"https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/pin-complexity-policy.html"},{"type":"FIDO2 Blobs ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-blobs.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-cred-metadata.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-next-assertion.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-large-blob.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/enum-rps-next.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/set-large-blob.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/reset.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/enum-rps-begin.html"},{"type":"The FIDO2 PIN ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-pin.html"},{"type":"FIDO2 Authenticator Configuration ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-authenticator-config.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/make-credential.html"},{"type":"PIV GET and PUT DATA ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/get-and-put-data.html"},{"type":"Credential ","url":"https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/objects/credential.html"},{"type":"OTP application how-to guides ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/how-tos-overview.html"},{"type":"FIDO2 Authentication (PIN and Fingerprint) ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-auth.html"},{"type":"TLV ","url":"https://docs.yubico.com/yesdk/users-manual/support/support-tlv.html"},{"type":"FIDO U2F Reset ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/u2f-reset.html"},{"type":"PIV slots ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/slots.html"},{"type":"YubiHSM Auth session APIs ","url":"https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/yubihsm-auth-session.html"},{"type":"Interacting with a YubiHSM 2 ","url":"https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/interacting-yubihsm-2.html"},{"type":"FIDO2 credential blobs (\"credBlob\" extension) ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/cred-blobs.html"},{"type":" ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-assertion.html"},{"type":"YubiHSM Auth commands ","url":"https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/yubihsm-auth-commands.html"},{"type":"Add credential ","url":"https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/add-credential.html"},{"type":"Attacks on RSA decryption and mitigation ","url":"https://docs.yubico.com/yesdk/users-manual/support/rsa-unpad.html"},{"type":"FIDO2 Bio Enrollment (and related operations) ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-bio-enrollment.html"},{"type":"FIDO2 Reset ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-reset.html"},{"type":"How to program a slot with a static password ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-program-a-static-password.html"},{"type":"Get application version ","url":"https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/get-application-version.html"},{"type":"Reset application ","url":"https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/reset-application.html"},{"type":"List credentials ","url":"https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/list-credentials.html"},{"type":"Get management key retries ","url":"https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/get-management-key-retries.html"},{"type":"Delete credential ","url":"https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/delete-credential.html"},{"type":"Get AES-128 session keys ","url":"https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/get-aes128-session-keys.html"},{"type":"Change management key ","url":"https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/change-management-key.html"},{"type":"FIDO2 large blobs (\"largeBlobs\" option) ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/large-blobs.html"},{"type":"FIDO2 Credentials ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-credentials.html"},{"type":"Commands ","url":"https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/commands.html"},{"type":"PIV data objects ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/piv-objects.html"},{"type":"How authentication is achieved: AuthTokens, permissions, PIN/UV, and AuthParams ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-auth-tokens.html"},{"type":"FIDO2 credential management ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-cred-mgmt.html"},{"type":"What's new in the SDK? ","url":"https://docs.yubico.com/yesdk/users-manual/getting-started/whats-new.html"},{"type":"Yubico Product Documentation — Yubico Product Documentation  documentation","url":"https://docs.yubico.com/"},{"type":"FIDO U2F commands ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/u2f-commands.html"},{"type":"FIDO2 commands ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-commands.html"},{"type":"PIV commands ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/commands.html"},{"type":"Unknown","url":"https://docs.yubico.com/software/yubikey/tools/pivtool/webdocs.pdf"},{"type":"Unknown","url":"https://docs.yubico.com/hardware/yubihsm-2/datasheet/_static/YubiHSM_2_Technical_Data_Sheet.pdf"},{"type":"Unknown","url":"https://docs.yubico.com/software/yubikey/tools/minidriver/webdocs.pdf"},{"type":"Unknown","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/_sources/index.rst.txt"},{"type":"FIDO U2F overview ","url":"https://docs.yubico.com/yesdk/users-manual/application-u2f/fido-u2f-overview.html"},{"type":"FIDO2 overview ","url":"https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-overview.html"},{"type":"YubiHSM Auth overview ","url":"https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/yubihsm-auth-overview.html"},{"type":"PIV overview ","url":"https://docs.yubico.com/yesdk/users-manual/application-piv/piv-overview.html"},{"type":"Unknown","url":"https://docs.yubico.com/_sources/index.rst.txt"},{"type":"Introduction — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-introduction.html"},{"type":"Core Concepts — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-core-concepts.html"},{"type":"Security Domain overview ","url":"https://docs.yubico.com/yesdk/users-manual/application-security-domain/security-domain-overview.html"},{"type":"Getting Started — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-quick-start.html"},{"type":"Set FIPS Mode — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-fips-support-guide.html"},{"type":"Set up KSP on Windows — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-configure-software-windows.html"},{"type":"YubiHSM 2 References — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-index-references.html"},{"type":"YubiHSM 2 Management Tasks — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-index-tools.html"},{"type":"Backup and Restore with YubiHSM Backup Keys — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-backup-restore.html"},{"type":"Glossary — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-glossary.html"},{"type":"YubiHSM Algorithms — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-algorithms.html"},{"type":"Copyright — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/copyright.html"},{"type":"Reset YubiHSM to Factory Settings — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-reset-to-factory.html"},{"type":"YubiHSM 2 SDK Tools And Libraries — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-sdk-tools-libraries.html"},{"type":"Third Party Integration Deployment Guides — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-index-third-party.html"},{"type":"Deploy for EJBCA — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-ejbca-guide.html"},{"type":"Deploy for OpenSSL with libp11 — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-openssl-libp11.html"},{"type":"Deploy for OpenSC pkcs11-tool — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-opensc-pkcs11.html"},{"type":"Deploy for OpenSSL with engine_pkcs11 and yubihsm_pkcs11 — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-openssl-yubihsm2.html"},{"type":"Deploy for OpenSSL on Windows — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-openssl-windows-guide.html"},{"type":"Deploy for Signing Java Code — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-java-code-signing.html"},{"type":"Deploy for Microsoft Host Guardian Service (HGS) — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-ms-host-guardian-service-guide.html"},{"type":"Deploy for Active Directory Certificate Services CA — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-adcs-deploy.html"},{"type":"Deploy for Microsoft SQL Server — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-ms-sql-server-deploy-guide.html"},{"type":"Unknown","url":"https://docs.yubico.com/software/yubikey/tools/ykman/webdocs.pdf"},{"type":"OTP application overview ","url":"https://docs.yubico.com/yesdk/users-manual/application-otp/otp-overview.html"},{"type":"Deploy for OpenSSH Certificates for Host Login — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-openssh-certs-host-login.html"},{"type":"YubiHSM Command Reference — YubiHSM 2 User Guide  documentation","url":"https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-cmd-reference.html"},{"type":"YubiKey FIPS 4 Series Technical Manual — YubiKey FIPS 4 Series Technical Manual  documentation","url":"https://docs.yubico.com/hardware/yubikey/yk-fips-4/index.html"},{"type":"Yubico OID Reference Guide — Yubico OID Reference Guide  documentation","url":"https://docs.yubico.com/hardware/oid/index.html"},{"type":"Yubico Best Practices — Best Practices  documentation","url":"https://docs.yubico.com/hardware/yubikey-guidance/best-practices/index.html"},{"type":"YubiKey Technical Manual — YubiKey Technical Manual  documentation","url":"https://docs.yubico.com/hardware/yubikey/yk-tech-manual/index.html"},{"type":"YubiEnterprise Services — YubiEnterprise Services  documentation","url":"https://docs.yubico.com/cloud-services/yubienterprise/delivery/"},{"type":"Class AuthenticatorInfo ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.AuthenticatorInfo.html"},{"type":"Yubico FIDO Pre-reg with Okta — Yubico FIDO Pre-reg with Okta  documentation","url":"https://docs.yubico.com/cloud-services/fidoprereg-okta/"},{"type":"Class YubiKeyCompatSwitches ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiKeyCompatSwitches.html"},{"type":"Class CommandApdu ","url":"https://docs.yubico.com/yesdk/core-api/Yubico.Core.Iso7816.CommandApdu.html"},{"type":"Class GetMetadataCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.GetMetadataCommand.html"},{"type":"Class DeviceResetResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Management.Commands.DeviceResetResponse.html"},{"type":"Class GetSerialNumberResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.GetSerialNumberResponse.html"},{"type":"Unknown","url":"https://docs.yubico.com/software/yubikey/tools/yubienroll/webdocs.pdf"},{"type":"Class SetPinCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.SetPinCommand.html"},{"type":"Class EnumerateRpsBeginCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.EnumerateRpsBeginCommand.html"},{"type":"Class PivDataObject ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Objects.PivDataObject.html"},{"type":"Class DeleteCredentialCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.DeleteCredentialCommand.html"},{"type":"Class GetApplicationVersionCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.GetApplicationVersionCommand.html"},{"type":"Enum YubiKeyCapabilities ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiKeyCapabilities.html"},{"type":"Class EnumerateCredentialsBeginCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.EnumerateCredentialsBeginCommand.html"},{"type":"Class PivSlot ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.PivSlot.html"},{"type":"Class ConfigureSlotCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Otp.Commands.ConfigureSlotCommand.html"},{"type":"Class GetBioMetadataCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.GetBioMetadataCommand.html"},{"type":"Class GetKeyAgreementResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetKeyAgreementResponse.html"},{"type":"Class UpdateUserInfoCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.UpdateUserInfoCommand.html"},{"type":"Enum FormFactor ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.FormFactor.html"},{"type":"Class PinProtectedData ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Objects.PinProtectedData.html"},{"type":"Enum PinUvAuthTokenPermissions ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.PinUvAuthTokenPermissions.html"},{"type":"Enum PinUvAuthProtocol ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.PinProtocols.PinUvAuthProtocol.html"},{"type":"Class GetBioMetadataResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.GetBioMetadataResponse.html"},{"type":"Class CredentialUserInfo ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.CredentialUserInfo.html"},{"type":"Enum DeviceFlags ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.DeviceFlags.html"},{"type":"YubiKey Minidriver User Guide — YubiKey Smart Card Minidriver User Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/minidriver/index.html"},{"type":"Class CoseEcPublicKey ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Cose.CoseEcPublicKey.html"},{"type":"Class UserEntity ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.UserEntity.html"},{"type":"Class VerifyPinCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.VerifyPinCommand.html"},{"type":"Class SetDeviceInfoCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.SetDeviceInfoCommand.html"},{"type":"Class VerifyPinResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.VerifyPinResponse.html"},{"type":"Class SetDeviceInfoResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.SetDeviceInfoResponse.html"},{"type":"Class VerifyUvCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.VerifyUvCommand.html"},{"type":"Class PinUvAuthProtocolBase ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.PinProtocols.PinUvAuthProtocolBase.html"},{"type":"Class SetDeviceInfoBaseCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Management.Commands.SetDeviceInfoBaseCommand.html"},{"type":"Class VerifyTemporaryPinCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.VerifyTemporaryPinCommand.html"},{"type":"Class VerifyUvResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.VerifyUvResponse.html"},{"type":"Class SetLegacyDeviceConfigCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.SetLegacyDeviceConfigCommand.html"},{"type":"Class ChangePinCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.ChangePinCommand.html"},{"type":"Class ChangePinResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.ChangePinResponse.html"},{"type":"Class SetLegacyDeviceConfigResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.SetLegacyDeviceConfigResponse.html"},{"type":"Class VerifyTemporaryPinResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.VerifyTemporaryPinResponse.html"},{"type":"Class GetPinTokenCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetPinTokenCommand.html"},{"type":"Unknown","url":"https://docs.yubico.com/cloud-services/fidoprereg-microsoft/webdocs.pdf"},{"type":"Class SetLegacyDeviceConfigBase ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Management.Commands.SetLegacyDeviceConfigBase.html"},{"type":"Class GetPinUvAuthTokenResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetPinUvAuthTokenResponse.html"},{"type":"Class GetProtocolVersionCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.GetProtocolVersionCommand.html"},{"type":"Class InitializeAuthenticateManagementKeyCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.InitializeAuthenticateManagementKeyCommand.html"},{"type":"Class InitializeAuthenticateManagementKeyResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.InitializeAuthenticateManagementKeyResponse.html"},{"type":"Class GetProtocolVersionResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.GetProtocolVersionResponse.html"},{"type":"Class SetPinResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.SetPinResponse.html"},{"type":"Class VerifyFipsModeCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.VerifyFipsModeCommand.html"},{"type":"Class CompleteAuthenticateManagementKeyCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.CompleteAuthenticateManagementKeyCommand.html"},{"type":"Class MakeCredentialResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.MakeCredentialResponse.html"},{"type":"Class VerifyFipsModeResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.VerifyFipsModeResponse.html"},{"type":"Class MakeCredentialData ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.MakeCredentialData.html"},{"type":"Class SetPinRetriesCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.SetPinRetriesCommand.html"},{"type":"Class SetPinCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.SetPinCommand.html"},{"type":"Class SetPinRetriesResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.SetPinRetriesResponse.html"},{"type":"Class CompleteAuthenticateManagementKeyResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.CompleteAuthenticateManagementKeyResponse.html"},{"type":"Class SetPinResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.SetPinResponse.html"},{"type":"Class GetAssertionResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetAssertionResponse.html"},{"type":"Class ChangeReferenceDataResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.ChangeReferenceDataResponse.html"},{"type":"Class GetCredentialMetadataResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetCredentialMetadataResponse.html"},{"type":"Class VerifyPinCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.VerifyPinCommand.html"},{"type":"Unknown","url":"https://docs.yubico.com/cloud-services/fidoprereg-okta/webdocs.pdf"},{"type":"Class VerifyPinResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.VerifyPinResponse.html"},{"type":"Class SetManagementKeyCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.SetManagementKeyCommand.html"},{"type":"Class ChangeManagementKeyResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.ChangeManagementKeyResponse.html"},{"type":"Class SerializedLargeBlobArray ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.SerializedLargeBlobArray.html"},{"type":"Class KeyHistory ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Objects.KeyHistory.html"},{"type":"Class GetPagedDeviceInfoResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.GetPagedDeviceInfoResponse.html"},{"type":"Class GetMetadataResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.GetMetadataResponse.html"},{"type":"Class DeleteCredentialCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.DeleteCredentialCommand.html"},{"type":"Class GetAssertionData ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.GetAssertionData.html"},{"type":"Class DeleteKeyCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.DeleteKeyCommand.html"},{"type":"Class GetKeyAgreementCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetKeyAgreementCommand.html"},{"type":"Class GetPinUvAuthTokenUsingUvCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetPinUvAuthTokenUsingUvCommand.html"},{"type":"Interface IYubiKeyResponseWithData<TData> ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.IYubiKeyResponseWithData-1.html"},{"type":"Class AdminData ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Objects.AdminData.html"},{"type":"Class SetManagementKeyResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.SetManagementKeyResponse.html"},{"type":"Class EnumerateRpsBeginResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.EnumerateRpsBeginResponse.html"},{"type":"Class RelyingParty ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.RelyingParty.html"},{"type":"Class EnumerateRpsGetNextResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.EnumerateRpsGetNextResponse.html"},{"type":"Class ResetRetryCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.ResetRetryCommand.html"},{"type":"Class RegisterCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.RegisterCommand.html"},{"type":"Yubico PIV Tool User Guide — YubiKey PIV Tool User Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/pivtool/index.html"},{"type":"Class ResetRetryResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.ResetRetryResponse.html"},{"type":"Class GetLargeBlobResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetLargeBlobResponse.html"},{"type":"Class RegisterResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.RegisterResponse.html"},{"type":"Class AuthenticateResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.AuthenticateResponse.html"},{"type":"Class AuthenticateCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.AuthenticateCommand.html"},{"type":"Class SetLargeBlobResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.SetLargeBlobResponse.html"},{"type":"Class ImportAsymmetricKeyResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.ImportAsymmetricKeyResponse.html"},{"type":"Class GenerateKeyPairResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.GenerateKeyPairResponse.html"},{"type":"Class AuthenticateDecryptCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.AuthenticateDecryptCommand.html"},{"type":"Class AuthenticateDecryptResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.AuthenticateDecryptResponse.html"},{"type":"Class AuthenticateKeyAgreeResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.AuthenticateKeyAgreeResponse.html"},{"type":"Class AuthenticateKeyAgreeCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.AuthenticateKeyAgreeCommand.html"},{"type":"Class AuthenticateSignCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.AuthenticateSignCommand.html"},{"type":"Class CreateAttestationStatementCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.CreateAttestationStatementCommand.html"},{"type":"Class AuthenticateSignResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.AuthenticateSignResponse.html"},{"type":"Class CreateAttestationStatementResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.CreateAttestationStatementResponse.html"},{"type":"Class PutDataResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.PutDataResponse.html"},{"type":"Class PutDataCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.PutDataCommand.html"},{"type":"Class ResetPivCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.ResetPivCommand.html"},{"type":"Class BioEnrollSampleResult ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.BioEnrollSampleResult.html"},{"type":"Class ResetPivResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.ResetPivResponse.html"},{"type":"Interface IYubiKeyResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.IYubiKeyResponse.html"},{"type":"Enum CryptographicKeyType ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.CryptographicKeyType.html"},{"type":"Class RsaFormat ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Cryptography.RsaFormat.html"},{"type":"Class ResetResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.ResetResponse.html"},{"type":"Class VersionResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.VersionResponse.html"},{"type":"Class ChangeManagementKeyCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.ChangeManagementKeyCommand.html"},{"type":"Yubico Authenticator User Guide — Yubico Authenticator User Guide  documentation","url":"https://docs.yubico.com/software/yubikey/tools/authenticator/auth-guide/index.html"},{"type":"Class CardCapabilityContainer ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Objects.CardCapabilityContainer.html"},{"type":"Class GetLargeBlobCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetLargeBlobCommand.html"},{"type":"Class GetPagedDeviceInfoCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.GetPagedDeviceInfoCommand.html"},{"type":"Class GetInfoResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetInfoResponse.html"},{"type":"Class GetNextAssertionCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetNextAssertionCommand.html"},{"type":"Class ListCredentialsResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.ListCredentialsResponse.html"},{"type":"Class DeleteCredentialResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.DeleteCredentialResponse.html"},{"type":"Class ResetApplicationResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.ResetApplicationResponse.html"},{"type":"Class GetApplicationVersionResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.GetApplicationVersionResponse.html"},{"type":"Class EnumerateCredentialsGetNextCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.EnumerateCredentialsGetNextCommand.html"},{"type":"Class MoveKeyCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.MoveKeyCommand.html"},{"type":"Class GetAes128SessionKeysResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.GetAes128SessionKeysResponse.html"},{"type":"Class GetManagementKeyRetriesResponse ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.GetManagementKeyRetriesResponse.html"},{"type":"Class GetPinUvAuthTokenUsingPinCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetPinUvAuthTokenUsingPinCommand.html"},{"type":"Enum ResponseStatus ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.ResponseStatus.html"},{"type":"Class GetAes128SessionKeysCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.GetAes128SessionKeysCommand.html"},{"type":"Class ResetApplicationCommand ","url":"https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.ResetApplicationCommand.html"}]}
+{
+  "url": "https://docs.yubico.com/software/yubikey/tools/ykman/index.html",
+  "domain": "docs.yubico.com",
+  "lastScraped": "2025-11-24T20:52:23.112Z",
+  "totalPages": 369,
+  "successfulPages": 369,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "YubiKey Manager (ykman) CLI User Guide — YubiKey Manager (ykman) CLI Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/index.html"
+    },
+    {
+      "type": "Introduction — YubiKey Manager (ykman) CLI Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/intro.html"
+    },
+    {
+      "type": "Installation — YubiKey Manager (ykman) CLI Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/Install_ykman.html"
+    },
+    {
+      "type": "Using the YubiKey Manager GUI — YubiKey Manager (ykman) CLI Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/Using_the_ykman_GUI.html"
+    },
+    {
+      "type": "Hidden Commands — YubiKey Manager (ykman) CLI Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/Hidden_Commands.html"
+    },
+    {
+      "type": "OpenPGP Commands — YubiKey Manager (ykman) CLI Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/OpenPGP_Commands.html"
+    },
+    {
+      "type": "FIDO Commands — YubiKey Manager (ykman) CLI Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/FIDO_Commands.html"
+    },
+    {
+      "type": "OATH Commands — YubiKey Manager (ykman) CLI Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/OATH_Commands.html"
+    },
+    {
+      "type": "Using the ykman CLI — YubiKey Manager (ykman) CLI Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/Using_the_ykman_CLI.html"
+    },
+    {
+      "type": "Base Commands — YubiKey Manager (ykman) CLI Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/Base_Commands.html"
+    },
+    {
+      "type": "OTP Commands — YubiKey Manager (ykman) CLI Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/OTP_Commands.html"
+    },
+    {
+      "type": "HSMauth Commands — YubiKey Manager (ykman) CLI Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/HSMauth_Commands.html"
+    },
+    {
+      "type": "PIV Commands — YubiKey Manager (ykman) CLI Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/PIV_Commands.html"
+    },
+    {
+      "type": "Copyright — YubiKey Manager (ykman) CLI Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/copyright.html"
+    },
+    {
+      "type": "APDUs ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/yubikey-reference/apdu.html"
+    },
+    {
+      "type": "YubiHSM 2 User Guide — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/index.html"
+    },
+    {
+      "type": ".NET YubiKey SDK: User's Manual ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/intro.html"
+    },
+    {
+      "type": ".NET YubiKey SDK ",
+      "url": "https://docs.yubico.com/yesdk/index.html"
+    },
+    {
+      "type": ".NET YubiKey SDK: YubiKey API reference ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/index.html"
+    },
+    {
+      "type": ".NET YubiKey SDK: Core API reference ",
+      "url": "https://docs.yubico.com/yesdk/core-api/index.html"
+    },
+    {
+      "type": "What is a YubiKey? ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/getting-started/what-is-a-yubikey.html"
+    },
+    {
+      "type": "How to install the SDK ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/getting-started/how-to-install.html"
+    },
+    {
+      "type": "Running .NET SDK applications on Linux ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/getting-started/running-on-linux.html"
+    },
+    {
+      "type": "Threads ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/threads.html"
+    },
+    {
+      "type": "The KeyCollector's touch notification ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/key-collector-touch.html"
+    },
+    {
+      "type": "Delegates (callbacks) in the SDK ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/delegates-in-sdk.html"
+    },
+    {
+      "type": "The KeyCollector and alternatives ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/key-collector.html"
+    },
+    {
+      "type": "Handling Sensitive Data (PINs, Passwords, and Keys) ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/sensitive-data.html"
+    },
+    {
+      "type": "Making a connection ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/making-a-connection.html"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.yubico.com/hardware/yubikey/yk-fips-4/webdocs.pdf"
+    },
+    {
+      "type": "Providing alternate cryptographic implementations ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/alternate-crypto.html"
+    },
+    {
+      "type": "Physical interfaces ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/yubikey-reference/transports/overview.html"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.yubico.com/hardware/oid/webdocs.pdf"
+    },
+    {
+      "type": "Configure slot ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/commands-configure-slot.html"
+    },
+    {
+      "type": "How to retrieve a slot's status ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-retrieve-slot-status.html"
+    },
+    {
+      "type": "How to swap slot configurations ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-swap-slot-configs.html"
+    },
+    {
+      "type": "Swap slot configurations ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/commands-swap-slots.html"
+    },
+    {
+      "type": "Program NDEF ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/commands-program-ndef.html"
+    },
+    {
+      "type": "Update slot ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/commands-update-slot.html"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.yubico.com/hardware/yubikey-guidance/best-practices/webdocs.pdf"
+    },
+    {
+      "type": "OTP application concepts ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/application-concepts-overview.html"
+    },
+    {
+      "type": "Update scan-code map ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/commands-update-scan-code-map.html"
+    },
+    {
+      "type": "Get serial number ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/commands-get-serial.html"
+    },
+    {
+      "type": "Get device information ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/commands-get-device-info.html"
+    },
+    {
+      "type": "How to read NDEF information ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-read-ndef-information.html"
+    },
+    {
+      "type": "How to delete a slot's configuration ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-delete-a-slot-configuration.html"
+    },
+    {
+      "type": "Challenge-response ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/commands-challenge-response.html"
+    },
+    {
+      "type": "Query FIPs mode ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/commands-query-fips-mode.html"
+    },
+    {
+      "type": "Read status ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/commands-read-status.html"
+    },
+    {
+      "type": "Read NDEF payload (NFC only) ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/commands-read-ndef.html"
+    },
+    {
+      "type": "How to back up credentials ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-oath/oath-backup-credentials.html"
+    },
+    {
+      "type": "Configuration concepts ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/configuration-concepts-overview.html"
+    },
+    {
+      "type": "OATH-HOTP ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/hotp.html"
+    },
+    {
+      "type": "OATH credentials overview ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-oath/oath-credentials.html"
+    },
+    {
+      "type": "Protecting the OATH application with a password ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-oath/oath-password.html"
+    },
+    {
+      "type": "URI string format ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-oath/uri-string-format.html"
+    },
+    {
+      "type": "OATH commands and APDUs ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-oath/oath-commands.html"
+    },
+    {
+      "type": "Building a certificate request for a PIV private key ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/cert-request.html"
+    },
+    {
+      "type": "PIV attestation statements ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/attestation.html"
+    },
+    {
+      "type": "Maximum certificate sizes ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/cert-size.html"
+    },
+    {
+      "type": "ECDSA signatures ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/ecdsa-signatures.html"
+    },
+    {
+      "type": "Elliptic Curve Diffie-Hellman key agreement ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/key-agreement.html"
+    },
+    {
+      "type": "Public key handling ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/public-keys.html"
+    },
+    {
+      "type": "Overview of the SDK ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/getting-started/overview-of-sdk.html"
+    },
+    {
+      "type": "YubiKey-host device communication ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/hid.html"
+    },
+    {
+      "type": "Static passwords ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/static-password.html"
+    },
+    {
+      "type": "Yubico OTP ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/yubico-otp.html"
+    },
+    {
+      "type": "Private key handling ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/private-keys.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/attest.html"
+    },
+    {
+      "type": "Keeping track of PIV slot contents ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/keeping-track.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/auth-decrypt.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/auth-key-agree.html"
+    },
+    {
+      "type": "Secure Channel Protocol (SCP) ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/secure-channel-protocol.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/generate-pair.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/auth-mgmt.html"
+    },
+    {
+      "type": "OATH session APIs ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-oath/oath-session.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/bio-metadata.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/get-data.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/auth-sign.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/metadata.html"
+    },
+    {
+      "type": "Device notifications ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/device-notifications.html"
+    },
+    {
+      "type": "PIV access control ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/access-control.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/put-data.html"
+    },
+    {
+      "type": "PIV PIN, touch and bio policies ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/pin-touch-policies.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/import-asym.html"
+    },
+    {
+      "type": "Building a basic authenticator ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-oath/oath-use-case.html"
+    },
+    {
+      "type": "How to update slot settings ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-update-slot-settings.html"
+    },
+    {
+      "type": "Modified hexadecimal encoding (ModHex) ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/modhex.html"
+    },
+    {
+      "type": "How to configure NDEF to use a slot to generate an OTP ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-configure-ndef.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/set-mgmt-key.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/serial.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/reset-piv.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/set-pin-retries.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/version.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/verify-temporary-pin.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/verify.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/change-ref.html"
+    },
+    {
+      "type": "How FIDO U2F works ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/how-u2f-works.html"
+    },
+    {
+      "type": "Maintaining compatibility ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/appcompat.html"
+    },
+    {
+      "type": "Challenge-response ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/challenge-response.html"
+    },
+    {
+      "type": "FIDO U2F and FIPS ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/fips-mode.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/reset-retry.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/apdu/verify-uv.html"
+    },
+    {
+      "type": "Security Domain certificate management ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-security-domain/security-domain-certificates.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/get-device-info.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/echo-cmd.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/set-device-info.html"
+    },
+    {
+      "type": "OATH overview ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-oath/oath-overview.html"
+    },
+    {
+      "type": "The FIDO U2F PIN ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/u2f-pin.html"
+    },
+    {
+      "type": "Security Domain device information ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-security-domain/security-domain-device.html"
+    },
+    {
+      "type": "Security Domain common tasks ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-security-domain/security-domain-tasks.html"
+    },
+    {
+      "type": "Security Domain key management ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-security-domain/security-domain-keys.html"
+    },
+    {
+      "type": "How to set, modify, remove, and use slot access codes ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-slot-access-codes.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/get-protocol-version.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/set-legacy-device-config.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/set-pin.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/verify-pin.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/authenticate.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/verify-fips.html"
+    },
+    {
+      "type": "How to program a slot with an OATH HOTP credential ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-program-an-hotp-credential.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/register.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/apdu/reset.html"
+    },
+    {
+      "type": "How to send a challenge to a YubiKey and receive a response code ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-calculate-a-challenge-response-code.html"
+    },
+    {
+      "type": "Slots ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/slots.html"
+    },
+    {
+      "type": "PIV PIN-only mode ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/pin-only.html"
+    },
+    {
+      "type": "How FIDO2 works ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/how-fido2-works.html"
+    },
+    {
+      "type": "How to program a slot with a Yubico OTP credential ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-program-a-yubico-otp-credential.html"
+    },
+    {
+      "type": "The PIV PIN, PUK, and management key ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/pin-puk-mgmt-key.html"
+    },
+    {
+      "type": "How to program a slot with a challenge-response credential ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-program-a-challenge-response-credential.html"
+    },
+    {
+      "type": "NDEF overview ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/ndef.html"
+    },
+    {
+      "type": "FIDO2 touch and fingerprint notification ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-touch-notification.html"
+    },
+    {
+      "type": "OTP commands and APDUs ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/otp-commands.html"
+    },
+    {
+      "type": "CTAP2 PIN/UV authentication protocols ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/pin-uv-auth-protocols.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/version.html"
+    },
+    {
+      "type": "The minimum PIN length ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-min-pin-len.html"
+    },
+    {
+      "type": "The SDK's \"automatic\" AuthToken logic ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/sdk-auth-token-logic.html"
+    },
+    {
+      "type": "YubiKey Bio Multi-protocol Edition considerations and quirks ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/bio-mpe.html"
+    },
+    {
+      "type": "FIDO2 HMAC secret (\"hmac-secret\" extension) ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/hmac-secret.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-key-agree.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-info.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/set-pin.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/change-pin.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-auth-token-using-pin.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-pin-token.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-auth-token-using-uv.html"
+    },
+    {
+      "type": "Migrating from SmartCard.NET to the SDK ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/migrate-smartcardnet.html"
+    },
+    {
+      "type": "PIN complexity policy ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/pin-complexity-policy.html"
+    },
+    {
+      "type": "FIDO2 Blobs ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-blobs.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-cred-metadata.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-next-assertion.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-large-blob.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/enum-rps-next.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/set-large-blob.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/reset.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/enum-rps-begin.html"
+    },
+    {
+      "type": "The FIDO2 PIN ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-pin.html"
+    },
+    {
+      "type": "FIDO2 Authenticator Configuration ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-authenticator-config.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/make-credential.html"
+    },
+    {
+      "type": "PIV GET and PUT DATA ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/get-and-put-data.html"
+    },
+    {
+      "type": "Credential ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/objects/credential.html"
+    },
+    {
+      "type": "OTP application how-to guides ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/how-tos-overview.html"
+    },
+    {
+      "type": "FIDO2 Authentication (PIN and Fingerprint) ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-auth.html"
+    },
+    {
+      "type": "TLV ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/support/support-tlv.html"
+    },
+    {
+      "type": "FIDO U2F Reset ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/u2f-reset.html"
+    },
+    {
+      "type": "PIV slots ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/slots.html"
+    },
+    {
+      "type": "YubiHSM Auth session APIs ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/yubihsm-auth-session.html"
+    },
+    {
+      "type": "Interacting with a YubiHSM 2 ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/interacting-yubihsm-2.html"
+    },
+    {
+      "type": "FIDO2 credential blobs (\"credBlob\" extension) ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/cred-blobs.html"
+    },
+    {
+      "type": " ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/apdu/get-assertion.html"
+    },
+    {
+      "type": "YubiHSM Auth commands ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/yubihsm-auth-commands.html"
+    },
+    {
+      "type": "Add credential ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/add-credential.html"
+    },
+    {
+      "type": "Attacks on RSA decryption and mitigation ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/support/rsa-unpad.html"
+    },
+    {
+      "type": "FIDO2 Bio Enrollment (and related operations) ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-bio-enrollment.html"
+    },
+    {
+      "type": "FIDO2 Reset ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-reset.html"
+    },
+    {
+      "type": "How to program a slot with a static password ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/how-to-program-a-static-password.html"
+    },
+    {
+      "type": "Get application version ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/get-application-version.html"
+    },
+    {
+      "type": "Reset application ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/reset-application.html"
+    },
+    {
+      "type": "List credentials ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/list-credentials.html"
+    },
+    {
+      "type": "Get management key retries ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/get-management-key-retries.html"
+    },
+    {
+      "type": "Delete credential ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/delete-credential.html"
+    },
+    {
+      "type": "Get AES-128 session keys ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/get-aes128-session-keys.html"
+    },
+    {
+      "type": "Change management key ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/commands/change-management-key.html"
+    },
+    {
+      "type": "FIDO2 large blobs (\"largeBlobs\" option) ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/large-blobs.html"
+    },
+    {
+      "type": "FIDO2 Credentials ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-credentials.html"
+    },
+    {
+      "type": "Commands ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/sdk-programming-guide/commands.html"
+    },
+    {
+      "type": "PIV data objects ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/piv-objects.html"
+    },
+    {
+      "type": "How authentication is achieved: AuthTokens, permissions, PIN/UV, and AuthParams ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-auth-tokens.html"
+    },
+    {
+      "type": "FIDO2 credential management ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-cred-mgmt.html"
+    },
+    {
+      "type": "What's new in the SDK? ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/getting-started/whats-new.html"
+    },
+    {
+      "type": "Yubico Product Documentation — Yubico Product Documentation  documentation",
+      "url": "https://docs.yubico.com/"
+    },
+    {
+      "type": "FIDO U2F commands ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/u2f-commands.html"
+    },
+    {
+      "type": "FIDO2 commands ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-commands.html"
+    },
+    {
+      "type": "PIV commands ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/commands.html"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.yubico.com/software/yubikey/tools/pivtool/webdocs.pdf"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/datasheet/_static/YubiHSM_2_Technical_Data_Sheet.pdf"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.yubico.com/software/yubikey/tools/minidriver/webdocs.pdf"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/_sources/index.rst.txt"
+    },
+    {
+      "type": "FIDO U2F overview ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-u2f/fido-u2f-overview.html"
+    },
+    {
+      "type": "FIDO2 overview ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-fido2/fido2-overview.html"
+    },
+    {
+      "type": "YubiHSM Auth overview ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-yubihsm-auth/yubihsm-auth-overview.html"
+    },
+    {
+      "type": "PIV overview ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-piv/piv-overview.html"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.yubico.com/_sources/index.rst.txt"
+    },
+    {
+      "type": "Introduction — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-introduction.html"
+    },
+    {
+      "type": "Core Concepts — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-core-concepts.html"
+    },
+    {
+      "type": "Security Domain overview ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-security-domain/security-domain-overview.html"
+    },
+    {
+      "type": "Getting Started — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-quick-start.html"
+    },
+    {
+      "type": "Set FIPS Mode — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-fips-support-guide.html"
+    },
+    {
+      "type": "Set up KSP on Windows — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-configure-software-windows.html"
+    },
+    {
+      "type": "YubiHSM 2 References — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-index-references.html"
+    },
+    {
+      "type": "YubiHSM 2 Management Tasks — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-index-tools.html"
+    },
+    {
+      "type": "Backup and Restore with YubiHSM Backup Keys — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-backup-restore.html"
+    },
+    {
+      "type": "Glossary — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-glossary.html"
+    },
+    {
+      "type": "YubiHSM Algorithms — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-algorithms.html"
+    },
+    {
+      "type": "Copyright — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/copyright.html"
+    },
+    {
+      "type": "Reset YubiHSM to Factory Settings — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-reset-to-factory.html"
+    },
+    {
+      "type": "YubiHSM 2 SDK Tools And Libraries — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-sdk-tools-libraries.html"
+    },
+    {
+      "type": "Third Party Integration Deployment Guides — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-index-third-party.html"
+    },
+    {
+      "type": "Deploy for EJBCA — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-ejbca-guide.html"
+    },
+    {
+      "type": "Deploy for OpenSSL with libp11 — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-openssl-libp11.html"
+    },
+    {
+      "type": "Deploy for OpenSC pkcs11-tool — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-opensc-pkcs11.html"
+    },
+    {
+      "type": "Deploy for OpenSSL with engine_pkcs11 and yubihsm_pkcs11 — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-openssl-yubihsm2.html"
+    },
+    {
+      "type": "Deploy for OpenSSL on Windows — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-openssl-windows-guide.html"
+    },
+    {
+      "type": "Deploy for Signing Java Code — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-java-code-signing.html"
+    },
+    {
+      "type": "Deploy for Microsoft Host Guardian Service (HGS) — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-ms-host-guardian-service-guide.html"
+    },
+    {
+      "type": "Deploy for Active Directory Certificate Services CA — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-adcs-deploy.html"
+    },
+    {
+      "type": "Deploy for Microsoft SQL Server — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-ms-sql-server-deploy-guide.html"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/webdocs.pdf"
+    },
+    {
+      "type": "OTP application overview ",
+      "url": "https://docs.yubico.com/yesdk/users-manual/application-otp/otp-overview.html"
+    },
+    {
+      "type": "Deploy for OpenSSH Certificates for Host Login — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-openssh-certs-host-login.html"
+    },
+    {
+      "type": "YubiHSM Command Reference — YubiHSM 2 User Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/yubihsm-2/hsm-2-user-guide/hsm2-cmd-reference.html"
+    },
+    {
+      "type": "YubiKey FIPS 4 Series Technical Manual — YubiKey FIPS 4 Series Technical Manual  documentation",
+      "url": "https://docs.yubico.com/hardware/yubikey/yk-fips-4/index.html"
+    },
+    {
+      "type": "Yubico OID Reference Guide — Yubico OID Reference Guide  documentation",
+      "url": "https://docs.yubico.com/hardware/oid/index.html"
+    },
+    {
+      "type": "Yubico Best Practices — Best Practices  documentation",
+      "url": "https://docs.yubico.com/hardware/yubikey-guidance/best-practices/index.html"
+    },
+    {
+      "type": "YubiKey Technical Manual — YubiKey Technical Manual  documentation",
+      "url": "https://docs.yubico.com/hardware/yubikey/yk-tech-manual/index.html"
+    },
+    {
+      "type": "YubiEnterprise Services — YubiEnterprise Services  documentation",
+      "url": "https://docs.yubico.com/cloud-services/yubienterprise/delivery/"
+    },
+    {
+      "type": "Class AuthenticatorInfo ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.AuthenticatorInfo.html"
+    },
+    {
+      "type": "Yubico FIDO Pre-reg with Okta — Yubico FIDO Pre-reg with Okta  documentation",
+      "url": "https://docs.yubico.com/cloud-services/fidoprereg-okta/"
+    },
+    {
+      "type": "Class YubiKeyCompatSwitches ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiKeyCompatSwitches.html"
+    },
+    {
+      "type": "Class CommandApdu ",
+      "url": "https://docs.yubico.com/yesdk/core-api/Yubico.Core.Iso7816.CommandApdu.html"
+    },
+    {
+      "type": "Class GetMetadataCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.GetMetadataCommand.html"
+    },
+    {
+      "type": "Class DeviceResetResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Management.Commands.DeviceResetResponse.html"
+    },
+    {
+      "type": "Class GetSerialNumberResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.GetSerialNumberResponse.html"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.yubico.com/software/yubikey/tools/yubienroll/webdocs.pdf"
+    },
+    {
+      "type": "Class SetPinCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.SetPinCommand.html"
+    },
+    {
+      "type": "Class EnumerateRpsBeginCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.EnumerateRpsBeginCommand.html"
+    },
+    {
+      "type": "Class PivDataObject ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Objects.PivDataObject.html"
+    },
+    {
+      "type": "Class DeleteCredentialCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.DeleteCredentialCommand.html"
+    },
+    {
+      "type": "Class GetApplicationVersionCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.GetApplicationVersionCommand.html"
+    },
+    {
+      "type": "Enum YubiKeyCapabilities ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiKeyCapabilities.html"
+    },
+    {
+      "type": "Class EnumerateCredentialsBeginCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.EnumerateCredentialsBeginCommand.html"
+    },
+    {
+      "type": "Class PivSlot ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.PivSlot.html"
+    },
+    {
+      "type": "Class ConfigureSlotCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Otp.Commands.ConfigureSlotCommand.html"
+    },
+    {
+      "type": "Class GetBioMetadataCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.GetBioMetadataCommand.html"
+    },
+    {
+      "type": "Class GetKeyAgreementResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetKeyAgreementResponse.html"
+    },
+    {
+      "type": "Class UpdateUserInfoCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.UpdateUserInfoCommand.html"
+    },
+    {
+      "type": "Enum FormFactor ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.FormFactor.html"
+    },
+    {
+      "type": "Class PinProtectedData ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Objects.PinProtectedData.html"
+    },
+    {
+      "type": "Enum PinUvAuthTokenPermissions ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.PinUvAuthTokenPermissions.html"
+    },
+    {
+      "type": "Enum PinUvAuthProtocol ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.PinProtocols.PinUvAuthProtocol.html"
+    },
+    {
+      "type": "Class GetBioMetadataResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.GetBioMetadataResponse.html"
+    },
+    {
+      "type": "Class CredentialUserInfo ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.CredentialUserInfo.html"
+    },
+    {
+      "type": "Enum DeviceFlags ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.DeviceFlags.html"
+    },
+    {
+      "type": "YubiKey Minidriver User Guide — YubiKey Smart Card Minidriver User Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/minidriver/index.html"
+    },
+    {
+      "type": "Class CoseEcPublicKey ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Cose.CoseEcPublicKey.html"
+    },
+    {
+      "type": "Class UserEntity ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.UserEntity.html"
+    },
+    {
+      "type": "Class VerifyPinCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.VerifyPinCommand.html"
+    },
+    {
+      "type": "Class SetDeviceInfoCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.SetDeviceInfoCommand.html"
+    },
+    {
+      "type": "Class VerifyPinResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.VerifyPinResponse.html"
+    },
+    {
+      "type": "Class SetDeviceInfoResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.SetDeviceInfoResponse.html"
+    },
+    {
+      "type": "Class VerifyUvCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.VerifyUvCommand.html"
+    },
+    {
+      "type": "Class PinUvAuthProtocolBase ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.PinProtocols.PinUvAuthProtocolBase.html"
+    },
+    {
+      "type": "Class SetDeviceInfoBaseCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Management.Commands.SetDeviceInfoBaseCommand.html"
+    },
+    {
+      "type": "Class VerifyTemporaryPinCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.VerifyTemporaryPinCommand.html"
+    },
+    {
+      "type": "Class VerifyUvResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.VerifyUvResponse.html"
+    },
+    {
+      "type": "Class SetLegacyDeviceConfigCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.SetLegacyDeviceConfigCommand.html"
+    },
+    {
+      "type": "Class ChangePinCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.ChangePinCommand.html"
+    },
+    {
+      "type": "Class ChangePinResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.ChangePinResponse.html"
+    },
+    {
+      "type": "Class SetLegacyDeviceConfigResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.SetLegacyDeviceConfigResponse.html"
+    },
+    {
+      "type": "Class VerifyTemporaryPinResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.VerifyTemporaryPinResponse.html"
+    },
+    {
+      "type": "Class GetPinTokenCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetPinTokenCommand.html"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.yubico.com/cloud-services/fidoprereg-microsoft/webdocs.pdf"
+    },
+    {
+      "type": "Class SetLegacyDeviceConfigBase ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Management.Commands.SetLegacyDeviceConfigBase.html"
+    },
+    {
+      "type": "Class GetPinUvAuthTokenResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetPinUvAuthTokenResponse.html"
+    },
+    {
+      "type": "Class GetProtocolVersionCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.GetProtocolVersionCommand.html"
+    },
+    {
+      "type": "Class InitializeAuthenticateManagementKeyCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.InitializeAuthenticateManagementKeyCommand.html"
+    },
+    {
+      "type": "Class InitializeAuthenticateManagementKeyResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.InitializeAuthenticateManagementKeyResponse.html"
+    },
+    {
+      "type": "Class GetProtocolVersionResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.GetProtocolVersionResponse.html"
+    },
+    {
+      "type": "Class SetPinResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.SetPinResponse.html"
+    },
+    {
+      "type": "Class VerifyFipsModeCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.VerifyFipsModeCommand.html"
+    },
+    {
+      "type": "Class CompleteAuthenticateManagementKeyCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.CompleteAuthenticateManagementKeyCommand.html"
+    },
+    {
+      "type": "Class MakeCredentialResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.MakeCredentialResponse.html"
+    },
+    {
+      "type": "Class VerifyFipsModeResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.VerifyFipsModeResponse.html"
+    },
+    {
+      "type": "Class MakeCredentialData ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.MakeCredentialData.html"
+    },
+    {
+      "type": "Class SetPinRetriesCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.SetPinRetriesCommand.html"
+    },
+    {
+      "type": "Class SetPinCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.SetPinCommand.html"
+    },
+    {
+      "type": "Class SetPinRetriesResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.SetPinRetriesResponse.html"
+    },
+    {
+      "type": "Class CompleteAuthenticateManagementKeyResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.CompleteAuthenticateManagementKeyResponse.html"
+    },
+    {
+      "type": "Class SetPinResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.SetPinResponse.html"
+    },
+    {
+      "type": "Class GetAssertionResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetAssertionResponse.html"
+    },
+    {
+      "type": "Class ChangeReferenceDataResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.ChangeReferenceDataResponse.html"
+    },
+    {
+      "type": "Class GetCredentialMetadataResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetCredentialMetadataResponse.html"
+    },
+    {
+      "type": "Class VerifyPinCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.VerifyPinCommand.html"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.yubico.com/cloud-services/fidoprereg-okta/webdocs.pdf"
+    },
+    {
+      "type": "Class VerifyPinResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.VerifyPinResponse.html"
+    },
+    {
+      "type": "Class SetManagementKeyCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.SetManagementKeyCommand.html"
+    },
+    {
+      "type": "Class ChangeManagementKeyResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.ChangeManagementKeyResponse.html"
+    },
+    {
+      "type": "Class SerializedLargeBlobArray ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.SerializedLargeBlobArray.html"
+    },
+    {
+      "type": "Class KeyHistory ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Objects.KeyHistory.html"
+    },
+    {
+      "type": "Class GetPagedDeviceInfoResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.GetPagedDeviceInfoResponse.html"
+    },
+    {
+      "type": "Class GetMetadataResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.GetMetadataResponse.html"
+    },
+    {
+      "type": "Class DeleteCredentialCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.DeleteCredentialCommand.html"
+    },
+    {
+      "type": "Class GetAssertionData ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.GetAssertionData.html"
+    },
+    {
+      "type": "Class DeleteKeyCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.DeleteKeyCommand.html"
+    },
+    {
+      "type": "Class GetKeyAgreementCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetKeyAgreementCommand.html"
+    },
+    {
+      "type": "Class GetPinUvAuthTokenUsingUvCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetPinUvAuthTokenUsingUvCommand.html"
+    },
+    {
+      "type": "Interface IYubiKeyResponseWithData<TData> ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.IYubiKeyResponseWithData-1.html"
+    },
+    {
+      "type": "Class AdminData ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Objects.AdminData.html"
+    },
+    {
+      "type": "Class SetManagementKeyResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.SetManagementKeyResponse.html"
+    },
+    {
+      "type": "Class EnumerateRpsBeginResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.EnumerateRpsBeginResponse.html"
+    },
+    {
+      "type": "Class RelyingParty ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.RelyingParty.html"
+    },
+    {
+      "type": "Class EnumerateRpsGetNextResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.EnumerateRpsGetNextResponse.html"
+    },
+    {
+      "type": "Class ResetRetryCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.ResetRetryCommand.html"
+    },
+    {
+      "type": "Class RegisterCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.RegisterCommand.html"
+    },
+    {
+      "type": "Yubico PIV Tool User Guide — YubiKey PIV Tool User Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/pivtool/index.html"
+    },
+    {
+      "type": "Class ResetRetryResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.ResetRetryResponse.html"
+    },
+    {
+      "type": "Class GetLargeBlobResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetLargeBlobResponse.html"
+    },
+    {
+      "type": "Class RegisterResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.RegisterResponse.html"
+    },
+    {
+      "type": "Class AuthenticateResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.AuthenticateResponse.html"
+    },
+    {
+      "type": "Class AuthenticateCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.AuthenticateCommand.html"
+    },
+    {
+      "type": "Class SetLargeBlobResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.SetLargeBlobResponse.html"
+    },
+    {
+      "type": "Class ImportAsymmetricKeyResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.ImportAsymmetricKeyResponse.html"
+    },
+    {
+      "type": "Class GenerateKeyPairResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.GenerateKeyPairResponse.html"
+    },
+    {
+      "type": "Class AuthenticateDecryptCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.AuthenticateDecryptCommand.html"
+    },
+    {
+      "type": "Class AuthenticateDecryptResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.AuthenticateDecryptResponse.html"
+    },
+    {
+      "type": "Class AuthenticateKeyAgreeResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.AuthenticateKeyAgreeResponse.html"
+    },
+    {
+      "type": "Class AuthenticateKeyAgreeCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.AuthenticateKeyAgreeCommand.html"
+    },
+    {
+      "type": "Class AuthenticateSignCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.AuthenticateSignCommand.html"
+    },
+    {
+      "type": "Class CreateAttestationStatementCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.CreateAttestationStatementCommand.html"
+    },
+    {
+      "type": "Class AuthenticateSignResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.AuthenticateSignResponse.html"
+    },
+    {
+      "type": "Class CreateAttestationStatementResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.CreateAttestationStatementResponse.html"
+    },
+    {
+      "type": "Class PutDataResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.PutDataResponse.html"
+    },
+    {
+      "type": "Class PutDataCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.PutDataCommand.html"
+    },
+    {
+      "type": "Class ResetPivCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.ResetPivCommand.html"
+    },
+    {
+      "type": "Class BioEnrollSampleResult ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.BioEnrollSampleResult.html"
+    },
+    {
+      "type": "Class ResetPivResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.ResetPivResponse.html"
+    },
+    {
+      "type": "Interface IYubiKeyResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.IYubiKeyResponse.html"
+    },
+    {
+      "type": "Enum CryptographicKeyType ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.CryptographicKeyType.html"
+    },
+    {
+      "type": "Class RsaFormat ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Cryptography.RsaFormat.html"
+    },
+    {
+      "type": "Class ResetResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.ResetResponse.html"
+    },
+    {
+      "type": "Class VersionResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.VersionResponse.html"
+    },
+    {
+      "type": "Class ChangeManagementKeyCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.ChangeManagementKeyCommand.html"
+    },
+    {
+      "type": "Yubico Authenticator User Guide — Yubico Authenticator User Guide  documentation",
+      "url": "https://docs.yubico.com/software/yubikey/tools/authenticator/auth-guide/index.html"
+    },
+    {
+      "type": "Class CardCapabilityContainer ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Objects.CardCapabilityContainer.html"
+    },
+    {
+      "type": "Class GetLargeBlobCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetLargeBlobCommand.html"
+    },
+    {
+      "type": "Class GetPagedDeviceInfoCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.U2f.Commands.GetPagedDeviceInfoCommand.html"
+    },
+    {
+      "type": "Class GetInfoResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetInfoResponse.html"
+    },
+    {
+      "type": "Class GetNextAssertionCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetNextAssertionCommand.html"
+    },
+    {
+      "type": "Class ListCredentialsResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.ListCredentialsResponse.html"
+    },
+    {
+      "type": "Class DeleteCredentialResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.DeleteCredentialResponse.html"
+    },
+    {
+      "type": "Class ResetApplicationResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.ResetApplicationResponse.html"
+    },
+    {
+      "type": "Class GetApplicationVersionResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.GetApplicationVersionResponse.html"
+    },
+    {
+      "type": "Class EnumerateCredentialsGetNextCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.EnumerateCredentialsGetNextCommand.html"
+    },
+    {
+      "type": "Class MoveKeyCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Piv.Commands.MoveKeyCommand.html"
+    },
+    {
+      "type": "Class GetAes128SessionKeysResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.GetAes128SessionKeysResponse.html"
+    },
+    {
+      "type": "Class GetManagementKeyRetriesResponse ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.GetManagementKeyRetriesResponse.html"
+    },
+    {
+      "type": "Class GetPinUvAuthTokenUsingPinCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.Fido2.Commands.GetPinUvAuthTokenUsingPinCommand.html"
+    },
+    {
+      "type": "Enum ResponseStatus ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.ResponseStatus.html"
+    },
+    {
+      "type": "Class GetAes128SessionKeysCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.GetAes128SessionKeysCommand.html"
+    },
+    {
+      "type": "Class ResetApplicationCommand ",
+      "url": "https://docs.yubico.com/yesdk/yubikey-api/Yubico.YubiKey.YubiHsmAuth.Commands.ResetApplicationCommand.html"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-11-24T20:52:23.112Z",
+      "filename": "documentation_2025-11-24T20:52:23.112Z.md",
+      "totalPages": 369,
+      "successfulPages": 369,
+      "url": "https://docs.yubico.com/software/yubikey/tools/ykman/index.html",
+      "isLatest": true,
+      "label": "latest"
+    }
+  ],
+  "schemaVersion": 2
+}

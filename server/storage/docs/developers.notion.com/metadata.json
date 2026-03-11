@@ -1,126 +1,393 @@
 {
   "url": "https://developers.notion.com/",
   "domain": "developers.notion.com",
-  "lastScraped": "2025-09-20T09:53:15.268Z",
-  "totalPages": 27,
-  "successfulPages": 27,
+  "lastScraped": "2026-03-02T09:35:41.047Z",
+  "totalPages": 89,
+  "successfulPages": 89,
   "failedPages": [],
   "structure": [
     {
-      "type": "Notion API",
+      "type": "Notion Docs - Notion Docs",
       "url": "https://developers.notion.com/"
     },
     {
-      "type": "Notion API Overview",
-      "url": "https://developers.notion.com/docs/getting-started"
+      "type": "Audit log events - Notion Docs",
+      "url": "https://developers.notion.com/compliance/audit-log-events"
     },
     {
-      "type": "Build your first integration",
-      "url": "https://developers.notion.com/docs/create-a-notion-integration"
+      "type": "Compliance - Notion Docs",
+      "url": "https://developers.notion.com/compliance/overview"
     },
     {
-      "type": "Authorization",
-      "url": "https://developers.notion.com/docs/authorization"
+      "type": "SIEM events - Notion Docs",
+      "url": "https://developers.notion.com/compliance/siem-events"
     },
     {
-      "type": "Notion MCP – Connect Notion to your favorite AI tools",
-      "url": "https://developers.notion.com/docs/mcp"
+      "type": "Importing external files - Notion Docs",
+      "url": "https://developers.notion.com/guides/data-apis/importing-external-files"
     },
     {
-      "type": "Publishing to Notion’s Integration Gallery",
-      "url": "https://developers.notion.com/docs/publishing-integrations-to-notions-integration-gallery"
+      "type": "Creating pages from templates - Notion Docs",
+      "url": "https://developers.notion.com/guides/data-apis/creating-pages-from-templates"
     },
     {
-      "type": "Notion MCP – Getting started – How to connect Notion to your favorite AI tools",
-      "url": "https://developers.notion.com/docs/get-started-with-mcp"
+      "type": "Enhanced markdown format - Notion Docs",
+      "url": "https://developers.notion.com/guides/data-apis/enhanced-markdown"
     },
     {
-      "type": "Hosting a local MCP server",
-      "url": "https://developers.notion.com/docs/hosting-open-source-mcp"
+      "type": "Publishing to Notion’s Integration Gallery - Notion Docs",
+      "url": "https://developers.notion.com/guides/get-started/publishing-integrations-to-notions-integration-gallery"
     },
     {
-      "type": "Security best practices",
-      "url": "https://developers.notion.com/docs/mcp-security-best-practices"
+      "type": "Retrieving existing files - Notion Docs",
+      "url": "https://developers.notion.com/guides/data-apis/retrieving-files"
     },
     {
-      "type": "Common Notion MCP clients",
-      "url": "https://developers.notion.com/docs/common-mcp-clients"
+      "type": "Working with comments - Notion Docs",
+      "url": "https://developers.notion.com/guides/data-apis/working-with-comments"
     },
     {
-      "type": "Notion MCP – Supported tools – How to use Notion MCP in your favorite AI tools",
-      "url": "https://developers.notion.com/docs/mcp-supported-tools"
+      "type": "Introduction - Notion Docs",
+      "url": "https://developers.notion.com/guides/link-previews/link-previews"
     },
     {
-      "type": "Importing external files",
-      "url": "https://developers.notion.com/docs/importing-external-files"
+      "type": "Working with files and media - Notion Docs",
+      "url": "https://developers.notion.com/guides/data-apis/working-with-files-and-media"
     },
     {
-      "type": "FAQs: Version 2025-09-03",
-      "url": "https://developers.notion.com/docs/upgrade-faqs-2025-09-03"
+      "type": "Notion API Overview - Notion Docs",
+      "url": "https://developers.notion.com/guides/get-started/getting-started"
     },
     {
-      "type": "Frequently asked questions",
-      "url": "https://developers.notion.com/page/frequently-asked-questions"
+      "type": "Notion MCP - Notion Docs",
+      "url": "https://developers.notion.com/guides/mcp/mcp"
     },
     {
-      "type": "Changelog",
-      "url": "https://developers.notion.com/page/changelog"
+      "type": "Working with markdown content - Notion Docs",
+      "url": "https://developers.notion.com/guides/data-apis/working-with-markdown-content"
     },
     {
-      "type": "Examples",
+      "type": "Security best practices - Notion Docs",
+      "url": "https://developers.notion.com/guides/mcp/mcp-security-best-practices"
+    },
+    {
+      "type": "Common MCP clients - Notion Docs",
+      "url": "https://developers.notion.com/guides/mcp/common-mcp-clients"
+    },
+    {
+      "type": "Hosting a local MCP server - Notion Docs",
+      "url": "https://developers.notion.com/guides/mcp/hosting-open-source-mcp"
+    },
+    {
+      "type": "Uploading larger files - Notion Docs",
+      "url": "https://developers.notion.com/guides/data-apis/sending-larger-files"
+    },
+    {
+      "type": "Authentication - Notion Docs",
+      "url": "https://developers.notion.com/reference/authentication"
+    },
+    {
+      "type": "Comment display name - Notion Docs",
+      "url": "https://developers.notion.com/reference/comment-display-name"
+    },
+    {
+      "type": "Uploading small files - Notion Docs",
+      "url": "https://developers.notion.com/guides/data-apis/uploading-small-files"
+    },
+    {
+      "type": "Supported tools - Notion Docs",
+      "url": "https://developers.notion.com/guides/mcp/mcp-supported-tools"
+    },
+    {
+      "type": "Comment attachment - Notion Docs",
+      "url": "https://developers.notion.com/reference/comment-attachment"
+    },
+    {
+      "type": "Best practices for handling API keys - Notion Docs",
+      "url": "https://developers.notion.com/guides/resources/best-practices-for-handling-api-keys"
+    },
+    {
+      "type": "Authorization - Notion Docs",
+      "url": "https://developers.notion.com/guides/get-started/authorization"
+    },
+    {
+      "type": "Comment - Notion Docs",
+      "url": "https://developers.notion.com/reference/comment-object"
+    },
+    {
+      "type": "Examples - Notion Docs",
       "url": "https://developers.notion.com/page/examples"
     },
     {
-      "type": "Retrieve page property item",
-      "url": "https://developers.notion.com/changelog/retrieve-page-property-values"
+      "type": "Complete a file upload - Notion Docs",
+      "url": "https://developers.notion.com/reference/complete-a-file-upload"
     },
     {
-      "type": "Pagination",
-      "url": "https://developers.notion.com/reference/pagination"
+      "type": "Integration capabilities - Notion Docs",
+      "url": "https://developers.notion.com/reference/capabilities"
     },
     {
-      "type": "Releasing Notion-Version 2022-06-28",
-      "url": "https://developers.notion.com/changelog/releasing-notion-version-2022-06-28"
+      "type": "Connecting to Notion MCP - Notion Docs",
+      "url": "https://developers.notion.com/guides/mcp/get-started-with-mcp"
     },
     {
-      "type": "Sync Spotify Playlist with Notion",
-      "url": "https://developers.notion.com/page/spotify"
+      "type": "Request limits - Notion Docs",
+      "url": "https://developers.notion.com/reference/request-limits"
     },
     {
-      "type": "Log Strava Activity in Notion",
-      "url": "https://developers.notion.com/page/log-strava-activity-in-notion"
+      "type": "Build a Link Preview integration - Notion Docs",
+      "url": "https://developers.notion.com/guides/link-previews/build-a-link-preview-integration"
     },
     {
-      "type": "Releasing Notion-Version 2022-02-22",
-      "url": "https://developers.notion.com/changelog/releasing-notion-version-2022-02-22"
+      "type": "FAQs: Version 2025-09-03 - Notion Docs",
+      "url": "https://developers.notion.com/guides/get-started/upgrade-faqs-2025-09-03"
     },
     {
-      "type": "Integrate Mailchimp Campaigns with Notion Databases",
-      "url": "https://developers.notion.com/page/integrate-mailchimp-campaigns-with-notion-databases"
+      "type": "File - Notion Docs",
+      "url": "https://developers.notion.com/reference/file-object"
     },
     {
-      "type": "\"Notion-Version\" header will be required starting June 1, 2021",
-      "url": "https://developers.notion.com/changelog/unversioned-requests-no-longer-accepted"
+      "type": "Retrieve your token's bot user - Notion Docs",
+      "url": "https://developers.notion.com/reference/get-self"
     },
     {
-      "type": "Releasing Notion Version 2021-08-16",
-      "url": "https://developers.notion.com/changelog/notion-version-2021-08-16"
+      "type": "Emoji - Notion Docs",
+      "url": "https://developers.notion.com/reference/emoji-object"
     },
     {
-      "type": "Errors",
-      "url": "https://developers.notion.com/reference/errors"
+      "type": "Status codes - Notion Docs",
+      "url": "https://developers.notion.com/reference/status-codes"
     },
     {
-      "type": "Property Schema Object",
-      "url": "https://developers.notion.com/reference/property-schema-object"
+      "type": "Search optimizations and limitations - Notion Docs",
+      "url": "https://developers.notion.com/reference/search-optimizations-and-limitations"
+    },
+    {
+      "type": "List all users - Notion Docs",
+      "url": "https://developers.notion.com/reference/get-users"
+    },
+    {
+      "type": "Retrieve a user - Notion Docs",
+      "url": "https://developers.notion.com/reference/get-user"
+    },
+    {
+      "type": "Create a token - Notion Docs",
+      "url": "https://developers.notion.com/reference/create-a-token"
+    },
+    {
+      "type": "Comment updated - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/comment-updated"
+    },
+    {
+      "type": "File Upload - Notion Docs",
+      "url": "https://developers.notion.com/reference/file-upload"
+    },
+    {
+      "type": "Data source - Notion Docs",
+      "url": "https://developers.notion.com/reference/data-source"
+    },
+    {
+      "type": "Comment created - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/comment-created"
+    },
+    {
+      "type": "Comment deleted - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/comment-deleted"
+    },
+    {
+      "type": "Database - Notion Docs",
+      "url": "https://developers.notion.com/reference/database"
+    },
+    {
+      "type": "Introspect a token - Notion Docs",
+      "url": "https://developers.notion.com/reference/introspect-token"
+    },
+    {
+      "type": "Versioning - Notion Docs",
+      "url": "https://developers.notion.com/reference/versioning"
+    },
+    {
+      "type": "Create comment - Notion Docs",
+      "url": "https://developers.notion.com/reference/create-a-comment"
+    },
+    {
+      "type": "File upload completed - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/file-upload-completed"
+    },
+    {
+      "type": "File upload failed - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/file-upload-upload-failed"
+    },
+    {
+      "type": "File upload expired - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/file-upload-expired"
+    },
+    {
+      "type": "List data source templates - Notion Docs",
+      "url": "https://developers.notion.com/reference/list-data-source-templates"
+    },
+    {
+      "type": "Revoke a token - Notion Docs",
+      "url": "https://developers.notion.com/reference/revoke-token"
+    },
+    {
+      "type": "List comments - Notion Docs",
+      "url": "https://developers.notion.com/reference/list-comments"
+    },
+    {
+      "type": "Update a database - Notion Docs",
+      "url": "https://developers.notion.com/reference/database-update"
+    },
+    {
+      "type": "Data source deleted - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/data-source-deleted"
+    },
+    {
+      "type": "Data source content updated - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/data-source-content-updated"
+    },
+    {
+      "type": "Data source schema updated - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/data-source-schema-updated"
+    },
+    {
+      "type": "Database content updated - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/database-content-updated"
+    },
+    {
+      "type": "Create a file upload - Notion Docs",
+      "url": "https://developers.notion.com/reference/create-a-file-upload"
+    },
+    {
+      "type": "Data source moved - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/data-source-moved"
+    },
+    {
+      "type": "Retrieve a comment - Notion Docs",
+      "url": "https://developers.notion.com/reference/retrieve-comment"
+    },
+    {
+      "type": "File upload created - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/file-upload-created"
+    },
+    {
+      "type": "Refresh a token - Notion Docs",
+      "url": "https://developers.notion.com/reference/refresh-a-token"
+    },
+    {
+      "type": "Database schema updated - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/database-schema-updated"
+    },
+    {
+      "type": "Database moved - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/database-moved"
+    },
+    {
+      "type": "Get databases - Notion Docs",
+      "url": "https://developers.notion.com/reference/get-databases"
+    },
+    {
+      "type": "Sort database entries - Notion Docs",
+      "url": "https://developers.notion.com/reference/post-database-query-sort"
+    },
+    {
+      "type": "List file uploads - Notion Docs",
+      "url": "https://developers.notion.com/reference/list-file-uploads"
+    },
+    {
+      "type": "Data source created - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/data-source-created"
+    },
+    {
+      "type": "Retrieve a file upload - Notion Docs",
+      "url": "https://developers.notion.com/reference/retrieve-a-file-upload"
+    },
+    {
+      "type": "Database deleted - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/database-deleted"
+    },
+    {
+      "type": "User - Notion Docs",
+      "url": "https://developers.notion.com/reference/user"
+    },
+    {
+      "type": "Retrieve a database - Notion Docs",
+      "url": "https://developers.notion.com/reference/database-retrieve"
+    },
+    {
+      "type": "Data source undeleted - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/data-source-undeleted"
+    },
+    {
+      "type": "Build your first integration - Notion Docs",
+      "url": "https://developers.notion.com/guides/get-started/create-a-notion-integration"
+    },
+    {
+      "type": "Database created - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/database-created"
+    },
+    {
+      "type": "Sort data source entries - Notion Docs",
+      "url": "https://developers.notion.com/reference/sort-data-source-entries"
+    },
+    {
+      "type": "Working with page content - Notion Docs",
+      "url": "https://developers.notion.com/guides/data-apis/working-with-page-content"
+    },
+    {
+      "type": "Create a database - Notion Docs",
+      "url": "https://developers.notion.com/reference/create-a-database"
+    },
+    {
+      "type": "Changelog - Notion Docs",
+      "url": "https://developers.notion.com/page/changelog"
+    },
+    {
+      "type": "Database undeleted - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks/database-undeleted"
+    },
+    {
+      "type": "Webhooks - Notion Docs",
+      "url": "https://developers.notion.com/reference/webhooks"
+    },
+    {
+      "type": "Overview - Notion Docs",
+      "url": "https://developers.notion.com/reference/post-database-query"
+    },
+    {
+      "type": "Parent - Notion Docs",
+      "url": "https://developers.notion.com/reference/parent-object"
+    },
+    {
+      "type": "Send a file upload - Notion Docs",
+      "url": "https://developers.notion.com/reference/send-a-file-upload"
     }
   ],
-  "latestVersion": "1.2.0",
+  "latestVersion": "1.2.2",
   "versions": [
     {
-      "version": "1.0.0",
-      "timestamp": "2025-04-09T02:20:39.893Z",
-      "filename": "documentation_2025-04-09T02:20:39.893Z.md",
+      "version": "1.2.2",
+      "label": "latest",
+      "timestamp": "2026-03-02T09:35:41.047Z",
+      "filename": "documentation_2026-03-02T09:35:41.047Z.md",
+      "totalPages": 89,
+      "successfulPages": 89,
+      "url": "https://developers.notion.com/",
+      "isLatest": true
+    },
+    {
+      "version": "1.2.1",
+      "timestamp": "2026-02-11T17:29:05.980Z",
+      "filename": "documentation_2026-02-11T17:29:05.980Z.md",
+      "totalPages": 80,
+      "successfulPages": 80,
+      "url": "https://developers.notion.com/",
+      "isLatest": false
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2025-09-20T09:53:15.268Z",
+      "filename": "documentation_2025-09-20T09:53:15.268Z.md",
       "totalPages": 27,
       "successfulPages": 27,
       "url": "https://developers.notion.com/",
@@ -136,14 +403,13 @@
       "isLatest": false
     },
     {
-      "version": "1.2.0",
-      "timestamp": "2025-09-20T09:53:15.268Z",
-      "filename": "documentation_2025-09-20T09:53:15.268Z.md",
+      "version": "1.0.0",
+      "timestamp": "2025-04-09T02:20:39.893Z",
+      "filename": "documentation_2025-04-09T02:20:39.893Z.md",
       "totalPages": 27,
       "successfulPages": 27,
       "url": "https://developers.notion.com/",
-      "isLatest": true,
-      "label": "latest"
+      "isLatest": false
     }
   ],
   "schemaVersion": 2
