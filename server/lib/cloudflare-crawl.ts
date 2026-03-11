@@ -276,9 +276,13 @@ export async function getCrawlStatus(crawlId: string): Promise<CrawlStatusRespon
 
       // Try HTML → Readability extraction first (highest quality)
       if (record.html) {
-        const extracted = extractMainContent(record.html, pageUrl);
-        markdown = cleanMarkdown(extracted.markdown);
-        title = extracted.title || title;
+        try {
+          const extracted = extractMainContent(record.html, pageUrl);
+          markdown = cleanMarkdown(extracted.markdown);
+          title = extracted.title || title;
+        } catch (e) {
+          console.warn(`[cloudflare-crawl] Readability extraction failed for ${pageUrl}:`, e);
+        }
       }
 
       // Fallback to Cloudflare's raw markdown if Readability failed
