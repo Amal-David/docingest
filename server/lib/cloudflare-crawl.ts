@@ -250,9 +250,10 @@ export async function getCrawlStatus(crawlId: string): Promise<CrawlStatusRespon
       const pageUrl: string = record.url || '';
 
       // Deduplicate by URL (handles ignoreQueryParameters gap)
+      // Skip dedup for records without a URL to avoid silently dropping them
       const normalizedUrl = pageUrl.split('?')[0].split('#')[0];
-      if (seenUrls.has(normalizedUrl)) continue;
-      seenUrls.add(normalizedUrl);
+      if (normalizedUrl && seenUrls.has(normalizedUrl)) continue;
+      if (normalizedUrl) seenUrls.add(normalizedUrl);
 
       let markdown = '';
       let title = record.title || '';
