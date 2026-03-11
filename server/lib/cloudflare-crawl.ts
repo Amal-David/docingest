@@ -259,6 +259,19 @@ export async function getCrawlStatus(crawlId: string): Promise<CrawlStatusRespon
 
     // Process results — Cloudflare puts them in `result` array
     const rawResults: any[] = data.result || [];
+
+    // When still scraping, skip expensive JSDOM/Readability parsing —
+    // just return counts so the frontend can show progress.
+    if (normalizedStatus !== 'completed') {
+      return {
+        status: normalizedStatus,
+        completed: rawResults.length,
+        total: Math.max(rawResults.length, rawResults.length),
+        data: [],
+      };
+    }
+
+    // Crawl complete — do full content extraction
     const pages: CrawlPage[] = [];
     const seenUrls = new Set<string>();
 
@@ -302,10 +315,10 @@ export async function getCrawlStatus(crawlId: string): Promise<CrawlStatusRespon
     }
 
     return {
-      status: normalizedStatus,
+      status: 'completed',
       completed: pages.length,
-      total: normalizedStatus === 'completed' ? pages.length : Math.max(pages.length, rawResults.length),
-      data: normalizedStatus === 'completed' ? pages : [],
+      total: pages.length,
+      data: pages,
     };
   } catch (err: any) {
     console.error('[cloudflare-crawl] Status error:', err);
