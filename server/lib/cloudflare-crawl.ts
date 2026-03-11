@@ -55,6 +55,17 @@ export interface CrawlStatusResponse {
 }
 
 // ---------------------------------------------------------------------------
+// Validation
+// ---------------------------------------------------------------------------
+
+/** Crawl IDs from Cloudflare are UUIDs. Reject anything else to prevent SSRF. */
+const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
+export function isValidCrawlId(id: string): boolean {
+  return UUID_RE.test(id);
+}
+
+// ---------------------------------------------------------------------------
 // Config
 // ---------------------------------------------------------------------------
 
@@ -202,6 +213,11 @@ export async function startCrawl(req: CrawlStartRequest): Promise<{ success: boo
 export async function getCrawlStatus(crawlId: string): Promise<CrawlStatusResponse> {
   if (!isCloudflareConfigured()) {
     return { status: 'failed', completed: 0, total: 0, data: [], error: 'Cloudflare API not configured' };
+  }
+
+  // Validate crawl ID is a UUID to prevent SSRF via path traversal
+  if (!isValidCrawlId(crawlId)) {
+    return { status: 'failed', completed: 0, total: 0, data: [], error: 'Invalid crawl ID format' };
   }
 
   try {

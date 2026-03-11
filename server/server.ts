@@ -58,6 +58,7 @@ import {
   startCrawl,
   getCrawlStatus,
   isCloudflareConfigured,
+  isValidCrawlId,
   type CrawlStartRequest,
 } from './lib/cloudflare-crawl';
 const app = express();
@@ -1774,8 +1775,8 @@ app.get('/api/crawl/status/:id', async (req, res) => {
   try {
     const { id } = req.params;
 
-    if (!id) {
-      res.status(400).json({ status: 'failed', error: 'Missing crawl ID' });
+    if (!id || !isValidCrawlId(id)) {
+      res.status(400).json({ status: 'failed', error: 'Invalid or missing crawl ID' });
       return;
     }
 
