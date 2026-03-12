@@ -20,7 +20,7 @@ Unused items to remove:
 **Impact**: Faster page loads, reduced bandwidth
 **Implementation**:
 ```javascript
-// In simple-frontend.cjs
+// In src/frontend-static-server.ts
 const compression = require('compression');
 app.use(compression());
 ```
