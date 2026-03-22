@@ -1,0 +1,812 @@
+{
+  "url": "https://questdb.com/docs/",
+  "domain": "questdb.com",
+  "lastScraped": "2026-03-21T03:09:33.804Z",
+  "totalPages": 197,
+  "successfulPages": 197,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Introduction | QuestDB",
+      "url": "https://questdb.com/docs/"
+    },
+    {
+      "type": "Memory Management | QuestDB",
+      "url": "https://questdb.com/docs/architecture/memory-management/"
+    },
+    {
+      "type": "Observability | QuestDB",
+      "url": "https://questdb.com/docs/architecture/observability/"
+    },
+    {
+      "type": "Query Engine | QuestDB",
+      "url": "https://questdb.com/docs/architecture/query-engine/"
+    },
+    {
+      "type": "Time Series Optimizations | QuestDB",
+      "url": "https://questdb.com/docs/architecture/time-series-optimizations/"
+    },
+    {
+      "type": "SQL optimizer hints | QuestDB",
+      "url": "https://questdb.com/docs/concepts/deep-dive/sql-optimizer-hints/"
+    },
+    {
+      "type": "Deduplication | QuestDB",
+      "url": "https://questdb.com/docs/concepts/deduplication/"
+    },
+    {
+      "type": "Symbol | QuestDB",
+      "url": "https://questdb.com/docs/concepts/symbol/"
+    },
+    {
+      "type": "Time Partitions | QuestDB",
+      "url": "https://questdb.com/docs/concepts/partitions/"
+    },
+    {
+      "type": "JIT compiler | QuestDB",
+      "url": "https://questdb.com/docs/concepts/deep-dive/jit-compiler/"
+    },
+    {
+      "type": "Working with time zones | QuestDB",
+      "url": "https://questdb.com/docs/concepts/timestamps-timezones/"
+    },
+    {
+      "type": "Materialized views | QuestDB",
+      "url": "https://questdb.com/docs/concepts/materialized-views/"
+    },
+    {
+      "type": "Query tracing | QuestDB",
+      "url": "https://questdb.com/docs/concepts/deep-dive/query-tracing/"
+    },
+    {
+      "type": "SQL extensions | QuestDB",
+      "url": "https://questdb.com/docs/concepts/deep-dive/sql-extensions/"
+    },
+    {
+      "type": "Designated timestamp | QuestDB",
+      "url": "https://questdb.com/docs/concepts/designated-timestamp/"
+    },
+    {
+      "type": "Interval Scan | QuestDB",
+      "url": "https://questdb.com/docs/concepts/deep-dive/interval-scan/"
+    },
+    {
+      "type": "Indexes | QuestDB",
+      "url": "https://questdb.com/docs/concepts/deep-dive/indexes/"
+    },
+    {
+      "type": "Architecture Overview | QuestDB",
+      "url": "https://questdb.com/docs/architecture/questdb-architecture/"
+    },
+    {
+      "type": "Command-line options | QuestDB",
+      "url": "https://questdb.com/docs/configuration/command-line-options/"
+    },
+    {
+      "type": "Root directory structure | QuestDB",
+      "url": "https://questdb.com/docs/concepts/deep-dive/root-directory-structure/"
+    },
+    {
+      "type": "QuestDB Storage Engine | QuestDB",
+      "url": "https://questdb.com/docs/architecture/storage-engine/"
+    },
+    {
+      "type": "Write-Ahead Log (WAL) | QuestDB",
+      "url": "https://questdb.com/docs/concepts/write-ahead-log/"
+    },
+    {
+      "type": "Views | QuestDB",
+      "url": "https://questdb.com/docs/concepts/views/"
+    },
+    {
+      "type": "Configuration | QuestDB",
+      "url": "https://questdb.com/docs/configuration/overview/"
+    },
+    {
+      "type": "Time To Live (TTL) | QuestDB",
+      "url": "https://questdb.com/docs/concepts/ttl/"
+    },
+    {
+      "type": "Cookbook overview | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/"
+    },
+    {
+      "type": "Demo data schema | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/demo-data-schema/"
+    },
+    {
+      "type": "Query multiple tables dynamically in Grafana | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/integrations/grafana/dynamic-table-queries/"
+    },
+    {
+      "type": "Overlay two time series with time shift | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/integrations/grafana/overlay-timeshift/"
+    },
+    {
+      "type": "Configure read-only user for Grafana | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/integrations/grafana/read-only-user/"
+    },
+    {
+      "type": "Grafana variable dropdown with name and value | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/integrations/grafana/variable-dropdown/"
+    },
+    {
+      "type": "Collect OPC-UA data with Telegraf in dense format | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/integrations/opcua-dense-format/"
+    },
+    {
+      "type": "Replication tuning | QuestDB",
+      "url": "https://questdb.com/docs/high-availability/tuning/"
+    },
+    {
+      "type": "WAL cleanup | QuestDB",
+      "url": "https://questdb.com/docs/high-availability/wal-cleanup/"
+    },
+    {
+      "type": "Replication setup guide | QuestDB",
+      "url": "https://questdb.com/docs/high-availability/setup/"
+    },
+    {
+      "type": "Copy data between QuestDB instances | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/operations/copy-data-between-instances/"
+    },
+    {
+      "type": "ZFS Compression | QuestDB",
+      "url": "https://questdb.com/docs/deployment/compression-zfs/"
+    },
+    {
+      "type": "AI Coding Agents | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/ai-coding-agents/"
+    },
+    {
+      "type": "Replication overview | QuestDB",
+      "url": "https://questdb.com/docs/high-availability/overview/"
+    },
+    {
+      "type": "Handle missing columns in C++ client | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/programmatic/cpp/missing-columns/"
+    },
+    {
+      "type": "Deploying QuestDB on AWS | QuestDB",
+      "url": "https://questdb.com/docs/deployment/aws/"
+    },
+    {
+      "type": "Deploying QuestDB on Azure | QuestDB",
+      "url": "https://questdb.com/docs/deployment/azure/"
+    },
+    {
+      "type": "Check transaction applied after ingestion | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/operations/check-transaction-applied/"
+    },
+    {
+      "type": "Deploying to Digital Ocean | QuestDB",
+      "url": "https://questdb.com/docs/deployment/digital-ocean/"
+    },
+    {
+      "type": "Launch QuestDB with systemd | QuestDB",
+      "url": "https://questdb.com/docs/deployment/systemd/"
+    },
+    {
+      "type": "Show parameters with non-default values | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/operations/show-non-default-params/"
+    },
+    {
+      "type": "Upgrade to QuestDB Enterprise | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/migrate-to-enterprise/"
+    },
+    {
+      "type": "Dagster | QuestDB",
+      "url": "https://questdb.com/docs/integrations/orchestration/dagster/"
+    },
+    {
+      "type": "Insert data from PHP using ILP | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/programmatic/php/inserting-ilp/"
+    },
+    {
+      "type": "Optimize disk and memory usage with many tables | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/operations/optimize-many-tables/"
+    },
+    {
+      "type": "Insert data from Ruby using ILP | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/programmatic/ruby/inserting-ilp/"
+    },
+    {
+      "type": "Pandas | QuestDB",
+      "url": "https://questdb.com/docs/integrations/data-processing/pandas/"
+    },
+    {
+      "type": "Import CSV with millisecond timestamps | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/operations/csv-import-milliseconds/"
+    },
+    {
+      "type": "Apache Airflow | QuestDB",
+      "url": "https://questdb.com/docs/integrations/orchestration/airflow/"
+    },
+    {
+      "type": "Configure QuestDB with Docker Compose | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/operations/docker-compose-config/"
+    },
+    {
+      "type": "Store QuestDB metrics in QuestDB | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/operations/store-questdb-metrics/"
+    },
+    {
+      "type": "Query performance histogram | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/operations/query-times-histogram/"
+    },
+    {
+      "type": "QuestDB Flink connector | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/message-brokers/flink/"
+    },
+    {
+      "type": "InfluxDB Line Protocol Columnset Value Types | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/ilp/columnset-types/"
+    },
+    {
+      "type": "Apache Spark and Time-Series Analytics | QuestDB",
+      "url": "https://questdb.com/docs/integrations/data-processing/spark/"
+    },
+    {
+      "type": "Last look detection | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/last-look/"
+    },
+    {
+      "type": "Telegraf | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/message-brokers/telegraf/"
+    },
+    {
+      "type": "Polars | QuestDB",
+      "url": "https://questdb.com/docs/integrations/data-processing/polars/"
+    },
+    {
+      "type": "Java (embedded) | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/java-embedded/"
+    },
+    {
+      "type": "TLS with PgBouncer for QuestDB | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/operations/tls-pgbouncer/"
+    },
+    {
+      "type": "Deploying to Google Cloud Platform  (GCP) | QuestDB",
+      "url": "https://questdb.com/docs/deployment/gcp/"
+    },
+    {
+      "type": "Redpanda | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/message-brokers/redpanda/"
+    },
+    {
+      "type": "Embeddable | QuestDB",
+      "url": "https://questdb.com/docs/integrations/visualization/embeddable/"
+    },
+    {
+      "type": "Superset | QuestDB",
+      "url": "https://questdb.com/docs/integrations/visualization/superset/"
+    },
+    {
+      "type": "Run QuestDB on Kubernetes | QuestDB",
+      "url": "https://questdb.com/docs/deployment/kubernetes/"
+    },
+    {
+      "type": "Implementation shortfall decomposition | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/implementation-shortfall/"
+    },
+    {
+      "type": "Configure TLS certificate authorities | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/programmatic/tls-ca-configuration/"
+    },
+    {
+      "type": "Grafana | QuestDB",
+      "url": "https://questdb.com/docs/integrations/visualization/grafana/"
+    },
+    {
+      "type": "qStudio | QuestDB",
+      "url": "https://questdb.com/docs/integrations/visualization/qstudio/"
+    },
+    {
+      "type": "Capacity planning | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/capacity-planning/"
+    },
+    {
+      "type": "Data retention | QuestDB",
+      "url": "https://questdb.com/docs/operations/data-retention/"
+    },
+    {
+      "type": "Alternatives to UPDATE | QuestDB",
+      "url": "https://questdb.com/docs/operations/modifying-data/"
+    },
+    {
+      "type": "List of OS error codes | QuestDB",
+      "url": "https://questdb.com/docs/troubleshooting/os-error-codes/"
+    },
+    {
+      "type": "ECN scorecard | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/ecn-scorecard/"
+    },
+    {
+      "type": "Client configuration string | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/clients/configuration-string/"
+    },
+    {
+      "type": "QuestDB Enterprise quick start | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/enterprise-quick-start/"
+    },
+    {
+      "type": "How UPDATE works | QuestDB",
+      "url": "https://questdb.com/docs/operations/updating-data/"
+    },
+    {
+      "type": "Automating QuestDB Tasks | QuestDB",
+      "url": "https://questdb.com/docs/operations/task-automation/"
+    },
+    {
+      "type": "Logging and metrics | QuestDB",
+      "url": "https://questdb.com/docs/operations/logging-metrics/"
+    },
+    {
+      "type": "Post-trade markout analysis | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/markout/"
+    },
+    {
+      "type": "SQLAlchemy | QuestDB",
+      "url": "https://questdb.com/docs/integrations/other/sqlalchemy/"
+    },
+    {
+      "type": "CSV Import | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/import-csv/"
+    },
+    {
+      "type": "Using Docker with QuestDB | QuestDB",
+      "url": "https://questdb.com/docs/deployment/docker/"
+    },
+    {
+      "type": "Create a sample database | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/create-database/"
+    },
+    {
+      "type": "Order-level implementation shortfall | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/implementation-shortfall-order/"
+    },
+    {
+      "type": "Import CSV Using Web Console | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/web-console/import-csv/"
+    },
+    {
+      "type": "Databento | QuestDB",
+      "url": "https://questdb.com/docs/integrations/other/databento/"
+    },
+    {
+      "type": "Web Console Overview | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/web-console/overview/"
+    },
+    {
+      "type": "Query Log | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/web-console/query-log/"
+    },
+    {
+      "type": "Schema Explorer | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/web-console/schema-explorer/"
+    },
+    {
+      "type": "QuestDB AI | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/web-console/questdb-ai/"
+    },
+    {
+      "type": "Go Client Documentation | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/clients/go/"
+    },
+    {
+      "type": "Advanced InfluxDB Line Protocol settings | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/ilp/advanced-settings/"
+    },
+    {
+      "type": "Code Editor | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/web-console/code-editor/"
+    },
+    {
+      "type": "Monitoring and alerting | QuestDB",
+      "url": "https://questdb.com/docs/operations/monitoring-alerting/"
+    },
+    {
+      "type": "Backup and restore | QuestDB",
+      "url": "https://questdb.com/docs/operations/backup/"
+    },
+    {
+      "type": "Metrics View | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/web-console/metrics-view/"
+    },
+    {
+      "type": "Node.js Client Documentation | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/clients/nodejs/"
+    },
+    {
+      "type": "PowerBI | QuestDB",
+      "url": "https://questdb.com/docs/integrations/visualization/powerbi/"
+    },
+    {
+      "type": "Profiling | QuestDB",
+      "url": "https://questdb.com/docs/troubleshooting/profiling/"
+    },
+    {
+      "type": "Result Grid | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/web-console/result-grid/"
+    },
+    {
+      "type": "Date to Timestamp Conversion in Different Programming Languages | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/clients/date-to-timestamp-conversion/"
+    },
+    {
+      "type": "Cube | QuestDB",
+      "url": "https://questdb.com/docs/integrations/other/cube/"
+    },
+    {
+      "type": "Decimal | QuestDB",
+      "url": "https://questdb.com/docs/query/datatypes/decimal/"
+    },
+    {
+      "type": "MindsDB | QuestDB",
+      "url": "https://questdb.com/docs/integrations/other/mindsdb/"
+    },
+    {
+      "type": "Ignition 8.3 | QuestDB",
+      "url": "https://questdb.com/docs/integrations/other/ignition/"
+    },
+    {
+      "type": "Integrating Airbyte with QuestDB | QuestDB",
+      "url": "https://questdb.com/docs/integrations/other/airbyte/"
+    },
+    {
+      "type": "Slippage per fill | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/slippage/"
+    },
+    {
+      "type": "Data Types Overview | QuestDB",
+      "url": "https://questdb.com/docs/query/datatypes/overview/"
+    },
+    {
+      "type": "List of  QuestDB Error Codes | QuestDB",
+      "url": "https://questdb.com/docs/troubleshooting/error-codes/"
+    },
+    {
+      "type": "Deploying to Hetzner Cloud | QuestDB",
+      "url": "https://questdb.com/docs/deployment/hetzner/"
+    },
+    {
+      "type": "Post-trade analysis overview | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/post-trade-overview/"
+    },
+    {
+      "type": "Prometheus monitoring and alerting | QuestDB",
+      "url": "https://questdb.com/docs/integrations/other/prometheus/"
+    },
+    {
+      "type": "Rust Client Documentation | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/clients/rust/"
+    },
+    {
+      "type": "Parquet Export | QuestDB",
+      "url": "https://questdb.com/docs/query/export-parquet/"
+    },
+    {
+      "type": "Java Client Documentation | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/clients/java/"
+    },
+    {
+      "type": "Ingestion from Kafka Overview | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/message-brokers/kafka/"
+    },
+    {
+      "type": "N-Dimensional array | QuestDB",
+      "url": "https://questdb.com/docs/query/datatypes/array/"
+    },
+    {
+      "type": "Create Table | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/web-console/create-table/"
+    },
+    {
+      "type": "Quick start | QuestDB",
+      "url": "https://questdb.com/docs/getting-started/quick-start/"
+    },
+    {
+      "type": "TLS Encryption | QuestDB",
+      "url": "https://questdb.com/docs/security/tls/"
+    },
+    {
+      "type": "OpenID Connect (OIDC) Integration | QuestDB",
+      "url": "https://questdb.com/docs/security/oidc/"
+    },
+    {
+      "type": "Create arrays from string literals | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/advanced/array-from-string/"
+    },
+    {
+      "type": "General and sampled aggregates | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/advanced/general-and-sampled-aggregates/"
+    },
+    {
+      "type": "Aggregated slippage by venue and counterparty | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/slippage-aggregated/"
+    },
+    {
+      "type": "Find local minimum and maximum | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/advanced/local-min-max/"
+    },
+    {
+      "type": "Multiple conditional aggregates | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/advanced/conditional-aggregates/"
+    },
+    {
+      "type": "Python Client Documentation | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/clients/python/"
+    },
+    {
+      "type": "Sankey and funnel diagrams | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/advanced/sankey-funnel/"
+    },
+    {
+      "type": ".NET Client Documentation | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/clients/dotnet/"
+    },
+    {
+      "type": "C & C++ Client Documentation | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/clients/c-and-cpp/"
+    },
+    {
+      "type": "Third-Party Tools Overview | QuestDB",
+      "url": "https://questdb.com/docs/integrations/overview/"
+    },
+    {
+      "type": "Consistent histogram buckets | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/advanced/consistent-histogram-buckets/"
+    },
+    {
+      "type": "Access rows before and after current row | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/advanced/rows-before-after-value-match/"
+    },
+    {
+      "type": "Pivot with \"Others\" column | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/advanced/pivot-with-others/"
+    },
+    {
+      "type": "Schema design | QuestDB",
+      "url": "https://questdb.com/docs/schema-design-essentials/"
+    },
+    {
+      "type": "Top N plus others row | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/advanced/top-n-plus-others/"
+    },
+    {
+      "type": "Maximum drawdown | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/maximum-drawdown/"
+    },
+    {
+      "type": "Ingestion overview | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/overview/"
+    },
+    {
+      "type": "Geospatial data | QuestDB",
+      "url": "https://questdb.com/docs/query/datatypes/geohashes/"
+    },
+    {
+      "type": "FAQ | QuestDB",
+      "url": "https://questdb.com/docs/troubleshooting/faq/"
+    },
+    {
+      "type": "Unpivoting query results | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/advanced/unpivot-table/"
+    },
+    {
+      "type": "InfluxDB Line Protocol Overview | QuestDB",
+      "url": "https://questdb.com/docs/ingestion/ilp/overview/"
+    },
+    {
+      "type": "Bid-ask spread | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/bid-ask-spread/"
+    },
+    {
+      "type": "Calculate compound interest | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/compound-interest/"
+    },
+    {
+      "type": "REST API | QuestDB",
+      "url": "https://questdb.com/docs/query/rest-api/"
+    },
+    {
+      "type": "Aggressor volume imbalance | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/aggressor-volume-imbalance/"
+    },
+    {
+      "type": "ATR (Average True Range) | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/atr/"
+    },
+    {
+      "type": "Cumulative product for random walk | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/cumulative-product/"
+    },
+    {
+      "type": "Liquidity comparison across instruments | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/liquidity-comparison/"
+    },
+    {
+      "type": "Bollinger BandWidth | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/bollinger-bandwidth/"
+    },
+    {
+      "type": "Gamma scalping signal | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/gamma-scalping-signal/"
+    },
+    {
+      "type": "Donchian Channels | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/donchian-channels/"
+    },
+    {
+      "type": "Bollinger bands | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/bollinger-bands/"
+    },
+    {
+      "type": "Comparison Operators | QuestDB",
+      "url": "https://questdb.com/docs/query/operators/comparison/"
+    },
+    {
+      "type": "Logical Operators | QuestDB",
+      "url": "https://questdb.com/docs/query/operators/logical/"
+    },
+    {
+      "type": "SQL execution order | QuestDB",
+      "url": "https://questdb.com/docs/query/sql-execution-order/"
+    },
+    {
+      "type": "Text Operators | QuestDB",
+      "url": "https://questdb.com/docs/query/operators/text/"
+    },
+    {
+      "type": "Operator Precedence Table | QuestDB",
+      "url": "https://questdb.com/docs/query/operators/precedence/"
+    },
+    {
+      "type": "MACD (Moving Average Convergence Divergence) | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/macd/"
+    },
+    {
+      "type": "OBV (On-Balance Volume) | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/obv/"
+    },
+    {
+      "type": "Numeric Operators | QuestDB",
+      "url": "https://questdb.com/docs/query/operators/numeric/"
+    },
+    {
+      "type": "IPv4 Operators | QuestDB",
+      "url": "https://questdb.com/docs/query/operators/ipv4/"
+    },
+    {
+      "type": "Bitwise Operators | QuestDB",
+      "url": "https://questdb.com/docs/query/operators/bitwise/"
+    },
+    {
+      "type": "Log returns | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/log-returns/"
+    },
+    {
+      "type": "Rate of Change (ROC) | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/rate-of-change/"
+    },
+    {
+      "type": "TICK and TRIN indicators | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/tick-trin/"
+    },
+    {
+      "type": "Misc Operators | QuestDB",
+      "url": "https://questdb.com/docs/query/operators/misc/"
+    },
+    {
+      "type": "Keltner Channels | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/keltner-channels/"
+    },
+    {
+      "type": "Volume profile | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/volume-profile/"
+    },
+    {
+      "type": "R PGwire Guide | QuestDB",
+      "url": "https://questdb.com/docs/query/pgwire/r/"
+    },
+    {
+      "type": "PHP PGWire Guide | QuestDB",
+      "url": "https://questdb.com/docs/query/pgwire/php/"
+    },
+    {
+      "type": "Handling Large Result Sets | QuestDB",
+      "url": "https://questdb.com/docs/query/pgwire/large-result-sets/"
+    },
+    {
+      "type": "Stochastic Oscillator | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/stochastic/"
+    },
+    {
+      "type": "Rolling standard deviation | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/rolling-stddev/"
+    },
+    {
+      "type": "VPIN (Volume-synchronized Probability of Informed Trading) | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/vpin/"
+    },
+    {
+      "type": "Date and Time Operators | QuestDB",
+      "url": "https://questdb.com/docs/query/operators/date-time/"
+    },
+    {
+      "type": "Exchange calendars | QuestDB",
+      "url": "https://questdb.com/docs/query/operators/exchange-calendars/"
+    },
+    {
+      "type": "OHLC bars | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/ohlc/"
+    },
+    {
+      "type": "Spatial Operators | QuestDB",
+      "url": "https://questdb.com/docs/query/operators/spatial/"
+    },
+    {
+      "type": "Volume spike detection | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/volume-spike/"
+    },
+    {
+      "type": "RSI (Relative Strength Index) | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/rsi/"
+    },
+    {
+      "type": "Order book analytics using arrays | QuestDB",
+      "url": "https://questdb.com/docs/tutorials/order-book/"
+    },
+    {
+      "type": "PostgreSQL Wire Protocol | QuestDB",
+      "url": "https://questdb.com/docs/query/pgwire/overview/"
+    },
+    {
+      "type": "C/C++ PGWire Guide | QuestDB",
+      "url": "https://questdb.com/docs/query/pgwire/c-and-cpp/"
+    },
+    {
+      "type": "Query & SQL Overview | QuestDB",
+      "url": "https://questdb.com/docs/query/overview/"
+    },
+    {
+      "type": "Elapsed time between rows | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/time-series/elapsed-time/"
+    },
+    {
+      "type": "Time-weighted average price (TWAP) | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/finance/twap/"
+    },
+    {
+      "type": "Query with epoch timestamps | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/time-series/epoch-timestamps/"
+    },
+    {
+      "type": "FILL on keyed queries with arbitrary intervals | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/time-series/fill-keyed-arbitrary-interval/"
+    },
+    {
+      "type": "Query last N minutes of activity | QuestDB",
+      "url": "https://questdb.com/docs/cookbook/sql/time-series/latest-activity-window/"
+    },
+    {
+      "type": ".NET PGWire Guide | QuestDB",
+      "url": "https://questdb.com/docs/query/pgwire/dotnet/"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "label": "latest",
+      "timestamp": "2026-03-21T03:09:33.804Z",
+      "filename": "documentation_2026-03-21T03:09:33.804Z.md",
+      "totalPages": 197,
+      "successfulPages": 197,
+      "url": "https://questdb.com/docs/",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 2
+}

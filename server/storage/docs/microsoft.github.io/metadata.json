@@ -1,26 +1,519 @@
 {
   "url": "https://microsoft.github.io/UFO/",
   "domain": "microsoft.github.io",
-  "lastScraped": "2025-12-26T19:30:54.674Z",
-  "totalPages": 1,
-  "successfulPages": 1,
+  "lastScraped": "2026-03-21T04:21:01.313Z",
+  "totalPages": 124,
+  "successfulPages": 124,
   "failedPages": [],
   "structure": [
     {
-      "type": "UFO³ Documentation",
-      "url": "https://microsoft.github.io/UFO/"
+      "type": "Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/"
+    },
+    {
+      "type": "Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/"
+    },
+    {
+      "type": "Overview - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/algorithm-zoo/"
+    },
+    {
+      "type": "APO - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/algorithm-zoo/apo/"
+    },
+    {
+      "type": "Changelog - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/changelog/"
+    },
+    {
+      "type": "Examples Catalog - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/how-to/examples-catalog/"
+    },
+    {
+      "type": "Train the First Agent - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/how-to/train-first-agent/"
+    },
+    {
+      "type": "VERL - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/algorithm-zoo/verl/"
+    },
+    {
+      "type": "Contributing Guide - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/community/contributing/"
+    },
+    {
+      "type": "Agent - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/reference/agent/"
+    },
+    {
+      "type": "Maintainer Guide - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/community/maintainers/"
+    },
+    {
+      "type": "Serving LLM - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/deep-dive/serving-llm/"
+    },
+    {
+      "type": "Algorithm - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/reference/algorithm/"
+    },
+    {
+      "type": "Internal - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/reference/internal/"
+    },
+    {
+      "type": "Runner - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/reference/runner/"
+    },
+    {
+      "type": "Semantic Conventions - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/reference/semconv/"
+    },
+    {
+      "type": "Trainer - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/reference/trainer/"
+    },
+    {
+      "type": "Utilities - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/reference/utilities/"
+    },
+    {
+      "type": "Debugging - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/tutorials/debug/"
+    },
+    {
+      "type": "Use Emitters - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/tutorials/emitter/"
+    },
+    {
+      "type": "Write Agents - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/tutorials/write-agents/"
+    },
+    {
+      "type": "SFT with Unsloth - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/how-to/unsloth-sft/"
+    },
+    {
+      "type": "Store - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/reference/store/"
+    },
+    {
+      "type": "Command Line - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/reference/cli/"
+    },
+    {
+      "type": "Bird's Eye View - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/deep-dive/birds-eye-view/"
+    },
+    {
+      "type": "Understanding Store - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/deep-dive/store/"
+    },
+    {
+      "type": "Train SQL Agent with RL - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/how-to/train-sql-agent/"
+    },
+    {
+      "type": "Write the First Algorithm - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/how-to/write-first-algorithm/"
+    },
+    {
+      "type": "Instrumentation - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/reference/instrumentation/"
+    },
+    {
+      "type": "RESTful - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/reference/restful/"
+    },
+    {
+      "type": "Installation - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/tutorials/installation/"
+    },
+    {
+      "type": "Parallelize - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/tutorials/parallelize/"
+    },
+    {
+      "type": "Types - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/reference/types/"
+    },
+    {
+      "type": "Work with Traces - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/latest/tutorials/traces/"
+    },
+    {
+      "type": "Agent Lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.1.2/"
+    },
+    {
+      "type": "Installation - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/tutorials/installation/"
+    },
+    {
+      "type": "Examples Catalog - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/how-to/examples-catalog/"
+    },
+    {
+      "type": "Train the First Agent - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/how-to/train-first-agent/"
+    },
+    {
+      "type": "Write the First Algorithm - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/how-to/write-first-algorithm/"
+    },
+    {
+      "type": "Write Agents - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/tutorials/write-agents/"
+    },
+    {
+      "type": "Overview - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/algorithm-zoo/"
+    },
+    {
+      "type": "SFT with Unsloth - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/how-to/unsloth-sft/"
+    },
+    {
+      "type": "Train SQL Agent with RL - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/how-to/train-sql-agent/"
+    },
+    {
+      "type": "Work with Traces - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/tutorials/traces/"
+    },
+    {
+      "type": "Use Emitters - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/tutorials/emitter/"
+    },
+    {
+      "type": "Command Line - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/reference/cli/"
+    },
+    {
+      "type": "Debugging - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/tutorials/debug/"
+    },
+    {
+      "type": "Serving LLM - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/deep-dive/serving-llm/"
+    },
+    {
+      "type": "APO - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/algorithm-zoo/apo/"
+    },
+    {
+      "type": "RESTful - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/reference/restful/"
+    },
+    {
+      "type": "Instrumentation - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/reference/instrumentation/"
+    },
+    {
+      "type": "VERL - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/algorithm-zoo/verl/"
+    },
+    {
+      "type": "Semantic Conventions - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/reference/semconv/"
+    },
+    {
+      "type": "Parallelize - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/tutorials/parallelize/"
+    },
+    {
+      "type": "Maintainer Guide - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/community/maintainers/"
+    },
+    {
+      "type": "Bird's Eye View - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/deep-dive/birds-eye-view/"
+    },
+    {
+      "type": "Understanding Store - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/deep-dive/store/"
+    },
+    {
+      "type": "Agent - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/reference/agent/"
+    },
+    {
+      "type": "Algorithm - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/reference/algorithm/"
+    },
+    {
+      "type": "Contributing Guide - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/community/contributing/"
+    },
+    {
+      "type": "Runner - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/reference/runner/"
+    },
+    {
+      "type": "Trainer - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/reference/trainer/"
+    },
+    {
+      "type": "Utilities - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/reference/utilities/"
+    },
+    {
+      "type": "Types - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/reference/types/"
+    },
+    {
+      "type": "Internal - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/reference/internal/"
+    },
+    {
+      "type": "Changelog - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/changelog/"
+    },
+    {
+      "type": "Store - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/stable/reference/store/"
+    },
+    {
+      "type": "Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.0/"
+    },
+    {
+      "type": "Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.2/"
+    },
+    {
+      "type": "Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.1/"
+    },
+    {
+      "type": "Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.3.0/"
+    },
+    {
+      "type": "RESTful - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.3.0/reference/restful/"
+    },
+    {
+      "type": "Semantic Conventions - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.3.0/reference/semconv/"
+    },
+    {
+      "type": "VERL - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.3.0/algorithm-zoo/verl/"
+    },
+    {
+      "type": "Debugging - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.3.0/tutorials/debug/"
+    },
+    {
+      "type": "Installation - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.3.0/tutorials/installation/"
+    },
+    {
+      "type": "Train the First Agent - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.3.0/how-to/train-first-agent/"
+    },
+    {
+      "type": "Write the First Algorithm - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.3.0/how-to/write-first-algorithm/"
+    },
+    {
+      "type": "Installation - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.2/tutorials/installation/"
+    },
+    {
+      "type": "Installation - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.1/tutorials/installation/"
+    },
+    {
+      "type": "Installation - Agent Lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.1.2/quickstart/installation/"
+    },
+    {
+      "type": "Installation - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.0/tutorials/installation/"
+    },
+    {
+      "type": "Examples Catalog - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.3.0/how-to/examples-catalog/"
+    },
+    {
+      "type": "Train the First Agent - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.2/how-to/train-first-agent/"
+    },
+    {
+      "type": "Train the First Agent - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.1/how-to/train-first-agent/"
+    },
+    {
+      "type": "Getting Started - Agent Lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.1.2/quickstart/getting-started/"
+    },
+    {
+      "type": "Train the First Agent - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.0/how-to/train-first-agent/"
+    },
+    {
+      "type": "Train SQL Agent - Agent Lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.1.2/how-to/train-sql-agent/"
+    },
+    {
+      "type": "SFT with Unsloth - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.3.0/how-to/unsloth-sft/"
+    },
+    {
+      "type": "Write the First Algorithm - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.2/how-to/write-first-algorithm/"
+    },
+    {
+      "type": "Write the First Algorithm - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.1/how-to/write-first-algorithm/"
+    },
+    {
+      "type": "Overview - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.1/algorithm-zoo/"
+    },
+    {
+      "type": "Write the First Algorithm - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.0/how-to/write-first-algorithm/"
+    },
+    {
+      "type": "Server-Client Architecture - Agent Lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.1.2/deep-dive/server-client-architecture/"
+    },
+    {
+      "type": "Parallelize - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.0/tutorials/parallelize/"
+    },
+    {
+      "type": "Overview - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.0/algorithm-zoo/"
+    },
+    {
+      "type": "APO - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.2/algorithm-zoo/apo/"
+    },
+    {
+      "type": "APO - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.0/algorithm-zoo/apo/"
+    },
+    {
+      "type": "APO - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.1/algorithm-zoo/apo/"
+    },
+    {
+      "type": "VERL - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.2/algorithm-zoo/verl/"
+    },
+    {
+      "type": "VERL - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.0/algorithm-zoo/verl/"
+    },
+    {
+      "type": "VERL - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.1/algorithm-zoo/verl/"
+    },
+    {
+      "type": "Understanding Store - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.0/deep-dive/store/"
+    },
+    {
+      "type": "Serving LLM - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.2/deep-dive/serving-llm/"
+    },
+    {
+      "type": "Understanding Store - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.2/deep-dive/store/"
+    },
+    {
+      "type": "Serving LLM - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.0/deep-dive/serving-llm/"
+    },
+    {
+      "type": "Bird's Eye View - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.2/deep-dive/birds-eye-view/"
+    },
+    {
+      "type": "Serving LLM - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.1/deep-dive/serving-llm/"
+    },
+    {
+      "type": "Bird's Eye View - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.0/deep-dive/birds-eye-view/"
+    },
+    {
+      "type": "Understanding Store - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.1/deep-dive/store/"
+    },
+    {
+      "type": "Command Line - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.0/reference/cli/"
+    },
+    {
+      "type": "Command Line - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.2/reference/cli/"
+    },
+    {
+      "type": "Bird's Eye View - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.1/deep-dive/birds-eye-view/"
+    },
+    {
+      "type": "Bird's Eye View - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.3.0/deep-dive/birds-eye-view/"
+    },
+    {
+      "type": "Command Line - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.1/reference/cli/"
+    },
+    {
+      "type": "Instrumentation - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.0/reference/instrumentation/"
+    },
+    {
+      "type": "Agent - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.2/reference/agent/"
+    },
+    {
+      "type": "Instrumentation - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.2/reference/instrumentation/"
+    },
+    {
+      "type": "Instrumentation - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.1/reference/instrumentation/"
+    },
+    {
+      "type": "Agent - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.1/reference/agent/"
+    },
+    {
+      "type": "Agent - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.0/reference/agent/"
+    },
+    {
+      "type": "Understanding Store - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.3.0/deep-dive/store/"
+    },
+    {
+      "type": "Serving LLM - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.3.0/deep-dive/serving-llm/"
+    },
+    {
+      "type": "Overview - Agent-lightning",
+      "url": "https://microsoft.github.io/agent-lightning/0.2.2/algorithm-zoo/"
     }
   ],
-  "latestVersion": "1.1.0",
+  "latestVersion": "1.1.1",
   "versions": [
     {
-      "version": "1.0.0",
-      "timestamp": "2025-10-13T06:25:55.251Z",
-      "filename": "documentation_2025-10-13T06:25:55.251Z.md",
-      "totalPages": 1,
-      "successfulPages": 1,
-      "url": "https://microsoft.github.io/UFO/",
-      "isLatest": false
+      "version": "1.1.1",
+      "label": "latest",
+      "timestamp": "2026-03-21T04:21:01.313Z",
+      "filename": "documentation_2026-03-21T04:21:01.313Z.md",
+      "totalPages": 124,
+      "successfulPages": 124,
+      "url": "https://microsoft.github.io/agent-lightning/stable/",
+      "isLatest": true
     },
     {
       "version": "1.1.0",
@@ -29,8 +522,16 @@
       "totalPages": 1,
       "successfulPages": 1,
       "url": "https://microsoft.github.io/UFO/",
-      "isLatest": true,
-      "label": "latest"
+      "isLatest": false
+    },
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-10-13T06:25:55.251Z",
+      "filename": "documentation_2025-10-13T06:25:55.251Z.md",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "url": "https://microsoft.github.io/UFO/",
+      "isLatest": false
     }
   ],
   "schemaVersion": 2
