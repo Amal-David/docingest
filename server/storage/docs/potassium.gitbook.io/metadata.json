@@ -1,50 +1,46 @@
 {
   "url": "https://potassium.gitbook.io/api/",
   "domain": "potassium.gitbook.io",
-  "lastScraped": "2026-03-01T20:05:21.510Z",
-  "totalPages": 16,
-  "successfulPages": 16,
+  "lastScraped": "2026-03-30T03:41:30.549Z",
+  "totalPages": 15,
+  "successfulPages": 15,
   "failedPages": [],
   "structure": [
     {
       "type": "Cache | Potassium API",
-      "url": "https://potassium.gitbook.io/"
-    },
-    {
-      "type": "Cache | Potassium API",
       "url": "https://potassium.gitbook.io/api"
-    },
-    {
-      "type": "Closures | Potassium API",
-      "url": "https://potassium.gitbook.io/api/environment/closures"
-    },
-    {
-      "type": "Crypt | Potassium API",
-      "url": "https://potassium.gitbook.io/api/environment/crypt"
     },
     {
       "type": "Console | Potassium API",
       "url": "https://potassium.gitbook.io/api/environment/console"
     },
     {
+      "type": "Drawing | Potassium API",
+      "url": "https://potassium.gitbook.io/api/environment/drawing"
+    },
+    {
+      "type": "Crypt | Potassium API",
+      "url": "https://potassium.gitbook.io/api/environment/crypt"
+    },
+    {
       "type": "Debug | Potassium API",
       "url": "https://potassium.gitbook.io/api/environment/debug"
+    },
+    {
+      "type": "Closures | Potassium API",
+      "url": "https://potassium.gitbook.io/api/environment/closures"
+    },
+    {
+      "type": "File System | Potassium API",
+      "url": "https://potassium.gitbook.io/api/environment/file-system"
     },
     {
       "type": "Input | Potassium API",
       "url": "https://potassium.gitbook.io/api/environment/input"
     },
     {
-      "type": "Drawing | Potassium API",
-      "url": "https://potassium.gitbook.io/api/environment/drawing"
-    },
-    {
       "type": "Metatable | Potassium API",
       "url": "https://potassium.gitbook.io/api/environment/metatable"
-    },
-    {
-      "type": "File System | Potassium API",
-      "url": "https://potassium.gitbook.io/api/environment/file-system"
     },
     {
       "type": "Instance | Potassium API",
@@ -59,29 +55,38 @@
       "url": "https://potassium.gitbook.io/api/environment/scripts"
     },
     {
-      "type": "Web Sockets | Potassium API",
-      "url": "https://potassium.gitbook.io/api/environment/web-sockets"
-    },
-    {
       "type": "Actor | Potassium API",
       "url": "https://potassium.gitbook.io/api/environment/actor"
+    },
+    {
+      "type": "Web Sockets | Potassium API",
+      "url": "https://potassium.gitbook.io/api/environment/web-sockets"
     },
     {
       "type": "Cache | Potassium API",
       "url": "https://potassium.gitbook.io/api/environment"
     }
   ],
-  "latestVersion": "1.4.4",
+  "latestVersion": "1.4.5",
   "versions": [
     {
-      "version": "1.4.4",
+      "version": "1.4.5",
       "label": "latest",
+      "timestamp": "2026-03-30T03:41:30.549Z",
+      "filename": "documentation_2026-03-30T03:41:30.549Z.md",
+      "totalPages": 15,
+      "successfulPages": 15,
+      "url": "https://potassium.gitbook.io/api",
+      "isLatest": true
+    },
+    {
+      "version": "1.4.4",
       "timestamp": "2026-03-01T20:05:21.510Z",
       "filename": "documentation_2026-03-01T20:05:21.510Z.md",
       "totalPages": 16,
       "successfulPages": 16,
       "url": "https://potassium.gitbook.io/",
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "1.4.3",
