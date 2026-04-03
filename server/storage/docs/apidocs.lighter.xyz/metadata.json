@@ -1,26 +1,18 @@
 {
   "url": "https://apidocs.lighter.xyz/docs",
   "domain": "apidocs.lighter.xyz",
-  "lastScraped": "2025-11-04T08:49:52.726Z",
-  "totalPages": 11,
-  "successfulPages": 11,
+  "lastScraped": "2026-04-02T20:10:41.545Z",
+  "totalPages": 17,
+  "successfulPages": 17,
   "failedPages": [],
   "structure": [
     {
-      "type": "Get Started For Programmers",
+      "type": "Get Started",
       "url": "https://apidocs.lighter.xyz/docs"
     },
     {
-      "type": "Get Started For Programmers",
-      "url": "https://apidocs.lighter.xyz/docs/get-started-for-programmers-1"
-    },
-    {
-      "type": "SDK",
-      "url": "https://apidocs.lighter.xyz/docs/repos"
-    },
-    {
-      "type": "Account Index",
-      "url": "https://apidocs.lighter.xyz/docs/account-index"
+      "type": "API keys",
+      "url": "https://apidocs.lighter.xyz/docs/api-keys"
     },
     {
       "type": "Rate Limits",
@@ -31,12 +23,12 @@
       "url": "https://apidocs.lighter.xyz/docs/account-types"
     },
     {
-      "type": "Nonce Management",
-      "url": "https://apidocs.lighter.xyz/docs/nonce-management"
+      "type": "SDK",
+      "url": "https://apidocs.lighter.xyz/docs/repos"
     },
     {
-      "type": "Data Structures, Constants and Errors",
-      "url": "https://apidocs.lighter.xyz/docs/data-structures-constants-and-errors"
+      "type": "Signing Transactions",
+      "url": "https://apidocs.lighter.xyz/docs/trading"
     },
     {
       "type": "WebSocket",
@@ -47,12 +39,54 @@
       "url": "https://apidocs.lighter.xyz/docs/volume-quota-program"
     },
     {
-      "type": "404 Not Found",
-      "url": "https://apidocs.lighter.xyz/docs/create_cancel_order"
+      "type": "Historical Data",
+      "url": "https://apidocs.lighter.xyz/docs/historical-data"
+    },
+    {
+      "type": "Partner Integration",
+      "url": "https://apidocs.lighter.xyz/docs/partner-integration"
+    },
+    {
+      "type": "Manage Referrals",
+      "url": "https://apidocs.lighter.xyz/docs/referrals"
+    },
+    {
+      "type": "Priority Transactions",
+      "url": "https://apidocs.lighter.xyz/docs/priority-transactions"
+    },
+    {
+      "type": "Manage Public Pools",
+      "url": "https://apidocs.lighter.xyz/docs/manage-public-pools-shares"
+    },
+    {
+      "type": "Multi-signature and smart wallets",
+      "url": "https://apidocs.lighter.xyz/docs/multi-signature-wallets"
+    },
+    {
+      "type": "Data Structures, Constants and Errors",
+      "url": "https://apidocs.lighter.xyz/docs/data-structures-constants-and-errors"
+    },
+    {
+      "type": "Create accounts programmatically",
+      "url": "https://apidocs.lighter.xyz/docs/create-accounts-programmatically"
+    },
+    {
+      "type": "Deposits, Transfers and Withdrawals",
+      "url": "https://apidocs.lighter.xyz/docs/deposits-transfers-and-withdrawals"
     }
   ],
-  "latestVersion": "1.0.0",
+  "latestVersion": "1.0.1",
   "versions": [
+    {
+      "version": "1.0.1",
+      "label": "latest",
+      "timestamp": "2026-04-02T20:10:41.545Z",
+      "filename": "documentation_2026-04-02T20:10:41.545Z.md",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "url": "https://apidocs.lighter.xyz/docs",
+      "isLatest": true
+    },
     {
       "version": "1.0.0",
       "timestamp": "2025-11-04T08:49:52.726Z",
@@ -60,8 +94,7 @@
       "totalPages": 11,
       "successfulPages": 11,
       "url": "https://apidocs.lighter.xyz/docs",
-      "isLatest": true,
-      "label": "latest"
+      "isLatest": false
     }
   ],
   "schemaVersion": 2
