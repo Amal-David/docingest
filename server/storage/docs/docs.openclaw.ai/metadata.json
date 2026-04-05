@@ -1,9 +1,9 @@
 {
   "url": "https://docs.openclaw.ai/",
   "domain": "docs.openclaw.ai",
-  "lastScraped": "2026-02-13T22:50:46.682Z",
-  "totalPages": 36,
-  "successfulPages": 36,
+  "lastScraped": "2026-04-04T19:26:46.396Z",
+  "totalPages": 85,
+  "successfulPages": 85,
   "failedPages": [],
   "structure": [
     {
@@ -11,157 +11,362 @@
       "url": "https://docs.openclaw.ai/"
     },
     {
-      "type": "Auth Monitoring - OpenClaw",
-      "url": "https://docs.openclaw.ai/automation/auth-monitoring"
+      "type": "Auth Credential Semantics - OpenClaw",
+      "url": "https://docs.openclaw.ai/auth-credential-semantics"
     },
     {
-      "type": "Date and Time - OpenClaw",
-      "url": "https://docs.openclaw.ai/date-time"
+      "type": "Automation & Tasks - OpenClaw",
+      "url": "https://docs.openclaw.ai/automation"
     },
     {
-      "type": "CLI Automation - OpenClaw",
-      "url": "https://docs.openclaw.ai/start/wizard-cli-automation"
+      "type": "Scheduled Tasks - OpenClaw",
+      "url": "https://docs.openclaw.ai/automation/cron-jobs"
     },
     {
-      "type": "Deepgram - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/deepgram"
+      "type": "Standing Orders - OpenClaw",
+      "url": "https://docs.openclaw.ai/automation/standing-orders"
     },
     {
-      "type": "vLLM - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/vllm"
+      "type": "Hooks - OpenClaw",
+      "url": "https://docs.openclaw.ai/automation/hooks"
     },
     {
-      "type": "Together - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/together"
+      "type": "CI Pipeline - OpenClaw",
+      "url": "https://docs.openclaw.ai/ci"
     },
     {
-      "type": "Qwen - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/qwen"
+      "type": "Channel Location Parsing - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/location"
     },
     {
-      "type": "Xiaomi MiMo - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/xiaomi"
-    },
-    {
-      "type": "Cloudflare AI Gateway - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/cloudflare-ai-gateway"
-    },
-    {
-      "type": "Claude Max API Proxy - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/claude-max-api-proxy"
-    },
-    {
-      "type": "Logging - OpenClaw",
-      "url": "https://docs.openclaw.ai/logging"
-    },
-    {
-      "type": "VPS Hosting - OpenClaw",
-      "url": "https://docs.openclaw.ai/vps"
-    },
-    {
-      "type": "OpenProse - OpenClaw",
-      "url": "https://docs.openclaw.ai/prose"
-    },
-    {
-      "type": "Venice AI - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/venice"
-    },
-    {
-      "type": "Hugging Face (Inference) - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/huggingface"
-    },
-    {
-      "type": "Tlon - OpenClaw",
-      "url": "https://docs.openclaw.ai/channels/tlon"
-    },
-    {
-      "type": "CLI Onboarding Reference - OpenClaw",
-      "url": "https://docs.openclaw.ai/start/wizard-cli-reference"
-    },
-    {
-      "type": "Ollama - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/ollama"
-    },
-    {
-      "type": "Nostr - OpenClaw",
-      "url": "https://docs.openclaw.ai/channels/nostr"
-    },
-    {
-      "type": "BlueBubbles - OpenClaw",
-      "url": "https://docs.openclaw.ai/channels/bluebubbles"
+      "type": "Group Messages - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/group-messages"
     },
     {
       "type": "Chat Channels - OpenClaw",
-      "url": "https://docs.openclaw.ai/channels/index"
+      "url": "https://docs.openclaw.ai/channels"
+    },
+    {
+      "type": "dashboard - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/dashboard"
+    },
+    {
+      "type": "Channel Routing - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/channel-routing"
+    },
+    {
+      "type": "Task Flow - OpenClaw",
+      "url": "https://docs.openclaw.ai/automation/taskflow"
+    },
+    {
+      "type": "configure - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/configure"
+    },
+    {
+      "type": "Pairing - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/pairing"
+    },
+    {
+      "type": "Channel Troubleshooting - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/troubleshooting"
+    },
+    {
+      "type": "Broadcast Groups - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/broadcast-groups"
+    },
+    {
+      "type": "clawbot - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/clawbot"
+    },
+    {
+      "type": "completion - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/completion"
+    },
+    {
+      "type": "docs - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/docs"
+    },
+    {
+      "type": "dns - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/dns"
+    },
+    {
+      "type": "LINE - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/line"
+    },
+    {
+      "type": "QQ Bot - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/qqbot"
     },
     {
       "type": "Nextcloud Talk - OpenClaw",
       "url": "https://docs.openclaw.ai/channels/nextcloud-talk"
     },
     {
-      "type": "Twitch - OpenClaw",
-      "url": "https://docs.openclaw.ai/channels/twitch"
+      "type": "agent - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/agent"
     },
     {
-      "type": "Plugin Manifest - OpenClaw",
-      "url": "https://docs.openclaw.ai/plugins/manifest"
+      "type": "flows (redirect) - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/flows"
     },
     {
-      "type": "Exec Approvals - OpenClaw",
-      "url": "https://docs.openclaw.ai/tools/exec-approvals"
+      "type": "IRC - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/irc"
     },
     {
-      "type": "Network - OpenClaw",
-      "url": "https://docs.openclaw.ai/network"
+      "type": "Features - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/features"
     },
     {
-      "type": "config - OpenClaw",
-      "url": "https://docs.openclaw.ai/cli/config"
+      "type": "Google Chat - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/googlechat"
+    },
+    {
+      "type": "Synology Chat - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/synology-chat"
+    },
+    {
+      "type": "directory - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/directory"
+    },
+    {
+      "type": "Zalo - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/zalo"
+    },
+    {
+      "type": "Nostr - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/nostr"
+    },
+    {
+      "type": "Zalo Personal - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/zalouser"
+    },
+    {
+      "type": "backup - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/backup"
     },
     {
       "type": "devices - OpenClaw",
       "url": "https://docs.openclaw.ai/cli/devices"
     },
     {
-      "type": "Transcript Hygiene - OpenClaw",
-      "url": "https://docs.openclaw.ai/reference/transcript-hygiene"
+      "type": "channels - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/channels"
     },
     {
-      "type": "webhooks - OpenClaw",
-      "url": "https://docs.openclaw.ai/cli/webhooks"
+      "type": "daemon - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/daemon"
     },
     {
-      "type": "acp - OpenClaw",
-      "url": "https://docs.openclaw.ai/cli/acp"
+      "type": "approvals - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/approvals"
     },
     {
-      "type": "node - OpenClaw",
-      "url": "https://docs.openclaw.ai/cli/node"
+      "type": "Tlon - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/tlon"
     },
     {
-      "type": "Diagnostics Flags - OpenClaw",
-      "url": "https://docs.openclaw.ai/diagnostics/flags"
+      "type": "Background Tasks - OpenClaw",
+      "url": "https://docs.openclaw.ai/automation/tasks"
     },
     {
-      "type": "Oracle Cloud - OpenClaw",
-      "url": "https://docs.openclaw.ai/platforms/oracle"
+      "type": "tui - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/tui"
     },
     {
-      "type": "DigitalOcean - OpenClaw",
-      "url": "https://docs.openclaw.ai/platforms/digitalocean"
+      "type": "Compaction - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/compaction"
+    },
+    {
+      "type": "Gateway Architecture - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/architecture"
+    },
+    {
+      "type": "health - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/health"
+    },
+    {
+      "type": "cron - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/cron"
+    },
+    {
+      "type": "agents - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/agents"
+    },
+    {
+      "type": "Signal - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/signal"
+    },
+    {
+      "type": "Showcase - OpenClaw",
+      "url": "https://docs.openclaw.ai/start/showcase"
+    },
+    {
+      "type": "Personal Assistant Setup - OpenClaw",
+      "url": "https://docs.openclaw.ai/start/openclaw"
+    },
+    {
+      "type": "Tool-loop detection - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/loop-detection"
+    },
+    {
+      "type": "Creating Skills - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/creating-skills"
+    },
+    {
+      "type": "Image Generation - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/image-generation"
+    },
+    {
+      "type": "PDF Tool - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/pdf"
+    },
+    {
+      "type": "Skills Config - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/skills-config"
+    },
+    {
+      "type": "BTW Side Questions - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/btw"
+    },
+    {
+      "type": "Code Execution - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/code-execution"
+    },
+    {
+      "type": "ClawHub - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/clawhub"
+    },
+    {
+      "type": "Skills - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/skills"
+    },
+    {
+      "type": "Browser Troubleshooting - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/browser-linux-troubleshooting"
+    },
+    {
+      "type": "Brave Search - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/brave-search"
+    },
+    {
+      "type": "DuckDuckGo Search - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/duckduckgo-search"
+    },
+    {
+      "type": "Ollama Web Search - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/ollama-search"
+    },
+    {
+      "type": "LLM Task - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/llm-task"
+    },
+    {
+      "type": "Web Fetch - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/web-fetch"
+    },
+    {
+      "type": "Agent Send - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/agent-send"
+    },
+    {
+      "type": "Sub-Agents - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/subagents"
+    },
+    {
+      "type": "apply_patch Tool - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/apply-patch"
+    },
+    {
+      "type": "Elevated Mode - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/elevated"
+    },
+    {
+      "type": "Kimi Search - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/kimi-search"
+    },
+    {
+      "type": "Provider Directory - OpenClaw",
+      "url": "https://docs.openclaw.ai/providers/index"
+    },
+    {
+      "type": "Zalo Personal Plugin - OpenClaw",
+      "url": "https://docs.openclaw.ai/plugins/zalouser"
+    },
+    {
+      "type": "WSL2 + Windows + remote Chrome CDP troubleshooting - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/browser-wsl2-windows-remote-cdp-troubleshooting"
+    },
+    {
+      "type": "MiniMax Search - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/minimax-search"
+    },
+    {
+      "type": "Browser Login - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/browser-login"
+    },
+    {
+      "type": "Grok Search - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/grok-search"
+    },
+    {
+      "type": "Lobster - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/lobster"
+    },
+    {
+      "type": "Diffs - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/diffs"
+    },
+    {
+      "type": "Exec Tool - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/exec"
+    },
+    {
+      "type": "Tavily - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/tavily"
+    },
+    {
+      "type": "SearXNG Search - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/searxng-search"
+    },
+    {
+      "type": "Gemini Search - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/gemini-search"
+    },
+    {
+      "type": "Perplexity Search - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/perplexity-search"
+    },
+    {
+      "type": "Exa Search - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/exa-search"
+    },
+    {
+      "type": "Firecrawl - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/firecrawl"
     }
   ],
-  "latestVersion": "1.0.10",
+  "latestVersion": "1.0.11",
   "versions": [
     {
-      "version": "1.0.10",
+      "version": "1.0.11",
       "label": "latest",
+      "timestamp": "2026-04-04T19:26:46.396Z",
+      "filename": "documentation_2026-04-04T19:26:46.396Z.md",
+      "totalPages": 85,
+      "successfulPages": 85,
+      "url": "https://docs.openclaw.ai/",
+      "isLatest": true
+    },
+    {
+      "version": "1.0.10",
       "timestamp": "2026-02-13T22:50:46.682Z",
       "filename": "documentation_2026-02-13T22:50:46.682Z.md",
       "totalPages": 36,
       "successfulPages": 36,
       "url": "https://docs.openclaw.ai/",
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "1.0.9",
