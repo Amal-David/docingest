@@ -1,9 +1,9 @@
 {
   "url": "https://lua2.fatality.win/",
   "domain": "lua2.fatality.win",
-  "lastScraped": "2026-04-10T07:01:32.604Z",
-  "totalPages": 124,
-  "successfulPages": 124,
+  "lastScraped": "2026-04-14T19:58:15.096Z",
+  "totalPages": 126,
+  "successfulPages": 126,
   "failedPages": [],
   "structure": [
     {
@@ -15,12 +15,8 @@
       "url": "https://lua2.fatality.win/introduction/creating-scripts"
     },
     {
-      "type": "First Steps | Lua API",
-      "url": "https://lua2.fatality.win/introduction/creating-scripts/first-steps"
-    },
-    {
-      "type": "Counter control | Lua API",
-      "url": "https://lua2.fatality.win/introduction/examples/counter-control"
+      "type": "Examples | Lua API",
+      "url": "https://lua2.fatality.win/introduction/examples"
     },
     {
       "type": "Creating Libraries | Lua API",
@@ -31,40 +27,44 @@
       "url": "https://lua2.fatality.win/introduction/creating-scripts/adding-ui"
     },
     {
-      "type": "Examples | Lua API",
-      "url": "https://lua2.fatality.win/introduction/examples"
-    },
-    {
       "type": "Guidelines | Lua API",
       "url": "https://lua2.fatality.win/guidelines"
+    },
+    {
+      "type": "First Steps | Lua API",
+      "url": "https://lua2.fatality.win/introduction/creating-scripts/first-steps"
+    },
+    {
+      "type": "Counter control | Lua API",
+      "url": "https://lua2.fatality.win/introduction/examples/counter-control"
     },
     {
       "type": "Publishing Tool | Lua API",
       "url": "https://lua2.fatality.win/publishing-tool"
     },
     {
-      "type": "Updating Items | Lua API",
-      "url": "https://lua2.fatality.win/publishing-tool/updating-items"
+      "type": "Bundled Assets | Lua API",
+      "url": "https://lua2.fatality.win/publishing-tool/bundled-assets"
     },
     {
       "type": "Getting Started | Lua API",
       "url": "https://lua2.fatality.win/workshop/getting-started"
     },
     {
+      "type": "Branches | Lua API",
+      "url": "https://lua2.fatality.win/publishing-tool/branches"
+    },
+    {
+      "type": "Updating Items | Lua API",
+      "url": "https://lua2.fatality.win/publishing-tool/updating-items"
+    },
+    {
       "type": "Libraries & Dependencies | Lua API",
       "url": "https://lua2.fatality.win/publishing-tool/libraries-and-dependencies"
     },
     {
-      "type": "Bundled Assets | Lua API",
-      "url": "https://lua2.fatality.win/publishing-tool/bundled-assets"
-    },
-    {
       "type": "Step By Step Guide | Lua API",
       "url": "https://lua2.fatality.win/publishing-tool/step-by-step-guide"
-    },
-    {
-      "type": "Branches | Lua API",
-      "url": "https://lua2.fatality.win/publishing-tool/branches"
     },
     {
       "type": "Global Functions | Lua API",
@@ -79,6 +79,10 @@
       "url": "https://lua2.fatality.win/api/instances/events/event_t"
     },
     {
+      "type": "mods | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/mods"
+    },
+    {
       "type": "CGlobalVarsBase | Lua API",
       "url": "https://lua2.fatality.win/api/instances/game/cglobalvarsbase"
     },
@@ -87,164 +91,140 @@
       "url": "https://lua2.fatality.win/api/instances/events"
     },
     {
-      "type": "mods | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/mods"
-    },
-    {
-      "type": "math | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/math"
-    },
-    {
       "type": "game | Lua API",
       "url": "https://lua2.fatality.win/api/instances/game"
-    },
-    {
-      "type": "CEngineClient | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/game/cengineclient"
-    },
-    {
-      "type": "CInputSystem | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/game/cinputsystem"
     },
     {
       "type": "CGameUIFuncs | Lua API",
       "url": "https://lua2.fatality.win/api/instances/game/cgameuifuncs"
     },
     {
-      "type": "Events_t | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/mods/events_t"
-    },
-    {
-      "type": "ConVar | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/game/ccvar/convar"
-    },
-    {
-      "type": "CCVar | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/game/ccvar"
-    },
-    {
       "type": "Enums | Lua API",
       "url": "https://lua2.fatality.win/api/enums"
     },
     {
-      "type": "CNetChan | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/game/cengineclient/cnetchan"
+      "type": "Events_t | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/mods/events_t"
+    },
+    {
+      "type": "CEngineClient | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/game/cengineclient"
     },
     {
       "type": "PenResult_t | Lua API",
       "url": "https://lua2.fatality.win/api/instances/mods/penetration/penresult_t"
     },
     {
-      "type": "CCSGOInput | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/game/ccsgoinput"
-    },
-    {
       "type": "Types | Lua API",
       "url": "https://lua2.fatality.win/api/instances/draw/types"
+    },
+    {
+      "type": "CInputSystem | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/game/cinputsystem"
+    },
+    {
+      "type": "CCVar | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/game/ccvar"
+    },
+    {
+      "type": "CNetChan | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/game/cengineclient/cnetchan"
     },
     {
       "type": "ClientFrameStage_t | Lua API",
       "url": "https://lua2.fatality.win/api/enums/clientframestage_t"
     },
     {
-      "type": "InputBitMask_t | Lua API",
-      "url": "https://lua2.fatality.win/api/enums/inputbitmask_t"
-    },
-    {
       "type": "CPlane | Lua API",
       "url": "https://lua2.fatality.win/api/instances/game/cphysicsqueryinterface/cplane"
+    },
+    {
+      "type": "ConVar | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/game/ccvar/convar"
     },
     {
       "type": "Adapter | Lua API",
       "url": "https://lua2.fatality.win/api/instances/draw/adapter"
     },
     {
-      "type": "CGameEntitySystem | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/game/cgameentitysystem"
+      "type": "InputBitMask_t | Lua API",
+      "url": "https://lua2.fatality.win/api/enums/inputbitmask_t"
     },
     {
-      "type": "Managed | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/draw/managed"
-    },
-    {
-      "type": "penetration | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/mods/penetration"
+      "type": "CCSGOInput | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/game/ccsgoinput"
     },
     {
       "type": "Ray_t | Lua API",
       "url": "https://lua2.fatality.win/api/instances/game/cphysicsqueryinterface/ray_t"
     },
     {
-      "type": "Accessor | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/draw/types/accessor"
-    },
-    {
-      "type": "OutlineMode | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/draw/layer/outlinemode"
-    },
-    {
       "type": "ShadowDir | Lua API",
       "url": "https://lua2.fatality.win/api/instances/draw/layer/shadowdir"
     },
     {
-      "type": "RefHolder_t | Lua API",
-      "url": "https://lua2.fatality.win/api/types/refholder_t"
-    },
-    {
-      "type": "Vector4D | Lua API",
-      "url": "https://lua2.fatality.win/api/types/vector4d"
-    },
-    {
-      "type": "Rounding | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/draw/layer/rounding"
-    },
-    {
-      "type": "Ptr | Lua API",
-      "url": "https://lua2.fatality.win/api/types/ptr"
-    },
-    {
-      "type": "CGameTrace | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/game/cphysicsqueryinterface/cgametrace"
-    },
-    {
-      "type": "panorama | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/panorama"
-    },
-    {
-      "type": "VecColor | Lua API",
-      "url": "https://lua2.fatality.win/api/types/veccolor"
-    },
-    {
-      "type": "GlowParts | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/draw/layer/glowparts"
-    },
-    {
-      "type": "Shader | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/draw/managed/shader"
-    },
-    {
-      "type": "Color | Lua API",
-      "url": "https://lua2.fatality.win/api/types/color"
+      "type": "CGameEntitySystem | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/game/cgameentitysystem"
     },
     {
       "type": "Types | Lua API",
       "url": "https://lua2.fatality.win/api/types"
     },
     {
-      "type": "EspItemPos | Lua API",
-      "url": "https://lua2.fatality.win/api/types/playerinfocallbackdata/espitempos"
+      "type": "RefHolder_t | Lua API",
+      "url": "https://lua2.fatality.win/api/types/refholder_t"
     },
     {
-      "type": "Texture | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/draw/managed/texture"
+      "type": "Managed | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/draw/managed"
     },
     {
-      "type": "Types | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/types"
+      "type": "Accessor | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/draw/types/accessor"
     },
     {
-      "type": "ws | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/ws"
+      "type": "Shader | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/draw/managed/shader"
+    },
+    {
+      "type": "OutlineMode | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/draw/layer/outlinemode"
+    },
+    {
+      "type": "math | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/math"
+    },
+    {
+      "type": "Vector4D | Lua API",
+      "url": "https://lua2.fatality.win/api/types/vector4d"
+    },
+    {
+      "type": "GlowParts | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/draw/layer/glowparts"
+    },
+    {
+      "type": "penetration | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/mods/penetration"
+    },
+    {
+      "type": "NotificationSystem | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/notificationsystem"
+    },
+    {
+      "type": "panorama | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/panorama"
+    },
+    {
+      "type": "CViewSetup | Lua API",
+      "url": "https://lua2.fatality.win/api/types/cviewsetup"
+    },
+    {
+      "type": "Rounding | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/draw/layer/rounding"
+    },
+    {
+      "type": "Color | Lua API",
+      "url": "https://lua2.fatality.win/api/types/color"
     },
     {
       "type": "EntityList_t | Lua API",
@@ -255,24 +235,40 @@
       "url": "https://lua2.fatality.win/api/instances/entities/ccsweaponbasevdata/cfiringmode"
     },
     {
-      "type": "MouseButton | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/contextinput/mousebutton"
-    },
-    {
       "type": "CSWeaponMode | Lua API",
       "url": "https://lua2.fatality.win/api/instances/entities/csweaponmode"
     },
     {
-      "type": "User_t | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/context/user_t"
+      "type": "EspItemPos | Lua API",
+      "url": "https://lua2.fatality.win/api/types/playerinfocallbackdata/espitempos"
     },
     {
-      "type": "CViewSetup | Lua API",
-      "url": "https://lua2.fatality.win/api/types/cviewsetup"
+      "type": "Context | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/context"
     },
     {
-      "type": "CPhysicsQueryInterface | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/game/cphysicsqueryinterface"
+      "type": "ws | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/ws"
+    },
+    {
+      "type": "Types | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/types"
+    },
+    {
+      "type": "Texture | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/draw/managed/texture"
+    },
+    {
+      "type": "MouseButton | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/contextinput/mousebutton"
+    },
+    {
+      "type": "VecColor | Lua API",
+      "url": "https://lua2.fatality.win/api/types/veccolor"
+    },
+    {
+      "type": "Ptr | Lua API",
+      "url": "https://lua2.fatality.win/api/types/ptr"
     },
     {
       "type": "draw | Lua API",
@@ -283,80 +279,84 @@
       "url": "https://lua2.fatality.win/api/instances/http"
     },
     {
-      "type": "Vec2 | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/draw/types/vec2"
+      "type": "CHandle | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/entities/chandle"
     },
     {
-      "type": "Context | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/context"
-    },
-    {
-      "type": "NotificationSystem | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/notificationsystem"
-    },
-    {
-      "type": "ControlID | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/types/controlid"
-    },
-    {
-      "type": "EntityEntry_t | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/entities/entitylist_t/entityentry_t"
-    },
-    {
-      "type": "Notification | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/notificationsystem/notification"
-    },
-    {
-      "type": "CSWeaponCategory | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/entities/csweaponcategory"
-    },
-    {
-      "type": "TextParams | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/draw/layer/textparams"
+      "type": "User_t | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/context/user_t"
     },
     {
       "type": "CCSWeaponBaseVData | Lua API",
       "url": "https://lua2.fatality.win/api/instances/entities/ccsweaponbasevdata"
     },
     {
-      "type": "ObserverMode_t | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/entities/observermode_t"
+      "type": "CPhysicsQueryInterface | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/game/cphysicsqueryinterface"
+    },
+    {
+      "type": "Bits | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/types/bits"
     },
     {
       "type": "HitGroup_t | Lua API",
       "url": "https://lua2.fatality.win/api/instances/entities/hitgroup_t"
     },
     {
-      "type": "CSWeaponType | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/entities/csweapontype"
+      "type": "ControlID | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/types/controlid"
     },
     {
-      "type": "CHandle | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/entities/chandle"
+      "type": "ObserverMode_t | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/entities/observermode_t"
     },
     {
-      "type": "ControlContainer | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/container/controlcontainer"
+      "type": "FontBase | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/draw/managed/fontbase"
     },
     {
-      "type": "entities | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/entities"
+      "type": "CSWeaponCategory | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/entities/csweaponcategory"
+    },
+    {
+      "type": "EHitBox | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/entities/ehitbox"
+    },
+    {
+      "type": "EntityEntry_t | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/entities/entitylist_t/entityentry_t"
+    },
+    {
+      "type": "Vec2 | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/draw/types/vec2"
     },
     {
       "type": "Command | Lua API",
       "url": "https://lua2.fatality.win/api/instances/draw/layer/command"
     },
     {
+      "type": "Notification | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/notificationsystem/notification"
+    },
+    {
+      "type": "CGameTrace | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/game/cphysicsqueryinterface/cgametrace"
+    },
+    {
+      "type": "CSWeaponType | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/entities/csweapontype"
+    },
+    {
+      "type": "ControlContainer | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/container/controlcontainer"
+    },
+    {
+      "type": "TextParams | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/draw/layer/textparams"
+    },
+    {
       "type": "Container | Lua API",
       "url": "https://lua2.fatality.win/api/instances/gui/container"
-    },
-    {
-      "type": "PlayerEntryVisualData | Lua API",
-      "url": "https://lua2.fatality.win/api/types/playerentryvisualdata"
-    },
-    {
-      "type": "FontBase | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/draw/managed/fontbase"
     },
     {
       "type": "CUserCmd | Lua API",
@@ -367,28 +367,24 @@
       "url": "https://lua2.fatality.win/api/instances/entities/c_baseentity/schemaaccessor_t"
     },
     {
-      "type": "Bits | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/types/bits"
+      "type": "entities | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/entities"
     },
     {
-      "type": "EHitBox | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/entities/ehitbox"
+      "type": "gui | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui"
     },
     {
       "type": "GameEvent_t | Lua API",
       "url": "https://lua2.fatality.win/api/types/gameevent_t"
     },
     {
+      "type": "C_CSWeaponBase | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/entities/c_baseentity/c_csweaponbase"
+    },
+    {
       "type": "C_BaseCSGrenadeProjectile | Lua API",
       "url": "https://lua2.fatality.win/api/instances/entities/c_baseentity/c_basecsgrenadeprojectile"
-    },
-    {
-      "type": "Vector | Lua API",
-      "url": "https://lua2.fatality.win/api/types/vector"
-    },
-    {
-      "type": "PlayerInfoCallbackData | Lua API",
-      "url": "https://lua2.fatality.win/api/types/playerinfocallbackdata"
     },
     {
       "type": "C_BaseEntity | Lua API",
@@ -399,20 +395,84 @@
       "url": "https://lua2.fatality.win/api/instances/entities/chitboxinfo"
     },
     {
-      "type": "gui | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui"
-    },
-    {
-      "type": "utils | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/utils"
-    },
-    {
-      "type": "C_CSWeaponBase | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/entities/c_baseentity/c_csweaponbase"
-    },
-    {
       "type": "C_CSPlayerController | Lua API",
       "url": "https://lua2.fatality.win/api/instances/entities/c_baseentity/c_csplayercontroller"
+    },
+    {
+      "type": "PlayerInfoCallbackData | Lua API",
+      "url": "https://lua2.fatality.win/api/types/playerinfocallbackdata"
+    },
+    {
+      "type": "PlayerEntryVisualData | Lua API",
+      "url": "https://lua2.fatality.win/api/types/playerentryvisualdata"
+    },
+    {
+      "type": "Vector | Lua API",
+      "url": "https://lua2.fatality.win/api/types/vector"
+    },
+    {
+      "type": "C_CSWeaponBaseGun | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/entities/c_baseentity/c_csweaponbasegun"
+    },
+    {
+      "type": "Spacer | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/spacer"
+    },
+    {
+      "type": "Checkbox | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/checkbox"
+    },
+    {
+      "type": "ColorPicker | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/colorpicker"
+    },
+    {
+      "type": "Selectable | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/selectable"
+    },
+    {
+      "type": "ContextInput | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/contextinput"
+    },
+    {
+      "type": "Hotkey | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/hotkey"
+    },
+    {
+      "type": "Image | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/image"
+    },
+    {
+      "type": "LuaPopupControl | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/luapopupcontrol"
+    },
+    {
+      "type": "Window | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/window"
+    },
+    {
+      "type": "TextInput | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/textinput"
+    },
+    {
+      "type": "ValueParam | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/valueparam"
+    },
+    {
+      "type": "Button | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/button"
+    },
+    {
+      "type": "ControlType | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/controltype"
+    },
+    {
+      "type": "C_CSPlayerPawn | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/entities/c_baseentity/c_csplayerpawn"
+    },
+    {
+      "type": "Label | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/label"
     },
     {
       "type": "Rect | Lua API",
@@ -423,97 +483,63 @@
       "url": "https://lua2.fatality.win/api/instances/draw/types/color"
     },
     {
-      "type": "C_CSWeaponBaseGun | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/entities/c_baseentity/c_csweaponbasegun"
-    },
-    {
-      "type": "ContextInput | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/contextinput"
-    },
-    {
-      "type": "Button | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/control/button"
-    },
-    {
-      "type": "Selectable | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/control/selectable"
+      "type": "ComboBox | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/combobox"
     },
     {
       "type": "EItemDefinitionIndex | Lua API",
       "url": "https://lua2.fatality.win/api/instances/entities/eitemdefinitionindex"
     },
     {
-      "type": "ValueParam | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/control/valueparam"
-    },
-    {
-      "type": "Spacer | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/control/spacer"
-    },
-    {
-      "type": "Image | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/control/image"
-    },
-    {
-      "type": "Label | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/control/label"
-    },
-    {
-      "type": "TextInput | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/control/textinput"
-    },
-    {
-      "type": "C_CSPlayerPawn | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/entities/c_baseentity/c_csplayerpawn"
-    },
-    {
-      "type": "Hotkey | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/control/hotkey"
-    },
-    {
-      "type": "ComboBox | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/control/combobox"
-    },
-    {
-      "type": "Checkbox | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/control/checkbox"
-    },
-    {
       "type": "LuaWidgetControl | Lua API",
       "url": "https://lua2.fatality.win/api/instances/gui/control/luawidgetcontrol"
-    },
-    {
-      "type": "ControlType | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/control/controltype"
-    },
-    {
-      "type": "Slider | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/control/slider"
-    },
-    {
-      "type": "Window | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/control/window"
     },
     {
       "type": "List | Lua API",
       "url": "https://lua2.fatality.win/api/instances/gui/control/list"
     },
     {
-      "type": "LuaPopupControl | Lua API",
-      "url": "https://lua2.fatality.win/api/instances/gui/control/luapopupcontrol"
+      "type": "utils | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/utils"
+    },
+    {
+      "type": "LuaControl | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control/luacontrol"
+    },
+    {
+      "type": "Control | Lua API",
+      "url": "https://lua2.fatality.win/api/instances/gui/control"
     }
   ],
-  "latestVersion": "1.7.6",
+  "latestVersion": "1.7.8",
   "versions": [
     {
-      "version": "1.7.6",
+      "version": "1.7.8",
       "label": "latest",
+      "timestamp": "2026-04-14T19:58:15.096Z",
+      "filename": "documentation_2026-04-14T19:58:15.096Z.md",
+      "totalPages": 126,
+      "successfulPages": 126,
+      "url": "https://lua2.fatality.win/",
+      "isLatest": true
+    },
+    {
+      "version": "1.7.7",
+      "timestamp": "2026-04-14T11:38:43.606Z",
+      "filename": "documentation_2026-04-14T11:38:43.606Z.md",
+      "totalPages": 126,
+      "successfulPages": 126,
+      "url": "https://lua2.fatality.win/",
+      "isLatest": false
+    },
+    {
+      "version": "1.7.6",
       "timestamp": "2026-04-10T07:01:32.604Z",
       "filename": "documentation_2026-04-10T07:01:32.604Z.md",
       "totalPages": 124,
       "successfulPages": 124,
       "url": "https://lua2.fatality.win/",
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "1.7.5",

@@ -1,27 +1,804 @@
 {
   "url": "https://supabase.com/docs",
   "domain": "supabase.com",
-  "lastScraped": "2026-03-14T11:02:50.345Z",
-  "totalPages": 1,
-  "successfulPages": 1,
+  "lastScraped": "2026-04-14T08:03:46.560Z",
+  "totalPages": 193,
+  "successfulPages": 193,
   "failedPages": [],
   "structure": [
     {
+      "type": "Glossary | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/resources/glossary"
+    },
+    {
+      "type": "Cron | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/cron"
+    },
+    {
+      "type": "Install | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/cron/install"
+    },
+    {
+      "type": "Integrations | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/integrations"
+    },
+    {
+      "type": "Expose Queues for local and self-hosted Supabase | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/queues/expose-self-hosted-queues"
+    },
+    {
+      "type": "API | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/queues/api"
+    },
+    {
+      "type": "Supabase Marketplace | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/integrations/supabase-marketplace"
+    },
+    {
+      "type": "Supabase Security | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/security"
+    },
+    {
+      "type": "Vercel Marketplace | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/integrations/vercel-marketplace"
+    },
+    {
+      "type": "Security testing of your Supabase projects | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/security/security-testing"
+    },
+    {
+      "type": "Supabase Queues | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/queues"
+    },
+    {
+      "type": "SOC 2 Compliance and Supabase | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/security/soc-2-compliance"
+    },
+    {
+      "type": "Platform Audit Logs | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/security/platform-audit-logs"
+    },
+    {
+      "type": "HIPAA Compliance and Supabase | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/security/hipaa-compliance"
+    },
+    {
+      "type": "Restoring a downloaded backup locally | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/local-development/restoring-downloaded-backup"
+    },
+    {
+      "type": "Reports | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/telemetry/reports"
+    },
+    {
+      "type": "Managing config and secrets | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/local-development/managing-config"
+    },
+    {
+      "type": "Metrics API | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/telemetry/metrics"
+    },
+    {
+      "type": "Local Development & CLI | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/local-development"
+    },
+    {
+      "type": "Telemetry | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/telemetry"
+    },
+    {
+      "type": "Advanced Log Filtering | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/telemetry/advanced-log-filtering"
+    },
+    {
+      "type": "Settings | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime/settings"
+    },
+    {
+      "type": "Log Drains | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/telemetry/log-drains"
+    },
+    {
+      "type": "Realtime Pricing | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime/pricing"
+    },
+    {
+      "type": "Branching | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/deployment/branching"
+    },
+    {
+      "type": "Listening to Postgres Changes with Flutter | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime/realtime-listening-flutter"
+    },
+    {
+      "type": "Using Realtime Presence with Flutter | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime/realtime-user-presence"
+    },
+    {
+      "type": "Customizing email templates | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/local-development/customizing-email-templates"
+    },
+    {
+      "type": "SQL to REST API Translator | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/api/sql-to-rest"
+    },
+    {
+      "type": "Realtime Concepts | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime/concepts"
+    },
+    {
+      "type": "Quickstart | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/cron/quickstart"
+    },
+    {
+      "type": "Deployment & Branching | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/deployment"
+    },
+    {
+      "type": "Data REST API | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/api"
+    },
+    {
+      "type": "Build an API route in less than 2 minutes. | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/api/quickstart"
+    },
+    {
+      "type": "Benchmarks | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime/benchmarks"
+    },
+    {
+      "type": "Realtime Limits | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime/limits"
+    },
+    {
+      "type": "Consuming Supabase Queue Messages with Edge Functions | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/queues/consuming-messages-with-edge-functions"
+    },
+    {
+      "type": "Using Realtime with Next.js | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime/realtime-with-nextjs"
+    },
+    {
+      "type": "Secure configuration of Supabase products | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/security/product-security"
+    },
+    {
+      "type": "Permissions | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/permissions"
+    },
+    {
+      "type": "Your monthly invoice | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/your-monthly-invoice"
+    },
+    {
+      "type": "Secure configuration of Supabase platform | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/security/platform-security"
+    },
+    {
+      "type": "Realtime | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime"
+    },
+    {
+      "type": "Using Custom Schemas | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/api/using-custom-schemas"
+    },
+    {
+      "type": "Realtime Architecture | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime/architecture"
+    },
+    {
+      "type": "Quickstart | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/queues/quickstart"
+    },
+    {
+      "type": "Credits | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/credits"
+    },
+    {
+      "type": "Manage your subscription | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-subscription"
+    },
+    {
+      "type": "Restore to a new project | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/clone-project"
+    },
+    {
+      "type": "Hardening the Data API | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/api/hardening-data-api"
+    },
+    {
+      "type": "HIPAA Projects | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/hipaa-projects"
+    },
+    {
+      "type": "Understanding API keys | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/api/api-keys"
+    },
+    {
+      "type": "Multi-factor Authentication | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/multi-factor-authentication"
+    },
+    {
+      "type": "Get set up for billing | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/get-set-up-for-billing"
+    },
+    {
+      "type": "Self-Hosting | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/self-hosting"
+    },
+    {
+      "type": "Sentry integration | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/telemetry/sentry-monitoring"
+    },
+    {
+      "type": "Maturity Model | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/deployment/maturity-model"
+    },
+    {
+      "type": "Project Transfers | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/project-transfer"
+    },
+    {
+      "type": "Converting SQL to JavaScript API | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/api/sql-to-api"
+    },
+    {
+      "type": "PrivateLink | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/privatelink"
+    },
+    {
+      "type": "Resources | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/resources"
+    },
+    {
+      "type": "Migrating within Supabase | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/migrating-within-supabase"
+    },
+    {
+      "type": "Enabling MCP Server Access | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/self-hosting/enable-mcp"
+    },
+    {
+      "type": "Supabase Platform | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform"
+    },
+    {
+      "type": "Available regions | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/regions"
+    },
+    {
+      "type": "AWS Marketplace | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/aws-marketplace"
+    },
+    {
+      "type": "Performance Tuning | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/performance"
+    },
+    {
+      "type": "Understanding Database and Disk Size | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/database-size"
+    },
+    {
+      "type": "Upgrading | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/upgrading"
+    },
+    {
+      "type": "Dedicated IPv4 Address for Ingress | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/ipv4-address"
+    },
+    {
+      "type": "Pricing | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/storage/pricing"
+    },
+    {
+      "type": "Storage | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/storage"
+    },
+    {
+      "type": "Copy Storage Objects from Platform | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/self-hosting/copy-from-platform-s3"
+    },
+    {
+      "type": "Configure Reverse Proxy and HTTPS | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-proxy-https"
+    },
+    {
+      "type": "Restore a Platform Project to Self-Hosted | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/self-hosting/restore-from-platform"
+    },
+    {
+      "type": "About billing on Supabase | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/billing-on-supabase"
+    },
+    {
+      "type": "Enable SSO for Your Organization | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/sso"
+    },
+    {
+      "type": "Declarative database schemas | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/local-development/declarative-database-schemas"
+    },
+    {
+      "type": "Read Replicas | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/read-replicas"
+    },
+    {
+      "type": "Local development with schema migrations | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/local-development/overview"
+    },
+    {
+      "type": "Operational Error Codes | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime/error_codes"
+    },
+    {
+      "type": "Database Backups | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/backups"
+    },
+    {
+      "type": "Configure S3 Storage | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-s3"
+    },
+    {
+      "type": "Choosing a Client | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/python-clients"
+    },
+    {
+      "type": "Postgres SSL Enforcement | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/ssl-enforcement"
+    },
+    {
+      "type": "Build a Supabase Integration | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/integrations/build-a-supabase-oauth-integration"
+    },
+    {
+      "type": "Database Migrations | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/deployment/database-migrations"
+    },
+    {
+      "type": "Google Colab | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/google-colab"
+    },
+    {
+      "type": "Subscribing to Database Changes | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime/subscribing-to-database-changes"
+    },
+    {
+      "type": "Network Restrictions | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/network-restrictions"
+    },
+    {
+      "type": "Configure Phone Login & MFA | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-phone-mfa"
+    },
+    {
+      "type": "Python client | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/vecs-python-client"
+    },
+    {
+      "type": "General configuration | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/general-configuration"
+    },
+    {
+      "type": "Logging | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/telemetry/logs"
+    },
+    {
+      "type": "Seeding your database | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/local-development/seeding-your-database"
+    },
+    {
+      "type": "Storage Quickstart | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/storage/quickstart"
+    },
+    {
+      "type": "How to do automatic retries with `supabase-js` | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/api/automatic-retries-in-supabase-js"
+    },
+    {
+      "type": "Billing FAQ | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/billing-faq"
+    },
+    {
+      "type": "Going to Production | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/going-to-prod"
+    },
+    {
+      "type": "Structured and Unstructured | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/structured-unstructured"
+    },
+    {
+      "type": "Compute and Disk | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/compute-and-disk"
+    },
+    {
+      "type": "Identities | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/identities"
+    },
+    {
+      "type": "OAuth 2.1 Server | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/oauth-server"
+    },
+    {
+      "type": "Building ChatGPT plugins | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/examples/building-chatgpt-plugins"
+    },
+    {
+      "type": "Adding generative Q&A for your documentation | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/examples/headless-vector-search"
+    },
+    {
+      "type": "New API Keys and Asymmetric Authentication | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-auth-keys"
+    },
+    {
+      "type": "Custom Domains | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/custom-domains"
+    },
+    {
+      "type": "Creating API Routes | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/api/creating-routes"
+    },
+    {
+      "type": "Upgrade to Postgres 17 | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/self-hosting/postgres-upgrade-17"
+    },
+    {
+      "type": "Self-Hosted Functions | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-functions"
+    },
+    {
+      "type": "Hugging Face Inference API | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/hugging-face"
+    },
+    {
+      "type": "Concepts | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/concepts"
+    },
+    {
+      "type": "Enterprise Single Sign-On | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/enterprise-sso"
+    },
+    {
+      "type": "Users | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/users"
+    },
+    {
+      "type": "Control your costs | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/cost-control"
+    },
+    {
+      "type": "Manage your usage | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage"
+    },
+    {
+      "type": "Password security | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/password-security"
+    },
+    {
+      "type": "Shared Responsibility Model | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/deployment/shared-responsibility-model"
+    },
+    {
+      "type": "AI & Vectors | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai"
+    },
+    {
+      "type": "Production Checklist | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/deployment/going-into-prod"
+    },
+    {
+      "type": "Custom Claims & Role-based Access Control (RBAC) | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/api/custom-claims-and-role-based-access-control-rbac"
+    },
+    {
+      "type": "Custom Email Templates | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/self-hosting/custom-email-templates"
+    },
+    {
+      "type": "Rate limits | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/rate-limits"
+    },
+    {
+      "type": "Migrating to Supabase | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/platform/migrating-to-supabase"
+    },
+    {
+      "type": "Choosing your Compute Add-on | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/choosing-compute-addon"
+    },
+    {
+      "type": "Send emails with custom SMTP | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/auth-smtp"
+    },
+    {
+      "type": "Signing out | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/signout"
+    },
+    {
+      "type": "Vector indexes | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/vector-indexes"
+    },
+    {
+      "type": "Vector columns | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/vector-columns"
+    },
+    {
+      "type": "Auth Audit Logs | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/audit-logs"
+    },
+    {
+      "type": "Enable CAPTCHA Protection | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/auth-captcha"
+    },
+    {
+      "type": "PGMQ Extension | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/queues/pgmq"
+    },
+    {
+      "type": "Agent Skills | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/getting-started/ai-skills"
+    },
+    {
+      "type": "Semantic search | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/semantic-search"
+    },
+    {
+      "type": "Server-Side Rendering | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/server-side"
+    },
+    {
+      "type": "Supabase for Platforms | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/integrations/supabase-for-platforms"
+    },
+    {
+      "type": "Realtime Reports | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime/reports"
+    },
+    {
+      "type": "Dart Edge | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/dart-edge"
+    },
+    {
+      "type": "Engineering for Scale | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/engineering-for-scale"
+    },
+    {
+      "type": "User sessions | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/sessions"
+    },
+    {
+      "type": "Limits | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/limits"
+    },
+    {
+      "type": "Pricing | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/pricing"
+    },
+    {
+      "type": "Edge Functions Architecture | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/architecture"
+    },
+    {
+      "type": "Local Debugging | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/debugging-tools"
+    },
+    {
+      "type": "Self-Hosting with Docker | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/self-hosting/docker"
+    },
+    {
+      "type": "Securing your API | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/api/securing-your-api"
+    },
+    {
+      "type": "Managing Environments | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/deployment/managing-environments"
+    },
+    {
+      "type": "Realtime Authorization | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime/authorization"
+    },
+    {
+      "type": "Status codes | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/status-codes"
+    },
+    {
+      "type": "Background Tasks | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/background-tasks"
+    },
+    {
+      "type": "Environment Variables | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/secrets"
+    },
+    {
+      "type": "Regional Invocations | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/regional-invocation"
+    },
+    {
+      "type": "Architecture | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/getting-started/architecture"
+    },
+    {
+      "type": "Function Configuration | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/function-configuration"
+    },
+    {
+      "type": "Using Wasm modules | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/wasm"
+    },
+    {
+      "type": "Handling Compressed Requests | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/compression"
+    },
+    {
+      "type": "User Management | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/managing-user-data"
+    },
+    {
+      "type": "Scheduling Edge Functions | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/schedule-functions"
+    },
+    {
+      "type": "Edge Functions | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions"
+    },
+    {
+      "type": "Development Environment | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/development-environment"
+    },
+    {
+      "type": "Error Handling | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/error-handling"
+    },
+    {
+      "type": "CORS (Cross-Origin Resource Sharing) support for Invoking from the browser | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/cors"
+    },
+    {
+      "type": "Getting Started | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/getting-started"
+    },
+    {
       "type": "Model context protocol (MCP) | Supabase Docs",
       "url": "https://supabase.com/docs/guides/getting-started/mcp"
+    },
+    {
+      "type": "Identity Linking | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/auth-identity-linking"
+    },
+    {
+      "type": "Keyword search | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/keyword-search"
+    },
+    {
+      "type": "Email Templates | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/auth-email-templates"
+    },
+    {
+      "type": "Presence | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/realtime/presence"
+    },
+    {
+      "type": "Custom OAuth/OIDC Providers | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/custom-oauth-providers"
+    },
+    {
+      "type": "Sign in with Web3 | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/auth-web3"
+    },
+    {
+      "type": "Deploy MCP servers | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/getting-started/byo-mcp"
+    },
+    {
+      "type": "Logging | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/logging"
+    },
+    {
+      "type": "Managing dependencies | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/dependencies"
+    },
+    {
+      "type": "JWT Signing Keys | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/signing-keys"
+    },
+    {
+      "type": "AI Prompts | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/getting-started/ai-prompts"
+    },
+    {
+      "type": "RAG with Permissions | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/rag-with-permissions"
+    },
+    {
+      "type": "Getting Started with Edge Functions (Dashboard) | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/quickstart-dashboard"
+    },
+    {
+      "type": "Auth architecture | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/architecture"
+    },
+    {
+      "type": "Hybrid search | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/hybrid-search"
+    },
+    {
+      "type": "Phone Login | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/phone-login"
+    },
+    {
+      "type": "Development tips | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/development-tips"
+    },
+    {
+      "type": "Configure SAML SSO | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-saml-sso"
+    },
+    {
+      "type": "JSON Web Token (JWT) | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/jwts"
+    },
+    {
+      "type": "Redirect URLs | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/redirect-urls"
+    },
+    {
+      "type": "Integrating with Supabase Storage | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/storage-caching"
+    },
+    {
+      "type": "Passwordless email logins | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/auth-email-passwordless"
+    },
+    {
+      "type": "LangChain | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/ai/langchain"
+    },
+    {
+      "type": "Testing your Edge Functions | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/unit-test"
+    },
+    {
+      "type": "Configure Social Login (OAuth) Providers | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-oauth"
+    },
+    {
+      "type": "Auth Hooks | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/auth-hooks"
+    },
+    {
+      "type": "Integrating with Supabase Database (Postgres) | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/connect-to-postgres"
+    },
+    {
+      "type": "JWT Claims Reference | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/auth/jwt-fields"
+    },
+    {
+      "type": "File Storage | Supabase Docs",
+      "url": "https://supabase.com/docs/guides/functions/ephemeral-storage"
     }
   ],
-  "latestVersion": "1.17.3",
+  "latestVersion": "1.17.4",
   "versions": [
     {
-      "version": "1.17.3",
+      "version": "1.17.4",
       "label": "latest",
+      "timestamp": "2026-04-14T08:03:46.560Z",
+      "filename": "documentation_2026-04-14T08:03:46.560Z.md",
+      "totalPages": 193,
+      "successfulPages": 193,
+      "url": "https://supabase.com/docs/guides/resources/glossary",
+      "isLatest": true
+    },
+    {
+      "version": "1.17.3",
       "timestamp": "2026-03-14T11:02:50.345Z",
       "filename": "documentation_2026-03-14T11:02:50.345Z.md",
       "totalPages": 1,
       "successfulPages": 1,
       "url": "https://supabase.com/docs/guides/getting-started/mcp",
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "1.17.2",
