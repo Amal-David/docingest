@@ -10,9 +10,9 @@ It crawls docs, extracts the useful content, stores it as clean markdown, indexe
 
 ![DocIngest homepage](docs/screenshots/homepage.png)
 
-### Browse indexed docs
+### Index a docs site
 
-![DocIngest view page](docs/screenshots/view-page.png)
+![DocIngest indexing flow](docs/screenshots/index-docs.png)
 
 ### MCP setup guide
 
