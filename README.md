@@ -4,6 +4,20 @@ DocIngest is the open-source engine for turning documentation sites into searcha
 
 It crawls docs, extracts the useful content, stores it as clean markdown, indexes it for search, and exposes it through a web UI and an MCP server. You can self-host it, use it to build a public docs index, or wire it into tools like Claude Code, Cursor, Windsurf, and Codex.
 
+## Screenshots
+
+### Homepage
+
+![DocIngest homepage](docs/screenshots/homepage.png)
+
+### Browse indexed docs
+
+![DocIngest view page](docs/screenshots/view-page.png)
+
+### MCP setup guide
+
+![DocIngest MCP guide](docs/screenshots/mcp-guide.png)
+
 ## Why DocIngest
 
 Most documentation is published for browsers, not for agents or retrieval systems.
