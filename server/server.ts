@@ -783,86 +783,32 @@ app.get('/api/docs/list', async (req, res) => {
       const metadataPath = path.join(domainPath, 'metadata.json');
       
       try {
-        // Check for existing individual files that need to be merged
-        const existingPages = await mergeExistingFiles(domainPath);
-        if (existingPages.length > 0) {
-          console.log('Found existing files to merge:', existingPages.length);
-          const timestamp = new Date().toISOString();
-          
-          // Generate and save merged content
-          const toc = generateTableOfContents(existingPages);
-          const mergedContent = mergeMarkdownContent(existingPages);
-          const fullContent = toc + mergedContent;
-          
-          const fileName = `documentation_${timestamp}.md`;
-          const filePath = path.join(domainPath, fileName);
-          await fs.writeFile(filePath, fullContent);
-          
-          // Update metadata
-          const metadata = {
-            url: fullDomain,
-            domain: fullDomain,
-            lastScraped: timestamp,
-            totalPages: existingPages.length,
-            successfulPages: existingPages.length,
-            failedPages: [],
-            structure: existingPages.map(p => ({
-              type: p.type,
-              url: null
-            }))
-          };
-          await fs.writeJSON(metadataPath, metadata);
-          
-          // Clean up old files
-          const files = await fs.readdir(domainPath);
-          for (const file of files) {
-            if (file.endsWith('.md') && !file.startsWith('documentation_')) {
-              await fs.remove(path.join(domainPath, file));
-            }
-          }
-          
-          allDocs.push({
-            content: fullContent,
-            domain: fullDomain,
-            lastUpdated: timestamp,
-            url: fullDomain,
-            filePath,
-            structure: metadata.structure
-          });
-          
-          allUrls.push(metadata);
+        if (!await fs.pathExists(metadataPath)) {
           continue;
         }
-        
-        // Handle already merged documentation
-        if (await fs.pathExists(metadataPath)) {
-          console.log('Reading metadata:', metadataPath);
-          const metadata = await fs.readJSON(metadataPath);
-          allUrls.push(metadata);
 
-          const files = await fs.readdir(domainPath);
-          console.log('Found files in domain:', files);
+        console.log('Reading metadata:', metadataPath);
+        const metadata = await fs.readJSON(metadataPath);
+        allUrls.push(metadata);
 
-          const docFile = files
-            .filter(f => f.startsWith('documentation_') && f.endsWith('.md'))
-            .sort()
-            .pop();
+        const files = await fs.readdir(domainPath);
+        const docFile = files
+          .filter(f => f.startsWith('documentation_') && f.endsWith('.md'))
+          .sort()
+          .pop();
 
-          if (docFile) {
-            const filePath = path.join(domainPath, docFile);
-            console.log('Reading documentation file:', filePath);
-            const content = await fs.readFile(filePath, 'utf-8');
-            
-            allDocs.push({
-              content,
-              domain: fullDomain,
-              lastUpdated: metadata.lastScraped,
-              url: metadata.url,
-              filePath,
-              structure: metadata.structure || []
-            });
-          }
-        }
+        allDocs.push({
+          domain: fullDomain,
+          lastUpdated: metadata.lastScraped,
+          url: metadata.url,
+          filePath: docFile ? path.join(domainPath, docFile) : null,
+          structure: metadata.structure || [],
+          totalPages: metadata.totalPages,
+          successfulPages: metadata.successfulPages,
+          failedPages: metadata.failedPages || [],
+          latestVersion: metadata.latestVersion,
+          versions: metadata.versions
+        });
       } catch (err) {
         console.error(`Error processing domain ${fullDomain}:`, err);
         continue;
@@ -880,8 +826,8 @@ app.get('/api/docs/list', async (req, res) => {
     sampleDocs.forEach((doc, i) => {
       console.log(`Doc ${i+1} (${doc.domain}):`);
       console.log(`  - lastUpdated: ${doc.lastUpdated} (${typeof doc.lastUpdated})`);
-      console.log(`  - lastScraped: ${(doc.lastScraped)} (${typeof doc.lastScraped})`);
-      console.log(`  - ISO parse: ${new Date(doc.lastUpdated || doc.lastScraped || 0).toISOString()}`);
+      console.log(`  - lastScraped: ${(doc as any).lastScraped} (${typeof (doc as any).lastScraped})`);
+      console.log(`  - ISO parse: ${new Date(doc.lastUpdated || (doc as any).lastScraped || 0).toISOString()}`);
     });
 
     // Apply sorting based on the sortBy parameter

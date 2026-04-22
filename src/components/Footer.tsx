@@ -23,6 +23,18 @@ const Footer: React.FC = () => {
         <div className="flex justify-center items-center gap-6 text-gray-900 text-sm">
           <div className="flex items-center">
             <a
+              href="https://github.com/Amal-David/docingest"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-gray-900 hover:opacity-75 transition-opacity"
+            >
+              <GitHubLogo className="mr-1" />
+              <span>Open source on GitHub</span>
+            </a>
+          </div>
+          <div className="h-4 w-px bg-gray-900"></div>
+          <div className="flex items-center">
+            <a
               href="https://github.com/Amal-David"
               target="_blank"
               rel="noopener noreferrer"

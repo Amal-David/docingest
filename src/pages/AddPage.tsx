@@ -805,11 +805,11 @@ const HomePage: React.FC = () => {
   return (
     <>
     <Helmet prioritizeSeoTags={true}>
-        <title>Home | DocIngest</title>
-        <meta name="description" content="Download documentation for any Framework, Library or API" />
-        <meta name="keywords" content="documentation, download, save, framework, library, api" />
-        <meta property="og:title" content="Home | DocIngest" />
-        <meta property="og:description" content="Download documentation for any Framework, Library or API" />
+        <title>Index Docs | DocIngest</title>
+        <meta name="description" content="Ingest a documentation site into DocIngest's searchable, MCP-accessible corpus." />
+        <meta name="keywords" content="docs ingestion, MCP, documentation indexing, framework docs, API docs" />
+        <meta property="og:title" content="Index Docs | DocIngest" />
+        <meta property="og:description" content="Ingest a documentation site into DocIngest's searchable, MCP-accessible corpus." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://docingest.com" />
       </Helmet>
@@ -819,7 +819,7 @@ const HomePage: React.FC = () => {
           Doc<span className="text-primary">Ingest</span>
         </h1>
         <p className="text-gray-600 text-lg">
-          Download documentation for any Framework, Library or API
+          Ingest a docs site into your searchable, MCP-accessible corpus
         </p>
         
         <div className="flex justify-center space-x-4">
@@ -827,7 +827,7 @@ const HomePage: React.FC = () => {
             to="/view"
             className="px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
           >
-            View Indexed Docs
+            Browse Indexed Docs
           </Link>
         </div>
       </div>
@@ -942,7 +942,7 @@ const HomePage: React.FC = () => {
                 disabled={isLoading || isCrawling}
                 className="w-full px-6 py-3 bg-primary text-white border-[3px] border-gray-900 rounded font-medium relative z-10 hover:-translate-y-0.5 transition-transform disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {isCrawling ? 'Downloading...' : 'Download Documentation'}
+                {isCrawling ? 'Indexing...' : 'Start Indexing'}
               </button>
             </div>
           </div>
@@ -955,7 +955,7 @@ const HomePage: React.FC = () => {
           <div className="rounded-xl relative z-20 p-6 border-[3px] border-gray-900 bg-blue-50">
             <div className="space-y-3">
               <p className="text-blue-700 font-semibold">
-                Scraping in progress: {metrics.completedPages}/{metrics.totalPages} pages
+                Indexing in progress: {metrics.completedPages}/{metrics.totalPages} pages
               </p>
               <div className="relative h-2">
                 {/* Background track */}

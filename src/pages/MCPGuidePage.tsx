@@ -66,7 +66,7 @@ claude mcp add docingest -- npx -y @docingest/mcp-server
     <>
       <Helmet>
         <title>MCP Setup Guide | DocIngest</title>
-        <meta name="description" content="Learn how to set up DocIngest MCP server with Claude Code, Cursor, Windsurf, and Codex" />
+        <meta name="description" content="Connect DocIngest's searchable documentation corpus to Claude Code, Cursor, Windsurf, Codex, and other MCP clients." />
       </Helmet>
 
       <div className="space-y-8">
@@ -76,7 +76,7 @@ claude mcp add docingest -- npx -y @docingest/mcp-server
             MCP <span className="text-primary">Setup Guide</span>
           </h1>
           <p className="text-gray-600 text-lg">
-            Use DocIngest documentation directly in your AI coding tools
+            Connect DocIngest's searchable documentation corpus to your coding agents
           </p>
         </div>
 
@@ -86,24 +86,24 @@ claude mcp add docingest -- npx -y @docingest/mcp-server
           <div className="rounded-xl relative z-20 p-6 border-[3px] border-gray-900 bg-blue-50">
             <h2 className="text-xl font-bold mb-3">What is MCP?</h2>
             <p className="text-gray-700 mb-4">
-              The <strong>Model Context Protocol (MCP)</strong> allows AI assistants to access external tools and data sources.
-              With DocIngest MCP, your AI can search and retrieve documentation directly while coding.
+              The <strong>Model Context Protocol (MCP)</strong> lets AI assistants use external tools and data sources.
+              With DocIngest MCP, coding agents can search and retrieve the same indexed docs that humans browse in the web app.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-white p-4 rounded border-2 border-gray-900">
                 <div className="text-2xl mb-2">1.</div>
                 <div className="font-semibold">Search Docs</div>
-                <div className="text-sm text-gray-600">Find relevant documentation by keyword</div>
+                <div className="text-sm text-gray-600">Find relevant documentation across the indexed corpus</div>
               </div>
               <div className="bg-white p-4 rounded border-2 border-gray-900">
                 <div className="text-2xl mb-2">2.</div>
                 <div className="font-semibold">Get Context</div>
-                <div className="text-sm text-gray-600">Retrieve full documentation content</div>
+                <div className="text-sm text-gray-600">Pull the right page or section into the agent loop</div>
               </div>
               <div className="bg-white p-4 rounded border-2 border-gray-900">
                 <div className="text-2xl mb-2">3.</div>
-                <div className="font-semibold">Code Better</div>
-                <div className="text-sm text-gray-600">AI uses docs to write accurate code</div>
+                <div className="font-semibold">Stay Grounded</div>
+                <div className="text-sm text-gray-600">Keep code generation anchored in real documentation</div>
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@ claude mcp add docingest -- npx -y @docingest/mcp-server
               {activeTab === 'claude-code' && (
                 <div className="space-y-3">
                   <p className="text-gray-700">
-                    Run the command below to add DocIngest to Claude Code. It uses npx so no installation needed.
+                    Run the command below to connect DocIngest to Claude Code. It uses `npx`, so there is no separate install step.
                   </p>
                 </div>
               )}
@@ -197,7 +197,7 @@ claude mcp add docingest -- npx -y @docingest/mcp-server
                   <span className="px-2 py-1 bg-blue-100 text-blue-700 text-xs font-bold rounded">find-docs</span>
                 </div>
                 <p className="text-gray-700 text-sm">
-                  Find a library or framework in DocIngest by name. Returns matching domains with metadata.
+                  Find a library or docs domain in the indexed corpus. Returns matching domains with metadata.
                 </p>
                 <pre className="mt-2 text-xs bg-gray-100 p-2 rounded">
                   {`// Example: Find React documentation
@@ -210,7 +210,7 @@ find-docs("react")`}
                   <span className="px-2 py-1 bg-green-100 text-green-700 text-xs font-bold rounded">read-docs</span>
                 </div>
                 <p className="text-gray-700 text-sm">
-                  Fetches full documentation content for a domain. Optionally filter by topic or section.
+                  Fetch full documentation content for a domain, with optional topic or section filtering.
                 </p>
                 <pre className="mt-2 text-xs bg-gray-100 p-2 rounded">
                   {`// Example: Get React hooks documentation
@@ -223,7 +223,7 @@ read-docs("react.dev", topic: "hooks")`}
                   <span className="px-2 py-1 bg-purple-100 text-purple-700 text-xs font-bold rounded">query-docs</span>
                 </div>
                 <p className="text-gray-700 text-sm">
-                  Full-text search across all indexed documentation. Great for finding examples and patterns.
+                  Run full-text search across indexed documentation to find examples, APIs, and implementation patterns.
                 </p>
                 <pre className="mt-2 text-xs bg-gray-100 p-2 rounded">
                   {`// Example: Search for authentication patterns
@@ -242,16 +242,16 @@ query-docs("JWT authentication")`}
 
             <div className="space-y-4">
               <div className="bg-white p-4 rounded border-2 border-gray-900">
-                <div className="font-semibold mb-2">Ask Claude/Cursor about a library:</div>
+                <div className="font-semibold mb-2">Ask your agent about a library:</div>
                 <p className="text-gray-600 italic">
-                  "How do I use React Query to fetch data? Check the documentation."
+                  "How do I use React Query to fetch data? Check DocIngest first."
                 </p>
               </div>
 
               <div className="bg-white p-4 rounded border-2 border-gray-900">
                 <div className="font-semibold mb-2">Search for specific patterns:</div>
                 <p className="text-gray-600 italic">
-                  "Find examples of Stripe webhook handling in the docs."
+                  "Find examples of Stripe webhook handling in the indexed docs."
                 </p>
               </div>
 
@@ -284,7 +284,7 @@ query-docs("JWT authentication")`}
                 <span className="text-primary font-bold">Q:</span>
                 <div>
                   <span className="font-semibold">Documentation not found?</span>
-                  <p className="text-gray-600 text-sm">The library may not be indexed yet. Visit the Add Docs page to index new documentation.</p>
+                  <p className="text-gray-600 text-sm">The library may not be indexed yet. Visit the Add Docs page to ingest it into your corpus.</p>
                 </div>
               </div>
 
