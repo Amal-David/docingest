@@ -4,7 +4,41 @@ DocIngest is the open-source engine for turning documentation sites into searcha
 
 It crawls docs, extracts the useful content, stores it as clean markdown, indexes it for search, and exposes it through a web UI and an MCP server. You can self-host it, use it to build a public docs index, or wire it into tools like Claude Code, Cursor, Windsurf, and Codex.
 
-## Screenshots
+🚀 [Quick Start](#quick-start) • 🔌 [MCP Usage](#mcp-usage) • 🖥️ [Screenshots](#-screenshots) • 🗺️ [Status](#-status-at-a-glance) • 🤝 [Contributing](#contributing)
+
+## ✨ Status At A Glance
+
+### ✅ What You Can Test Today
+
+- ✅ Index a docs site from the web UI with include/exclude rules and crawl limits
+- ✅ Browse indexed docs from the hosted corpus at `docingest.com`
+- ✅ Search indexed libraries, frameworks, and APIs from the homepage and `/view`
+- ✅ Open docs by domain, copy markdown, and download the stored docs file
+- ✅ Re-index existing sources when upstream docs change
+- ✅ Connect DocIngest to MCP-compatible tools and query docs from coding agents
+
+### 🧪 What Exists But Still Feels Early
+
+- 🧪 Hosted corpus quality still depends on what has already been indexed
+- 🧪 Search and ranking are functional, but not yet deeply tuned
+- 🧪 Some UI states still need stronger loading, empty, and success feedback
+- 🧪 Version-aware storage exists in the backend, but the product experience around versions is still early
+
+### 🔜 Likely Next Additions
+
+- 🔜 Better loading states and skeletons across browse and docs pages
+- 🔜 Better search quality and in-document navigation
+- 🔜 Smoother self-hosting and deployment workflows
+- 🔜 More export, sharing, and docs-history ergonomics
+
+### 🎯 Best Fit Right Now
+
+- ✅ Teams that want a searchable docs corpus for internal use
+- ✅ Builders who want MCP-ready documentation for coding agents
+- ✅ Anyone who wants a lightweight alternative to treating docs as raw scraped blobs
+- ❌ Not yet a polished enterprise docs platform with mature permissions, collaboration, and admin tooling
+
+## 🖥️ Screenshots
 
 ### Homepage
 
@@ -32,12 +66,12 @@ DocIngest gives you a practical bridge:
 
 ## What You Get
 
-- Documentation crawling powered by Firecrawl
-- Markdown-first storage for indexed pages
-- Search and autocomplete across indexed docs
-- Public or private self-hostable docs index
-- MCP server for agent access to your documentation corpus
-- Web UI for browsing, reading, and re-syncing docs
+- 🔥 Documentation crawling powered by Firecrawl
+- 📝 Markdown-first storage for indexed pages
+- 🔎 Search and autocomplete across indexed docs
+- 🏠 Public or private self-hostable docs index
+- 🔌 MCP server for agent access to your documentation corpus
+- 🖥️ Web UI for browsing, reading, and re-syncing docs
 
 ## Product Shape
 
@@ -58,12 +92,12 @@ That means you can treat DocIngest as:
 
 ## Tech Stack
 
-- Frontend: React + TypeScript + Tailwind CSS
-- Backend: Node.js + Express + TypeScript
-- Runtime: Bun or Node.js
-- Crawling: Firecrawl API
-- Storage: file-based markdown + metadata
-- Production: PM2 + Nginx
+- 🎨 Frontend: React + TypeScript + Tailwind CSS
+- ⚙️ Backend: Node.js + Express + TypeScript
+- 🏃 Runtime: Bun or Node.js
+- 🕸️ Crawling: Firecrawl API
+- 💾 Storage: file-based markdown + metadata
+- 🚢 Production: PM2 + Nginx
 
 ## Quick Start
 
