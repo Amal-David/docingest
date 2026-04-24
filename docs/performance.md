@@ -43,6 +43,8 @@ If you want the full local crawl/search stack, start the Firecrawl Compose profi
 docker compose --profile firecrawl up -d
 ```
 
+For every local run mode, see [Docker run modes](./setup/docker.md).
+
 ## High-Impact Next Wins
 
 - Keep Redis enabled in production and rebuild the search index after new crawls with `npm run build-index` from `server/`.

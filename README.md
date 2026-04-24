@@ -120,19 +120,36 @@ REDIS_PORT=6380
 
 For setup details, use these guides:
 
+- [Docker run modes](./docs/setup/docker.md)
 - [Firecrawl setup](./docs/setup/firecrawl.md)
 - [Redis setup](./docs/setup/redis.md)
 
 ### Run
 
+Choose the local services you want:
+
+Run everything local:
+
+```bash
+docker compose --profile firecrawl --profile tools up -d
+```
+
+Run only Redis:
+
 ```bash
 docker compose up -d redis
 ```
 
-If you want Redis and self-hosted Firecrawl together:
+Run Redis and Firecrawl without the Redis UI:
 
 ```bash
 docker compose --profile firecrawl up -d
+```
+
+Run Redis with the Redis UI:
+
+```bash
+docker compose --profile tools up -d
 ```
 
 Backend:
@@ -187,6 +204,7 @@ Use these when you need more than the happy path:
 
 - [Redis setup](./docs/setup/redis.md) for local/self-hosted Redis, indexing, and verification
 - [Firecrawl setup](./docs/setup/firecrawl.md) for hosted or self-hosted crawling
+- [Docker run modes](./docs/setup/docker.md) for all-in-one or partial local services
 - [Nginx setup](./docs/setup/nginx.md) for production reverse proxy configuration
 - [Performance notes](./docs/performance.md) for speedups and next optimization work
 - [Reference](./docs/reference.md) for storage, API, deployment shape, and repo details

@@ -336,10 +336,18 @@ For DocIngest, this is usually fine because it primarily relies on Firecrawl’s
 
 ### DocIngest Docker Compose path
 
-DocIngest includes an optional Compose profile that starts the local Firecrawl stack alongside Redis:
+DocIngest includes an optional Compose profile that starts the local Firecrawl stack alongside Redis.
+
+Run Redis and Firecrawl:
 
 ```bash
 docker compose --profile firecrawl up -d
+```
+
+Run Redis, Firecrawl, and Redis Commander:
+
+```bash
+docker compose --profile firecrawl --profile tools up -d
 ```
 
 That profile starts:
@@ -366,6 +374,8 @@ http://localhost:3002/admin/CHANGEME/queues
 ```
 
 Set `FIRECRAWL_BULL_AUTH_KEY` before exposing this outside your machine.
+
+For the full command menu, see [Docker run modes](./docker.md).
 
 ### Basic setup flow
 

@@ -2,7 +2,17 @@
 
 DocIngest uses Redis for the fast path: autocomplete, full-text search, popular searches, and cached documentation content. The app can still run without Redis, but search falls back to filesystem scans and will feel slower as the corpus grows.
 
-## Local Self-Hosted Redis
+## Choose A Docker Mode
+
+Use the [Docker run modes](./docker.md) guide if you want the full menu:
+
+- Run everything local
+- Run only Redis
+- Run Redis with UI
+- Run Redis and Firecrawl without UI
+- Use hosted or external services
+
+## Run Only Redis
 
 The root `docker-compose.yml` includes a Redis service configured for local development:
 
@@ -26,13 +36,17 @@ REDIS_HOST=localhost
 REDIS_PORT=6380
 ```
 
-The optional Redis UI is also available:
+## Run Redis With UI
+
+The optional Redis UI is available behind the `tools` profile:
 
 ```bash
-docker compose up -d redis-commander
+docker compose --profile tools up -d
 ```
 
 Then open `http://localhost:8082`.
+
+## Run Redis With Firecrawl
 
 If you also want a local Firecrawl stack, use the Firecrawl profile:
 
@@ -41,6 +55,12 @@ docker compose --profile firecrawl up -d
 ```
 
 That command starts Redis plus Firecrawl API, Playwright, RabbitMQ, and Firecrawl Postgres. See [Firecrawl setup](./firecrawl.md) for the crawl-provider configuration.
+
+If you want Redis, Firecrawl, and Redis Commander together:
+
+```bash
+docker compose --profile firecrawl --profile tools up -d
+```
 
 ## Remote Or Separately Hosted Redis
 
