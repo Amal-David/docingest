@@ -17,6 +17,12 @@ It crawls docs, extracts the useful content, stores it as clean markdown, indexe
 - ✅ Re-index existing sources when upstream docs change
 - ✅ Connect DocIngest to MCP-compatible tools and query docs from coding agents
 
+### 📚 Corpus Snapshot
+
+- 📚 The live `main` deployment currently serves **1,512 latest documentation sites** on `docingest.com` as of April 24, 2026
+- 🗂️ DocIngest stores documentation as versioned snapshots per domain, so one docs site can have multiple historical versions behind the scenes
+- ℹ️ The Git repository does not commit the full hosted corpus; the repo only keeps the storage structure, while the deployed service holds the actual indexed docs data
+
 ### 🧪 What Exists But Still Feels Early
 
 - 🧪 Hosted corpus quality still depends on what has already been indexed
@@ -140,6 +146,7 @@ Firecrawl’s official self-hosting docs are here:
 
 - [Self-hosting Firecrawl](https://docs.firecrawl.dev/contributing/self-host)
 - [Firecrawl GitHub repository](https://github.com/mendableai/firecrawl)
+- [DocIngest Firecrawl setup guide](./docs/setup/firecrawl.md)
 
 DocIngest only needs the Firecrawl crawl/scrape APIs, so self-hosting is a valid setup if you want more control over data locality or cost. Firecrawl’s official docs note that self-hosted deployments do not support every cloud feature, so check their guide before relying on advanced endpoints.
 
@@ -227,9 +234,8 @@ The app also exposes crawl and admin endpoints used by the UI.
 
 For production deployment guidance, see:
 
-- [FIRECRAWL_SETUP.md](./FIRECRAWL_SETUP.md)
-- [NGINX_SETUP.md](./NGINX_SETUP.md)
-- [WEB_VITALS_SETUP.md](./WEB_VITALS_SETUP.md)
+- [Firecrawl setup](./docs/setup/firecrawl.md)
+- [Nginx setup](./docs/setup/nginx.md)
 
 Typical production shape:
 

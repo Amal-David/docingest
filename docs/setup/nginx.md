@@ -687,7 +687,7 @@ sudo systemctl start pm2-docingest
 
 ### DocIngest Integration
 - 🔧 **Main Setup**: See [README.md](./README.md)
-- 🕷️ **Firecrawl Setup**: See [FIRECRAWL_SETUP.md](./FIRECRAWL_SETUP.md)
+- 🕷️ **Firecrawl Setup**: See [firecrawl.md](./firecrawl.md)
 - 🐛 **Issues**: [GitHub Issues](https://github.com/Amal-David/docingest/issues)
 
 ---

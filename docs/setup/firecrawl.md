@@ -395,7 +395,7 @@ Start with hosted Firecrawl unless you specifically need self-hosting. If you do
 
 ### DocIngest Integration
 - 🔧 **Configuration**: See main README.md
-- 🚀 **Deployment**: See NGINX_SETUP.md
+- 🚀 **Deployment**: See [nginx.md](./nginx.md)
 - 🐛 **Issues**: [DocIngest Issues](https://github.com/Amal-David/docingest/issues)
 
 ---
