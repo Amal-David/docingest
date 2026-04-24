@@ -179,11 +179,21 @@ claude mcp add docingest -- npx -y @docingest/mcp-server
 
 You can adapt the same package for other MCP-compatible tools.
 
+You can also use the same package as a quick CLI smoke test:
+
+```bash
+npx @docingest/mcp-server find react
+npx @docingest/mcp-server read react.dev --topic hooks --max-tokens 5000
+npx @docingest/mcp-server search "server components" --limit 5
+```
+
 Core MCP capabilities:
 
 - `find-docs` to locate a library or docs domain
 - `read-docs` to fetch documentation content
 - `query-docs` to run cross-doc full-text search
+
+For performance notes and tuning ideas, see [Performance](./docs/performance.md).
 
 ## Web App Usage
 
@@ -225,6 +235,7 @@ Main routes:
 
 - `GET /api/docs/list`
 - `GET /api/docs/content`
+- `GET /api/docs/domain/:domain?topic=hooks&maxTokens=5000`
 - `GET /api/docs/download`
 - `POST /api/docs/save`
 

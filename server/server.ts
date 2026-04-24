@@ -1178,6 +1178,81 @@ function findDomainPath(domain: string): { foundDomain: string | null; docsPath:
   return { foundDomain: null, docsPath: null };
 }
 
+function parseBoundedInt(value: unknown, fallback: number, max: number): number {
+  if (typeof value !== 'string') return fallback;
+
+  const parsed = parseInt(value, 10);
+  if (!Number.isFinite(parsed) || parsed < 1) return fallback;
+
+  return Math.min(parsed, max);
+}
+
+function truncateMarkdownToTokens(content: string, maxTokens: number): string {
+  const maxChars = maxTokens * 4;
+
+  if (content.length <= maxChars) {
+    return content;
+  }
+
+  let truncated = content.slice(0, maxChars);
+  const lastParagraph = truncated.lastIndexOf('\n\n');
+  const lastSentence = truncated.lastIndexOf('. ');
+
+  if (lastParagraph > maxChars * 0.8) {
+    truncated = truncated.slice(0, lastParagraph);
+  } else if (lastSentence > maxChars * 0.8) {
+    truncated = truncated.slice(0, lastSentence + 1);
+  }
+
+  return `${truncated}\n\n[Content truncated to fit token limit]`;
+}
+
+function filterMarkdownByTopic(content: string, topic: string): string {
+  const topicLower = topic.toLowerCase();
+  const lines = content.split('\n');
+  const relevantSections: string[] = [];
+  let inRelevantSection = false;
+  let currentSection: string[] = [];
+  let currentHeadingLevel = 0;
+
+  for (const line of lines) {
+    const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
+
+    if (!headingMatch) {
+      if (inRelevantSection) currentSection.push(line);
+      continue;
+    }
+
+    const level = headingMatch[1].length;
+    const heading = headingMatch[2].toLowerCase();
+
+    if (inRelevantSection && currentSection.length > 0) {
+      relevantSections.push(currentSection.join('\n'));
+      currentSection = [];
+    }
+
+    if (heading.includes(topicLower)) {
+      inRelevantSection = true;
+      currentHeadingLevel = level;
+      currentSection.push(line);
+    } else if (inRelevantSection && level <= currentHeadingLevel) {
+      inRelevantSection = false;
+    } else if (inRelevantSection) {
+      currentSection.push(line);
+    }
+  }
+
+  if (currentSection.length > 0) {
+    relevantSections.push(currentSection.join('\n'));
+  }
+
+  if (relevantSections.length > 0) {
+    return relevantSections.join('\n\n---\n\n');
+  }
+
+  return `No sections specifically about "${topic}" found. Try a different topic or omit the topic parameter to get full documentation.`;
+}
+
 // Get list of versions for a domain
 app.get('/api/docs/domain/:domain/versions', async (req, res) => {
   try {
@@ -1233,6 +1308,8 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
   try {
     const { domain } = req.params;
     const requestedVersion = req.query.version as string | undefined;
+    const topic = typeof req.query.topic === 'string' ? req.query.topic.trim() : '';
+    const maxTokens = parseBoundedInt(req.query.maxTokens, 0, 50000);
 
     const { foundDomain, docsPath } = findDomainPath(domain);
 
@@ -1305,7 +1382,15 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
       return res.status(404).json({ error: 'Documentation file not found' });
     }
 
-    const content = fs.readFileSync(markdownPath, 'utf-8');
+    let content = await fs.readFile(markdownPath, 'utf-8');
+
+    if (topic) {
+      content = filterMarkdownByTopic(content, topic);
+    }
+
+    if (maxTokens > 0) {
+      content = truncateMarkdownToTokens(content, maxTokens);
+    }
 
     // Build available versions list (sorted newest first)
     const availableVersions = [...metadata.versions]
@@ -1328,6 +1413,7 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
       availableVersions,
     };
 
+    res.setHeader('Cache-Control', 'public, max-age=300, stale-while-revalidate=600');
     res.json(response);
   } catch (err) {
     console.error('Error fetching documentation by domain:', err);
