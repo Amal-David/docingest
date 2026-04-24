@@ -50,8 +50,9 @@ Create a `.env` file in your project root:
 
 ```bash
 # Firecrawl Configuration
+CRAWL_PROVIDER=firecrawl
 FIRECRAWL_API_KEY=fc-your-actual-api-key-here
-REACT_APP_FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
+FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
 
 # Application Configuration
 REACT_APP_API_URL=http://localhost:8001/api
@@ -69,8 +70,9 @@ For production, use environment variables or a secure `.env` file:
 
 ```bash
 # Production Environment Variables
+export CRAWL_PROVIDER="firecrawl"
 export FIRECRAWL_API_KEY="fc-your-production-api-key"
-export REACT_APP_FIRECRAWL_API_URL="https://api.firecrawl.dev/v1"
+export FIRECRAWL_API_URL="https://api.firecrawl.dev/v1"
 export REACT_APP_API_URL="https://yourdomain.com/api"
 export NODE_ENV="production"
 export PORT="8000"
@@ -160,43 +162,19 @@ export API_PORT="8001"
 
 ## API Integration
 
-### Frontend Integration
+### Backend Integration
 
-The DocIngest frontend integrates with Firecrawl through these key functions:
+DocIngest sends crawl requests through the backend proxy:
 
-```typescript
-// src/pages/HomePage.tsx
-const FIRECRAWL_API = process.env.REACT_APP_FIRECRAWL_API_URL || 'https://api.firecrawl.dev/v1';
+- `POST /api/crawl/start`
+- `GET /api/crawl/status/:id`
+- `GET /api/crawl/health`
 
-// Start a crawl
-const startCrawl = async (config: CrawlConfig) => {
-  const response = await fetch(`${FIRECRAWL_API}/crawl`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${process.env.FIRECRAWL_API_KEY}` // Note: In production, handle securely
-    },
-    body: JSON.stringify(config)
-  });
-  
-  return response.json();
-};
-
-// Check crawl status
-const checkCrawlStatus = async (jobId: string) => {
-  const response = await fetch(`${FIRECRAWL_API}/crawl/${jobId}`, {
-    headers: {
-      'Authorization': `Bearer ${process.env.FIRECRAWL_API_KEY}`
-    }
-  });
-  
-  return response.json();
-};
-```
+Set `CRAWL_PROVIDER=firecrawl` to use Firecrawl. Leave it unset to use the Cloudflare Browser Rendering provider currently used by the hosted deployment.
 
 ### Security Note
 
-⚠️ **Important**: Never expose your Firecrawl API key in client-side code. In the current implementation, the API key should be handled by the backend server, not the frontend.
+⚠️ **Important**: Never expose your Firecrawl API key in client-side code. Keep it in the backend environment.
 
 ## Rate Limits and Best Practices
 
@@ -356,7 +334,42 @@ According to Firecrawl’s official self-hosting docs:
 
 For DocIngest, this is usually fine because it primarily relies on Firecrawl’s crawl and scrape flows.
 
+### DocIngest Docker Compose path
+
+DocIngest includes an optional Compose profile that starts the local Firecrawl stack alongside Redis:
+
+```bash
+docker compose --profile firecrawl up -d
+```
+
+That profile starts:
+
+- `firecrawl` API on `http://localhost:3002`
+- `firecrawl-playwright` for browser rendering
+- `firecrawl-rabbitmq` for queueing
+- `firecrawl-postgres` for Firecrawl persistence
+- `redis`, shared with DocIngest search
+
+Point the DocIngest backend at the local Firecrawl API:
+
+```bash
+CRAWL_PROVIDER=firecrawl
+FIRECRAWL_API_URL=http://localhost:3002/v1
+REDIS_HOST=localhost
+REDIS_PORT=6380
+```
+
+The Firecrawl queue UI is available at:
+
+```text
+http://localhost:3002/admin/CHANGEME/queues
+```
+
+Set `FIRECRAWL_BULL_AUTH_KEY` before exposing this outside your machine.
+
 ### Basic setup flow
+
+If you need to customize Firecrawl beyond the DocIngest Compose profile, use Firecrawl’s own repository directly:
 
 ```bash
 # Clone Firecrawl
@@ -375,7 +388,8 @@ docker compose up -d
 Point DocIngest at your Firecrawl base URL:
 
 ```bash
-REACT_APP_FIRECRAWL_API_URL=http://your-firecrawl-instance:3002/v1
+CRAWL_PROVIDER=firecrawl
+FIRECRAWL_API_URL=http://your-firecrawl-instance:3002/v1
 FIRECRAWL_API_KEY=your-self-hosted-key
 ```
 

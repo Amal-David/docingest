@@ -34,6 +34,14 @@ docker compose up -d redis-commander
 
 Then open `http://localhost:8082`.
 
+If you also want a local Firecrawl stack, use the Firecrawl profile:
+
+```bash
+docker compose --profile firecrawl up -d
+```
+
+That command starts Redis plus Firecrawl API, Playwright, RabbitMQ, and Firecrawl Postgres. See [Firecrawl setup](./firecrawl.md) for the crawl-provider configuration.
+
 ## Remote Or Separately Hosted Redis
 
 For production or a standalone Redis host, point the backend at your Redis endpoint:

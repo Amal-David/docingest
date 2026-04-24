@@ -37,6 +37,12 @@ npm run build-index
 
 Use `REDIS_HOST`, `REDIS_PORT`, and optionally `REDIS_PASSWORD` to point the backend at local, remote, or production Redis. See [Redis setup](./setup/redis.md) for the full guide.
 
+If you want the full local crawl/search stack, start the Firecrawl Compose profile instead:
+
+```bash
+docker compose --profile firecrawl up -d
+```
+
 ## High-Impact Next Wins
 
 - Keep Redis enabled in production and rebuild the search index after new crawls with `npm run build-index` from `server/`.

@@ -22,6 +22,98 @@ services:
     networks:
       - docingest-network
 
+  firecrawl-playwright:
+    image: ghcr.io/firecrawl/playwright-service:latest
+    container_name: docingest-firecrawl-playwright
+    profiles: ["firecrawl"]
+    restart: unless-stopped
+    environment:
+      - PORT=3000
+      - PROXY_SERVER=${PROXY_SERVER:-}
+      - PROXY_USERNAME=${PROXY_USERNAME:-}
+      - PROXY_PASSWORD=${PROXY_PASSWORD:-}
+      - BLOCK_MEDIA=${BLOCK_MEDIA:-}
+      - MAX_CONCURRENT_PAGES=${FIRECRAWL_CONCURRENT_REQUESTS:-10}
+    tmpfs:
+      - /tmp/.cache:noexec,nosuid,size=1g
+    networks:
+      - docingest-network
+
+  firecrawl-rabbitmq:
+    image: rabbitmq:3-management
+    container_name: docingest-firecrawl-rabbitmq
+    profiles: ["firecrawl"]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "check_running"]
+      interval: 5s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+    networks:
+      - docingest-network
+
+  firecrawl-postgres:
+    image: ghcr.io/firecrawl/nuq-postgres:latest
+    container_name: docingest-firecrawl-postgres
+    profiles: ["firecrawl"]
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=${FIRECRAWL_POSTGRES_USER:-postgres}
+      - POSTGRES_PASSWORD=${FIRECRAWL_POSTGRES_PASSWORD:-postgres}
+      - POSTGRES_DB=${FIRECRAWL_POSTGRES_DB:-postgres}
+    volumes:
+      - firecrawl_postgres_data:/var/lib/postgresql/data
+    networks:
+      - docingest-network
+
+  firecrawl:
+    image: ghcr.io/firecrawl/firecrawl:latest
+    container_name: docingest-firecrawl
+    profiles: ["firecrawl"]
+    restart: unless-stopped
+    ports:
+      - "${FIRECRAWL_PORT:-3002}:3002"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=3002
+      - INTERNAL_PORT=3002
+      - USE_DB_AUTHENTICATION=${FIRECRAWL_USE_DB_AUTHENTICATION:-false}
+      - REDIS_URL=redis://redis:6379
+      - REDIS_RATE_LIMIT_URL=redis://redis:6379
+      - PLAYWRIGHT_MICROSERVICE_URL=http://firecrawl-playwright:3000/scrape
+      - POSTGRES_USER=${FIRECRAWL_POSTGRES_USER:-postgres}
+      - POSTGRES_PASSWORD=${FIRECRAWL_POSTGRES_PASSWORD:-postgres}
+      - POSTGRES_DB=${FIRECRAWL_POSTGRES_DB:-postgres}
+      - POSTGRES_HOST=firecrawl-postgres
+      - POSTGRES_PORT=5432
+      - NUQ_RABBITMQ_URL=amqp://firecrawl-rabbitmq:5672
+      - BULL_AUTH_KEY=${FIRECRAWL_BULL_AUTH_KEY:-CHANGEME}
+      - NUM_WORKERS_PER_QUEUE=${FIRECRAWL_NUM_WORKERS_PER_QUEUE:-8}
+      - CRAWL_CONCURRENT_REQUESTS=${FIRECRAWL_CONCURRENT_REQUESTS:-10}
+      - MAX_CONCURRENT_JOBS=${FIRECRAWL_MAX_CONCURRENT_JOBS:-5}
+      - BROWSER_POOL_SIZE=${FIRECRAWL_BROWSER_POOL_SIZE:-5}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - OPENAI_BASE_URL=${OPENAI_BASE_URL:-}
+      - MODEL_NAME=${MODEL_NAME:-}
+      - MODEL_EMBEDDING_NAME=${MODEL_EMBEDDING_NAME:-}
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL:-}
+      - PROXY_SERVER=${PROXY_SERVER:-}
+      - PROXY_USERNAME=${PROXY_USERNAME:-}
+      - PROXY_PASSWORD=${PROXY_PASSWORD:-}
+    command: node dist/src/harness.js --start-docker
+    depends_on:
+      redis:
+        condition: service_healthy
+      firecrawl-playwright:
+        condition: service_started
+      firecrawl-rabbitmq:
+        condition: service_healthy
+      firecrawl-postgres:
+        condition: service_started
+    networks:
+      - docingest-network
+
   redis-commander:
     image: rediscommander/redis-commander:latest
     container_name: docingest-redis-ui
@@ -38,6 +130,8 @@ services:
 
 volumes:
   redis_data:
+    driver: local
+  firecrawl_postgres_data:
     driver: local
 
 networks:

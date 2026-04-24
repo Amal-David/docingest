@@ -61,8 +61,15 @@ import {
   isValidCrawlId,
   type CrawlStartRequest,
 } from './lib/cloudflare-crawl';
+import {
+  startFirecrawlCrawl,
+  getFirecrawlCrawlStatus,
+  isFirecrawlConfigured,
+  isValidFirecrawlCrawlId,
+} from './lib/firecrawl-crawl';
 const app = express();
 const PORT = process.env.PORT || 8001;
+const CRAWL_PROVIDER = (process.env.CRAWL_PROVIDER || 'cloudflare').toLowerCase();
 
 // Trust proxy (nginx/load balancer) for correct IP detection in rate limiting
 app.set('trust proxy', 1);
@@ -1766,21 +1773,30 @@ app.get('/api/admin/cache/stats', async (req, res) => {
 });
 
 // ============================================================================
-// CRAWL PROXY ENDPOINTS (Cloudflare Browser Rendering)
+// CRAWL PROXY ENDPOINTS
 // ============================================================================
+
+function isCrawlProviderConfigured(): boolean {
+  return CRAWL_PROVIDER === 'firecrawl' ? isFirecrawlConfigured() : isCloudflareConfigured();
+}
+
+function isValidProviderCrawlId(id: string): boolean {
+  return CRAWL_PROVIDER === 'firecrawl' ? isValidFirecrawlCrawlId(id) : isValidCrawlId(id);
+}
 
 /**
  * POST /api/crawl/start
- * Start a crawl job via Cloudflare Browser Rendering.
- * Accepts the same body shape the frontend previously sent to Firecrawl.
- * Returns { success, id } matching Firecrawl's response shape.
+ * Start a crawl job via the configured crawl provider.
+ * Returns { success, id } matching the Firecrawl-shaped frontend contract.
  */
 app.post('/api/crawl/start', async (req, res) => {
   try {
-    if (!isCloudflareConfigured()) {
+    if (!isCrawlProviderConfigured()) {
       res.status(503).json({
         success: false,
-        error: 'Crawl service not configured. Set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID.',
+        error: CRAWL_PROVIDER === 'firecrawl'
+          ? 'Crawl service not configured. Set FIRECRAWL_API_URL or REACT_APP_FIRECRAWL_API_URL.'
+          : 'Crawl service not configured. Set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID.',
       });
       return;
     }
@@ -1792,8 +1808,10 @@ app.post('/api/crawl/start', async (req, res) => {
       return;
     }
 
-    console.log(`[crawl-proxy] Starting crawl for: ${body.url}`);
-    const result = await startCrawl(body);
+    console.log(`[crawl-proxy] Starting ${CRAWL_PROVIDER} crawl for: ${body.url}`);
+    const result = CRAWL_PROVIDER === 'firecrawl'
+      ? await startFirecrawlCrawl(body)
+      : await startCrawl(body);
 
     if (result.success) {
       res.json({ success: true, id: result.id });
@@ -1815,12 +1833,14 @@ app.get('/api/crawl/status/:id', async (req, res) => {
   try {
     const { id } = req.params;
 
-    if (!id || !isValidCrawlId(id)) {
+    if (!id || !isValidProviderCrawlId(id)) {
       res.status(400).json({ status: 'failed', error: 'Invalid or missing crawl ID' });
       return;
     }
 
-    const status = await getCrawlStatus(id);
+    const status = CRAWL_PROVIDER === 'firecrawl'
+      ? await getFirecrawlCrawlStatus(id)
+      : await getCrawlStatus(id);
     res.json(status);
   } catch (error: any) {
     console.error('[crawl-proxy] Status error:', error);
@@ -1830,12 +1850,12 @@ app.get('/api/crawl/status/:id', async (req, res) => {
 
 /**
  * GET /api/crawl/health
- * Check if the crawl backend (Cloudflare) is configured and reachable.
+ * Check if the crawl backend is configured.
  */
 app.get('/api/crawl/health', async (_req, res) => {
   res.json({
-    configured: isCloudflareConfigured(),
-    provider: 'cloudflare-browser-rendering',
+    configured: isCrawlProviderConfigured(),
+    provider: CRAWL_PROVIDER === 'firecrawl' ? 'firecrawl' : 'cloudflare-browser-rendering',
   });
 });
 

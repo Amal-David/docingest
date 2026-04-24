@@ -100,14 +100,25 @@ cd server && npm install && cd ..
 Create `.env` in the repo root:
 
 ```bash
+CRAWL_PROVIDER=firecrawl
 FIRECRAWL_API_KEY=fc-your-api-key-here
-REACT_APP_FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
+FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
 REACT_APP_API_URL=http://localhost:8001/api
 REDIS_HOST=localhost
 REDIS_PORT=6380
 ```
 
-For self-hosted Firecrawl or Redis, use these guides:
+For local Docker with self-hosted Firecrawl:
+
+```bash
+CRAWL_PROVIDER=firecrawl
+FIRECRAWL_API_URL=http://localhost:3002/v1
+REACT_APP_API_URL=http://localhost:8001/api
+REDIS_HOST=localhost
+REDIS_PORT=6380
+```
+
+For setup details, use these guides:
 
 - [Firecrawl setup](./docs/setup/firecrawl.md)
 - [Redis setup](./docs/setup/redis.md)
@@ -116,6 +127,12 @@ For self-hosted Firecrawl or Redis, use these guides:
 
 ```bash
 docker compose up -d redis
+```
+
+If you want Redis and self-hosted Firecrawl together:
+
+```bash
+docker compose --profile firecrawl up -d
 ```
 
 Backend:
