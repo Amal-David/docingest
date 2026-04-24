@@ -140,6 +140,26 @@ function cleanMarkdown(md: string): string {
     .trim();
 }
 
+function getCrawlTotal(data: any, completed: number): number {
+  const candidates = [
+    data.total,
+    data.totalCount,
+    data.total_count,
+    data.count,
+    data.result_info?.total_count,
+    data.resultInfo?.totalCount,
+  ];
+
+  for (const candidate of candidates) {
+    const parsed = Number(candidate);
+    if (Number.isFinite(parsed) && parsed > 0) {
+      return Math.max(parsed, completed);
+    }
+  }
+
+  return Math.max(completed, 1);
+}
+
 // ---------------------------------------------------------------------------
 // Cloudflare /crawl API
 // ---------------------------------------------------------------------------
@@ -266,7 +286,7 @@ export async function getCrawlStatus(crawlId: string): Promise<CrawlStatusRespon
       return {
         status: normalizedStatus,
         completed: rawResults.length,
-        total: Math.max(rawResults.length, rawResults.length),
+        total: getCrawlTotal(data, rawResults.length),
         data: [],
       };
     }

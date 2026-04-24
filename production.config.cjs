@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'docingest-frontend-prod',
+      name: 'docingest-frontend',
       script: 'bun',
       args: ['./src/frontend-static-server.ts'],
       instances: 1,
@@ -18,7 +18,7 @@ module.exports = {
       }
     },
     {
-      name: 'docingest-backend-prod',
+      name: 'docingest-backend',
       script: 'bun',
       args: ['./server/server.ts'],
       instances: 1, 

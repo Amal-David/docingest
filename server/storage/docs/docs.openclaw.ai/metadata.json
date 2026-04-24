@@ -1,9 +1,9 @@
 {
   "url": "https://docs.openclaw.ai/",
   "domain": "docs.openclaw.ai",
-  "lastScraped": "2026-02-13T22:50:46.682Z",
-  "totalPages": 36,
-  "successfulPages": 36,
+  "lastScraped": "2026-04-10T11:03:08.422Z",
+  "totalPages": 13,
+  "successfulPages": 13,
   "failedPages": [],
   "structure": [
     {
@@ -11,157 +11,83 @@
       "url": "https://docs.openclaw.ai/"
     },
     {
-      "type": "Auth Monitoring - OpenClaw",
-      "url": "https://docs.openclaw.ai/automation/auth-monitoring"
+      "type": "دلالات بيانات اعتماد المصادقة - OpenClaw",
+      "url": "https://docs.openclaw.ai/ar/auth-credential-semantics"
     },
     {
-      "type": "Date and Time - OpenClaw",
-      "url": "https://docs.openclaw.ai/date-time"
+      "type": "المهام المجدولة - OpenClaw",
+      "url": "https://docs.openclaw.ai/ar/automation/cron-jobs"
     },
     {
-      "type": "CLI Automation - OpenClaw",
-      "url": "https://docs.openclaw.ai/start/wizard-cli-automation"
+      "type": "الأتمتة والمهام - OpenClaw",
+      "url": "https://docs.openclaw.ai/ar/automation"
     },
     {
-      "type": "Deepgram - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/deepgram"
+      "type": "الخطافات - OpenClaw",
+      "url": "https://docs.openclaw.ai/ar/automation/hooks"
     },
     {
-      "type": "vLLM - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/vllm"
+      "type": "توجيه القنوات - OpenClaw",
+      "url": "https://docs.openclaw.ai/ar/channels/channel-routing"
     },
     {
-      "type": "Together - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/together"
+      "type": "Google Chat - OpenClaw",
+      "url": "https://docs.openclaw.ai/ar/channels/googlechat"
     },
     {
-      "type": "Qwen - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/qwen"
+      "type": "Task Flow - OpenClaw",
+      "url": "https://docs.openclaw.ai/ar/automation/taskflow"
     },
     {
-      "type": "Xiaomi MiMo - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/xiaomi"
+      "type": "المهام في الخلفية - OpenClaw",
+      "url": "https://docs.openclaw.ai/ar/automation/tasks"
     },
     {
-      "type": "Cloudflare AI Gateway - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/cloudflare-ai-gateway"
+      "type": "الأوامر الدائمة - OpenClaw",
+      "url": "https://docs.openclaw.ai/ar/automation/standing-orders"
     },
     {
-      "type": "Claude Max API Proxy - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/claude-max-api-proxy"
-    },
-    {
-      "type": "Logging - OpenClaw",
-      "url": "https://docs.openclaw.ai/logging"
-    },
-    {
-      "type": "VPS Hosting - OpenClaw",
-      "url": "https://docs.openclaw.ai/vps"
-    },
-    {
-      "type": "OpenProse - OpenClaw",
-      "url": "https://docs.openclaw.ai/prose"
-    },
-    {
-      "type": "Venice AI - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/venice"
-    },
-    {
-      "type": "Hugging Face (Inference) - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/huggingface"
-    },
-    {
-      "type": "Tlon - OpenClaw",
-      "url": "https://docs.openclaw.ai/channels/tlon"
-    },
-    {
-      "type": "CLI Onboarding Reference - OpenClaw",
-      "url": "https://docs.openclaw.ai/start/wizard-cli-reference"
-    },
-    {
-      "type": "Ollama - OpenClaw",
-      "url": "https://docs.openclaw.ai/providers/ollama"
-    },
-    {
-      "type": "Nostr - OpenClaw",
-      "url": "https://docs.openclaw.ai/channels/nostr"
+      "type": "مجموعات البث - OpenClaw",
+      "url": "https://docs.openclaw.ai/ar/channels/broadcast-groups"
     },
     {
       "type": "BlueBubbles - OpenClaw",
-      "url": "https://docs.openclaw.ai/channels/bluebubbles"
+      "url": "https://docs.openclaw.ai/ar/channels/bluebubbles"
     },
     {
-      "type": "Chat Channels - OpenClaw",
-      "url": "https://docs.openclaw.ai/channels/index"
-    },
-    {
-      "type": "Nextcloud Talk - OpenClaw",
-      "url": "https://docs.openclaw.ai/channels/nextcloud-talk"
-    },
-    {
-      "type": "Twitch - OpenClaw",
-      "url": "https://docs.openclaw.ai/channels/twitch"
-    },
-    {
-      "type": "Plugin Manifest - OpenClaw",
-      "url": "https://docs.openclaw.ai/plugins/manifest"
-    },
-    {
-      "type": "Exec Approvals - OpenClaw",
-      "url": "https://docs.openclaw.ai/tools/exec-approvals"
-    },
-    {
-      "type": "Network - OpenClaw",
-      "url": "https://docs.openclaw.ai/network"
-    },
-    {
-      "type": "config - OpenClaw",
-      "url": "https://docs.openclaw.ai/cli/config"
-    },
-    {
-      "type": "devices - OpenClaw",
-      "url": "https://docs.openclaw.ai/cli/devices"
-    },
-    {
-      "type": "Transcript Hygiene - OpenClaw",
-      "url": "https://docs.openclaw.ai/reference/transcript-hygiene"
-    },
-    {
-      "type": "webhooks - OpenClaw",
-      "url": "https://docs.openclaw.ai/cli/webhooks"
-    },
-    {
-      "type": "acp - OpenClaw",
-      "url": "https://docs.openclaw.ai/cli/acp"
-    },
-    {
-      "type": "node - OpenClaw",
-      "url": "https://docs.openclaw.ai/cli/node"
-    },
-    {
-      "type": "Diagnostics Flags - OpenClaw",
-      "url": "https://docs.openclaw.ai/diagnostics/flags"
-    },
-    {
-      "type": "Oracle Cloud - OpenClaw",
-      "url": "https://docs.openclaw.ai/platforms/oracle"
-    },
-    {
-      "type": "DigitalOcean - OpenClaw",
-      "url": "https://docs.openclaw.ai/platforms/digitalocean"
+      "type": "Feishu - OpenClaw",
+      "url": "https://docs.openclaw.ai/ar/channels/feishu"
     }
   ],
-  "latestVersion": "1.0.10",
+  "latestVersion": "1.0.12",
   "versions": [
     {
-      "version": "1.0.10",
+      "version": "1.0.12",
       "label": "latest",
+      "timestamp": "2026-04-10T11:03:08.422Z",
+      "filename": "documentation_2026-04-10T11:03:08.422Z.md",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "url": "https://docs.openclaw.ai/",
+      "isLatest": true
+    },
+    {
+      "version": "1.0.11",
+      "timestamp": "2026-04-04T19:26:46.396Z",
+      "filename": "documentation_2026-04-04T19:26:46.396Z.md",
+      "totalPages": 85,
+      "successfulPages": 85,
+      "url": "https://docs.openclaw.ai/",
+      "isLatest": false
+    },
+    {
+      "version": "1.0.10",
       "timestamp": "2026-02-13T22:50:46.682Z",
       "filename": "documentation_2026-02-13T22:50:46.682Z.md",
       "totalPages": 36,
       "successfulPages": 36,
       "url": "https://docs.openclaw.ai/",
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "1.0.9",

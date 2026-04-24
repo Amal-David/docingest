@@ -1,78 +1,548 @@
 {
   "url": "https://docs.gitlab.com/404.html",
   "domain": "docs.gitlab.com",
-  "lastScraped": "2025-01-01T22:31:50.335Z",
-  "totalPages": 16,
-  "successfulPages": 16,
+  "lastScraped": "2026-04-13T14:44:04.126Z",
+  "totalPages": 131,
+  "successfulPages": 131,
   "failedPages": [],
   "structure": [
     {
-      "type": "Page Not Found | GitLab Documentation",
-      "url": "https://docs.gitlab.com/404.html"
+      "type": "REST API resources | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/api_resources/"
     },
     {
-      "type": "Vendored GitLab UI CSS utils | GitLab",
-      "url": "https://docs.gitlab.com/assets/stylesheets/legacy-gitlab-ui-utils/README.html"
+      "type": "Cleartext authentication | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_security_testing/checks/cleartext_authentication_check/"
     },
     {
-      "type": "GitLab Docs archives | GitLab",
-      "url": "https://docs.gitlab.com/archives/"
+      "type": "CORS | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_security_testing/checks/cors_check/"
     },
     {
-      "type": "Configure the GitLab chart with external GitLab Pages | GitLab",
-      "url": "https://docs.gitlab.com/charts/advanced/external-gitlab-pages/"
+      "type": "Geo API | GitLab Docs",
+      "url": "https://docs.gitlab.com/development/geo/api/"
     },
     {
-      "type": "Set up standalone PostgreSQL database | GitLab",
-      "url": "https://docs.gitlab.com/charts/advanced/external-db/external-omnibus-psql.html"
+      "type": "Go Proxy API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/packages/go_proxy/"
     },
     {
-      "type": "Workload Identity Federation for GKE using the GitLab chart | GitLab",
-      "url": "https://docs.gitlab.com/charts/advanced/external-object-storage/gke-workload-identity.html"
+      "type": "Google Cloud integration API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/google_cloud_integration/"
     },
     {
-      "type": "Setup standalone Gitaly | GitLab",
-      "url": "https://docs.gitlab.com/charts/advanced/external-gitaly/external-omnibus-gitaly.html"
+      "type": "Framework debug mode | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_security_testing/checks/framework_debug_mode_check/"
     },
     {
-      "type": "Use custom Docker images for the GitLab chart | GitLab",
-      "url": "https://docs.gitlab.com/charts/advanced/custom-images/"
+      "type": "Feature flags API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/features/"
     },
     {
-      "type": "Configure the GitLab chart with an external NGINX Ingress Controller | GitLab",
-      "url": "https://docs.gitlab.com/charts/advanced/external-nginx/"
+      "type": "Flows API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/duo_agent_platform_flows/"
     },
     {
-      "type": "Configure the GitLab chart with an external database | GitLab",
-      "url": "https://docs.gitlab.com/charts/advanced/external-db/"
+      "type": "GitLab To-Do List API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/todos/"
     },
     {
-      "type": "Configure the GitLab chart with Mattermost Team Edition | GitLab",
-      "url": "https://docs.gitlab.com/charts/advanced/external-mattermost/"
+      "type": "GLQL API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/glql/"
     },
     {
-      "type": "Configure the GitLab chart with an external Gitaly | GitLab",
-      "url": "https://docs.gitlab.com/charts/advanced/external-gitaly/"
+      "type": "Geo sites API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/geo_sites/"
     },
     {
-      "type": "Configure the GitLab chart with persistent volumes | GitLab",
-      "url": "https://docs.gitlab.com/charts/advanced/persistent-volumes/"
+      "type": "Geo Nodes API (deprecated) | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/geo_nodes/"
     },
     {
-      "type": "Setup standalone Redis | GitLab",
-      "url": "https://docs.gitlab.com/charts/advanced/external-redis/external-omnibus-redis.html"
+      "type": "GraphQL API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/graphql/"
     },
     {
-      "type": "IAM roles for AWS when using the GitLab chart | GitLab",
-      "url": "https://docs.gitlab.com/charts/advanced/external-object-storage/aws-iam-roles.html"
+      "type": "GraphQL API removed items | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/graphql/removed_items/"
     },
     {
-      "type": "Configure the GitLab chart with multiple external databases | GitLab",
-      "url": "https://docs.gitlab.com/charts/advanced/multiple-databases/"
+      "type": "Group Markdown uploads API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_markdown_uploads/"
+    },
+    {
+      "type": "Group iterations API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_iterations/"
+    },
+    {
+      "type": "Group milestones API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_milestones/"
+    },
+    {
+      "type": "Group labels API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_labels/"
+    },
+    {
+      "type": "Group placeholder reassignments API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_placeholder_reassignments/"
+    },
+    {
+      "type": "Group issue boards API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_boards/"
+    },
+    {
+      "type": "Group SSH certificates API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_ssh_certificates/"
+    },
+    {
+      "type": "Group push rules API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_push_rules/"
+    },
+    {
+      "type": "Heartbleed OpenSSL vulnerability | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_security_testing/checks/heartbleed_open_ssl_check/"
+    },
+    {
+      "type": "Group release API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_releases/"
+    },
+    {
+      "type": "Group security settings API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_security_settings/"
+    },
+    {
+      "type": "Insecure HTTP methods | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_security_testing/checks/insecure_http_methods_check/"
+    },
+    {
+      "type": "Helm API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/packages/helm/"
+    },
+    {
+      "type": "Group relations export API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_relations_export/"
+    },
+    {
+      "type": "Group-level protected branches API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_protected_branches/"
+    },
+    {
+      "type": "Group-level Variables API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_level_variables/"
+    },
+    {
+      "type": "Group wikis API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_wikis/"
+    },
+    {
+      "type": "Group-level protected environments API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_protected_environments/"
+    },
+    {
+      "type": "JSON injection | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_security_testing/checks/json_injection_check/"
+    },
+    {
+      "type": "JSON hijacking | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_security_testing/checks/json_hijacking_check/"
+    },
+    {
+      "type": "Interactive API documentation | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/openapi/openapi_interactive/"
+    },
+    {
+      "type": "Instance clusters API (certificate-based) (deprecated) | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/instance_clusters/"
+    },
+    {
+      "type": "Identify issue boards by using GraphQL | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/graphql/sample_issue_boards/"
+    },
+    {
+      "type": "HTML injection | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_security_testing/checks/html_injection_check/"
+    },
+    {
+      "type": "Issue links API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/issue_links/"
+    },
+    {
+      "type": "LDAP group links | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_ldap_links/"
+    },
+    {
+      "type": "Merge request context commits API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/merge_request_context_commits/"
+    },
+    {
+      "type": "Maven API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/packages/maven/"
+    },
+    {
+      "type": "Merge request approval settings API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/merge_request_approval_settings/"
+    },
+    {
+      "type": "List branch rules for a project by using GraphQL | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/graphql/branch_rules/"
+    },
+    {
+      "type": "Open redirect | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_security_testing/checks/open_redirect_check/"
+    },
+    {
+      "type": "Metadata API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/metadata/"
+    },
+    {
+      "type": "Markdown uploads API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_markdown_uploads/"
+    },
+    {
+      "type": "Offline configuration | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_security_testing/configuration/offline_configuration/"
+    },
+    {
+      "type": "OS command injection | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_security_testing/checks/os_command_injection_check/"
+    },
+    {
+      "type": "Overriding API fuzzing jobs | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_fuzzing/configuration/overriding_analyzer_jobs/"
+    },
+    {
+      "type": "Offline configuration | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_fuzzing/configuration/offline_configuration/"
+    },
+    {
+      "type": "Overriding API security testing jobs | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_security_testing/configuration/overriding_analyzer_jobs/"
+    },
+    {
+      "type": "Model registry API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/model_registry/"
+    },
+    {
+      "type": "Path traversal | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_security_testing/checks/path_traversal_check/"
+    },
+    {
+      "type": "Plan limits API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/plan_limits/"
+    },
+    {
+      "type": "npm API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/packages/npm/"
+    },
+    {
+      "type": "Namespaces API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/namespaces/"
+    },
+    {
+      "type": "Project Aliases API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_aliases/"
+    },
+    {
+      "type": "Pages domains API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/pages_domains/"
+    },
+    {
+      "type": "Performance tuning and testing speed | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_security_testing/performance/"
+    },
+    {
+      "type": "Pipeline trigger tokens API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/pipeline_triggers/"
+    },
+    {
+      "type": "Performance tuning and testing speed | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_fuzzing/performance/"
+    },
+    {
+      "type": "Project access tokens API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_access_tokens/"
+    },
+    {
+      "type": "NuGet API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/packages/nuget/"
+    },
+    {
+      "type": "Product analytics API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/product_analytics/"
+    },
+    {
+      "type": "Project push rules API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_push_rules/"
+    },
+    {
+      "type": "Project iterations API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/iterations/"
+    },
+    {
+      "type": "Groups members API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_members/"
+    },
+    {
+      "type": "Project statistics API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_statistics/"
+    },
+    {
+      "type": "Project milestones API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/milestones/"
+    },
+    {
+      "type": "Project badges API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_badges/"
+    },
+    {
+      "type": "Project-level Secure Files API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/secure_files/"
+    },
+    {
+      "type": "Project-level CI/CD variables API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_level_variables/"
+    },
+    {
+      "type": "Project remote mirrors API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/remote_mirrors/"
+    },
+    {
+      "type": "Project issue boards API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/boards/"
+    },
+    {
+      "type": "Project security settings API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_security_settings/"
+    },
+    {
+      "type": "Project forks API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_forks/"
+    },
+    {
+      "type": "Group repository storage moves API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_repository_storage_moves/"
+    },
+    {
+      "type": "Project clusters API (certificate-based) (deprecated) | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_clusters/"
+    },
+    {
+      "type": "Pipelines API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/pipelines/"
+    },
+    {
+      "type": "Project vulnerabilities API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_vulnerabilities/"
+    },
+    {
+      "type": "REST API third-party clients | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/rest/third_party_clients/"
+    },
+    {
+      "type": "Protected packages API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_packages_protection_rules/"
+    },
+    {
+      "type": "Pull mirroring API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_pull_mirroring/"
+    },
+    {
+      "type": "PyPI API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/packages/pypi/"
+    },
+    {
+      "type": "Ruby gems API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/packages/rubygems/"
+    },
+    {
+      "type": "Group activity analytics API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_activity_analytics/"
+    },
+    {
+      "type": "Project relations export API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_relations_export/"
+    },
+    {
+      "type": "Project labels API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/labels/"
+    },
+    {
+      "type": "Group badges API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_badges/"
+    },
+    {
+      "type": "Group epic boards API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_epic_boards/"
+    },
+    {
+      "type": "Project wikis API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/wikis/"
+    },
+    {
+      "type": "Query users by using GraphQL | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/graphql/users_example/"
+    },
+    {
+      "type": "Group access tokens API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_access_tokens/"
+    },
+    {
+      "type": "OAuth 2.0 identity provider API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/oauth2/"
+    },
+    {
+      "type": "Protected environments API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/protected_environments/"
+    },
+    {
+      "type": "Release links API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/releases/links/"
+    },
+    {
+      "type": "Use custom emoji with GraphQL | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/graphql/custom_emoji/"
+    },
+    {
+      "type": "REST API authentication | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/rest/authentication/"
+    },
+    {
+      "type": "Merge request approvals API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/merge_request_approvals/"
+    },
+    {
+      "type": "Web API fuzz testing | GitLab Docs",
+      "url": "https://docs.gitlab.com/user/application_security/api_fuzzing/"
+    },
+    {
+      "type": "Group clusters API (certificate-based) (deprecated) | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_clusters/"
+    },
+    {
+      "type": "Group enterprise users API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_enterprise_users/"
+    },
+    {
+      "type": "Projects members API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_members/"
+    },
+    {
+      "type": "Project repository storage moves API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_repository_storage_moves/"
+    },
+    {
+      "type": "Group import and export API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_import_export/"
+    },
+    {
+      "type": "SAML API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/saml/"
+    },
+    {
+      "type": "Group webhooks API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_webhooks/"
+    },
+    {
+      "type": "Group and project migration by direct transfer API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/bulk_imports/"
+    },
+    {
+      "type": "Retrieve GitLab Duo and SDLC trend data | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/graphql/duo_and_sdlc_trends/"
+    },
+    {
+      "type": "Migrate epic APIs to work items | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/graphql/epic_work_items_api_migration_guide/"
+    },
+    {
+      "type": "Project starring API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_starring/"
+    },
+    {
+      "type": "Project webhooks API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_webhooks/"
+    },
+    {
+      "type": "Protected branches API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/protected_branches/"
+    },
+    {
+      "type": "Project import and export API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_import_export/"
+    },
+    {
+      "type": "Run GraphQL API queries and mutations | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/graphql/getting_started/"
+    },
+    {
+      "type": "Project release API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/releases/"
+    },
+    {
+      "type": "Project templates API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_templates/"
+    },
+    {
+      "type": "REST API deprecations | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/rest/deprecations/"
+    },
+    {
+      "type": "Protected tags API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/protected_tags/"
+    },
+    {
+      "type": "Project snippets | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_snippets/"
+    },
+    {
+      "type": "Project integrations API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/project_integrations/"
+    },
+    {
+      "type": "Notes API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/notes/"
+    },
+    {
+      "type": "Merge requests API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/merge_requests/"
+    },
+    {
+      "type": "GraphQL examples | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/graphql/examples/"
+    },
+    {
+      "type": "Tags API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/tags/"
+    },
+    {
+      "type": "Snippets API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/snippets/"
+    },
+    {
+      "type": "Snippet repository storage moves API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/snippet_repository_storage_moves/"
+    },
+    {
+      "type": "System hooks API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/system_hooks/"
+    },
+    {
+      "type": "Group integrations API | GitLab Docs",
+      "url": "https://docs.gitlab.com/api/group_integrations/"
     }
   ],
-  "latestVersion": "1.0.0",
+  "latestVersion": "1.0.1",
   "versions": [
+    {
+      "version": "1.0.1",
+      "label": "latest",
+      "timestamp": "2026-04-13T14:44:04.126Z",
+      "filename": "documentation_2026-04-13T14:44:04.126Z.md",
+      "totalPages": 131,
+      "successfulPages": 131,
+      "url": "https://docs.gitlab.com/api/api_resources/",
+      "isLatest": true
+    },
     {
       "version": "1.0.0",
       "timestamp": "2025-01-01T22:31:50.335Z",
@@ -80,8 +550,7 @@
       "totalPages": 16,
       "successfulPages": 16,
       "url": "https://docs.gitlab.com/404.html",
-      "isLatest": true,
-      "label": "latest"
+      "isLatest": false
     }
   ],
   "schemaVersion": 2

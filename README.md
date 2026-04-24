@@ -103,6 +103,7 @@ That means you can treat DocIngest as:
 - 🏃 Runtime: Bun or Node.js
 - 🕸️ Crawling: Firecrawl API
 - 💾 Storage: file-based markdown + metadata
+- ⚡ Search cache: Redis for autocomplete, full-text search, and cached docs
 - 🚢 Production: PM2 + Nginx
 
 ## Quick Start
@@ -112,6 +113,8 @@ That means you can treat DocIngest as:
 - Node.js 18+ or Bun
 - A Firecrawl instance
   Use either the hosted Firecrawl API or a self-hosted Firecrawl deployment.
+- Redis for fast autocomplete/search
+  DocIngest can fall back to filesystem search, but Redis is the recommended path for local and production performance.
 
 ### Install
 
@@ -131,6 +134,8 @@ Create `.env` in the repo root:
 FIRECRAWL_API_KEY=fc-your-api-key-here
 REACT_APP_FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
 REACT_APP_API_URL=http://localhost:8001/api
+REDIS_HOST=localhost
+REDIS_PORT=6380
 ```
 
 If you want to run Firecrawl yourself, point DocIngest at your own Firecrawl base URL instead:
@@ -140,6 +145,8 @@ If you want to run Firecrawl yourself, point DocIngest at your own Firecrawl bas
 FIRECRAWL_API_KEY=your-self-hosted-key
 REACT_APP_FIRECRAWL_API_URL=http://your-firecrawl-host:3002/v1
 REACT_APP_API_URL=http://localhost:8001/api
+REDIS_HOST=localhost
+REDIS_PORT=6380
 ```
 
 Firecrawl’s official self-hosting docs are here:
@@ -149,6 +156,23 @@ Firecrawl’s official self-hosting docs are here:
 - [DocIngest Firecrawl setup guide](./docs/setup/firecrawl.md)
 
 DocIngest only needs the Firecrawl crawl/scrape APIs, so self-hosting is a valid setup if you want more control over data locality or cost. Firecrawl’s official docs note that self-hosted deployments do not support every cloud feature, so check their guide before relying on advanced endpoints.
+
+### Start Redis
+
+For local self-hosting, the included Compose file runs Redis on host port `6380` and stores data in a named Docker volume:
+
+```bash
+docker compose up -d redis
+```
+
+After you have docs in `server/storage/docs`, build the Redis search index:
+
+```bash
+cd server
+npm run build-index
+```
+
+For a remote or separately hosted Redis instance, set `REDIS_HOST`, `REDIS_PORT`, and optionally `REDIS_PASSWORD` for the backend. More details are in [Redis setup](./docs/setup/redis.md).
 
 ### Run
 

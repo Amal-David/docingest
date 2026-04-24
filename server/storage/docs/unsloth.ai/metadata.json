@@ -1,9 +1,9 @@
 {
   "url": "https://unsloth.ai/docs",
   "domain": "unsloth.ai",
-  "lastScraped": "2026-01-08T23:40:30.099Z",
-  "totalPages": 2,
-  "successfulPages": 2,
+  "lastScraped": "2026-04-13T17:04:11.399Z",
+  "totalPages": 58,
+  "successfulPages": 58,
   "failedPages": [],
   "structure": [
     {
@@ -11,12 +11,291 @@
       "url": "https://unsloth.ai/docs"
     },
     {
-      "type": "FAQ + Is Fine-tuning Right For Me? | Unsloth Documentation",
-      "url": "https://unsloth.ai/docs/get-started/fine-tuning-for-beginners/faq-+-is-fine-tuning-right-for-me"
+      "type": "初学者微调 | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/fine-tuning-for-beginners"
+    },
+    {
+      "type": "Unsloth 文档 | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh"
+    },
+    {
+      "type": "FAQ + 微调适合我吗？ | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/fine-tuning-for-beginners/faq-+-is-fine-tuning-right-for-me"
+    },
+    {
+      "type": "Unsloth 需求 | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/fine-tuning-for-beginners/unsloth-requirements"
+    },
+    {
+      "type": "在 MacOS 上安装 Unsloth | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/install/mac"
+    },
+    {
+      "type": "Unsloth 安装 | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/install"
+    },
+    {
+      "type": "通过 pip 和 uv 安装 Unsloth | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/install/pip-install"
+    },
+    {
+      "type": "更新 Unsloth | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/install/updating"
+    },
+    {
+      "type": "使用 Unsloth 在 AMD GPU 上微调 LLM 指南 | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/install/amd"
+    },
+    {
+      "type": "通过 Docker 安装 Unsloth | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/install/docker"
+    },
+    {
+      "type": "我应该用什么模型来微调？ | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/fine-tuning-llms-guide/what-model-should-i-use"
+    },
+    {
+      "type": "如何使用 Unsloth 在 Windows 上微调 LLM（分步指南） | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/install/windows-installation"
+    },
+    {
+      "type": "Unsloth 笔记本 | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/unsloth-notebooks"
+    },
+    {
+      "type": "RL 奖励作弊 | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/reinforcement-learning-rl-guide/advanced-rl-documentation/rl-reward-hacking"
+    },
+    {
+      "type": "GSPO 强化学习 | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/reinforcement-learning-rl-guide/advanced-rl-documentation/gspo-reinforcement-learning"
+    },
+    {
+      "type": "RL 中的 FP16 与 BF16 | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/reinforcement-learning-rl-guide/advanced-rl-documentation/fp16-vs-bf16-for-rl"
+    },
+    {
+      "type": "使用 Unsloth Studio 导出模型 | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/xin/studio/export"
+    },
+    {
+      "type": "使用 Unsloth 在 Intel GPU 上微调 LLM | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/install/intel"
+    },
+    {
+      "type": "视觉强化学习（VLM RL） | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/reinforcement-learning-rl-guide/vision-reinforcement-learning-vlm-rl"
+    },
+    {
+      "type": "如何使用 Unsloth Studio 运行模型 | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/xin/studio/chat"
+    },
+    {
+      "type": "偏好优化训练 - DPO、ORPO 和 KTO | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/reinforcement-learning-rl-guide/preference-dpo-orpo-and-kto"
+    },
+    {
+      "type": "具有 7 倍更长上下文的强化学习 GRPO | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/kai-shi-shi-yong/reinforcement-learning-rl-guide/grpo-long-context"
+    },
+    {
+      "type": "使用 Blackwell、RTX 50 系列和 Unsloth 微调 LLM | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/bo-ke/fine-tuning-llms-with-blackwell-rtx-50-series-and-unsloth"
+    },
+    {
+      "type": "使用 NVIDIA DGX Spark 和 Unsloth 微调 LLM | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/bo-ke/fine-tuning-llms-with-nvidia-dgx-spark-and-unsloth"
+    },
+    {
+      "type": "Blackwell、RTX 50 シリーズと Unsloth を使った LLM のファインチューニング | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/jp/burogu/fine-tuning-llms-with-blackwell-rtx-50-series-and-unsloth"
+    },
+    {
+      "type": "Conda でインストール | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/jp/meru/install/conda-install"
+    },
+    {
+      "type": "Unsloth と Colab GPU を使って VS Code で LLM をファインチューニングする方法 | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/jp/meru/install/vs-code"
+    },
+    {
+      "type": "Unsloth 推論 | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/jp/ji-ben/inference-and-deployment/unsloth-inference"
+    },
+    {
+      "type": "Google Colab | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/jp/meru/install/google-colab"
+    },
+    {
+      "type": "使用 Hugging Face Jobs 部署 LLM | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/zh/ji-chu-zhi-shi/inference-and-deployment/deploying-llms-with-hugging-face-jobs"
+    },
+    {
+      "type": "Text-to-Speech (TTS) Fine-tuning Guide | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/basics/text-to-speech-tts-fine-tuning"
+    },
+    {
+      "type": "Fine-tuning Embedding Models with Unsloth Guide | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/new/embedding-finetuning"
+    },
+    {
+      "type": "Vision Fine-tuning | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/basics/vision-fine-tuning"
+    },
+    {
+      "type": "Fine-tuning for Beginners | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/get-started/fine-tuning-for-beginners"
+    },
+    {
+      "type": "Unsloth Notebooks | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/get-started/unsloth-notebooks"
+    },
+    {
+      "type": "Get started with Unsloth Studio | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/new/studio/start"
+    },
+    {
+      "type": "Unsloth Updates | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/new/changelog"
+    },
+    {
+      "type": "Fine-tuning LLMs Guide | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/get-started/fine-tuning-llms-guide"
+    },
+    {
+      "type": "Reinforcement Learning (RL) Guide | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/get-started/reinforcement-learning-rl-guide"
+    },
+    {
+      "type": "Unsloth Installation | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/get-started/install"
+    },
+    {
+      "type": "Unsloth Environment Flags | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/basics/unsloth-environment-flags"
+    },
+    {
+      "type": "Continued Pretraining | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/basics/continued-pretraining"
+    },
+    {
+      "type": "Multi-GPU Fine-tuning with Unsloth | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/basics/multi-gpu-training-with-unsloth"
+    },
+    {
+      "type": "Finetuning from Last Checkpoint | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/basics/finetuning-from-last-checkpoint"
+    },
+    {
+      "type": "Unsloth Benchmarks | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/basics/unsloth-benchmarks"
+    },
+    {
+      "type": "Quantization-Aware Training (QAT) | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/blog/quantization-aware-training-qat"
+    },
+    {
+      "type": "Fine-tuning LLMs with NVIDIA DGX Spark and Unsloth | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/blog/fine-tuning-llms-with-nvidia-dgx-spark-and-unsloth"
+    },
+    {
+      "type": "Fine-Tuning LLMs on NVIDIA DGX Station with Unsloth | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/blog/dgx-station"
+    },
+    {
+      "type": "Multi-GPU Fine-tuning with Distributed Data Parallel (DDP) | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/basics/multi-gpu-training-with-unsloth/ddp"
+    },
+    {
+      "type": "Fine-tuning LLMs with Blackwell, RTX 50 series & Unsloth | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/blog/fine-tuning-llms-with-blackwell-rtx-50-series-and-unsloth"
+    },
+    {
+      "type": "Unsloth Model Catalog | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/get-started/unsloth-model-catalog"
+    },
+    {
+      "type": "How to Fine-tune LLMs with Unsloth & Docker | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/blog/how-to-fine-tune-llms-with-unsloth-and-docker"
+    },
+    {
+      "type": "Chat Templates | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/basics/chat-templates"
+    },
+    {
+      "type": "Export models with Unsloth Studio | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/new/studio/export"
+    },
+    {
+      "type": "How to Run Local LLMs with OpenAI Codex | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/basics/codex"
+    },
+    {
+      "type": "500K Context Length Fine-tuning | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/blog/500k-context-length-fine-tuning"
+    },
+    {
+      "type": "MiniMax-M2.7 - How to Run Locally | Unsloth Documentation",
+      "url": "https://unsloth.ai/docs/models/minimax-m27"
     }
   ],
-  "latestVersion": "1.0.0",
+  "latestVersion": "1.0.6",
   "versions": [
+    {
+      "version": "1.0.6",
+      "label": "latest",
+      "timestamp": "2026-04-13T17:04:11.399Z",
+      "filename": "documentation_2026-04-13T17:04:11.399Z.md",
+      "totalPages": 58,
+      "successfulPages": 58,
+      "url": "https://unsloth.ai/docs",
+      "isLatest": true
+    },
+    {
+      "version": "1.0.5",
+      "timestamp": "2026-04-13T16:57:05.126Z",
+      "filename": "documentation_2026-04-13T16:57:05.126Z.md",
+      "totalPages": 41,
+      "successfulPages": 41,
+      "url": "https://unsloth.ai/docs",
+      "isLatest": false
+    },
+    {
+      "version": "1.0.4",
+      "timestamp": "2026-04-13T16:51:27.965Z",
+      "filename": "documentation_2026-04-13T16:51:27.965Z.md",
+      "totalPages": 47,
+      "successfulPages": 47,
+      "url": "https://unsloth.ai/docs/de",
+      "isLatest": false
+    },
+    {
+      "version": "1.0.3",
+      "timestamp": "2026-04-13T16:39:38.386Z",
+      "filename": "documentation_2026-04-13T16:39:38.386Z.md",
+      "totalPages": 29,
+      "successfulPages": 29,
+      "url": "https://unsloth.ai/docs",
+      "isLatest": false
+    },
+    {
+      "version": "1.0.2",
+      "timestamp": "2026-04-13T15:37:31.355Z",
+      "filename": "documentation_2026-04-13T15:37:31.355Z.md",
+      "totalPages": 38,
+      "successfulPages": 38,
+      "url": "https://unsloth.ai/docs",
+      "isLatest": false
+    },
+    {
+      "version": "1.0.1",
+      "timestamp": "2026-03-19T15:28:24.850Z",
+      "filename": "documentation_2026-03-19T15:28:24.850Z.md",
+      "totalPages": 91,
+      "successfulPages": 91,
+      "url": "https://unsloth.ai/about",
+      "isLatest": false
+    },
     {
       "version": "1.0.0",
       "timestamp": "2026-01-08T23:40:30.099Z",
@@ -24,8 +303,7 @@
       "totalPages": 2,
       "successfulPages": 2,
       "url": "https://unsloth.ai/docs",
-      "isLatest": true,
-      "label": "latest"
+      "isLatest": false
     }
   ],
   "schemaVersion": 2

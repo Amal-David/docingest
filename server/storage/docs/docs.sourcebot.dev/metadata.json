@@ -1,66 +1,110 @@
 {
   "url": "https://docs.sourcebot.dev/docs/configuration/audit-logs",
   "domain": "docs.sourcebot.dev",
-  "lastScraped": "2026-02-21T00:32:38.972Z",
-  "totalPages": 42,
-  "successfulPages": 42,
+  "lastScraped": "2026-04-23T05:47:53.363Z",
+  "totalPages": 51,
+  "successfulPages": 51,
   "failedPages": [],
   "structure": [
     {
-      "type": "Audit Logs - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/configuration/audit-logs"
-    },
-    {
-      "type": "Access Settings - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/configuration/auth/access-settings"
-    },
-    {
-      "type": "Transactional Email - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/configuration/transactional-emails"
+      "type": "Overview - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/overview"
     },
     {
       "type": "Linking code from Azure Devops Cloud - Sourcebot",
       "url": "https://docs.sourcebot.dev/docs/connections/ado-cloud"
     },
     {
-      "type": "Providers - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/configuration/auth/providers"
+      "type": "Linking code from Azure Devops Server - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/connections/ado-server"
     },
     {
-      "type": "V2 to V3 Guide - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/upgrade/v2-to-v3-guide"
+      "type": "Linking code from Bitbucket Cloud - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/connections/bitbucket-cloud"
     },
     {
-      "type": "Structured Logging - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/configuration/structured-logging"
-    },
-    {
-      "type": "Analytics - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/features/analytics"
-    },
-    {
-      "type": "Sourcebot MCP server (@sourcebot/mcp) - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/features/mcp-server"
-    },
-    {
-      "type": "Permission syncing - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/features/permission-syncing"
-    },
-    {
-      "type": "V3 to V4 Guide - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/upgrade/v3-to-v4-guide"
+      "type": "Authentication - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/api-reference/authentication"
     },
     {
       "type": "Agents Overview - Sourcebot",
       "url": "https://docs.sourcebot.dev/docs/features/agents/overview"
     },
     {
+      "type": "Docker Compose - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/deployment/docker-compose"
+    },
+    {
+      "type": "Chat Sharing - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/features/ask/chat-sharing"
+    },
+    {
+      "type": "Other Git hosts - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/connections/generic-git-host"
+    },
+    {
+      "type": "Linking code from Bitbucket Data Center - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/connections/bitbucket-data-center"
+    },
+    {
+      "type": "Linking code from GitHub - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/connections/github"
+    },
+    {
+      "type": "Redis - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/deployment/infrastructure/redis"
+    },
+    {
+      "type": "Linking code from Gerrit - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/connections/gerrit"
+    },
+    {
+      "type": "Linking code from Gitea - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/connections/gitea"
+    },
+    {
+      "type": "Linking code from GitLab - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/connections/gitlab"
+    },
+    {
       "type": "AI Code Review Agent - Sourcebot",
       "url": "https://docs.sourcebot.dev/docs/features/agents/review-agent"
     },
     {
-      "type": "Writing search queries - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/features/search/syntax-reference"
+      "type": "V2 to V3 Guide - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/upgrade/v2-to-v3-guide"
+    },
+    {
+      "type": "Audit Logs - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/configuration/audit-logs"
+    },
+    {
+      "type": "Structured Logging - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/configuration/structured-logging"
+    },
+    {
+      "type": "V3 to V4 Guide - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/upgrade/v3-to-v4-guide"
+    },
+    {
+      "type": "Transactional Email - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/configuration/transactional-emails"
+    },
+    {
+      "type": "Sourcebot MCP server - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/features/mcp-server"
+    },
+    {
+      "type": "Overview - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/features/ask/overview"
+    },
+    {
+      "type": "Config File - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/configuration/config-file"
+    },
+    {
+      "type": "Access Settings - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/configuration/auth/access-settings"
     },
     {
       "type": "FAQ - Sourcebot",
@@ -71,12 +115,24 @@
       "url": "https://docs.sourcebot.dev/docs/configuration/auth/overview"
     },
     {
-      "type": "Code navigation - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/features/code-navigation"
+      "type": "Writing search queries - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/features/search/syntax-reference"
+    },
+    {
+      "type": "Providers - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/configuration/auth/providers"
     },
     {
       "type": "Roles and Permissions - Sourcebot",
       "url": "https://docs.sourcebot.dev/docs/configuration/auth/roles-and-permissions"
+    },
+    {
+      "type": "Sizing Guide - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/deployment/sizing-guide"
+    },
+    {
+      "type": "Permission syncing - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/features/permission-syncing"
     },
     {
       "type": "Searching multiple branches and tags - Sourcebot",
@@ -91,64 +147,32 @@
       "url": "https://docs.sourcebot.dev/docs/features/search/search-contexts"
     },
     {
-      "type": "Docker Compose - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/deployment/docker-compose"
-    },
-    {
-      "type": "Overview - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/features/ask/overview"
-    },
-    {
       "type": "External Identity Providers - Sourcebot",
       "url": "https://docs.sourcebot.dev/docs/configuration/idp"
-    },
-    {
-      "type": "Overview - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/features/search/overview"
-    },
-    {
-      "type": "Chat Sharing - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/features/ask/chat-sharing"
     },
     {
       "type": "Environment variables - Sourcebot",
       "url": "https://docs.sourcebot.dev/docs/configuration/environment-variables"
     },
     {
-      "type": "Config File - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/configuration/config-file"
+      "type": "Local Git repositories - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/connections/local-repos"
     },
     {
-      "type": "Other Git hosts - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/connections/generic-git-host"
+      "type": "Analytics - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/features/analytics"
     },
     {
-      "type": "Linking code from Azure Devops Server - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/connections/ado-server"
+      "type": "AI Search Assist - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/features/search/ai-search-assist"
     },
     {
-      "type": "Linking code from Bitbucket Cloud - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/connections/bitbucket-cloud"
+      "type": "Code navigation - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/features/code-navigation"
     },
     {
-      "type": "Linking code from Bitbucket Data Center - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/connections/bitbucket-data-center"
-    },
-    {
-      "type": "Linking code from Gerrit - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/connections/gerrit"
-    },
-    {
-      "type": "Linking code from Gitea - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/connections/gitea"
-    },
-    {
-      "type": "Linking code from GitHub - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/connections/github"
-    },
-    {
-      "type": "Linking code from GitLab - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/connections/gitlab"
+      "type": "Overview - Sourcebot",
+      "url": "https://docs.sourcebot.dev/docs/features/search/overview"
     },
     {
       "type": "Language Model Providers - Sourcebot",
@@ -156,36 +180,57 @@
     },
     {
       "type": "Overview - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/"
-    },
-    {
-      "type": "Overview - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/overview"
-    },
-    {
-      "type": "Local Git repositories - Sourcebot",
-      "url": "https://docs.sourcebot.dev/docs/connections/local-repos"
-    },
-    {
-      "type": "Overview - Sourcebot",
       "url": "https://docs.sourcebot.dev/docs/connections/overview"
     },
     {
-      "type": "Configuring Sourcebot from a file (declarative config) - Sourcebot",
+      "type": "Vercel Security Checkpoint",
+      "url": "https://docs.sourcebot.dev/docs/features/ask"
+    },
+    {
+      "type": "Vercel Security Checkpoint",
+      "url": "https://docs.sourcebot.dev/docs/deployment/k8s"
+    },
+    {
+      "type": "Vercel Security Checkpoint",
+      "url": "https://docs.sourcebot.dev/docs/deployment/infrastructure/architecture"
+    },
+    {
+      "type": "Vercel Security Checkpoint",
+      "url": "https://docs.sourcebot.dev/docs/features/ask/add-model-providers"
+    },
+    {
+      "type": "Vercel Security Checkpoint",
+      "url": "https://docs.sourcebot.dev/docs/configuration/auth"
+    },
+    {
+      "type": "Vercel Security Checkpoint",
       "url": "https://docs.sourcebot.dev/docs/configuration/declarative-config"
+    },
+    {
+      "type": "Vercel Security Checkpoint",
+      "url": "https://docs.sourcebot.dev/docs/connections/request-new"
     }
   ],
-  "latestVersion": "1.0.0",
+  "latestVersion": "1.0.1",
   "versions": [
     {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "label": "latest",
+      "timestamp": "2026-04-23T05:47:53.363Z",
+      "filename": "documentation_2026-04-23T05:47:53.363Z.md",
+      "totalPages": 51,
+      "successfulPages": 51,
+      "url": "https://docs.sourcebot.dev/docs/overview",
+      "isLatest": true
+    },
+    {
+      "version": "1.0.0",
       "timestamp": "2026-02-21T00:32:38.972Z",
       "filename": "documentation_2026-02-21T00:32:38.972Z.md",
       "totalPages": 42,
       "successfulPages": 42,
       "url": "https://docs.sourcebot.dev/docs/configuration/audit-logs",
-      "isLatest": true
+      "isLatest": false
     }
   ],
   "schemaVersion": 2

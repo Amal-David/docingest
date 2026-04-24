@@ -25,6 +25,18 @@ DOCINGEST_TIMEOUT_MS=10000
 DOCINGEST_CACHE_TTL_MS=300000
 ```
 
+## Redis Fast Path
+
+Redis is the recommended self-hosted search/cache layer. The included `docker-compose.yml` runs Redis locally on host port `6380`:
+
+```bash
+docker compose up -d redis
+cd server
+npm run build-index
+```
+
+Use `REDIS_HOST`, `REDIS_PORT`, and optionally `REDIS_PASSWORD` to point the backend at local, remote, or production Redis. See [Redis setup](./setup/redis.md) for the full guide.
+
 ## High-Impact Next Wins
 
 - Keep Redis enabled in production and rebuild the search index after new crawls with `npm run build-index` from `server/`.

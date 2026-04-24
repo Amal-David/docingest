@@ -1,18 +1,14 @@
 {
   "url": "https://shopify.dev/docs/apps/build/devmcp",
   "domain": "shopify.dev",
-  "lastScraped": "2026-02-06T10:46:26.104Z",
-  "totalPages": 106,
-  "successfulPages": 106,
+  "lastScraped": "2026-03-23T00:48:54.740Z",
+  "totalPages": 107,
+  "successfulPages": 107,
   "failedPages": [],
   "structure": [
     {
       "type": "Liquid reference",
       "url": "https://shopify.dev/docs/api/liquid"
-    },
-    {
-      "type": "Liquid basics",
-      "url": "https://shopify.dev/docs/api/liquid/basics"
     },
     {
       "type": "Liquid tags: capture",
@@ -27,64 +23,40 @@
       "url": "https://shopify.dev/docs/api/liquid/tags/liquid"
     },
     {
-      "type": "Liquid objects: articles",
-      "url": "https://shopify.dev/docs/api/liquid/objects/articles"
-    },
-    {
-      "type": "Liquid objects: blog",
-      "url": "https://shopify.dev/docs/api/liquid/objects/blog"
-    },
-    {
-      "type": "Liquid objects: article",
-      "url": "https://shopify.dev/docs/api/liquid/objects/article"
+      "type": "Liquid basics",
+      "url": "https://shopify.dev/docs/api/liquid/basics"
     },
     {
       "type": "Liquid objects: product",
       "url": "https://shopify.dev/docs/api/liquid/objects/product"
     },
     {
+      "type": "Liquid objects: articles",
+      "url": "https://shopify.dev/docs/api/liquid/objects/articles"
+    },
+    {
+      "type": "Liquid objects: article",
+      "url": "https://shopify.dev/docs/api/liquid/objects/article"
+    },
+    {
+      "type": "Liquid objects: blog",
+      "url": "https://shopify.dev/docs/api/liquid/objects/blog"
+    },
+    {
       "type": "Liquid tags: case",
       "url": "https://shopify.dev/docs/api/liquid/tags/case"
-    },
-    {
-      "type": "Liquid tags: if",
-      "url": "https://shopify.dev/docs/api/liquid/tags/if"
-    },
-    {
-      "type": "Liquid tags: unless",
-      "url": "https://shopify.dev/docs/api/liquid/tags/unless"
-    },
-    {
-      "type": "Liquid tags: else",
-      "url": "https://shopify.dev/docs/api/liquid/tags/conditional-else"
-    },
-    {
-      "type": "Liquid tags: tablerow",
-      "url": "https://shopify.dev/docs/api/liquid/tags/tablerow"
-    },
-    {
-      "type": "Liquid tags: for",
-      "url": "https://shopify.dev/docs/api/liquid/tags/for"
-    },
-    {
-      "type": "Liquid tags: comment",
-      "url": "https://shopify.dev/docs/api/liquid/tags/comment"
     },
     {
       "type": "Liquid objects: additional_checkout_buttons",
       "url": "https://shopify.dev/docs/api/liquid/objects/additional_checkout_buttons"
     },
     {
-      "type": "Liquid objects: all_country_option_tags",
-      "url": "https://shopify.dev/docs/api/liquid/objects/all_country_option_tags"
+      "type": "Liquid objects: taxonomy_category",
+      "url": "https://shopify.dev/docs/api/liquid/objects/taxonomy_category"
     },
     {
-      "type": "Liquid objects: all_products",
-      "url": "https://shopify.dev/docs/api/liquid/objects/all_products"
-    },
-    {
-      "type": "Liquid objects: app",
-      "url": "https://shopify.dev/docs/api/liquid/objects/app"
+      "type": "Liquid tags: comment",
+      "url": "https://shopify.dev/docs/api/liquid/tags/comment"
     },
     {
       "type": "Liquid tags: decrement",
@@ -95,156 +67,116 @@
       "url": "https://shopify.dev/docs/api/liquid/tags/doc"
     },
     {
-      "type": "Liquid objects: block",
-      "url": "https://shopify.dev/docs/api/liquid/objects/block"
+      "type": "Liquid objects: all_country_option_tags",
+      "url": "https://shopify.dev/docs/api/liquid/objects/all_country_option_tags"
+    },
+    {
+      "type": "Liquid objects: app",
+      "url": "https://shopify.dev/docs/api/liquid/objects/app"
     },
     {
       "type": "Liquid tags: increment",
       "url": "https://shopify.dev/docs/api/liquid/tags/increment"
     },
     {
-      "type": "Liquid tags: raw",
-      "url": "https://shopify.dev/docs/api/liquid/tags/raw"
-    },
-    {
-      "type": "Liquid tags: echo",
-      "url": "https://shopify.dev/docs/api/liquid/tags/echo"
-    },
-    {
-      "type": "Liquid objects: brand",
-      "url": "https://shopify.dev/docs/api/liquid/objects/brand"
+      "type": "Liquid tags: else",
+      "url": "https://shopify.dev/docs/api/liquid/tags/conditional-else"
     },
     {
       "type": "Liquid objects: address",
       "url": "https://shopify.dev/docs/api/liquid/objects/address"
     },
     {
-      "type": "Liquid objects: canonical_url",
-      "url": "https://shopify.dev/docs/api/liquid/objects/canonical_url"
+      "type": "Liquid tags: echo",
+      "url": "https://shopify.dev/docs/api/liquid/tags/echo"
     },
     {
       "type": "Liquid objects: blogs",
       "url": "https://shopify.dev/docs/api/liquid/objects/blogs"
     },
     {
+      "type": "Liquid tags: raw",
+      "url": "https://shopify.dev/docs/api/liquid/tags/raw"
+    },
+    {
+      "type": "Liquid filters: money",
+      "url": "https://shopify.dev/docs/api/liquid/filters/money-filters"
+    },
+    {
+      "type": "Liquid objects: canonical_url",
+      "url": "https://shopify.dev/docs/api/liquid/objects/canonical_url"
+    },
+    {
+      "type": "Liquid tags: if",
+      "url": "https://shopify.dev/docs/api/liquid/tags/if"
+    },
+    {
+      "type": "Liquid objects: block",
+      "url": "https://shopify.dev/docs/api/liquid/objects/block"
+    },
+    {
       "type": "Liquid objects: brand_color",
       "url": "https://shopify.dev/docs/api/liquid/objects/brand_color"
     },
     {
-      "type": "Liquid objects: color_scheme_group",
-      "url": "https://shopify.dev/docs/api/liquid/objects/color_scheme_group"
+      "type": "Liquid objects: all_products",
+      "url": "https://shopify.dev/docs/api/liquid/objects/all_products"
     },
     {
-      "type": "Liquid objects: comment",
-      "url": "https://shopify.dev/docs/api/liquid/objects/comment"
-    },
-    {
-      "type": "Liquid objects: collections",
-      "url": "https://shopify.dev/docs/api/liquid/objects/collections"
-    },
-    {
-      "type": "Liquid objects: color_scheme",
-      "url": "https://shopify.dev/docs/api/liquid/objects/color_scheme"
-    },
-    {
-      "type": "Liquid objects: content_for_additional_checkout_buttons",
-      "url": "https://shopify.dev/docs/api/liquid/objects/content_for_additional_checkout_buttons"
-    },
-    {
-      "type": "Liquid objects: company_address",
-      "url": "https://shopify.dev/docs/api/liquid/objects/company_address"
-    },
-    {
-      "type": "Liquid objects: content_for_index",
-      "url": "https://shopify.dev/docs/api/liquid/objects/content_for_index"
-    },
-    {
-      "type": "Liquid objects: currency",
-      "url": "https://shopify.dev/docs/api/liquid/objects/currency"
+      "type": "Liquid tags: unless",
+      "url": "https://shopify.dev/docs/api/liquid/tags/unless"
     },
     {
       "type": "Liquid objects: content_for_header",
       "url": "https://shopify.dev/docs/api/liquid/objects/content_for_header"
     },
     {
-      "type": "Liquid objects: company",
-      "url": "https://shopify.dev/docs/api/liquid/objects/company"
+      "type": "Liquid objects: company_address",
+      "url": "https://shopify.dev/docs/api/liquid/objects/company_address"
+    },
+    {
+      "type": "Liquid objects: collections",
+      "url": "https://shopify.dev/docs/api/liquid/objects/collections"
+    },
+    {
+      "type": "Liquid objects: comment",
+      "url": "https://shopify.dev/docs/api/liquid/objects/comment"
+    },
+    {
+      "type": "Liquid objects: brand",
+      "url": "https://shopify.dev/docs/api/liquid/objects/brand"
+    },
+    {
+      "type": "Liquid filters: size",
+      "url": "https://shopify.dev/docs/api/liquid/filters/size"
     },
     {
       "type": "Liquid objects: closest",
       "url": "https://shopify.dev/docs/api/liquid/objects/closest"
     },
     {
-      "type": "Liquid objects: country_option_tags",
-      "url": "https://shopify.dev/docs/api/liquid/objects/country_option_tags"
+      "type": "Liquid filters: date",
+      "url": "https://shopify.dev/docs/api/liquid/filters/date"
     },
     {
-      "type": "Liquid objects: customer_payment_method",
-      "url": "https://shopify.dev/docs/api/liquid/objects/customer_payment_method"
+      "type": "Liquid objects: product_option",
+      "url": "https://shopify.dev/docs/api/liquid/objects/product_option"
     },
     {
-      "type": "Liquid objects: content_for_layout",
-      "url": "https://shopify.dev/docs/api/liquid/objects/content_for_layout"
+      "type": "Liquid objects: color_scheme_group",
+      "url": "https://shopify.dev/docs/api/liquid/objects/color_scheme_group"
     },
     {
-      "type": "Liquid objects: color",
-      "url": "https://shopify.dev/docs/api/liquid/objects/color"
+      "type": "Liquid tags: for",
+      "url": "https://shopify.dev/docs/api/liquid/tags/for"
     },
     {
-      "type": "Liquid objects: current_page",
-      "url": "https://shopify.dev/docs/api/liquid/objects/current_page"
+      "type": "Liquid objects: media",
+      "url": "https://shopify.dev/docs/api/liquid/objects/media"
     },
     {
-      "type": "Liquid objects: current_tags",
-      "url": "https://shopify.dev/docs/api/liquid/objects/current_tags"
-    },
-    {
-      "type": "Liquid objects: company_location",
-      "url": "https://shopify.dev/docs/api/liquid/objects/company_location"
-    },
-    {
-      "type": "Liquid objects: filter",
-      "url": "https://shopify.dev/docs/api/liquid/objects/filter"
-    },
-    {
-      "type": "Liquid objects: discount_allocation",
-      "url": "https://shopify.dev/docs/api/liquid/objects/discount_allocation"
-    },
-    {
-      "type": "Liquid objects: discount_application",
-      "url": "https://shopify.dev/docs/api/liquid/objects/discount_application"
-    },
-    {
-      "type": "Liquid objects: handle",
-      "url": "https://shopify.dev/docs/api/liquid/objects/handle"
-    },
-    {
-      "type": "Liquid objects: discount",
-      "url": "https://shopify.dev/docs/api/liquid/objects/discount"
-    },
-    {
-      "type": "Liquid objects: filter_value_display",
-      "url": "https://shopify.dev/docs/api/liquid/objects/filter_value_display"
-    },
-    {
-      "type": "Liquid objects: generic_file",
-      "url": "https://shopify.dev/docs/api/liquid/objects/generic_file"
-    },
-    {
-      "type": "Liquid objects: fulfillment",
-      "url": "https://shopify.dev/docs/api/liquid/objects/fulfillment"
-    },
-    {
-      "type": "Liquid objects: country",
-      "url": "https://shopify.dev/docs/api/liquid/objects/country"
-    },
-    {
-      "type": "Liquid objects: forloop",
-      "url": "https://shopify.dev/docs/api/liquid/objects/forloop"
-    },
-    {
-      "type": "Liquid objects: group",
-      "url": "https://shopify.dev/docs/api/liquid/objects/group"
+      "type": "Liquid tags: tablerow",
+      "url": "https://shopify.dev/docs/api/liquid/tags/tablerow"
     },
     {
       "type": "Liquid objects: cart",
@@ -255,36 +187,100 @@
       "url": "https://shopify.dev/docs/api/liquid/objects/checkout"
     },
     {
-      "type": "Liquid objects: filter_value",
-      "url": "https://shopify.dev/docs/api/liquid/objects/filter_value"
+      "type": "Liquid objects: selling_plan_allocation",
+      "url": "https://shopify.dev/docs/api/liquid/objects/selling_plan_allocation"
+    },
+    {
+      "type": "Liquid objects: currency",
+      "url": "https://shopify.dev/docs/api/liquid/objects/currency"
+    },
+    {
+      "type": "Liquid objects: company_location",
+      "url": "https://shopify.dev/docs/api/liquid/objects/company_location"
+    },
+    {
+      "type": "Liquid objects: color",
+      "url": "https://shopify.dev/docs/api/liquid/objects/color"
+    },
+    {
+      "type": "Liquid objects: image",
+      "url": "https://shopify.dev/docs/api/liquid/objects/image"
+    },
+    {
+      "type": "Liquid objects: customer_payment_method",
+      "url": "https://shopify.dev/docs/api/liquid/objects/customer_payment_method"
+    },
+    {
+      "type": "Liquid objects: current_tags",
+      "url": "https://shopify.dev/docs/api/liquid/objects/current_tags"
+    },
+    {
+      "type": "Liquid objects: content_for_index",
+      "url": "https://shopify.dev/docs/api/liquid/objects/content_for_index"
+    },
+    {
+      "type": "Liquid objects: content_for_layout",
+      "url": "https://shopify.dev/docs/api/liquid/objects/content_for_layout"
+    },
+    {
+      "type": "Liquid objects: color_scheme",
+      "url": "https://shopify.dev/docs/api/liquid/objects/color_scheme"
+    },
+    {
+      "type": "Liquid objects: current_page",
+      "url": "https://shopify.dev/docs/api/liquid/objects/current_page"
+    },
+    {
+      "type": "Liquid objects: handle",
+      "url": "https://shopify.dev/docs/api/liquid/objects/handle"
+    },
+    {
+      "type": "Liquid objects: collection",
+      "url": "https://shopify.dev/docs/api/liquid/objects/collection"
+    },
+    {
+      "type": "Liquid objects: content_for_additional_checkout_buttons",
+      "url": "https://shopify.dev/docs/api/liquid/objects/content_for_additional_checkout_buttons"
+    },
+    {
+      "type": "Liquid objects: discount_application",
+      "url": "https://shopify.dev/docs/api/liquid/objects/discount_application"
+    },
+    {
+      "type": "Liquid objects: instructions",
+      "url": "https://shopify.dev/docs/api/liquid/objects/instructions"
+    },
+    {
+      "type": "Liquid objects: page_image",
+      "url": "https://shopify.dev/docs/api/liquid/objects/page_image"
+    },
+    {
+      "type": "Liquid objects: page_description",
+      "url": "https://shopify.dev/docs/api/liquid/objects/page_description"
+    },
+    {
+      "type": "Liquid objects: page_title",
+      "url": "https://shopify.dev/docs/api/liquid/objects/page_title"
     },
     {
       "type": "Liquid objects: focal_point",
       "url": "https://shopify.dev/docs/api/liquid/objects/focal_point"
     },
     {
-      "type": "Liquid objects: form_errors",
-      "url": "https://shopify.dev/docs/api/liquid/objects/form_errors"
+      "type": "Liquid objects: filter",
+      "url": "https://shopify.dev/docs/api/liquid/objects/filter"
     },
     {
-      "type": "Liquid objects: gift_card",
-      "url": "https://shopify.dev/docs/api/liquid/objects/gift_card"
+      "type": "Liquid objects: country_option_tags",
+      "url": "https://shopify.dev/docs/api/liquid/objects/country_option_tags"
     },
     {
       "type": "Liquid objects: image_presentation",
       "url": "https://shopify.dev/docs/api/liquid/objects/image_presentation"
     },
     {
-      "type": "Liquid objects: form",
-      "url": "https://shopify.dev/docs/api/liquid/objects/form"
-    },
-    {
-      "type": "Liquid objects: images",
-      "url": "https://shopify.dev/docs/api/liquid/objects/images"
-    },
-    {
-      "type": "Liquid objects: linklist",
-      "url": "https://shopify.dev/docs/api/liquid/objects/linklist"
+      "type": "Liquid objects: pending_payment_instruction_input",
+      "url": "https://shopify.dev/docs/api/liquid/objects/pending_payment_instruction_input"
     },
     {
       "type": "Liquid objects: linklists",
@@ -295,68 +291,76 @@
       "url": "https://shopify.dev/docs/api/liquid/objects/metaobject_system"
     },
     {
-      "type": "Liquid objects: instructions",
-      "url": "https://shopify.dev/docs/api/liquid/objects/instructions"
-    },
-    {
       "type": "Liquid objects: measurement",
       "url": "https://shopify.dev/docs/api/liquid/objects/measurement"
     },
     {
-      "type": "Liquid objects: market",
-      "url": "https://shopify.dev/docs/api/liquid/objects/market"
+      "type": "Liquid objects: discount_allocation",
+      "url": "https://shopify.dev/docs/api/liquid/objects/discount_allocation"
     },
     {
-      "type": "Liquid objects: model_source",
-      "url": "https://shopify.dev/docs/api/liquid/objects/model_source"
+      "type": "Liquid objects: form_errors",
+      "url": "https://shopify.dev/docs/api/liquid/objects/form_errors"
     },
     {
       "type": "Liquid objects: metaobjects",
       "url": "https://shopify.dev/docs/api/liquid/objects/metaobjects"
     },
     {
-      "type": "Liquid objects: page_description",
-      "url": "https://shopify.dev/docs/api/liquid/objects/page_description"
+      "type": "Liquid objects: filter_value_display",
+      "url": "https://shopify.dev/docs/api/liquid/objects/filter_value_display"
     },
     {
-      "type": "Liquid objects: page_image",
-      "url": "https://shopify.dev/docs/api/liquid/objects/page_image"
-    },
-    {
-      "type": "Liquid objects: pending_payment_instruction_input",
-      "url": "https://shopify.dev/docs/api/liquid/objects/pending_payment_instruction_input"
-    },
-    {
-      "type": "Liquid objects: page_title",
-      "url": "https://shopify.dev/docs/api/liquid/objects/page_title"
+      "type": "Liquid objects: images",
+      "url": "https://shopify.dev/docs/api/liquid/objects/images"
     },
     {
       "type": "Liquid objects: policy",
       "url": "https://shopify.dev/docs/api/liquid/objects/policy"
     },
     {
-      "type": "Liquid objects: powered_by_link",
-      "url": "https://shopify.dev/docs/api/liquid/objects/powered_by_link"
+      "type": "Liquid objects: selling_plan",
+      "url": "https://shopify.dev/docs/api/liquid/objects/selling_plan"
     },
     {
-      "type": "Liquid objects: collection",
-      "url": "https://shopify.dev/docs/api/liquid/objects/collection"
+      "type": "Liquid objects: model_source",
+      "url": "https://shopify.dev/docs/api/liquid/objects/model_source"
     },
     {
-      "type": "Liquid objects: metaobject_definition",
-      "url": "https://shopify.dev/docs/api/liquid/objects/metaobject_definition"
+      "type": "Liquid objects: generic_file",
+      "url": "https://shopify.dev/docs/api/liquid/objects/generic_file"
     },
     {
-      "type": "Liquid objects: recipient",
-      "url": "https://shopify.dev/docs/api/liquid/objects/recipient"
+      "type": "Liquid objects: company",
+      "url": "https://shopify.dev/docs/api/liquid/objects/company"
+    },
+    {
+      "type": "Liquid objects: forloop",
+      "url": "https://shopify.dev/docs/api/liquid/objects/forloop"
+    },
+    {
+      "type": "Liquid objects: fulfillment",
+      "url": "https://shopify.dev/docs/api/liquid/objects/fulfillment"
+    },
+    {
+      "type": "Liquid objects: selling_plan_group",
+      "url": "https://shopify.dev/docs/api/liquid/objects/selling_plan_group"
+    },
+    {
+      "type": "Liquid objects: discount",
+      "url": "https://shopify.dev/docs/api/liquid/objects/discount"
+    },
+    {
+      "type": "Liquid objects: linklist",
+      "url": "https://shopify.dev/docs/api/liquid/objects/linklist"
     },
     {
       "type": "Liquid objects: rating",
       "url": "https://shopify.dev/docs/api/liquid/objects/rating"
     },
     {
-      "type": "Liquid objects: script",
-      "url": "https://shopify.dev/docs/api/liquid/objects/script"
+      "type": "Liquid objects: powered_by_link",
+      "url": "https://shopify.dev/docs/api/liquid/objects/powered_by_link"
     },
     {
       "type": "Liquid objects: rule",
@@ -367,48 +371,40 @@
       "url": "https://shopify.dev/docs/api/liquid/objects/location"
     },
     {
-      "type": "Liquid objects: localization",
-      "url": "https://shopify.dev/docs/api/liquid/objects/localization"
+      "type": "Liquid filters: external_video_tag",
+      "url": "https://shopify.dev/docs/api/liquid/filters/media-filters"
     },
     {
-      "type": "Liquid objects: money",
-      "url": "https://shopify.dev/docs/api/liquid/objects/money"
+      "type": "Liquid objects: market",
+      "url": "https://shopify.dev/docs/api/liquid/objects/market"
     },
     {
       "type": "Liquid objects: parent_relationship",
       "url": "https://shopify.dev/docs/api/liquid/objects/parent_relationship"
     },
     {
-      "type": "Liquid objects: product_option",
-      "url": "https://shopify.dev/docs/api/liquid/objects/product_option"
+      "type": "Liquid objects: recipient",
+      "url": "https://shopify.dev/docs/api/liquid/objects/recipient"
     },
     {
-      "type": "Liquid objects: quantity_rule",
-      "url": "https://shopify.dev/docs/api/liquid/objects/quantity_rule"
+      "type": "Liquid objects: script",
+      "url": "https://shopify.dev/docs/api/liquid/objects/script"
     },
     {
-      "type": "Liquid objects: routes",
-      "url": "https://shopify.dev/docs/api/liquid/objects/routes"
+      "type": "Liquid objects: group",
+      "url": "https://shopify.dev/docs/api/liquid/objects/group"
+    },
+    {
+      "type": "Liquid objects: metaobject_definition",
+      "url": "https://shopify.dev/docs/api/liquid/objects/metaobject_definition"
     },
     {
       "type": "Liquid objects: part",
       "url": "https://shopify.dev/docs/api/liquid/objects/part"
     },
     {
-      "type": "Liquid objects: page",
-      "url": "https://shopify.dev/docs/api/liquid/objects/page"
-    },
-    {
-      "type": "Liquid objects: customer",
-      "url": "https://shopify.dev/docs/api/liquid/objects/customer"
-    },
-    {
-      "type": "Liquid objects: metaobject",
-      "url": "https://shopify.dev/docs/api/liquid/objects/metaobject"
-    },
-    {
-      "type": "Liquid objects: quantity_price_break",
-      "url": "https://shopify.dev/docs/api/liquid/objects/quantity_price_break"
+      "type": "Liquid objects: country",
+      "url": "https://shopify.dev/docs/api/liquid/objects/country"
     },
     {
       "type": "Liquid objects: recommendations",
@@ -419,29 +415,46 @@
       "url": "https://shopify.dev/docs/api/liquid/objects/robots"
     },
     {
+      "type": "Liquid objects: quantity_price_break",
+      "url": "https://shopify.dev/docs/api/liquid/objects/quantity_price_break"
+    },
+    {
+      "type": "Liquid objects: quantity_rule",
+      "url": "https://shopify.dev/docs/api/liquid/objects/quantity_rule"
+    },
+    {
+      "type": "Liquid objects: shop_locale",
+      "url": "https://shopify.dev/docs/api/liquid/objects/shop_locale"
+    },
+    {
       "type": "Liquid objects: pages",
       "url": "https://shopify.dev/docs/api/liquid/objects/pages"
     },
     {
-      "type": "Liquid objects: request",
-      "url": "https://shopify.dev/docs/api/liquid/objects/request"
-    },
-    {
-      "type": "Liquid objects: settings",
-      "url": "https://shopify.dev/docs/api/liquid/objects/settings"
+      "type": "Liquid objects: page",
+      "url": "https://shopify.dev/docs/api/liquid/objects/page"
     }
   ],
-  "latestVersion": "1.1.2",
+  "latestVersion": "1.1.3",
   "versions": [
     {
-      "version": "1.1.2",
+      "version": "1.1.3",
       "label": "latest",
+      "timestamp": "2026-03-23T00:48:54.740Z",
+      "filename": "documentation_2026-03-23T00:48:54.740Z.md",
+      "totalPages": 107,
+      "successfulPages": 107,
+      "url": "https://shopify.dev/docs/api/liquid",
+      "isLatest": true
+    },
+    {
+      "version": "1.1.2",
       "timestamp": "2026-02-06T10:46:26.104Z",
       "filename": "documentation_2026-02-06T10:46:26.104Z.md",
       "totalPages": 106,
       "successfulPages": 106,
       "url": "https://shopify.dev/docs/api/liquid",
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "1.1.1",

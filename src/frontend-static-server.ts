@@ -1,5 +1,4 @@
 import express from 'express';
-import serveStatic from 'serve-static';
 import fs from 'fs';
 import path from 'path';
 

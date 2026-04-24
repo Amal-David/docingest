@@ -797,11 +797,16 @@ app.get('/api/docs/list', async (req, res) => {
           .sort()
           .pop();
 
+        if (!docFile) {
+          console.log('No documentation file found for domain:', fullDomain);
+          continue;
+        }
+
         allDocs.push({
           domain: fullDomain,
           lastUpdated: metadata.lastScraped,
           url: metadata.url,
-          filePath: docFile ? path.join(domainPath, docFile) : null,
+          filePath: path.join(domainPath, docFile),
           structure: metadata.structure || [],
           totalPages: metadata.totalPages,
           successfulPages: metadata.successfulPages,
