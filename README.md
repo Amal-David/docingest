@@ -104,7 +104,8 @@ That means you can treat DocIngest as:
 ### Prerequisites
 
 - Node.js 18+ or Bun
-- A Firecrawl API key
+- A Firecrawl instance
+  Use either the hosted Firecrawl API or a self-hosted Firecrawl deployment.
 
 ### Install
 
@@ -120,10 +121,27 @@ cd server && npm install && cd ..
 Create `.env` in the repo root:
 
 ```bash
+# Hosted Firecrawl
 FIRECRAWL_API_KEY=fc-your-api-key-here
 REACT_APP_FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
 REACT_APP_API_URL=http://localhost:8001/api
 ```
+
+If you want to run Firecrawl yourself, point DocIngest at your own Firecrawl base URL instead:
+
+```bash
+# Self-hosted Firecrawl
+FIRECRAWL_API_KEY=your-self-hosted-key
+REACT_APP_FIRECRAWL_API_URL=http://your-firecrawl-host:3002/v1
+REACT_APP_API_URL=http://localhost:8001/api
+```
+
+Firecrawl’s official self-hosting docs are here:
+
+- [Self-hosting Firecrawl](https://docs.firecrawl.dev/contributing/self-host)
+- [Firecrawl GitHub repository](https://github.com/mendableai/firecrawl)
+
+DocIngest only needs the Firecrawl crawl/scrape APIs, so self-hosting is a valid setup if you want more control over data locality or cost. Firecrawl’s official docs note that self-hosted deployments do not support every cloud feature, so check their guide before relying on advanced endpoints.
 
 ### Run
 

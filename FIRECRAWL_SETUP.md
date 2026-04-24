@@ -333,33 +333,57 @@ console.log('Crawl completed:', crawlMetrics);
 
 ## Self-Hosted Firecrawl (Advanced)
 
-For high-volume usage, consider self-hosting Firecrawl:
+Firecrawl can be self-hosted if you want tighter control over infrastructure, networking, or data locality.
 
-### Requirements
-- Docker and Docker Compose
-- 4GB+ RAM
-- 2+ CPU cores
+The official Firecrawl self-hosting guide is the source of truth:
 
-### Setup
+- [Firecrawl self-hosting docs](https://docs.firecrawl.dev/contributing/self-host)
+- [Firecrawl GitHub repository](https://github.com/mendableai/firecrawl)
+
+### When self-hosting makes sense
+
+- You want DocIngest to stay inside your own infrastructure
+- You want to avoid relying on Firecrawl’s hosted service
+- You are comfortable operating the supporting services Firecrawl requires
+
+### Important caveats
+
+According to Firecrawl’s official self-hosting docs:
+
+- Self-hosted Firecrawl does not support every cloud feature
+- Advanced anti-bot and Fire-engine capabilities are not available in self-hosted mode
+- Some endpoints such as `/agent` and `/browser` are not supported in self-hosting
+
+For DocIngest, this is usually fine because it primarily relies on Firecrawl’s crawl and scrape flows.
+
+### Basic setup flow
+
 ```bash
-# Clone Firecrawl repository
+# Clone Firecrawl
 git clone https://github.com/mendableai/firecrawl.git
 cd firecrawl
 
-# Configure environment
-cp .env.example .env
-# Edit .env with your configuration
+# Create the environment file
+# The official docs currently point to apps/api/.env.example as the template source
 
-# Start services
-docker-compose up -d
+# Start the stack using Firecrawl's documented compose flow
+docker compose up -d
 ```
 
-### Configuration for Self-Hosted
+### DocIngest configuration for a self-hosted Firecrawl instance
+
+Point DocIngest at your Firecrawl base URL:
+
 ```bash
-# Update environment variables
-REACT_APP_FIRECRAWL_API_URL=http://your-firecrawl-instance.com/v1
-FIRECRAWL_API_KEY=your-self-hosted-key  # If authentication enabled
+REACT_APP_FIRECRAWL_API_URL=http://your-firecrawl-instance:3002/v1
+FIRECRAWL_API_KEY=your-self-hosted-key
 ```
+
+If your self-hosted Firecrawl instance runs without authentication in a trusted environment, you can leave the API key unset or use whatever auth model your deployment expects.
+
+### Recommendation
+
+Start with hosted Firecrawl unless you specifically need self-hosting. If you do self-host, follow the official Firecrawl guide closely because their required services and env vars can change over time.
 
 ## Support and Resources
 

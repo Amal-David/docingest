@@ -20,7 +20,7 @@ Unused items to remove:
 **Impact**: Faster page loads, reduced bandwidth
 **Implementation**:
 ```javascript
-// In simple-frontend.cjs
+// In the frontend static server
 const compression = require('compression');
 app.use(compression());
 ```
@@ -185,5 +185,4 @@ app.get('/health', (req, res) => {
 5. Monitoring dashboard
 
 Would you like me to implement any of these improvements?
-
 
