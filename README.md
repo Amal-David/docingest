@@ -2,49 +2,35 @@
 
 DocIngest is the open-source engine for turning documentation sites into searchable, MCP-accessible context for humans and coding agents.
 
-It crawls docs, extracts the useful content, stores it as clean markdown, indexes it for search, and exposes it through a web UI and an MCP server. You can self-host it, use it to build a public docs index, or wire it into tools like Claude Code, Cursor, Windsurf, and Codex.
+It crawls docs, stores them as clean markdown, indexes them for search, and exposes the same corpus through a web UI, CLI, and MCP server. Use it to build a public docs index, self-host an internal corpus, or give coding agents fresher documentation context.
 
-🚀 [Quick Start](#quick-start) • 🔌 [MCP Usage](#mcp-usage) • 🖥️ [Screenshots](#-screenshots) • 🗺️ [Status](#-status-at-a-glance) • 🤝 [Contributing](#contributing)
+[Quick Start](#quick-start) • [MCP + CLI](#mcp--cli) • [Screenshots](#screenshots) • [Setup Docs](#setup-docs) • [Contributing](#contributing)
 
-## ✨ Status At A Glance
+## Status
 
-### ✅ What You Can Test Today
+### What works today
 
-- ✅ Index a docs site from the web UI with include/exclude rules and crawl limits
-- ✅ Browse indexed docs from the hosted corpus at `docingest.com`
-- ✅ Search indexed libraries, frameworks, and APIs from the homepage and `/view`
-- ✅ Open docs by domain, copy markdown, and download the stored docs file
-- ✅ Re-index existing sources when upstream docs change
-- ✅ Connect DocIngest to MCP-compatible tools and query docs from coding agents
+- ✅ Index documentation sites from the web UI
+- ✅ Browse and search indexed docs at `docingest.com`
+- ✅ Open docs by domain, copy markdown, and download stored docs
+- ✅ Re-index sources when upstream docs change
+- ✅ Query docs from MCP-compatible coding tools
+- ✅ Use the package as a lightweight CLI for quick lookup
 
-### 📚 Corpus Snapshot
+### Hosted corpus
 
 - 📚 The live `main` deployment currently serves **1,512 latest documentation sites** on `docingest.com` as of April 24, 2026
-- 🗂️ DocIngest stores documentation as versioned snapshots per domain, so one docs site can have multiple historical versions behind the scenes
-- ℹ️ The Git repository does not commit the full hosted corpus; the repo only keeps the storage structure, while the deployed service holds the actual indexed docs data
+- 🗂️ DocIngest stores versioned snapshots per domain, so one docs site can have multiple historical versions behind the scenes
+- ℹ️ The Git repository does not commit the full hosted corpus; the deployed service holds the actual indexed docs data
 
-### 🧪 What Exists But Still Feels Early
+### Still early
 
-- 🧪 Hosted corpus quality still depends on what has already been indexed
-- 🧪 Search and ranking are functional, but not yet deeply tuned
-- 🧪 Some UI states still need stronger loading, empty, and success feedback
-- 🧪 Version-aware storage exists in the backend, but the product experience around versions is still early
+- 🧪 Search/ranking works, but needs deeper tuning
+- 🧪 Loading, empty, and success states need more polish
+- 🧪 Version-aware storage exists, but the product UX around versions is still early
+- ❌ Not yet a mature enterprise docs platform with permissions, collaboration, and admin workflows
 
-### 🔜 Likely Next Additions
-
-- 🔜 Better loading states and skeletons across browse and docs pages
-- 🔜 Better search quality and in-document navigation
-- 🔜 Smoother self-hosting and deployment workflows
-- 🔜 More export, sharing, and docs-history ergonomics
-
-### 🎯 Best Fit Right Now
-
-- ✅ Teams that want a searchable docs corpus for internal use
-- ✅ Builders who want MCP-ready documentation for coding agents
-- ✅ Anyone who wants a lightweight alternative to treating docs as raw scraped blobs
-- ❌ Not yet a polished enterprise docs platform with mature permissions, collaboration, and admin tooling
-
-## 🖥️ Screenshots
+## Screenshots
 
 ### Homepage
 
@@ -64,57 +50,41 @@ Most documentation is published for browsers, not for agents or retrieval system
 
 DocIngest gives you a practical bridge:
 
-- Crawl a docs site and keep the useful pages
-- Store documentation in a simple file-based format
-- Search across indexed libraries, frameworks, and APIs
-- Expose the same corpus to humans in the UI and to agents through MCP
-- Re-sync sources when upstream docs change
+- Crawl docs and keep the useful pages
+- Store documentation as inspectable markdown
+- Search across libraries, frameworks, and APIs
+- Expose the corpus to humans and coding agents
+- Self-host the whole thing for private or internal docs
 
 ## What You Get
 
-- 🔥 Documentation crawling powered by Firecrawl
-- 📝 Markdown-first storage for indexed pages
-- 🔎 Search and autocomplete across indexed docs
-- 🏠 Public or private self-hostable docs index
-- 🔌 MCP server for agent access to your documentation corpus
-- 🖥️ Web UI for browsing, reading, and re-syncing docs
+- Documentation crawling powered by Firecrawl
+- Markdown-first storage for indexed pages
+- Search and autocomplete across indexed docs
+- MCP server for agent access to your documentation corpus
+- CLI access for quick lookups and scripts
+- Web UI for browsing, reading, and re-syncing docs
 
-## Product Shape
+## Best Fit
 
-DocIngest currently has three connected layers:
+DocIngest is useful when you want docs to behave more like retrievable infrastructure than scattered web pages.
 
-1. The ingestion engine
-   Crawls documentation sites, extracts content, and stores it locally.
-2. The searchable index
-   Lets people browse and search indexed documentation from the web UI.
-3. The MCP server
-   Lets coding agents query the same docs corpus directly from AI tools.
+Good fits:
 
-That means you can treat DocIngest as:
-
-- A self-hosted docs ingestion pipeline
-- A searchable internal or public documentation index
-- An MCP-ready context layer for coding agents
-
-## Tech Stack
-
-- 🎨 Frontend: React + TypeScript + Tailwind CSS
-- ⚙️ Backend: Node.js + Express + TypeScript
-- 🏃 Runtime: Bun or Node.js
-- 🕸️ Crawling: Firecrawl API
-- 💾 Storage: file-based markdown + metadata
-- ⚡ Search cache: Redis for autocomplete, full-text search, and cached docs
-- 🚢 Production: PM2 + Nginx
+- Teams building a searchable internal docs corpus
+- Builders who want MCP-ready documentation for coding agents
+- Public indexes that need simple markdown storage and search
+- Experiments around docs retrieval, agent context, and versioned docs snapshots
 
 ## Quick Start
 
 ### Prerequisites
 
 - Node.js 18+ or Bun
-- A Firecrawl instance
-  Use either the hosted Firecrawl API or a self-hosted Firecrawl deployment.
+- Firecrawl, hosted or self-hosted
 - Redis for fast autocomplete/search
-  DocIngest can fall back to filesystem search, but Redis is the recommended path for local and production performance.
+
+Redis is optional for tiny local tests, but recommended for anything serious.
 
 ### Install
 
@@ -130,7 +100,6 @@ cd server && npm install && cd ..
 Create `.env` in the repo root:
 
 ```bash
-# Hosted Firecrawl
 FIRECRAWL_API_KEY=fc-your-api-key-here
 REACT_APP_FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
 REACT_APP_API_URL=http://localhost:8001/api
@@ -138,48 +107,15 @@ REDIS_HOST=localhost
 REDIS_PORT=6380
 ```
 
-If you want to run Firecrawl yourself, point DocIngest at your own Firecrawl base URL instead:
+For self-hosted Firecrawl or Redis, use these guides:
 
-```bash
-# Self-hosted Firecrawl
-FIRECRAWL_API_KEY=your-self-hosted-key
-REACT_APP_FIRECRAWL_API_URL=http://your-firecrawl-host:3002/v1
-REACT_APP_API_URL=http://localhost:8001/api
-REDIS_HOST=localhost
-REDIS_PORT=6380
-```
-
-Firecrawl’s official self-hosting docs are here:
-
-- [Self-hosting Firecrawl](https://docs.firecrawl.dev/contributing/self-host)
-- [Firecrawl GitHub repository](https://github.com/mendableai/firecrawl)
-- [DocIngest Firecrawl setup guide](./docs/setup/firecrawl.md)
-
-DocIngest only needs the Firecrawl crawl/scrape APIs, so self-hosting is a valid setup if you want more control over data locality or cost. Firecrawl’s official docs note that self-hosted deployments do not support every cloud feature, so check their guide before relying on advanced endpoints.
-
-### Start Redis
-
-For local self-hosting, the included Compose file runs Redis on host port `6380` and stores data in a named Docker volume:
-
-```bash
-docker compose up -d redis
-```
-
-After you have docs in `server/storage/docs`, build the Redis search index:
-
-```bash
-cd server
-npm run build-index
-```
-
-For a remote or separately hosted Redis instance, set `REDIS_HOST`, `REDIS_PORT`, and optionally `REDIS_PASSWORD` for the backend. More details are in [Redis setup](./docs/setup/redis.md).
+- [Firecrawl setup](./docs/setup/firecrawl.md)
+- [Redis setup](./docs/setup/redis.md)
 
 ### Run
 
-Frontend:
-
 ```bash
-npm run dev-start
+docker compose up -d redis
 ```
 
 Backend:
@@ -189,21 +125,30 @@ cd server
 npm start
 ```
 
+Frontend:
+
+```bash
+npm run dev-start
+```
+
 Then open `http://localhost:8000`.
 
-## MCP Usage
+After indexing docs, build the Redis search index:
 
-DocIngest includes an MCP server so your coding tools can search and read indexed documentation.
+```bash
+cd server
+npm run build-index
+```
 
-Example:
+## MCP + CLI
+
+Add DocIngest to Claude Code:
 
 ```bash
 claude mcp add docingest -- npx -y @docingest/mcp-server
 ```
 
-You can adapt the same package for other MCP-compatible tools.
-
-You can also use the same package as a quick CLI smoke test:
+Use the same package as a CLI:
 
 ```bash
 npx @docingest/mcp-server find react
@@ -211,95 +156,35 @@ npx @docingest/mcp-server read react.dev --topic hooks --max-tokens 5000
 npx @docingest/mcp-server search "server components" --limit 5
 ```
 
-Core MCP capabilities:
+MCP tools:
 
-- `find-docs` to locate a library or docs domain
-- `read-docs` to fetch documentation content
-- `query-docs` to run cross-doc full-text search
+- `find-docs` finds a library or docs domain
+- `read-docs` fetches focused documentation content
+- `query-docs` searches across indexed docs
 
-For performance notes and tuning ideas, see [Performance](./docs/performance.md).
+For editor-specific config, see [the MCP server README](./mcp-server/README.md).
 
-## Web App Usage
+## Setup Docs
 
-### Add documentation
+Use these when you need more than the happy path:
 
-1. Open the app
-2. Paste a documentation URL
-3. Set crawl options such as page limits or include/exclude patterns
-4. Start the crawl
-5. Save the extracted pages into the local docs index
+- [Redis setup](./docs/setup/redis.md) for local/self-hosted Redis, indexing, and verification
+- [Firecrawl setup](./docs/setup/firecrawl.md) for hosted or self-hosted crawling
+- [Nginx setup](./docs/setup/nginx.md) for production reverse proxy configuration
+- [Performance notes](./docs/performance.md) for speedups and next optimization work
+- [Reference](./docs/reference.md) for storage, API, deployment shape, and repo details
 
-### Browse indexed docs
+## Tech Stack
 
-- Search from the homepage
-- Browse the indexed corpus from `/view`
-- Open a specific docs domain from `/docs/:domain`
-- Re-sync an indexed docs source when upstream content changes
-
-## Storage Model
-
-Indexed documentation is stored on disk:
-
-```text
-docingest/
-├── server/storage/docs/
-│   ├── example.com/
-│   │   ├── documentation_2025-01-15T10:30:00.000Z.md
-│   │   └── metadata.json
-│   └── another-site.com/
-│       ├── documentation_2025-01-16T14:20:00.000Z.md
-│       └── metadata.json
-```
-
-This makes the corpus easy to inspect, back up, diff, and reuse.
-
-## API Surface
-
-Main routes:
-
-- `GET /api/docs/list`
-- `GET /api/docs/content`
-- `GET /api/docs/domain/:domain?topic=hooks&maxTokens=5000`
-- `GET /api/docs/download`
-- `POST /api/docs/save`
-
-The app also exposes crawl and admin endpoints used by the UI.
-
-## Deployment
-
-For production deployment guidance, see:
-
-- [Firecrawl setup](./docs/setup/firecrawl.md)
-- [Nginx setup](./docs/setup/nginx.md)
-
-Typical production shape:
-
-- React frontend build served behind Nginx
-- Node/Express backend managed by PM2
-- Firecrawl for external crawling
-- Local markdown storage for the indexed corpus
-
-## Open Source Direction
-
-DocIngest is best understood as infrastructure for documentation retrieval:
-
-- Useful on its own for humans
-- More valuable when paired with coding agents
-- Flexible enough for public indexes, internal corpora, and experiments
-
-The hosted site at [docingest.com](https://docingest.com) can act as a public demo and discovery layer, while this repository remains the open-source engine underneath it.
+- React + TypeScript + Tailwind CSS
+- Node.js + Express + TypeScript
+- Firecrawl for crawling
+- Redis for autocomplete, full-text search, and cached docs
+- File-based markdown storage
 
 ## Contributing
 
-Contributions are welcome, especially around:
-
-- Better crawling and filtering
-- Search quality and ranking
-- MCP ergonomics
-- Docs UX and browsing
-- Self-hosting and deployment improvements
-
-If you want to help, open an issue or start a discussion:
+Contributions are welcome, especially around crawling quality, search/ranking, MCP ergonomics, docs UX, and self-hosting.
 
 - [Issues](https://github.com/Amal-David/docingest/issues)
 - [Discussions](https://github.com/Amal-David/docingest/discussions)
