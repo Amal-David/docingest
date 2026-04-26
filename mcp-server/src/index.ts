@@ -345,15 +345,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           };
         }
 
-        let content = data.content;
-
-        // Filter by topic if provided
-        if (topic) {
-          content = filterByTopic(content, topic);
-        }
-
-        // Truncate to token limit
-        content = truncateToTokens(content, safeMaxTokens);
+        // Topic filtering and primary truncation happen server-side through the query params.
+        const content = truncateToTokens(data.content, safeMaxTokens);
 
         return {
           content: [
@@ -510,11 +503,8 @@ async function runCli(args: string[]): Promise<void> {
         throw new Error(`Documentation for "${domain}" was not found.`);
       }
 
-      let content = data.content;
-      if (topic) {
-        content = filterByTopic(content, topic);
-      }
-      content = truncateToTokens(content, safeMaxTokens);
+      // Topic filtering and primary truncation happen server-side through the query params.
+      const content = truncateToTokens(data.content, safeMaxTokens);
 
       console.log(`# ${data.domain} Documentation`);
       console.log(`\nSource: ${data.url || domain}`);

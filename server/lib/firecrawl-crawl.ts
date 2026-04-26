@@ -1,8 +1,8 @@
 import type { CrawlPage, CrawlStartRequest, CrawlStatusResponse } from './cloudflare-crawl';
 
+const EXPLICIT_FIRECRAWL_API_URL = process.env.FIRECRAWL_API_URL || process.env.REACT_APP_FIRECRAWL_API_URL || '';
 const FIRECRAWL_API_URL = (
-  process.env.FIRECRAWL_API_URL ||
-  process.env.REACT_APP_FIRECRAWL_API_URL ||
+  EXPLICIT_FIRECRAWL_API_URL ||
   'https://api.firecrawl.dev/v1'
 ).replace(/\/$/, '');
 const FIRECRAWL_API_KEY = process.env.FIRECRAWL_API_KEY || '';
@@ -15,7 +15,7 @@ function firecrawlHeaders() {
 }
 
 export function isFirecrawlConfigured(): boolean {
-  return Boolean(FIRECRAWL_API_URL);
+  return Boolean(EXPLICIT_FIRECRAWL_API_URL || FIRECRAWL_API_KEY);
 }
 
 export function isValidFirecrawlCrawlId(id: string): boolean {

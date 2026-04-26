@@ -108,21 +108,25 @@ turndown.addRule('removeBase64Images', {
  */
 export function extractMainContent(html: string, url: string): { markdown: string; title: string } {
   const dom = new JSDOM(html, { url });
-  const doc = dom.window.document;
+  try {
+    const doc = dom.window.document;
 
-  // Try Readability first
-  const reader = new Readability(doc);
-  const article = reader.parse();
+    // Try Readability first
+    const reader = new Readability(doc);
+    const article = reader.parse();
 
-  if (article && article.content) {
-    const markdown = turndown.turndown(article.content);
-    return { markdown, title: article.title || doc.title || '' };
+    if (article && article.content) {
+      const markdown = turndown.turndown(article.content);
+      return { markdown, title: article.title || doc.title || '' };
+    }
+
+    // Fallback: use <main> or <article> or <body>
+    const main = doc.querySelector('main') || doc.querySelector('article') || doc.body;
+    const markdown = main ? turndown.turndown(main.innerHTML) : '';
+    return { markdown, title: doc.title || '' };
+  } finally {
+    dom.window.close();
   }
-
-  // Fallback: use <main> or <article> or <body>
-  const main = doc.querySelector('main') || doc.querySelector('article') || doc.body;
-  const markdown = main ? turndown.turndown(main.innerHTML) : '';
-  return { markdown, title: doc.title || '' };
 }
 
 /**
