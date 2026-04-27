@@ -414,6 +414,7 @@ export default function HomePage() {
                   className="underline decoration-gray-900 decoration-2 underline-offset-4 hover:text-white"
                 >
                   open source
+                  <span aria-hidden="true" className="ml-1 inline-block -translate-y-0.5">↗</span>
                 </a>{' '}
                 now 🎉
               </span>
