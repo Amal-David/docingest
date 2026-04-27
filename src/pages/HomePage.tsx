@@ -401,8 +401,13 @@ export default function HomePage() {
             className="group relative inline-flex -rotate-1 items-center overflow-hidden rounded-lg border-[3px] border-gray-900 bg-yellow-200 px-5 py-2 text-sm font-black uppercase tracking-[0.18em] text-gray-900 shadow-[6px_6px_0_#111827] transition-transform hover:-translate-y-0.5 hover:rotate-0"
           >
             <span className="absolute inset-x-0 bottom-0 h-2 bg-pink-400 opacity-70 transition-all group-hover:h-full"></span>
-            <span className="relative z-10">
-              DocIngest is open source now 🎉 github.com/Amal-David/docingest
+            <span className="relative z-10 inline-flex flex-wrap items-center justify-center gap-2">
+              <span>
+                DocIngest is <span className="underline decoration-pink-600 decoration-2 underline-offset-4">open source</span> now 🎉
+              </span>
+              <span className="underline decoration-pink-600 decoration-2 underline-offset-4">
+                github.com/Amal-David/docingest
+              </span>
             </span>
           </a>
           <div>

@@ -1,6 +1,6 @@
 # DocIngest
 
-DocIngest is the open-source engine for turning documentation sites into searchable, MCP-accessible context for humans and coding agents.
+DocIngest is the [open-source](https://github.com/Amal-David/docingest) engine for turning documentation sites into searchable, MCP-accessible context for humans and coding agents.
 
 It crawls docs, stores them as clean markdown, indexes them for search, and exposes the same corpus through a web UI, CLI, and MCP server. Use it to build a public docs index, self-host an internal corpus, or give coding agents fresher documentation context.
 
@@ -43,38 +43,6 @@ It crawls docs, stores them as clean markdown, indexes them for search, and expo
 ### MCP setup guide
 
 ![DocIngest MCP guide](docs/screenshots/mcp-guide.png)
-
-## Why DocIngest
-
-Most documentation is published for browsers, not for agents or retrieval systems.
-
-DocIngest gives you a practical bridge:
-
-- Crawl docs and keep the useful pages
-- Store documentation as inspectable markdown
-- Search across libraries, frameworks, and APIs
-- Expose the corpus to humans and coding agents
-- Self-host the whole thing for private or internal docs
-
-## What You Get
-
-- Documentation crawling powered by Firecrawl
-- Markdown-first storage for indexed pages
-- Search and autocomplete across indexed docs
-- MCP server for agent access to your documentation corpus
-- CLI access for quick lookups and scripts
-- Web UI for browsing, reading, and re-syncing docs
-
-## Best Fit
-
-DocIngest is useful when you want docs to behave more like retrievable infrastructure than scattered web pages.
-
-Good fits:
-
-- Teams building a searchable internal docs corpus
-- Builders who want MCP-ready documentation for coding agents
-- Public indexes that need simple markdown storage and search
-- Experiments around docs retrieval, agent context, and versioned docs snapshots
 
 ## Quick Start
 
