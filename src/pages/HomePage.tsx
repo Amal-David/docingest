@@ -402,7 +402,7 @@ export default function HomePage() {
           >
             <span className="absolute inset-x-0 bottom-0 h-2 bg-pink-400 opacity-70 transition-all group-hover:h-full"></span>
             <span className="relative z-10">
-              DocIngest is open source now 🎉
+              DocIngest is open source now 🎉 github.com/Amal-David/docingest
             </span>
           </a>
           <div>
