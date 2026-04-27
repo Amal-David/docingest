@@ -9,7 +9,7 @@ import 'react-tooltip/dist/react-tooltip.css';
 import { isLikelyBlockedPage } from '../utils/scrape-filter';
 
 // API configuration - crawl goes through server proxy (Cloudflare Browser Rendering)
-const API_URL = '/api';
+const API_URL = process.env.REACT_APP_API_URL || '/api';
 
 interface DocPreview {
   content: string;
@@ -267,7 +267,7 @@ const HomePage: React.FC = () => {
       });
 
       // Log URL to server
-      await fetch('/api/logs/url', {
+      await fetch(`${API_URL}/logs/url`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

@@ -14,7 +14,7 @@ interface DocPreview {
   structure: DocStructure[];
 }
 
-const API_URL = '/api';
+const API_URL = process.env.REACT_APP_API_URL || '/api';
 
 const getPrimaryDomain = (domain: string) => {
   const cleanDomain = domain.replace(/^docs\./, '').replace(/\.ai$/, '');
