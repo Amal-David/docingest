@@ -402,7 +402,9 @@ export default function HomePage() {
           >
             <span className="absolute inset-x-0 bottom-0 h-2 bg-pink-400 opacity-70 transition-all group-hover:h-full"></span>
             <span className="relative z-10 inline-flex flex-wrap items-center justify-center gap-2">
-              <span>DocIngest is open source now 🎉</span>
+              <span>
+                DocIngest is <span className="underline decoration-pink-600 decoration-2 underline-offset-4">open source</span> now 🎉
+              </span>
               <span className="underline decoration-pink-600 decoration-2 underline-offset-4">
                 github.com/Amal-David/docingest
               </span>

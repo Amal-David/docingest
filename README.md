@@ -1,6 +1,6 @@
 # DocIngest
 
-DocIngest is the open-source engine for turning documentation sites into searchable, MCP-accessible context for humans and coding agents.
+DocIngest is the [open-source](https://github.com/Amal-David/docingest) engine for turning documentation sites into searchable, MCP-accessible context for humans and coding agents.
 
 It crawls docs, stores them as clean markdown, indexes them for search, and exposes the same corpus through a web UI, CLI, and MCP server. Use it to build a public docs index, self-host an internal corpus, or give coding agents fresher documentation context.
 
