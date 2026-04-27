@@ -139,6 +139,7 @@ Full-text search across all indexed documentation.
 | `DOCINGEST_API_URL` | `https://docingest.com/api` | DocIngest API endpoint |
 | `DOCINGEST_TIMEOUT_MS` | `10000` | Request timeout for MCP and CLI calls |
 | `DOCINGEST_CACHE_TTL_MS` | `300000` | In-process API response cache TTL |
+| `DOCINGEST_CACHE_MAX_ENTRIES` | `100` | Maximum in-process API responses kept before pruning |
 
 ## Performance Notes
 

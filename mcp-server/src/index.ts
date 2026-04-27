@@ -30,6 +30,7 @@ const DEFAULT_MAX_TOKENS = 5000;
 const MAX_MAX_TOKENS = 20000;
 const DEFAULT_TIMEOUT_MS = parseEnvNumber(process.env.DOCINGEST_TIMEOUT_MS, 10000);
 const DEFAULT_CACHE_TTL_MS = parseEnvNumber(process.env.DOCINGEST_CACHE_TTL_MS, 300000);
+const MAX_API_CACHE_ENTRIES = parseEnvNumber(process.env.DOCINGEST_CACHE_MAX_ENTRIES, 100);
 const MAX_SNIPPET_LENGTH = 500;
 const MAX_SEARCH_LIMIT = 20;
 
@@ -69,14 +70,32 @@ function clampNumber(value: number | undefined, fallback: number, min: number, m
   return Math.min(Math.max(Math.floor(value ?? fallback), min), max);
 }
 
+function pruneApiCache(now = Date.now()): void {
+  for (const [key, entry] of apiCache) {
+    if (entry.expiresAt <= now) {
+      apiCache.delete(key);
+    }
+  }
+
+  while (apiCache.size > MAX_API_CACHE_ENTRIES) {
+    const oldestKey = apiCache.keys().next().value as string | undefined;
+    if (!oldestKey) break;
+    apiCache.delete(oldestKey);
+  }
+}
+
 // Helper: Fetch from DocIngest API
 async function fetchFromAPI(endpoint: string): Promise<any> {
   const url = `${DOCINGEST_API_URL}${endpoint}`;
   const cacheKey = url;
   const cached = apiCache.get(cacheKey);
 
-  if (cached && cached.expiresAt > Date.now()) {
-    return cached.data;
+  if (cached) {
+    if (cached.expiresAt > Date.now()) {
+      return cached.data;
+    }
+
+    apiCache.delete(cacheKey);
   }
 
   const controller = new AbortController();
@@ -96,11 +115,13 @@ async function fetchFromAPI(endpoint: string): Promise<any> {
     }
 
     const data = await response.json();
-    if (DEFAULT_CACHE_TTL_MS > 0) {
+    if (DEFAULT_CACHE_TTL_MS > 0 && MAX_API_CACHE_ENTRIES > 0) {
+      pruneApiCache();
       apiCache.set(cacheKey, {
         data,
         expiresAt: Date.now() + DEFAULT_CACHE_TTL_MS,
       });
+      pruneApiCache();
     }
 
     return data;
