@@ -385,13 +385,26 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title>DocIngest | Open-Source Docs Engine for Humans and Coding Agents</title>
-        <meta name="description" content="Turn documentation sites into searchable, MCP-accessible context for humans and coding agents." />
+        <title>DocIngest is Open Source 🎉 | MCP-Ready Docs Engine</title>
+        <meta name="description" content="DocIngest is now open source: turn documentation sites into searchable, MCP-accessible context for humans and coding agents." />
+        <meta property="og:title" content="DocIngest is open source 🎉" />
+        <meta property="og:description" content="Build, self-host, and extend the docs ingestion engine behind docingest.com." />
       </Helmet>
 
       <div className="space-y-8">
         {/* Header */}
         <div className="text-center space-y-5">
+          <a
+            href="https://github.com/Amal-David/docingest"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative inline-flex -rotate-1 items-center overflow-hidden rounded-lg border-[3px] border-gray-900 bg-yellow-200 px-5 py-2 text-sm font-black uppercase tracking-[0.18em] text-gray-900 shadow-[6px_6px_0_#111827] transition-transform hover:-translate-y-0.5 hover:rotate-0"
+          >
+            <span className="absolute inset-x-0 bottom-0 h-2 bg-pink-400 opacity-70 transition-all group-hover:h-full"></span>
+            <span className="relative z-10">
+              DocIngest is open source now 🎉
+            </span>
+          </a>
           <div>
             <span className="inline-flex items-center rounded-full border-[3px] border-gray-900 bg-blue-50 px-4 py-1 text-xs font-bold uppercase tracking-[0.2em] text-blue-700">
               Open-Source Docs Engine
