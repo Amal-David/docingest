@@ -120,17 +120,16 @@ Run Redis with the Redis UI:
 docker compose --profile tools up -d
 ```
 
-Backend:
+Run the app locally:
 
 ```bash
-cd server
-npm start
+npm run dev
 ```
 
-Frontend:
+If port `8001` is already busy, use the alternate local API port:
 
 ```bash
-npm run dev-start
+npm run dev:local
 ```
 
 Then open `http://localhost:8000`.

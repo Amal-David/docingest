@@ -34,7 +34,7 @@ interface FastSearchResponse {
   total: number;
 }
 
-const API_URL = '/api';
+const API_URL = process.env.REACT_APP_API_URL || '/api';
 
 // Debounce hook
 function useDebounce<T>(value: T, delay: number): T {
@@ -402,38 +402,40 @@ export default function HomePage() {
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight max-w-3xl mx-auto">
             Searchable docs context for humans and coding agents
           </h1>
-          <a
-            href="https://github.com/Amal-David/docingest"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group relative inline-flex items-center overflow-hidden rounded-lg border-[3px] border-gray-900 bg-yellow-200 px-5 py-2 text-sm font-black uppercase tracking-[0.16em] text-gray-900 shadow-[5px_5px_0_#111827] transition-transform hover:-translate-y-0.5"
-          >
+          <div className="group relative inline-flex items-center overflow-hidden rounded-lg border-[3px] border-gray-900 bg-pink-300 px-5 py-2 text-sm font-black uppercase tracking-[0.16em] text-gray-900 shadow-[5px_5px_0_#111827]">
             <span className="absolute inset-x-0 bottom-0 h-2 bg-pink-400 opacity-70 transition-all group-hover:h-full"></span>
             <span className="relative z-10 inline-flex flex-wrap items-center justify-center gap-2">
               <span>
-                DocIngest is <span className="underline decoration-pink-600 decoration-2 underline-offset-4">open source</span> now 🎉
-              </span>
-              <span className="underline decoration-pink-600 decoration-2 underline-offset-4">
-                github.com/Amal-David/docingest
+                DocIngest is{' '}
+                <a
+                  href="https://github.com/Amal-David/docingest"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline decoration-gray-900 decoration-2 underline-offset-4 hover:text-white"
+                >
+                  open source
+                  <span aria-hidden="true" className="ml-1 inline-block -translate-y-0.5">↗</span>
+                </a>{' '}
+                now 🎉
               </span>
             </span>
-          </a>
+          </div>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             DocIngest turns documentation sites into a shared corpus you can browse in the UI, search across domains, and expose to MCP-compatible tools.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
             <Link
-              to="/view"
-              className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
-            >
-              Browse Corpus
-            </Link>
-            <Link
               to="/add"
               className="px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
             >
-              Index Docs
+              Add New Docs
+            </Link>
+            <Link
+              to="/view"
+              className="px-4 py-2 bg-white text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
+            >
+              Browse All
             </Link>
             <a
               href="https://github.com/Amal-David/docingest"
@@ -459,7 +461,7 @@ export default function HomePage() {
             <div className="mb-4 space-y-1">
               <h2 className="text-xl font-bold">Search the indexed corpus</h2>
               <p className="text-sm text-gray-600">
-                Look up a library, framework, or API. If it is not indexed yet, you can ingest it in one click.
+                Search a library, framework, or API. Paste a docs URL here or use Add New Docs to index something new.
               </p>
             </div>
             <div className="relative">

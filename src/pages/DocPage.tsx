@@ -51,7 +51,7 @@ const SyntaxHighlighterLazy = React.lazy(() =>
   }))
 );
 
-const API_URL = '/api';
+const API_URL = process.env.REACT_APP_API_URL || '/api';
 
 interface DocContent {
   content: string;
