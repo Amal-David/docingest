@@ -394,11 +394,19 @@ export default function HomePage() {
       <div className="space-y-8">
         {/* Header */}
         <div className="text-center space-y-5">
+          <div>
+            <span className="inline-flex items-center rounded-full border-[3px] border-gray-900 bg-blue-50 px-4 py-1 text-xs font-bold uppercase tracking-[0.2em] text-blue-700">
+              Open-Source Docs Engine
+            </span>
+          </div>
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight max-w-3xl mx-auto">
+            Searchable docs context for humans and coding agents
+          </h1>
           <a
             href="https://github.com/Amal-David/docingest"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative inline-flex -rotate-1 items-center overflow-hidden rounded-lg border-[3px] border-gray-900 bg-yellow-200 px-5 py-2 text-sm font-black uppercase tracking-[0.18em] text-gray-900 shadow-[6px_6px_0_#111827] transition-transform hover:-translate-y-0.5 hover:rotate-0"
+            className="group relative inline-flex items-center overflow-hidden rounded-lg border-[3px] border-gray-900 bg-yellow-200 px-5 py-2 text-sm font-black uppercase tracking-[0.16em] text-gray-900 shadow-[5px_5px_0_#111827] transition-transform hover:-translate-y-0.5"
           >
             <span className="absolute inset-x-0 bottom-0 h-2 bg-pink-400 opacity-70 transition-all group-hover:h-full"></span>
             <span className="relative z-10 inline-flex flex-wrap items-center justify-center gap-2">
@@ -410,14 +418,6 @@ export default function HomePage() {
               </span>
             </span>
           </a>
-          <div>
-            <span className="inline-flex items-center rounded-full border-[3px] border-gray-900 bg-blue-50 px-4 py-1 text-xs font-bold uppercase tracking-[0.2em] text-blue-700">
-              Open-Source Docs Engine
-            </span>
-          </div>
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight max-w-3xl mx-auto">
-            Searchable docs context for humans and coding agents
-          </h1>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             DocIngest turns documentation sites into a shared corpus you can browse in the UI, search across domains, and expose to MCP-compatible tools.
           </p>
