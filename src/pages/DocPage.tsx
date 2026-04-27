@@ -605,7 +605,7 @@ const DocPage: React.FC = () => {
     <>
       <Helmet prioritizeSeoTags={true}>
         <title>{displayDomain(doc?.domain || '')} Documentation | DocIngest</title>
-        <meta name="description" content={`View ${displayDomain(doc?.domain || '')} documentation - Downloaded and saved with DocIngest`} />
+        <meta name="description" content={`Browse ${displayDomain(doc?.domain || '')} documentation indexed by DocIngest.`} />
         <meta name="keywords" content={`documentation, ${displayDomain(doc?.domain || '')}, docingest, api docs`} />
         <meta property="og:title" content={`${displayDomain(doc?.domain || '')} Documentation | DocIngest`} />
         <meta property="og:description" content={`View ${displayDomain(doc?.domain || '')} documentation`} />
@@ -739,4 +739,3 @@ const DocPage: React.FC = () => {
 };
 
 export default DocPage;
-

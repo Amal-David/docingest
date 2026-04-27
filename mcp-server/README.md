@@ -88,6 +88,21 @@ Or explicitly call the tools:
 First, resolve the library ID for "nextjs", then get the routing documentation
 ```
 
+## CLI Access
+
+The same package also works as a small CLI for quick testing or scripts:
+
+```bash
+# Find matching docs domains
+npx @docingest/mcp-server find react
+
+# Read scoped docs without configuring an MCP client
+npx @docingest/mcp-server read react.dev --topic hooks --max-tokens 5000
+
+# Search across the indexed corpus
+npx @docingest/mcp-server search "server components" --limit 5
+```
+
 ## Available Tools
 
 ### `find-docs`
@@ -122,6 +137,15 @@ Full-text search across all indexed documentation.
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `DOCINGEST_API_URL` | `https://docingest.com/api` | DocIngest API endpoint |
+| `DOCINGEST_TIMEOUT_MS` | `10000` | Request timeout for MCP and CLI calls |
+| `DOCINGEST_CACHE_TTL_MS` | `300000` | In-process API response cache TTL |
+| `DOCINGEST_CACHE_MAX_ENTRIES` | `100` | Maximum in-process API responses kept before pruning |
+
+## Performance Notes
+
+- `read-docs` sends `topic` and `maxTokens` to the API so large docs can be filtered server-side before they cross stdio.
+- Repeated lookups are cached in-process for five minutes by default.
+- Search uses the Redis-backed `fast-search` endpoint first and falls back to the filesystem search endpoint if needed.
 
 ## License
 

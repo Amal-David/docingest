@@ -52,8 +52,24 @@ import type {
   SaveDocRequest,
 } from './types/versioning';
 import { hasVersioning as checkHasVersioning } from './types/versioning';
+
+// Cloudflare Browser Rendering crawl client
+import {
+  startCrawl,
+  getCrawlStatus,
+  isCloudflareConfigured,
+  isValidCrawlId,
+  type CrawlStartRequest,
+} from './lib/cloudflare-crawl';
+import {
+  startFirecrawlCrawl,
+  getFirecrawlCrawlStatus,
+  isFirecrawlConfigured,
+  isValidFirecrawlCrawlId,
+} from './lib/firecrawl-crawl';
 const app = express();
 const PORT = process.env.PORT || 8001;
+const CRAWL_PROVIDER = (process.env.CRAWL_PROVIDER || 'cloudflare').toLowerCase();
 
 // Trust proxy (nginx/load balancer) for correct IP detection in rate limiting
 app.set('trust proxy', 1);
@@ -192,6 +208,27 @@ const generateTableOfContents = (pages: any[]) => {
   });
   return toc + '\n---\n\n';
 };
+
+// Detect likely bot-block / interstitial pages (e.g., Cloudflare challenge)
+const BLOCKED_TITLE_RE = /(just a moment|attention required|one more step|please wait|access denied|checking your browser|verify you are human)/i;
+const BLOCKED_CHALLENGE_RE = /(checking your browser|verify you are human|enable javascript|ddos protection|cf-browser-verification|cf-challenge|turnstile|pardon our interruption|access denied|please wait|one more step)/i;
+const BLOCKED_CLOUDFLARE_RE = /(cloudflare ray id|performance & security by cloudflare)/i;
+const BLOCKED_URL_RE = /(\/cdn-cgi\/|\/cf-challenge\/|\/cf-cgi\/)/i;
+
+function isLikelyBlockedPage(page: { type?: string; content?: string; url?: string }): boolean {
+  const title = (page.type || '').toLowerCase();
+  const content = (page.content || '').toLowerCase();
+  const url = (page.url || '').toLowerCase();
+
+  if (BLOCKED_TITLE_RE.test(title)) return true;
+  if (BLOCKED_URL_RE.test(url)) return true;
+  // Only test challenge phrases against short content — interstitial pages are
+  // tiny, but legitimate docs routinely contain phrases like "access denied" or
+  // "enable javascript" in their body text.
+  if (content.length < 2000 && BLOCKED_CHALLENGE_RE.test(content)) return true;
+  if (content.length < 2000 && content.includes('cloudflare') && BLOCKED_CLOUDFLARE_RE.test(content)) return true;
+  return false;
+}
 
 // Helper function to merge markdown content
 const mergeMarkdownContent = (pages: any[]) => {
@@ -390,8 +427,23 @@ app.post('/api/docs/save', async (req, res) => {
     console.log('Saving to domain path:', domainPath);
 
     const metadataPath = path.join(domainPath, 'metadata.json');
-    const successfulPages = pages.filter((p: any) => p.content !== 'No content available').length;
-    const sourceUrl = pages[0]?.url || '';
+    const blockedPages = pages.filter((p: any) => isLikelyBlockedPage(p));
+    const validPages = pages.filter((p: any) => !isLikelyBlockedPage(p) && p.content !== 'No content available');
+    const totalPages = pages.length;
+    const successfulPages = validPages.length;
+    const sourceUrl = validPages[0]?.url || pages[0]?.url || '';
+
+    if (blockedPages.length > 0) {
+      console.warn(`Detected ${blockedPages.length} likely bot-block pages for ${domain}`);
+    }
+
+    if (validPages.length === 0) {
+      return res.status(422).json({
+        success: false,
+        error: 'All scraped pages appear to be blocked by anti-bot protection (e.g., Cloudflare). Try again with a different source or allowlist the crawler.',
+        blockedPages: blockedPages.map((p: any) => p.url).filter(Boolean),
+      });
+    }
 
     // Load existing metadata or create new
     let existingMetadata: DomainMetadataV2 | null = null;
@@ -425,10 +477,10 @@ app.post('/api/docs/save', async (req, res) => {
     }
 
     // Generate table of contents
-    const toc = generateTableOfContents(pages);
+    const toc = generateTableOfContents(validPages);
 
     // Merge all markdown content
-    const mergedContent = mergeMarkdownContent(pages);
+    const mergedContent = mergeMarkdownContent(validPages);
 
     // Combine TOC and content
     const fullContent = toc + mergedContent;
@@ -445,7 +497,7 @@ app.post('/api/docs/save', async (req, res) => {
       label: versionLabel,
       timestamp,
       filename: fileName,
-      totalPages: pages.length,
+      totalPages,
       successfulPages,
       url: sourceUrl,
     };
@@ -467,12 +519,15 @@ app.post('/api/docs/save', async (req, res) => {
         url: sourceUrl,
         domain,
         lastScraped: timestamp,
-        totalPages: pages.length,
+        totalPages,
         successfulPages,
-        failedPages: pages
-          .filter((p: any) => p.content === 'No content available')
-          .map((p: any) => p.url),
-        structure: pages.map(p => ({
+        failedPages: [
+          ...pages
+            .filter((p: any) => p.content === 'No content available')
+            .map((p: any) => p.url),
+          ...blockedPages.map((p: any) => p.url),
+        ].filter(Boolean),
+        structure: validPages.map(p => ({
           type: p.type,
           url: p.url
         })),
@@ -487,13 +542,16 @@ app.post('/api/docs/save', async (req, res) => {
     }
 
     // Update structure to latest
-    updatedMetadata.structure = pages.map(p => ({
+    updatedMetadata.structure = validPages.map(p => ({
       type: p.type,
       url: p.url
     }));
-    updatedMetadata.failedPages = pages
-      .filter((p: any) => p.content === 'No content available')
-      .map((p: any) => p.url);
+    updatedMetadata.failedPages = [
+      ...pages
+        .filter((p: any) => p.content === 'No content available')
+        .map((p: any) => p.url),
+      ...blockedPages.map((p: any) => p.url),
+    ].filter(Boolean);
 
     console.log('Saving metadata with versioning:', {
       domain: updatedMetadata.domain,
@@ -732,86 +790,37 @@ app.get('/api/docs/list', async (req, res) => {
       const metadataPath = path.join(domainPath, 'metadata.json');
       
       try {
-        // Check for existing individual files that need to be merged
-        const existingPages = await mergeExistingFiles(domainPath);
-        if (existingPages.length > 0) {
-          console.log('Found existing files to merge:', existingPages.length);
-          const timestamp = new Date().toISOString();
-          
-          // Generate and save merged content
-          const toc = generateTableOfContents(existingPages);
-          const mergedContent = mergeMarkdownContent(existingPages);
-          const fullContent = toc + mergedContent;
-          
-          const fileName = `documentation_${timestamp}.md`;
-          const filePath = path.join(domainPath, fileName);
-          await fs.writeFile(filePath, fullContent);
-          
-          // Update metadata
-          const metadata = {
-            url: fullDomain,
-            domain: fullDomain,
-            lastScraped: timestamp,
-            totalPages: existingPages.length,
-            successfulPages: existingPages.length,
-            failedPages: [],
-            structure: existingPages.map(p => ({
-              type: p.type,
-              url: null
-            }))
-          };
-          await fs.writeJSON(metadataPath, metadata);
-          
-          // Clean up old files
-          const files = await fs.readdir(domainPath);
-          for (const file of files) {
-            if (file.endsWith('.md') && !file.startsWith('documentation_')) {
-              await fs.remove(path.join(domainPath, file));
-            }
-          }
-          
-          allDocs.push({
-            content: fullContent,
-            domain: fullDomain,
-            lastUpdated: timestamp,
-            url: fullDomain,
-            filePath,
-            structure: metadata.structure
-          });
-          
-          allUrls.push(metadata);
+        if (!await fs.pathExists(metadataPath)) {
           continue;
         }
-        
-        // Handle already merged documentation
-        if (await fs.pathExists(metadataPath)) {
-          console.log('Reading metadata:', metadataPath);
-          const metadata = await fs.readJSON(metadataPath);
-          allUrls.push(metadata);
 
-          const files = await fs.readdir(domainPath);
-          console.log('Found files in domain:', files);
+        console.log('Reading metadata:', metadataPath);
+        const metadata = await fs.readJSON(metadataPath);
+        allUrls.push(metadata);
 
-          const docFile = files
-            .filter(f => f.startsWith('documentation_') && f.endsWith('.md'))
-            .sort()
-            .pop();
+        const files = await fs.readdir(domainPath);
+        const docFile = files
+          .filter(f => f.startsWith('documentation_') && f.endsWith('.md'))
+          .sort()
+          .pop();
 
-          if (docFile) {
-            const filePath = path.join(domainPath, docFile);
-            console.log('Reading documentation file:', filePath);
-            const content = await fs.readFile(filePath, 'utf-8');
-            
-            allDocs.push({
-              content,
-              domain: fullDomain,
-              lastUpdated: metadata.lastScraped,
-              url: metadata.url,
-              filePath,
-              structure: metadata.structure || []
-            });
-          }
+        if (!docFile) {
+          console.log('No documentation file found for domain:', fullDomain);
+          continue;
         }
+
+        allDocs.push({
+          domain: fullDomain,
+          lastUpdated: metadata.lastScraped,
+          url: metadata.url,
+          filePath: path.join(domainPath, docFile),
+          structure: metadata.structure || [],
+          totalPages: metadata.totalPages,
+          successfulPages: metadata.successfulPages,
+          failedPages: metadata.failedPages || [],
+          latestVersion: metadata.latestVersion,
+          versions: metadata.versions
+        });
       } catch (err) {
         console.error(`Error processing domain ${fullDomain}:`, err);
         continue;
@@ -829,8 +838,8 @@ app.get('/api/docs/list', async (req, res) => {
     sampleDocs.forEach((doc, i) => {
       console.log(`Doc ${i+1} (${doc.domain}):`);
       console.log(`  - lastUpdated: ${doc.lastUpdated} (${typeof doc.lastUpdated})`);
-      console.log(`  - lastScraped: ${(doc.lastScraped)} (${typeof doc.lastScraped})`);
-      console.log(`  - ISO parse: ${new Date(doc.lastUpdated || doc.lastScraped || 0).toISOString()}`);
+      console.log(`  - lastScraped: ${(doc as any).lastScraped} (${typeof (doc as any).lastScraped})`);
+      console.log(`  - ISO parse: ${new Date(doc.lastUpdated || (doc as any).lastScraped || 0).toISOString()}`);
     });
 
     // Apply sorting based on the sortBy parameter
@@ -1181,6 +1190,81 @@ function findDomainPath(domain: string): { foundDomain: string | null; docsPath:
   return { foundDomain: null, docsPath: null };
 }
 
+function parseBoundedInt(value: unknown, fallback: number, max: number): number {
+  if (typeof value !== 'string') return fallback;
+
+  const parsed = parseInt(value, 10);
+  if (!Number.isFinite(parsed) || parsed < 1) return fallback;
+
+  return Math.min(parsed, max);
+}
+
+function truncateMarkdownToTokens(content: string, maxTokens: number): string {
+  const maxChars = maxTokens * 4;
+
+  if (content.length <= maxChars) {
+    return content;
+  }
+
+  let truncated = content.slice(0, maxChars);
+  const lastParagraph = truncated.lastIndexOf('\n\n');
+  const lastSentence = truncated.lastIndexOf('. ');
+
+  if (lastParagraph > maxChars * 0.8) {
+    truncated = truncated.slice(0, lastParagraph);
+  } else if (lastSentence > maxChars * 0.8) {
+    truncated = truncated.slice(0, lastSentence + 1);
+  }
+
+  return `${truncated}\n\n[Content truncated to fit token limit]`;
+}
+
+function filterMarkdownByTopic(content: string, topic: string): string {
+  const topicLower = topic.toLowerCase();
+  const lines = content.split('\n');
+  const relevantSections: string[] = [];
+  let inRelevantSection = false;
+  let currentSection: string[] = [];
+  let currentHeadingLevel = 0;
+
+  for (const line of lines) {
+    const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
+
+    if (!headingMatch) {
+      if (inRelevantSection) currentSection.push(line);
+      continue;
+    }
+
+    const level = headingMatch[1].length;
+    const heading = headingMatch[2].toLowerCase();
+
+    if (inRelevantSection && currentSection.length > 0) {
+      relevantSections.push(currentSection.join('\n'));
+      currentSection = [];
+    }
+
+    if (heading.includes(topicLower)) {
+      inRelevantSection = true;
+      currentHeadingLevel = level;
+      currentSection.push(line);
+    } else if (inRelevantSection && level <= currentHeadingLevel) {
+      inRelevantSection = false;
+    } else if (inRelevantSection) {
+      currentSection.push(line);
+    }
+  }
+
+  if (currentSection.length > 0) {
+    relevantSections.push(currentSection.join('\n'));
+  }
+
+  if (relevantSections.length > 0) {
+    return relevantSections.join('\n\n---\n\n');
+  }
+
+  return `No sections specifically about "${topic}" found. Try a different topic or omit the topic parameter to get full documentation.`;
+}
+
 // Get list of versions for a domain
 app.get('/api/docs/domain/:domain/versions', async (req, res) => {
   try {
@@ -1236,6 +1320,8 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
   try {
     const { domain } = req.params;
     const requestedVersion = req.query.version as string | undefined;
+    const topic = typeof req.query.topic === 'string' ? req.query.topic.trim() : '';
+    const maxTokens = parseBoundedInt(req.query.maxTokens, 0, 50000);
 
     const { foundDomain, docsPath } = findDomainPath(domain);
 
@@ -1308,7 +1394,15 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
       return res.status(404).json({ error: 'Documentation file not found' });
     }
 
-    const content = fs.readFileSync(markdownPath, 'utf-8');
+    let content = await fs.readFile(markdownPath, 'utf-8');
+
+    if (topic) {
+      content = filterMarkdownByTopic(content, topic);
+    }
+
+    if (maxTokens > 0) {
+      content = truncateMarkdownToTokens(content, maxTokens);
+    }
 
     // Build available versions list (sorted newest first)
     const availableVersions = [...metadata.versions]
@@ -1331,6 +1425,7 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
       availableVersions,
     };
 
+    res.setHeader('Cache-Control', 'public, max-age=300, stale-while-revalidate=600');
     res.json(response);
   } catch (err) {
     console.error('Error fetching documentation by domain:', err);
@@ -1675,6 +1770,93 @@ app.get('/api/admin/cache/stats', async (req, res) => {
     console.error('Cache stats error:', error);
     res.status(500).json({ error: 'Failed to get cache stats' });
   }
+});
+
+// ============================================================================
+// CRAWL PROXY ENDPOINTS
+// ============================================================================
+
+function isCrawlProviderConfigured(): boolean {
+  return CRAWL_PROVIDER === 'firecrawl' ? isFirecrawlConfigured() : isCloudflareConfigured();
+}
+
+function isValidProviderCrawlId(id: string): boolean {
+  return CRAWL_PROVIDER === 'firecrawl' ? isValidFirecrawlCrawlId(id) : isValidCrawlId(id);
+}
+
+/**
+ * POST /api/crawl/start
+ * Start a crawl job via the configured crawl provider.
+ * Returns { success, id } matching the Firecrawl-shaped frontend contract.
+ */
+app.post('/api/crawl/start', async (req, res) => {
+  try {
+    if (!isCrawlProviderConfigured()) {
+      res.status(503).json({
+        success: false,
+        error: CRAWL_PROVIDER === 'firecrawl'
+          ? 'Crawl service not configured. Set FIRECRAWL_API_URL or REACT_APP_FIRECRAWL_API_URL.'
+          : 'Crawl service not configured. Set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID.',
+      });
+      return;
+    }
+
+    const body: CrawlStartRequest = req.body;
+
+    if (!body.url) {
+      res.status(400).json({ success: false, error: 'Missing required field: url' });
+      return;
+    }
+
+    console.log(`[crawl-proxy] Starting ${CRAWL_PROVIDER} crawl for: ${body.url}`);
+    const result = CRAWL_PROVIDER === 'firecrawl'
+      ? await startFirecrawlCrawl(body)
+      : await startCrawl(body);
+
+    if (result.success) {
+      res.json({ success: true, id: result.id });
+    } else {
+      res.status(502).json({ success: false, error: result.error });
+    }
+  } catch (error: any) {
+    console.error('[crawl-proxy] Start error:', error);
+    res.status(500).json({ success: false, error: error.message || 'Internal server error' });
+  }
+});
+
+/**
+ * GET /api/crawl/status/:id
+ * Poll crawl status. Returns the same shape as Firecrawl's GET /crawl/:id:
+ * { status, completed, total, data: [{ markdown, metadata: { sourceURL, title } }] }
+ */
+app.get('/api/crawl/status/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    if (!id || !isValidProviderCrawlId(id)) {
+      res.status(400).json({ status: 'failed', error: 'Invalid or missing crawl ID' });
+      return;
+    }
+
+    const status = CRAWL_PROVIDER === 'firecrawl'
+      ? await getFirecrawlCrawlStatus(id)
+      : await getCrawlStatus(id);
+    res.json(status);
+  } catch (error: any) {
+    console.error('[crawl-proxy] Status error:', error);
+    res.status(500).json({ status: 'failed', error: error.message || 'Internal server error' });
+  }
+});
+
+/**
+ * GET /api/crawl/health
+ * Check if the crawl backend is configured.
+ */
+app.get('/api/crawl/health', async (_req, res) => {
+  res.json({
+    configured: isCrawlProviderConfigured(),
+    provider: CRAWL_PROVIDER === 'firecrawl' ? 'firecrawl' : 'cloudflare-browser-rendering',
+  });
 });
 
 // ============================================================================

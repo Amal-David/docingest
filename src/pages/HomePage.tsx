@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
+import { isLikelyBlockedPage } from '../utils/scrape-filter';
 
 // Types
 interface SearchResult {
@@ -34,7 +35,6 @@ interface FastSearchResponse {
 }
 
 const API_URL = '/api';
-const FIRECRAWL_API = process.env.REACT_APP_FIRECRAWL_API_URL || 'http://localhost:3002/v2';
 
 // Debounce hook
 function useDebounce<T>(value: T, delay: number): T {
@@ -189,25 +189,25 @@ export default function HomePage() {
     }
 
     try {
-      // Start crawl with optimized settings
+      // Start crawl via server proxy (Cloudflare Browser Rendering)
       const requestBody = {
         url: url.startsWith('http') ? url : `https://${url}`,
         limit: 250,
         maxDepth: 5,
         allowBackwardLinks: true,
-        ignoreQueryParameters: true,  // Avoid re-scraping same path with different query params
+        ignoreQueryParameters: true,
         scrapeOptions: {
           formats: ['markdown', 'html'],
           onlyMainContent: true,
-          removeBase64Images: true,   // Reduce payload size
-          blockAds: true,             // Block ads and cookie popups
+          removeBase64Images: true,
+          blockAds: true,
           timeout: 60000,
           waitFor: 2000,
-          maxAge: 3600000             // Use cached version if < 1 hour old (500% faster)
+          maxAge: 3600000
         }
       };
 
-      const response = await fetch(`${FIRECRAWL_API}/crawl`, {
+      const response = await fetch(`${API_URL}/crawl/start`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(requestBody)
@@ -239,7 +239,7 @@ export default function HomePage() {
         }
 
         try {
-          const statusResponse = await fetch(`${FIRECRAWL_API}/crawl/${crawlId}`);
+          const statusResponse = await fetch(`${API_URL}/crawl/status/${crawlId}`);
 
           // Handle HTTP errors
           if (!statusResponse.ok) {
@@ -270,7 +270,14 @@ export default function HomePage() {
             if (statusData.data && statusData.data.length > 0) {
               const timestamp = new Date().toISOString();
               const pages = statusData.data
-                .filter((item: any) => item.markdown && item.markdown.length > 100)
+                .filter((item: any) => {
+                  const blocked = isLikelyBlockedPage(
+                    item.metadata?.title,
+                    item.markdown,
+                    item.metadata?.sourceURL
+                  );
+                  return !blocked && item.markdown && item.markdown.length > 100;
+                })
                 .map((item: any) => ({
                   content: item.markdown,
                   type: item.metadata?.title || 'Unknown',
@@ -378,33 +385,65 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title>DocIngest - Search Documentation for AI Coding Tools</title>
-        <meta name="description" content="Search 1175+ documentation sources instantly." />
+        <title>DocIngest is Open Source 🎉 | MCP-Ready Docs Engine</title>
+        <meta name="description" content="DocIngest is now open source: turn documentation sites into searchable, MCP-accessible context for humans and coding agents." />
+        <meta property="og:title" content="DocIngest is open source 🎉" />
+        <meta property="og:description" content="Build, self-host, and extend the docs ingestion engine behind docingest.com." />
       </Helmet>
 
       <div className="space-y-8">
         {/* Header */}
-        <div className="text-center space-y-4">
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
-            Doc<span className="text-primary">Ingest</span>
+        <div className="text-center space-y-5">
+          <a
+            href="https://github.com/Amal-David/docingest"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative inline-flex -rotate-1 items-center overflow-hidden rounded-lg border-[3px] border-gray-900 bg-yellow-200 px-5 py-2 text-sm font-black uppercase tracking-[0.18em] text-gray-900 shadow-[6px_6px_0_#111827] transition-transform hover:-translate-y-0.5 hover:rotate-0"
+          >
+            <span className="absolute inset-x-0 bottom-0 h-2 bg-pink-400 opacity-70 transition-all group-hover:h-full"></span>
+            <span className="relative z-10">
+              DocIngest is open source now 🎉 github.com/Amal-David/docingest
+            </span>
+          </a>
+          <div>
+            <span className="inline-flex items-center rounded-full border-[3px] border-gray-900 bg-blue-50 px-4 py-1 text-xs font-bold uppercase tracking-[0.2em] text-blue-700">
+              Open-Source Docs Engine
+            </span>
+          </div>
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight max-w-3xl mx-auto">
+            Searchable docs context for humans and coding agents
           </h1>
-          <p className="text-gray-600 text-lg">
-            Search {stats.totalDomains > 0 ? `${stats.totalDomains}+` : ''} documentation sources instantly
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            DocIngest turns documentation sites into a shared corpus you can browse in the UI, search across domains, and expose to MCP-compatible tools.
           </p>
 
-          <div className="flex justify-center space-x-4">
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link
+              to="/view"
+              className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
+            >
+              Browse Corpus
+            </Link>
             <Link
               to="/add"
               className="px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
             >
-              Add New Docs
+              Index Docs
             </Link>
-            <Link
-              to="/view"
+            <a
+              href="https://github.com/Amal-David/docingest"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-4 py-2 bg-white text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
             >
-              Browse All
-            </Link>
+              GitHub
+            </a>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-3 text-sm text-gray-600">
+            <span className="rounded-full bg-white border-2 border-gray-900 px-3 py-1">Markdown-backed</span>
+            <span className="rounded-full bg-white border-2 border-gray-900 px-3 py-1">Self-hostable</span>
+            <span className="rounded-full bg-white border-2 border-gray-900 px-3 py-1">MCP-ready</span>
           </div>
         </div>
 
@@ -412,6 +451,12 @@ export default function HomePage() {
         <div className="relative" ref={dropdownRef}>
           <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
           <div className="rounded-xl relative z-20 p-6 border-[3px] border-gray-900 bg-card">
+            <div className="mb-4 space-y-1">
+              <h2 className="text-xl font-bold">Search the indexed corpus</h2>
+              <p className="text-sm text-gray-600">
+                Look up a library, framework, or API. If it is not indexed yet, you can ingest it in one click.
+              </p>
+            </div>
             <div className="relative">
               <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
               <div className="relative z-10 flex items-center bg-white border-[3px] border-gray-900 rounded">
@@ -436,7 +481,7 @@ export default function HomePage() {
                   onChange={(e) => setQuery(e.target.value)}
                   onKeyDown={handleKeyDown}
                   onFocus={() => results.length > 0 && setShowDropdown(true)}
-                  placeholder="Search documentation... (e.g. react, nextjs, tailwind)"
+                  placeholder="Search docs... (e.g. react, nextjs, tailwind, stripe)"
                   className="w-full p-4 bg-transparent outline-none text-gray-900 placeholder:text-gray-400"
                   autoComplete="off"
                   spellCheck={false}
@@ -530,7 +575,7 @@ export default function HomePage() {
                   }}
                   className="text-primary hover:underline text-sm font-medium"
                 >
-                  + Add this documentation
+                  + Index this docs site
                 </button>
               </div>
             )}
@@ -538,10 +583,10 @@ export default function HomePage() {
         </div>
 
         {/* Stats bar */}
-        <div className="flex items-center justify-center gap-4 text-sm text-gray-500">
+        <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-gray-500">
           <span>{stats.totalDomains > 0 ? `${stats.totalDomains}+` : '...'} docs indexed</span>
           <span>•</span>
-          <span>Works with Claude Code, Cursor, Windsurf, Codex</span>
+          <span>One corpus for humans, Claude Code, Cursor, Windsurf, Codex, and other MCP clients</span>
         </div>
 
         {/* MCP CTA */}
@@ -549,11 +594,11 @@ export default function HomePage() {
           <div className="w-full h-full absolute inset-0 bg-gray-900 rounded-xl translate-y-2 translate-x-2"></div>
           <div className="rounded-xl relative z-20 p-8 border-[3px] border-gray-900 bg-blue-50 text-center">
             <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-bold mb-4">
-              MCP Server Available
+              One Corpus, Many Interfaces
             </span>
-            <h3 className="text-xl font-bold mb-2">Use with AI Coding Tools</h3>
+            <h3 className="text-xl font-bold mb-2">Use the Same Docs Corpus Everywhere</h3>
             <p className="text-gray-600 text-sm mb-4 max-w-md mx-auto">
-              Add DocIngest to Claude Code, Cursor, Windsurf, Codex, or any MCP-compatible tool for instant documentation access.
+              Index docs once, then search them in the web app or expose them to Claude Code, Cursor, Windsurf, Codex, and other MCP-compatible tools.
             </p>
             <div className="relative inline-block mb-4">
               <div className="w-full h-full rounded bg-gray-900 translate-y-1 translate-x-1 absolute inset-0"></div>
@@ -568,7 +613,7 @@ export default function HomePage() {
                 to="/mcp-guide"
                 className="text-blue-600 hover:text-blue-800 text-sm font-medium underline"
               >
-                View Full Setup Guide →
+                Open MCP Setup Guide →
               </Link>
             </div>
           </div>
@@ -593,7 +638,7 @@ export default function HomePage() {
         {/* Recently Updated Docs */}
         {popularDocs.length > 0 && (
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold">Recently Updated</h2>
+            <h2 className="text-2xl font-bold">Explore Recently Indexed Docs</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {popularDocs.slice(0, 10).map((doc) => (
                 <div key={doc.domain} className="relative">
@@ -643,12 +688,12 @@ export default function HomePage() {
                         onClick={() => navigate(`/docs/${doc.domain}`)}
                         className="px-4 py-2 bg-primary text-white border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
                       >
-                        View
+                        Open Docs
                       </button>
                       <button
                         onClick={() => handleResync(doc.domain, doc.url || doc.domain)}
                         disabled={syncingDomain !== null}
-                        title="Re-crawl this documentation to get the latest version"
+                        title="Re-index this documentation source with the latest content"
                         className={`px-4 py-2 border-[3px] border-gray-900 rounded transition-transform ${
                           syncingDomain === doc.domain
                             ? 'bg-blue-100 text-blue-700 cursor-wait'
@@ -657,7 +702,7 @@ export default function HomePage() {
                             : 'bg-secondary text-gray-900 hover:-translate-y-0.5'
                         }`}
                       >
-                        {syncingDomain === doc.domain ? 'Syncing...' : 'Resync'}
+                        {syncingDomain === doc.domain ? 'Indexing...' : 'Re-index'}
                       </button>
                     </div>
                   </div>

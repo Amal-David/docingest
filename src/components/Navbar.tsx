@@ -20,19 +20,19 @@ const Navbar: React.FC = () => {
               to="/add"
               className="text-gray-900 hover:-translate-y-0.5 transition-transform"
             >
-              Add Docs
+              Index Docs
             </Link>
             <Link
               to="/view"
               className="text-gray-900 hover:-translate-y-0.5 transition-transform"
             >
-              View Docs
+              Browse Corpus
             </Link>
             <Link
               to="/mcp-guide"
               className="text-gray-900 hover:-translate-y-0.5 transition-transform"
             >
-              MCP Guide
+              MCP Setup
             </Link>
           </nav>
         </div>

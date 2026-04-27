@@ -6,9 +6,9 @@ import ReactGA from "react-ga4";
 import { Helmet } from 'react-helmet-async';
 import { Tooltip as ReactTooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
+import { isLikelyBlockedPage } from '../utils/scrape-filter';
 
-// API configuration - using v2 for better caching and performance
-const FIRECRAWL_API = process.env.REACT_APP_FIRECRAWL_API_URL || 'http://localhost:3002/v2';
+// API configuration - crawl goes through server proxy (Cloudflare Browser Rendering)
 const API_URL = '/api';
 
 interface DocPreview {
@@ -361,23 +361,23 @@ const HomePage: React.FC = () => {
         inProgress: true
       });
 
-      // Prepare the crawl request (v2 API with optimized settings)
+      // Prepare the crawl request (proxied through server to Cloudflare)
       const requestBody = {
         url,
         limit: maxPages,
         maxDepth: 5,
         allowBackwardLinks: true,
-        ignoreQueryParameters: true,  // Avoid re-scraping same path with different query params
+        ignoreQueryParameters: true,
         ...(includePattern && { includePaths: [includePattern] }),
         ...(excludePattern && { excludePaths: [excludePattern] }),
         scrapeOptions: {
           formats: ['markdown', 'html'],
           onlyMainContent: true,
-          removeBase64Images: true,   // Reduce payload size
-          blockAds: true,             // Block ads and cookie popups
-          timeout: 60000,             // 60 seconds per page
-          waitFor: 2000,              // Wait for dynamic content
-          maxAge: 3600000             // Use cached version if < 1 hour old (500% faster)
+          removeBase64Images: true,
+          blockAds: true,
+          timeout: 60000,
+          waitFor: 2000,
+          maxAge: 3600000
         }
       };
 
@@ -385,8 +385,8 @@ const HomePage: React.FC = () => {
       if (includePattern && excludePattern) {
         const includePatterns = includePattern.split(',').map(p => p.trim());
         const excludePatterns = excludePattern.split(',').map(p => p.trim());
-        
-        const conflicts = includePatterns.filter(inc => 
+
+        const conflicts = includePatterns.filter(inc =>
           excludePatterns.some(exc => inc === exc || inc.startsWith(exc) || exc.startsWith(inc))
         );
 
@@ -402,7 +402,7 @@ const HomePage: React.FC = () => {
       // Detailed log to console only
       console.log('Crawl request:', requestBody);
 
-      const response = await fetch(`${FIRECRAWL_API}/crawl`, {
+      const response = await fetch(`${API_URL}/crawl/start`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -489,7 +489,7 @@ const HomePage: React.FC = () => {
     }
 
     try {
-      const response = await fetch(`${FIRECRAWL_API}/crawl/${id}`, {
+      const response = await fetch(`${API_URL}/crawl/status/${id}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -538,8 +538,14 @@ const HomePage: React.FC = () => {
         totalPages: data.total || 0,
         completedPages: data.completed || 0,
         failedPages: data.data 
-          ? data.data.filter((item: any) => !item.markdown || item.markdown.length <= 100)
-              .map((item: any) => item.metadata?.sourceURL || 'Unknown URL')
+          ? data.data.filter((item: any) => {
+              const blocked = isLikelyBlockedPage(
+                item.metadata?.title,
+                item.markdown,
+                item.metadata?.sourceURL
+              );
+              return blocked || !item.markdown || item.markdown.length <= 100;
+            }).map((item: any) => item.metadata?.sourceURL || 'Unknown URL')
           : [],
         inProgress: data.status !== 'completed' && data.status !== 'failed'
       }));
@@ -551,18 +557,21 @@ const HomePage: React.FC = () => {
           const failedPages: string[] = [];
           
           const pages: DocPreview[] = data.data.map((item: CrawlStatusResponse['data'][0]) => {
+            const blocked = isLikelyBlockedPage(
+              item.metadata?.title,
+              item.markdown,
+              item.metadata?.sourceURL
+            );
+            if (blocked) {
+              failedPages.push(`${item.metadata?.sourceURL || 'Unknown URL'} (Blocked by anti-bot protection)`);
+              return null as unknown as DocPreview;
+            }
             if (!item.markdown || item.markdown.length <= 100) {
               const failureReason = !item.markdown 
                 ? 'No markdown content' 
                 : 'Content too short';
               failedPages.push(`${item.metadata?.sourceURL || 'Unknown URL'} (${failureReason})`);
-              return {
-                content: 'No content available',
-                type: item.metadata?.title || 'Unknown',
-                lastUpdated: timestamp,
-                url: item.metadata?.sourceURL,
-                domain
-              };
+              return null as unknown as DocPreview;
             }
             return {
               content: item.markdown,
@@ -571,7 +580,7 @@ const HomePage: React.FC = () => {
               url: item.metadata?.sourceURL,
               domain
             };
-          }).filter((page: DocPreview) => page.content !== 'No content available');
+          }).filter((page: DocPreview | null) => page !== null) as DocPreview[];
 
           logAndUpdateDebug(`🎯 FINAL RESULTS: ${pages.length} valid pages out of ${data.data.length} total pages processed`);
 
@@ -796,11 +805,11 @@ const HomePage: React.FC = () => {
   return (
     <>
     <Helmet prioritizeSeoTags={true}>
-        <title>Home | DocIngest</title>
-        <meta name="description" content="Download documentation for any Framework, Library or API" />
-        <meta name="keywords" content="documentation, download, save, framework, library, api" />
-        <meta property="og:title" content="Home | DocIngest" />
-        <meta property="og:description" content="Download documentation for any Framework, Library or API" />
+        <title>Index Docs | DocIngest</title>
+        <meta name="description" content="Ingest a documentation site into DocIngest's searchable, MCP-accessible corpus." />
+        <meta name="keywords" content="docs ingestion, MCP, documentation indexing, framework docs, API docs" />
+        <meta property="og:title" content="Index Docs | DocIngest" />
+        <meta property="og:description" content="Ingest a documentation site into DocIngest's searchable, MCP-accessible corpus." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://docingest.com" />
       </Helmet>
@@ -810,7 +819,7 @@ const HomePage: React.FC = () => {
           Doc<span className="text-primary">Ingest</span>
         </h1>
         <p className="text-gray-600 text-lg">
-          Download documentation for any Framework, Library or API
+          Ingest a docs site into your searchable, MCP-accessible corpus
         </p>
         
         <div className="flex justify-center space-x-4">
@@ -818,7 +827,7 @@ const HomePage: React.FC = () => {
             to="/view"
             className="px-4 py-2 bg-secondary text-gray-900 border-[3px] border-gray-900 rounded hover:-translate-y-0.5 transition-transform"
           >
-            View Indexed Docs
+            Browse Indexed Docs
           </Link>
         </div>
       </div>
@@ -933,7 +942,7 @@ const HomePage: React.FC = () => {
                 disabled={isLoading || isCrawling}
                 className="w-full px-6 py-3 bg-primary text-white border-[3px] border-gray-900 rounded font-medium relative z-10 hover:-translate-y-0.5 transition-transform disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {isCrawling ? 'Downloading...' : 'Download Documentation'}
+                {isCrawling ? 'Indexing...' : 'Start Indexing'}
               </button>
             </div>
           </div>
@@ -946,7 +955,7 @@ const HomePage: React.FC = () => {
           <div className="rounded-xl relative z-20 p-6 border-[3px] border-gray-900 bg-blue-50">
             <div className="space-y-3">
               <p className="text-blue-700 font-semibold">
-                Scraping in progress: {metrics.completedPages}/{metrics.totalPages} pages
+                Indexing in progress: {metrics.completedPages}/{metrics.totalPages} pages
               </p>
               <div className="relative h-2">
                 {/* Background track */}

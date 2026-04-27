@@ -1,442 +1,229 @@
 # DocIngest
 
-A modern documentation scraping and management tool that allows you to download, save, and manage documentation from any website using the Firecrawl API.
+DocIngest is the open-source engine for turning documentation sites into searchable, MCP-accessible context for humans and coding agents.
 
-## Features
+It crawls docs, stores them as clean markdown, indexes them for search, and exposes the same corpus through a web UI, CLI, and MCP server. Use it to build a public docs index, self-host an internal corpus, or give coding agents fresher documentation context.
 
-- 🚀 Scrape documentation from any URL using Firecrawl
-- 📝 Convert HTML to clean Markdown format
-- 📁 Save documentation locally with organized storage
-- 🔍 Full-text search capabilities across all saved docs
-- 📱 Responsive design with mobile-first approach
-- 🎨 Modern UI with consistent theming
-- 🔗 SEO-friendly URLs for saved documentation
-- ⚡ High-performance crawling with configurable limits
-- 🔄 Real-time crawling status and progress tracking
-- 📊 Comprehensive logging and debugging
+[Quick Start](#quick-start) • [MCP + CLI](#mcp--cli) • [Screenshots](#screenshots) • [Setup Docs](#setup-docs) • [Contributing](#contributing)
+
+## Status
+
+### What works today
+
+- ✅ Index documentation sites from the web UI
+- ✅ Browse and search indexed docs at `docingest.com`
+- ✅ Open docs by domain, copy markdown, and download stored docs
+- ✅ Re-index sources when upstream docs change
+- ✅ Query docs from MCP-compatible coding tools
+- ✅ Use the package as a lightweight CLI for quick lookup
+
+### Hosted corpus
+
+- 📚 The live `main` deployment currently serves **1,512 latest documentation sites** on `docingest.com` as of April 24, 2026
+- 🗂️ DocIngest stores versioned snapshots per domain, so one docs site can have multiple historical versions behind the scenes
+- ℹ️ The Git repository does not commit the full hosted corpus; the deployed service holds the actual indexed docs data
+
+### Still early
+
+- 🧪 Search/ranking works, but needs deeper tuning
+- 🧪 Loading, empty, and success states need more polish
+- 🧪 Version-aware storage exists, but the product UX around versions is still early
+- ❌ Not yet a mature enterprise docs platform with permissions, collaboration, and admin workflows
+
+## Screenshots
+
+### Homepage
+
+![DocIngest homepage](docs/screenshots/homepage.png)
+
+### Index a docs site
+
+![DocIngest indexing flow](docs/screenshots/index-docs.png)
+
+### MCP setup guide
+
+![DocIngest MCP guide](docs/screenshots/mcp-guide.png)
+
+## Why DocIngest
+
+Most documentation is published for browsers, not for agents or retrieval systems.
+
+DocIngest gives you a practical bridge:
+
+- Crawl docs and keep the useful pages
+- Store documentation as inspectable markdown
+- Search across libraries, frameworks, and APIs
+- Expose the corpus to humans and coding agents
+- Self-host the whole thing for private or internal docs
+
+## What You Get
+
+- Documentation crawling powered by Firecrawl
+- Markdown-first storage for indexed pages
+- Search and autocomplete across indexed docs
+- MCP server for agent access to your documentation corpus
+- CLI access for quick lookups and scripts
+- Web UI for browsing, reading, and re-syncing docs
+
+## Best Fit
+
+DocIngest is useful when you want docs to behave more like retrievable infrastructure than scattered web pages.
+
+Good fits:
+
+- Teams building a searchable internal docs corpus
+- Builders who want MCP-ready documentation for coding agents
+- Public indexes that need simple markdown storage and search
+- Experiments around docs retrieval, agent context, and versioned docs snapshots
+
+## Quick Start
+
+### Prerequisites
+
+- Node.js 18+ or Bun
+- Firecrawl, hosted or self-hosted
+- Redis for fast autocomplete/search
+
+Redis is optional for tiny local tests, but recommended for anything serious.
+
+### Install
+
+```bash
+git clone https://github.com/Amal-David/docingest.git
+cd docingest
+npm install
+cd server && npm install && cd ..
+```
+
+### Configure
+
+Create `.env` in the repo root:
+
+```bash
+CRAWL_PROVIDER=firecrawl
+FIRECRAWL_API_KEY=fc-your-api-key-here
+FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
+REACT_APP_API_URL=http://localhost:8001/api
+REDIS_HOST=localhost
+REDIS_PORT=6380
+```
+
+For local Docker with self-hosted Firecrawl:
+
+```bash
+CRAWL_PROVIDER=firecrawl
+FIRECRAWL_API_URL=http://localhost:3002/v1
+REACT_APP_API_URL=http://localhost:8001/api
+REDIS_HOST=localhost
+REDIS_PORT=6380
+```
+
+For setup details, use these guides:
+
+- [Docker run modes](./docs/setup/docker.md)
+- [Firecrawl setup](./docs/setup/firecrawl.md)
+- [Redis setup](./docs/setup/redis.md)
+
+### Run
+
+Choose the local services you want:
+
+Run everything local:
+
+```bash
+docker compose --profile firecrawl --profile tools up -d
+```
+
+Run only Redis:
+
+```bash
+docker compose up -d redis
+```
+
+Run Redis and Firecrawl without the Redis UI:
+
+```bash
+docker compose --profile firecrawl up -d
+```
+
+Run Redis with the Redis UI:
+
+```bash
+docker compose --profile tools up -d
+```
+
+Backend:
+
+```bash
+cd server
+npm start
+```
+
+Frontend:
+
+```bash
+npm run dev-start
+```
+
+Then open `http://localhost:8000`.
+
+After indexing docs, build the Redis search index:
+
+```bash
+cd server
+npm run build-index
+```
+
+## MCP + CLI
+
+Add DocIngest to Claude Code:
+
+```bash
+claude mcp add docingest -- npx -y @docingest/mcp-server
+```
+
+Use the same package as a CLI:
+
+```bash
+npx @docingest/mcp-server find react
+npx @docingest/mcp-server read react.dev --topic hooks --max-tokens 5000
+npx @docingest/mcp-server search "server components" --limit 5
+```
+
+MCP tools:
+
+- `find-docs` finds a library or docs domain
+- `read-docs` fetches focused documentation content
+- `query-docs` searches across indexed docs
+
+For editor-specific config, see [the MCP server README](./mcp-server/README.md).
+
+## Setup Docs
+
+Use these when you need more than the happy path:
+
+- [Redis setup](./docs/setup/redis.md) for local/self-hosted Redis, indexing, and verification
+- [Firecrawl setup](./docs/setup/firecrawl.md) for hosted or self-hosted crawling
+- [Docker run modes](./docs/setup/docker.md) for all-in-one or partial local services
+- [Nginx setup](./docs/setup/nginx.md) for production reverse proxy configuration
+- [Performance notes](./docs/performance.md) for speedups and next optimization work
+- [Reference](./docs/reference.md) for storage, API, deployment shape, and repo details
 
 ## Tech Stack
 
-- **Frontend**: React with TypeScript, Tailwind CSS
-- **Backend**: Node.js with Express, TypeScript
-- **Runtime**: Bun (preferred) or Node.js
-- **Process Manager**: PM2 for production
-- **Web Scraping**: Firecrawl API (external service)
-- **Storage**: File-based markdown storage
-- **Proxy**: Nginx (for production)
-
-## 📚 Setup Guides
-
-| Guide | Purpose | When to Use |
-|-------|---------|-------------|
-| **[Main README](./README.md)** | Quick start and overview | Getting started |
-| **[🕷️ Firecrawl Setup](./FIRECRAWL_SETUP.md)** | Detailed Firecrawl configuration | API setup and troubleshooting |
-| **[🌐 Nginx Setup](./NGINX_SETUP.md)** | Production deployment | Production hosting |
-
-## Prerequisites
-
-- **Node.js** (v18 or higher) or **Bun** (recommended)
-- **PM2** (for production deployment)
-- **Nginx** (for production reverse proxy)
-- **Firecrawl API Key** (get from [firecrawl.dev](https://firecrawl.dev))
-
-## Quick Setup
-
-### 1. Firecrawl Configuration
-
-DocIngest requires a Firecrawl API key to scrape websites. 
-
-**📖 [Complete Firecrawl Setup Guide →](./FIRECRAWL_SETUP.md)**
-
-**Quick setup:**
-1. Get API key from [firecrawl.dev](https://firecrawl.dev)
-2. Create `.env` file:
-```bash
-FIRECRAWL_API_KEY=fc-your-api-key-here
-REACT_APP_FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
-REACT_APP_API_URL=http://localhost:8001/api
-```
-
-## Installation
-
-### Quick Start (Development)
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/Amal-David/docingest.git
-cd docingest
-```
-
-2. **Install Bun (recommended):**
-```bash
-# Install Bun (faster than npm/yarn)
-curl -fsSL https://bun.sh/install | bash
-source ~/.bashrc
-```
-
-3. **Install dependencies:**
-```bash
-# Install all dependencies with Bun
-bun install
-
-# Install server dependencies
-cd server && bun install && cd ..
-```
-
-4. **Set up environment variables:**
-```bash
-# Create environment file
-cp .env.example .env
-# Edit .env and add your Firecrawl API key
-```
-
-5. **Start development servers:**
-```bash
-# Start frontend (port 8000)
-bun run dev
-
-# In another terminal, start backend (port 8001)
-cd server && bun run dev
-```
-
-### Alternative Installation (npm/yarn)
-
-```bash
-# Install dependencies
-npm install
-cd server && npm install && cd ..
-
-# Start development
-npm start                    # Frontend
-cd server && npm start       # Backend
-```
-
-## Storage Location
-
-### Saved Documentation Files
-
-All scraped documentation is stored in the following locations:
-
-```
-docingest/
-├── server/storage/docs/          # Primary storage location
-│   ├── example.com/
-│   │   ├── documentation_2025-01-15T10:30:00.000Z.md
-│   │   └── metadata.json
-│   └── another-site.com/
-│       ├── documentation_2025-01-16T14:20:00.000Z.md
-│       └── metadata.json
-└── storage/docs/                 # Alternative storage (if configured)
-```
-
-### File Structure
-
-- **Domain folders**: Each scraped site gets its own folder named after the domain
-- **Markdown files**: Documentation content saved as timestamped `.md` files
-- **Metadata files**: JSON files containing crawl information, timestamps, and configuration
-- **Automatic organization**: Files are automatically organized by domain and timestamp
-
-### Accessing Saved Documentation
-
-1. **Via Web Interface**: Visit `http://localhost:8000/domain-name`
-2. **Direct file access**: Navigate to `server/storage/docs/domain-name/`
-3. **API endpoint**: `GET /api/docs/content?domain=domain-name`
-
-## Production Deployment
-
-For production deployment with Nginx, SSL, and PM2 process management:
-
-**🚀 [Complete Production Setup Guide →](./NGINX_SETUP.md)**
-
-### Quick Production Setup
-
-1. **Install dependencies:**
-```bash
-sudo apt update && apt install nginx pm2 -y
-curl -fsSL https://bun.sh/install | bash
-```
-
-2. **Deploy application:**
-```bash
-git clone https://github.com/Amal-David/docingest.git
-cd docingest
-bun install && cd server && bun install && cd ..
-bun run build
-```
-
-3. **Start with PM2:**
-```bash
-chmod +x start-production.sh
-./start-production.sh
-```
-
-4. **Configure Nginx** (see [NGINX_SETUP.md](./NGINX_SETUP.md) for complete configuration)
-
-5. **Setup SSL:**
-```bash
-sudo apt install certbot python3-certbot-nginx -y
-sudo certbot --nginx -d yourdomain.com
-```
-
-## Usage
-
-### Basic Usage
-
-1. **Access the application**: Visit `http://localhost:8000` (development) or your domain (production)
-2. **Enter documentation URL**: Paste any website URL you want to scrape
-3. **Configure crawling options**:
-   - **Max Pages**: Limit the number of pages to crawl (1-100)
-   - **Include Patterns**: Specify URL patterns to include (optional)
-   - **Exclude Patterns**: Specify URL patterns to exclude (optional)
-4. **Start crawling**: Click "Download Documentation"
-5. **Monitor progress**: Watch real-time status updates and logs
-6. **Access results**: Once complete, view or download the documentation
-
-### URL Structure
-
-- **Homepage**: `/` - Main interface for starting new crawls
-- **View Documentation**: `/:domain` - View saved documentation
-- **Examples**:
-  - `localhost:8000/docs.anthropic.com` - View Anthropic docs
-  - `localhost:8000/nextjs.org` - View Next.js documentation
-  - `localhost:8000/docs.firecrawl.dev` - View Firecrawl docs
-
-### Crawling Configuration
-
-#### Advanced Options
-
-```javascript
-// Example crawl configuration
-{
-  "url": "https://docs.example.com",
-  "maxPages": 50,
-  "includePattern": "docs\\.example\\.com/guides/.*",
-  "excludePattern": "docs\\.example\\.com/(blog|changelog)/.*",
-  "maxDepth": 5,
-  "allowBackwardLinks": true,
-  "scrapeOptions": {
-    "formats": ["markdown", "html"],
-    "onlyMainContent": true,
-    "removeBase64Images": false,
-    "timeout": 20000,
-    "waitFor": 1000
-  }
-}
-```
-
-#### Pattern Examples
-
-- **Include specific sections**: `docs\.example\.com/api/.*`
-- **Exclude unwanted content**: `(blog|news|changelog|releases)`
-- **Multiple patterns**: `(guides|tutorials|reference)`
-
-### API Endpoints
-
-#### Frontend Configuration
-
-```typescript
-const FIRECRAWL_API = process.env.REACT_APP_FIRECRAWL_API_URL || 'https://api.firecrawl.dev/v1';
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8001/api';
-```
-
-#### Available Endpoints
-
-```bash
-# Documentation Management
-GET    /api/docs/list                    # List all saved documentation
-GET    /api/docs/content?domain=:domain  # Get documentation content
-GET    /api/docs/download?domain=:domain # Download documentation file
-POST   /api/docs/save                   # Save new documentation
-
-# Crawling Operations (via Firecrawl)
-POST   /v1/crawl                        # Start new crawl job
-GET    /v1/crawl/:jobId                 # Check crawl status
-```
-
-#### Example API Usage
-
-```javascript
-// Start a new crawl
-const response = await fetch(`${FIRECRAWL_API}/crawl`, {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({
-    url: 'https://docs.example.com',
-    maxPages: 10,
-    scrapeOptions: {
-      formats: ['markdown'],
-      onlyMainContent: true
-    }
-  })
-});
-
-// Check crawl status
-const status = await fetch(`${FIRECRAWL_API}/crawl/${jobId}`);
-
-// Get saved documentation
-const docs = await fetch(`${API_URL}/docs/content?domain=example.com`);
-```
-
-### Troubleshooting
-
-#### Quick Fixes
-
-1. **Firecrawl API Issues**: Check [FIRECRAWL_SETUP.md](./FIRECRAWL_SETUP.md#troubleshooting)
-2. **Production Issues**: Check [NGINX_SETUP.md](./NGINX_SETUP.md#troubleshooting)
-3. **Port conflicts**: `lsof -i :8000` and `lsof -i :8001`
-4. **Storage issues**: `chmod -R 755 server/storage/`
-
-#### Debug Mode
-
-```bash
-# Development
-DEBUG=* bun run dev
-
-# Production logs
-pm2 logs --lines 100
-```
-
-## Features in Detail
-
-### 🚀 Advanced Web Scraping
-- **Firecrawl Integration**: Uses Firecrawl's robust API for reliable web scraping
-- **Smart Content Extraction**: Automatically identifies and extracts main content
-- **Configurable Crawling**: Control depth, page limits, and URL patterns
-- **Real-time Progress**: Live updates during crawling process
-
-### 📁 Organized Storage
-- **Domain-based Organization**: Each site gets its own folder
-- **Timestamped Files**: Multiple crawls of the same site are preserved
-- **Metadata Tracking**: JSON files store crawl configuration and stats
-- **Easy Access**: Files accessible via web interface or direct file system
-
-### 🔍 Search and Navigation
-- **Domain-based URLs**: Clean URLs like `/docs.anthropic.com`
-- **Fast File Serving**: Optimized static file serving
-- **Responsive Design**: Works on desktop and mobile devices
-
-### ⚡ Performance Optimized
-- **Bun Runtime**: Faster than Node.js for development and production
-- **PM2 Process Management**: Automatic restarts and clustering
-- **Nginx Reverse Proxy**: Production-ready load balancing
-- **Efficient Storage**: Markdown format for smaller file sizes
-
-## Environment Variables
-
-### Essential Variables
-
-```bash
-# Required
-FIRECRAWL_API_KEY=fc-your-api-key-here
-REACT_APP_FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
-REACT_APP_API_URL=http://localhost:8001/api
-
-# Optional
-NODE_ENV=development
-PORT=8000
-API_PORT=8001
-```
-
-**📖 [Complete Environment Reference →](./FIRECRAWL_SETUP.md#environment-configuration)**
+- React + TypeScript + Tailwind CSS
+- Node.js + Express + TypeScript
+- Firecrawl for crawling
+- Redis for autocomplete, full-text search, and cached docs
+- File-based markdown storage
 
 ## Contributing
 
-We welcome contributions! Here's how to get started:
+Contributions are welcome, especially around crawling quality, search/ranking, MCP ergonomics, docs UX, and self-hosting.
 
-### Development Setup
-
-1. **Fork the repository** on GitHub
-2. **Clone your fork**:
-   ```bash
-   git clone https://github.com/yourusername/docingest.git
-   cd docingest
-   ```
-3. **Create a feature branch**:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-4. **Install dependencies**:
-   ```bash
-   bun install
-   cd server && bun install && cd ..
-   ```
-5. **Set up environment variables**:
-   ```bash
-   cp .env.example .env
-   # Edit .env with your Firecrawl API key
-   ```
-
-### Making Changes
-
-1. **Start development servers**:
-   ```bash
-   # Terminal 1: Frontend
-   bun run dev
-   
-   # Terminal 2: Backend
-   cd server && bun run dev
-   ```
-
-2. **Make your changes** and test thoroughly
-3. **Commit your changes**:
-   ```bash
-   git add .
-   git commit -m "feat: add your feature description"
-   ```
-4. **Push to your fork**:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. **Create a Pull Request** on GitHub
-
-### Code Style
-
-- **TypeScript**: Use TypeScript for all new code
-- **Functional Components**: Prefer functional React components
-- **Tailwind CSS**: Use Tailwind for styling
-- **ESLint**: Follow the existing ESLint configuration
-- **Descriptive Names**: Use clear, descriptive variable and function names
-
-### Areas for Contribution
-
-- 🐛 **Bug Fixes**: Fix issues and improve stability
-- ✨ **New Features**: Add new crawling options or UI improvements
-- 📚 **Documentation**: Improve docs and add examples
-- 🎨 **UI/UX**: Enhance the user interface and experience
-- ⚡ **Performance**: Optimize crawling and storage performance
-- 🔧 **DevOps**: Improve deployment and monitoring
+- [Issues](https://github.com/Amal-David/docingest/issues)
+- [Discussions](https://github.com/Amal-David/docingest/discussions)
 
 ## License
 
-**MIT License**
-
-Copyright (c) 2024 DocIngest
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
----
-
-## Support
-
-- 📧 **Issues**: [GitHub Issues](https://github.com/Amal-David/docingest/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/Amal-David/docingest/discussions)
-- 🌟 **Star the repo** if you find it useful!
-
-Built with ❤️ using [Firecrawl](https://firecrawl.dev), React, and TypeScript.
-
+MIT

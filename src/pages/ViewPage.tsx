@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useCallback, FormEvent } from 'react';
 import { Helmet } from 'react-helmet-async';
-import ReactMarkdown from 'react-markdown';
-import { Link } from 'react-router-dom';
 
 interface DocStructure {
   type: string;
@@ -9,21 +7,10 @@ interface DocStructure {
 }
 
 interface DocPreview {
-  content: string;
   domain: string;
   lastUpdated: string;
   url?: string;
-  filePath?: string;
-  structure: DocStructure[];
-}
-
-interface SavedUrl {
-  url: string;
-  domain: string;
-  lastScraped: string;
-  totalPages: number;
-  successfulPages: number;
-  failedPages: string[];
+  filePath?: string | null;
   structure: DocStructure[];
 }
 
@@ -36,16 +23,13 @@ const getPrimaryDomain = (domain: string) => {
 
 const ViewPage: React.FC = () => {
   const [docs, setDocs] = useState<DocPreview[]>([]);
-  const [urls, setUrls] = useState<SavedUrl[]>([]);
-  const [selectedDoc, setSelectedDoc] = useState<DocPreview | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
-  const [sortBy, setSortBy] = useState('newest');
+  const sortBy = 'newest';
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [isSearching, setIsSearching] = useState(false);
   const [isFetchingMore, setIsFetchingMore] = useState(false);
-  const [showPreview, setShowPreview] = useState(false);
   const [page, setPage] = useState(1);
   const [hasMore, setHasMore] = useState(true);
 
@@ -61,7 +45,6 @@ const ViewPage: React.FC = () => {
       
       const data = await response.json();
       setDocs(data.docs);
-      setUrls(data.urls || []);
       setHasMore(data.docs.length > 0);
     } catch (err) {
       console.error('Fetch error:', err);
@@ -77,30 +60,11 @@ const ViewPage: React.FC = () => {
     fetchDocs();
   }, [fetchDocs]);
 
-  const handleSortChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const newSortValue = e.target.value;
-    console.log(`Sort changed to: ${newSortValue}`);
-    setSortBy(newSortValue);
-    setPage(1); // Reset to first page when sort changes
-    // When sort option changes, we need to immediately refresh data
-    setTimeout(() => {
-      fetchDocs();
-    }, 0);
-  };
-
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     setIsSearching(true);
     setSearchQuery(searchTerm);
-    // Remove the conditional sort override that was causing inconsistent behavior
-    // if (searchTerm && sortBy === 'newest') {
-    //   setSortBy('name_asc');
-    // }
     setPage(1);
-    // Use setTimeout to ensure state updates are processed before API call
-    setTimeout(() => {
-      fetchDocs();
-    }, 0);
   };
 
   const handleLoadMore = () => {
@@ -151,21 +115,21 @@ const ViewPage: React.FC = () => {
   return (
     <>
       <Helmet prioritizeSeoTags={true}>
-        <title>View Doc Docs | DocIngest</title>
-        <meta name="description" content="View All Docs  - Download documentation for any Framework, Library or API" />
-        <meta name="keywords" content="View All Docs  - documentation, download, save, URL" />
+        <title>Browse Indexed Docs | DocIngest</title>
+        <meta name="description" content="Browse the searchable documentation corpus indexed by DocIngest." />
+        <meta name="keywords" content="documentation index, docs search, MCP docs, indexed documentation" />
         <meta property="og:title" content="View All Docs | DocIngest" />
-        <meta property="og:description" content="View All Docs  - documentation, download, save, URL" />
+        <meta property="og:description" content="Browse the searchable documentation corpus indexed by DocIngest." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://docingest.com/view" />
       </Helmet>
       <div className="space-y-8">
         <div className="text-center space-y-4">
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
-            Saved <span className="text-primary">Documentation</span>
+            Indexed <span className="text-primary">Documentation</span>
           </h1>
           <p className="text-3xl mt-7 sm:text-2xl font-semibold tracking-tight">
-            View all <span className="text-primary">saved documentation</span> that are indexed by us or other users
+            Browse the <span className="text-primary">searchable docs corpus</span> indexed by DocIngest
           </p>
         </div>
 
@@ -246,7 +210,7 @@ const ViewPage: React.FC = () => {
           </div>
         )}
 
-        <div className={showPreview || isSearching ? 'hidden' : ''}>
+        <div className={isSearching ? 'hidden' : ''}>
           {isLoading && docs.length === 0 && !isSearching ? (
             <div className="text-center text-gray-600 py-8">
               <div className="inline-block w-12 h-12 border-4 border-t-primary border-r-transparent border-b-transparent border-l-transparent rounded-full animate-spin mb-4"></div>

@@ -27,7 +27,19 @@ import { z } from "zod";
 // Configuration
 const DOCINGEST_API_URL = process.env.DOCINGEST_API_URL || "https://docingest.com/api";
 const DEFAULT_MAX_TOKENS = 5000;
+const MAX_MAX_TOKENS = 20000;
+const DEFAULT_TIMEOUT_MS = parseEnvNumber(process.env.DOCINGEST_TIMEOUT_MS, 10000);
+const DEFAULT_CACHE_TTL_MS = parseEnvNumber(process.env.DOCINGEST_CACHE_TTL_MS, 300000);
+const MAX_API_CACHE_ENTRIES = parseEnvNumber(process.env.DOCINGEST_CACHE_MAX_ENTRIES, 100);
 const MAX_SNIPPET_LENGTH = 500;
+const MAX_SEARCH_LIMIT = 20;
+
+type ApiCacheEntry = {
+  data: any;
+  expiresAt: number;
+};
+
+const apiCache = new Map<string, ApiCacheEntry>();
 
 // Tool input schemas
 const ResolveLibrarySchema = z.object({
@@ -45,9 +57,49 @@ const SearchDocsSchema = z.object({
   limit: z.number().optional().default(5).describe("Maximum number of results (default: 5)"),
 });
 
+function parseEnvNumber(value: string | undefined, fallback: number): number {
+  if (!value) return fallback;
+
+  const parsed = Number(value);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback;
+}
+
+function clampNumber(value: number | undefined, fallback: number, min: number, max: number): number {
+  if (!Number.isFinite(value)) return fallback;
+
+  return Math.min(Math.max(Math.floor(value ?? fallback), min), max);
+}
+
+function pruneApiCache(now = Date.now()): void {
+  for (const [key, entry] of apiCache) {
+    if (entry.expiresAt <= now) {
+      apiCache.delete(key);
+    }
+  }
+
+  while (apiCache.size > MAX_API_CACHE_ENTRIES) {
+    const oldestKey = apiCache.keys().next().value as string | undefined;
+    if (!oldestKey) break;
+    apiCache.delete(oldestKey);
+  }
+}
+
 // Helper: Fetch from DocIngest API
 async function fetchFromAPI(endpoint: string): Promise<any> {
   const url = `${DOCINGEST_API_URL}${endpoint}`;
+  const cacheKey = url;
+  const cached = apiCache.get(cacheKey);
+
+  if (cached) {
+    if (cached.expiresAt > Date.now()) {
+      return cached.data;
+    }
+
+    apiCache.delete(cacheKey);
+  }
+
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), DEFAULT_TIMEOUT_MS);
 
   try {
     const response = await fetch(url, {
@@ -55,16 +107,29 @@ async function fetchFromAPI(endpoint: string): Promise<any> {
         "Accept": "application/json",
         "User-Agent": "DocIngest-MCP-Server/1.0",
       },
+      signal: controller.signal,
     });
 
     if (!response.ok) {
       throw new Error(`API request failed: ${response.status} ${response.statusText}`);
     }
 
-    return await response.json();
+    const data = await response.json();
+    if (DEFAULT_CACHE_TTL_MS > 0 && MAX_API_CACHE_ENTRIES > 0) {
+      pruneApiCache();
+      apiCache.set(cacheKey, {
+        data,
+        expiresAt: Date.now() + DEFAULT_CACHE_TTL_MS,
+      });
+      pruneApiCache();
+    }
+
+    return data;
   } catch (error) {
     console.error(`[DocIngest MCP] API error for ${endpoint}:`, error);
     throw error;
+  } finally {
+    clearTimeout(timeout);
   }
 }
 
@@ -278,10 +343,17 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
       case "read-docs": {
         const { domain, topic, maxTokens } = GetLibraryDocsSchema.parse(args);
+        const safeMaxTokens = clampNumber(maxTokens, DEFAULT_MAX_TOKENS, 500, MAX_MAX_TOKENS);
 
         console.error(`[DocIngest MCP] Fetching docs for: ${domain}${topic ? ` (topic: ${topic})` : ""}`);
 
-        const data = await fetchFromAPI(`/docs/domain/${encodeURIComponent(domain)}`);
+        const params = new URLSearchParams();
+        params.set("maxTokens", String(safeMaxTokens));
+        if (topic) params.set("topic", topic);
+
+        const data = await fetchFromAPI(
+          `/docs/domain/${encodeURIComponent(domain)}?${params.toString()}`
+        );
 
         if (!data.content) {
           return {
@@ -294,15 +366,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           };
         }
 
-        let content = data.content;
-
-        // Filter by topic if provided
-        if (topic) {
-          content = filterByTopic(content, topic);
-        }
-
-        // Truncate to token limit
-        content = truncateToTokens(content, maxTokens || DEFAULT_MAX_TOKENS);
+        // Topic filtering and primary truncation happen server-side through the query params.
+        const content = truncateToTokens(data.content, safeMaxTokens);
 
         return {
           content: [
@@ -316,6 +381,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
       case "query-docs": {
         const { query, limit } = SearchDocsSchema.parse(args);
+        const safeLimit = clampNumber(limit, 5, 1, MAX_SEARCH_LIMIT);
 
         console.error(`[DocIngest MCP] Searching: ${query}`);
 
@@ -323,11 +389,11 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         let data;
         try {
           data = await fetchFromAPI(
-            `/docs/fast-search?q=${encodeURIComponent(query)}&limit=${limit || 5}`
+            `/docs/fast-search?q=${encodeURIComponent(query)}&limit=${safeLimit}`
           );
         } catch {
           data = await fetchFromAPI(
-            `/docs/fullsearch?q=${encodeURIComponent(query)}&limit=${limit || 5}`
+            `/docs/fullsearch?q=${encodeURIComponent(query)}&limit=${safeLimit}`
           );
         }
 
@@ -390,8 +456,119 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
   }
 });
 
+function printCliHelp(): void {
+  console.log(`DocIngest access
+
+MCP server:
+  npx @docingest/mcp-server
+
+CLI:
+  npx @docingest/mcp-server find react
+  npx @docingest/mcp-server read react.dev --topic hooks --max-tokens 5000
+  npx @docingest/mcp-server search "server components" --limit 5
+
+Environment:
+  DOCINGEST_API_URL       API base URL, defaults to https://docingest.com/api
+  DOCINGEST_TIMEOUT_MS    Request timeout, defaults to 10000
+  DOCINGEST_CACHE_TTL_MS  In-process cache TTL, defaults to 300000`);
+}
+
+function takeOption(args: string[], optionName: string, fallback?: string): string | undefined {
+  const index = args.indexOf(optionName);
+  if (index === -1) return fallback;
+
+  const value = args[index + 1];
+  args.splice(index, value ? 2 : 1);
+  return value ?? fallback;
+}
+
+function requireCliValue(value: string | undefined, message: string): string {
+  if (!value) {
+    throw new Error(message);
+  }
+
+  return value;
+}
+
+async function runCli(args: string[]): Promise<void> {
+  const command = args.shift();
+
+  if (!command || command === "help" || command === "--help" || command === "-h") {
+    printCliHelp();
+    return;
+  }
+
+  switch (command) {
+    case "find": {
+      const libraryName = requireCliValue(args.join(" ").trim(), "Usage: docingest find <library>");
+      const data = await fetchFromAPI(
+        `/docs/autocomplete?q=${encodeURIComponent(libraryName)}&limit=5`
+      );
+
+      console.log(JSON.stringify(data.suggestions || [], null, 2));
+      return;
+    }
+
+    case "read": {
+      const domain = requireCliValue(args.shift(), "Usage: docingest read <domain> [--topic topic] [--max-tokens 5000]");
+      const topic = takeOption(args, "--topic");
+      const safeMaxTokens = clampNumber(Number(takeOption(args, "--max-tokens")), DEFAULT_MAX_TOKENS, 500, MAX_MAX_TOKENS);
+      const params = new URLSearchParams({ maxTokens: String(safeMaxTokens) });
+      if (topic) params.set("topic", topic);
+
+      const data = await fetchFromAPI(
+        `/docs/domain/${encodeURIComponent(domain)}?${params.toString()}`
+      );
+
+      if (!data.content) {
+        throw new Error(`Documentation for "${domain}" was not found.`);
+      }
+
+      // Topic filtering and primary truncation happen server-side through the query params.
+      const content = truncateToTokens(data.content, safeMaxTokens);
+
+      console.log(`# ${data.domain} Documentation`);
+      console.log(`\nSource: ${data.url || domain}`);
+      console.log(`Last Updated: ${data.lastUpdated || "Unknown"}\n`);
+      console.log("---\n");
+      console.log(content);
+      return;
+    }
+
+    case "search": {
+      const limit = clampNumber(Number(takeOption(args, "--limit")), 5, 1, MAX_SEARCH_LIMIT);
+      const query = requireCliValue(args.join(" ").trim(), "Usage: docingest search <query> [--limit 5]");
+      let data;
+
+      try {
+        data = await fetchFromAPI(
+          `/docs/fast-search?q=${encodeURIComponent(query)}&limit=${limit}`
+        );
+      } catch {
+        data = await fetchFromAPI(
+          `/docs/fullsearch?q=${encodeURIComponent(query)}&limit=${limit}`
+        );
+      }
+
+      console.log(JSON.stringify(data.results || data.docs || [], null, 2));
+      return;
+    }
+
+    default:
+      throw new Error(`Unknown command "${command}". Run "docingest help" for usage.`);
+  }
+}
+
 // Start the server
 async function main() {
+  const cliCommands = new Set(["find", "read", "search", "help", "--help", "-h"]);
+  const firstArg = process.argv[2];
+
+  if (firstArg && cliCommands.has(firstArg)) {
+    await runCli(process.argv.slice(2));
+    return;
+  }
+
   console.error("[DocIngest MCP] Starting server...");
   console.error(`[DocIngest MCP] API URL: ${DOCINGEST_API_URL}`);
 

@@ -50,8 +50,9 @@ Create a `.env` file in your project root:
 
 ```bash
 # Firecrawl Configuration
+CRAWL_PROVIDER=firecrawl
 FIRECRAWL_API_KEY=fc-your-actual-api-key-here
-REACT_APP_FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
+FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
 
 # Application Configuration
 REACT_APP_API_URL=http://localhost:8001/api
@@ -69,8 +70,9 @@ For production, use environment variables or a secure `.env` file:
 
 ```bash
 # Production Environment Variables
+export CRAWL_PROVIDER="firecrawl"
 export FIRECRAWL_API_KEY="fc-your-production-api-key"
-export REACT_APP_FIRECRAWL_API_URL="https://api.firecrawl.dev/v1"
+export FIRECRAWL_API_URL="https://api.firecrawl.dev/v1"
 export REACT_APP_API_URL="https://yourdomain.com/api"
 export NODE_ENV="production"
 export PORT="8000"
@@ -160,43 +162,19 @@ export API_PORT="8001"
 
 ## API Integration
 
-### Frontend Integration
+### Backend Integration
 
-The DocIngest frontend integrates with Firecrawl through these key functions:
+DocIngest sends crawl requests through the backend proxy:
 
-```typescript
-// src/pages/HomePage.tsx
-const FIRECRAWL_API = process.env.REACT_APP_FIRECRAWL_API_URL || 'https://api.firecrawl.dev/v1';
+- `POST /api/crawl/start`
+- `GET /api/crawl/status/:id`
+- `GET /api/crawl/health`
 
-// Start a crawl
-const startCrawl = async (config: CrawlConfig) => {
-  const response = await fetch(`${FIRECRAWL_API}/crawl`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${process.env.FIRECRAWL_API_KEY}` // Note: In production, handle securely
-    },
-    body: JSON.stringify(config)
-  });
-  
-  return response.json();
-};
-
-// Check crawl status
-const checkCrawlStatus = async (jobId: string) => {
-  const response = await fetch(`${FIRECRAWL_API}/crawl/${jobId}`, {
-    headers: {
-      'Authorization': `Bearer ${process.env.FIRECRAWL_API_KEY}`
-    }
-  });
-  
-  return response.json();
-};
-```
+Set `CRAWL_PROVIDER=firecrawl` to use Firecrawl. Leave it unset to use the Cloudflare Browser Rendering provider currently used by the hosted deployment.
 
 ### Security Note
 
-⚠️ **Important**: Never expose your Firecrawl API key in client-side code. In the current implementation, the API key should be handled by the backend server, not the frontend.
+⚠️ **Important**: Never expose your Firecrawl API key in client-side code. Keep it in the backend environment.
 
 ## Rate Limits and Best Practices
 
@@ -333,33 +311,104 @@ console.log('Crawl completed:', crawlMetrics);
 
 ## Self-Hosted Firecrawl (Advanced)
 
-For high-volume usage, consider self-hosting Firecrawl:
+Firecrawl can be self-hosted if you want tighter control over infrastructure, networking, or data locality.
 
-### Requirements
-- Docker and Docker Compose
-- 4GB+ RAM
-- 2+ CPU cores
+The official Firecrawl self-hosting guide is the source of truth:
 
-### Setup
+- [Firecrawl self-hosting docs](https://docs.firecrawl.dev/contributing/self-host)
+- [Firecrawl GitHub repository](https://github.com/mendableai/firecrawl)
+
+### When self-hosting makes sense
+
+- You want DocIngest to stay inside your own infrastructure
+- You want to avoid relying on Firecrawl’s hosted service
+- You are comfortable operating the supporting services Firecrawl requires
+
+### Important caveats
+
+According to Firecrawl’s official self-hosting docs:
+
+- Self-hosted Firecrawl does not support every cloud feature
+- Advanced anti-bot and Fire-engine capabilities are not available in self-hosted mode
+- Some endpoints such as `/agent` and `/browser` are not supported in self-hosting
+
+For DocIngest, this is usually fine because it primarily relies on Firecrawl’s crawl and scrape flows.
+
+### DocIngest Docker Compose path
+
+DocIngest includes an optional Compose profile that starts the local Firecrawl stack alongside Redis.
+
+Run Redis and Firecrawl:
+
 ```bash
-# Clone Firecrawl repository
+docker compose --profile firecrawl up -d
+```
+
+Run Redis, Firecrawl, and Redis Commander:
+
+```bash
+docker compose --profile firecrawl --profile tools up -d
+```
+
+That profile starts:
+
+- `firecrawl` API on `http://localhost:3002`
+- `firecrawl-redis` for crawl queues and rate limiting
+- `firecrawl-playwright` for browser rendering
+- `firecrawl-rabbitmq` for queueing
+- `firecrawl-postgres` for Firecrawl persistence
+- `redis` for DocIngest search/cache
+
+Point the DocIngest backend at the local Firecrawl API:
+
+```bash
+CRAWL_PROVIDER=firecrawl
+FIRECRAWL_API_URL=http://localhost:3002/v1
+REDIS_HOST=localhost
+REDIS_PORT=6380
+```
+
+The Firecrawl queue UI is available at:
+
+```text
+http://localhost:3002/admin/CHANGEME/queues
+```
+
+Set `FIRECRAWL_BULL_AUTH_KEY` before exposing this outside your machine.
+
+For the full command menu, see [Docker run modes](./docker.md).
+
+### Basic setup flow
+
+If you need to customize Firecrawl beyond the DocIngest Compose profile, use Firecrawl’s own repository directly:
+
+```bash
+# Clone Firecrawl
 git clone https://github.com/mendableai/firecrawl.git
 cd firecrawl
 
-# Configure environment
-cp .env.example .env
-# Edit .env with your configuration
+# Create the environment file
+# The official docs currently point to apps/api/.env.example as the template source
 
-# Start services
-docker-compose up -d
+# Start the stack using Firecrawl's documented compose flow
+docker compose up -d
 ```
 
-### Configuration for Self-Hosted
+### DocIngest configuration for a self-hosted Firecrawl instance
+
+Point DocIngest at your Firecrawl base URL:
+
 ```bash
-# Update environment variables
-REACT_APP_FIRECRAWL_API_URL=http://your-firecrawl-instance.com/v1
-FIRECRAWL_API_KEY=your-self-hosted-key  # If authentication enabled
+CRAWL_PROVIDER=firecrawl
+FIRECRAWL_API_URL=http://your-firecrawl-instance:3002/v1
+FIRECRAWL_API_KEY=your-self-hosted-key
 ```
+
+If your self-hosted Firecrawl instance runs without authentication in a trusted environment, you can leave the API key unset or use whatever auth model your deployment expects.
+
+### Recommendation
+
+Start with hosted Firecrawl unless you specifically need self-hosting. If you do self-host, follow the official Firecrawl guide closely because their required services and env vars can change over time.
 
 ## Support and Resources
 
@@ -371,7 +420,7 @@ FIRECRAWL_API_KEY=your-self-hosted-key  # If authentication enabled
 
 ### DocIngest Integration
 - 🔧 **Configuration**: See main README.md
-- 🚀 **Deployment**: See NGINX_SETUP.md
+- 🚀 **Deployment**: See [nginx.md](./nginx.md)
 - 🐛 **Issues**: [DocIngest Issues](https://github.com/Amal-David/docingest/issues)
 
 ---
