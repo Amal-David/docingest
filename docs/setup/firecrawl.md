@@ -353,10 +353,11 @@ docker compose --profile firecrawl --profile tools up -d
 That profile starts:
 
 - `firecrawl` API on `http://localhost:3002`
+- `firecrawl-redis` for crawl queues and rate limiting
 - `firecrawl-playwright` for browser rendering
 - `firecrawl-rabbitmq` for queueing
 - `firecrawl-postgres` for Firecrawl persistence
-- `redis`, shared with DocIngest search
+- `redis` for DocIngest search/cache
 
 Point the DocIngest backend at the local Firecrawl API:
 

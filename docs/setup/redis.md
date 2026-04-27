@@ -54,7 +54,7 @@ If you also want a local Firecrawl stack, use the Firecrawl profile:
 docker compose --profile firecrawl up -d
 ```
 
-That command starts Redis plus Firecrawl API, Playwright, RabbitMQ, and Firecrawl Postgres. See [Firecrawl setup](./firecrawl.md) for the crawl-provider configuration.
+That command starts DocIngest Redis plus Firecrawl API, Firecrawl Redis, Playwright, RabbitMQ, and Firecrawl Postgres. See [Firecrawl setup](./firecrawl.md) for the crawl-provider configuration.
 
 If you want Redis, Firecrawl, and Redis Commander together:
 

@@ -67,6 +67,28 @@ services:
     networks:
       - docingest-network
 
+  firecrawl-redis:
+    image: redis:7-alpine
+    container_name: docingest-firecrawl-redis
+    profiles: ["firecrawl"]
+    restart: unless-stopped
+    volumes:
+      - firecrawl_redis_data:/data
+    command: >
+      redis-server
+      --save 60 1
+      --loglevel warning
+      --maxmemory 512mb
+      --maxmemory-policy noeviction
+      --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    networks:
+      - docingest-network
+
   firecrawl:
     image: ghcr.io/firecrawl/firecrawl:latest
     container_name: docingest-firecrawl
@@ -79,8 +101,8 @@ services:
       - PORT=3002
       - INTERNAL_PORT=3002
       - USE_DB_AUTHENTICATION=${FIRECRAWL_USE_DB_AUTHENTICATION:-false}
-      - REDIS_URL=redis://redis:6379
-      - REDIS_RATE_LIMIT_URL=redis://redis:6379
+      - REDIS_URL=redis://firecrawl-redis:6379
+      - REDIS_RATE_LIMIT_URL=redis://firecrawl-redis:6379
       - PLAYWRIGHT_MICROSERVICE_URL=http://firecrawl-playwright:3000/scrape
       - POSTGRES_USER=${FIRECRAWL_POSTGRES_USER:-postgres}
       - POSTGRES_PASSWORD=${FIRECRAWL_POSTGRES_PASSWORD:-postgres}
@@ -103,7 +125,7 @@ services:
       - PROXY_PASSWORD=${PROXY_PASSWORD:-}
     command: node dist/src/harness.js --start-docker
     depends_on:
-      redis:
+      firecrawl-redis:
         condition: service_healthy
       firecrawl-playwright:
         condition: service_started
@@ -133,6 +155,8 @@ volumes:
   redis_data:
     driver: local
   firecrawl_postgres_data:
+    driver: local
+  firecrawl_redis_data:
     driver: local
 
 networks:

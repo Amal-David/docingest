@@ -15,6 +15,7 @@ This starts:
 - Redis for DocIngest search/cache
 - Redis Commander at `http://localhost:8082`
 - Firecrawl API at `http://localhost:3002`
+- Dedicated Firecrawl Redis for crawl queues and rate limiting
 - Firecrawl Playwright service
 - Firecrawl RabbitMQ
 - Firecrawl Postgres
@@ -100,3 +101,12 @@ Add `-v` only when you intentionally want to remove local Redis and Firecrawl Po
 ```bash
 docker compose --profile firecrawl --profile tools down -v
 ```
+
+## Redis Separation
+
+The Compose stack uses two Redis services on purpose:
+
+- `redis` stores DocIngest autocomplete, search, and cached docs with an `allkeys-lru` policy.
+- `firecrawl-redis` stores Firecrawl queue/rate-limit data with a `noeviction` policy.
+
+Keeping them separate prevents crawler queue keys from being evicted by search/cache pressure and keeps DocIngest search cache tuning independent from Firecrawl job durability.
