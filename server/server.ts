@@ -69,7 +69,7 @@ import {
 } from './lib/firecrawl-crawl';
 const app = express();
 const PORT = process.env.PORT || 8001;
-const CRAWL_PROVIDER = (process.env.CRAWL_PROVIDER || 'cloudflare').toLowerCase();
+const CRAWL_PROVIDER = (process.env.CRAWL_PROVIDER || 'firecrawl').toLowerCase();
 
 // Trust proxy (nginx/load balancer) for correct IP detection in rate limiting
 app.set('trust proxy', 1);
@@ -1795,8 +1795,8 @@ app.post('/api/crawl/start', async (req, res) => {
       res.status(503).json({
         success: false,
         error: CRAWL_PROVIDER === 'firecrawl'
-          ? 'Crawl service not configured. Set FIRECRAWL_API_URL or REACT_APP_FIRECRAWL_API_URL.'
-          : 'Crawl service not configured. Set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID.',
+          ? 'Crawl service not configured. Set FIRECRAWL_API_KEY (hosted) or FIRECRAWL_API_URL (self-hosted), then restart the backend.'
+          : 'Crawl service not configured. Set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID, then restart the backend.',
       });
       return;
     }
