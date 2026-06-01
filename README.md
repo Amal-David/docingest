@@ -65,7 +65,7 @@ cd server && npm install && cd ..
 
 ### Configure
 
-Create `.env` in the repo root:
+Copy `.env.example` to `.env` in the repo root and fill it in. Firecrawl is the default crawl provider, so `CRAWL_PROVIDER` is optional when using Firecrawl:
 
 ```bash
 CRAWL_PROVIDER=firecrawl
