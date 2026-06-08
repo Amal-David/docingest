@@ -1,4 +1,37 @@
-import type { CrawlPage, CrawlStartRequest, CrawlStatusResponse } from './cloudflare-crawl';
+export interface CrawlStartRequest {
+  url: string;
+  limit?: number;
+  maxDepth?: number;
+  includePaths?: string[];
+  excludePaths?: string[];
+  allowBackwardLinks?: boolean;
+  ignoreQueryParameters?: boolean;
+  scrapeOptions?: {
+    formats?: string[];
+    onlyMainContent?: boolean;
+    removeBase64Images?: boolean;
+    blockAds?: boolean;
+    timeout?: number;
+    waitFor?: number;
+    maxAge?: number;
+  };
+}
+
+export interface CrawlPage {
+  markdown: string;
+  metadata: {
+    sourceURL: string;
+    title: string;
+  };
+}
+
+export interface CrawlStatusResponse {
+  status: 'scraping' | 'completed' | 'failed';
+  completed: number;
+  total: number;
+  data: CrawlPage[];
+  error?: string;
+}
 
 const EXPLICIT_FIRECRAWL_API_URL = process.env.FIRECRAWL_API_URL || process.env.REACT_APP_FIRECRAWL_API_URL || '';
 const FIRECRAWL_API_URL = (
