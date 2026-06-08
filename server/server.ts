@@ -1790,8 +1790,9 @@ app.post('/api/crawl/start', async (req, res) => {
       return;
     }
 
-    console.log(`[crawl-proxy] Starting firecrawl crawl for: ${body.url}`);
+    console.log(`[crawl-proxy] Starting crawl for: ${body.url}`, JSON.stringify({ limit: body.limit, maxDepth: body.maxDepth, includePaths: body.includePaths, excludePaths: body.excludePaths }));
     const result = await startFirecrawlCrawl(body);
+    console.log(`[crawl-proxy] Start result:`, JSON.stringify(result));
 
     if (result.success) {
       res.json({ success: true, id: result.id });
@@ -1819,6 +1820,7 @@ app.get('/api/crawl/status/:id', async (req, res) => {
     }
 
     const status = await getFirecrawlCrawlStatus(id);
+    console.log(`[crawl-proxy] Status [${id}]: ${status.status} ${status.completed}/${status.total}${status.error ? ' error=' + status.error : ''}${status.status === 'completed' ? ' pages=' + status.data.length : ''}`);
     res.json(status);
   } catch (error: any) {
     console.error('[crawl-proxy] Status error:', error);
