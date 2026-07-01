@@ -1,0 +1,808 @@
+{
+  "url": "https://www.bitunix.com/api-docs/",
+  "domain": "www.bitunix.com",
+  "lastScraped": "2026-06-30T22:07:42.150Z",
+  "totalPages": 196,
+  "successfulPages": 196,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/"
+    },
+    {
+      "type": "Get Funding Rate History | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/market/get_funding_rate_history.html"
+    },
+    {
+      "type": "Get Funding Rate | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/market/get_funding_rate.html"
+    },
+    {
+      "type": "transfer asset from main account to sub account | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/copyTrading/asset/transfer_asset_from_main_account_to_sub_account.html"
+    },
+    {
+      "type": "Get Position Tiers | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/position/get_position_tiers.html"
+    },
+    {
+      "type": "Get Funding Rate | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/market/get_funding_rate_batch.html"
+    },
+    {
+      "type": "OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/common/sign.html"
+    },
+    {
+      "type": "transfer asset from subAccount to main account | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/copyTrading/asset/transfer_asset_from_subaccount_to_main_account.html"
+    },
+    {
+      "type": "Get Tickers | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/market/get_tickers.html"
+    },
+    {
+      "type": "Change Log | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/log/change_log.html"
+    },
+    {
+      "type": "Get Kline | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/market/get_kline.html"
+    },
+    {
+      "type": "Get Depth | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/market/get_depth.html"
+    },
+    {
+      "type": "OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/ErrorCode/error_code.html"
+    },
+    {
+      "type": "Get Pending Positions | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/position/get_pending_positions.html"
+    },
+    {
+      "type": "Cancel TP/SL Order | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/tp_sl/cancel_tp_sl_order.html"
+    },
+    {
+      "type": "Get History Positions | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/position/get_history_positions.html"
+    },
+    {
+      "type": "Get Trading Pairs | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/market/get_trading_pairs.html"
+    },
+    {
+      "type": "Get Pending TP/SL Order | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/tp_sl/get_pending_tp_sl_order.html"
+    },
+    {
+      "type": "Modify TP/SL Order | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/tp_sl/modify_tp_sl_order.html"
+    },
+    {
+      "type": "Asset Query | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/copyTrading/asset/asset_query.html"
+    },
+    {
+      "type": "Place Position TP/SL Order | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/tp_sl/place_position_tp_sl_order.html"
+    },
+    {
+      "type": "Get History TP/SL Order | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/tp_sl/get_history_tp_sl_order.html"
+    },
+    {
+      "type": "API Introduction | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/common/introduction.html"
+    },
+    {
+      "type": "Modify Position TP/SL Order | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/tp_sl/modify_position_tp_sl_order.html"
+    },
+    {
+      "type": "Batch Order | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/trade/batch_order.html"
+    },
+    {
+      "type": "Cancel All Orders | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/trade/cancel_all_orders.html"
+    },
+    {
+      "type": "Flash Close Position | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/trade/flash_close_position.html"
+    },
+    {
+      "type": "Cancel Orders | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/trade/cancel_orders.html"
+    },
+    {
+      "type": "Close All Position | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/trade/close_all_position.html"
+    },
+    {
+      "type": "Get History Orders | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/trade/get_history_orders.html"
+    },
+    {
+      "type": "Get History Trades | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/trade/get_history_trades.html"
+    },
+    {
+      "type": "Get Pending Orders | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/trade/get_pending_orders.html"
+    },
+    {
+      "type": "Get Order Detail | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/trade/get_order_detail.html"
+    },
+    {
+      "type": "Modify Order | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/trade/modify_order.html"
+    },
+    {
+      "type": "Place TP/SL Order | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/tp_sl/place_tp_sl_order.html"
+    },
+    {
+      "type": "OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/websocket/private/Balance%20Channel.html"
+    },
+    {
+      "type": "OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/websocket/prepare/WebSocket.html"
+    },
+    {
+      "type": "OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/websocket/private/Order%20Channel.html"
+    },
+    {
+      "type": "Err code - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/en_us/err_code/"
+    },
+    {
+      "type": "OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/websocket/private/Position%20Channel.html"
+    },
+    {
+      "type": "OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/websocket/private/Tp%20Sl%20Channel.html"
+    },
+    {
+      "type": "OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/websocket/public/MarketPrice%20Channel.html"
+    },
+    {
+      "type": "Sign - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/en_us/sign/"
+    },
+    {
+      "type": "Public ws - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/en_us/public-ws/"
+    },
+    {
+      "type": "Order ws - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/en_us/order-ws/"
+    },
+    {
+      "type": "Public - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/en_us/public/"
+    },
+    {
+      "type": "Order - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/en_us/order/"
+    },
+    {
+      "type": "Tax data type codes - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/en_us/tax_data_type_codes/"
+    },
+    {
+      "type": "Tax filing - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/en_us/tax-filing/"
+    },
+    {
+      "type": "OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/websocket/public/Ticker%20Channel.html"
+    },
+    {
+      "type": "Err code - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/zh_cn/err_code/"
+    },
+    {
+      "type": "Sign - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/zh_cn/sign/"
+    },
+    {
+      "type": "Ws - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/en_us/ws/"
+    },
+    {
+      "type": "Order ws - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/zh_cn/order-ws/"
+    },
+    {
+      "type": "User - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/en_us/user/"
+    },
+    {
+      "type": "Public ws - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/zh_cn/public-ws/"
+    },
+    {
+      "type": "Public - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/zh_cn/public/"
+    },
+    {
+      "type": "Order - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/zh_cn/order/"
+    },
+    {
+      "type": "Index - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/zh_cn/"
+    },
+    {
+      "type": "Tax filing - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/zh_cn/tax-filing/"
+    },
+    {
+      "type": "OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/websocket/public/Tickers%20Channel.html"
+    },
+    {
+      "type": "OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/websocket/public/Trade%20Channel.html"
+    },
+    {
+      "type": "OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/websocket/public/depth%20channel.html"
+    },
+    {
+      "type": "Place Order | OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/trade/place_order.html"
+    },
+    {
+      "type": "Interface_Documentation - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/"
+    },
+    {
+      "type": "Tax data type codes - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/zh_cn/tax_data_type_codes/"
+    },
+    {
+      "type": "User ws - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/zh_cn/user-ws/"
+    },
+    {
+      "type": "Ws - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/zh_cn/ws/"
+    },
+    {
+      "type": "Interface_Documentation - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/en_us/"
+    },
+    {
+      "type": "User ws - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/en_us/user-ws/"
+    },
+    {
+      "type": "OpenApi ｜ Bitunix",
+      "url": "https://www.bitunix.com/api-docs/futures/websocket/public/kline%20channel.html"
+    },
+    {
+      "type": "User - Open Platform",
+      "url": "https://www.bitunix.com/api-docs/spots/zh_cn/user/"
+    },
+    {
+      "type": "Login the Crypto Trading World | Bitunix",
+      "url": "https://www.bitunix.com/login"
+    },
+    {
+      "type": "Cách mua tiền điện tử - Tìm cách tốt nhất để mua tiền điện tử với Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/buy-crypto/guide"
+    },
+    {
+      "type": "Nạp Tiền Fiat & Quy Đổi Sang Crypto | Nhanh Chóng & An Toàn | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/fiat/deposit"
+    },
+    {
+      "type": "Sàn giao dịch phái sinh tiền điện tử | Mua, Bán và Giao dịch Tiền điện tử | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/tripartite-coin"
+    },
+    {
+      "type": "Swap & Chuyển Đổi Crypto Tức Thì | Phí 0Đ, 0 Trượt Giá | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/flash-exchange"
+    },
+    {
+      "type": "Trung tâm trợ giúp",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter"
+    },
+    {
+      "type": "Mua Crypto Tức Thì Bằng Fiat | Thẻ Tín Dụng & P2P | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/buy-crypto"
+    },
+    {
+      "type": "Bitunix Academy | Học Giao Dịch Crypto & Blockchain",
+      "url": "https://www.bitunix.com/vi-vn/hub/academy"
+    },
+    {
+      "type": "Bitunix | Giao Dịch Bitcoin, Ethereum Và Nhiều Loại Tiền Điện Tử Khác | Thanh Khoản Cao, Giao Dịch Tối Ưu",
+      "url": "https://www.bitunix.com/vi-vn/hub/blog"
+    },
+    {
+      "type": "Bitunix | Giao Dịch Bitcoin, Ethereum Và Nhiều Loại Tiền Điện Tử Khác | Thanh Khoản Cao, Giao Dịch Tối Ưu",
+      "url": "https://www.bitunix.com/vi-vn"
+    },
+    {
+      "type": "Tham gia cuộc cách mạng giao dịch tiền điện tử | Đăng ký | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/register"
+    },
+    {
+      "type": "58,695.4 | BTCUSDT Sàn giao dịch tương lai - Hợp đồng tương lai tiền điện tử | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/contract-trade/BTCUSDT"
+    },
+    {
+      "type": "Mua Crypto Qua Bên Thứ Ba | Apple Pay & Chuyển Khoản | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/p2p/third-party"
+    },
+    {
+      "type": "58,631.1 | BTCUSDC Sàn giao dịch tương lai - Hợp đồng tương lai tiền điện tử | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/contract-trade/BTCUSDC"
+    },
+    {
+      "type": "Mua Crypto qua Giao dịch P2P | BTC, USDT, ETH | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/p2p/p2p-trade"
+    },
+    {
+      "type": "58706.54 | Giao Dịch Spot BTCUSDT | Biểu Đồ Trực Tiếp & Giao Dịch | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/spot-trade/BTCUSDT"
+    },
+    {
+      "type": "Mua Crypto Bằng Thẻ Tín dụng & Ghi Nợ | Visa & Mastercard | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/p2p/cards"
+    },
+    {
+      "type": "58,603.2 | BTCUSD Sàn giao dịch tương lai - Hợp đồng tương lai tiền điện tử | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/contract-trade/BTCUSD"
+    },
+    {
+      "type": "1560.51 | Giao Dịch Spot ETHUSDT | Biểu Đồ Trực Tiếp & Giao Dịch | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/spot-trade/ETHUSDT"
+    },
+    {
+      "type": "0.1446 | Giao Dịch Spot ADAUSDT | Biểu Đồ Trực Tiếp & Giao Dịch | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/spot-trade/ADAUSDT"
+    },
+    {
+      "type": "0.07229 | Giao Dịch Spot DOGEUSDT | Biểu Đồ Trực Tiếp & Giao Dịch | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/spot-trade/DOGEUSDT"
+    },
+    {
+      "type": "1.0431 | Giao Dịch Spot XRPUSDT | Biểu Đồ Trực Tiếp & Giao Dịch | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/spot-trade/XRPUSDT"
+    },
+    {
+      "type": "0.6876 | Giao Dịch Spot SUIUSDT | Biểu Đồ Trực Tiếp & Giao Dịch | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/spot-trade/SUIUSDT"
+    },
+    {
+      "type": "73.67 | Giao Dịch Spot SOLUSDT | Biểu Đồ Trực Tiếp & Giao Dịch | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/spot-trade/SOLUSDT"
+    },
+    {
+      "type": "Giao dịch sao chép tiền điện tử | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/copy-trading/square"
+    },
+    {
+      "type": "41.96 | Giao Dịch Spot LTCUSDT | Biểu Đồ Trực Tiếp & Giao Dịch | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/spot-trade/LTCUSDT"
+    },
+    {
+      "type": "Chương trình mời Bitunix｜Mời bạn bè nhận thưởng",
+      "url": "https://www.bitunix.com/vi-vn/referral"
+    },
+    {
+      "type": "Token Splash: nạp tiền và giao dịch để nhận thưởng | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/token-splash"
+    },
+    {
+      "type": "Tăng thu nhập của bạn thông qua chương trình liên kết Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/ads-posting/affiliate"
+    },
+    {
+      "type": "Chương trình VIP: phần thưởng độc quyền và giảm phí giao dịch | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/activity/bitunix-plan"
+    },
+    {
+      "type": "Tải Ứng Dụng Bitunix Trên iOS & Android | Giao Dịch Mọi Lúc",
+      "url": "https://www.bitunix.com/vi-vn/download"
+    },
+    {
+      "type": "Bằng Chứng Dự Trữ (PoR) & Tính Minh Bạch Tài Sản | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/proof-of-reserve"
+    },
+    {
+      "type": "Crypto Earn: Quản lý Tài Sản Số Lợi Nhuận Cao | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/earn/earn-overview"
+    },
+    {
+      "type": "Đầu tư Tự động & Chiến lược DCA Crypto | Tích Lũy Tài Sản | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/auto-investment"
+    },
+    {
+      "type": "Tiết kiệm Crypto: Nhận Thu Nhập Thụ động từ USDT & BTC | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/earn/financial-management"
+    },
+    {
+      "type": "Cộng đồng Chính thức & Kênh Mạng xã hội | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/social-media"
+    },
+    {
+      "type": "Trung tâm Chiến dịch: sự kiện có hạn và phần thưởng độc quyền | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/activity/act-center"
+    },
+    {
+      "type": "Bitunix Whales Club | Dịch Vụ Giao Dịch & Cố Vấn VIP Độc Quyền",
+      "url": "https://www.bitunix.com/vi-vn/whales-club"
+    },
+    {
+      "type": "Trung tâm Nhiệm vụ: hoàn thành nhiệm vụ, nhận phần thưởng | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/activity/task-center"
+    },
+    {
+      "type": "API Thuế Bitunix | Đơn giản hóa việc báo cáo thuế tiền điện tử vào năm 2025",
+      "url": "https://www.bitunix.com/vi-vn/taxes-api"
+    },
+    {
+      "type": "Xác Minh Tài Khoản Bitunix | Cổng Kiểm Tra Chính Thức",
+      "url": "https://www.bitunix.com/vi-vn/official-certification"
+    },
+    {
+      "type": "Gửi Phản Hồi Đến Bitunix | Giúp Cải Thiện Nền Tảng",
+      "url": "https://www.bitunix.com/vi-vn/service/feedback"
+    },
+    {
+      "type": "Về Bitunix | Sàn Phái Sinh Crypto Hàng Đầu, Thanh Khoản Sâu",
+      "url": "https://www.bitunix.com/vi-vn/about-us"
+    },
+    {
+      "type": "Cấu Trúc Phí Bitunix | Mức Phí VIP Spot và Futures",
+      "url": "https://www.bitunix.com/vi-vn/service/handling-fee"
+    },
+    {
+      "type": "Đầu Tư Kép: Nhận Lợi Nhuận Crypto Cao | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/earn/dual-investment"
+    },
+    {
+      "type": "Submit Feedback to Bitunix | Help Improve the Platform",
+      "url": "https://www.bitunix.com/service/feedback"
+    },
+    {
+      "type": "Jasmy Price Forecast: Trends, Expert Views, and Outlook",
+      "url": "https://www.bitunix.com/hub/academy/course/jasmy-price-prediction?id=262"
+    },
+    {
+      "type": "Bitunix Chart Trading: Biểu đồ giao dịch nâng cao & công cụ Futures",
+      "url": "https://www.bitunix.com/vi-vn/chart-trading-landing"
+    },
+    {
+      "type": "Giá Thị trường, Biểu đồ & Xu hướng Crypto | Spot & Futures | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/markets/overview"
+    },
+    {
+      "type": "NEAR: From a High-Performance Public Blockchain to a Data Availability Layer That Challenges Ethereum at a Lower Dimension",
+      "url": "https://www.bitunix.com/hub/academy/course/near-from-a-high-performance-public-blockchain-to-a-data-availability-layer?id=329"
+    },
+    {
+      "type": "Trading Settings 4 - Order Types and Methods",
+      "url": "https://www.bitunix.com/hub/academy/course/trading-settings-4-order-types-and-methods?id=22"
+    },
+    {
+      "type": "Trading Settings 1 - How to Set Position Size & Margin Mode",
+      "url": "https://www.bitunix.com/hub/academy/course/trading-settings-1-how-to-set-position-size-and-margin-mode?id=19"
+    },
+    {
+      "type": "How to Choose Investment Targets in Crypto",
+      "url": "https://www.bitunix.com/hub/academy/course/how-to-choose-investment-targets-in-crypto?id=18"
+    },
+    {
+      "type": "Trade Settings 3 - Take Profit, Stop Loss, and Close Position",
+      "url": "https://www.bitunix.com/hub/academy/course/trade-settings-3-take-profit-stop-loss-and-close-position?id=21"
+    },
+    {
+      "type": "Introduction to Technical Analysis Course (1): How to Draw Trendlines",
+      "url": "https://www.bitunix.com/hub/academy/course/introduction-to-technical-analysis-1-how-exactly-should-trend-lines-be-drawn?id=90"
+    },
+    {
+      "type": "Bitunix Account - Security Authentication Failure Reset Guide",
+      "url": "https://www.bitunix.com/hub/academy/course/bitunix-account-security-authentication-failure-reset-guide?id=242"
+    },
+    {
+      "type": "Using Coinglass Clearing Map | Developing Futures Strategies",
+      "url": "https://www.bitunix.com/hub/academy/course/using-coinglass-clearing-map-developing-futures-strategies?id=28"
+    },
+    {
+      "type": "PEPE: The Comeback of the Green Frog and the Pure Spirit of Meme Culture",
+      "url": "https://www.bitunix.com/hub/academy/course/pepe-the-comeback-of-the-green-frog-and-the-pure-spirit-of-meme-culture?id=332"
+    },
+    {
+      "type": "Practical Analysis: Bottom-Fishing Pattern, the \"W\" Bottom Trading Strategy",
+      "url": "https://www.bitunix.com/hub/academy/course/practical-analysis-bottom-fishing-pattern-the-w-bottom-trading-strategy?id=212"
+    },
+    {
+      "type": "Practical Analysis: EMA Trading Strategy",
+      "url": "https://www.bitunix.com/hub/academy/course/practical-analysis-ema-trading-strategy?id=236"
+    },
+    {
+      "type": "3-Minute Quick Start to Futures Trading",
+      "url": "https://www.bitunix.com/hub/academy/course/3-minute-quick-start-to-futures-trading?id=17"
+    },
+    {
+      "type": "Introduction to Technical Analysis (2): Practical Application of Support and Resistance Levels",
+      "url": "https://www.bitunix.com/hub/academy/course/introduction-to-technical-analysis-2-practical-application-of-support-and-resistance-levels?id=160"
+    },
+    {
+      "type": "Top 10 Most Common Questions About Crypto Futures Trading on Bitunix",
+      "url": "https://www.bitunix.com/hub/academy/course/top-10-most-common-questions-about-crypto-futures-trading-on-bitunix?id=201"
+    },
+    {
+      "type": "Practical Analysis: Top Escape Pattern - \"M\" Top Trading Strategy",
+      "url": "https://www.bitunix.com/hub/academy/course/practical-analysis-top-escape-pattern-m-top-trading-strategy?id=246"
+    },
+    {
+      "type": "Bitunix Token Pulse Weekly Report: Crypto Market Rallies Strongly, SKYAI Emerges as an α Asset",
+      "url": "https://www.bitunix.com/hub/academy/course/bitunix-token-pulse-weekly-report-crypto-market-rallies-strongly-skyai-emerges-as-a-high-beta-asset?id=337"
+    },
+    {
+      "type": "Aster: Pushing Beyond Limits, the Next-Generation Leader in Decentralized Perpetual Futures",
+      "url": "https://www.bitunix.com/hub/academy/course/aster-pushing-beyond-limits-the-next-generation-leader-in-decentralized-perpetual-futures?id=247"
+    },
+    {
+      "type": "Trading Settings 2 - Leverage in Futures Trading",
+      "url": "https://www.bitunix.com/hub/academy/course/trading-settings-2-leverage-in-futures-trading?id=20"
+    },
+    {
+      "type": "Practical Analysis: MA Trading Strategy",
+      "url": "https://www.bitunix.com/hub/academy/course/practical-analysis-ma-trading-strategy?id=211"
+    },
+    {
+      "type": "Practical Analysis: K-line Box Trading Strategy",
+      "url": "https://www.bitunix.com/hub/academy/course/practical-analysis-k-line-box-trading-strategy?id=245"
+    },
+    {
+      "type": "Virtuals Protocol: Pioneering Decentralized AI Agents and Intelligence",
+      "url": "https://www.bitunix.com/hub/academy/course/virtuals-protocol-pioneering-decentralized-ai-agents-and-intelligence?id=197"
+    },
+    {
+      "type": "Bitcoin Explained: Why It's the Digital Gold of the Crypto World",
+      "url": "https://www.bitunix.com/hub/academy/course/bitcoin-explained-why-it-is-the-digital-gold-of-the-crypto-world?id=31"
+    },
+    {
+      "type": "Render: The Decentralized GPU Network Powering Spatial Computing",
+      "url": "https://www.bitunix.com/hub/academy/course/render-the-decentralized-gpu-network-powering-spatial-computing?id=204"
+    },
+    {
+      "type": "Bittensor: The Decentralized Network for AI and Machine Learning",
+      "url": "https://www.bitunix.com/hub/academy/course/bittensor-the-decentralized-network-for-ai-and-machine-learning?id=196"
+    },
+    {
+      "type": "Bitunix Token Pulse Weekly Report: Risk Assets Retreat, BTC Falls to $60,000, WLD Surges 84%",
+      "url": "https://www.bitunix.com/hub/academy/course/bitunix-token-pulse-weekly-report-risk-assets-retreat?id=250"
+    },
+    {
+      "type": "Bitunix Token Pulse Weekly Report: BEAT Surges 5x, Market Rebounds",
+      "url": "https://www.bitunix.com/hub/academy/course/bitunix-token-pulse-weekly-report?id=263"
+    },
+    {
+      "type": "Bitunix Rewards Guide 1: Futures Bonus on Bitunix",
+      "url": "https://www.bitunix.com/hub/academy/course/bitunix-rewards-guide-1-futures-bonus-on-bitunix?id=87"
+    },
+    {
+      "type": "Bitunix Rewards Guide 2: Fee Discount Voucher, APR Boost Voucher, and More",
+      "url": "https://www.bitunix.com/hub/academy/course/bitunix-rewards-guide-2-fee-discount-voucher-apr-boost-voucherand-more?id=88"
+    },
+    {
+      "type": "Crypto Derivatives Exchanges 2026: Bitunix vs Bybit vs OKX",
+      "url": "https://www.bitunix.com/hub/academy/course/best-crypto-derivatives-exchange?id=116"
+    },
+    {
+      "type": "Token Splash Earning Guide",
+      "url": "https://www.bitunix.com/hub/academy/course/token-splash-earning-guide?id=146"
+    },
+    {
+      "type": "How to Buy Cryptocurrency Using P2P Trading",
+      "url": "https://www.bitunix.com/hub/academy/course/how-to-buy-cryptocurrency-using-p2p-trading?id=86"
+    },
+    {
+      "type": "Bitunix Futures Grid Trading: Practical Strategies and Platform Operation Tips",
+      "url": "https://www.bitunix.com/hub/academy/course/bitunix-futures-grid-trading-practical-strategies-and-platform-operation-tips?id=149"
+    },
+    {
+      "type": "Bitunix Copy Trading - Practical Strategy Guide",
+      "url": "https://www.bitunix.com/hub/academy/course/bitunix-copy-trading-practical-strategy-guide?id=200"
+    },
+    {
+      "type": "Bitunix Principal-Easy Earn Investment Guide",
+      "url": "https://www.bitunix.com/hub/academy/course/bitunix-principal-easy-earn-investment-guide?id=144"
+    },
+    {
+      "type": "What Is a Stablecoin? How Stablecoins Work in Crypto",
+      "url": "https://www.bitunix.com/hub/academy/course/what-is-a-stablecoin?id=168"
+    },
+    {
+      "type": "Essential Beginner’s Guide",
+      "url": "https://www.bitunix.com/hub/academy/list/Essential-Beginner%E2%80%99s-Guide-1786"
+    },
+    {
+      "type": "Best Crypto Copy Trading Platforms in 2026: Bitunix vs Competitors",
+      "url": "https://www.bitunix.com/hub/academy/course/best-copy-trading-platforms-2026?id=115"
+    },
+    {
+      "type": "Bitunix VIP Membership Benefits Explained",
+      "url": "https://www.bitunix.com/hub/academy/course/bitunix-vip-membership?id=159"
+    },
+    {
+      "type": "Is Ethereum a Security? Legal and Technical Analysis",
+      "url": "https://www.bitunix.com/hub/academy/course/is-ethereum-a-security?id=174"
+    },
+    {
+      "type": "Worldcoin Price Prediction 2026: WLD Forecast",
+      "url": "https://www.bitunix.com/hub/academy/course/worldcoin-price-prediction-2026?id=173"
+    },
+    {
+      "type": "Funding Rate Explained: Impact on Futures Profits",
+      "url": "https://www.bitunix.com/hub/academy/course/funding-rate-explained?id=93"
+    },
+    {
+      "type": "How to Buy Crypto Instantly on Bitunix With One-Click Buy",
+      "url": "https://www.bitunix.com/hub/academy/course/buy-crypto-instantly-on-bitunix?id=189"
+    },
+    {
+      "type": "Bitunix Rewards Guide 3: Gift Funds, Mystery Boxes and More",
+      "url": "https://www.bitunix.com/hub/academy/course/bitunix-rewards-guide-3-gift-funds-mystery-boxes-and-more?id=89"
+    },
+    {
+      "type": "Phân Tích Thị Trường Crypto, Heatmap & Dữ Liệu Giao Dịch | Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/markets/opportunity"
+    },
+    {
+      "type": "Ethereum as the World Computer: Smart Contracts Powering the Decentralized Web",
+      "url": "https://www.bitunix.com/hub/academy/course/ethereum-as-the-world-computer-smart-contracts-powering-the-decentralized-web?id=32"
+    },
+    {
+      "type": "What Is TRC-20 USDT? How to Buy and Use It",
+      "url": "https://www.bitunix.com/hub/academy/course/what-is-trc-20-usdt?id=178"
+    },
+    {
+      "type": "Convert USDT to USD: Step-by-Step Guide",
+      "url": "https://www.bitunix.com/hub/academy/course/how-to-convert-usdt-to-usd?id=177"
+    },
+    {
+      "type": "Buy Crypto in Seconds on Bitunix: A Beginner’s Guide to One-Click Buy",
+      "url": "https://www.bitunix.com/hub/academy/course/best-way-to-buy-crypto-in-seconds-for-beginners-on-bitunix?id=190"
+    },
+    {
+      "type": "Bitunix Activities",
+      "url": "https://www.bitunix.com/hub/academy/list/Bitunix-Activities-1801"
+    },
+    {
+      "type": "Bitunix Products",
+      "url": "https://www.bitunix.com/hub/academy/list/Bitunix-Products-1803"
+    },
+    {
+      "type": "Bitcoin Bear Market Strategies for Smart Investors",
+      "url": "https://www.bitunix.com/hub/academy/course/bitcoin-bear-market?id=172"
+    },
+    {
+      "type": "Bitunix Stock Futures: TSLA, AAPL, NVDA, AMZN Guide",
+      "url": "https://www.bitunix.com/hub/academy/course/bitunix-stock-futures-guide?id=192"
+    },
+    {
+      "type": "Smart Contract Security: Protect Your Crypto Assets",
+      "url": "https://www.bitunix.com/hub/academy/course/smart-contract-security?id=188"
+    },
+    {
+      "type": "Crypto Insights",
+      "url": "https://www.bitunix.com/hub/academy/list/Crypto-Insights-1793"
+    },
+    {
+      "type": "Bitunix Futures Guide: Gold, Silver, Copper & Crude Oil",
+      "url": "https://www.bitunix.com/hub/academy/course/bitunix-commodity-futures-guide?id=191"
+    },
+    {
+      "type": "Bitunix TradFi Guide: Stocks, Gold, Silver, Oil",
+      "url": "https://www.bitunix.com/hub/academy/course/what-is-tradfi-on-bitunix?id=193"
+    },
+    {
+      "type": "Trading Guide",
+      "url": "https://www.bitunix.com/hub/academy/list/Trading-Guide-1788"
+    },
+    {
+      "type": "Bitunix Account - Security Authentication Failure Reset Guide (Web)",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/bitunix-account-security-authentication-failure-reset-guide-web?id=241"
+    },
+    {
+      "type": "Cách đăng ký tài khoản trên ứng dụng Bitunix (App)",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/how-to-register-an-account-on-bitunix-app?id=113"
+    },
+    {
+      "type": "How to Complete Identity Verification (KYC) on Bitunix (App",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/how-to-complete-identity-verification-kyc-on-bitunix-app?id=124"
+    },
+    {
+      "type": "Giao dịch hợp đồng tương lai tiền điện tử là gì?",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/what-is-futures-trading?id=72"
+    },
+    {
+      "type": "How to Use Bitunix Spot Auto-Invest Tool on Bitunix App",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/how-to-use-bitunix-spot-auto-invest-tool-on-bitunix-app?id=184"
+    },
+    {
+      "type": "How to complete spot trading on Bitunix (APP) ?",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/how-to-complete-a-spot-transaction-on-bitunixapp?id=84"
+    },
+    {
+      "type": "Các quy tắc giao dịch Cổ Phiếu Phái Sinh",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/introduction-to-stock-perpetuals?id=211"
+    },
+    {
+      "type": "How to Use the Convert Feature on Bitunix (App)",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/how-to-use-the-convert-feature-on-bitunix-app?id=201"
+    },
+    {
+      "type": "What is Copy Trading?",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/bitunix-copy-trading-operation-guideweb?id=88"
+    },
+    {
+      "type": "Introduction to Bitunix Dual Investment",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/introduction-to-bitunix-dual-investment?id=92"
+    },
+    {
+      "type": "Chart Trading App — Basic Version User Guide",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/chart-trading-app-basic-version-user-guide?id=216"
+    },
+    {
+      "type": "Giới thiệu quyền lợi VIP",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/introduction-to-vip-benefits?id=136"
+    },
+    {
+      "type": "Bitunix Easy Earn Product Introduction",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/bitunix-easy-earn-product-introduction?id=91"
+    },
+    {
+      "type": "Bitunix Futures Bonus là gì?",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/what-is-bitunix-futures-bonus?id=138"
+    },
+    {
+      "type": "Bitunix K-Line Panel: Guide to Creating Four Types of Warning Alerts",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/bitunix-k-line-panel-guide-to-creating-four-types-of-warning-alerts?id=230"
+    },
+    {
+      "type": "Bitunix Referral Rebates introduce",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/bitunix-referral-program?id=157"
+    },
+    {
+      "type": "How to Use SEPA Deposit (Web)?",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/how-to-use-sepa-deposit-web?id=258"
+    },
+    {
+      "type": "Contact Bitunix",
+      "url": "https://www.bitunix.com/vi-vn/hub/helpcenter/article/contact-bitunix?id=141"
+    }
+  ],
+  "latestVersion": "1.0.0",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "label": "latest",
+      "timestamp": "2026-06-30T22:07:42.150Z",
+      "filename": "documentation_2026-06-30T22:07:42.150Z.md",
+      "totalPages": 196,
+      "successfulPages": 196,
+      "url": "https://www.bitunix.com/api-docs/",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 2
+}
