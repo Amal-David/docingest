@@ -11,6 +11,7 @@ import type {
   DomainMetadata,
   DomainMetadataV1,
   DomainMetadataV2,
+  VersionedDomainMetadata,
   hasVersioning,
 } from '../types/versioning';
 
@@ -124,51 +125,37 @@ export function extractVersionFromUrl(url: string): string | null {
 }
 
 /**
- * Migrate legacy V1 metadata to V2 format with versioning
+ * Build a read-only compatibility view for legacy metadata.
  *
- * This function:
- * 1. Reads existing documentation files in the domain path
- * 2. Assigns sequential versions (1.0.0, 1.1.0, etc.) based on timestamp
- * 3. Marks the newest as isLatest: true
- * 4. Returns the migrated metadata
+ * V1 records do not contain enough information to reconstruct upstream
+ * documentation versions. In particular, a crawl timestamp is not a release
+ * version. The compatibility view therefore exposes only the newest captured
+ * document as `legacy` and retains all legacy filenames for an explicit,
+ * backup-first migration to inspect later.
  */
-export async function migrateMetadataToV2(
+export async function createLegacyCompatibilityView(
   legacyMetadata: DomainMetadataV1,
   domainPath: string
 ): Promise<DomainMetadataV2> {
-  // Find all documentation files
   const files = await fs.readdir(domainPath);
   const docFiles = files
     .filter((f) => f.startsWith('documentation_') && f.endsWith('.md'))
-    .sort(); // Sort by timestamp (oldest first)
-
-  // Create version entries for each file
-  const versions: DocVersion[] = docFiles.map((filename, index) => {
-    // Extract timestamp from filename
-    const timestampMatch = filename.match(/documentation_(.+)\.md$/);
-    const timestamp = timestampMatch ? timestampMatch[1] : new Date().toISOString();
-
-    // Calculate version (1.0.0, 1.1.0, 1.2.0, etc.)
-    const version = `1.${index}.0`;
-
-    return {
-      version,
+    .sort();
+  const latestFilename = docFiles[docFiles.length - 1];
+  const timestampMatch = latestFilename?.match(/documentation_(.+)\.md$/);
+  const timestamp = timestampMatch?.[1] || legacyMetadata.lastScraped;
+  const versions: DocVersion[] = latestFilename
+    ? [{
+      version: 'legacy',
+      label: 'legacy',
       timestamp,
-      filename,
+      filename: latestFilename,
       totalPages: legacyMetadata.totalPages,
       successfulPages: legacyMetadata.successfulPages,
       url: legacyMetadata.url,
-      isLatest: false, // Will be set below
-    };
-  });
-
-  // Mark the last (newest) version as latest
-  if (versions.length > 0) {
-    versions[versions.length - 1].isLatest = true;
-    versions[versions.length - 1].label = 'latest';
-  }
-
-  const latestVersion = versions.length > 0 ? versions[versions.length - 1].version : '1.0.0';
+      isLatest: true,
+    }]
+    : [];
 
   return {
     url: legacyMetadata.url,
@@ -178,11 +165,19 @@ export async function migrateMetadataToV2(
     successfulPages: legacyMetadata.successfulPages,
     failedPages: legacyMetadata.failedPages,
     structure: legacyMetadata.structure,
-    latestVersion,
+    latestVersion: 'legacy',
     versions,
     schemaVersion: 2,
+    legacyDocumentFiles: docFiles,
   };
 }
+
+/**
+ * Backwards-compatible name for the explicit migration command. This returns
+ * an in-memory value only; callers are responsible for backing up and writing
+ * it deliberately.
+ */
+export const migrateMetadataToV2 = createLegacyCompatibilityView;
 
 /**
  * Find a documentation file by version
@@ -190,12 +185,14 @@ export async function migrateMetadataToV2(
  * Returns the filename if found, null otherwise
  */
 export function findVersionFile(
-  metadata: DomainMetadataV2,
+  metadata: VersionedDomainMetadata,
   version: string
 ): string | null {
   const normalizedVersion = normalizeVersion(version);
   const versionEntry = metadata.versions.find(
-    (v) => normalizeVersion(v.version) === normalizedVersion
+    (entry) => entry.version === version || (
+      !entry.snapshotId && normalizeVersion(entry.version) === normalizedVersion
+    )
   );
   return versionEntry?.filename || null;
 }
@@ -203,8 +200,22 @@ export function findVersionFile(
 /**
  * Get the latest version from metadata
  */
-export function getLatestVersion(metadata: DomainMetadataV2): DocVersion | null {
+export function getLatestVersion(metadata: VersionedDomainMetadata): DocVersion | null {
   return metadata.versions.find((v) => v.isLatest) || metadata.versions[metadata.versions.length - 1] || null;
+}
+
+/**
+ * Preserve semantic ordering for legacy V2 records, but never parse a
+ * content-addressed snapshot ID as if it were a semantic release number.
+ */
+export function sortDocVersions(versions: DocVersion[]): DocVersion[] {
+  return [...versions].sort((a, b) => {
+    if (a.snapshotId || b.snapshotId) {
+      const byTimestamp = b.timestamp.localeCompare(a.timestamp);
+      return byTimestamp !== 0 ? byTimestamp : b.version.localeCompare(a.version);
+    }
+    return semverCompare(b.version, a.version);
+  });
 }
 
 /**
@@ -214,10 +225,10 @@ export function getLatestVersion(metadata: DomainMetadataV2): DocVersion | null 
  * @param newVersion - Version info for the new documentation
  * @returns Updated metadata with new version
  */
-export function addVersionToMetadata(
-  metadata: DomainMetadataV2,
+export function addVersionToMetadata<T extends VersionedDomainMetadata>(
+  metadata: T,
   newVersion: Omit<DocVersion, 'isLatest'>
-): DomainMetadataV2 {
+): T {
   // Unmark all existing versions as not latest
   const updatedVersions: DocVersion[] = metadata.versions.map((v): DocVersion => {
     const updated: DocVersion = {
@@ -240,8 +251,8 @@ export function addVersionToMetadata(
 
   updatedVersions.push(newVersionEntry);
 
-  // Sort versions by semver (newest first for display)
-  updatedVersions.sort((a, b) => semverCompare(b.version, a.version));
+  // Sort snapshot-backed records by capture time, not faux semver.
+  const sortedVersions = sortDocVersions(updatedVersions);
 
   return {
     ...metadata,
@@ -249,22 +260,27 @@ export function addVersionToMetadata(
     lastScraped: newVersion.timestamp,
     totalPages: newVersion.totalPages,
     successfulPages: newVersion.successfulPages,
-    versions: updatedVersions,
-  };
+    versions: sortedVersions,
+  } as T;
 }
 
 /**
  * Check if a version already exists in metadata
  */
-export function versionExists(metadata: DomainMetadataV2, version: string): boolean {
+export function versionExists(metadata: VersionedDomainMetadata, version: string): boolean {
   const normalizedVersion = normalizeVersion(version);
   return metadata.versions.some(
-    (v) => normalizeVersion(v.version) === normalizedVersion
+    (entry) => entry.version === version || (
+      !entry.snapshotId && normalizeVersion(entry.version) === normalizedVersion
+    )
   );
 }
 
 /**
- * Determine version for new documentation
+ * Determine a legacy semantic-version compatibility label.
+ *
+ * @deprecated New crawl storage must use an immutable snapshot ID and retain
+ * an upstream version only when the source provides one.
  *
  * Priority:
  * 1. Explicit version from request

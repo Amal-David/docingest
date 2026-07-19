@@ -122,10 +122,19 @@ Fetch full documentation content for a library.
 | `domain` | Yes | Domain from find-docs (e.g., "react.dev") |
 | `topic` | No | Filter to specific topic (e.g., "hooks") |
 | `maxTokens` | No | Maximum tokens to return (default: 5000) |
+| `snapshotId` | No | Immutable snapshot ID for an exact historical read |
+| `version` | No | Compatibility selector for an older version/upstream label; prefer `snapshotId` |
+
+Every successful snapshot-backed read includes its snapshot ID, content hash,
+source URL, capture time, quality verdict, and any upstream version/channel.
+Legacy records remain readable through the compatibility path and are labelled
+`legacy-unverified` rather than being assigned a fabricated release version.
 
 ### `query-docs`
 
-Full-text search across all indexed documentation.
+Search approved documentation sections using deterministic lexical ranking.
+Results contain bounded content plus the snapshot ID, hash, canonical URL,
+freshness, quality status, and optional upstream version.
 
 | Parameter | Required | Description |
 |-----------|----------|-------------|
