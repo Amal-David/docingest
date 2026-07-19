@@ -66,6 +66,7 @@ export interface DomainMetadataV2 extends Omit<DomainMetadataV1, 'lastScraped'> 
 
 export type CrawlPageOutcomeStatus =
   | 'valid'
+  | 'needs-review'
   | 'blocked'
   | 'empty'
   | 'duplicate'
@@ -85,6 +86,7 @@ export interface CrawlRunTotals {
   discovered: number;
   returned: number;
   valid: number;
+  'needs-review': number;
   blocked: number;
   empty: number;
   duplicate: number;

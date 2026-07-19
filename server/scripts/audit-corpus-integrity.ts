@@ -24,12 +24,29 @@ const apply = process.argv.includes('--apply');
 const force = process.argv.includes('--force');
 const storagePath = path.resolve(process.cwd(), 'server/storage/docs');
 
+export interface AuditOptions {
+  apply: boolean;
+  force: boolean;
+  storagePath: string;
+}
+
+export interface AuditSummary {
+  mode: 'apply' | 'dry-run';
+  upgraded: number;
+  clean: number;
+  skipped: number;
+  needsReview: number;
+  errors: number;
+}
+
+type AuditResult = 'upgraded' | 'clean' | 'skipped' | 'needs-review';
+
 function firstHeading(content: string): string {
   return content.match(/^#\s+(.+)$/m)?.[1]?.trim() || '';
 }
 
-async function auditDomain(domain: string): Promise<'upgraded' | 'clean' | 'skipped' | 'needs-review'> {
-  const domainPath = path.join(storagePath, domain);
+export async function auditDomain(domain: string, options: AuditOptions): Promise<AuditResult> {
+  const domainPath = path.join(options.storagePath, domain);
   const metadataPath = path.join(domainPath, 'metadata.json');
   if (!await fs.pathExists(metadataPath)) return 'skipped';
 
@@ -63,7 +80,11 @@ async function auditDomain(domain: string): Promise<'upgraded' | 'clean' | 'skip
     outcomes: [{
       url: current.url || metadata.url,
       canonicalUrl: canonicalSourceUrl,
-      status: quality.status === 'quarantined' ? 'rejected' : 'valid',
+      status: quality.status === 'approved'
+        ? 'valid'
+        : quality.status === 'quarantined'
+          ? 'rejected'
+          : 'needs-review',
       reason: quality.reasons[0],
     }],
   });
@@ -83,33 +104,54 @@ async function auditDomain(domain: string): Promise<'upgraded' | 'clean' | 'skip
   });
   const upgraded = appendCrawlRun(metadata, auditRun, snapshot);
 
-  if (apply) {
+  if (options.apply) {
     const backupPath = path.join(domainPath, 'metadata.pre-integrity-audit.backup.json');
-    if (await fs.pathExists(backupPath) && !force) {
+    const backupExists = await fs.pathExists(backupPath);
+    if (backupExists && !options.force) {
       throw new Error(`${domain}: backup exists; re-run with --force only after reviewing it`);
     }
-    await fs.writeJSON(backupPath, rawMetadata, { spaces: 2 });
+    if (!backupExists) {
+      await fs.writeJSON(backupPath, rawMetadata, { spaces: 2 });
+    }
     await fs.writeJSON(metadataPath, upgraded, { spaces: 2 });
   }
 
   return quality.status === 'approved' ? 'upgraded' : 'needs-review';
 }
 
-async function main(): Promise<void> {
-  if (!await fs.pathExists(storagePath)) {
-    throw new Error(`Storage directory does not exist: ${storagePath}`);
+export async function auditCorpus(options: AuditOptions): Promise<AuditSummary> {
+  if (!await fs.pathExists(options.storagePath)) {
+    throw new Error(`Storage directory does not exist: ${options.storagePath}`);
   }
 
-  const summary = { mode: apply ? 'apply' : 'dry-run', upgraded: 0, clean: 0, skipped: 0, needsReview: 0 };
-  for (const entry of await fs.readdir(storagePath)) {
-    const fullPath = path.join(storagePath, entry);
-    if (!(await fs.stat(fullPath)).isDirectory()) continue;
-    const result = await auditDomain(entry);
-    if (result === 'upgraded') summary.upgraded += 1;
-    if (result === 'clean') summary.clean += 1;
-    if (result === 'skipped') summary.skipped += 1;
-    if (result === 'needs-review') summary.needsReview += 1;
+  const summary: AuditSummary = {
+    mode: options.apply ? 'apply' : 'dry-run',
+    upgraded: 0,
+    clean: 0,
+    skipped: 0,
+    needsReview: 0,
+    errors: 0,
+  };
+  for (const entry of await fs.readdir(options.storagePath)) {
+    try {
+      const fullPath = path.join(options.storagePath, entry);
+      if (!(await fs.stat(fullPath)).isDirectory()) continue;
+      const result = await auditDomain(entry, options);
+      if (result === 'upgraded') summary.upgraded += 1;
+      if (result === 'clean') summary.clean += 1;
+      if (result === 'skipped') summary.skipped += 1;
+      if (result === 'needs-review') summary.needsReview += 1;
+    } catch (error) {
+      console.error(`${entry}: ${error instanceof Error ? error.message : error}`);
+      summary.errors += 1;
+    }
   }
+
+  return summary;
+}
+
+async function main(): Promise<void> {
+  const summary = await auditCorpus({ apply, force, storagePath });
 
   console.log(JSON.stringify(summary));
   if (!apply) {
@@ -117,7 +159,9 @@ async function main(): Promise<void> {
   }
 }
 
-main().catch((error) => {
-  console.error(error instanceof Error ? error.message : error);
-  process.exitCode = 1;
-});
+if (/^audit-corpus-integrity\.(?:[cm]?[jt]s)$/.test(path.basename(process.argv[1] || ''))) {
+  main().catch((error) => {
+    console.error(error instanceof Error ? error.message : error);
+    process.exitCode = 1;
+  });
+}

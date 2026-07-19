@@ -154,7 +154,7 @@ freshness, quality status, and optional upstream version.
 
 - `read-docs` sends `topic` and `maxTokens` to the API so large docs can be filtered server-side before they cross stdio.
 - Repeated lookups are cached in-process for five minutes by default.
-- Search uses the Redis-backed `fast-search` endpoint first and falls back to the filesystem search endpoint if needed.
+- `query-docs` calls `/docs/sections/search`, which deterministically ranks approved documentation sections lexically.
 
 ## License
 

@@ -15,6 +15,7 @@ const EMPTY_TOTALS: CrawlRunTotals = {
   discovered: 0,
   returned: 0,
   valid: 0,
+  'needs-review': 0,
   blocked: 0,
   empty: 0,
   duplicate: 0,

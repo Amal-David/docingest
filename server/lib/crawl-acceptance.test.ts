@@ -65,6 +65,20 @@ assert.deepEqual(failedPageLabels(result.outcomes), [
   'https://docs.example.test/challenge (server-detected-blocked-content)',
 ]);
 
+const serverAppended = reconcileCrawlOutcomes(
+  [],
+  [{
+    url: 'https://docs.example.test/recovered',
+    type: 'Guide',
+    content: `# Recovered\n\n${'Useful documentation. '.repeat(30)}`,
+  }]
+);
+assert.equal(serverAppended.acceptedPages.length, 1);
+assert.deepEqual(
+  serverAppended.outcomes.map((outcome) => [outcome.url, outcome.status, outcome.reason]),
+  [['https://docs.example.test/recovered', 'valid', undefined]]
+);
+
 const deduplicated = reconcileCrawlOutcomes(
   [{ url: 'https://docs.example.test//guide/?b=2&a=1', status: 'valid' }],
   [

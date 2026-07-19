@@ -62,6 +62,8 @@
     "test:sections": "tsx server/lib/section-retrieval.test.ts",
     "test:crawl": "tsx server/lib/crawl-outcomes.test.ts",
     "test:acceptance": "tsx server/lib/crawl-acceptance.test.ts",
+    "test:audit": "tsx server/scripts/audit-corpus-integrity.test.ts",
+    "test:storage-paths": "tsx server/lib/storage-paths.test.ts",
     "eject": "react-scripts eject",
     "server": "tsx server/server.ts",
     "dev": "concurrently \"npm run server\" \"npm run dev-start\"",

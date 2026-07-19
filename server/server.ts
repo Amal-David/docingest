@@ -61,6 +61,11 @@ import { resolveSnapshotSelector } from './lib/snapshot-selector';
 import { canonicalDomain, canonicalizeUrl } from './lib/url-canonicalization';
 import { searchApprovedSections, type ApprovedDocumentForSearch } from './lib/section-retrieval';
 import {
+  isValidSnapshotTimestamp,
+  resolveSafeDomainPath,
+  resolveSafeSnapshotPath,
+} from './lib/storage-paths';
+import {
   startFirecrawlCrawl,
   getFirecrawlCrawlStatus,
   isFirecrawlConfigured,
@@ -415,8 +420,8 @@ app.get("/api/see", (req, res) => {
 app.post('/api/docs/save', async (req, res) => {
   try {
     const {
-      domain,
-      timestamp,
+      domain: requestedDomain,
+      timestamp: requestedTimestamp,
       pages,
       version: explicitVersion,
       versionLabel,
@@ -427,14 +432,22 @@ app.post('/api/docs/save', async (req, res) => {
       crawlOutcomes,
       providerTotals,
     } = req.body as SaveDocRequest;
-    if (!domain || !timestamp || !Array.isArray(pages)) {
+    if (!requestedDomain || !requestedTimestamp || !Array.isArray(pages)) {
       return res.status(400).json({
         success: false,
         error: 'Invalid request body. Required: domain, timestamp, and pages array'
       });
     }
 
-    const domainPath = path.join(STORAGE_PATH, domain);
+    const safeDomainPath = resolveSafeDomainPath(STORAGE_PATH, requestedDomain);
+    if (!safeDomainPath || !isValidSnapshotTimestamp(requestedTimestamp)) {
+      return res.status(400).json({
+        success: false,
+        error: 'Invalid domain or timestamp',
+      });
+    }
+    const { domain, domainPath } = safeDomainPath;
+    const timestamp = new Date(requestedTimestamp).toISOString();
     await fs.ensureDir(domainPath);
     console.log('Saving to domain path:', domainPath);
 
@@ -522,7 +535,9 @@ app.post('/api/docs/save', async (req, res) => {
       : undefined;
     const evidenceSnapshot = existingEvidenceSnapshot || proposedEvidenceSnapshot;
     if (proposedEvidenceSnapshot && !existingEvidenceSnapshot) {
-      await fs.writeFile(path.join(domainPath, proposedEvidenceSnapshot.filename), evidenceContent);
+      const evidencePath = resolveSafeSnapshotPath(domainPath, proposedEvidenceSnapshot.filename);
+      if (!evidencePath) throw new Error('Refusing to write evidence outside the documentation domain directory');
+      await fs.writeFile(evidencePath, evidenceContent);
     }
 
     if (validPages.length === 0) {
@@ -590,7 +605,8 @@ app.post('/api/docs/save', async (req, res) => {
       ? existingMetadata.snapshots.find((candidate) => candidate.id === proposedSnapshot.id)
       : undefined;
     const snapshot = existingSnapshot || proposedSnapshot;
-    const filePath = path.join(domainPath, snapshot.filename);
+    const filePath = resolveSafeSnapshotPath(domainPath, snapshot.filename);
+    if (!filePath) throw new Error('Refusing to write documentation outside the documentation domain directory');
     const version = snapshot.id;
     const existingSnapshotVersion = existingMetadata?.versions.find(
       (entry) => entry.snapshotId === snapshot.id || entry.version === snapshot.id

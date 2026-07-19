@@ -124,6 +124,7 @@ export function reconcileCrawlOutcomes<T extends SubmittedCrawlPage>(
     } else {
       outcomes.push(finalOutcome);
       finalOutcomeIndex = outcomes.length - 1;
+      consumedOutcomeIndexes.add(finalOutcomeIndex);
     }
 
     if (finalOutcome.status === 'valid' && acceptedCanonicalUrls.has(canonicalUrl)) {
