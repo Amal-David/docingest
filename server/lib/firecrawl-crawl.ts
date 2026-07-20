@@ -169,7 +169,6 @@ export async function startFirecrawlCrawl(req: CrawlStartRequest): Promise<{ suc
     });
 
     const data = await response.json().catch(() => ({}));
-    console.log(`[firecrawl] POST /crawl HTTP ${response.status}:`, JSON.stringify(data).slice(0, 300));
 
     if (!response.ok) {
       return {
@@ -180,7 +179,6 @@ export async function startFirecrawlCrawl(req: CrawlStartRequest): Promise<{ suc
 
     const id = data.id || data.jobId || data.crawlId;
     if (!id) {
-      console.error('[firecrawl] No crawl ID in response:', JSON.stringify(data));
       return { success: false, error: 'Firecrawl did not return a crawl ID' };
     }
 
@@ -198,7 +196,6 @@ export async function getFirecrawlCrawlStatus(crawlId: string): Promise<CrawlSta
     });
 
     const data = await response.json().catch(() => ({}));
-    console.log(`[firecrawl] GET /crawl/${crawlId} HTTP ${response.status}: status=${data.status} completed=${data.completed} total=${data.total} pages=${(data.data || data.results || []).length}${data.error ? ' error=' + data.error : ''}`);
 
     if (!response.ok) {
       return {
