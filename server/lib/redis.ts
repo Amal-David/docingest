@@ -1,4 +1,5 @@
 import Redis from 'ioredis';
+import { buildContentIndexReplacementPlan } from './index-replacement';
 
 // Redis connection configuration
 const REDIS_HOST = process.env.REDIS_HOST || 'localhost';
@@ -186,6 +187,60 @@ export interface DomainMeta {
   successfulPages: number;
 }
 
+async function invalidateSearchCaches(): Promise<void> {
+  let cursor = '0';
+  do {
+    const [nextCursor, keys] = await redis.scan(cursor, 'MATCH', 'cache:search:*', 'COUNT', 100);
+    cursor = nextCursor;
+    if (keys.length > 0) {
+      await redis.del(...keys);
+    }
+  } while (cursor !== '0');
+}
+
+/**
+ * Replace one domain's Redis representation atomically enough for public
+ * reads: stale chunks are removed before only the approved snapshot is added,
+ * then cached query results are invalidated.
+ */
+export async function replaceDomainIndex(meta: DomainMeta, content: string): Promise<void> {
+  if (!(await ensureConnection())) {
+    console.warn('[Redis] Not connected, skipping replaceDomainIndex');
+    return;
+  }
+
+  try {
+    const pipeline = redis.pipeline();
+    pipeline.zadd(KEYS.AUTOCOMPLETE_DOMAINS, 0, meta.domain.toLowerCase());
+    pipeline.hset(KEYS.DOMAIN_META(meta.domain), {
+      domain: meta.domain,
+      url: meta.url,
+      title: meta.title || meta.domain,
+      snippet: meta.snippet.slice(0, 500),
+      lastScraped: meta.lastScraped,
+      totalPages: meta.totalPages.toString(),
+      successfulPages: meta.successfulPages.toString(),
+    });
+    const replacement = buildContentIndexReplacementPlan(content);
+    for (const index of replacement.staleChunkIndexes) {
+      pipeline.del(KEYS.CONTENT_CHUNK(meta.domain, index));
+    }
+    replacement.chunks.forEach((chunk, index) => {
+      pipeline.hset(KEYS.CONTENT_CHUNK(meta.domain, index), {
+        text: chunk,
+        index: index.toString(),
+      });
+      pipeline.expire(KEYS.CONTENT_CHUNK(meta.domain, index), TTL.CONTENT_CACHE);
+    });
+    await pipeline.exec();
+    await invalidateSearchCaches();
+  } catch (err) {
+    console.error('[Redis] replaceDomainIndex error:', err);
+    isConnected = false;
+    throw err;
+  }
+}
+
 /**
  * Add a domain to the autocomplete index
  */
@@ -231,18 +286,14 @@ export async function indexContentChunks(domain: string, content: string): Promi
   }
 
   try {
-    // Split content into chunks of ~500 chars
-    const CHUNK_SIZE = 500;
-    const chunks: string[] = [];
-
-    for (let i = 0; i < content.length; i += CHUNK_SIZE) {
-      chunks.push(content.slice(i, i + CHUNK_SIZE));
-    }
-
     const pipeline = redis.pipeline();
 
-    // Store each chunk
-    chunks.slice(0, 100).forEach((chunk, index) => { // Limit to 100 chunks per domain
+    // Remove any tail chunks left by a longer previous snapshot.
+    const replacement = buildContentIndexReplacementPlan(content);
+    for (const index of replacement.staleChunkIndexes) {
+      pipeline.del(KEYS.CONTENT_CHUNK(domain, index));
+    }
+    replacement.chunks.forEach((chunk, index) => {
       pipeline.hset(KEYS.CONTENT_CHUNK(domain, index), {
         text: chunk,
         index: index.toString(),

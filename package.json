@@ -26,6 +26,7 @@
     "express-rate-limit": "^7.5.0",
     "fs-extra": "^11.2.0",
     "helmet": "^8.1.0",
+    "ioredis": "^5.11.1",
     "jsdom": "^28.1.0",
     "lru-cache": "^11.1.0",
     "react": "^18.2.0",
@@ -53,11 +54,22 @@
     "build:deploy": "react-scripts build && npm run deploy",
     "deploy": "sudo cp -r build/* /var/www/html/ && sudo chown -R www-data:www-data /var/www/html/ && sudo systemctl reload nginx",
     "test": "react-scripts test",
+    "test:server": "tsx server/lib/versioning.test.ts",
+    "test:integrity": "tsx server/lib/document-integrity.test.ts",
+    "test:snapshots": "tsx server/lib/snapshot-selector.test.ts",
+    "test:urls": "tsx server/lib/url-canonicalization.test.ts",
+    "test:index": "tsx server/lib/index-replacement.test.ts",
+    "test:sections": "tsx server/lib/section-retrieval.test.ts",
+    "test:crawl": "tsx server/lib/crawl-outcomes.test.ts",
+    "test:acceptance": "tsx server/lib/crawl-acceptance.test.ts",
+    "test:audit": "tsx server/scripts/audit-corpus-integrity.test.ts",
+    "test:storage-paths": "tsx server/lib/storage-paths.test.ts",
     "eject": "react-scripts eject",
     "server": "tsx server/server.ts",
     "dev": "concurrently \"npm run server\" \"npm run dev-start\"",
     "dev:local": "PORT=8011 REACT_APP_API_URL=http://localhost:8011/api concurrently \"npm run server\" \"npm run dev-start\"",
-    "migrate:versions": "npx tsx server/scripts/migrate-to-versioning.ts"
+    "migrate:versions": "npx tsx server/scripts/migrate-to-versioning.ts",
+    "audit:integrity": "npx tsx server/scripts/audit-corpus-integrity.ts"
   },
   "eslintConfig": {
     "extends": [

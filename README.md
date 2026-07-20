@@ -154,6 +154,7 @@ Use the same package as a CLI:
 ```bash
 npx @docingest/mcp-server find react
 npx @docingest/mcp-server read react.dev --topic hooks --max-tokens 5000
+npx @docingest/mcp-server read react.dev --snapshot-id <immutable-snapshot-id>
 npx @docingest/mcp-server search "server components" --limit 5
 ```
 
@@ -164,6 +165,17 @@ MCP tools:
 - `query-docs` searches across indexed docs
 
 For editor-specific config, see [the MCP server README](./mcp-server/README.md).
+
+## Corpus integrity upgrade
+
+Existing V1/V2 records are preserved as evidence and are not silently promoted
+to public snapshot retrieval. Before deploying this release, run the backup-first
+audit, inspect its dry-run summary, then apply it deliberately:
+
+```bash
+npm run audit:integrity
+npm run audit:integrity -- --apply
+```
 
 ## Setup Docs
 

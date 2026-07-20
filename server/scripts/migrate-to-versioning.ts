@@ -6,12 +6,14 @@
  *   npx tsx server/scripts/migrate-to-versioning.ts [options]
  *
  * Options:
- *   --dry-run    Show what would be migrated without making changes
+ *   --apply      Apply changes. Dry-run is the default.
+ *   --force      Allow a migration when an earlier V1 backup is already present
  *   --domain     Migrate only a specific domain
  *   --verbose    Show detailed output
  *
  * Examples:
- *   npx tsx server/scripts/migrate-to-versioning.ts --dry-run
+ *   npx tsx server/scripts/migrate-to-versioning.ts
+ *   npx tsx server/scripts/migrate-to-versioning.ts --apply
  *   npx tsx server/scripts/migrate-to-versioning.ts --domain example.com
  *   npx tsx server/scripts/migrate-to-versioning.ts --verbose
  */
@@ -24,7 +26,9 @@ import { hasVersioning } from '../types/versioning';
 
 // Parse command line arguments
 const args = process.argv.slice(2);
-const dryRun = args.includes('--dry-run');
+const apply = args.includes('--apply');
+const dryRun = !apply;
+const force = args.includes('--force');
 const verbose = args.includes('--verbose');
 const domainIndex = args.indexOf('--domain');
 const specificDomain = domainIndex !== -1 ? args[domainIndex + 1] : null;
@@ -67,7 +71,8 @@ async function migrateDomain(domainPath: string, domain: string): Promise<Migrat
       };
     }
 
-    // Migrate to V2
+    // Migrate to V2. The migration produces a single legacy compatibility
+    // version because V1 did not contain trustworthy upstream version data.
     const legacyMetadata = rawMetadata as DomainMetadataV1;
     const migratedMetadata = await migrateMetadataToV2(legacyMetadata, domainPath);
 
@@ -80,13 +85,23 @@ async function migrateDomain(domainPath: string, domain: string): Promise<Migrat
       };
     }
 
-    // Backup original metadata
+    // Preserve the source metadata before replacing it. If a previous backup
+    // exists, require an explicit operator decision rather than silently
+    // overwriting a migration boundary.
     const backupPath = path.join(domainPath, 'metadata.v1.backup.json');
+    if (await fs.pathExists(backupPath) && !force) {
+      return {
+        domain,
+        status: 'skipped',
+        message: `Existing V1 backup found at ${backupPath}; review it or pass --force to continue`,
+      };
+    }
+
     if (!await fs.pathExists(backupPath)) {
       await fs.writeJSON(backupPath, rawMetadata, { spaces: 2 });
-      if (verbose) {
-        console.log(`  Backed up original to ${backupPath}`);
-      }
+    }
+    if (verbose) {
+      console.log(`  Preserved original metadata at ${backupPath}`);
     }
 
     // Write migrated metadata
@@ -112,7 +127,7 @@ async function main() {
   console.log('Documentation Versioning Migration Script');
   console.log('='.repeat(60));
   console.log(`Storage path: ${STORAGE_PATH}`);
-  console.log(`Mode: ${dryRun ? 'DRY RUN (no changes will be made)' : 'LIVE'}`);
+  console.log(`Mode: ${dryRun ? 'DRY RUN (no changes will be made)' : 'APPLY'}`);
   if (specificDomain) {
     console.log(`Target domain: ${specificDomain}`);
   }
@@ -202,7 +217,7 @@ async function main() {
   }
 
   if (dryRun) {
-    console.log('\n[DRY RUN] No changes were made. Run without --dry-run to apply changes.');
+    console.log('\n[DRY RUN] No changes were made. Re-run with --apply to write backup-first migration results.');
   }
 
   console.log('');

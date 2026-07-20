@@ -6,7 +6,6 @@ import ReactGA from "react-ga4";
 import { Helmet } from 'react-helmet-async';
 import { Tooltip as ReactTooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
-import { isLikelyBlockedPage } from '../utils/scrape-filter';
 
 // API configuration - crawl goes through server proxy (Cloudflare Browser Rendering)
 const API_URL = process.env.REACT_APP_API_URL || '/api';
@@ -40,6 +39,18 @@ interface CrawlStatusResponse {
   status: string;
   completed: number;
   total: number;
+  outcomes?: Array<{
+    url: string;
+    canonicalUrl?: string;
+    status: 'valid' | 'blocked' | 'empty' | 'duplicate' | 'rejected' | 'failed';
+    reason?: string;
+  }>;
+  providerTotals?: {
+    discovered: number;
+    returned: number;
+    discoveredIsExact: boolean;
+  };
+  error?: string;
   data: Array<{
     markdown?: string;
     metadata?: {
@@ -64,6 +75,7 @@ interface CrawlResponse {
   id?: string;
   url?: string;
   status?: string;
+  error?: string;
 }
 
 interface ScrapingMetrics {
@@ -104,7 +116,6 @@ const HomePage: React.FC = () => {
   // Handle URL parameter from homepage redirect - auto-fill and optionally auto-start
   const handleCrawlRef = useRef<(() => Promise<void>) | null>(null);
   const [isCrawling, setIsCrawling] = useState(false);
-  const [crawlId, setCrawlId] = useState<string | null>(null);
   const [savedDocs, setSavedDocs] = useState<DocPreview[]>([]);
   const [savedUrls, setSavedUrls] = useState<SavedUrl[]>([]);
   const [selectedDoc, setSelectedDoc] = useState<DocPreview | null>(null);
@@ -421,7 +432,7 @@ const HomePage: React.FC = () => {
         throw new Error(`Failed to start download: ${response.status} - ${errorText}`);
       }
 
-      const data = await response.json();
+      const data = await response.json() as CrawlResponse;
 
       logAndUpdateDebug(`✅ Crawl started successfully`);
       console.log('Crawl response:', data);
@@ -430,7 +441,6 @@ const HomePage: React.FC = () => {
         throw new Error(data.error || 'Failed to start download: No crawl ID received');
       }
 
-      setCrawlId(data.id);
       setIsCrawling(true);
       
       pollCrawlStatus(data.id, domain);
@@ -513,7 +523,7 @@ const HomePage: React.FC = () => {
         throw new Error(`HTTP error: ${response.status} ${response.statusText}`);
       }
 
-      const data = await response.json();
+      const data = await response.json() as CrawlStatusResponse;
 
       // Simple user-visible progress update
       const progressPercent = data.completed && data.total
@@ -537,150 +547,101 @@ const HomePage: React.FC = () => {
         ...prev,
         totalPages: data.total || 0,
         completedPages: data.completed || 0,
-        failedPages: data.data 
-          ? data.data.filter((item: any) => {
-              const blocked = isLikelyBlockedPage(
-                item.metadata?.title,
-                item.markdown,
-                item.metadata?.sourceURL
-              );
-              return blocked || !item.markdown || item.markdown.length <= 100;
-            }).map((item: any) => item.metadata?.sourceURL || 'Unknown URL')
-          : [],
+        failedPages: (data.outcomes || [])
+          .filter((outcome) => outcome.status !== 'valid')
+          .map((outcome) => outcome.reason ? `${outcome.url} (${outcome.reason})` : outcome.url),
         inProgress: data.status !== 'completed' && data.status !== 'failed'
       }));
 
       if (data.status === 'completed') {
         setIsCrawling(false);
-        if (data.data && data.data.length > 0) {
-          const timestamp = new Date().toISOString();
-          const failedPages: string[] = [];
-          
-          const pages: DocPreview[] = data.data.map((item: CrawlStatusResponse['data'][0]) => {
-            const blocked = isLikelyBlockedPage(
-              item.metadata?.title,
-              item.markdown,
-              item.metadata?.sourceURL
-            );
-            if (blocked) {
-              failedPages.push(`${item.metadata?.sourceURL || 'Unknown URL'} (Blocked by anti-bot protection)`);
-              return null as unknown as DocPreview;
+        const timestamp = new Date().toISOString();
+        const pages: DocPreview[] = (data.data || [])
+          .filter((item) => Boolean(item.markdown && item.metadata?.sourceURL))
+          .map((item) => ({
+            content: item.markdown || '',
+            type: item.metadata?.title || 'Unknown',
+            lastUpdated: timestamp,
+            url: item.metadata?.sourceURL,
+            domain,
+          }));
+        const failedPages = (data.outcomes || [])
+          .filter((outcome) => outcome.status !== 'valid')
+          .map((outcome) => outcome.reason ? `${outcome.url} (${outcome.reason})` : outcome.url);
+        const urlStatus: SavedUrl = {
+          url,
+          domain,
+          lastScraped: timestamp,
+          totalPages: data.providerTotals?.discovered || data.total,
+          successfulPages: pages.length,
+          failedPages,
+        };
+        setSavedUrls(prev => [...prev.filter(u => u.url !== url), urlStatus]);
+
+        try {
+          const requestData = {
+            domain,
+            timestamp,
+            pages,
+            crawlId: id,
+            crawlOutcomes: data.outcomes || [],
+            providerTotals: data.providerTotals,
+          };
+          const requestSize = new Blob([JSON.stringify(requestData)]).size;
+          const requestSizeMB = (requestSize / (1024 * 1024)).toFixed(2);
+          logAndUpdateDebug(`💾 Recording crawl results: ${requestSizeMB} MB, ${pages.length} submitted pages`);
+
+          const saveResponse = await fetch(`${API_URL}/docs/save`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(requestData),
+          });
+          const savedData = await saveResponse.json().catch(() => null);
+
+          if (!saveResponse.ok) {
+            if (saveResponse.status === 413) {
+              const serverLimit = saveResponse.headers.get('x-max-content-length');
+              const serverLimitMB = serverLimit ? (parseInt(serverLimit) / (1024 * 1024)).toFixed(2) : null;
+              throw new Error(`Documentation size (${requestSizeMB} MB) exceeds server limit${serverLimitMB ? ` of ${serverLimitMB} MB` : ''}.`);
             }
-            if (!item.markdown || item.markdown.length <= 100) {
-              const failureReason = !item.markdown 
-                ? 'No markdown content' 
-                : 'Content too short';
-              failedPages.push(`${item.metadata?.sourceURL || 'Unknown URL'} (${failureReason})`);
-              return null as unknown as DocPreview;
-            }
-            return {
-              content: item.markdown,
-              type: item.metadata?.title || 'Unknown',
-              lastUpdated: timestamp,
-              url: item.metadata?.sourceURL,
-              domain
-            };
-          }).filter((page: DocPreview | null) => page !== null) as DocPreview[];
-
-          logAndUpdateDebug(`🎯 FINAL RESULTS: ${pages.length} valid pages out of ${data.data.length} total pages processed`);
-
-          if (pages.length > 0) {
-            // Save URL status
-            const urlStatus: SavedUrl = {
-              url,
-              domain,
-              lastScraped: timestamp,
-              totalPages: data.total,
-              successfulPages: pages.length,
-              failedPages
-            };
-            
-            setSavedUrls(prev => [...prev.filter(u => u.url !== url), urlStatus]);
-            
-            // Save docs to server
-            try {
-              // Compute request size
-              const requestData = {
-                domain,
-                timestamp,
-                pages
-              };
-              const requestSize = new Blob([JSON.stringify(requestData)]).size;
-              const requestSizeMB = (requestSize / (1024 * 1024)).toFixed(2);
-              
-              logAndUpdateDebug(`💾 Saving documentation: ${requestSizeMB} MB, ${pages.length} pages`);
-
-              const saveResponse = await fetch(`${API_URL}/docs/save`, {
-                method: 'POST',
-                headers: {
-                  'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(requestData)
-              });
-
-              if (!saveResponse.ok) {
-                if (saveResponse.status === 413) {
-                  // Try to get the actual server limit from response headers if available
-                  const serverLimit = saveResponse.headers.get('x-max-content-length');
-                  const serverLimitMB = serverLimit ? (parseInt(serverLimit) / (1024 * 1024)).toFixed(2) : null;
-                  
-                  throw new Error(
-                    `Documentation size (${requestSizeMB} MB) exceeds server limit` +
-                    `${serverLimitMB ? ` of ${serverLimitMB} MB` : ''}. ` +
-                    `Please try one of the following:\n` +
-                    `1. Reduce the number of pages using the Max Pages slider\n` +
-                    `2. Use the exclude pattern to skip unnecessary content\n` +
-                    `3. Contact support if you need to process larger documentation`
-                  );
-                }
-                const errorData = await saveResponse.json().catch(() => null);
-                throw new Error(
-                  errorData?.error || 
-                  `Failed to save documentation: ${saveResponse.status} ${saveResponse.statusText}`
-                );
-              }
-
-              const savedData = await saveResponse.json();
-              if (!savedData.success) {
-                throw new Error(savedData.error || 'Failed to save documentation');
-              }
-
-              // Ensure filePath exists in the response
-              if (!savedData.filePath) {
-                throw new Error('Server response missing filePath');
-              }
-
-              logAndUpdateDebug(`✅ Successfully saved documentation to: ${savedData.filePath}`);
-
-              const docsWithPaths = pages.map(page => ({
-                ...page,
-                filePath: savedData.filePath
-              }));
-              
-              // Update state with file paths
-              setSavedDocs(prev => [...prev.filter(d => d.domain !== domain), ...docsWithPaths]);
-
-              // Show success message and navigate
-              setShowPreview(true);
-              setSelectedDoc(docsWithPaths[0]);
-              logAndUpdateDebug(`🎉 Documentation successfully downloaded! Navigating to results...`);
-              setTimeout(() => navigate(`/docs/${domain}`), 2000);
-              
-            } catch (saveError) {
-              console.error('Save error:', saveError);
-              logAndUpdateDebug(`❌ Failed to save documentation: ${saveError instanceof Error ? saveError.message : 'Unknown error'}`);
-              setError(saveError instanceof Error ? saveError.message : 'Failed to save documentation');
-            }
-          } else {
-            logAndUpdateDebug(`❌ No valid content found. All ${data.data.length} pages failed to provide usable content.`);
-            setError(`No valid content found in the scraped pages. Processed ${data.data.length} pages but none contained sufficient content.`);
+            throw new Error(savedData?.error || `Failed to save documentation: ${saveResponse.status} ${saveResponse.statusText}`);
           }
-        } else {
-          logAndUpdateDebug(`❌ Crawl completed but no data received`);
-          setError('No data received from the scraping process');
-          setMetrics(prev => ({ ...prev, inProgress: false }));
+
+          if (!savedData?.success || !savedData.filePath) {
+            throw new Error(savedData?.error || 'Server response missing saved documentation');
+          }
+
+          logAndUpdateDebug(`✅ Successfully saved documentation to: ${savedData.filePath}`);
+          const docsWithPaths = pages.map(page => ({ ...page, filePath: savedData.filePath }));
+          setSavedDocs(prev => [...prev.filter(d => d.domain !== domain), ...docsWithPaths]);
+          setShowPreview(true);
+          if (docsWithPaths[0]) {
+            setSelectedDoc(docsWithPaths[0]);
+            logAndUpdateDebug(`🎉 Documentation successfully downloaded! Navigating to results...`);
+            setTimeout(() => navigate(`/docs/${domain}`), 2000);
+          }
+        } catch (saveError) {
+          console.error('Save error:', saveError);
+          logAndUpdateDebug(`❌ Failed to save documentation: ${saveError instanceof Error ? saveError.message : 'Unknown error'}`);
+          setError(saveError instanceof Error ? saveError.message : 'Failed to save documentation');
         }
       } else if (data.status === 'failed') {
+        try {
+          await fetch(`${API_URL}/docs/save`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              domain,
+              timestamp: new Date().toISOString(),
+              pages: [],
+              crawlId: id,
+              crawlOutcomes: data.outcomes || [],
+              providerTotals: data.providerTotals,
+            }),
+          });
+        } catch (recordError) {
+          console.error('Failed to record crawl failure:', recordError);
+        }
         logAndUpdateDebug(`❌ CRAWL FAILED: ${data.error || 'Unknown error'}`);
         setError(`Download failed: ${data.error || 'Unknown error'}. Please try again.`);
         setIsCrawling(false);

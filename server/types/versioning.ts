@@ -8,7 +8,10 @@
  * Represents a single version of documentation for a domain
  */
 export interface DocVersion {
-  /** Semantic version string (e.g., "1.0.0", "2.1.3") */
+  /**
+   * Backwards-compatible selector. New V3 records set this to the immutable
+   * snapshot ID; legacy V2 records may contain an upstream semantic version.
+   */
   version: string;
   /** Optional human-readable label (e.g., "latest", "stable", "beta") */
   label?: string;
@@ -24,6 +27,12 @@ export interface DocVersion {
   url: string;
   /** Whether this is the latest version */
   isLatest: boolean;
+  /** Immutable snapshot ID for V3 records. */
+  snapshotId?: string;
+  /** Upstream release/version claimed by the documentation source, if known. */
+  upstreamVersion?: string;
+  /** Upstream release channel such as stable, beta, or next, if known. */
+  upstreamChannel?: string;
 }
 
 /**
@@ -51,17 +60,109 @@ export interface DomainMetadataV2 extends Omit<DomainMetadataV1, 'lastScraped'> 
   versions: DocVersion[];
   /** Schema version for future migrations */
   schemaVersion: 2;
+  /** Legacy source files retained for a manual, backup-first migration. */
+  legacyDocumentFiles?: string[];
 }
+
+export type CrawlPageOutcomeStatus =
+  | 'valid'
+  | 'needs-review'
+  | 'blocked'
+  | 'empty'
+  | 'duplicate'
+  | 'rejected'
+  | 'failed';
+
+export interface CrawlPageOutcome {
+  url: string;
+  canonicalUrl?: string;
+  status: CrawlPageOutcomeStatus;
+  reason?: string;
+  contentHash?: string;
+  providerStatus?: number | string;
+}
+
+export interface CrawlRunTotals {
+  discovered: number;
+  returned: number;
+  valid: number;
+  'needs-review': number;
+  blocked: number;
+  empty: number;
+  duplicate: number;
+  rejected: number;
+  failed: number;
+}
+
+export interface CrawlProviderTotals {
+  /** Provider-reported or lower-bound number of discovered pages. */
+  discovered: number;
+  /** Number of page records returned by the provider. */
+  returned: number;
+  /** False when the provider omitted a total and discovery is only a lower bound. */
+  discoveredIsExact: boolean;
+}
+
+export interface CrawlRun {
+  id: string;
+  provider: string;
+  seedUrl: string;
+  canonicalSeedUrl: string;
+  scope?: string;
+  configuration: Record<string, unknown>;
+  startedAt: string;
+  completedAt: string;
+  providerTotals: CrawlProviderTotals;
+  totals: CrawlRunTotals;
+  outcomes: CrawlPageOutcome[];
+}
+
+export type SnapshotQualityStatus = 'approved' | 'quarantined' | 'unknown';
+
+export interface SnapshotQuality {
+  status: SnapshotQualityStatus;
+  reasons: string[];
+}
+
+export interface DocumentationSnapshot {
+  id: string;
+  filename: string;
+  contentHash: string;
+  sourceUrl: string;
+  canonicalSourceUrl: string;
+  capturedAt: string;
+  crawlRunId: string;
+  upstreamVersion?: string;
+  upstreamChannel?: string;
+  totalPages: number;
+  successfulPages: number;
+  /** Page labels and URLs captured with this exact snapshot. */
+  structure: Array<{ type: string; url: string | null }>;
+  quality: SnapshotQuality;
+}
+
+/**
+ * Additive metadata format for reliable crawl lineage. V2 fields are retained
+ * for backwards compatibility until each public reader is moved to snapshots.
+ */
+export interface DomainMetadataV3 extends Omit<DomainMetadataV2, 'schemaVersion'> {
+  schemaVersion: 3;
+  crawlRuns: CrawlRun[];
+  snapshots: DocumentationSnapshot[];
+  currentSnapshotId?: string;
+}
+
+export type VersionedDomainMetadata = DomainMetadataV2 | DomainMetadataV3;
 
 /**
  * Union type for both metadata formats
  */
-export type DomainMetadata = DomainMetadataV1 | DomainMetadataV2;
+export type DomainMetadata = DomainMetadataV1 | VersionedDomainMetadata;
 
 /**
  * Type guard to check if metadata has versioning support
  */
-export function hasVersioning(metadata: DomainMetadata): metadata is DomainMetadataV2 {
+export function hasVersioning(metadata: DomainMetadata): metadata is VersionedDomainMetadata {
   return 'versions' in metadata && Array.isArray(metadata.versions) && 'schemaVersion' in metadata;
 }
 
@@ -71,12 +172,17 @@ export function hasVersioning(metadata: DomainMetadata): metadata is DomainMetad
 export interface VersionsListResponse {
   domain: string;
   latestVersion: string;
+  currentSnapshotId?: string;
   versions: Array<{
     version: string;
     label?: string;
     timestamp: string;
     isLatest: boolean;
     totalPages: number;
+    snapshotId?: string;
+    upstreamVersion?: string;
+    upstreamChannel?: string;
+    quality?: SnapshotQuality;
   }>;
 }
 
@@ -96,7 +202,18 @@ export interface DocWithVersionResponse {
     version: string;
     label?: string;
     isLatest: boolean;
+    snapshotId?: string;
+    upstreamVersion?: string;
   }>;
+  snapshot?: {
+    id: string;
+    contentHash: string;
+    sourceUrl: string;
+    capturedAt: string;
+    quality: SnapshotQuality;
+    upstreamVersion?: string;
+    upstreamChannel?: string;
+  };
 }
 
 /**
@@ -110,10 +227,22 @@ export interface SaveDocRequest {
     url: string;
     content: string;
   }>;
-  /** Optional explicit version (auto-assigned if not provided) */
+  /** Optional upstream version supplied by the documentation source. */
   version?: string;
   /** Optional version label */
   versionLabel?: string;
-  /** Whether to overwrite existing version */
+  /** @deprecated Snapshot identity is content-addressed; repeated content is idempotent. */
   overwrite?: boolean;
+  /** Crawl provider that produced this result. */
+  crawlProvider?: string;
+  /** Provider-specific crawl options retained for lineage. */
+  crawlConfiguration?: Record<string, unknown>;
+  /** Optional provider start timestamp for the crawl run. */
+  crawlStartedAt?: string;
+  /** Provider job ID whose server-recorded outcomes should be used when available. */
+  crawlId?: string;
+  /** Complete normalized provider outcomes for direct or recovered submissions. */
+  crawlOutcomes?: CrawlPageOutcome[];
+  /** Provider totals, kept separate from server acceptance totals. */
+  providerTotals?: Partial<CrawlProviderTotals>;
 }

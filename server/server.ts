@@ -2,8 +2,6 @@ import express from 'express';
 import cors from 'cors';
 import fs from 'fs-extra';
 import path from 'path';
-import { SitemapStream, streamToPromise } from 'sitemap';
-import { Readable } from 'stream';
 import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 // @ts-ignore
@@ -20,7 +18,7 @@ import {
   trackSearch,
   getPopularSearches,
   getIndexStats,
-  indexDomain,
+  replaceDomainIndex,
   cacheDocContent,
   getCachedDoc,
   invalidateDocCache,
@@ -32,36 +30,69 @@ import {
 import {
   normalizeVersion,
   semverCompare,
-  calculateNextVersion,
-  extractVersionFromUrl,
-  migrateMetadataToV2,
-  findVersionFile,
+  sortDocVersions,
+  createLegacyCompatibilityView,
   getLatestVersion,
   addVersionToMetadata,
-  versionExists,
-  determineVersion,
 } from './lib/versioning';
 import type {
   DocVersion,
   DomainMetadata,
   DomainMetadataV1,
-  DomainMetadataV2,
+  VersionedDomainMetadata,
   hasVersioning,
   VersionsListResponse,
   DocWithVersionResponse,
   SaveDocRequest,
 } from './types/versioning';
 import { hasVersioning as checkHasVersioning } from './types/versioning';
-
+import {
+  appendCrawlRun,
+  createCrawlRun,
+  createSnapshot,
+  selectApprovedCurrentSnapshot,
+} from './lib/document-integrity';
+import {
+  assessDocumentationQuality,
+  failedPageLabels,
+  reconcileCrawlOutcomes,
+} from './lib/crawl-acceptance';
+import { resolveSnapshotSelector } from './lib/snapshot-selector';
+import { canonicalDomain, canonicalizeUrl } from './lib/url-canonicalization';
+import { searchApprovedSections, type ApprovedDocumentForSearch } from './lib/section-retrieval';
+import {
+  isValidSnapshotTimestamp,
+  resolveSafeDomainPath,
+  resolveSafeSnapshotPath,
+} from './lib/storage-paths';
 import {
   startFirecrawlCrawl,
   getFirecrawlCrawlStatus,
   isFirecrawlConfigured,
   isValidFirecrawlCrawlId,
   type CrawlStartRequest,
+  type CrawlStatusResponse,
 } from './lib/firecrawl-crawl';
 const app = express();
 const PORT = process.env.PORT || 8001;
+
+interface CrawlJobState {
+  provider: string;
+  request: CrawlStartRequest;
+  startedAt: string;
+  latestStatus?: CrawlStatusResponse;
+}
+
+const crawlJobs = new Map<string, CrawlJobState>();
+const CRAWL_JOB_TTL_MS = 60 * 60 * 1000;
+
+function pruneExpiredCrawlJobs(now = Date.now()): void {
+  for (const [id, job] of crawlJobs) {
+    if (now - new Date(job.startedAt).getTime() > CRAWL_JOB_TTL_MS) {
+      crawlJobs.delete(id);
+    }
+  }
+}
 
 // Trust proxy (nginx/load balancer) for correct IP detection in rate limiting
 app.set('trust proxy', 1);
@@ -187,9 +218,6 @@ const STORAGE_PATH = isInServerDir
   : path.join(process.cwd(), 'server', 'storage', 'docs');
 console.log('Storage path:', STORAGE_PATH);
 
-// Ensure storage directory exists
-fs.ensureDirSync(STORAGE_PATH);
-
 // Helper function to generate table of contents
 const generateTableOfContents = (pages: any[]) => {
   let toc = '# Table of Contents\n\n';
@@ -200,27 +228,6 @@ const generateTableOfContents = (pages: any[]) => {
   });
   return toc + '\n---\n\n';
 };
-
-// Detect likely bot-block / interstitial pages (e.g., Cloudflare challenge)
-const BLOCKED_TITLE_RE = /(just a moment|attention required|one more step|please wait|access denied|checking your browser|verify you are human)/i;
-const BLOCKED_CHALLENGE_RE = /(checking your browser|verify you are human|enable javascript|ddos protection|cf-browser-verification|cf-challenge|turnstile|pardon our interruption|access denied|please wait|one more step)/i;
-const BLOCKED_CLOUDFLARE_RE = /(cloudflare ray id|performance & security by cloudflare)/i;
-const BLOCKED_URL_RE = /(\/cdn-cgi\/|\/cf-challenge\/|\/cf-cgi\/)/i;
-
-function isLikelyBlockedPage(page: { type?: string; content?: string; url?: string }): boolean {
-  const title = (page.type || '').toLowerCase();
-  const content = (page.content || '').toLowerCase();
-  const url = (page.url || '').toLowerCase();
-
-  if (BLOCKED_TITLE_RE.test(title)) return true;
-  if (BLOCKED_URL_RE.test(url)) return true;
-  // Only test challenge phrases against short content — interstitial pages are
-  // tiny, but legitimate docs routinely contain phrases like "access denied" or
-  // "enable javascript" in their body text.
-  if (content.length < 2000 && BLOCKED_CHALLENGE_RE.test(content)) return true;
-  if (content.length < 2000 && content.includes('cloudflare') && BLOCKED_CLOUDFLARE_RE.test(content)) return true;
-  return false;
-}
 
 // Helper function to merge markdown content
 const mergeMarkdownContent = (pages: any[]) => {
@@ -233,6 +240,50 @@ const mergeMarkdownContent = (pages: any[]) => {
   });
   return content;
 };
+
+function getApprovedSnapshot(metadata: VersionedDomainMetadata) {
+  return metadata.schemaVersion === 3
+    ? selectApprovedCurrentSnapshot(metadata)
+    : undefined;
+}
+
+async function isEligibleForPublicRead(domain: string): Promise<boolean> {
+  const metadataPath = path.join(STORAGE_PATH, domain, 'metadata.json');
+  if (!await fs.pathExists(metadataPath)) return false;
+
+  const metadata = await fs.readJSON(metadataPath) as DomainMetadata;
+  if (!checkHasVersioning(metadata) || metadata.schemaVersion !== 3) return false;
+  return Boolean(getApprovedSnapshot(metadata));
+}
+
+async function syncApprovedSnapshotIndex(
+  domain: string,
+  metadata: VersionedDomainMetadata,
+  justWrittenSnapshotId?: string,
+  justWrittenContent?: string
+): Promise<void> {
+  if (!isRedisAvailable()) return;
+
+  const approvedSnapshot = getApprovedSnapshot(metadata);
+  if (!approvedSnapshot) return;
+
+  try {
+    const content = approvedSnapshot.id === justWrittenSnapshotId && justWrittenContent !== undefined
+      ? justWrittenContent
+      : await fs.readFile(path.join(STORAGE_PATH, domain, approvedSnapshot.filename), 'utf-8');
+    await replaceDomainIndex({
+      domain,
+      url: approvedSnapshot.sourceUrl,
+      title: domain,
+      snippet: content,
+      lastScraped: approvedSnapshot.capturedAt,
+      totalPages: approvedSnapshot.totalPages,
+      successfulPages: approvedSnapshot.successfulPages,
+    }, content);
+  } catch (error) {
+    console.error(`[Redis] Failed to index approved snapshot for ${domain}:`, error);
+  }
+}
 
 // Helper function to merge existing files
 const mergeExistingFiles = async (domainPath: string) => {
@@ -254,41 +305,6 @@ const mergeExistingFiles = async (domainPath: string) => {
     return [];
   }
 };
-
-async function generateSitemap(baseUrl: string, docDomains: any[]) {
-  try {
-    // Base URLs that are always present
-    const staticUrls: SitemapUrl[] = [
-      { url: '/', changefreq: 'daily', priority: 1.0 },
-      { url: '/view', changefreq: 'daily', priority: 0.8 },
-    ];
-
-    // Add doc URLs
-    const docUrls: SitemapUrl[] = docDomains.map(domain => ({
-      url: `/docs/${domain.domain}`,
-      changefreq: 'weekly',
-      priority: 0.7,
-      lastmod: new Date().toISOString()
-    }));
-
-    // Combine all URLs
-    const allUrls = [...staticUrls, ...docUrls];
-
-    // Create a stream to write to
-    const stream = new SitemapStream({ hostname: baseUrl });
-    
-    // Write URLs to sitemap
-    const data = await streamToPromise(Readable.from(allUrls).pipe(stream));
-    
-    // Write the XML to file
-    fs.writeFileSync('public/sitemap.xml', data);
-    
-    return true;
-  } catch (error) {
-    console.error('Error generating sitemap:', error);
-    return false;
-  }
-}
 
 app.get('/api/sitemap/generate', async (req, res) => {
   try {
@@ -329,8 +345,14 @@ app.get('/api/sitemap/generate', async (req, res) => {
               const metadataPath = path.join(domainPath, 'metadata.json');
               
               if (await fs.pathExists(metadataPath)) {
-                  const metadata = await fs.readJSON(metadataPath);
-                  const lastScraped = metadata.lastScraped || metadata.lastUpdated;
+                  const metadata = await fs.readJSON(metadataPath) as DomainMetadata;
+                  const approvedSnapshot = checkHasVersioning(metadata)
+                    ? getApprovedSnapshot(metadata)
+                    : undefined;
+                  if (!checkHasVersioning(metadata) || metadata.schemaVersion !== 3 || !approvedSnapshot) {
+                      continue;
+                  }
+                  const lastScraped = approvedSnapshot?.capturedAt || metadata.lastScraped || (metadata as any).lastUpdated;
                   const lastmod = lastScraped ? new Date(lastScraped).toISOString() : undefined;
                   
                   // Calculate priority based on:
@@ -379,16 +401,7 @@ app.get('/api/sitemap/generate', async (req, res) => {
 
       // Generate sitemap XML
       const sitemapContent = generateSitemapXML(sitemapUrls);
-      const sitemapPath = path.join(process.cwd(), 'public', 'sitemap.xml');
-      await fs.writeFile(sitemapPath, sitemapContent);
-
-      res.json({
-          success: true,
-          processedDomains,
-          totalDomains,
-          totalUrls: sitemapUrls.length,
-          sitemapUrl: 'https://docingest.com/sitemap.xml'
-      });
+      res.type('application/xml').send(sitemapContent);
   } catch (error) {
       console.error('Sitemap generation error:', error);
       res.status(500).json({ 
@@ -406,65 +419,157 @@ app.get("/api/see", (req, res) => {
 // Save documentation with versioning support
 app.post('/api/docs/save', async (req, res) => {
   try {
-    const { domain, timestamp, pages, version: explicitVersion, versionLabel, overwrite } = req.body as SaveDocRequest;
-    if (!domain || !timestamp || !Array.isArray(pages)) {
+    const {
+      domain: requestedDomain,
+      timestamp: requestedTimestamp,
+      pages,
+      version: explicitVersion,
+      versionLabel,
+      crawlProvider,
+      crawlConfiguration,
+      crawlStartedAt,
+      crawlId,
+      crawlOutcomes,
+      providerTotals,
+    } = req.body as SaveDocRequest;
+    if (!requestedDomain || !requestedTimestamp || !Array.isArray(pages)) {
       return res.status(400).json({
         success: false,
         error: 'Invalid request body. Required: domain, timestamp, and pages array'
       });
     }
 
-    const domainPath = path.join(STORAGE_PATH, domain);
+    const safeDomainPath = resolveSafeDomainPath(STORAGE_PATH, requestedDomain);
+    if (!safeDomainPath || !isValidSnapshotTimestamp(requestedTimestamp)) {
+      return res.status(400).json({
+        success: false,
+        error: 'Invalid domain or timestamp',
+      });
+    }
+    const { domain, domainPath } = safeDomainPath;
+    const timestamp = requestedTimestamp;
     await fs.ensureDir(domainPath);
     console.log('Saving to domain path:', domainPath);
 
     const metadataPath = path.join(domainPath, 'metadata.json');
-    const blockedPages = pages.filter((p: any) => isLikelyBlockedPage(p));
-    const validPages = pages.filter((p: any) => !isLikelyBlockedPage(p) && p.content !== 'No content available');
-    const totalPages = pages.length;
+    const crawlJob = crawlId ? crawlJobs.get(crawlId) : undefined;
+    const cachedStatus = crawlJob?.latestStatus;
+    const providerOutcomes = cachedStatus?.outcomes || crawlOutcomes || [];
+    const { outcomes, acceptedPages: validPages, evidencePages } = reconcileCrawlOutcomes(providerOutcomes, pages);
+    const sourceUrl = crawlJob?.request.url || validPages[0]?.url || pages[0]?.url || outcomes.find((outcome) => outcome.url)?.url || '';
+    const canonicalSourceUrl = canonicalizeUrl(sourceUrl) || sourceUrl || domain;
+    const discoveredPages = Math.max(
+      cachedStatus?.providerTotals.discovered || 0,
+      providerTotals?.discovered || 0,
+      outcomes.length
+    );
+    const returnedPages = Math.max(
+      cachedStatus?.providerTotals.returned || 0,
+      providerTotals?.returned || 0,
+      outcomes.length
+    );
+    const totalPages = discoveredPages;
     const successfulPages = validPages.length;
-    const sourceUrl = validPages[0]?.url || pages[0]?.url || '';
-
-    if (blockedPages.length > 0) {
-      console.warn(`Detected ${blockedPages.length} likely bot-block pages for ${domain}`);
-    }
-
-    if (validPages.length === 0) {
-      return res.status(422).json({
-        success: false,
-        error: 'All scraped pages appear to be blocked by anti-bot protection (e.g., Cloudflare). Try again with a different source or allowlist the crawler.',
-        blockedPages: blockedPages.map((p: any) => p.url).filter(Boolean),
-      });
-    }
 
     // Load existing metadata or create new
-    let existingMetadata: DomainMetadataV2 | null = null;
-    let existingVersions: string[] = [];
+    let existingMetadata: VersionedDomainMetadata | null = null;
 
     if (await fs.pathExists(metadataPath)) {
       const rawMetadata = await fs.readJSON(metadataPath) as DomainMetadata;
 
       if (checkHasVersioning(rawMetadata)) {
         existingMetadata = rawMetadata;
-        existingVersions = rawMetadata.versions.map(v => v.version);
       } else {
-        // Migrate legacy metadata to V2
-        console.log('Migrating legacy metadata to V2 format');
-        existingMetadata = await migrateMetadataToV2(rawMetadata as DomainMetadataV1, domainPath);
-        existingVersions = existingMetadata.versions.map(v => v.version);
+        return res.status(409).json({
+          success: false,
+          error: 'Legacy documentation must be migrated explicitly before it can be updated. Run the backup-first migration command first.',
+        });
       }
     }
 
-    // Determine version
-    const version = determineVersion(explicitVersion, sourceUrl, existingVersions);
-    console.log(`Determined version: ${version} (explicit: ${explicitVersion}, url: ${sourceUrl})`);
+    const crawlRun = createCrawlRun({
+      provider: crawlJob?.provider || crawlProvider || 'unknown',
+      seedUrl: crawlJob?.request.url || sourceUrl || domain,
+      canonicalSeedUrl: canonicalSourceUrl,
+      configuration: (crawlJob ? { ...crawlJob.request } : crawlConfiguration || {}) as Record<string, unknown>,
+      startedAt: crawlJob?.startedAt || crawlStartedAt || timestamp,
+      completedAt: timestamp,
+      providerTotals: {
+        discovered: discoveredPages,
+        returned: returnedPages,
+        discoveredIsExact: cachedStatus?.providerTotals.discoveredIsExact
+          ?? providerTotals?.discoveredIsExact
+          ?? false,
+      },
+      totals: {
+        discovered: discoveredPages,
+        returned: returnedPages,
+      },
+      outcomes,
+    });
 
-    // Check for version conflict
-    if (existingMetadata && versionExists(existingMetadata, version) && !overwrite) {
-      return res.status(409).json({
+    const evidenceContent = evidencePages.length > 0
+      ? generateTableOfContents(evidencePages) + mergeMarkdownContent(evidencePages)
+      : '';
+    const proposedEvidenceSnapshot = evidenceContent
+      ? createSnapshot({
+        filename: `evidence_${timestamp}.md`,
+        content: evidenceContent,
+        sourceUrl: sourceUrl || domain,
+        canonicalSourceUrl,
+        capturedAt: timestamp,
+        crawlRunId: crawlRun.id,
+        totalPages: evidencePages.length,
+        successfulPages: 0,
+        structure: evidencePages.map((page) => ({ type: page.type || '', url: page.url || null })),
+        quality: {
+          status: 'quarantined',
+          reasons: [...new Set(outcomes
+            .filter((outcome) => outcome.status !== 'valid' && outcome.reason)
+            .map((outcome) => outcome.reason as string))],
+        },
+      })
+      : undefined;
+    const existingEvidenceSnapshot = proposedEvidenceSnapshot && existingMetadata?.schemaVersion === 3
+      ? existingMetadata.snapshots.find((candidate) => candidate.id === proposedEvidenceSnapshot.id)
+      : undefined;
+    const evidenceSnapshot = existingEvidenceSnapshot || proposedEvidenceSnapshot;
+    if (proposedEvidenceSnapshot && !existingEvidenceSnapshot) {
+      const evidencePath = resolveSafeSnapshotPath(domainPath, proposedEvidenceSnapshot.filename);
+      if (!evidencePath) throw new Error('Refusing to write evidence outside the documentation domain directory');
+      await fs.writeFile(evidencePath, evidenceContent);
+    }
+
+    if (validPages.length === 0) {
+      const failureMetadata: VersionedDomainMetadata = existingMetadata || {
+        url: sourceUrl || domain,
+        domain,
+        lastScraped: timestamp,
+        totalPages,
+        successfulPages: 0,
+        failedPages: failedPageLabels(outcomes),
+        structure: [],
+        latestVersion: '',
+        versions: [],
+        schemaVersion: 3,
+        crawlRuns: [],
+        snapshots: [],
+      };
+      let updatedFailureMetadata = appendCrawlRun(failureMetadata, crawlRun, evidenceSnapshot);
+      if (!existingMetadata) {
+        updatedFailureMetadata.failedPages = failedPageLabels(outcomes);
+      }
+      await fs.writeJSON(metadataPath, updatedFailureMetadata, { spaces: 2 });
+      apiCache.clear();
+      await invalidateDocCache(domain);
+      await syncApprovedSnapshotIndex(domain, updatedFailureMetadata);
+      if (crawlId) crawlJobs.delete(crawlId);
+
+      return res.status(422).json({
         success: false,
-        error: `Version ${version} already exists. Set overwrite=true to replace it.`,
-        existingVersion: version,
+        error: 'No crawled pages passed server-side acceptance. The crawl outcome has been recorded for inspection.',
+        crawlRunId: crawlRun.id,
+        failedPages: failedPageLabels(outcomes),
       });
     }
 
@@ -477,34 +582,66 @@ app.post('/api/docs/save', async (req, res) => {
     // Combine TOC and content
     const fullContent = toc + mergedContent;
 
-    // Save as a single file
-    const fileName = `documentation_${timestamp}.md`;
-    const filePath = path.join(domainPath, fileName);
-    await fs.writeFile(filePath, fullContent);
-    console.log('Saved merged documentation to:', filePath);
+    // The immutable snapshot ID is the primary identity. An upstream version
+    // label is optional source metadata, never a synthetic crawl counter.
+    const proposedFileName = `documentation_${timestamp}.md`;
+    const proposedSnapshot = createSnapshot({
+      filename: proposedFileName,
+      content: fullContent,
+      sourceUrl: sourceUrl || domain,
+      canonicalSourceUrl,
+      capturedAt: timestamp,
+      crawlRunId: crawlRun.id,
+      totalPages,
+      successfulPages,
+      structure: validPages.map((page) => ({ type: page.type || '', url: page.url || null })),
+      upstreamVersion: explicitVersion,
+      upstreamChannel: versionLabel,
+      quality: validPages.some((page) => assessDocumentationQuality(page).status !== 'approved')
+        ? { status: 'unknown', reasons: ['one-or-more-pages-need-review'] }
+        : { status: 'approved', reasons: [] },
+    });
+    const existingSnapshot = existingMetadata?.schemaVersion === 3
+      ? existingMetadata.snapshots.find((candidate) => candidate.id === proposedSnapshot.id)
+      : undefined;
+    const snapshot = existingSnapshot || proposedSnapshot;
+    const filePath = resolveSafeSnapshotPath(domainPath, snapshot.filename);
+    if (!filePath) throw new Error('Refusing to write documentation outside the documentation domain directory');
+    const version = snapshot.id;
+    const existingSnapshotVersion = existingMetadata?.versions.find(
+      (entry) => entry.snapshotId === snapshot.id || entry.version === snapshot.id
+    );
+    if (!existingSnapshot) {
+      await fs.writeFile(filePath, fullContent);
+      console.log('Saved merged documentation to:', filePath);
+    } else {
+      console.log('Reused unchanged documentation snapshot:', filePath);
+    }
 
-    // Create new version entry
+    // Retain the `version` field as a compatibility selector, but make it an
+    // immutable snapshot ID. Upstream versions may repeat across snapshots.
     const newVersionEntry: Omit<DocVersion, 'isLatest'> = {
       version,
       label: versionLabel,
       timestamp,
-      filename: fileName,
+      filename: snapshot.filename,
       totalPages,
       successfulPages,
       url: sourceUrl,
+      snapshotId: snapshot.id,
+      upstreamVersion: explicitVersion,
+      upstreamChannel: versionLabel,
     };
 
     // Build updated metadata
-    let updatedMetadata: DomainMetadataV2;
+    let updatedMetadata: VersionedDomainMetadata;
 
     if (existingMetadata) {
-      // If overwriting, remove the old version first
-      if (overwrite && versionExists(existingMetadata, version)) {
-        existingMetadata.versions = existingMetadata.versions.filter(
-          v => normalizeVersion(v.version) !== normalizeVersion(version)
-        );
-      }
-      updatedMetadata = addVersionToMetadata(existingMetadata, newVersionEntry);
+      // A repeated content-addressed snapshot remains the same historical
+      // object. Its new crawl run is still appended below.
+      updatedMetadata = existingSnapshotVersion
+        ? existingMetadata
+        : addVersionToMetadata(existingMetadata, newVersionEntry);
     } else {
       // Create fresh V2 metadata
       updatedMetadata = {
@@ -513,12 +650,7 @@ app.post('/api/docs/save', async (req, res) => {
         lastScraped: timestamp,
         totalPages,
         successfulPages,
-        failedPages: [
-          ...pages
-            .filter((p: any) => p.content === 'No content available')
-            .map((p: any) => p.url),
-          ...blockedPages.map((p: any) => p.url),
-        ].filter(Boolean),
+        failedPages: failedPageLabels(outcomes),
         structure: validPages.map(p => ({
           type: p.type,
           url: p.url
@@ -538,12 +670,11 @@ app.post('/api/docs/save', async (req, res) => {
       type: p.type,
       url: p.url
     }));
-    updatedMetadata.failedPages = [
-      ...pages
-        .filter((p: any) => p.content === 'No content available')
-        .map((p: any) => p.url),
-      ...blockedPages.map((p: any) => p.url),
-    ].filter(Boolean);
+    updatedMetadata.failedPages = failedPageLabels(outcomes);
+    updatedMetadata = appendCrawlRun(updatedMetadata, crawlRun, snapshot);
+    if (evidenceSnapshot) {
+      updatedMetadata = appendCrawlRun(updatedMetadata, crawlRun, evidenceSnapshot);
+    }
 
     console.log('Saving metadata with versioning:', {
       domain: updatedMetadata.domain,
@@ -551,22 +682,22 @@ app.post('/api/docs/save', async (req, res) => {
       totalVersions: updatedMetadata.versions.length,
     });
     await fs.writeJSON(metadataPath, updatedMetadata, { spaces: 2 });
-
-    // Clean up old individual files (non-documentation files)
-    const existingFiles = await fs.readdir(domainPath);
-    for (const file of existingFiles) {
-      if (file.endsWith('.md') && !file.startsWith('documentation_')) {
-        await fs.remove(path.join(domainPath, file));
-      }
-    }
+    apiCache.clear();
+    await invalidateDocCache(domain);
+    await syncApprovedSnapshotIndex(domain, updatedMetadata, snapshot.id, fullContent);
+    if (crawlId) crawlJobs.delete(crawlId);
 
     res.json({
       success: true,
       filePath,
       version,
-      isLatest: true,
+      snapshotId: snapshot.id,
+      isLatest: updatedMetadata.currentSnapshotId === snapshot.id,
       totalVersions: updatedMetadata.versions.length,
       structure: updatedMetadata.structure,
+      crawlRunId: crawlRun.id,
+      acceptedPages: successfulPages,
+      quality: snapshot.quality,
     });
   } catch (error) {
     console.error('Save error:', error);
@@ -586,8 +717,7 @@ app.get('/api/docs/list/all', async (req, res) => {
     }
 
     if (!await fs.pathExists(STORAGE_PATH)) {
-      console.log('Storage directory does not exist, creating it');
-      await fs.ensureDir(STORAGE_PATH);
+      console.log('Storage directory does not exist');
       return res.json({ docs: [], urls: [], totalDocs: 0 });
     }
 
@@ -602,67 +732,21 @@ app.get('/api/docs/list/all', async (req, res) => {
       const metadataPath = path.join(domainPath, 'metadata.json');
       
       try {
-        // Check for existing individual files that need to be merged
-        const existingPages = await mergeExistingFiles(domainPath);
-        if (existingPages.length > 0) {
-          console.log('Found existing files to merge:', existingPages.length);
-          const timestamp = new Date().toISOString();
-          
-          // Generate and save merged content
-          const toc = generateTableOfContents(existingPages);
-          const mergedContent = mergeMarkdownContent(existingPages);
-          const fullContent = toc + mergedContent;
-          
-          const fileName = `documentation_${timestamp}.md`;
-          const filePath = path.join(domainPath, fileName);
-          await fs.writeFile(filePath, fullContent);
-          
-          // Update metadata
-          const metadata = {
-            url: fullDomain,
-            domain: fullDomain,
-            lastScraped: timestamp,
-            totalPages: existingPages.length,
-            successfulPages: existingPages.length,
-            failedPages: [],
-            structure: existingPages.map(p => ({
-              type: p.type,
-              url: null
-            }))
-          };
-          await fs.writeJSON(metadataPath, metadata);
-          
-          // Clean up old files
-          const files = await fs.readdir(domainPath);
-          for (const file of files) {
-            if (file.endsWith('.md') && !file.startsWith('documentation_')) {
-              await fs.remove(path.join(domainPath, file));
-            }
-          }
-          
-          allDocs.push({
-            content: fullContent,
-            domain: fullDomain,
-            lastUpdated: timestamp,
-            url: fullDomain,
-            filePath,
-            structure: metadata.structure
-          });
-          
-          allUrls.push(metadata);
-          continue;
-        }
-        
-        // Handle already merged documentation
         if (await fs.pathExists(metadataPath)) {
           console.log('Reading metadata:', metadataPath);
-          const metadata = await fs.readJSON(metadataPath);
+          const metadata = await fs.readJSON(metadataPath) as DomainMetadata;
+          const approvedSnapshot = checkHasVersioning(metadata)
+            ? getApprovedSnapshot(metadata)
+            : undefined;
+          if (!checkHasVersioning(metadata) || metadata.schemaVersion !== 3 || !approvedSnapshot) {
+            continue;
+          }
           allUrls.push(metadata);
 
           const files = await fs.readdir(domainPath);
           console.log('Found files in domain:', files);
 
-          const docFile = files
+          const docFile = approvedSnapshot?.filename || files
             .filter(f => f.startsWith('documentation_') && f.endsWith('.md'))
             .sort()
             .pop();
@@ -675,11 +759,23 @@ app.get('/api/docs/list/all', async (req, res) => {
             allDocs.push({
               content,
               domain: fullDomain,
-              lastUpdated: metadata.lastScraped,
-              url: metadata.url,
+              lastUpdated: approvedSnapshot?.capturedAt || metadata.lastScraped,
+              url: approvedSnapshot?.sourceUrl || metadata.url,
               filePath,
               structure: metadata.structure || []
             });
+          } else {
+            const legacyPages = await mergeExistingFiles(domainPath);
+            if (legacyPages.length > 0) {
+              allDocs.push({
+                content: generateTableOfContents(legacyPages) + mergeMarkdownContent(legacyPages),
+                domain: fullDomain,
+                lastUpdated: metadata.lastScraped,
+                url: metadata.url,
+                filePath: null,
+                structure: metadata.structure || [],
+              });
+            }
           }
         }
       } catch (err) {
@@ -697,7 +793,6 @@ app.get('/api/docs/list/all', async (req, res) => {
 
     console.log(`Returning ${paginatedDocs.length} documents for page ${page}`);
 
-   await generateSitemap("https:docingest.com", allUrls);
     res.json({ 
       docs: paginatedDocs,
       urls: paginatedUrls,
@@ -766,8 +861,7 @@ app.get('/api/docs/list', async (req, res) => {
     console.log('Reading storage directory:', STORAGE_PATH);
 
     if (!await fs.pathExists(STORAGE_PATH)) {
-      console.log('Storage directory does not exist, creating it');
-      await fs.ensureDir(STORAGE_PATH);
+      console.log('Storage directory does not exist');
       return res.json({ docs: [], urls: [], totalDocs: 0 });
     }
 
@@ -787,11 +881,17 @@ app.get('/api/docs/list', async (req, res) => {
         }
 
         console.log('Reading metadata:', metadataPath);
-        const metadata = await fs.readJSON(metadataPath);
+        const metadata = await fs.readJSON(metadataPath) as DomainMetadata;
+        const approvedSnapshot = checkHasVersioning(metadata)
+          ? getApprovedSnapshot(metadata)
+          : undefined;
+        if (!checkHasVersioning(metadata) || metadata.schemaVersion !== 3 || !approvedSnapshot) {
+          continue;
+        }
         allUrls.push(metadata);
 
         const files = await fs.readdir(domainPath);
-        const docFile = files
+        const docFile = approvedSnapshot?.filename || files
           .filter(f => f.startsWith('documentation_') && f.endsWith('.md'))
           .sort()
           .pop();
@@ -803,15 +903,15 @@ app.get('/api/docs/list', async (req, res) => {
 
         allDocs.push({
           domain: fullDomain,
-          lastUpdated: metadata.lastScraped,
-          url: metadata.url,
+          lastUpdated: approvedSnapshot?.capturedAt || metadata.lastScraped,
+          url: approvedSnapshot?.sourceUrl || metadata.url,
           filePath: path.join(domainPath, docFile),
           structure: metadata.structure || [],
           totalPages: metadata.totalPages,
           successfulPages: metadata.successfulPages,
           failedPages: metadata.failedPages || [],
-          latestVersion: metadata.latestVersion,
-          versions: metadata.versions
+          latestVersion: checkHasVersioning(metadata) ? metadata.latestVersion : undefined,
+          versions: checkHasVersioning(metadata) ? metadata.versions : undefined,
         });
       } catch (err) {
         console.error(`Error processing domain ${fullDomain}:`, err);
@@ -914,7 +1014,13 @@ app.get('/api/docs/fullsearch', async (req, res) => {
         const metadataPath = path.join(domainPath, 'metadata.json');
         if (!await fs.pathExists(metadataPath)) continue;
         
-        const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf-8'));
+        const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf-8')) as DomainMetadata;
+        const approvedSnapshot = checkHasVersioning(metadata)
+          ? getApprovedSnapshot(metadata)
+          : undefined;
+        if (!checkHasVersioning(metadata) || metadata.schemaVersion !== 3 || !approvedSnapshot) {
+          continue;
+        }
         
         // Check if domain name matches search query
         const domainLower = fullDomain.toLowerCase();
@@ -924,7 +1030,7 @@ app.get('/api/docs/fullsearch', async (req, res) => {
         const isPartPrefix = !isPrefixStart && domainParts.some(part => part.startsWith(query));
         
         // Prepare document data
-        const docFile = files
+        const docFile = approvedSnapshot?.filename || files
           .filter(f => f.startsWith('documentation_') && f.endsWith('.md'))
           .sort()
           .pop();
@@ -936,8 +1042,8 @@ app.get('/api/docs/fullsearch', async (req, res) => {
           const docEntry = {
             content,
             domain: fullDomain,
-            lastUpdated: metadata.lastScraped,
-            url: metadata.url,
+            lastUpdated: approvedSnapshot?.capturedAt || metadata.lastScraped,
+            url: approvedSnapshot?.sourceUrl || metadata.url,
             filePath,
             structure: metadata.structure || [],
             matchType: 'other' // Default match type
@@ -1047,8 +1153,18 @@ app.get('/api/docs/search', async (req, res) => {
     const domains = await fs.readdir(STORAGE_PATH);
     console.log('Found domains:', domains);
 
-    // Filter domains based on the search query
-    const matches = domains.filter(domain => domain.toLowerCase().includes(query));
+    const matches: string[] = [];
+    for (const domain of domains) {
+      if (!domain.toLowerCase().includes(query)) continue;
+      const metadataPath = path.join(STORAGE_PATH, domain, 'metadata.json');
+      if (!await fs.pathExists(metadataPath)) continue;
+      const metadata = await fs.readJSON(metadataPath) as DomainMetadata;
+      const approvedSnapshot = checkHasVersioning(metadata)
+        ? getApprovedSnapshot(metadata)
+        : undefined;
+      if (!checkHasVersioning(metadata) || metadata.schemaVersion !== 3 || !approvedSnapshot) continue;
+      matches.push(domain);
+    }
 
     console.log(`Found ${matches.length} matches for query: "${query}"`);
 
@@ -1274,31 +1390,43 @@ app.get('/api/docs/domain/:domain/versions', async (req, res) => {
 
     const rawMetadata = await fs.readJSON(metadataPath) as DomainMetadata;
 
-    // If legacy metadata, migrate on-demand
-    let metadata: DomainMetadataV2;
-    if (checkHasVersioning(rawMetadata)) {
-      metadata = rawMetadata;
-    } else {
-      console.log('Migrating metadata on-demand for versions endpoint');
-      metadata = await migrateMetadataToV2(rawMetadata as DomainMetadataV1, docsPath);
-      // Save migrated metadata
-      await fs.writeJSON(metadataPath, metadata, { spaces: 2 });
-    }
+    const metadata: VersionedDomainMetadata = checkHasVersioning(rawMetadata)
+      ? rawMetadata
+      : await createLegacyCompatibilityView(rawMetadata as DomainMetadataV1, docsPath);
 
-    // Sort versions by semver (newest first)
-    const sortedVersions = [...metadata.versions].sort((a, b) => semverCompare(b.version, a.version));
-
-    const response: VersionsListResponse = {
-      domain: foundDomain,
-      latestVersion: metadata.latestVersion,
-      versions: sortedVersions.map(v => ({
-        version: v.version,
-        label: v.label,
-        timestamp: v.timestamp,
-        isLatest: v.isLatest,
-        totalPages: v.totalPages,
-      })),
-    };
+    const response: VersionsListResponse = metadata.schemaVersion === 3
+      ? {
+        domain: foundDomain,
+        latestVersion: metadata.currentSnapshotId || metadata.latestVersion,
+        currentSnapshotId: metadata.currentSnapshotId,
+        versions: [...metadata.snapshots]
+          .sort((a, b) => b.capturedAt.localeCompare(a.capturedAt) || b.id.localeCompare(a.id))
+          .map((snapshot) => ({
+            version: snapshot.id,
+            label: snapshot.upstreamChannel,
+            timestamp: snapshot.capturedAt,
+            isLatest: snapshot.id === metadata.currentSnapshotId,
+            totalPages: snapshot.totalPages,
+            snapshotId: snapshot.id,
+            upstreamVersion: snapshot.upstreamVersion,
+            upstreamChannel: snapshot.upstreamChannel,
+            quality: snapshot.quality,
+          })),
+      }
+      : {
+        domain: foundDomain,
+        latestVersion: metadata.latestVersion,
+        versions: sortDocVersions(metadata.versions).map((version) => ({
+          version: version.version,
+          label: version.label,
+          timestamp: version.timestamp,
+          isLatest: version.isLatest,
+          totalPages: version.totalPages,
+          snapshotId: version.snapshotId,
+          upstreamVersion: version.upstreamVersion,
+          upstreamChannel: version.upstreamChannel,
+        })),
+      };
 
     res.json(response);
   } catch (err) {
@@ -1312,6 +1440,7 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
   try {
     const { domain } = req.params;
     const requestedVersion = req.query.version as string | undefined;
+    const requestedSnapshotId = req.query.snapshotId as string | undefined;
     const topic = typeof req.query.topic === 'string' ? req.query.topic.trim() : '';
     const maxTokens = parseBoundedInt(req.query.maxTokens, 0, 50000);
 
@@ -1332,18 +1461,61 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
     const rawMetadata = await fs.readJSON(metadataPath) as DomainMetadata;
 
     // Handle versioned metadata
-    let metadata: DomainMetadataV2;
+    let metadata: VersionedDomainMetadata;
     let docFile: string | undefined;
     let currentVersion: DocVersion | null = null;
+    let approvedSnapshot: ReturnType<typeof getApprovedSnapshot>;
 
     if (checkHasVersioning(rawMetadata)) {
       metadata = rawMetadata;
+      approvedSnapshot = getApprovedSnapshot(metadata);
+      if (metadata.schemaVersion === 3 && !approvedSnapshot) {
+        return res.status(404).json({ error: 'No approved documentation snapshot is available for this domain' });
+      }
+      if (metadata.schemaVersion !== 3 && !requestedVersion) {
+        return res.status(404).json({
+          error: 'No provenance-safe snapshot is available. Run the corpus integrity audit or request an explicit legacy version.',
+        });
+      }
+      if (requestedSnapshotId && metadata.schemaVersion !== 3) {
+        return res.status(400).json({
+          error: 'snapshotId is available only for snapshot-backed documentation. Use the legacy version selector instead.',
+        });
+      }
 
-      if (requestedVersion) {
-        // Find specific version
+      if (metadata.schemaVersion === 3 && (requestedSnapshotId || requestedVersion)) {
+        const selectedSnapshot = resolveSnapshotSelector(metadata, {
+          snapshotId: requestedSnapshotId,
+          version: requestedVersion,
+        });
+        if (!selectedSnapshot) {
+          return res.status(404).json({
+            error: requestedSnapshotId
+              ? `Snapshot ${requestedSnapshotId} not found`
+              : `Version ${requestedVersion} not found`,
+            availableSnapshots: metadata.snapshots.map((snapshot) => snapshot.id),
+          });
+        }
+        if (selectedSnapshot.quality.status !== 'approved') {
+          return res.status(404).json({
+            error: 'The selected snapshot is not approved for public retrieval',
+            snapshotId: selectedSnapshot.id,
+            quality: selectedSnapshot.quality,
+          });
+        }
+        approvedSnapshot = selectedSnapshot;
+        docFile = selectedSnapshot.filename;
+        currentVersion = metadata.versions.find(
+          (version) => version.snapshotId === selectedSnapshot.id || version.filename === selectedSnapshot.filename
+        ) || null;
+      } else if (requestedVersion) {
+        // V1/V2 compatibility selector. V3 callers should use snapshotId for
+        // immutable selection, though version remains accepted above.
         const normalizedRequested = normalizeVersion(requestedVersion);
         currentVersion = metadata.versions.find(
-          v => normalizeVersion(v.version) === normalizedRequested
+          v => v.version === requestedVersion || (
+            v.version !== 'legacy' && normalizeVersion(v.version) === normalizedRequested
+          )
         ) || null;
 
         if (!currentVersion) {
@@ -1354,15 +1526,19 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
         }
         docFile = currentVersion.filename;
       } else {
-        // Get latest version
-        currentVersion = getLatestVersion(metadata);
-        docFile = currentVersion?.filename;
+        currentVersion = metadata.schemaVersion === 3 && approvedSnapshot
+          ? metadata.versions.find((version) => version.filename === approvedSnapshot?.filename) || null
+          : getLatestVersion(metadata);
+        docFile = approvedSnapshot?.filename || currentVersion?.filename;
       }
     } else {
-      // Legacy metadata - migrate on-demand
-      console.log('Migrating metadata on-demand');
-      metadata = await migrateMetadataToV2(rawMetadata as DomainMetadataV1, docsPath);
-      await fs.writeJSON(metadataPath, metadata, { spaces: 2 });
+      metadata = await createLegacyCompatibilityView(rawMetadata as DomainMetadataV1, docsPath);
+      if (!requestedVersion || requestedVersion !== 'legacy') {
+        return res.status(404).json({
+          error: 'No provenance-safe snapshot is available. Run the corpus integrity audit or request version=legacy explicitly.',
+          availableVersions: ['legacy'],
+        });
+      }
       currentVersion = getLatestVersion(metadata);
       docFile = currentVersion?.filename;
     }
@@ -1397,24 +1573,46 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
     }
 
     // Build available versions list (sorted newest first)
-    const availableVersions = [...metadata.versions]
-      .sort((a, b) => semverCompare(b.version, a.version))
-      .map(v => ({
-        version: v.version,
-        label: v.label,
-        isLatest: v.isLatest,
+    const snapshotMetadata = metadata.schemaVersion === 3 ? metadata : undefined;
+    const availableVersions = snapshotMetadata
+      ? [...snapshotMetadata.snapshots]
+        .sort((a, b) => b.capturedAt.localeCompare(a.capturedAt) || b.id.localeCompare(a.id))
+        .map((snapshot) => ({
+          version: snapshot.id,
+          label: snapshot.upstreamChannel,
+          isLatest: snapshot.id === snapshotMetadata.currentSnapshotId,
+          snapshotId: snapshot.id,
+          upstreamVersion: snapshot.upstreamVersion,
+        }))
+      : sortDocVersions(metadata.versions).map((version) => ({
+        version: version.version,
+        label: version.label,
+        isLatest: version.isLatest,
+        snapshotId: version.snapshotId,
+        upstreamVersion: version.upstreamVersion,
       }));
 
     const response: DocWithVersionResponse = {
       domain: foundDomain,
       content,
-      lastUpdated: currentVersion?.timestamp || metadata.lastScraped,
-      url: currentVersion?.url || metadata.url,
+      lastUpdated: approvedSnapshot?.capturedAt || currentVersion?.timestamp || metadata.lastScraped,
+      url: approvedSnapshot?.sourceUrl || currentVersion?.url || metadata.url,
       filePath: markdownPath,
-      structure: metadata.structure || [],
-      version: currentVersion?.version || metadata.latestVersion,
-      isLatest: currentVersion?.isLatest ?? true,
+      structure: approvedSnapshot ? (approvedSnapshot.structure || []) : (metadata.structure || []),
+      version: approvedSnapshot?.id || currentVersion?.version || metadata.latestVersion,
+      isLatest: metadata.schemaVersion === 3
+        ? approvedSnapshot?.id === metadata.currentSnapshotId
+        : (currentVersion?.isLatest ?? true),
       availableVersions,
+      snapshot: approvedSnapshot ? {
+        id: approvedSnapshot.id,
+        contentHash: approvedSnapshot.contentHash,
+        sourceUrl: approvedSnapshot.sourceUrl,
+        capturedAt: approvedSnapshot.capturedAt,
+        quality: approvedSnapshot.quality,
+        upstreamVersion: approvedSnapshot.upstreamVersion,
+        upstreamChannel: approvedSnapshot.upstreamChannel,
+      } : undefined,
     };
 
     res.setHeader('Cache-Control', 'public, max-age=300, stale-while-revalidate=600');
@@ -1425,155 +1623,36 @@ app.get('/api/docs/domain/:domain', async (req, res) => {
   }
 });
 
-// search api by domain or something oin content.. should match any word 
-
-
-// check if domain already exixts and no need to scrap
+// Lightweight duplicate-check contract used by the crawl form.
 app.get('/api/docs/check-domain/:domain', async (req, res) => {
   try {
-    const { domain } = req.params;
-    
-    // Try different domain formats
-    const possibleDomains = [
-      domain,                                    // As provided
-      `docs.${domain}.ai`                       // Full storage format
-    ].filter((d, i, arr) => arr.indexOf(d) === i); // Remove duplicates
+    const requestedDomain = canonicalDomain(req.params.domain);
+    const { foundDomain, docsPath } = findDomainPath(requestedDomain);
+    if (!foundDomain || !docsPath) return res.json({ found: false });
 
-    let foundDomain = null;
-    let docsPath = null;
-
-    // Try each possible domain format
-    for (const d of possibleDomains) {
-      const testPath = path.join(STORAGE_PATH, d);
-      console.log('Trying path:', testPath);
-      if (fs.existsSync(testPath)) {
-        foundDomain = d;
-        docsPath = testPath;
-        console.log('Found matching domain:', d);
-        break;
-      }
-    }
-
-    if (!docsPath) {
-      console.log('No matching domain found for:', domain);
-      console.log('Tried formats:', possibleDomains);
-      return res.status(404).json({ error: 'Documentation not found' });
-    }
-
-    // Read the metadata file
     const metadataPath = path.join(docsPath, 'metadata.json');
-    if (!fs.existsSync(metadataPath)) {
-      console.log('Metadata file not found at:', metadataPath);
-      return res.status(404).json({ error: 'Documentation metadata not found' });
+    if (!fs.existsSync(metadataPath)) return res.json({ found: false });
+
+    const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8')) as DomainMetadata;
+    const approvedSnapshot = checkHasVersioning(metadata)
+      ? getApprovedSnapshot(metadata)
+      : undefined;
+    if (!checkHasVersioning(metadata) || metadata.schemaVersion !== 3 || !approvedSnapshot) {
+      return res.json({ found: false, reason: 'no-approved-snapshot' });
     }
-
-    const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
-    
-    // Find the latest documentation file
-    const files = await fs.readdir(docsPath);
-    const docFiles = files.filter(f => f.startsWith('documentation_'));
-    console.log('Found documentation files:', docFiles);
-    
-    const docFile = docFiles.sort().pop();
-
-    if (!docFile) {
-      console.log('No documentation file found in:', docsPath);
-      return res.status(404).json({ error: 'Documentation content not found' });
-    }
-
-    const markdownPath = path.join(docsPath, docFile);
-    console.log('Reading documentation from:', markdownPath);
-    const content = fs.readFileSync(markdownPath, 'utf-8');
-
     res.json({
+      found: true,
       domain: foundDomain,
-      content,
-      lastUpdated: metadata.lastScraped,
-      url: metadata.url,
-      filePath: markdownPath,
-      structure: metadata.structure || []
+      lastUpdated: approvedSnapshot?.capturedAt || metadata.lastScraped,
+      url: approvedSnapshot?.sourceUrl || metadata.url,
+      snapshotId: approvedSnapshot?.id,
+      quality: approvedSnapshot?.quality,
     });
   } catch (err) {
-    console.error('Error fetching documentation by domain:', err);
-    res.status(500).json({ error: 'Failed to fetch documentation' });
+    console.error('Error checking documentation domain:', err);
+    res.status(500).json({ error: 'Failed to check documentation domain' });
   }
 });
-
-// search api by domain or something oin content.. should match any word 
-
-
-// check if domain already exixts and no need to scrap
-app.get('/api/docs/check-domain/:domain', async (req, res) => {
-  try {
-    const { domain } = req.params;
-    
-    // Try different domain formats
-    const possibleDomains = [
-      domain,                                    // As provided
-      `docs.${domain}.ai`,                      // Full storage format
-    ].filter((d, i, arr) => arr.indexOf(d) === i); // Remove duplicates
-
-    let foundDomain = null;
-    let docsPath = null;
-
-    // Try each possible domain format
-    for (const d of possibleDomains) {
-      const testPath = path.join(STORAGE_PATH, d);
-      console.log('Trying path:', testPath);
-      if (fs.existsSync(testPath)) {
-        foundDomain = d;
-        docsPath = testPath;
-        console.log('Found matching domain:', d);
-        break;
-      }
-    }
-
-    if (!docsPath) {
-      console.log('No matching domain found for:', domain);
-      console.log('Tried formats:', possibleDomains);
-      return res.status(404).json({ error: 'Documentation not found' });
-    }
-
-    // Read the metadata file
-    const metadataPath = path.join(docsPath, 'metadata.json');
-    if (!fs.existsSync(metadataPath)) {
-      console.log('Metadata file not found at:', metadataPath);
-      return res.status(404).json({ error: 'Documentation metadata not found' });
-    }
-
-    const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
-    
-    // Find the latest documentation file
-    const files = await fs.readdir(docsPath);
-    const docFiles = files.filter(f => f.startsWith('documentation_'));
-    console.log('Found documentation files:', docFiles);
-    
-    const docFile = docFiles.sort().pop();
-
-    if (!docFile) {
-      console.log('No documentation file found in:', docsPath);
-      return res.status(404).json({ error: 'Documentation content not found' });
-    }
-
-    const markdownPath = path.join(docsPath, docFile);
-    console.log('Reading documentation from:', markdownPath);
-    const content = fs.readFileSync(markdownPath, 'utf-8');
-
-    res.json({
-      domain: foundDomain,
-      content,
-      lastUpdated: metadata.lastScraped,
-      url: metadata.url,
-      filePath: markdownPath,
-      structure: metadata.structure || []
-    });
-  } catch (err) {
-    console.error('Error fetching documentation by domain:', err);
-    res.status(500).json({ error: 'Failed to fetch documentation' });
-  }
-});
-
-// search api by domain or something oin content.. should match any word
 
 // ============================================================================
 // REDIS-POWERED FAST SEARCH ENDPOINTS
@@ -1601,7 +1680,14 @@ app.get('/api/docs/autocomplete', async (req, res) => {
 
     // Try Redis first
     if (isRedisAvailable()) {
-      const suggestions = await autocompleteSearch(query, limit);
+      const candidates = await autocompleteSearch(query, limit * 3);
+      const suggestions = [];
+      for (const candidate of candidates) {
+        if (await isEligibleForPublicRead(candidate.domain)) {
+          suggestions.push(candidate);
+        }
+        if (suggestions.length >= limit) break;
+      }
 
       // Track the search for analytics
       trackSearch(query);
@@ -1626,16 +1712,19 @@ app.get('/api/docs/autocomplete', async (req, res) => {
     const domains = await fs.readdir(STORAGE_PATH);
     const queryLower = query.toLowerCase();
 
-    const matches = domains
-      .filter(d => d.toLowerCase().includes(queryLower))
-      .slice(0, limit)
-      .map(domain => ({
+    const matches = [];
+    for (const domain of domains) {
+      if (!domain.toLowerCase().includes(queryLower)) continue;
+      if (!await isEligibleForPublicRead(domain)) continue;
+      matches.push({
         domain,
         title: domain.replace(/^docs\./, '').replace(/\.(com|org|io|dev|ai)$/, ''),
         snippet: '',
         url: `https://${domain}`,
         matchType: domain.toLowerCase().startsWith(queryLower) ? 'prefix' : 'contains',
-      }));
+      });
+      if (matches.length >= limit) break;
+    }
 
     return res.json({
       suggestions: matches,
@@ -1673,15 +1762,21 @@ app.get('/api/docs/fast-search', async (req, res) => {
     // Try Redis first
     if (isRedisAvailable()) {
       const { domains, timing } = await fullTextSearch(query, limit);
+      const eligibleDomains = [];
+      for (const domain of domains) {
+        if (await isEligibleForPublicRead(domain.domain)) {
+          eligibleDomains.push(domain);
+        }
+      }
 
       trackSearch(query);
 
       return res.json({
-        results: domains,
+        results: eligibleDomains,
         query,
         timing,
         source: 'redis',
-        totalMatches: domains.length,
+        totalMatches: eligibleDomains.length,
       });
     }
 
@@ -1690,6 +1785,56 @@ app.get('/api/docs/fast-search', async (req, res) => {
   } catch (error) {
     console.error('Fast search error:', error);
     res.status(500).json({ error: 'Search failed' });
+  }
+});
+
+/**
+ * Approved current-snapshot section search. This is deliberately lexical and
+ * deterministic; it does not claim vector or semantic ranking.
+ */
+app.get('/api/docs/sections/search', async (req, res) => {
+  try {
+    const query = (req.query.q as string || '').trim();
+    const limit = parseBoundedInt(req.query.limit, 10, 50);
+    const maxChars = parseBoundedInt(req.query.maxChars, 1600, 4000);
+    if (!query) return res.status(400).json({ error: 'Missing search query' });
+    if (!await fs.pathExists(STORAGE_PATH)) {
+      return res.json({ results: [], query, ranking: 'deterministic-lexical', selection: 'approved-current-snapshot' });
+    }
+
+    const documents: ApprovedDocumentForSearch[] = [];
+    for (const domain of await fs.readdir(STORAGE_PATH)) {
+      const metadataPath = path.join(STORAGE_PATH, domain, 'metadata.json');
+      if (!await fs.pathExists(metadataPath)) continue;
+
+      try {
+        const metadata = await fs.readJSON(metadataPath) as DomainMetadata;
+        // Legacy/V2 records lack an immutable snapshot and quality verdict, so
+        // they are intentionally not eligible for provenance-safe retrieval.
+        if (!checkHasVersioning(metadata) || metadata.schemaVersion !== 3) continue;
+        const snapshot = getApprovedSnapshot(metadata);
+        if (!snapshot) continue;
+        const contentPath = path.join(STORAGE_PATH, domain, snapshot.filename);
+        if (!await fs.pathExists(contentPath)) continue;
+        documents.push({
+          domain,
+          snapshot,
+          content: await fs.readFile(contentPath, 'utf-8'),
+        });
+      } catch (error) {
+        console.error(`Section search skipped unreadable domain ${domain}:`, error);
+      }
+    }
+
+    res.json({
+      results: searchApprovedSections(documents, query, limit, maxChars),
+      query,
+      ranking: 'deterministic-lexical',
+      selection: 'approved-current-snapshot',
+    });
+  } catch (error) {
+    console.error('Section search error:', error);
+    res.status(500).json({ error: 'Section search failed' });
   }
 });
 
@@ -1775,6 +1920,7 @@ app.get('/api/admin/cache/stats', async (req, res) => {
  */
 app.post('/api/crawl/start', async (req, res) => {
   try {
+    pruneExpiredCrawlJobs();
     if (!isFirecrawlConfigured()) {
       res.status(503).json({
         success: false,
@@ -1794,7 +1940,12 @@ app.post('/api/crawl/start', async (req, res) => {
     const result = await startFirecrawlCrawl(body);
     console.log(`[crawl-proxy] Start result:`, JSON.stringify(result));
 
-    if (result.success) {
+    if (result.success && result.id) {
+      crawlJobs.set(result.id, {
+        provider: 'firecrawl',
+        request: body,
+        startedAt: new Date().toISOString(),
+      });
       res.json({ success: true, id: result.id });
     } else {
       res.status(502).json({ success: false, error: result.error });
@@ -1812,6 +1963,7 @@ app.post('/api/crawl/start', async (req, res) => {
  */
 app.get('/api/crawl/status/:id', async (req, res) => {
   try {
+    pruneExpiredCrawlJobs();
     const { id } = req.params;
 
     if (!id || !isValidFirecrawlCrawlId(id)) {
@@ -1820,6 +1972,10 @@ app.get('/api/crawl/status/:id', async (req, res) => {
     }
 
     const status = await getFirecrawlCrawlStatus(id);
+    const crawlJob = crawlJobs.get(id);
+    if (crawlJob) {
+      crawlJob.latestStatus = status;
+    }
     console.log(`[crawl-proxy] Status [${id}]: ${status.status} ${status.completed}/${status.total}${status.error ? ' error=' + status.error : ''}${status.status === 'completed' ? ' pages=' + status.data.length : ''}`);
     res.json(status);
   } catch (error: any) {

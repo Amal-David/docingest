@@ -50,6 +50,8 @@ const GetLibraryDocsSchema = z.object({
   domain: z.string().min(1).describe("Domain ID from find-docs (e.g., 'react.dev', 'nextjs.org')"),
   topic: z.string().optional().describe("Optional topic to filter documentation (e.g., 'hooks', 'routing', 'api')"),
   maxTokens: z.number().optional().default(DEFAULT_MAX_TOKENS).describe("Maximum tokens to return (default: 5000)"),
+  snapshotId: z.string().optional().describe("Immutable documentation snapshot ID. Use this for an exact historical read."),
+  version: z.string().optional().describe("Compatibility selector for a legacy version or upstream version label."),
 });
 
 const SearchDocsSchema = z.object({
@@ -261,6 +263,14 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
             type: "number",
             description: "Maximum tokens to return (default: 5000)",
           },
+          snapshotId: {
+            type: "string",
+            description: "Immutable snapshot ID for an exact historical read",
+          },
+          version: {
+            type: "string",
+            description: "Compatibility selector for a legacy or upstream version",
+          },
         },
         required: ["domain"],
       },
@@ -268,9 +278,8 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
     {
       name: "query-docs",
       description:
-        "Full-text search across all indexed documentation. " +
-        "Returns matching snippets from multiple libraries. " +
-        "Great for finding examples and patterns across frameworks.",
+        "Search approved documentation sections with deterministic lexical ranking. " +
+        "Returns bounded matching content and snapshot provenance from multiple libraries.",
       inputSchema: {
         type: "object",
         properties: {
@@ -342,7 +351,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       }
 
       case "read-docs": {
-        const { domain, topic, maxTokens } = GetLibraryDocsSchema.parse(args);
+        const { domain, topic, maxTokens, snapshotId, version } = GetLibraryDocsSchema.parse(args);
         const safeMaxTokens = clampNumber(maxTokens, DEFAULT_MAX_TOKENS, 500, MAX_MAX_TOKENS);
 
         console.error(`[DocIngest MCP] Fetching docs for: ${domain}${topic ? ` (topic: ${topic})` : ""}`);
@@ -350,6 +359,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         const params = new URLSearchParams();
         params.set("maxTokens", String(safeMaxTokens));
         if (topic) params.set("topic", topic);
+        if (snapshotId) params.set("snapshotId", snapshotId);
+        if (version) params.set("version", version);
 
         const data = await fetchFromAPI(
           `/docs/domain/${encodeURIComponent(domain)}?${params.toString()}`
@@ -369,11 +380,12 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         // Topic filtering and primary truncation happen server-side through the query params.
         const content = truncateToTokens(data.content, safeMaxTokens);
 
+        const provenance = data.snapshot || {};
         return {
           content: [
             {
               type: "text",
-              text: `# ${data.domain} Documentation\n\nSource: ${data.url || domain}\nLast Updated: ${data.lastUpdated || "Unknown"}\n\n---\n\n${content}`,
+              text: `# ${data.domain} Documentation\n\nSource: ${provenance.sourceUrl || data.url || domain}\nSnapshot ID: ${provenance.id || "legacy-unverified"}\nContent Hash: ${provenance.contentHash || "unavailable"}\nFreshness (captured at): ${provenance.capturedAt || data.lastUpdated || "Unknown"}\nQuality: ${provenance.quality?.status || "legacy-unverified"}\nUpstream Version: ${provenance.upstreamVersion || "not provided"}\nUpstream Channel: ${provenance.upstreamChannel || "not provided"}\n\n---\n\n${content}`,
             },
           ],
         };
@@ -385,23 +397,24 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
         console.error(`[DocIngest MCP] Searching: ${query}`);
 
-        // Try fast-search first, fall back to fullsearch
-        let data;
-        try {
-          data = await fetchFromAPI(
-            `/docs/fast-search?q=${encodeURIComponent(query)}&limit=${safeLimit}`
-          );
-        } catch {
-          data = await fetchFromAPI(
-            `/docs/fullsearch?q=${encodeURIComponent(query)}&limit=${safeLimit}`
-          );
-        }
+        const data = await fetchFromAPI(
+          `/docs/sections/search?q=${encodeURIComponent(query)}&limit=${safeLimit}`
+        );
 
-        const results = (data.results || data.docs || []).map((doc: any) => ({
+        const results = (data.results || []).map((doc: any) => ({
           domain: doc.domain,
-          title: doc.title || doc.domain,
-          snippet: (doc.snippet || doc.content || "").slice(0, MAX_SNIPPET_LENGTH),
-          url: doc.url,
+          sectionId: doc.sectionId,
+          sectionTitle: doc.sectionTitle,
+          snippet: (doc.content || "").slice(0, MAX_SNIPPET_LENGTH),
+          canonicalUrl: doc.canonicalUrl,
+          pageUrl: doc.pageUrl,
+          snapshotId: doc.snapshotId,
+          contentHash: doc.contentHash,
+          upstreamVersion: doc.upstreamVersion,
+          freshness: doc.freshness,
+          qualityStatus: doc.qualityStatus,
+          qualityReasons: doc.qualityReasons,
+          ranking: data.ranking,
         }));
 
         if (results.length === 0) {
@@ -423,7 +436,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
                 {
                   message: `Found ${results.length} result(s) for "${query}"`,
                   results,
-                  hint: "Use read-docs with a domain to fetch full documentation",
+                  hint: "Use read-docs with a domain and optional snapshotId to fetch the full approved document",
                 },
                 null,
                 2
@@ -464,7 +477,7 @@ MCP server:
 
 CLI:
   npx @docingest/mcp-server find react
-  npx @docingest/mcp-server read react.dev --topic hooks --max-tokens 5000
+  npx @docingest/mcp-server read react.dev --topic hooks --max-tokens 5000 --snapshot-id <snapshot-id>
   npx @docingest/mcp-server search "server components" --limit 5
 
 Environment:
@@ -510,11 +523,15 @@ async function runCli(args: string[]): Promise<void> {
     }
 
     case "read": {
-      const domain = requireCliValue(args.shift(), "Usage: docingest read <domain> [--topic topic] [--max-tokens 5000]");
+      const domain = requireCliValue(args.shift(), "Usage: docingest read <domain> [--topic topic] [--max-tokens 5000] [--snapshot-id id] [--version selector]");
       const topic = takeOption(args, "--topic");
+      const snapshotId = takeOption(args, "--snapshot-id");
+      const version = takeOption(args, "--version");
       const safeMaxTokens = clampNumber(Number(takeOption(args, "--max-tokens")), DEFAULT_MAX_TOKENS, 500, MAX_MAX_TOKENS);
       const params = new URLSearchParams({ maxTokens: String(safeMaxTokens) });
       if (topic) params.set("topic", topic);
+      if (snapshotId) params.set("snapshotId", snapshotId);
+      if (version) params.set("version", version);
 
       const data = await fetchFromAPI(
         `/docs/domain/${encodeURIComponent(domain)}?${params.toString()}`
@@ -528,8 +545,13 @@ async function runCli(args: string[]): Promise<void> {
       const content = truncateToTokens(data.content, safeMaxTokens);
 
       console.log(`# ${data.domain} Documentation`);
-      console.log(`\nSource: ${data.url || domain}`);
-      console.log(`Last Updated: ${data.lastUpdated || "Unknown"}\n`);
+      const provenance = data.snapshot || {};
+      console.log(`\nSource: ${provenance.sourceUrl || data.url || domain}`);
+      console.log(`Snapshot ID: ${provenance.id || "legacy-unverified"}`);
+      console.log(`Content Hash: ${provenance.contentHash || "unavailable"}`);
+      console.log(`Freshness (captured at): ${provenance.capturedAt || data.lastUpdated || "Unknown"}`);
+      console.log(`Quality: ${provenance.quality?.status || "legacy-unverified"}`);
+      console.log(`Upstream Version: ${provenance.upstreamVersion || "not provided"}\n`);
       console.log("---\n");
       console.log(content);
       return;
@@ -538,19 +560,11 @@ async function runCli(args: string[]): Promise<void> {
     case "search": {
       const limit = clampNumber(Number(takeOption(args, "--limit")), 5, 1, MAX_SEARCH_LIMIT);
       const query = requireCliValue(args.join(" ").trim(), "Usage: docingest search <query> [--limit 5]");
-      let data;
+      const data = await fetchFromAPI(
+        `/docs/sections/search?q=${encodeURIComponent(query)}&limit=${limit}`
+      );
 
-      try {
-        data = await fetchFromAPI(
-          `/docs/fast-search?q=${encodeURIComponent(query)}&limit=${limit}`
-        );
-      } catch {
-        data = await fetchFromAPI(
-          `/docs/fullsearch?q=${encodeURIComponent(query)}&limit=${limit}`
-        );
-      }
-
-      console.log(JSON.stringify(data.results || data.docs || [], null, 2));
+      console.log(JSON.stringify(data.results || [], null, 2));
       return;
     }
 
