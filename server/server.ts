@@ -447,7 +447,7 @@ app.post('/api/docs/save', async (req, res) => {
       });
     }
     const { domain, domainPath } = safeDomainPath;
-    const timestamp = new Date(requestedTimestamp).toISOString();
+    const timestamp = requestedTimestamp;
     await fs.ensureDir(domainPath);
     console.log('Saving to domain path:', domainPath);
 
