@@ -42,6 +42,7 @@ test('serves agent discovery contracts before the SPA fallback', async () => {
   const robotsResponse = await request(app).get('/robots.txt');
   assert.match(robotsResponse.headers['content-type'] || '', /^text\/plain/);
   assert.match(robotsResponse.text, /Content-Signal: ai-train=no, search=yes, ai-input=yes/);
+  assert.match(robotsResponse.text, /User-agent: GPTBot[\s\S]*?Disallow: \/[\s\S]*?User-agent: ClaudeBot[\s\S]*?Disallow: \//);
 
   const missingAuthResponse = await request(app).get('/.well-known/openid-configuration');
   assert.equal(missingAuthResponse.status, 404);

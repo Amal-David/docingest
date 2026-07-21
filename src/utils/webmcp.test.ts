@@ -44,3 +44,58 @@ test('registers both tools with the current document.modelContext API', () => {
     Object.defineProperty(globalThis, 'document', { configurable: true, value: originalDocument });
   }
 });
+
+test('logs synchronous errors from the current document.modelContext API', () => {
+  const originalDocument = globalThis.document;
+  const originalWarn = console.warn;
+  const warnings: unknown[][] = [];
+  Object.defineProperty(globalThis, 'document', {
+    configurable: true,
+    value: {
+      modelContext: {
+        registerTool: () => {
+          throw new Error('registration failed');
+        },
+      },
+    },
+  });
+  console.warn = (...args: unknown[]) => warnings.push(args);
+
+  try {
+    assert.doesNotThrow(() => registerDocIngestWebMcp('/api'));
+    assert.equal(warnings.length, 1);
+    assert.equal(warnings[0][0], 'WebMCP tool registration failed:');
+  } finally {
+    console.warn = originalWarn;
+    Object.defineProperty(globalThis, 'document', { configurable: true, value: originalDocument });
+  }
+});
+
+test('logs synchronous errors from the legacy navigator.modelContext API', () => {
+  const originalDocument = globalThis.document;
+  const originalNavigator = globalThis.navigator;
+  const originalWarn = console.warn;
+  const warnings: unknown[][] = [];
+  Object.defineProperty(globalThis, 'document', { configurable: true, value: {} });
+  Object.defineProperty(globalThis, 'navigator', {
+    configurable: true,
+    value: {
+      modelContext: {
+        provideContext: () => {
+          throw new Error('legacy registration failed');
+        },
+      },
+    },
+  });
+  console.warn = (...args: unknown[]) => warnings.push(args);
+
+  try {
+    assert.doesNotThrow(() => registerDocIngestWebMcp('/api'));
+    assert.equal(warnings.length, 1);
+    assert.equal(warnings[0][0], 'Legacy WebMCP tool registration failed:');
+  } finally {
+    console.warn = originalWarn;
+    Object.defineProperty(globalThis, 'document', { configurable: true, value: originalDocument });
+    Object.defineProperty(globalThis, 'navigator', { configurable: true, value: originalNavigator });
+  }
+});

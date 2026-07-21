@@ -136,7 +136,7 @@ export function createOpenApiDocument(baseUrl = PUBLIC_BASE_URL) {
 export function createMcpPackageManifest() {
   return {
     $schema: 'https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json',
-    name: 'io.github.amal-david/docingest',
+    name: mcpPackage.mcpName,
     description: 'Search and read approved documentation snapshots from the DocIngest corpus.',
     repository: {
       url: 'https://github.com/Amal-David/docingest',

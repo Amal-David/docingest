@@ -78,15 +78,23 @@ export function registerDocIngestWebMcp(apiUrl = '/api'): () => void {
   const modernContext = (document as Document & { modelContext?: ModernModelContext }).modelContext;
 
   if (modernContext?.registerTool) {
-    Promise.all(tools.map(tool => modernContext.registerTool(tool, { signal: controller.signal })))
-      .catch(error => console.warn('WebMCP tool registration failed:', error));
+    try {
+      Promise.all(tools.map(tool => modernContext.registerTool(tool, { signal: controller.signal })))
+        .catch(error => console.warn('WebMCP tool registration failed:', error));
+    } catch (error) {
+      console.warn('WebMCP tool registration failed:', error);
+    }
     return () => controller.abort();
   }
 
   const legacyContext = (navigator as Navigator & { modelContext?: LegacyModelContext }).modelContext;
   if (legacyContext?.provideContext) {
-    Promise.resolve(legacyContext.provideContext({ tools }))
-      .catch(error => console.warn('Legacy WebMCP tool registration failed:', error));
+    try {
+      Promise.resolve(legacyContext.provideContext({ tools }))
+        .catch(error => console.warn('Legacy WebMCP tool registration failed:', error));
+    } catch (error) {
+      console.warn('Legacy WebMCP tool registration failed:', error);
+    }
   }
 
   return () => controller.abort();
