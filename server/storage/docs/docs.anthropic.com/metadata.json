@@ -82,5 +82,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.anthropic.com/en/docs/claude-code/overview",
+      "canonicalSeedUrl": "https://docs.anthropic.com/en/docs/claude-code/overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-04T08:50:36.795Z",
+      "completedAt": "2025-09-04T08:50:36.795Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.anthropic.com/en/docs/claude-code/overview",
+          "canonicalUrl": "https://docs.anthropic.com/en/docs/claude-code/overview",
+          "status": "valid"
+        }
+      ],
+      "id": "426ae14ba05ef4f39ffb779d35bfe8484fe55020d0fefaa17f26e6c43fe62897",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cfcf823d7a1351648fcf8ef63f08ae4f965bd18c1d684727b37b7d9555d6c9c8",
+      "filename": "documentation_2025-09-04T08:50:36.795Z.md",
+      "contentHash": "23767575fc91c2edd427f894aae00eec7be9fffd52176ab83d92c5e98a41adac",
+      "sourceUrl": "https://docs.anthropic.com/en/docs/claude-code/overview",
+      "canonicalSourceUrl": "https://docs.anthropic.com/en/docs/claude-code/overview",
+      "capturedAt": "2025-09-04T08:50:36.795Z",
+      "crawlRunId": "426ae14ba05ef4f39ffb779d35bfe8484fe55020d0fefaa17f26e6c43fe62897",
+      "upstreamVersion": "1.6.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Claude Code overview - Anthropic",
+          "url": "https://docs.anthropic.com/en/docs/claude-code/overview"
+        },
+        {
+          "type": "Claude Code on Amazon Bedrock - Anthropic",
+          "url": "https://docs.anthropic.com/en/docs/claude-code/amazon-bedrock"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cfcf823d7a1351648fcf8ef63f08ae4f965bd18c1d684727b37b7d9555d6c9c8"
 }

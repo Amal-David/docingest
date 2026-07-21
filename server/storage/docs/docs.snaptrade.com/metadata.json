@@ -172,5 +172,215 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.snaptrade.com/reference/API%20Status/ApiStatus_check",
+      "canonicalSeedUrl": "https://docs.snaptrade.com/reference/API%20Status/ApiStatus_check",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-27T02:14:24.383Z",
+      "completedAt": "2025-09-27T02:14:24.383Z",
+      "providerTotals": {
+        "discovered": 38,
+        "returned": 38,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.snaptrade.com/reference/API%20Status/ApiStatus_check",
+          "canonicalUrl": "https://docs.snaptrade.com/reference/API%20Status/ApiStatus_check",
+          "status": "valid"
+        }
+      ],
+      "id": "a1367fea811caf2e7481f2e0e51c4a44268c6fb304eecbd7baec022efc7f85c3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ad3f500f9cf87323db6d19fffa902d454c1d948b7af09f01939047921a11ac5a",
+      "filename": "documentation_2025-09-27T02:14:24.383Z.md",
+      "contentHash": "d32324c4a866ba13e35f878ead8d16a79d178e47708126088c9cc8bf8c627a58",
+      "sourceUrl": "https://docs.snaptrade.com/reference/API%20Status/ApiStatus_check",
+      "canonicalSourceUrl": "https://docs.snaptrade.com/reference/API%20Status/ApiStatus_check",
+      "capturedAt": "2025-09-27T02:14:24.383Z",
+      "crawlRunId": "a1367fea811caf2e7481f2e0e51c4a44268c6fb304eecbd7baec022efc7f85c3",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 38,
+      "successfulPages": 38,
+      "structure": [
+        {
+          "type": "Get API Status / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/API%20Status/ApiStatus_check"
+        },
+        {
+          "type": "Register user / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Authentication/Authentication_registerSnapTradeUser"
+        },
+        {
+          "type": "List all users / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Authentication/Authentication_listSnapTradeUsers"
+        },
+        {
+          "type": "Generate Connection Portal URL / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Authentication/Authentication_loginSnapTradeUser"
+        },
+        {
+          "type": "Rotate user secret / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Authentication/Authentication_resetSnapTradeUserSecret"
+        },
+        {
+          "type": "Delete user / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Authentication/Authentication_deleteSnapTradeUser"
+        },
+        {
+          "type": "Delete connection / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Connections/Connections_removeBrokerageAuthorization"
+        },
+        {
+          "type": "Force disable connection / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Connections/Connections_disableBrokerageAuthorization"
+        },
+        {
+          "type": "List all connections / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Connections/Connections_listBrokerageAuthorizations"
+        },
+        {
+          "type": "Refresh holdings for a connection / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Connections/Connections_refreshBrokerageAuthorization"
+        },
+        {
+          "type": "Get connection detail / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Connections/Connections_detailBrokerageAuthorization"
+        },
+        {
+          "type": "List accounts / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Account%20Information/AccountInformation_listUserAccounts"
+        },
+        {
+          "type": "Get account detail / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Account%20Information/AccountInformation_getUserAccountDetails"
+        },
+        {
+          "type": "List account balances / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Account%20Information/AccountInformation_getUserAccountBalance"
+        },
+        {
+          "type": "Get equity symbol quotes / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Trading/Trading_getUserAccountQuotes"
+        },
+        {
+          "type": "List account positions / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Account%20Information/AccountInformation_getUserAccountPositions"
+        },
+        {
+          "type": "Get crypto pairs / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Trading/Trading_searchCryptocurrencyPairInstruments"
+        },
+        {
+          "type": "List account option positions / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Options/Options_listOptionHoldings"
+        },
+        {
+          "type": "Get crypto pair quote / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Trading/Trading_getCryptocurrencyPairQuote"
+        },
+        {
+          "type": "Preview crypto order / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Trading/Trading_previewCryptoOrder"
+        },
+        {
+          "type": "Cancel order / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Trading/Trading_cancelOrder"
+        },
+        {
+          "type": "Check equity order impact / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Trading/Trading_getOrderImpact"
+        },
+        {
+          "type": "List account holdings / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Account%20Information/AccountInformation_getUserHoldings"
+        },
+        {
+          "type": "Get brokerage instruments / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Reference%20Data/ReferenceData_listAllBrokerageInstruments"
+        },
+        {
+          "type": "List account activities / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Account%20Information/AccountInformation_getAccountActivities"
+        },
+        {
+          "type": "Get Client Info / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Reference%20Data/ReferenceData_getPartnerInfo"
+        },
+        {
+          "type": "Search account symbols / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Reference%20Data/ReferenceData_symbolSearchUserAccount"
+        },
+        {
+          "type": "List security types / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Reference%20Data/ReferenceData_getSecurityTypes"
+        },
+        {
+          "type": "Get symbol detail / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Reference%20Data/ReferenceData_getSymbolsByTicker"
+        },
+        {
+          "type": "List account recent orders (last 24 hours only) / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Account%20Information/AccountInformation_getUserAccountRecentOrders"
+        },
+        {
+          "type": "List account orders / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Account%20Information/AccountInformation_getUserAccountOrders"
+        },
+        {
+          "type": "Search symbols / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Reference%20Data/ReferenceData_getSymbols"
+        },
+        {
+          "type": "Place checked equity order / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Trading/Trading_placeOrder"
+        },
+        {
+          "type": "Place option order / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Trading/Trading_placeMlegOrder"
+        },
+        {
+          "type": "Place order / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Trading/Trading_placeForceOrder"
+        },
+        {
+          "type": "Place bracket order / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Trading/Trading_placeBracketOrder"
+        },
+        {
+          "type": "Place crypto order / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Trading/Trading_placeCryptoOrder"
+        },
+        {
+          "type": "Replace order / SnapTrade",
+          "url": "https://docs.snaptrade.com/reference/Trading/Trading_replaceOrder"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ad3f500f9cf87323db6d19fffa902d454c1d948b7af09f01939047921a11ac5a"
 }

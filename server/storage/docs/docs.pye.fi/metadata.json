@@ -108,5 +108,151 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.pye.fi/",
+      "canonicalSeedUrl": "https://docs.pye.fi/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-20T11:15:30.138Z",
+      "completedAt": "2025-10-20T11:15:30.138Z",
+      "providerTotals": {
+        "discovered": 22,
+        "returned": 22,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.pye.fi/",
+          "canonicalUrl": "https://docs.pye.fi/",
+          "status": "valid"
+        }
+      ],
+      "id": "1dee2ce6c083a9a59262406444d216ddc6da39175254b508342f6356a874d5e0",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4cfaafdf81cf47fa130d1655ce55cc3f1d19323945bbac997f1a1a10347ff532",
+      "filename": "documentation_2025-10-20T11:15:30.138Z.md",
+      "contentHash": "f51ebab9510960468623bca565e776ed07b8921c3a178261d46c71e3db1098df",
+      "sourceUrl": "https://docs.pye.fi/",
+      "canonicalSourceUrl": "https://docs.pye.fi/",
+      "capturedAt": "2025-10-20T11:15:30.138Z",
+      "crawlRunId": "1dee2ce6c083a9a59262406444d216ddc6da39175254b508342f6356a874d5e0",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 22,
+      "successfulPages": 22,
+      "structure": [
+        {
+          "type": "Overview | Documentation",
+          "url": "https://docs.pye.fi/"
+        },
+        {
+          "type": "Technical Vision | Documentation",
+          "url": "https://docs.pye.fi/introduction/technical-vision"
+        },
+        {
+          "type": "Deposit | Documentation",
+          "url": "https://docs.pye.fi/staker-guides/deposit"
+        },
+        {
+          "type": "Mechanism | Documentation",
+          "url": "https://docs.pye.fi/technical-specification/markdown"
+        },
+        {
+          "type": "Calculator | Documentation",
+          "url": "https://docs.pye.fi/validator-guides/calculator"
+        },
+        {
+          "type": "Redeem | Documentation",
+          "url": "https://docs.pye.fi/staker-guides/redeem"
+        },
+        {
+          "type": "CLI | Documentation",
+          "url": "https://docs.pye.fi/validator-guides/cli"
+        },
+        {
+          "type": "Program | Documentation",
+          "url": "https://docs.pye.fi/technical-specification/program"
+        },
+        {
+          "type": "Invite Staker | Documentation",
+          "url": "https://docs.pye.fi/validator-guides/tutorials/invite-staker"
+        },
+        {
+          "type": "Onboarding | Documentation",
+          "url": "https://docs.pye.fi/validator-operators/onboarding"
+        },
+        {
+          "type": "Supported Validators | Documentation",
+          "url": "https://docs.pye.fi/validator-operators/supported-validators"
+        },
+        {
+          "type": "Creating a Pye Account | Documentation",
+          "url": "https://docs.pye.fi/validator-guides/tutorials/creating-a-pye-account"
+        },
+        {
+          "type": "Security | Documentation",
+          "url": "https://docs.pye.fi/resources/security"
+        },
+        {
+          "type": "Validator Dashboard | Documentation",
+          "url": "https://docs.pye.fi/validator-guides/tutorials/validator-dashboard"
+        },
+        {
+          "type": "Tutorials | Documentation",
+          "url": "https://docs.pye.fi/validator-guides/tutorials"
+        },
+        {
+          "type": "Deployments | Documentation",
+          "url": "https://docs.pye.fi/resources/deployments"
+        },
+        {
+          "type": "Overview | Documentation",
+          "url": "https://docs.pye.fi/introduction"
+        },
+        {
+          "type": "Deposit | Documentation",
+          "url": "https://docs.pye.fi/staker-guides"
+        },
+        {
+          "type": "Program | Documentation",
+          "url": "https://docs.pye.fi/technical-specification"
+        },
+        {
+          "type": "CLI | Documentation",
+          "url": "https://docs.pye.fi/validator-guides"
+        },
+        {
+          "type": "Onboarding | Documentation",
+          "url": "https://docs.pye.fi/validator-operators"
+        },
+        {
+          "type": "Security | Documentation",
+          "url": "https://docs.pye.fi/resources"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4cfaafdf81cf47fa130d1655ce55cc3f1d19323945bbac997f1a1a10347ff532"
 }

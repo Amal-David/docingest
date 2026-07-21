@@ -116,5 +116,159 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.abscan.org/getting-started/viewing-api-usage-statistics",
+      "canonicalSeedUrl": "https://docs.abscan.org/getting-started/viewing-api-usage-statistics",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-25T07:23:59.814Z",
+      "completedAt": "2025-02-25T07:23:59.814Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.abscan.org/getting-started/viewing-api-usage-statistics",
+          "canonicalUrl": "https://docs.abscan.org/getting-started/viewing-api-usage-statistics",
+          "status": "valid"
+        }
+      ],
+      "id": "16bb44ec9e2c0aeb4d5cd3db4ddbd39901cfff51ee4738726cbba5cd1103c5e3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9f50ef52ed0ca305854ed03d695e1104692c0374a7761e08db5d0c327e5d9a7b",
+      "filename": "documentation_2025-02-25T07:23:59.814Z.md",
+      "contentHash": "1c59db4f1a30508765e5eb5e9b62fc95146de89eae80a22e196ba7004a66ec9c",
+      "sourceUrl": "https://docs.abscan.org/getting-started/viewing-api-usage-statistics",
+      "canonicalSourceUrl": "https://docs.abscan.org/getting-started/viewing-api-usage-statistics",
+      "capturedAt": "2025-02-25T07:23:59.814Z",
+      "crawlRunId": "16bb44ec9e2c0aeb4d5cd3db4ddbd39901cfff51ee4738726cbba5cd1103c5e3",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "Getting an API key | Abscan",
+          "url": "https://docs.abscan.org/getting-started/viewing-api-usage-statistics"
+        },
+        {
+          "type": "Creating an Account | Abscan",
+          "url": "https://docs.abscan.org/getting-started/creating-an-account"
+        },
+        {
+          "type": "Stats | Abscan",
+          "url": "https://docs.abscan.org/api-endpoints/stats-1"
+        },
+        {
+          "type": "Rate Limits | Abscan",
+          "url": "https://docs.abscan.org/support/rate-limits"
+        },
+        {
+          "type": "Transactions | Abscan",
+          "url": "https://docs.abscan.org/api-endpoints/stats"
+        },
+        {
+          "type": "FAQ | Abscan",
+          "url": "https://docs.abscan.org/support/faq"
+        },
+        {
+          "type": "Endpoint URLs | Abscan",
+          "url": "https://docs.abscan.org/getting-started/endpoint-urls"
+        },
+        {
+          "type": "Introduction | Abscan",
+          "url": "https://docs.abscan.org/"
+        },
+        {
+          "type": "Blocks | Abscan",
+          "url": "https://docs.abscan.org/api-endpoints/blocks"
+        },
+        {
+          "type": "Tokens | Abscan",
+          "url": "https://docs.abscan.org/api-endpoints/tokens"
+        },
+        {
+          "type": "Sepolia Testnet | Abscan",
+          "url": "https://docs.abscan.org/testnet-abscan/"
+        },
+        {
+          "type": "Stats | Abscan",
+          "url": "https://docs.abscan.org/testnet-abscan/api-endpoints/stats-1"
+        },
+        {
+          "type": "Getting Help | Abscan",
+          "url": "https://docs.abscan.org/support/getting-help"
+        },
+        {
+          "type": "Geth/Parity Proxy | Abscan",
+          "url": "https://docs.abscan.org/api-endpoints/geth-parity-proxy"
+        },
+        {
+          "type": "Accounts | Abscan",
+          "url": "https://docs.abscan.org/api-endpoints/accounts"
+        },
+        {
+          "type": "Logs | Abscan",
+          "url": "https://docs.abscan.org/api-endpoints/logs"
+        },
+        {
+          "type": "Blocks | Abscan",
+          "url": "https://docs.abscan.org/testnet-abscan/api-endpoints/blocks"
+        },
+        {
+          "type": "Accounts | Abscan",
+          "url": "https://docs.abscan.org/testnet-abscan/api-endpoints/accounts"
+        },
+        {
+          "type": "Common Error Messages | Abscan",
+          "url": "https://docs.abscan.org/support/common-error-messages"
+        },
+        {
+          "type": "Logs | Abscan",
+          "url": "https://docs.abscan.org/testnet-abscan/api-endpoints/logs"
+        },
+        {
+          "type": "Tokens | Abscan",
+          "url": "https://docs.abscan.org/testnet-abscan/api-endpoints/tokens"
+        },
+        {
+          "type": "Transactions | Abscan",
+          "url": "https://docs.abscan.org/testnet-abscan/api-endpoints/stats"
+        },
+        {
+          "type": "Contracts | Abscan",
+          "url": "https://docs.abscan.org/testnet-abscan/api-endpoints/contracts"
+        },
+        {
+          "type": "Contracts | Abscan",
+          "url": "https://docs.abscan.org/api-endpoints/contracts"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9f50ef52ed0ca305854ed03d695e1104692c0374a7761e08db5d0c327e5d9a7b"
 }

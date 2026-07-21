@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq",
+      "canonicalSeedUrl": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-12T08:08:08.246Z",
+      "completedAt": "2025-11-12T08:08:08.246Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq",
+          "canonicalUrl": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq",
+          "status": "valid"
+        }
+      ],
+      "id": "ef2af8d375506471a3c3374e027d407f96ba6b80ac4af32481d68078a925a6bd",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "6252e45f922e57899ee753dd8eeefa89ed0e49810112a75fb8a2444a0d58a40e",
+      "filename": "documentation_2025-11-12T08:08:08.246Z.md",
+      "contentHash": "1aeda5c0cef87407a1cd0119eb285225093c84508493a0a249b7d8ec113e6b6c",
+      "sourceUrl": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq",
+      "canonicalSourceUrl": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq",
+      "capturedAt": "2025-11-12T08:08:08.246Z",
+      "crawlRunId": "ef2af8d375506471a3c3374e027d407f96ba6b80ac4af32481d68078a925a6bd",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Overview | Drakula Docs",
+          "url": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq"
+        },
+        {
+          "type": "Solution | Drakula Docs",
+          "url": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq/introduction-1/solution"
+        },
+        {
+          "type": "Problem | Drakula Docs",
+          "url": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq/introduction-1/problem"
+        },
+        {
+          "type": "Vision | Drakula Docs",
+          "url": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq/introduction-1/quickstart"
+        },
+        {
+          "type": "Swarms Explained | Drakula Docs",
+          "url": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq/drakula-breakdown/swarms-explained"
+        },
+        {
+          "type": "Channel Stats | Drakula Docs",
+          "url": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq/drakula-breakdown/channel-stats"
+        },
+        {
+          "type": "Marketplace AKA Swarm Hub | Drakula Docs",
+          "url": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq/drakula-breakdown/marketplace-aka-swarm-hub"
+        },
+        {
+          "type": "For Sires (Strategists) | Drakula Docs",
+          "url": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq/how-it-works/for-sires-strategists"
+        },
+        {
+          "type": "For Vampires (Traders) | Drakula Docs",
+          "url": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq/how-it-works/for-vampires-traders"
+        },
+        {
+          "type": "Roadmap | Drakula Docs",
+          "url": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq/roadmap-and-faq/roadmap"
+        },
+        {
+          "type": "Token Launch | Drakula Docs",
+          "url": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq/roadmap-and-faq/token-launch"
+        },
+        {
+          "type": "FAQ | Drakula Docs",
+          "url": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq/roadmap-and-faq/faq"
+        },
+        {
+          "type": "Auto-Bat Mechanics | Drakula Docs",
+          "url": "https://drakula.gitbook.io/drakula-docs/ml2CMO3U9wrXU0iHnveq/drakula-breakdown/auto-bat-mechanics"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "6252e45f922e57899ee753dd8eeefa89ed0e49810112a75fb8a2444a0d58a40e"
 }

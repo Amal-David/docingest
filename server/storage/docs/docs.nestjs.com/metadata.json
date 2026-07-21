@@ -42,5 +42,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.nestjs.com/first-steps",
+      "canonicalSeedUrl": "https://docs.nestjs.com/first-steps",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-29T14:46:51.448Z",
+      "completedAt": "2025-12-29T14:46:51.448Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.nestjs.com/first-steps",
+          "canonicalUrl": "https://docs.nestjs.com/first-steps",
+          "status": "valid"
+        }
+      ],
+      "id": "40e4a0d941ba05acb8ac15219d1f9aff04b006f902944e16977a61d82b85e60f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fa5ddb8f52be8b0fb3e4eddeccead0daa2243e4d7a1e3791bcd140fe179c3ba5",
+      "filename": "documentation_2025-12-29T14:46:51.448Z.md",
+      "contentHash": "ed62cd2767878108355ce4fa0c390238f9bbf9ea2daff282f9eaeada3a27f68b",
+      "sourceUrl": "https://docs.nestjs.com/first-steps",
+      "canonicalSourceUrl": "https://docs.nestjs.com/first-steps",
+      "capturedAt": "2025-12-29T14:46:51.448Z",
+      "crawlRunId": "40e4a0d941ba05acb8ac15219d1f9aff04b006f902944e16977a61d82b85e60f",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "First steps | NestJS - A progressive Node.js framework",
+          "url": "https://docs.nestjs.com/first-steps"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fa5ddb8f52be8b0fb3e4eddeccead0daa2243e4d7a1e3791bcd140fe179c3ba5"
 }

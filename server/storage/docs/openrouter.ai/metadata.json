@@ -101,5 +101,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://openrouter.ai/docs/quickstart",
+      "canonicalSeedUrl": "https://openrouter.ai/docs/quickstart",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-11T11:25:25.103Z",
+      "completedAt": "2025-12-11T11:25:25.103Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://openrouter.ai/docs/quickstart",
+          "canonicalUrl": "https://openrouter.ai/docs/quickstart",
+          "status": "valid"
+        }
+      ],
+      "id": "4ae3b32e2f9e69ebc6eab40cd6ed28c2eb7f2b76391057c7d932acd95fb19e02",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c84424692f40e19c8706e5adcad1028a8bcc5490976fe8321d8565b91c8ed89a",
+      "filename": "documentation_2025-12-11T11:25:25.103Z.md",
+      "contentHash": "bf7dd7fc425b303a00b2898cfc7f40850458f91e94f4fa3bdc786b724ab83b79",
+      "sourceUrl": "https://openrouter.ai/docs/quickstart",
+      "canonicalSourceUrl": "https://openrouter.ai/docs/quickstart",
+      "capturedAt": "2025-12-11T11:25:25.103Z",
+      "crawlRunId": "4ae3b32e2f9e69ebc6eab40cd6ed28c2eb7f2b76391057c7d932acd95fb19e02",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "OpenRouter Quickstart Guide | Developer Documentation | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/quickstart"
+        },
+        {
+          "type": "Principles | OpenRouter's Core Values and Mission | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/guides/overview/principles"
+        },
+        {
+          "type": "OpenRouter Models | Access 400+ AI Models Through One API | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/guides/overview/models"
+        },
+        {
+          "type": "OpenRouter Multimodal | Complete Documentation | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/guides/overview/multimodal/overview"
+        },
+        {
+          "type": "OpenRouter PDF Inputs | Complete Documentation | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/guides/overview/multimodal/pdfs"
+        },
+        {
+          "type": "OpenRouter Image Inputs | Complete Documentation | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/guides/overview/multimodal/images"
+        },
+        {
+          "type": "OpenRouter Image Generation | Complete Documentation | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/guides/overview/multimodal/image-generation"
+        },
+        {
+          "type": "ChainID | OpenRouter Python SDK | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/sdks/python/components/chainid"
+        },
+        {
+          "type": "CreateEmbeddingsResponse | OpenRouter Python SDK | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/sdks/python/operations/createembeddingsresponse"
+        },
+        {
+          "type": "ModelsListResponse | OpenRouter Python SDK | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/sdks/python/components/modelslistresponse"
+        },
+        {
+          "type": "CreateCoinbaseChargeResponse | OpenRouter Python SDK | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/sdks/python/operations/createcoinbasechargeresponse"
+        },
+        {
+          "type": "CompletionResponse | OpenRouter TypeScript SDK | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/sdks/typescript/models/completionresponse"
+        },
+        {
+          "type": "ListProvidersData | OpenRouter TypeScript SDK | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/sdks/typescript/operations/listprovidersdata"
+        },
+        {
+          "type": "CompletionUsage | OpenRouter TypeScript SDK | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/sdks/typescript/models/completionusage"
+        },
+        {
+          "type": "CompletionChoice | OpenRouter TypeScript SDK | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/sdks/typescript/models/completionchoice"
+        },
+        {
+          "type": "ActivityItem | OpenRouter TypeScript SDK | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/sdks/typescript/models/activityitem"
+        },
+        {
+          "type": "CompletionFinishReason | OpenRouter TypeScript SDK | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/sdks/typescript/models/completionfinishreason"
+        },
+        {
+          "type": "CompletionLogprobs | OpenRouter TypeScript SDK | OpenRouter | Documentation",
+          "url": "https://openrouter.ai/docs/sdks/typescript/models/completionlogprobs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c84424692f40e19c8706e5adcad1028a8bcc5490976fe8321d8565b91c8ed89a"
 }

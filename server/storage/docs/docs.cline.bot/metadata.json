@@ -115,5 +115,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.cline.bot/getting-started/what-is-cline",
+      "canonicalSeedUrl": "https://docs.cline.bot/getting-started/what-is-cline",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-29T11:21:29.616Z",
+      "completedAt": "2025-04-29T11:21:29.616Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.cline.bot/getting-started/what-is-cline",
+          "canonicalUrl": "https://docs.cline.bot/getting-started/what-is-cline",
+          "status": "valid"
+        }
+      ],
+      "id": "d7b17ccba693614da506496a8b2304da42e23dca912611d6dfbbb15d11af2ef5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e1168a51c46b617d28de011b30e9c92f68474d8007eb87ffcd0a4e0d7eb7657b",
+      "filename": "documentation_2025-04-29T11:21:29.616Z.md",
+      "contentHash": "59656a5ef816de6c52e939ee987e43b7198f305f7c36c2859e6b7e5ace7ea9e6",
+      "sourceUrl": "https://docs.cline.bot/getting-started/what-is-cline",
+      "canonicalSourceUrl": "https://docs.cline.bot/getting-started/what-is-cline",
+      "capturedAt": "2025-04-29T11:21:29.616Z",
+      "crawlRunId": "d7b17ccba693614da506496a8b2304da42e23dca912611d6dfbbb15d11af2ef5",
+      "upstreamVersion": "1.3.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "What is Cline? | Cline",
+          "url": "https://docs.cline.bot/getting-started/what-is-cline"
+        },
+        {
+          "type": "Cline Documentation | Cline",
+          "url": "https://docs.cline.bot/"
+        },
+        {
+          "type": "Installing Cline | Cline",
+          "url": "https://docs.cline.bot/getting-started/installing-cline"
+        },
+        {
+          "type": "For New Coders | Cline",
+          "url": "https://docs.cline.bot/getting-started/for-new-coders"
+        },
+        {
+          "type": "Installing Dev Essentials | Cline",
+          "url": "https://docs.cline.bot/getting-started/installing-dev-essentials"
+        },
+        {
+          "type": "Our Favorite Tech Stack | Cline",
+          "url": "https://docs.cline.bot/getting-started/our-favorite-tech-stack"
+        },
+        {
+          "type": "Context Management | Cline",
+          "url": "https://docs.cline.bot/getting-started/understanding-context-management"
+        },
+        {
+          "type": "Cline Tools Guide | Cline",
+          "url": "https://docs.cline.bot/exploring-clines-tools/cline-tools-guide"
+        },
+        {
+          "type": "Model Selection Guide | Cline",
+          "url": "https://docs.cline.bot/getting-started/model-selection-guide"
+        },
+        {
+          "type": "Cloud Provider Integration | Cline",
+          "url": "https://docs.cline.bot/enterprise-solutions/cloud-provider-integration"
+        },
+        {
+          "type": "Cline Memory Bank | Cline",
+          "url": "https://docs.cline.bot/improving-your-prompting-skills/cline-memory-bank"
+        },
+        {
+          "type": "MCP Servers | Cline",
+          "url": "https://docs.cline.bot/enterprise-solutions/mcp-servers"
+        },
+        {
+          "type": "Checkpoints and Messages | Cline",
+          "url": "https://docs.cline.bot/exploring-clines-tools/checkpoints"
+        },
+        {
+          "type": "Custom Instructions | Cline",
+          "url": "https://docs.cline.bot/enterprise-solutions/custom-instructions"
+        },
+        {
+          "type": "Security Concerns | Cline",
+          "url": "https://docs.cline.bot/enterprise-solutions/security-concerns"
+        },
+        {
+          "type": "Remote Browser Support | Cline",
+          "url": "https://docs.cline.bot/exploring-clines-tools/remote-browser-support"
+        },
+        {
+          "type": "New Task Tool | Cline",
+          "url": "https://docs.cline.bot/exploring-clines-tools/new-task-tool"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e1168a51c46b617d28de011b30e9c92f68474d8007eb87ffcd0a4e0d7eb7657b"
 }

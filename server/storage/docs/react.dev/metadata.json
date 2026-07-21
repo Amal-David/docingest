@@ -143,5 +143,159 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://react.dev/reference/",
+      "canonicalSeedUrl": "https://react.dev/reference",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-05T20:13:05.160Z",
+      "completedAt": "2025-04-05T20:13:05.160Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://react.dev/reference/",
+          "canonicalUrl": "https://react.dev/reference",
+          "status": "valid"
+        }
+      ],
+      "id": "fb8963453e9d295e51aabb137b550aa88c8fb77a85c12756c209d7d242a894ab",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "876653b5d41c56e3dee048f0be709c73f60bb56e33928cd05f3c4a7f495234c3",
+      "filename": "documentation_2025-04-05T20:13:05.160Z.md",
+      "contentHash": "f7015d9e43cc1542d31b152dce01962c49a338597e6c5135506ad51f6b7c9841",
+      "sourceUrl": "https://react.dev/reference/",
+      "canonicalSourceUrl": "https://react.dev/reference",
+      "capturedAt": "2025-04-05T20:13:05.160Z",
+      "crawlRunId": "fb8963453e9d295e51aabb137b550aa88c8fb77a85c12756c209d7d242a894ab",
+      "upstreamVersion": "1.3.0",
+      "upstreamChannel": "latest",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "React Reference Overview – React",
+          "url": "https://react.dev/reference/"
+        },
+        {
+          "type": "useActionState – React",
+          "url": "https://react.dev/reference/react/useActionState"
+        },
+        {
+          "type": "Built-in React Hooks – React",
+          "url": "https://react.dev/reference/react/hooks"
+        },
+        {
+          "type": "useDebugValue – React",
+          "url": "https://react.dev/reference/react/useDebugValue"
+        },
+        {
+          "type": "useCallback – React",
+          "url": "https://react.dev/reference/react/useCallback"
+        },
+        {
+          "type": "useContext – React",
+          "url": "https://react.dev/reference/react/useContext"
+        },
+        {
+          "type": "useDeferredValue – React",
+          "url": "https://react.dev/reference/react/useDeferredValue"
+        },
+        {
+          "type": "useEffect – React",
+          "url": "https://react.dev/reference/react/useEffect"
+        },
+        {
+          "type": "useId – React",
+          "url": "https://react.dev/reference/react/useId"
+        },
+        {
+          "type": "useImperativeHandle – React",
+          "url": "https://react.dev/reference/react/useImperativeHandle"
+        },
+        {
+          "type": "useInsertionEffect – React",
+          "url": "https://react.dev/reference/react/useInsertionEffect"
+        },
+        {
+          "type": "useOptimistic – React",
+          "url": "https://react.dev/reference/react/useOptimistic"
+        },
+        {
+          "type": "useReducer – React",
+          "url": "https://react.dev/reference/react/useReducer"
+        },
+        {
+          "type": "useMemo – React",
+          "url": "https://react.dev/reference/react/useMemo"
+        },
+        {
+          "type": "useRef – React",
+          "url": "https://react.dev/reference/react/useRef"
+        },
+        {
+          "type": "useState – React",
+          "url": "https://react.dev/reference/react/useState"
+        },
+        {
+          "type": "useSyncExternalStore – React",
+          "url": "https://react.dev/reference/react/useSyncExternalStore"
+        },
+        {
+          "type": "Built-in React Components – React",
+          "url": "https://react.dev/reference/react/components"
+        },
+        {
+          "type": "useTransition – React",
+          "url": "https://react.dev/reference/react/useTransition"
+        },
+        {
+          "type": "<Fragment> (<>...</>) – React",
+          "url": "https://react.dev/reference/react/Fragment"
+        },
+        {
+          "type": "<Profiler> – React",
+          "url": "https://react.dev/reference/react/Profiler"
+        },
+        {
+          "type": "<StrictMode> – React",
+          "url": "https://react.dev/reference/react/StrictMode"
+        },
+        {
+          "type": "createContext – React",
+          "url": "https://react.dev/reference/react/createContext"
+        },
+        {
+          "type": "lazy – React",
+          "url": "https://react.dev/reference/react/lazy"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "876653b5d41c56e3dee048f0be709c73f60bb56e33928cd05f3c4a7f495234c3"
 }

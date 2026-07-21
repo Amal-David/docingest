@@ -192,5 +192,235 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.one.org/",
+      "canonicalSeedUrl": "https://docs.one.org/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-18T22:21:38.625Z",
+      "completedAt": "2026-06-18T22:21:38.625Z",
+      "providerTotals": {
+        "discovered": 43,
+        "returned": 43,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.one.org/",
+          "canonicalUrl": "https://docs.one.org/",
+          "status": "valid"
+        }
+      ],
+      "id": "1f130cd06b64db156938096b328c6fabe69fcee142f95bf71c341cc1dcb5fe62",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ddfa6b2dd8b3f0555ede3427bd6aa28477ded1573e0fecb5a89fe3b436a3703d",
+      "filename": "documentation_2026-06-18T22:21:38.625Z.md",
+      "contentHash": "9d631448dd43a4c70ffe37983397439745dc07185665065f1d848337cd7f9998",
+      "sourceUrl": "https://docs.one.org/",
+      "canonicalSourceUrl": "https://docs.one.org/",
+      "capturedAt": "2026-06-18T22:21:38.625Z",
+      "crawlRunId": "1f130cd06b64db156938096b328c6fabe69fcee142f95bf71c341cc1dcb5fe62",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 43,
+      "successfulPages": 43,
+      "structure": [
+        {
+          "type": "ONE Data Docs",
+          "url": "https://docs.one.org/"
+        },
+        {
+          "type": "Getting Started - ONE Data Docs",
+          "url": "https://docs.one.org/tools/oda-data/getting-started/"
+        },
+        {
+          "type": "Global Health Expenditure Database (GHED) - ONE Data Docs",
+          "url": "https://docs.one.org/etl/data-sources/ghed/"
+        },
+        {
+          "type": "Data Sources - ONE Data Docs",
+          "url": "https://docs.one.org/etl/data-sources/"
+        },
+        {
+          "type": "Official Development Assistance (ODA) - ONE Data Docs",
+          "url": "https://docs.one.org/methodologies/data/oda/"
+        },
+        {
+          "type": "Data - ONE Data Docs",
+          "url": "https://docs.one.org/methodologies/data/"
+        },
+        {
+          "type": "Hidden Impacts of Rising Interest Rates - ONE Data Docs",
+          "url": "https://docs.one.org/methodologies/deep-dives/hidden-impacts-of-rising-interest-rates/"
+        },
+        {
+          "type": "Metadata catalog - ONE Data Docs",
+          "url": "https://docs.one.org/etl/metadata-catalog/"
+        },
+        {
+          "type": "The Great Reversal - ONE Data Docs",
+          "url": "https://docs.one.org/methodologies/great-reversal/"
+        },
+        {
+          "type": "Get places - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/places/get-places/"
+        },
+        {
+          "type": "Chart layout - ONE Data Docs",
+          "url": "https://docs.one.org/guidelines/data-visualisation-guidelines/style-guide/layout/"
+        },
+        {
+          "type": "bblocks-datacommons-tools - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/datacommons-tools/"
+        },
+        {
+          "type": "Climate Finance Files - ONE Data Docs",
+          "url": "https://docs.one.org/methodologies/deep-dives/climate-finance-files/"
+        },
+        {
+          "type": "Typography - ONE Data Docs",
+          "url": "https://docs.one.org/guidelines/data-visualisation-guidelines/style-guide/typography/"
+        },
+        {
+          "type": "Colour palette - ONE Data Docs",
+          "url": "https://docs.one.org/guidelines/data-visualisation-guidelines/style-guide/colour-palette/"
+        },
+        {
+          "type": "Interactivity - ONE Data Docs",
+          "url": "https://docs.one.org/guidelines/data-visualisation-guidelines/guidelines/interactivity/"
+        },
+        {
+          "type": "Data Commons schemas - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/datacommons-tools/dc-schemas/"
+        },
+        {
+          "type": "Getting started - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/datacommons-tools/getting-started/"
+        },
+        {
+          "type": "Preparing data - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/datacommons-tools/preparing-data/"
+        },
+        {
+          "type": "How to design a chart - ONE Data Docs",
+          "url": "https://docs.one.org/guidelines/data-visualisation-guidelines/guidelines/design-process/"
+        },
+        {
+          "type": "Human Development Report - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/data-importers/importers/hdr/"
+        },
+        {
+          "type": "Loading data - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/datacommons-tools/loading-data/"
+        },
+        {
+          "type": "bblocks-places - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/places/"
+        },
+        {
+          "type": "UNAIDS - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/data-importers/importers/unaids/"
+        },
+        {
+          "type": "World Economic Outlook - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/data-importers/importers/weo/"
+        },
+        {
+          "type": "Why bblocks-places - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/places/why-bblocks-places/"
+        },
+        {
+          "type": "International Debt Statistics - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/data-importers/importers/ids/"
+        },
+        {
+          "type": "World Food Programme - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/data-importers/importers/wfp/"
+        },
+        {
+          "type": "Data viz principles - ONE Data Docs",
+          "url": "https://docs.one.org/guidelines/data-visualisation-guidelines/guidelines/principles/"
+        },
+        {
+          "type": "World Bank - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/data-importers/importers/world-bank/"
+        },
+        {
+          "type": "Modelling data - ONE Data Docs",
+          "url": "https://docs.one.org/etl/modelling-data/"
+        },
+        {
+          "type": "Quick introduction - ONE Data Docs",
+          "url": "https://docs.one.org/guidelines/data-visualisation-guidelines/quick-intro/"
+        },
+        {
+          "type": "Contributing - ONE Data Docs",
+          "url": "https://docs.one.org/etl/contributing/"
+        },
+        {
+          "type": "Trillions Tracker - ONE Data Docs",
+          "url": "https://docs.one.org/methodologies/deep-dives/trillions-tracker/"
+        },
+        {
+          "type": "Africa's Vaccine Industry - ONE Data Docs",
+          "url": "https://docs.one.org/methodologies/deep-dives/africa-vaccine-industry/"
+        },
+        {
+          "type": "Hidden Trend in Health Financing - ONE Data Docs",
+          "url": "https://docs.one.org/methodologies/deep-dives/hidden-trend-in-health-financing/"
+        },
+        {
+          "type": "Publishing checklist - ONE Data Docs",
+          "url": "https://docs.one.org/guidelines/data-visualisation-guidelines/publishing-checklist/"
+        },
+        {
+          "type": "Getting started - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/places/getting-started/"
+        },
+        {
+          "type": "Accessibility - ONE Data Docs",
+          "url": "https://docs.one.org/guidelines/data-visualisation-guidelines/guidelines/accessibility/"
+        },
+        {
+          "type": "Data visualisation guidelines - ONE Data Docs",
+          "url": "https://docs.one.org/guidelines/data-visualisation-guidelines/"
+        },
+        {
+          "type": "Available Data importers - ONE Data Docs",
+          "url": "https://docs.one.org/tools/bblocks/data-importers/importers/"
+        },
+        {
+          "type": "The knowledge graph - ONE Data Docs",
+          "url": "https://docs.one.org/etl/knowledge-graph/"
+        },
+        {
+          "type": "Sectoral Imputed Multilateral Aid - ONE Data Docs",
+          "url": "https://docs.one.org/methodologies/data/oda/imputed-multilateral-sectors/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ddfa6b2dd8b3f0555ede3427bd6aa28477ded1573e0fecb5a89fe3b436a3703d"
 }

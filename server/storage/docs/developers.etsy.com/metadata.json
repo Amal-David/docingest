@@ -108,5 +108,151 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developers.etsy.com/documentation/essentials/requests/",
+      "canonicalSeedUrl": "https://developers.etsy.com/documentation/essentials/requests",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-11T19:56:36.832Z",
+      "completedAt": "2026-03-11T19:56:36.832Z",
+      "providerTotals": {
+        "discovered": 22,
+        "returned": 22,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developers.etsy.com/documentation/essentials/requests/",
+          "canonicalUrl": "https://developers.etsy.com/documentation/essentials/requests",
+          "status": "valid"
+        }
+      ],
+      "id": "f1dc6e960c9c869e2d8973108fc5df81d04f924347cbf120048292b7098391c5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ff7a44038960627ec821390c270d31faf8e15fb9a7f48b8b67580a45f212e16e",
+      "filename": "documentation_2026-03-11T19:56:36.832Z.md",
+      "contentHash": "459c15b73b7c3ec1dd6d67934b31c530a188a1e4f750a5794d04218179227ab4",
+      "sourceUrl": "https://developers.etsy.com/documentation/essentials/requests/",
+      "canonicalSourceUrl": "https://developers.etsy.com/documentation/essentials/requests",
+      "capturedAt": "2026-03-11T19:56:36.832Z",
+      "crawlRunId": "f1dc6e960c9c869e2d8973108fc5df81d04f924347cbf120048292b7098391c5",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 22,
+      "successfulPages": 22,
+      "structure": [
+        {
+          "type": "Request Standards | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/essentials/requests/"
+        },
+        {
+          "type": "URL Syntax | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/essentials/urlsyntax"
+        },
+        {
+          "type": "Get help | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/get-help"
+        },
+        {
+          "type": "Tutorials Overview | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/tutorials/overview"
+        },
+        {
+          "type": "Definitions | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/essentials/definitions"
+        },
+        {
+          "type": "Authentication | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/essentials/authentication"
+        },
+        {
+          "type": "Webhooks | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/essentials/webhooks"
+        },
+        {
+          "type": "Fulfillment Tutorial | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/tutorials/fulfillment"
+        },
+        {
+          "type": "Rate Limits | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/essentials/rate-limits"
+        },
+        {
+          "type": "Multi Personalization Migration Guide | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/tutorials/personalization-migration"
+        },
+        {
+          "type": "Examples for the Endpoint Migration Period | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/tutorials/personalization/endpoint-migration-examples"
+        },
+        {
+          "type": "Processing Profiles Migration | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/tutorials/migration"
+        },
+        {
+          "type": "Endpoint Migration (backwards compatible) | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/tutorials/personalization/endpoint-migration"
+        },
+        {
+          "type": "Multiple + New Question Type Support | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/tutorials/personalization/multiple-and-new-question-type-support"
+        },
+        {
+          "type": "Examples for the Multiple + New Questions Type Support Period | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/tutorials/personalization/multiple-and-new-question-type-support-examples"
+        },
+        {
+          "type": "Quick Start Tutorial | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/tutorials/quickstart"
+        },
+        {
+          "type": "Etsy Open API v3 | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation"
+        },
+        {
+          "type": "Reference | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/reference"
+        },
+        {
+          "type": "Shop Management Tutorial | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/tutorials/shopmanagement"
+        },
+        {
+          "type": "Listings Tutorial | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/tutorials/listings"
+        },
+        {
+          "type": "Payments Tutorial | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/tutorials/payments"
+        },
+        {
+          "type": "Authentication | Etsy Open API v3",
+          "url": "https://developers.etsy.com/documentation/essentials/oauth2/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ff7a44038960627ec821390c270d31faf8e15fb9a7f48b8b67580a45f212e16e"
 }

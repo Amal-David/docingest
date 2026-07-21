@@ -125,5 +125,159 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://owl-bot.gitbook.io/docs",
+      "canonicalSeedUrl": "https://owl-bot.gitbook.io/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-14T02:04:03.991Z",
+      "completedAt": "2025-09-14T02:04:03.991Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://owl-bot.gitbook.io/docs",
+          "canonicalUrl": "https://owl-bot.gitbook.io/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "9f1596ab4f4c11fd1b3864e8d66d1359313d05ee797dc114b7a3189c844c0ef9",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e50783e5767d185f013797b93f50696c02625e43d9b239d1bdb5afa8f69bd31b",
+      "filename": "documentation_2025-09-14T02:04:03.991Z.md",
+      "contentHash": "cbe3cb1f152d8dfab33ec8eccb7cfc22424c6074e3065cacfa7a85bffde767d1",
+      "sourceUrl": "https://owl-bot.gitbook.io/docs",
+      "canonicalSourceUrl": "https://owl-bot.gitbook.io/docs",
+      "capturedAt": "2025-09-14T02:04:03.991Z",
+      "crawlRunId": "9f1596ab4f4c11fd1b3864e8d66d1359313d05ee797dc114b7a3189c844c0ef9",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "Welcome to OWL | OWL",
+          "url": "https://owl-bot.gitbook.io/docs"
+        },
+        {
+          "type": "What OWL Does | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/introduction/what-owl-does"
+        },
+        {
+          "type": "Low MC Large Buys | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/alert-channels/low-mc-large-buys"
+        },
+        {
+          "type": "Dormant Wallet Awakening | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/alert-channels/dormant-wallet-awakening"
+        },
+        {
+          "type": "Low MC Small Buys | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/alert-channels/low-mc-small-buys"
+        },
+        {
+          "type": "High MC Small Buys | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/alert-channels/high-mc-small-buys"
+        },
+        {
+          "type": "High MC Large Buys | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/alert-channels/high-mc-large-buys"
+        },
+        {
+          "type": "High Fresh Surge | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/alert-channels/high-fresh-surge"
+        },
+        {
+          "type": "Decoding Swap Transactions | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/decoding-alerts/decoding-swap-transactions"
+        },
+        {
+          "type": "Post bond alerts | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/alert-channels/post-bond-alerts"
+        },
+        {
+          "type": "Chain alerts | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/alert-channels/chain-alerts"
+        },
+        {
+          "type": "Prebond Alerts | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/alert-channels/prebond-alerts"
+        },
+        {
+          "type": "How It Works | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/introduction/how-it-works"
+        },
+        {
+          "type": "Jupiter DCA Alerts | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/alert-channels/jupiter-dca-alerts"
+        },
+        {
+          "type": "Swap Alert Breakdown | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/decoding-alerts/swap-alert-breakdown"
+        },
+        {
+          "type": "Detailed AI Image Detection | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/decoding-alerts/detailed-ai-image-detection"
+        },
+        {
+          "type": "Freshie Metrics Breakdown | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/decoding-alerts/freshie-metrics-breakdown"
+        },
+        {
+          "type": "Fees & Tips | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/transaction-details/fees-and-tips"
+        },
+        {
+          "type": "Developer Buy Detection | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/decoding-alerts/developer-buy-detection"
+        },
+        {
+          "type": "Wallet Hyperlinks | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/transaction-details/wallet-hyperlinks"
+        },
+        {
+          "type": "How It Works | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/introduction"
+        },
+        {
+          "type": "Low MC Small Buys | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/alert-channels"
+        },
+        {
+          "type": "Swap Alert Breakdown | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/decoding-alerts"
+        },
+        {
+          "type": "Fees & Tips | OWL",
+          "url": "https://owl-bot.gitbook.io/docs/transaction-details"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e50783e5767d185f013797b93f50696c02625e43d9b239d1bdb5afa8f69bd31b"
 }

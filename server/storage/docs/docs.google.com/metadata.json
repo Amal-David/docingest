@@ -36,5 +36,79 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.google.com/document/d/1fsxiceA97FyWSx8uWC0ulPF6cY7Biusy0dgbcHdMzlk/edit?pli=1&tab=t.0#heading=h.8kc3j9cbwieb",
+      "canonicalSeedUrl": "https://docs.google.com/document/d/1fsxiceA97FyWSx8uWC0ulPF6cY7Biusy0dgbcHdMzlk/edit?pli=1&tab=t.0",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-21T17:16:23.397Z",
+      "completedAt": "2025-02-21T17:16:23.397Z",
+      "providerTotals": {
+        "discovered": 4,
+        "returned": 4,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.google.com/document/d/1fsxiceA97FyWSx8uWC0ulPF6cY7Biusy0dgbcHdMzlk/edit?pli=1&tab=t.0#heading=h.8kc3j9cbwieb",
+          "canonicalUrl": "https://docs.google.com/document/d/1fsxiceA97FyWSx8uWC0ulPF6cY7Biusy0dgbcHdMzlk/edit?pli=1&tab=t.0",
+          "status": "valid"
+        }
+      ],
+      "id": "8b491ea16d2d5c1a90a87ab7b99ca318ca81b1e74a0b887fae75d30c5da49ba5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "91efd1f743286cf0a43a94e14aed9ea99581b447e154edc9e88578ab0515692f",
+      "filename": "documentation_2025-02-21T17:16:23.397Z.md",
+      "contentHash": "6983317eadeda1a473568794064c13c62bebdc470d8673830d270824efa27c88",
+      "sourceUrl": "https://docs.google.com/document/d/1fsxiceA97FyWSx8uWC0ulPF6cY7Biusy0dgbcHdMzlk/edit?pli=1&tab=t.0#heading=h.8kc3j9cbwieb",
+      "canonicalSourceUrl": "https://docs.google.com/document/d/1fsxiceA97FyWSx8uWC0ulPF6cY7Biusy0dgbcHdMzlk/edit?pli=1&tab=t.0",
+      "capturedAt": "2025-02-21T17:16:23.397Z",
+      "crawlRunId": "8b491ea16d2d5c1a90a87ab7b99ca318ca81b1e74a0b887fae75d30c5da49ba5",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "ElevenLabs x a16z WW Hackathon (online + community) - Google Docs",
+          "url": "https://docs.google.com/document/d/1fsxiceA97FyWSx8uWC0ulPF6cY7Biusy0dgbcHdMzlk/edit?pli=1&tab=t.0#heading=h.8kc3j9cbwieb"
+        },
+        {
+          "type": "Google Docs: Online Document & PDF Editor | Google Workspace",
+          "url": "https://docs.google.com/document/?pli=1&usp=docs_web"
+        },
+        {
+          "type": "Google Workspace: Secure Online Productivity & Collaboration Tools",
+          "url": "https://workspace.google.com/"
+        },
+        {
+          "type": "Customer Care Support Options & Pricing | Google Workspace",
+          "url": "https://workspace.google.com/support/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "91efd1f743286cf0a43a94e14aed9ea99581b447e154edc9e88578ab0515692f"
 }

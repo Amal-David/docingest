@@ -92,5 +92,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://uiparser.gitbook.io/uiparser-docs",
+      "canonicalSeedUrl": "https://uiparser.gitbook.io/uiparser-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-20T00:33:42.323Z",
+      "completedAt": "2026-01-20T00:33:42.323Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://uiparser.gitbook.io/uiparser-docs",
+          "canonicalUrl": "https://uiparser.gitbook.io/uiparser-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "c5b717927c1f9c6c94766f104f93c883b15114050e21a852c2b12f03f83b72d7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "6a69cb24c874cf571277b9b9eedfeb035b06f4eb924eb709670e2fe24baa15b2",
+      "filename": "documentation_2026-01-20T00:33:42.323Z.md",
+      "contentHash": "4e30d012baad46d0be1949f2c72dc275ca5a74973e30cfd7a9ebb39206448bb0",
+      "sourceUrl": "https://uiparser.gitbook.io/uiparser-docs",
+      "canonicalSourceUrl": "https://uiparser.gitbook.io/uiparser-docs",
+      "capturedAt": "2026-01-20T00:33:42.323Z",
+      "crawlRunId": "c5b717927c1f9c6c94766f104f93c883b15114050e21a852c2b12f03f83b72d7",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "Overview | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs"
+        },
+        {
+          "type": "Layout | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/layout"
+        },
+        {
+          "type": "Widgets | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/widgets"
+        },
+        {
+          "type": "Checkbox | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/widgets/checkbox"
+        },
+        {
+          "type": "Slider | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/widgets/slider"
+        },
+        {
+          "type": "Combo | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/widgets/combo"
+        },
+        {
+          "type": "Searchbar | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/widgets/searchbar"
+        },
+        {
+          "type": "Tab | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/widgets/tab"
+        },
+        {
+          "type": "Child | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/widgets/child"
+        },
+        {
+          "type": "Fonts | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/fonts"
+        },
+        {
+          "type": "Subtab | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/widgets/subtab"
+        },
+        {
+          "type": "Content | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/content"
+        },
+        {
+          "type": "Frames | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/frames"
+        },
+        {
+          "type": "Images | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/images"
+        },
+        {
+          "type": "Example file | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/example-file"
+        },
+        {
+          "type": "Tabs list | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/widgets/tabs-list"
+        },
+        {
+          "type": "Subtabs list | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/widgets/subtabs-list"
+        },
+        {
+          "type": "Styles | UIParser Docs",
+          "url": "https://uiparser.gitbook.io/uiparser-docs/styles"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "6a69cb24c874cf571277b9b9eedfeb035b06f4eb924eb709670e2fe24baa15b2"
 }

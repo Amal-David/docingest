@@ -84,5 +84,127 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
+      "canonicalSeedUrl": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-18T02:05:35.910Z",
+      "completedAt": "2026-01-18T02:05:35.910Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
+          "canonicalUrl": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
+          "status": "valid"
+        }
+      ],
+      "id": "7d38cb87aec2a5cb96c50c3369de0c0d818f5317f2490c7129838a5a9f35d387",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a2b983197867c983aa62eef99600b3ba1b65653646dc239e6cb7049886643d38",
+      "filename": "documentation_2026-01-18T02:05:35.910Z.md",
+      "contentHash": "ef07c75ce9bb5177f0d839823d8ebdd022a2b74daa855e85406e802693ea9b84",
+      "sourceUrl": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
+      "canonicalSourceUrl": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage",
+      "capturedAt": "2026-01-18T02:05:35.910Z",
+      "crawlRunId": "7d38cb87aec2a5cb96c50c3369de0c0d818f5317f2490c7129838a5a9f35d387",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "API Géoplateforme - Géocodage | Géoservices",
+          "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage"
+        },
+        {
+          "type": "TÉLÉCHARGEMENT | Géoservices",
+          "url": "https://geoservices.ign.fr/telechargement-api"
+        },
+        {
+          "type": "PRÉSENTATION | Géoservices",
+          "url": "https://geoservices.ign.fr/presentation"
+        },
+        {
+          "type": "DOCUMENTATION | Géoservices",
+          "url": "https://geoservices.ign.fr/documentation"
+        },
+        {
+          "type": "Services Géoplateforme | Géoservices",
+          "url": "https://geoservices.ign.fr/documentation/services/services-geoplateforme"
+        },
+        {
+          "type": "Utilisation SIG | Géoservices",
+          "url": "https://geoservices.ign.fr/documentation/services/utilisation-sig"
+        },
+        {
+          "type": "Utilisation mobile | Géoservices",
+          "url": "https://geoservices.ign.fr/documentation/services/utilisation-mobile"
+        },
+        {
+          "type": "SERVICES WEB | Géoservices",
+          "url": "https://geoservices.ign.fr/services-web"
+        },
+        {
+          "type": "Services | Géoservices",
+          "url": "https://geoservices.ign.fr/documentation/services"
+        },
+        {
+          "type": "Bascule vers la Géoplateforme (mise à jour du 09/01/26) | Géoservices",
+          "url": "https://geoservices.ign.fr/bascule-vers-la-geoplateforme"
+        },
+        {
+          "type": "ACTUALITÉS | Géoservices",
+          "url": "https://geoservices.ign.fr/actualites"
+        },
+        {
+          "type": "USAGES | Géoservices",
+          "url": "https://geoservices.ign.fr/usages"
+        },
+        {
+          "type": "CATALOGUE | Géoservices",
+          "url": "https://geoservices.ign.fr/catalogue"
+        },
+        {
+          "type": "Les autres API IGN | Géoservices",
+          "url": "https://geoservices.ign.fr/documentation/services/les-autres-api-ign"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://geoservices.ign.fr/sites/default/files/2026-01/Tableau-suivi-services-web-16-01-2026.csv"
+        },
+        {
+          "type": "Geoservices.ign.fr – Toute l’actualité",
+          "url": "https://geoservices.ign.fr/actualites/rss.xml"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a2b983197867c983aa62eef99600b3ba1b65653646dc239e6cb7049886643d38"
 }

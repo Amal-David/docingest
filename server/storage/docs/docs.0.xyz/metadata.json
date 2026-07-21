@@ -33,5 +33,69 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.0.xyz/protocol-overview/architecture",
+      "canonicalSeedUrl": "https://docs.0.xyz/protocol-overview/architecture",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-20T06:59:05.167Z",
+      "completedAt": "2026-04-20T06:59:05.167Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.0.xyz/protocol-overview/architecture",
+          "canonicalUrl": "https://docs.0.xyz/protocol-overview/architecture",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-content"
+        }
+      ],
+      "id": "0f59629cad38302541b3892733f1f5e892ba20d12389a426f5840b02c6713b17",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 1,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e70a324fac56d924bf7aa6b128296df2044ff6e7206385785573122a686c20e2",
+      "filename": "documentation_2026-04-20T06:59:05.167Z.md",
+      "contentHash": "90805820418312a35fd24ed5734a662e2235cbbddc75087f6699fdf6770c3cdc",
+      "sourceUrl": "https://docs.0.xyz/protocol-overview/architecture",
+      "canonicalSourceUrl": "https://docs.0.xyz/protocol-overview/architecture",
+      "capturedAt": "2026-04-20T06:59:05.167Z",
+      "crawlRunId": "0f59629cad38302541b3892733f1f5e892ba20d12389a426f5840b02c6713b17",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.0.xyz/protocol-overview/architecture"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "checkpoint-or-challenge-content"
+        ]
+      }
+    }
+  ]
 }

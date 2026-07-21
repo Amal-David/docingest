@@ -224,5 +224,267 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://fraydolix.gitbook.io/thunder-lssd/",
+      "canonicalSeedUrl": "https://fraydolix.gitbook.io/thunder-lssd",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-18T01:46:22.079Z",
+      "completedAt": "2026-01-18T01:46:22.079Z",
+      "providerTotals": {
+        "discovered": 51,
+        "returned": 51,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/",
+          "canonicalUrl": "https://fraydolix.gitbook.io/thunder-lssd",
+          "status": "valid"
+        }
+      ],
+      "id": "6ee10dcc0d85039c0532e06e354f18070ddf1f7d600862a4e5e2cdf135cc1a25",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fb26ff9176c41f4fb5b6abb7d449197fe29e0c87d77f7f2a9865e1066a178132",
+      "filename": "documentation_2026-01-18T01:46:22.079Z.md",
+      "contentHash": "d1da37fb1527f704b3d182756a3191519712ac8534f43e9d0ceaae8ba64ccfc9",
+      "sourceUrl": "https://fraydolix.gitbook.io/thunder-lssd/",
+      "canonicalSourceUrl": "https://fraydolix.gitbook.io/thunder-lssd",
+      "capturedAt": "2026-01-18T01:46:22.079Z",
+      "crawlRunId": "6ee10dcc0d85039c0532e06e354f18070ddf1f7d600862a4e5e2cdf135cc1a25",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 51,
+      "successfulPages": 51,
+      "structure": [
+        {
+          "type": "Accueil | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/"
+        },
+        {
+          "type": "Législature | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/legislations/legislature"
+        },
+        {
+          "type": "Code de déontologie | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/legislations/code-de-deontologie"
+        },
+        {
+          "type": "Hiérarchie | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/organisation/hierarchie"
+        },
+        {
+          "type": "Fiche d'audition | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/documents/fiche-daudition"
+        },
+        {
+          "type": "Rapport d'intervention | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/documents/rapport-dintervention"
+        },
+        {
+          "type": "Communications radio | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/formations/communications-radio"
+        },
+        {
+          "type": "Juridictions | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/organisation/juridictions"
+        },
+        {
+          "type": "Garage | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/garage"
+        },
+        {
+          "type": "Equipement | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/organisation/equipement"
+        },
+        {
+          "type": "Conciliation | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/documents/conciliation"
+        },
+        {
+          "type": "Convocation | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/documents/convocation"
+        },
+        {
+          "type": "Fiche d'arrestation | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/documents/fiche-darrestation"
+        },
+        {
+          "type": "Dépôt de plainte | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/documents/depot-de-plainte"
+        },
+        {
+          "type": "Usage de la force | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/formations/usage-de-la-force"
+        },
+        {
+          "type": "Lexique | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/formations/lexique"
+        },
+        {
+          "type": "Contrôle Routier | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/procedures/controle-routier"
+        },
+        {
+          "type": "Permis de Chasse | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/formations/permis-de-chasse"
+        },
+        {
+          "type": "Droits Miranda | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/procedures/droits-miranda"
+        },
+        {
+          "type": "Procédure d’Arrestation | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/procedures/procedure-darrestation"
+        },
+        {
+          "type": "Contrôle Pédestre | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/procedures/controle-pedestre"
+        },
+        {
+          "type": "Course poursuite | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/procedures/course-poursuite"
+        },
+        {
+          "type": "Législature | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/legislations/legislature"
+        },
+        {
+          "type": "Effectifs | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/thunder-lssd/organisation/effectifs"
+        },
+        {
+          "type": "Accueil | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd"
+        },
+        {
+          "type": "Hiérarchie | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/organisation/hierarchie"
+        },
+        {
+          "type": "Lexique | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/formations/lexique"
+        },
+        {
+          "type": "Droits Miranda | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/procedures/droits-miranda"
+        },
+        {
+          "type": "Effectifs | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/organisation/effectifs"
+        },
+        {
+          "type": "Code de déontologie | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/legislations/code-de-deontologie"
+        },
+        {
+          "type": "Juridictions | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/organisation/juridictions"
+        },
+        {
+          "type": "Equipement | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/organisation/equipement"
+        },
+        {
+          "type": "Rapport d'intervention | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/documents/rapport-dintervention"
+        },
+        {
+          "type": "Fiche d'arrestation | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/documents/fiche-darrestation"
+        },
+        {
+          "type": "Fiche d'audition | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/documents/fiche-daudition"
+        },
+        {
+          "type": "Conciliation | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/documents/conciliation"
+        },
+        {
+          "type": "Dépôt de plainte | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/documents/depot-de-plainte"
+        },
+        {
+          "type": "Communications radio | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/formations/communications-radio"
+        },
+        {
+          "type": "Radar ARS 2X | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/formations/radar-ars-2x"
+        },
+        {
+          "type": "Usage de la force | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/formations/usage-de-la-force"
+        },
+        {
+          "type": "Permis de Chasse | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/formations/permis-de-chasse"
+        },
+        {
+          "type": "Convocation | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/documents/convocation"
+        },
+        {
+          "type": "Contrôle Routier | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/procedures/controle-routier"
+        },
+        {
+          "type": "Contrôle Pédestre | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/procedures/controle-pedestre"
+        },
+        {
+          "type": "Course poursuite | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/procedures/course-poursuite"
+        },
+        {
+          "type": "Procédure d’Arrestation | Manuel de police",
+          "url": "https://fraydolix.gitbook.io/exemple-lssd/procedures/procedure-darrestation"
+        },
+        {
+          "type": "Code Législatif | Department of Justice",
+          "url": "https://fraydolix.gitbook.io/thunder-doj/legislations/code-legislatif"
+        },
+        {
+          "type": "Constitution de San Andreas | Department of Justice",
+          "url": "https://fraydolix.gitbook.io/thunder-doj"
+        },
+        {
+          "type": "Code Pénal | Department of Justice",
+          "url": "https://fraydolix.gitbook.io/thunder-doj/legislations/code-penal"
+        },
+        {
+          "type": "Code Civil | Department of Justice",
+          "url": "https://fraydolix.gitbook.io/thunder-doj/legislations/code-civil"
+        },
+        {
+          "type": "Code du Travail | Department of Justice",
+          "url": "https://fraydolix.gitbook.io/thunder-doj/legislations/code-du-travail"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fb26ff9176c41f4fb5b6abb7d449197fe29e0c87d77f7f2a9865e1066a178132"
 }

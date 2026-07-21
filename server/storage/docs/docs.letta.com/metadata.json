@@ -328,5 +328,335 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.letta.com/",
+      "canonicalSeedUrl": "https://docs.letta.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-20T16:58:51.772Z",
+      "completedAt": "2026-04-20T16:58:51.772Z",
+      "providerTotals": {
+        "discovered": 68,
+        "returned": 68,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.letta.com/",
+          "canonicalUrl": "https://docs.letta.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "9f0befa53b5b8acd6cbc2fdfbb8eaffbb5790bf55dcde340e1baf16c3cbdd43b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4590eb88ac689953d023690b87c2ed5120d15d195517d8e54e0446828fe48ea9",
+      "filename": "documentation_2026-04-20T16:58:51.772Z.md",
+      "contentHash": "5f540fadf71747d66bb4ffc9847d61774669c0292d26b9b93a5ba8edd987410b",
+      "sourceUrl": "https://docs.letta.com/",
+      "canonicalSourceUrl": "https://docs.letta.com/",
+      "capturedAt": "2026-04-20T16:58:51.772Z",
+      "crawlRunId": "9f0befa53b5b8acd6cbc2fdfbb8eaffbb5790bf55dcde340e1baf16c3cbdd43b",
+      "upstreamVersion": "1.0.4",
+      "upstreamChannel": "latest",
+      "totalPages": 68,
+      "successfulPages": 68,
+      "structure": [
+        {
+          "type": "Letta Code | Letta Docs",
+          "url": "https://docs.letta.com/"
+        },
+        {
+          "type": "Letta Code | Letta Docs",
+          "url": "https://docs.letta.com/letta-code"
+        },
+        {
+          "type": "Quickstart | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/quickstart"
+        },
+        {
+          "type": "Letta Code CLI | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/cli"
+        },
+        {
+          "type": "Letta Code desktop app | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/desktop-app"
+        },
+        {
+          "type": "Pricing | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/pricing"
+        },
+        {
+          "type": "Remote (mobile) | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/remote-mobile"
+        },
+        {
+          "type": "Memory | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/memory"
+        },
+        {
+          "type": "Skills | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/skills"
+        },
+        {
+          "type": "Providers | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/providers"
+        },
+        {
+          "type": "Subagents | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/subagents"
+        },
+        {
+          "type": "Permissions | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/permissions"
+        },
+        {
+          "type": "Models | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/models"
+        },
+        {
+          "type": "Secrets | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/secrets"
+        },
+        {
+          "type": "Schedules | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/scheduling"
+        },
+        {
+          "type": "Letta Code SDK migration guide | Letta Docs",
+          "url": "https://docs.letta.com/letta-code-sdk/migration/"
+        },
+        {
+          "type": "Remote environments | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/remote"
+        },
+        {
+          "type": "GitHub Action | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/github-action"
+        },
+        {
+          "type": "Channels (beta) | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/channels"
+        },
+        {
+          "type": "Hooks | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/hooks"
+        },
+        {
+          "type": "Headless mode | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/headless"
+        },
+        {
+          "type": "Slash commands | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/slash-commands"
+        },
+        {
+          "type": "Letta Code SDK | Letta Docs",
+          "url": "https://docs.letta.com/letta-code-sdk/quickstart/"
+        },
+        {
+          "type": "Ralph mode (aka forced continuation) | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/ralph-mode"
+        },
+        {
+          "type": "CLI reference | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/cli-reference"
+        },
+        {
+          "type": "Configuration | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/configuration"
+        },
+        {
+          "type": "Docker | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/docker"
+        },
+        {
+          "type": "Changelog | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/changelog"
+        },
+        {
+          "type": "How it works | Letta Docs",
+          "url": "https://docs.letta.com/letta-code/how-it-works"
+        },
+        {
+          "type": "Attaching and detaching memory blocks | Letta Docs",
+          "url": "https://docs.letta.com/tutorials/attaching-detaching-blocks"
+        },
+        {
+          "type": "Building customer-specific relationship agents with Letta | Letta Docs",
+          "url": "https://docs.letta.com/tutorials/customer-specific-agents"
+        },
+        {
+          "type": "Create | Letta Docs",
+          "url": "https://docs.letta.com/api-reference/templates/agents/create"
+        },
+        {
+          "type": "Letta Python SDK | Letta Docs",
+          "url": "https://docs.letta.com/api/python"
+        },
+        {
+          "type": "Letta TypeScript SDK | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript"
+        },
+        {
+          "type": "List | Letta Docs",
+          "url": "https://docs.letta.com/api-reference/agents/messages/list"
+        },
+        {
+          "type": "Tools | Letta Docs",
+          "url": "https://docs.letta.com/guides/ade/tools"
+        },
+        {
+          "type": "Anthropic | Letta Docs",
+          "url": "https://docs.letta.com/models/anthropic"
+        },
+        {
+          "type": "OpenAI | Letta Docs",
+          "url": "https://docs.letta.com/models/openai"
+        },
+        {
+          "type": "Ollama | Letta Docs",
+          "url": "https://docs.letta.com/models/ollama"
+        },
+        {
+          "type": "Client | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/$client"
+        },
+        {
+          "type": "Client | Letta Docs",
+          "url": "https://docs.letta.com/api/python/resources/$client"
+        },
+        {
+          "type": "Blocks | Letta Docs",
+          "url": "https://docs.letta.com/api/python/resources/blocks"
+        },
+        {
+          "type": "Archives | Letta Docs",
+          "url": "https://docs.letta.com/api/python/resources/archives"
+        },
+        {
+          "type": "Blocks | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/blocks"
+        },
+        {
+          "type": "Tools | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/tools"
+        },
+        {
+          "type": "Folders | Letta Docs",
+          "url": "https://docs.letta.com/api/python/resources/folders"
+        },
+        {
+          "type": "Folders | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/folders"
+        },
+        {
+          "type": "Archives | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/archives"
+        },
+        {
+          "type": "Tools | Letta Docs",
+          "url": "https://docs.letta.com/api/python/resources/tools"
+        },
+        {
+          "type": "Models | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/models"
+        },
+        {
+          "type": "Tags | Letta Docs",
+          "url": "https://docs.letta.com/api/python/resources/tags"
+        },
+        {
+          "type": "Tags | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/tags"
+        },
+        {
+          "type": "Templates | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/templates"
+        },
+        {
+          "type": "Templates | Letta Docs",
+          "url": "https://docs.letta.com/api/python/resources/templates"
+        },
+        {
+          "type": "Access Tokens | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/access_tokens"
+        },
+        {
+          "type": "Runs | Letta Docs",
+          "url": "https://docs.letta.com/api/python/resources/runs"
+        },
+        {
+          "type": "Passages | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/passages"
+        },
+        {
+          "type": "Passages | Letta Docs",
+          "url": "https://docs.letta.com/api/python/resources/passages"
+        },
+        {
+          "type": "Runs | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/runs"
+        },
+        {
+          "type": "Mcp Servers | Letta Docs",
+          "url": "https://docs.letta.com/api/python/resources/mcp_servers"
+        },
+        {
+          "type": "Mcp Servers | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/mcp_servers"
+        },
+        {
+          "type": "Access Tokens | Letta Docs",
+          "url": "https://docs.letta.com/api/python/resources/access_tokens"
+        },
+        {
+          "type": "Models | Letta Docs",
+          "url": "https://docs.letta.com/api/python/resources/models"
+        },
+        {
+          "type": "Messages | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/messages"
+        },
+        {
+          "type": "Messages | Letta Docs",
+          "url": "https://docs.letta.com/api/python/resources/messages"
+        },
+        {
+          "type": "Steps | Letta Docs",
+          "url": "https://docs.letta.com/api/python/resources/steps"
+        },
+        {
+          "type": "Steps | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/steps"
+        },
+        {
+          "type": "Conversations | Letta Docs",
+          "url": "https://docs.letta.com/api/typescript/resources/conversations"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4590eb88ac689953d023690b87c2ed5120d15d195517d8e54e0446828fe48ea9"
 }

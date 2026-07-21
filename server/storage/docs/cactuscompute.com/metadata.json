@@ -40,5 +40,83 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://cactuscompute.com/docs",
+      "canonicalSeedUrl": "https://cactuscompute.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-09T13:35:56.033Z",
+      "completedAt": "2026-02-09T13:35:56.033Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://cactuscompute.com/docs",
+          "canonicalUrl": "https://cactuscompute.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "d37c4868ab0c2700ccaa2c23df4a39693c7ff70b0b8b1d3b5eabc6382003c662",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a7bfca0318758c5b9e503270b0ddc6f05465487cb2cbc0f2987130eb0642500f",
+      "filename": "documentation_2026-02-09T13:35:56.033Z.md",
+      "contentHash": "333c853c3b8b3b5b3596c5824c0e7976509571f10d1a08baf0f9715a75a64944",
+      "sourceUrl": "https://cactuscompute.com/docs",
+      "canonicalSourceUrl": "https://cactuscompute.com/docs",
+      "capturedAt": "2026-02-09T13:35:56.033Z",
+      "crawlRunId": "d37c4868ab0c2700ccaa2c23df4a39693c7ff70b0b8b1d3b5eabc6382003c662",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "Overview",
+          "url": "https://cactuscompute.com/docs"
+        },
+        {
+          "type": "Flutter SDK",
+          "url": "https://cactuscompute.com/docs/flutter"
+        },
+        {
+          "type": "C++ SDK",
+          "url": "https://cactuscompute.com/docs/cpp"
+        },
+        {
+          "type": "Kotlin Multiplatform SDK",
+          "url": "https://cactuscompute.com/docs/kotlin"
+        },
+        {
+          "type": "React Native SDK",
+          "url": "https://cactuscompute.com/docs/react-native"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a7bfca0318758c5b9e503270b0ddc6f05465487cb2cbc0f2987130eb0642500f"
 }

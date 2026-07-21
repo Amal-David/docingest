@@ -104,5 +104,147 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://lab.hashlips.io/docs",
+      "canonicalSeedUrl": "https://lab.hashlips.io/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-10T12:54:47.829Z",
+      "completedAt": "2025-10-10T12:54:47.829Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://lab.hashlips.io/docs",
+          "canonicalUrl": "https://lab.hashlips.io/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "f7e89b2918792eb974c964fdb67c9e3706e373af332f8646ceb333b9c70d076c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8e5af9907a19670399c35cc687126b9d04ed8a969c949d9d99a6f3e2a8f03b5e",
+      "filename": "documentation_2025-10-10T12:54:47.829Z.md",
+      "contentHash": "b0f3299cd644936363b52f4c81719d62fc81b4c2a4ee801e2e113cb28d475c02",
+      "sourceUrl": "https://lab.hashlips.io/docs",
+      "canonicalSourceUrl": "https://lab.hashlips.io/docs",
+      "capturedAt": "2025-10-10T12:54:47.829Z",
+      "crawlRunId": "f7e89b2918792eb974c964fdb67c9e3706e373af332f8646ceb333b9c70d076c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "Our Tools - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs"
+        },
+        {
+          "type": "Art Engine 2.0 - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine"
+        },
+        {
+          "type": "Core Plugins - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/core-plugins"
+        },
+        {
+          "type": "Quick Start - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/getting-started"
+        },
+        {
+          "type": "Image Layers Input - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/core-plugins/inputs/image-layers"
+        },
+        {
+          "type": "Image Layers Attributes Generator - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/core-plugins/generators/image-layers-attributes"
+        },
+        {
+          "type": "Generators Interface - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/custom-plugins/generators/interface"
+        },
+        {
+          "type": "Image Layers Renderer - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/core-plugins/renderers/image-layers"
+        },
+        {
+          "type": "Item Attributes Renderer - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/core-plugins/renderers/item-attributes"
+        },
+        {
+          "type": "ERC721 Metadata Exporter - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/core-plugins/exporters/erc721-metadata"
+        },
+        {
+          "type": "Exporters Interface - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/custom-plugins/exporters/interface"
+        },
+        {
+          "type": "Sol Metadata Exporter - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/core-plugins/exporters/sol-metadata"
+        },
+        {
+          "type": "Collection Data Updater - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/collection-data-updater"
+        },
+        {
+          "type": "Inputs Interface - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/custom-plugins/inputs/interface"
+        },
+        {
+          "type": "Custom Plugins - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/custom-plugins"
+        },
+        {
+          "type": "Inputs Plugin Example - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/custom-plugins/inputs/example"
+        },
+        {
+          "type": "Images Exporter - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/core-plugins/exporters/images"
+        },
+        {
+          "type": "Generator Plugin Example - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/custom-plugins/generators/example"
+        },
+        {
+          "type": "Renderer Plugin Example - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/custom-plugins/renderers/example"
+        },
+        {
+          "type": "Renderers Interface - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/custom-plugins/renderers/interface"
+        },
+        {
+          "type": "Exporter Plugin Example - HashLips Lab",
+          "url": "https://lab.hashlips.io/docs/art-engine/custom-plugins/exporters/example"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8e5af9907a19670399c35cc687126b9d04ed8a969c949d9d99a6f3e2a8f03b5e"
 }

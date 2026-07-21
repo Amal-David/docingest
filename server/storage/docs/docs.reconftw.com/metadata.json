@@ -152,5 +152,195 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.reconftw.com/understanding-reconftw/recon-methodology",
+      "canonicalSeedUrl": "https://docs.reconftw.com/understanding-reconftw/recon-methodology",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-24T10:02:15.008Z",
+      "completedAt": "2026-03-24T10:02:15.008Z",
+      "providerTotals": {
+        "discovered": 33,
+        "returned": 33,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.reconftw.com/understanding-reconftw/recon-methodology",
+          "canonicalUrl": "https://docs.reconftw.com/understanding-reconftw/recon-methodology",
+          "status": "valid"
+        }
+      ],
+      "id": "1e49cc89b8d04a715ff9f47bc65c54e91ce1dcf0d4f54e9b23ff5154bac4c6a5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c9a6b405c099f64b9064c0236c0d7b747c91086ca57c7fc2f3aea1e473f467f1",
+      "filename": "documentation_2026-03-24T10:02:15.008Z.md",
+      "contentHash": "1324d88de01dddf3104e4aa01a0b823d0dde927f8d9bdc6e39c67a0cc1c5766b",
+      "sourceUrl": "https://docs.reconftw.com/understanding-reconftw/recon-methodology",
+      "canonicalSourceUrl": "https://docs.reconftw.com/understanding-reconftw/recon-methodology",
+      "capturedAt": "2026-03-24T10:02:15.008Z",
+      "crawlRunId": "1e49cc89b8d04a715ff9f47bc65c54e91ce1dcf0d4f54e9b23ff5154bac4c6a5",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 33,
+      "successfulPages": 33,
+      "structure": [
+        {
+          "type": "Reconnaissance Methodology Deep Dive | reconftw-docs",
+          "url": "https://docs.reconftw.com/understanding-reconftw/recon-methodology"
+        },
+        {
+          "type": "Subdomain Deep Dive | reconftw-docs",
+          "url": "https://docs.reconftw.com/modules/subdomains-deep-dive"
+        },
+        {
+          "type": "Modules Overview | reconftw-docs",
+          "url": "https://docs.reconftw.com/modules/05-modules"
+        },
+        {
+          "type": "First 30 Minutes | reconftw-docs",
+          "url": "https://docs.reconftw.com/welcome/first-30-minutes"
+        },
+        {
+          "type": "Introduction | reconftw-docs",
+          "url": "https://docs.reconftw.com/"
+        },
+        {
+          "type": "Installation & Setup | reconftw-docs",
+          "url": "https://docs.reconftw.com/getting-started/getting-started"
+        },
+        {
+          "type": "Glossary | reconftw-docs",
+          "url": "https://docs.reconftw.com/welcome/glossary"
+        },
+        {
+          "type": "FAQ | reconftw-docs",
+          "url": "https://docs.reconftw.com/welcome/faq"
+        },
+        {
+          "type": "Subdomain Module | reconftw-docs",
+          "url": "https://docs.reconftw.com/modules/subdomains"
+        },
+        {
+          "type": "OSINT Module | reconftw-docs",
+          "url": "https://docs.reconftw.com/modules/osint"
+        },
+        {
+          "type": "Configuration Reference | reconftw-docs",
+          "url": "https://docs.reconftw.com/configuration/configuration"
+        },
+        {
+          "type": "Concepts & Architecture | reconftw-docs",
+          "url": "https://docs.reconftw.com/understanding-reconftw/concepts"
+        },
+        {
+          "type": "Command Line Guide | reconftw-docs",
+          "url": "https://docs.reconftw.com/usage/usage"
+        },
+        {
+          "type": "Axiom Integration | reconftw-docs",
+          "url": "https://docs.reconftw.com/integrations/axiom"
+        },
+        {
+          "type": "Vulnerability Module | reconftw-docs",
+          "url": "https://docs.reconftw.com/modules/vulnerabilities"
+        },
+        {
+          "type": "Web Analysis Module | reconftw-docs",
+          "url": "https://docs.reconftw.com/modules/web-analysis"
+        },
+        {
+          "type": "Output Interpretation | reconftw-docs",
+          "url": "https://docs.reconftw.com/output/output"
+        },
+        {
+          "type": "Integrated Tools | reconftw-docs",
+          "url": "https://docs.reconftw.com/tools-reference/tools"
+        },
+        {
+          "type": "Host Module | reconftw-docs",
+          "url": "https://docs.reconftw.com/modules/hosts"
+        },
+        {
+          "type": "Faraday Integration | reconftw-docs",
+          "url": "https://docs.reconftw.com/integrations/faraday"
+        },
+        {
+          "type": "Deployment Guide | reconftw-docs",
+          "url": "https://docs.reconftw.com/deployment/deployment"
+        },
+        {
+          "type": "Advanced Usage | reconftw-docs",
+          "url": "https://docs.reconftw.com/advanced/advanced"
+        },
+        {
+          "type": "Performance Tuning | reconftw-docs",
+          "url": "https://docs.reconftw.com/guides/tuning"
+        },
+        {
+          "type": "OPSEC & Legal | reconftw-docs",
+          "url": "https://docs.reconftw.com/guides/opsec-legal"
+        },
+        {
+          "type": "Data Model & I/O | reconftw-docs",
+          "url": "https://docs.reconftw.com/guides/data-model"
+        },
+        {
+          "type": "Case Studies | reconftw-docs",
+          "url": "https://docs.reconftw.com/guides/case-studies"
+        },
+        {
+          "type": "Troubleshooting | reconftw-docs",
+          "url": "https://docs.reconftw.com/help/troubleshooting"
+        },
+        {
+          "type": "Modules Overview | reconftw-docs",
+          "url": "https://docs.reconftw.com/modules"
+        },
+        {
+          "type": "Introduction | reconftw-docs",
+          "url": "https://docs.reconftw.com/welcome"
+        },
+        {
+          "type": "Installation & Setup | reconftw-docs",
+          "url": "https://docs.reconftw.com/getting-started"
+        },
+        {
+          "type": "Axiom Integration | reconftw-docs",
+          "url": "https://docs.reconftw.com/integrations"
+        },
+        {
+          "type": "Configuration Reference | reconftw-docs",
+          "url": "https://docs.reconftw.com/configuration"
+        },
+        {
+          "type": "Concepts & Architecture | reconftw-docs",
+          "url": "https://docs.reconftw.com/understanding-reconftw"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c9a6b405c099f64b9064c0236c0d7b747c91086ca57c7fc2f3aea1e473f467f1"
 }

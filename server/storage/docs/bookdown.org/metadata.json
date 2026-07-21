@@ -125,5 +125,159 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://bookdown.org/ncabook/advanced_nca2/statistical.html",
+      "canonicalSeedUrl": "https://bookdown.org/ncabook/advanced_nca2/statistical.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-22T09:56:23.068Z",
+      "completedAt": "2025-04-22T09:56:23.068Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://bookdown.org/ncabook/advanced_nca2/statistical.html",
+          "canonicalUrl": "https://bookdown.org/ncabook/advanced_nca2/statistical.html",
+          "status": "valid"
+        }
+      ],
+      "id": "cb60c23318d8574e7c377f8705e1e1c9cb5786ad2fc1d0dab3621b3748c26f6a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f7d22b58c34c90c7706e3091d277174d87cb06d8d4716439923aa93faa7f95f5",
+      "filename": "documentation_2025-04-22T09:56:23.068Z.md",
+      "contentHash": "a7257d115c88141671bf1174e8f02bb4ee6370d3ff3cd31af3440f2f0e94ce63",
+      "sourceUrl": "https://bookdown.org/ncabook/advanced_nca2/statistical.html",
+      "canonicalSourceUrl": "https://bookdown.org/ncabook/advanced_nca2/statistical.html",
+      "capturedAt": "2025-04-22T09:56:23.068Z",
+      "crawlRunId": "cb60c23318d8574e7c377f8705e1e1c9cb5786ad2fc1d0dab3621b3748c26f6a",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "Chapter 6 NCA’s statistics | Advances in Necessary Condition Analysis",
+          "url": "https://bookdown.org/ncabook/advanced_nca2/statistical.html"
+        },
+        {
+          "type": "Chapter 1 Summary of NCA | Advances in Necessary Condition Analysis",
+          "url": "https://bookdown.org/ncabook/advanced_nca2/summary.html"
+        },
+        {
+          "type": "Advances in Necessary Condition Analysis",
+          "url": "https://bookdown.org/ncabook/advanced_nca2/"
+        },
+        {
+          "type": "Chapter 2 Theory | Advances in Necessary Condition Analysis",
+          "url": "https://bookdown.org/ncabook/advanced_nca2/theory.html"
+        },
+        {
+          "type": "Chapter 3 Data | Advances in Necessary Condition Analysis",
+          "url": "https://bookdown.org/ncabook/advanced_nca2/data.html"
+        },
+        {
+          "type": "Chapter 4 Data analysis | Advances in Necessary Condition Analysis",
+          "url": "https://bookdown.org/ncabook/advanced_nca2/dataanalysis.html"
+        },
+        {
+          "type": "Chapter 5 NCA’s mathematical backgrounds | Advances in Necessary Condition Analysis",
+          "url": "https://bookdown.org/ncabook/advanced_nca2/mathematical.html"
+        },
+        {
+          "type": "Chapter 7 Miscellaneous | Advances in Necessary Condition Analysis",
+          "url": "https://bookdown.org/ncabook/advanced_nca2/miscellaneous.html"
+        },
+        {
+          "type": "Glossary | Advances in Necessary Condition Analysis",
+          "url": "https://bookdown.org/ncabook/advanced_nca2/glossary.html"
+        },
+        {
+          "type": "Necessary Condition Analysis - NCA",
+          "url": "https://bookdown.org/ncabook/principles_application_nca/"
+        },
+        {
+          "type": "References | Advances in Necessary Condition Analysis",
+          "url": "https://bookdown.org/ncabook/advanced_nca2/references.html"
+        },
+        {
+          "type": "2 Causality | Necessary Condition Analysis - NCA",
+          "url": "https://bookdown.org/ncabook/principles_application_nca/causality.html"
+        },
+        {
+          "type": "3 Theory | Necessary Condition Analysis - NCA",
+          "url": "https://bookdown.org/ncabook/principles_application_nca/theory.html"
+        },
+        {
+          "type": "4 Mathematics | Necessary Condition Analysis - NCA",
+          "url": "https://bookdown.org/ncabook/principles_application_nca/mathematics.html"
+        },
+        {
+          "type": "5 Statistics | Necessary Condition Analysis - NCA",
+          "url": "https://bookdown.org/ncabook/principles_application_nca/statistics.html"
+        },
+        {
+          "type": "7 Hypothesis formulation | Necessary Condition Analysis - NCA",
+          "url": "https://bookdown.org/ncabook/principles_application_nca/hypothesis-formulation.html"
+        },
+        {
+          "type": "6 Credibility | Necessary Condition Analysis - NCA",
+          "url": "https://bookdown.org/ncabook/principles_application_nca/credibility.html"
+        },
+        {
+          "type": "8 Research design | Necessary Condition Analysis - NCA",
+          "url": "https://bookdown.org/ncabook/principles_application_nca/research-design.html"
+        },
+        {
+          "type": "9 Sampling, Measurement, Data | Necessary Condition Analysis - NCA",
+          "url": "https://bookdown.org/ncabook/principles_application_nca/sampling-measurement-data.html"
+        },
+        {
+          "type": "10 Data analysis | Necessary Condition Analysis - NCA",
+          "url": "https://bookdown.org/ncabook/principles_application_nca/data-analysis.html"
+        },
+        {
+          "type": "11 Multimethod research | Necessary Condition Analysis - NCA",
+          "url": "https://bookdown.org/ncabook/principles_application_nca/multimethod-research.html"
+        },
+        {
+          "type": "12 Reporting | Necessary Condition Analysis - NCA",
+          "url": "https://bookdown.org/ncabook/principles_application_nca/reporting.html"
+        },
+        {
+          "type": "13 Practice | Necessary Condition Analysis - NCA",
+          "url": "https://bookdown.org/ncabook/principles_application_nca/practice.html"
+        },
+        {
+          "type": "References | Necessary Condition Analysis - NCA",
+          "url": "https://bookdown.org/ncabook/principles_application_nca/references.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f7d22b58c34c90c7706e3091d277174d87cb06d8d4716439923aa93faa7f95f5"
 }

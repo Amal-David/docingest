@@ -64,5 +64,107 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://uutils.github.io/findutils/docs/",
+      "canonicalSeedUrl": "https://uutils.github.io/findutils/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-21T07:06:34.647Z",
+      "completedAt": "2025-01-21T07:06:34.647Z",
+      "providerTotals": {
+        "discovered": 11,
+        "returned": 11,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://uutils.github.io/findutils/docs/",
+          "canonicalUrl": "https://uutils.github.io/findutils/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "2d7139bc070c44f5948a6e6ac15eca6b44f2784011e42246d8585311b63cebc4",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5cff1e404d8016fc0ab37f8e6c42a8dcda496c94755d00176808eaf752e9e1df",
+      "filename": "documentation_2025-01-21T07:06:34.647Z.md",
+      "contentHash": "51d3c51fa75f6f7e82346fa5d81d4756bc4535449314325c0e1cf9396161e6d3",
+      "sourceUrl": "https://uutils.github.io/findutils/docs/",
+      "canonicalSourceUrl": "https://uutils.github.io/findutils/docs",
+      "capturedAt": "2025-01-21T07:06:34.647Z",
+      "crawlRunId": "2d7139bc070c44f5948a6e6ac15eca6b44f2784011e42246d8585311b63cebc4",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 11,
+      "successfulPages": 11,
+      "structure": [
+        {
+          "type": "Introduction - findutils",
+          "url": "https://uutils.github.io/findutils/docs/"
+        },
+        {
+          "type": "Installation - findutils",
+          "url": "https://uutils.github.io/findutils/docs/installation.html"
+        },
+        {
+          "type": "Build from source - findutils",
+          "url": "https://uutils.github.io/findutils/docs/build.html"
+        },
+        {
+          "type": "findutils",
+          "url": "https://uutils.github.io/findutils/docs/print.html"
+        },
+        {
+          "type": "Introduction - findutils",
+          "url": "https://uutils.github.io/findutils/docs/index.html"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://uutils.github.io/findutils/docs/CODE_OF_CONDUCT.html"
+        },
+        {
+          "type": "Platform support - findutils",
+          "url": "https://uutils.github.io/findutils/docs/platforms.html"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://uutils.github.io/findutils/docs/DEVELOPMENT.html"
+        },
+        {
+          "type": "Contributing - findutils",
+          "url": "https://uutils.github.io/findutils/docs/contributing.html"
+        },
+        {
+          "type": "GNU test coverage - findutils",
+          "url": "https://uutils.github.io/findutils/docs/test_coverage.html"
+        },
+        {
+          "type": "Extensions - findutils",
+          "url": "https://uutils.github.io/findutils/docs/extensions.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5cff1e404d8016fc0ab37f8e6c42a8dcda496c94755d00176808eaf752e9e1df"
 }

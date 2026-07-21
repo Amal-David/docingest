@@ -33,5 +33,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.kinto.xyz/kinto-the-modular-exchange/general/litepaper",
+      "canonicalSeedUrl": "https://docs.kinto.xyz/kinto-the-modular-exchange/general/litepaper",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-31T02:16:25.745Z",
+      "completedAt": "2025-03-31T02:16:25.745Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.kinto.xyz/kinto-the-modular-exchange/general/litepaper",
+          "canonicalUrl": "https://docs.kinto.xyz/kinto-the-modular-exchange/general/litepaper",
+          "status": "valid"
+        }
+      ],
+      "id": "80fc7e3c6ab1b62cbee61c3ff53345dc398377d6d5ff19a385326edd29d09e35",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ea605743effc45578e8339c9d6ccc22aa37f18597feee94ca6a2570349d0bce5",
+      "filename": "documentation_2025-03-31T02:16:25.745Z.md",
+      "contentHash": "8cba15310ce078a17078c2eb072a66f6114529613647b9593ef2f349de620057",
+      "sourceUrl": "https://docs.kinto.xyz/kinto-the-modular-exchange/general/litepaper",
+      "canonicalSourceUrl": "https://docs.kinto.xyz/kinto-the-modular-exchange/general/litepaper",
+      "capturedAt": "2025-03-31T02:16:25.745Z",
+      "crawlRunId": "80fc7e3c6ab1b62cbee61c3ff53345dc398377d6d5ff19a385326edd29d09e35",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Litepaper | Kinto: The Modular Exchange",
+          "url": "https://docs.kinto.xyz/kinto-the-modular-exchange/general/litepaper"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ea605743effc45578e8339c9d6ccc22aa37f18597feee94ca6a2570349d0bce5"
 }

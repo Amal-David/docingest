@@ -88,5 +88,131 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://bs-odoo-dev.gitbook.io/odoo",
+      "canonicalSeedUrl": "https://bs-odoo-dev.gitbook.io/odoo",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-27T06:33:17.599Z",
+      "completedAt": "2026-03-27T06:33:17.599Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://bs-odoo-dev.gitbook.io/odoo",
+          "canonicalUrl": "https://bs-odoo-dev.gitbook.io/odoo",
+          "status": "valid"
+        }
+      ],
+      "id": "91211c7196b975fef1116fb030e13073e3090eaa2aaf20f77bd8d9fc3eb0892a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "369916b773d820202a9956e76eac58f48d37e76bfc44a76cdcda027bdf87d41a",
+      "filename": "documentation_2026-03-27T06:33:17.599Z.md",
+      "contentHash": "8a941dfe123580e97b67d47a8a738b7c4dd8dccc6d282de02e2b35d6a125d98c",
+      "sourceUrl": "https://bs-odoo-dev.gitbook.io/odoo",
+      "canonicalSourceUrl": "https://bs-odoo-dev.gitbook.io/odoo",
+      "capturedAt": "2026-03-27T06:33:17.599Z",
+      "crawlRunId": "91211c7196b975fef1116fb030e13073e3090eaa2aaf20f77bd8d9fc3eb0892a",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Odoo ERP | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo"
+        },
+        {
+          "type": "Cài đặt Odoo Community | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/bat-dau-voi-odoo/cai-dat-odoo-community"
+        },
+        {
+          "type": "Mở đầu | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/bat-dau-voi-odoo/mo-dau"
+        },
+        {
+          "type": "Company, User & Group | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/co-che-phan-quyen/company-user-and-group"
+        },
+        {
+          "type": "Trải nghiệm Odoo Demo | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/bat-dau-voi-odoo/trai-nghiem-odoo-demo"
+        },
+        {
+          "type": "Giới thiệu | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/he-thong-addons/gioi-thieu"
+        },
+        {
+          "type": "Setting & Access Mode | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/co-che-phan-quyen/setting-and-access-mode"
+        },
+        {
+          "type": "Website & eCommerce | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/he-thong-addons/website-and-ecommerce"
+        },
+        {
+          "type": "Sales & Invoicing | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/he-thong-addons/sales-and-invoicing"
+        },
+        {
+          "type": "Purchase Management | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/he-thong-addons/purchase-management"
+        },
+        {
+          "type": "Accounting and Finance | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/he-thong-addons/accounting-and-finance"
+        },
+        {
+          "type": "Point of Sale | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/he-thong-addons/point-of-sale"
+        },
+        {
+          "type": "Access Rights & Record Rules | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/co-che-phan-quyen/access-rights-and-record-rules"
+        },
+        {
+          "type": "Inventory Management | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/he-thong-addons/inventory-management"
+        },
+        {
+          "type": "Company, User & Group | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/co-che-phan-quyen"
+        },
+        {
+          "type": "Giới thiệu | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/he-thong-addons"
+        },
+        {
+          "type": "Mở đầu | Odoo",
+          "url": "https://bs-odoo-dev.gitbook.io/odoo/bat-dau-voi-odoo"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "369916b773d820202a9956e76eac58f48d37e76bfc44a76cdcda027bdf87d41a"
 }

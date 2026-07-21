@@ -80,5 +80,123 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://legislation.nysenate.gov/static/docs/html/committees.html",
+      "canonicalSeedUrl": "https://legislation.nysenate.gov/static/docs/html/committees.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-08T04:54:57.076Z",
+      "completedAt": "2025-07-08T04:54:57.076Z",
+      "providerTotals": {
+        "discovered": 15,
+        "returned": 15,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://legislation.nysenate.gov/static/docs/html/committees.html",
+          "canonicalUrl": "https://legislation.nysenate.gov/static/docs/html/committees.html",
+          "status": "valid"
+        }
+      ],
+      "id": "5272f9ca255d0c8114efc3a651862a35724f1aff5c267036a8b915bece339cff",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d76a32250f6a9effe3e67abe4ffb3dd450df8de002e199443d52b7b6f65967fa",
+      "filename": "documentation_2025-07-08T04:54:57.076Z.md",
+      "contentHash": "122bc04c99f5d99dbaa0e6f5d1011d5a26f53f6e6b3fcefa802720be62952751",
+      "sourceUrl": "https://legislation.nysenate.gov/static/docs/html/committees.html",
+      "canonicalSourceUrl": "https://legislation.nysenate.gov/static/docs/html/committees.html",
+      "capturedAt": "2025-07-08T04:54:57.076Z",
+      "crawlRunId": "5272f9ca255d0c8114efc3a651862a35724f1aff5c267036a8b915bece339cff",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 15,
+      "successfulPages": 15,
+      "structure": [
+        {
+          "type": "Senate Committee API — Open Legislation 2.0-alpha documentation",
+          "url": "https://legislation.nysenate.gov/static/docs/html/committees.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://legislation.nysenate.gov/static/docs/html/_sources/index.rst.txt"
+        },
+        {
+          "type": "Senate Floor Transcripts API — Open Legislation 2.0-alpha documentation",
+          "url": "https://legislation.nysenate.gov/static/docs/html/transcripts_floor.html"
+        },
+        {
+          "type": "NYS Laws API — Open Legislation 2.0-alpha documentation",
+          "url": "https://legislation.nysenate.gov/static/docs/html/laws.html"
+        },
+        {
+          "type": "Hearing Transcripts API — Open Legislation 2.0-alpha documentation",
+          "url": "https://legislation.nysenate.gov/static/docs/html/transcripts_ph.html"
+        },
+        {
+          "type": "Senate Members API — Open Legislation 2.0-alpha documentation",
+          "url": "https://legislation.nysenate.gov/static/docs/html/members.html"
+        },
+        {
+          "type": "Search APIs — Open Legislation 2.0-alpha documentation",
+          "url": "https://legislation.nysenate.gov/static/docs/html/search_api.html"
+        },
+        {
+          "type": "Aggregate Updates API — Open Legislation 2.0-alpha documentation",
+          "url": "https://legislation.nysenate.gov/static/docs/html/agg_updates.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://legislation.nysenate.gov/static/docs/html/_sources/committees.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://legislation.nysenate.gov/static/docs/html/_sources/transcripts_floor.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://legislation.nysenate.gov/static/docs/html/_sources/laws.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://legislation.nysenate.gov/static/docs/html/_sources/transcripts_ph.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://legislation.nysenate.gov/static/docs/html/_sources/members.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://legislation.nysenate.gov/static/docs/html/_sources/search_api.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://legislation.nysenate.gov/static/docs/html/_sources/agg_updates.rst.txt"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d76a32250f6a9effe3e67abe4ffb3dd450df8de002e199443d52b7b6f65967fa"
 }

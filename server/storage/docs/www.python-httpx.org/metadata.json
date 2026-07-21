@@ -116,5 +116,159 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.python-httpx.org/code_of_conduct/",
+      "canonicalSeedUrl": "https://www.python-httpx.org/code_of_conduct",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-21T20:16:47.534Z",
+      "completedAt": "2026-01-21T20:16:47.534Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.python-httpx.org/code_of_conduct/",
+          "canonicalUrl": "https://www.python-httpx.org/code_of_conduct",
+          "status": "valid"
+        }
+      ],
+      "id": "edf500102a40702825c6ea7f26120fbac55702a52eb452463277ee3dfbc5ca48",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "882aff812264c9312e99216c45bf04b10c561055085ae6aa77cbdc39f98514c3",
+      "filename": "documentation_2026-01-21T20:16:47.534Z.md",
+      "contentHash": "eb97edfd2d12ff582ad5bad3bd2581f36a0b4078e8ff9a104861cbb027ec9a87",
+      "sourceUrl": "https://www.python-httpx.org/code_of_conduct/",
+      "canonicalSourceUrl": "https://www.python-httpx.org/code_of_conduct",
+      "capturedAt": "2026-01-21T20:16:47.534Z",
+      "crawlRunId": "edf500102a40702825c6ea7f26120fbac55702a52eb452463277ee3dfbc5ca48",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "Code of Conduct - HTTPX",
+          "url": "https://www.python-httpx.org/code_of_conduct/"
+        },
+        {
+          "type": "Third Party Packages - HTTPX",
+          "url": "https://www.python-httpx.org/third_party_packages/"
+        },
+        {
+          "type": "Async Support - HTTPX",
+          "url": "https://www.python-httpx.org/async/?utm_source=chatgpt.com"
+        },
+        {
+          "type": "Async Support - HTTPX",
+          "url": "https://www.python-httpx.org/async/"
+        },
+        {
+          "type": "HTTPX",
+          "url": "https://www.python-httpx.org/"
+        },
+        {
+          "type": "Troubleshooting - HTTPX",
+          "url": "https://www.python-httpx.org/troubleshooting/"
+        },
+        {
+          "type": "HTTP/2 Support - HTTPX",
+          "url": "https://www.python-httpx.org/http2/"
+        },
+        {
+          "type": "Environment Variables - HTTPX",
+          "url": "https://www.python-httpx.org/environment_variables/"
+        },
+        {
+          "type": "QuickStart - HTTPX",
+          "url": "https://www.python-httpx.org/quickstart/"
+        },
+        {
+          "type": "Developer Interface - HTTPX",
+          "url": "https://www.python-httpx.org/api/"
+        },
+        {
+          "type": "Exceptions - HTTPX",
+          "url": "https://www.python-httpx.org/exceptions/"
+        },
+        {
+          "type": "Contributing - HTTPX",
+          "url": "https://www.python-httpx.org/contributing/"
+        },
+        {
+          "type": "Logging - HTTPX",
+          "url": "https://www.python-httpx.org/logging/"
+        },
+        {
+          "type": "Authentication - HTTPX",
+          "url": "https://www.python-httpx.org/advanced/authentication/"
+        },
+        {
+          "type": "Requests Compatibility - HTTPX",
+          "url": "https://www.python-httpx.org/compatibility/"
+        },
+        {
+          "type": "Clients - HTTPX",
+          "url": "https://www.python-httpx.org/advanced/clients/"
+        },
+        {
+          "type": "Proxies - HTTPX",
+          "url": "https://www.python-httpx.org/advanced/proxies/"
+        },
+        {
+          "type": "Resource Limits - HTTPX",
+          "url": "https://www.python-httpx.org/advanced/resource-limits/"
+        },
+        {
+          "type": "SSL - HTTPX",
+          "url": "https://www.python-httpx.org/advanced/ssl/"
+        },
+        {
+          "type": "Text Encodings - HTTPX",
+          "url": "https://www.python-httpx.org/advanced/text-encodings/"
+        },
+        {
+          "type": "Timeouts - HTTPX",
+          "url": "https://www.python-httpx.org/advanced/timeouts/"
+        },
+        {
+          "type": "Transports - HTTPX",
+          "url": "https://www.python-httpx.org/advanced/transports/"
+        },
+        {
+          "type": "Event Hooks - HTTPX",
+          "url": "https://www.python-httpx.org/advanced/event-hooks/"
+        },
+        {
+          "type": "Extensions - HTTPX",
+          "url": "https://www.python-httpx.org/advanced/extensions/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "882aff812264c9312e99216c45bf04b10c561055085ae6aa77cbdc39f98514c3"
 }

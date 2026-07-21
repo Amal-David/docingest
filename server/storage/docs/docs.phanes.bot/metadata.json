@@ -76,5 +76,119 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.phanes.bot/",
+      "canonicalSeedUrl": "https://docs.phanes.bot/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-27T09:09:37.032Z",
+      "completedAt": "2025-10-27T09:09:37.032Z",
+      "providerTotals": {
+        "discovered": 14,
+        "returned": 14,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.phanes.bot/",
+          "canonicalUrl": "https://docs.phanes.bot/",
+          "status": "valid"
+        }
+      ],
+      "id": "24da3180bbc112eb9a84dfdd87afe2f442ade4e3712c4dd447ef2bc27e775000",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4d706bdf1784b2a52a2db5097de33e2b9383e27354a0b2342b9bed536039cede",
+      "filename": "documentation_2025-10-27T09:09:37.032Z.md",
+      "contentHash": "b260c26e6f8cedcc97a293ca55885c55f68c912cb37d6edc75fa063ddef953f4",
+      "sourceUrl": "https://docs.phanes.bot/",
+      "canonicalSourceUrl": "https://docs.phanes.bot/",
+      "capturedAt": "2025-10-27T09:09:37.032Z",
+      "crawlRunId": "24da3180bbc112eb9a84dfdd87afe2f442ade4e3712c4dd447ef2bc27e775000",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 14,
+      "successfulPages": 14,
+      "structure": [
+        {
+          "type": "Welcome to Phanes | Phanes Docs",
+          "url": "https://docs.phanes.bot/"
+        },
+        {
+          "type": "Add Phanes | Phanes Docs",
+          "url": "https://docs.phanes.bot/overview/add-phanes"
+        },
+        {
+          "type": "FAQ | Phanes Docs",
+          "url": "https://docs.phanes.bot/overview/faq"
+        },
+        {
+          "type": "Rate Limits | Phanes Docs",
+          "url": "https://docs.phanes.bot/overview/rate-limits"
+        },
+        {
+          "type": "Scammer Detection | Phanes Docs",
+          "url": "https://docs.phanes.bot/overview/scammer-detection-system"
+        },
+        {
+          "type": "DApp | Phanes Docs",
+          "url": "https://docs.phanes.bot/phanes/dapp"
+        },
+        {
+          "type": "Leaderboard | Phanes Docs",
+          "url": "https://docs.phanes.bot/phanes/leaderboard"
+        },
+        {
+          "type": "Pro | Phanes Docs",
+          "url": "https://docs.phanes.bot/premium/phanes-pro"
+        },
+        {
+          "type": "Group Boost | Phanes Docs",
+          "url": "https://docs.phanes.bot/premium/group-boost"
+        },
+        {
+          "type": "Fix Links | Phanes Docs",
+          "url": "https://docs.phanes.bot/phanes/fix-links"
+        },
+        {
+          "type": "Commands | Phanes Docs",
+          "url": "https://docs.phanes.bot/phanes/commands"
+        },
+        {
+          "type": "Add Phanes | Phanes Docs",
+          "url": "https://docs.phanes.bot/overview"
+        },
+        {
+          "type": "Commands | Phanes Docs",
+          "url": "https://docs.phanes.bot/phanes"
+        },
+        {
+          "type": "Pro | Phanes Docs",
+          "url": "https://docs.phanes.bot/premium"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4d706bdf1784b2a52a2db5097de33e2b9383e27354a0b2342b9bed536039cede"
 }

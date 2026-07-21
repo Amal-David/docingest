@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://api.cnft.tools/api/custom/themallardorder",
+      "canonicalSeedUrl": "https://api.cnft.tools/api/custom/themallardorder",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-21T09:22:13.614Z",
+      "completedAt": "2025-04-21T09:22:13.614Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://api.cnft.tools/api/custom/themallardorder",
+          "canonicalUrl": "https://api.cnft.tools/api/custom/themallardorder",
+          "status": "valid"
+        }
+      ],
+      "id": "5e5cfe9f969518c17e979f936cc16049cd35fb7387c1848ec34c4afbdf5adfc2",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f3d7457be349ed204b2c2bdb0887cff33e442899236f08d9175f13daa318f910",
+      "filename": "documentation_2025-04-21T09:22:13.614Z.md",
+      "contentHash": "2fcb87da0ddd02b9a318de1dfa8e83c0b9725d6ef38b1a5d1225687607c443d0",
+      "sourceUrl": "https://api.cnft.tools/api/custom/themallardorder",
+      "canonicalSourceUrl": "https://api.cnft.tools/api/custom/themallardorder",
+      "capturedAt": "2025-04-21T09:22:13.614Z",
+      "crawlRunId": "5e5cfe9f969518c17e979f936cc16049cd35fb7387c1848ec34c4afbdf5adfc2",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Unknown",
+          "url": "https://api.cnft.tools/api/custom/themallardorder"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f3d7457be349ed204b2c2bdb0887cff33e442899236f08d9175f13daa318f910"
 }

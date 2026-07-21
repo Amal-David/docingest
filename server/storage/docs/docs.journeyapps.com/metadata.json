@@ -60,5 +60,103 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.journeyapps.com/reference/get-started/tutorial-build-your-first-app",
+      "canonicalSeedUrl": "https://docs.journeyapps.com/reference/get-started/tutorial-build-your-first-app",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-20T08:59:02.245Z",
+      "completedAt": "2025-01-20T08:59:02.245Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.journeyapps.com/reference/get-started/tutorial-build-your-first-app",
+          "canonicalUrl": "https://docs.journeyapps.com/reference/get-started/tutorial-build-your-first-app",
+          "status": "valid"
+        }
+      ],
+      "id": "8d75346405b33d778a2aefab4a0246266ef99dd8a215b80eb76b04a7fb13bd89",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "599064de8e38bf0c44a59249be6cd7afa01322eaebe89e1b9baa4216e50ab927",
+      "filename": "documentation_2025-01-20T08:59:02.245Z.md",
+      "contentHash": "d5ec7e4f0248746aa14f051ad1ce49e5d0634ce5d79d99ea9a732bdc0b1ffa59",
+      "sourceUrl": "https://docs.journeyapps.com/reference/get-started/tutorial-build-your-first-app",
+      "canonicalSourceUrl": "https://docs.journeyapps.com/reference/get-started/tutorial-build-your-first-app",
+      "capturedAt": "2025-01-20T08:59:02.245Z",
+      "crawlRunId": "8d75346405b33d778a2aefab4a0246266ef99dd8a215b80eb76b04a7fb13bd89",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "Tutorial: Build your First App | JourneyApps Docs",
+          "url": "https://docs.journeyapps.com/reference/get-started/tutorial-build-your-first-app"
+        },
+        {
+          "type": "2. Create a new App | JourneyApps Docs",
+          "url": "https://docs.journeyapps.com/reference/get-started/tutorial-build-your-first-app/2.-creating-a-new-app"
+        },
+        {
+          "type": "22. Conclusion | JourneyApps Docs",
+          "url": "https://docs.journeyapps.com/reference/get-started/tutorial-build-your-first-app/22.-conclusion"
+        },
+        {
+          "type": "3. OXIDE IDE Overview | JourneyApps Docs",
+          "url": "https://docs.journeyapps.com/reference/get-started/tutorial-build-your-first-app/3.-oxide-ide-overview"
+        },
+        {
+          "type": "6. View Components | JourneyApps Docs",
+          "url": "https://docs.journeyapps.com/reference/get-started/tutorial-build-your-first-app/6.-view-components"
+        },
+        {
+          "type": "1. Introduction | JourneyApps Docs",
+          "url": "https://docs.journeyapps.com/reference/get-started/tutorial-build-your-first-app/1.-introduction"
+        },
+        {
+          "type": "What is JourneyApps Platform? | JourneyApps Docs",
+          "url": "https://docs.journeyapps.com/reference"
+        },
+        {
+          "type": "20. Version Control | JourneyApps Docs",
+          "url": "https://docs.journeyapps.com/reference/get-started/tutorial-build-your-first-app/20.-version-control"
+        },
+        {
+          "type": "JourneyApps Syntax Basics | JourneyApps Docs",
+          "url": "https://docs.journeyapps.com/reference/get-started/journeyapps-fundamentals/journeyapps-syntax-basics"
+        },
+        {
+          "type": "13. Responsive Apps | JourneyApps Docs",
+          "url": "https://docs.journeyapps.com/reference/get-started/tutorial-build-your-first-app/13.-responsive-apps"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "599064de8e38bf0c44a59249be6cd7afa01322eaebe89e1b9baa4216e50ab927"
 }

@@ -88,5 +88,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.mayan.finance/",
+      "canonicalSeedUrl": "https://docs.mayan.finance/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-16T09:04:16.472Z",
+      "completedAt": "2025-03-16T09:04:16.472Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.mayan.finance/",
+          "canonicalUrl": "https://docs.mayan.finance/",
+          "status": "valid"
+        }
+      ],
+      "id": "cd74382bd9e6349e5675d3a0af4cd014e3ba5af52d87a3cc9159dab261855b34",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9c13f490729b1acfe1f61beb0957919f82041d4105c3a74cc47850fab6152e4e",
+      "filename": "documentation_2025-03-16T09:04:16.472Z.md",
+      "contentHash": "18a710dac82c8623dea277ac5514a58e24882b800d99e9d8f466e24afe67d9f5",
+      "sourceUrl": "https://docs.mayan.finance/",
+      "canonicalSourceUrl": "https://docs.mayan.finance/",
+      "capturedAt": "2025-03-16T09:04:16.472Z",
+      "crawlRunId": "cd74382bd9e6349e5675d3a0af4cd014e3ba5af52d87a3cc9159dab261855b34",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "What is Mayan? | Mayan",
+          "url": "https://docs.mayan.finance/"
+        },
+        {
+          "type": "WH Swap | Mayan",
+          "url": "https://docs.mayan.finance/architecture/wh-swap"
+        },
+        {
+          "type": "MCTP | Mayan",
+          "url": "https://docs.mayan.finance/architecture/mctp"
+        },
+        {
+          "type": "Swift | Mayan",
+          "url": "https://docs.mayan.finance/architecture/swift"
+        },
+        {
+          "type": "Auction | Mayan",
+          "url": "https://docs.mayan.finance/architecture/auction"
+        },
+        {
+          "type": "Quote API | Mayan",
+          "url": "https://docs.mayan.finance/integration/quote-api"
+        },
+        {
+          "type": "Contracts (Legacy) | Mayan",
+          "url": "https://docs.mayan.finance/integration/contracts-legacy"
+        },
+        {
+          "type": "Relayers | Mayan",
+          "url": "https://docs.mayan.finance/architecture/relayers"
+        },
+        {
+          "type": "User Manual | Mayan",
+          "url": "https://docs.mayan.finance/dapp/user-manual"
+        },
+        {
+          "type": "Referral | Mayan",
+          "url": "https://docs.mayan.finance/integration/referral"
+        },
+        {
+          "type": "Swap Widget | Mayan",
+          "url": "https://docs.mayan.finance/integration/swap-widget"
+        },
+        {
+          "type": "Audits | Mayan",
+          "url": "https://docs.mayan.finance/resources/audits"
+        },
+        {
+          "type": "Mayan Explorer | Mayan",
+          "url": "https://docs.mayan.finance/dapp/mayan-explorer"
+        },
+        {
+          "type": "Explorer API | Mayan",
+          "url": "https://docs.mayan.finance/integration/explorer-api"
+        },
+        {
+          "type": "Relayer Fees | Mayan",
+          "url": "https://docs.mayan.finance/dapp/relayer-fees"
+        },
+        {
+          "type": "Gas on destination | Mayan",
+          "url": "https://docs.mayan.finance/dapp/gas-on-destination"
+        },
+        {
+          "type": "Forwarder Contract | Mayan",
+          "url": "https://docs.mayan.finance/integration/forwarder-contract"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9c13f490729b1acfe1f61beb0957919f82041d4105c3a74cc47850fab6152e4e"
 }

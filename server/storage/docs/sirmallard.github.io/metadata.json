@@ -141,5 +141,175 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://sirmallard.github.io/Iris",
+      "canonicalSeedUrl": "https://sirmallard.github.io/Iris",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-19T00:57:13.302Z",
+      "completedAt": "2025-11-19T00:57:13.302Z",
+      "providerTotals": {
+        "discovered": 28,
+        "returned": 28,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://sirmallard.github.io/Iris",
+          "canonicalUrl": "https://sirmallard.github.io/Iris",
+          "status": "valid"
+        }
+      ],
+      "id": "cc0b2058ab3120abd94e58193f3ee54ee18f9dd179d9fe9acc7170a73cef8802",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b5630398ebbf8435c9a34402cf0e1ba27061c883fd5461447f81146ef5d735ad",
+      "filename": "documentation_2025-11-19T00:57:13.302Z.md",
+      "contentHash": "104d9c9d7a3a8d56a9eb2125b62629cef9313bc33dd72b84cd688ad380e76316",
+      "sourceUrl": "https://sirmallard.github.io/Iris",
+      "canonicalSourceUrl": "https://sirmallard.github.io/Iris",
+      "capturedAt": "2025-11-19T00:57:13.302Z",
+      "crawlRunId": "cc0b2058ab3120abd94e58193f3ee54ee18f9dd179d9fe9acc7170a73cef8802",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 28,
+      "successfulPages": 28,
+      "structure": [
+        {
+          "type": "Iris | Iris",
+          "url": "https://sirmallard.github.io/Iris"
+        },
+        {
+          "type": "Combo | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Combo"
+        },
+        {
+          "type": "Drag | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Drag"
+        },
+        {
+          "type": "Basic | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Basic"
+        },
+        {
+          "type": "Internal | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Internal"
+        },
+        {
+          "type": "Iris | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Iris"
+        },
+        {
+          "type": "Format | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Format"
+        },
+        {
+          "type": "Iris | Iris",
+          "url": "https://sirmallard.github.io/Iris/api"
+        },
+        {
+          "type": "Image | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Image"
+        },
+        {
+          "type": "Input | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Input"
+        },
+        {
+          "type": "Plot | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Plot"
+        },
+        {
+          "type": "Menu | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Menu"
+        },
+        {
+          "type": "Slider | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Slider"
+        },
+        {
+          "type": "State | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/State"
+        },
+        {
+          "type": "Understanding Widgets | Iris",
+          "url": "https://sirmallard.github.io/Iris/docs/about/widgets"
+        },
+        {
+          "type": "Tab | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Tab"
+        },
+        {
+          "type": "Tree | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Tree"
+        },
+        {
+          "type": "Text | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Text"
+        },
+        {
+          "type": "Table | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Table"
+        },
+        {
+          "type": "Window | Iris",
+          "url": "https://sirmallard.github.io/Iris/api/Window"
+        },
+        {
+          "type": "Common Issues | Iris",
+          "url": "https://sirmallard.github.io/Iris/docs/common_issues"
+        },
+        {
+          "type": "Showcases | Iris",
+          "url": "https://sirmallard.github.io/Iris/docs/showcase"
+        },
+        {
+          "type": "Iris | Iris",
+          "url": "https://sirmallard.github.io/Iris/docs/intro"
+        },
+        {
+          "type": "Getting Started | Iris",
+          "url": "https://sirmallard.github.io/Iris/docs/getting_started"
+        },
+        {
+          "type": "Understanding the Lifecycle | Iris",
+          "url": "https://sirmallard.github.io/Iris/docs/about/cycle"
+        },
+        {
+          "type": "Understanding the Configuration | Iris",
+          "url": "https://sirmallard.github.io/Iris/docs/about/config"
+        },
+        {
+          "type": "Understanding State | Iris",
+          "url": "https://sirmallard.github.io/Iris/docs/about/states"
+        },
+        {
+          "type": "Understanding Events | Iris",
+          "url": "https://sirmallard.github.io/Iris/docs/about/events"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b5630398ebbf8435c9a34402cf0e1ba27061c883fd5461447f81146ef5d735ad"
 }

@@ -88,5 +88,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.plasma.to/",
+      "canonicalSeedUrl": "https://docs.plasma.to/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-28T22:03:55.471Z",
+      "completedAt": "2025-04-28T22:03:55.471Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.plasma.to/",
+          "canonicalUrl": "https://docs.plasma.to/",
+          "status": "valid"
+        }
+      ],
+      "id": "57f0b87692bd3cebb5b479c36c1b4925dcb973798e5ff92c2267fd3824e57498",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "dddd0ceb3ccf18c6d72f6a7989220e7f99d666358a78cb8d77b5d2a1d8426047",
+      "filename": "documentation_2025-04-28T22:03:55.471Z.md",
+      "contentHash": "18b4b42239aaf5b101baa3b98505cf29ad7082f8a029ac7d190188c3248a436e",
+      "sourceUrl": "https://docs.plasma.to/",
+      "canonicalSourceUrl": "https://docs.plasma.to/",
+      "capturedAt": "2025-04-28T22:03:55.471Z",
+      "crawlRunId": "57f0b87692bd3cebb5b479c36c1b4925dcb973798e5ff92c2267fd3824e57498",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Overview | Plasma Docs",
+          "url": "https://docs.plasma.to/"
+        },
+        {
+          "type": "Use Cases | Plasma Docs",
+          "url": "https://docs.plasma.to/introduction/use-cases"
+        },
+        {
+          "type": "Roadmap | Plasma Docs",
+          "url": "https://docs.plasma.to/introduction/roadmap"
+        },
+        {
+          "type": "Why Bitcoin | Plasma Docs",
+          "url": "https://docs.plasma.to/introduction/why-bitcoin"
+        },
+        {
+          "type": "System Overview | Plasma Docs",
+          "url": "https://docs.plasma.to/architecture/system-overview"
+        },
+        {
+          "type": "Core Features | Plasma Docs",
+          "url": "https://docs.plasma.to/architecture/core-features"
+        },
+        {
+          "type": "Consensus | Plasma Docs",
+          "url": "https://docs.plasma.to/architecture/consensus"
+        },
+        {
+          "type": "HotStuff | Plasma Docs",
+          "url": "https://docs.plasma.to/architecture/consensus/hotstuff"
+        },
+        {
+          "type": "PlasmaBFT | Plasma Docs",
+          "url": "https://docs.plasma.to/architecture/consensus/plasmabft"
+        },
+        {
+          "type": "Committee Formation | Plasma Docs",
+          "url": "https://docs.plasma.to/architecture/consensus/committee-formation"
+        },
+        {
+          "type": "RPC-API | Plasma Docs",
+          "url": "https://docs.plasma.to/architecture/rpc-api"
+        },
+        {
+          "type": "References | Plasma Docs",
+          "url": "https://docs.plasma.to/architecture/consensus/references"
+        },
+        {
+          "type": "Hardware Requirements | Plasma Docs",
+          "url": "https://docs.plasma.to/architecture/hardware-requirements"
+        },
+        {
+          "type": "Bitcoin Bridge | Plasma Docs",
+          "url": "https://docs.plasma.to/architecture/bitcoin-bridge"
+        },
+        {
+          "type": "Execution | Plasma Docs",
+          "url": "https://docs.plasma.to/architecture/execution"
+        },
+        {
+          "type": "EVM Details | Plasma Docs",
+          "url": "https://docs.plasma.to/architecture/evm-details"
+        },
+        {
+          "type": "Official Links | Plasma Docs",
+          "url": "https://docs.plasma.to/community/official-links"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "dddd0ceb3ccf18c6d72f6a7989220e7f99d666358a78cb8d77b5d2a1d8426047"
 }

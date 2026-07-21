@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.shopify.com/au/blog/how-to-go-viral-on-tiktok",
+      "canonicalSeedUrl": "https://www.shopify.com/au/blog/how-to-go-viral-on-tiktok",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-14T16:28:28.097Z",
+      "completedAt": "2025-12-14T16:28:28.097Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.shopify.com/au/blog/how-to-go-viral-on-tiktok",
+          "canonicalUrl": "https://www.shopify.com/au/blog/how-to-go-viral-on-tiktok",
+          "status": "valid"
+        }
+      ],
+      "id": "ffb8428e43411a5a68eceba8d69b0fc39666340c2c13e99f73a77dae687dd751",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "157ce0f3da9e0fc061c277bd9a0956fc7887f5f9037efb72a73d3fffe8a28f15",
+      "filename": "documentation_2025-12-14T16:28:28.097Z.md",
+      "contentHash": "fca1a4e5e315089f7d7c244a6f02db48b5d9ae1b948aa7203e11a3abb147ce8c",
+      "sourceUrl": "https://www.shopify.com/au/blog/how-to-go-viral-on-tiktok",
+      "canonicalSourceUrl": "https://www.shopify.com/au/blog/how-to-go-viral-on-tiktok",
+      "capturedAt": "2025-12-14T16:28:28.097Z",
+      "crawlRunId": "ffb8428e43411a5a68eceba8d69b0fc39666340c2c13e99f73a77dae687dd751",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "How To Go Viral on TikTok: Understanding the Algorithm for 2026 - Shopify Australia",
+          "url": "https://www.shopify.com/au/blog/how-to-go-viral-on-tiktok"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "157ce0f3da9e0fc061c277bd9a0956fc7887f5f9037efb72a73d3fffe8a28f15"
 }

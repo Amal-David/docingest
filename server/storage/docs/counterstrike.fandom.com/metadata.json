@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://counterstrike.fandom.com/wiki/Counter-Strike_2",
+      "canonicalSeedUrl": "https://counterstrike.fandom.com/wiki/Counter-Strike_2",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-08T19:18:59.994Z",
+      "completedAt": "2026-03-08T19:18:59.994Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://counterstrike.fandom.com/wiki/Counter-Strike_2",
+          "canonicalUrl": "https://counterstrike.fandom.com/wiki/Counter-Strike_2",
+          "status": "valid"
+        }
+      ],
+      "id": "a67725c3b1c9a227daff4d66ed56b4147141a288b29d0aa8fa6f62a1f4876eb7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3dd8d760a1e6c2336c09f290de856a480927fd1aea1bca1e17da68f2471b47b8",
+      "filename": "documentation_2026-03-08T19:18:59.994Z.md",
+      "contentHash": "d59d43b590f254b54c15bdee8d81df2d2978428212fb07af2cb853e3964f0e43",
+      "sourceUrl": "https://counterstrike.fandom.com/wiki/Counter-Strike_2",
+      "canonicalSourceUrl": "https://counterstrike.fandom.com/wiki/Counter-Strike_2",
+      "capturedAt": "2026-03-08T19:18:59.994Z",
+      "crawlRunId": "a67725c3b1c9a227daff4d66ed56b4147141a288b29d0aa8fa6f62a1f4876eb7",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Counter-Strike 2 | Counter-Strike Wiki | Fandom",
+          "url": "https://counterstrike.fandom.com/wiki/Counter-Strike_2"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3dd8d760a1e6c2336c09f290de856a480927fd1aea1bca1e17da68f2471b47b8"
 }

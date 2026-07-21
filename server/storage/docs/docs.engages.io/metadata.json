@@ -161,5 +161,195 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.engages.io/",
+      "canonicalSeedUrl": "https://docs.engages.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-09T23:59:59.903Z",
+      "completedAt": "2026-01-09T23:59:59.903Z",
+      "providerTotals": {
+        "discovered": 33,
+        "returned": 33,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.engages.io/",
+          "canonicalUrl": "https://docs.engages.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "7172e3602745148d4cf70d3c80b507a0088676166a38394473a183b6f017a46f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4088743799debae24ab6d15e8bb6e75d422c643a6b67e101362a4bd4512fd00d",
+      "filename": "documentation_2026-01-09T23:59:59.903Z.md",
+      "contentHash": "01ec6026b7354240894fbf1a73b614c1cb0baee08528a03130b4b1ef41379a80",
+      "sourceUrl": "https://docs.engages.io/",
+      "canonicalSourceUrl": "https://docs.engages.io/",
+      "capturedAt": "2026-01-09T23:59:59.903Z",
+      "crawlRunId": "7172e3602745148d4cf70d3c80b507a0088676166a38394473a183b6f017a46f",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 33,
+      "successfulPages": 33,
+      "structure": [
+        {
+          "type": "Welcome To Engage | ​",
+          "url": "https://docs.engages.io/"
+        },
+        {
+          "type": "Setup | ​",
+          "url": "https://docs.engages.io/engage-discord/setup"
+        },
+        {
+          "type": "Inflation Mode | ​",
+          "url": "https://docs.engages.io/new-update-and-features/inflation-mode"
+        },
+        {
+          "type": "Auto Tweet Tracking | ​",
+          "url": "https://docs.engages.io/new-update-and-features/auto-tweet-tracking"
+        },
+        {
+          "type": "Server Informations | ​",
+          "url": "https://docs.engages.io/engage-discord/engage-commands/server-informations"
+        },
+        {
+          "type": "Social Quests | ​",
+          "url": "https://docs.engages.io/engage-discord/social-quests"
+        },
+        {
+          "type": "Twitter / X | ​",
+          "url": "https://docs.engages.io/engage-discord/social-quests/twitter-x"
+        },
+        {
+          "type": "Engage Commands | ​",
+          "url": "https://docs.engages.io/engage-discord/engage-commands"
+        },
+        {
+          "type": "Twitter Spaces | ​",
+          "url": "https://docs.engages.io/engage-discord/social-quests/twitter-x/twitter-spaces"
+        },
+        {
+          "type": "Server Settings | ​",
+          "url": "https://docs.engages.io/engage-discord/engage-commands/server-settings"
+        },
+        {
+          "type": "Twitter Broadcast | ​",
+          "url": "https://docs.engages.io/engage-discord/social-quests/twitter-x/twitter-broadcast"
+        },
+        {
+          "type": "Twitter Bio & Banner Rewards | ​",
+          "url": "https://docs.engages.io/engage-discord/social-quests/twitter-x/twitter-bio-and-banner-rewards"
+        },
+        {
+          "type": "Publish your Tweet | ​",
+          "url": "https://docs.engages.io/engage-discord/social-quests/twitter-x/publish-your-tweet"
+        },
+        {
+          "type": "Discord | ​",
+          "url": "https://docs.engages.io/engage-discord/social-quests/discord"
+        },
+        {
+          "type": "Reward Hub | ​",
+          "url": "https://docs.engages.io/engage-discord/reward-hub"
+        },
+        {
+          "type": "Invite Quest | ​",
+          "url": "https://docs.engages.io/engage-discord/social-quests/discord/invite-quest"
+        },
+        {
+          "type": "Giveaways | ​",
+          "url": "https://docs.engages.io/engage-discord/reward-hub/giveaways"
+        },
+        {
+          "type": "Marketplace | ​",
+          "url": "https://docs.engages.io/engage-discord/reward-hub/marketplace"
+        },
+        {
+          "type": "Setting Up Engage Telegram | ​",
+          "url": "https://docs.engages.io/engage-telegram/setting-up-engage-telegram"
+        },
+        {
+          "type": "Auctions | ​",
+          "url": "https://docs.engages.io/engage-discord/reward-hub/auctions"
+        },
+        {
+          "type": "Other Channel Descriptions | ​",
+          "url": "https://docs.engages.io/eion/other-channel-descriptions"
+        },
+        {
+          "type": "Chat Rewards | ​",
+          "url": "https://docs.engages.io/engage-discord/social-quests/discord/chat-rewards"
+        },
+        {
+          "type": "Setup EION Telegram | ​",
+          "url": "https://docs.engages.io/eion/setup-eion-telegram"
+        },
+        {
+          "type": "Admin Panel Overview | ​",
+          "url": "https://docs.engages.io/engage-telegram/admin-panel-overview"
+        },
+        {
+          "type": "Launch Giveaway | ​",
+          "url": "https://docs.engages.io/engage-telegram/launch-giveaway"
+        },
+        {
+          "type": "Daily Claims | ​",
+          "url": "https://docs.engages.io/engage-discord/social-quests/discord/daily-claims"
+        },
+        {
+          "type": "VC Snapshot | ​",
+          "url": "https://docs.engages.io/engage-discord/social-quests/discord/vc-snapshot"
+        },
+        {
+          "type": "Announcement Reactions | ​",
+          "url": "https://docs.engages.io/engage-discord/social-quests/discord/announcement-reactions"
+        },
+        {
+          "type": "Posting Quests | ​",
+          "url": "https://docs.engages.io/engage-telegram/posting-quests"
+        },
+        {
+          "type": "Level & Tier System | ​",
+          "url": "https://docs.engages.io/engage-discord/social-quests/discord/level-and-tier-system"
+        },
+        {
+          "type": "User Guide | ​",
+          "url": "https://docs.engages.io/engage-discord/user-guide"
+        },
+        {
+          "type": "User Twitter Setup | ​",
+          "url": "https://docs.engages.io/engage-telegram/user-twitter-setup"
+        },
+        {
+          "type": "Server Panel | ​",
+          "url": "https://docs.engages.io/eion/server-panel"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4088743799debae24ab6d15e8bb6e75d422c643a6b67e101362a4bd4512fd00d"
 }

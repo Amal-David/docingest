@@ -33,5 +33,69 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.shelby.xyz/protocol",
+      "canonicalSeedUrl": "https://docs.shelby.xyz/protocol",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-12T19:33:01.969Z",
+      "completedAt": "2026-03-12T19:33:01.969Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.shelby.xyz/protocol",
+          "canonicalUrl": "https://docs.shelby.xyz/protocol",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-content"
+        }
+      ],
+      "id": "604c00960593e587c7897bd0bf617091c97bff7c128132385e4f96b6c7da7ff4",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 1,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4e13e777d6f70e62406301f148b69a8df776f436f62c94022cb00d0c29c998b1",
+      "filename": "documentation_2026-03-12T19:33:01.969Z.md",
+      "contentHash": "90805820418312a35fd24ed5734a662e2235cbbddc75087f6699fdf6770c3cdc",
+      "sourceUrl": "https://docs.shelby.xyz/protocol",
+      "canonicalSourceUrl": "https://docs.shelby.xyz/protocol",
+      "capturedAt": "2026-03-12T19:33:01.969Z",
+      "crawlRunId": "604c00960593e587c7897bd0bf617091c97bff7c128132385e4f96b6c7da7ff4",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.shelby.xyz/protocol"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "checkpoint-or-challenge-content"
+        ]
+      }
+    }
+  ]
 }

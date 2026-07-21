@@ -1,1 +1,125 @@
-{"url":"https://narwhals-dev.github.io/narwhals/","domain":"narwhals-dev.github.io","lastScraped":"2025-03-07T13:13:36.620Z","totalPages":5,"successfulPages":5,"failedPages":[],"structure":[{"type":"Narwhals","url":"https://narwhals-dev.github.io/narwhals/"},{"type":"Series - Narwhals","url":"https://narwhals-dev.github.io/narwhals/basics/series/"},{"type":"DataFrame - Narwhals","url":"https://narwhals-dev.github.io/narwhals/basics/dataframe/"},{"type":"Complete example - Narwhals","url":"https://narwhals-dev.github.io/narwhals/basics/complete_example/"},{"type":"Conversion between libraries - Narwhals","url":"https://narwhals-dev.github.io/narwhals/basics/dataframe_conversion/"}]}
+{
+  "url": "https://narwhals-dev.github.io/narwhals/",
+  "domain": "narwhals-dev.github.io",
+  "lastScraped": "2025-03-07T13:13:36.620Z",
+  "totalPages": 5,
+  "successfulPages": 5,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Narwhals",
+      "url": "https://narwhals-dev.github.io/narwhals/"
+    },
+    {
+      "type": "Series - Narwhals",
+      "url": "https://narwhals-dev.github.io/narwhals/basics/series/"
+    },
+    {
+      "type": "DataFrame - Narwhals",
+      "url": "https://narwhals-dev.github.io/narwhals/basics/dataframe/"
+    },
+    {
+      "type": "Complete example - Narwhals",
+      "url": "https://narwhals-dev.github.io/narwhals/basics/complete_example/"
+    },
+    {
+      "type": "Conversion between libraries - Narwhals",
+      "url": "https://narwhals-dev.github.io/narwhals/basics/dataframe_conversion/"
+    }
+  ],
+  "latestVersion": "legacy",
+  "versions": [
+    {
+      "version": "legacy",
+      "label": "legacy",
+      "timestamp": "2025-03-07T13:13:36.620Z",
+      "filename": "documentation_2025-03-07T13:13:36.620Z.md",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "url": "https://narwhals-dev.github.io/narwhals/",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "legacyDocumentFiles": [
+    "documentation_2025-03-05T10:49:33.250Z.md",
+    "documentation_2025-03-07T13:13:36.620Z.md"
+  ],
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://narwhals-dev.github.io/narwhals/",
+      "canonicalSeedUrl": "https://narwhals-dev.github.io/narwhals",
+      "configuration": {
+        "sourceSchemaVersion": 1
+      },
+      "startedAt": "2025-03-07T13:13:36.620Z",
+      "completedAt": "2025-03-07T13:13:36.620Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://narwhals-dev.github.io/narwhals/",
+          "canonicalUrl": "https://narwhals-dev.github.io/narwhals",
+          "status": "valid"
+        }
+      ],
+      "id": "67f1d0d226c27d0d7cca4c36bde7da61a7e8cdcae4f1d85cb28d631052db074a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "07aef77d1ebc27486b5a35c9a276ec9d961df9dc7f035591ad8487fcf47a2ba6",
+      "filename": "documentation_2025-03-07T13:13:36.620Z.md",
+      "contentHash": "15a4d8aa82c4253e9fcdbfeecc20431b31c69da63cc45654188a29b69a768128",
+      "sourceUrl": "https://narwhals-dev.github.io/narwhals/",
+      "canonicalSourceUrl": "https://narwhals-dev.github.io/narwhals",
+      "capturedAt": "2025-03-07T13:13:36.620Z",
+      "crawlRunId": "67f1d0d226c27d0d7cca4c36bde7da61a7e8cdcae4f1d85cb28d631052db074a",
+      "upstreamChannel": "legacy",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "Narwhals",
+          "url": "https://narwhals-dev.github.io/narwhals/"
+        },
+        {
+          "type": "Series - Narwhals",
+          "url": "https://narwhals-dev.github.io/narwhals/basics/series/"
+        },
+        {
+          "type": "DataFrame - Narwhals",
+          "url": "https://narwhals-dev.github.io/narwhals/basics/dataframe/"
+        },
+        {
+          "type": "Complete example - Narwhals",
+          "url": "https://narwhals-dev.github.io/narwhals/basics/complete_example/"
+        },
+        {
+          "type": "Conversion between libraries - Narwhals",
+          "url": "https://narwhals-dev.github.io/narwhals/basics/dataframe_conversion/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "07aef77d1ebc27486b5a35c9a276ec9d961df9dc7f035591ad8487fcf47a2ba6"
+}

@@ -104,5 +104,147 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://fal.ai/models/fal-ai/fashn/tryon/v1.5/api#api-call-setup",
+      "canonicalSeedUrl": "https://fal.ai/models/fal-ai/fashn/tryon/v1.5/api",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-25T12:06:07.846Z",
+      "completedAt": "2025-04-25T12:06:07.846Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://fal.ai/models/fal-ai/fashn/tryon/v1.5/api#api-call-setup",
+          "canonicalUrl": "https://fal.ai/models/fal-ai/fashn/tryon/v1.5/api",
+          "status": "valid"
+        }
+      ],
+      "id": "3250246f35f97deede00b07540094b7f8fc7795ba3c725934eeb60482ac9bdf3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "189dcdefe9d3983615eaecbf20021a53f010fa5b53b47ee7b54bc701a6a77b21",
+      "filename": "documentation_2025-04-25T12:06:07.846Z.md",
+      "contentHash": "8dcf78d5a02d7e86904350ad545ed12aa22957ec1cf55b5576d820ccd28ddca2",
+      "sourceUrl": "https://fal.ai/models/fal-ai/fashn/tryon/v1.5/api#api-call-setup",
+      "canonicalSourceUrl": "https://fal.ai/models/fal-ai/fashn/tryon/v1.5/api",
+      "capturedAt": "2025-04-25T12:06:07.846Z",
+      "crawlRunId": "3250246f35f97deede00b07540094b7f8fc7795ba3c725934eeb60482ac9bdf3",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "FASHN Virtual Try-On V1.5 | Image to Image | fal.ai",
+          "url": "https://fal.ai/models/fal-ai/fashn/tryon/v1.5/api#api-call-setup"
+        },
+        {
+          "type": "fal.ai",
+          "url": "https://fal.ai/grants"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://fal.ai/api/openapi/queue/openapi.json?endpoint_id=fal-ai/fashn/tryon/v1.5"
+        },
+        {
+          "type": "Pricing | fal.ai",
+          "url": "https://fal.ai/pricing"
+        },
+        {
+          "type": "fal AI Demos",
+          "url": "https://fal.ai/demos"
+        },
+        {
+          "type": "Login || fal.ai",
+          "url": "https://fal.ai/login?returnTo=/models/fal-ai/fashn/tryon/v1.5/api"
+        },
+        {
+          "type": "Train Flux LoRA | Training | fal.ai",
+          "url": "https://fal.ai/models/fal-ai/flux-lora-fast-training"
+        },
+        {
+          "type": "Careers at fal",
+          "url": "https://fal.ai/careers"
+        },
+        {
+          "type": "About Us - fal",
+          "url": "https://fal.ai/about"
+        },
+        {
+          "type": "Flux Realism | Unknown | fal.ai",
+          "url": "https://fal.ai/models/fal-ai/flux-realism"
+        },
+        {
+          "type": "AuraFlow | Text to Image | fal.ai",
+          "url": "https://fal.ai/models/fal-ai/aura-flow"
+        },
+        {
+          "type": "FLUX.1 [schnell] | Text to Image | fal.ai",
+          "url": "https://fal.ai/models/fal-ai/flux/schnell"
+        },
+        {
+          "type": "FLUX.1 [dev] | Text to Image | fal.ai",
+          "url": "https://fal.ai/models/fal-ai/flux/dev"
+        },
+        {
+          "type": "FLUX.1 [dev] with LoRAs | Text to Image | fal.ai",
+          "url": "https://fal.ai/models/fal-ai/flux-lora"
+        },
+        {
+          "type": "Login || fal.ai",
+          "url": "https://fal.ai/workflows"
+        },
+        {
+          "type": "fal.ai | The generative media platform for developers",
+          "url": "https://fal.ai/"
+        },
+        {
+          "type": "Generative Media\nfor Enterprise",
+          "url": "https://fal.ai/enterprise"
+        },
+        {
+          "type": "Model Gallery | fal.ai",
+          "url": "https://fal.ai/models"
+        },
+        {
+          "type": "Login || fal.ai",
+          "url": "https://fal.ai/login"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://fal.ai/cdn-cgi/l/email-protection"
+        },
+        {
+          "type": "Login || fal.ai",
+          "url": "https://fal.ai/login?returnTo=/pricing"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "189dcdefe9d3983615eaecbf20021a53f010fa5b53b47ee7b54bc701a6a77b21"
 }

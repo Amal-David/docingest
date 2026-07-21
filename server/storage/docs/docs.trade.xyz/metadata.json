@@ -173,5 +173,207 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.trade.xyz/",
+      "canonicalSeedUrl": "https://docs.trade.xyz/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-11T09:59:53.913Z",
+      "completedAt": "2026-04-11T09:59:53.913Z",
+      "providerTotals": {
+        "discovered": 36,
+        "returned": 36,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.trade.xyz/",
+          "canonicalUrl": "https://docs.trade.xyz/",
+          "status": "valid"
+        }
+      ],
+      "id": "b9a67b2d7f2ef560e84aff6548002889a752225fd41e9879eee46d869abeedb3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c98636988227d5a280dcc41a6bac0f9d76e1918f2554177328cf909dd951e337",
+      "filename": "documentation_2026-04-11T09:59:53.913Z.md",
+      "contentHash": "81a6e8bd23147defd71161bcabcba8a65765aa7585ed855cf650b33f69546324",
+      "sourceUrl": "https://docs.trade.xyz/",
+      "canonicalSourceUrl": "https://docs.trade.xyz/",
+      "capturedAt": "2026-04-11T09:59:53.913Z",
+      "crawlRunId": "b9a67b2d7f2ef560e84aff6548002889a752225fd41e9879eee46d869abeedb3",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 36,
+      "successfulPages": 36,
+      "structure": [
+        {
+          "type": "XYZ Architecture | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/"
+        },
+        {
+          "type": "Overview | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/perp-mechanics/overview"
+        },
+        {
+          "type": "Oracle Price | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/perp-mechanics/oracle-price"
+        },
+        {
+          "type": "Mark Price | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/perp-mechanics/mark-price"
+        },
+        {
+          "type": "Funding | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/perp-mechanics/funding"
+        },
+        {
+          "type": "External Price | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/perp-mechanics/external-price"
+        },
+        {
+          "type": "Fees | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/perp-mechanics/fees"
+        },
+        {
+          "type": "Equity Indices | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/asset-directory/equity-indices"
+        },
+        {
+          "type": "Commodities | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/asset-directory/commodities"
+        },
+        {
+          "type": "Discovery Bounds | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/perp-mechanics/discovery-bounds"
+        },
+        {
+          "type": "Japan | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/asset-directory/equity-indices/japan"
+        },
+        {
+          "type": "US | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/asset-directory/equity-indices/us"
+        },
+        {
+          "type": "Korea | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/asset-directory/equity-indices/korea"
+        },
+        {
+          "type": "FX | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/asset-directory/fx"
+        },
+        {
+          "type": "US | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/stocks/us"
+        },
+        {
+          "type": "Korea | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/stocks/korea"
+        },
+        {
+          "type": "Roll Schedules | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/consolidated-resources/roll-schedules"
+        },
+        {
+          "type": "Holiday Closures | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/consolidated-resources/holiday-closures"
+        },
+        {
+          "type": "Liquidation Mechanics | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/risk-and-margining/liquidation-mechanics"
+        },
+        {
+          "type": "Auto-Deleveraging | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/risk-and-margining/auto-deleveraging"
+        },
+        {
+          "type": "Oracle Time Constant Update | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/changelog/oracle-time-constant-update"
+        },
+        {
+          "type": "Funding Rate Formula Update | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/changelog/funding-rate-formula-update"
+        },
+        {
+          "type": "Margin Modes | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/risk-and-margining/margin-modes"
+        },
+        {
+          "type": "Discovery Bounds v2 | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/changelog/discovery-bounds-v2"
+        },
+        {
+          "type": "S&P 500 Disclaimers | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/legal-and-disclaimers/s-and-p-500-disclaimers"
+        },
+        {
+          "type": "General Disclaimer | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/legal-and-disclaimers/general-disclaimer"
+        },
+        {
+          "type": "Equity Indices v1 | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/changelog/equity-indices-v1"
+        },
+        {
+          "type": "Specification Index | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/consolidated-resources/specification-index"
+        },
+        {
+          "type": "XYZ Architecture | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/overview"
+        },
+        {
+          "type": "Overview | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/perp-mechanics"
+        },
+        {
+          "type": "Commodities | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/asset-directory"
+        },
+        {
+          "type": "US | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/stocks"
+        },
+        {
+          "type": "Discovery Bounds v2 | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/changelog"
+        },
+        {
+          "type": "Margin Modes | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/risk-and-margining"
+        },
+        {
+          "type": "General Disclaimer | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/legal-and-disclaimers"
+        },
+        {
+          "type": "Specification Index | trade[XYZ] Docs",
+          "url": "https://docs.trade.xyz/consolidated-resources"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c98636988227d5a280dcc41a6bac0f9d76e1918f2554177328cf909dd951e337"
 }

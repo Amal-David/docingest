@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://exa.ai/docs/reference/exa-mcp",
+      "canonicalSeedUrl": "https://exa.ai/docs/reference/exa-mcp",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-14T11:04:58.831Z",
+      "completedAt": "2026-03-14T11:04:58.831Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://exa.ai/docs/reference/exa-mcp",
+          "canonicalUrl": "https://exa.ai/docs/reference/exa-mcp",
+          "status": "valid"
+        }
+      ],
+      "id": "7b6221af4c391983beccd094170e2bccefa9126fdb67690c15f8df401f928ea0",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "11f48a36a6cbf23ba58c2625f588065ba462995db06ea1738426baad59f880f4",
+      "filename": "documentation_2026-03-14T11:04:58.831Z.md",
+      "contentHash": "169387e86f0a8e3dd96cef68618655a143b3eb470f3c9b7e3f782b04eb420a2e",
+      "sourceUrl": "https://exa.ai/docs/reference/exa-mcp",
+      "canonicalSourceUrl": "https://exa.ai/docs/reference/exa-mcp",
+      "capturedAt": "2026-03-14T11:04:58.831Z",
+      "crawlRunId": "7b6221af4c391983beccd094170e2bccefa9126fdb67690c15f8df401f928ea0",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Exa MCP - The Web Search MCP - Exa",
+          "url": "https://exa.ai/docs/reference/exa-mcp"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "11f48a36a6cbf23ba58c2625f588065ba462995db06ea1738426baad59f880f4"
 }

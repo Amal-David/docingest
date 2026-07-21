@@ -28,5 +28,71 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://api.simpleswap.io/docs/getting-started/",
+      "canonicalSeedUrl": "https://api.simpleswap.io/docs/getting-started",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-23T05:28:46.365Z",
+      "completedAt": "2026-03-23T05:28:46.365Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://api.simpleswap.io/docs/getting-started/",
+          "canonicalUrl": "https://api.simpleswap.io/docs/getting-started",
+          "status": "valid"
+        }
+      ],
+      "id": "290e6df702fd6148ecc48c3bb1738d393fcd7a2ed39ed19821a2cc57d90ccf07",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4cfd05aed87610d17fbba4729a17a3a0026c264b469535639e607a1ea9d70fa0",
+      "filename": "documentation_2026-03-23T05:28:46.365Z.md",
+      "contentHash": "9f416b4ebe0ebef47879d3cc93b795b94324010f4ce7cf0da27c5c1486dc5ec6",
+      "sourceUrl": "https://api.simpleswap.io/docs/getting-started/",
+      "canonicalSourceUrl": "https://api.simpleswap.io/docs/getting-started",
+      "capturedAt": "2026-03-23T05:28:46.365Z",
+      "crawlRunId": "290e6df702fd6148ecc48c3bb1738d393fcd7a2ed39ed19821a2cc57d90ccf07",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Getting Started | SimpleSwap Public API",
+          "url": "https://api.simpleswap.io/docs/getting-started/"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://api.simpleswap.io/docs/api.simpleswap.postman-collection.json"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4cfd05aed87610d17fbba4729a17a3a0026c264b469535639e607a1ea9d70fa0"
 }

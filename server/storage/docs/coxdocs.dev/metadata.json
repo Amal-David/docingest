@@ -41,5 +41,75 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://coxdocs.dev/ox_target",
+      "canonicalSeedUrl": "https://coxdocs.dev/ox_target",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-20T15:15:30.942Z",
+      "completedAt": "2026-02-20T15:15:30.942Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://coxdocs.dev/ox_target",
+          "canonicalUrl": "https://coxdocs.dev/ox_target",
+          "status": "valid"
+        }
+      ],
+      "id": "e1f4722a15a9ac5d778bc30b90d524a2d97627f9a744ff26b3143296c80690fa",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "303ff1a5edbd750e5cbcb52809f38d92909c5af91a31199e674272795b06b991",
+      "filename": "documentation_2026-02-20T15:15:30.942Z.md",
+      "contentHash": "77f33d9793791e2237cd06e9572ca0256155b1c92540b46f4cfe801ea4d2c149",
+      "sourceUrl": "https://coxdocs.dev/ox_target",
+      "canonicalSourceUrl": "https://coxdocs.dev/ox_target",
+      "capturedAt": "2026-02-20T15:15:30.942Z",
+      "crawlRunId": "e1f4722a15a9ac5d778bc30b90d524a2d97627f9a744ff26b3143296c80690fa",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "structure": [
+        {
+          "type": "Ox Target - Documentation",
+          "url": "https://coxdocs.dev/ox_target"
+        },
+        {
+          "type": "TargetOptions - Ox Target",
+          "url": "https://coxdocs.dev/ox_target/TargetOptions"
+        },
+        {
+          "type": "Client - Ox Target",
+          "url": "https://coxdocs.dev/ox_target/Functions/Client"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "303ff1a5edbd750e5cbcb52809f38d92909c5af91a31199e674272795b06b991"
 }

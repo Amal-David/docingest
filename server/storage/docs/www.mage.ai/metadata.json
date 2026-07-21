@@ -104,5 +104,147 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.mage.ai/",
+      "canonicalSeedUrl": "https://www.mage.ai/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-16T00:42:37.894Z",
+      "completedAt": "2025-03-16T00:42:37.894Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.mage.ai/",
+          "canonicalUrl": "https://www.mage.ai/",
+          "status": "valid"
+        }
+      ],
+      "id": "e8f8ea0fe7697750485823552fb48e4daf47190406fb22dba81b07a5d8a6483e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "27ddfdffd6a5c17b546c023decc11acd4a3aec46d921c95464f9a19df5c4261e",
+      "filename": "documentation_2025-03-16T00:42:37.894Z.md",
+      "contentHash": "3fe56b81bdd320b487d464354e9a3f97c56ae2ff42ebe6d605575185d0df964b",
+      "sourceUrl": "https://www.mage.ai/",
+      "canonicalSourceUrl": "https://www.mage.ai/",
+      "capturedAt": "2025-03-16T00:42:37.894Z",
+      "crawlRunId": "e8f8ea0fe7697750485823552fb48e4daf47190406fb22dba81b07a5d8a6483e",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "Magical Data Engineering Workflows | Mage AI",
+          "url": "https://www.mage.ai/"
+        },
+        {
+          "type": "Your AI Data Engineer | Intelligent Data Engineering Platform | Mage AI",
+          "url": "https://www.mage.ai/ai"
+        },
+        {
+          "type": "Get Demo | Customized for Your Needs | Mage AI",
+          "url": "https://www.mage.ai/getdemo"
+        },
+        {
+          "type": "Deploy | Flexible Deployment Options | Mage AI",
+          "url": "https://www.mage.ai/deploy"
+        },
+        {
+          "type": "Data | Intelligent, Scalable Data Pipeline Solutions | Mage AI",
+          "url": "https://www.mage.ai/data"
+        },
+        {
+          "type": "Build | Create Reusable Data Pipelines in Half the Time | Mage AI",
+          "url": "https://www.mage.ai/build"
+        },
+        {
+          "type": "Extend | Unlock Flexible Extensibility | Mage AI",
+          "url": "https://www.mage.ai/extend"
+        },
+        {
+          "type": "Scale | Intelligent Data Pipeline Scaling | Mage AI",
+          "url": "https://www.mage.ai/scale"
+        },
+        {
+          "type": "GitHub - mage-ai/mage-ai: 🧙 Build, run, and manage data pipelines for integrating and transforming data.",
+          "url": "https://www.mage.ai/oss"
+        },
+        {
+          "type": "Terms of Service | AI Data Engineering Platform | Mage AI",
+          "url": "https://www.mage.ai/terms"
+        },
+        {
+          "type": "Privacy Policy | Data Protection and Security | Mage AI",
+          "url": "https://www.mage.ai/privacy"
+        },
+        {
+          "type": "Innovations | Unique Differentiators | Mage AI",
+          "url": "https://www.mage.ai/innovations"
+        },
+        {
+          "type": "Pricing | Find a Mage Pro Plan | Mage AI",
+          "url": "https://www.mage.ai/pricing"
+        },
+        {
+          "type": "Slack",
+          "url": "https://www.mage.ai/chat"
+        },
+        {
+          "type": "Data Pipelines & Templates | AI-Powered Solutions | Mage AI",
+          "url": "https://www.mage.ai/commons"
+        },
+        {
+          "type": "Updates | Changelog and Release Notes | Mage AI",
+          "url": "https://www.mage.ai/updates"
+        },
+        {
+          "type": "Blog | Data Engineering Hub | Mage AI",
+          "url": "https://www.mage.ai/blog"
+        },
+        {
+          "type": "Partners Program | Collaborate and Earn | Mage AI",
+          "url": "https://www.mage.ai/partners"
+        },
+        {
+          "type": "Sign in to GitHub · GitHub",
+          "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fmage-ai%2Fmage-ai"
+        },
+        {
+          "type": "GitHub · Build and ship software on a single, collaborative platform · GitHub",
+          "url": "https://github.com/"
+        },
+        {
+          "type": "Platform Specs | AI Data Engineering Features | Mage AI",
+          "url": "https://www.mage.ai/specs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "27ddfdffd6a5c17b546c023decc11acd4a3aec46d921c95464f9a19df5c4261e"
 }

@@ -317,5 +317,351 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://rust-console-edition.gitbook.io/community-servers/",
+      "canonicalSeedUrl": "https://rust-console-edition.gitbook.io/community-servers",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-23T18:12:46.547Z",
+      "completedAt": "2026-02-23T18:12:46.547Z",
+      "providerTotals": {
+        "discovered": 72,
+        "returned": 72,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://rust-console-edition.gitbook.io/community-servers/",
+          "canonicalUrl": "https://rust-console-edition.gitbook.io/community-servers",
+          "status": "valid"
+        }
+      ],
+      "id": "4d921a7d36cd0074fe513ca958afb3d4e07e77709fd8ca7590872981d6b9e4c9",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e9e1bc4ac74157bc9be810e5d1d18f4e7bc7f86c20844f4d4da38fa6fbd8fe8c",
+      "filename": "documentation_2026-02-23T18:12:46.547Z.md",
+      "contentHash": "5bd582f961a285a2aba753e55fbf12b5e31edc3eee4542c35de4eaf8d87ceb8a",
+      "sourceUrl": "https://rust-console-edition.gitbook.io/community-servers/",
+      "canonicalSourceUrl": "https://rust-console-edition.gitbook.io/community-servers",
+      "capturedAt": "2026-02-23T18:12:46.547Z",
+      "crawlRunId": "4d921a7d36cd0074fe513ca958afb3d4e07e77709fd8ca7590872981d6b9e4c9",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 72,
+      "successfulPages": 72,
+      "structure": [
+        {
+          "type": "Welcome | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/"
+        },
+        {
+          "type": "General Warnings | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/getting-started/general-warnings"
+        },
+        {
+          "type": "Permissions | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/getting-started/permissions"
+        },
+        {
+          "type": "Status Page | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/getting-started/status-page"
+        },
+        {
+          "type": "Server Setup | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/getting-started/server-setup"
+        },
+        {
+          "type": "Map Presets | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/server-configuration/map-presets"
+        },
+        {
+          "type": "Custom Boot Commands | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/server-configuration/custom-boot-commands"
+        },
+        {
+          "type": "💥OLD GEN ONLY💥 Donut Island Setup | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/server-configuration/map-presets/old-gen-only-donut-island-setup"
+        },
+        {
+          "type": "Configuring a Server | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/server-configuration/configuring-a-server"
+        },
+        {
+          "type": "World Settings | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/server-configuration/world-settings"
+        },
+        {
+          "type": "Map Settings | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/server-configuration/map-settings"
+        },
+        {
+          "type": "NPC Settings | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/server-configuration/npc-settings"
+        },
+        {
+          "type": "Basic Settings | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/server-configuration/basic-settings"
+        },
+        {
+          "type": "Custom Auth Levels | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/management-settings/authority-levels-and-privileges/custom-auth-levels"
+        },
+        {
+          "type": "Configuration Backups | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/management-settings/restarts-and-backup/configuration-backups"
+        },
+        {
+          "type": "Monument Recycler Configs | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/feature-guides/monument-recycler-configs"
+        },
+        {
+          "type": "Command Scheduling | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/feature-guides/command-scheduling"
+        },
+        {
+          "type": "Moderation Actions | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/management-settings/moderation-actions"
+        },
+        {
+          "type": "Logs, Booting & Saving | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/management-settings/logs-booting-and-saving"
+        },
+        {
+          "type": "Entity Details | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/feature-guides/entity-details"
+        },
+        {
+          "type": "Item Settings | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/server-configuration/item-settings"
+        },
+        {
+          "type": "Whitelist Management | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/feature-guides/whitelist-management"
+        },
+        {
+          "type": "Authority Levels & Privileges | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/management-settings/authority-levels-and-privileges"
+        },
+        {
+          "type": "Gameplay Settings | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/server-configuration/gameplay-settings"
+        },
+        {
+          "type": "Granting User Tiers | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/management-settings/granting-user-tiers"
+        },
+        {
+          "type": "Restarts and Backup | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/management-settings/restarts-and-backup"
+        },
+        {
+          "type": "Seasonal Events | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/feature-guides/seasonal-events"
+        },
+        {
+          "type": "Player Settings | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/server-configuration/player-settings"
+        },
+        {
+          "type": "✨NEW✨ Entity Spawning | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/feature-guides/new-entity-spawning"
+        },
+        {
+          "type": "Server Tags | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/feature-guides/server-tags"
+        },
+        {
+          "type": "Event Settings | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/server-configuration/event-settings"
+        },
+        {
+          "type": "Tools | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/server/tools"
+        },
+        {
+          "type": "Modifiers | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/feature-guides/modifiers"
+        },
+        {
+          "type": "AntiHack | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/moderation/antihack"
+        },
+        {
+          "type": "Kit Management | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/feature-guides/kit-management"
+        },
+        {
+          "type": "Banning | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/moderation/banning"
+        },
+        {
+          "type": "Access Management | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/moderation/access-management"
+        },
+        {
+          "type": "Cook & Smelt | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/gameplay/cook-and-smelt"
+        },
+        {
+          "type": "Missions | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/gameplay/missions"
+        },
+        {
+          "type": "Custom Zones | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/feature-guides/custom-zones"
+        },
+        {
+          "type": "Teams | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/gameplay/teams"
+        },
+        {
+          "type": "Farming | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/gameplay/farming"
+        },
+        {
+          "type": "UI & Visuals | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/gameplay/ui-and-visuals"
+        },
+        {
+          "type": "Settings | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/server/settings"
+        },
+        {
+          "type": "✨NEW✨ Player | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/gameplay/new-player"
+        },
+        {
+          "type": "Crafting | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/utility/crafting"
+        },
+        {
+          "type": "Monuments | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/utility/monuments"
+        },
+        {
+          "type": "Resources | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/gameplay/resources"
+        },
+        {
+          "type": "Tools | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/moderation/tools"
+        },
+        {
+          "type": "Crafting | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/gameplay/crafting"
+        },
+        {
+          "type": "Server | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/server"
+        },
+        {
+          "type": "Teams | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/utility/teams"
+        },
+        {
+          "type": "Events | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/world/events"
+        },
+        {
+          "type": "Resources | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/world/resources"
+        },
+        {
+          "type": "Items & Inventory | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/gameplay/items-and-inventory"
+        },
+        {
+          "type": "Resources | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/utility/resources"
+        },
+        {
+          "type": "Player | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/utility/player"
+        },
+        {
+          "type": "Events | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/utility/events"
+        },
+        {
+          "type": "Entities | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/utility/entities"
+        },
+        {
+          "type": "Generation | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/world/generation"
+        },
+        {
+          "type": "✨NEW✨ Vehicles | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/world/new-vehicles"
+        },
+        {
+          "type": "Self | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/utility/self"
+        },
+        {
+          "type": "Building | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/gameplay/building"
+        },
+        {
+          "type": "Gameplay | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/utility/gameplay"
+        },
+        {
+          "type": "✨NEW✨ Inventory | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/utility/new-inventory"
+        },
+        {
+          "type": "Monuments | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/world/monuments"
+        },
+        {
+          "type": "Item Management | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/feature-guides/item-management"
+        },
+        {
+          "type": "Moderation | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/moderation"
+        },
+        {
+          "type": "Entities | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/world/entities"
+        },
+        {
+          "type": "World | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/world"
+        },
+        {
+          "type": "Gameplay | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/gameplay"
+        },
+        {
+          "type": "Utility | Rust Console Edition: Community Servers",
+          "url": "https://rust-console-edition.gitbook.io/community-servers/commands/utility"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e9e1bc4ac74157bc9be810e5d1d18f4e7bc7f86c20844f4d4da38fa6fbd8fe8c"
 }

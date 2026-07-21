@@ -88,5 +88,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://kevinheavey.github.io/solana-bankrun/tutorial/",
+      "canonicalSeedUrl": "https://kevinheavey.github.io/solana-bankrun/tutorial",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-15T14:44:41.480Z",
+      "completedAt": "2025-09-15T14:44:41.480Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://kevinheavey.github.io/solana-bankrun/tutorial/",
+          "canonicalUrl": "https://kevinheavey.github.io/solana-bankrun/tutorial",
+          "status": "valid"
+        }
+      ],
+      "id": "ea94ea842c75275e360981eb12b038f90fca72e01d9647e80bcfc578506607b8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2c11a7a7e9771f62e4321f2abc068624e4fd3ca372904214a0f33979ee74be4f",
+      "filename": "documentation_2025-09-15T14:44:41.480Z.md",
+      "contentHash": "c3a62b12c5d7685485bddeabfe1a9e38195fa38e9fc29e5c80cfd64a4127dff4",
+      "sourceUrl": "https://kevinheavey.github.io/solana-bankrun/tutorial/",
+      "canonicalSourceUrl": "https://kevinheavey.github.io/solana-bankrun/tutorial",
+      "capturedAt": "2025-09-15T14:44:41.480Z",
+      "crawlRunId": "ea94ea842c75275e360981eb12b038f90fca72e01d9647e80bcfc578506607b8",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Tutorial | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/tutorial/"
+        },
+        {
+          "type": "Introduction | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/"
+        },
+        {
+          "type": "API Reference - v0.4.0 | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/"
+        },
+        {
+          "type": "Class: BanksClient | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/classes/BanksClient.html"
+        },
+        {
+          "type": "Class: BanksTransactionMeta | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/classes/BanksTransactionMeta.html"
+        },
+        {
+          "type": "Class: Clock | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/classes/Clock.html"
+        },
+        {
+          "type": "Class: FeeRateGovernor | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/classes/FeeRateGovernor.html"
+        },
+        {
+          "type": "Class: PohConfig | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/classes/PohConfig.html"
+        },
+        {
+          "type": "Class: TransactionReturnData | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/classes/TransactionReturnData.html"
+        },
+        {
+          "type": "Class: EpochSchedule | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/classes/EpochSchedule.html"
+        },
+        {
+          "type": "Class: TransactionStatus | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/classes/TransactionStatus.html"
+        },
+        {
+          "type": "Interface: AddedAccount | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/interfaces/AddedAccount.html"
+        },
+        {
+          "type": "Class: BanksTransactionResultWithMeta | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/classes/BanksTransactionResultWithMeta.html"
+        },
+        {
+          "type": "Interface: AddedProgram | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/interfaces/AddedProgram.html"
+        },
+        {
+          "type": "Class: Rent | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/classes/Rent.html"
+        },
+        {
+          "type": "Class: GenesisConfig | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/classes/GenesisConfig.html"
+        },
+        {
+          "type": "Class: ProgramTestContext | Bankrun",
+          "url": "https://kevinheavey.github.io/solana-bankrun/api/classes/ProgramTestContext.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2c11a7a7e9771f62e4321f2abc068624e4fd3ca372904214a0f33979ee74be4f"
 }

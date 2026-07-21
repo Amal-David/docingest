@@ -24,5 +24,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.parsec-corp.com/",
+      "canonicalSeedUrl": "https://docs.parsec-corp.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-14T19:28:03.523Z",
+      "completedAt": "2025-11-14T19:28:03.523Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.parsec-corp.com/",
+          "canonicalUrl": "https://docs.parsec-corp.com/",
+          "status": "rejected",
+          "reason": "error-or-authentication-content"
+        }
+      ],
+      "id": "264cc0096ac34263432c94c935ec2bb07d7cdc5a319e243a9c6d1023fb0e3c17",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 1,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "58b2b56ec3dcd7484795d50e61fe5cf4356cc334d627c72597ddb2573793ba54",
+      "filename": "documentation_2025-11-14T19:28:03.523Z.md",
+      "contentHash": "a7d51d7ebf579b1623500bf4da4b4a5007568426f9d2f7db54f517852efb57fb",
+      "sourceUrl": "https://docs.parsec-corp.com/",
+      "canonicalSourceUrl": "https://docs.parsec-corp.com/",
+      "capturedAt": "2025-11-14T19:28:03.523Z",
+      "crawlRunId": "264cc0096ac34263432c94c935ec2bb07d7cdc5a319e243a9c6d1023fb0e3c17",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Sign in to your account",
+          "url": "https://docs.parsec-corp.com/"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "error-or-authentication-content"
+        ]
+      }
+    }
+  ]
 }

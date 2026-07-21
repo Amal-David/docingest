@@ -108,5 +108,151 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://r3f.docs.pmnd.rs/getting-started/introduction",
+      "canonicalSeedUrl": "https://r3f.docs.pmnd.rs/getting-started/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-01T10:45:04.440Z",
+      "completedAt": "2025-07-01T10:45:04.440Z",
+      "providerTotals": {
+        "discovered": 22,
+        "returned": 22,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://r3f.docs.pmnd.rs/getting-started/introduction",
+          "canonicalUrl": "https://r3f.docs.pmnd.rs/getting-started/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "747c02be71d5fb0e8e6e432e36c4039a2c43028e65f4e60d997af933b47904ac",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cbdbe7abb2961b78bf54a06c4230e3a986a67daa962095b344bfae63fdff5425",
+      "filename": "documentation_2025-07-01T10:45:04.440Z.md",
+      "contentHash": "d3b2b713bd0307dde69af6a2e353c140392e48b0f97ba9b65192055c90ccf34c",
+      "sourceUrl": "https://r3f.docs.pmnd.rs/getting-started/introduction",
+      "canonicalSourceUrl": "https://r3f.docs.pmnd.rs/getting-started/introduction",
+      "capturedAt": "2025-07-01T10:45:04.440Z",
+      "crawlRunId": "747c02be71d5fb0e8e6e432e36c4039a2c43028e65f4e60d997af933b47904ac",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 22,
+      "successfulPages": 22,
+      "structure": [
+        {
+          "type": "Introduction - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/getting-started/introduction"
+        },
+        {
+          "type": "Community R3F Components - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/getting-started/community-r3f-components"
+        },
+        {
+          "type": "Scaling performance - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/advanced/scaling-performance"
+        },
+        {
+          "type": "Your first scene - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/getting-started/your-first-scene"
+        },
+        {
+          "type": "Installation - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/getting-started/installation"
+        },
+        {
+          "type": "Canvas - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/api/canvas"
+        },
+        {
+          "type": "v9 Migration Guide - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/tutorials/v9-migration-guide"
+        },
+        {
+          "type": "Examples - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/getting-started/examples"
+        },
+        {
+          "type": "Performance pitfalls - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/advanced/pitfalls"
+        },
+        {
+          "type": "Events - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/api/events"
+        },
+        {
+          "type": "Hooks - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/api/hooks"
+        },
+        {
+          "type": "Loading Textures - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/tutorials/loading-textures"
+        },
+        {
+          "type": "Objects, properties and constructor arguments - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/api/objects"
+        },
+        {
+          "type": "TypeScript - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/api/typescript"
+        },
+        {
+          "type": "Additional Exports - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/api/additional-exports"
+        },
+        {
+          "type": "Events and Interaction - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/tutorials/events-and-interaction"
+        },
+        {
+          "type": "Testing - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/api/testing"
+        },
+        {
+          "type": "Basic Animations - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/tutorials/basic-animations"
+        },
+        {
+          "type": "Loading Models - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/tutorials/loading-models"
+        },
+        {
+          "type": "How does it work? - React Three Fiber",
+          "url": "https://r3f.docs.pmnd.rs/tutorials/how-it-works"
+        },
+        {
+          "type": "404: This page could not be found.",
+          "url": "https://r3f.docs.pmnd.rs/api/events-and-interaction"
+        },
+        {
+          "type": "404: This page could not be found.",
+          "url": "https://r3f.docs.pmnd.rs/tutorials/using-with-react-spring"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cbdbe7abb2961b78bf54a06c4230e3a986a67daa962095b344bfae63fdff5425"
 }

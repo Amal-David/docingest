@@ -114,5 +114,103 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.cursor.com/welcome",
+      "canonicalSeedUrl": "https://docs.cursor.com/welcome",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-01T09:30:40.875Z",
+      "completedAt": "2025-07-01T09:30:40.875Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.cursor.com/welcome",
+          "canonicalUrl": "https://docs.cursor.com/welcome",
+          "status": "valid"
+        }
+      ],
+      "id": "93096151d13c3c7ddacc4cb6e271e8f352515f2506fdba98a20cecc5c94c1d5e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8a709515cb920c8a5471ad412ea4b1ef04646f374311d57c3b611093d26002d0",
+      "filename": "documentation_2025-07-01T09:30:40.875Z.md",
+      "contentHash": "e260af50e2f3974585790098e61fd0611133131426fa5eb2401c3f730771bed3",
+      "sourceUrl": "https://docs.cursor.com/welcome",
+      "canonicalSourceUrl": "https://docs.cursor.com/welcome",
+      "capturedAt": "2025-07-01T09:30:40.875Z",
+      "crawlRunId": "93096151d13c3c7ddacc4cb6e271e8f352515f2506fdba98a20cecc5c94c1d5e",
+      "upstreamVersion": "1.6.0",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "Cursor – Welcome to Cursor",
+          "url": "https://docs.cursor.com/welcome"
+        },
+        {
+          "type": "Cursor – MCP Directory",
+          "url": "https://docs.cursor.com/tools"
+        },
+        {
+          "type": "Cursor – Early Access Program",
+          "url": "https://docs.cursor.com/settings/beta"
+        },
+        {
+          "type": "Cursor – Getting a Request ID",
+          "url": "https://docs.cursor.com/troubleshooting/request-reporting"
+        },
+        {
+          "type": "Cursor – Troubleshooting Guide",
+          "url": "https://docs.cursor.com/troubleshooting/troubleshooting-guide"
+        },
+        {
+          "type": "Cursor – Common Issues",
+          "url": "https://docs.cursor.com/troubleshooting/common-issues"
+        },
+        {
+          "type": "Cursor – Auto-import",
+          "url": "https://docs.cursor.com/tab/auto-import"
+        },
+        {
+          "type": "Cursor – Overview",
+          "url": "https://docs.cursor.com/tab/overview"
+        },
+        {
+          "type": "Cursor – Tab vs GitHub Copilot",
+          "url": "https://docs.cursor.com/tab/from-gh-copilot"
+        },
+        {
+          "type": "Cursor – Advanced Features",
+          "url": "https://docs.cursor.com/tab/advanced-features"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8a709515cb920c8a5471ad412ea4b1ef04646f374311d57c3b611093d26002d0"
 }

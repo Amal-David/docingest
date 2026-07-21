@@ -69,5 +69,103 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.x.com/overview",
+      "canonicalSeedUrl": "https://docs.x.com/overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-13T05:38:11.655Z",
+      "completedAt": "2026-02-13T05:38:11.655Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.x.com/overview",
+          "canonicalUrl": "https://docs.x.com/overview",
+          "status": "valid"
+        }
+      ],
+      "id": "188f9b72a57ecc46f614d6babe52f488164fdb4a50e98d9ed0a20ca48d08d3c6",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c1fc74c5c2db8d619c81ee2a95c87975d4b2b7c4dc097921cab3d193e9364fc2",
+      "filename": "documentation_2026-02-13T05:38:11.655Z.md",
+      "contentHash": "a4bdd352d68c41f3481e8a70a85ad9f6d1db9f1d8fcb2f48791eb965de3e1f92",
+      "sourceUrl": "https://docs.x.com/overview",
+      "canonicalSourceUrl": "https://docs.x.com/overview",
+      "capturedAt": "2026-02-13T05:38:11.655Z",
+      "crawlRunId": "188f9b72a57ecc46f614d6babe52f488164fdb4a50e98d9ed0a20ca48d08d3c6",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "X Developer Platform - X",
+          "url": "https://docs.x.com/overview"
+        },
+        {
+          "type": "Billing support form - X",
+          "url": "https://docs.x.com/forms/billing-support"
+        },
+        {
+          "type": "Survey: Product Tracks & Commercial Use - X",
+          "url": "https://docs.x.com/forms/survey"
+        },
+        {
+          "type": "Prospective Customer - Initial Application - X",
+          "url": "https://docs.x.com/forms/use-case/initial"
+        },
+        {
+          "type": "Application for Trial Enterprise Access - X",
+          "url": "https://docs.x.com/forms/application-trial"
+        },
+        {
+          "type": "X Official Partner - X",
+          "url": "https://docs.x.com/enterprise/partner-directory"
+        },
+        {
+          "type": "Existing Customer - Add New Data Product(s) - X",
+          "url": "https://docs.x.com/forms/use-case/upgrade"
+        },
+        {
+          "type": "Existing Customer - Use Case Modification - X",
+          "url": "https://docs.x.com/forms/use-case/modification"
+        },
+        {
+          "type": "Existing Customer - Public Sector Request - X",
+          "url": "https://docs.x.com/forms/use-case/public-sector"
+        },
+        {
+          "type": "Enterprise Access Form - X",
+          "url": "https://docs.x.com/forms/enterprise-api-interest"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c1fc74c5c2db8d619c81ee2a95c87975d4b2b7c4dc097921cab3d193e9364fc2"
 }

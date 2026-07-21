@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://makcu.gitbook.io/makcu",
+      "canonicalSeedUrl": "https://makcu.gitbook.io/makcu",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-05T14:53:36.331Z",
+      "completedAt": "2025-10-05T14:53:36.331Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://makcu.gitbook.io/makcu",
+          "canonicalUrl": "https://makcu.gitbook.io/makcu",
+          "status": "valid"
+        }
+      ],
+      "id": "4c47c222f74da5aae6293f5ef2b7ec2f5ce036f4afb8f7fdf64b69cc1b5a397c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f6884af09d9728073903c78fc984603175fe87149762f1b4692ad597a5b40047",
+      "filename": "documentation_2025-10-05T14:53:36.331Z.md",
+      "contentHash": "59db471fec53c6af76aeb229ac70aa59ad3ea37607e1d9dd4a9cc6155dd55a07",
+      "sourceUrl": "https://makcu.gitbook.io/makcu",
+      "canonicalSourceUrl": "https://makcu.gitbook.io/makcu",
+      "capturedAt": "2025-10-05T14:53:36.331Z",
+      "crawlRunId": "4c47c222f74da5aae6293f5ef2b7ec2f5ce036f4afb8f7fdf64b69cc1b5a397c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Makcu Board Guide | Makcu Setup",
+          "url": "https://makcu.gitbook.io/makcu"
+        },
+        {
+          "type": "XIM Matrix Guide | Makcu Setup",
+          "url": "https://makcu.gitbook.io/makcu/makcu-board/xim-matrix-guide"
+        },
+        {
+          "type": "Download | Makcu Setup",
+          "url": "https://makcu.gitbook.io/makcu/makcu-board/download"
+        },
+        {
+          "type": "Troubleshooting | Makcu Setup",
+          "url": "https://makcu.gitbook.io/makcu/makcu-board/troubleshooting"
+        },
+        {
+          "type": "Solderless | Makcu Setup",
+          "url": "https://makcu.gitbook.io/makcu/diy-guide/solderless"
+        },
+        {
+          "type": "frequently-asked-questions | Makcu Setup",
+          "url": "https://makcu.gitbook.io/makcu/faq/frequently-asked-questions"
+        },
+        {
+          "type": "Soldered | Makcu Setup",
+          "url": "https://makcu.gitbook.io/makcu/diy-guide/soldered"
+        },
+        {
+          "type": "Makcu V3 | Makcu Setup",
+          "url": "https://makcu.gitbook.io/makcu/makcu-board/makcu-v3"
+        },
+        {
+          "type": "Adding Makcu support | Makcu Setup",
+          "url": "https://makcu.gitbook.io/makcu/chair-devs/adding-makcu-support"
+        },
+        {
+          "type": "MAKCU ESP32开发版教程 | Makcu Setup",
+          "url": "https://makcu.gitbook.io/makcu/makcu/chinese"
+        },
+        {
+          "type": "Soldered | Makcu Setup",
+          "url": "https://makcu.gitbook.io/makcu/diy-guide"
+        },
+        {
+          "type": "frequently-asked-questions | Makcu Setup",
+          "url": "https://makcu.gitbook.io/makcu/faq"
+        },
+        {
+          "type": "Makcu Board Guide | Makcu Setup",
+          "url": "https://makcu.gitbook.io/makcu/makcu-board"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f6884af09d9728073903c78fc984603175fe87149762f1b4692ad597a5b40047"
 }

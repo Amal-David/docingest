@@ -88,5 +88,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.butane.dev/",
+      "canonicalSeedUrl": "https://docs.butane.dev/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-14T18:09:11.603Z",
+      "completedAt": "2025-12-14T18:09:11.603Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.butane.dev/",
+          "canonicalUrl": "https://docs.butane.dev/",
+          "status": "valid"
+        }
+      ],
+      "id": "3f43cd8f9519e21d5d64ade77933d32894232b3d2366257866ab5269b2a88118",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "bcad7ce57559e687a57f8c5f6048a5741d44a0fd15b5077757029654851e28e2",
+      "filename": "documentation_2025-12-14T18:09:11.603Z.md",
+      "contentHash": "5b3074263a8d42d3497da79ebd23a6b7055f65df4b3dccee8250fa82974a8526",
+      "sourceUrl": "https://docs.butane.dev/",
+      "canonicalSourceUrl": "https://docs.butane.dev/",
+      "capturedAt": "2025-12-14T18:09:11.603Z",
+      "crawlRunId": "3f43cd8f9519e21d5d64ade77933d32894232b3d2366257866ab5269b2a88118",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "What is Butane? | Butane Documentation",
+          "url": "https://docs.butane.dev/"
+        },
+        {
+          "type": "The Butane Platform | Butane Documentation",
+          "url": "https://docs.butane.dev/introduction/the-butane-platform"
+        },
+        {
+          "type": "Getting Started | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/getting-started"
+        },
+        {
+          "type": "Setting Up a Wallet | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/getting-started/setting-up-a-wallet"
+        },
+        {
+          "type": "Concepts | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/butane-basics/concepts"
+        },
+        {
+          "type": "Acquiring CNTs | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/getting-started/acquiring-cnts"
+        },
+        {
+          "type": "Connecting Wallet | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/getting-started/connecting-wallet"
+        },
+        {
+          "type": "Butane Basics | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/butane-basics"
+        },
+        {
+          "type": "Overview | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/butane-basics/overview"
+        },
+        {
+          "type": "How to Stake Synthetics | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/guides/how-to-stake-synthetics"
+        },
+        {
+          "type": "Guides | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/guides"
+        },
+        {
+          "type": "Synthetic Parameters | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/butane-basics/synthetic-parameters"
+        },
+        {
+          "type": "How to Close a CDP (Repay/Liquidate) | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/guides/how-to-close-a-cdp-repay-liquidate"
+        },
+        {
+          "type": "How to Merge CDPs | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/guides/how-to-merge-cdps"
+        },
+        {
+          "type": "FAQs  | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/faqs"
+        },
+        {
+          "type": "How to Adjust a CDP | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/guides/how-to-adjust-a-cdp"
+        },
+        {
+          "type": "How to Create a CDP  | Butane Documentation",
+          "url": "https://docs.butane.dev/how-to-use-butane/guides/how-to-create-a-cdp"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "bcad7ce57559e687a57f8c5f6048a5741d44a0fd15b5077757029654851e28e2"
 }

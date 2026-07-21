@@ -240,5 +240,283 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.fallow.tools/",
+      "canonicalSeedUrl": "https://docs.fallow.tools/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-29T17:00:24.021Z",
+      "completedAt": "2026-04-29T17:00:24.021Z",
+      "providerTotals": {
+        "discovered": 55,
+        "returned": 55,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.fallow.tools/",
+          "canonicalUrl": "https://docs.fallow.tools/",
+          "status": "valid"
+        }
+      ],
+      "id": "a9f808f81934784969a28dd6669ffc3908bcfd7f8ea6c042f5d59b5615c39f35",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "128f1e5e985d17edf9d6b4928179fbf32d0e8b7582a43322c0d34cae7b755142",
+      "filename": "documentation_2026-04-29T17:00:24.021Z.md",
+      "contentHash": "54dde85a83b1117f9563712224d15660f0bc4f97a0af7a9582cd239952d70548",
+      "sourceUrl": "https://docs.fallow.tools/",
+      "canonicalSourceUrl": "https://docs.fallow.tools/",
+      "capturedAt": "2026-04-29T17:00:24.021Z",
+      "crawlRunId": "a9f808f81934784969a28dd6669ffc3908bcfd7f8ea6c042f5d59b5615c39f35",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 55,
+      "successfulPages": 55,
+      "structure": [
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/cli/fix"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/cli/config"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/cli/init"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/cli/coverage"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/cli/dupes"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/cli/flags"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/cli/migrate"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/cli/global-flags"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/cli/watch"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/cli/license"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/analysis/auto-fix"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/cli/list"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/adoption"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/cli/audit"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/cli/dead-code"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/analysis/css-analysis"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/analysis"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/analysis/boundaries"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/analysis/production-mode"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/analysis/limitations"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/analysis/debugging"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/analysis/duplication"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/analysis/runtime-coverage"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/analysis/dead-code"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/analysis/file-types"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/configuration/environment"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/explanations"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/installation"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/explanations/static-vs-runtime"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/integrations"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/configuration/rules"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/migration/from-jscpd"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/integrations/agent-skills"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/configuration/workspaces"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/configuration/suppression"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/frameworks/built-in"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/migration/from-knip"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/integrations/badges"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/integrations/vscode"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/integrations/node-bindings"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/explanations/fallow-vs-linters"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/quickstart"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/explanations/duplication"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/frameworks/custom-plugins"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/migration/comparison"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/explanations/dead-code"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/integrations/claude-hooks"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/configuration/boundaries"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/integrations/mcp"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/configuration/overview"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/explanations/health"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/integrations/ci"
+        },
+        {
+          "type": "fallow: codebase intelligence for TypeScript and JavaScript",
+          "url": "https://docs.fallow.tools/cli/health"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.fallow.tools/llms.txt"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "128f1e5e985d17edf9d6b4928179fbf32d0e8b7582a43322c0d34cae7b755142"
 }

@@ -150,5 +150,103 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://project-vector-1.gitbook.io/vector-lua-engine",
+      "canonicalSeedUrl": "https://project-vector-1.gitbook.io/vector-lua-engine",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-24T13:05:03.777Z",
+      "completedAt": "2026-04-24T13:05:03.777Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://project-vector-1.gitbook.io/vector-lua-engine",
+          "canonicalUrl": "https://project-vector-1.gitbook.io/vector-lua-engine",
+          "status": "valid"
+        }
+      ],
+      "id": "1516bd0d768ca2f7e775b34db98ac70359cc0c14e7c8dde348f9aa656c811904",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1c1f7cf07fcfa9fc00f13337342b73d56aadf777968521aa1c4ed8b953e6f64b",
+      "filename": "documentation_2026-04-24T13:05:03.777Z.md",
+      "contentHash": "a032fc258d9d80ed41d92c0e5ce9dbf9e37112eebb8a5a1dfc957353b3ed061e",
+      "sourceUrl": "https://project-vector-1.gitbook.io/vector-lua-engine",
+      "canonicalSourceUrl": "https://project-vector-1.gitbook.io/vector-lua-engine",
+      "capturedAt": "2026-04-24T13:05:03.777Z",
+      "crawlRunId": "1516bd0d768ca2f7e775b34db98ac70359cc0c14e7c8dde348f9aa656c811904",
+      "upstreamVersion": "1.1.9",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "Vector Lua Engine",
+          "url": "https://project-vector-1.gitbook.io/vector-lua-engine"
+        },
+        {
+          "type": "Navigating The UI | Vector Lua Engine",
+          "url": "https://project-vector-1.gitbook.io/vector-lua-engine/introduction/navigating-the-ui"
+        },
+        {
+          "type": "Entity API | Vector Lua Engine",
+          "url": "https://project-vector-1.gitbook.io/vector-lua-engine/api/entity-api"
+        },
+        {
+          "type": "Draw API | Vector Lua Engine",
+          "url": "https://project-vector-1.gitbook.io/vector-lua-engine/api/draw-api"
+        },
+        {
+          "type": "Raycast API | Vector Lua Engine",
+          "url": "https://project-vector-1.gitbook.io/vector-lua-engine/api/raycast-api"
+        },
+        {
+          "type": "Game API | Vector Lua Engine",
+          "url": "https://project-vector-1.gitbook.io/vector-lua-engine/api/game-api"
+        },
+        {
+          "type": "Thread API | Vector Lua Engine",
+          "url": "https://project-vector-1.gitbook.io/vector-lua-engine/api/thread-api"
+        },
+        {
+          "type": "Utility API | Vector Lua Engine",
+          "url": "https://project-vector-1.gitbook.io/vector-lua-engine/api/utility-api"
+        },
+        {
+          "type": "Menu API | Vector Lua Engine",
+          "url": "https://project-vector-1.gitbook.io/vector-lua-engine/api/menu-api"
+        },
+        {
+          "type": "FFlag API | Vector Lua Engine",
+          "url": "https://project-vector-1.gitbook.io/vector-lua-engine/api/fflag-api"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1c1f7cf07fcfa9fc00f13337342b73d56aadf777968521aa1c4ed8b953e6f64b"
 }

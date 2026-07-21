@@ -317,5 +317,351 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.symbiotic.fi/",
+      "canonicalSeedUrl": "https://docs.symbiotic.fi/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-03T09:01:51.969Z",
+      "completedAt": "2026-02-03T09:01:51.969Z",
+      "providerTotals": {
+        "discovered": 72,
+        "returned": 72,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.symbiotic.fi/",
+          "canonicalUrl": "https://docs.symbiotic.fi/",
+          "status": "valid"
+        }
+      ],
+      "id": "e2bef5837dd5a48b21c95b5773d6ad849b8ee2a06903159a5fb4737b170a4120",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "419a9106ce31633aa09e8b3e6df02f3f3b9bcb4b22224afdc7795abde64ecc6b",
+      "filename": "documentation_2026-02-03T09:01:51.969Z.md",
+      "contentHash": "a1001fbef92645e0742baec02516a6cc88f503f8e21654c1bc3297fd9eb1ad4f",
+      "sourceUrl": "https://docs.symbiotic.fi/",
+      "canonicalSourceUrl": "https://docs.symbiotic.fi/",
+      "capturedAt": "2026-02-03T09:01:51.969Z",
+      "crawlRunId": "e2bef5837dd5a48b21c95b5773d6ad849b8ee2a06903159a5fb4737b170a4120",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 72,
+      "successfulPages": 72,
+      "structure": [
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.symbiotic.fi/get-started/resources/addresses"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.symbiotic.fi/get-started/resources/analytics-and-apis"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.symbiotic.fi/get-started/developers/developers-hub"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.symbiotic.fi/get-started/developers/relay-quickstart"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.symbiotic.fi/get-started/resources/points-program"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.symbiotic.fi/get-started/resources/audits"
+        },
+        {
+          "type": "Risks – Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/resources/risks"
+        },
+        {
+          "type": "Ecosystem – Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/resources/ecosystem"
+        },
+        {
+          "type": "Use Cases – Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/use-cases"
+        },
+        {
+          "type": "Bridges and Cross-chain Messaging – Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/use-cases/bridges-cross-chain-messaging"
+        },
+        {
+          "type": "Chain Agnostic Applications – Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/use-cases/chain-agnostic-applications"
+        },
+        {
+          "type": "Decentralized Compute and AI Verification – Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/use-cases/decentralized-compute-ai-verification"
+        },
+        {
+          "type": "General Attestation Layers – Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/use-cases/general-attestation-layers"
+        },
+        {
+          "type": "Insurance and Guarantees – Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/use-cases/insurance-and-guarantees"
+        },
+        {
+          "type": "Liquidity Management – Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/use-cases/liquidity-management"
+        },
+        {
+          "type": "Oracle Networks and Data Feeds – Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/use-cases/oracle-networks-data-feeds"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/what/components/slashing"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/what/components/rewards"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/what/components/vaults"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/what/overview"
+        },
+        {
+          "type": "Relay SDK – Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/what/relay"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/what/participants/networks"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/what/participants/curators"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/get-started/what/participants/operators"
+        },
+        {
+          "type": "Get Started – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/builders-researchers"
+        },
+        {
+          "type": "Introduction – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate"
+        },
+        {
+          "type": "ABIs And Bindings – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/builders-researchers/abis-and-bindings"
+        },
+        {
+          "type": "APIs – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/builders-researchers/apis"
+        },
+        {
+          "type": "Hints – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/builders-researchers/hints"
+        },
+        {
+          "type": "Events – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/builders-researchers/events"
+        },
+        {
+          "type": "Get Started – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/curators"
+        },
+        {
+          "type": "Helpful Core Contracts' Endpoints – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/curators/helpful-core-contracts-endpoints"
+        },
+        {
+          "type": "Deploy Vault – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/curators/deploy-vault"
+        },
+        {
+          "type": "Manage Allocations – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/curators/manage-allocations"
+        },
+        {
+          "type": "Manage & Claim Fees – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/curators/registry-and-fees"
+        },
+        {
+          "type": "Submit Metadata – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/curators/submit-metadata"
+        },
+        {
+          "type": "Get Started – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/networks"
+        },
+        {
+          "type": "Relay Off-Chain – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/networks/relay-offchain"
+        },
+        {
+          "type": "Vault Wrapping – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/curators/vault-wrapping"
+        },
+        {
+          "type": "Helpful Core Contracts' Endpoints – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/networks/helpful-core-contracts-endpoints"
+        },
+        {
+          "type": "Quickstart: Network with Staking – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/networks/minimal-network"
+        },
+        {
+          "type": "Network Contract – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/networks/network-contract"
+        },
+        {
+          "type": "Deploy Pre-deposit Vault – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/networks/pre-deposit"
+        },
+        {
+          "type": "Relay On-Chain – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/networks/relay-onchain"
+        },
+        {
+          "type": "Distribute Rewards – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/networks/rewards"
+        },
+        {
+          "type": "Get Started – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/operators"
+        },
+        {
+          "type": "Submit Metadata – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/networks/submit-metadata"
+        },
+        {
+          "type": "Slashing – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/networks/slashing"
+        },
+        {
+          "type": "Claim Rewards – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/operators/claim-rewards"
+        },
+        {
+          "type": "Helpful Core Contracts' Endpoints – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/operators/helpful-core-contracts-endpoints"
+        },
+        {
+          "type": "Opt Into Networks and Vaults – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/operators/opt-ins"
+        },
+        {
+          "type": "Register Operator – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/operators/register-operator"
+        },
+        {
+          "type": "Submit Metadata – Symbiotic",
+          "url": "https://docs.symbiotic.fi/integrate/operators/submit-metadata"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn/core-concepts/curator"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn/core-concepts/operator"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn/core-concepts/vault"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn/core-concepts/rewards"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn/core-concepts/network"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn/core-concepts/slashing"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn/mechanics/epochs-and-delays"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn/mechanics/registries-and-opt-ins"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn/relay"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn/relay/secure-attestations"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn/relay/valset"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn/relay/settlement"
+        },
+        {
+          "type": "Relay Quickstart – Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn/relay/dev-workflow"
+        },
+        {
+          "type": "Symbiotic",
+          "url": "https://docs.symbiotic.fi/learn/relay/voting-power"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.symbiotic.fi/llms.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.symbiotic.fi/llms-full.txt"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "419a9106ce31633aa09e8b3e6df02f3f3b9bcb4b22224afdc7795abde64ecc6b"
 }

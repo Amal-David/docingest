@@ -37,5 +37,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.convex.dev/components/stripe",
+      "canonicalSeedUrl": "https://www.convex.dev/components/stripe",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-22T13:58:44.964Z",
+      "completedAt": "2025-12-22T13:58:44.964Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.convex.dev/components/stripe",
+          "canonicalUrl": "https://www.convex.dev/components/stripe",
+          "status": "valid"
+        }
+      ],
+      "id": "8cc5d248d73529d466886a4eed28317f8fb4971657b93e667a028e48497a4f54",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1e9a9701c0c6e5fe9e5bdb4f76501992f002eefdaf02e96e11768736eb34ebcc",
+      "filename": "documentation_2025-12-22T13:58:44.964Z.md",
+      "contentHash": "8b10d219021615314c257fecccd37b8194eef5077fe2c57df204e175de7a63c0",
+      "sourceUrl": "https://www.convex.dev/components/stripe",
+      "canonicalSourceUrl": "https://www.convex.dev/components/stripe",
+      "capturedAt": "2025-12-22T13:58:44.964Z",
+      "crawlRunId": "8cc5d248d73529d466886a4eed28317f8fb4971657b93e667a028e48497a4f54",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Stripe",
+          "url": "https://www.convex.dev/components/stripe"
+        },
+        {
+          "type": "Stripe Starter",
+          "url": "https://www.convex.dev/templates/stripe"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1e9a9701c0c6e5fe9e5bdb4f76501992f002eefdaf02e96e11768736eb34ebcc"
 }

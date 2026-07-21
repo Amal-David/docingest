@@ -56,5 +56,99 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.randomlabs.ai/en/getting-started/quickstart",
+      "canonicalSeedUrl": "https://docs.randomlabs.ai/en/getting-started/quickstart",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-14T20:08:45.385Z",
+      "completedAt": "2026-03-14T20:08:45.385Z",
+      "providerTotals": {
+        "discovered": 9,
+        "returned": 9,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.randomlabs.ai/en/getting-started/quickstart",
+          "canonicalUrl": "https://docs.randomlabs.ai/en/getting-started/quickstart",
+          "status": "valid"
+        }
+      ],
+      "id": "75d35ab4311e3ac7c7a2c463f4aeab3e92d654f01baab2f184847801a6b10be8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3252c2b617bc025a908969333f518747e2ee19b6c0c6d00a3d89df1156cf9c72",
+      "filename": "documentation_2026-03-14T20:08:45.385Z.md",
+      "contentHash": "b08dc5eb3b0f3f0417d852f115f710f1baa5e2cc9a36cfeefd4e94a09184c832",
+      "sourceUrl": "https://docs.randomlabs.ai/en/getting-started/quickstart",
+      "canonicalSourceUrl": "https://docs.randomlabs.ai/en/getting-started/quickstart",
+      "capturedAt": "2026-03-14T20:08:45.385Z",
+      "crawlRunId": "75d35ab4311e3ac7c7a2c463f4aeab3e92d654f01baab2f184847801a6b10be8",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 9,
+      "successfulPages": 9,
+      "structure": [
+        {
+          "type": "Quickstart - Slate",
+          "url": "https://docs.randomlabs.ai/en/getting-started/quickstart"
+        },
+        {
+          "type": "Introduction - Slate",
+          "url": "https://docs.randomlabs.ai/"
+        },
+        {
+          "type": "Introduction - Slate",
+          "url": "https://docs.randomlabs.ai/en/getting-started/introduction"
+        },
+        {
+          "type": "Configuration - Slate",
+          "url": "https://docs.randomlabs.ai/en/using-slate/configuration"
+        },
+        {
+          "type": "Troubleshooting - Slate",
+          "url": "https://docs.randomlabs.ai/en/using-slate/troubleshooting"
+        },
+        {
+          "type": "The Basics - Slate",
+          "url": "https://docs.randomlabs.ai/en/using-slate"
+        },
+        {
+          "type": "Prompting Guide - Slate",
+          "url": "https://docs.randomlabs.ai/en/using-slate/prompting_guide"
+        },
+        {
+          "type": "Hotkey Reference - Slate",
+          "url": "https://docs.randomlabs.ai/en/using-slate/hotkey_reference"
+        },
+        {
+          "type": "Workspace Setup - Slate",
+          "url": "https://docs.randomlabs.ai/en/using-slate/workspace_setup"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3252c2b617bc025a908969333f518747e2ee19b6c0c6d00a3d89df1156cf9c72"
 }

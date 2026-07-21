@@ -37,5 +37,71 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://claytonfarr.github.io/ralph-playbook/",
+      "canonicalSeedUrl": "https://claytonfarr.github.io/ralph-playbook",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-30T19:42:13.637Z",
+      "completedAt": "2026-01-30T19:42:13.637Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://claytonfarr.github.io/ralph-playbook/",
+          "canonicalUrl": "https://claytonfarr.github.io/ralph-playbook",
+          "status": "valid"
+        }
+      ],
+      "id": "31e80e800d9a55ca41558bfd12730b86fa454906beb866a270e4f65a08484e85",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d56e058469364129c9cf4ffd35bfcf473cafd623daced03f7f2baf0660a80cea",
+      "filename": "documentation_2026-01-30T19:42:13.637Z.md",
+      "contentHash": "e6540ba03a4bbb469f9a96e7b1c8e4ab46dd1ba326ea63e78294421a1e214876",
+      "sourceUrl": "https://claytonfarr.github.io/ralph-playbook/",
+      "canonicalSourceUrl": "https://claytonfarr.github.io/ralph-playbook",
+      "capturedAt": "2026-01-30T19:42:13.637Z",
+      "crawlRunId": "31e80e800d9a55ca41558bfd12730b86fa454906beb866a270e4f65a08484e85",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "The Ralph Playbook",
+          "url": "https://claytonfarr.github.io/ralph-playbook/"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://claytonfarr.github.io/ralph-playbook/references/sandbox-environments.md"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d56e058469364129c9cf4ffd35bfcf473cafd623daced03f7f2baf0660a80cea"
 }

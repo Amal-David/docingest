@@ -80,5 +80,123 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/plugin-front-end-actions/field-types-table",
+      "canonicalSeedUrl": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/plugin-front-end-actions/field-types-table",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-29T19:21:26.584Z",
+      "completedAt": "2025-03-29T19:21:26.584Z",
+      "providerTotals": {
+        "discovered": 15,
+        "returned": 15,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/plugin-front-end-actions/field-types-table",
+          "canonicalUrl": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/plugin-front-end-actions/field-types-table",
+          "status": "valid"
+        }
+      ],
+      "id": "a6c0d509dc2faac7884eff394f81dafd823b5120cfb2cb1a39b40c4478cd357f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e08acc6082cd1a74d831e66e37fe5ebeae331bb9c3f61d63c8074e1dc9eadf5b",
+      "filename": "documentation_2025-03-29T19:21:26.584Z.md",
+      "contentHash": "731db8301c4fd9cdad6d5bf0404fa887d6c64d85fe130c6dc40bfbe3f8209d2f",
+      "sourceUrl": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/plugin-front-end-actions/field-types-table",
+      "canonicalSourceUrl": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/plugin-front-end-actions/field-types-table",
+      "capturedAt": "2025-03-29T19:21:26.584Z",
+      "crawlRunId": "a6c0d509dc2faac7884eff394f81dafd823b5120cfb2cb1a39b40c4478cd357f",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 15,
+      "successfulPages": 15,
+      "structure": [
+        {
+          "type": "Field types table | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/plugin-front-end-actions/field-types-table"
+        },
+        {
+          "type": "Getting Started | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin"
+        },
+        {
+          "type": "Get Firebase access credentials | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/setup/get-firebase-access-credentials"
+        },
+        {
+          "type": "Secure your credentials and data | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/setup/secure-your-credentials-and-data"
+        },
+        {
+          "type": "About elements | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/plugin-elements/about-elements"
+        },
+        {
+          "type": "Security Rules on Firebase | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/setup/secure-your-credentials-and-data/security-rules-on-firebase"
+        },
+        {
+          "type": "Offline Support | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/setup/offline-support"
+        },
+        {
+          "type": "Firestore Data Extractor | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/plugin-elements/firestore-data-extractor"
+        },
+        {
+          "type": "Create a Firebase Project | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/setup/create-a-firebase-project"
+        },
+        {
+          "type": "Restrict your api-key to your domain | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/setup/secure-your-credentials-and-data/restrict-your-api-key-to-your-domain"
+        },
+        {
+          "type": "Firebase Auth (Current User) | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/plugin-elements/firebase-auth-current-user"
+        },
+        {
+          "type": "Firestore Data (legacy) | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/plugin-elements/firestore-data-list/firestore-data-legacy"
+        },
+        {
+          "type": "Firebase Geohash | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/plugin-elements/firestore-data-list/firebase-geohash"
+        },
+        {
+          "type": "Data Schemas | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/plugin-elements/data-schemas"
+        },
+        {
+          "type": "Firestore Data Single | Firebase Auth, Firestore & Storage (plugin)",
+          "url": "https://estare.gitbook.io/firebase-auth-firestore-and-storage-plugin/plugin-elements/firestore-data-single"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e08acc6082cd1a74d831e66e37fe5ebeae331bb9c3f61d63c8074e1dc9eadf5b"
 }

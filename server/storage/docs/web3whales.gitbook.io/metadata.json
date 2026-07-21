@@ -50,5 +50,75 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://web3whales.gitbook.io/whitepaper",
+      "canonicalSeedUrl": "https://web3whales.gitbook.io/whitepaper",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-16T09:55:00.250Z",
+      "completedAt": "2025-07-16T09:55:00.250Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://web3whales.gitbook.io/whitepaper",
+          "canonicalUrl": "https://web3whales.gitbook.io/whitepaper",
+          "status": "valid"
+        }
+      ],
+      "id": "bcfdcc668e43f3ed4cbe5907f303b70b8bbd9ff416933c8832d8b7f12710b1c2",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "68c8a66a0384e3ca41198130169a4cbb6f4b8fd27329d9a6f1888989e798e0b9",
+      "filename": "documentation_2025-07-16T09:55:00.250Z.md",
+      "contentHash": "1ffab986eebdb75301224b07ff62d5bb81909b29498f7af9e5a8c7400b15c46e",
+      "sourceUrl": "https://web3whales.gitbook.io/whitepaper",
+      "canonicalSourceUrl": "https://web3whales.gitbook.io/whitepaper",
+      "capturedAt": "2025-07-16T09:55:00.250Z",
+      "crawlRunId": "bcfdcc668e43f3ed4cbe5907f303b70b8bbd9ff416933c8832d8b7f12710b1c2",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "structure": [
+        {
+          "type": "Introduction | Web3Whales",
+          "url": "https://web3whales.gitbook.io/whitepaper"
+        },
+        {
+          "type": "Vesting & Distribution | Web3Whales",
+          "url": "https://web3whales.gitbook.io/whitepaper/tokenomics/vesting-and-distribution"
+        },
+        {
+          "type": "Private Sale A | Web3Whales",
+          "url": "https://web3whales.gitbook.io/whitepaper/tokenomics/vesting-and-distribution/private-sale-a"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "68c8a66a0384e3ca41198130169a4cbb6f4b8fd27329d9a6f1888989e798e0b9"
 }

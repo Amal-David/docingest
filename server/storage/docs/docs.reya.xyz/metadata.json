@@ -208,5 +208,251 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.reya.xyz/",
+      "canonicalSeedUrl": "https://docs.reya.xyz/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-22T12:34:02.484Z",
+      "completedAt": "2026-01-22T12:34:02.484Z",
+      "providerTotals": {
+        "discovered": 47,
+        "returned": 47,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.reya.xyz/",
+          "canonicalUrl": "https://docs.reya.xyz/",
+          "status": "valid"
+        }
+      ],
+      "id": "d84a2f119535ae5de1b6bcf1f73c8c16680f60fe722d4d4e5d076875cf60f97a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fc8bb2acaadffbf77e25b82e6ec2336ca204c4c232c5cb066017a789b3bc6641",
+      "filename": "documentation_2026-01-22T12:34:02.484Z.md",
+      "contentHash": "345f5fe1f9d707aa5801b277120f50e8cd938a94b837e3073ce882591158d955",
+      "sourceUrl": "https://docs.reya.xyz/",
+      "canonicalSourceUrl": "https://docs.reya.xyz/",
+      "capturedAt": "2026-01-22T12:34:02.484Z",
+      "crawlRunId": "d84a2f119535ae5de1b6bcf1f73c8c16680f60fe722d4d4e5d076875cf60f97a",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 47,
+      "successfulPages": 47,
+      "structure": [
+        {
+          "type": "What Is Reya | Reya",
+          "url": "https://docs.reya.xyz/"
+        },
+        {
+          "type": "Why Reya Exists | Reya",
+          "url": "https://docs.reya.xyz/get-started/why-reya-exists"
+        },
+        {
+          "type": "Who Is Behind Reya | Reya",
+          "url": "https://docs.reya.xyz/get-started/who-is-behind-reya"
+        },
+        {
+          "type": "Architecture (at a glance) | Reya",
+          "url": "https://docs.reya.xyz/get-started/architecture-at-a-glance"
+        },
+        {
+          "type": "Reya Roadmap | Reya",
+          "url": "https://docs.reya.xyz/get-started/reya-roadmap"
+        },
+        {
+          "type": "How Reya Is Different | Reya",
+          "url": "https://docs.reya.xyz/get-started/how-reya-is-different"
+        },
+        {
+          "type": "Perpetual Futures | Reya",
+          "url": "https://docs.reya.xyz/trading/perpetual-futures"
+        },
+        {
+          "type": "Derivatives Clearing | Reya",
+          "url": "https://docs.reya.xyz/trading/derivatives-clearing"
+        },
+        {
+          "type": "Margin System | Reya",
+          "url": "https://docs.reya.xyz/trading/margin-system"
+        },
+        {
+          "type": "Cross-margining | Reya",
+          "url": "https://docs.reya.xyz/trading/cross-margining"
+        },
+        {
+          "type": "Cross-collateralization | Reya",
+          "url": "https://docs.reya.xyz/trading/cross-collateralization"
+        },
+        {
+          "type": "Smart Contract Withdrawals | Developers | Reya",
+          "url": "https://docs.reya.xyz/developers/smart-contract-withdrawals"
+        },
+        {
+          "type": "Rest API Reference | Developers | Reya",
+          "url": "https://docs.reya.xyz/developers"
+        },
+        {
+          "type": "Haircuts | Reya",
+          "url": "https://docs.reya.xyz/trading/cross-collateralization/haircuts"
+        },
+        {
+          "type": "Specs | Developers | Reya",
+          "url": "https://docs.reya.xyz/developers/rest-api-reference/specs"
+        },
+        {
+          "type": "Auto-exchange conditions | Reya",
+          "url": "https://docs.reya.xyz/trading/cross-collateralization/auto-exchange-conditions"
+        },
+        {
+          "type": "Signatures and Nonces | Developers | Reya",
+          "url": "https://docs.reya.xyz/developers/rest-api-reference/signatures-and-nonces"
+        },
+        {
+          "type": "Rate Limits | Developers | Reya",
+          "url": "https://docs.reya.xyz/developers/rest-api-reference/rate-limits"
+        },
+        {
+          "type": "Reference Data | Developers | Reya",
+          "url": "https://docs.reya.xyz/developers/rest-api-reference/reference-data"
+        },
+        {
+          "type": "Dutch auction | Reya",
+          "url": "https://docs.reya.xyz/trading/liquidation-engine/dutch-auction"
+        },
+        {
+          "type": "Auto-exchange mechanism | Reya",
+          "url": "https://docs.reya.xyz/trading/cross-collateralization/auto-exchange-mechanism"
+        },
+        {
+          "type": "Insurance Funds | Reya",
+          "url": "https://docs.reya.xyz/trading/liquidation-engine/insurance-funds"
+        },
+        {
+          "type": "Allocation & Release Schedule | Reya",
+          "url": "https://docs.reya.xyz/reya-token/allocation-and-release-schedule"
+        },
+        {
+          "type": "Backstop LPs | Reya",
+          "url": "https://docs.reya.xyz/trading/liquidation-engine/backstop-lps"
+        },
+        {
+          "type": "Wallet Data | Developers | Reya",
+          "url": "https://docs.reya.xyz/developers/rest-api-reference/wallet-data"
+        },
+        {
+          "type": "Models | Developers | Reya",
+          "url": "https://docs.reya.xyz/developers/rest-api-reference/models"
+        },
+        {
+          "type": "Token Design | Reya",
+          "url": "https://docs.reya.xyz/reya-token/token-design"
+        },
+        {
+          "type": "Governance | Reya",
+          "url": "https://docs.reya.xyz/reya-token/token-design/governance"
+        },
+        {
+          "type": "Context | Reya",
+          "url": "https://docs.reya.xyz/reya-token/context"
+        },
+        {
+          "type": "Monetary Policy | Reya",
+          "url": "https://docs.reya.xyz/reya-token/token-design/monetary-policy"
+        },
+        {
+          "type": "sREYA Additional Utility | Reya",
+          "url": "https://docs.reya.xyz/reya-token/token-design/sreya-additional-utility"
+        },
+        {
+          "type": "Reya Chain Points: FAQs | Reya",
+          "url": "https://docs.reya.xyz/reya-token/reya-chain-points-faqs"
+        },
+        {
+          "type": "Introduction | Reya",
+          "url": "https://docs.reya.xyz/chain/introduction"
+        },
+        {
+          "type": "FAQs | Reya",
+          "url": "https://docs.reya.xyz/native-stablecoin/faqs"
+        },
+        {
+          "type": "Ranked liquidations | Reya",
+          "url": "https://docs.reya.xyz/trading/liquidation-engine/ranked-liquidations"
+        },
+        {
+          "type": "Network Security and Economic Incentives | Reya",
+          "url": "https://docs.reya.xyz/reya-token/token-design/network-security-and-economic-incentives"
+        },
+        {
+          "type": "Liquidation Engine | Reya",
+          "url": "https://docs.reya.xyz/trading/liquidation-engine"
+        },
+        {
+          "type": "Introduction | Reya",
+          "url": "https://docs.reya.xyz/native-stablecoin/introduction"
+        },
+        {
+          "type": "Order Entry | Developers | Reya",
+          "url": "https://docs.reya.xyz/developers/rest-api-reference/order-entry"
+        },
+        {
+          "type": "Audits | Reya",
+          "url": "https://docs.reya.xyz/technical-docs/audits"
+        },
+        {
+          "type": "srUSD | Reya",
+          "url": "https://docs.reya.xyz/native-stablecoin/srusd"
+        },
+        {
+          "type": "Market Data | Developers | Reya",
+          "url": "https://docs.reya.xyz/developers/rest-api-reference/market-data"
+        },
+        {
+          "type": "Websocket API Reference | Developers | Reya",
+          "url": "https://docs.reya.xyz/developers/websocket-api-reference"
+        },
+        {
+          "type": "Reya DEX REST API v2 | Reya",
+          "url": "https://docs.reya.xyz/technical-docs"
+        },
+        {
+          "type": "Auto-exchange and Liquidations | Reya",
+          "url": "https://docs.reya.xyz/reya-products/reyadex/trading-on-reya-dex/auto-exchange-and-liquidations"
+        },
+        {
+          "type": "Rate Limits | Reya",
+          "url": "https://docs.reya.xyz/technical-docs/reya-dex-rest-api-v2/rate-limits"
+        },
+        {
+          "type": "Reya DEX | Reya",
+          "url": "https://docs.reya.xyz/trading/reya-dex"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fc8bb2acaadffbf77e25b82e6ec2336ca204c4c232c5cb066017a789b3bc6641"
 }

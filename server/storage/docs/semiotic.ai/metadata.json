@@ -168,5 +168,211 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://semiotic.ai/articles/sumcheck-tutorial/",
+      "canonicalSeedUrl": "https://semiotic.ai/articles/sumcheck-tutorial",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-02T09:50:22.797Z",
+      "completedAt": "2025-04-02T09:50:22.797Z",
+      "providerTotals": {
+        "discovered": 37,
+        "returned": 37,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://semiotic.ai/articles/sumcheck-tutorial/",
+          "canonicalUrl": "https://semiotic.ai/articles/sumcheck-tutorial",
+          "status": "valid"
+        }
+      ],
+      "id": "919462c8300c1ab3efa10ca67ccbf45daa8c13a329bed25fab2704f56d1a11be",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b37545393f68acc5252121008f9ab4cfd5159339f207b462513d3d6c5ae720ba",
+      "filename": "documentation_2025-04-02T09:50:22.797Z.md",
+      "contentHash": "501367e2e142446bc16f158d8369490d949e7e735f9d8ccf0876be1e5f17eff9",
+      "sourceUrl": "https://semiotic.ai/articles/sumcheck-tutorial/",
+      "canonicalSourceUrl": "https://semiotic.ai/articles/sumcheck-tutorial",
+      "capturedAt": "2025-04-02T09:50:22.797Z",
+      "crawlRunId": "919462c8300c1ab3efa10ca67ccbf45daa8c13a329bed25fab2704f56d1a11be",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "structure": [
+        {
+          "type": "Introduction to the Sum-Check Protocol",
+          "url": "https://semiotic.ai/articles/sumcheck-tutorial/"
+        },
+        {
+          "type": "Strategy",
+          "url": "https://semiotic.ai/strategy"
+        },
+        {
+          "type": "Semiotic Labs",
+          "url": "https://semiotic.ai/"
+        },
+        {
+          "type": "Products",
+          "url": "https://semiotic.ai/products"
+        },
+        {
+          "type": "Company history",
+          "url": "https://semiotic.ai/history"
+        },
+        {
+          "type": "Semiotic Labs | Articles",
+          "url": "https://semiotic.ai/articles"
+        },
+        {
+          "type": "Semiotic Labs | Videos",
+          "url": "https://semiotic.ai/videos"
+        },
+        {
+          "type": "Semiotic Labs | Podcasts",
+          "url": "https://semiotic.ai/podcasts"
+        },
+        {
+          "type": "Semiotic Labs | Articles",
+          "url": "https://semiotic.ai/articles/category/ai"
+        },
+        {
+          "type": "Branding Assets",
+          "url": "https://semiotic.ai/branding"
+        },
+        {
+          "type": "Semiotic Labs | Articles",
+          "url": "https://semiotic.ai/articles/category/defi"
+        },
+        {
+          "type": "Semiotic Labs | Articles",
+          "url": "https://semiotic.ai/articles/category/blockchain-infrastructure"
+        },
+        {
+          "type": "Semiotic Labs | Articles",
+          "url": "https://semiotic.ai/articles/category/cryptography"
+        },
+        {
+          "type": "Semiotic Labs | Articles by Sam Green",
+          "url": "https://semiotic.ai/authors/sam-green"
+        },
+        {
+          "type": "Semiotic Labs | Podcasts",
+          "url": "https://semiotic.ai/podcasts/ai"
+        },
+        {
+          "type": "2024 Crypto Meta-Analysis",
+          "url": "https://semiotic.ai/articles/2024-crypto-market-outlooks/"
+        },
+        {
+          "type": "Homomorphic Signatures for Payment Channels",
+          "url": "https://semiotic.ai/articles/h2s2-payment-channels/"
+        },
+        {
+          "type": "Semiotic Labs | Articles",
+          "url": "https://semiotic.ai/articles/"
+        },
+        {
+          "type": "PSI with FHE",
+          "url": "https://semiotic.ai/articles/psi/"
+        },
+        {
+          "type": "Semiotic Labs | Podcasts",
+          "url": "https://semiotic.ai/podcasts/blockchain-infrastructure"
+        },
+        {
+          "type": "Indexer Allocation Optimization: Part II",
+          "url": "https://semiotic.ai/articles/indexer-allocation-optimization-part-ii/"
+        },
+        {
+          "type": "Semiotic Labs | Podcasts",
+          "url": "https://semiotic.ai/podcasts/cryptography"
+        },
+        {
+          "type": "An Overview of Automatic Market Maker Mechanisms",
+          "url": "https://semiotic.ai/articles/automatic-market-makers-amm/"
+        },
+        {
+          "type": "Semiotic Labs | Podcasts",
+          "url": "https://semiotic.ai/podcasts/defi"
+        },
+        {
+          "type": "Automated Query Pricing in The Graph",
+          "url": "https://semiotic.ai/articles/automated-query-pricing-on-the-graph/"
+        },
+        {
+          "type": "Indexer Allocation Optimization: Part I",
+          "url": "https://semiotic.ai/articles/indexer-allocation-optimisation/"
+        },
+        {
+          "type": "Semiotic Labs | Videos",
+          "url": "https://semiotic.ai/videos/blockchain-infrastructure"
+        },
+        {
+          "type": "Semiotic Labs | Videos",
+          "url": "https://semiotic.ai/videos/cryptography"
+        },
+        {
+          "type": "Semiotic Labs | Videos",
+          "url": "https://semiotic.ai/videos/ai"
+        },
+        {
+          "type": "Semiotic Labs | Videos",
+          "url": "https://semiotic.ai/videos/defi"
+        },
+        {
+          "type": "Semiotic Labs | Podcasts",
+          "url": "https://semiotic.ai/podcasts/"
+        },
+        {
+          "type": "Semiotic Labs | Articles by Carollan Helinski",
+          "url": "https://semiotic.ai/authors/carollan-helinski"
+        },
+        {
+          "type": "Semiotic Labs | Articles by Alexis Asseman",
+          "url": "https://semiotic.ai/authors/alexis-asseman"
+        },
+        {
+          "type": "Semiotic Labs | Articles by Lichu Acuña",
+          "url": "https://semiotic.ai/authors/lichu"
+        },
+        {
+          "type": "Semiotic Labs | Videos",
+          "url": "https://semiotic.ai/videos/"
+        },
+        {
+          "type": "Semiotic Labs | Articles by Matt Deible",
+          "url": "https://semiotic.ai/authors/matt-deible"
+        },
+        {
+          "type": "Semiotic Labs | Articles by Anirudh A. Patel",
+          "url": "https://semiotic.ai/authors/anirudh"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b37545393f68acc5252121008f9ab4cfd5159339f207b462513d3d6c5ae720ba"
 }

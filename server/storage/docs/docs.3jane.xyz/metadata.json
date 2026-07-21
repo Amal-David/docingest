@@ -176,5 +176,219 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.3jane.xyz/",
+      "canonicalSeedUrl": "https://docs.3jane.xyz/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-21T15:55:32.079Z",
+      "completedAt": "2026-04-21T15:55:32.079Z",
+      "providerTotals": {
+        "discovered": 39,
+        "returned": 39,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.3jane.xyz/",
+          "canonicalUrl": "https://docs.3jane.xyz/",
+          "status": "valid"
+        }
+      ],
+      "id": "93df716d94516cdca5a222ec19d327290f0bec3a943fc5e14f6a5f5f55be3bb8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4a60e905d1e802f6b3623a950a57c610829d3a4efb5c7ceef001134c3977579f",
+      "filename": "documentation_2026-04-21T15:55:32.079Z.md",
+      "contentHash": "3de881ef1d4a28ab41a1a939a8dcef6c7a8f75ace9aefbd79d4982c571e37277",
+      "sourceUrl": "https://docs.3jane.xyz/",
+      "canonicalSourceUrl": "https://docs.3jane.xyz/",
+      "capturedAt": "2026-04-21T15:55:32.079Z",
+      "crawlRunId": "93df716d94516cdca5a222ec19d327290f0bec3a943fc5e14f6a5f5f55be3bb8",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 39,
+      "successfulPages": 39,
+      "structure": [
+        {
+          "type": "Manifesto | 3Jane",
+          "url": "https://docs.3jane.xyz/"
+        },
+        {
+          "type": "Introduction | 3Jane",
+          "url": "https://docs.3jane.xyz/introduction"
+        },
+        {
+          "type": "Scaling | 3Jane",
+          "url": "https://docs.3jane.xyz/scaling"
+        },
+        {
+          "type": "Core Money Market | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture/core-money-market"
+        },
+        {
+          "type": "Merchants | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture/core-money-market/merchants"
+        },
+        {
+          "type": "Pool Interest Rates | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture/core-money-market/pool-interest-rates"
+        },
+        {
+          "type": "Suppliers | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture/core-money-market/suppliers"
+        },
+        {
+          "type": "Pool Backing | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture/core-money-market/pool-backing"
+        },
+        {
+          "type": "Credit Underwriter | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture/credit-underwriter"
+        },
+        {
+          "type": "Payments | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture/core-money-market/payments"
+        },
+        {
+          "type": "3CA Algorithm | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture/credit-underwriter/3ca-algorithm"
+        },
+        {
+          "type": "Jane Score | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture/credit-underwriter/jane-score"
+        },
+        {
+          "type": "Assets | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture/credit-underwriter/assets"
+        },
+        {
+          "type": "Credit Slasher | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture/credit-slasher"
+        },
+        {
+          "type": "Legal Recourse | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture/credit-slasher/legal-recourse"
+        },
+        {
+          "type": "Debt Write-Off | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture/credit-slasher/debt-write-off"
+        },
+        {
+          "type": "Liquidity Mining | 3Jane",
+          "url": "https://docs.3jane.xyz/jane/liquidity-mining"
+        },
+        {
+          "type": "Protocol Global Config | 3Jane",
+          "url": "https://docs.3jane.xyz/protocol-global-config"
+        },
+        {
+          "type": "Proofs | 3Jane",
+          "url": "https://docs.3jane.xyz/proofs-and-privacy/proofs"
+        },
+        {
+          "type": "Risks | 3Jane",
+          "url": "https://docs.3jane.xyz/risks"
+        },
+        {
+          "type": "Privacy & Storage | 3Jane",
+          "url": "https://docs.3jane.xyz/privacy-and-storage"
+        },
+        {
+          "type": "Pull Example - Farmer 1 | 3Jane",
+          "url": "https://docs.3jane.xyz/examples/pull-example-farmer-1"
+        },
+        {
+          "type": "Underwriting Example | 3Jane",
+          "url": "https://docs.3jane.xyz/underwriting-example"
+        },
+        {
+          "type": "Pull Example - Trader 1 | 3Jane",
+          "url": "https://docs.3jane.xyz/pull-example-trader-1"
+        },
+        {
+          "type": "Pull Credit Line | 3Jane",
+          "url": "https://docs.3jane.xyz/guide/pull-credit-line"
+        },
+        {
+          "type": "Supply USDC | 3Jane",
+          "url": "https://docs.3jane.xyz/guide/supply-usdc"
+        },
+        {
+          "type": "Addresses | 3Jane",
+          "url": "https://docs.3jane.xyz/developers/addresses"
+        },
+        {
+          "type": "Links | 3Jane",
+          "url": "https://docs.3jane.xyz/resources/links"
+        },
+        {
+          "type": "Audits | 3Jane",
+          "url": "https://docs.3jane.xyz/resources/audits"
+        },
+        {
+          "type": "FAQ | 3Jane",
+          "url": "https://docs.3jane.xyz/resources/faq"
+        },
+        {
+          "type": "Integrations | 3Jane",
+          "url": "https://docs.3jane.xyz/resources/integrations"
+        },
+        {
+          "type": "Default Game Theory | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture/credit-slasher/default-game-theory"
+        },
+        {
+          "type": "Core Money Market | 3Jane",
+          "url": "https://docs.3jane.xyz/architecture"
+        },
+        {
+          "type": "Liquidity Mining | 3Jane",
+          "url": "https://docs.3jane.xyz/jane"
+        },
+        {
+          "type": "Proofs | 3Jane",
+          "url": "https://docs.3jane.xyz/proofs-and-privacy"
+        },
+        {
+          "type": "Addresses | 3Jane",
+          "url": "https://docs.3jane.xyz/developers"
+        },
+        {
+          "type": "Pull Credit Line | 3Jane",
+          "url": "https://docs.3jane.xyz/guide"
+        },
+        {
+          "type": "Pull Example - Farmer 1 | 3Jane",
+          "url": "https://docs.3jane.xyz/examples"
+        },
+        {
+          "type": "FAQ | 3Jane",
+          "url": "https://docs.3jane.xyz/resources"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4a60e905d1e802f6b3623a950a57c610829d3a4efb5c7ceef001134c3977579f"
 }

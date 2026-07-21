@@ -32,5 +32,75 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://pro-docs.svc.vinted.com/",
+      "canonicalSeedUrl": "https://pro-docs.svc.vinted.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-17T10:44:00.138Z",
+      "completedAt": "2026-07-17T10:44:00.138Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://pro-docs.svc.vinted.com/",
+          "canonicalUrl": "https://pro-docs.svc.vinted.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "9f6dd9e8c951cfff1ba9b074a1a19a9c32a3e05a3fc8b6664ea35afc2a01d935",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "79ae323f5c7504c4f89f0d4a0acf1975824b3d410fbc8f616030f0756a9aa543",
+      "filename": "documentation_2026-07-17T10:44:00.138Z.md",
+      "contentHash": "fc8a952282818ab99f8db1d9ea65a404f4961fa9458a53db519c8c4e06851e4b",
+      "sourceUrl": "https://pro-docs.svc.vinted.com/",
+      "canonicalSourceUrl": "https://pro-docs.svc.vinted.com/",
+      "capturedAt": "2026-07-17T10:44:00.138Z",
+      "crawlRunId": "9f6dd9e8c951cfff1ba9b074a1a19a9c32a3e05a3fc8b6664ea35afc2a01d935",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "structure": [
+        {
+          "type": "API Documentation",
+          "url": "https://pro-docs.svc.vinted.com/"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://pro-docs.svc.vinted.com/downloads/api.yml"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://pro-docs.svc.vinted.com/downloads/postman-collection.json"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "79ae323f5c7504c4f89f0d4a0acf1975824b3d410fbc8f616030f0756a9aa543"
 }

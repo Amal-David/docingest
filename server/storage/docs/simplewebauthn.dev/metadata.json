@@ -80,5 +80,123 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://simplewebauthn.dev/docs/",
+      "canonicalSeedUrl": "https://simplewebauthn.dev/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-03T15:35:55.254Z",
+      "completedAt": "2025-04-03T15:35:55.254Z",
+      "providerTotals": {
+        "discovered": 15,
+        "returned": 15,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://simplewebauthn.dev/docs/",
+          "canonicalUrl": "https://simplewebauthn.dev/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "75be0c4d817c8700615ed493fded385ab2b825d50417af14cb4171852c6e2752",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "6062a7a8f0fec9ad86de093e15fa86e007c9106b1cd498529722fcd650340788",
+      "filename": "documentation_2025-04-03T15:35:55.254Z.md",
+      "contentHash": "c38a819b7c658842980ab264b0b8a7c0d5ca552708351d19dfc2dac02497dd1b",
+      "sourceUrl": "https://simplewebauthn.dev/docs/",
+      "canonicalSourceUrl": "https://simplewebauthn.dev/docs",
+      "capturedAt": "2025-04-03T15:35:55.254Z",
+      "crawlRunId": "75be0c4d817c8700615ed493fded385ab2b825d50417af14cb4171852c6e2752",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 15,
+      "successfulPages": 15,
+      "structure": [
+        {
+          "type": "Introduction | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/"
+        },
+        {
+          "type": "Example Project | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/advanced/example-project"
+        },
+        {
+          "type": "Philosophy | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/simplewebauthn/philosophy"
+        },
+        {
+          "type": "Passkeys | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/advanced/passkeys"
+        },
+        {
+          "type": "Supported Devices | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/advanced/supported-devices"
+        },
+        {
+          "type": "@simplewebauthn/browser | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/packages/browser"
+        },
+        {
+          "type": "Browser Quirks | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/advanced/browser-quirks"
+        },
+        {
+          "type": "FIDO Conformance | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/advanced/fido-conformance"
+        },
+        {
+          "type": "@simplewebauthn/types | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/packages/types"
+        },
+        {
+          "type": "@simplewebauthn/server | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/packages/server"
+        },
+        {
+          "type": "Custom User IDs | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/advanced/server/custom-user-ids"
+        },
+        {
+          "type": "Custom Challenges | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/advanced/server/custom-challenges"
+        },
+        {
+          "type": "Metadata Service | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/advanced/server/metadata-service"
+        },
+        {
+          "type": "Secure Payment Confirmation | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/advanced/server/secure-payment-confirmation"
+        },
+        {
+          "type": "Settings Service | SimpleWebAuthn",
+          "url": "https://simplewebauthn.dev/docs/advanced/server/settings-service"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "6062a7a8f0fec9ad86de093e15fa86e007c9106b1cd498529722fcd650340788"
 }

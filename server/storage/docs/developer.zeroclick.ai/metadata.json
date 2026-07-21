@@ -112,5 +112,155 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developer.zeroclick.ai/docs",
+      "canonicalSeedUrl": "https://developer.zeroclick.ai/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-09T12:00:02.500Z",
+      "completedAt": "2026-02-09T12:00:02.500Z",
+      "providerTotals": {
+        "discovered": 23,
+        "returned": 23,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developer.zeroclick.ai/docs",
+          "canonicalUrl": "https://developer.zeroclick.ai/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "cacdbbddad7d8055a8156aca670b3130e9d52ca9159704b3f9069bcf59999c58",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8235281f88de67ca0a3329139e4449c4e7607c59be49f79aba06497b7240ffe4",
+      "filename": "documentation_2026-02-09T12:00:02.500Z.md",
+      "contentHash": "9517ee379ec432209f560044175a8f96468aa5064a7becd876a41ea435d71a2b",
+      "sourceUrl": "https://developer.zeroclick.ai/docs",
+      "canonicalSourceUrl": "https://developer.zeroclick.ai/docs",
+      "capturedAt": "2026-02-09T12:00:02.500Z",
+      "crawlRunId": "cacdbbddad7d8055a8156aca670b3130e9d52ca9159704b3f9069bcf59999c58",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 23,
+      "successfulPages": 23,
+      "structure": [
+        {
+          "type": "Overview - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs"
+        },
+        {
+          "type": "Overview - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/integration-guide"
+        },
+        {
+          "type": "Get developer analytics metrics - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/api-reference/analytics/get-developer-analytics-metrics"
+        },
+        {
+          "type": "Impression Tracking - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/offers/mcp-impression-tracking"
+        },
+        {
+          "type": "Get ZeroClick offers - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/api-reference/offers/get-zeroclick-offers"
+        },
+        {
+          "type": "Technical Reference - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/offers/mcp-reference"
+        },
+        {
+          "type": "Track offer impressions - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/api-reference/tracking/track-offer-impressions"
+        },
+        {
+          "type": "MCP Ad Server - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/offers/mcp-overview"
+        },
+        {
+          "type": "Headers Reference - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/signal-collection/headers"
+        },
+        {
+          "type": "Setup - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/signal-collection/setup"
+        },
+        {
+          "type": "Quickstart - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/quickstart"
+        },
+        {
+          "type": "Testing - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/signal-collection/testing"
+        },
+        {
+          "type": "Overview - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/signal-collection/overview"
+        },
+        {
+          "type": "Tool Reference - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/signal-collection/tools"
+        },
+        {
+          "type": "Overview - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/offers/overview"
+        },
+        {
+          "type": "Tools - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/offers/mcp-tools"
+        },
+        {
+          "type": "REST API - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/offers/rest-api"
+        },
+        {
+          "type": "What is ZeroClick - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/what-is-zeroclick"
+        },
+        {
+          "type": "Quickstart - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/offers/mcp-quickstart"
+        },
+        {
+          "type": "Overview - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/offers"
+        },
+        {
+          "type": "Overview - ZeroClick",
+          "url": "https://developer.zeroclick.ai/docs/signal-collection"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://developer.zeroclick.ai/docs/developer-analytics"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://developer.zeroclick.ai/docs/impression-tracking"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8235281f88de67ca0a3329139e4449c4e7607c59be49f79aba06497b7240ffe4"
 }

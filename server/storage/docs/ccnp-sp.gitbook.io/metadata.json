@@ -114,5 +114,139 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://ccnp-sp.gitbook.io/studyguide",
+      "canonicalSeedUrl": "https://ccnp-sp.gitbook.io/studyguide",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-08T16:01:35.989Z",
+      "completedAt": "2025-12-08T16:01:35.989Z",
+      "providerTotals": {
+        "discovered": 19,
+        "returned": 19,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://ccnp-sp.gitbook.io/studyguide",
+          "canonicalUrl": "https://ccnp-sp.gitbook.io/studyguide",
+          "status": "valid"
+        }
+      ],
+      "id": "3c5956782e31d1bd6ff68f2a364c16234c96a37cadac48f77a324d403026c93b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "10808f86a955e8970b990dc7dce225d9d64dc3d7bcbdedc4b75f46aca73dbd3b",
+      "filename": "documentation_2025-12-08T16:01:35.989Z.md",
+      "contentHash": "52c06eedc45c68e0e779f5616050045ba480d6b65cf091e6382e857ec3b58e39",
+      "sourceUrl": "https://ccnp-sp.gitbook.io/studyguide",
+      "canonicalSourceUrl": "https://ccnp-sp.gitbook.io/studyguide",
+      "capturedAt": "2025-12-08T16:01:35.989Z",
+      "crawlRunId": "3c5956782e31d1bd6ff68f2a364c16234c96a37cadac48f77a324d403026c93b",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 19,
+      "successfulPages": 19,
+      "structure": [
+        {
+          "type": "About | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide"
+        },
+        {
+          "type": "About the Author | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/about/about-the-author"
+        },
+        {
+          "type": "LDP | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/mpls/ldp"
+        },
+        {
+          "type": "About This Study Guide | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/about/about-this-study-guide"
+        },
+        {
+          "type": "MPLS OAM | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/mpls/mpls-oam"
+        },
+        {
+          "type": "BGP Security | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/routing/bgp-security"
+        },
+        {
+          "type": "Unified MPLS | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/mpls/unified-mpls"
+        },
+        {
+          "type": "BGP | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/routing/bgp"
+        },
+        {
+          "type": "OSPF | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/routing/ospf"
+        },
+        {
+          "type": "Segment Routing | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/mpls/segment-routing"
+        },
+        {
+          "type": "MPLS-TE | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/mpls/mpls-te"
+        },
+        {
+          "type": "IPv6 Transition | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/routing/ipv6-transition"
+        },
+        {
+          "type": "ISIS | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/routing/isis"
+        },
+        {
+          "type": "L3VPN | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/routing/l3vpn"
+        },
+        {
+          "type": "IOS-XE Ethernet Services | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/l2vpn-and-ethernet/ios-xe-ethernet-services"
+        },
+        {
+          "type": "EVPN | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/l2vpn-and-ethernet/evpn"
+        },
+        {
+          "type": "Carrier Ethernet | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/l2vpn-and-ethernet/carrier-ethernet"
+        },
+        {
+          "type": "IOS Software Overview | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/misc/ios-software-overview"
+        },
+        {
+          "type": "Transport | The (Unofficial) CCNP-SP Study Guide",
+          "url": "https://ccnp-sp.gitbook.io/studyguide/misc/transport"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "10808f86a955e8970b990dc7dce225d9d64dc3d7bcbdedc4b75f46aca73dbd3b"
 }

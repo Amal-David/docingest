@@ -80,5 +80,123 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.ankr.com/docs/",
+      "canonicalSeedUrl": "https://www.ankr.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-23T23:05:57.270Z",
+      "completedAt": "2025-12-23T23:05:57.270Z",
+      "providerTotals": {
+        "discovered": 15,
+        "returned": 15,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.ankr.com/docs/",
+          "canonicalUrl": "https://www.ankr.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "f44ef274b1b26325e3b7adb67c43111c72a6c901f503cfd383a7254b90817511",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "08859acbdc08e4cb7ce03cfd22a744c27e017a14434294c7e15e47e7eec70d8a",
+      "filename": "documentation_2025-12-23T23:05:57.270Z.md",
+      "contentHash": "bdc3178bb6cb39ecac6c682ec6eaf3a78c8739a07f07ad4270440da67665d5ac",
+      "sourceUrl": "https://www.ankr.com/docs/",
+      "canonicalSourceUrl": "https://www.ankr.com/docs",
+      "capturedAt": "2025-12-23T23:05:57.270Z",
+      "crawlRunId": "f44ef274b1b26325e3b7adb67c43111c72a6c901f503cfd383a7254b90817511",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 15,
+      "successfulPages": 15,
+      "structure": [
+        {
+          "type": "Welcome to Ankr Docs — Ankr",
+          "url": "https://www.ankr.com/docs/"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.ankr.com/docs/pdf/smart_contract_security_audit_bnb_peckshield.pdf"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.ankr.com/docs/pdf/smart_contract_security_audit_ftm.pdf"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.ankr.com/docs/pdf/ankr_delegated_staking_audit_veridise.pdf"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.ankr.com/docs/pdf/smart_contract_security_audit_ankrbnb_veridise_feb_2023.pdf"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.ankr.com/docs/pdf/stkr_smart_contract_auditing_report.pdf"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.ankr.com/docs/pdf/ankr_bridge_security_audit.pdf"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.ankr.com/docs/pdf/smart_contract_security_audit_flow_halborn.pdf"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.ankr.com/docs/pdf/smart_contract_security_audit.pdf"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.ankr.com/docs/pdf/smart_contract_security_audit_matic.pdf"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.ankr.com/docs/pdf/smart_contract_security_audit_bnb.pdf"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.ankr.com/docs/pdf/smart_contract_security_audit_ankreth_salus.pdf"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.ankr.com/docs/pdf/system_smart_contracts_security_audit.pdf"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.ankr.com/docs/pdf/smart_contract_security_audit_avax_beosin.pdf"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.ankr.com/docs/pdf/ankr-whitepaper-2.0.pdf"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "08859acbdc08e4cb7ce03cfd22a744c27e017a14434294c7e15e47e7eec70d8a"
 }

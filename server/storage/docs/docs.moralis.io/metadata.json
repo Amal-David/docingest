@@ -24,5 +24,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.moralis.io/",
+      "canonicalSeedUrl": "https://docs.moralis.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-23T23:06:58.909Z",
+      "completedAt": "2025-12-23T23:06:58.909Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.moralis.io/",
+          "canonicalUrl": "https://docs.moralis.io/",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-content"
+        }
+      ],
+      "id": "064c9f9333b231c2e48ebdaf3780046dcc3185afda1bf349f21abe8446e5d455",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 1,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "50488c500faf5db242a2db2c9a8713fdc5a087b2fe98bee97011e477e523ef85",
+      "filename": "documentation_2025-12-23T23:06:58.909Z.md",
+      "contentHash": "90805820418312a35fd24ed5734a662e2235cbbddc75087f6699fdf6770c3cdc",
+      "sourceUrl": "https://docs.moralis.io/",
+      "canonicalSourceUrl": "https://docs.moralis.io/",
+      "capturedAt": "2025-12-23T23:06:58.909Z",
+      "crawlRunId": "064c9f9333b231c2e48ebdaf3780046dcc3185afda1bf349f21abe8446e5d455",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.moralis.io/"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "checkpoint-or-challenge-content"
+        ]
+      }
+    }
+  ]
 }

@@ -92,5 +92,135 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://sportmonks-py.readthedocs.io/en/stable/",
+      "canonicalSeedUrl": "https://sportmonks-py.readthedocs.io/en/stable",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-24T16:12:07.454Z",
+      "completedAt": "2026-02-24T16:12:07.454Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://sportmonks-py.readthedocs.io/en/stable/",
+          "canonicalUrl": "https://sportmonks-py.readthedocs.io/en/stable",
+          "status": "valid"
+        }
+      ],
+      "id": "9167808c4d3657c93971dc1530c339d6e99cf0b94208473d6546bc7cb0179755",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3a386ae781e207c4225093063b4e9a0b5154a37ac4d67704c0e23bf7d9df5ffd",
+      "filename": "documentation_2026-02-24T16:12:07.454Z.md",
+      "contentHash": "d14ec44410c3b4dfb569019f73c10038a4789c04c42fa8b3308a1e69277f3d85",
+      "sourceUrl": "https://sportmonks-py.readthedocs.io/en/stable/",
+      "canonicalSourceUrl": "https://sportmonks-py.readthedocs.io/en/stable",
+      "capturedAt": "2026-02-24T16:12:07.454Z",
+      "crawlRunId": "9167808c4d3657c93971dc1530c339d6e99cf0b94208473d6546bc7cb0179755",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "SportMonks-Py documentation — SportMonks-Py v0.0.3 documentation",
+          "url": "https://sportmonks-py.readthedocs.io/en/stable/"
+        },
+        {
+          "type": "SportMonks-Py documentation — SportMonks-Py v0.0.3 documentation",
+          "url": "https://sportmonks-py.readthedocs.io/en/latest/"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://sportmonks-py.readthedocs.io/en/stable/_sources/index.rst.txt"
+        },
+        {
+          "type": "src — SportMonks-Py v0.0.3 documentation",
+          "url": "https://sportmonks-py.readthedocs.io/en/stable/modules.html"
+        },
+        {
+          "type": "utils package — SportMonks-Py v0.0.3 documentation",
+          "url": "https://sportmonks-py.readthedocs.io/en/stable/utils.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://sportmonks-py.readthedocs.io/en/latest/_sources/index.rst.txt"
+        },
+        {
+          "type": "utils package — SportMonks-Py v0.0.3 documentation",
+          "url": "https://sportmonks-py.readthedocs.io/en/latest/utils.html"
+        },
+        {
+          "type": "sportmonks_py.utils package — SportMonks-Py v0.0.3 documentation",
+          "url": "https://sportmonks-py.readthedocs.io/en/stable/sportmonks_py.utils.html"
+        },
+        {
+          "type": "src — SportMonks-Py v0.0.3 documentation",
+          "url": "https://sportmonks-py.readthedocs.io/en/latest/modules.html"
+        },
+        {
+          "type": "sportmonks_py package — SportMonks-Py v0.0.3 documentation",
+          "url": "https://sportmonks-py.readthedocs.io/en/latest/sportmonks_py.html"
+        },
+        {
+          "type": "sportmonks_py package — SportMonks-Py v0.0.3 documentation",
+          "url": "https://sportmonks-py.readthedocs.io/en/stable/sportmonks_py.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://sportmonks-py.readthedocs.io/en/stable/_sources/utils.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://sportmonks-py.readthedocs.io/en/latest/_sources/utils.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://sportmonks-py.readthedocs.io/en/latest/_sources/sportmonks_py.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://sportmonks-py.readthedocs.io/en/stable/_sources/sportmonks_py.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://sportmonks-py.readthedocs.io/en/stable/_sources/sportmonks_py.utils.rst.txt"
+        },
+        {
+          "type": "sportmonks_py.utils package — SportMonks-Py v0.0.3 documentation",
+          "url": "https://sportmonks-py.readthedocs.io/en/latest/sportmonks_py.utils.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://sportmonks-py.readthedocs.io/en/latest/_sources/sportmonks_py.utils.rst.txt"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3a386ae781e207c4225093063b4e9a0b5154a37ac4d67704c0e23bf7d9df5ffd"
 }

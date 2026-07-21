@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://api.skillseekersweb.com/docs",
+      "canonicalSeedUrl": "https://api.skillseekersweb.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-13T11:13:36.832Z",
+      "completedAt": "2026-03-13T11:13:36.832Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://api.skillseekersweb.com/docs",
+          "canonicalUrl": "https://api.skillseekersweb.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "080eb0f3c570cffbe839919200f73343f30008a18e6a779a2fb1483d22b6ab94",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ef053e7aaaec84f869913556f3d78344c5c418fec53f255c75e9bc637e7f9462",
+      "filename": "documentation_2026-03-13T11:13:36.832Z.md",
+      "contentHash": "7842ed91ec1507c50f3f7b0afd041c5dd88ad9814328c874846a313a7c59c55b",
+      "sourceUrl": "https://api.skillseekersweb.com/docs",
+      "canonicalSourceUrl": "https://api.skillseekersweb.com/docs",
+      "capturedAt": "2026-03-13T11:13:36.832Z",
+      "crawlRunId": "080eb0f3c570cffbe839919200f73343f30008a18e6a779a2fb1483d22b6ab94",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Skill Seekers Config API - Swagger UI",
+          "url": "https://api.skillseekersweb.com/docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ef053e7aaaec84f869913556f3d78344c5c418fec53f255c75e9bc637e7f9462"
 }

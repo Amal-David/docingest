@@ -52,5 +52,95 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.drosera.io/",
+      "canonicalSeedUrl": "https://www.drosera.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-21T21:57:38.812Z",
+      "completedAt": "2025-09-21T21:57:38.812Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.drosera.io/",
+          "canonicalUrl": "https://www.drosera.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "f1a046d076e1c73697855d11fc1c68a87cce5a7c7657f839fc7db3d9522638cf",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b7b7ec0c9b2f480e72e0533f252da33376c4f654d6036ad9a1491c94cdb215a8",
+      "filename": "documentation_2025-09-21T21:57:38.812Z.md",
+      "contentHash": "b4c3f2ec602718a2670b97be8004f2572a4272a9f87a7c0b980731422eafd681",
+      "sourceUrl": "https://www.drosera.io/",
+      "canonicalSourceUrl": "https://www.drosera.io/",
+      "capturedAt": "2025-09-21T21:57:38.812Z",
+      "crawlRunId": "f1a046d076e1c73697855d11fc1c68a87cce5a7c7657f839fc7db3d9522638cf",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Drosera Network",
+          "url": "https://www.drosera.io/"
+        },
+        {
+          "type": "Vision",
+          "url": "https://www.drosera.io/vision"
+        },
+        {
+          "type": "Traps",
+          "url": "https://www.drosera.io/traps"
+        },
+        {
+          "type": "Developers",
+          "url": "https://www.drosera.io/developers"
+        },
+        {
+          "type": "Team",
+          "url": "https://www.drosera.io/team"
+        },
+        {
+          "type": "Contact",
+          "url": "https://www.drosera.io/contact"
+        },
+        {
+          "type": "Case Studies",
+          "url": "https://www.drosera.io/case-studies"
+        },
+        {
+          "type": "Operators",
+          "url": "https://www.drosera.io/operators"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b7b7ec0c9b2f480e72e0533f252da33376c4f654d6036ad9a1491c94cdb215a8"
 }

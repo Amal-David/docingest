@@ -100,5 +100,143 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.mage.ai/about/features",
+      "canonicalSeedUrl": "https://docs.mage.ai/about/features",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-16T00:46:21.081Z",
+      "completedAt": "2025-03-16T00:46:21.081Z",
+      "providerTotals": {
+        "discovered": 20,
+        "returned": 20,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.mage.ai/about/features",
+          "canonicalUrl": "https://docs.mage.ai/about/features",
+          "status": "valid"
+        }
+      ],
+      "id": "b7547eb4a23899ab5221e5295b20044d06eae569822909fa3b2ea79845e18158",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "344c754aaf28d55b8dc6c9caf8f0474b49a309179246df4515834c977a39bf14",
+      "filename": "documentation_2025-03-16T00:46:21.081Z.md",
+      "contentHash": "92ab391005993c7fb8bedebfe7d7c995fb215d8a1c3405389d2d79dfb456c194",
+      "sourceUrl": "https://docs.mage.ai/about/features",
+      "canonicalSourceUrl": "https://docs.mage.ai/about/features",
+      "capturedAt": "2025-03-16T00:46:21.081Z",
+      "crawlRunId": "b7547eb4a23899ab5221e5295b20044d06eae569822909fa3b2ea79845e18158",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 20,
+      "successfulPages": 20,
+      "structure": [
+        {
+          "type": "Features - Mage AI",
+          "url": "https://docs.mage.ai/about/features"
+        },
+        {
+          "type": "Frequently Asked Questions - Mage AI",
+          "url": "https://docs.mage.ai/about/frequently-asked-questions"
+        },
+        {
+          "type": "Roadmap - Mage AI",
+          "url": "https://docs.mage.ai/about/roadmap"
+        },
+        {
+          "type": "AI Clients - Mage AI",
+          "url": "https://docs.mage.ai/ai/ai-client"
+        },
+        {
+          "type": "Code of Conduct - Mage AI",
+          "url": "https://docs.mage.ai/about/code-of-conduct"
+        },
+        {
+          "type": "Releases - Mage AI",
+          "url": "https://docs.mage.ai/about/releases"
+        },
+        {
+          "type": "Using AI (artificial intelligence) - Mage AI",
+          "url": "https://docs.mage.ai/ai/setup"
+        },
+        {
+          "type": "Help improve the tool - Mage AI",
+          "url": "https://docs.mage.ai/about/statistics"
+        },
+        {
+          "type": "Changelog - Mage AI",
+          "url": "https://docs.mage.ai/about/changelog"
+        },
+        {
+          "type": "Retrieval Augmented Generation (RAG) pipeline builder - Mage AI",
+          "url": "https://docs.mage.ai/ai/rag-pipeline"
+        },
+        {
+          "type": "Customized AI resources for training and inference - Mage AI",
+          "url": "https://docs.mage.ai/ai/custom-resources"
+        },
+        {
+          "type": "Machine learning pipeline tutorial - Mage AI",
+          "url": "https://docs.mage.ai/ai/ml/train-model"
+        },
+        {
+          "type": "User defined permissions - Mage AI",
+          "url": "https://docs.mage.ai/authentication/permissions/overview"
+        },
+        {
+          "type": "LinkedIn - Mage AI",
+          "url": "https://docs.mage.ai/community/linkedin"
+        },
+        {
+          "type": "Twitter - Mage AI",
+          "url": "https://docs.mage.ai/community/twitter"
+        },
+        {
+          "type": "Roles - Mage AI",
+          "url": "https://docs.mage.ai/authentication/permissions/roles"
+        },
+        {
+          "type": "Your AI data engineer - Mage AI",
+          "url": "https://docs.mage.ai/ai/sidekick/index"
+        },
+        {
+          "type": "Adding an IO class - Mage AI",
+          "url": "https://docs.mage.ai/contributing/backend/io/adding-a-class"
+        },
+        {
+          "type": "Slack - Mage AI",
+          "url": "https://docs.mage.ai/community/slack"
+        },
+        {
+          "type": "Blog - Mage AI",
+          "url": "https://docs.mage.ai/community/blog"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "344c754aaf28d55b8dc6c9caf8f0474b49a309179246df4515834c977a39bf14"
 }

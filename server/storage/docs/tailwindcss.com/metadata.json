@@ -127,5 +127,143 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://tailwindcss.com/docs/aspect-ratio",
+      "canonicalSeedUrl": "https://tailwindcss.com/docs/aspect-ratio",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-01T10:20:23.503Z",
+      "completedAt": "2026-03-01T10:20:23.503Z",
+      "providerTotals": {
+        "discovered": 20,
+        "returned": 20,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://tailwindcss.com/docs/aspect-ratio",
+          "canonicalUrl": "https://tailwindcss.com/docs/aspect-ratio",
+          "status": "valid"
+        }
+      ],
+      "id": "d16fb50263a85f726092268d34b62c6bdb325b9c86e87fbf1f511f4008f014e4",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "73c0cc5376a364abef3f2e84be719d5130388a0e8c9747392466992dc6a86b85",
+      "filename": "documentation_2026-03-01T10:20:23.503Z.md",
+      "contentHash": "01852cc268f11ea1e305d7f34fbd773397bafcd8f57bbbf7644b72a76b27b5f2",
+      "sourceUrl": "https://tailwindcss.com/docs/aspect-ratio",
+      "canonicalSourceUrl": "https://tailwindcss.com/docs/aspect-ratio",
+      "capturedAt": "2026-03-01T10:20:23.503Z",
+      "crawlRunId": "d16fb50263a85f726092268d34b62c6bdb325b9c86e87fbf1f511f4008f014e4",
+      "upstreamVersion": "1.2.1",
+      "upstreamChannel": "latest",
+      "totalPages": 20,
+      "successfulPages": 20,
+      "structure": [
+        {
+          "type": "aspect-ratio - Layout - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/aspect-ratio"
+        },
+        {
+          "type": "Detecting classes in source files - Core concepts - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/detecting-classes-in-source-files"
+        },
+        {
+          "type": "Theme variables - Core concepts - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/theme"
+        },
+        {
+          "type": "Functions and directives - Core concepts - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/functions-and-directives"
+        },
+        {
+          "type": "columns - Layout - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/columns"
+        },
+        {
+          "type": "Upgrade guide - Getting started - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/upgrade-guide"
+        },
+        {
+          "type": "Adding custom styles - Core concepts - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/adding-custom-styles"
+        },
+        {
+          "type": "Compatibility - Getting started - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/compatibility"
+        },
+        {
+          "type": "Responsive design - Core concepts - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/responsive-design"
+        },
+        {
+          "type": "break-after - Layout - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/break-after"
+        },
+        {
+          "type": "Editor setup - Getting started - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/editor-setup"
+        },
+        {
+          "type": "Dark mode - Core concepts - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/dark-mode"
+        },
+        {
+          "type": "Preflight - Base styles - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/preflight"
+        },
+        {
+          "type": "Colors - Core concepts - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/colors"
+        },
+        {
+          "type": "Installing Tailwind CSS with Vite - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs"
+        },
+        {
+          "type": "Styling with utility classes - Core concepts - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+        },
+        {
+          "type": "break-before - Layout - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/break-before"
+        },
+        {
+          "type": "Hover, focus, and other states - Core concepts - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/hover-focus-and-other-states"
+        },
+        {
+          "type": "break-inside - Layout - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/break-inside"
+        },
+        {
+          "type": "box-decoration-break - Layout - Tailwind CSS",
+          "url": "https://tailwindcss.com/docs/box-decoration-break"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "73c0cc5376a364abef3f2e84be719d5130388a0e8c9747392466992dc6a86b85"
 }

@@ -140,5 +140,183 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.strikefinance.org/",
+      "canonicalSeedUrl": "https://docs.strikefinance.org/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-14T18:04:19.679Z",
+      "completedAt": "2025-12-14T18:04:19.679Z",
+      "providerTotals": {
+        "discovered": 30,
+        "returned": 30,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.strikefinance.org/",
+          "canonicalUrl": "https://docs.strikefinance.org/",
+          "status": "valid"
+        }
+      ],
+      "id": "f9f142615789684fcfe6c5bf070ce81572a50bf02f038c43b2381347e41cdfbe",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2c5254b93ef29bff570f1b5cf46580fefef03057bfdf1f121540c138827d8993",
+      "filename": "documentation_2025-12-14T18:04:19.679Z.md",
+      "contentHash": "35a34a2d402e8b8e224a67128d6c991971879ef4416de6df4114b0c0c213bcc5",
+      "sourceUrl": "https://docs.strikefinance.org/",
+      "canonicalSourceUrl": "https://docs.strikefinance.org/",
+      "capturedAt": "2025-12-14T18:04:19.679Z",
+      "crawlRunId": "f9f142615789684fcfe6c5bf070ce81572a50bf02f038c43b2381347e41cdfbe",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "structure": [
+        {
+          "type": "Welcome | Strike Finance",
+          "url": "https://docs.strikefinance.org/"
+        },
+        {
+          "type": "Staking | Strike Finance",
+          "url": "https://docs.strikefinance.org/api-documentation/staking"
+        },
+        {
+          "type": "Models | Strike Finance",
+          "url": "https://docs.strikefinance.org/api-documentation/perpetuals/models"
+        },
+        {
+          "type": "Liquidity | Strike Finance",
+          "url": "https://docs.strikefinance.org/api-documentation/perpetuals/liquidity"
+        },
+        {
+          "type": "Perpetuals | Strike Finance",
+          "url": "https://docs.strikefinance.org/api-documentation/perpetuals"
+        },
+        {
+          "type": "Data Fetching | Strike Finance",
+          "url": "https://docs.strikefinance.org/api-documentation/perpetuals/data-fetching"
+        },
+        {
+          "type": "Models | Strike Finance",
+          "url": "https://docs.strikefinance.org/api-documentation/submit-transaction/models"
+        },
+        {
+          "type": "Positions | Strike Finance",
+          "url": "https://docs.strikefinance.org/api-documentation/perpetuals/positions"
+        },
+        {
+          "type": "Models | Strike Finance",
+          "url": "https://docs.strikefinance.org/api-documentation/staking/models"
+        },
+        {
+          "type": "Submit Transaction | Strike Finance",
+          "url": "https://docs.strikefinance.org/api-documentation/submit-transaction"
+        },
+        {
+          "type": "Liquidity Provision | Strike Finance",
+          "url": "https://docs.strikefinance.org/perpetuals/publish-your-docs"
+        },
+        {
+          "type": "Data Fetching | Strike Finance",
+          "url": "https://docs.strikefinance.org/api-documentation/staking/data-fetching"
+        },
+        {
+          "type": "Transaction | Strike Finance",
+          "url": "https://docs.strikefinance.org/api-documentation/submit-transaction/transaction"
+        },
+        {
+          "type": "Tutorial | Strike Finance",
+          "url": "https://docs.strikefinance.org/perpetuals/quickstart"
+        },
+        {
+          "type": "Liquidation | Strike Finance",
+          "url": "https://docs.strikefinance.org/perpetuals/liquidation"
+        },
+        {
+          "type": "Partnerships | Strike Finance",
+          "url": "https://docs.strikefinance.org/perpetuals/publish-your-docs/partnerships"
+        },
+        {
+          "type": "Position Settlement | Strike Finance",
+          "url": "https://docs.strikefinance.org/perpetuals/position-settlement"
+        },
+        {
+          "type": "Liquidity Providers | Strike Finance",
+          "url": "https://docs.strikefinance.org/perpetuals/publish-your-docs/liquidity-providers"
+        },
+        {
+          "type": "Risk Management | Strike Finance",
+          "url": "https://docs.strikefinance.org/perpetuals/publish-your-docs/risk-management"
+        },
+        {
+          "type": "Staking | Strike Finance",
+          "url": "https://docs.strikefinance.org/tokenomics/markdown"
+        },
+        {
+          "type": "Parameters | Strike Finance",
+          "url": "https://docs.strikefinance.org/perpetuals/parameters"
+        },
+        {
+          "type": "Tokenomics | Strike Finance",
+          "url": "https://docs.strikefinance.org/tokenomics/editor"
+        },
+        {
+          "type": "Staking | Strike Finance",
+          "url": "https://docs.strikefinance.org/api-documentation/staking/staking"
+        },
+        {
+          "type": "Referrals | Strike Finance",
+          "url": "https://docs.strikefinance.org/v2/referrals"
+        },
+        {
+          "type": "IAG Parameters | Strike Finance",
+          "url": "https://docs.strikefinance.org/perpetuals/parameters/iag-parameters"
+        },
+        {
+          "type": "ADA Parameters | Strike Finance",
+          "url": "https://docs.strikefinance.org/perpetuals/parameters/ada-parameters"
+        },
+        {
+          "type": "WMTX Parameters | Strike Finance",
+          "url": "https://docs.strikefinance.org/perpetuals/parameters/wmtx-parameters"
+        },
+        {
+          "type": "SNEK Parameters | Strike Finance",
+          "url": "https://docs.strikefinance.org/perpetuals/parameters/snek-parameters"
+        },
+        {
+          "type": "Links | Strike Finance",
+          "url": "https://docs.strikefinance.org/social-media/links"
+        },
+        {
+          "type": "BTC Parameters | Strike Finance",
+          "url": "https://docs.strikefinance.org/perpetuals/parameters/btc-parameters"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2c5254b93ef29bff570f1b5cf46580fefef03057bfdf1f121540c138827d8993"
 }

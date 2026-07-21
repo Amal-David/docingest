@@ -236,5 +236,279 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://titan-exchange.gitbook.io/titan/developer-doc",
+      "canonicalSeedUrl": "https://titan-exchange.gitbook.io/titan/developer-doc",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-11T13:37:00.908Z",
+      "completedAt": "2026-06-11T13:37:00.908Z",
+      "providerTotals": {
+        "discovered": 54,
+        "returned": 54,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc",
+          "canonicalUrl": "https://titan-exchange.gitbook.io/titan/developer-doc",
+          "status": "valid"
+        }
+      ],
+      "id": "2b482025d84e9c7f0de0a3acccd18c0aa616a11374fe2e3a282f700d52d35372",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "647b4b75b14367e4be66e7f47b69d1485d7fbaebe1a00b077281c21918760210",
+      "filename": "documentation_2026-06-11T13:37:00.908Z.md",
+      "contentHash": "fd1b04a6398e1f63057f4972df51f4a48f64b391849587233cda1a2750e03772",
+      "sourceUrl": "https://titan-exchange.gitbook.io/titan/developer-doc",
+      "canonicalSourceUrl": "https://titan-exchange.gitbook.io/titan/developer-doc",
+      "capturedAt": "2026-06-11T13:37:00.908Z",
+      "crawlRunId": "2b482025d84e9c7f0de0a3acccd18c0aa616a11374fe2e3a282f700d52d35372",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 54,
+      "successfulPages": 54,
+      "structure": [
+        {
+          "type": "Home | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc"
+        },
+        {
+          "type": "Introduction | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/getting-started/introduction"
+        },
+        {
+          "type": "Quickstart | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/quickstart"
+        },
+        {
+          "type": "Authentication | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/getting-started/authentication"
+        },
+        {
+          "type": "Get API Access | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/getting-started/api-access"
+        },
+        {
+          "type": "Guides | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/guides"
+        },
+        {
+          "type": "API Reference | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference"
+        },
+        {
+          "type": "Overview | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/dart-swap-api/overview"
+        },
+        {
+          "type": "Get API Access | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/dart-swap-api/get-api-access"
+        },
+        {
+          "type": "How to Use | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/dart-swap-api/how-to-use"
+        },
+        {
+          "type": "Overview | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/searchers-limit-orders/overview"
+        },
+        {
+          "type": "Placing Taker Orders | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/searchers-limit-orders/take-order"
+        },
+        {
+          "type": "Limit Order Events | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/searchers-limit-orders/events"
+        },
+        {
+          "type": "Welcome to Titan | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan"
+        },
+        {
+          "type": "Error Codes | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/searchers-limit-orders/error-codes"
+        },
+        {
+          "type": "Meta Aggregation | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/codex-of-knowledge/markdown"
+        },
+        {
+          "type": "SDK Reference | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/resources/sdk"
+        },
+        {
+          "type": "DART Routing | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/codex-of-knowledge/dart-routing"
+        },
+        {
+          "type": "Private Beta | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/getting-started/publish-your-docs"
+        },
+        {
+          "type": "DEX Aggregators | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/codex-of-knowledge/dex-aggregators"
+        },
+        {
+          "type": "How Swaps Work | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/codex-of-knowledge/how-swaps-work"
+        },
+        {
+          "type": "Titan Private Swaps | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/getting-started/titan-private-swaps"
+        },
+        {
+          "type": "Analytics | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/getting-started/analytics"
+        },
+        {
+          "type": "Titan DEX Integrations | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/getting-started/titan-dex-integrations"
+        },
+        {
+          "type": "Titan's Unique Algorithm | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/codex-of-knowledge/editor"
+        },
+        {
+          "type": "Quickstart | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/getting-started/quickstart"
+        },
+        {
+          "type": "Titan DART | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/getting-started/titan-dart"
+        },
+        {
+          "type": "Titan Direct vs Titan Gateway | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/direct-vs-gateway"
+        },
+        {
+          "type": "Titan Gateway | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/gateway"
+        },
+        {
+          "type": "Connection & Negotiation | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/direct/connection"
+        },
+        {
+          "type": "Quote Swap | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/gateway/gateway-quote-swap"
+        },
+        {
+          "type": "Quote Price | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/gateway/gateway-quote-price"
+        },
+        {
+          "type": "Configure Routing | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/guides/configure-routing"
+        },
+        {
+          "type": "Swap V2 vs Swap V3 | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/guides/swap-v2-vs-v3"
+        },
+        {
+          "type": "Transaction Template | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/guides/transaction-template"
+        },
+        {
+          "type": "Fee Collection | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/guides/fee-collection"
+        },
+        {
+          "type": "Error Handling & Reconnect | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/guides/error-handling"
+        },
+        {
+          "type": "Titan Direct | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/direct"
+        },
+        {
+          "type": "GetInfo | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/direct/get-info"
+        },
+        {
+          "type": "Stream & Execute a Swap | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/guides/stream-and-execute"
+        },
+        {
+          "type": "Types Reference | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/types"
+        },
+        {
+          "type": "Usernames and Referrals | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/getting-started/usernames-and-referrals"
+        },
+        {
+          "type": "StopStream | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/direct/stop-stream"
+        },
+        {
+          "type": "GetVenues / ListProviders | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/direct/venues-providers"
+        },
+        {
+          "type": "Prime Mode and Custom Settings | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/getting-started/quickstart-1"
+        },
+        {
+          "type": "GetSwapPrice | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/direct/get-swap-price"
+        },
+        {
+          "type": "Info / Venues / Providers | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/gateway/gateway-info"
+        },
+        {
+          "type": "Community & Support | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/resources/community-and-support"
+        },
+        {
+          "type": "Wire Protocol | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/wire-protocol"
+        },
+        {
+          "type": "Titan Limit Orders | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/getting-started/titan-limit-orders"
+        },
+        {
+          "type": "AI / LLM Integration | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/resources/ai-llm-integration"
+        },
+        {
+          "type": "NewSwapQuoteStream | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/direct/new-swap-quote-stream"
+        },
+        {
+          "type": "Error Codes | Developer Docs | Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/developer-doc/swap-api/reference/error-codes"
+        },
+        {
+          "type": "Titan",
+          "url": "https://titan-exchange.gitbook.io/titan/titan-developer-docs/apis/searchers-limit-orders"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "647b4b75b14367e4be66e7f47b69d1485d7fbaebe1a00b077281c21918760210"
 }

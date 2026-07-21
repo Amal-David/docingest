@@ -182,5 +182,207 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://shotamorgue.gitbook.io/paripidestroyer/",
+      "canonicalSeedUrl": "https://shotamorgue.gitbook.io/paripidestroyer",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-18T18:14:09.922Z",
+      "completedAt": "2025-03-18T18:14:09.922Z",
+      "providerTotals": {
+        "discovered": 36,
+        "returned": 36,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/",
+          "canonicalUrl": "https://shotamorgue.gitbook.io/paripidestroyer",
+          "status": "valid"
+        }
+      ],
+      "id": "4bdc5f4702b249d370b2179f130c26813b5fb3bd3e49b78d3f804006d8893e5c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "235974c9b46593b8a55ff7c08fd26753b2d1bebef926af7b3a36368d75b0dcfa",
+      "filename": "documentation_2025-03-18T18:14:09.922Z.md",
+      "contentHash": "2377b8e256132b5c09e65583d01a47c32b7a7b2ebe8ce66de1858820e0f8f257",
+      "sourceUrl": "https://shotamorgue.gitbook.io/paripidestroyer/",
+      "canonicalSourceUrl": "https://shotamorgue.gitbook.io/paripidestroyer",
+      "capturedAt": "2025-03-18T18:14:09.922Z",
+      "crawlRunId": "4bdc5f4702b249d370b2179f130c26813b5fb3bd3e49b78d3f804006d8893e5c",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 36,
+      "successfulPages": 36,
+      "structure": [
+        {
+          "type": "概要 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/"
+        },
+        {
+          "type": "表記規則 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/intro/typo"
+        },
+        {
+          "type": "クイックスタートガイド | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/intro/quickstart"
+        },
+        {
+          "type": "早見表 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/intro/quick-chart"
+        },
+        {
+          "type": "1. 電源をオンにする | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/intro/quickstart/power-on"
+        },
+        {
+          "type": "機能 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/basic/function"
+        },
+        {
+          "type": "入出力 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/basic/io"
+        },
+        {
+          "type": "モード切替 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/operation/modes"
+        },
+        {
+          "type": "シーケンサー | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/basic/function/sequencer"
+        },
+        {
+          "type": "コマンド入力 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/operation/commands"
+        },
+        {
+          "type": "SOUNDコマンド | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/operation/commands/sound-command"
+        },
+        {
+          "type": "パラメータ表 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/intro/quick-chart/parameter-chart"
+        },
+        {
+          "type": "機能表 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/intro/quick-chart/function-chart"
+        },
+        {
+          "type": "LIVEコマンド | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/operation/commands/live-command"
+        },
+        {
+          "type": "4. シーケンスを入力する | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/intro/quickstart/input-the-sequence"
+        },
+        {
+          "type": "SYNC入出力 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/basic/io/sync-io"
+        },
+        {
+          "type": "3. パラメータを調節する | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/intro/quickstart/adjust-parameters"
+        },
+        {
+          "type": "メモリ | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/basic/function/memory"
+        },
+        {
+          "type": "FXコマンド | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/operation/commands/fx-command"
+        },
+        {
+          "type": "安全上の注意 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/support/safety-precautions"
+        },
+        {
+          "type": "PLAYモード | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/operation/modes/play-mode"
+        },
+        {
+          "type": "音声出力 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/basic/io/audio-out"
+        },
+        {
+          "type": "FUNCコマンド | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/operation/commands/func-command"
+        },
+        {
+          "type": "Global Options | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/operation/global-options"
+        },
+        {
+          "type": "サポート | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/support/contact-and-link"
+        },
+        {
+          "type": "よくある質問 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/support/faq"
+        },
+        {
+          "type": "RECモード | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/operation/modes/rec-mode"
+        },
+        {
+          "type": "レイアウト | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/basic/layout"
+        },
+        {
+          "type": "STOPモード | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/operation/modes/stop-mode"
+        },
+        {
+          "type": "トップパネルの交換 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/operation/top-panel-replacement"
+        },
+        {
+          "type": "2. 音を鳴らす | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/intro/quickstart/make-a-sound"
+        },
+        {
+          "type": "ファームウェアアップデート | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/operation/update"
+        },
+        {
+          "type": "電源 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/basic/io/power-source"
+        },
+        {
+          "type": "取り扱い上の注意 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/support/handling-precautions"
+        },
+        {
+          "type": "免責事項 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/support/disclaimer"
+        },
+        {
+          "type": "保証規定 | ParipiDestroyer Manual",
+          "url": "https://shotamorgue.gitbook.io/paripidestroyer/support/warranty"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "235974c9b46593b8a55ff7c08fd26753b2d1bebef926af7b3a36368d75b0dcfa"
 }

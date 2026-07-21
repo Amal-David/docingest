@@ -52,5 +52,95 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://learn.blueshift.gg/en/courses/anchor-for-dummies/anchor-101",
+      "canonicalSeedUrl": "https://learn.blueshift.gg/en/courses/anchor-for-dummies/anchor-101",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-10T16:00:59.840Z",
+      "completedAt": "2025-11-10T16:00:59.840Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://learn.blueshift.gg/en/courses/anchor-for-dummies/anchor-101",
+          "canonicalUrl": "https://learn.blueshift.gg/en/courses/anchor-for-dummies/anchor-101",
+          "status": "valid"
+        }
+      ],
+      "id": "ec4aaaf7ab423fc75b41c43bb20b202ad8b83cf14bde67942ec16ca4a33ab7bc",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1bb75581250416f7d08de730b05b075ae73ad256f62850ce9ea98d8159a85e6f",
+      "filename": "documentation_2025-11-10T16:00:59.840Z.md",
+      "contentHash": "8a292d5a0ae0bb98c7f823a175afed676f1c9eb3673753e4d314ac013539c09e",
+      "sourceUrl": "https://learn.blueshift.gg/en/courses/anchor-for-dummies/anchor-101",
+      "canonicalSourceUrl": "https://learn.blueshift.gg/en/courses/anchor-for-dummies/anchor-101",
+      "capturedAt": "2025-11-10T16:00:59.840Z",
+      "crawlRunId": "ec4aaaf7ab423fc75b41c43bb20b202ad8b83cf14bde67942ec16ca4a33ab7bc",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Blueshift | Anchor for Dummies | Anchor 101",
+          "url": "https://learn.blueshift.gg/en/courses/anchor-for-dummies/anchor-101"
+        },
+        {
+          "type": "Blueshift | Anchor for Dummies | Testing your Program",
+          "url": "https://learn.blueshift.gg/en/courses/anchor-for-dummies/testing-your-program"
+        },
+        {
+          "type": "Blueshift | Anchor for Dummies | Anchor Accounts",
+          "url": "https://learn.blueshift.gg/en/courses/anchor-for-dummies/anchor-accounts"
+        },
+        {
+          "type": "Blueshift | Anchor for Dummies | Program Deployment",
+          "url": "https://learn.blueshift.gg/en/courses/anchor-for-dummies/program-deployment"
+        },
+        {
+          "type": "Blueshift | Anchor for Dummies | Conclusion",
+          "url": "https://learn.blueshift.gg/en/courses/anchor-for-dummies/conclusion"
+        },
+        {
+          "type": "Blueshift | Anchor for Dummies | Anchor Instructions",
+          "url": "https://learn.blueshift.gg/en/courses/anchor-for-dummies/anchor-instructions"
+        },
+        {
+          "type": "Blueshift | Anchor for Dummies | Client Side Development",
+          "url": "https://learn.blueshift.gg/en/courses/anchor-for-dummies/client-side-development"
+        },
+        {
+          "type": "Blueshift | Anchor for Dummies | Advanced Anchor",
+          "url": "https://learn.blueshift.gg/en/courses/anchor-for-dummies/advanced-anchor"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1bb75581250416f7d08de730b05b075ae73ad256f62850ce9ea98d8159a85e6f"
 }

@@ -135,5 +135,151 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://forgenet.gitbook.io/fluent-documentation",
+      "canonicalSeedUrl": "https://forgenet.gitbook.io/fluent-documentation",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-13T08:24:30.981Z",
+      "completedAt": "2026-07-13T08:24:30.981Z",
+      "providerTotals": {
+        "discovered": 22,
+        "returned": 22,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://forgenet.gitbook.io/fluent-documentation",
+          "canonicalUrl": "https://forgenet.gitbook.io/fluent-documentation",
+          "status": "valid"
+        }
+      ],
+      "id": "5254be58f5885bf452d7fd2ef6fb0a4ec613cabe77ec58a2079f7663163de710",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "6f23627c93addf35c739eaa7764d163d06d4b66d290200cb2b1dbba9f9c5569d",
+      "filename": "documentation_2026-07-13T08:24:30.981Z.md",
+      "contentHash": "503238b217241b9304b1716039ce9501dea279120dbaf575292ebc00d21a0950",
+      "sourceUrl": "https://forgenet.gitbook.io/fluent-documentation",
+      "canonicalSourceUrl": "https://forgenet.gitbook.io/fluent-documentation",
+      "capturedAt": "2026-07-13T08:24:30.981Z",
+      "crawlRunId": "5254be58f5885bf452d7fd2ef6fb0a4ec613cabe77ec58a2079f7663163de710",
+      "upstreamVersion": "1.0.3",
+      "upstreamChannel": "latest",
+      "totalPages": 22,
+      "successfulPages": 22,
+      "structure": [
+        {
+          "type": "Fluent Library | Fluent GUI",
+          "url": "https://forgenet.gitbook.io/fluent-documentation"
+        },
+        {
+          "type": "Quick Start | Fluent GUI",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/quick-start"
+        },
+        {
+          "type": "Guide | Fluent GUI",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/guide"
+        },
+        {
+          "type": "Save Manager | Fluent GUI",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/guide/save-manager"
+        },
+        {
+          "type": "Fluent | Fluent GUI",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/guide/fluent"
+        },
+        {
+          "type": "Documentation | Fluent GUI",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/documentation"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/fluent-library.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/llms.txt"
+        },
+        {
+          "type": "Fluent | Fluent GUI",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/documentation/fluent"
+        },
+        {
+          "type": "Hints | Fluent GUI",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/guide/hints"
+        },
+        {
+          "type": "Interface Manager | Fluent GUI",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/guide/interface-manager"
+        },
+        {
+          "type": "Examples | Fluent GUI",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/examples"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/quick-start.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/guide.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/guide/save-manager.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/guide/fluent.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/documentation.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/documentation/fluent.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/guide/interface-manager.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/examples.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation/guide/hints.md"
+        },
+        {
+          "type": "Guide | Fluent GUI",
+          "url": "https://forgenet.gitbook.io/fluent-documentation/documentation"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "6f23627c93addf35c739eaa7764d163d06d4b66d290200cb2b1dbba9f9c5569d"
 }

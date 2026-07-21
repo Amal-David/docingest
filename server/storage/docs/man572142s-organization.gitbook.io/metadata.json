@@ -252,5 +252,295 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://man572142s-organization.gitbook.io/broaudio",
+      "canonicalSeedUrl": "https://man572142s-organization.gitbook.io/broaudio",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-29T11:14:47.504Z",
+      "completedAt": "2026-01-29T11:14:47.504Z",
+      "providerTotals": {
+        "discovered": 58,
+        "returned": 58,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://man572142s-organization.gitbook.io/broaudio",
+          "canonicalUrl": "https://man572142s-organization.gitbook.io/broaudio",
+          "status": "valid"
+        }
+      ],
+      "id": "9b857d96481b184dfe2b28f2ffaafd15b46f5b691b832fd4857a390c18335f79",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d99ca74cb3410f56621ee15007cad04339c0fd83228458b69dbe8d1feec9f7bb",
+      "filename": "documentation_2026-01-29T11:14:47.504Z.md",
+      "contentHash": "61a92f7d5088d8461ed4bd8f7a3bf1bcd10a3d37c7c8534e43a00904273371cf",
+      "sourceUrl": "https://man572142s-organization.gitbook.io/broaudio",
+      "canonicalSourceUrl": "https://man572142s-organization.gitbook.io/broaudio",
+      "capturedAt": "2026-01-29T11:14:47.504Z",
+      "crawlRunId": "9b857d96481b184dfe2b28f2ffaafd15b46f5b691b832fd4857a390c18335f79",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 58,
+      "successfulPages": 58,
+      "structure": [
+        {
+          "type": "Introduction | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio"
+        },
+        {
+          "type": "Getting Started | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/overview/getting-started"
+        },
+        {
+          "type": "Sound Volume | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/no-code-components/sound-volume"
+        },
+        {
+          "type": "Editor Audio Preview | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/editor-audio-preview"
+        },
+        {
+          "type": "Library Manager | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/library-manager"
+        },
+        {
+          "type": "Compatibility | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/overview/compatibility"
+        },
+        {
+          "type": "Scripting API | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation"
+        },
+        {
+          "type": "Spectrum Analyzer | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/no-code-components/spectrum-analyzer"
+        },
+        {
+          "type": "Create The Library | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/library-manager/create-the-library"
+        },
+        {
+          "type": "Volume | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/library-manager/design-the-sound/volume-control"
+        },
+        {
+          "type": "Fading | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/library-manager/design-the-sound/fade-in-out-and-cross-fade"
+        },
+        {
+          "type": "Randomization | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/library-manager/design-the-sound/randomization"
+        },
+        {
+          "type": "Looping | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/library-manager/design-the-sound/seamless-loop"
+        },
+        {
+          "type": "Velocity | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/library-manager/design-the-sound/velocity"
+        },
+        {
+          "type": "Design The Sound | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/library-manager/design-the-sound"
+        },
+        {
+          "type": "No-Code Components | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/no-code-components"
+        },
+        {
+          "type": "Audio Player | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/audio-player"
+        },
+        {
+          "type": "Sound Source | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/no-code-components/sound-source"
+        },
+        {
+          "type": "Dominator Player | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/audio-player/dominator-player"
+        },
+        {
+          "type": "Spatial & Mix | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/library-manager/design-the-sound/spatial-and-mix"
+        },
+        {
+          "type": "Chained Playback | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/library-manager/design-the-sound/chained-playback"
+        },
+        {
+          "type": "Music Player | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/audio-player/music-player"
+        },
+        {
+          "type": "Playback Group | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/playback-group"
+        },
+        {
+          "type": "Useful Attrubutes | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/tools/useful-attrubutes"
+        },
+        {
+          "type": "Addressables | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/addressables"
+        },
+        {
+          "type": "Audio Effect | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/audio-effect"
+        },
+        {
+          "type": "Audio Effect Editor | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/tools/audio-effect-editor"
+        },
+        {
+          "type": "Audio Clip Editor | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/tools/clip-editor"
+        },
+        {
+          "type": "Customization | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/core-features/customization"
+        },
+        {
+          "type": "Class | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/class"
+        },
+        {
+          "type": "Audio Mixer | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/designs/audio-mixer"
+        },
+        {
+          "type": "Technical Details | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/technical-details"
+        },
+        {
+          "type": "Audio Terminology | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/audio-terminology"
+        },
+        {
+          "type": "BroAdvice | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/class/broadvice"
+        },
+        {
+          "type": "Interface | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/interface"
+        },
+        {
+          "type": "Struct | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/struct"
+        },
+        {
+          "type": "Duplicate SoundID Issue | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/others/known-issues/duplicate-soundid-issue"
+        },
+        {
+          "type": "Support & Contact | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/others/support-and-contact"
+        },
+        {
+          "type": "IAudioSourceProxy | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/interface/iaudiosourceproxy"
+        },
+        {
+          "type": "Unity API Integration | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/unity-api-integration"
+        },
+        {
+          "type": "EffectType | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/enums/effecttype"
+        },
+        {
+          "type": "StopMode | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/enums/stopmode"
+        },
+        {
+          "type": "Fading | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/struct/fading"
+        },
+        {
+          "type": "Known Issues | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/others/known-issues"
+        },
+        {
+          "type": "Enums | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/enums"
+        },
+        {
+          "type": "SoundSource | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/class/soundsource"
+        },
+        {
+          "type": "IMusicPlayer | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/interface/imusicplayer"
+        },
+        {
+          "type": "IAutoResetWaitable | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/interface/iautoresetwaitable"
+        },
+        {
+          "type": "Effect | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/struct/effect"
+        },
+        {
+          "type": "Roadmap | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/others/roadmap"
+        },
+        {
+          "type": "BroAudioType | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/enums/broaudiotype"
+        },
+        {
+          "type": "IPlayerEffect | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/interface/iplayereffect"
+        },
+        {
+          "type": "Transition | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/enums/transition"
+        },
+        {
+          "type": "Ease | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/enums/ease"
+        },
+        {
+          "type": "SoundID | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/struct/audioid"
+        },
+        {
+          "type": "BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/class/broaudio"
+        },
+        {
+          "type": "IAudioPlayer | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/reference/api-documentation/interface/iaudioplayer"
+        },
+        {
+          "type": "Release Notes | BroAudio",
+          "url": "https://man572142s-organization.gitbook.io/broaudio/others/release-notes"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d99ca74cb3410f56621ee15007cad04339c0fd83228458b69dbe8d1feec9f7bb"
 }

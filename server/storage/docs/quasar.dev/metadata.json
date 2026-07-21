@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://quasar.dev/docs",
+      "canonicalSeedUrl": "https://quasar.dev/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-27T08:11:42.225Z",
+      "completedAt": "2025-04-27T08:11:42.225Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://quasar.dev/docs",
+          "canonicalUrl": "https://quasar.dev/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "a86840f8b133371b4f7ba208b68140c51ff3dc0e1025a89a2cfd0118feefd074",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "aed82af084cd969550ba39275ba74ccebe16329c4ed33f48c0b8baacabb7aaea",
+      "filename": "documentation_2025-04-27T08:11:42.225Z.md",
+      "contentHash": "854b9ad3aa54858ddac4150d6be80793359bc77c0eda086911a9b2e2ab77fec4",
+      "sourceUrl": "https://quasar.dev/docs",
+      "canonicalSourceUrl": "https://quasar.dev/docs",
+      "capturedAt": "2025-04-27T08:11:42.225Z",
+      "crawlRunId": "a86840f8b133371b4f7ba208b68140c51ff3dc0e1025a89a2cfd0118feefd074",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Documentation | Quasar Framework",
+          "url": "https://quasar.dev/docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "aed82af084cd969550ba39275ba74ccebe16329c4ed33f48c0b8baacabb7aaea"
 }

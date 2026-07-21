@@ -213,5 +213,247 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.airbyte.com/search",
+      "canonicalSeedUrl": "https://docs.airbyte.com/search",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-26T01:56:42.592Z",
+      "completedAt": "2026-04-26T01:56:42.592Z",
+      "providerTotals": {
+        "discovered": 46,
+        "returned": 46,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.airbyte.com/search",
+          "canonicalUrl": "https://docs.airbyte.com/search",
+          "status": "valid"
+        }
+      ],
+      "id": "9b2d0374cbf8330d4105ddb1619416b7e283e0d953c8369d58353ce1c28f99e7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e8f732736d95e14ad5f736ad9f17a03e5791ea5dd5c7604535ec73d6a4b7e82d",
+      "filename": "documentation_2026-04-26T01:56:42.592Z.md",
+      "contentHash": "bb9fee47af23531a1e212ee14e74297b985337ebb357197b45177695fca58c4b",
+      "sourceUrl": "https://docs.airbyte.com/search",
+      "canonicalSourceUrl": "https://docs.airbyte.com/search",
+      "capturedAt": "2026-04-26T01:56:42.592Z",
+      "crawlRunId": "9b2d0374cbf8330d4105ddb1619416b7e283e0d953c8369d58353ce1c28f99e7",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 46,
+      "successfulPages": 46,
+      "structure": [
+        {
+          "type": "Search the documentation | Airbyte Docs",
+          "url": "https://docs.airbyte.com/search"
+        },
+        {
+          "type": "Agent Engine | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/"
+        },
+        {
+          "type": "About Agent Engine | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/about/"
+        },
+        {
+          "type": "Airbyte Docs",
+          "url": "https://docs.airbyte.com/"
+        },
+        {
+          "type": "Agent engine API | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/"
+        },
+        {
+          "type": "Agent Engine API | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/agent-engine-api"
+        },
+        {
+          "type": "Authentication | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/authentication"
+        },
+        {
+          "type": "Authentication (Advanced) | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/authentication-advanced"
+        },
+        {
+          "type": "Connectors | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/connectors"
+        },
+        {
+          "type": "Connectors (Advanced) | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/connectors-advanced"
+        },
+        {
+          "type": "Create Scoped Token | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/create-account-applications-scoped-token"
+        },
+        {
+          "type": "Generate Application Token | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/create-account-applications-token"
+        },
+        {
+          "type": "Create Widget Token | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/create-account-applications-widget-token"
+        },
+        {
+          "type": "Create a connector | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/create-integrations-connectors"
+        },
+        {
+          "type": "Check config when creating a connector | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/create-integrations-connectors-check"
+        },
+        {
+          "type": "Execute actions | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/create-integrations-connectors-id-execute"
+        },
+        {
+          "type": "Delete a connector | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/delete-integrations-connectors-id"
+        },
+        {
+          "type": "Delete connector OAuth | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/delete-oauth-credentials-connector-type-connector-type"
+        },
+        {
+          "type": "Describe Cron Expression | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/create-integrations-templates-connections-cron-describe"
+        },
+        {
+          "type": "Create Connection Template | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/create-integrations-templates-connections"
+        },
+        {
+          "type": "Check config when updating a connector | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/create-integrations-connectors-id-check"
+        },
+        {
+          "type": "Enable a connector | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/create-integrations-templates-sources"
+        },
+        {
+          "type": "Data replication | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/data-replication"
+        },
+        {
+          "type": "Delete Connection Template | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/delete-integrations-templates-connections-id"
+        },
+        {
+          "type": "Disable a connector | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/delete-integrations-templates-sources-id"
+        },
+        {
+          "type": "Delete Workspace | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/delete-workspaces-workspace-id"
+        },
+        {
+          "type": "Get Scoped Token Info | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/get-account-applications-scoped-token-info"
+        },
+        {
+          "type": "Get a connector | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/get-integrations-connectors-id"
+        },
+        {
+          "type": "Get Destination Definition | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/get-integrations-definitions-destinations-id"
+        },
+        {
+          "type": "Get Workspace Stats | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/get-workspaces-stats"
+        },
+        {
+          "type": "Get Connection Template | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/get-integrations-templates-connections-id"
+        },
+        {
+          "type": "Get Workspace | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/get-workspaces-workspace-id"
+        },
+        {
+          "type": "Get a connector definition | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/get-integrations-definitions-sources-id"
+        },
+        {
+          "type": "List connectors | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/list-integrations-connectors"
+        },
+        {
+          "type": "List Workspaces | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/list-workspaces"
+        },
+        {
+          "type": "Get an enabled connector | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/get-integrations-templates-sources-id"
+        },
+        {
+          "type": "Configure connector OAuth | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/update-oauth-credentials"
+        },
+        {
+          "type": "List connector definitions | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/list-integrations-definitions-sources"
+        },
+        {
+          "type": "List Destination Definitions | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/list-integrations-definitions-destinations"
+        },
+        {
+          "type": "List Connection Templates | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/list-integrations-templates-connections"
+        },
+        {
+          "type": "Update a connector | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/update-integrations-connectors-id"
+        },
+        {
+          "type": "Update Workspace | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/update-workspaces-workspace-id"
+        },
+        {
+          "type": "List enabled connectors | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/list-integrations-templates-sources"
+        },
+        {
+          "type": "Workspaces | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/workspaces"
+        },
+        {
+          "type": "Patch Connection Template | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/update-integrations-templates-connections-id"
+        },
+        {
+          "type": "Update an enabled connector | Airbyte Docs",
+          "url": "https://docs.airbyte.com/ai-agents/api/api-reference/update-integrations-templates-sources-id"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e8f732736d95e14ad5f736ad9f17a03e5791ea5dd5c7604535ec73d6a4b7e82d"
 }

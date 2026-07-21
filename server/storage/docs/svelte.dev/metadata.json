@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://svelte.dev/docs/kit",
+      "canonicalSeedUrl": "https://svelte.dev/docs/kit",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-06T09:00:15.005Z",
+      "completedAt": "2025-01-06T09:00:15.005Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://svelte.dev/docs/kit",
+          "canonicalUrl": "https://svelte.dev/docs/kit",
+          "status": "valid"
+        }
+      ],
+      "id": "4ae5a38ae3e70ac1f4c752b0a388a9ef269901affc91008d410bb2d113baa40d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "40296174674cafed66384f49999a2bf6cc29deb536860f801771ae9bf731b206",
+      "filename": "documentation_2025-01-06T09:00:15.005Z.md",
+      "contentHash": "ddbbb7171e9eaad9b930b5fba3ee663a6a8d3be7bedd4dfce37f14c84e81ebd1",
+      "sourceUrl": "https://svelte.dev/docs/kit",
+      "canonicalSourceUrl": "https://svelte.dev/docs/kit",
+      "capturedAt": "2025-01-06T09:00:15.005Z",
+      "crawlRunId": "4ae5a38ae3e70ac1f4c752b0a388a9ef269901affc91008d410bb2d113baa40d",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Introduction • Docs • Svelte",
+          "url": "https://svelte.dev/docs/kit"
+        },
+        {
+          "type": "Creating a project • Docs • Svelte",
+          "url": "https://svelte.dev/docs/kit/creating-a-project"
+        },
+        {
+          "type": "Project structure • Docs • Svelte",
+          "url": "https://svelte.dev/docs/kit/project-structure"
+        },
+        {
+          "type": "Web standards • Docs • Svelte",
+          "url": "https://svelte.dev/docs/kit/web-standards"
+        },
+        {
+          "type": "Adapters • Docs • Svelte",
+          "url": "https://svelte.dev/docs/kit/adapters"
+        },
+        {
+          "type": "Page options • Docs • Svelte",
+          "url": "https://svelte.dev/docs/kit/page-options"
+        },
+        {
+          "type": "State management • Docs • Svelte",
+          "url": "https://svelte.dev/docs/kit/state-management"
+        },
+        {
+          "type": "Zero-config deployments • Docs • Svelte",
+          "url": "https://svelte.dev/docs/kit/adapter-auto"
+        },
+        {
+          "type": "Building your app • Docs • Svelte",
+          "url": "https://svelte.dev/docs/kit/building-your-app"
+        },
+        {
+          "type": "Routing • Docs • Svelte",
+          "url": "https://svelte.dev/docs/kit/routing"
+        },
+        {
+          "type": "Static site generation • Docs • Svelte",
+          "url": "https://svelte.dev/docs/kit/adapter-static"
+        },
+        {
+          "type": "Single-page apps • Docs • Svelte",
+          "url": "https://svelte.dev/docs/kit/single-page-apps"
+        },
+        {
+          "type": "Cloudflare Pages • Docs • Svelte",
+          "url": "https://svelte.dev/docs/kit/adapter-cloudflare"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "40296174674cafed66384f49999a2bf6cc29deb536860f801771ae9bf731b206"
 }

@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://pricempire.com/docs",
+      "canonicalSeedUrl": "https://pricempire.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-02T14:38:22.784Z",
+      "completedAt": "2025-11-02T14:38:22.784Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://pricempire.com/docs",
+          "canonicalUrl": "https://pricempire.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "617e8c1a9d7fdf5ca219ef9bd4c84ec42752a0071715a65412edb34300315c37",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4227d30a36fbb1ea00e190f2af39be5ec863351c619951af774a5878fa6572d0",
+      "filename": "documentation_2025-11-02T14:38:22.784Z.md",
+      "contentHash": "ac2fd7d8a86440ec39f0528fcecfa33095fde73c9235415890c68de14b71e255",
+      "sourceUrl": "https://pricempire.com/docs",
+      "canonicalSourceUrl": "https://pricempire.com/docs",
+      "capturedAt": "2025-11-02T14:38:22.784Z",
+      "crawlRunId": "617e8c1a9d7fdf5ca219ef9bd4c84ec42752a0071715a65412edb34300315c37",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "API Documentation | Pricempire.com",
+          "url": "https://pricempire.com/docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4227d30a36fbb1ea00e190f2af39be5ec863351c619951af774a5878fa6572d0"
 }

@@ -148,5 +148,191 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.dorkplus.com/",
+      "canonicalSeedUrl": "https://docs.dorkplus.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-25T14:36:08.232Z",
+      "completedAt": "2025-10-25T14:36:08.232Z",
+      "providerTotals": {
+        "discovered": 32,
+        "returned": 32,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.dorkplus.com/",
+          "canonicalUrl": "https://docs.dorkplus.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "dfa1b4b4fbe63a1aaf4bfd153ec93362115fd957b977ef4c51612807db47eb06",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "23e7ad6ee76bacfc8fc9e90d6754e76c0952494e7739c76d3f365538b46d6246",
+      "filename": "documentation_2025-10-25T14:36:08.232Z.md",
+      "contentHash": "72fda5cb1d22d3ad2157ee9e08dea13236d1f3b25d2b6561544057ba86771fa2",
+      "sourceUrl": "https://docs.dorkplus.com/",
+      "canonicalSourceUrl": "https://docs.dorkplus.com/",
+      "capturedAt": "2025-10-25T14:36:08.232Z",
+      "crawlRunId": "dfa1b4b4fbe63a1aaf4bfd153ec93362115fd957b977ef4c51612807db47eb06",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 32,
+      "successfulPages": 32,
+      "structure": [
+        {
+          "type": "Welcome to DorkPlus | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/"
+        },
+        {
+          "type": "Video demonstration | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/fundamentals/video-demonstration"
+        },
+        {
+          "type": "Getting set up | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/fundamentals/getting-set-up"
+        },
+        {
+          "type": "Task settings | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/fundamentals/task-settings"
+        },
+        {
+          "type": "Dumper presets | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/fundamentals/dumper-presets"
+        },
+        {
+          "type": "The modules | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/fundamentals/the-modules"
+        },
+        {
+          "type": "URL Utilites | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/fundamentals/url-utilites"
+        },
+        {
+          "type": "Dorks to Lines | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/guides/dorks-to-lines"
+        },
+        {
+          "type": "Presets example | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/fundamentals/dumper-presets/presets-example"
+        },
+        {
+          "type": "Scraper/Parser | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/pages/scraper-parser"
+        },
+        {
+          "type": "Settings | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/pages/dumper-and-db-explorer/settings"
+        },
+        {
+          "type": "Dehasher | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/pages/dehasher"
+        },
+        {
+          "type": "Task history | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/pages/task-history"
+        },
+        {
+          "type": "Single dehash | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/pages/dehasher/single-dehash"
+        },
+        {
+          "type": "Task management | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/pages/task-management"
+        },
+        {
+          "type": "Hash identifier | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/pages/dehasher/hash-identifier"
+        },
+        {
+          "type": "Global settings | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/pages/global-settings"
+        },
+        {
+          "type": "Dumper & DB Explorer | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/pages/dumper-and-db-explorer"
+        },
+        {
+          "type": "Beginner Guide | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/guides/beginner-guide"
+        },
+        {
+          "type": "Threads & Timeout | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/pages/threads-and-timeout"
+        },
+        {
+          "type": "FAQ | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/pages/faq"
+        },
+        {
+          "type": "How to: Webhooks | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/how-to/how-to-webhooks"
+        },
+        {
+          "type": "The Client | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/pages/the-client"
+        },
+        {
+          "type": "How to: Telegram Alerts | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/how-to/how-to-telegram-alerts"
+        },
+        {
+          "type": "How to: Upgrade | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/how-to/how-to-upgrade"
+        },
+        {
+          "type": "How to: Fix errors | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/how-to/how-to-fix-errors"
+        },
+        {
+          "type": "Knowledge | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/knowledge"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.dorkplus.com/cdn-cgi/l/email-protection"
+        },
+        {
+          "type": "Getting set up | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/fundamentals"
+        },
+        {
+          "type": "How to: Upgrade | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/how-to"
+        },
+        {
+          "type": "Dorks to Lines | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/guides"
+        },
+        {
+          "type": "Scraper/Parser | DorkPlus Documentation",
+          "url": "https://docs.dorkplus.com/pages"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "23e7ad6ee76bacfc8fc9e90d6754e76c0952494e7739c76d3f365538b46d6246"
 }

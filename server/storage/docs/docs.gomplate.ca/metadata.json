@@ -136,5 +136,179 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.gomplate.ca/",
+      "canonicalSeedUrl": "https://docs.gomplate.ca/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-26T06:14:36.265Z",
+      "completedAt": "2025-03-26T06:14:36.265Z",
+      "providerTotals": {
+        "discovered": 29,
+        "returned": 29,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.gomplate.ca/",
+          "canonicalUrl": "https://docs.gomplate.ca/",
+          "status": "valid"
+        }
+      ],
+      "id": "44a55ed6b0f4a68ddefdb26774da061e70c0ce245cd7ffeabec3ed9b30c98ba7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fed5d69643f595286dfef4c6c9dfe0b3fa789d84997ce4c7723099ccea864f1d",
+      "filename": "documentation_2025-03-26T06:14:36.265Z.md",
+      "contentHash": "859a65e947cc90f9d1faaba17a051e72f278d98d645b56a21f7804609b052000",
+      "sourceUrl": "https://docs.gomplate.ca/",
+      "canonicalSourceUrl": "https://docs.gomplate.ca/",
+      "capturedAt": "2025-03-26T06:14:36.265Z",
+      "crawlRunId": "44a55ed6b0f4a68ddefdb26774da061e70c0ce245cd7ffeabec3ed9b30c98ba7",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 29,
+      "successfulPages": 29,
+      "structure": [
+        {
+          "type": "gomplate - gomplate documentation",
+          "url": "https://docs.gomplate.ca/"
+        },
+        {
+          "type": "Installing - gomplate documentation",
+          "url": "https://docs.gomplate.ca/installing/"
+        },
+        {
+          "type": "Usage - gomplate documentation",
+          "url": "https://docs.gomplate.ca/usage/"
+        },
+        {
+          "type": "Syntax - gomplate documentation",
+          "url": "https://docs.gomplate.ca/syntax/"
+        },
+        {
+          "type": "Configuration - gomplate documentation",
+          "url": "https://docs.gomplate.ca/config/"
+        },
+        {
+          "type": "Functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/"
+        },
+        {
+          "type": "aws functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/aws/"
+        },
+        {
+          "type": "collection functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/coll/"
+        },
+        {
+          "type": "base64 functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/base64/"
+        },
+        {
+          "type": "Datasources - gomplate documentation",
+          "url": "https://docs.gomplate.ca/datasources/"
+        },
+        {
+          "type": "conversion functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/conv/"
+        },
+        {
+          "type": "data functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/data/"
+        },
+        {
+          "type": "crypto functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/crypto/"
+        },
+        {
+          "type": "file functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/file/"
+        },
+        {
+          "type": "env functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/env/"
+        },
+        {
+          "type": "path functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/path/"
+        },
+        {
+          "type": "filepath functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/filepath/"
+        },
+        {
+          "type": "test functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/test/"
+        },
+        {
+          "type": "math functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/math/"
+        },
+        {
+          "type": "semver functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/semver/"
+        },
+        {
+          "type": "template functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/tmpl/"
+        },
+        {
+          "type": "random functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/random/"
+        },
+        {
+          "type": "regexp functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/regexp/"
+        },
+        {
+          "type": "net functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/net/"
+        },
+        {
+          "type": "strings functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/strings/"
+        },
+        {
+          "type": "sockaddr functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/sockaddr/"
+        },
+        {
+          "type": "uuid functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/uuid/"
+        },
+        {
+          "type": "gcp functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/gcp/"
+        },
+        {
+          "type": "time functions - gomplate documentation",
+          "url": "https://docs.gomplate.ca/functions/time/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fed5d69643f595286dfef4c6c9dfe0b3fa789d84997ce4c7723099ccea864f1d"
 }

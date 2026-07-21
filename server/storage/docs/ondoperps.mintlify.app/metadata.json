@@ -89,5 +89,123 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://ondoperps.mintlify.app/api-reference/",
+      "canonicalSeedUrl": "https://ondoperps.mintlify.app/api-reference",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-09T12:31:43.338Z",
+      "completedAt": "2026-07-09T12:31:43.338Z",
+      "providerTotals": {
+        "discovered": 15,
+        "returned": 15,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://ondoperps.mintlify.app/api-reference/",
+          "canonicalUrl": "https://ondoperps.mintlify.app/api-reference",
+          "status": "valid"
+        }
+      ],
+      "id": "a55e3b0d474a28902f349bed7e0aa4af72107233fe38dab0a1fb13ff26cb6316",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "dec0ade09dd516121be213104a04c59e7bd8cf36694abff93af7dd9c2bbd0bbe",
+      "filename": "documentation_2026-07-09T12:31:43.338Z.md",
+      "contentHash": "f5cbbafe6aa0976ed90433656548b41f2439e1a560b91dbaef09e23176cebd28",
+      "sourceUrl": "https://ondoperps.mintlify.app/api-reference/",
+      "canonicalSourceUrl": "https://ondoperps.mintlify.app/api-reference",
+      "capturedAt": "2026-07-09T12:31:43.338Z",
+      "crawlRunId": "a55e3b0d474a28902f349bed7e0aa4af72107233fe38dab0a1fb13ff26cb6316",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 15,
+      "successfulPages": 15,
+      "structure": [
+        {
+          "type": "API Key Authentication - Ondo Perps",
+          "url": "https://ondoperps.mintlify.app/api-reference/"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://ondoperps.mintlify.app/llms.txt"
+        },
+        {
+          "type": "API Key Authentication - Ondo Perps",
+          "url": "https://ondoperps.mintlify.app/api-reference/api_key_authentication"
+        },
+        {
+          "type": "Index - Ondo Perps",
+          "url": "https://ondoperps.mintlify.app/"
+        },
+        {
+          "type": "Welcome to Ondo Perps - Ondo Perps",
+          "url": "https://ondoperps.mintlify.app/about"
+        },
+        {
+          "type": "Builder Integration Guide - Ondo Perps",
+          "url": "https://ondoperps.mintlify.app/api-reference/integration_guide"
+        },
+        {
+          "type": "Architecture - Ondo Perps",
+          "url": "https://ondoperps.mintlify.app/architecture"
+        },
+        {
+          "type": "Technology - Ondo Perps",
+          "url": "https://ondoperps.mintlify.app/technology"
+        },
+        {
+          "type": "Markets - Ondo Perps",
+          "url": "https://ondoperps.mintlify.app/markets"
+        },
+        {
+          "type": "Public Beta  - Ondo Perps",
+          "url": "https://ondoperps.mintlify.app/public-beta"
+        },
+        {
+          "type": "Get Status - Ondo Perps",
+          "url": "https://ondoperps.mintlify.app/api-reference/tool/get-status"
+        },
+        {
+          "type": "Hello - Ondo Perps",
+          "url": "https://ondoperps.mintlify.app/api-reference/tool/hello"
+        },
+        {
+          "type": "Account Setup - Ondo Perps",
+          "url": "https://ondoperps.mintlify.app/account-set-up"
+        },
+        {
+          "type": "Placing Your First Order - Ondo Perps",
+          "url": "https://ondoperps.mintlify.app/placing-your-first-order"
+        },
+        {
+          "type": "Funding Your Account - Ondo Perps",
+          "url": "https://ondoperps.mintlify.app/funding-your-account"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "dec0ade09dd516121be213104a04c59e7bd8cf36694abff93af7dd9c2bbd0bbe"
 }

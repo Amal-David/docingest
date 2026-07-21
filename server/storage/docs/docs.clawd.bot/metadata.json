@@ -184,5 +184,227 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.clawd.bot/",
+      "canonicalSeedUrl": "https://docs.clawd.bot/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-24T23:39:04.315Z",
+      "completedAt": "2026-01-24T23:39:04.315Z",
+      "providerTotals": {
+        "discovered": 41,
+        "returned": 41,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.clawd.bot/",
+          "canonicalUrl": "https://docs.clawd.bot/",
+          "status": "valid"
+        }
+      ],
+      "id": "6ad816c832351ecba6608e3ee925eb86539dd48e18f94d90b6312312f5c50314",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "761d0ea917c1262b02ae8d7d2f95a6d5b3d5f528aac4102cc8f0725bfbaf3dfa",
+      "filename": "documentation_2026-01-24T23:39:04.315Z.md",
+      "contentHash": "f7353f5e883edeca7d0c1b9f1af5a18b44af4d291324cc704bba1f71d53c7738",
+      "sourceUrl": "https://docs.clawd.bot/",
+      "canonicalSourceUrl": "https://docs.clawd.bot/",
+      "capturedAt": "2026-01-24T23:39:04.315Z",
+      "crawlRunId": "6ad816c832351ecba6608e3ee925eb86539dd48e18f94d90b6312312f5c50314",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 41,
+      "successfulPages": 41,
+      "structure": [
+        {
+          "type": "Index - Clawdbot",
+          "url": "https://docs.clawd.bot/"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.clawd.bot/channels/googlechat"
+        },
+        {
+          "type": "Index - Clawdbot",
+          "url": "https://docs.clawd.bot/platforms"
+        },
+        {
+          "type": "Index - Clawdbot",
+          "url": "https://docs.clawd.bot/web"
+        },
+        {
+          "type": "Index - Clawdbot",
+          "url": "https://docs.clawd.bot/nodes"
+        },
+        {
+          "type": "Index - Clawdbot",
+          "url": "https://docs.clawd.bot/gateway"
+        },
+        {
+          "type": "Index - Clawdbot",
+          "url": "https://docs.clawd.bot/tools"
+        },
+        {
+          "type": "Bluebubbles - Clawdbot",
+          "url": "https://docs.clawd.bot/channels/bluebubbles"
+        },
+        {
+          "type": "Nextcloud talk - Clawdbot",
+          "url": "https://docs.clawd.bot/channels/nextcloud-talk"
+        },
+        {
+          "type": "Nostr - Clawdbot",
+          "url": "https://docs.clawd.bot/channels/nostr"
+        },
+        {
+          "type": "Index - Clawdbot",
+          "url": "https://docs.clawd.bot/channels/index"
+        },
+        {
+          "type": "Tts - Clawdbot",
+          "url": "https://docs.clawd.bot/tts"
+        },
+        {
+          "type": "Cron add hardening - Clawdbot",
+          "url": "https://docs.clawd.bot/experiments/plans/cron-add-hardening"
+        },
+        {
+          "type": "Tlon - Clawdbot",
+          "url": "https://docs.clawd.bot/channels/tlon"
+        },
+        {
+          "type": "Webhooks - Clawdbot",
+          "url": "https://docs.clawd.bot/cli/webhooks"
+        },
+        {
+          "type": "Brave search - Clawdbot",
+          "url": "https://docs.clawd.bot/brave-search"
+        },
+        {
+          "type": "Perplexity - Clawdbot",
+          "url": "https://docs.clawd.bot/perplexity"
+        },
+        {
+          "type": "Node - Clawdbot",
+          "url": "https://docs.clawd.bot/cli/node"
+        },
+        {
+          "type": "Devices - Clawdbot",
+          "url": "https://docs.clawd.bot/cli/devices"
+        },
+        {
+          "type": "Config - Clawdbot",
+          "url": "https://docs.clawd.bot/cli/config"
+        },
+        {
+          "type": "Firecrawl - Clawdbot",
+          "url": "https://docs.clawd.bot/tools/firecrawl"
+        },
+        {
+          "type": "Acp - Clawdbot",
+          "url": "https://docs.clawd.bot/cli/acp"
+        },
+        {
+          "type": "Vercel ai gateway - Clawdbot",
+          "url": "https://docs.clawd.bot/providers/vercel-ai-gateway"
+        },
+        {
+          "type": "Agent tools - Clawdbot",
+          "url": "https://docs.clawd.bot/plugins/agent-tools"
+        },
+        {
+          "type": "Group policy hardening - Clawdbot",
+          "url": "https://docs.clawd.bot/experiments/plans/group-policy-hardening"
+        },
+        {
+          "type": "Qwen - Clawdbot",
+          "url": "https://docs.clawd.bot/providers/qwen"
+        },
+        {
+          "type": "Model config - Clawdbot",
+          "url": "https://docs.clawd.bot/experiments/proposals/model-config"
+        },
+        {
+          "type": "Transcript hygiene - Clawdbot",
+          "url": "https://docs.clawd.bot/reference/transcript-hygiene"
+        },
+        {
+          "type": "Onboarding config protocol - Clawdbot",
+          "url": "https://docs.clawd.bot/experiments/onboarding-config-protocol"
+        },
+        {
+          "type": "Memory - Clawdbot",
+          "url": "https://docs.clawd.bot/experiments/research/memory"
+        },
+        {
+          "type": "Ollama - Clawdbot",
+          "url": "https://docs.clawd.bot/providers/ollama"
+        },
+        {
+          "type": "Manifest - Clawdbot",
+          "url": "https://docs.clawd.bot/plugins/manifest"
+        },
+        {
+          "type": "Date time - Clawdbot",
+          "url": "https://docs.clawd.bot/date-time"
+        },
+        {
+          "type": "Prose - Clawdbot",
+          "url": "https://docs.clawd.bot/prose"
+        },
+        {
+          "type": "Index - Clawdbot",
+          "url": "https://docs.clawd.bot/web/index"
+        },
+        {
+          "type": "Deepgram - Clawdbot",
+          "url": "https://docs.clawd.bot/providers/deepgram"
+        },
+        {
+          "type": "Openresponses http api - Clawdbot",
+          "url": "https://docs.clawd.bot/gateway/openresponses-http-api"
+        },
+        {
+          "type": "Logging - Clawdbot",
+          "url": "https://docs.clawd.bot/logging"
+        },
+        {
+          "type": "Network - Clawdbot",
+          "url": "https://docs.clawd.bot/network"
+        },
+        {
+          "type": "Exec approvals - Clawdbot",
+          "url": "https://docs.clawd.bot/tools/exec-approvals"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.clawd.bot/agents/model-selection"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "761d0ea917c1262b02ae8d7d2f95a6d5b3d5f528aac4102cc8f0725bfbaf3dfa"
 }

@@ -92,5 +92,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.fluentbit.io/manual/about/what-is-fluent-bit",
+      "canonicalSeedUrl": "https://docs.fluentbit.io/manual/about/what-is-fluent-bit",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-05-16T11:00:45.670Z",
+      "completedAt": "2025-05-16T11:00:45.670Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.fluentbit.io/manual/about/what-is-fluent-bit",
+          "canonicalUrl": "https://docs.fluentbit.io/manual/about/what-is-fluent-bit",
+          "status": "valid"
+        }
+      ],
+      "id": "d47b60d0a8cdfd1f12a072e017a18e7689bc4c29e0541c9184e13202f25d468a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7d4f0d48ac3856b329211a652e821e1234147c7794c57758af514ef97bdb4c11",
+      "filename": "documentation_2025-05-16T11:00:45.670Z.md",
+      "contentHash": "0ce288be05f969be64f8584106186394048ecc7f2ed41b61cbde24fa62a229ea",
+      "sourceUrl": "https://docs.fluentbit.io/manual/about/what-is-fluent-bit",
+      "canonicalSourceUrl": "https://docs.fluentbit.io/manual/about/what-is-fluent-bit",
+      "capturedAt": "2025-05-16T11:00:45.670Z",
+      "crawlRunId": "d47b60d0a8cdfd1f12a072e017a18e7689bc4c29e0541c9184e13202f25d468a",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "What is Fluent Bit? | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/about/what-is-fluent-bit"
+        },
+        {
+          "type": "A Brief History of Fluent Bit | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/about/history"
+        },
+        {
+          "type": "License | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/about/license"
+        },
+        {
+          "type": "Fluentd and Fluent Bit | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/about/fluentd-and-fluent-bit"
+        },
+        {
+          "type": "Input | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/concepts/data-pipeline/input"
+        },
+        {
+          "type": "Fluent Bit Documentation | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/"
+        },
+        {
+          "type": "Key Concepts | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/concepts/key-concepts"
+        },
+        {
+          "type": "Buffering | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/concepts/buffering"
+        },
+        {
+          "type": "Data Pipeline | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/concepts/data-pipeline"
+        },
+        {
+          "type": "Sandbox and Lab Resources | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/about/sandbox-and-lab-resources"
+        },
+        {
+          "type": "Parser | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/concepts/data-pipeline/parser"
+        },
+        {
+          "type": "Filter | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/concepts/data-pipeline/filter"
+        },
+        {
+          "type": "Buffer | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/concepts/data-pipeline/buffer"
+        },
+        {
+          "type": "Output | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/concepts/data-pipeline/output"
+        },
+        {
+          "type": "Requirements | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/installation/requirements"
+        },
+        {
+          "type": "Sources | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/installation/sources"
+        },
+        {
+          "type": "Router | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/concepts/data-pipeline/router"
+        },
+        {
+          "type": "Download Source Code | Fluent Bit: Official Manual",
+          "url": "https://docs.fluentbit.io/manual/installation/sources/download-source-code"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7d4f0d48ac3856b329211a652e821e1234147c7794c57758af514ef97bdb4c11"
 }

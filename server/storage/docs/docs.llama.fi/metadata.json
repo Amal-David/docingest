@@ -148,5 +148,191 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.llama.fi/",
+      "canonicalSeedUrl": "https://docs.llama.fi/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-23T20:39:05.336Z",
+      "completedAt": "2025-12-23T20:39:05.336Z",
+      "providerTotals": {
+        "discovered": 32,
+        "returned": 32,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.llama.fi/",
+          "canonicalUrl": "https://docs.llama.fi/",
+          "status": "valid"
+        }
+      ],
+      "id": "6b809c01a832a567e1774b2eb2a29d684c7e510724190a02074da1f825c8c4f2",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "6532fea8e7a1f56ef96a135366ebac87fa7adfd16377fe0bc31313f3cda55df0",
+      "filename": "documentation_2025-12-23T20:39:05.336Z.md",
+      "contentHash": "c93ff0fc298621ce64d9af01611c9b50b78b4514e2b54ba3f879fe334ce9e4c4",
+      "sourceUrl": "https://docs.llama.fi/",
+      "canonicalSourceUrl": "https://docs.llama.fi/",
+      "capturedAt": "2025-12-23T20:39:05.336Z",
+      "crawlRunId": "6b809c01a832a567e1774b2eb2a29d684c7e510724190a02074da1f825c8c4f2",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 32,
+      "successfulPages": 32,
+      "structure": [
+        {
+          "type": "DefiLlama and our methodology | DefiLlama",
+          "url": "https://docs.llama.fi/"
+        },
+        {
+          "type": "How to write an SDK adapter | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/how-to-write-an-sdk-adapter"
+        },
+        {
+          "type": "How to list a DeFi project | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/submit-a-project"
+        },
+        {
+          "type": "Staking and Pool2 | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/functions-weve-written-so-you-dont-have-to/staking-and-pool2"
+        },
+        {
+          "type": "Functions we've written so you don't have to | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/functions-weve-written-so-you-dont-have-to"
+        },
+        {
+          "type": "General EVM contract calls | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/functions-weve-written-so-you-dont-have-to/general-evm-contract-calls"
+        },
+        {
+          "type": "How to add a new Blockchain | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/how-to-add-a-new-blockchain"
+        },
+        {
+          "type": "Fork helpers | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/functions-weve-written-so-you-dont-have-to/fork-helpers"
+        },
+        {
+          "type": "What to include as TVL? | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/what-to-include-as-tvl"
+        },
+        {
+          "type": "How to update a project | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/how-to-update-a-project"
+        },
+        {
+          "type": "Emission Sections | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/emissions-dashboard/emission-sections"
+        },
+        {
+          "type": "Protocol Files | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/emissions-dashboard/protocol-files"
+        },
+        {
+          "type": "Testing | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/emissions-dashboard/testing"
+        },
+        {
+          "type": "Emissions dashboard | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/emissions-dashboard"
+        },
+        {
+          "type": "Oracles TVS | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/oracles-tvs"
+        },
+        {
+          "type": "Overview | DefiLlama",
+          "url": "https://docs.llama.fi/spreadsheet-functions/spreadsheet-functions"
+        },
+        {
+          "type": "How to write dimensions adapters | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project/other-dashboards"
+        },
+        {
+          "type": "Coin Prices API | DefiLlama",
+          "url": "https://docs.llama.fi/coin-prices-api"
+        },
+        {
+          "type": "Add a new RPC endpoint | DefiLlama",
+          "url": "https://docs.llama.fi/chainlist/add-a-new-rpc-endpoint"
+        },
+        {
+          "type": "Pricing | DefiLlama",
+          "url": "https://docs.llama.fi/pro-api"
+        },
+        {
+          "type": "How to change Ethereum's RPC | DefiLlama",
+          "url": "https://docs.llama.fi/chainlist/how-to-change-ethereums-rpc"
+        },
+        {
+          "type": "Data Definitions | DefiLlama",
+          "url": "https://docs.llama.fi/analysts/data-definitions"
+        },
+        {
+          "type": "DAT Methodology | DefiLlama",
+          "url": "https://docs.llama.fi/analysts/dat-methodology"
+        },
+        {
+          "type": "Custom columns | DefiLlama",
+          "url": "https://docs.llama.fi/analysts/custom-columns"
+        },
+        {
+          "type": "Frequently Asked Questions | DefiLlama",
+          "url": "https://docs.llama.fi/faqs/frequently-asked-questions"
+        },
+        {
+          "type": "Function Reference | DefiLlama",
+          "url": "https://docs.llama.fi/spreadsheet-functions/function-reference"
+        },
+        {
+          "type": "DefiLlama and our methodology | DefiLlama",
+          "url": "https://docs.llama.fi/list-your-project"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.llama.fi/cdn-cgi/l/email-protection"
+        },
+        {
+          "type": "How to change Ethereum's RPC | DefiLlama",
+          "url": "https://docs.llama.fi/chainlist"
+        },
+        {
+          "type": "Overview | DefiLlama",
+          "url": "https://docs.llama.fi/spreadsheet-functions"
+        },
+        {
+          "type": "Data Definitions | DefiLlama",
+          "url": "https://docs.llama.fi/analysts"
+        },
+        {
+          "type": "Frequently Asked Questions | DefiLlama",
+          "url": "https://docs.llama.fi/faqs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "6532fea8e7a1f56ef96a135366ebac87fa7adfd16377fe0bc31313f3cda55df0"
 }

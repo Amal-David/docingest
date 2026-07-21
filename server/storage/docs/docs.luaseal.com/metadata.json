@@ -40,5 +40,83 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.luaseal.com/m/variables",
+      "canonicalSeedUrl": "https://docs.luaseal.com/m/variables",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-01T10:18:38.303Z",
+      "completedAt": "2025-12-01T10:18:38.303Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.luaseal.com/m/variables",
+          "canonicalUrl": "https://docs.luaseal.com/m/variables",
+          "status": "valid"
+        }
+      ],
+      "id": "3b99f4df178b6720e35bb882ee2d25af84dee537e100627c08cb6ef401245afb",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f1531310e17e5a844ec5af6f3338820ca526c8fe84e1ccd89ec4e4024a0952ce",
+      "filename": "documentation_2025-12-01T10:18:38.303Z.md",
+      "contentHash": "d96a1fbba76ca70110432bd66bb27d36dd41e2f647efca3f3d4f9e42c39edde4",
+      "sourceUrl": "https://docs.luaseal.com/m/variables",
+      "canonicalSourceUrl": "https://docs.luaseal.com/m/variables",
+      "capturedAt": "2025-12-01T10:18:38.303Z",
+      "crawlRunId": "3b99f4df178b6720e35bb882ee2d25af84dee537e100627c08cb6ef401245afb",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "Runtime Variables | LuaSeal",
+          "url": "https://docs.luaseal.com/m/variables"
+        },
+        {
+          "type": "Custom NPM Module | LuaSeal",
+          "url": "https://docs.luaseal.com/m/custom-npm-module"
+        },
+        {
+          "type": "API Docs | LuaSeal",
+          "url": "https://docs.luaseal.com/m/api"
+        },
+        {
+          "type": "Bot Usage | LuaSeal",
+          "url": "https://docs.luaseal.com/m/bot"
+        },
+        {
+          "type": "Importing Mass Users | LuaSeal",
+          "url": "https://docs.luaseal.com/m/importing-mass-users"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f1531310e17e5a844ec5af6f3338820ca526c8fe84e1ccd89ec4e4024a0952ce"
 }

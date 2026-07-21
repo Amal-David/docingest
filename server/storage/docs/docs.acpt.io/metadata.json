@@ -28,5 +28,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.acpt.io",
+      "canonicalSeedUrl": "https://docs.acpt.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-26T00:52:14.823Z",
+      "completedAt": "2025-08-26T00:52:14.823Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.acpt.io",
+          "canonicalUrl": "https://docs.acpt.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "db7866a35543d8f23bc668b707441fec491460ec8a2b17018653195d948a4262",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7bdb9b88d905ebd5889cb94dbe23cd0ff7e10b5eba06e0feddc34272785e5b27",
+      "filename": "documentation_2025-08-26T00:52:14.823Z.md",
+      "contentHash": "f2223efd24d2a2f8f770e20a42cdbc44dff56a601ffe5944ac33096277c40ac0",
+      "sourceUrl": "https://docs.acpt.io",
+      "canonicalSourceUrl": "https://docs.acpt.io/",
+      "capturedAt": "2025-08-26T00:52:14.823Z",
+      "crawlRunId": "db7866a35543d8f23bc668b707441fec491460ec8a2b17018653195d948a4262",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Minimum requirements | ACPT v2",
+          "url": "https://docs.acpt.io"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.acpt.io/cdn-cgi/l/email-protection"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7bdb9b88d905ebd5889cb94dbe23cd0ff7e10b5eba06e0feddc34272785e5b27"
 }

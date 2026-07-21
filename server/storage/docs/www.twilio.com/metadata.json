@@ -124,5 +124,167 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.twilio.com/docs/alpha",
+      "canonicalSeedUrl": "https://www.twilio.com/docs/alpha",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2024-12-27T00:12:58.440Z",
+      "completedAt": "2024-12-27T00:12:58.440Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.twilio.com/docs/alpha",
+          "canonicalUrl": "https://www.twilio.com/docs/alpha",
+          "status": "valid"
+        }
+      ],
+      "id": "409b86611910a74eb5bd3c88930188325bdb6c2192929d97a6081fd0cbf993ce",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "017bcaf132d982d94abd185d2bf20b4d1bb063205602cbe7fc81337ab5260c61",
+      "filename": "documentation_2024-12-27T00:12:58.440Z.md",
+      "contentHash": "fa1aefb957ae24bb44afd5ceb9e96cf8af743b8921c2484d3b462ce28b53cf61",
+      "sourceUrl": "https://www.twilio.com/docs/alpha",
+      "canonicalSourceUrl": "https://www.twilio.com/docs/alpha",
+      "capturedAt": "2024-12-27T00:12:58.440Z",
+      "crawlRunId": "409b86611910a74eb5bd3c88930188325bdb6c2192929d97a6081fd0cbf993ce",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "Twilio Alpha | Twilio",
+          "url": "https://www.twilio.com/docs/alpha"
+        },
+        {
+          "type": "AI Constellations | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/ai-constellations"
+        },
+        {
+          "type": "AI Assistants Overview | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants"
+        },
+        {
+          "type": "Docs: API Reference, Tutorials, and Integration | Twilio",
+          "url": "https://www.twilio.com/docs"
+        },
+        {
+          "type": "Assistant Knowledge Resource | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/api/assistants/knowledge"
+        },
+        {
+          "type": "Messages Resource | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/api/assistants/messages"
+        },
+        {
+          "type": "Assistants Resource | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/api/assistants"
+        },
+        {
+          "type": "Conversation History | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/api/conversation-history"
+        },
+        {
+          "type": "Assistant Tools Resource | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/api/assistants/tools"
+        },
+        {
+          "type": "Feedback Resource | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/api/feedback"
+        },
+        {
+          "type": "Knowledge Chunk Resource | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/api/knowledge/chunks"
+        },
+        {
+          "type": "Knowledge Resource | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/api/knowledge"
+        },
+        {
+          "type": "Policies Resource | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/api/policies"
+        },
+        {
+          "type": "Sessions Resource | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/api/sessions"
+        },
+        {
+          "type": "Tools Resource | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/api/tools"
+        },
+        {
+          "type": "Channels | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/channels"
+        },
+        {
+          "type": "Use Twilio Conversations as a Channel | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/code-samples/channel-conversations"
+        },
+        {
+          "type": "Use Twilio Messaging as a Channel | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/code-samples/channel-messaging"
+        },
+        {
+          "type": "AI Assistant Code Samples | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/code-samples/overview"
+        },
+        {
+          "type": "Connect your AI Assistant to Twilio Conversations with React | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/code-samples/react"
+        },
+        {
+          "type": "Transition to Twilio Flex | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/code-samples/transition-flex"
+        },
+        {
+          "type": "Transition to Twilio Studio | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/code-samples/transition-studio"
+        },
+        {
+          "type": "Customer Memory | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/customer-memory"
+        },
+        {
+          "type": "FAQs and Troubleshooting | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/faqs-and-troubleshooting"
+        },
+        {
+          "type": "Knowledge | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/knowledge"
+        },
+        {
+          "type": "How to Track Human Feedback | Twilio",
+          "url": "https://www.twilio.com/docs/alpha/ai-assistants/guides/feedback"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "017bcaf132d982d94abd185d2bf20b4d1bb063205602cbe7fc81337ab5260c61"
 }

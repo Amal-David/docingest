@@ -124,5 +124,167 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://iterm2.com/3.6/documentation.html",
+      "canonicalSeedUrl": "https://iterm2.com/3.6/documentation.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-29T10:30:42.779Z",
+      "completedAt": "2025-12-29T10:30:42.779Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://iterm2.com/3.6/documentation.html",
+          "canonicalUrl": "https://iterm2.com/3.6/documentation.html",
+          "status": "valid"
+        }
+      ],
+      "id": "c91f5e7671e614f9ca91734073081e30324de20aeea0c6a9d13166907159de6a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5ab91c7672323cca0bbb08ca07afa164ad58ad13d217cf6f38ea1457a6945c05",
+      "filename": "documentation_2025-12-29T10:30:42.779Z.md",
+      "contentHash": "d0491dcd61286a2e4d090a82044c4524b8e94ff8e498f70d0dec9b08176f977f",
+      "sourceUrl": "https://iterm2.com/3.6/documentation.html",
+      "canonicalSourceUrl": "https://iterm2.com/3.6/documentation.html",
+      "capturedAt": "2025-12-29T10:30:42.779Z",
+      "crawlRunId": "c91f5e7671e614f9ca91734073081e30324de20aeea0c6a9d13166907159de6a",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation.html"
+        },
+        {
+          "type": "Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation.html"
+        },
+        {
+          "type": "Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation.html"
+        },
+        {
+          "type": "Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-one-page.html"
+        },
+        {
+          "type": "Copy Mode - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-copymode.html"
+        },
+        {
+          "type": "Hotkeys - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-hotkey.html"
+        },
+        {
+          "type": "Captured Output - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-captured-output.html"
+        },
+        {
+          "type": "Proprietary Escape Codes - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-escape-codes.html"
+        },
+        {
+          "type": "Coprocesses - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-coprocesses.html"
+        },
+        {
+          "type": "tmux Integration - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-tmux-integration.html"
+        },
+        {
+          "type": "General Usage - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-general-usage.html"
+        },
+        {
+          "type": "Automatic Profile Switching - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-automatic-profile-switching.html"
+        },
+        {
+          "type": "Dynamic Profiles - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-dynamic-profiles.html"
+        },
+        {
+          "type": "Session Restoration - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-restoration.html"
+        },
+        {
+          "type": "Keys Profiles Preferences - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-preferences-profiles-keys.html"
+        },
+        {
+          "type": "Highlights for New Users - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-highlights.html"
+        },
+        {
+          "type": "Shell Integration - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-shell-integration.html"
+        },
+        {
+          "type": "Buried Sessions - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-buried-sessions.html"
+        },
+        {
+          "type": "Utilities - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-utilities.html"
+        },
+        {
+          "type": "Scripting Fundamentals - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-scripting-fundamentals.html"
+        },
+        {
+          "type": "Triggers - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-triggers.html"
+        },
+        {
+          "type": "Status Bar - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-status-bar.html"
+        },
+        {
+          "type": "Badges - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-badges.html"
+        },
+        {
+          "type": "General Preferences - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-preferences-general.html"
+        },
+        {
+          "type": "Variables - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-variables.html"
+        },
+        {
+          "type": "Images - Documentation - iTerm2 - macOS Terminal Replacement",
+          "url": "https://iterm2.com/3.6/documentation-images.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5ab91c7672323cca0bbb08ca07afa164ad58ad13d217cf6f38ea1457a6945c05"
 }

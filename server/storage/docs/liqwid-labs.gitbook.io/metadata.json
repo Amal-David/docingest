@@ -84,5 +84,127 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://liqwid-labs.gitbook.io/liqwid-docs",
+      "canonicalSeedUrl": "https://liqwid-labs.gitbook.io/liqwid-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-14T18:02:32.217Z",
+      "completedAt": "2025-12-14T18:02:32.217Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs",
+          "canonicalUrl": "https://liqwid-labs.gitbook.io/liqwid-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "3a73811c40ffafd881583fe6c11111e762d4b7b9f54a0bc47b2a55ba156a652b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "48f529c6245fde2d10de6a69440dab0cd11dca30764e912f7a9ec08590af1099",
+      "filename": "documentation_2025-12-14T18:02:32.217Z.md",
+      "contentHash": "b67520cf9d6809bf2a12e5aad3add1c3a292b8d0e5676499c338039b4bd17e15",
+      "sourceUrl": "https://liqwid-labs.gitbook.io/liqwid-docs",
+      "canonicalSourceUrl": "https://liqwid-labs.gitbook.io/liqwid-docs",
+      "capturedAt": "2025-12-14T18:02:32.217Z",
+      "crawlRunId": "3a73811c40ffafd881583fe6c11111e762d4b7b9f54a0bc47b2a55ba156a652b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "Liqwid Documents Hub | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs"
+        },
+        {
+          "type": "Supply & Earn | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/supply-and-earn"
+        },
+        {
+          "type": "Borrow | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/borrow"
+        },
+        {
+          "type": "LQ Token Details | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/lq-token-details"
+        },
+        {
+          "type": "Liquidations | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/liquidations"
+        },
+        {
+          "type": "What is Liqwid v2? | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/what-is-liqwid-v2"
+        },
+        {
+          "type": "Risk Analysis | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/risk-analysis"
+        },
+        {
+          "type": "Governance | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/governance"
+        },
+        {
+          "type": "Security | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/security"
+        },
+        {
+          "type": "qTokens | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/faq"
+        },
+        {
+          "type": "Brand Kit | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/brand-kit"
+        },
+        {
+          "type": "Liqwid v2 App User Guide | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/liqwid-v2-app-user-guide"
+        },
+        {
+          "type": "Interest Rates | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/interest-rates"
+        },
+        {
+          "type": "Liqwid Community Incentivized Marketing Program (LCIMP) | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/liqwid-community-incentivized-marketing-program-lcimp"
+        },
+        {
+          "type": "Protocol Revenue: Net Margin and LQ Buybacks | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/protocol-revenue-net-margin-and-lq-buybacks"
+        },
+        {
+          "type": "API Documentation | Liqwid Docs",
+          "url": "https://liqwid-labs.gitbook.io/liqwid-docs/api-documentation"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "48f529c6245fde2d10de6a69440dab0cd11dca30764e912f7a9ec08590af1099"
 }

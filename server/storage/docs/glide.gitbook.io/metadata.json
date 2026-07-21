@@ -179,5 +179,195 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://glide.gitbook.io/main/glider-api/api-documentation",
+      "canonicalSeedUrl": "https://glide.gitbook.io/main/glider-api/api-documentation",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-07T06:10:19.107Z",
+      "completedAt": "2025-11-07T06:10:19.107Z",
+      "providerTotals": {
+        "discovered": 33,
+        "returned": 33,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://glide.gitbook.io/main/glider-api/api-documentation",
+          "canonicalUrl": "https://glide.gitbook.io/main/glider-api/api-documentation",
+          "status": "valid"
+        }
+      ],
+      "id": "6c062bd79fb6fcaff36d44890df422f03cbc712b37f733f342dbcd61db3d335c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "dd6c8fc0b1d6de8762a7d37255a0f5eb05cc1975d9706d22fcceded2a67a7b37",
+      "filename": "documentation_2025-11-07T06:10:19.107Z.md",
+      "contentHash": "8fd764342510518fefb496999fc3e9b2f3dbe8188e5cf95ab7f30e92b5ffdbe5",
+      "sourceUrl": "https://glide.gitbook.io/main/glider-api/api-documentation",
+      "canonicalSourceUrl": "https://glide.gitbook.io/main/glider-api/api-documentation",
+      "capturedAt": "2025-11-07T06:10:19.107Z",
+      "crawlRunId": "6c062bd79fb6fcaff36d44890df422f03cbc712b37f733f342dbcd61db3d335c",
+      "upstreamVersion": "1.3.0",
+      "upstreamChannel": "latest",
+      "totalPages": 33,
+      "successfulPages": 33,
+      "structure": [
+        {
+          "type": "API Documentation | Glider API | Glider",
+          "url": "https://glide.gitbook.io/main/glider-api/api-documentation"
+        },
+        {
+          "type": "Main concepts | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/main-concepts"
+        },
+        {
+          "type": "Iterables | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/iterables"
+        },
+        {
+          "type": "API | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api"
+        },
+        {
+          "type": "LocalVariable.memory_property | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/variables/localvariables/localvariable/localvariable.memory_property"
+        },
+        {
+          "type": "LocalVariable.source_code() | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/variables/localvariables/localvariable/localvariable.source_code"
+        },
+        {
+          "type": "GlobalVariables | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/variables/globalvariables"
+        },
+        {
+          "type": "ArgumentVariable | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/variables/argumentvariable"
+        },
+        {
+          "type": "ArgumentVariable.index | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/variables/argumentvariable/argumentvariable.index"
+        },
+        {
+          "type": "ArgumentVariable.data | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/variables/argumentvariable/argumentvariable.data"
+        },
+        {
+          "type": "ArgumentVariable.memory_type | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/variables/argumentvariable/argumentvariable.memory_type"
+        },
+        {
+          "type": "Struct | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/struct"
+        },
+        {
+          "type": "ArgumentVariable.source_code() | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/variables/argumentvariable/argumentvariable.source_code"
+        },
+        {
+          "type": "Struct.address | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/struct/struct.address"
+        },
+        {
+          "type": "Struct.data | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/struct/struct.data"
+        },
+        {
+          "type": "Struct.fields | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/struct/struct.fields"
+        },
+        {
+          "type": "Structs | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/structs"
+        },
+        {
+          "type": "Structs.exec() | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/structs/structs.exec"
+        },
+        {
+          "type": "Internal | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/internal"
+        },
+        {
+          "type": "CallNode | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/internal/callnode"
+        },
+        {
+          "type": "StateVariables | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/statevariables"
+        },
+        {
+          "type": "CallNode.callee_modifiers() | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/internal/callnode/callnode.callee_modifiers"
+        },
+        {
+          "type": "CallNode.callable_name() | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/internal/callnode/callnode.callable_name"
+        },
+        {
+          "type": "CallNode.callable() | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/internal/callnode/callnode.callable"
+        },
+        {
+          "type": "CallNode.callee_functions() | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/internal/callnode/callnode.callee_functions"
+        },
+        {
+          "type": "CallNode.caller_modifiers() | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/internal/callnode/callnode.caller_modifiers"
+        },
+        {
+          "type": "CallNode.caller_functions() | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/internal/callnode/callnode.caller_functions"
+        },
+        {
+          "type": "CallNode.is_function | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/internal/callnode/callnode.is_function"
+        },
+        {
+          "type": "CallNode.callees() | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/internal/callnode/callnode.callees"
+        },
+        {
+          "type": "CallNode.callers() | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/internal/callnode/callnode.callers"
+        },
+        {
+          "type": "CallNode.callees_recursive() | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/internal/callnode/callnode.callees_recursive"
+        },
+        {
+          "type": "CallNode.is_modifier | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/internal/callnode/callnode.is_modifier"
+        },
+        {
+          "type": "CallNode.callers_recursive() | Glider IDE | Glider",
+          "url": "https://glide.gitbook.io/main/glider-ide/api/internal/callnode/callnode.callers_recursive"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "dd6c8fc0b1d6de8762a7d37255a0f5eb05cc1975d9706d22fcceded2a67a7b37"
 }

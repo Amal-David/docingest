@@ -202,5 +202,227 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://skillshop.gitbook.io/hypixelcry",
+      "canonicalSeedUrl": "https://skillshop.gitbook.io/hypixelcry",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-09T10:41:09.726Z",
+      "completedAt": "2026-03-09T10:41:09.726Z",
+      "providerTotals": {
+        "discovered": 41,
+        "returned": 41,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://skillshop.gitbook.io/hypixelcry",
+          "canonicalUrl": "https://skillshop.gitbook.io/hypixelcry",
+          "status": "valid"
+        }
+      ],
+      "id": "1fe83bcaa567659f59345c959e7f3521cb43fa58199f38c60fdafb8f71d95d7c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fd4e077922d45d19590bd747986b19ff4e085413e666170bf4f8d29a95b9b1ad",
+      "filename": "documentation_2026-03-09T10:41:09.726Z.md",
+      "contentHash": "e928b8bf4d76907db305fed4d1e5cf4cccafabd8cc9d6007c86fff8a8093c19f",
+      "sourceUrl": "https://skillshop.gitbook.io/hypixelcry",
+      "canonicalSourceUrl": "https://skillshop.gitbook.io/hypixelcry",
+      "capturedAt": "2026-03-09T10:41:09.726Z",
+      "crawlRunId": "1fe83bcaa567659f59345c959e7f3521cb43fa58199f38c60fdafb8f71d95d7c",
+      "upstreamVersion": "1.0.2",
+      "upstreamChannel": "latest",
+      "totalPages": 41,
+      "successfulPages": 41,
+      "structure": [
+        {
+          "type": "Home | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry"
+        },
+        {
+          "type": "Custom Fixer | WinBooster",
+          "url": "https://skillshop.gitbook.io/winbooster/examples/custom-fixer"
+        },
+        {
+          "type": "Custom Game Optimize | WinBooster",
+          "url": "https://skillshop.gitbook.io/winbooster"
+        },
+        {
+          "type": "Custom clear | WinBooster",
+          "url": "https://skillshop.gitbook.io/winbooster/examples/custom-clear"
+        },
+        {
+          "type": "Custom DNS | WinBooster",
+          "url": "https://skillshop.gitbook.io/winbooster/examples/custom-dns"
+        },
+        {
+          "type": "DNSList | WinBooster",
+          "url": "https://skillshop.gitbook.io/winbooster/winbooster.database/dnslist"
+        },
+        {
+          "type": "Files | WinBooster",
+          "url": "https://skillshop.gitbook.io/winbooster/winbooster.database/files"
+        },
+        {
+          "type": "GameList | WinBooster",
+          "url": "https://skillshop.gitbook.io/winbooster/winbooster.database/gamelist"
+        },
+        {
+          "type": "FixerData | WinBooster",
+          "url": "https://skillshop.gitbook.io/winbooster/winbooster.database/fixerdata"
+        },
+        {
+          "type": "DirectoryFullAndroid | WinBooster",
+          "url": "https://skillshop.gitbook.io/winbooster/winbooster.native/directoryfullandroid"
+        },
+        {
+          "type": "DirectoryPatern | WinBooster",
+          "url": "https://skillshop.gitbook.io/winbooster/winbooster.native/directorypatern"
+        },
+        {
+          "type": "DirectoryFull | WinBooster",
+          "url": "https://skillshop.gitbook.io/winbooster/winbooster.native/directoryfull"
+        },
+        {
+          "type": "GameOptimizeI | WinBooster",
+          "url": "https://skillshop.gitbook.io/winbooster/winbooster.native/gameoptimizei"
+        },
+        {
+          "type": "FixerI | WinBooster",
+          "url": "https://skillshop.gitbook.io/winbooster/winbooster.native/fixeri"
+        },
+        {
+          "type": "General | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/general/general"
+        },
+        {
+          "type": "Threads | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/libs/threads"
+        },
+        {
+          "type": "Events | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/general/events"
+        },
+        {
+          "type": "Encoding | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/libs/encoding"
+        },
+        {
+          "type": "Creator | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/libs/creator"
+        },
+        {
+          "type": "TCP | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/libs/tcp"
+        },
+        {
+          "type": "Http | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/libs/http"
+        },
+        {
+          "type": "Json | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/libs/json"
+        },
+        {
+          "type": "Catboost | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/libs/catboost"
+        },
+        {
+          "type": "Cat Boost Model | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/libs/catboost/cat-boost-model"
+        },
+        {
+          "type": "Cat Boost Predictions | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/libs/catboost/cat-boost-predictions"
+        },
+        {
+          "type": "Map | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/datatypes/map"
+        },
+        {
+          "type": "Entity | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/datatypes/entity"
+        },
+        {
+          "type": "Constants | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/libs/imgui/constants"
+        },
+        {
+          "type": "Draw list | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/libs/imgui/draw-list"
+        },
+        {
+          "type": "Block | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/datatypes/block"
+        },
+        {
+          "type": "Item | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/datatypes/item"
+        },
+        {
+          "type": "Box | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/datatypes/box"
+        },
+        {
+          "type": "Inventory | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/player-objects/player/inventory"
+        },
+        {
+          "type": "PathFinder | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/modules-objects/pathfinder"
+        },
+        {
+          "type": "Network | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/player-objects/player/network"
+        },
+        {
+          "type": "2D renderer | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/rendering-objects/2d-renderer"
+        },
+        {
+          "type": "ImGUI | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/libs/imgui"
+        },
+        {
+          "type": "Input | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/player-objects/player/input"
+        },
+        {
+          "type": "World | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/world-objects/world"
+        },
+        {
+          "type": "World renderer | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/rendering-objects/world-renderer"
+        },
+        {
+          "type": "Player | Hypixel Cry | LuaAPI",
+          "url": "https://skillshop.gitbook.io/hypixelcry/player-objects/player"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fd4e077922d45d19590bd747986b19ff4e085413e666170bf4f8d29a95b9b1ad"
 }

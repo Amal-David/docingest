@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.featurebase.app/",
+      "canonicalSeedUrl": "https://docs.featurebase.app/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-22T11:09:17.990Z",
+      "completedAt": "2025-02-22T11:09:17.990Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.featurebase.app/",
+          "canonicalUrl": "https://docs.featurebase.app/",
+          "status": "valid"
+        }
+      ],
+      "id": "2bde90bd71573b6073d7ad0e4bc781d857fef97415e6b41040ae06e5323992ae",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b2ef6850e2207de61fe731e4fc65c39b65537e7eb89dd2040274b18005669c63",
+      "filename": "documentation_2025-02-22T11:09:17.990Z.md",
+      "contentHash": "c31a4fab20867414a2c5500294bd2830e00c71ed4bd7be9d244a2f61b140cbb1",
+      "sourceUrl": "https://docs.featurebase.app/",
+      "canonicalSourceUrl": "https://docs.featurebase.app/",
+      "capturedAt": "2025-02-22T11:09:17.990Z",
+      "crawlRunId": "2bde90bd71573b6073d7ad0e4bc781d857fef97415e6b41040ae06e5323992ae",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Featurebase API Reference",
+          "url": "https://docs.featurebase.app/"
+        },
+        {
+          "type": "Authentication - Featurebase API Reference",
+          "url": "https://docs.featurebase.app/authentication"
+        },
+        {
+          "type": "Pagination - Featurebase API Reference",
+          "url": "https://docs.featurebase.app/pagination"
+        },
+        {
+          "type": "Quickstart - Featurebase API Reference",
+          "url": "https://docs.featurebase.app/quickstart"
+        },
+        {
+          "type": "Errors - Featurebase API Reference",
+          "url": "https://docs.featurebase.app/errors"
+        },
+        {
+          "type": "Webhooks - Featurebase API Reference",
+          "url": "https://docs.featurebase.app/webhooks"
+        },
+        {
+          "type": "Posts - Featurebase API Reference",
+          "url": "https://docs.featurebase.app/posts"
+        },
+        {
+          "type": "Comments - Featurebase API Reference",
+          "url": "https://docs.featurebase.app/comment"
+        },
+        {
+          "type": "Changelogs - Featurebase API Reference",
+          "url": "https://docs.featurebase.app/changelogs"
+        },
+        {
+          "type": "Roles - Featurebase API Reference",
+          "url": "https://docs.featurebase.app/roles"
+        },
+        {
+          "type": "Identify Users - Featurebase API Reference",
+          "url": "https://docs.featurebase.app/identify"
+        },
+        {
+          "type": "Help Centers - Featurebase API Reference",
+          "url": "https://docs.featurebase.app/help-center"
+        },
+        {
+          "type": "404: This page could not be found",
+          "url": "https://docs.featurebase.app/comments"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b2ef6850e2207de61fe731e4fc65c39b65537e7eb89dd2040274b18005669c63"
 }

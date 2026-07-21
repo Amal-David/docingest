@@ -346,5 +346,299 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://serotonin-1.gitbook.io/serotonin-docs",
+      "canonicalSeedUrl": "https://serotonin-1.gitbook.io/serotonin-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-01T19:52:25.511Z",
+      "completedAt": "2026-07-01T19:52:25.511Z",
+      "providerTotals": {
+        "discovered": 59,
+        "returned": 59,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs",
+          "canonicalUrl": "https://serotonin-1.gitbook.io/serotonin-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "234c27e59043897c323e01e27c309141300c0d27c98f01e2cd33ac99c757a2b7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7e8c20601e92cdbf0316e2f0abe6f4d0814082fed749c965d2a705f6c5cf420d",
+      "filename": "documentation_2026-07-01T19:52:25.511Z.md",
+      "contentHash": "a08f66590d307d6778189e65f2cd0fe8a907f1de029280859c3057b349e2d5dd",
+      "sourceUrl": "https://serotonin-1.gitbook.io/serotonin-docs",
+      "canonicalSourceUrl": "https://serotonin-1.gitbook.io/serotonin-docs",
+      "capturedAt": "2026-07-01T19:52:25.511Z",
+      "crawlRunId": "234c27e59043897c323e01e27c309141300c0d27c98f01e2cd33ac99c757a2b7",
+      "upstreamVersion": "1.6.4",
+      "upstreamChannel": "latest",
+      "totalPages": 59,
+      "successfulPages": 59,
+      "structure": [
+        {
+          "type": "Serotonin Lua Documentation | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs"
+        },
+        {
+          "type": "What is this? | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/overview/what-is-this"
+        },
+        {
+          "type": "API | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api"
+        },
+        {
+          "type": "Setting Up | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/product-guides/setting-up"
+        },
+        {
+          "type": "FFlags | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/game/fflags"
+        },
+        {
+          "type": "draw | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/draw"
+        },
+        {
+          "type": "Core Concepts | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/overview/core-concepts"
+        },
+        {
+          "type": "input | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/input"
+        },
+        {
+          "type": "Attributes | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/game/attributes"
+        },
+        {
+          "type": " Creating a Simple ESP | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/product-guides/creating-a-simple-esp"
+        },
+        {
+          "type": "Properties | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/game/properties"
+        },
+        {
+          "type": "entity | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/entity"
+        },
+        {
+          "type": "Parts | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/entity/parts"
+        },
+        {
+          "type": "game | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/game"
+        },
+        {
+          "type": "ui | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/ui"
+        },
+        {
+          "type": "Model | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/entity/model"
+        },
+        {
+          "type": "Color3 | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/color3"
+        },
+        {
+          "type": "cheat | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/cheat"
+        },
+        {
+          "type": "Functions | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/game/functions"
+        },
+        {
+          "type": "Vector3 & Color3 Example | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/vector3-and-color3-example"
+        },
+        {
+          "type": "http | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/http"
+        },
+        {
+          "type": "Vector3 | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/vector3"
+        },
+        {
+          "type": "Methods | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/game/methods"
+        },
+        {
+          "type": "file | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/file"
+        },
+        {
+          "type": "utility | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/utility"
+        },
+        {
+          "type": "audio | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/audio"
+        },
+        {
+          "type": "Players | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/entity/players"
+        },
+        {
+          "type": "memory | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/memory"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/llms.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/serotonin-lua-documentation.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/overview/what-is-this.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/draw.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/product-guides/setting-up.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/game/fflags.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/input.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/game/attributes.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/overview/core-concepts.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/product-guides/creating-a-simple-esp.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/entity/parts.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/game.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/entity.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/game/properties.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/ui.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/game/functions.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/entity/model.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/http.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/vector3-and-color3-example.md"
+        },
+        {
+          "type": "What is this? | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/overview"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/game/methods.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/utility.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/entity/players.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/cheat.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/audio.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/color3.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/vector3.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/memory.md"
+        },
+        {
+          "type": "Setting Up | Serotonin Docs",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/product-guides"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://serotonin-1.gitbook.io/serotonin-docs/api/file.md"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7e8c20601e92cdbf0316e2f0abe6f4d0814082fed749c965d2a705f6c5cf420d"
 }

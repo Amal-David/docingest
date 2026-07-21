@@ -61,5 +61,95 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.vii.finance/",
+      "canonicalSeedUrl": "https://docs.vii.finance/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-15T15:56:33.310Z",
+      "completedAt": "2026-01-15T15:56:33.310Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.vii.finance/",
+          "canonicalUrl": "https://docs.vii.finance/",
+          "status": "valid"
+        }
+      ],
+      "id": "66a18947fad9bb1f62ef47154330d2f173d84565e46fe4a326c8890ffc110991",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "27d1c1133835ccdb1adb6ca30fb9cbc819bcdc80f00a5cb2bec2d8b4dba6de54",
+      "filename": "documentation_2026-01-15T15:56:33.310Z.md",
+      "contentHash": "472cddb7e3323df2c9cb57f5de5bdbbc6c20177d91af82c359eccebfb941a51d",
+      "sourceUrl": "https://docs.vii.finance/",
+      "canonicalSourceUrl": "https://docs.vii.finance/",
+      "capturedAt": "2026-01-15T15:56:33.310Z",
+      "crawlRunId": "66a18947fad9bb1f62ef47154330d2f173d84565e46fe4a326c8890ffc110991",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Introduction | VII Finance",
+          "url": "https://docs.vii.finance/"
+        },
+        {
+          "type": "The Uniswap V4 Hook (Yield Harvesting Hook) | VII Finance",
+          "url": "https://docs.vii.finance/Architecture/yield-harvesting-hook"
+        },
+        {
+          "type": "Security | VII Finance",
+          "url": "https://docs.vii.finance/security"
+        },
+        {
+          "type": "Smart Contract Addresses | VII Finance",
+          "url": "https://docs.vii.finance/addresses"
+        },
+        {
+          "type": "VII Finance (Lending Protocol) | VII Finance",
+          "url": "https://docs.vii.finance/Architecture/lending-protocol"
+        },
+        {
+          "type": "Introducing VII Finance | VII Finance",
+          "url": "https://docs.vii.finance/blog/introducing-vii-finance"
+        },
+        {
+          "type": "VII Finance - One post | VII Finance",
+          "url": "https://docs.vii.finance/blog/authors/vii-team"
+        },
+        {
+          "type": "Authors | VII Finance",
+          "url": "https://docs.vii.finance/blog/authors"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "27d1c1133835ccdb1adb6ca30fb9cbc819bcdc80f00a5cb2bec2d8b4dba6de54"
 }

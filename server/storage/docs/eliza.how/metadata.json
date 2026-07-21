@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://eliza.how/",
+      "canonicalSeedUrl": "https://eliza.how/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-29T05:44:09.376Z",
+      "completedAt": "2025-07-29T05:44:09.376Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://eliza.how/",
+          "canonicalUrl": "https://eliza.how/",
+          "status": "valid"
+        }
+      ],
+      "id": "25155ac00a22d66cbdedfa79220bb2f8d47dc25115aabac4109c6ef8555c524d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "77c8ecc1b625b8434b6bf886c42fd2a47501fa6d11be27165911ed5f7b4acce1",
+      "filename": "documentation_2025-07-29T05:44:09.376Z.md",
+      "contentHash": "5fcb9c3f74c52bd3a5c06ac99b519b624eb514cb2b47a42bc9ce70c213828ac9",
+      "sourceUrl": "https://eliza.how/",
+      "canonicalSourceUrl": "https://eliza.how/",
+      "capturedAt": "2025-07-29T05:44:09.376Z",
+      "crawlRunId": "25155ac00a22d66cbdedfa79220bb2f8d47dc25115aabac4109c6ef8555c524d",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Overview - ElizaOS Documentation",
+          "url": "https://eliza.how/"
+        },
+        {
+          "type": "Anthropic Plugin - ElizaOS Documentation",
+          "url": "https://eliza.how/plugins/llm/anthropic"
+        },
+        {
+          "type": "OpenAI Plugin - ElizaOS Documentation",
+          "url": "https://eliza.how/plugins/llm/openai"
+        },
+        {
+          "type": "Ollama Plugin - ElizaOS Documentation",
+          "url": "https://eliza.how/plugins/llm/ollama"
+        },
+        {
+          "type": "Google GenAI Plugin - ElizaOS Documentation",
+          "url": "https://eliza.how/plugins/llm/google-genai"
+        },
+        {
+          "type": "Message Processing Core - ElizaOS Documentation",
+          "url": "https://eliza.how/plugins/bootstrap"
+        },
+        {
+          "type": "OpenRouter Plugin - ElizaOS Documentation",
+          "url": "https://eliza.how/plugins/llm/openrouter"
+        },
+        {
+          "type": "Environment Configuration - ElizaOS Documentation",
+          "url": "https://eliza.how/cli-reference/env"
+        },
+        {
+          "type": "Overview - ElizaOS Documentation",
+          "url": "https://eliza.how/plugins/defi/evm"
+        },
+        {
+          "type": "Architecture & Flow Diagrams - ElizaOS Documentation",
+          "url": "https://eliza.how/plugins/knowledge/architecture-flow"
+        },
+        {
+          "type": "Operations Flow - ElizaOS Documentation",
+          "url": "https://eliza.how/plugins/defi/solana/defi-operations-flow"
+        },
+        {
+          "type": "Overview - ElizaOS Documentation",
+          "url": "https://eliza.how/core-concepts"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://eliza.how/llms-full.txt"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "77c8ecc1b625b8434b6bf886c42fd2a47501fa6d11be27165911ed5f7b4acce1"
 }

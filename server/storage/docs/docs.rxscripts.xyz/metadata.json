@@ -51,5 +51,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.rxscripts.xyz/fmlib/adapters/client/inventory/functions",
+      "canonicalSeedUrl": "https://docs.rxscripts.xyz/fmlib/adapters/client/inventory/functions",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-23T18:51:45.736Z",
+      "completedAt": "2026-02-23T18:51:45.736Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.rxscripts.xyz/fmlib/adapters/client/inventory/functions",
+          "canonicalUrl": "https://docs.rxscripts.xyz/fmlib/adapters/client/inventory/functions",
+          "status": "valid"
+        }
+      ],
+      "id": "7ce6f71c373d2b288791c912c9aca40442add8233345aab90bd2702286d0b79d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1b9d7e0a18d4307e38eca1f11a4c58ee590d40afc15258bed0519ae3f8504e84",
+      "filename": "documentation_2026-02-23T18:51:45.736Z.md",
+      "contentHash": "8cfda5f7a9628e30b6a5999849573c70e2aaad688a6469bb10519bef7430581d",
+      "sourceUrl": "https://docs.rxscripts.xyz/fmlib/adapters/client/inventory/functions",
+      "canonicalSourceUrl": "https://docs.rxscripts.xyz/fmlib/adapters/client/inventory/functions",
+      "capturedAt": "2026-02-23T18:51:45.736Z",
+      "crawlRunId": "7ce6f71c373d2b288791c912c9aca40442add8233345aab90bd2702286d0b79d",
+      "upstreamVersion": "1.0.3",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Functions - RX Scripts - Documentation",
+          "url": "https://docs.rxscripts.xyz/fmlib/adapters/client/inventory/functions"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1b9d7e0a18d4307e38eca1f11a4c58ee590d40afc15258bed0519ae3f8504e84"
 }

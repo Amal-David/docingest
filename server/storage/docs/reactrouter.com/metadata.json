@@ -170,5 +170,159 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://reactrouter.com/home",
+      "canonicalSeedUrl": "https://reactrouter.com/home",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-05-16T22:13:10.115Z",
+      "completedAt": "2025-05-16T22:13:10.115Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://reactrouter.com/home",
+          "canonicalUrl": "https://reactrouter.com/home",
+          "status": "valid"
+        }
+      ],
+      "id": "48f3690487a4ffe517056f6140a43d52e0ac5b0ef6e5fcb5098cfcfc6cd3fe41",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "653b3981cfaa35cbbde69b0973706a37abe9c97b65b48fe11743af4c180cb064",
+      "filename": "documentation_2025-05-16T22:13:10.115Z.md",
+      "contentHash": "ec122f64de7e62473b5f464077f7a58edd3f9481c1ee4c17b8acf698432e5411",
+      "sourceUrl": "https://reactrouter.com/home",
+      "canonicalSourceUrl": "https://reactrouter.com/home",
+      "capturedAt": "2025-05-16T22:13:10.115Z",
+      "crawlRunId": "48f3690487a4ffe517056f6140a43d52e0ac5b0ef6e5fcb5098cfcfc6cd3fe41",
+      "upstreamVersion": "1.6.0",
+      "upstreamChannel": "latest",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "React Router Home  | React Router",
+          "url": "https://reactrouter.com/home"
+        },
+        {
+          "type": "React Router Home v7.6.0 | React Router",
+          "url": "https://reactrouter.com/7.6.0/home"
+        },
+        {
+          "type": "Docs v6.30.0 | React Router",
+          "url": "https://reactrouter.com/6.30.0"
+        },
+        {
+          "type": "Picking a Mode  | React Router",
+          "url": "https://reactrouter.com/start/modes"
+        },
+        {
+          "type": "Installation  | React Router",
+          "url": "https://reactrouter.com/start/framework/installation"
+        },
+        {
+          "type": "Routing  | React Router",
+          "url": "https://reactrouter.com/start/framework/routing"
+        },
+        {
+          "type": "Route Module  | React Router",
+          "url": "https://reactrouter.com/start/framework/route-module"
+        },
+        {
+          "type": "Data Loading  | React Router",
+          "url": "https://reactrouter.com/start/framework/data-loading"
+        },
+        {
+          "type": "Rendering Strategies  | React Router",
+          "url": "https://reactrouter.com/start/framework/rendering"
+        },
+        {
+          "type": "Actions  | React Router",
+          "url": "https://reactrouter.com/start/framework/actions"
+        },
+        {
+          "type": "CHANGELOG.md  | React Router",
+          "url": "https://reactrouter.com/changelog"
+        },
+        {
+          "type": "Navigating  | React Router",
+          "url": "https://reactrouter.com/start/framework/navigating"
+        },
+        {
+          "type": "Pending UI  | React Router",
+          "url": "https://reactrouter.com/start/framework/pending-ui"
+        },
+        {
+          "type": "React Router Home (dev branch) | React Router",
+          "url": "https://reactrouter.com/dev/home"
+        },
+        {
+          "type": "Testing  | React Router",
+          "url": "https://reactrouter.com/start/framework/testing"
+        },
+        {
+          "type": "Deploying  | React Router",
+          "url": "https://reactrouter.com/start/framework/deploying"
+        },
+        {
+          "type": "Installation  | React Router",
+          "url": "https://reactrouter.com/start/data/installation"
+        },
+        {
+          "type": "Routing  | React Router",
+          "url": "https://reactrouter.com/start/data/routing"
+        },
+        {
+          "type": "CHANGELOG.md v7.6.0 | React Router",
+          "url": "https://reactrouter.com/7.6.0/changelog"
+        },
+        {
+          "type": "Routing v7.6.0 | React Router",
+          "url": "https://reactrouter.com/7.6.0/start/framework/routing"
+        },
+        {
+          "type": "Tutorial v6.30.0 | React Router",
+          "url": "https://reactrouter.com/6.30.0/start/tutorial"
+        },
+        {
+          "type": "Examples v6.30.0 | React Router",
+          "url": "https://reactrouter.com/6.30.0/start/examples"
+        },
+        {
+          "type": "Navigating  | React Router",
+          "url": "https://reactrouter.com/start/data/navigating"
+        },
+        {
+          "type": "Actions  | React Router",
+          "url": "https://reactrouter.com/start/data/actions"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "653b3981cfaa35cbbde69b0973706a37abe9c97b65b48fe11743af4c180cb064"
 }

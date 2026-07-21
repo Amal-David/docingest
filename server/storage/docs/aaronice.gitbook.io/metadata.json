@@ -81,5 +81,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://aaronice.gitbook.io/lintcode/linked_list/linked_list_cycle",
+      "canonicalSeedUrl": "https://aaronice.gitbook.io/lintcode/linked_list/linked_list_cycle",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-29T11:07:48.689Z",
+      "completedAt": "2025-03-29T11:07:48.689Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://aaronice.gitbook.io/lintcode/linked_list/linked_list_cycle",
+          "canonicalUrl": "https://aaronice.gitbook.io/lintcode/linked_list/linked_list_cycle",
+          "status": "valid"
+        }
+      ],
+      "id": "4386da65274abc20d64489e96029a6a508a06aad5d2371a50636e578931e5681",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "709b5d6c762c2f8bd4d8c79d057cbd2d9d173a0399ddd28b37565b3bed93b48d",
+      "filename": "documentation_2025-03-29T11:07:48.689Z.md",
+      "contentHash": "74ff5a5cd5a747aabcd11697c5ac9a6a1b2ed5530c873790d2742499448f9728",
+      "sourceUrl": "https://aaronice.gitbook.io/lintcode/linked_list/linked_list_cycle",
+      "canonicalSourceUrl": "https://aaronice.gitbook.io/lintcode/linked_list/linked_list_cycle",
+      "capturedAt": "2025-03-29T11:07:48.689Z",
+      "crawlRunId": "4386da65274abc20d64489e96029a6a508a06aad5d2371a50636e578931e5681",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Linked List Cycle | LintCode & LeetCode",
+          "url": "https://aaronice.gitbook.io/lintcode/linked_list/linked_list_cycle"
+        },
+        {
+          "type": "Add Two Numbers II | LintCode & LeetCode",
+          "url": "https://aaronice.gitbook.io/lintcode/linked_list/add_two_numbers_ii"
+        },
+        {
+          "type": "Add Two Numbers | LintCode & LeetCode",
+          "url": "https://aaronice.gitbook.io/lintcode/linked_list/add-two-numbers"
+        },
+        {
+          "type": "Odd Even Linked List | LintCode & LeetCode",
+          "url": "https://aaronice.gitbook.io/lintcode/linked_list/odd-even-linked-list"
+        },
+        {
+          "type": "Intersection of Two Linked Lists | LintCode & LeetCode",
+          "url": "https://aaronice.gitbook.io/lintcode/linked_list/intersection-of-two-linked-lists"
+        },
+        {
+          "type": "Reverse Linked List | LintCode & LeetCode",
+          "url": "https://aaronice.gitbook.io/lintcode/linked_list/reverse-linked-list"
+        },
+        {
+          "type": "Remove Linked List Elements | LintCode & LeetCode",
+          "url": "https://aaronice.gitbook.io/lintcode/linked_list/remove-linked-list-elements"
+        },
+        {
+          "type": "Remove Nth Node From End of List | LintCode & LeetCode",
+          "url": "https://aaronice.gitbook.io/lintcode/linked_list/remove-nth-node-from-end-of-list"
+        },
+        {
+          "type": "Merge Two Sorted Lists | LintCode & LeetCode",
+          "url": "https://aaronice.gitbook.io/lintcode/linked_list/merge-two-sorted-lists"
+        },
+        {
+          "type": "Sort List | LintCode & LeetCode",
+          "url": "https://aaronice.gitbook.io/lintcode/linked_list/sort_list"
+        },
+        {
+          "type": "Merge k Sorted Lists | LintCode & LeetCode",
+          "url": "https://aaronice.gitbook.io/lintcode/linked_list/merge_k_sorted_lists"
+        },
+        {
+          "type": "Reverse Linked List II | LintCode & LeetCode",
+          "url": "https://aaronice.gitbook.io/lintcode/linked_list/reverse-linked-list-ii"
+        },
+        {
+          "type": "Design Doubly Linked List | LintCode & LeetCode",
+          "url": "https://aaronice.gitbook.io/lintcode/linked_list/design-linked-list/design-doubly-linked-list"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "709b5d6c762c2f8bd4d8c79d057cbd2d9d173a0399ddd28b37565b3bed93b48d"
 }

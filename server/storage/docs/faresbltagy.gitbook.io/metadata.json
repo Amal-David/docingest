@@ -93,5 +93,127 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://faresbltagy.gitbook.io/footprintinglabs/",
+      "canonicalSeedUrl": "https://faresbltagy.gitbook.io/footprintinglabs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-22T19:19:15.552Z",
+      "completedAt": "2025-12-22T19:19:15.552Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/",
+          "canonicalUrl": "https://faresbltagy.gitbook.io/footprintinglabs",
+          "status": "valid"
+        }
+      ],
+      "id": "cd711839a767c827498fd36f138476b84c4e7b3493ba592161e1fe15d54c8432",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "dfb5beb824c0e5370c42edb79a014e693ae836d55e86cff649bfd69eb38e6d58",
+      "filename": "documentation_2025-12-22T19:19:15.552Z.md",
+      "contentHash": "9927b33e185939741f15152bba20a0c174a55b5808faaefdeae49eb3d3786fc7",
+      "sourceUrl": "https://faresbltagy.gitbook.io/footprintinglabs/",
+      "canonicalSourceUrl": "https://faresbltagy.gitbook.io/footprintinglabs",
+      "capturedAt": "2025-12-22T19:19:15.552Z",
+      "crawlRunId": "cd711839a767c827498fd36f138476b84c4e7b3493ba592161e1fe15d54c8432",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "Whoami | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/"
+        },
+        {
+          "type": "Footprinting Labs | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/footprinting-labs"
+        },
+        {
+          "type": "Lab - Easy | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/footprinting-labs/lab-easy"
+        },
+        {
+          "type": "Shells & Payloads   | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/shells-and-payloads"
+        },
+        {
+          "type": "Lab - Medium | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/footprinting-labs/lab-medium"
+        },
+        {
+          "type": "Lab - Hard | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/footprinting-labs/lab-hard"
+        },
+        {
+          "type": "Password Attacks | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/password-attacks"
+        },
+        {
+          "type": "Lab - Easy | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/password-attacks/lab-easy"
+        },
+        {
+          "type": "Active Directory Enumeration & Attacks | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/active-directory-enumeration-and-attacks"
+        },
+        {
+          "type": "The Live Engagement | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/shells-and-payloads/the-live-engagement"
+        },
+        {
+          "type": "Lab - Medium | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/password-attacks/lab-medium"
+        },
+        {
+          "type": "SOC Hackthebox Notes & Labs | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/soc-hackthebox-notes-and-labs"
+        },
+        {
+          "type": "Lab - Hard | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/password-attacks/lab-hard"
+        },
+        {
+          "type": "AD Enumeration & Attacks - Skills Assessment Part I | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/active-directory-enumeration-and-attacks/ad-enumeration-and-attacks-skills-assessment-part-i"
+        },
+        {
+          "type": "Understanding Log Sources & Investigating with Splunk Module | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/soc-hackthebox-notes-and-labs/understanding-log-sources-and-investigating-with-splunk-module"
+        },
+        {
+          "type": "AD Enumeration & Attacks - Skills Assessment Part II | FaresMorcy",
+          "url": "https://faresbltagy.gitbook.io/footprintinglabs/active-directory-enumeration-and-attacks/ad-enumeration-and-attacks-skills-assessment-part-ii"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "dfb5beb824c0e5370c42edb79a014e693ae836d55e86cff649bfd69eb38e6d58"
 }

@@ -116,5 +116,159 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.bespokelabs.ai/bespoke-curator/tutorials",
+      "canonicalSeedUrl": "https://docs.bespokelabs.ai/bespoke-curator/tutorials",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-04T01:08:44.509Z",
+      "completedAt": "2025-03-04T01:08:44.509Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/tutorials",
+          "canonicalUrl": "https://docs.bespokelabs.ai/bespoke-curator/tutorials",
+          "status": "valid"
+        }
+      ],
+      "id": "a6459bd21aa178536ab2e0885a65c3506cec8fa9345684c491c347b104decd36",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "55f88a695a179f8bf27727fed039410a862eee24c952983e71ca7f58164dbfa3",
+      "filename": "documentation_2025-03-04T01:08:44.509Z.md",
+      "contentHash": "d58f752039d5a972b0a36d39bc6352486639929791a06737d4a0d51881630f48",
+      "sourceUrl": "https://docs.bespokelabs.ai/bespoke-curator/tutorials",
+      "canonicalSourceUrl": "https://docs.bespokelabs.ai/bespoke-curator/tutorials",
+      "capturedAt": "2025-03-04T01:08:44.509Z",
+      "crawlRunId": "a6459bd21aa178536ab2e0885a65c3506cec8fa9345684c491c347b104decd36",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "Tutorials | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/tutorials"
+        },
+        {
+          "type": "Getting Started | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/getting-started"
+        },
+        {
+          "type": "How-to Guides | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/how-to-guides"
+        },
+        {
+          "type": "Examples | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/examples"
+        },
+        {
+          "type": "Using LiteLLM for diverse providers | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/how-to-guides/using-litellm-for-diverse-providers"
+        },
+        {
+          "type": "Welcome | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/"
+        },
+        {
+          "type": "Integrations | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-minicheck/integrations"
+        },
+        {
+          "type": "Using OpenAI for batch inference | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/how-to-guides/using-openai-for-batch-inference"
+        },
+        {
+          "type": "Conceptual Guides | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/conceptual-guides"
+        },
+        {
+          "type": "Using Anthropic for batch inference | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/how-to-guides/using-anthropic-for-batch-inference"
+        },
+        {
+          "type": "Quick Tour | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/getting-started/quick-tour"
+        },
+        {
+          "type": "Save $$$ with batch mode | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/tutorials/save-usdusdusd-with-batch-mode"
+        },
+        {
+          "type": "Using vLLM with Curator | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/how-to-guides/using-vllm-with-curator"
+        },
+        {
+          "type": "Using Gemini for batch inference | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/how-to-guides/using-gemini-for-batch-inference"
+        },
+        {
+          "type": "API Service | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-minicheck/api"
+        },
+        {
+          "type": "Automatic recovery and caching | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/tutorials/automatic-recovery-and-caching"
+        },
+        {
+          "type": "Visualize your dataset with the Bespoke Curator Viewer | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/tutorials/visualize-your-dataset-with-the-bespoke-curator-viewer"
+        },
+        {
+          "type": "LLM API documentation | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/api-reference/llm-api-documentation"
+        },
+        {
+          "type": "Using kluster.ai for batch inference | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/how-to-guides/using-kluster.ai-for-batch-inference"
+        },
+        {
+          "type": "Self-Hosting | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-minicheck/hosting"
+        },
+        {
+          "type": "API reference | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/api-reference"
+        },
+        {
+          "type": "Execute LLM-generated code | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/how-to-guides/execute-llm-generated-code"
+        },
+        {
+          "type": "Using Ollama with Curator | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/how-to-guides/using-ollama-with-curator"
+        },
+        {
+          "type": "Finetuning a model to identify features of a product | Bespoke Labs",
+          "url": "https://docs.bespokelabs.ai/bespoke-curator/examples/finetuning-a-model-to-identify-features-of-a-product"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "55f88a695a179f8bf27727fed039410a862eee24c952983e71ca7f58164dbfa3"
 }

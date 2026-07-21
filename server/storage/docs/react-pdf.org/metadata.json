@@ -64,5 +64,107 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://react-pdf.org/",
+      "canonicalSeedUrl": "https://react-pdf.org/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-05T12:15:08.302Z",
+      "completedAt": "2025-08-05T12:15:08.302Z",
+      "providerTotals": {
+        "discovered": 11,
+        "returned": 11,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://react-pdf.org/",
+          "canonicalUrl": "https://react-pdf.org/",
+          "status": "valid"
+        }
+      ],
+      "id": "504b74dc5c0e3d76ad2dc0821a1acd32bd5e8710b850b1865484002703944fe7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0c51ab61e2651ae20dd063f5767302995bbab52abe00da8b5fd0da7ff63342c1",
+      "filename": "documentation_2025-08-05T12:15:08.302Z.md",
+      "contentHash": "8c65eb3a32578e71c9b976eea3f7bc99f5f2236219f6f6decdf9a5e5da28ebab",
+      "sourceUrl": "https://react-pdf.org/",
+      "canonicalSourceUrl": "https://react-pdf.org/",
+      "capturedAt": "2025-08-05T12:15:08.302Z",
+      "crawlRunId": "504b74dc5c0e3d76ad2dc0821a1acd32bd5e8710b850b1865484002703944fe7",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 11,
+      "successfulPages": 11,
+      "structure": [
+        {
+          "type": "React-pdf",
+          "url": "https://react-pdf.org/"
+        },
+        {
+          "type": "React-pdf",
+          "url": "https://react-pdf.org/compatibility"
+        },
+        {
+          "type": "React-pdf",
+          "url": "https://react-pdf.org/rendering-process"
+        },
+        {
+          "type": "React-pdf",
+          "url": "https://react-pdf.org/components"
+        },
+        {
+          "type": "React-pdf",
+          "url": "https://react-pdf.org/svg"
+        },
+        {
+          "type": "React-pdf",
+          "url": "https://react-pdf.org/styling"
+        },
+        {
+          "type": "React-pdf",
+          "url": "https://react-pdf.org/hooks"
+        },
+        {
+          "type": "React-pdf",
+          "url": "https://react-pdf.org/node"
+        },
+        {
+          "type": "React-pdf",
+          "url": "https://react-pdf.org/fonts"
+        },
+        {
+          "type": "React-pdf",
+          "url": "https://react-pdf.org/repl"
+        },
+        {
+          "type": "React-pdf",
+          "url": "https://react-pdf.org/advanced"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0c51ab61e2651ae20dd063f5767302995bbab52abe00da8b5fd0da7ff63342c1"
 }

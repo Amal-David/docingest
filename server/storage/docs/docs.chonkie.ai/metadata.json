@@ -340,5 +340,383 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.chonkie.ai/common/welcome",
+      "canonicalSeedUrl": "https://docs.chonkie.ai/common/welcome",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-08T12:42:36.871Z",
+      "completedAt": "2026-06-08T12:42:36.871Z",
+      "providerTotals": {
+        "discovered": 80,
+        "returned": 80,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.chonkie.ai/common/welcome",
+          "canonicalUrl": "https://docs.chonkie.ai/common/welcome",
+          "status": "valid"
+        }
+      ],
+      "id": "241cf50d05dcc055d21ee87c1a80e226a6bda45d26e5a4ae948b4de590646949",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0582fa7a569387fec46debe38344a478852a271b189c3cbc0f2602c8a2358c84",
+      "filename": "documentation_2026-06-08T12:42:36.871Z.md",
+      "contentHash": "8a9959bb687ac403ca7f13e5fb1ae3df2b21df41f85476f283f851bed680732a",
+      "sourceUrl": "https://docs.chonkie.ai/common/welcome",
+      "canonicalSourceUrl": "https://docs.chonkie.ai/common/welcome",
+      "capturedAt": "2026-06-08T12:42:36.871Z",
+      "crawlRunId": "241cf50d05dcc055d21ee87c1a80e226a6bda45d26e5a4ae948b4de590646949",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 80,
+      "successfulPages": 80,
+      "structure": [
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/common/welcome"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/common/concepts"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/common/open-source"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.chonkie.ai/llms.txt"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/api/docker"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/api/endpoints"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/api/overview"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chefs/overview"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/api/quickstart"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chefs/markdownchef"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chefs/mistral-ocr"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/api/pipelines"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/changelog"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/porters/overview"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chefs/textchef"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chefs/tablechef"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/embeddings/sentence-transformer-embeddings"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/embeddings/openai-embeddings"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/refinery/overview"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/embeddings/jina-embeddings"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/embeddings/model2vec-embeddings"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/embeddings/cohere-embeddings"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/embeddings/azure-embeddings"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/embeddings/overview"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/embeddings/gemini-embeddings"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/embeddings/voyageai-embeddings"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/fetchers/overview"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/utils/hubbie"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/experimental/overview"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/embeddings/custom-embeddings"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/embeddings/auto-embeddings"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/utils/visualizer"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/handshakes/overview"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/porters/json-porter"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/handshakes/milvus-handshake"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/utils/logging"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chunkers/teraflopai-chunker"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/handshakes/chroma-handshake"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/handshakes/lancedb-handshake"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chunkers/sdpm-chunker"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/handshakes/pinecone-handshake"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/handshakes/turbopuffer-handshake"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/fetchers/file-fetcher"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/handshakes/mongodb-handshake"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/porters/datasets-porter"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/handshakes/pgvector-handshake"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chunkers/overview"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/handshakes/weaviate-handshake"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/handshakes/elastic-handshake"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/handshakes/qdrant-handshake"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/refinery/embeddings-refinery"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chunkers/neural-chunker"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/experimental/chonkie-cli"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chunkers/table-chunker"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/installation"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chunkers/late-chunker"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/quick-start"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chunkers/slumber-chunker"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/refinery/overlap-refinery"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chunkers/code-chunker"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/experimental/code-chunker"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chunkers/sentence-chunker"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chunkers/recursive-chunker"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chunkers/fast-chunker"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/pipelines"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chunkers/token-chunker"
+        },
+        {
+          "type": "Chonkie Documentation",
+          "url": "https://docs.chonkie.ai/oss/chunkers/semantic-chunker"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.chonkie.ai/common/chunking-api"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.chonkie.ai/api/chunkers/semantic-chunker"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.chonkie.ai/api/chunkers/recursive-chunker"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.chonkie.ai/api/refineries/overlap"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.chonkie.ai/python-sdk/embeddings/overview"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.chonkie.ai/api/refineries/embeddings"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.chonkie.ai/api/chunkers/neural-chunker"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.chonkie.ai/api/chunkers/slumber-chunker"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.chonkie.ai/api/chunkers/late-chunker"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.chonkie.ai/api/common/introduction"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.chonkie.ai/api/chunkers/code-chunker"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.chonkie.ai/api/chunkers/token-chunker"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.chonkie.ai/api/chunkers/sentence-chunker"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0582fa7a569387fec46debe38344a478852a271b189c3cbc0f2602c8a2358c84"
 }

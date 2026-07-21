@@ -275,5 +275,291 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://daikirai.gitbook.io/scripting/documentation/entity",
+      "canonicalSeedUrl": "https://daikirai.gitbook.io/scripting/documentation/entity",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-14T18:35:14.946Z",
+      "completedAt": "2026-06-14T18:35:14.946Z",
+      "providerTotals": {
+        "discovered": 57,
+        "returned": 57,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/entity",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/entity",
+          "status": "valid"
+        }
+      ],
+      "id": "8eea600eb211cf93fee70204b04b3bd7fd01e86b615e897bd2a0c52e9ca20354",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8fda8979358976bdca8f2c68655eace35d8f947207008b150cd1895af9a0e448",
+      "filename": "documentation_2026-06-14T18:35:14.946Z.md",
+      "contentHash": "38ceb2741d90436d526b49908d15ed6df8645957851466749fa0069e0c5363b3",
+      "sourceUrl": "https://daikirai.gitbook.io/scripting/documentation/entity",
+      "canonicalSourceUrl": "https://daikirai.gitbook.io/scripting/documentation/entity",
+      "capturedAt": "2026-06-14T18:35:14.946Z",
+      "crawlRunId": "8eea600eb211cf93fee70204b04b3bd7fd01e86b615e897bd2a0c52e9ca20354",
+      "upstreamVersion": "1.0.3",
+      "upstreamChannel": "latest",
+      "totalPages": 57,
+      "successfulPages": 57,
+      "structure": [
+        {
+          "type": "entity | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/entity"
+        },
+        {
+          "type": "encryption | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/guide/encryption"
+        },
+        {
+          "type": "image | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/image"
+        },
+        {
+          "type": "setup | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/guide/setup"
+        },
+        {
+          "type": "itemstack | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/itemstack"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/llms.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/entity.md"
+        },
+        {
+          "type": "main | raven client",
+          "url": "https://daikirai.gitbook.io/scripting"
+        },
+        {
+          "type": "imports | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/imports"
+        },
+        {
+          "type": "bridge | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/bridge"
+        },
+        {
+          "type": "block | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/block"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/image.md"
+        },
+        {
+          "type": "keybinds | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/keybinds"
+        },
+        {
+          "type": "config | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/config"
+        },
+        {
+          "type": "events | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/events"
+        },
+        {
+          "type": "network | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/network"
+        },
+        {
+          "type": "inventory | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/inventory"
+        },
+        {
+          "type": "gl | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/gl"
+        },
+        {
+          "type": "json | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/json"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/guide/setup.md"
+        },
+        {
+          "type": "client | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/client"
+        },
+        {
+          "type": "load string | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/loadstring"
+        },
+        {
+          "type": "packets | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/packets"
+        },
+        {
+          "type": "tile entity | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/tile-entity"
+        },
+        {
+          "type": "response | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/response"
+        },
+        {
+          "type": "util | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/util"
+        },
+        {
+          "type": "playerstate | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/playerstate"
+        },
+        {
+          "type": "request | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/request"
+        },
+        {
+          "type": "vec3 | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/vec3"
+        },
+        {
+          "type": "modules | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/modules"
+        },
+        {
+          "type": "world | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/world"
+        },
+        {
+          "type": "render | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/render"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/imports.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/json.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/network.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/util.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/client.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/packets.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/modules.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/playerstate.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/keybinds.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/config.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/vec3.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/world.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/render.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/events.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/readme.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/bridge.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/guide/encryption.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/loadstring.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/gl.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/response.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/inventory.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/request.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/tile-entity.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/block.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/itemstack.md"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8fda8979358976bdca8f2c68655eace35d8f947207008b150cd1895af9a0e448"
 }

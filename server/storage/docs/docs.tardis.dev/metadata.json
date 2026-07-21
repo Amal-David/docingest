@@ -60,5 +60,103 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.tardis.dev/faq",
+      "canonicalSeedUrl": "https://docs.tardis.dev/faq",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-25T12:28:23.121Z",
+      "completedAt": "2025-01-25T12:28:23.121Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.tardis.dev/faq",
+          "canonicalUrl": "https://docs.tardis.dev/faq",
+          "status": "valid"
+        }
+      ],
+      "id": "d97ef684d194fad66fbaf862bf121ef2de63d0edc1cce6b3262f5ef9dd076577",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "26e699554234d62a1b4a8f07d467ba0a27f9e11806e73844302e5acc2c70a7e6",
+      "filename": "documentation_2025-01-25T12:28:23.121Z.md",
+      "contentHash": "69b0fe77421061e135393f882749a10799d06e6210d0cb1067aa519c966b6e92",
+      "sourceUrl": "https://docs.tardis.dev/faq",
+      "canonicalSourceUrl": "https://docs.tardis.dev/faq",
+      "capturedAt": "2025-01-25T12:28:23.121Z",
+      "crawlRunId": "d97ef684d194fad66fbaf862bf121ef2de63d0edc1cce6b3262f5ef9dd076577",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "Frequently Asked Questions | Tardis.dev Documentation",
+          "url": "https://docs.tardis.dev/faq"
+        },
+        {
+          "type": "Welcome | Tardis.dev Documentation",
+          "url": "https://docs.tardis.dev/"
+        },
+        {
+          "type": "Binance COIN Futures | Tardis.dev Documentation",
+          "url": "https://docs.tardis.dev/historical-data-details/binance-delivery"
+        },
+        {
+          "type": "Deribit | Tardis.dev Documentation",
+          "url": "https://docs.tardis.dev/historical-data-details/deribit"
+        },
+        {
+          "type": "Historical Data Details | Tardis.dev Documentation",
+          "url": "https://docs.tardis.dev/historical-data-details"
+        },
+        {
+          "type": "General | Tardis.dev Documentation",
+          "url": "https://docs.tardis.dev/faq/general"
+        },
+        {
+          "type": "Binance USDT Futures | Tardis.dev Documentation",
+          "url": "https://docs.tardis.dev/historical-data-details/binance-futures"
+        },
+        {
+          "type": "Data | Tardis.dev Documentation",
+          "url": "https://docs.tardis.dev/faq/data"
+        },
+        {
+          "type": "BitMEX | Tardis.dev Documentation",
+          "url": "https://docs.tardis.dev/historical-data-details/bitmex"
+        },
+        {
+          "type": "Billing and Subscriptions | Tardis.dev Documentation",
+          "url": "https://docs.tardis.dev/faq/billing-and-subscriptions"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "26e699554234d62a1b4a8f07d467ba0a27f9e11806e73844302e5acc2c70a7e6"
 }

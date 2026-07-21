@@ -40,5 +40,83 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.decred.org/",
+      "canonicalSeedUrl": "https://docs.decred.org/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-22T00:55:54.004Z",
+      "completedAt": "2026-01-22T00:55:54.004Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.decred.org/",
+          "canonicalUrl": "https://docs.decred.org/",
+          "status": "valid"
+        }
+      ],
+      "id": "e4b5d7ee590117ff0a264b266cecb82b675cb8fe08ab96f23e71f95c8ca7d9d2",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f77a007c9b562cfcd359be548b4e69da3bc0884b22b278dbf228de60b4fc0773",
+      "filename": "documentation_2026-01-22T00:55:54.004Z.md",
+      "contentHash": "f4a621bb31e37926d7900fc9a766cc8996f2adf0ef936a8b8893a6013c3ea6fa",
+      "sourceUrl": "https://docs.decred.org/",
+      "canonicalSourceUrl": "https://docs.decred.org/",
+      "capturedAt": "2026-01-22T00:55:54.004Z",
+      "crawlRunId": "e4b5d7ee590117ff0a264b266cecb82b675cb8fe08ab96f23e71f95c8ca7d9d2",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "Decred Documentation",
+          "url": "https://docs.decred.org/"
+        },
+        {
+          "type": "Glossary - Decred Documentation",
+          "url": "https://docs.decred.org/glossary/"
+        },
+        {
+          "type": "Security - Decred Documentation",
+          "url": "https://docs.decred.org/advanced/general-security/"
+        },
+        {
+          "type": "Deleting Your Wallet - Decred Documentation",
+          "url": "https://docs.decred.org/advanced/deleting-your-wallet/"
+        },
+        {
+          "type": "License - Decred Documentation",
+          "url": "https://docs.decred.org/about/license/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f77a007c9b562cfcd359be548b4e69da3bc0884b22b278dbf228de60b4fc0773"
 }

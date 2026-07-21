@@ -52,5 +52,95 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://info.pulsecardano.org/",
+      "canonicalSeedUrl": "https://info.pulsecardano.org/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-14T18:04:41.582Z",
+      "completedAt": "2025-12-14T18:04:41.582Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://info.pulsecardano.org/",
+          "canonicalUrl": "https://info.pulsecardano.org/",
+          "status": "valid"
+        }
+      ],
+      "id": "a0770c41901d908fab6b3a9695a9c0895e6816b736a6bac6eb20389283063f78",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "778500ea181f211e5abc6ef8404e127249f02aaa556cac1b03492b6970c40008",
+      "filename": "documentation_2025-12-14T18:04:41.582Z.md",
+      "contentHash": "efbccfa388242f59a5c94b1557a7d999e5e318bc24d1c6b4708d6c5755581630",
+      "sourceUrl": "https://info.pulsecardano.org/",
+      "canonicalSourceUrl": "https://info.pulsecardano.org/",
+      "capturedAt": "2025-12-14T18:04:41.582Z",
+      "crawlRunId": "a0770c41901d908fab6b3a9695a9c0895e6816b736a6bac6eb20389283063f78",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Welcome | Pulse",
+          "url": "https://info.pulsecardano.org/"
+        },
+        {
+          "type": "Project Overview | Pulse",
+          "url": "https://info.pulsecardano.org/project-overview"
+        },
+        {
+          "type": "Please Explain How It Works?!?! | Pulse",
+          "url": "https://info.pulsecardano.org/please-explain-how-it-works"
+        },
+        {
+          "type": "Public Testnet Guide | Pulse",
+          "url": "https://info.pulsecardano.org/public-testnet-guide"
+        },
+        {
+          "type": "FAQ | Pulse",
+          "url": "https://info.pulsecardano.org/faq"
+        },
+        {
+          "type": "More Resources | Pulse",
+          "url": "https://info.pulsecardano.org/more-resources"
+        },
+        {
+          "type": "Testnet Updates Nov. 16th | Pulse",
+          "url": "https://info.pulsecardano.org/testnet-updates-nov.-16th"
+        },
+        {
+          "type": "Full Course For Beginners | Pulse",
+          "url": "https://info.pulsecardano.org/full-course-for-beginners"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "778500ea181f211e5abc6ef8404e127249f02aaa556cac1b03492b6970c40008"
 }

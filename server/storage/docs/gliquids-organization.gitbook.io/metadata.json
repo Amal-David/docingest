@@ -168,5 +168,211 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://gliquids-organization.gitbook.io/jojo-gliquid",
+      "canonicalSeedUrl": "https://gliquids-organization.gitbook.io/jojo-gliquid",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-10T14:15:46.251Z",
+      "completedAt": "2025-11-10T14:15:46.251Z",
+      "providerTotals": {
+        "discovered": 37,
+        "returned": 37,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid",
+          "canonicalUrl": "https://gliquids-organization.gitbook.io/jojo-gliquid",
+          "status": "valid"
+        }
+      ],
+      "id": "4a0b3a3fd1687fc304ebd1e2cdb540359937ae4a5e0fb7933d8c6e0817b93a38",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8ab3e4081150ce621daa94a4071f5dd52231a957bfd3ceb3c4b01996e8abc28a",
+      "filename": "documentation_2025-11-10T14:15:46.251Z.md",
+      "contentHash": "e7c4491677db74c64f9f6f281a7bdf545ab7f0ed589ecc7e6bec6bb72fd74117",
+      "sourceUrl": "https://gliquids-organization.gitbook.io/jojo-gliquid",
+      "canonicalSourceUrl": "https://gliquids-organization.gitbook.io/jojo-gliquid",
+      "capturedAt": "2025-11-10T14:15:46.251Z",
+      "crawlRunId": "4a0b3a3fd1687fc304ebd1e2cdb540359937ae4a5e0fb7933d8c6e0817b93a38",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "structure": [
+        {
+          "type": "│ Introduction | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid"
+        },
+        {
+          "type": "│ Quick Start | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/quick-start"
+        },
+        {
+          "type": "│ V4 | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/about-us/v4"
+        },
+        {
+          "type": "│ Fee Structure | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/about-us/fee-structure"
+        },
+        {
+          "type": "│ Introduction | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid"
+        },
+        {
+          "type": "│ Seasons | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/about-us/seasons"
+        },
+        {
+          "type": "│ Tokenomics | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/about-us/tokenomics"
+        },
+        {
+          "type": "│ Roadmap | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/about-us/roadmap"
+        },
+        {
+          "type": "│ Socials | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/others/socials"
+        },
+        {
+          "type": "│ Tech | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/dev-corner/tech"
+        },
+        {
+          "type": "│ Meet the Team | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/others/meet-the-team"
+        },
+        {
+          "type": "│ The Math | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/about-us/points-2.0/the-math"
+        },
+        {
+          "type": "│ Points 2.0 | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/about-us/points-2.0"
+        },
+        {
+          "type": "│ Media Kit | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/others/media-kit"
+        },
+        {
+          "type": "│ Buybacks & HYPE Distribution | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/about-us/buybacks-and-hype-distribution"
+        },
+        {
+          "type": "│ Contracts | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/dev-corner/contracts"
+        },
+        {
+          "type": "│ Roadmap | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/mechanisms/roadmap"
+        },
+        {
+          "type": "│ Tokenomics | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/mechanisms/tokenomics"
+        },
+        {
+          "type": "│ V4 | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/mechanisms/v4"
+        },
+        {
+          "type": "│ Pool | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/features/pool"
+        },
+        {
+          "type": "│ Swap | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/features/swap"
+        },
+        {
+          "type": "│ Audit Reports | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/dev-corner/audit-reports"
+        },
+        {
+          "type": "│ Fee Structure | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/mechanisms/fee-structure"
+        },
+        {
+          "type": "│ Seasons | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/mechanisms/seasons"
+        },
+        {
+          "type": "│ Portfolio | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/features/portfolio"
+        },
+        {
+          "type": "│ Dashboard | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/features/dashboard"
+        },
+        {
+          "type": "Copy LP Positions | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/features/pool/copy-lp-positions"
+        },
+        {
+          "type": "Remove Liquidity | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/features/pool/remove-liquidity"
+        },
+        {
+          "type": "│ Tech | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/dev-corner/tech"
+        },
+        {
+          "type": "│ Socials | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/socials/socials"
+        },
+        {
+          "type": "│ Audit Reports | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/dev-corner/audit-reports"
+        },
+        {
+          "type": "Add Liquidity | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/features/pool/add-liquidity"
+        },
+        {
+          "type": "│ Contracts | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/dev-corner/contracts"
+        },
+        {
+          "type": "│ Points | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/mechanisms/points"
+        },
+        {
+          "type": "│ Media Kit | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/socials/media-kit"
+        },
+        {
+          "type": "│ Meet the Team | Gliquid",
+          "url": "https://gliquids-organization.gitbook.io/jojo-gliquid/socials/meet-the-team"
+        },
+        {
+          "type": "│ Socials | gliquid",
+          "url": "https://gliquids-organization.gitbook.io/gliquid/others"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8ab3e4081150ce621daa94a4071f5dd52231a957bfd3ceb3c4b01996e8abc28a"
 }

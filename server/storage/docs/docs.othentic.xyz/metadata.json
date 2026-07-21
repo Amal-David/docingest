@@ -132,5 +132,103 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/abstract",
+      "canonicalSeedUrl": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/abstract",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-08T03:40:43.132Z",
+      "completedAt": "2025-04-08T03:40:43.132Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/abstract",
+          "canonicalUrl": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/abstract",
+          "status": "valid"
+        }
+      ],
+      "id": "22b46c8dd407dc3f6f335ba6d876daf4f6c8f2b901c3c2513301a6592d843f0d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b5ca26058df918f438381edb7f6d1e221e11538a372ba01ff8e967cb45fc69de",
+      "filename": "documentation_2025-04-08T03:40:43.132Z.md",
+      "contentHash": "ec4fea692136596e9580fb8fd51563d4631bd053b34e3f6e1b35e0c613159046",
+      "sourceUrl": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/abstract",
+      "canonicalSourceUrl": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/abstract",
+      "capturedAt": "2025-04-08T03:40:43.132Z",
+      "crawlRunId": "22b46c8dd407dc3f6f335ba6d876daf4f6c8f2b901c3c2513301a6592d843f0d",
+      "upstreamVersion": "1.8.0",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "Abstract | Othentic",
+          "url": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/abstract"
+        },
+        {
+          "type": "Othentic Consensus | Othentic",
+          "url": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus"
+        },
+        {
+          "type": "Proof of Task | Othentic",
+          "url": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/proof-of-task"
+        },
+        {
+          "type": "Voting Power | Othentic",
+          "url": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/voting-power"
+        },
+        {
+          "type": "Rewards and Penalties | Othentic",
+          "url": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/rewards-and-penalties"
+        },
+        {
+          "type": "Leader Election | Othentic",
+          "url": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/leader-election"
+        },
+        {
+          "type": "Internal Tasks | Othentic",
+          "url": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/internal-tasks"
+        },
+        {
+          "type": "Task & Task Definitions | Othentic",
+          "url": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/task-and-task-definitions"
+        },
+        {
+          "type": "Execution Service | Othentic",
+          "url": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/execution-service"
+        },
+        {
+          "type": "Validation Service  | Othentic",
+          "url": "https://docs.othentic.xyz/main/avs-framework/othentic-consensus/validation-service"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b5ca26058df918f438381edb7f6d1e221e11538a372ba01ff8e967cb45fc69de"
 }

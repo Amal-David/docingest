@@ -44,5 +44,87 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.clearurls.xyz/1.27.3/faq/",
+      "canonicalSeedUrl": "https://docs.clearurls.xyz/1.27.3/faq",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-24T08:52:19.903Z",
+      "completedAt": "2025-03-24T08:52:19.903Z",
+      "providerTotals": {
+        "discovered": 6,
+        "returned": 6,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.clearurls.xyz/1.27.3/faq/",
+          "canonicalUrl": "https://docs.clearurls.xyz/1.27.3/faq",
+          "status": "valid"
+        }
+      ],
+      "id": "d72cf4d5a52eb9bdac32807dcca0cfd2f95fe3a3bf92c2f964a347843d79fb71",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "40d1fa48907d5cc14997848e552988e6b4fbdbf550c249ba1dc547ebb83e1e88",
+      "filename": "documentation_2025-03-24T08:52:19.903Z.md",
+      "contentHash": "599f25c276c069cd15a42a228e57348a4eed70918a2ff6a03734fad27fea1131",
+      "sourceUrl": "https://docs.clearurls.xyz/1.27.3/faq/",
+      "canonicalSourceUrl": "https://docs.clearurls.xyz/1.27.3/faq",
+      "capturedAt": "2025-03-24T08:52:19.903Z",
+      "crawlRunId": "d72cf4d5a52eb9bdac32807dcca0cfd2f95fe3a3bf92c2f964a347843d79fb71",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 6,
+      "successfulPages": 6,
+      "structure": [
+        {
+          "type": "FAQ - ClearURLs",
+          "url": "https://docs.clearurls.xyz/1.27.3/faq/"
+        },
+        {
+          "type": "ClearURLs",
+          "url": "https://docs.clearurls.xyz/1.27.3/"
+        },
+        {
+          "type": "Permissions - ClearURLs",
+          "url": "https://docs.clearurls.xyz/1.27.3/permissions/"
+        },
+        {
+          "type": "Excluded Fields - ClearURLs",
+          "url": "https://docs.clearurls.xyz/1.27.3/further_readings/excluded_fields/"
+        },
+        {
+          "type": "Rule Catalogs - ClearURLs",
+          "url": "https://docs.clearurls.xyz/1.27.3/specs/rules/"
+        },
+        {
+          "type": "Similar Addons - ClearURLs",
+          "url": "https://docs.clearurls.xyz/1.27.3/further_readings/similar_addons/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "40d1fa48907d5cc14997848e552988e6b4fbdbf550c249ba1dc547ebb83e1e88"
 }

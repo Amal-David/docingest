@@ -92,5 +92,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.plaguecheat.cc/",
+      "canonicalSeedUrl": "https://docs.plaguecheat.cc/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-17T12:12:43.048Z",
+      "completedAt": "2025-11-17T12:12:43.048Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.plaguecheat.cc/",
+          "canonicalUrl": "https://docs.plaguecheat.cc/",
+          "status": "valid"
+        }
+      ],
+      "id": "8f7a96b8b0497b1167765cd670ae0ae4ee89ce24a9db3ed1e77c7da05527c8fa",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b7267cacfd04b56eb2d4659f1a3090e4d74037b9587ae472521fd271dc2a70b8",
+      "filename": "documentation_2025-11-17T12:12:43.048Z.md",
+      "contentHash": "bbe21094940d4f102eb4a9b2a9dd4c557fa2e2ecf3211249d4189a30040ea691",
+      "sourceUrl": "https://docs.plaguecheat.cc/",
+      "canonicalSourceUrl": "https://docs.plaguecheat.cc/",
+      "capturedAt": "2025-11-17T12:12:43.048Z",
+      "crawlRunId": "8f7a96b8b0497b1167765cd670ae0ae4ee89ce24a9db3ed1e77c7da05527c8fa",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "Home | Plague API",
+          "url": "https://docs.plaguecheat.cc/"
+        },
+        {
+          "type": "Renderer | Plague API",
+          "url": "https://docs.plaguecheat.cc/reference/renderer"
+        },
+        {
+          "type": "Getting Started | Plague API",
+          "url": "https://docs.plaguecheat.cc/getting-started"
+        },
+        {
+          "type": "Globals | Plague API",
+          "url": "https://docs.plaguecheat.cc/reference/globals"
+        },
+        {
+          "type": "Input | Plague API",
+          "url": "https://docs.plaguecheat.cc/reference/input"
+        },
+        {
+          "type": "Entities | Plague API",
+          "url": "https://docs.plaguecheat.cc/reference/entities"
+        },
+        {
+          "type": "Cheat | Plague API",
+          "url": "https://docs.plaguecheat.cc/reference/cheat"
+        },
+        {
+          "type": "CVar | Plague API",
+          "url": "https://docs.plaguecheat.cc/reference/cvar"
+        },
+        {
+          "type": "Menu | Plague API",
+          "url": "https://docs.plaguecheat.cc/reference/menu"
+        },
+        {
+          "type": "CConVar | Plague API",
+          "url": "https://docs.plaguecheat.cc/types/cconvar"
+        },
+        {
+          "type": "CGameEvent | Plague API",
+          "url": "https://docs.plaguecheat.cc/types/cgameevent"
+        },
+        {
+          "type": "Color | Plague API",
+          "url": "https://docs.plaguecheat.cc/types/color"
+        },
+        {
+          "type": "CUserCmd | Plague API",
+          "url": "https://docs.plaguecheat.cc/types/cusercmd"
+        },
+        {
+          "type": "Vector2D | Plague API",
+          "url": "https://docs.plaguecheat.cc/types/vector2d"
+        },
+        {
+          "type": "MenuVar | Plague API",
+          "url": "https://docs.plaguecheat.cc/types/menuvar"
+        },
+        {
+          "type": "Vector | Plague API",
+          "url": "https://docs.plaguecheat.cc/types/vector"
+        },
+        {
+          "type": "Renderer | Plague API",
+          "url": "https://docs.plaguecheat.cc/reference"
+        },
+        {
+          "type": "CConVar | Plague API",
+          "url": "https://docs.plaguecheat.cc/types"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b7267cacfd04b56eb2d4659f1a3090e4d74037b9587ae472521fd271dc2a70b8"
 }

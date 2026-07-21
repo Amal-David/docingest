@@ -28,5 +28,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://help.openai.com/es-es/collections/3742473-chatgpt",
+      "canonicalSeedUrl": "https://help.openai.com/es-es/collections/3742473-chatgpt",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-28T17:27:00.202Z",
+      "completedAt": "2025-12-28T17:27:00.202Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://help.openai.com/es-es/collections/3742473-chatgpt",
+          "canonicalUrl": "https://help.openai.com/es-es/collections/3742473-chatgpt",
+          "status": "valid"
+        }
+      ],
+      "id": "0540ffa02feb77cfe32fe2e84add1eefada688a7a942a2b8991f6ff396c8451c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "300b2840f723404ad89e608d8367c365c0f3586a5707eff726fe0e0496ef19a3",
+      "filename": "documentation_2025-12-28T17:27:00.202Z.md",
+      "contentHash": "7fb98490d36a1f0cd808e91f11b7836ddb5f7c9dc633c1ff32b00e4fb57bf808",
+      "sourceUrl": "https://help.openai.com/es-es/collections/3742473-chatgpt",
+      "canonicalSourceUrl": "https://help.openai.com/es-es/collections/3742473-chatgpt",
+      "capturedAt": "2025-12-28T17:27:00.202Z",
+      "crawlRunId": "0540ffa02feb77cfe32fe2e84add1eefada688a7a942a2b8991f6ff396c8451c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "ChatGPT | OpenAI Help Center",
+          "url": "https://help.openai.com/es-es/collections/3742473-chatgpt"
+        },
+        {
+          "type": "Conectores en ChatGPT | OpenAI Help Center",
+          "url": "https://help.openai.com/es-es/articles/11487775-apps-in-chatgpt"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "300b2840f723404ad89e608d8367c365c0f3586a5707eff726fe0e0496ef19a3"
 }

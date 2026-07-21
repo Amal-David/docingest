@@ -66,5 +66,91 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.langchain.com/oss/python/langchain/overview",
+      "canonicalSeedUrl": "https://docs.langchain.com/oss/python/langchain/overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-07T08:11:50.128Z",
+      "completedAt": "2026-01-07T08:11:50.128Z",
+      "providerTotals": {
+        "discovered": 7,
+        "returned": 7,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.langchain.com/oss/python/langchain/overview",
+          "canonicalUrl": "https://docs.langchain.com/oss/python/langchain/overview",
+          "status": "valid"
+        }
+      ],
+      "id": "8cc9a37536b8cd9de1a4046be670d376a32aaff050e590d293a06ffc467c9332",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "96b5a5c3d16f3af619b1abfdcc8792fb88706908b1cf771e9612b7bbb8a4a53c",
+      "filename": "documentation_2026-01-07T08:11:50.128Z.md",
+      "contentHash": "07d7348b6d3b9416a5353ffaf516bde26722df8978ca7199dd4c28881c8fff10",
+      "sourceUrl": "https://docs.langchain.com/oss/python/langchain/overview",
+      "canonicalSourceUrl": "https://docs.langchain.com/oss/python/langchain/overview",
+      "capturedAt": "2026-01-07T08:11:50.128Z",
+      "crawlRunId": "8cc9a37536b8cd9de1a4046be670d376a32aaff050e590d293a06ffc467c9332",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 7,
+      "successfulPages": 7,
+      "structure": [
+        {
+          "type": "LangChain overview - Docs by LangChain",
+          "url": "https://docs.langchain.com/oss/python/langchain/overview"
+        },
+        {
+          "type": "Check Oauth Token Exists - Docs by LangChain",
+          "url": "https://docs.langchain.com/api-reference/auth-service-v2/check-oauth-token-exists"
+        },
+        {
+          "type": "Co-marketing - Docs by LangChain",
+          "url": "https://docs.langchain.com/oss/python/contributing/comarketing"
+        },
+        {
+          "type": "<![CDATA[Changelog]]>",
+          "url": "https://docs.langchain.com/oss/python/releases/changelog/rss.xml"
+        },
+        {
+          "type": "Releases - Docs by LangChain",
+          "url": "https://docs.langchain.com/oss/python/releases"
+        },
+        {
+          "type": "Evaluate agent performance - Docs by LangChain",
+          "url": "https://docs.langchain.com/oss/python/langchain/evals"
+        },
+        {
+          "type": "Multi-agent - Docs by LangChain",
+          "url": "https://docs.langchain.com/oss/python/langchain/multi-agent/index"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "96b5a5c3d16f3af619b1abfdcc8792fb88706908b1cf771e9612b7bbb8a4a53c"
 }

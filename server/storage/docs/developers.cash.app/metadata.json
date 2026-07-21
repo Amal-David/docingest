@@ -24,5 +24,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developers.cash.app/docs/partner/welcome",
+      "canonicalSeedUrl": "https://developers.cash.app/docs/partner/welcome",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-24T11:08:54.008Z",
+      "completedAt": "2025-08-24T11:08:54.008Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developers.cash.app/docs/partner/welcome",
+          "canonicalUrl": "https://developers.cash.app/docs/partner/welcome",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "8a34f8b47bb763964fa9aa7baef43cc73c13680f185b7dbddb09a16154bac999",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "daf7e1c9acd181181d2b9f0a69b93fb45832326e34999c1500096dd10573ff1c",
+      "filename": "documentation_2025-08-24T11:08:54.008Z.md",
+      "contentHash": "e6095c5dbb291aa94ede2c6778b966e6354b9569594f0acc435926f466a16879",
+      "sourceUrl": "https://developers.cash.app/docs/partner/welcome",
+      "canonicalSourceUrl": "https://developers.cash.app/docs/partner/welcome",
+      "capturedAt": "2025-08-24T11:08:54.008Z",
+      "crawlRunId": "8a34f8b47bb763964fa9aa7baef43cc73c13680f185b7dbddb09a16154bac999",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Welcome | Cash App Pay Partner API",
+          "url": "https://developers.cash.app/docs/partner/welcome"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

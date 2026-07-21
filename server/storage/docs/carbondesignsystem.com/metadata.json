@@ -28,5 +28,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://carbondesignsystem.com/",
+      "canonicalSeedUrl": "https://carbondesignsystem.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-23T15:40:10.977Z",
+      "completedAt": "2025-08-23T15:40:10.977Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://carbondesignsystem.com/",
+          "canonicalUrl": "https://carbondesignsystem.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "f0b2206a8c0b85ad0e28139471d47461df18596b2b141808ab9258a3abdaf9ab",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8fe5ded89bb20c5c47abd3f7d903451433a1c92b652d381819cb6c28ec84f647",
+      "filename": "documentation_2025-08-23T15:40:10.977Z.md",
+      "contentHash": "623b1e9ed59e529895eb2b39eba9d66959fc3cc5bdb1a4c95f67bebc0a0de56f",
+      "sourceUrl": "https://carbondesignsystem.com/",
+      "canonicalSourceUrl": "https://carbondesignsystem.com/",
+      "capturedAt": "2025-08-23T15:40:10.977Z",
+      "crawlRunId": "f0b2206a8c0b85ad0e28139471d47461df18596b2b141808ab9258a3abdaf9ab",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Unknown",
+          "url": "https://carbondesignsystem.com/"
+        },
+        {
+          "type": "Open menu",
+          "url": "https://www.carbondesignsystem.com/elements/icons/library/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8fe5ded89bb20c5c47abd3f7d903451433a1c92b652d381819cb6c28ec84f647"
 }

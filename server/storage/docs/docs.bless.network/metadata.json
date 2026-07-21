@@ -141,5 +141,175 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.bless.network/learn/network/orchestration",
+      "canonicalSeedUrl": "https://docs.bless.network/learn/network/orchestration",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-18T23:25:48.645Z",
+      "completedAt": "2025-08-18T23:25:48.645Z",
+      "providerTotals": {
+        "discovered": 28,
+        "returned": 28,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.bless.network/learn/network/orchestration",
+          "canonicalUrl": "https://docs.bless.network/learn/network/orchestration",
+          "status": "valid"
+        }
+      ],
+      "id": "c74601e3b5e247ffe32467de5d0269193da16cba54dfd8c659bc0c2068a29921",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "bf404bd0599cbca11b330cb0645cd79ffee64139f126969ca7910d9b3e42838b",
+      "filename": "documentation_2025-08-18T23:25:48.645Z.md",
+      "contentHash": "f66e17f0b0670ec7b2e6cfb7ba3f5ae4add55743cf4826a171f191133da428dd",
+      "sourceUrl": "https://docs.bless.network/learn/network/orchestration",
+      "canonicalSourceUrl": "https://docs.bless.network/learn/network/orchestration",
+      "capturedAt": "2025-08-18T23:25:48.645Z",
+      "crawlRunId": "c74601e3b5e247ffe32467de5d0269193da16cba54dfd8c659bc0c2068a29921",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 28,
+      "successfulPages": 28,
+      "structure": [
+        {
+          "type": "Dispatching Work - Bless Documentation",
+          "url": "https://docs.bless.network/learn/network/orchestration"
+        },
+        {
+          "type": "Cost - Bless Documentation",
+          "url": "https://docs.bless.network/build-on-bless/billing/cost"
+        },
+        {
+          "type": "CLI Commands - Bless Documentation",
+          "url": "https://docs.bless.network/build-on-bless/cli/commands"
+        },
+        {
+          "type": "Overview - Bless Documentation",
+          "url": "https://docs.bless.network/build-on-bless/cli/overview"
+        },
+        {
+          "type": "Local Development - Bless Documentation",
+          "url": "https://docs.bless.network/build-on-bless/deploy/local-development"
+        },
+        {
+          "type": "Deploy Your App - Bless Documentation",
+          "url": "https://docs.bless.network/build-on-bless/deploy/deploy"
+        },
+        {
+          "type": "Installation - Bless Documentation",
+          "url": "https://docs.bless.network/build-on-bless/installation"
+        },
+        {
+          "type": "Staking and Rewards - Bless Documentation",
+          "url": "https://docs.bless.network/learn/economy/staking-and-rewards"
+        },
+        {
+          "type": "Monad Blockchain - Bless Documentation",
+          "url": "https://docs.bless.network/build-on-bless/integrations/monad"
+        },
+        {
+          "type": "Supported Machines - Bless Documentation",
+          "url": "https://docs.bless.network/learn/network/runtime"
+        },
+        {
+          "type": "Community - Bless Documentation",
+          "url": "https://docs.bless.network/community"
+        },
+        {
+          "type": "Introduction - Bless Documentation",
+          "url": "https://docs.bless.network/introduction"
+        },
+        {
+          "type": "Verifying Work - Bless Documentation",
+          "url": "https://docs.bless.network/learn/network/verifiability"
+        },
+        {
+          "type": "Introduction - Bless Documentation",
+          "url": "https://docs.bless.network/run-a-node/introduction"
+        },
+        {
+          "type": "Get Started - Bless Documentation",
+          "url": "https://docs.bless.network/run-a-node/extension-node/get-started"
+        },
+        {
+          "type": "Project Structure - Bless Documentation",
+          "url": "https://docs.bless.network/build-on-bless/project-structure"
+        },
+        {
+          "type": "Space and Time Database - Bless Documentation",
+          "url": "https://docs.bless.network/build-on-bless/integrations/space-and-time"
+        },
+        {
+          "type": "Welcome to Bless - Bless Documentation",
+          "url": "https://docs.bless.network/welcome"
+        },
+        {
+          "type": "FAQ - Bless Documentation",
+          "url": "https://docs.bless.network/run-a-node/faq"
+        },
+        {
+          "type": "Trouble Shooting - Bless Documentation",
+          "url": "https://docs.bless.network/run-a-node/extension-node/trouble-shooting"
+        },
+        {
+          "type": "Getting Support - Bless Documentation",
+          "url": "https://docs.bless.network/build-on-bless/support"
+        },
+        {
+          "type": "Getting Support - Bless Documentation",
+          "url": "https://docs.bless.network/support"
+        },
+        {
+          "type": "Accessing External API - Bless Documentation",
+          "url": "https://docs.bless.network/build-on-bless/tutorials/external-api"
+        },
+        {
+          "type": "Trouble Shooting - Bless Documentation",
+          "url": "https://docs.bless.network/run-a-node/native-node/trouble-shooting"
+        },
+        {
+          "type": "Managing Your Node - Bless Documentation",
+          "url": "https://docs.bless.network/run-a-node/native-node/node-mgmt"
+        },
+        {
+          "type": "Hosting Static Websites - Bless Documentation",
+          "url": "https://docs.bless.network/build-on-bless/tutorials/static-site"
+        },
+        {
+          "type": "Introduction - Bless Documentation",
+          "url": "https://docs.bless.network/build-on-bless/introduction"
+        },
+        {
+          "type": "Get Started - Bless Documentation",
+          "url": "https://docs.bless.network/run-a-node/native-node/get-started"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "bf404bd0599cbca11b330cb0645cd79ffee64139f126969ca7910d9b3e42838b"
 }

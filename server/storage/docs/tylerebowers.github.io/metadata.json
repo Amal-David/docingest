@@ -33,5 +33,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://tylerebowers.github.io/",
+      "canonicalSeedUrl": "https://tylerebowers.github.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-07T02:59:42.314Z",
+      "completedAt": "2026-04-07T02:59:42.314Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://tylerebowers.github.io/",
+          "canonicalUrl": "https://tylerebowers.github.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "d23eddb30c312449eb89fa977e3defc12e39d71513a7b7e55c0456c5a5c5c483",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "184fb4152bad39c42452260497f436e22d6be0f8aafb07f897ae473c82f57080",
+      "filename": "documentation_2026-04-07T02:59:42.314Z.md",
+      "contentHash": "9fe23cb478902508ffd1828e4af66b1cb8ab75f4f62275ab9aa906a0375df573",
+      "sourceUrl": "https://tylerebowers.github.io/",
+      "canonicalSourceUrl": "https://tylerebowers.github.io/",
+      "capturedAt": "2026-04-07T02:59:42.314Z",
+      "crawlRunId": "d23eddb30c312449eb89fa977e3defc12e39d71513a7b7e55c0456c5a5c5c483",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Tylerebowers.com",
+          "url": "https://tylerebowers.github.io/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "184fb4152bad39c42452260497f436e22d6be0f8aafb07f897ae473c82f57080"
 }

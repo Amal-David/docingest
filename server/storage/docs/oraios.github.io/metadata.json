@@ -120,5 +120,163 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://oraios.github.io/serena/",
+      "canonicalSeedUrl": "https://oraios.github.io/serena",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-06T19:57:57.301Z",
+      "completedAt": "2026-02-06T19:57:57.301Z",
+      "providerTotals": {
+        "discovered": 25,
+        "returned": 25,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://oraios.github.io/serena/",
+          "canonicalUrl": "https://oraios.github.io/serena",
+          "status": "valid"
+        }
+      ],
+      "id": "486ef42654217739e6a91769bfc7c6b5820ddbecd984bf21f1d0176dc7da67d1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "32bf7034e434c51791cbada77068aec5273ad6a1e4ae6a4decdcfe8bfe6ac651",
+      "filename": "documentation_2026-02-06T19:57:57.301Z.md",
+      "contentHash": "fe2d93f744893495f6169b5a085a6eae6356df3895997a6e8a23100622315efa",
+      "sourceUrl": "https://oraios.github.io/serena/",
+      "canonicalSourceUrl": "https://oraios.github.io/serena",
+      "capturedAt": "2026-02-06T19:57:57.301Z",
+      "crawlRunId": "486ef42654217739e6a91769bfc7c6b5820ddbecd984bf21f1d0176dc7da67d1",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 25,
+      "successfulPages": 25,
+      "structure": [
+        {
+          "type": "About Serena — Serena Documentation",
+          "url": "https://oraios.github.io/serena/"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/index.html"
+        },
+        {
+          "type": "Page not found · GitHub Pages",
+          "url": "https://oraios.github.io/serena/010_llm-integration.html"
+        },
+        {
+          "type": "Page not found · GitHub Pages",
+          "url": "https://oraios.github.io/serena/020_programming-languages.html"
+        },
+        {
+          "type": "Page not found · GitHub Pages",
+          "url": "https://oraios.github.io/serena/030_serena-in-action.html"
+        },
+        {
+          "type": "Page not found · GitHub Pages",
+          "url": "https://oraios.github.io/serena/035_tools.html"
+        },
+        {
+          "type": "Page not found · GitHub Pages",
+          "url": "https://oraios.github.io/serena/040_comparison-to-other-agents.html"
+        },
+        {
+          "type": "Page not found · GitHub Pages",
+          "url": "https://oraios.github.io/serena/050_acknowledgements.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/02-usage/000_intro.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/02-usage/010_prerequisites.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/02-usage/020_running.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/02-usage/025_jetbrains_plugin.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/02-usage/030_clients.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/02-usage/040_workflow.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/02-usage/050_configuration.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/02-usage/060_dashboard.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/02-usage/070_security.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/02-usage/999_additional-usage.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/03-special-guides/000_intro.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/03-special-guides/cpp_setup.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/03-special-guides/custom_agent.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/03-special-guides/groovy_setup_guide_for_serena.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/03-special-guides/scala_setup_guide_for_serena.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/03-special-guides/serena_on_chatgpt.html"
+        },
+        {
+          "type": "Site not found · GitHub Pages",
+          "url": "https://oraios.github.io/_sources/01-about/000_intro.md"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "32bf7034e434c51791cbada77068aec5273ad6a1e4ae6a4decdcfe8bfe6ac651"
 }

@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://snapkit.github.io/SnapKit/docs/",
+      "canonicalSeedUrl": "https://snapkit.github.io/SnapKit/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-21T04:40:23.947Z",
+      "completedAt": "2025-01-21T04:40:23.947Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://snapkit.github.io/SnapKit/docs/",
+          "canonicalUrl": "https://snapkit.github.io/SnapKit/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "1762bb369f455e6c7d001e886a7c69966bedd6dc11e44d3512e2e6d7e190c2ef",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "08395d546d1febea66e5ebf78736f7ed400c73a8d2a38c10c6515863f70bdec9",
+      "filename": "documentation_2025-01-21T04:40:23.947Z.md",
+      "contentHash": "3c1ec087fd0004bfdfac526b5e4a732abc7f66913cbc385b62dd4a448c92d3d5",
+      "sourceUrl": "https://snapkit.github.io/SnapKit/docs/",
+      "canonicalSourceUrl": "https://snapkit.github.io/SnapKit/docs",
+      "capturedAt": "2025-01-21T04:40:23.947Z",
+      "crawlRunId": "1762bb369f455e6c7d001e886a7c69966bedd6dc11e44d3512e2e6d7e190c2ef",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Requirements",
+          "url": "https://snapkit.github.io/SnapKit/docs/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "08395d546d1febea66e5ebf78736f7ed400c73a8d2a38c10c6515863f70bdec9"
 }

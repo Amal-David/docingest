@@ -264,5 +264,307 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.brightway.dev/en/latest/",
+      "canonicalSeedUrl": "https://docs.brightway.dev/en/latest",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-06T20:06:13.410Z",
+      "completedAt": "2025-03-06T20:06:13.410Z",
+      "providerTotals": {
+        "discovered": 61,
+        "returned": 61,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.brightway.dev/en/latest/",
+          "canonicalUrl": "https://docs.brightway.dev/en/latest",
+          "status": "valid"
+        }
+      ],
+      "id": "6b985619bf7f6576ba9c137776021f6b57fec47e1f8d95772a0811a4e5372a35",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "73163d3e62ce061b0eb74215c98a8fcea20a937facd857f4b585aa216ed5d852",
+      "filename": "documentation_2025-03-06T20:06:13.410Z.md",
+      "contentHash": "f5fd9d0ed88f49ba68d0bcf86848e21da02a4cace949d275482f36073fe2c806",
+      "sourceUrl": "https://docs.brightway.dev/en/latest/",
+      "canonicalSourceUrl": "https://docs.brightway.dev/en/latest",
+      "capturedAt": "2025-03-06T20:06:13.410Z",
+      "crawlRunId": "6b985619bf7f6576ba9c137776021f6b57fec47e1f8d95772a0811a4e5372a35",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 61,
+      "successfulPages": 61,
+      "structure": [
+        {
+          "type": "Brightway LCA Software Framework — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/"
+        },
+        {
+          "type": "Overview — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/overview/index.html"
+        },
+        {
+          "type": "Examples — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/examples/index.html"
+        },
+        {
+          "type": "FAQ — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/faq/index.html"
+        },
+        {
+          "type": "Support Brightway — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/other/support.html"
+        },
+        {
+          "type": "Contact — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/contact/contact.html"
+        },
+        {
+          "type": "Cheat Sheet — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/cheatsheet/index.html"
+        },
+        {
+          "type": "Changelog — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/changelog/index.html"
+        },
+        {
+          "type": "Report Bugs or Errors — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/contributing/bugs.html"
+        },
+        {
+          "type": "API — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/api/index.html"
+        },
+        {
+          "type": "Installation — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/installation/index.html"
+        },
+        {
+          "type": "Contributing — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/contributing/index.html"
+        },
+        {
+          "type": "Credits & License — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/other/credits.html"
+        },
+        {
+          "type": "Glossary — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/overview/glossary.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.brightway.dev/en/latest/_sources/index.md.txt"
+        },
+        {
+          "type": "Brightway (Versions, Compatibility, etc.) — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/faq/brightway.html"
+        },
+        {
+          "type": "Brightway LCA Software Framework — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/index.html"
+        },
+        {
+          "type": "Projects — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/cheatsheet/projects.html"
+        },
+        {
+          "type": "Brightway Structure — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/overview/structure.html"
+        },
+        {
+          "type": "Error Messages — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/faq/error_messages.html"
+        },
+        {
+          "type": "Inventory Data — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/overview/inventory.html"
+        },
+        {
+          "type": "Databases — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/cheatsheet/databases.html"
+        },
+        {
+          "type": "Brightway Software Ecosystem — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/overview/ecosystem.html"
+        },
+        {
+          "type": "Compatibility — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/faq/compatibility.html"
+        },
+        {
+          "type": "Impact Assessment — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/cheatsheet/ia.html"
+        },
+        {
+          "type": "Inventory Graph — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/cheatsheet/inventory.html"
+        },
+        {
+          "type": "Data Management — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/faq/data_management.html"
+        },
+        {
+          "type": "bw2io Changelog — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/changelog/link_to_changelog_io.html"
+        },
+        {
+          "type": "bw2analyzer Changelog — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/changelog/link_to_changelog_analyzer.html"
+        },
+        {
+          "type": "Environment Management — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/faq/environment_management.html"
+        },
+        {
+          "type": "Matrix Construction — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/overview/matrix.html"
+        },
+        {
+          "type": "LCA Calculations — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/cheatsheet/lca.html"
+        },
+        {
+          "type": "bw2parameters Changelog — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/changelog/link_to_changelog_parameters.html"
+        },
+        {
+          "type": "bw2data Changelog — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/changelog/link_to_changelog_data.html"
+        },
+        {
+          "type": "bw2calc Changelog — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/changelog/link_to_changelog_calc.html"
+        },
+        {
+          "type": "Formatting Guide — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/contributing/formatting.html"
+        },
+        {
+          "type": "Negative or Confusing LCA Results — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/faq/negative_results.html"
+        },
+        {
+          "type": "Importing Data — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/cheatsheet/importing.html"
+        },
+        {
+          "type": "Importing — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/overview/importing.html"
+        },
+        {
+          "type": "Contributing to the Code — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/contributing/code.html"
+        },
+        {
+          "type": "Exporting — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/overview/exporting.html"
+        },
+        {
+          "type": "Ecoinvent Database — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/faq/ecoinvent.html"
+        },
+        {
+          "type": "Contributing to the Documentation — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/contributing/docs.html"
+        },
+        {
+          "type": "bw2io — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/api/bw2io/index.html"
+        },
+        {
+          "type": "Contributing to the Examples — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/contributing/examples.html"
+        },
+        {
+          "type": "SimaPro Interoperability — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/faq/simapro.html"
+        },
+        {
+          "type": "Updating and Upgrading — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/installation/upgrading.html"
+        },
+        {
+          "type": "Importing Data — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/examples/import.html"
+        },
+        {
+          "type": "Python — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/faq/python.html"
+        },
+        {
+          "type": "Exporting Data — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/examples/export.html"
+        },
+        {
+          "type": "bw2data — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/api/bw2data/index.html"
+        },
+        {
+          "type": "Docker Setup — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/installation/docker.html"
+        },
+        {
+          "type": "Graphical User Interface (GUI) — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/installation/ui.html"
+        },
+        {
+          "type": "bw2calc — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/api/bw2calc/index.html"
+        },
+        {
+          "type": "Inventory Manipulation — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/examples/inventory.html"
+        },
+        {
+          "type": "LCA Calculation — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/examples/calculation.html"
+        },
+        {
+          "type": "bw2analyzer — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/api/bw2analyzer/index.html"
+        },
+        {
+          "type": "Visualization — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/examples/visualization.html"
+        },
+        {
+          "type": "bw2parameters — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/api/bw2parameters/index.html"
+        },
+        {
+          "type": "Uncertainty (Monte Carlo) — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/examples/uncertainty.html"
+        },
+        {
+          "type": "Regionalization — Brightway  documentation",
+          "url": "https://docs.brightway.dev/en/latest/content/examples/regionalization.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "73163d3e62ce061b0eb74215c98a8fcea20a937facd857f4b585aa216ed5d852"
 }

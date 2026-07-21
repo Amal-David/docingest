@@ -140,5 +140,183 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developers.fathom.ai/api-overview",
+      "canonicalSeedUrl": "https://developers.fathom.ai/api-overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-24T02:51:20.269Z",
+      "completedAt": "2025-10-24T02:51:20.269Z",
+      "providerTotals": {
+        "discovered": 30,
+        "returned": 30,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developers.fathom.ai/api-overview",
+          "canonicalUrl": "https://developers.fathom.ai/api-overview",
+          "status": "valid"
+        }
+      ],
+      "id": "5b8fb3918bd9b2c448238181018692f99d5ca377652bcd6d93bf7ba26e5845f4",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "eaabf412a075e0c6d2e0c0b5ccb7d1ea02670ef4df222417abb908b41a9e030e",
+      "filename": "documentation_2025-10-24T02:51:20.269Z.md",
+      "contentHash": "15f5aa51f925ab8b74b94085aefc63719f7be48b1c53888e9b1f6286db65633e",
+      "sourceUrl": "https://developers.fathom.ai/api-overview",
+      "canonicalSourceUrl": "https://developers.fathom.ai/api-overview",
+      "capturedAt": "2025-10-24T02:51:20.269Z",
+      "crawlRunId": "5b8fb3918bd9b2c448238181018692f99d5ca377652bcd6d93bf7ba26e5845f4",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "structure": [
+        {
+          "type": "Api overview - Fathom API",
+          "url": "https://developers.fathom.ai/api-overview"
+        },
+        {
+          "type": "SDK Introduction - Fathom API",
+          "url": "https://developers.fathom.ai/sdks"
+        },
+        {
+          "type": "Introduction - Fathom API",
+          "url": "https://developers.fathom.ai/"
+        },
+        {
+          "type": "List meetings - Fathom API",
+          "url": "https://developers.fathom.ai/api-reference/meetings/list-meetings"
+        },
+        {
+          "type": "💡 Get Inspired - Fathom API",
+          "url": "https://developers.fathom.ai/inspiration"
+        },
+        {
+          "type": "TypeScript Installation - Fathom API",
+          "url": "https://developers.fathom.ai/sdks/typescript-installation"
+        },
+        {
+          "type": "OAuth - Fathom API",
+          "url": "https://developers.fathom.ai/sdks/oauth"
+        },
+        {
+          "type": "Python Installation - Fathom API",
+          "url": "https://developers.fathom.ai/sdks/python-installation"
+        },
+        {
+          "type": "Available Methods - Fathom API",
+          "url": "https://developers.fathom.ai/sdks/available-methods"
+        },
+        {
+          "type": "Pagination - Fathom API",
+          "url": "https://developers.fathom.ai/sdks/pagination"
+        },
+        {
+          "type": "Advanced Configuration - Fathom API",
+          "url": "https://developers.fathom.ai/sdks/advanced-configuration"
+        },
+        {
+          "type": "SDK Maturity - Fathom API",
+          "url": "https://developers.fathom.ai/sdks/breaking-changes/sdk-maturity"
+        },
+        {
+          "type": "Authentication - Fathom API",
+          "url": "https://developers.fathom.ai/sdks/authentication"
+        },
+        {
+          "type": "Filtering - Fathom API",
+          "url": "https://developers.fathom.ai/sdks/filtering"
+        },
+        {
+          "type": "TypeScript SDK Changes - Fathom API",
+          "url": "https://developers.fathom.ai/sdks/breaking-changes/typescript-changes"
+        },
+        {
+          "type": "Error Handling - Fathom API",
+          "url": "https://developers.fathom.ai/sdks/error-handling"
+        },
+        {
+          "type": "Python SDK Changes - Fathom API",
+          "url": "https://developers.fathom.ai/sdks/breaking-changes/python-changes"
+        },
+        {
+          "type": "Quickstart - Fathom API",
+          "url": "https://developers.fathom.ai/quickstart"
+        },
+        {
+          "type": "Building with OAuth - Fathom API",
+          "url": "https://developers.fathom.ai/oauth"
+        },
+        {
+          "type": "Webhooks - Fathom API",
+          "url": "https://developers.fathom.ai/webhooks"
+        },
+        {
+          "type": "Get summary - Fathom API",
+          "url": "https://developers.fathom.ai/api-reference/recordings/get-summary"
+        },
+        {
+          "type": "Pylon - Fathom API",
+          "url": "https://developers.fathom.ai/inspiration/pylon"
+        },
+        {
+          "type": "Twine - Fathom API",
+          "url": "https://developers.fathom.ai/inspiration/twine"
+        },
+        {
+          "type": "Get transcript - Fathom API",
+          "url": "https://developers.fathom.ai/api-reference/recordings/get-transcript"
+        },
+        {
+          "type": "New meeting content ready - Fathom API",
+          "url": "https://developers.fathom.ai/api-reference/webhook-payloads/new-meeting-content-ready"
+        },
+        {
+          "type": "Create a webhook - Fathom API",
+          "url": "https://developers.fathom.ai/api-reference/webhooks/create-a-webhook"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://developers.fathom.ai/sdk"
+        },
+        {
+          "type": "List teams - Fathom API",
+          "url": "https://developers.fathom.ai/api-reference/teams/list-teams"
+        },
+        {
+          "type": "Delete a webhook - Fathom API",
+          "url": "https://developers.fathom.ai/api-reference/webhooks/delete-a-webhook"
+        },
+        {
+          "type": "List team members - Fathom API",
+          "url": "https://developers.fathom.ai/api-reference/team-members/list-team-members"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "eaabf412a075e0c6d2e0c0b5ccb7d1ea02670ef4df222417abb908b41a9e030e"
 }

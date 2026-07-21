@@ -238,5 +238,227 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.sirius.menu/rayfield",
+      "canonicalSeedUrl": "https://docs.sirius.menu/rayfield",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-13T08:29:16.891Z",
+      "completedAt": "2026-07-13T08:29:16.891Z",
+      "providerTotals": {
+        "discovered": 41,
+        "returned": 41,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.sirius.menu/rayfield",
+          "canonicalUrl": "https://docs.sirius.menu/rayfield",
+          "status": "valid"
+        }
+      ],
+      "id": "a7fdcf43d140a912e85307bc57f4fb43e04e356572aeda3c6f1e83bbcb237a51",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c567d9cde3206b655bbc53e62e6e8c64151696bff9f8827d0496d0c50b119ada",
+      "filename": "documentation_2026-07-13T08:29:16.891Z.md",
+      "contentHash": "b8480f3d11677cbf35d484f4a4f626d62271cb3dd0dca9f9fb1885a70806c636",
+      "sourceUrl": "https://docs.sirius.menu/rayfield",
+      "canonicalSourceUrl": "https://docs.sirius.menu/rayfield",
+      "capturedAt": "2026-07-13T08:29:16.891Z",
+      "crawlRunId": "a7fdcf43d140a912e85307bc57f4fb43e04e356572aeda3c6f1e83bbcb237a51",
+      "upstreamVersion": "1.4.2",
+      "upstreamChannel": "latest",
+      "totalPages": 41,
+      "successfulPages": 41,
+      "structure": [
+        {
+          "type": "Introduction - Developer Suite",
+          "url": "https://docs.sirius.menu/rayfield"
+        },
+        {
+          "type": "Sirius Developer Suite - Developer Suite",
+          "url": "https://docs.sirius.menu"
+        },
+        {
+          "type": "Anti-detection - Developer Suite",
+          "url": "https://docs.sirius.menu/rayfield/anti-detection"
+        },
+        {
+          "type": "Analytics - Developer Suite",
+          "url": "https://docs.sirius.menu/developer-api/analytics"
+        },
+        {
+          "type": "Authentication - Developer Suite",
+          "url": "https://docs.sirius.menu/developer-api/authentication"
+        },
+        {
+          "type": "Error Handling - Developer Suite",
+          "url": "https://docs.sirius.menu/developer-api/errors"
+        },
+        {
+          "type": "Developer Platform API - Developer Suite",
+          "url": "https://docs.sirius.menu/developer-api"
+        },
+        {
+          "type": "Making posts - Developer Suite",
+          "url": "https://docs.sirius.menu/faq/posting"
+        },
+        {
+          "type": "Reading the tier - Developer Suite",
+          "url": "https://docs.sirius.menu/marketplace/tier-id"
+        },
+        {
+          "type": "Rate Limits - Developer Suite",
+          "url": "https://docs.sirius.menu/developer-api/rate-limits"
+        },
+        {
+          "type": "Projects - Developer Suite",
+          "url": "https://docs.sirius.menu/developer-api/projects"
+        },
+        {
+          "type": "Script Versions - Developer Suite",
+          "url": "https://docs.sirius.menu/developer-api/versions"
+        },
+        {
+          "type": "Key Management - Developer Suite",
+          "url": "https://docs.sirius.menu/developer-api/keys"
+        },
+        {
+          "type": "Webhooks - Developer Suite",
+          "url": "https://docs.sirius.menu/developer-api/webhooks"
+        },
+        {
+          "type": "Rayfield Gen2 - Developer Suite",
+          "url": "https://docs.sirius.menu/rayfield-gen2"
+        },
+        {
+          "type": "Keybinds - Developer Suite",
+          "url": "https://docs.sirius.menu/rayfield/elements/keybinds"
+        },
+        {
+          "type": "Notifications - Developer Suite",
+          "url": "https://docs.sirius.menu/rayfield/notifications"
+        },
+        {
+          "type": "Loading the library - Developer Suite",
+          "url": "https://docs.sirius.menu/rayfield/getting-started"
+        },
+        {
+          "type": "Text elements - Developer Suite",
+          "url": "https://docs.sirius.menu/rayfield/elements/text"
+        },
+        {
+          "type": "Secure mode - Developer Suite",
+          "url": "https://docs.sirius.menu/rayfield/secure-mode"
+        },
+        {
+          "type": "Interactive elements - Developer Suite",
+          "url": "https://docs.sirius.menu/rayfield/elements/interactive"
+        },
+        {
+          "type": "Themes - Developer Suite",
+          "url": "https://docs.sirius.menu/rayfield/themes"
+        },
+        {
+          "type": "Windows - Developer Suite",
+          "url": "https://docs.sirius.menu/rayfield/windows"
+        },
+        {
+          "type": "Authentication - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/authentication"
+        },
+        {
+          "type": "Creators - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/endpoints/owners"
+        },
+        {
+          "type": "Games - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/endpoints/games"
+        },
+        {
+          "type": "Suggest, stats & health - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/endpoints/misc"
+        },
+        {
+          "type": "Best practices - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/best-practices"
+        },
+        {
+          "type": "Batch resolve - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/endpoints/batch"
+        },
+        {
+          "type": "Get a script - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/endpoints/get"
+        },
+        {
+          "type": "Search - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/endpoints/search"
+        },
+        {
+          "type": "Fetch scripts - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/endpoints/list"
+        },
+        {
+          "type": "Errors - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/errors"
+        },
+        {
+          "type": "Rate limits - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/rate-limits"
+        },
+        {
+          "type": "RoScripts API - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api"
+        },
+        {
+          "type": "Pagination & caching - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/pagination"
+        },
+        {
+          "type": "The Script object - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/schema"
+        },
+        {
+          "type": "Examples - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/examples"
+        },
+        {
+          "type": "Trending - Developer Suite",
+          "url": "https://docs.sirius.menu/scripts-api/endpoints/trending"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.sirius.menu/llms.txt"
+        },
+        {
+          "type": "Introduction - Developer Suite",
+          "url": "https://docs.sirius.menu/rayfield/index"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c567d9cde3206b655bbc53e62e6e8c64151696bff9f8827d0496d0c50b119ada"
 }

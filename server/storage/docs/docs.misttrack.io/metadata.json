@@ -100,5 +100,143 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.misttrack.io/",
+      "canonicalSeedUrl": "https://docs.misttrack.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-04T17:01:08.172Z",
+      "completedAt": "2026-02-04T17:01:08.172Z",
+      "providerTotals": {
+        "discovered": 20,
+        "returned": 20,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.misttrack.io/",
+          "canonicalUrl": "https://docs.misttrack.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "ebf04cb74f83e6a2567c5c5c3c22446537c12bc33ce52a5bcc15eeadc4aef5aa",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b189fc3ee2a5aa455b3b60a2ae9d5e3a418de52d16597dbcf89ad411e377b195",
+      "filename": "documentation_2026-02-04T17:01:08.172Z.md",
+      "contentHash": "850adc5095a7c4476129f3cb458af05b6ebd41da19e726642bb5a753089b4e56",
+      "sourceUrl": "https://docs.misttrack.io/",
+      "canonicalSourceUrl": "https://docs.misttrack.io/",
+      "capturedAt": "2026-02-04T17:01:08.172Z",
+      "crawlRunId": "ebf04cb74f83e6a2567c5c5c3c22446537c12bc33ce52a5bcc15eeadc4aef5aa",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 20,
+      "successfulPages": 20,
+      "structure": [
+        {
+          "type": "Welcome to MistTrack | MistTrack Docs",
+          "url": "https://docs.misttrack.io/"
+        },
+        {
+          "type": "MistTrack Features | MistTrack Docs",
+          "url": "https://docs.misttrack.io/misttrack-features"
+        },
+        {
+          "type": "Introduction | MistTrack Docs",
+          "url": "https://docs.misttrack.io/openapi/introduction"
+        },
+        {
+          "type": "Overview | MistTrack Docs",
+          "url": "https://docs.misttrack.io/openapi/overview"
+        },
+        {
+          "type": "Get Risk Score(Asynchronous API) | MistTrack Docs",
+          "url": "https://docs.misttrack.io/api-endpoints/get-risk-score-asynchronous-api"
+        },
+        {
+          "type": "Get Address Labels | MistTrack Docs",
+          "url": "https://docs.misttrack.io/api-endpoints/get-address-labels"
+        },
+        {
+          "type": "Get Address Actions | MistTrack Docs",
+          "url": "https://docs.misttrack.io/api-endpoints/get-address-actions"
+        },
+        {
+          "type": "Quicknode Add-on Docs | MistTrack Docs",
+          "url": "https://docs.misttrack.io/openapi/quicknode-add-on-docs"
+        },
+        {
+          "type": "Get Risk Score(KYT/KYA) | MistTrack Docs",
+          "url": "https://docs.misttrack.io/api-endpoints/get-risk-score"
+        },
+        {
+          "type": "Get Address Overview | MistTrack Docs",
+          "url": "https://docs.misttrack.io/api-endpoints/get-address-overview"
+        },
+        {
+          "type": "Get Address Profile | MistTrack Docs",
+          "url": "https://docs.misttrack.io/api-endpoints/get-address-profile"
+        },
+        {
+          "type": "Getting Help | MistTrack Docs",
+          "url": "https://docs.misttrack.io/support/getting-help"
+        },
+        {
+          "type": "Get API Status | MistTrack Docs",
+          "url": "https://docs.misttrack.io/api-endpoints/get-api-status"
+        },
+        {
+          "type": "Get Address Counterparty | MistTrack Docs",
+          "url": "https://docs.misttrack.io/api-endpoints/get-address-counterparty"
+        },
+        {
+          "type": "Get Transactions Investigation | MistTrack Docs",
+          "url": "https://docs.misttrack.io/api-endpoints/get-transactions-investigation"
+        },
+        {
+          "type": "Common Error Messages | MistTrack Docs",
+          "url": "https://docs.misttrack.io/support/common-error-messages"
+        },
+        {
+          "type": "Change Log | MistTrack Docs",
+          "url": "https://docs.misttrack.io/change-log"
+        },
+        {
+          "type": "Introduction | MistTrack Docs",
+          "url": "https://docs.misttrack.io/openapi"
+        },
+        {
+          "type": "Common Error Messages | MistTrack Docs",
+          "url": "https://docs.misttrack.io/support"
+        },
+        {
+          "type": "Get API Status | MistTrack Docs",
+          "url": "https://docs.misttrack.io/api-endpoints"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b189fc3ee2a5aa455b3b60a2ae9d5e3a418de52d16597dbcf89ad411e377b195"
 }

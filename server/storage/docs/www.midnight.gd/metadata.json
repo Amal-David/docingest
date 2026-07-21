@@ -33,5 +33,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.midnight.gd/faq",
+      "canonicalSeedUrl": "https://www.midnight.gd/faq",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-14T05:18:38.785Z",
+      "completedAt": "2025-11-14T05:18:38.785Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.midnight.gd/faq",
+          "canonicalUrl": "https://www.midnight.gd/faq",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-content"
+        }
+      ],
+      "id": "d984f88fd11e0b6ee1f3fbc5ea5a2332b50e4b765a9b9211f84ed9c56127611f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 1,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cfff92bd3bf865665e5ed57dbb7ff098115cb8d00853e5220b4bcadbae01c8e4",
+      "filename": "documentation_2025-11-14T05:18:38.785Z.md",
+      "contentHash": "08f505348f5cdadb6c34d88ab6fe37aa52cfbe323274e49f09294460d27043af",
+      "sourceUrl": "https://www.midnight.gd/faq",
+      "canonicalSourceUrl": "https://www.midnight.gd/faq",
+      "capturedAt": "2025-11-14T05:18:38.785Z",
+      "crawlRunId": "d984f88fd11e0b6ee1f3fbc5ea5a2332b50e4b765a9b9211f84ed9c56127611f",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://www.midnight.gd/faq"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "checkpoint-or-challenge-content"
+        ]
+      }
+    }
+  ]
 }

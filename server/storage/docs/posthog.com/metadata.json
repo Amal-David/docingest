@@ -80,5 +80,123 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://posthog.com/docs",
+      "canonicalSeedUrl": "https://posthog.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-22T00:22:50.124Z",
+      "completedAt": "2025-02-22T00:22:50.124Z",
+      "providerTotals": {
+        "discovered": 15,
+        "returned": 15,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://posthog.com/docs",
+          "canonicalUrl": "https://posthog.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "8fa12fa5be4c83a23ccd7e434b27446248b9fef3a404270c1a24937f955d3ad6",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "899506b172205b101d2ac8e1872fe2b9e5b3e21b324afb91a9ae4fd145429416",
+      "filename": "documentation_2025-02-22T00:22:50.124Z.md",
+      "contentHash": "0e51f4da65f47dd21d787971b4a17da1ae6628acff6494354722837ca9c2586a",
+      "sourceUrl": "https://posthog.com/docs",
+      "canonicalSourceUrl": "https://posthog.com/docs",
+      "capturedAt": "2025-02-22T00:22:50.124Z",
+      "crawlRunId": "8fa12fa5be4c83a23ccd7e434b27446248b9fef3a404270c1a24937f955d3ad6",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 15,
+      "successfulPages": 15,
+      "structure": [
+        {
+          "type": "Documentation - PostHog",
+          "url": "https://posthog.com/docs"
+        },
+        {
+          "type": "Product analytics - Documentation - PostHog",
+          "url": "https://posthog.com/docs/product-analytics"
+        },
+        {
+          "type": "Web analytics - Docs - PostHog",
+          "url": "https://posthog.com/docs/web-analytics"
+        },
+        {
+          "type": "Session replay - Docs - PostHog",
+          "url": "https://posthog.com/docs/session-replay"
+        },
+        {
+          "type": "Experiments - Docs - PostHog",
+          "url": "https://posthog.com/docs/experiments"
+        },
+        {
+          "type": "Product OS - Docs - PostHog",
+          "url": "https://posthog.com/docs/product-os"
+        },
+        {
+          "type": "Surveys - Docs - PostHog",
+          "url": "https://posthog.com/docs/surveys"
+        },
+        {
+          "type": "Feature flags - Docs - PostHog",
+          "url": "https://posthog.com/docs/feature-flags"
+        },
+        {
+          "type": "Data pipelines: CDP integrations - Docs - PostHog",
+          "url": "https://posthog.com/docs/cdp"
+        },
+        {
+          "type": "LLM observability - Documentation - PostHog",
+          "url": "https://posthog.com/docs/ai-engineering"
+        },
+        {
+          "type": "Error tracking - Docs - PostHog",
+          "url": "https://posthog.com/docs/error-tracking"
+        },
+        {
+          "type": "Identifying users - Docs - PostHog",
+          "url": "https://posthog.com/docs/product-analytics/identify"
+        },
+        {
+          "type": "Data warehouse - Docs - PostHog",
+          "url": "https://posthog.com/docs/data-warehouse"
+        },
+        {
+          "type": "How to watch recordings - Docs - PostHog",
+          "url": "https://posthog.com/docs/session-replay/how-to-watch-recordings"
+        },
+        {
+          "type": "Creating insights - Docs - PostHog",
+          "url": "https://posthog.com/docs/product-analytics/insights"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "899506b172205b101d2ac8e1872fe2b9e5b3e21b324afb91a9ae4fd145429416"
 }

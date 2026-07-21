@@ -112,5 +112,155 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego",
+      "canonicalSeedUrl": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-13T12:54:51.967Z",
+      "completedAt": "2025-04-13T12:54:51.967Z",
+      "providerTotals": {
+        "discovered": 23,
+        "returned": 23,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego",
+          "canonicalUrl": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego",
+          "status": "valid"
+        }
+      ],
+      "id": "9e24ae1842150d141e8fe5a6360572b4b8429131563e287572968f34782d639c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a95a5642f2e3b6887e138075d04c2714274f02a145d7d746a087a68b0d3bb828",
+      "filename": "documentation_2025-04-13T12:54:51.967Z.md",
+      "contentHash": "28da754f5396535bf261a7524949bf2496fa2f06e6bfe70d5871fbb2edfd012e",
+      "sourceUrl": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego",
+      "canonicalSourceUrl": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego",
+      "capturedAt": "2025-04-13T12:54:51.967Z",
+      "crawlRunId": "9e24ae1842150d141e8fe5a6360572b4b8429131563e287572968f34782d639c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 23,
+      "successfulPages": 23,
+      "structure": [
+        {
+          "type": "Under the Hood of the DeFi Lego | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego"
+        },
+        {
+          "type": "Decoding the DNA of DeFi Transactions & Strategies | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/"
+        },
+        {
+          "type": "Don't Let Your Trading Become the Recipe of Someone's Sandwich | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/dont-let-your-trading-become-the-recipe-of-someones-sandwich"
+        },
+        {
+          "type": "Be Prepared To Explore the DeFi World | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/decoding-the-dna-of-defi-transactions-and-strategies/be-prepared-to-explore-the-defi-world"
+        },
+        {
+          "type": "From Arbitrage, Sandwich to JIT and Oracle Manipulation | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/decoding-the-dna-of-defi-transactions-and-strategies/from-arbitrage-sandwich-to-jit-and-oracle-manipulation"
+        },
+        {
+          "type": "Case Study Format | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/decoding-the-dna-of-defi-transactions-and-strategies/case-study-format"
+        },
+        {
+          "type": "MEV Transaction & Strategy 101 | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/mev-transaction-and-strategy-101"
+        },
+        {
+          "type": "What's Really Going on When Processing Liquidity in a Uniswap Pool? | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego/whats-really-going-on-when-processing-liquidity-in-a-uniswap-pool"
+        },
+        {
+          "type": "A $3.2 Million Profit Arbitrage, the Most Lucrative MEV of 2022 | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/mev-transaction-and-strategy-101/a-usd3.2-million-profit-arbitrage-the-most-lucrative-mev-of-2022"
+        },
+        {
+          "type": "Conclusion | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego/whats-really-going-on-when-processing-liquidity-in-a-uniswap-pool/conclusion"
+        },
+        {
+          "type": "Pretend You Are One of the Shareholders of a Bank Branch. | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego/whats-really-going-on-when-processing-liquidity-in-a-uniswap-pool/pretend-you-are-one-of-the-shareholders-of-a-bank-branch."
+        },
+        {
+          "type": "Let's Match the Bank Branch to a Uniswap Pool. | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego/whats-really-going-on-when-processing-liquidity-in-a-uniswap-pool/lets-match-the-bank-branch-to-a-uniswap-pool."
+        },
+        {
+          "type": "Liquidity Rebalancing: Moving Around $9.4 Million for More Fee Revenues. | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego/liquidity-rebalancing-moving-around-usd9.4-million-for-more-fee-revenues."
+        },
+        {
+          "type": "The Hidden Tax That You Should Know About | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/mev-transaction-and-strategy-101/the-hidden-tax-that-you-should-know-about"
+        },
+        {
+          "type": "Wallchain's MEV Arbitrage Redistribution | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/mev-transaction-and-strategy-101/wallchains-mev-arbitrage-redistribution"
+        },
+        {
+          "type": "Rebalancing loan positions utilizing AAVE Flash loan | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego/rebalancing-loan-positions-utilizing-aave-flash-loan"
+        },
+        {
+          "type": "The Notorious Jaredfromsubway.eth's Sandwich Attack | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/dont-let-your-trading-become-the-recipe-of-someones-sandwich/the-notorious-jaredfromsubway.eths-sandwich-attack"
+        },
+        {
+          "type": "Sandwich Targeting Liquidity Providers | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/dont-let-your-trading-become-the-recipe-of-someones-sandwich/sandwich-targeting-liquidity-providers"
+        },
+        {
+          "type": "Adding Liquidity. | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego/whats-really-going-on-when-processing-liquidity-in-a-uniswap-pool/adding-liquidity."
+        },
+        {
+          "type": "Understand Back-Run Arbitrages and Their Signals and Join the MEV Game. | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/mev-transaction-and-strategy-101/understand-back-run-arbitrages-and-their-signals-and-join-the-mev-game."
+        },
+        {
+          "type": "Removing Liquidity. | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego/whats-really-going-on-when-processing-liquidity-in-a-uniswap-pool/removing-liquidity."
+        },
+        {
+          "type": "MEV-Share, Flashbots' MEV Redistribution Solution | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/mev-transaction-and-strategy-101/mev-share-flashbots-mev-redistribution-solution"
+        },
+        {
+          "type": "A Cross-Chain Arbitrage: The Art of Arbitraging BANANA Cross BSC and Polygon Chains | Head First DeFi: TX & Strategies",
+          "url": "https://eigenphi-1.gitbook.io/head-first-defi/under-the-hood-of-the-defi-lego/a-cross-chain-arbitrage-the-art-of-arbitraging-banana-cross-bsc-and-polygon-chains"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a95a5642f2e3b6887e138075d04c2714274f02a145d7d746a087a68b0d3bb828"
 }

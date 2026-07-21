@@ -215,5 +215,231 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.freqtrade.io/en/stable/",
+      "canonicalSeedUrl": "https://www.freqtrade.io/en/stable",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-14T16:42:56.110Z",
+      "completedAt": "2026-01-14T16:42:56.110Z",
+      "providerTotals": {
+        "discovered": 42,
+        "returned": 42,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.freqtrade.io/en/stable/",
+          "canonicalUrl": "https://www.freqtrade.io/en/stable",
+          "status": "valid"
+        }
+      ],
+      "id": "30bc3919f432173a991ee518f589cb19d104ffaed8a34e3a68193416b933a749",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0d96b11bf06cd069ff3eb874b51664161f88cbeea3eaaf8b26a609023e0a6f59",
+      "filename": "documentation_2026-01-14T16:42:56.110Z.md",
+      "contentHash": "97e0c287620848ecd6c2a5f02724857e02a6ea6f9b10833fe03011b39f8f2800",
+      "sourceUrl": "https://www.freqtrade.io/en/stable/",
+      "canonicalSourceUrl": "https://www.freqtrade.io/en/stable",
+      "capturedAt": "2026-01-14T16:42:56.110Z",
+      "crawlRunId": "30bc3919f432173a991ee518f589cb19d104ffaed8a34e3a68193416b933a749",
+      "upstreamVersion": "1.3.0",
+      "upstreamChannel": "latest",
+      "totalPages": 42,
+      "successfulPages": 42,
+      "structure": [
+        {
+          "type": "Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/"
+        },
+        {
+          "type": "Advanced Hyperopt - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/advanced-hyperopt/"
+        },
+        {
+          "type": "Advanced Post-installation Tasks - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/advanced-setup/"
+        },
+        {
+          "type": "Backtest analysis - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/advanced-backtesting/"
+        },
+        {
+          "type": "Start the bot - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/bot-usage/"
+        },
+        {
+          "type": "Backtesting - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/backtesting/"
+        },
+        {
+          "type": "Jupyter Notebooks - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/data-analysis/"
+        },
+        {
+          "type": "Developer guide - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/freqai-developers/"
+        },
+        {
+          "type": "Deprecated Features - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/deprecated/"
+        },
+        {
+          "type": "freqUI - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/freq-ui/"
+        },
+        {
+          "type": "Quickstart with Docker - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/docker_quickstart/"
+        },
+        {
+          "type": "Running FreqAI - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/freqai-running/"
+        },
+        {
+          "type": "Data Downloading - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/data-download/"
+        },
+        {
+          "type": "Parameter table - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/freqai-parameter-table/"
+        },
+        {
+          "type": "Exchange-specific Notes - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/exchanges/"
+        },
+        {
+          "type": "Introduction - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/freqai/"
+        },
+        {
+          "type": "Contributors Guide - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/developer/"
+        },
+        {
+          "type": "Short / Leverage - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/leverage/"
+        },
+        {
+          "type": "FAQ - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/faq/"
+        },
+        {
+          "type": "Linux/MacOS/Raspberry - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/installation/"
+        },
+        {
+          "type": "Reinforcement Learning - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/freqai-reinforcement-learning/"
+        },
+        {
+          "type": "Feature engineering - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/freqai-feature-engineering/"
+        },
+        {
+          "type": "Lookahead analysis - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/lookahead-analysis/"
+        },
+        {
+          "type": "Recursive analysis - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/recursive-analysis/"
+        },
+        {
+          "type": "Producer/Consumer mode - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/producer-consumer/"
+        },
+        {
+          "type": "Plotting - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/plotting/"
+        },
+        {
+          "type": "Configuration - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/freqai-configuration/"
+        },
+        {
+          "type": "Configuration - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/configuration/"
+        },
+        {
+          "type": "SQL Cheat-sheet - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/sql_cheatsheet/"
+        },
+        {
+          "type": "REST API - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/rest-api/"
+        },
+        {
+          "type": "Strategy Quickstart - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/strategy-101/"
+        },
+        {
+          "type": "Updating Freqtrade - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/updating/"
+        },
+        {
+          "type": "Windows - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/windows_installation/"
+        },
+        {
+          "type": "Strategy analysis - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/strategy_analysis_example/"
+        },
+        {
+          "type": "Hyperopt - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/hyperopt/"
+        },
+        {
+          "type": "Plugins - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/plugins/"
+        },
+        {
+          "type": "Utility Sub-commands - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/utils/"
+        },
+        {
+          "type": "Strategy migration - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/strategy_migration/"
+        },
+        {
+          "type": "Strategy Customization - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/strategy-customization/"
+        },
+        {
+          "type": "Strategy Callbacks - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/strategy-callbacks/"
+        },
+        {
+          "type": "Advanced Strategy - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/strategy-advanced/"
+        },
+        {
+          "type": "Web Hook - Freqtrade",
+          "url": "https://www.freqtrade.io/en/stable/webhook-config/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0d96b11bf06cd069ff3eb874b51664161f88cbeea3eaaf8b26a609023e0a6f59"
 }

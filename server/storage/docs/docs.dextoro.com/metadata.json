@@ -88,5 +88,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.dextoro.com/",
+      "canonicalSeedUrl": "https://docs.dextoro.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-21T20:55:39.581Z",
+      "completedAt": "2025-11-21T20:55:39.581Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.dextoro.com/",
+          "canonicalUrl": "https://docs.dextoro.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "57437f04b33afb38d6ba724e361f9393bd85d396c528a911f57997183fca3677",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "da29cb20b51c081c53b1ed5585c420b456f04644b2dcbcd6f593c5d7484a38d5",
+      "filename": "documentation_2025-11-21T20:55:39.581Z.md",
+      "contentHash": "f6cacbc58e614fa403efe91b45cea50a51c03ab53d6377a779affb76d47aa505",
+      "sourceUrl": "https://docs.dextoro.com/",
+      "canonicalSourceUrl": "https://docs.dextoro.com/",
+      "capturedAt": "2025-11-21T20:55:39.581Z",
+      "crawlRunId": "57437f04b33afb38d6ba724e361f9393bd85d396c528a911f57997183fca3677",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "What is dextoro? | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/"
+        },
+        {
+          "type": "Overview | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/usddtr/overview"
+        },
+        {
+          "type": "dextoro Launch | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/product/dextoro-launch"
+        },
+        {
+          "type": "Investor Data Room | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/usddtr/investor-data-room"
+        },
+        {
+          "type": "Our Partners | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/brand-and-ecosystem/our-partners"
+        },
+        {
+          "type": "Legacy $DTR Airdrop | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/usddtr/legacy-usddtr-airdrop"
+        },
+        {
+          "type": "Tokenomics | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/usddtr/tokenomics"
+        },
+        {
+          "type": "Roadmap & TGE | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/usddtr/overview/roadmap-and-tge"
+        },
+        {
+          "type": "dextoro Media Kit | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/brand-and-ecosystem/dextoro-media-kit"
+        },
+        {
+          "type": "$DTR Economic Flywheel | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/usddtr/tokenomics/usddtr-economic-flywheel"
+        },
+        {
+          "type": "Seed Round Presale | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/usddtr/seed-round-presale"
+        },
+        {
+          "type": "dextoro Trade | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/product/dextoro-trade"
+        },
+        {
+          "type": "Official links | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/about-us/official-links"
+        },
+        {
+          "type": "Privacy Policy | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/about-us/privacy-policy"
+        },
+        {
+          "type": "Terms of Service | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/about-us/terms-of-service"
+        },
+        {
+          "type": "FAQs | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/usddtr/faqs"
+        },
+        {
+          "type": "Legacy $DTR Snapshot | dextoro | Documentation",
+          "url": "https://docs.dextoro.com/usddtr/legacy-usddtr-airdrop/legacy-usddtr-snapshot"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "da29cb20b51c081c53b1ed5585c420b456f04644b2dcbcd6f593c5d7484a38d5"
 }

@@ -33,5 +33,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://api-docs.torbox.app/",
+      "canonicalSeedUrl": "https://api-docs.torbox.app/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-21T11:33:17.137Z",
+      "completedAt": "2026-03-21T11:33:17.137Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://api-docs.torbox.app/",
+          "canonicalUrl": "https://api-docs.torbox.app/",
+          "status": "valid"
+        }
+      ],
+      "id": "78cfb96aa1255cd61a269666c7b620fd77b16ffcd3368c1bea9fbf539e1814ab",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "22a43a55844f69fb24f321b21637a9ce9625cfc5b65d857afe3218069894ccb5",
+      "filename": "documentation_2026-03-21T11:33:17.137Z.md",
+      "contentHash": "88014803a70254b651ea811a8f2b484bc920e5588fd2fe509023ba7f59645aad",
+      "sourceUrl": "https://api-docs.torbox.app/",
+      "canonicalSourceUrl": "https://api-docs.torbox.app/",
+      "capturedAt": "2026-03-21T11:33:17.137Z",
+      "crawlRunId": "78cfb96aa1255cd61a269666c7b620fd77b16ffcd3368c1bea9fbf539e1814ab",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Main API",
+          "url": "https://api-docs.torbox.app/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "22a43a55844f69fb24f321b21637a9ce9625cfc5b65d857afe3218069894ccb5"
 }

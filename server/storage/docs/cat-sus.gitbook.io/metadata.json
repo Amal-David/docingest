@@ -40,5 +40,83 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://cat-sus.gitbook.io/compkiller/documents/interface",
+      "canonicalSeedUrl": "https://cat-sus.gitbook.io/compkiller/documents/interface",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-15T16:39:22.356Z",
+      "completedAt": "2026-07-15T16:39:22.356Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://cat-sus.gitbook.io/compkiller/documents/interface",
+          "canonicalUrl": "https://cat-sus.gitbook.io/compkiller/documents/interface",
+          "status": "valid"
+        }
+      ],
+      "id": "7ac18dd53edeff2ce86a7f2448ecffe8df3545e550526922c7eb48e832860165",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9874955164e880fe00560171c217ff7d96516d8be3837741cfc74b8f310540bb",
+      "filename": "documentation_2026-07-15T16:39:22.356Z.md",
+      "contentHash": "931fb28d3da8475c42ee0638c9ea755eedbf9b6d48705f3d319160889e708067",
+      "sourceUrl": "https://cat-sus.gitbook.io/compkiller/documents/interface",
+      "canonicalSourceUrl": "https://cat-sus.gitbook.io/compkiller/documents/interface",
+      "capturedAt": "2026-07-15T16:39:22.356Z",
+      "crawlRunId": "7ac18dd53edeff2ce86a7f2448ecffe8df3545e550526922c7eb48e832860165",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "Interface | COMPKILLER",
+          "url": "https://cat-sus.gitbook.io/compkiller/documents/interface"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://cat-sus.gitbook.io/compkiller/llms.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://cat-sus.gitbook.io/compkiller/documents/interface.md"
+        },
+        {
+          "type": "COMPKILLER",
+          "url": "https://cat-sus.gitbook.io/compkiller"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://cat-sus.gitbook.io/compkiller/compkiller.md"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9874955164e880fe00560171c217ff7d96516d8be3837741cfc74b8f310540bb"
 }

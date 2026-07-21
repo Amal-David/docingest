@@ -60,5 +60,103 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.rewst.help/",
+      "canonicalSeedUrl": "https://docs.rewst.help/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-18T05:38:07.537Z",
+      "completedAt": "2025-08-18T05:38:07.537Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.rewst.help/",
+          "canonicalUrl": "https://docs.rewst.help/",
+          "status": "valid"
+        }
+      ],
+      "id": "55fcccf1ea0535922e4912bb1f6e0ed9e42f6ba716b2e9f0fe754a34710a2508",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1eaaa0e14d3d34f29cf042bb2628da1e71ab1c50c46f38050c48cf9aa5bc5358",
+      "filename": "documentation_2025-08-18T05:38:07.537Z.md",
+      "contentHash": "64ed9c588716c766ea7045a5a0a589302d1061553ee5a2b71bd0daf0c66563d8",
+      "sourceUrl": "https://docs.rewst.help/",
+      "canonicalSourceUrl": "https://docs.rewst.help/",
+      "capturedAt": "2025-08-18T05:38:07.537Z",
+      "crawlRunId": "55fcccf1ea0535922e4912bb1f6e0ed9e42f6ba716b2e9f0fe754a34710a2508",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "Welcome to Rewst | Rewst Documentation",
+          "url": "https://docs.rewst.help/"
+        },
+        {
+          "type": "[PROD - TASK] Immybot: Get User Count | Rewst Documentation",
+          "url": "https://docs.rewst.help/documentation/automations/subworkflows/prod-task-immybot-get-user-count"
+        },
+        {
+          "type": "[Rewst Master v2] PSA-Datto: List Ticket Types | Rewst Documentation",
+          "url": "https://docs.rewst.help/documentation/automations/subworkflows/rewst-master-v2-psa-datto-list-ticket-types"
+        },
+        {
+          "type": "[Rewst Master v2] PSA-Datto: List Ticket Subtypes | Rewst Documentation",
+          "url": "https://docs.rewst.help/documentation/automations/subworkflows/rewst-master-v2-psa-datto-list-ticket-subtypes"
+        },
+        {
+          "type": "[REWST - TASK] Document Password in External Systems | Rewst Documentation",
+          "url": "https://docs.rewst.help/documentation/automations/subworkflows/rewst-task-document-password-in-external-systems"
+        },
+        {
+          "type": "[Rewst Master v2] PSA-Kaseya: Get Boards | Rewst Documentation",
+          "url": "https://docs.rewst.help/documentation/automations/subworkflows/rewst-master-v2-psa-kaseya-get-boards"
+        },
+        {
+          "type": "[REWST - TASK] Nodeware: Decommission Asset | Rewst Documentation",
+          "url": "https://docs.rewst.help/documentation/automations/subworkflows/rewst-task-nodeware-decommission-asset"
+        },
+        {
+          "type": "[REWST - PROC] User: Change Password | Rewst Documentation",
+          "url": "https://docs.rewst.help/documentation/automations/subworkflows/rewst-proc-user-change-password"
+        },
+        {
+          "type": "Page[REWST - TASK] PSA-Halo: Upsert Contact | Rewst Documentation",
+          "url": "https://docs.rewst.help/documentation/automations/subworkflows/page-rewst-task-psa-halo-upsert-contact"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.rewst.help/cdn-cgi/l/email-protection"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1eaaa0e14d3d34f29cf042bb2628da1e71ab1c50c46f38050c48cf9aa5bc5358"
 }

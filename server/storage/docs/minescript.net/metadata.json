@@ -40,5 +40,83 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://minescript.net/docs",
+      "canonicalSeedUrl": "https://minescript.net/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-28T15:02:00.802Z",
+      "completedAt": "2026-02-28T15:02:00.802Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://minescript.net/docs",
+          "canonicalUrl": "https://minescript.net/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "a6bbafcaf37a32bc3e0d7d5608b41c6f544843c6c52af2fcca15cd8bb76f0af7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "068478e05f3818b209f5322b7fe0dc97b67e624b20066c062897e26fa0deb61e",
+      "filename": "documentation_2026-02-28T15:02:00.802Z.md",
+      "contentHash": "de499dc45c97de99c7e9b019c770b9429e6c95efcf65a2658d535afe1d3d62e4",
+      "sourceUrl": "https://minescript.net/docs",
+      "canonicalSourceUrl": "https://minescript.net/docs",
+      "capturedAt": "2026-02-28T15:02:00.802Z",
+      "crawlRunId": "a6bbafcaf37a32bc3e0d7d5608b41c6f544843c6c52af2fcca15cd8bb76f0af7",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "Documentation – Minescript",
+          "url": "https://minescript.net/docs"
+        },
+        {
+          "type": "Documentation (v2.1) – Minescript",
+          "url": "https://minescript.net/docs-v2-1"
+        },
+        {
+          "type": "Documentation (v1.19) – Minescript",
+          "url": "https://minescript.net/docs-v1-19"
+        },
+        {
+          "type": "Documentation (v2.0) – Minescript",
+          "url": "https://minescript.net/docs-v2-0"
+        },
+        {
+          "type": "Documentation (3.0) – Minescript",
+          "url": "https://minescript.net/docs-v3-0"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "068478e05f3818b209f5322b7fe0dc97b67e624b20066c062897e26fa0deb61e"
 }

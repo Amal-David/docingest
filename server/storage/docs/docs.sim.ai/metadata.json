@@ -111,5 +111,127 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.sim.ai/getting-started",
+      "canonicalSeedUrl": "https://docs.sim.ai/getting-started",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-05T17:06:24.290Z",
+      "completedAt": "2026-02-05T17:06:24.290Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.sim.ai/getting-started",
+          "canonicalUrl": "https://docs.sim.ai/getting-started",
+          "status": "valid"
+        }
+      ],
+      "id": "bb8fb85c543c26ff7210744465fee6e77ebce75df814e2a4590297bb205de1a1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "93d18ba986b9c8d81ef1026d47bc51818111e217a695791f5e3f026f14288b30",
+      "filename": "documentation_2026-02-05T17:06:24.290Z.md",
+      "contentHash": "32bd05fca18a1f7fddbfeba45c3f284e7f29c853c5f8cc251471f4f8eadc6fcf",
+      "sourceUrl": "https://docs.sim.ai/getting-started",
+      "canonicalSourceUrl": "https://docs.sim.ai/getting-started",
+      "capturedAt": "2026-02-05T17:06:24.290Z",
+      "crawlRunId": "bb8fb85c543c26ff7210744465fee6e77ebce75df814e2a4590297bb205de1a1",
+      "upstreamVersion": "1.2.1",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "Getting Started",
+          "url": "https://docs.sim.ai/getting-started"
+        },
+        {
+          "type": "ElevenLabs",
+          "url": "https://docs.sim.ai/zh/tools/elevenlabs"
+        },
+        {
+          "type": "ElevenLabs",
+          "url": "https://docs.sim.ai/de/tools/elevenlabs"
+        },
+        {
+          "type": "ElevenLabs",
+          "url": "https://docs.sim.ai/fr/tools/elevenlabs"
+        },
+        {
+          "type": "ElevenLabs",
+          "url": "https://docs.sim.ai/ja/tools/elevenlabs"
+        },
+        {
+          "type": "Exa",
+          "url": "https://docs.sim.ai/es/tools/exa"
+        },
+        {
+          "type": "Exa",
+          "url": "https://docs.sim.ai/fr/tools/exa"
+        },
+        {
+          "type": "Exa",
+          "url": "https://docs.sim.ai/de/tools/exa"
+        },
+        {
+          "type": "Enrich",
+          "url": "https://docs.sim.ai/fr/tools/enrich"
+        },
+        {
+          "type": "Enrich",
+          "url": "https://docs.sim.ai/de/tools/enrich"
+        },
+        {
+          "type": "Enrich",
+          "url": "https://docs.sim.ai/es/tools/enrich"
+        },
+        {
+          "type": "Enrich",
+          "url": "https://docs.sim.ai/ja/tools/enrich"
+        },
+        {
+          "type": "Enrich",
+          "url": "https://docs.sim.ai/zh/tools/enrich"
+        },
+        {
+          "type": "Exa",
+          "url": "https://docs.sim.ai/ja/tools/exa"
+        },
+        {
+          "type": "Exa",
+          "url": "https://docs.sim.ai/zh/tools/exa"
+        },
+        {
+          "type": "Archivo",
+          "url": "https://docs.sim.ai/es/tools/file"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "93d18ba986b9c8d81ef1026d47bc51818111e217a695791f5e3f026f14288b30"
 }

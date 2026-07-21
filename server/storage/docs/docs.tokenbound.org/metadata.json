@@ -92,5 +92,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.tokenbound.org/",
+      "canonicalSeedUrl": "https://docs.tokenbound.org/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-23T15:33:46.713Z",
+      "completedAt": "2025-01-23T15:33:46.713Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.tokenbound.org/",
+          "canonicalUrl": "https://docs.tokenbound.org/",
+          "status": "valid"
+        }
+      ],
+      "id": "efc182c18a4b4f30a450eef289a1c53a95bc41c520928912ff013c029eb8b2f0",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1a4cd81e3dab3cccd09df517051bd70e547672a08c718e5332b5fe9e7f8d0a29",
+      "filename": "documentation_2025-01-23T15:33:46.713Z.md",
+      "contentHash": "d77ced7de2ed810c8d3bd7913e2437352ee093aa0cc03430be2c364f424556ec",
+      "sourceUrl": "https://docs.tokenbound.org/",
+      "canonicalSourceUrl": "https://docs.tokenbound.org/",
+      "capturedAt": "2025-01-23T15:33:46.713Z",
+      "crawlRunId": "efc182c18a4b4f30a450eef289a1c53a95bc41c520928912ff013c029eb8b2f0",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "Docs",
+          "url": "https://docs.tokenbound.org/"
+        },
+        {
+          "type": "Docs",
+          "url": "https://docs.tokenbound.org/intro"
+        },
+        {
+          "type": "Glossary - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/glossary"
+        },
+        {
+          "type": "Projects using Tokenbound - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/showcase"
+        },
+        {
+          "type": "Frequently Asked Questions - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/faq"
+        },
+        {
+          "type": "Overview - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/sdk/installation"
+        },
+        {
+          "type": "Migrating to V3 - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/sdk/migrating-to-v3"
+        },
+        {
+          "type": "SDK Reference - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/sdk/methods"
+        },
+        {
+          "type": "Smart Contract Addresses - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/contracts/deployments"
+        },
+        {
+          "type": "Tokenbound iFrame - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/iframe"
+        },
+        {
+          "type": "Query TBA address for an NFT - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/guides/read-a-tba"
+        },
+        {
+          "type": "Deploy the ERC-6551 Registry - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/guides/deploy-registry"
+        },
+        {
+          "type": "Connect to dapps as an NFT - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/guides/connect-with-nft"
+        },
+        {
+          "type": "Interact with your Tokenbound Account (TBA) on local blockchain using nodejs - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/guides/interact-with-tba"
+        },
+        {
+          "type": "Account - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/contracts/account"
+        },
+        {
+          "type": "Deploy a custom account implementation - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/guides/deploy-account-implementation"
+        },
+        {
+          "type": "Registry - Tokenbound Documentation",
+          "url": "https://docs.tokenbound.org/contracts/registry"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.tokenbound.org/showcase/link3.to/plenafinance"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1a4cd81e3dab3cccd09df517051bd70e547672a08c718e5332b5fe9e7f8d0a29"
 }

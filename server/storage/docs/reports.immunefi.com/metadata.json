@@ -48,5 +48,91 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://reports.immunefi.com/",
+      "canonicalSeedUrl": "https://reports.immunefi.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-18T06:50:59.424Z",
+      "completedAt": "2026-01-18T06:50:59.424Z",
+      "providerTotals": {
+        "discovered": 7,
+        "returned": 7,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://reports.immunefi.com/",
+          "canonicalUrl": "https://reports.immunefi.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "916d1b258ab3a3f05336b1d00c4910bb037e4599ee89f9c96a92a20e488cfbe4",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "31b587ec41155f786c5046c2a7170ed4ffa4ebf3906189128a2cd67ec96a3188",
+      "filename": "documentation_2026-01-18T06:50:59.424Z.md",
+      "contentHash": "265287853ac7fff0ced99d375a894e8eb82e9e6e07cdf63c9ceadfa1f864f53a",
+      "sourceUrl": "https://reports.immunefi.com/",
+      "canonicalSourceUrl": "https://reports.immunefi.com/",
+      "capturedAt": "2026-01-18T06:50:59.424Z",
+      "crawlRunId": "916d1b258ab3a3f05336b1d00c4910bb037e4599ee89f9c96a92a20e488cfbe4",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 7,
+      "successfulPages": 7,
+      "structure": [
+        {
+          "type": "README | Immunefi Audit Competitions",
+          "url": "https://reports.immunefi.com/"
+        },
+        {
+          "type": "BadgerDAO (eBTC) | Immunefi Audit Competitions",
+          "url": "https://reports.immunefi.com/badgerdao-ebtc"
+        },
+        {
+          "type": "Immunefi Arbitration | Immunefi Audit Competitions",
+          "url": "https://reports.immunefi.com/immunefi-arbitration"
+        },
+        {
+          "type": "DeGate | Immunefi Audit Competitions",
+          "url": "https://reports.immunefi.com/degate"
+        },
+        {
+          "type": "IDEX | Immunefi Audit Competitions",
+          "url": "https://reports.immunefi.com/idex"
+        },
+        {
+          "type": "Mitigation Audit | Folks Finance | Immunefi Audit Competitions",
+          "url": "https://reports.immunefi.com/mitigation-audit-or-folks-finance"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://reports.immunefi.com/cdn-cgi/l/email-protection"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "31b587ec41155f786c5046c2a7170ed4ffa4ebf3906189128a2cd67ec96a3188"
 }

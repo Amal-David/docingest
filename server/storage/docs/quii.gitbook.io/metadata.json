@@ -217,5 +217,251 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://quii.gitbook.io/learn-go-with-tests",
+      "canonicalSeedUrl": "https://quii.gitbook.io/learn-go-with-tests",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-29T07:34:38.780Z",
+      "completedAt": "2026-06-29T07:34:38.780Z",
+      "providerTotals": {
+        "discovered": 47,
+        "returned": 47,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://quii.gitbook.io/learn-go-with-tests",
+          "canonicalUrl": "https://quii.gitbook.io/learn-go-with-tests",
+          "status": "valid"
+        }
+      ],
+      "id": "cee24008936ffebd7ccd093fb0ba114dcec1abf521f8e5d789ed980b9471e202",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3ec3f9cb0d77100f8f4ea1aa314504dea997b7a49e0023d10eb3cb34c50d9157",
+      "filename": "documentation_2026-06-29T07:34:38.780Z.md",
+      "contentHash": "6e7aad13508802ffe8020c39f94d3c5a8fbe93abe20463167a46e40931b23e7f",
+      "sourceUrl": "https://quii.gitbook.io/learn-go-with-tests",
+      "canonicalSourceUrl": "https://quii.gitbook.io/learn-go-with-tests",
+      "capturedAt": "2026-06-29T07:34:38.780Z",
+      "crawlRunId": "cee24008936ffebd7ccd093fb0ba114dcec1abf521f8e5d789ed980b9471e202",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 47,
+      "successfulPages": 47,
+      "structure": [
+        {
+          "type": "Learn Go with Tests | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests"
+        },
+        {
+          "type": "Learn Go with Tests | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master"
+        },
+        {
+          "type": "Install Go | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/install-go"
+        },
+        {
+          "type": "Integers | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/integers"
+        },
+        {
+          "type": "Hello, World | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/hello-world"
+        },
+        {
+          "type": "Iteration | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/iteration"
+        },
+        {
+          "type": "Arrays and slices | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/arrays-and-slices"
+        },
+        {
+          "type": "Structs, methods & interfaces | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/structs-methods-and-interfaces"
+        },
+        {
+          "type": "Intro | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/build-an-application/app-intro"
+        },
+        {
+          "type": "Pointers & errors | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/pointers-and-errors"
+        },
+        {
+          "type": "Maps | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/maps"
+        },
+        {
+          "type": "Dependency Injection | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/dependency-injection"
+        },
+        {
+          "type": "Sync | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/sync"
+        },
+        {
+          "type": "Contributing | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/meta/contributing"
+        },
+        {
+          "type": "Chapter Template | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/meta/template"
+        },
+        {
+          "type": "Concurrency | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/concurrency"
+        },
+        {
+          "type": "Context-aware Reader | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/questions-and-answers/context-aware-reader"
+        },
+        {
+          "type": "Select | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/select"
+        },
+        {
+          "type": "OS Exec | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/questions-and-answers/os-exec"
+        },
+        {
+          "type": "Mocking | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/mocking"
+        },
+        {
+          "type": "Why unit tests and how to make them work for you | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/meta/why"
+        },
+        {
+          "type": "Context | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/context"
+        },
+        {
+          "type": "Error types | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/questions-and-answers/error-types"
+        },
+        {
+          "type": "Revisiting HTTP Handlers | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/questions-and-answers/http-handlers-revisited"
+        },
+        {
+          "type": "Reflection | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/reflection"
+        },
+        {
+          "type": "Command line & package structure | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/build-an-application/command-line"
+        },
+        {
+          "type": "JSON, routing and embedding | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/build-an-application/json"
+        },
+        {
+          "type": "Integers | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/integers"
+        },
+        {
+          "type": "Install Go | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/install-go"
+        },
+        {
+          "type": "Iteration | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/iteration"
+        },
+        {
+          "type": "WebSockets | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/build-an-application/websockets"
+        },
+        {
+          "type": "HTTP server | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/build-an-application/http-server"
+        },
+        {
+          "type": "Intro to property based tests | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/go-fundamentals/roman-numerals"
+        },
+        {
+          "type": "Time | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/build-an-application/time"
+        },
+        {
+          "type": "Dependency Injection | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/dependency-injection"
+        },
+        {
+          "type": "Intro | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/build-an-application/app-intro"
+        },
+        {
+          "type": "Concurrency | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/concurrency"
+        },
+        {
+          "type": "Contributing | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/meta/contributing"
+        },
+        {
+          "type": "Sync | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/sync"
+        },
+        {
+          "type": "Error types | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/questions-and-answers/error-types"
+        },
+        {
+          "type": "Arrays and slices | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/arrays-and-slices"
+        },
+        {
+          "type": "Select | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/select"
+        },
+        {
+          "type": "Structs, methods & interfaces | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/structs-methods-and-interfaces"
+        },
+        {
+          "type": "IO and sorting | Primary version | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/master/build-an-application/io"
+        },
+        {
+          "type": "Chapter Template | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/meta/template"
+        },
+        {
+          "type": "Context-aware Reader | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/questions-and-answers/context-aware-reader"
+        },
+        {
+          "type": "Anti-patterns | Learn Go with tests",
+          "url": "https://quii.gitbook.io/learn-go-with-tests/meta/anti-patterns"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3ec3f9cb0d77100f8f4ea1aa314504dea997b7a49e0023d10eb3cb34c50d9157"
 }

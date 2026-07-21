@@ -104,5 +104,147 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://dragon-mainland.gitbook.io/dragonmainland",
+      "canonicalSeedUrl": "https://dragon-mainland.gitbook.io/dragonmainland",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-28T09:58:09.876Z",
+      "completedAt": "2025-11-28T09:58:09.876Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland",
+          "canonicalUrl": "https://dragon-mainland.gitbook.io/dragonmainland",
+          "status": "valid"
+        }
+      ],
+      "id": "c6ded16b518553d4b2d9269c1f711f0fda1210fa0f0874a09c84212aac53505a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b69b4a6fe1cd2d707f23a94926483610a14034963b815f9de9a4f6efdd4213c4",
+      "filename": "documentation_2025-11-28T09:58:09.876Z.md",
+      "contentHash": "ff8ebb384336bf6d685b6872ba19b6ad3464a6df4ac2bc0188270db3cbea795d",
+      "sourceUrl": "https://dragon-mainland.gitbook.io/dragonmainland",
+      "canonicalSourceUrl": "https://dragon-mainland.gitbook.io/dragonmainland",
+      "capturedAt": "2025-11-28T09:58:09.876Z",
+      "crawlRunId": "c6ded16b518553d4b2d9269c1f711f0fda1210fa0f0874a09c84212aac53505a",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "FAQ | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland"
+        },
+        {
+          "type": "Introduction | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/dragon-mainland/introduction"
+        },
+        {
+          "type": "Inspiration | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/dragon-mainland/inspiration"
+        },
+        {
+          "type": "Marketplace | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/gameplay/marketplace"
+        },
+        {
+          "type": "Mechanism | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/gameplay/mechanism"
+        },
+        {
+          "type": "Contact us | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/contact-us"
+        },
+        {
+          "type": "Genome | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/gameplay/genome"
+        },
+        {
+          "type": "Visions | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/dragon-mainland/vison"
+        },
+        {
+          "type": "DMS (Dragon Mainland Shards) | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/economic-mode/dms-dragon-mainland-shards"
+        },
+        {
+          "type": "Revenue aggregator | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/gameplay/revenue-aggregator"
+        },
+        {
+          "type": "Closed loop (Value) | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/economic-mode/closed-loop-value"
+        },
+        {
+          "type": "Privacy Policy | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/official-resourse/privacy-policy"
+        },
+        {
+          "type": "Team members | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/team/team-introduction"
+        },
+        {
+          "type": "Install MetaMask | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/tutorials/install-metamask"
+        },
+        {
+          "type": "Switch BSC Network | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/tutorials/switch-bsc-network"
+        },
+        {
+          "type": "Terms of Use | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/official-resourse/terms-of-use"
+        },
+        {
+          "type": "Follow us | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/community/follow-us"
+        },
+        {
+          "type": "Dragon Pic Game | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/event/dragon-pic-game"
+        },
+        {
+          "type": "DMP (Dragon Miracle Potion) | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/economic-mode/dmp-dragon-miracle-potion"
+        },
+        {
+          "type": "Timeline | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/roadmap/timeline"
+        },
+        {
+          "type": "Genome | DragonMainland",
+          "url": "https://dragon-mainland.gitbook.io/dragonmainland/gameplay"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b69b4a6fe1cd2d707f23a94926483610a14034963b815f9de9a4f6efdd4213c4"
 }

@@ -76,5 +76,119 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.fluidkey.com/",
+      "canonicalSeedUrl": "https://docs.fluidkey.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-29T08:53:28.050Z",
+      "completedAt": "2025-09-29T08:53:28.050Z",
+      "providerTotals": {
+        "discovered": 14,
+        "returned": 14,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.fluidkey.com/",
+          "canonicalUrl": "https://docs.fluidkey.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "84d6a51dff13c903fffa3ebad1d8bbed2ab03c4a8c64347939ce1755f34d1569",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "462f1b80f25568508b683b3d551a18c8db81410f5970d0341c403e40482b3dd0",
+      "filename": "documentation_2025-09-29T08:53:28.050Z.md",
+      "contentHash": "1246eab2abd6276eb596d47b649044988d845c4ec14a241945f7b497f01e9529",
+      "sourceUrl": "https://docs.fluidkey.com/",
+      "canonicalSourceUrl": "https://docs.fluidkey.com/",
+      "capturedAt": "2025-09-29T08:53:28.050Z",
+      "crawlRunId": "84d6a51dff13c903fffa3ebad1d8bbed2ab03c4a8c64347939ce1755f34d1569",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 14,
+      "successfulPages": 14,
+      "structure": [
+        {
+          "type": "Fluidkey Interface | Fluidkey Docs",
+          "url": "https://docs.fluidkey.com/"
+        },
+        {
+          "type": "Receiving Funds | Fluidkey Docs",
+          "url": "https://docs.fluidkey.com/readme/receiving-funds"
+        },
+        {
+          "type": "Account Set-up | Fluidkey Docs",
+          "url": "https://docs.fluidkey.com/readme/account-set-up"
+        },
+        {
+          "type": "Labels | Fluidkey Docs",
+          "url": "https://docs.fluidkey.com/readme/labels"
+        },
+        {
+          "type": "Sending Funds | Fluidkey Docs",
+          "url": "https://docs.fluidkey.com/readme/sending-funds"
+        },
+        {
+          "type": "Bank Transfers | Fluidkey Docs",
+          "url": "https://docs.fluidkey.com/readme/bank"
+        },
+        {
+          "type": "Exporting Transactions | Fluidkey Docs",
+          "url": "https://docs.fluidkey.com/readme/exporting-transactions"
+        },
+        {
+          "type": "Fluidkey Score | Fluidkey Docs",
+          "url": "https://docs.fluidkey.com/readme/score"
+        },
+        {
+          "type": "Technical Documentation | Fluidkey Docs",
+          "url": "https://docs.fluidkey.com/technical-documentation"
+        },
+        {
+          "type": "Earn | Fluidkey Docs",
+          "url": "https://docs.fluidkey.com/readme/earn"
+        },
+        {
+          "type": "Frequently Asked Questions | Fluidkey Docs",
+          "url": "https://docs.fluidkey.com/readme/frequently-asked-questions"
+        },
+        {
+          "type": "Technical Walkthrough | Fluidkey Docs",
+          "url": "https://docs.fluidkey.com/technical-documentation/technical-walkthrough"
+        },
+        {
+          "type": "ENS Offchain Resolver | Fluidkey Docs",
+          "url": "https://docs.fluidkey.com/technical-documentation/ens-offchain-resolver"
+        },
+        {
+          "type": "Stealth Account Initdata | Fluidkey Docs",
+          "url": "https://docs.fluidkey.com/technical-documentation/stealth-account-initdata"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "462f1b80f25568508b683b3d551a18c8db81410f5970d0341c403e40482b3dd0"
 }

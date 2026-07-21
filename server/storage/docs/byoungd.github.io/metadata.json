@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://byoungd.github.io/English-level-up-tips/#/",
+      "canonicalSeedUrl": "https://byoungd.github.io/English-level-up-tips",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-06T06:58:52.091Z",
+      "completedAt": "2026-02-06T06:58:52.091Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://byoungd.github.io/English-level-up-tips/#/",
+          "canonicalUrl": "https://byoungd.github.io/English-level-up-tips",
+          "status": "valid"
+        }
+      ],
+      "id": "f80ae2d7f640e9370d6c011449d9e99f41de62f0a987a7edcbd05db0bfd228b3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ea557a07408c1435484197730ade3edc2e4418066d2f93dc3fafafeb33184bd5",
+      "filename": "documentation_2026-02-06T06:58:52.091Z.md",
+      "contentHash": "ffc95bf97336cc81193a14dc33dbbaa1ef6cfdc4a4d5034ffb7406a36e576248",
+      "sourceUrl": "https://byoungd.github.io/English-level-up-tips/#/",
+      "canonicalSourceUrl": "https://byoungd.github.io/English-level-up-tips",
+      "capturedAt": "2026-02-06T06:58:52.091Z",
+      "crawlRunId": "f80ae2d7f640e9370d6c011449d9e99f41de62f0a987a7edcbd05db0bfd228b3",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "English-level-up-tips",
+          "url": "https://byoungd.github.io/English-level-up-tips/#/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ea557a07408c1435484197730ade3edc2e4418066d2f93dc3fafafeb33184bd5"
 }

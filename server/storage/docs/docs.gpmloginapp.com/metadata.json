@@ -219,5 +219,235 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.gpmloginapp.com/",
+      "canonicalSeedUrl": "https://docs.gpmloginapp.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-27T00:57:23.760Z",
+      "completedAt": "2026-01-27T00:57:23.760Z",
+      "providerTotals": {
+        "discovered": 43,
+        "returned": 43,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.gpmloginapp.com/",
+          "canonicalUrl": "https://docs.gpmloginapp.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "18d1f59b08f8ac6da6ac406022a986284dc3044c3d0ee2fb93960b086aa1ba0e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7e640f67ba808dcd4229767fb8cb28fecacbdae39fcb016c5ef9077b7e40bf0c",
+      "filename": "documentation_2026-01-27T00:57:23.760Z.md",
+      "contentHash": "c7d619b85f595c047d44a20fe7afd9fdb2062d223b5ff3609192fd569084b0f1",
+      "sourceUrl": "https://docs.gpmloginapp.com/",
+      "canonicalSourceUrl": "https://docs.gpmloginapp.com/",
+      "capturedAt": "2026-01-27T00:57:23.760Z",
+      "crawlRunId": "18d1f59b08f8ac6da6ac406022a986284dc3044c3d0ee2fb93960b086aa1ba0e",
+      "upstreamVersion": "1.2.1",
+      "upstreamChannel": "latest",
+      "totalPages": 43,
+      "successfulPages": 43,
+      "structure": [
+        {
+          "type": "Browser fingerprint | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/"
+        },
+        {
+          "type": "Địa chỉ IP | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/browser-fingerprint/dia-chi-ip"
+        },
+        {
+          "type": "Timezone | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/browser-fingerprint/timezone"
+        },
+        {
+          "type": "Geo location | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/browser-fingerprint/geo-location"
+        },
+        {
+          "type": "Hardware: Audio | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/browser-fingerprint/hardware-audio"
+        },
+        {
+          "type": "Hardware: WebGL | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/browser-fingerprint/hardware-webgl"
+        },
+        {
+          "type": "WebRTC IP | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/browser-fingerprint/webrtc-ip"
+        },
+        {
+          "type": "Hardware: Canvas | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/browser-fingerprint/hardware-canvas"
+        },
+        {
+          "type": "Software:User agent | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/browser-fingerprint/software-user-agent"
+        },
+        {
+          "type": "Hardware: CPU,RAM | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/browser-fingerprint/hardware-cpu-ram"
+        },
+        {
+          "type": "Software: Screen | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/browser-fingerprint/software-screen"
+        },
+        {
+          "type": "Software: Hệ điều hành | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/browser-fingerprint/software-he-dieu-hanh"
+        },
+        {
+          "type": "Software: Font | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/browser-fingerprint/software-font"
+        },
+        {
+          "type": "API document | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/api-document"
+        },
+        {
+          "type": "TCP/IP Fingerprint | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/browser-fingerprint/tcp-ip-fingerprint"
+        },
+        {
+          "type": "Lấy thông tin profile | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/api-document/lay-thong-tin-profile"
+        },
+        {
+          "type": "Danh sách profiles | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/api-document/danh-sach-profiles"
+        },
+        {
+          "type": "Mở profile | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/api-document/mo-profile"
+        },
+        {
+          "type": "Tạo profile | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/api-document/tao-profile"
+        },
+        {
+          "type": "Đóng profile | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/api-document/dong-profile"
+        },
+        {
+          "type": "Cập nhật profile | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/api-document/cap-nhat-profile"
+        },
+        {
+          "type": "Xóa profile | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/api-document/xoa-profile"
+        },
+        {
+          "type": "Danh sách nhóm | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/api-document/danh-sach-nhom"
+        },
+        {
+          "type": "None-code automation | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/none-code-automation"
+        },
+        {
+          "type": "Các block | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/none-code-automation/cac-block"
+        },
+        {
+          "type": "Programming | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/none-code-automation/programming"
+        },
+        {
+          "type": "Navigation | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/none-code-automation/navigation"
+        },
+        {
+          "type": "Element | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/none-code-automation/element"
+        },
+        {
+          "type": "Mouse | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/none-code-automation/mouse"
+        },
+        {
+          "type": "Keyboard | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/none-code-automation/keyboard"
+        },
+        {
+          "type": "Scroll | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/none-code-automation/scroll"
+        },
+        {
+          "type": "Helper | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/none-code-automation/helper"
+        },
+        {
+          "type": "Other | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/none-code-automation/other"
+        },
+        {
+          "type": "Không nhận thông số fake | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/loi-thuong-gap/khong-nhan-thong-so-fake"
+        },
+        {
+          "type": "Bị xóa file thực thi exe | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/loi-thuong-gap/bi-xoa-file-thuc-thi-exe"
+        },
+        {
+          "type": "Không kết nối được Proxy / Socks5 | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/loi-thuong-gap/khong-ket-noi-duoc-proxy-socks5"
+        },
+        {
+          "type": "Profile không lưu dữ liệu | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/loi-thuong-gap/profile-khong-luu-du-lieu"
+        },
+        {
+          "type": "Lỗi liên quan cookie | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/loi-thuong-gap/loi-lien-quan-cookie"
+        },
+        {
+          "type": "Báo đỏ ở một số trang check | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/loi-thuong-gap/bao-do-o-mot-so-trang-check"
+        },
+        {
+          "type": "Không upload được profile lưu tại host | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/loi-thuong-gap/khong-upload-duoc-profile-luu-tai-host"
+        },
+        {
+          "type": "Xử lý lỗi: The network location cannot be reached | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/loi-thuong-gap/xu-ly-loi-the-network-location-cannot-be-reached"
+        },
+        {
+          "type": "Tài khoản bị logout khỏi google | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/loi-thuong-gap/tai-khoan-bi-logout-khoi-google"
+        },
+        {
+          "type": "Private server: Tài khoản đang được đăng nhập ở một nơi khác | GPM-Login document",
+          "url": "https://docs.gpmloginapp.com/loi-thuong-gap/private-server-tai-khoan-dang-duoc-dang-nhap-o-mot-noi-khac"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7e640f67ba808dcd4229767fb8cb28fecacbdae39fcb016c5ef9077b7e40bf0c"
 }

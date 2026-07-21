@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.context.markets/protocol/prediction-market",
+      "canonicalSeedUrl": "https://docs.context.markets/protocol/prediction-market",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-12T12:54:49.155Z",
+      "completedAt": "2025-12-12T12:54:49.155Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.context.markets/protocol/prediction-market",
+          "canonicalUrl": "https://docs.context.markets/protocol/prediction-market",
+          "status": "valid"
+        }
+      ],
+      "id": "d9eee6d70e1349118a4ee6de2e7af5906430be9456ff94c8d6ea95642e70e2a4",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "81353687df3bce9fa78c1347f1669089e4aac639d6146b8c0d700d213b59872e",
+      "filename": "documentation_2025-12-12T12:54:49.155Z.md",
+      "contentHash": "5d9b212a4146a8d5c5780496a87bb830999d621a037c5057f7c99c0211017e3e",
+      "sourceUrl": "https://docs.context.markets/protocol/prediction-market",
+      "canonicalSourceUrl": "https://docs.context.markets/protocol/prediction-market",
+      "capturedAt": "2025-12-12T12:54:49.155Z",
+      "crawlRunId": "d9eee6d70e1349118a4ee6de2e7af5906430be9456ff94c8d6ea95642e70e2a4",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "PredictionMarket - Context Docs",
+          "url": "https://docs.context.markets/protocol/prediction-market"
+        },
+        {
+          "type": "Context User Guide - Context Docs",
+          "url": "https://docs.context.markets/"
+        },
+        {
+          "type": "Vault - Context Docs",
+          "url": "https://docs.context.markets/protocol/vault"
+        },
+        {
+          "type": "Market Metadata - Context Docs",
+          "url": "https://docs.context.markets/protocol/prediction-market/market-metadata"
+        },
+        {
+          "type": "RewardDistributor - Context Docs",
+          "url": "https://docs.context.markets/protocol/reward-distributor"
+        },
+        {
+          "type": "Context Protocol - Context Docs",
+          "url": "https://docs.context.markets/protocol"
+        },
+        {
+          "type": "Getting Started - Context Docs",
+          "url": "https://docs.context.markets/context/getting-started"
+        },
+        {
+          "type": "Markets - Context Docs",
+          "url": "https://docs.context.markets/context/markets"
+        },
+        {
+          "type": "Deposits & Withdrawals - Context Docs",
+          "url": "https://docs.context.markets/context/deposits-withdrawals"
+        },
+        {
+          "type": "Rewards & Claims - Context Docs",
+          "url": "https://docs.context.markets/context/rewards-claims"
+        },
+        {
+          "type": "Support - Context Docs",
+          "url": "https://docs.context.markets/context/support"
+        },
+        {
+          "type": "Trading & Boosting - Context Docs",
+          "url": "https://docs.context.markets/context/trading-boosting"
+        },
+        {
+          "type": "Managing Your Account - Context Docs",
+          "url": "https://docs.context.markets/context/managing-your-account"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "81353687df3bce9fa78c1347f1669089e4aac639d6146b8c0d700d213b59872e"
 }

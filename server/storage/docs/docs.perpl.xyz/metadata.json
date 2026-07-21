@@ -64,5 +64,107 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.perpl.xyz",
+      "canonicalSeedUrl": "https://docs.perpl.xyz/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-10T16:53:44.970Z",
+      "completedAt": "2025-11-10T16:53:44.970Z",
+      "providerTotals": {
+        "discovered": 11,
+        "returned": 11,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.perpl.xyz",
+          "canonicalUrl": "https://docs.perpl.xyz/",
+          "status": "valid"
+        }
+      ],
+      "id": "73155ceb747eba9686013358791fec70144d46966e1e4831d59a6a9c7eac27a8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3beaf5e6a717f414ee4b0056d7c5742bf20347df73bd65581a7cc8cd757c4155",
+      "filename": "documentation_2025-11-10T16:53:44.970Z.md",
+      "contentHash": "4e064576f6b1c03a7471c7390ac74057c2979cd81f308318cd062d493d4f3290",
+      "sourceUrl": "https://docs.perpl.xyz",
+      "canonicalSourceUrl": "https://docs.perpl.xyz/",
+      "capturedAt": "2025-11-10T16:53:44.970Z",
+      "crawlRunId": "73155ceb747eba9686013358791fec70144d46966e1e4831d59a6a9c7eac27a8",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 11,
+      "successfulPages": 11,
+      "structure": [
+        {
+          "type": "Introduction | Perpl Docs",
+          "url": "https://docs.perpl.xyz"
+        },
+        {
+          "type": "Order Book | Perpl Docs",
+          "url": "https://docs.perpl.xyz/exchange/order-book"
+        },
+        {
+          "type": "Architecture | Perpl Docs",
+          "url": "https://docs.perpl.xyz/exchange/architecture"
+        },
+        {
+          "type": "Margin | Perpl Docs",
+          "url": "https://docs.perpl.xyz/exchange/margin"
+        },
+        {
+          "type": "Liquidation | Perpl Docs",
+          "url": "https://docs.perpl.xyz/exchange/liquidation"
+        },
+        {
+          "type": "Fees | Perpl Docs",
+          "url": "https://docs.perpl.xyz/exchange/fees"
+        },
+        {
+          "type": "Insurance & ADL | Perpl Docs",
+          "url": "https://docs.perpl.xyz/exchange/liquidation/insurance-and-adl"
+        },
+        {
+          "type": "Price Indices | Perpl Docs",
+          "url": "https://docs.perpl.xyz/exchange/price-indices"
+        },
+        {
+          "type": "Order Types | Perpl Docs",
+          "url": "https://docs.perpl.xyz/exchange/order-types"
+        },
+        {
+          "type": "Trading Perpetuals on Perpl | Perpl Docs",
+          "url": "https://docs.perpl.xyz/resources/trading-perpetuals-on-perpl"
+        },
+        {
+          "type": "Funding | Perpl Docs",
+          "url": "https://docs.perpl.xyz/exchange/funding"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3beaf5e6a717f414ee4b0056d7c5742bf20347df73bd65581a7cc8cd757c4155"
 }

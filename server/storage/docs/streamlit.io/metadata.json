@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://streamlit.io/",
+      "canonicalSeedUrl": "https://streamlit.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-15T13:00:21.991Z",
+      "completedAt": "2025-03-15T13:00:21.991Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://streamlit.io/",
+          "canonicalUrl": "https://streamlit.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "cb5a4da96139976aebeb29671f16cd4c2265857c63a763efe642e2e741dc92ae",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "92de5e28b340175c0d1660a8df408c31c278c9d7e5b77bc99fb930cfcf2247d4",
+      "filename": "documentation_2025-03-15T13:00:21.991Z.md",
+      "contentHash": "7e4e99fa3fb2c2a591b3a2bbea323ba2f764ca66d2b2734ddf54bd5cd2c93102",
+      "sourceUrl": "https://streamlit.io/",
+      "canonicalSourceUrl": "https://streamlit.io/",
+      "capturedAt": "2025-03-15T13:00:21.991Z",
+      "crawlRunId": "cb5a4da96139976aebeb29671f16cd4c2265857c63a763efe642e2e741dc92ae",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Streamlit • A faster way to build and share data apps",
+          "url": "https://streamlit.io/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "92de5e28b340175c0d1660a8df408c31c278c9d7e5b77bc99fb930cfcf2247d4"
 }

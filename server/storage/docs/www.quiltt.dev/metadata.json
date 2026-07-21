@@ -189,5 +189,223 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.quiltt.dev/",
+      "canonicalSeedUrl": "https://www.quiltt.dev/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-26T15:50:49.081Z",
+      "completedAt": "2025-02-26T15:50:49.081Z",
+      "providerTotals": {
+        "discovered": 40,
+        "returned": 40,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.quiltt.dev/",
+          "canonicalUrl": "https://www.quiltt.dev/",
+          "status": "valid"
+        }
+      ],
+      "id": "1cc1cb1e4252a100759701773f8b41b33d7c01fb63cbd54d1f96e6ebe558b0ea",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "44be706a64ca32f750b720ca498fb8a203e032e60b38f17bcccbbe45c5a25403",
+      "filename": "documentation_2025-02-26T15:50:49.081Z.md",
+      "contentHash": "65f5b249b4da469b9e61394b6d13468cc806bac4ea3061903e58017fa60073d7",
+      "sourceUrl": "https://www.quiltt.dev/",
+      "canonicalSourceUrl": "https://www.quiltt.dev/",
+      "capturedAt": "2025-02-26T15:50:49.081Z",
+      "crawlRunId": "1cc1cb1e4252a100759701773f8b41b33d7c01fb63cbd54d1f96e6ebe558b0ea",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 40,
+      "successfulPages": 40,
+      "structure": [
+        {
+          "type": "Guides and API Reference",
+          "url": "https://www.quiltt.dev/"
+        },
+        {
+          "type": "Core Concepts | Quiltt Docs",
+          "url": "https://www.quiltt.dev/get-started/core-concepts"
+        },
+        {
+          "type": "Tutorials | Quiltt Docs",
+          "url": "https://www.quiltt.dev/get-started/tutorials"
+        },
+        {
+          "type": "Get Started | Quiltt Docs",
+          "url": "https://www.quiltt.dev/get-started"
+        },
+        {
+          "type": "Statements | Quiltt Docs",
+          "url": "https://www.quiltt.dev/get-started/tutorials/statements"
+        },
+        {
+          "type": "GraphQL Tooling | Quiltt Docs",
+          "url": "https://www.quiltt.dev/get-started/tutorials/graphql-tooling"
+        },
+        {
+          "type": "Connector | Quiltt Docs",
+          "url": "https://www.quiltt.dev/connector"
+        },
+        {
+          "type": "React SDK | Quiltt Docs",
+          "url": "https://www.quiltt.dev/connector/sdk/react"
+        },
+        {
+          "type": "SDKs | Quiltt Docs",
+          "url": "https://www.quiltt.dev/connector/sdk"
+        },
+        {
+          "type": "HTML | Quiltt Docs",
+          "url": "https://www.quiltt.dev/connector/sdk/html"
+        },
+        {
+          "type": "Flutter SDK | Quiltt Docs",
+          "url": "https://www.quiltt.dev/connector/sdk/flutter"
+        },
+        {
+          "type": "React Native SDK | Quiltt Docs",
+          "url": "https://www.quiltt.dev/connector/sdk/react-native"
+        },
+        {
+          "type": "Authentication | Quiltt Docs",
+          "url": "https://www.quiltt.dev/get-started/tutorials/authentication"
+        },
+        {
+          "type": "Connectors | Quiltt Docs",
+          "url": "https://www.quiltt.dev/get-started/tutorials/connectors"
+        },
+        {
+          "type": "Android SDK | Quiltt Docs",
+          "url": "https://www.quiltt.dev/connector/sdk/android"
+        },
+        {
+          "type": "Bubble Plugin | Quiltt Docs",
+          "url": "https://www.quiltt.dev/connector/sdk/bubble"
+        },
+        {
+          "type": "iOS SDK | Quiltt Docs",
+          "url": "https://www.quiltt.dev/connector/sdk/ios"
+        },
+        {
+          "type": "Reconnect Flow | Quiltt Docs",
+          "url": "https://www.quiltt.dev/connector/reconnect"
+        },
+        {
+          "type": "JavaScript API | Quiltt Docs",
+          "url": "https://www.quiltt.dev/connector/javascript"
+        },
+        {
+          "type": "Profiles | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api/core-resources/profiles"
+        },
+        {
+          "type": "API Overview | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api"
+        },
+        {
+          "type": "Connections | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api/core-resources/connections"
+        },
+        {
+          "type": "Core Resources | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api/core-resources"
+        },
+        {
+          "type": "Accounts | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api/core-resources/accounts"
+        },
+        {
+          "type": "Balances | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api/core-resources/balances"
+        },
+        {
+          "type": "Statements | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api/core-resources/statements"
+        },
+        {
+          "type": "Transactions | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api/core-resources/transactions"
+        },
+        {
+          "type": "Mutate a Profile's data | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api/graphql/mutations"
+        },
+        {
+          "type": "GraphQL | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api/graphql"
+        },
+        {
+          "type": "Query on a Profile's data | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api/graphql/queries"
+        },
+        {
+          "type": "How to Query Paginated Data in GraphQL | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api/graphql/pagination"
+        },
+        {
+          "type": "Subscribe to real-time events using Subscriptions | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api/graphql/subscriptions"
+        },
+        {
+          "type": "Remote Data | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api/remote-data"
+        },
+        {
+          "type": "Custom Metadata | Quiltt Docs",
+          "url": "https://www.quiltt.dev/api/custom-metadata"
+        },
+        {
+          "type": "Issuing Session Tokens | Quiltt Docs",
+          "url": "https://www.quiltt.dev/authentication/issuing-session-tokens"
+        },
+        {
+          "type": "Authentication | Quiltt Docs",
+          "url": "https://www.quiltt.dev/authentication"
+        },
+        {
+          "type": "Managing Session Tokens | Quiltt Docs",
+          "url": "https://www.quiltt.dev/authentication/managing-session-tokens"
+        },
+        {
+          "type": "Webhooks | Quiltt Docs",
+          "url": "https://www.quiltt.dev/webhooks"
+        },
+        {
+          "type": "Webhooks Setup | Quiltt Docs",
+          "url": "https://www.quiltt.dev/webhooks/setup"
+        },
+        {
+          "type": "Webhook Schemas | Quiltt Docs",
+          "url": "https://www.quiltt.dev/webhooks/schemas"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "44be706a64ca32f750b720ca498fb8a203e032e60b38f17bcccbbe45c5a25403"
 }

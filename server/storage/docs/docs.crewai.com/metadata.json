@@ -122,5 +122,147 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.crewai.com/introduction",
+      "canonicalSeedUrl": "https://docs.crewai.com/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-27T07:25:11.686Z",
+      "completedAt": "2025-02-27T07:25:11.686Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.crewai.com/introduction",
+          "canonicalUrl": "https://docs.crewai.com/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "be222c12248b4f461b2daf3e58e8c472ad6619dbe775f3b7d6ac74b7cd61b720",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e6f48523cb7a4a6b3d31f1cc82c682ba6087ecd5b25b33070112c6c288a3219e",
+      "filename": "documentation_2025-02-27T07:25:11.686Z.md",
+      "contentHash": "e27fc37f1f8421aaef971a70744f2e9e97ff73e49b941a3ccc756918565d4bb8",
+      "sourceUrl": "https://docs.crewai.com/introduction",
+      "canonicalSourceUrl": "https://docs.crewai.com/introduction",
+      "capturedAt": "2025-02-27T07:25:11.686Z",
+      "crawlRunId": "be222c12248b4f461b2daf3e58e8c472ad6619dbe775f3b7d6ac74b7cd61b720",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "Introduction - CrewAI",
+          "url": "https://docs.crewai.com/introduction"
+        },
+        {
+          "type": "Installation - CrewAI",
+          "url": "https://docs.crewai.com/installation"
+        },
+        {
+          "type": "CrewAI Examples - CrewAI",
+          "url": "https://docs.crewai.com/examples/example"
+        },
+        {
+          "type": "Quickstart - CrewAI",
+          "url": "https://docs.crewai.com/quickstart"
+        },
+        {
+          "type": "Agents - CrewAI",
+          "url": "https://docs.crewai.com/concepts/agents"
+        },
+        {
+          "type": "Crews - CrewAI",
+          "url": "https://docs.crewai.com/concepts/crews"
+        },
+        {
+          "type": "Tasks - CrewAI",
+          "url": "https://docs.crewai.com/concepts/tasks"
+        },
+        {
+          "type": "Flows - CrewAI",
+          "url": "https://docs.crewai.com/concepts/flows"
+        },
+        {
+          "type": "Processes - CrewAI",
+          "url": "https://docs.crewai.com/concepts/processes"
+        },
+        {
+          "type": "Collaboration - CrewAI",
+          "url": "https://docs.crewai.com/concepts/collaboration"
+        },
+        {
+          "type": "Planning - CrewAI",
+          "url": "https://docs.crewai.com/concepts/planning"
+        },
+        {
+          "type": "Memory - CrewAI",
+          "url": "https://docs.crewai.com/concepts/memory"
+        },
+        {
+          "type": "LLMs - CrewAI",
+          "url": "https://docs.crewai.com/concepts/llms"
+        },
+        {
+          "type": "Knowledge - CrewAI",
+          "url": "https://docs.crewai.com/concepts/knowledge"
+        },
+        {
+          "type": "Training - CrewAI",
+          "url": "https://docs.crewai.com/concepts/training"
+        },
+        {
+          "type": "CLI - CrewAI",
+          "url": "https://docs.crewai.com/concepts/cli"
+        },
+        {
+          "type": "Testing - CrewAI",
+          "url": "https://docs.crewai.com/concepts/testing"
+        },
+        {
+          "type": "Using LangChain Tools - CrewAI",
+          "url": "https://docs.crewai.com/concepts/langchain-tools"
+        },
+        {
+          "type": "Tools - CrewAI",
+          "url": "https://docs.crewai.com/concepts/tools"
+        },
+        {
+          "type": "Using LlamaIndex Tools - CrewAI",
+          "url": "https://docs.crewai.com/concepts/llamaindex-tools"
+        },
+        {
+          "type": "Create Custom Tools - CrewAI",
+          "url": "https://docs.crewai.com/how-to/create-custom-tools"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e6f48523cb7a4a6b3d31f1cc82c682ba6087ecd5b25b33070112c6c288a3219e"
 }

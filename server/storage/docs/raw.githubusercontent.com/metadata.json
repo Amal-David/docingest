@@ -33,5 +33,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://raw.githubusercontent.com/ClearURLs/Docs/refs/heads/master/content",
+      "canonicalSeedUrl": "https://raw.githubusercontent.com/ClearURLs/Docs/refs/heads/master/content",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-24T08:46:29.147Z",
+      "completedAt": "2025-03-24T08:46:29.147Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://raw.githubusercontent.com/ClearURLs/Docs/refs/heads/master/content",
+          "canonicalUrl": "https://raw.githubusercontent.com/ClearURLs/Docs/refs/heads/master/content",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "87b3f09935b73dec761af8ae142f6fce67d27d2fce9e68b7571cb0fa24e6f712",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d368e6d78a23cd45f5b0420c39e22c7ede0a76c3c346c962187b10573c38bd28",
+      "filename": "documentation_2025-03-24T08:46:29.147Z.md",
+      "contentHash": "fb7e76a6e4d159d8d16179987493bbe47cf3c68978489190de1398c6f33b7dda",
+      "sourceUrl": "https://raw.githubusercontent.com/ClearURLs/Docs/refs/heads/master/content",
+      "canonicalSourceUrl": "https://raw.githubusercontent.com/ClearURLs/Docs/refs/heads/master/content",
+      "capturedAt": "2025-03-24T08:46:29.147Z",
+      "crawlRunId": "87b3f09935b73dec761af8ae142f6fce67d27d2fce9e68b7571cb0fa24e6f712",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Unknown",
+          "url": "https://raw.githubusercontent.com/ClearURLs/Docs/refs/heads/master/content"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://exchange.blockchain.com/api/",
+      "canonicalSeedUrl": "https://exchange.blockchain.com/api",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-25T09:32:58.487Z",
+      "completedAt": "2025-10-25T09:32:58.487Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://exchange.blockchain.com/api/",
+          "canonicalUrl": "https://exchange.blockchain.com/api",
+          "status": "valid"
+        }
+      ],
+      "id": "b31f80d7e621bb265ebe49f8a2598dd7f87646c0fcffc25a341a5ef241e1088e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "507f1af580e9ea35d87215db61e7c06677332ae77aeb8854005af60462c707c8",
+      "filename": "documentation_2025-10-25T09:32:58.487Z.md",
+      "contentHash": "bcf3ee95be1baeb21f0392fa01e2b37c8ea417610d2b51d07f52c1f75db93083",
+      "sourceUrl": "https://exchange.blockchain.com/api/",
+      "canonicalSourceUrl": "https://exchange.blockchain.com/api",
+      "capturedAt": "2025-10-25T09:32:58.487Z",
+      "crawlRunId": "b31f80d7e621bb265ebe49f8a2598dd7f87646c0fcffc25a341a5ef241e1088e",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Blockchain Exchange API",
+          "url": "https://exchange.blockchain.com/api/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "507f1af580e9ea35d87215db61e7c06677332ae77aeb8854005af60462c707c8"
 }

@@ -96,5 +96,139 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://truman.gitbook.io/the-truman-platform/",
+      "canonicalSeedUrl": "https://truman.gitbook.io/the-truman-platform",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-17T00:43:35.763Z",
+      "completedAt": "2025-03-17T00:43:35.763Z",
+      "providerTotals": {
+        "discovered": 19,
+        "returned": 19,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://truman.gitbook.io/the-truman-platform/",
+          "canonicalUrl": "https://truman.gitbook.io/the-truman-platform",
+          "status": "valid"
+        }
+      ],
+      "id": "03399a15e6141f271a62369a505db49e4311072cb3a4b28aaeff81092d1e5730",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c957d2bde75b2168c9772b5eb8e8c5d0a6c0d2821ac4c71ba8d427e29145ba0b",
+      "filename": "documentation_2025-03-17T00:43:35.763Z.md",
+      "contentHash": "b466bd9f3dcec977b30ce530b15847a68117bba39dd2b305bb5a250acd384cf6",
+      "sourceUrl": "https://truman.gitbook.io/the-truman-platform/",
+      "canonicalSourceUrl": "https://truman.gitbook.io/the-truman-platform",
+      "capturedAt": "2025-03-17T00:43:35.763Z",
+      "crawlRunId": "03399a15e6141f271a62369a505db49e4311072cb3a4b28aaeff81092d1e5730",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 19,
+      "successfulPages": 19,
+      "structure": [
+        {
+          "type": "The Truman Platform | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/"
+        },
+        {
+          "type": "Demo | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/demo"
+        },
+        {
+          "type": "Installing Truman | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/setting-up-truman/installing-truman"
+        },
+        {
+          "type": "Initial Experimental Design | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/getting-started/initial-experimental-design"
+        },
+        {
+          "type": "Defining your Simulation | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/setting-up-truman/defining-your-simulation"
+        },
+        {
+          "type": "Exporting Study Data | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/getting-started/exporting-study-data"
+        },
+        {
+          "type": "Developing your Simulation | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/getting-started/developing-your-simulation"
+        },
+        {
+          "type": "Best practices for simulation building | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/setting-up-truman/defining-your-simulation/best-practices-for-simulation-building"
+        },
+        {
+          "type": "People | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/people"
+        },
+        {
+          "type": "Frequently Asked Questions | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/setting-up-truman/defining-your-simulation/frequently-asked-questions"
+        },
+        {
+          "type": "Citation and Papers | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/getting-started/citation-and-papers"
+        },
+        {
+          "type": "Launching Your Study | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/getting-started/launching-your-study"
+        },
+        {
+          "type": "Contact us | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/contact-us"
+        },
+        {
+          "type": "Basic simulation components | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/setting-up-truman/defining-your-simulation/basic-simulation-components"
+        },
+        {
+          "type": "Setting up Truman locally | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/setting-up-truman/installing-truman/setting-up-truman-locally"
+        },
+        {
+          "type": "Installing the prerequisites | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/setting-up-truman/installing-truman/installing-the-prerequisites"
+        },
+        {
+          "type": "Simulation components | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/setting-up-truman/defining-your-simulation/simulation-components"
+        },
+        {
+          "type": "File Directory | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/setting-up-truman/file-directory"
+        },
+        {
+          "type": "Deploying Truman Online | The Truman Platform",
+          "url": "https://truman.gitbook.io/the-truman-platform/setting-up-truman/deploying-truman-online"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c957d2bde75b2168c9772b5eb8e8c5d0a6c0d2821ac4c71ba8d427e29145ba0b"
 }

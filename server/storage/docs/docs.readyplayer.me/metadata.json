@@ -84,5 +84,127 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.readyplayer.me/ready-player-me/",
+      "canonicalSeedUrl": "https://docs.readyplayer.me/ready-player-me",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-17T06:36:32.184Z",
+      "completedAt": "2026-01-17T06:36:32.184Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.readyplayer.me/ready-player-me/",
+          "canonicalUrl": "https://docs.readyplayer.me/ready-player-me",
+          "status": "valid"
+        }
+      ],
+      "id": "a069d551712101c5404118de301034e08581e96f161eec50935156e7257be72c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c0af6ac66fb4a2c802082f5dff6b29dd598b10ff4656dcc87a0e7e5ea94fa5c7",
+      "filename": "documentation_2026-01-17T06:36:32.184Z.md",
+      "contentHash": "94ebc83fa5cf39f4162aea7be7b064058ee3ed71cd19f52ccf260be2fc09ce56",
+      "sourceUrl": "https://docs.readyplayer.me/ready-player-me/",
+      "canonicalSourceUrl": "https://docs.readyplayer.me/ready-player-me",
+      "capturedAt": "2026-01-17T06:36:32.184Z",
+      "crawlRunId": "a069d551712101c5404118de301034e08581e96f161eec50935156e7257be72c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "Welcome | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/"
+        },
+        {
+          "type": "How Ready Player Me works | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/what-is-ready-player-me"
+        },
+        {
+          "type": "Overview | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/integration-guides/overview"
+        },
+        {
+          "type": "FAQ | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/faq"
+        },
+        {
+          "type": "WebView Avatar Creator | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/integration-guides/unity/avatar-creator/webview-avatar-creator"
+        },
+        {
+          "type": "Unity | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/integration-guides/unity"
+        },
+        {
+          "type": "Avatar Creator Integration | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/integration-guides/unity/avatar-creator"
+        },
+        {
+          "type": "Elements | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/integration-guides/unity/avatar-creator/build-your-own-avatar-creator/elements"
+        },
+        {
+          "type": "User Management | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/integration-guides/unity/avatar-creator/build-your-own-avatar-creator/user-management"
+        },
+        {
+          "type": "Avatar Creator for WebGL | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/integration-guides/unity/avatar-creator/webview-avatar-creator/avatar-creator-for-webgl"
+        },
+        {
+          "type": "Avatar Loader Window | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/integration-guides/unity/avatar-loader-window"
+        },
+        {
+          "type": "Build your own Avatar Creator | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/integration-guides/unity/avatar-creator/build-your-own-avatar-creator"
+        },
+        {
+          "type": "Setup Multiplayer | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/integration-guides/unity/setup-multiplayer"
+        },
+        {
+          "type": "Ready Player Me Animation Library | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/integration-guides/unity/animations/ready-player-me-animation-library"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.readyplayer.me/cdn-cgi/l/email-protection"
+        },
+        {
+          "type": "Changelog | Ready Player Me",
+          "url": "https://docs.readyplayer.me/ready-player-me/api-reference/rest-api/changelog"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c0af6ac66fb4a2c802082f5dff6b29dd598b10ff4656dcc87a0e7e5ea94fa5c7"
 }

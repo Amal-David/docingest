@@ -156,5 +156,199 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.valoraio.com",
+      "canonicalSeedUrl": "https://docs.valoraio.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-02T08:44:02.060Z",
+      "completedAt": "2025-10-02T08:44:02.060Z",
+      "providerTotals": {
+        "discovered": 34,
+        "returned": 34,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.valoraio.com",
+          "canonicalUrl": "https://docs.valoraio.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "a6790de3b5738adbe0b89743ea415a1087a4f0f4e2cc06c186cdae4961ddb557",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "bc9156705a51253673e8f35aac1d1331bea71e873bcf603f79631fdb34e07fd1",
+      "filename": "documentation_2025-10-02T08:44:02.060Z.md",
+      "contentHash": "9275a9f3764d59679d829bc462741bc2f1c1a7a87e368b5dc6e37127863ae483",
+      "sourceUrl": "https://docs.valoraio.com",
+      "canonicalSourceUrl": "https://docs.valoraio.com/",
+      "capturedAt": "2025-10-02T08:44:02.060Z",
+      "crawlRunId": "a6790de3b5738adbe0b89743ea415a1087a4f0f4e2cc06c186cdae4961ddb557",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 34,
+      "successfulPages": 34,
+      "structure": [
+        {
+          "type": "Welcome to Valor 2.0 | Valor 2.0",
+          "url": "https://docs.valoraio.com"
+        },
+        {
+          "type": "Task Features | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/task-management/untitled"
+        },
+        {
+          "type": "Creating Task Group | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/task-management/creating-task-group"
+        },
+        {
+          "type": "Windows Installation | Valor 2.0",
+          "url": "https://docs.valoraio.com/installation/windows-installation"
+        },
+        {
+          "type": "Task Management | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/task-management"
+        },
+        {
+          "type": "Activating Valor | Valor 2.0",
+          "url": "https://docs.valoraio.com/getting-started/activating-valor"
+        },
+        {
+          "type": "Creating Tasks | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/task-management/untitled-2"
+        },
+        {
+          "type": "Mac Installation | Valor 2.0",
+          "url": "https://docs.valoraio.com/installation/mac-installation"
+        },
+        {
+          "type": "Creating Tasks (Releases) | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/task-management/untitled-1"
+        },
+        {
+          "type": "Profile Management | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/profile-management"
+        },
+        {
+          "type": "Import/Export Profiles | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/profile-management/untitled"
+        },
+        {
+          "type": "Managing Profiles | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/profile-management/untitled-1"
+        },
+        {
+          "type": "Import/Export Profile Groups | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/profile-management/import-export-profile-groups"
+        },
+        {
+          "type": "Create Profiles | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/profile-management/untitled-2"
+        },
+        {
+          "type": "Managing Proxies | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/proxy-management/managing-proxies"
+        },
+        {
+          "type": "Proxy Management | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/proxy-management"
+        },
+        {
+          "type": "Testing Proxies | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/proxy-management/testing-proxies"
+        },
+        {
+          "type": "Footsites Monitor | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/misc/footsites-monitor"
+        },
+        {
+          "type": "Shopify Monitor | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/misc/shopify-monitor"
+        },
+        {
+          "type": "Settings | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/settings"
+        },
+        {
+          "type": "Gift Cards | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/misc/gift-cards"
+        },
+        {
+          "type": "Supported Sites | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/supported-sites"
+        },
+        {
+          "type": "Nike Monitor | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/misc/nike-monitor"
+        },
+        {
+          "type": "Utilities | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/utilities"
+        },
+        {
+          "type": "Footsites | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/supported-sites/footsites"
+        },
+        {
+          "type": "Nike | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/supported-sites/nike"
+        },
+        {
+          "type": "Finishline/JD Sports US | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/supported-sites/finishline-jd-sports-us"
+        },
+        {
+          "type": "Shopify | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/supported-sites/shopify"
+        },
+        {
+          "type": "Yeezy Supply | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/supported-sites/yeezy-supply"
+        },
+        {
+          "type": "Captcha | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/captcha-harvester"
+        },
+        {
+          "type": "Misc | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/misc"
+        },
+        {
+          "type": "3rd Party Captcha Providers | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/captcha-harvester/aycd"
+        },
+        {
+          "type": "Setting Up Harvesters | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/captcha-harvester/setting-up"
+        },
+        {
+          "type": "Keyword Groups | Valor 2.0",
+          "url": "https://docs.valoraio.com/setting-up-valor/misc/keyword-groups"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "bc9156705a51253673e8f35aac1d1331bea71e873bcf603f79631fdb34e07fd1"
 }

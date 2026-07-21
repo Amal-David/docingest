@@ -52,5 +52,95 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://sparrowwallet.com/docs/",
+      "canonicalSeedUrl": "https://sparrowwallet.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-27T16:34:24.552Z",
+      "completedAt": "2026-04-27T16:34:24.552Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://sparrowwallet.com/docs/",
+          "canonicalUrl": "https://sparrowwallet.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "6d7611093000361500c3bd52b0f4ef7187a94095fb657475607589806dcc9973",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f4644885025a2aa1d387f17f4d7cba436842f00f86132109f0754e2eb4c3c498",
+      "filename": "documentation_2026-04-27T16:34:24.552Z.md",
+      "contentHash": "efd5493f64b72181758a954ce72598127dbed7a52b8a031148a3721eab0aa0b0",
+      "sourceUrl": "https://sparrowwallet.com/docs/",
+      "canonicalSourceUrl": "https://sparrowwallet.com/docs",
+      "capturedAt": "2026-04-27T16:34:24.552Z",
+      "crawlRunId": "6d7611093000361500c3bd52b0f4ef7187a94095fb657475607589806dcc9973",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Documentation - Sparrow Wallet",
+          "url": "https://sparrowwallet.com/docs/"
+        },
+        {
+          "type": "Best Practices - Sparrow Wallet",
+          "url": "https://sparrowwallet.com/docs/best-practices.html"
+        },
+        {
+          "type": "Connect to Bitcoin Core - Sparrow Wallet",
+          "url": "https://sparrowwallet.com/docs/connect-node.html"
+        },
+        {
+          "type": "Setup a Coldcard wallet - Sparrow Wallet",
+          "url": "https://sparrowwallet.com/docs/coldcard-wallet.html"
+        },
+        {
+          "type": "Server Performance - Sparrow Wallet",
+          "url": "https://sparrowwallet.com/docs/server-performance.html"
+        },
+        {
+          "type": "Quick Start Guide - Sparrow Wallet",
+          "url": "https://sparrowwallet.com/docs/quick-start.html"
+        },
+        {
+          "type": "Spending Privately - Sparrow Wallet",
+          "url": "https://sparrowwallet.com/docs/spending-privately.html"
+        },
+        {
+          "type": "Frequently Asked Questions - Sparrow Wallet",
+          "url": "https://sparrowwallet.com/docs/faq.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f4644885025a2aa1d387f17f4d7cba436842f00f86132109f0754e2eb4c3c498"
 }

@@ -240,5 +240,283 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://drpc.org/docs/base-api",
+      "canonicalSeedUrl": "https://drpc.org/docs/base-api",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-11T12:50:59.715Z",
+      "completedAt": "2026-03-11T12:50:59.715Z",
+      "providerTotals": {
+        "discovered": 55,
+        "returned": 55,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://drpc.org/docs/base-api",
+          "canonicalUrl": "https://drpc.org/docs/base-api",
+          "status": "valid"
+        }
+      ],
+      "id": "28dc33b7cba45e41bc3afa025bccb196e0abe3b3542133b8c3c206fddb73db5f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9d5c23bab815ac111d5f344dca08accc4628f303c23cd0e466907d41e866984d",
+      "filename": "documentation_2026-03-11T12:50:59.715Z.md",
+      "contentHash": "5a94d4d41a3b742973d580cabfc55221ac66fac0c1b4f2b2ba3d1b07fae7033e",
+      "sourceUrl": "https://drpc.org/docs/base-api",
+      "canonicalSourceUrl": "https://drpc.org/docs/base-api",
+      "capturedAt": "2026-03-11T12:50:59.715Z",
+      "crawlRunId": "28dc33b7cba45e41bc3afa025bccb196e0abe3b3542133b8c3c206fddb73db5f",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 55,
+      "successfulPages": 55,
+      "structure": [
+        {
+          "type": "Base API Overview | dRPC",
+          "url": "https://drpc.org/docs/base-api"
+        },
+        {
+          "type": "Base accounts info | dRPC",
+          "url": "https://drpc.org/docs/base-api/accountinfo"
+        },
+        {
+          "type": "eth_getBalance - Base",
+          "url": "https://drpc.org/docs/base-api/accountinfo/eth_getBalance"
+        },
+        {
+          "type": "eth_getCode - Base",
+          "url": "https://drpc.org/docs/base-api/accountinfo/eth_getCode"
+        },
+        {
+          "type": "Base blocks info | dRPC",
+          "url": "https://drpc.org/docs/base-api/blocksinfo"
+        },
+        {
+          "type": "eth_blockNumber - Base",
+          "url": "https://drpc.org/docs/base-api/blocksinfo/eth_blockNumber"
+        },
+        {
+          "type": "eth_getStorageAt - Base",
+          "url": "https://drpc.org/docs/base-api/accountinfo/eth_getStorageAt"
+        },
+        {
+          "type": "eth_getBlockByHash#full - Base",
+          "url": "https://drpc.org/docs/base-api/blocksinfo/eth_getBlockByHashfull"
+        },
+        {
+          "type": "eth_getBlockByNumber - Base",
+          "url": "https://drpc.org/docs/base-api/blocksinfo/eth_getBlockByNumber"
+        },
+        {
+          "type": "eth_getBlockByHash - Base",
+          "url": "https://drpc.org/docs/base-api/blocksinfo/eth_getBlockByHash"
+        },
+        {
+          "type": "eth_getBlockByNumber#full - Base",
+          "url": "https://drpc.org/docs/base-api/blocksinfo/eth_getBlockByNumberfull"
+        },
+        {
+          "type": "eth_getBlockTransactionCountByNumber - Base",
+          "url": "https://drpc.org/docs/base-api/blocksinfo/eth_getBlockTransactionCountByNumber"
+        },
+        {
+          "type": "net_peerCount - Base",
+          "url": "https://drpc.org/docs/base-api/chaininfo/net_peerCount"
+        },
+        {
+          "type": "Base debug and trace info | dRPC",
+          "url": "https://drpc.org/docs/base-api/debugandtrace"
+        },
+        {
+          "type": "Ethereum and Base: Differences",
+          "url": "https://drpc.org/docs/base-api/ethereumbasedifference"
+        },
+        {
+          "type": "net_listening - Base",
+          "url": "https://drpc.org/docs/base-api/chaininfo/net_listening"
+        },
+        {
+          "type": "eth_newBlockFilter - Base",
+          "url": "https://drpc.org/docs/base-api/blocksinfo/eth_newBlockFilter"
+        },
+        {
+          "type": "Base transactions info | dRPC",
+          "url": "https://drpc.org/docs/base-api/eventlogs"
+        },
+        {
+          "type": "Chain chain info | dRPC",
+          "url": "https://drpc.org/docs/base-api/chaininfo"
+        },
+        {
+          "type": "eth_chainId - Base",
+          "url": "https://drpc.org/docs/base-api/chaininfo/eth_chainId"
+        },
+        {
+          "type": "Base gas estimation info | dRPC",
+          "url": "https://drpc.org/docs/base-api/gasestimation"
+        },
+        {
+          "type": "Base executing transactions info | dRPC",
+          "url": "https://drpc.org/docs/base-api/executingtransactions"
+        },
+        {
+          "type": "eth_call - Base",
+          "url": "https://drpc.org/docs/base-api/executingtransactions/eth_call"
+        },
+        {
+          "type": "eth_getBlockTransactionCountByHash - Base",
+          "url": "https://drpc.org/docs/base-api/blocksinfo/eth_getBlockTransactionCountByHash"
+        },
+        {
+          "type": "net_version - Base",
+          "url": "https://drpc.org/docs/base-api/chaininfo/net_version"
+        },
+        {
+          "type": "debug_traceBlockByNumber - Base",
+          "url": "https://drpc.org/docs/base-api/debugandtrace/debug_traceBlockByNumber"
+        },
+        {
+          "type": "eth_newFilter - Base",
+          "url": "https://drpc.org/docs/base-api/eventlogs/eth_newFilter"
+        },
+        {
+          "type": "eth_syncing - Base",
+          "url": "https://drpc.org/docs/base-api/chaininfo/eth_syncing"
+        },
+        {
+          "type": "debug_traceBlockByHash - Base",
+          "url": "https://drpc.org/docs/base-api/debugandtrace/debug_traceBlockByHash"
+        },
+        {
+          "type": "debug_traceCall - Base",
+          "url": "https://drpc.org/docs/base-api/debugandtrace/debug_traceCall"
+        },
+        {
+          "type": "eth_getFilterLogs - Base",
+          "url": "https://drpc.org/docs/base-api/eventlogs/eth_getFilterLogs"
+        },
+        {
+          "type": "eth_uninstallFilter - Base",
+          "url": "https://drpc.org/docs/base-api/eventlogs/eth_uninstallFilter"
+        },
+        {
+          "type": "eth_getLogs - Base",
+          "url": "https://drpc.org/docs/base-api/eventlogs/eth_getLogs"
+        },
+        {
+          "type": "eth_sendRawTransaction - Base",
+          "url": "https://drpc.org/docs/base-api/executingtransactions/eth_sendRawTransaction"
+        },
+        {
+          "type": "debug_traceTransaction - Base",
+          "url": "https://drpc.org/docs/base-api/debugandtrace/debug_traceTransaction"
+        },
+        {
+          "type": "eth_getFilterChanges - Base",
+          "url": "https://drpc.org/docs/base-api/eventlogs/eth_getFilterChanges"
+        },
+        {
+          "type": "eth_gasPrice - Base",
+          "url": "https://drpc.org/docs/base-api/gasestimation/eth_gasPrice"
+        },
+        {
+          "type": "Base getting unclesn info | dRPC",
+          "url": "https://drpc.org/docs/base-api/gettinguncles"
+        },
+        {
+          "type": "Base transactions info | dRPC",
+          "url": "https://drpc.org/docs/base-api/transactionsinfo"
+        },
+        {
+          "type": "eth_getUncleCountByBlockHash - Base",
+          "url": "https://drpc.org/docs/base-api/gettinguncles/eth_getUncleCountByBlockHash"
+        },
+        {
+          "type": "Base subscriptions info | dRPC",
+          "url": "https://drpc.org/docs/base-api/subscriptions"
+        },
+        {
+          "type": "eth_subscribe - Base",
+          "url": "https://drpc.org/docs/base-api/subscriptions/eth_subscribe"
+        },
+        {
+          "type": "eth_getTransactionByBlockNumberAndIndex - Base",
+          "url": "https://drpc.org/docs/base-api/transactionsinfo/eth_getTransactionByBlockNumberAndIndex"
+        },
+        {
+          "type": "eth_unsubscribe - Base",
+          "url": "https://drpc.org/docs/base-api/subscriptions/eth_unsubscribe"
+        },
+        {
+          "type": "eth_getUncleCountByBlockNumber - Base",
+          "url": "https://drpc.org/docs/base-api/gettinguncles/eth_getUncleCountByBlockNumber"
+        },
+        {
+          "type": "eth_getTransactionByBlockHashAndIndex - Base",
+          "url": "https://drpc.org/docs/base-api/transactionsinfo/eth_getTransactionByBlockHashAndIndex"
+        },
+        {
+          "type": "eth_getTransactionByHash - Base",
+          "url": "https://drpc.org/docs/base-api/transactionsinfo/eth_getTransactionByHash"
+        },
+        {
+          "type": "Base web3 info | dRPC",
+          "url": "https://drpc.org/docs/base-api/web3"
+        },
+        {
+          "type": "eth_newPendingTransactionFilter - Base",
+          "url": "https://drpc.org/docs/base-api/transactionsinfo/eth_newPendingTransactionFilter"
+        },
+        {
+          "type": "eth_maxPriorityFeePerGas - Base",
+          "url": "https://drpc.org/docs/base-api/gasestimation/eth_maxPriorityFeePerGas"
+        },
+        {
+          "type": "eth_getEstimateGas - Base",
+          "url": "https://drpc.org/docs/base-api/gasestimation/eth_estimateGas"
+        },
+        {
+          "type": "eth_getTransactionReceipt - Base",
+          "url": "https://drpc.org/docs/base-api/transactionsinfo/eth_getTransactionReceipt"
+        },
+        {
+          "type": "web3_sha3 - Base",
+          "url": "https://drpc.org/docs/base-api/web3/web3_sha3"
+        },
+        {
+          "type": "eth_getTransactionCount - Base",
+          "url": "https://drpc.org/docs/base-api/transactionsinfo/eth_getTransactionCount"
+        },
+        {
+          "type": "web3_clientVersion - Base",
+          "url": "https://drpc.org/docs/base-api/web3/web3_clientVersion"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9d5c23bab815ac111d5f344dca08accc4628f303c23cd0e466907d41e866984d"
 }

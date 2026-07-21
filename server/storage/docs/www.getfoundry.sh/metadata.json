@@ -36,5 +36,79 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.getfoundry.sh/anvil",
+      "canonicalSeedUrl": "https://www.getfoundry.sh/anvil",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-12T03:15:45.665Z",
+      "completedAt": "2026-02-12T03:15:45.665Z",
+      "providerTotals": {
+        "discovered": 4,
+        "returned": 4,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.getfoundry.sh/anvil",
+          "canonicalUrl": "https://www.getfoundry.sh/anvil",
+          "status": "valid"
+        }
+      ],
+      "id": "adc2f0ca4390c3aa667a35521a0affc1f46ea50169c0963f55764820d620cf48",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b435d554cc8be25d5824510bcf16717fb3671a3b3d6477fbe5309893cd96d3ab",
+      "filename": "documentation_2026-02-12T03:15:45.665Z.md",
+      "contentHash": "285fe01c115cce53f1e4b19a2f61b8009f153bc32d197a9259af0e975c64d9e2",
+      "sourceUrl": "https://www.getfoundry.sh/anvil",
+      "canonicalSourceUrl": "https://www.getfoundry.sh/anvil",
+      "capturedAt": "2026-02-12T03:15:45.665Z",
+      "crawlRunId": "adc2f0ca4390c3aa667a35521a0affc1f46ea50169c0963f55764820d620cf48",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "Anvil – foundry - Ethereum Development Framework",
+          "url": "https://www.getfoundry.sh/anvil"
+        },
+        {
+          "type": "Forking – foundry - Ethereum Development Framework",
+          "url": "https://www.getfoundry.sh/anvil/forking"
+        },
+        {
+          "type": "State management – foundry - Ethereum Development Framework",
+          "url": "https://www.getfoundry.sh/anvil/state-management"
+        },
+        {
+          "type": "Custom methods – foundry - Ethereum Development Framework",
+          "url": "https://www.getfoundry.sh/anvil/custom-methods"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b435d554cc8be25d5824510bcf16717fb3671a3b3d6477fbe5309893cd96d3ab"
 }

@@ -124,5 +124,167 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.indigoprotocol.io/guides",
+      "canonicalSeedUrl": "https://docs.indigoprotocol.io/guides",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-14T18:07:04.674Z",
+      "completedAt": "2025-12-14T18:07:04.674Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.indigoprotocol.io/guides",
+          "canonicalUrl": "https://docs.indigoprotocol.io/guides",
+          "status": "valid"
+        }
+      ],
+      "id": "d4e430133bf51fa30d62425011e00e7a7819944a4109390658f1c5a93d1214ca",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "237fb412772f2e02132848a151c46f802ff2e805638ec2a951a6488beeecd848",
+      "filename": "documentation_2025-12-14T18:07:04.674Z.md",
+      "contentHash": "5b916e48ceec6df8d97a39b1418246fa04d0c395961233354a520e328d5c75f2",
+      "sourceUrl": "https://docs.indigoprotocol.io/guides",
+      "canonicalSourceUrl": "https://docs.indigoprotocol.io/guides",
+      "capturedAt": "2025-12-14T18:07:04.674Z",
+      "crawlRunId": "d4e430133bf51fa30d62425011e00e7a7819944a4109390658f1c5a93d1214ca",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "Guides | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/guides"
+        },
+        {
+          "type": "Resources | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/resources"
+        },
+        {
+          "type": "Protocol Statistics | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/resources/protocol-statistics"
+        },
+        {
+          "type": "Audit | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/resources/audit"
+        },
+        {
+          "type": "Socials, Interviews & Others | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/resources/socials-interviews-and-others"
+        },
+        {
+          "type": "Month in Review | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/resources/protocol-statistics/month-in-review"
+        },
+        {
+          "type": "Stability Pools | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/guides/stability-pools"
+        },
+        {
+          "type": "🛠️ Indigo Protocol V2 | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/indigo-protocol-v2"
+        },
+        {
+          "type": "Indigo Basics | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/"
+        },
+        {
+          "type": "🏦󠀥 Interest | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/interest"
+        },
+        {
+          "type": "CDP | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/guides/cdp"
+        },
+        {
+          "type": "💧CDP Liquid Staking | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/cdp-liquid-staking"
+        },
+        {
+          "type": "🚨 Liquidations | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/liquidations"
+        },
+        {
+          "type": "💻 Using Indigo | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/using-indigo"
+        },
+        {
+          "type": "💱 Redemptions | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/redemptions"
+        },
+        {
+          "type": "📊 Tokenomics | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/tokenomics"
+        },
+        {
+          "type": "🌟Indigo Protocol Brief Overview | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/about-indigo"
+        },
+        {
+          "type": "Wallets | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/wallets"
+        },
+        {
+          "type": "💲 iAssets | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/iassets"
+        },
+        {
+          "type": "🛡️ Collateralized Debt Positions (CDPs) | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/collateral-debt-position-cdp"
+        },
+        {
+          "type": "🏊 Stability Pools | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/stability-pools-and-liquidations"
+        },
+        {
+          "type": "🗳️ How To Vote | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/governance"
+        },
+        {
+          "type": "🌱 Governance & INDY Staking | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/governance-and-indy-staking"
+        },
+        {
+          "type": "Public Testnet | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/public-testnet"
+        },
+        {
+          "type": "APR / APY calculations | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/resources/protocol-statistics/apr-apy-calculations"
+        },
+        {
+          "type": "AQB & Minimum Quorum | Indigo Documentation",
+          "url": "https://docs.indigoprotocol.io/readme/governance-and-indy-staking/aqb-and-minimum-quorum"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "237fb412772f2e02132848a151c46f802ff2e805638ec2a951a6488beeecd848"
 }

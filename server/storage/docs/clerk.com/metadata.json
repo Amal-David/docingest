@@ -80,5 +80,123 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://clerk.com/docs",
+      "canonicalSeedUrl": "https://clerk.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-21T07:34:54.812Z",
+      "completedAt": "2025-02-21T07:34:54.812Z",
+      "providerTotals": {
+        "discovered": 15,
+        "returned": 15,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://clerk.com/docs",
+          "canonicalUrl": "https://clerk.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "a755337eed1315b2e6583031b393a2ca893ed97d354b63aa8eb7c91ddb4873e6",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fa541111c5dea3735d8b74afa9d9941f1942caaea03b6bad469d7345ce8f3d34",
+      "filename": "documentation_2025-02-21T07:34:54.812Z.md",
+      "contentHash": "be85d695d9d541fd640e7b765889d97aeb6cb2561cecf2a9d5125c50d3896f4a",
+      "sourceUrl": "https://clerk.com/docs",
+      "canonicalSourceUrl": "https://clerk.com/docs",
+      "capturedAt": "2025-02-21T07:34:54.812Z",
+      "crawlRunId": "a755337eed1315b2e6583031b393a2ca893ed97d354b63aa8eb7c91ddb4873e6",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 15,
+      "successfulPages": 15,
+      "structure": [
+        {
+          "type": "Welcome to Clerk Docs",
+          "url": "https://clerk.com/docs"
+        },
+        {
+          "type": "Next.js: Set up your Clerk account",
+          "url": "https://clerk.com/docs/quickstarts/setup-clerk"
+        },
+        {
+          "type": "Next.js: Route Handlers",
+          "url": "https://clerk.com/docs/references/nextjs/route-handlers"
+        },
+        {
+          "type": "Next.js: Next.js Quickstart (App Router)",
+          "url": "https://clerk.com/docs/quickstarts/nextjs"
+        },
+        {
+          "type": "Next.js: Clerk Next.js SDK",
+          "url": "https://clerk.com/docs/references/nextjs/overview"
+        },
+        {
+          "type": "Next.js: getAuth()",
+          "url": "https://clerk.com/docs/references/nextjs/get-auth"
+        },
+        {
+          "type": "Next.js: buildClerkProps",
+          "url": "https://clerk.com/docs/references/nextjs/build-clerk-props"
+        },
+        {
+          "type": "Next.js: clerkMiddleware() | Next.js",
+          "url": "https://clerk.com/docs/references/nextjs/clerk-middleware"
+        },
+        {
+          "type": "Next.js: Server Actions",
+          "url": "https://clerk.com/docs/references/nextjs/server-actions"
+        },
+        {
+          "type": "Next.js: currentUser()",
+          "url": "https://clerk.com/docs/references/nextjs/current-user"
+        },
+        {
+          "type": "Next.js: auth()",
+          "url": "https://clerk.com/docs/references/nextjs/auth"
+        },
+        {
+          "type": "Next.js: Next.js Quickstart (Pages Router)",
+          "url": "https://clerk.com/docs/quickstarts/nextjs-pages-router"
+        },
+        {
+          "type": "Next.js: Read session and user data in your Next.js app with Clerk",
+          "url": "https://clerk.com/docs/references/nextjs/read-session-data"
+        },
+        {
+          "type": "Next.js: Build your own sign-in-or-up page for your Next.js app with Clerk",
+          "url": "https://clerk.com/docs/references/nextjs/custom-sign-in-or-up-page"
+        },
+        {
+          "type": "Next.js: Build your own sign-up page for your Next.js app with Clerk",
+          "url": "https://clerk.com/docs/references/nextjs/custom-sign-up-page"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fa541111c5dea3735d8b74afa9d9941f1942caaea03b6bad469d7345ce8f3d34"
 }

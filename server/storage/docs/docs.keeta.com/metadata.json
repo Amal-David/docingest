@@ -273,5 +273,307 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.keeta.com/",
+      "canonicalSeedUrl": "https://docs.keeta.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-18T12:03:45.104Z",
+      "completedAt": "2026-01-18T12:03:45.104Z",
+      "providerTotals": {
+        "discovered": 61,
+        "returned": 61,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.keeta.com/",
+          "canonicalUrl": "https://docs.keeta.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "58ed105eb927265b0d8db4874c5b1ddec2bdbfd420148c5c2e541d314b8305fe",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "44b02c57ceaba5c6df1c4ee08f2767071c09e3f6c6bce8ae1ac8bd5f34106af9",
+      "filename": "documentation_2026-01-18T12:03:45.104Z.md",
+      "contentHash": "7addbf0e9959987ca730fce493bd4d4fe02810dbc0bdae094ca6f7a1739b6ecb",
+      "sourceUrl": "https://docs.keeta.com/",
+      "canonicalSourceUrl": "https://docs.keeta.com/",
+      "capturedAt": "2026-01-18T12:03:45.104Z",
+      "crawlRunId": "58ed105eb927265b0d8db4874c5b1ddec2bdbfd420148c5c2e541d314b8305fe",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 61,
+      "successfulPages": 61,
+      "structure": [
+        {
+          "type": "Introduction | Keeta Network",
+          "url": "https://docs.keeta.com/"
+        },
+        {
+          "type": "Start Developing | Keeta Network",
+          "url": "https://docs.keeta.com/introduction/start-developing"
+        },
+        {
+          "type": "Create Your First Account | Keeta Network",
+          "url": "https://docs.keeta.com/introduction/create-your-first-account"
+        },
+        {
+          "type": "Consensus | Keeta Network",
+          "url": "https://docs.keeta.com/architecture/consensus"
+        },
+        {
+          "type": "Data Structure | Keeta Network",
+          "url": "https://docs.keeta.com/architecture/data-structure"
+        },
+        {
+          "type": "Create a Block | Keeta Network",
+          "url": "https://docs.keeta.com/components/blocks/create-a-block"
+        },
+        {
+          "type": "Send a Transaction | Keeta Network",
+          "url": "https://docs.keeta.com/introduction/send-a-transaction"
+        },
+        {
+          "type": "Vote Stapling | Keeta Network",
+          "url": "https://docs.keeta.com/architecture/consensus/vote-stapling"
+        },
+        {
+          "type": "Voting Power | Keeta Network",
+          "url": "https://docs.keeta.com/architecture/consensus/voting-power"
+        },
+        {
+          "type": "Votes | Keeta Network",
+          "url": "https://docs.keeta.com/architecture/consensus/votes"
+        },
+        {
+          "type": "Blocks | Keeta Network",
+          "url": "https://docs.keeta.com/components/blocks"
+        },
+        {
+          "type": "Ledger | Keeta Network",
+          "url": "https://docs.keeta.com/components/ledger"
+        },
+        {
+          "type": "Get Ledger History | Keeta Network",
+          "url": "https://docs.keeta.com/components/ledger/get-ledger-history"
+        },
+        {
+          "type": "Ledger Pruning | Keeta Network",
+          "url": "https://docs.keeta.com/components/nodes/ledger-pruning"
+        },
+        {
+          "type": "Nodes | Keeta Network",
+          "url": "https://docs.keeta.com/components/nodes"
+        },
+        {
+          "type": "Send | Keeta Network",
+          "url": "https://docs.keeta.com/components/blocks/operations/send"
+        },
+        {
+          "type": "Data Integrity | Keeta Network",
+          "url": "https://docs.keeta.com/security/data-integrity"
+        },
+        {
+          "type": "Accounts | Keeta Network",
+          "url": "https://docs.keeta.com/components/accounts"
+        },
+        {
+          "type": "Storing Key Pairs | Keeta Network",
+          "url": "https://docs.keeta.com/components/key-pairs/storing-key-pairs"
+        },
+        {
+          "type": "Post Quantum Readiness | Keeta Network",
+          "url": "https://docs.keeta.com/security/post-quantum-readiness"
+        },
+        {
+          "type": "Native Tokenization | Keeta Network",
+          "url": "https://docs.keeta.com/features/native-tokenization"
+        },
+        {
+          "type": "Key Pairs | Keeta Network",
+          "url": "https://docs.keeta.com/components/key-pairs"
+        },
+        {
+          "type": "Protection From Common Attacks | Keeta Network",
+          "url": "https://docs.keeta.com/security/protection-from-common-attacks"
+        },
+        {
+          "type": "Separating Nodes from Hardware | Keeta Network",
+          "url": "https://docs.keeta.com/scalability/separating-nodes-from-hardware"
+        },
+        {
+          "type": "Digital Signatures | Keeta Network",
+          "url": "https://docs.keeta.com/security/digital-signatures"
+        },
+        {
+          "type": "Storage Accounts | Keeta Network",
+          "url": "https://docs.keeta.com/components/accounts/storage-accounts"
+        },
+        {
+          "type": "Benchmarks and Performance Metrics | Keeta Network",
+          "url": "https://docs.keeta.com/scalability/benchmarks-and-performance-metrics"
+        },
+        {
+          "type": "Certificates | Keeta Network",
+          "url": "https://docs.keeta.com/components/certificates"
+        },
+        {
+          "type": "Get Certificates | Keeta Network",
+          "url": "https://docs.keeta.com/components/certificates/get-certificates"
+        },
+        {
+          "type": "Identity Profiles | Keeta Network",
+          "url": "https://docs.keeta.com/features/identity-profiles"
+        },
+        {
+          "type": "Creating an Anchor | Keeta Network",
+          "url": "https://docs.keeta.com/features/anchors/creating-an-anchor"
+        },
+        {
+          "type": "Permissions | Keeta Network",
+          "url": "https://docs.keeta.com/components/accounts/permissions"
+        },
+        {
+          "type": "Eliminating Mempools | Keeta Network",
+          "url": "https://docs.keeta.com/scalability/eliminating-mempools"
+        },
+        {
+          "type": "Anchors | Keeta Network",
+          "url": "https://docs.keeta.com/features/anchors"
+        },
+        {
+          "type": "Operations | Keeta Network",
+          "url": "https://docs.keeta.com/components/blocks/operations"
+        },
+        {
+          "type": "Set Permissions | Keeta Network",
+          "url": "https://docs.keeta.com/features/native-tokenization/token-creation/set-permissions"
+        },
+        {
+          "type": "setInfo | Keeta Network",
+          "url": "https://docs.keeta.com/components/blocks/operations/setinfo"
+        },
+        {
+          "type": "Built-in Rules Engine | Keeta Network",
+          "url": "https://docs.keeta.com/features/native-tokenization/built-in-rules-engine"
+        },
+        {
+          "type": "updatePermissions | Keeta Network",
+          "url": "https://docs.keeta.com/components/blocks/operations/updatepermissions"
+        },
+        {
+          "type": "Keeta Network's Advantage | Keeta Network",
+          "url": "https://docs.keeta.com/industry-comparison/keeta-networks-advantage"
+        },
+        {
+          "type": "Receive | Keeta Network",
+          "url": "https://docs.keeta.com/components/blocks/operations/receive"
+        },
+        {
+          "type": "Public Network | Keeta Network",
+          "url": "https://docs.keeta.com/applications/public-network"
+        },
+        {
+          "type": "Tokenomics | Keeta Network",
+          "url": "https://docs.keeta.com/other-documentation/tokenomics"
+        },
+        {
+          "type": "Private Sub Network | Keeta Network",
+          "url": "https://docs.keeta.com/applications/private-sub-network"
+        },
+        {
+          "type": "modifyTokenBalance | Keeta Network",
+          "url": "https://docs.keeta.com/components/blocks/operations/modifytokenbalance"
+        },
+        {
+          "type": "Roadmap | Keeta Network",
+          "url": "https://docs.keeta.com/other-documentation/roadmap"
+        },
+        {
+          "type": "modifyTokenSupply | Keeta Network",
+          "url": "https://docs.keeta.com/components/blocks/operations/modifytokensupply"
+        },
+        {
+          "type": "Token Creation | Keeta Network",
+          "url": "https://docs.keeta.com/features/native-tokenization/token-creation"
+        },
+        {
+          "type": "Resolving the Blockchain Trilemma | Keeta Network",
+          "url": "https://docs.keeta.com/industry-comparison/resolving-the-blockchain-trilemma"
+        },
+        {
+          "type": "Official Links | Keeta Network",
+          "url": "https://docs.keeta.com/other-documentation/official-links"
+        },
+        {
+          "type": "Articles | Keeta Network",
+          "url": "https://docs.keeta.com/other-documentation/articles"
+        },
+        {
+          "type": "Utilizing Identity Profiles | Keeta Network",
+          "url": "https://docs.keeta.com/features/identity-profiles/utilizing-identity-profiles"
+        },
+        {
+          "type": "Burn Tokens | Keeta Network",
+          "url": "https://docs.keeta.com/features/native-tokenization/token-creation/burn-tokens"
+        },
+        {
+          "type": "Cryptographically Verifiable Identity Sharing with Keeta | Keeta Network",
+          "url": "https://docs.keeta.com/other-documentation/articles/cryptographically-verifiable-identity-sharing-with-keeta"
+        },
+        {
+          "type": "Mint Tokens | Keeta Network",
+          "url": "https://docs.keeta.com/features/native-tokenization/token-creation/mint-tokens"
+        },
+        {
+          "type": "Single-Token Storage Account | Keeta Network",
+          "url": "https://docs.keeta.com/components/accounts/storage-accounts/single-token-storage-account"
+        },
+        {
+          "type": "Deploying a Node | Keeta Network",
+          "url": "https://docs.keeta.com/guides/deploying-a-node"
+        },
+        {
+          "type": "Tokenizing Real-World Assets | Keeta Network",
+          "url": "https://docs.keeta.com/guides/tokenizing-real-world-assets"
+        },
+        {
+          "type": "Create a Storage Account | Keeta Network",
+          "url": "https://docs.keeta.com/components/accounts/storage-accounts/create-a-storage-account"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.keeta.com/cdn-cgi/l/email-protection"
+        },
+        {
+          "type": "generateIdentifier | Keeta Network",
+          "url": "https://docs.keeta.com/components/blocks/operations/generateidentifier"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "44b02c57ceaba5c6df1c4ee08f2767071c09e3f6c6bce8ae1ac8bd5f34106af9"
 }

@@ -144,5 +144,187 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.together.ai/docs/introduction",
+      "canonicalSeedUrl": "https://docs.together.ai/docs/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-24T04:26:17.985Z",
+      "completedAt": "2025-01-24T04:26:17.985Z",
+      "providerTotals": {
+        "discovered": 31,
+        "returned": 31,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.together.ai/docs/introduction",
+          "canonicalUrl": "https://docs.together.ai/docs/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "65034117494d17a6c70de58878d253e6e370922f3b7c2a7e9d65e3bcc4431f59",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "6d5c213e6f03cdd58c4a62a9a4e55ae2bfc5912ebb20ffa28c3c47665b7623d2",
+      "filename": "documentation_2025-01-24T04:26:17.985Z.md",
+      "contentHash": "eccaa0407d3c0c2185cc6fa8abeb25b4f71f736bacc574e102b3e3d1ce7b91f3",
+      "sourceUrl": "https://docs.together.ai/docs/introduction",
+      "canonicalSourceUrl": "https://docs.together.ai/docs/introduction",
+      "capturedAt": "2025-01-24T04:26:17.985Z",
+      "crawlRunId": "65034117494d17a6c70de58878d253e6e370922f3b7c2a7e9d65e3bcc4431f59",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 31,
+      "successfulPages": 31,
+      "structure": [
+        {
+          "type": "Introduction",
+          "url": "https://docs.together.ai/docs/introduction"
+        },
+        {
+          "type": "JSON Mode",
+          "url": "https://docs.together.ai/docs/json-mode"
+        },
+        {
+          "type": "Quickstart",
+          "url": "https://docs.together.ai/docs/quickstart"
+        },
+        {
+          "type": "Integrations",
+          "url": "https://docs.together.ai/docs/integrations"
+        },
+        {
+          "type": "OpenAI compatibility",
+          "url": "https://docs.together.ai/docs/openai-api-compatibility"
+        },
+        {
+          "type": "Function calling",
+          "url": "https://docs.together.ai/docs/function-calling"
+        },
+        {
+          "type": "Serverless models",
+          "url": "https://docs.together.ai/docs/serverless-models"
+        },
+        {
+          "type": "Quickstart: Flux Tools Models",
+          "url": "https://docs.together.ai/docs/quickstart-flux-tools-models"
+        },
+        {
+          "type": "Logprobs",
+          "url": "https://docs.together.ai/docs/logprobs"
+        },
+        {
+          "type": "Llama 3.1 Native FC",
+          "url": "https://docs.together.ai/docs/llama-3-function-calling"
+        },
+        {
+          "type": "Chat",
+          "url": "https://docs.together.ai/docs/chat-overview"
+        },
+        {
+          "type": "Serverless LoRA Inference",
+          "url": "https://docs.together.ai/docs/lora-inference"
+        },
+        {
+          "type": "Dedicated models",
+          "url": "https://docs.together.ai/docs/dedicated-models"
+        },
+        {
+          "type": "Images",
+          "url": "https://docs.together.ai/docs/images-overview"
+        },
+        {
+          "type": "Code/Language",
+          "url": "https://docs.together.ai/docs/language-overview"
+        },
+        {
+          "type": "Text-to-Speech",
+          "url": "https://docs.together.ai/docs/text-to-speech"
+        },
+        {
+          "type": "Quickstart: Retrieval Augmented Generation (RAG)",
+          "url": "https://docs.together.ai/docs/quickstart-retrieval-augmented-generation-rag"
+        },
+        {
+          "type": "Quickstart: Next.js",
+          "url": "https://docs.together.ai/docs/nextjs-chat-quickstart"
+        },
+        {
+          "type": "Quickstart: Using Vercel's AI SDK with Together AI",
+          "url": "https://docs.together.ai/docs/using-together-with-vercels-ai-sdk"
+        },
+        {
+          "type": "Error codes",
+          "url": "https://docs.together.ai/docs/error-codes"
+        },
+        {
+          "type": "Rate limits",
+          "url": "https://docs.together.ai/docs/rate-limits"
+        },
+        {
+          "type": "Deployment Options",
+          "url": "https://docs.together.ai/docs/deployment-options"
+        },
+        {
+          "type": "Together Mixture-Of-Agents (MoA)",
+          "url": "https://docs.together.ai/docs/mixture-of-agents"
+        },
+        {
+          "type": "Cluster user management",
+          "url": "https://docs.together.ai/docs/cluster-user-management"
+        },
+        {
+          "type": "RAG Integrations",
+          "url": "https://docs.together.ai/docs/embeddings-rag"
+        },
+        {
+          "type": "Embeddings",
+          "url": "https://docs.together.ai/docs/embeddings-overview"
+        },
+        {
+          "type": "CodeSandbox SDK (Code execution)",
+          "url": "https://docs.together.ai/docs/code-execution"
+        },
+        {
+          "type": "Slurm management system",
+          "url": "https://docs.together.ai/docs/slurm"
+        },
+        {
+          "type": "Cluster storage",
+          "url": "https://docs.together.ai/docs/cluster-storage"
+        },
+        {
+          "type": "Dedicated Endpoints Dashboard",
+          "url": "https://docs.together.ai/docs/dedicated-endpoints"
+        },
+        {
+          "type": "Create tickets in Slack",
+          "url": "https://docs.together.ai/docs/create-tickets-in-slack"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "6d5c213e6f03cdd58c4a62a9a4e55ae2bfc5912ebb20ffa28c3c47665b7623d2"
 }

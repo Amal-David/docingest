@@ -44,5 +44,87 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.fairblock.network/",
+      "canonicalSeedUrl": "https://www.fairblock.network/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-29T11:04:03.361Z",
+      "completedAt": "2026-01-29T11:04:03.361Z",
+      "providerTotals": {
+        "discovered": 6,
+        "returned": 6,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.fairblock.network/",
+          "canonicalUrl": "https://www.fairblock.network/",
+          "status": "valid"
+        }
+      ],
+      "id": "b270d77485b44444356d44a100109954002f5d3670a439ab77df28e460505728",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7bdfea9876cd8f726977fc32aa86c41f0538ea95e734872e09ac2b8ae4b46f69",
+      "filename": "documentation_2026-01-29T11:04:03.361Z.md",
+      "contentHash": "5a79df4153940bb9ae9ee1f6d03448b6b6b0d5ad4e292300234173405bb44f0b",
+      "sourceUrl": "https://www.fairblock.network/",
+      "canonicalSourceUrl": "https://www.fairblock.network/",
+      "capturedAt": "2026-01-29T11:04:03.361Z",
+      "crawlRunId": "b270d77485b44444356d44a100109954002f5d3670a439ab77df28e460505728",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 6,
+      "successfulPages": 6,
+      "structure": [
+        {
+          "type": "Fairblock",
+          "url": "https://www.fairblock.network/"
+        },
+        {
+          "type": "Fairblock",
+          "url": "https://www.fairblock.network/how-it-works"
+        },
+        {
+          "type": "Fairblock",
+          "url": "https://www.fairblock.network/capps"
+        },
+        {
+          "type": "Fairblock",
+          "url": "https://www.fairblock.network/ecosystem"
+        },
+        {
+          "type": "Fairblock",
+          "url": "https://www.fairblock.network/articles"
+        },
+        {
+          "type": "Fairblock",
+          "url": "https://www.fairblock.network/careers"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7bdfea9876cd8f726977fc32aa86c41f0538ea95e734872e09ac2b8ae4b46f69"
 }

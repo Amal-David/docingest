@@ -81,5 +81,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://jules.google/docs",
+      "canonicalSeedUrl": "https://jules.google/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-15T01:50:08.473Z",
+      "completedAt": "2025-08-15T01:50:08.473Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://jules.google/docs",
+          "canonicalUrl": "https://jules.google/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "802012a94ffb9d8fe903592a520f1ded7868d9a5ce099c383e4b7436dfbb2409",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "985ea3d07ae45b2ead78f5139cf41716487c9bf3abc9df47eeab8cf54dd46153",
+      "filename": "documentation_2025-08-15T01:50:08.473Z.md",
+      "contentHash": "01b8f7506d4065a982882dcaf06a063c4f92062c7520cb041bdfca55370768fa",
+      "sourceUrl": "https://jules.google/docs",
+      "canonicalSourceUrl": "https://jules.google/docs",
+      "capturedAt": "2025-08-15T01:50:08.473Z",
+      "crawlRunId": "802012a94ffb9d8fe903592a520f1ded7868d9a5ce099c383e4b7436dfbb2409",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Getting started | Jules",
+          "url": "https://jules.google/docs"
+        },
+        {
+          "type": "Environment setup | Jules",
+          "url": "https://jules.google/docs/environment/"
+        },
+        {
+          "type": "Reviewing code changes | Jules",
+          "url": "https://jules.google/docs/code/"
+        },
+        {
+          "type": "Managing tasks and repos | Jules",
+          "url": "https://jules.google/docs/tasks-repos/"
+        },
+        {
+          "type": "Reviewing plans & giving feedback | Jules",
+          "url": "https://jules.google/docs/review-plan/"
+        },
+        {
+          "type": "Running Tasks with Jules | Jules",
+          "url": "https://jules.google/docs/running-tasks/"
+        },
+        {
+          "type": "Repo view | Jules",
+          "url": "https://jules.google/docs/repo/"
+        },
+        {
+          "type": "Errors and failures | Jules",
+          "url": "https://jules.google/docs/errors/"
+        },
+        {
+          "type": "Contact | Jules",
+          "url": "https://jules.google/docs/contact/"
+        },
+        {
+          "type": "Limits and Plans | Jules",
+          "url": "https://jules.google/docs/usage-limits/"
+        },
+        {
+          "type": "Feedback and support | Jules",
+          "url": "https://jules.google/docs/feedback/"
+        },
+        {
+          "type": "Changelog | Jules",
+          "url": "https://jules.google/docs/changelog/"
+        },
+        {
+          "type": "FAQ | Jules",
+          "url": "https://jules.google/docs/faq/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "985ea3d07ae45b2ead78f5139cf41716487c9bf3abc9df47eeab8cf54dd46153"
 }

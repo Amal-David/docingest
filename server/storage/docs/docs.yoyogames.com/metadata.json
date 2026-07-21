@@ -24,5 +24,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.yoyogames.com/",
+      "canonicalSeedUrl": "https://docs.yoyogames.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-20T03:30:51.606Z",
+      "completedAt": "2025-11-20T03:30:51.606Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.yoyogames.com/",
+          "canonicalUrl": "https://docs.yoyogames.com/",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "c5b3f6e368e2ba0e1e3410f793e662b2a506085ebca2a0a379160182c77c9140",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "6eecb0a53610c6b896dc7023b4292b314729a006e55d50d13c83342ee8d5a87a",
+      "filename": "documentation_2025-11-20T03:30:51.606Z.md",
+      "contentHash": "c2e08bf74e2462225b2d88c0c9384ec149370cc0da8cf11d6be3481ee3083e8f",
+      "sourceUrl": "https://docs.yoyogames.com/",
+      "canonicalSourceUrl": "https://docs.yoyogames.com/",
+      "capturedAt": "2025-11-20T03:30:51.606Z",
+      "crawlRunId": "c5b3f6e368e2ba0e1e3410f793e662b2a506085ebca2a0a379160182c77c9140",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Jupiter",
+          "url": "https://docs.yoyogames.com/"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

@@ -80,5 +80,123 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.meilisearch.com/docs/guides/front_end/front_end_integration",
+      "canonicalSeedUrl": "https://www.meilisearch.com/docs/guides/front_end/front_end_integration",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-26T22:39:41.976Z",
+      "completedAt": "2026-02-26T22:39:41.976Z",
+      "providerTotals": {
+        "discovered": 15,
+        "returned": 15,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.meilisearch.com/docs/guides/front_end/front_end_integration",
+          "canonicalUrl": "https://www.meilisearch.com/docs/guides/front_end/front_end_integration",
+          "status": "valid"
+        }
+      ],
+      "id": "56276338c888a9aa0592164a73a3baf0437edac47b906d4a77a127d0f76710f3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a716fb4ad48ccfb0956abac4150f112c3b8114292c1fa0dd9b5a05130fa32002",
+      "filename": "documentation_2026-02-26T22:39:41.976Z.md",
+      "contentHash": "aea9c6e61a60d2a0d14cd5647b6f5c8732661258794971dd4bcc41b45ac2e6d1",
+      "sourceUrl": "https://www.meilisearch.com/docs/guides/front_end/front_end_integration",
+      "canonicalSourceUrl": "https://www.meilisearch.com/docs/guides/front_end/front_end_integration",
+      "capturedAt": "2026-02-26T22:39:41.976Z",
+      "crawlRunId": "56276338c888a9aa0592164a73a3baf0437edac47b906d4a77a127d0f76710f3",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 15,
+      "successfulPages": 15,
+      "structure": [
+        {
+          "type": "Front-end integration - Meilisearch Documentation",
+          "url": "https://www.meilisearch.com/docs/guides/front_end/front_end_integration"
+        },
+        {
+          "type": "Meilisearch & Model Context Protocol - Talk to Meilisearch with Claude desktop - Meilisearch Documentation",
+          "url": "https://www.meilisearch.com/docs/guides/ai/mcp"
+        },
+        {
+          "type": "Computing Hugging Face embeddings with the GPU - Meilisearch Documentation",
+          "url": "https://www.meilisearch.com/docs/guides/computing_hugging_face_embeddings_gpu"
+        },
+        {
+          "type": "Semantic Search with Cloudflare Worker AI Embeddings - Meilisearch Documentation",
+          "url": "https://www.meilisearch.com/docs/guides/embedders/cloudflare"
+        },
+        {
+          "type": "Using Meilisearch with Docker - Meilisearch Documentation",
+          "url": "https://www.meilisearch.com/docs/guides/docker"
+        },
+        {
+          "type": "Semantic Search with AWS Bedrock Embeddings - Meilisearch Documentation",
+          "url": "https://www.meilisearch.com/docs/guides/embedders/bedrock"
+        },
+        {
+          "type": "Semantic Search with Hugging Face Inference Endpoints - Meilisearch Documentation",
+          "url": "https://www.meilisearch.com/docs/guides/embedders/huggingface"
+        },
+        {
+          "type": "Vue3 quick start - Meilisearch Documentation",
+          "url": "https://www.meilisearch.com/docs/guides/front_end/vue_quick_start"
+        },
+        {
+          "type": "Semantic Search with Gemini Embeddings - Meilisearch Documentation",
+          "url": "https://www.meilisearch.com/docs/guides/embedders/gemini"
+        },
+        {
+          "type": "Semantic Search with OpenAI Embeddings - Meilisearch Documentation",
+          "url": "https://www.meilisearch.com/docs/guides/embedders/openai"
+        },
+        {
+          "type": "Semantic Search with Cohere Embeddings - Meilisearch Documentation",
+          "url": "https://www.meilisearch.com/docs/guides/embedders/cohere"
+        },
+        {
+          "type": "Semantic Search with Mistral Embeddings - Meilisearch Documentation",
+          "url": "https://www.meilisearch.com/docs/guides/embedders/mistral"
+        },
+        {
+          "type": "React quick start - Meilisearch Documentation",
+          "url": "https://www.meilisearch.com/docs/guides/front_end/react_quick_start"
+        },
+        {
+          "type": "Semantic Search with Voyage AI Embeddings - Meilisearch Documentation",
+          "url": "https://www.meilisearch.com/docs/guides/embedders/voyage"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.meilisearch.com/docs/assets/datasets/kitchenware.json"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a716fb4ad48ccfb0956abac4150f112c3b8114292c1fa0dd9b5a05130fa32002"
 }

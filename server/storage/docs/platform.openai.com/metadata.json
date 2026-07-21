@@ -68,5 +68,75 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://platform.openai.com/docs/api-reference/audio/json-object",
+      "canonicalSeedUrl": "https://platform.openai.com/docs/api-reference/audio/json-object",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-30T07:58:52.409Z",
+      "completedAt": "2026-01-30T07:58:52.409Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://platform.openai.com/docs/api-reference/audio/json-object",
+          "canonicalUrl": "https://platform.openai.com/docs/api-reference/audio/json-object",
+          "status": "valid"
+        }
+      ],
+      "id": "de87fddb1cb10cedae07f6859bb07cf74d07a122d282d26fe7788f0e40ce7c2c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ba7bbffa1c5ffbc78c84e093705a693129dc1335c5c8b999fdbecc463ce5d802",
+      "filename": "documentation_2026-01-30T07:58:52.409Z.md",
+      "contentHash": "3ba7a146b2fa6f245db3cf1c038f2383aa12f7e4d4cb77887bb33bdb22ecddfa",
+      "sourceUrl": "https://platform.openai.com/docs/api-reference/audio/json-object",
+      "canonicalSourceUrl": "https://platform.openai.com/docs/api-reference/audio/json-object",
+      "capturedAt": "2026-01-30T07:58:52.409Z",
+      "crawlRunId": "de87fddb1cb10cedae07f6859bb07cf74d07a122d282d26fe7788f0e40ce7c2c",
+      "upstreamVersion": "1.3.1",
+      "upstreamChannel": "latest",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "structure": [
+        {
+          "type": "Audio | OpenAI API Reference",
+          "url": "https://platform.openai.com/docs/api-reference/audio/json-object"
+        },
+        {
+          "type": "Audio | OpenAI API Reference",
+          "url": "https://platform.openai.com/docs/api-reference/audio/diarized-json-object"
+        },
+        {
+          "type": "Audio | OpenAI API Reference",
+          "url": "https://platform.openai.com/docs/api-reference/audio/verbose-json-object"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ba7bbffa1c5ffbc78c84e093705a693129dc1335c5c8b999fdbecc463ce5d802"
 }

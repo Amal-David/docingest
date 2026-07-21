@@ -54,5 +54,79 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://therockethq.gitbooks.io/servicenow1/content/index/index/",
+      "canonicalSeedUrl": "https://therockethq.gitbooks.io/servicenow1/content/index/index",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-05T18:20:45.302Z",
+      "completedAt": "2025-04-05T18:20:45.302Z",
+      "providerTotals": {
+        "discovered": 4,
+        "returned": 4,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://therockethq.gitbooks.io/servicenow1/content/index/index/",
+          "canonicalUrl": "https://therockethq.gitbooks.io/servicenow1/content/index/index",
+          "status": "valid"
+        }
+      ],
+      "id": "a6901d13880a65294dfae0fa0600d418b728f97e1b3cdd5d91285ddeca82512d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "aeff75b6d00cfbcfe267bcfcb9075a8641e4cbed0ed9e338c88a9627b2ae3ea5",
+      "filename": "documentation_2025-04-05T18:20:45.302Z.md",
+      "contentHash": "402538cfa728a11b44b6a50265a53dafd6cc1867b6d0af3dd6cdcdd8305b69b9",
+      "sourceUrl": "https://therockethq.gitbooks.io/servicenow1/content/index/index/",
+      "canonicalSourceUrl": "https://therockethq.gitbooks.io/servicenow1/content/index/index",
+      "capturedAt": "2025-04-05T18:20:45.302Z",
+      "crawlRunId": "a6901d13880a65294dfae0fa0600d418b728f97e1b3cdd5d91285ddeca82512d",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "Index · ServiceNow1",
+          "url": "https://therockethq.gitbooks.io/servicenow1/content/index/index/"
+        },
+        {
+          "type": "System Administration Advanced · ServiceNow1",
+          "url": "https://therockethq.gitbooks.io/servicenow1/content/index/index/system-administration-advanced/"
+        },
+        {
+          "type": "Scripting · ServiceNow1",
+          "url": "https://therockethq.gitbooks.io/servicenow1/content/index/index/scripting/"
+        },
+        {
+          "type": "Fundamentals · ServiceNow1",
+          "url": "https://therockethq.gitbooks.io/servicenow1/content/index/index/fundamentals/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "aeff75b6d00cfbcfe267bcfcb9075a8641e4cbed0ed9e338c88a9627b2ae3ea5"
 }

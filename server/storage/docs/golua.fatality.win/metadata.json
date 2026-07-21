@@ -226,5 +226,251 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://golua.fatality.win/",
+      "canonicalSeedUrl": "https://golua.fatality.win/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-03T20:03:44.169Z",
+      "completedAt": "2026-04-03T20:03:44.169Z",
+      "providerTotals": {
+        "discovered": 47,
+        "returned": 47,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://golua.fatality.win/",
+          "canonicalUrl": "https://golua.fatality.win/",
+          "status": "valid"
+        }
+      ],
+      "id": "17e07d9cb71d10e515a0ff439a3a067e792f420da9e312fd5fb83d21bd50d40a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "48b9f8e185473eb1018b551736b76721210799ecfa53f4007167800e65555dae",
+      "filename": "documentation_2026-04-03T20:03:44.169Z.md",
+      "contentHash": "2bcf6d7aee734317e6d719d0390b7dac8aab843da90cfed096bd9e065d30ca93",
+      "sourceUrl": "https://golua.fatality.win/",
+      "canonicalSourceUrl": "https://golua.fatality.win/",
+      "capturedAt": "2026-04-03T20:03:44.169Z",
+      "crawlRunId": "17e07d9cb71d10e515a0ff439a3a067e792f420da9e312fd5fb83d21bd50d40a",
+      "upstreamVersion": "1.1.1",
+      "upstreamChannel": "latest",
+      "totalPages": 47,
+      "successfulPages": 47,
+      "structure": [
+        {
+          "type": "Overview | Lua API",
+          "url": "https://golua.fatality.win/"
+        },
+        {
+          "type": "Creating scripts | Lua API",
+          "url": "https://golua.fatality.win/getting-started/creating-scripts"
+        },
+        {
+          "type": "Metadata | Lua API",
+          "url": "https://golua.fatality.win/getting-started/metadata"
+        },
+        {
+          "type": "Examples | Lua API",
+          "url": "https://golua.fatality.win/getting-started/examples"
+        },
+        {
+          "type": "Engine | Lua API",
+          "url": "https://golua.fatality.win/documentation/namespaces/engine"
+        },
+        {
+          "type": "Useful resources | Lua API",
+          "url": "https://golua.fatality.win/getting-started/useful-resources"
+        },
+        {
+          "type": "Callbacks | Lua API",
+          "url": "https://golua.fatality.win/getting-started/callbacks"
+        },
+        {
+          "type": "Namespaces | Lua API",
+          "url": "https://golua.fatality.win/documentation/namespaces"
+        },
+        {
+          "type": "Math | Lua API",
+          "url": "https://golua.fatality.win/documentation/namespaces/math"
+        },
+        {
+          "type": "Entities | Lua API",
+          "url": "https://golua.fatality.win/documentation/namespaces/entities"
+        },
+        {
+          "type": "Panorama | Lua API",
+          "url": "https://golua.fatality.win/documentation/namespaces/panorama"
+        },
+        {
+          "type": "Input | Lua API",
+          "url": "https://golua.fatality.win/documentation/namespaces/input"
+        },
+        {
+          "type": "Database | Lua API",
+          "url": "https://golua.fatality.win/documentation/namespaces/database"
+        },
+        {
+          "type": "Global Vars | Lua API",
+          "url": "https://golua.fatality.win/documentation/instances/global-vars"
+        },
+        {
+          "type": "Fatality | Lua API",
+          "url": "https://golua.fatality.win/documentation/instances/fatality"
+        },
+        {
+          "type": "Instances | Lua API",
+          "url": "https://golua.fatality.win/documentation/instances"
+        },
+        {
+          "type": "Server | Lua API",
+          "url": "https://golua.fatality.win/documentation/instances/server"
+        },
+        {
+          "type": "Gamerules | Lua API",
+          "url": "https://golua.fatality.win/documentation/instances/gamerules"
+        },
+        {
+          "type": "Materials | Lua API",
+          "url": "https://golua.fatality.win/documentation/namespaces/materials"
+        },
+        {
+          "type": "Gui | Lua API",
+          "url": "https://golua.fatality.win/documentation/namespaces/gui"
+        },
+        {
+          "type": "Zip | Lua API",
+          "url": "https://golua.fatality.win/documentation/namespaces/zip"
+        },
+        {
+          "type": "Filesystem | Lua API",
+          "url": "https://golua.fatality.win/documentation/namespaces/filesystem"
+        },
+        {
+          "type": "Datatypes | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes"
+        },
+        {
+          "type": "combobox | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/combobox"
+        },
+        {
+          "type": "checkbox | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/checkbox"
+        },
+        {
+          "type": "textbox | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/textbox"
+        },
+        {
+          "type": "player_info | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/player_info"
+        },
+        {
+          "type": "control | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/control"
+        },
+        {
+          "type": "timer | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/timer"
+        },
+        {
+          "type": "slider | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/slider"
+        },
+        {
+          "type": "weapon_info | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/weapon_info"
+        },
+        {
+          "type": "color_picker | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/color_picker"
+        },
+        {
+          "type": "list | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/list"
+        },
+        {
+          "type": "trace_t | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/trace_t"
+        },
+        {
+          "type": "cvar | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/cvar"
+        },
+        {
+          "type": "user_cmd | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/user_cmd"
+        },
+        {
+          "type": "animator | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/animator"
+        },
+        {
+          "type": "shot_info | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/shot_info"
+        },
+        {
+          "type": "material_var | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/material_var"
+        },
+        {
+          "type": "game_event | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/game_event"
+        },
+        {
+          "type": "vec3 | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/vec3"
+        },
+        {
+          "type": "zip | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/zip"
+        },
+        {
+          "type": "material | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/material"
+        },
+        {
+          "type": "entity | Lua API",
+          "url": "https://golua.fatality.win/documentation/datatypes/entity"
+        },
+        {
+          "type": "Render | Lua API",
+          "url": "https://golua.fatality.win/documentation/namespaces/render"
+        },
+        {
+          "type": "Utilities | Lua API",
+          "url": "https://golua.fatality.win/documentation/namespaces/utilities"
+        },
+        {
+          "type": "Namespaces | Lua API",
+          "url": "https://golua.fatality.win/documentation"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "48b9f8e185473eb1018b551736b76721210799ecfa53f4007167800e65555dae"
 }

@@ -140,5 +140,183 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.zigythebird.com/emotecraft/creatingemotes/",
+      "canonicalSeedUrl": "https://docs.zigythebird.com/emotecraft/creatingemotes",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-09T05:54:39.169Z",
+      "completedAt": "2026-07-09T05:54:39.169Z",
+      "providerTotals": {
+        "discovered": 30,
+        "returned": 30,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.zigythebird.com/emotecraft/creatingemotes/",
+          "canonicalUrl": "https://docs.zigythebird.com/emotecraft/creatingemotes",
+          "status": "valid"
+        }
+      ],
+      "id": "9a2a6ba90a5f228e237e835317c07586e76866faf2802abeb3c6a1d08314e2fc",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "13a332e10d27f3e0006c3916cec08a83c775d0f76758a248951749c07e3f6ba7",
+      "filename": "documentation_2026-07-09T05:54:39.169Z.md",
+      "contentHash": "e33a36c7edc928f0d9ce06a406290d1fff1745f807061410e0ba6e2aea54c02f",
+      "sourceUrl": "https://docs.zigythebird.com/emotecraft/creatingemotes/",
+      "canonicalSourceUrl": "https://docs.zigythebird.com/emotecraft/creatingemotes",
+      "capturedAt": "2026-07-09T05:54:39.169Z",
+      "crawlRunId": "9a2a6ba90a5f228e237e835317c07586e76866faf2802abeb3c6a1d08314e2fc",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "structure": [
+        {
+          "type": "PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/creatingemotes/"
+        },
+        {
+          "type": "Blog | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/blog"
+        },
+        {
+          "type": "Emotecraft 3.0.0 | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/blog/2025-07-12-emotecraft-300"
+        },
+        {
+          "type": "dima_dencep here | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/blog/2025-07-11-dima-dencep-here"
+        },
+        {
+          "type": "New Emotecraft 3.0.0 Alpha!!! | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/blog/2025-07-17-new-emotecraft-3.0.0-alpha"
+        },
+        {
+          "type": "Archive | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/blog/archive"
+        },
+        {
+          "type": "Creating Emotes With Blockbench | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/creatingemotes/blockbench"
+        },
+        {
+          "type": "Custom Pivot Points/Bones | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/creatingemotes/custom_pivot_points"
+        },
+        {
+          "type": "Creating Emotes With Blender | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/creatingemotes/blender"
+        },
+        {
+          "type": "Fading in/out | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/creatingemotes/fades"
+        },
+        {
+          "type": "PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/"
+        },
+        {
+          "type": "Authors | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/blog/authors"
+        },
+        {
+          "type": "How to port from player animator | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/pal/how_to_port_from_player_animator"
+        },
+        {
+          "type": "How to play animations | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/pal/how_to_play_animations"
+        },
+        {
+          "type": "Bedrock limitations | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/geyserext/bedrock"
+        },
+        {
+          "type": "Installation | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/geyserext/installation"
+        },
+        {
+          "type": "Introduction | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/pal/intro"
+        },
+        {
+          "type": "Geyser Extension | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/geyserext/"
+        },
+        {
+          "type": "Commands | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/geyserext/commands"
+        },
+        {
+          "type": "How to add the library to your mod's project | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/pal/how_to_add_lib_to_mod"
+        },
+        {
+          "type": "Getting Started | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/gettingstarted/"
+        },
+        {
+          "type": "Custom Emotes | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/gettingstarted/customemotes"
+        },
+        {
+          "type": "Commands | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/gettingstarted/commands"
+        },
+        {
+          "type": "Using Emotecraft | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/gettingstarted/using"
+        },
+        {
+          "type": "Installing Emotecraft | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/gettingstarted/installing"
+        },
+        {
+          "type": "Proxies | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/gettingstarted/proxies"
+        },
+        {
+          "type": "Creating Music for Emotes | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/creatingemotes/creatingmusic"
+        },
+        {
+          "type": "Looping (For Blockbench formats) | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/creatingemotes/looping"
+        },
+        {
+          "type": "MoLang | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/emotecraft/creatingemotes/molang"
+        },
+        {
+          "type": "Relevant Emotecraft wiki pages | PlayerAnimationLibrary & Emotecraft Documentation",
+          "url": "https://docs.zigythebird.com/pal/relevant_emotecraft_wiki_pages"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "13a332e10d27f3e0006c3916cec08a83c775d0f76758a248951749c07e3f6ba7"
 }

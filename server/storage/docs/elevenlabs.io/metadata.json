@@ -99,5 +99,79 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://elevenlabs.io/docs/overview/intro",
+      "canonicalSeedUrl": "https://elevenlabs.io/docs/overview/intro",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-10T16:31:43.331Z",
+      "completedAt": "2025-12-10T16:31:43.331Z",
+      "providerTotals": {
+        "discovered": 4,
+        "returned": 4,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://elevenlabs.io/docs/overview/intro",
+          "canonicalUrl": "https://elevenlabs.io/docs/overview/intro",
+          "status": "valid"
+        }
+      ],
+      "id": "3955225cfe87206b1c7d26e4dbefdda3faf110678baf09d80953fca528eb720f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e3966dae9de81e4ed14c9c9e11faf5758ffc55f89e8e062be680cd40743e9317",
+      "filename": "documentation_2025-12-10T16:31:43.331Z.md",
+      "contentHash": "8448d49637ab2239f0fff39fe179c07888ffc1abcbc6faaa938092c91fea59f7",
+      "sourceUrl": "https://elevenlabs.io/docs/overview/intro",
+      "canonicalSourceUrl": "https://elevenlabs.io/docs/overview/intro",
+      "capturedAt": "2025-12-10T16:31:43.331Z",
+      "crawlRunId": "3955225cfe87206b1c7d26e4dbefdda3faf110678baf09d80953fca528eb720f",
+      "upstreamVersion": "1.7.0",
+      "upstreamChannel": "latest",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "Documentation | ElevenLabs Documentation",
+          "url": "https://elevenlabs.io/docs/overview/intro"
+        },
+        {
+          "type": "Models | ElevenLabs Documentation",
+          "url": "https://elevenlabs.io/docs/overview/models"
+        },
+        {
+          "type": "Text to Speech | ElevenLabs Documentation",
+          "url": "https://elevenlabs.io/docs/overview/capabilities/text-to-speech"
+        },
+        {
+          "type": "Speech to Text | ElevenLabs Documentation",
+          "url": "https://elevenlabs.io/docs/overview/capabilities/speech-to-text"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e3966dae9de81e4ed14c9c9e11faf5758ffc55f89e8e062be680cd40743e9317"
 }

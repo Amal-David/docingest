@@ -78,5 +78,103 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://karta-trade.gitbook.io/docs/",
+      "canonicalSeedUrl": "https://karta-trade.gitbook.io/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-29T16:00:38.696Z",
+      "completedAt": "2026-01-29T16:00:38.696Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://karta-trade.gitbook.io/docs/",
+          "canonicalUrl": "https://karta-trade.gitbook.io/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "c8f3ff7906583bc951932bfb9133631c72a021f58b11e16941c122d953e9ec78",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "eef90b002a8ae4e4fd5c8c276fe7e83d9b22b2eb57817d76bf8d730fc6d05279",
+      "filename": "documentation_2026-01-29T16:00:38.696Z.md",
+      "contentHash": "d9d45d8680c49fba1dc11c7bc9ce9acb954615581a178c7e79e21819fdecce2d",
+      "sourceUrl": "https://karta-trade.gitbook.io/docs/",
+      "canonicalSourceUrl": "https://karta-trade.gitbook.io/docs",
+      "capturedAt": "2026-01-29T16:00:38.696Z",
+      "crawlRunId": "c8f3ff7906583bc951932bfb9133631c72a021f58b11e16941c122d953e9ec78",
+      "upstreamVersion": "1.0.2",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "Welcome to karta.markets | karta.trade docs",
+          "url": "https://karta-trade.gitbook.io/docs/"
+        },
+        {
+          "type": "Changelog | karta.trade docs",
+          "url": "https://karta-trade.gitbook.io/docs/changelog"
+        },
+        {
+          "type": "Market map (migrated tokens) | karta.trade docs",
+          "url": "https://karta-trade.gitbook.io/docs/discover/market-map-migrated-tokens"
+        },
+        {
+          "type": "Top Up and Withdraw SOL | karta.trade docs",
+          "url": "https://karta-trade.gitbook.io/docs/trade/topup"
+        },
+        {
+          "type": "State of the trenches | karta.trade docs",
+          "url": "https://karta-trade.gitbook.io/docs/discover/state-of-the-trenches"
+        },
+        {
+          "type": "Trading Tips | karta.trade docs",
+          "url": "https://karta-trade.gitbook.io/docs/trade/trading-tips"
+        },
+        {
+          "type": "Roadmap | karta.trade docs",
+          "url": "https://karta-trade.gitbook.io/docs/about/roadmap"
+        },
+        {
+          "type": "Market map (pre-migrated tokens) | karta.trade docs",
+          "url": "https://karta-trade.gitbook.io/docs/discover/map"
+        },
+        {
+          "type": "Trading on karta | karta.trade docs",
+          "url": "https://karta-trade.gitbook.io/docs/trade/trade"
+        },
+        {
+          "type": "Changelog | karta.trade docs",
+          "url": "https://karta-trade.gitbook.io/docs/changelog/rss.xml"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "eef90b002a8ae4e4fd5c8c276fe7e83d9b22b2eb57817d76bf8d730fc6d05279"
 }

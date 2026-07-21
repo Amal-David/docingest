@@ -24,5 +24,69 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://rdagent.readthedocs.io/en/latest/research/catalog.html",
+      "canonicalSeedUrl": "https://rdagent.readthedocs.io/en/latest/research/catalog.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-07T15:16:00.971Z",
+      "completedAt": "2026-04-07T15:16:00.971Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://rdagent.readthedocs.io/en/latest/research/catalog.html",
+          "canonicalUrl": "https://rdagent.readthedocs.io/en/latest/research/catalog.html",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "cbf736da33888ccb2313db562eb6ff89e778a65e22dcbacec0c94661567fc60f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "53d10d6cccf4d5f0efd01f94f9e3514f4bf084fcda064c6997fc0ec07aaf4276",
+      "filename": "documentation_2026-04-07T15:16:00.971Z.md",
+      "contentHash": "7e2c850165e78d94f12aeb4cf385f7ba3d5a29189b25858752ea01ba21d46e77",
+      "sourceUrl": "https://rdagent.readthedocs.io/en/latest/research/catalog.html",
+      "canonicalSourceUrl": "https://rdagent.readthedocs.io/en/latest/research/catalog.html",
+      "capturedAt": "2026-04-07T15:16:00.971Z",
+      "crawlRunId": "cbf736da33888ccb2313db562eb6ff89e778a65e22dcbacec0c94661567fc60f",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Just a moment...",
+          "url": "https://rdagent.readthedocs.io/en/latest/research/catalog.html"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

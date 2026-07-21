@@ -188,5 +188,231 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://riskfolio-lib.readthedocs.io/en/latest/",
+      "canonicalSeedUrl": "https://riskfolio-lib.readthedocs.io/en/latest",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-21T05:29:11.563Z",
+      "completedAt": "2026-03-21T05:29:11.563Z",
+      "providerTotals": {
+        "discovered": 42,
+        "returned": 42,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/",
+          "canonicalUrl": "https://riskfolio-lib.readthedocs.io/en/latest",
+          "status": "valid"
+        }
+      ],
+      "id": "d3b47bbe801b3682da9e67d669b5f582fc3fd77132d079886a6e344342768c39",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fe2268e24d25a3f5676361f7e75f03c11607d51ab35d206963b3f018ee18d09d",
+      "filename": "documentation_2026-03-21T05:29:11.563Z.md",
+      "contentHash": "57dfe721bf3c01d886f3e34f5b98fd2e21c3ceb9daacb1a9fd12a6a2d058b15c",
+      "sourceUrl": "https://riskfolio-lib.readthedocs.io/en/latest/",
+      "canonicalSourceUrl": "https://riskfolio-lib.readthedocs.io/en/latest",
+      "capturedAt": "2026-03-21T05:29:11.563Z",
+      "crawlRunId": "d3b47bbe801b3682da9e67d669b5f582fc3fd77132d079886a6e344342768c39",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 42,
+      "successfulPages": 42,
+      "structure": [
+        {
+          "type": "Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/"
+        },
+        {
+          "type": "Advanced Portfolio Optimization: A Cutting-edge Quantitative Approach - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/book.html"
+        },
+        {
+          "type": "Install - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/install.html"
+        },
+        {
+          "type": "Examples - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/examples.html"
+        },
+        {
+          "type": "Authors - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/authors.html"
+        },
+        {
+          "type": "Contributing - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/contributing.html"
+        },
+        {
+          "type": "License - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/license.html"
+        },
+        {
+          "type": "Changelog - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/changelog.html"
+        },
+        {
+          "type": "Reports Functions - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/reports.html"
+        },
+        {
+          "type": "Python Module Index - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/py-modindex.html"
+        },
+        {
+          "type": "Index - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/genindex.html"
+        },
+        {
+          "type": "Riskfolio-XL: Riskfolio-Lib add-in for Microsoft Excel - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/excel.html"
+        },
+        {
+          "type": "Portfolio Optimization with Python Course - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/course.html"
+        },
+        {
+          "type": "Hierarchical Clustering Portfolio Optimization - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/hcportfolio.html"
+        },
+        {
+          "type": "Portfolio Optimization - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/portfolio.html"
+        },
+        {
+          "type": "Parameters Estimation - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/parameters.html"
+        },
+        {
+          "type": "Constraints Functions - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/constraints.html"
+        },
+        {
+          "type": "Plot Functions - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/plot.html"
+        },
+        {
+          "type": "Risk Functions - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/risk.html"
+        },
+        {
+          "type": "DBHT, OWA Weights, Gerber Statistic, CPP and Auxiliary Functions - Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/auxiliary.html"
+        },
+        {
+          "type": "\n  Documentation page not found\n - Read the Docs Community ",
+          "url": "https://riskfolio-lib.readthedocs.io/en/latest/search.html"
+        },
+        {
+          "type": "Riskfolio-Lib 7.2",
+          "url": "https://riskfolio-lib.readthedocs.io/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/install.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/course.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/book.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/excel.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/portfolio.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/hcportfolio.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/parameters.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/constraints.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/risk.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/reports.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/plot.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/contributing.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/authors.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/examples.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/license.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/changelog.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/genindex.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/search.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/py-modindex.html"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://riskfolio-lib.readthedocs.io/auxiliary.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fe2268e24d25a3f5676361f7e75f03c11607d51ab35d206963b3f018ee18d09d"
 }

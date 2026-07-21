@@ -136,5 +136,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://nextjs.org/docs/app/",
+      "canonicalSeedUrl": "https://nextjs.org/docs/app",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-28T13:23:09.746Z",
+      "completedAt": "2025-10-28T13:23:09.746Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://nextjs.org/docs/app/",
+          "canonicalUrl": "https://nextjs.org/docs/app",
+          "status": "valid"
+        }
+      ],
+      "id": "882cc0946ff1ccbf9bc2fe77dc8031c7672925212c3454a49de3e196123b98fe",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "182be70774f5e1647274f4de034f18e03c6d943482766c4d23039c9f2b6c7163",
+      "filename": "documentation_2025-10-28T13:23:09.746Z.md",
+      "contentHash": "31fac7a5b88e2a014b2edd39257062a9e4673dfe9058e5e479877003789dc495",
+      "sourceUrl": "https://nextjs.org/docs/app/",
+      "canonicalSourceUrl": "https://nextjs.org/docs/app",
+      "capturedAt": "2025-10-28T13:23:09.746Z",
+      "crawlRunId": "882cc0946ff1ccbf9bc2fe77dc8031c7672925212c3454a49de3e196123b98fe",
+      "upstreamVersion": "1.12.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Next.js Docs: App Router | Next.js",
+          "url": "https://nextjs.org/docs/app/"
+        },
+        {
+          "type": "Functions: notFound | Next.js",
+          "url": "https://nextjs.org/docs/app/api-reference/functions/not-found"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "182be70774f5e1647274f4de034f18e03c6d943482766c4d23039c9f2b6c7163"
 }

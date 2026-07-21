@@ -68,5 +68,111 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.megaeth.com/",
+      "canonicalSeedUrl": "https://docs.megaeth.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-11T07:17:28.241Z",
+      "completedAt": "2026-02-11T07:17:28.241Z",
+      "providerTotals": {
+        "discovered": 12,
+        "returned": 12,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.megaeth.com/",
+          "canonicalUrl": "https://docs.megaeth.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "416a3c205e7e1a70b84e95e33613f59c23c4693b70d09d241adb3b4e3e7cfbb6",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fdc4d08f41d456d769fb49058d25c6ba9020e1582925049ab59eadf74f5ab1ff",
+      "filename": "documentation_2026-02-11T07:17:28.241Z.md",
+      "contentHash": "63ed54ac938feab250af406ff7dbf41acdfb27711d9a1be616e3b25ee8900e82",
+      "sourceUrl": "https://docs.megaeth.com/",
+      "canonicalSourceUrl": "https://docs.megaeth.com/",
+      "capturedAt": "2026-02-11T07:17:28.241Z",
+      "crawlRunId": "416a3c205e7e1a70b84e95e33613f59c23c4693b70d09d241adb3b4e3e7cfbb6",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 12,
+      "successfulPages": 12,
+      "structure": [
+        {
+          "type": "MegaETH Docs – Overview",
+          "url": "https://docs.megaeth.com/"
+        },
+        {
+          "type": "MegaETH Docs – Mainnet",
+          "url": "https://docs.megaeth.com/frontier.html"
+        },
+        {
+          "type": "MegaETH Docs – Testnet",
+          "url": "https://docs.megaeth.com/testnet.html"
+        },
+        {
+          "type": "MegaETH Docs – Architecture",
+          "url": "https://docs.megaeth.com/architecture.html"
+        },
+        {
+          "type": "MegaETH Docs – RPC",
+          "url": "https://docs.megaeth.com/rpc.html"
+        },
+        {
+          "type": "MegaETH Docs – Realtime API",
+          "url": "https://docs.megaeth.com/realtime-api.html"
+        },
+        {
+          "type": "MegaETH Docs – Mainnet",
+          "url": "https://docs.megaeth.com/frontier"
+        },
+        {
+          "type": "MegaETH Docs – Testnet",
+          "url": "https://docs.megaeth.com/testnet"
+        },
+        {
+          "type": "MegaETH Docs – MegaEVM",
+          "url": "https://docs.megaeth.com/megaevm.html"
+        },
+        {
+          "type": "MegaETH Docs – Realtime API",
+          "url": "https://docs.megaeth.com/realtime-api"
+        },
+        {
+          "type": "MegaETH Docs – Mini Blocks",
+          "url": "https://docs.megaeth.com/miniblocks.html"
+        },
+        {
+          "type": "MegaETH Docs – MegaEVM",
+          "url": "https://docs.megaeth.com/megaevm"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fdc4d08f41d456d769fb49058d25c6ba9020e1582925049ab59eadf74f5ab1ff"
 }

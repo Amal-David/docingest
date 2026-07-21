@@ -125,5 +125,159 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.bitgetapp.com/api-doc/common/intro",
+      "canonicalSeedUrl": "https://www.bitgetapp.com/api-doc/common/intro",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-04T22:29:07.207Z",
+      "completedAt": "2025-09-04T22:29:07.207Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.bitgetapp.com/api-doc/common/intro",
+          "canonicalUrl": "https://www.bitgetapp.com/api-doc/common/intro",
+          "status": "valid"
+        }
+      ],
+      "id": "3fc92a352f2bfa50d58d520dfbd74583abea280873b6010702ea32a3c46f7cf0",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ce2a09e6104dbc3fa21821080eeb7d8d13b610ed9904402405cdb9ce7d3675c4",
+      "filename": "documentation_2025-09-04T22:29:07.207Z.md",
+      "contentHash": "abe7ea44d91acab84a32910d16ea00471ebf5a346804d790725b597839b23ebc",
+      "sourceUrl": "https://www.bitgetapp.com/api-doc/common/intro",
+      "canonicalSourceUrl": "https://www.bitgetapp.com/api-doc/common/intro",
+      "capturedAt": "2025-09-04T22:29:07.207Z",
+      "crawlRunId": "3fc92a352f2bfa50d58d520dfbd74583abea280873b6010702ea32a3c46f7cf0",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "Bitget API Introduction | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/common/intro"
+        },
+        {
+          "type": "Futures Trading API | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/contract/intro"
+        },
+        {
+          "type": "Spot Trading API | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/spot/intro"
+        },
+        {
+          "type": "Broker Trading API | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/broker/intro"
+        },
+        {
+          "type": "Copy Trading API | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/copytrading/intro"
+        },
+        {
+          "type": "Margin Trading API | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/margin/intro"
+        },
+        {
+          "type": "Affiliate Introduction | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/affiliate/intro"
+        },
+        {
+          "type": "Inst Loan | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/instloan/intro"
+        },
+        {
+          "type": "Earn API | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/earn/intro"
+        },
+        {
+          "type": "Quick Start | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/common/quick-start"
+        },
+        {
+          "type": "Query Announcements | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/common/notice/Get-All-Notices"
+        },
+        {
+          "type": "简介 | Bitget API",
+          "url": "https://www.bitgetapp.com/zh-CN/api-doc/common/intro"
+        },
+        {
+          "type": "API Domain | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/common/domain"
+        },
+        {
+          "type": "V2 API Update Guide | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/common/release-note"
+        },
+        {
+          "type": "SDK | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/common/sdk-postman"
+        },
+        {
+          "type": "Changelog | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/common/changelog"
+        },
+        {
+          "type": "Signature | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/common/signature"
+        },
+        {
+          "type": "Websocket API | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/common/websocket-intro"
+        },
+        {
+          "type": "Unified Trading Account | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/uta/intro"
+        },
+        {
+          "type": "FAQ | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/common/faq"
+        },
+        {
+          "type": "合约交易API | Bitget API",
+          "url": "https://www.bitgetapp.com/zh-CN/api-doc/contract/intro"
+        },
+        {
+          "type": "VIP Fee Rate | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/contract/market/Get-VIP-Fee-Rate"
+        },
+        {
+          "type": "Get Coin Info | Bitget API",
+          "url": "https://www.bitgetapp.com/api-doc/spot/market/Get-Coin-List"
+        },
+        {
+          "type": "现货交易API | Bitget API",
+          "url": "https://www.bitgetapp.com/zh-CN/api-doc/spot/intro"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ce2a09e6104dbc3fa21821080eeb7d8d13b610ed9904402405cdb9ce7d3675c4"
 }

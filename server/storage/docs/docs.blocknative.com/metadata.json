@@ -44,5 +44,87 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.blocknative.com/?utm_source=chatgpt.com",
+      "canonicalSeedUrl": "https://docs.blocknative.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-20T00:53:41.912Z",
+      "completedAt": "2025-12-20T00:53:41.912Z",
+      "providerTotals": {
+        "discovered": 6,
+        "returned": 6,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.blocknative.com/?utm_source=chatgpt.com",
+          "canonicalUrl": "https://docs.blocknative.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "7c3b859e4e1c66447b801215a15163d8a43133f17c5aef867e77a42124bae149",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "31a45912be816b57010c9e3df5fcf5be818c2cb550ce8e52dc8a6ee30aa6bd45",
+      "filename": "documentation_2025-12-20T00:53:41.912Z.md",
+      "contentHash": "a2025fbd3ca473c7617c00cf02edbe5bc8031831a4f3e0c88bb9018f58862564",
+      "sourceUrl": "https://docs.blocknative.com/?utm_source=chatgpt.com",
+      "canonicalSourceUrl": "https://docs.blocknative.com/",
+      "capturedAt": "2025-12-20T00:53:41.912Z",
+      "crawlRunId": "7c3b859e4e1c66447b801215a15163d8a43133f17c5aef867e77a42124bae149",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 6,
+      "successfulPages": 6,
+      "structure": [
+        {
+          "type": "Overview | Blocknative Documentation",
+          "url": "https://docs.blocknative.com/?utm_source=chatgpt.com"
+        },
+        {
+          "type": "Overview | Blocknative Documentation",
+          "url": "https://docs.blocknative.com"
+        },
+        {
+          "type": "Gas Platform | Blocknative Documentation",
+          "url": "https://docs.blocknative.com/gas-prediction"
+        },
+        {
+          "type": "Gas Price API | Blocknative Documentation",
+          "url": "https://docs.blocknative.com/gas-prediction/gas-platform"
+        },
+        {
+          "type": "Prediction API - Base Fee and Blob Fee | Blocknative Documentation",
+          "url": "https://docs.blocknative.com/gas-prediction/prediction-api-base-fee-and-blob-fee"
+        },
+        {
+          "type": "Gas Distribution API | Blocknative Documentation",
+          "url": "https://docs.blocknative.com/gas-prediction/gas-distribution-api"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "31a45912be816b57010c9e3df5fcf5be818c2cb550ce8e52dc8a6ee30aa6bd45"
 }

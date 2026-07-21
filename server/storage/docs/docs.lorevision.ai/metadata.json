@@ -125,5 +125,159 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.lorevision.ai/",
+      "canonicalSeedUrl": "https://docs.lorevision.ai/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-23T06:16:00.028Z",
+      "completedAt": "2026-02-23T06:16:00.028Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.lorevision.ai/",
+          "canonicalUrl": "https://docs.lorevision.ai/",
+          "status": "valid"
+        }
+      ],
+      "id": "b7263293d4f64238f7203ae66ee3fee0047d4f8a314a6d00b0e7b6b6d3cd17f1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9b411ab09d9ad5bb3a51af3b778014e61dbb8bb1a085080e31e7bb002ffb1d4f",
+      "filename": "documentation_2026-02-23T06:16:00.028Z.md",
+      "contentHash": "04edfd7340a5cfa76b9dc088412332a3242e560d035c0aeca723f2fc2792198d",
+      "sourceUrl": "https://docs.lorevision.ai/",
+      "canonicalSourceUrl": "https://docs.lorevision.ai/",
+      "capturedAt": "2026-02-23T06:16:00.028Z",
+      "crawlRunId": "b7263293d4f64238f7203ae66ee3fee0047d4f8a314a6d00b0e7b6b6d3cd17f1",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "Start here | LORE ",
+          "url": "https://docs.lorevision.ai/"
+        },
+        {
+          "type": "Introduction | LORE ",
+          "url": "https://docs.lorevision.ai/lore/introduction"
+        },
+        {
+          "type": "For Traders | LORE ",
+          "url": "https://docs.lorevision.ai/lore/for-traders"
+        },
+        {
+          "type": "Core Concept | LORE ",
+          "url": "https://docs.lorevision.ai/lore/core-concept"
+        },
+        {
+          "type": "For Creators | LORE ",
+          "url": "https://docs.lorevision.ai/lore/for-creators"
+        },
+        {
+          "type": "Agents | LORE ",
+          "url": "https://docs.lorevision.ai/terminal/agents"
+        },
+        {
+          "type": "The Ecosystem | LORE ",
+          "url": "https://docs.lorevision.ai/lore/the-ecosystem"
+        },
+        {
+          "type": "Graduation (Lore Vision) | LORE ",
+          "url": "https://docs.lorevision.ai/terminal/graduation-lore-vision"
+        },
+        {
+          "type": "Dashboard | LORE ",
+          "url": "https://docs.lorevision.ai/terminal/dashboard"
+        },
+        {
+          "type": "LORE Access | LORE ",
+          "url": "https://docs.lorevision.ai/lore-access"
+        },
+        {
+          "type": "Tokens | LORE ",
+          "url": "https://docs.lorevision.ai/terminal/tokens"
+        },
+        {
+          "type": "Scanner | LORE ",
+          "url": "https://docs.lorevision.ai/terminal/scanner"
+        },
+        {
+          "type": "System status | LORE ",
+          "url": "https://docs.lorevision.ai/terminal/system-status"
+        },
+        {
+          "type": "Trends | LORE ",
+          "url": "https://docs.lorevision.ai/terminal/trends"
+        },
+        {
+          "type": "Analysis System | LORE ",
+          "url": "https://docs.lorevision.ai/system/analysis-system"
+        },
+        {
+          "type": "DexScreener Integration | LORE ",
+          "url": "https://docs.lorevision.ai/system/dexscreener-integration"
+        },
+        {
+          "type": "Agent swarms | LORE ",
+          "url": "https://docs.lorevision.ai/system/agent-swarms"
+        },
+        {
+          "type": "Community | LORE ",
+          "url": "https://docs.lorevision.ai/community-and-social/community"
+        },
+        {
+          "type": "Social | LORE ",
+          "url": "https://docs.lorevision.ai/community-and-social/social"
+        },
+        {
+          "type": "Overview | LORE ",
+          "url": "https://docs.lorevision.ai/community-and-social/overview"
+        },
+        {
+          "type": "Introduction | LORE ",
+          "url": "https://docs.lorevision.ai/lore"
+        },
+        {
+          "type": "Dashboard | LORE ",
+          "url": "https://docs.lorevision.ai/terminal"
+        },
+        {
+          "type": "Agent swarms | LORE ",
+          "url": "https://docs.lorevision.ai/system"
+        },
+        {
+          "type": "Overview | LORE ",
+          "url": "https://docs.lorevision.ai/community-and-social"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9b411ab09d9ad5bb3a51af3b778014e61dbb8bb1a085080e31e7bb002ffb1d4f"
 }

@@ -76,5 +76,119 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.bodegacardano.org/",
+      "canonicalSeedUrl": "https://docs.bodegacardano.org/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-14T18:07:43.544Z",
+      "completedAt": "2025-12-14T18:07:43.544Z",
+      "providerTotals": {
+        "discovered": 14,
+        "returned": 14,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.bodegacardano.org/",
+          "canonicalUrl": "https://docs.bodegacardano.org/",
+          "status": "valid"
+        }
+      ],
+      "id": "3862da1bf10ae9541142d38940fd33a591181a0b4a9696af1b2fbee5cff76f79",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "098bb6d54bc95cfd905b9b349ffea5187e78ac1b27aee36dbab4edfbaf1e5239",
+      "filename": "documentation_2025-12-14T18:07:43.544Z.md",
+      "contentHash": "82ba5ad9a2f2e601bf403d370061593c6b64343a2cd66ca4fa9196ce15d4e471",
+      "sourceUrl": "https://docs.bodegacardano.org/",
+      "canonicalSourceUrl": "https://docs.bodegacardano.org/",
+      "capturedAt": "2025-12-14T18:07:43.544Z",
+      "crawlRunId": "3862da1bf10ae9541142d38940fd33a591181a0b4a9696af1b2fbee5cff76f79",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 14,
+      "successfulPages": 14,
+      "structure": [
+        {
+          "type": "Introduction | Bodega Market",
+          "url": "https://docs.bodegacardano.org/"
+        },
+        {
+          "type": "Protocol | Bodega Market",
+          "url": "https://docs.bodegacardano.org/protocol"
+        },
+        {
+          "type": "View Smart Contracts | Bodega Market",
+          "url": "https://docs.bodegacardano.org/view-smart-contracts"
+        },
+        {
+          "type": "Mainnet V1 Security Assumptions | Bodega Market",
+          "url": "https://docs.bodegacardano.org/mainnet-v1-security-assumptions"
+        },
+        {
+          "type": "Features | Bodega Market",
+          "url": "https://docs.bodegacardano.org/features"
+        },
+        {
+          "type": "Mainnet V1 Market Resolution | Bodega Market",
+          "url": "https://docs.bodegacardano.org/mainnet-v1-market-resolution"
+        },
+        {
+          "type": "Payout Support and Troubleshooting | Bodega Market",
+          "url": "https://docs.bodegacardano.org/payout-support-and-troubleshooting"
+        },
+        {
+          "type": "Roadmap | Bodega Market",
+          "url": "https://docs.bodegacardano.org/roadmap"
+        },
+        {
+          "type": "Terms & Conditions | Bodega Market",
+          "url": "https://docs.bodegacardano.org/terms-and-conditions"
+        },
+        {
+          "type": "Staking | Bodega Market",
+          "url": "https://docs.bodegacardano.org/staking"
+        },
+        {
+          "type": "Testnet Guide | Bodega Market",
+          "url": "https://docs.bodegacardano.org/testnet-guide"
+        },
+        {
+          "type": "SNEK FAQ | Bodega Market",
+          "url": "https://docs.bodegacardano.org/snek-faq"
+        },
+        {
+          "type": "Litepaper | Bodega Market",
+          "url": "https://docs.bodegacardano.org/litepaper"
+        },
+        {
+          "type": "Privacy Policy | Bodega Market",
+          "url": "https://docs.bodegacardano.org/privacy-policy"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "098bb6d54bc95cfd905b9b349ffea5187e78ac1b27aee36dbab4edfbaf1e5239"
 }

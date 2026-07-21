@@ -124,5 +124,167 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://oscar-gracian.gitbook.io/easy-character-movement-2",
+      "canonicalSeedUrl": "https://oscar-gracian.gitbook.io/easy-character-movement-2",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-30T02:26:05.645Z",
+      "completedAt": "2026-03-30T02:26:05.645Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2",
+          "canonicalUrl": "https://oscar-gracian.gitbook.io/easy-character-movement-2",
+          "status": "valid"
+        }
+      ],
+      "id": "34da23c9cfaf38e32e3beb0c7f3b9e5e0b5fcefa916597c1801bd40c486bcb90",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a16d8ae1ec905fb947d7098dca33255558a28890600becc08ec1a2ab5d1625bb",
+      "filename": "documentation_2026-03-30T02:26:05.645Z.md",
+      "contentHash": "bd03b9c2ce733745e122020511da54b0682fa61189674fb6d5036ea5d1489582",
+      "sourceUrl": "https://oscar-gracian.gitbook.io/easy-character-movement-2",
+      "canonicalSourceUrl": "https://oscar-gracian.gitbook.io/easy-character-movement-2",
+      "capturedAt": "2026-03-30T02:26:05.645Z",
+      "crawlRunId": "34da23c9cfaf38e32e3beb0c7f3b9e5e0b5fcefa916597c1801bd40c486bcb90",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2"
+        },
+        {
+          "type": "Components | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/user-manual/general/components"
+        },
+        {
+          "type": "General | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/user-manual/general"
+        },
+        {
+          "type": "Animating a Character | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/walkthrough/animating-a-character"
+        },
+        {
+          "type": "Controlling a Character | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/walkthrough/controlling-a-character"
+        },
+        {
+          "type": "Collision Detection and Events | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/walkthrough/collision-detection-and-events"
+        },
+        {
+          "type": "Extending a Character | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/walkthrough/extending-a-character"
+        },
+        {
+          "type": "Moving Platforms | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/walkthrough/moving-platforms"
+        },
+        {
+          "type": "AI Navigation | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/walkthrough/ai-navigation"
+        },
+        {
+          "type": "Physics | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/walkthrough/physics"
+        },
+        {
+          "type": "Cinemachine | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/walkthrough/cinemachine"
+        },
+        {
+          "type": "Getting Started | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/user-manual/general/getting-started"
+        },
+        {
+          "type": "Change Log | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/user-manual/general/change-log"
+        },
+        {
+          "type": "Package Contents | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/user-manual/general/package-contents"
+        },
+        {
+          "type": "Examples | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/user-manual/general/examples"
+        },
+        {
+          "type": "Creating a Character | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/walkthrough/creating-a-character"
+        },
+        {
+          "type": "Customer Support | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/support/customer-support"
+        },
+        {
+          "type": "NavMesh Character | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/user-manual/general/components/navmesh-character"
+        },
+        {
+          "type": "Physics Volume | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/user-manual/general/components/physics-volume"
+        },
+        {
+          "type": "Root Motion Controller | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/user-manual/general/components/root-motion-controller"
+        },
+        {
+          "type": "Slope Limit Behaviour | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/user-manual/general/components/slope-limit-behaviour"
+        },
+        {
+          "type": "Character Movement | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/user-manual/general/components/character-movement"
+        },
+        {
+          "type": "Character | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/user-manual/general/components/character"
+        },
+        {
+          "type": "General | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/user-manual"
+        },
+        {
+          "type": "Creating a Character | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/walkthrough"
+        },
+        {
+          "type": "Customer Support | Easy Character Movement 2",
+          "url": "https://oscar-gracian.gitbook.io/easy-character-movement-2/support"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a16d8ae1ec905fb947d7098dca33255558a28890600becc08ec1a2ab5d1625bb"
 }

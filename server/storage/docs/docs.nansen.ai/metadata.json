@@ -308,5 +308,351 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.nansen.ai/",
+      "canonicalSeedUrl": "https://docs.nansen.ai/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-23T11:41:19.387Z",
+      "completedAt": "2025-11-23T11:41:19.387Z",
+      "providerTotals": {
+        "discovered": 72,
+        "returned": 72,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.nansen.ai/",
+          "canonicalUrl": "https://docs.nansen.ai/",
+          "status": "valid"
+        }
+      ],
+      "id": "6e894bf6962966b114df00d5478fa41900014fa18c7b028f74eb76bcb014468f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "41e6d3ab8c33c01d5dcdfb2dff57c4449d061763c12d5fc98cabf23c107f6476",
+      "filename": "documentation_2025-11-23T11:41:19.387Z.md",
+      "contentHash": "139738e6e56356a7084218c49f44cc5dc447fb8f33f14a85ec95ba701c67f3c5",
+      "sourceUrl": "https://docs.nansen.ai/",
+      "canonicalSourceUrl": "https://docs.nansen.ai/",
+      "capturedAt": "2025-11-23T11:41:19.387Z",
+      "crawlRunId": "6e894bf6962966b114df00d5478fa41900014fa18c7b028f74eb76bcb014468f",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 72,
+      "successfulPages": 72,
+      "structure": [
+        {
+          "type": "Introduction | Nansen API",
+          "url": "https://docs.nansen.ai/"
+        },
+        {
+          "type": "Rate Limits | Nansen API",
+          "url": "https://docs.nansen.ai/about/rate-limits"
+        },
+        {
+          "type": "Credits & Pricing Guide | Nansen API",
+          "url": "https://docs.nansen.ai/about/credits-and-pricing-guide"
+        },
+        {
+          "type": "Use case Templates | Nansen API",
+          "url": "https://docs.nansen.ai/getting-started/use-case-templates"
+        },
+        {
+          "type": "Endpoints Overview | Nansen API",
+          "url": "https://docs.nansen.ai/about/endpoints-overview"
+        },
+        {
+          "type": "Complex Use cases | Nansen API",
+          "url": "https://docs.nansen.ai/getting-started/use-case-templates/complex-use-cases"
+        },
+        {
+          "type": "Make Your First API Call | Nansen API",
+          "url": "https://docs.nansen.ai/getting-started/make-your-first-api-call"
+        },
+        {
+          "type": "Simple Use cases | Nansen API",
+          "url": "https://docs.nansen.ai/getting-started/use-case-templates/simple-use-cases"
+        },
+        {
+          "type": "Use case 1: Automated Token Tracking & Smart Money Analysis | Nansen API",
+          "url": "https://docs.nansen.ai/getting-started/use-case-templates/complex-use-cases/use-case-1-automated-token-tracking-and-smart-money-analysis"
+        },
+        {
+          "type": "API Structure & Base URL | Nansen API",
+          "url": "https://docs.nansen.ai/getting-started/api-structure-and-base-url"
+        },
+        {
+          "type": "Use case 3:  Identifying Related Wallets at Scale | Nansen API",
+          "url": "https://docs.nansen.ai/getting-started/use-case-templates/complex-use-cases/use-case-3-identifying-related-wallets-at-scale"
+        },
+        {
+          "type": "Authentication | Nansen API",
+          "url": "https://docs.nansen.ai/getting-started/authentication"
+        },
+        {
+          "type": "Understanding Responses and Handling Errors | Nansen API",
+          "url": "https://docs.nansen.ai/getting-started/understanding-responses-and-handling-errors"
+        },
+        {
+          "type": "Use Case 2: Find & Copytrade Wallets on Hyperliquid | Nansen API",
+          "url": "https://docs.nansen.ai/getting-started/use-case-templates/complex-use-cases/use-case-2-find-and-copytrade-wallets-on-hyperliquid"
+        },
+        {
+          "type": "Use case 4: Copytrading Top Performing Wallets | Nansen API",
+          "url": "https://docs.nansen.ai/getting-started/use-case-templates/complex-use-cases/use-case-4-copytrading-top-performing-wallets"
+        },
+        {
+          "type": "API Changelog | Nansen API",
+          "url": "https://docs.nansen.ai/api/api-changelog"
+        },
+        {
+          "type": "Use case 5: Monitoring CEX Health | Nansen API",
+          "url": "https://docs.nansen.ai/getting-started/use-case-templates/complex-use-cases/use-case-5-monitoring-cex-health"
+        },
+        {
+          "type": "Chain Coverage | Nansen API",
+          "url": "https://docs.nansen.ai/getting-started/chain-coverage"
+        },
+        {
+          "type": "Smart Money | Nansen API",
+          "url": "https://docs.nansen.ai/api/smart-money"
+        },
+        {
+          "type": "Historical Holdings | Nansen API",
+          "url": "https://docs.nansen.ai/api/smart-money/historical-holdings"
+        },
+        {
+          "type": "Profiler | Nansen API",
+          "url": "https://docs.nansen.ai/api/profiler"
+        },
+        {
+          "type": "Jupiter DCAs | Nansen API",
+          "url": "https://docs.nansen.ai/api/smart-money/jupiter-dcas"
+        },
+        {
+          "type": "Perp Trades | Nansen API",
+          "url": "https://docs.nansen.ai/api/smart-money/perp-trades"
+        },
+        {
+          "type": "Holdings | Nansen API",
+          "url": "https://docs.nansen.ai/api/smart-money/holdings"
+        },
+        {
+          "type": "Netflows | Nansen API",
+          "url": "https://docs.nansen.ai/api/smart-money/netflows"
+        },
+        {
+          "type": "2025-08-29 - Major API Restructuring | Nansen API",
+          "url": "https://docs.nansen.ai/api/api-changelog/2025-08-29-major-api-restructuring"
+        },
+        {
+          "type": "DEX Trades | Nansen API",
+          "url": "https://docs.nansen.ai/api/smart-money/dex-trades"
+        },
+        {
+          "type": "Address Related Wallets | Nansen API",
+          "url": "https://docs.nansen.ai/api/profiler/address-related-wallets"
+        },
+        {
+          "type": "Address Perp Trades | Nansen API",
+          "url": "https://docs.nansen.ai/api/profiler/address-perp-trades"
+        },
+        {
+          "type": "Token God Mode | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode"
+        },
+        {
+          "type": "Address Counterparties | Nansen API",
+          "url": "https://docs.nansen.ai/api/profiler/address-counterparties"
+        },
+        {
+          "type": "Useful Links | Nansen API",
+          "url": "https://docs.nansen.ai/useful-links"
+        },
+        {
+          "type": "Address Current Balances | Nansen API",
+          "url": "https://docs.nansen.ai/api/profiler/address-current-balances"
+        },
+        {
+          "type": "Portfolio | Nansen API",
+          "url": "https://docs.nansen.ai/api/portfolio"
+        },
+        {
+          "type": "Address Historical Balances | Nansen API",
+          "url": "https://docs.nansen.ai/api/profiler/address-historical-balances"
+        },
+        {
+          "type": "Flow Intelligence | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode/flow-intelligence"
+        },
+        {
+          "type": "Entity Name Search | Nansen API",
+          "url": "https://docs.nansen.ai/api/profiler/entity-name-search"
+        },
+        {
+          "type": "Address Labels | Nansen API",
+          "url": "https://docs.nansen.ai/api/profiler/address-labels"
+        },
+        {
+          "type": "Hyperliquid APIs | Nansen API",
+          "url": "https://docs.nansen.ai/api/hyperliquid-apis"
+        },
+        {
+          "type": "Hyperliquid Address Leaderboard | Nansen API",
+          "url": "https://docs.nansen.ai/api/profiler/hyperliquid-address-leaderboard"
+        },
+        {
+          "type": "Connecting to Nansen MCP | Nansen API",
+          "url": "https://docs.nansen.ai/nansen-mcp/overview/connecting-to-nansen-mcp"
+        },
+        {
+          "type": "Perp Trades | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode/perp-trades"
+        },
+        {
+          "type": "PnL Leaderboard | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode/pnl-leaderboard"
+        },
+        {
+          "type": "Common MCP clients | Nansen API",
+          "url": "https://docs.nansen.ai/nansen-mcp/overview/common-mcp-clients"
+        },
+        {
+          "type": "Token Information | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode/token-information"
+        },
+        {
+          "type": "Flows | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode/flows"
+        },
+        {
+          "type": "Address Perp Positions | Nansen API",
+          "url": "https://docs.nansen.ai/api/profiler/address-perp-positions"
+        },
+        {
+          "type": "Points | Nansen API",
+          "url": "https://docs.nansen.ai/api/points"
+        },
+        {
+          "type": "Address Transactions | Nansen API",
+          "url": "https://docs.nansen.ai/api/profiler/address-transactions"
+        },
+        {
+          "type": "Overview | Nansen API",
+          "url": "https://docs.nansen.ai/nansen-mcp/overview"
+        },
+        {
+          "type": "Perp PnL Leaderboard | Nansen API",
+          "url": "https://docs.nansen.ai/api/hyperliquid-apis/perp-pnl-leaderboard"
+        },
+        {
+          "type": "DEX Trades | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode/dex-trades"
+        },
+        {
+          "type": "Token Transfers | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode/token-transfers"
+        },
+        {
+          "type": "Who Bought/Sold | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode/who-bought-sold"
+        },
+        {
+          "type": "Address Perp Positions | Nansen API",
+          "url": "https://docs.nansen.ai/api/hyperliquid-apis/address-perp-positions"
+        },
+        {
+          "type": "Jupiter DCAs | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode/jupiter-dcas"
+        },
+        {
+          "type": "Perp PnL Leaderboard | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode/perp-pnl-leaderboard"
+        },
+        {
+          "type": "Holders | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode/holders"
+        },
+        {
+          "type": "Perp Screener | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode/perp-screener"
+        },
+        {
+          "type": "Perp Positions | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode/perp-positions"
+        },
+        {
+          "type": "Token Screener | Nansen API",
+          "url": "https://docs.nansen.ai/api/token-god-mode/token-screener"
+        },
+        {
+          "type": "Token Perp Positions | Nansen API",
+          "url": "https://docs.nansen.ai/api/hyperliquid-apis/token-perp-positions"
+        },
+        {
+          "type": "Address PnL & Trade Performance | Nansen API",
+          "url": "https://docs.nansen.ai/api/profiler/address-pnl-and-trade-performance"
+        },
+        {
+          "type": "Smart Money Perp Trades | Nansen API",
+          "url": "https://docs.nansen.ai/api/hyperliquid-apis/smart-money-perp-trades"
+        },
+        {
+          "type": "Frequently Asked Questions | Nansen API",
+          "url": "https://docs.nansen.ai/guides/frequently-asked-questions"
+        },
+        {
+          "type": "Hyperliquid Leaderboard | Nansen API",
+          "url": "https://docs.nansen.ai/api/hyperliquid-apis/hyperliquid-leaderboard"
+        },
+        {
+          "type": "Tools supported by Nansen MCP | Nansen API",
+          "url": "https://docs.nansen.ai/nansen-mcp/overview/tools-supported-by-nansen-mcp"
+        },
+        {
+          "type": "Perp Screener | Nansen API",
+          "url": "https://docs.nansen.ai/api/hyperliquid-apis/perp-screener"
+        },
+        {
+          "type": "Address Perp Trades | Nansen API",
+          "url": "https://docs.nansen.ai/api/hyperliquid-apis/address-perp-trades"
+        },
+        {
+          "type": "Token Perp Trades | Nansen API",
+          "url": "https://docs.nansen.ai/api/hyperliquid-apis/token-perp-trades"
+        },
+        {
+          "type": "Data Redistribution Guidelines | Nansen API",
+          "url": "https://docs.nansen.ai/guides/data-redistribution-guidelines"
+        },
+        {
+          "type": "MCP Data Redistribution Guidelines | Nansen API",
+          "url": "https://docs.nansen.ai/nansen-mcp/overview/mcp-data-redistribution-guidelines"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "41e6d3ab8c33c01d5dcdfb2dff57c4449d061763c12d5fc98cabf23c107f6476"
 }

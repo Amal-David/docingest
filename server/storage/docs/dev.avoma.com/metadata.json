@@ -28,5 +28,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://dev.avoma.com/#section/Introduction",
+      "canonicalSeedUrl": "https://dev.avoma.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-21T05:03:58.333Z",
+      "completedAt": "2025-10-21T05:03:58.333Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://dev.avoma.com/#section/Introduction",
+          "canonicalUrl": "https://dev.avoma.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "c98acc9cca435609b66626319b7194c57b306a8ad3868ccb9d0aef73b53dfc2f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1b8a228d15335fdda388bd74f990bc1b212ffa1cb5cb179c42ea0a0c72e47566",
+      "filename": "documentation_2025-10-21T05:03:58.333Z.md",
+      "contentHash": "6656d3b3df0bc6573cd4cfe0f77ea35024432d829aa35be3f627a2a099ec75f3",
+      "sourceUrl": "https://dev.avoma.com/#section/Introduction",
+      "canonicalSourceUrl": "https://dev.avoma.com/",
+      "capturedAt": "2025-10-21T05:03:58.333Z",
+      "crawlRunId": "c98acc9cca435609b66626319b7194c57b306a8ad3868ccb9d0aef73b53dfc2f",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Avoma APIs",
+          "url": "https://dev.avoma.com/#section/Introduction"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://dev.avoma.com/openapi.yml"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1b8a228d15335fdda388bd74f990bc1b212ffa1cb5cb179c42ea0a0c72e47566"
 }

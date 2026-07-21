@@ -120,5 +120,163 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://arbsvsodds.gitbook.io/avo-documentation/positive-ev-mathematical-example",
+      "canonicalSeedUrl": "https://arbsvsodds.gitbook.io/avo-documentation/positive-ev-mathematical-example",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-18T23:38:16.162Z",
+      "completedAt": "2025-04-18T23:38:16.162Z",
+      "providerTotals": {
+        "discovered": 25,
+        "returned": 25,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/positive-ev-mathematical-example",
+          "canonicalUrl": "https://arbsvsodds.gitbook.io/avo-documentation/positive-ev-mathematical-example",
+          "status": "valid"
+        }
+      ],
+      "id": "a6b4c35938fa3cd23e0ce6e27dd7b689ec22bc76384e79d110b94b85b491dc97",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "054eafeddfc1197352dc446afcaab537189a711443082304185bf9935ca42836",
+      "filename": "documentation_2025-04-18T23:38:16.162Z.md",
+      "contentHash": "72a914391d8b0c7a4f748b4d72c8090e48b2951bee948173b86fb76bb0e9f46c",
+      "sourceUrl": "https://arbsvsodds.gitbook.io/avo-documentation/positive-ev-mathematical-example",
+      "canonicalSourceUrl": "https://arbsvsodds.gitbook.io/avo-documentation/positive-ev-mathematical-example",
+      "capturedAt": "2025-04-18T23:38:16.162Z",
+      "crawlRunId": "a6b4c35938fa3cd23e0ce6e27dd7b689ec22bc76384e79d110b94b85b491dc97",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 25,
+      "successfulPages": 25,
+      "structure": [
+        {
+          "type": "Positive EV Mathematical Example | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/positive-ev-mathematical-example"
+        },
+        {
+          "type": "Exploring Arbitrage and Positive EV Betting | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/exploring-arbitrage-and-positive-ev-betting"
+        },
+        {
+          "type": "Dashboard | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/dashboard"
+        },
+        {
+          "type": "Bet Settings and Filters | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/dashboard/bet-settings-and-filters"
+        },
+        {
+          "type": "Arbitrage Mathematical Example | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/arbitrage-mathematical-example"
+        },
+        {
+          "type": "Positive EV Calculator | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/dashboard/positive-ev-calculator"
+        },
+        {
+          "type": "Wallet | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/dashboard/wallet"
+        },
+        {
+          "type": "Mobile | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/dashboard/mobile"
+        },
+        {
+          "type": "Bet Feed | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/dashboard/bet-feed"
+        },
+        {
+          "type": "AVO Tabs Plugin | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/avo-tabs-plugin"
+        },
+        {
+          "type": "Arbitrage Calculator | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/dashboard/arbitrage-calculator"
+        },
+        {
+          "type": "Bet Tracker | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/dashboard/bet-tracker"
+        },
+        {
+          "type": "Installation | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/avo-tabs-plugin/installation"
+        },
+        {
+          "type": "Getting Started with AVO | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/getting-started-with-avo"
+        },
+        {
+          "type": "Assigning Sportsbooks | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/avo-tabs-plugin/assigning-sportsbooks"
+        },
+        {
+          "type": "Presets | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/avo-tabs-plugin/presets"
+        },
+        {
+          "type": "Getting Started | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/avo-tabs-plugin/getting-started"
+        },
+        {
+          "type": "Custom Links | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/avo-tabs-plugin/custom-links"
+        },
+        {
+          "type": "Link Opening Modes | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/avo-tabs-plugin/link-opening-modes"
+        },
+        {
+          "type": "Common Problems | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/common-problems"
+        },
+        {
+          "type": "Supported Sportsbooks | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/supported-sportsbooks"
+        },
+        {
+          "type": "MLB is here | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/updates/mlb-is-here"
+        },
+        {
+          "type": "Avoiding Book Limits | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/avoiding-book-limits"
+        },
+        {
+          "type": "18 New Sportsbooks Added | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/updates/18-new-sportsbooks-added"
+        },
+        {
+          "type": "Updates | AVO User Manual",
+          "url": "https://arbsvsodds.gitbook.io/avo-documentation/updates"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "054eafeddfc1197352dc446afcaab537189a711443082304185bf9935ca42836"
 }

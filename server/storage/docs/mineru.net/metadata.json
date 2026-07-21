@@ -69,5 +69,103 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://mineru.net/apiManage/",
+      "canonicalSeedUrl": "https://mineru.net/apiManage",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-20T17:44:59.871Z",
+      "completedAt": "2026-01-20T17:44:59.871Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://mineru.net/apiManage/",
+          "canonicalUrl": "https://mineru.net/apiManage",
+          "status": "valid"
+        }
+      ],
+      "id": "5288dc6632f69f7d514797a34ad4717d0adc2a17512526695177e213f1f2f9b5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9cf1bf016647c776265dd41b82fb7920e96ff2ef952848184020882e18868069",
+      "filename": "documentation_2026-01-20T17:44:59.871Z.md",
+      "contentHash": "1abd2200bd6c605b20b75f85217773db7ce161e47d203b9b9fb1fabefabaad95",
+      "sourceUrl": "https://mineru.net/apiManage/",
+      "canonicalSourceUrl": "https://mineru.net/apiManage",
+      "capturedAt": "2026-01-20T17:44:59.871Z",
+      "crawlRunId": "5288dc6632f69f7d514797a34ad4717d0adc2a17512526695177e213f1f2f9b5",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "MinerU",
+          "url": "https://mineru.net/apiManage/"
+        },
+        {
+          "type": "MinerU",
+          "url": "https://mineru.net"
+        },
+        {
+          "type": "MinerU",
+          "url": "https://mineru.net/apiManage/docs"
+        },
+        {
+          "type": "MinerU",
+          "url": "https://mineru.net/client"
+        },
+        {
+          "type": "MinerU",
+          "url": "https://mineru.net/ecosystem"
+        },
+        {
+          "type": "MinerU",
+          "url": "https://mineru.net/apiManage/token"
+        },
+        {
+          "type": "MinerU",
+          "url": "https://mineru.net/apiManage/limit"
+        },
+        {
+          "type": "MinerU",
+          "url": "https://mineru.net/apiManage/usage"
+        },
+        {
+          "type": "MinerU",
+          "url": "https://mineru.net/apiManage/access"
+        },
+        {
+          "type": "MinerU4Chem二维码 ",
+          "url": "https://mineru.net/community-portal/?aliasId=e64aa2f5"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9cf1bf016647c776265dd41b82fb7920e96ff2ef952848184020882e18868069"
 }

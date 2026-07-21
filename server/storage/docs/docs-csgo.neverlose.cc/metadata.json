@@ -323,5 +323,339 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs-csgo.neverlose.cc/",
+      "canonicalSeedUrl": "https://docs-csgo.neverlose.cc/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-13T17:21:37.429Z",
+      "completedAt": "2026-07-13T17:21:37.429Z",
+      "providerTotals": {
+        "discovered": 69,
+        "returned": 69,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs-csgo.neverlose.cc/",
+          "canonicalUrl": "https://docs-csgo.neverlose.cc/",
+          "status": "valid"
+        }
+      ],
+      "id": "d3a6f9e50002a9a17b7572ff261efcf1fac139e510701320f4eceda16dd19634",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d1cdacf3481a94dee935bef9fbcebef1b1bd45638bfcca5da5b856917513c0fd",
+      "filename": "documentation_2026-07-13T17:21:37.429Z.md",
+      "contentHash": "9333a02464a02bd6c01bee64fa2956401c37cda0eed382075a6b8f461b1b8df1",
+      "sourceUrl": "https://docs-csgo.neverlose.cc/",
+      "canonicalSourceUrl": "https://docs-csgo.neverlose.cc/",
+      "capturedAt": "2026-07-13T17:21:37.429Z",
+      "crawlRunId": "d3a6f9e50002a9a17b7572ff261efcf1fac139e510701320f4eceda16dd19634",
+      "upstreamVersion": "1.0.3",
+      "upstreamChannel": "latest",
+      "totalPages": 69,
+      "successfulPages": 69,
+      "structure": [
+        {
+          "type": "Welcome | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/"
+        },
+        {
+          "type": "Common knowledge | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/common-knowledge"
+        },
+        {
+          "type": "Quick start | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/quick-start"
+        },
+        {
+          "type": "Examples | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/script-examples"
+        },
+        {
+          "type": "Vector | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/script-examples/vector"
+        },
+        {
+          "type": "Color | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/script-examples/color"
+        },
+        {
+          "type": "ESP | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/script-examples/esp"
+        },
+        {
+          "type": "Materials | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/script-examples/materials"
+        },
+        {
+          "type": "ConVars | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/script-examples/convars"
+        },
+        {
+          "type": "UI | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/script-examples/ui"
+        },
+        {
+          "type": "Variables | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables"
+        },
+        {
+          "type": "db | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/db"
+        },
+        {
+          "type": "cvar | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/cvar"
+        },
+        {
+          "type": "Events | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/events"
+        },
+        {
+          "type": "json | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/json"
+        },
+        {
+          "type": "bit | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/bit"
+        },
+        {
+          "type": "common | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/common"
+        },
+        {
+          "type": "files | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/files"
+        },
+        {
+          "type": "network | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/network"
+        },
+        {
+          "type": "events | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/events"
+        },
+        {
+          "type": "esp | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/esp"
+        },
+        {
+          "type": "globals | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/globals"
+        },
+        {
+          "type": "panorama | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/panorama"
+        },
+        {
+          "type": "color | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/color"
+        },
+        {
+          "type": "materials | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/materials"
+        },
+        {
+          "type": "_G | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/_g"
+        },
+        {
+          "type": "rage | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/rage"
+        },
+        {
+          "type": "math | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/math"
+        },
+        {
+          "type": "vector | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/vector"
+        },
+        {
+          "type": "utils | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/utils"
+        },
+        {
+          "type": "entity | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/entity"
+        },
+        {
+          "type": "ui | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/ui"
+        },
+        {
+          "type": "render | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/render"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/llms.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/readme.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/common-knowledge.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/quick-start.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/script-examples.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/script-examples/vector.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/script-examples/color.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/script-examples/esp.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/script-examples/materials.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/script-examples/convars.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/useful-information/script-examples/ui.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/cvar.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/vector.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/events.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/math.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/db.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/esp.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/utils.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/json.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/bit.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/entity.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/files.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/events.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/globals.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/ui.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/network.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/panorama.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/common.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/materials.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/color.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/_g.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/render.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs-csgo.neverlose.cc/documentation/variables/rage.md"
+        },
+        {
+          "type": "Quick start | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/useful-information"
+        },
+        {
+          "type": "Events | Neverlose",
+          "url": "https://docs-csgo.neverlose.cc/documentation"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d1cdacf3481a94dee935bef9fbcebef1b1bd45638bfcca5da5b856917513c0fd"
 }

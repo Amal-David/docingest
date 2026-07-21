@@ -248,5 +248,291 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://discordpy-self.readthedocs.io/en/latest/index.html#",
+      "canonicalSeedUrl": "https://discordpy-self.readthedocs.io/en/latest/index.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-24T18:35:02.107Z",
+      "completedAt": "2026-01-24T18:35:02.107Z",
+      "providerTotals": {
+        "discovered": 57,
+        "returned": 57,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://discordpy-self.readthedocs.io/en/latest/index.html#",
+          "canonicalUrl": "https://discordpy-self.readthedocs.io/en/latest/index.html",
+          "status": "valid"
+        }
+      ],
+      "id": "3b3cc138b64d93e240d3f554d0b813826b42f9238454fe10b52f235094a263a2",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "bfd11d4f5ee9126e3b2741596060895594689778d90a6244c3e65fa01100c5a8",
+      "filename": "documentation_2026-01-24T18:35:02.107Z.md",
+      "contentHash": "2b37a5b87a70f48eee9d72654c9aa8fd7da3c79cde7c2f5e8fed79e63d811a44",
+      "sourceUrl": "https://discordpy-self.readthedocs.io/en/latest/index.html#",
+      "canonicalSourceUrl": "https://discordpy-self.readthedocs.io/en/latest/index.html",
+      "capturedAt": "2026-01-24T18:35:02.107Z",
+      "crawlRunId": "3b3cc138b64d93e240d3f554d0b813826b42f9238454fe10b52f235094a263a2",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 57,
+      "successfulPages": 57,
+      "structure": [
+        {
+          "type": "Welcome to discord.py-self",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/index.html#"
+        },
+        {
+          "type": "Welcome to discord.py-self",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.1/"
+        },
+        {
+          "type": "Welcome to discord.py-self",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.1.0/"
+        },
+        {
+          "type": "Welcome to discord.py-self",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.0/"
+        },
+        {
+          "type": "Frequently Asked Questions",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/faq.html"
+        },
+        {
+          "type": "Migrating to This Library",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/migrating_from_dpy.html"
+        },
+        {
+          "type": "Introduction",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/intro.html"
+        },
+        {
+          "type": "Quickstart",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/quickstart.html"
+        },
+        {
+          "type": "Authenticating",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/authenticating.html"
+        },
+        {
+          "type": "Setting Up Logging",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/logging.html"
+        },
+        {
+          "type": "Guild Subscriptions",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/guild_subscriptions.html"
+        },
+        {
+          "type": "Search",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/search.html"
+        },
+        {
+          "type": "discord.ext.commands – Bot commands framework",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/ext/commands/index.html"
+        },
+        {
+          "type": "discord.ext.tasks – asyncio.Task helpers",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/ext/tasks/index.html"
+        },
+        {
+          "type": "Changelog",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/whats_new.html"
+        },
+        {
+          "type": "Version Guarantees",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/version_guarantees.html"
+        },
+        {
+          "type": "Frequently Asked Questions",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.1/faq.html"
+        },
+        {
+          "type": "Introduction",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.1/intro.html"
+        },
+        {
+          "type": "Migrating to This Library",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.1/migrating_from_dpy.html"
+        },
+        {
+          "type": "Guild Subscriptions",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.1/guild_subscriptions.html"
+        },
+        {
+          "type": "Quickstart",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.1/quickstart.html"
+        },
+        {
+          "type": "Setting Up Logging",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.1/logging.html"
+        },
+        {
+          "type": "Authenticating",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.1/authenticating.html"
+        },
+        {
+          "type": "discord.ext.commands – Bot commands framework",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.1/ext/commands/index.html"
+        },
+        {
+          "type": "discord.ext.tasks – asyncio.Task helpers",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.1/ext/tasks/index.html"
+        },
+        {
+          "type": "Search",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.1/search.html"
+        },
+        {
+          "type": "Migrating to This Library",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.0/migrating_from_dpy.html"
+        },
+        {
+          "type": "Changelog",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.1/whats_new.html"
+        },
+        {
+          "type": "Version Guarantees",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.1/version_guarantees.html"
+        },
+        {
+          "type": "Frequently Asked Questions",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.0/faq.html"
+        },
+        {
+          "type": "Migrating to This Library",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.1.0/migrating_from_dpy.html"
+        },
+        {
+          "type": "Frequently Asked Questions",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.1.0/faq.html"
+        },
+        {
+          "type": "Introduction",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.1.0/intro.html"
+        },
+        {
+          "type": "Quickstart",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.1.0/quickstart.html"
+        },
+        {
+          "type": "Guild Subscriptions",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.1.0/guild_subscriptions.html"
+        },
+        {
+          "type": "Setting Up Logging",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.1.0/logging.html"
+        },
+        {
+          "type": "Authenticating",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.1.0/authenticating.html"
+        },
+        {
+          "type": "Search",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.1.0/search.html"
+        },
+        {
+          "type": "discord.ext.commands – Bot commands framework",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.1.0/ext/commands/index.html"
+        },
+        {
+          "type": "discord.ext.tasks – asyncio.Task helpers",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.1.0/ext/tasks/index.html"
+        },
+        {
+          "type": "Version Guarantees",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.1.0/version_guarantees.html"
+        },
+        {
+          "type": "Changelog",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.1.0/whats_new.html"
+        },
+        {
+          "type": "Setting Up Logging",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.0/logging.html"
+        },
+        {
+          "type": "Quickstart",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.0/quickstart.html"
+        },
+        {
+          "type": "Introduction",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.0/intro.html"
+        },
+        {
+          "type": "Tokens",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.0/token.html"
+        },
+        {
+          "type": "discord.ext.tasks – asyncio.Task helpers",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.0/ext/tasks/index.html"
+        },
+        {
+          "type": "discord.ext.commands – Bot commands framework",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.0/ext/commands/index.html"
+        },
+        {
+          "type": "Search",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.0/search.html"
+        },
+        {
+          "type": "Changelog",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.0/whats_new.html"
+        },
+        {
+          "type": "API Reference",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/ext/commands/api.html"
+        },
+        {
+          "type": "Migrating to v2.0",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.0/migrating.html"
+        },
+        {
+          "type": "Index",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/genindex.html"
+        },
+        {
+          "type": "Migrating to v2.0",
+          "url": "https://discordpy-self.readthedocs.io/en/latest/migrating.html"
+        },
+        {
+          "type": "Version Guarantees",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.0/version_guarantees.html"
+        },
+        {
+          "type": "Migrating to v2.0",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.1.0/migrating.html"
+        },
+        {
+          "type": "Index",
+          "url": "https://discordpy-self.readthedocs.io/en/v2.0.0/genindex.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "bfd11d4f5ee9126e3b2741596060895594689778d90a6244c3e65fa01100c5a8"
 }

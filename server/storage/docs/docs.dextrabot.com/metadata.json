@@ -28,5 +28,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.dextrabot.com/",
+      "canonicalSeedUrl": "https://docs.dextrabot.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-21T12:51:52.473Z",
+      "completedAt": "2026-01-21T12:51:52.473Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.dextrabot.com/",
+          "canonicalUrl": "https://docs.dextrabot.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "494a8b9ef9d4253b10192c651b5299338025bd8df34f057576334ecdd9cdbdd9",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a60cc795129ec9da06d65c03a08569fc42c399db177e1d078ea1cb7b0a59a526",
+      "filename": "documentation_2026-01-21T12:51:52.473Z.md",
+      "contentHash": "db9b7bc893d196f5c794c242e41537c0600d9f90076f4bdfb69dfc23aa661dce",
+      "sourceUrl": "https://docs.dextrabot.com/",
+      "canonicalSourceUrl": "https://docs.dextrabot.com/",
+      "capturedAt": "2026-01-21T12:51:52.473Z",
+      "crawlRunId": "494a8b9ef9d4253b10192c651b5299338025bd8df34f057576334ecdd9cdbdd9",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Quickstart | Dextrabot",
+          "url": "https://docs.dextrabot.com/"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.dextrabot.com/cdn-cgi/l/email-protection"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a60cc795129ec9da06d65c03a08569fc42c399db177e1d078ea1cb7b0a59a526"
 }

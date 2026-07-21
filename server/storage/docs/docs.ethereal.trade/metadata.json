@@ -40,5 +40,83 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.ethereal.trade/",
+      "canonicalSeedUrl": "https://docs.ethereal.trade/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-18T08:18:33.805Z",
+      "completedAt": "2025-04-18T08:18:33.805Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.ethereal.trade/",
+          "canonicalUrl": "https://docs.ethereal.trade/",
+          "status": "valid"
+        }
+      ],
+      "id": "94897d543ec369192df7166462d8b0203fc090a19e0e5b76f9bf7f3471412338",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0ff35b83b45dfa5edf8db8a48005e671ef9947f4ca1cd621e2b44dcded6ac555",
+      "filename": "documentation_2025-04-18T08:18:33.805Z.md",
+      "contentHash": "1dd2409d2ef5f132335815bb2cac9bfb3b0a6f455ace0dcbe10aabdd23c8d976",
+      "sourceUrl": "https://docs.ethereal.trade/",
+      "canonicalSourceUrl": "https://docs.ethereal.trade/",
+      "capturedAt": "2025-04-18T08:18:33.805Z",
+      "crawlRunId": "94897d543ec369192df7166462d8b0203fc090a19e0e5b76f9bf7f3471412338",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "What is Ethereal? | Ethereal Docs",
+          "url": "https://docs.ethereal.trade/"
+        },
+        {
+          "type": "Participate & Earn | Ethereal Docs",
+          "url": "https://docs.ethereal.trade/season-zero/participate-and-earn"
+        },
+        {
+          "type": "FAQ | Ethereal Docs",
+          "url": "https://docs.ethereal.trade/resources/faq"
+        },
+        {
+          "type": "Audits & Addresses | Ethereal Docs",
+          "url": "https://docs.ethereal.trade/resources/audits-and-addresses"
+        },
+        {
+          "type": "Media Kit | Ethereal Docs",
+          "url": "https://docs.ethereal.trade/media-kit"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0ff35b83b45dfa5edf8db8a48005e671ef9947f4ca1cd621e2b44dcded6ac555"
 }

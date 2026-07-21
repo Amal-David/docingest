@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.requesty.ai/router/requesty-router",
+      "canonicalSeedUrl": "https://docs.requesty.ai/router/requesty-router",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-02T23:01:48.692Z",
+      "completedAt": "2025-02-02T23:01:48.692Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.requesty.ai/router/requesty-router",
+          "canonicalUrl": "https://docs.requesty.ai/router/requesty-router",
+          "status": "valid"
+        }
+      ],
+      "id": "b418442ca2c57852cab4cad481c06aa8de6a7a78c97c434d56c5fb123d9b7592",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "79342afd73a6235463fa59421619c1d7e14a1ace11c943a7c092734c66152a9f",
+      "filename": "documentation_2025-02-02T23:01:48.692Z.md",
+      "contentHash": "0ee56661427d970d39e1e9aa905271683f8d029c88a508b4380feb58cf4363a2",
+      "sourceUrl": "https://docs.requesty.ai/router/requesty-router",
+      "canonicalSourceUrl": "https://docs.requesty.ai/router/requesty-router",
+      "capturedAt": "2025-02-02T23:01:48.692Z",
+      "crawlRunId": "b418442ca2c57852cab4cad481c06aa8de6a7a78c97c434d56c5fb123d9b7592",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Requesty Router | Requesty Docs",
+          "url": "https://docs.requesty.ai/router/requesty-router"
+        },
+        {
+          "type": "Chatlogs | Requesty Docs",
+          "url": "https://docs.requesty.ai/platform/chatlogs"
+        },
+        {
+          "type": "Analytics-only | Requesty Docs",
+          "url": "https://docs.requesty.ai/integrating-with-requesty/integrations"
+        },
+        {
+          "type": "Cline application | Requesty Docs",
+          "url": "https://docs.requesty.ai/router/requesty-router/cline-application"
+        },
+        {
+          "type": "Supported models | Requesty Docs",
+          "url": "https://docs.requesty.ai/router/requesty-router/supported-models"
+        },
+        {
+          "type": "LLM Insights API | Requesty Docs",
+          "url": "https://docs.requesty.ai/integrating-with-requesty/integrations/llm-insights-api"
+        },
+        {
+          "type": "LLM Insights Python client | Requesty Docs",
+          "url": "https://docs.requesty.ai/integrating-with-requesty/integrations/llm-insights-python-client"
+        },
+        {
+          "type": "Get started with Requesty | Requesty Docs",
+          "url": "https://docs.requesty.ai/"
+        },
+        {
+          "type": "Prompt playground | Requesty Docs",
+          "url": "https://docs.requesty.ai/platform/prompt-playground"
+        },
+        {
+          "type": "Reports | Requesty Docs",
+          "url": "https://docs.requesty.ai/platform/reports"
+        },
+        {
+          "type": "Insight Explorer | Requesty Docs",
+          "url": "https://docs.requesty.ai/platform/insight-explorer"
+        },
+        {
+          "type": "Data processor | Requesty Docs",
+          "url": "https://docs.requesty.ai/platform/data-processor"
+        },
+        {
+          "type": "Custom data upload | Requesty Docs",
+          "url": "https://docs.requesty.ai/integrating-with-requesty/integrations/custom-data-upload"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "79342afd73a6235463fa59421619c1d7e14a1ace11c943a7c092734c66152a9f"
 }

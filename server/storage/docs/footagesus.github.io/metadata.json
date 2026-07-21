@@ -154,5 +154,179 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://footagesus.github.io/treehub-web/docs/windui",
+      "canonicalSeedUrl": "https://footagesus.github.io/treehub-web/docs/windui",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-13T08:33:23.516Z",
+      "completedAt": "2026-07-13T08:33:23.516Z",
+      "providerTotals": {
+        "discovered": 29,
+        "returned": 29,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://footagesus.github.io/treehub-web/docs/windui",
+          "canonicalUrl": "https://footagesus.github.io/treehub-web/docs/windui",
+          "status": "valid"
+        }
+      ],
+      "id": "99931b45bb72735c446beccfbbf30bf01fb87637a7576403ae3bc45b6aaa2e79",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "13e52cfc33eeeedf4afda33b93aaf62de8653dcb899ce0041236b894d320e942",
+      "filename": "documentation_2026-07-13T08:33:23.516Z.md",
+      "contentHash": "2dcd116eca106c5f5559d00a7efb4191759918b8f9179b273f7e8d5c1aa0ff10",
+      "sourceUrl": "https://footagesus.github.io/treehub-web/docs/windui",
+      "canonicalSourceUrl": "https://footagesus.github.io/treehub-web/docs/windui",
+      "capturedAt": "2026-07-13T08:33:23.516Z",
+      "crawlRunId": "99931b45bb72735c446beccfbbf30bf01fb87637a7576403ae3bc45b6aaa2e79",
+      "upstreamVersion": "1.0.2",
+      "upstreamChannel": "latest",
+      "totalPages": 29,
+      "successfulPages": 29,
+      "structure": [
+        {
+          "type": "About WindUI",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui"
+        },
+        {
+          "type": "Loadstring",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/loadstring"
+        },
+        {
+          "type": "Themes",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/themes"
+        },
+        {
+          "type": "Window",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/window"
+        },
+        {
+          "type": "Notification",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/notification"
+        },
+        {
+          "type": "Key System",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/keysystem"
+        },
+        {
+          "type": "Tab",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/tab"
+        },
+        {
+          "type": "Tag",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/tag"
+        },
+        {
+          "type": "Tab Section",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/tabsection"
+        },
+        {
+          "type": "Section",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/sections"
+        },
+        {
+          "type": "Popup",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/popup"
+        },
+        {
+          "type": "Dialog",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/dialog"
+        },
+        {
+          "type": "Button",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/button"
+        },
+        {
+          "type": "Toggle",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/toggle"
+        },
+        {
+          "type": "Dropdown",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/dropdown"
+        },
+        {
+          "type": "Slider",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/slider"
+        },
+        {
+          "type": "Input",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/input"
+        },
+        {
+          "type": "Colorpicker",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/colorpicker"
+        },
+        {
+          "type": "Paragraph",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/paragraph"
+        },
+        {
+          "type": "Keybind",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/keybind"
+        },
+        {
+          "type": "Code",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/code"
+        },
+        {
+          "type": "Divider",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/divider"
+        },
+        {
+          "type": "Space",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/space"
+        },
+        {
+          "type": "HStack & VStack",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/hstackvstack"
+        },
+        {
+          "type": "Image",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/image"
+        },
+        {
+          "type": "Group (deprecated)",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/group"
+        },
+        {
+          "type": "Icons",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/icons"
+        },
+        {
+          "type": "ProgressBar",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/progressbar"
+        },
+        {
+          "type": "Configs",
+          "url": "https://footagesus.github.io/treehub-web/docs/windui/configs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "13e52cfc33eeeedf4afda33b93aaf62de8653dcb899ce0041236b894d320e942"
 }

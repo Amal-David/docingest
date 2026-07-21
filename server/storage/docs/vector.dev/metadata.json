@@ -33,5 +33,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://vector.dev/docs/",
+      "canonicalSeedUrl": "https://vector.dev/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-15T14:05:26.371Z",
+      "completedAt": "2025-10-15T14:05:26.371Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://vector.dev/docs/",
+          "canonicalUrl": "https://vector.dev/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "9da25b9f857b3104941bf57e60d6e708b0612f49fce9c7c95939f6c0e397e95e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4992c5e27595e26307bf8420af85199117f04a0dac5e96269d888daa69a14dfb",
+      "filename": "documentation_2025-10-15T14:05:26.371Z.md",
+      "contentHash": "2d151e879a9cc4eeb7ba8e9b0b5cf4c515417f20ae0b627adb7b1d6bad7314b0",
+      "sourceUrl": "https://vector.dev/docs/",
+      "canonicalSourceUrl": "https://vector.dev/docs",
+      "capturedAt": "2025-10-15T14:05:26.371Z",
+      "crawlRunId": "9da25b9f857b3104941bf57e60d6e708b0612f49fce9c7c95939f6c0e397e95e",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "The Vector documentation | Vector documentation\n",
+          "url": "https://vector.dev/docs/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4992c5e27595e26307bf8420af85199117f04a0dac5e96269d888daa69a14dfb"
 }

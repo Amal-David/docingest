@@ -33,5 +33,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.dataforseo.com/v3/",
+      "canonicalSeedUrl": "https://docs.dataforseo.com/v3",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-06T22:15:41.311Z",
+      "completedAt": "2026-04-06T22:15:41.311Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.dataforseo.com/v3/",
+          "canonicalUrl": "https://docs.dataforseo.com/v3",
+          "status": "valid"
+        }
+      ],
+      "id": "7b1288fe7483d9842c89797026a073a1d05c02d75ffa7151931476db0eb59cdc",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "316f961485f58953d46476a6c161dd1286c11a8264dc58f263ac1bc33e431d17",
+      "filename": "documentation_2026-04-06T22:15:41.311Z.md",
+      "contentHash": "b58cf137a8b8f9e61c5a8e1da331c11baa70ba28636d1bdf5e29b03acf66dd8f",
+      "sourceUrl": "https://docs.dataforseo.com/v3/",
+      "canonicalSourceUrl": "https://docs.dataforseo.com/v3",
+      "capturedAt": "2026-04-06T22:15:41.311Z",
+      "crawlRunId": "7b1288fe7483d9842c89797026a073a1d05c02d75ffa7151931476db0eb59cdc",
+      "upstreamVersion": "3.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "DataForSEO API v.3",
+          "url": "https://docs.dataforseo.com/v3/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "316f961485f58953d46476a6c161dd1286c11a8264dc58f263ac1bc33e431d17"
 }

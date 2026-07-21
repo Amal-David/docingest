@@ -60,5 +60,103 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.slingdata.io/",
+      "canonicalSeedUrl": "https://docs.slingdata.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-31T17:10:11.092Z",
+      "completedAt": "2026-03-31T17:10:11.092Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.slingdata.io/",
+          "canonicalUrl": "https://docs.slingdata.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "029afbb69131cab38575387bc9a7b22b1d572999f160dca1cd2b13bd132ef583",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "bfede99fbcbb2085fd898ad77f9fdda3f3384b577af5d89334f4c6747606c997",
+      "filename": "documentation_2026-03-31T17:10:11.092Z.md",
+      "contentHash": "dde76f49b2a75aa0f57b62c0279fd762160b34823beaa5b05f14d919726e7399",
+      "sourceUrl": "https://docs.slingdata.io/",
+      "canonicalSourceUrl": "https://docs.slingdata.io/",
+      "capturedAt": "2026-03-31T17:10:11.092Z",
+      "crawlRunId": "029afbb69131cab38575387bc9a7b22b1d572999f160dca1cd2b13bd132ef583",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "Introduction | SlingData.IO",
+          "url": "https://docs.slingdata.io/"
+        },
+        {
+          "type": "Installation | SlingData.IO",
+          "url": "https://docs.slingdata.io/sling-cli/getting-started"
+        },
+        {
+          "type": "Global Variables | SlingData.IO",
+          "url": "https://docs.slingdata.io/sling-cli/variables"
+        },
+        {
+          "type": "VS Code Extension 🔌 | SlingData.IO",
+          "url": "https://docs.slingdata.io/sling-cli/vscode"
+        },
+        {
+          "type": "Running Sling | SlingData.IO",
+          "url": "https://docs.slingdata.io/sling-cli/run"
+        },
+        {
+          "type": "Environment | SlingData.IO",
+          "url": "https://docs.slingdata.io/sling-cli/environment"
+        },
+        {
+          "type": "Architecture | SlingData.IO",
+          "url": "https://docs.slingdata.io/sling-platform/platform/architecture"
+        },
+        {
+          "type": "Sling Platform | SlingData.IO",
+          "url": "https://docs.slingdata.io/sling-platform/platform"
+        },
+        {
+          "type": "Connections | SlingData.IO",
+          "url": "https://docs.slingdata.io/sling-platform/platform/connections"
+        },
+        {
+          "type": "Editor | SlingData.IO",
+          "url": "https://docs.slingdata.io/sling-platform/platform/editor"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "bfede99fbcbb2085fd898ad77f9fdda3f3384b577af5d89334f4c6747606c997"
 }

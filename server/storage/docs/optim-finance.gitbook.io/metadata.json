@@ -92,5 +92,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://optim-finance.gitbook.io/optim-finance/",
+      "canonicalSeedUrl": "https://optim-finance.gitbook.io/optim-finance",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-14T18:07:12.624Z",
+      "completedAt": "2025-12-14T18:07:12.624Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://optim-finance.gitbook.io/optim-finance/",
+          "canonicalUrl": "https://optim-finance.gitbook.io/optim-finance",
+          "status": "valid"
+        }
+      ],
+      "id": "64d60a3f5f21d7b50a4828dfae02e0e61f6366789a85ef61887a0e0f87abe8aa",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ff251285da5264d45bfeb13fe77b5c7d46e1f76c50769a3ad2f02eb1cfcfa6a8",
+      "filename": "documentation_2025-12-14T18:07:12.624Z.md",
+      "contentHash": "0804c8cca9980503112122234272a1e7ea0d72d3ba331613ef2efbc2a1dd4c19",
+      "sourceUrl": "https://optim-finance.gitbook.io/optim-finance/",
+      "canonicalSourceUrl": "https://optim-finance.gitbook.io/optim-finance",
+      "capturedAt": "2025-12-14T18:07:12.624Z",
+      "crawlRunId": "64d60a3f5f21d7b50a4828dfae02e0e61f6366789a85ef61887a0e0f87abe8aa",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "Introduction | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/"
+        },
+        {
+          "type": "Roadmap | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/introduction/roadmap"
+        },
+        {
+          "type": "Overview | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/oada/overview"
+        },
+        {
+          "type": "Flow of Funds | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/oada/flow-of-funds"
+        },
+        {
+          "type": "Passive yield with sOADA | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/oada/user-guides/passive-yield-with-soada"
+        },
+        {
+          "type": "Epoch Stake Auction | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/oada/user-guides/epoch-stake-auction"
+        },
+        {
+          "type": "OADA 🟣 and sOADA 🟢 | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/oada/oada-and-soada"
+        },
+        {
+          "type": "User Guides | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/oada/user-guides"
+        },
+        {
+          "type": "Stake Auction AMO | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/oada/amos/stake-auction-amo"
+        },
+        {
+          "type": "Humanitarian Partnership | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/oada/unhcr-donation-module/humanitarian-partnership"
+        },
+        {
+          "type": "Staking AMO | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/oada/amos/staking-amo"
+        },
+        {
+          "type": "UNHCR Donation Module | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/oada/unhcr-donation-module"
+        },
+        {
+          "type": "Junior Tranche Loss Absorption | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/oada-v2/junior-tranche-loss-absorption"
+        },
+        {
+          "type": "AMOs | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/oada/amos"
+        },
+        {
+          "type": "Risk Framework | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/oada-v2/risk-framework"
+        },
+        {
+          "type": "Governance | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/oada/governance"
+        },
+        {
+          "type": "Transaction Chaining | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/guides"
+        },
+        {
+          "type": "Introduction | Optim Finance",
+          "url": "https://optim-finance.gitbook.io/optim-finance/odao-stack"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ff251285da5264d45bfeb13fe77b5c7d46e1f76c50769a3ad2f02eb1cfcfa6a8"
 }

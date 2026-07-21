@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://effect.website/docs",
+      "canonicalSeedUrl": "https://effect.website/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-28T10:46:11.706Z",
+      "completedAt": "2025-04-28T10:46:11.706Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://effect.website/docs",
+          "canonicalUrl": "https://effect.website/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "68e3b5ddad474f5fc408aa9c451695febe7538df62a3574639b0f37284df6b36",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7e8a97d2f946160371637b7ec8a1158fd9fe62d05d8466c81f3793ca644deb11",
+      "filename": "documentation_2025-04-28T10:46:11.706Z.md",
+      "contentHash": "a26b646b3bf1ae43447119ba9456329e14de478112d70bc56dd31b03f7c84dd2",
+      "sourceUrl": "https://effect.website/docs",
+      "canonicalSourceUrl": "https://effect.website/docs",
+      "capturedAt": "2025-04-28T10:46:11.706Z",
+      "crawlRunId": "68e3b5ddad474f5fc408aa9c451695febe7538df62a3574639b0f37284df6b36",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Introduction | Effect Documentation",
+          "url": "https://effect.website/docs"
+        },
+        {
+          "type": "Introduction | Effect Documentation",
+          "url": "https://effect.website/docs/getting-started/introduction/"
+        },
+        {
+          "type": "Introduction | Effect Documentation",
+          "url": "https://effect.website/docs/"
+        },
+        {
+          "type": "Installation | Effect Documentation",
+          "url": "https://effect.website/docs/getting-started/installation/"
+        },
+        {
+          "type": "Why Effect? | Effect Documentation",
+          "url": "https://effect.website/docs/getting-started/why-effect/"
+        },
+        {
+          "type": "Create Effect App | Effect Documentation",
+          "url": "https://effect.website/docs/getting-started/create-effect-app/"
+        },
+        {
+          "type": "Importing Effect | Effect Documentation",
+          "url": "https://effect.website/docs/getting-started/importing-effect/"
+        },
+        {
+          "type": "The Effect Type | Effect Documentation",
+          "url": "https://effect.website/docs/getting-started/the-effect-type/"
+        },
+        {
+          "type": "Creating Effects | Effect Documentation",
+          "url": "https://effect.website/docs/getting-started/creating-effects/"
+        },
+        {
+          "type": "Running Effects | Effect Documentation",
+          "url": "https://effect.website/docs/getting-started/running-effects/"
+        },
+        {
+          "type": "Two Types of Errors | Effect Documentation",
+          "url": "https://effect.website/docs/error-management/two-error-types/"
+        },
+        {
+          "type": "Unexpected Errors | Effect Documentation",
+          "url": "https://effect.website/docs/error-management/unexpected-errors/"
+        },
+        {
+          "type": "Using Generators | Effect Documentation",
+          "url": "https://effect.website/docs/getting-started/using-generators/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7e8a97d2f946160371637b7ec8a1158fd9fe62d05d8466c81f3793ca644deb11"
 }

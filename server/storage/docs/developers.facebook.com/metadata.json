@@ -42,5 +42,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developers.facebook.com/docs/marketing-api/insights",
+      "canonicalSeedUrl": "https://developers.facebook.com/docs/marketing-api/insights",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-21T21:00:38.176Z",
+      "completedAt": "2025-02-21T21:00:38.176Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developers.facebook.com/docs/marketing-api/insights",
+          "canonicalUrl": "https://developers.facebook.com/docs/marketing-api/insights",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "7554d705ad09416869e388db70b1ba79a6b457c372bf94f857ed791712d3fa76",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4f97d1bacde33c7ca9d3289bc3d1830ca07ffb6a6fb7934189fef2bf3e975c93",
+      "filename": "documentation_2025-02-21T21:00:38.176Z.md",
+      "contentHash": "f81f203e8e71f3c8232283331788ac52155fe9b7c2aea3798abefcc5a4150e67",
+      "sourceUrl": "https://developers.facebook.com/docs/marketing-api/insights",
+      "canonicalSourceUrl": "https://developers.facebook.com/docs/marketing-api/insights",
+      "capturedAt": "2025-02-21T21:00:38.176Z",
+      "crawlRunId": "7554d705ad09416869e388db70b1ba79a6b457c372bf94f857ed791712d3fa76",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Error",
+          "url": "https://developers.facebook.com/docs/marketing-api/insights"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

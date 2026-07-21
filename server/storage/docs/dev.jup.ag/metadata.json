@@ -52,5 +52,95 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://dev.jup.ag/",
+      "canonicalSeedUrl": "https://dev.jup.ag/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-02T08:33:02.827Z",
+      "completedAt": "2026-02-02T08:33:02.827Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://dev.jup.ag/",
+          "canonicalUrl": "https://dev.jup.ag/",
+          "status": "valid"
+        }
+      ],
+      "id": "a5af451c988d3e549a41f97924947d31e9d89f41574f965db2478ab99b08a077",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "82c1b5ad008ae46aaa328322db7813fe05f9facd37aece5340e1b82cee92210c",
+      "filename": "documentation_2026-02-02T08:33:02.827Z.md",
+      "contentHash": "f1ce7ae2f29071a366eb1fe58a31b2a1dea67116c48f0075132d4ae6410a7522",
+      "sourceUrl": "https://dev.jup.ag/",
+      "canonicalSourceUrl": "https://dev.jup.ag/",
+      "capturedAt": "2026-02-02T08:33:02.827Z",
+      "crawlRunId": "a5af451c988d3e549a41f97924947d31e9d89f41574f965db2478ab99b08a077",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Jupiter Developers",
+          "url": "https://dev.jup.ag/"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://dev.jup.ag/blog"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://dev.jup.ag/resources/support"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://dev.jup.ag/tool-kits"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://dev.jup.ag/tool-kits/plugin"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://dev.jup.ag/docs/ultra"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://dev.jup.ag/get-started"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://dev.jup.ag/updates"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "82c1b5ad008ae46aaa328322db7813fe05f9facd37aece5340e1b82cee92210c"
 }

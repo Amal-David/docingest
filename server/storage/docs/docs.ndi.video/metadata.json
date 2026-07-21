@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.ndi.video/all/getting-started/what-is-ndi",
+      "canonicalSeedUrl": "https://docs.ndi.video/all/getting-started/what-is-ndi",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-16T20:26:52.768Z",
+      "completedAt": "2025-03-16T20:26:52.768Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.ndi.video/all/getting-started/what-is-ndi",
+          "canonicalUrl": "https://docs.ndi.video/all/getting-started/what-is-ndi",
+          "status": "valid"
+        }
+      ],
+      "id": "e0d898d79ada5fb4f7ebaa1f10b2066def9349c1b2fcb422f2ff643b7d0b04ab",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b4860f4a334f996a6b52c46c04f78f6b9913472fcad2775a0154c62b14e5286c",
+      "filename": "documentation_2025-03-16T20:26:52.768Z.md",
+      "contentHash": "726d2511b4b252d91c899cd4e2707758efed970deedf1083c0b726b7ddcbf8c5",
+      "sourceUrl": "https://docs.ndi.video/all/getting-started/what-is-ndi",
+      "canonicalSourceUrl": "https://docs.ndi.video/all/getting-started/what-is-ndi",
+      "capturedAt": "2025-03-16T20:26:52.768Z",
+      "crawlRunId": "e0d898d79ada5fb4f7ebaa1f10b2066def9349c1b2fcb422f2ff643b7d0b04ab",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "What is NDI? | Docs and Guides",
+          "url": "https://docs.ndi.video/all/getting-started/what-is-ndi"
+        },
+        {
+          "type": "SDK | Docs and Guides",
+          "url": "https://docs.ndi.video/all/developing-with-ndi/sdk"
+        },
+        {
+          "type": "Discovery Service | Docs and Guides",
+          "url": "https://docs.ndi.video/all/getting-started/white-paper/discovery-and-registration/discovery-service"
+        },
+        {
+          "type": "Discovery & Registration | Docs and Guides",
+          "url": "https://docs.ndi.video/all/getting-started/white-paper/discovery-and-registration"
+        },
+        {
+          "type": "NDI Tools | Docs and Guides",
+          "url": "https://docs.ndi.video/all/using-ndi/ndi-tools"
+        },
+        {
+          "type": "mDNS | Docs and Guides",
+          "url": "https://docs.ndi.video/all/getting-started/white-paper/discovery-and-registration/mdns"
+        },
+        {
+          "type": "NDI Related Network Ports | Docs and Guides",
+          "url": "https://docs.ndi.video/all/getting-started/white-paper/ndi-related-network-ports"
+        },
+        {
+          "type": "Manual Connection | Docs and Guides",
+          "url": "https://docs.ndi.video/all/getting-started/white-paper/discovery-and-registration/manual-connection"
+        },
+        {
+          "type": "NDI Groups | Docs and Guides",
+          "url": "https://docs.ndi.video/all/getting-started/white-paper/discovery-and-registration/ndi-groups"
+        },
+        {
+          "type": "NDI High Bandwidth based on SpeedHQ7 (8bit 4:2:2:4) | Docs and Guides",
+          "url": "https://docs.ndi.video/all/getting-started/white-paper/bandwidth/ndi-high-bandwidth-based-on-speedhq7-8bit-4-2-2-4"
+        },
+        {
+          "type": "Docs & Guides | Docs and Guides",
+          "url": "https://docs.ndi.video/all/"
+        },
+        {
+          "type": "NDI Protocols | Docs and Guides",
+          "url": "https://docs.ndi.video/all/getting-started/white-paper/ndi-protocols"
+        },
+        {
+          "type": "Getting video across the network | Docs and Guides",
+          "url": "https://docs.ndi.video/all/getting-started/white-paper/getting-video-across-the-network"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b4860f4a334f996a6b52c46c04f78f6b9913472fcad2775a0154c62b14e5286c"
 }

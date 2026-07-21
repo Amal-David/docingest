@@ -24,5 +24,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://ch.mathworks.com/help/ident/ug/creating-idnlgrey-model-files.html",
+      "canonicalSeedUrl": "https://ch.mathworks.com/help/ident/ug/creating-idnlgrey-model-files.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-05T10:40:43.877Z",
+      "completedAt": "2025-11-05T10:40:43.877Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://ch.mathworks.com/help/ident/ug/creating-idnlgrey-model-files.html",
+          "canonicalUrl": "https://ch.mathworks.com/help/ident/ug/creating-idnlgrey-model-files.html",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "8c2b4ee91b961acb48b8526579c842027ce59137faa0106d28b8b4a7aca5d791",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2b73ca224093d63bc40594489180a70fd2b9c445c06f027ec575752a7c76e09e",
+      "filename": "documentation_2025-11-05T10:40:43.877Z.md",
+      "contentHash": "59d2b75e5a4aa8fed104855fe24feb4ed8f0860893980f8857666cd175c06849",
+      "sourceUrl": "https://ch.mathworks.com/help/ident/ug/creating-idnlgrey-model-files.html",
+      "canonicalSourceUrl": "https://ch.mathworks.com/help/ident/ug/creating-idnlgrey-model-files.html",
+      "capturedAt": "2025-11-05T10:40:43.877Z",
+      "crawlRunId": "8c2b4ee91b961acb48b8526579c842027ce59137faa0106d28b8b4a7aca5d791",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Access Denied",
+          "url": "https://ch.mathworks.com/help/ident/ug/creating-idnlgrey-model-files.html"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

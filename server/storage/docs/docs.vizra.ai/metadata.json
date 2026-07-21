@@ -156,5 +156,199 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.vizra.ai/",
+      "canonicalSeedUrl": "https://docs.vizra.ai/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-07T19:48:48.741Z",
+      "completedAt": "2026-03-07T19:48:48.741Z",
+      "providerTotals": {
+        "discovered": 34,
+        "returned": 34,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.vizra.ai/",
+          "canonicalUrl": "https://docs.vizra.ai/",
+          "status": "valid"
+        }
+      ],
+      "id": "86401c0f65687ea8540205e99dfe9a578b665013247aea85b44c8c0ac21bbe47",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b6bc6ef519bd3b5d809f45d6c72e4b4677706ae472a33b97f2ffe2bf237df99a",
+      "filename": "documentation_2026-03-07T19:48:48.741Z.md",
+      "contentHash": "a4191cf6983a0013fc0666a219fe2ec69c41a0d310420b05439e52615d20377d",
+      "sourceUrl": "https://docs.vizra.ai/",
+      "canonicalSourceUrl": "https://docs.vizra.ai/",
+      "capturedAt": "2026-03-07T19:48:48.741Z",
+      "crawlRunId": "86401c0f65687ea8540205e99dfe9a578b665013247aea85b44c8c0ac21bbe47",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 34,
+      "successfulPages": 34,
+      "structure": [
+        {
+          "type": "Vizra ADK - Vizra ADK",
+          "url": "https://docs.vizra.ai/"
+        },
+        {
+          "type": "Agent Queuing - Vizra ADK",
+          "url": "https://docs.vizra.ai/advanced/agent-queuing"
+        },
+        {
+          "type": "Specialized Agents - Vizra ADK",
+          "url": "https://docs.vizra.ai/agents/overview"
+        },
+        {
+          "type": "Macros & Mixins - Vizra ADK",
+          "url": "https://docs.vizra.ai/advanced/macros"
+        },
+        {
+          "type": "Image Agent - Vizra ADK",
+          "url": "https://docs.vizra.ai/agents/image-agent"
+        },
+        {
+          "type": "Audio Agent - Vizra ADK",
+          "url": "https://docs.vizra.ai/agents/audio-agent"
+        },
+        {
+          "type": "Laravel Boost Integration - Vizra ADK",
+          "url": "https://docs.vizra.ai/integrations/laravel-boost"
+        },
+        {
+          "type": "Requirements Checklist - Vizra ADK",
+          "url": "https://docs.vizra.ai/installation/requirements"
+        },
+        {
+          "type": "Evaluation Class Reference - Vizra ADK",
+          "url": "https://docs.vizra.ai/api-reference/evaluation-class"
+        },
+        {
+          "type": "Error Handling - Vizra ADK",
+          "url": "https://docs.vizra.ai/api-reference/error-handling"
+        },
+        {
+          "type": "Architecture - Vizra ADK",
+          "url": "https://docs.vizra.ai/concepts/architecture"
+        },
+        {
+          "type": "Configuration - Vizra ADK",
+          "url": "https://docs.vizra.ai/installation/configuration"
+        },
+        {
+          "type": "Agent Class Reference - Vizra ADK",
+          "url": "https://docs.vizra.ai/api-reference/agent-class"
+        },
+        {
+          "type": "LLM Providers - Vizra ADK",
+          "url": "https://docs.vizra.ai/integrations/providers"
+        },
+        {
+          "type": "Tracing Classes API Reference - Vizra ADK",
+          "url": "https://docs.vizra.ai/api-reference/tracing-class"
+        },
+        {
+          "type": "Artisan Commands - Vizra ADK",
+          "url": "https://docs.vizra.ai/api-reference/artisan-commands"
+        },
+        {
+          "type": "Events API Reference - Vizra ADK",
+          "url": "https://docs.vizra.ai/api-reference/events"
+        },
+        {
+          "type": "Workflow Class Reference - Vizra ADK",
+          "url": "https://docs.vizra.ai/api-reference/workflow-class"
+        },
+        {
+          "type": "MCP Integration - Vizra ADK",
+          "url": "https://docs.vizra.ai/integrations/mcp"
+        },
+        {
+          "type": "Web Dashboard - Vizra ADK",
+          "url": "https://docs.vizra.ai/testing/web-dashboard"
+        },
+        {
+          "type": "Getting Started - Vizra ADK",
+          "url": "https://docs.vizra.ai/installation/getting-started"
+        },
+        {
+          "type": "Tracing - Vizra ADK",
+          "url": "https://docs.vizra.ai/testing/tracing"
+        },
+        {
+          "type": "Dynamic Prompts - Vizra ADK",
+          "url": "https://docs.vizra.ai/concepts/dynamic-prompts"
+        },
+        {
+          "type": "OpenAI Compatibility - Vizra ADK",
+          "url": "https://docs.vizra.ai/integrations/openai-compatibility"
+        },
+        {
+          "type": "Sessions & Memory - Vizra ADK",
+          "url": "https://docs.vizra.ai/concepts/sessions-memory"
+        },
+        {
+          "type": "Tool Class Reference - Vizra ADK",
+          "url": "https://docs.vizra.ai/api-reference/tool-class"
+        },
+        {
+          "type": "Workflows - Vizra ADK",
+          "url": "https://docs.vizra.ai/concepts/workflows"
+        },
+        {
+          "type": "Vector Memory & RAG - Vizra ADK",
+          "url": "https://docs.vizra.ai/concepts/vector-rag"
+        },
+        {
+          "type": "AI Agents - Vizra ADK",
+          "url": "https://docs.vizra.ai/concepts/agents"
+        },
+        {
+          "type": "Tools - Vizra ADK",
+          "url": "https://docs.vizra.ai/concepts/tools"
+        },
+        {
+          "type": "Toolbox - Vizra ADK",
+          "url": "https://docs.vizra.ai/tools/toolbox"
+        },
+        {
+          "type": "Structured Output - Vizra ADK",
+          "url": "https://docs.vizra.ai/tools/structured-output"
+        },
+        {
+          "type": "Evaluations - Vizra ADK",
+          "url": "https://docs.vizra.ai/testing/evaluations"
+        },
+        {
+          "type": "Tool Pipelines - Vizra ADK",
+          "url": "https://docs.vizra.ai/tools/tool-pipelines"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b6bc6ef519bd3b5d809f45d6c72e4b4677706ae472a33b97f2ffe2bf237df99a"
 }

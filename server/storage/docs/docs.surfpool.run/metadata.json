@@ -138,5 +138,163 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.surfpool.run/llms.txt",
+      "canonicalSeedUrl": "https://docs.surfpool.run/llms.txt",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-26T11:40:11.491Z",
+      "completedAt": "2026-02-26T11:40:11.491Z",
+      "providerTotals": {
+        "discovered": 25,
+        "returned": 25,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.surfpool.run/llms.txt",
+          "canonicalUrl": "https://docs.surfpool.run/llms.txt",
+          "status": "valid"
+        }
+      ],
+      "id": "48102cd269feb64f2952ba349801114e80aeb8a365aa46a0bca36dd664bc3ba6",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e660288857be1cbdee2058ee2ae1a992b92e9a33d1ff8e8db04dd263941e5d3b",
+      "filename": "documentation_2026-02-26T11:40:11.491Z.md",
+      "contentHash": "68d57e93aff0915337c8f39075e23afa4250bec986454c85208e5e8a99814789",
+      "sourceUrl": "https://docs.surfpool.run/llms.txt",
+      "canonicalSourceUrl": "https://docs.surfpool.run/llms.txt",
+      "capturedAt": "2026-02-26T11:40:11.491Z",
+      "crawlRunId": "48102cd269feb64f2952ba349801114e80aeb8a365aa46a0bca36dd664bc3ba6",
+      "upstreamVersion": "1.1.1",
+      "upstreamChannel": "latest",
+      "totalPages": 25,
+      "successfulPages": 25,
+      "structure": [
+        {
+          "type": "Unknown",
+          "url": "https://docs.surfpool.run/llms.txt"
+        },
+        {
+          "type": "Surf's up | Surfpool Docs",
+          "url": "https://docs.surfpool.run/"
+        },
+        {
+          "type": "Getting Started | Surfpool Docs",
+          "url": "https://docs.surfpool.run/toolchain/getting-started"
+        },
+        {
+          "type": "Terminal UI | Surfpool Docs",
+          "url": "https://docs.surfpool.run/toolchain/tui"
+        },
+        {
+          "type": "CLI Commands | Surfpool Docs",
+          "url": "https://docs.surfpool.run/toolchain/cli"
+        },
+        {
+          "type": "Getting Started with IaC | Surfpool Docs",
+          "url": "https://docs.surfpool.run/iac/getting-started"
+        },
+        {
+          "type": "Video Tutorials | Surfpool Docs",
+          "url": "https://docs.surfpool.run/resources/video-tutorials"
+        },
+        {
+          "type": "WebSocket RPC Methods | Surfpool Docs",
+          "url": "https://docs.surfpool.run/rpc/websockets"
+        },
+        {
+          "type": "Introducing Surfnet | Surfpool Docs",
+          "url": "https://docs.surfpool.run/rpc/overview"
+        },
+        {
+          "type": "Cheatcodes | Surfpool Docs",
+          "url": "https://docs.surfpool.run/rpc/cheatcodes"
+        },
+        {
+          "type": "SVM Addon Overview | Surfpool Docs",
+          "url": "https://docs.surfpool.run/iac/svm/overview"
+        },
+        {
+          "type": "Language & Syntax | Surfpool Docs",
+          "url": "https://docs.surfpool.run/iac/language"
+        },
+        {
+          "type": "Network | Surfpool Docs",
+          "url": "https://docs.surfpool.run/rpc/network"
+        },
+        {
+          "type": "SVM Signers | Surfpool Docs",
+          "url": "https://docs.surfpool.run/iac/svm/signers"
+        },
+        {
+          "type": "Accounts | Surfpool Docs",
+          "url": "https://docs.surfpool.run/rpc/accounts"
+        },
+        {
+          "type": "Node Health | Surfpool Docs",
+          "url": "https://docs.surfpool.run/rpc/node"
+        },
+        {
+          "type": "SVM Functions | Surfpool Docs",
+          "url": "https://docs.surfpool.run/iac/svm/functions"
+        },
+        {
+          "type": "Transactions | Surfpool Docs",
+          "url": "https://docs.surfpool.run/rpc/transactions"
+        },
+        {
+          "type": "Admin | Surfpool Docs",
+          "url": "https://docs.surfpool.run/rpc/admin"
+        },
+        {
+          "type": "SVM Actions | Surfpool Docs",
+          "url": "https://docs.surfpool.run/iac/svm/actions"
+        },
+        {
+          "type": "Standard Actions | Surfpool Docs",
+          "url": "https://docs.surfpool.run/iac/std/actions"
+        },
+        {
+          "type": "Standard Library Overview | Surfpool Docs",
+          "url": "https://docs.surfpool.run/iac/std/overview"
+        },
+        {
+          "type": "Standard Functions | Surfpool Docs",
+          "url": "https://docs.surfpool.run/iac/std/functions"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.surfpool.run/cli"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.surfpool.run/iac/std/actions/overview"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e660288857be1cbdee2058ee2ae1a992b92e9a33d1ff8e8db04dd263941e5d3b"
 }

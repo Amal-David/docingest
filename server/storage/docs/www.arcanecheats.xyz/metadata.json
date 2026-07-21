@@ -33,5 +33,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.arcanecheats.xyz/docs/matcha/uilibrary",
+      "canonicalSeedUrl": "https://www.arcanecheats.xyz/docs/matcha/uilibrary",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-20T20:06:52.603Z",
+      "completedAt": "2026-02-20T20:06:52.603Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.arcanecheats.xyz/docs/matcha/uilibrary",
+          "canonicalUrl": "https://www.arcanecheats.xyz/docs/matcha/uilibrary",
+          "status": "valid"
+        }
+      ],
+      "id": "c7494a112ad7ce25c95c538d1615805ab0658bed652e4b8205965f01dbd21d04",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b81e567a3c7b5fad3aa78e65f9b865b1cff51e1f12aec776410b4584afa1ef04",
+      "filename": "documentation_2026-02-20T20:06:52.603Z.md",
+      "contentHash": "957479b47c5c5b7ed1a7d4ef1ba20c1e83d1a5b225c1f2744da0832227fe7c18",
+      "sourceUrl": "https://www.arcanecheats.xyz/docs/matcha/uilibrary",
+      "canonicalSourceUrl": "https://www.arcanecheats.xyz/docs/matcha/uilibrary",
+      "capturedAt": "2026-02-20T20:06:52.603Z",
+      "crawlRunId": "c7494a112ad7ce25c95c538d1615805ab0658bed652e4b8205965f01dbd21d04",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Arcane | Documentation",
+          "url": "https://www.arcanecheats.xyz/docs/matcha/uilibrary"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b81e567a3c7b5fad3aa78e65f9b865b1cff51e1f12aec776410b4584afa1ef04"
 }

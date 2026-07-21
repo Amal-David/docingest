@@ -124,5 +124,167 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.raiku.com/",
+      "canonicalSeedUrl": "https://docs.raiku.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-28T08:30:54.862Z",
+      "completedAt": "2025-04-28T08:30:54.862Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.raiku.com/",
+          "canonicalUrl": "https://docs.raiku.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "9f3acebf5fd3e7b220caced20b3855592ffe84740ada2a011f1e7bcfe18e9055",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "6082fe563a1621cee2882bee64352213f5bfa1628851db73c9f8159d74878d79",
+      "filename": "documentation_2025-04-28T08:30:54.862Z.md",
+      "contentHash": "70daf6ad89bf9a37ed20b26cb4bafe445c5eada34e376313c0bb29e98b945a8e",
+      "sourceUrl": "https://docs.raiku.com/",
+      "canonicalSourceUrl": "https://docs.raiku.com/",
+      "capturedAt": "2025-04-28T08:30:54.862Z",
+      "crawlRunId": "9f3acebf5fd3e7b220caced20b3855592ffe84740ada2a011f1e7bcfe18e9055",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "Introduction | Raiku",
+          "url": "https://docs.raiku.com/"
+        },
+        {
+          "type": "Validators | Raiku",
+          "url": "https://docs.raiku.com/participate/validators"
+        },
+        {
+          "type": "Raiku Products | Raiku",
+          "url": "https://docs.raiku.com/overview/raiku-products"
+        },
+        {
+          "type": "Novel App Architectures | Raiku",
+          "url": "https://docs.raiku.com/overview/novel-app-architectures"
+        },
+        {
+          "type": "Raiku Use Cases | Raiku",
+          "url": "https://docs.raiku.com/overview/raiku-use-cases"
+        },
+        {
+          "type": "Our Insights | Raiku",
+          "url": "https://docs.raiku.com/overview/our-insights"
+        },
+        {
+          "type": "Welcome | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/"
+        },
+        {
+          "type": "Transaction types | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/ackermann-v1/components-communication"
+        },
+        {
+          "type": "Ackermann v1 | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/ackermann-v1"
+        },
+        {
+          "type": "Milestones & Roadmap | Raiku",
+          "url": "https://docs.raiku.com/milestones-and-roadmap"
+        },
+        {
+          "type": "Builders | Raiku",
+          "url": "https://docs.raiku.com/participate/builders"
+        },
+        {
+          "type": "FAQ | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/node-operator-guide/running-a-sidecar/faq"
+        },
+        {
+          "type": "The Ackermann Validator (vAgave) | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/node-operator-guide/running-a-validator"
+        },
+        {
+          "type": "Quickstart | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/node-operator-guide/quickstart"
+        },
+        {
+          "type": "Testnet Participation | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/testnet-participation"
+        },
+        {
+          "type": "Register | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/node-operator-guide/quickstart-1"
+        },
+        {
+          "type": "The Ackermann Sidecar | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/node-operator-guide/running-a-sidecar"
+        },
+        {
+          "type": "Configuration | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/node-operator-guide/running-a-validator/configuration"
+        },
+        {
+          "type": "Observability | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/node-operator-guide/running-a-sidecar/observability"
+        },
+        {
+          "type": "Build and Run | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/node-operator-guide/running-a-validator/build-and-run"
+        },
+        {
+          "type": "Architecture | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/ackermann-v1/architecture"
+        },
+        {
+          "type": "Build and Run | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/node-operator-guide/running-a-sidecar/build-and-run"
+        },
+        {
+          "type": "Configuration | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/node-operator-guide/running-a-sidecar/configuration"
+        },
+        {
+          "type": "Quickstart | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/developer-guide/quickstart"
+        },
+        {
+          "type": "Register | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/developer-guide/quickstart-1"
+        },
+        {
+          "type": "SDK | Raiku",
+          "url": "https://docs.raiku.com/technical-docs/developer-guide/sdk"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "6082fe563a1621cee2882bee64352213f5bfa1628851db73c9f8159d74878d79"
 }

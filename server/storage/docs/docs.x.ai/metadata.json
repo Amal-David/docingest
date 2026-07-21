@@ -298,5 +298,323 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.x.ai/docs/overview",
+      "canonicalSeedUrl": "https://docs.x.ai/docs/overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-02T23:23:20.428Z",
+      "completedAt": "2026-01-02T23:23:20.428Z",
+      "providerTotals": {
+        "discovered": 65,
+        "returned": 65,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.x.ai/docs/overview",
+          "canonicalUrl": "https://docs.x.ai/docs/overview",
+          "status": "valid"
+        }
+      ],
+      "id": "72b62ad8db702b80dcba01a3da9d2d1f6c2ebea4df06ba51e0415f10b6674f99",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1ed27e4e7e7891b38f6d273af1bf6f53597280d471bbf5fca3bbd67e5689238c",
+      "filename": "documentation_2026-01-02T23:23:20.428Z.md",
+      "contentHash": "0317ad0068fca1d3a9fb01a58a4fb719a87a6e292b5262b5eb95aa8dad2fc529",
+      "sourceUrl": "https://docs.x.ai/docs/overview",
+      "canonicalSourceUrl": "https://docs.x.ai/docs/overview",
+      "capturedAt": "2026-01-02T23:23:20.428Z",
+      "crawlRunId": "72b62ad8db702b80dcba01a3da9d2d1f6c2ebea4df06ba51e0415f10b6674f99",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 65,
+      "successfulPages": 65,
+      "structure": [
+        {
+          "type": "Overview | xAI",
+          "url": "https://docs.x.ai/docs/overview"
+        },
+        {
+          "type": "REST API Reference | xAI",
+          "url": "https://docs.x.ai/docs/api-reference"
+        },
+        {
+          "type": "Collection Management - Collections API Reference | xAI Docs",
+          "url": "https://docs.x.ai/docs/collections-api/collection"
+        },
+        {
+          "type": "Collections API Reference | xAI",
+          "url": "https://docs.x.ai/docs/collections-api"
+        },
+        {
+          "type": "gRPC Reference | xAI",
+          "url": "https://docs.x.ai/docs/grpc-reference"
+        },
+        {
+          "type": "Management API | xAI",
+          "url": "https://docs.x.ai/docs/management-api/audit"
+        },
+        {
+          "type": "Files API Operations | xAI",
+          "url": "https://docs.x.ai/docs/files-api"
+        },
+        {
+          "type": "Management API | xAI",
+          "url": "https://docs.x.ai/docs/management-api"
+        },
+        {
+          "type": "Management API | xAI",
+          "url": "https://docs.x.ai/docs/management-api/auth"
+        },
+        {
+          "type": "Management API | xAI",
+          "url": "https://docs.x.ai/docs/management-api/billing"
+        },
+        {
+          "type": "Search in Collections - Collections API Reference | xAI Docs",
+          "url": "https://docs.x.ai/docs/collections-api/search"
+        },
+        {
+          "type": "Google Drive Integration with Grok | xAI",
+          "url": "https://docs.x.ai/docs/grok-business/apps/google-drive"
+        },
+        {
+          "type": "Grok Business Guide | xAI",
+          "url": "https://docs.x.ai/docs/grok-business/grok-user-guide"
+        },
+        {
+          "type": "Organization Management | xAI",
+          "url": "https://docs.x.ai/docs/grok-business/organization"
+        },
+        {
+          "type": "xAI",
+          "url": "https://docs.x.ai/docs//models/[model]"
+        },
+        {
+          "type": "Manage Licenses and Users | xAI",
+          "url": "https://docs.x.ai/docs/grok-business/management"
+        },
+        {
+          "type": "Asynchronous Requests | xAI",
+          "url": "https://docs.x.ai/docs/guides/async"
+        },
+        {
+          "type": "Fingerprint | xAI",
+          "url": "https://docs.x.ai/docs/guides/fingerprint"
+        },
+        {
+          "type": "Deferred Chat Completions | xAI",
+          "url": "https://docs.x.ai/docs/guides/deferred-chat-completions"
+        },
+        {
+          "type": "Prompt Engineering for Grok Code Fast 1 | xAI",
+          "url": "https://docs.x.ai/docs/guides/grok-code-prompt-engineering"
+        },
+        {
+          "type": "Migration from Other Providers | xAI",
+          "url": "https://docs.x.ai/docs/guides/migration"
+        },
+        {
+          "type": "Files Overview | xAI",
+          "url": "https://docs.x.ai/docs/guides/files"
+        },
+        {
+          "type": "Chat Completions (Legacy) | xAI",
+          "url": "https://docs.x.ai/docs/guides/chat-completions"
+        },
+        {
+          "type": "Image Generations | xAI",
+          "url": "https://docs.x.ai/docs/guides/image-generations"
+        },
+        {
+          "type": "Managing Files | xAI",
+          "url": "https://docs.x.ai/docs/guides/files/managing-files"
+        },
+        {
+          "type": "Streaming Response | xAI",
+          "url": "https://docs.x.ai/docs/guides/streaming-response"
+        },
+        {
+          "type": "Chat with Files | xAI",
+          "url": "https://docs.x.ai/docs/guides/files/chat-with-files"
+        },
+        {
+          "type": "Use with Code Editors | xAI",
+          "url": "https://docs.x.ai/docs/guides/use-with-code-editors"
+        },
+        {
+          "type": "Manage Billing | xAI",
+          "url": "https://docs.x.ai/docs/key-information/billing"
+        },
+        {
+          "type": "Using Collections | xAI",
+          "url": "https://docs.x.ai/docs/guides/using-collections"
+        },
+        {
+          "type": "Migrating to New Models | xAI",
+          "url": "https://docs.x.ai/docs/key-information/migrating-to-new-models"
+        },
+        {
+          "type": "Using Collections in Console | xAI",
+          "url": "https://docs.x.ai/docs/guides/using-collections/console"
+        },
+        {
+          "type": "Remote MCP Tools | xAI",
+          "url": "https://docs.x.ai/docs/guides/tools/remote-mcp-tools"
+        },
+        {
+          "type": "Code Execution Tool | xAI",
+          "url": "https://docs.x.ai/docs/guides/tools/code-execution-tool"
+        },
+        {
+          "type": "Collection Metadata | xAI",
+          "url": "https://docs.x.ai/docs/guides/using-collections/metadata"
+        },
+        {
+          "type": "Regional Endpoints | xAI",
+          "url": "https://docs.x.ai/docs/key-information/regions"
+        },
+        {
+          "type": "Chat Responses | xAI",
+          "url": "https://docs.x.ai/docs/guides/chat"
+        },
+        {
+          "type": "Grok Voice Agent API | xAI",
+          "url": "https://docs.x.ai/docs/guides/voice"
+        },
+        {
+          "type": "Usage Explorer | xAI",
+          "url": "https://docs.x.ai/docs/key-information/usage-explorer"
+        },
+        {
+          "type": "FAQ - xAI API Accounts | xAI",
+          "url": "https://docs.x.ai/docs/resources/faq-api/accounts"
+        },
+        {
+          "type": "Function Calling | xAI",
+          "url": "https://docs.x.ai/docs/guides/function-calling"
+        },
+        {
+          "type": "Reasoning | xAI",
+          "url": "https://docs.x.ai/docs/guides/reasoning"
+        },
+        {
+          "type": "Consumption and Rate Limits | xAI",
+          "url": "https://docs.x.ai/docs/key-information/consumption-and-rate-limits"
+        },
+        {
+          "type": "Collections | xAI",
+          "url": "https://docs.x.ai/docs/key-information/collections"
+        },
+        {
+          "type": "FAQ - Grok Website / Apps | xAI",
+          "url": "https://docs.x.ai/docs/resources/faq-grok"
+        },
+        {
+          "type": "FAQ - General | xAI",
+          "url": "https://docs.x.ai/docs/resources/faq-general"
+        },
+        {
+          "type": "Community Integrations | xAI",
+          "url": "https://docs.x.ai/docs/resources/community-integrations"
+        },
+        {
+          "type": "FAQ - xAI API Billing | xAI",
+          "url": "https://docs.x.ai/docs/resources/faq-api/billing"
+        },
+        {
+          "type": "FAQ - xAI API Team Management | xAI",
+          "url": "https://docs.x.ai/docs/resources/faq-api/team-management"
+        },
+        {
+          "type": "FAQ - xAI API Security | xAI",
+          "url": "https://docs.x.ai/docs/resources/faq-api/security"
+        },
+        {
+          "type": "Debugging Errors | xAI",
+          "url": "https://docs.x.ai/docs/key-information/debugging"
+        },
+        {
+          "type": "Using Management API | xAI",
+          "url": "https://docs.x.ai/docs/key-information/using-management-api"
+        },
+        {
+          "type": "Using Collections via API | xAI",
+          "url": "https://docs.x.ai/docs/guides/using-collections/api"
+        },
+        {
+          "type": "FAQ - xAI Console | xAI",
+          "url": "https://docs.x.ai/docs/resources/faq-api"
+        },
+        {
+          "type": "Collections Search Tool | xAI",
+          "url": "https://docs.x.ai/docs/guides/tools/collections-search-tool"
+        },
+        {
+          "type": "Live Search | xAI",
+          "url": "https://docs.x.ai/docs/guides/live-search"
+        },
+        {
+          "type": "Advanced Usage | xAI",
+          "url": "https://docs.x.ai/docs/guides/tools/advanced-usage"
+        },
+        {
+          "type": "Structured Outputs | xAI",
+          "url": "https://docs.x.ai/docs/guides/structured-outputs"
+        },
+        {
+          "type": "Search Tools | xAI",
+          "url": "https://docs.x.ai/docs/guides/tools/search-tools"
+        },
+        {
+          "type": "Grok Voice Agent API | xAI",
+          "url": "https://docs.x.ai/docs/guides/voice/agent"
+        },
+        {
+          "type": "Overview | xAI",
+          "url": "https://docs.x.ai/docs/guides/tools/overview"
+        },
+        {
+          "type": "Introduction | xAI",
+          "url": "https://docs.x.ai/docs/introduction"
+        },
+        {
+          "type": "The Hitchhiker's Guide to Grok | xAI",
+          "url": "https://docs.x.ai/docs/tutorial"
+        },
+        {
+          "type": "Models and Pricing | xAI",
+          "url": "https://docs.x.ai/docs/models"
+        },
+        {
+          "type": "What's New? | xAI",
+          "url": "https://docs.x.ai/docs/release-notes"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1ed27e4e7e7891b38f6d273af1bf6f53597280d471bbf5fca3bbd67e5689238c"
 }

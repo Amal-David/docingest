@@ -128,5 +128,171 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.optimism.io/app-developers/guides/bridging/basics",
+      "canonicalSeedUrl": "https://docs.optimism.io/app-developers/guides/bridging/basics",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-03T21:15:31.489Z",
+      "completedAt": "2026-02-03T21:15:31.489Z",
+      "providerTotals": {
+        "discovered": 27,
+        "returned": 27,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.optimism.io/app-developers/guides/bridging/basics",
+          "canonicalUrl": "https://docs.optimism.io/app-developers/guides/bridging/basics",
+          "status": "valid"
+        }
+      ],
+      "id": "1de5c8adfbab12b265b11e008b19e6caf106969a1a936672bd8fa95dac7817c5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4631b66abf202cf1b0edcb24a8ff775991935fc964872b7e3c4e9aa5abd47040",
+      "filename": "documentation_2026-02-03T21:15:31.489Z.md",
+      "contentHash": "0efae15a9cb360dd11f6d943d349b4350a30a4ad6648474bf81eacbd823760ce",
+      "sourceUrl": "https://docs.optimism.io/app-developers/guides/bridging/basics",
+      "canonicalSourceUrl": "https://docs.optimism.io/app-developers/guides/bridging/basics",
+      "capturedAt": "2026-02-03T21:15:31.489Z",
+      "crawlRunId": "1de5c8adfbab12b265b11e008b19e6caf106969a1a936672bd8fa95dac7817c5",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 27,
+      "successfulPages": 27,
+      "structure": [
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/bridging/basics"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/bridging/messaging"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/bridging/custom-bridge"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/interoperability/estimate-costs"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/interoperability/message-expiration"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/transactions/statuses"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/building-apps"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/interoperability/message-passing"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/transactions/troubleshooting"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/transactions/parameters"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/transactions/flashblocks-and-gas-usage"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/transactions/estimates"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/bridging/standard-bridge"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/reference/actions/integrating-wallets"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/interoperability/reading-logs"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/quickstarts/starter-kit"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/testing-apps"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/reference/networks"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/app-developers/guides/configuring-actions"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/governance/evolution-and-experimentation"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/governance/capital-allocation"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/governance/protocol-upgrades"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/op-mainnet/network-information/op-addresses"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.optimism.io/superchain/superchain-information/superchain-registry.mdx"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.optimism.io/chain-operators/tools/op-deployer/overview.mdx"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.optimism.io/op-stack/security/governance/evolution-and-experimentation"
+        },
+        {
+          "type": "Optimism Documentation",
+          "url": "https://docs.optimism.io/op-stack/features/experimental/alt-da-mode"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4631b66abf202cf1b0edcb24a8ff775991935fc964872b7e3c4e9aa5abd47040"
 }

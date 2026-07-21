@@ -41,5 +41,75 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://pokemmo.fandom.com/es/wiki/Muro:Default",
+      "canonicalSeedUrl": "https://pokemmo.fandom.com/es/wiki/Muro:Default",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-13T11:09:30.339Z",
+      "completedAt": "2026-01-13T11:09:30.339Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://pokemmo.fandom.com/es/wiki/Muro:Default",
+          "canonicalUrl": "https://pokemmo.fandom.com/es/wiki/Muro:Default",
+          "status": "valid"
+        }
+      ],
+      "id": "672110256782c27c1b7d159d37ef93e1aeab4b91b15718eea4c60e41c580a45e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2a3a114cb280b9bf0bbc320aa3e8c7f0a9f553572ee5fb118d3bb701dacd3c97",
+      "filename": "documentation_2026-01-13T11:09:30.339Z.md",
+      "contentHash": "6b6fbf62121888c179465cc95c01b8696dab3b8deb70bf18a06653b33883c0ae",
+      "sourceUrl": "https://pokemmo.fandom.com/es/wiki/Muro:Default",
+      "canonicalSourceUrl": "https://pokemmo.fandom.com/es/wiki/Muro:Default",
+      "capturedAt": "2026-01-13T11:09:30.339Z",
+      "crawlRunId": "672110256782c27c1b7d159d37ef93e1aeab4b91b15718eea4c60e41c580a45e",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "structure": [
+        {
+          "type": "Muro:Default | Wikia PokeMMO | Fandom",
+          "url": "https://pokemmo.fandom.com/es/wiki/Muro:Default"
+        },
+        {
+          "type": "Historial de revisiones de «Mapa:Kanto» | Wikia PokeMMO | Fandom",
+          "url": "https://pokemmo.fandom.com/es/wiki/Mapa:Kanto?action=history"
+        },
+        {
+          "type": "Message Wall:Gaston03912 | PokeMMO Wiki | Fandom",
+          "url": "https://pokemmo.fandom.com/wiki/Message_Wall:Gaston03912"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2a3a114cb280b9bf0bbc320aa3e8c7f0a9f553572ee5fb118d3bb701dacd3c97"
 }

@@ -276,5 +276,319 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://stefanuk12.gitbook.io/r-esp-1",
+      "canonicalSeedUrl": "https://stefanuk12.gitbook.io/r-esp-1",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-10T05:01:36.841Z",
+      "completedAt": "2025-11-10T05:01:36.841Z",
+      "providerTotals": {
+        "discovered": 64,
+        "returned": 64,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://stefanuk12.gitbook.io/r-esp-1",
+          "canonicalUrl": "https://stefanuk12.gitbook.io/r-esp-1",
+          "status": "valid"
+        }
+      ],
+      "id": "fb2e760734e3931b9dffa58547bed1fb690478ad4e9292ea4af6cc64b4c97684",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "28411bfb4f5d18323ef3f6e8b5a880c40c4c48364dc860d574c8490eea374cdd",
+      "filename": "documentation_2025-11-10T05:01:36.841Z.md",
+      "contentHash": "1669b00b895f72d08f674c40065617e190af2aeab3ae1f893795df9188d78005",
+      "sourceUrl": "https://stefanuk12.gitbook.io/r-esp-1",
+      "canonicalSourceUrl": "https://stefanuk12.gitbook.io/r-esp-1",
+      "capturedAt": "2025-11-10T05:01:36.841Z",
+      "crawlRunId": "fb2e760734e3931b9dffa58547bed1fb690478ad4e9292ea4af6cc64b4c97684",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 64,
+      "successfulPages": 64,
+      "structure": [
+        {
+          "type": "LICENSE | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1"
+        },
+        {
+          "type": "Introduction | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/home/introduction"
+        },
+        {
+          "type": "Usage | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/home/usage"
+        },
+        {
+          "type": "Examples | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/home/examples"
+        },
+        {
+          "type": "To Do | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/home/to-do"
+        },
+        {
+          "type": "Combine Tables | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/utilities/combine-tables"
+        },
+        {
+          "type": "Deep Copy | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/utilities/deep-copy"
+        },
+        {
+          "type": "Is On Screen | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/utilities/is-on-screen"
+        },
+        {
+          "type": "Get Current Camera | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/utilities/get-current-camera"
+        },
+        {
+          "type": "Convert V3 -> V2 | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/utilities/convert-v3-greater-than-v2"
+        },
+        {
+          "type": "Set Drawing Properties | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/utilities/set-drawing-properties"
+        },
+        {
+          "type": "Create Drawing | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/utilities/create-drawing"
+        },
+        {
+          "type": "Calculate Corners | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/utilities/calculate-corners"
+        },
+        {
+          "type": "Rotate Vector2 | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/utilities/rotate-vector2"
+        },
+        {
+          "type": "BoxSquare | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/boxsquare"
+        },
+        {
+          "type": "Destroy | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/base/destroy"
+        },
+        {
+          "type": "Initialise Objects | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/base/initialise-objects"
+        },
+        {
+          "type": "Update | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/base/update"
+        },
+        {
+          "type": "Constructor | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/base/constructor"
+        },
+        {
+          "type": "Data | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/boxsquare/data"
+        },
+        {
+          "type": "Base | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/base"
+        },
+        {
+          "type": "Properties | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/boxsquare/properties"
+        },
+        {
+          "type": "Properties | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/tracer/properties"
+        },
+        {
+          "type": "Tracer | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/tracer"
+        },
+        {
+          "type": "Properties | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/header/properties"
+        },
+        {
+          "type": "Healthbar | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/healthbar"
+        },
+        {
+          "type": "Get Position | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/header/get-position"
+        },
+        {
+          "type": "Data | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/tracer/data"
+        },
+        {
+          "type": "Header | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/header"
+        },
+        {
+          "type": "Properties | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/healthbar/properties"
+        },
+        {
+          "type": "Data | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/healthbar/data"
+        },
+        {
+          "type": "Data | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/header/data"
+        },
+        {
+          "type": "Data | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/box3d/data"
+        },
+        {
+          "type": "Properties | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/box3d/properties"
+        },
+        {
+          "type": "Properties | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/offarrow/properties"
+        },
+        {
+          "type": "Box3D | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/box3d"
+        },
+        {
+          "type": "OffArrow | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/offarrow"
+        },
+        {
+          "type": "Data | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/offarrow/data"
+        },
+        {
+          "type": "Direction | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/esp-object-classes/offarrow/direction"
+        },
+        {
+          "type": "PlayerManager | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/playermanager"
+        },
+        {
+          "type": "Add | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/playermanager/add"
+        },
+        {
+          "type": "Character | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/playermanager/character"
+        },
+        {
+          "type": "Constructor | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/playermanager/constructor"
+        },
+        {
+          "type": "Get | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/instanceobject/get"
+        },
+        {
+          "type": "Constructor | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/instanceobject/constructor"
+        },
+        {
+          "type": "Has | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/instanceobject/has"
+        },
+        {
+          "type": "PlayerManagers | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/playermanagers"
+        },
+        {
+          "type": "HeaderOffset | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/instanceobject/headeroffset"
+        },
+        {
+          "type": "Render | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/playermanager/render"
+        },
+        {
+          "type": "Destroy | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/playermanager/destroy"
+        },
+        {
+          "type": "Add | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/playermanagers/add"
+        },
+        {
+          "type": "InitialiseConnections | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/playermanagers/initialiseconnections"
+        },
+        {
+          "type": "Constructor | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/playermanagers/constructor"
+        },
+        {
+          "type": "Render | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/instanceobject/render"
+        },
+        {
+          "type": "Destroy | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/instanceobject/destroy"
+        },
+        {
+          "type": "InstanceObject | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/instanceobject"
+        },
+        {
+          "type": "OnPlayerAdded | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/playermanagers/onplayeradded"
+        },
+        {
+          "type": "Destroy | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/playermanagers/destroy"
+        },
+        {
+          "type": "Add | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/instanceobject/add"
+        },
+        {
+          "type": "Initialise | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/playermanagers/initialise"
+        },
+        {
+          "type": "Name | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/instanceobject/name"
+        },
+        {
+          "type": "Weapon | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/instanceobject/weapon"
+        },
+        {
+          "type": "Health | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/instanceobject/health"
+        },
+        {
+          "type": "Distance | R-ESP",
+          "url": "https://stefanuk12.gitbook.io/r-esp-1/managers/instanceobject/distance"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "28411bfb4f5d18323ef3f6e8b5a880c40c4c48364dc860d574c8490eea374cdd"
 }

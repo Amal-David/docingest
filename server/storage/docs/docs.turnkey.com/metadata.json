@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.turnkey.com/",
+      "canonicalSeedUrl": "https://docs.turnkey.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-21T20:02:22.492Z",
+      "completedAt": "2025-11-21T20:02:22.492Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.turnkey.com/",
+          "canonicalUrl": "https://docs.turnkey.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "f41a01961ec971b57e17a45620664fa5a62ecf45866aced4958063e352409dfa",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "478b2f257e4f5f7d6d9d77cae6e8957f0119f41f217b62b811e2f9d61547e92f",
+      "filename": "documentation_2025-11-21T20:02:22.492Z.md",
+      "contentHash": "5e1155363d9f045e4793bb77289a32fc907372de56aa5b1068660fee3abf86bf",
+      "sourceUrl": "https://docs.turnkey.com/",
+      "canonicalSourceUrl": "https://docs.turnkey.com/",
+      "capturedAt": "2025-11-21T20:02:22.492Z",
+      "crawlRunId": "f41a01961ec971b57e17a45620664fa5a62ecf45866aced4958063e352409dfa",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Overview - Turnkey",
+          "url": "https://docs.turnkey.com/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "478b2f257e4f5f7d6d9d77cae6e8957f0119f41f217b62b811e2f9d61547e92f"
 }

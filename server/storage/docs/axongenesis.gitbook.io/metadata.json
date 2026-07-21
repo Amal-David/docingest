@@ -88,5 +88,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://axongenesis.gitbook.io/timeflow",
+      "canonicalSeedUrl": "https://axongenesis.gitbook.io/timeflow",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-14T00:05:03.577Z",
+      "completedAt": "2025-12-14T00:05:03.577Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://axongenesis.gitbook.io/timeflow",
+          "canonicalUrl": "https://axongenesis.gitbook.io/timeflow",
+          "status": "valid"
+        }
+      ],
+      "id": "5bdc9a0556cdcb35502b050094c66c3e6550fd352fb2993bf1db63cee97ac2b3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "82c67e066917eb7331ab24c26e6fec23974deba910812a1dad1765640dd64cb0",
+      "filename": "documentation_2025-12-14T00:05:03.577Z.md",
+      "contentHash": "1d52c001ad7e2a2b6a4cb1478bc2f8c4895eefab8a403f7a423e5fd420c69805",
+      "sourceUrl": "https://axongenesis.gitbook.io/timeflow",
+      "canonicalSourceUrl": "https://axongenesis.gitbook.io/timeflow",
+      "capturedAt": "2025-12-14T00:05:03.577Z",
+      "crawlRunId": "5bdc9a0556cdcb35502b050094c66c3e6550fd352fb2993bf1db63cee97ac2b3",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Introduction | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow"
+        },
+        {
+          "type": "Getting Started | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/getting-started"
+        },
+        {
+          "type": "Requirements | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/getting-started/requirements"
+        },
+        {
+          "type": "Installation | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/getting-started/installation"
+        },
+        {
+          "type": "Workflow | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/getting-started/workflow"
+        },
+        {
+          "type": "Render Pipeline | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/getting-started/render-pipeline"
+        },
+        {
+          "type": "Upgrading Guide | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/getting-started/upgrading-guide"
+        },
+        {
+          "type": "3rd Party Tools | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/getting-started/3rd-party-tools"
+        },
+        {
+          "type": "Editor vs Runtime | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/getting-started/editor-vs-runtime"
+        },
+        {
+          "type": "How it Works | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/getting-started/how-it-works"
+        },
+        {
+          "type": "Potential Issues | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/getting-started/potential-issues"
+        },
+        {
+          "type": "Quick Start | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/getting-started/quick-start"
+        },
+        {
+          "type": "Local Time Scope | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/timeflow-editor/local-time-scope"
+        },
+        {
+          "type": "Optimization | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/getting-started/optimization"
+        },
+        {
+          "type": "Timeflow Editor | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/timeflow-editor"
+        },
+        {
+          "type": "Managed Objects | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/timeflow-editor/managed-objects"
+        },
+        {
+          "type": "Object | Timeflow",
+          "url": "https://axongenesis.gitbook.io/timeflow/user-guide/timeflow-editor/object"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "82c67e066917eb7331ab24c26e6fec23974deba910812a1dad1765640dd64cb0"
 }

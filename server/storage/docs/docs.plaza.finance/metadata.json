@@ -88,5 +88,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.plaza.finance/contracts/addresses",
+      "canonicalSeedUrl": "https://docs.plaza.finance/contracts/addresses",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-21T07:04:36.541Z",
+      "completedAt": "2025-01-21T07:04:36.541Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.plaza.finance/contracts/addresses",
+          "canonicalUrl": "https://docs.plaza.finance/contracts/addresses",
+          "status": "valid"
+        }
+      ],
+      "id": "1e68daac489bae3d2d2aa42311690f14afa5988a146abb8fba213cdd2a10b013",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "293f2700e258127a1ce9d05b06cc15324eeaaf239e423560b16eab758774fda7",
+      "filename": "documentation_2025-01-21T07:04:36.541Z.md",
+      "contentHash": "98ee765999ad624f60a4cd5e0b367d4f5b6f663710e038e9f164019635b1bb88",
+      "sourceUrl": "https://docs.plaza.finance/contracts/addresses",
+      "canonicalSourceUrl": "https://docs.plaza.finance/contracts/addresses",
+      "capturedAt": "2025-01-21T07:04:36.541Z",
+      "crawlRunId": "1e68daac489bae3d2d2aa42311690f14afa5988a146abb8fba213cdd2a10b013",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Addresses | Plaza Finance",
+          "url": "https://docs.plaza.finance/contracts/addresses"
+        },
+        {
+          "type": "What are programmable derivatives? | Plaza Finance",
+          "url": "https://docs.plaza.finance/what-are-programmable-derivatives"
+        },
+        {
+          "type": "bondETH - An Ethereum-backed Bond | Plaza Finance",
+          "url": "https://docs.plaza.finance/plaza-assets/bondeth-an-ethereum-backed-bond"
+        },
+        {
+          "type": "Create (Buy) | Plaza Finance",
+          "url": "https://docs.plaza.finance/protocol-mechanics/create-buy"
+        },
+        {
+          "type": "levETH - Levered Ethereum | Plaza Finance",
+          "url": "https://docs.plaza.finance/plaza-assets/leveth-levered-ethereum"
+        },
+        {
+          "type": "Plaza Overview | Plaza Finance",
+          "url": "https://docs.plaza.finance/"
+        },
+        {
+          "type": "Plaza Points (PP) Overview | Plaza Finance",
+          "url": "https://docs.plaza.finance/plaza-points-pp/plaza-points-pp-overview"
+        },
+        {
+          "type": "Redeem (Sell) | Plaza Finance",
+          "url": "https://docs.plaza.finance/protocol-mechanics/redeem-sell"
+        },
+        {
+          "type": "Coupon Distributions | Plaza Finance",
+          "url": "https://docs.plaza.finance/protocol-mechanics/coupon-distributions"
+        },
+        {
+          "type": "Claiming Coupons | Plaza Finance",
+          "url": "https://docs.plaza.finance/protocol-mechanics/claiming-coupons"
+        },
+        {
+          "type": "Coupon Auction | Plaza Finance",
+          "url": "https://docs.plaza.finance/protocol-mechanics/coupon-auction"
+        },
+        {
+          "type": "BalancerOracleAdapter | Plaza Finance",
+          "url": "https://docs.plaza.finance/contracts/balanceroracleadapter"
+        },
+        {
+          "type": "LeverageToken | Plaza Finance",
+          "url": "https://docs.plaza.finance/contracts/leveragetoken"
+        },
+        {
+          "type": "PoolFactory | Plaza Finance",
+          "url": "https://docs.plaza.finance/contracts/poolfactory"
+        },
+        {
+          "type": "Distributor | Plaza Finance",
+          "url": "https://docs.plaza.finance/contracts/distributor"
+        },
+        {
+          "type": "Auction | Plaza Finance",
+          "url": "https://docs.plaza.finance/contracts/auction"
+        },
+        {
+          "type": "BondToken | Plaza Finance",
+          "url": "https://docs.plaza.finance/contracts/bondtoken"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "293f2700e258127a1ce9d05b06cc15324eeaaf239e423560b16eab758774fda7"
 }

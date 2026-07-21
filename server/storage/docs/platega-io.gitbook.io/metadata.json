@@ -52,5 +52,95 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://platega-io.gitbook.io/",
+      "canonicalSeedUrl": "https://platega-io.gitbook.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-05T16:51:48.041Z",
+      "completedAt": "2025-11-05T16:51:48.041Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://platega-io.gitbook.io/",
+          "canonicalUrl": "https://platega-io.gitbook.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "66ff79379db79461bca714159034521e5d0b5b4c55b4164be2202b8f4bc20f0e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b47f344e3a7eebc8e5ec49baf4979e640d37d0d50a3c433728f2e5be8d17fde3",
+      "filename": "documentation_2025-11-05T16:51:48.041Z.md",
+      "contentHash": "7deefe2338055be6ab57b2c6ae1f1bc0fe6e4ef5ed4965d33b0d741e38925581",
+      "sourceUrl": "https://platega-io.gitbook.io/",
+      "canonicalSourceUrl": "https://platega-io.gitbook.io/",
+      "capturedAt": "2025-11-05T16:51:48.041Z",
+      "crawlRunId": "66ff79379db79461bca714159034521e5d0b5b4c55b4164be2202b8f4bc20f0e",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Аутентификация запроса | platega | API",
+          "url": "https://platega-io.gitbook.io/"
+        },
+        {
+          "type": "Аутентификация запроса | platega | API",
+          "url": "https://platega-io.gitbook.io/platega.io-api-dokumentaciya"
+        },
+        {
+          "type": "Создание ссылки на оплату | platega | API",
+          "url": "https://platega-io.gitbook.io/platega.io-api-dokumentaciya/api-docs/editor"
+        },
+        {
+          "type": "Фейковый CallBack для тестирования платежей | platega | API",
+          "url": "https://platega-io.gitbook.io/platega.io-api-dokumentaciya/feikovyi-callback-dlya-testirovaniya-platezhei"
+        },
+        {
+          "type": "Получение курсов | platega | API",
+          "url": "https://platega-io.gitbook.io/platega.io-api-dokumentaciya/poluchenie-kursov"
+        },
+        {
+          "type": "Проверка статуса оплаты платежа | platega | API",
+          "url": "https://platega-io.gitbook.io/platega.io-api-dokumentaciya/api-docs/images-and-media"
+        },
+        {
+          "type": "Callback | platega | API",
+          "url": "https://platega-io.gitbook.io/platega.io-api-dokumentaciya/api-docs/callback"
+        },
+        {
+          "type": "Аутентификация запроса | platega | API",
+          "url": "https://platega-io.gitbook.io/platega.io-api-dokumentaciya/api-docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b47f344e3a7eebc8e5ec49baf4979e640d37d0d50a3c433728f2e5be8d17fde3"
 }

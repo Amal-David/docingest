@@ -24,5 +24,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.arista.com/en/um-eos/",
+      "canonicalSeedUrl": "https://www.arista.com/en/um-eos",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-10T20:33:49.466Z",
+      "completedAt": "2026-01-10T20:33:49.466Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.arista.com/en/um-eos/",
+          "canonicalUrl": "https://www.arista.com/en/um-eos",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "f252bbd40ac11a701f483968aa036aa074a516f2418b6af46bbb94cd8dcd2a96",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3bed97ae05886ddfacb36ce8cbbc52502fbbd86c0bfdd02168794689062771d9",
+      "filename": "documentation_2026-01-10T20:33:49.466Z.md",
+      "contentHash": "3ccd73313a543afb8ff3d3ba24052435a357f9b4f6ec394067ce440276082537",
+      "sourceUrl": "https://www.arista.com/en/um-eos/",
+      "canonicalSourceUrl": "https://www.arista.com/en/um-eos",
+      "capturedAt": "2026-01-10T20:33:49.466Z",
+      "crawlRunId": "f252bbd40ac11a701f483968aa036aa074a516f2418b6af46bbb94cd8dcd2a96",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Client Challenge",
+          "url": "https://www.arista.com/en/um-eos/"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

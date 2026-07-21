@@ -88,5 +88,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://chzzk.gitbook.io/chzzk/chzzk-api/tips",
+      "canonicalSeedUrl": "https://chzzk.gitbook.io/chzzk/chzzk-api/tips",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-08T14:46:10.525Z",
+      "completedAt": "2025-02-08T14:46:10.525Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://chzzk.gitbook.io/chzzk/chzzk-api/tips",
+          "canonicalUrl": "https://chzzk.gitbook.io/chzzk/chzzk-api/tips",
+          "status": "valid"
+        }
+      ],
+      "id": "cd1c31bdcac5a465ba83976dbe3b862c606458d38b1629ff53b0404e8ed9c58c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d34c3ec5f42e7ea1ee23bb3addd5f34ce417f20e82405d21f3630568db36dd36",
+      "filename": "documentation_2025-02-08T14:46:10.525Z.md",
+      "contentHash": "5b04802073afab504cd324417a0fb829c25b571563dff7a499546fcf0d3b3fcc",
+      "sourceUrl": "https://chzzk.gitbook.io/chzzk/chzzk-api/tips",
+      "canonicalSourceUrl": "https://chzzk.gitbook.io/chzzk/chzzk-api/tips",
+      "capturedAt": "2025-02-08T14:46:10.525Z",
+      "crawlRunId": "cd1c31bdcac5a465ba83976dbe3b862c606458d38b1629ff53b0404e8ed9c58c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "참고사항 | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/chzzk-api/tips"
+        },
+        {
+          "type": "User | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/chzzk-api/user"
+        },
+        {
+          "type": "Channel | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/chzzk-api/channel"
+        },
+        {
+          "type": "Updates | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/introduction/updates"
+        },
+        {
+          "type": "Chzzk AD | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/resources/chzzk-ad"
+        },
+        {
+          "type": "Authorization | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/chzzk-api/authorization"
+        },
+        {
+          "type": "드롭스 캠페인 생성 및 관리 가이드 | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/drops/manual"
+        },
+        {
+          "type": "Brand Guides | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/resources/brand-guides"
+        },
+        {
+          "type": "Live | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/chzzk-api/live"
+        },
+        {
+          "type": "드롭스 연동 및 절차 | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/drops/guide"
+        },
+        {
+          "type": "Category | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/chzzk-api/category"
+        },
+        {
+          "type": "Drops | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/chzzk-api/drops"
+        },
+        {
+          "type": "Chat | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/chzzk-api/chat"
+        },
+        {
+          "type": "드롭스 개요 | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/drops/overview"
+        },
+        {
+          "type": "Session | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/chzzk-api/session"
+        },
+        {
+          "type": "Webhook Event | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk/drops/webhook"
+        },
+        {
+          "type": "About CHZZK Developers | CHZZK",
+          "url": "https://chzzk.gitbook.io/chzzk"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d34c3ec5f42e7ea1ee23bb3addd5f34ce417f20e82405d21f3630568db36dd36"
 }

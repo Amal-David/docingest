@@ -69,5 +69,103 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://wsb.gitbook.io/wasabicard-doc/change-log",
+      "canonicalSeedUrl": "https://wsb.gitbook.io/wasabicard-doc/change-log",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-30T18:36:38.571Z",
+      "completedAt": "2025-11-30T18:36:38.571Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://wsb.gitbook.io/wasabicard-doc/change-log",
+          "canonicalUrl": "https://wsb.gitbook.io/wasabicard-doc/change-log",
+          "status": "valid"
+        }
+      ],
+      "id": "f6c1d1e9b3df9caa280c6e9c6f04cfcd1e6dc503f49592b0bf1d8d1ce301738d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d3b2652bc5be26d2813f61bdfdf83cf2ed06e71797cec6b68bea775ab34a52b6",
+      "filename": "documentation_2025-11-30T18:36:38.571Z.md",
+      "contentHash": "c31be994f3fef05e96a8a709fb87f09f2fcc83cb51b7cccd2cbfa8fcdfedfd0f",
+      "sourceUrl": "https://wsb.gitbook.io/wasabicard-doc/change-log",
+      "canonicalSourceUrl": "https://wsb.gitbook.io/wasabicard-doc/change-log",
+      "capturedAt": "2025-11-30T18:36:38.571Z",
+      "crawlRunId": "f6c1d1e9b3df9caa280c6e9c6f04cfcd1e6dc503f49592b0bf1d8d1ce301738d",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "Change Log | WasabiCard",
+          "url": "https://wsb.gitbook.io/wasabicard-doc/change-log"
+        },
+        {
+          "type": "Quick Start | WasabiCard",
+          "url": "https://wsb.gitbook.io/wasabicard-doc/guides/quickstart"
+        },
+        {
+          "type": "Card Issuance Process | WasabiCard",
+          "url": "https://wsb.gitbook.io/wasabicard-doc/guides/card-issuance-process"
+        },
+        {
+          "type": "CARD | WasabiCard",
+          "url": "https://wsb.gitbook.io/wasabicard-doc/api/card"
+        },
+        {
+          "type": "ACCOUNT | WasabiCard",
+          "url": "https://wsb.gitbook.io/wasabicard-doc/api/account"
+        },
+        {
+          "type": "COMMON | WasabiCard",
+          "url": "https://wsb.gitbook.io/wasabicard-doc/api/common"
+        },
+        {
+          "type": "Welcome | WasabiCard",
+          "url": "https://wsb.gitbook.io/wasabicard-doc/"
+        },
+        {
+          "type": "Cards | WasabiCard",
+          "url": "https://wsb.gitbook.io/wasabicard-doc/api/card/cards"
+        },
+        {
+          "type": "WEBHOOKS | WasabiCard",
+          "url": "https://wsb.gitbook.io/wasabicard-doc/api/webhooks"
+        },
+        {
+          "type": "Card holder | WasabiCard",
+          "url": "https://wsb.gitbook.io/wasabicard-doc/api/card/card-holder"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d3b2652bc5be26d2813f61bdfdf83cf2ed06e71797cec6b68bea775ab34a52b6"
 }

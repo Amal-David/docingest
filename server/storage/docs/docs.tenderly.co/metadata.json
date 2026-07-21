@@ -36,5 +36,79 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.tenderly.co/mcp-server",
+      "canonicalSeedUrl": "https://docs.tenderly.co/mcp-server",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-02T13:30:48.425Z",
+      "completedAt": "2026-04-02T13:30:48.425Z",
+      "providerTotals": {
+        "discovered": 4,
+        "returned": 4,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.tenderly.co/mcp-server",
+          "canonicalUrl": "https://docs.tenderly.co/mcp-server",
+          "status": "valid"
+        }
+      ],
+      "id": "56410161db415d6023f997ee8d3c9161f1806e85435ef64700817f2f634036e0",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "50d48dca0d19031e4ab2188d207f4626a731613287c51ac4f8f2adc1dd915f8e",
+      "filename": "documentation_2026-04-02T13:30:48.425Z.md",
+      "contentHash": "6a56f9612257da3e19bb81b21ec76b7a6895207d110ff5aa063d6c05de4c817b",
+      "sourceUrl": "https://docs.tenderly.co/mcp-server",
+      "canonicalSourceUrl": "https://docs.tenderly.co/mcp-server",
+      "capturedAt": "2026-04-02T13:30:48.425Z",
+      "crawlRunId": "56410161db415d6023f997ee8d3c9161f1806e85435ef64700817f2f634036e0",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "MCP Server | Tenderly Documentation",
+          "url": "https://docs.tenderly.co/mcp-server"
+        },
+        {
+          "type": "MCP Server Quickstart | Tenderly Documentation",
+          "url": "https://docs.tenderly.co/mcp-server/quickstart"
+        },
+        {
+          "type": "MCP Server Tools Reference | Tenderly Documentation",
+          "url": "https://docs.tenderly.co/mcp-server/tools"
+        },
+        {
+          "type": "MCP Server Examples | Tenderly Documentation",
+          "url": "https://docs.tenderly.co/mcp-server/examples"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "50d48dca0d19031e4ab2188d207f4626a731613287c51ac4f8f2adc1dd915f8e"
 }

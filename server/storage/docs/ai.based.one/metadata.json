@@ -28,5 +28,71 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://ai.based.one/docs",
+      "canonicalSeedUrl": "https://ai.based.one/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-04T13:17:56.566Z",
+      "completedAt": "2026-03-04T13:17:56.566Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://ai.based.one/docs",
+          "canonicalUrl": "https://ai.based.one/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "5b8c8de55374fb2aefa4ca71886022a2ac079d522c7039c06a46093224c93378",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f3077d66304937ac79700dbacdfc4bf1092e071908f2fbc18c923f5b5c68c1c6",
+      "filename": "documentation_2026-03-04T13:17:56.566Z.md",
+      "contentHash": "9b5426bbe2624dfadb11d6958d29a976f2952f82d526f0c273ab45fb5daa6e34",
+      "sourceUrl": "https://ai.based.one/docs",
+      "canonicalSourceUrl": "https://ai.based.one/docs",
+      "capturedAt": "2026-03-04T13:17:56.566Z",
+      "crawlRunId": "5b8c8de55374fb2aefa4ca71886022a2ac079d522c7039c06a46093224c93378",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Based AI | AI inference, billed in USDC",
+          "url": "https://ai.based.one/docs"
+        },
+        {
+          "type": "Based AI | AI inference, billed in USDC",
+          "url": "https://ai.based.one/docs/x402"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f3077d66304937ac79700dbacdfc4bf1092e071908f2fbc18c923f5b5c68c1c6"
 }

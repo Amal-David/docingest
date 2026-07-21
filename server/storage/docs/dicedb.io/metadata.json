@@ -156,5 +156,199 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://dicedb.io/get-started/installation/",
+      "canonicalSeedUrl": "https://dicedb.io/get-started/installation",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-07T20:28:25.280Z",
+      "completedAt": "2025-04-07T20:28:25.280Z",
+      "providerTotals": {
+        "discovered": 34,
+        "returned": 34,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://dicedb.io/get-started/installation/",
+          "canonicalUrl": "https://dicedb.io/get-started/installation",
+          "status": "valid"
+        }
+      ],
+      "id": "ff4380474ad993a0974257781b2ca2f667b8014d5ecb78759f38fd0e88ad07ab",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3d918efcc3025eab6043b18eb55fd6910d53cf6a86def6d1a72f190e7d070b16",
+      "filename": "documentation_2025-04-07T20:28:25.280Z.md",
+      "contentHash": "f63a9567988232f781e74091ab08e6698c0499998ae3ffa5217f42e7215561ad",
+      "sourceUrl": "https://dicedb.io/get-started/installation/",
+      "canonicalSourceUrl": "https://dicedb.io/get-started/installation",
+      "capturedAt": "2025-04-07T20:28:25.280Z",
+      "crawlRunId": "ff4380474ad993a0974257781b2ca2f667b8014d5ecb78759f38fd0e88ad07ab",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 34,
+      "successfulPages": 34,
+      "structure": [
+        {
+          "type": "Installation | DiceDB",
+          "url": "https://dicedb.io/get-started/installation/"
+        },
+        {
+          "type": "Hello, World - Simple | DiceDB",
+          "url": "https://dicedb.io/get-started/hello-world/"
+        },
+        {
+          "type": "EXISTS | DiceDB",
+          "url": "https://dicedb.io/commands/exists/"
+        },
+        {
+          "type": "Hello, World - Reactive | DiceDB",
+          "url": "https://dicedb.io/get-started/hello-world-reactive/"
+        },
+        {
+          "type": "DiceDB - an open-source, fast, reactive, in-memory database optimized for modern hardware.",
+          "url": "https://dicedb.io/"
+        },
+        {
+          "type": "Go | DiceDB",
+          "url": "https://dicedb.io/sdk/go/"
+        },
+        {
+          "type": "EXPIREAT | DiceDB",
+          "url": "https://dicedb.io/commands/expireat/"
+        },
+        {
+          "type": "EXPIRE | DiceDB",
+          "url": "https://dicedb.io/commands/expire/"
+        },
+        {
+          "type": "ECHO | DiceDB",
+          "url": "https://dicedb.io/commands/echo/"
+        },
+        {
+          "type": "EXPIRETIME | DiceDB",
+          "url": "https://dicedb.io/commands/expiretime/"
+        },
+        {
+          "type": "DECR | DiceDB",
+          "url": "https://dicedb.io/commands/decr/"
+        },
+        {
+          "type": "DECRBY | DiceDB",
+          "url": "https://dicedb.io/commands/decrby/"
+        },
+        {
+          "type": "DEL | DiceDB",
+          "url": "https://dicedb.io/commands/del/"
+        },
+        {
+          "type": "GET | DiceDB",
+          "url": "https://dicedb.io/commands/get/"
+        },
+        {
+          "type": "GET.WATCH | DiceDB",
+          "url": "https://dicedb.io/commands/getwatch/"
+        },
+        {
+          "type": "FLUSHDB | DiceDB",
+          "url": "https://dicedb.io/commands/flushdb/"
+        },
+        {
+          "type": "GETDEL | DiceDB",
+          "url": "https://dicedb.io/commands/getdel/"
+        },
+        {
+          "type": "HANDSHAKE | DiceDB",
+          "url": "https://dicedb.io/commands/handshake/"
+        },
+        {
+          "type": "HSET | DiceDB",
+          "url": "https://dicedb.io/commands/hset/"
+        },
+        {
+          "type": "GETEX | DiceDB",
+          "url": "https://dicedb.io/commands/getex/"
+        },
+        {
+          "type": "HGETALL.WATCH | DiceDB",
+          "url": "https://dicedb.io/commands/hgetallwatch/"
+        },
+        {
+          "type": "HGETALL | DiceDB",
+          "url": "https://dicedb.io/commands/hgetall/"
+        },
+        {
+          "type": "INCR | DiceDB",
+          "url": "https://dicedb.io/commands/incr/"
+        },
+        {
+          "type": "HGET | DiceDB",
+          "url": "https://dicedb.io/commands/hget/"
+        },
+        {
+          "type": "PING | DiceDB",
+          "url": "https://dicedb.io/commands/ping/"
+        },
+        {
+          "type": "INCRBY | DiceDB",
+          "url": "https://dicedb.io/commands/incrby/"
+        },
+        {
+          "type": "SET | DiceDB",
+          "url": "https://dicedb.io/commands/set/"
+        },
+        {
+          "type": "TTL | DiceDB",
+          "url": "https://dicedb.io/commands/ttl/"
+        },
+        {
+          "type": "TYPE | DiceDB",
+          "url": "https://dicedb.io/commands/type/"
+        },
+        {
+          "type": "UNWATCH | DiceDB",
+          "url": "https://dicedb.io/commands/unwatch/"
+        },
+        {
+          "type": "DiceDB Roadmap",
+          "url": "https://dicedb.io/roadmap"
+        },
+        {
+          "type": "DiceDB Benchmarks",
+          "url": "https://dicedb.io/benchmarks"
+        },
+        {
+          "type": "Reactivity in DiceDB",
+          "url": "https://dicedb.io/reactivity/"
+        },
+        {
+          "type": "404 | DiceDB",
+          "url": "https://dicedb.io/commands/zrangewatch"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3d918efcc3025eab6043b18eb55fd6910d53cf6a86def6d1a72f190e7d070b16"
 }

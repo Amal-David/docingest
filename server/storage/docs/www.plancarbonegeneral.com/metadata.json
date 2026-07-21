@@ -33,5 +33,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.plancarbonegeneral.com/",
+      "canonicalSeedUrl": "https://www.plancarbonegeneral.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-09T19:38:22.198Z",
+      "completedAt": "2025-07-09T19:38:22.198Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.plancarbonegeneral.com/",
+          "canonicalUrl": "https://www.plancarbonegeneral.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "631c4a4c55f0b52a3c8d4a39e65bdaa6f7224784af43043071842b7e382ec422",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "30638055f187e094e3e7b9d604f0ee91876c7232776865235d23f61aa1e53d32",
+      "filename": "documentation_2025-07-09T19:38:22.198Z.md",
+      "contentHash": "0cea3348dec11bd40af5c40011bb86b5e3de0a5847bfe44024e257a18fc26ebe",
+      "sourceUrl": "https://www.plancarbonegeneral.com/",
+      "canonicalSourceUrl": "https://www.plancarbonegeneral.com/",
+      "capturedAt": "2025-07-09T19:38:22.198Z",
+      "crawlRunId": "631c4a4c55f0b52a3c8d4a39e65bdaa6f7224784af43043071842b7e382ec422",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "A Propos du Plan Carbone Général | Plan Carbone Général",
+          "url": "https://www.plancarbonegeneral.com/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "30638055f187e094e3e7b9d604f0ee91876c7232776865235d23f61aa1e53d32"
 }

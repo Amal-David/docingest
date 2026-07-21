@@ -243,5 +243,259 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://bogdanfinn.gitbook.io/open-source-oasis",
+      "canonicalSeedUrl": "https://bogdanfinn.gitbook.io/open-source-oasis",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-25T17:07:16.704Z",
+      "completedAt": "2026-02-25T17:07:16.704Z",
+      "providerTotals": {
+        "discovered": 49,
+        "returned": 49,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis",
+          "canonicalUrl": "https://bogdanfinn.gitbook.io/open-source-oasis",
+          "status": "valid"
+        }
+      ],
+      "id": "fee732c15196acb2da1c300a45160711a1604a8adcd1168234f20ea6b4161249",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1c707cda29279e844a721e149107b8b81de47ba79e066a840395454dfd2008bd",
+      "filename": "documentation_2026-02-25T17:07:16.704Z.md",
+      "contentHash": "07dda3ccd7919d60301d564f6336a7f295c44cc1607de8f33afb3a6200c830c6",
+      "sourceUrl": "https://bogdanfinn.gitbook.io/open-source-oasis",
+      "canonicalSourceUrl": "https://bogdanfinn.gitbook.io/open-source-oasis",
+      "capturedAt": "2026-02-25T17:07:16.704Z",
+      "crawlRunId": "fee732c15196acb2da1c300a45160711a1604a8adcd1168234f20ea6b4161249",
+      "upstreamVersion": "1.0.3",
+      "upstreamChannel": "latest",
+      "totalPages": 49,
+      "successfulPages": 49,
+      "structure": [
+        {
+          "type": "TLS-Client | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis"
+        },
+        {
+          "type": "Supported and tested Client Profiles | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/readme/supported-and-tested-client-profiles"
+        },
+        {
+          "type": "Installation & Quick Usage | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/readme/installation-and-quick-usage"
+        },
+        {
+          "type": "Defaults | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/readme/defaults"
+        },
+        {
+          "type": "Proxies | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/readme/proxies"
+        },
+        {
+          "type": "Request Headers | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/readme/request-headers"
+        },
+        {
+          "type": "Response Body Encoding / Decoding | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/readme/response-body-encoding-decoding"
+        },
+        {
+          "type": "Custom Client Profile | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/readme/custom-client-profile"
+        },
+        {
+          "type": "Cookiejar | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/readme/cookiejar"
+        },
+        {
+          "type": "Certificate Pinning | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/readme/certificate-pinning"
+        },
+        {
+          "type": "Pseudo Header Order | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/readme/pseudo-header-order"
+        },
+        {
+          "type": "Client Options | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/readme/client-options"
+        },
+        {
+          "type": "Shared Library | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library"
+        },
+        {
+          "type": "Examples | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/readme/examples"
+        },
+        {
+          "type": "WebSocket | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/readme/websocket"
+        },
+        {
+          "type": "Protocol Racing | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/readme/protocol-racing"
+        },
+        {
+          "type": "Node Version | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/node-version"
+        },
+        {
+          "type": "Downloads | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/downloads"
+        },
+        {
+          "type": "Build from source | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/build-from-source"
+        },
+        {
+          "type": "Exposed Methods | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/exposed-methods"
+        },
+        {
+          "type": "JavaScript | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/javascript"
+        },
+        {
+          "type": "Examples | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/javascript/examples"
+        },
+        {
+          "type": "Python | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/python"
+        },
+        {
+          "type": "Examples | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/python/examples"
+        },
+        {
+          "type": "TypeScript | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/typescript"
+        },
+        {
+          "type": "C# | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/c"
+        },
+        {
+          "type": "Examples | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/typescript/examples"
+        },
+        {
+          "type": "Examples | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/c/examples"
+        },
+        {
+          "type": "Defaults | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/defaults"
+        },
+        {
+          "type": "Response | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/response"
+        },
+        {
+          "type": "Payload | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/payload"
+        },
+        {
+          "type": "Standalone API Application | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/standalone-api-application"
+        },
+        {
+          "type": "Configuration & Start | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/standalone-api-application/configuration-and-start"
+        },
+        {
+          "type": "Build from source | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/standalone-api-application/build-from-source"
+        },
+        {
+          "type": "Memory Issues | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/shared-library/memory-issues"
+        },
+        {
+          "type": "Download | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/standalone-api-application/download"
+        },
+        {
+          "type": "Endpoints | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/standalone-api-application/endpoints"
+        },
+        {
+          "type": "Defaults | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/standalone-api-application/defaults"
+        },
+        {
+          "type": "Response | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/standalone-api-application/response"
+        },
+        {
+          "type": "Payload | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/standalone-api-application/payload"
+        },
+        {
+          "type": "Attention | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/standalone-api-application/attention"
+        },
+        {
+          "type": "How to get support | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/how-to-get-support"
+        },
+        {
+          "type": "Community Support | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/how-to-get-support/community-support"
+        },
+        {
+          "type": "Further Information | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/further-information"
+        },
+        {
+          "type": "Frequently Asked Questions / Errors | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/how-to-get-support/frequently-asked-questions-errors"
+        },
+        {
+          "type": "Contributing | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/contributing"
+        },
+        {
+          "type": "Proxies | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/proxies"
+        },
+        {
+          "type": "Antibots & Captchas | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/antibots-and-captchas"
+        },
+        {
+          "type": "Community Projects | Open Source Oasis",
+          "url": "https://bogdanfinn.gitbook.io/open-source-oasis/community-projects"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1c707cda29279e844a721e149107b8b81de47ba79e066a840395454dfd2008bd"
 }

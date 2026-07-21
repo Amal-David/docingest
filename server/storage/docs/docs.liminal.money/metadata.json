@@ -84,5 +84,127 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.liminal.money/",
+      "canonicalSeedUrl": "https://docs.liminal.money/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-10T14:19:36.197Z",
+      "completedAt": "2025-11-10T14:19:36.197Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.liminal.money/",
+          "canonicalUrl": "https://docs.liminal.money/",
+          "status": "valid"
+        }
+      ],
+      "id": "26e521031ba67da40e457b7968a855bfa5c8305b25e506aaf6107f777eec558b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "379bd024bb0013de80159e769b7359923599754fcb8373856167bb4210443540",
+      "filename": "documentation_2025-11-10T14:19:36.197Z.md",
+      "contentHash": "13ea7d633185e8c1b9776a9692f8ac7666fcd335c8fb2cc23a5dad56c7258993",
+      "sourceUrl": "https://docs.liminal.money/",
+      "canonicalSourceUrl": "https://docs.liminal.money/",
+      "capturedAt": "2025-11-10T14:19:36.197Z",
+      "crawlRunId": "26e521031ba67da40e457b7968a855bfa5c8305b25e506aaf6107f777eec558b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "Welcome to Liminal | Liminal Docs",
+          "url": "https://docs.liminal.money/"
+        },
+        {
+          "type": "What is delta-neutral? | Liminal Docs",
+          "url": "https://docs.liminal.money/getting-started/delta-neutral"
+        },
+        {
+          "type": "What is Liminal? | Liminal Docs",
+          "url": "https://docs.liminal.money/getting-started/what-is-liminal"
+        },
+        {
+          "type": "How does Liminal work? | Liminal Docs",
+          "url": "https://docs.liminal.money/getting-started/how-does-it-works"
+        },
+        {
+          "type": "Key features and Benefits | Liminal Docs",
+          "url": "https://docs.liminal.money/getting-started/key-features-and-benefits"
+        },
+        {
+          "type": "Using Liminal Effectively | Liminal Docs",
+          "url": "https://docs.liminal.money/user-guides/using-liminal-effectively"
+        },
+        {
+          "type": "How does the Institutional solution work? | Liminal Docs",
+          "url": "https://docs.liminal.money/user-guides/institutions"
+        },
+        {
+          "type": "Access Model & Evolution | Liminal Docs",
+          "url": "https://docs.liminal.money/user-guides/access"
+        },
+        {
+          "type": "How to deposit into Liminal? | Liminal Docs",
+          "url": "https://docs.liminal.money/user-guides/deposit"
+        },
+        {
+          "type": "How to withdraw from Liminal? | Liminal Docs",
+          "url": "https://docs.liminal.money/user-guides/withdraw"
+        },
+        {
+          "type": "Risks | Liminal Docs",
+          "url": "https://docs.liminal.money/more/risks"
+        },
+        {
+          "type": "Audits | Liminal Docs",
+          "url": "https://docs.liminal.money/more/audits"
+        },
+        {
+          "type": "Support | Liminal Docs",
+          "url": "https://docs.liminal.money/more/support"
+        },
+        {
+          "type": "Fees | Liminal Docs",
+          "url": "https://docs.liminal.money/more/fees"
+        },
+        {
+          "type": "Referral | Liminal Docs",
+          "url": "https://docs.liminal.money/more/referral"
+        },
+        {
+          "type": "Architecture | Liminal Docs",
+          "url": "https://docs.liminal.money/more/architecture"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "379bd024bb0013de80159e769b7359923599754fcb8373856167bb4210443540"
 }

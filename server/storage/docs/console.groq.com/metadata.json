@@ -176,5 +176,219 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://console.groq.com/docs/",
+      "canonicalSeedUrl": "https://console.groq.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-16T09:36:58.817Z",
+      "completedAt": "2025-04-16T09:36:58.817Z",
+      "providerTotals": {
+        "discovered": 39,
+        "returned": 39,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://console.groq.com/docs/",
+          "canonicalUrl": "https://console.groq.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "b82028d6fa7be1a915c2e2320a6de905cad6a43bb34283f96f54c5321034c875",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a1c440f80bf6713e019a7cccf3b587c0f2eccbb323011be1cc215f5b494047b7",
+      "filename": "documentation_2025-04-16T09:36:58.817Z.md",
+      "contentHash": "6ae9d7b1b99f5661aac06e01b89914146c5d5052f63db4e4b0e9c435bea2089a",
+      "sourceUrl": "https://console.groq.com/docs/",
+      "canonicalSourceUrl": "https://console.groq.com/docs",
+      "capturedAt": "2025-04-16T09:36:58.817Z",
+      "crawlRunId": "b82028d6fa7be1a915c2e2320a6de905cad6a43bb34283f96f54c5321034c875",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 39,
+      "successfulPages": 39,
+      "structure": [
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/openai"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/quickstart"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/flex-processing"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/rate-limits"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/composio"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/flutterflow"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/agentic-tooling"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/reasoning"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/livekit"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/jigsawstack"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/models"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/text-to-speech"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/gradio"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/langchain"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/toolhouse"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/vision"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/arize"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/autogen"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/text-chat"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/ai-sdk"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/prompting"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/llama-index"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/examples"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/showcase-applications"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/mlflow"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/badge"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/agno"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/content-moderation"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/e2b"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/litellm"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/api-reference"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/batch"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/speech-to-text"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/crewai"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/prefilling"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/libraries"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/tool-use"
+        },
+        {
+          "type": "GroqCloud",
+          "url": "https://console.groq.com/docs/errors"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a1c440f80bf6713e019a7cccf3b587c0f2eccbb323011be1cc215f5b494047b7"
 }

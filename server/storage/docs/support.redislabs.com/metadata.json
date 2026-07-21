@@ -33,5 +33,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://support.redislabs.com/hc/en-us/articles/31569792253970-Troubleshooting-Query-Failures-After-Upgrading-to-Redis-Software-8",
+      "canonicalSeedUrl": "https://support.redislabs.com/hc/en-us/articles/31569792253970-Troubleshooting-Query-Failures-After-Upgrading-to-Redis-Software-8",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-10T20:32:45.631Z",
+      "completedAt": "2026-07-10T20:32:45.631Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://support.redislabs.com/hc/en-us/articles/31569792253970-Troubleshooting-Query-Failures-After-Upgrading-to-Redis-Software-8",
+          "canonicalUrl": "https://support.redislabs.com/hc/en-us/articles/31569792253970-Troubleshooting-Query-Failures-After-Upgrading-to-Redis-Software-8",
+          "status": "valid"
+        }
+      ],
+      "id": "94146536ff4b139c10ede581fe2441269bf319533fe5f02e4ce7cc3ac6c14761",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a62f95fb9f7975ddc81d3760bda3cc4364c368a28cef44088eb1a064b6084c28",
+      "filename": "documentation_2026-07-10T20:32:45.631Z.md",
+      "contentHash": "14041432b8f85f021eec7a7d1aef071ff53ceafebf5f4a27bcf1af471a8ca923",
+      "sourceUrl": "https://support.redislabs.com/hc/en-us/articles/31569792253970-Troubleshooting-Query-Failures-After-Upgrading-to-Redis-Software-8",
+      "canonicalSourceUrl": "https://support.redislabs.com/hc/en-us/articles/31569792253970-Troubleshooting-Query-Failures-After-Upgrading-to-Redis-Software-8",
+      "capturedAt": "2026-07-10T20:32:45.631Z",
+      "crawlRunId": "94146536ff4b139c10ede581fe2441269bf319533fe5f02e4ce7cc3ac6c14761",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Troubleshooting Query Failures After Upgrading to Redis Software 8 – Redis Knowledge Base",
+          "url": "https://support.redislabs.com/hc/en-us/articles/31569792253970-Troubleshooting-Query-Failures-After-Upgrading-to-Redis-Software-8"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a62f95fb9f7975ddc81d3760bda3cc4364c368a28cef44088eb1a064b6084c28"
 }

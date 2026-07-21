@@ -164,5 +164,207 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://blueprint.zip/docs?page=getting-started/Installation",
+      "canonicalSeedUrl": "https://blueprint.zip/docs?page=getting-started%2FInstallation",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-11T07:43:20.460Z",
+      "completedAt": "2025-09-11T07:43:20.460Z",
+      "providerTotals": {
+        "discovered": 36,
+        "returned": 36,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://blueprint.zip/docs?page=getting-started/Installation",
+          "canonicalUrl": "https://blueprint.zip/docs?page=getting-started%2FInstallation",
+          "status": "valid"
+        }
+      ],
+      "id": "684b5d6db915f0c2e530b7df68fea71a2e9f2da06a10c4944ef4cfb5c95b7a8b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3cc7cec56526e9c8e4397c1c72281d577b4cb7b84addfe4b0f241672d124348c",
+      "filename": "documentation_2025-09-11T07:43:20.460Z.md",
+      "contentHash": "8aee86e7a3a2b3369c26bab09dcb658c0bc0522e426b6505b6e9cc37ae232630",
+      "sourceUrl": "https://blueprint.zip/docs?page=getting-started/Installation",
+      "canonicalSourceUrl": "https://blueprint.zip/docs?page=getting-started%2FInstallation",
+      "capturedAt": "2025-09-11T07:43:20.460Z",
+      "crawlRunId": "684b5d6db915f0c2e530b7df68fea71a2e9f2da06a10c4944ef4cfb5c95b7a8b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 36,
+      "successfulPages": 36,
+      "structure": [
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=getting-started/Installation"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=getting-started/Managing-extensions"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=getting-started/Frequently-asked-questions"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=getting-started/Extension-development"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=developing-extensions/Custom-controllers"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=developing-extensions/Dashboard-wrappers"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=developing-extensions/Admin-configuration"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=developing-extensions/Custom-web-routes"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=developing-extensions/Packaging-extensions"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=documentation/$blueprint"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=developing-extensions/Admin-views"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=developing-extensions/Custom-table-and-migrations"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=developing-extensions/React-components"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=documentation/consoleyml"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=documentation/componentsyml"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/License"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=documentation/placeholders"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=documentation/flags"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/Branding"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/Changelog"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=documentation/confyml"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=documentation/scripts"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/changelog/beta-2024-12"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/changelog/beta-2024-08"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/changelog/beta-2024-07"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/changelog/alpha-SLX"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/changelog/alpha-NLM"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/changelog/beta-A428"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/changelog/beta-2025-05"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/changelog/alpha-3ZX"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/changelog/alpha-IPS"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/changelog/beta-F248"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/changelog/alpha-2N2"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/changelog/alpha-XT1"
+        },
+        {
+          "type": "Documentation - Blueprint",
+          "url": "https://blueprint.zip/docs?page=about/changelog/alpha-F0V"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3cc7cec56526e9c8e4397c1c72281d577b4cb7b84addfe4b0f241672d124348c"
 }

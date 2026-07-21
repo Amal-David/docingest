@@ -85,5 +85,119 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://pi2.network/founder",
+      "canonicalSeedUrl": "https://pi2.network/founder",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-19T12:24:00.354Z",
+      "completedAt": "2025-08-19T12:24:00.354Z",
+      "providerTotals": {
+        "discovered": 14,
+        "returned": 14,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://pi2.network/founder",
+          "canonicalUrl": "https://pi2.network/founder",
+          "status": "valid"
+        }
+      ],
+      "id": "088eb65e6ca526c543f0bf36d0cfc97a9db0bc71df0796e4a6234cbc97e7cfd4",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ae033e539e7aacb539866c0f46a756fe51a77f1cf05291786507a7381892d40e",
+      "filename": "documentation_2025-08-19T12:24:00.354Z.md",
+      "contentHash": "1295d00394ad57adfd13104768c07e92497610e09ee647f2629029bcb475c2d8",
+      "sourceUrl": "https://pi2.network/founder",
+      "canonicalSourceUrl": "https://pi2.network/founder",
+      "capturedAt": "2025-08-19T12:24:00.354Z",
+      "crawlRunId": "088eb65e6ca526c543f0bf36d0cfc97a9db0bc71df0796e4a6234cbc97e7cfd4",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 14,
+      "successfulPages": 14,
+      "structure": [
+        {
+          "type": "Pi Squared - Settle Fast. Prove Everything.",
+          "url": "https://pi2.network/founder"
+        },
+        {
+          "type": "Contact | π²",
+          "url": "https://pi2.network/contact"
+        },
+        {
+          "type": "Pi Squared - Settle Fast. Prove Everything.",
+          "url": "https://pi2.network/integrations/eigen-layer"
+        },
+        {
+          "type": "Pi Squared - Settle Fast. Prove Everything.",
+          "url": "https://pi2.network/integrations/wormhole"
+        },
+        {
+          "type": "Pi Squared - Settle Fast. Prove Everything.",
+          "url": "https://pi2.network"
+        },
+        {
+          "type": "Pi Squared - Settle Fast. Prove Everything.",
+          "url": "https://pi2.network/fastset-network"
+        },
+        {
+          "type": "Privacy Policy | π²",
+          "url": "https://pi2.network/privacy-policy"
+        },
+        {
+          "type": "Terms of Use | π²",
+          "url": "https://pi2.network/terms-of-use"
+        },
+        {
+          "type": "Team | π²",
+          "url": "https://pi2.network/team"
+        },
+        {
+          "type": "The FastSet Whitepaper | π²",
+          "url": "https://pi2.network/papers/fastset"
+        },
+        {
+          "type": "Careers | π²",
+          "url": "https://pi2.network/careers"
+        },
+        {
+          "type": "General Interest Application | π²",
+          "url": "https://pi2.network/careers/general-interest-application"
+        },
+        {
+          "type": "404: This page could not be found.",
+          "url": "https://pi2.network/videos"
+        },
+        {
+          "type": "404: This page could not be found.",
+          "url": "https://pi2.network/videos/VSL-Wormhole-Devcon-7"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ae033e539e7aacb539866c0f46a756fe51a77f1cf05291786507a7381892d40e"
 }

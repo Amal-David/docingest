@@ -68,5 +68,111 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://support.bolt.new/docs/getting-started",
+      "canonicalSeedUrl": "https://support.bolt.new/docs/getting-started",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-24T15:45:46.193Z",
+      "completedAt": "2025-04-24T15:45:46.193Z",
+      "providerTotals": {
+        "discovered": 12,
+        "returned": 12,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://support.bolt.new/docs/getting-started",
+          "canonicalUrl": "https://support.bolt.new/docs/getting-started",
+          "status": "valid"
+        }
+      ],
+      "id": "f063bbb45ee1a80c8b58ca3282dbadbaf414392ee1b0b761f7a59903a74cd915",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a69b1227a0c7128d2822ecc6f6f829607b458be72254d7129c4e4abc9f4b51e0",
+      "filename": "documentation_2025-04-24T15:45:46.193Z.md",
+      "contentHash": "1a062e06afd1ad4fcf56bddff8672555b6efba2ef2fcf0c668d59b4891360ef8",
+      "sourceUrl": "https://support.bolt.new/docs/getting-started",
+      "canonicalSourceUrl": "https://support.bolt.new/docs/getting-started",
+      "capturedAt": "2025-04-24T15:45:46.193Z",
+      "crawlRunId": "f063bbb45ee1a80c8b58ca3282dbadbaf414392ee1b0b761f7a59903a74cd915",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 12,
+      "successfulPages": 12,
+      "structure": [
+        {
+          "type": "Getting Started Guide for Bolt.new - Bolt",
+          "url": "https://support.bolt.new/docs/getting-started"
+        },
+        {
+          "type": "Discussion Mode - Bolt",
+          "url": "https://support.bolt.new/docs/discussion-mode"
+        },
+        {
+          "type": "Maximizing Token Efficiency: How to use less tokens - Bolt",
+          "url": "https://support.bolt.new/docs/maximizing-token-efficiency"
+        },
+        {
+          "type": "Welcome to the Bolt.new Help Center - Bolt",
+          "url": "https://support.bolt.new/docs/introduction"
+        },
+        {
+          "type": "Office Hours - Bolt",
+          "url": "https://support.bolt.new/docs/office-hours-recording"
+        },
+        {
+          "type": "Prompting Effectively: How to talk to Bolt - Bolt",
+          "url": "https://support.bolt.new/docs/prompting-effectively"
+        },
+        {
+          "type": "User Spotlight Recordings - Bolt",
+          "url": "https://support.bolt.new/docs/users-spotlight"
+        },
+        {
+          "type": "How to Create Mobile Apps - Bolt",
+          "url": "https://support.bolt.new/docs/how-to-create-mobile-apps"
+        },
+        {
+          "type": "Figma Integration with Anima - Bolt",
+          "url": "https://support.bolt.new/docs/figma"
+        },
+        {
+          "type": "Authentication - Bolt",
+          "url": "https://support.bolt.new/docs/authentication"
+        },
+        {
+          "type": "Database - Bolt",
+          "url": "https://support.bolt.new/docs/database"
+        },
+        {
+          "type": "Manual Deployment - Bolt",
+          "url": "https://support.bolt.new/docs/manual-deployment"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a69b1227a0c7128d2822ecc6f6f829607b458be72254d7129c4e4abc9f4b51e0"
 }

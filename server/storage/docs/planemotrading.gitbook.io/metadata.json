@@ -52,5 +52,95 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://planemotrading.gitbook.io/docs",
+      "canonicalSeedUrl": "https://planemotrading.gitbook.io/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-21T13:17:26.504Z",
+      "completedAt": "2026-01-21T13:17:26.504Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://planemotrading.gitbook.io/docs",
+          "canonicalUrl": "https://planemotrading.gitbook.io/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "3d6179cd72c3b4f8f42a9d465da301b2fce9fa30bc3091046f520ba73ccfbbee",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a6e90150675c141ffd3e228a57106f83799f1a23fd4ca875ee0aa42f2f90ef4c",
+      "filename": "documentation_2026-01-21T13:17:26.504Z.md",
+      "contentHash": "7c810b054d3ce5671056aef06979f5f340e84cfad1cfa7307e8188562a87cbb2",
+      "sourceUrl": "https://planemotrading.gitbook.io/docs",
+      "canonicalSourceUrl": "https://planemotrading.gitbook.io/docs",
+      "capturedAt": "2026-01-21T13:17:26.504Z",
+      "crawlRunId": "3d6179cd72c3b4f8f42a9d465da301b2fce9fa30bc3091046f520ba73ccfbbee",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Overview | Planemo Trading Docs",
+          "url": "https://planemotrading.gitbook.io/docs"
+        },
+        {
+          "type": "Affiliate Program | Planemo Trading Docs",
+          "url": "https://planemotrading.gitbook.io/docs/affiliate-program"
+        },
+        {
+          "type": "About Planemo | Planemo Trading Docs",
+          "url": "https://planemotrading.gitbook.io/docs/about-planemo"
+        },
+        {
+          "type": "Getting Started | Planemo Trading Docs",
+          "url": "https://planemotrading.gitbook.io/docs/getting-started"
+        },
+        {
+          "type": "Trading Strategies | Planemo Trading Docs",
+          "url": "https://planemotrading.gitbook.io/docs/trading-strategies"
+        },
+        {
+          "type": "Points Program | Planemo Trading Docs",
+          "url": "https://planemotrading.gitbook.io/docs/points-program"
+        },
+        {
+          "type": "Vault | Planemo Trading Docs",
+          "url": "https://planemotrading.gitbook.io/docs/vault"
+        },
+        {
+          "type": "Technical Reference | Planemo Trading Docs",
+          "url": "https://planemotrading.gitbook.io/docs/technical-reference"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a6e90150675c141ffd3e228a57106f83799f1a23fd4ca875ee0aa42f2f90ef4c"
 }

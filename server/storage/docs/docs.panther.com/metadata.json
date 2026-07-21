@@ -206,5 +206,231 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.panther.com/cloud-scanning",
+      "canonicalSeedUrl": "https://docs.panther.com/cloud-scanning",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-09T10:21:45.030Z",
+      "completedAt": "2026-03-09T10:21:45.030Z",
+      "providerTotals": {
+        "discovered": 42,
+        "returned": 42,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.panther.com/cloud-scanning",
+          "canonicalUrl": "https://docs.panther.com/cloud-scanning",
+          "status": "valid"
+        }
+      ],
+      "id": "0aa415cdac68ba350365fd00ea28b2b99b293115fb251755f8513c9ff47a1d0c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "df76e43af7f3ca8b61b9a0b51b1ffe0933ada90607b8ffc043d4bb7fe5bcff4f",
+      "filename": "documentation_2026-03-09T10:21:45.030Z.md",
+      "contentHash": "aae01ed2a5d01fd84b493987da2679e68a88e402127392af344e7327f268252d",
+      "sourceUrl": "https://docs.panther.com/cloud-scanning",
+      "canonicalSourceUrl": "https://docs.panther.com/cloud-scanning",
+      "capturedAt": "2026-03-09T10:21:45.030Z",
+      "crawlRunId": "0aa415cdac68ba350365fd00ea28b2b99b293115fb251755f8513c9ff47a1d0c",
+      "upstreamVersion": "1.1.1",
+      "upstreamChannel": "latest",
+      "totalPages": 42,
+      "successfulPages": 42,
+      "structure": [
+        {
+          "type": "Cloud Security Scanning | Panther Docs",
+          "url": "https://docs.panther.com/cloud-scanning"
+        },
+        {
+          "type": "Quick Start | Panther Docs",
+          "url": "https://docs.panther.com/quick-start"
+        },
+        {
+          "type": "Data Sources & Transports | Panther Docs",
+          "url": "https://docs.panther.com/data-onboarding"
+        },
+        {
+          "type": "Terraform | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/terraform"
+        },
+        {
+          "type": "Using panther-analysis | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/detections-repo"
+        },
+        {
+          "type": "MCP Server | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/mcp-server"
+        },
+        {
+          "type": "Panther Developer Workflows Overview | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/overview"
+        },
+        {
+          "type": "pantherlog Tool | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/pantherlog"
+        },
+        {
+          "type": "Field Discovery | Panther Docs",
+          "url": "https://docs.panther.com/data-onboarding/field-discovery"
+        },
+        {
+          "type": "Help | Panther Docs",
+          "url": "https://docs.panther.com/resources/help"
+        },
+        {
+          "type": "Ingestion Filters | Panther Docs",
+          "url": "https://docs.panther.com/data-onboarding/ingestion-filters"
+        },
+        {
+          "type": "Converting Sigma Rules | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/converting-sigma-rules"
+        },
+        {
+          "type": "Using Panther-managed Detections | Panther Docs",
+          "url": "https://docs.panther.com/detections/panther-managed"
+        },
+        {
+          "type": "Derived Detections | Panther Docs",
+          "url": "https://docs.panther.com/detections/rules/derived"
+        },
+        {
+          "type": "Standard Fields | Panther Docs",
+          "url": "https://docs.panther.com/search/panther-fields"
+        },
+        {
+          "type": "Saved and Scheduled Searches | Panther Docs",
+          "url": "https://docs.panther.com/search/scheduled-searches"
+        },
+        {
+          "type": "CI/CD for Panther Content | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/detections-repo/ci-cd"
+        },
+        {
+          "type": "Panther Analysis Tool | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/detections-repo/pat"
+        },
+        {
+          "type": "Managing Panther Content via CircleCI | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/detections-repo/ci-cd/deployment-workflows/circle-ci"
+        },
+        {
+          "type": "PantherFlow Expressions | Panther Docs",
+          "url": "https://docs.panther.com/pantherflow/expressions"
+        },
+        {
+          "type": "Panther AI Workflow Examples | Panther Docs",
+          "url": "https://docs.panther.com/ai/examples"
+        },
+        {
+          "type": "G Suite SSO | Panther Docs",
+          "url": "https://docs.panther.com/system-configuration/saml/gsuite"
+        },
+        {
+          "type": "Tor Exit Nodes | Panther Docs",
+          "url": "https://docs.panther.com/enrichment/tor-exit-nodes"
+        },
+        {
+          "type": "Data Models | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/api/rest/data-models"
+        },
+        {
+          "type": "Public Fork | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/detections-repo/setup/deprecated/public-fork"
+        },
+        {
+          "type": "Snowflake Connected (Legacy) | Panther Docs",
+          "url": "https://docs.panther.com/system-configuration/panther-deployment-types/legacy-configurations/snowflake-setup"
+        },
+        {
+          "type": "Private Clone | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/detections-repo/setup/deprecated/private-cloned-repo"
+        },
+        {
+          "type": "Roles | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/api/rest/roles"
+        },
+        {
+          "type": "PantherFlow Examples: Panther Audit Logs | Panther Docs",
+          "url": "https://docs.panther.com/pantherflow/example-queries/panther-audit-logs"
+        },
+        {
+          "type": "Rules | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/api/rest/rules"
+        },
+        {
+          "type": "Users | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/api/rest/users"
+        },
+        {
+          "type": "Cloud Account Management | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/api/graphql/cloud-account"
+        },
+        {
+          "type": "User & Role Management | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/api/graphql/user-management"
+        },
+        {
+          "type": "Log Source Management | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/api/graphql/log-source"
+        },
+        {
+          "type": "Metrics | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/api/graphql/metrics"
+        },
+        {
+          "type": "Token Rotation | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/api/graphql/token-rotation"
+        },
+        {
+          "type": "Scheduled Rules | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/api/rest/scheduled-rules"
+        },
+        {
+          "type": "Onboarding Guide | Panther Docs",
+          "url": "https://docs.panther.com/quick-start/onboarding-guide"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.panther.com/cdn-cgi/l/email-protection"
+        },
+        {
+          "type": "Legal | Panther Docs",
+          "url": "https://docs.panther.com/resources/help/legal"
+        },
+        {
+          "type": "MISP Warning Lists | Panther Docs",
+          "url": "https://docs.panther.com/enrichment/misp"
+        },
+        {
+          "type": "Migrating to a CI/CD Workflow | Panther Docs",
+          "url": "https://docs.panther.com/panther-developer-workflows/detections-repo/ci-cd/migrating-to-a-ci-cd-workflow"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "df76e43af7f3ca8b61b9a0b51b1ffe0933ada90607b8ffc043d4bb7fe5bcff4f"
 }

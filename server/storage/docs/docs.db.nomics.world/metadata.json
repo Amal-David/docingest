@@ -68,5 +68,111 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.db.nomics.world/",
+      "canonicalSeedUrl": "https://docs.db.nomics.world/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-18T21:16:14.433Z",
+      "completedAt": "2026-06-18T21:16:14.433Z",
+      "providerTotals": {
+        "discovered": 12,
+        "returned": 12,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.db.nomics.world/",
+          "canonicalUrl": "https://docs.db.nomics.world/",
+          "status": "valid"
+        }
+      ],
+      "id": "8307830420d227b0cc556cba68006444ce53c77e983f5a1923fd6c1319b5c794",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e14274e272c1449956cf19e33241d7359264d072af99c30b35cb61704e196d24",
+      "filename": "documentation_2026-06-18T21:16:14.433Z.md",
+      "contentHash": "87e4dc4a88062a22af4764005dad1695d886352920619c6df42cdca51e93c018",
+      "sourceUrl": "https://docs.db.nomics.world/",
+      "canonicalSourceUrl": "https://docs.db.nomics.world/",
+      "capturedAt": "2026-06-18T21:16:14.433Z",
+      "crawlRunId": "8307830420d227b0cc556cba68006444ce53c77e983f5a1923fd6c1319b5c794",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 12,
+      "successfulPages": 12,
+      "structure": [
+        {
+          "type": "What is DBnomics? - DBnomics documentation",
+          "url": "https://docs.db.nomics.world/"
+        },
+        {
+          "type": "FAQ - DBnomics documentation",
+          "url": "https://docs.db.nomics.world/faq/"
+        },
+        {
+          "type": "Contributing - DBnomics documentation",
+          "url": "https://docs.db.nomics.world/contributing/"
+        },
+        {
+          "type": "Web API - DBnomics documentation",
+          "url": "https://docs.db.nomics.world/web-api/"
+        },
+        {
+          "type": "Core design principles - DBnomics documentation",
+          "url": "https://docs.db.nomics.world/core-design-principles/"
+        },
+        {
+          "type": "Website - DBnomics documentation",
+          "url": "https://docs.db.nomics.world/website/"
+        },
+        {
+          "type": "A Public Good Sustained by Its Community - DBnomics documentation",
+          "url": "https://docs.db.nomics.world/public-good-and-community/"
+        },
+        {
+          "type": "Legal Terms - DBnomics documentation",
+          "url": "https://docs.db.nomics.world/legal-terms/"
+        },
+        {
+          "type": "Quick tour - DBnomics documentation",
+          "url": "https://docs.db.nomics.world/quick-tour/"
+        },
+        {
+          "type": "Architecture - DBnomics documentation",
+          "url": "https://docs.db.nomics.world/architecture/"
+        },
+        {
+          "type": "Data model - DBnomics documentation",
+          "url": "https://docs.db.nomics.world/data-model/"
+        },
+        {
+          "type": "Fetchers - DBnomics documentation",
+          "url": "https://docs.db.nomics.world/fetchers/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e14274e272c1449956cf19e33241d7359264d072af99c30b35cb61704e196d24"
 }

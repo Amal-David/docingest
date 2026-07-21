@@ -302,5 +302,327 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://reso.gitbook.io/mytoast/",
+      "canonicalSeedUrl": "https://reso.gitbook.io/mytoast",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-27T04:55:09.706Z",
+      "completedAt": "2025-11-27T04:55:09.706Z",
+      "providerTotals": {
+        "discovered": 66,
+        "returned": 66,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://reso.gitbook.io/mytoast/",
+          "canonicalUrl": "https://reso.gitbook.io/mytoast",
+          "status": "valid"
+        }
+      ],
+      "id": "251286f92ca2a0b04738c3aaf643e08bdd351a9284b580a16417e5489e7bad6e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "76c5947147b61184f83088d092b1d1a238e6cbfbc5d6e92e97056d90cc5182b3",
+      "filename": "documentation_2025-11-27T04:55:09.706Z.md",
+      "contentHash": "a61fa8ec4a3f64051fc66d55d0baf048e7c8fa40959e0b1289890075a5aadb11",
+      "sourceUrl": "https://reso.gitbook.io/mytoast/",
+      "canonicalSourceUrl": "https://reso.gitbook.io/mytoast",
+      "capturedAt": "2025-11-27T04:55:09.706Z",
+      "crawlRunId": "251286f92ca2a0b04738c3aaf643e08bdd351a9284b580a16417e5489e7bad6e",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 66,
+      "successfulPages": 66,
+      "structure": [
+        {
+          "type": "mytoast",
+          "url": "https://reso.gitbook.io/mytoast/"
+        },
+        {
+          "type": "Vision and Mission | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/introduction/vision-and-mission"
+        },
+        {
+          "type": "The Problem | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/introduction/the-problem"
+        },
+        {
+          "type": "What Can I Do on mytoast? | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/introduction/what-can-i-do-on-mytoast"
+        },
+        {
+          "type": "Fully Toasted Milestone | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/features-and-functionalities/fully-toasted-milestone"
+        },
+        {
+          "type": "Token Launch \"Toast It!\" | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/features-and-functionalities/quickstart"
+        },
+        {
+          "type": "Fully Toasted | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/features-and-functionalities/fully-toasted-milestone/fully-toasted"
+        },
+        {
+          "type": "Fully Toasted Staking | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/features-and-functionalities/fully-toasted-milestone/fully-toasted-staking"
+        },
+        {
+          "type": "Treasury & Fee Structure | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/features-and-functionalities/treasury-and-fee-structure"
+        },
+        {
+          "type": "Community Led Staking | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/features-and-functionalities/community-led-staking"
+        },
+        {
+          "type": "Create Staking | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/features-and-functionalities/create-staking"
+        },
+        {
+          "type": "FAQs | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/faqs"
+        },
+        {
+          "type": "Smart Contract Security | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/security/smart-contract-security"
+        },
+        {
+          "type": "Integration | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/developers/integration"
+        },
+        {
+          "type": "Incident Response | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/security/incident-response"
+        },
+        {
+          "type": "Launchpad Creation | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/developers/integration/launchpad-creation"
+        },
+        {
+          "type": "Launchpad Fund/Refund | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/developers/integration/launchpad-fund-refund"
+        },
+        {
+          "type": "API Reference | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/developers/integration/api-reference"
+        },
+        {
+          "type": "Authentication | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/developers/integration/api-reference/authentication"
+        },
+        {
+          "type": "Launchpads | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/developers/integration/api-reference/launchpads"
+        },
+        {
+          "type": "Stake Offers | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/developers/integration/api-reference/stake-offers"
+        },
+        {
+          "type": "Models | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/developers/integration/api-reference/models"
+        },
+        {
+          "type": "Exchange Rates | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/developers/integration/api-reference/exchange-rates"
+        },
+        {
+          "type": "Trading | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/developers/integration/api-reference/trading"
+        },
+        {
+          "type": "Assets | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/developers/integration/api-reference/assets"
+        },
+        {
+          "type": "Liabilities | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/legal-disclaimer/liabilities"
+        },
+        {
+          "type": "Risks | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/legal-disclaimer/risks"
+        },
+        {
+          "type": "Use of the Platform | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex"
+        },
+        {
+          "type": "Additional Features | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/features-and-functionalities/additional-features"
+        },
+        {
+          "type": "Trading | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/features-and-functionalities/trading"
+        },
+        {
+          "type": "Initial DEX Offering (IDO) | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/informational/initial-dex-offering-ido"
+        },
+        {
+          "type": "Community Airdrop | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/informational/community-airdrop"
+        },
+        {
+          "type": "Live Launching | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/informational/live-launching"
+        },
+        {
+          "type": "Token Overview | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/reso-token/token-overview"
+        },
+        {
+          "type": "Protocol Revenue | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/reso-token/protocol-revenue"
+        },
+        {
+          "type": "Staking | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/features-and-functionalities/staking"
+        },
+        {
+          "type": "Economic Model | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/reso-token/economic-model"
+        },
+        {
+          "type": "Launchpad | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/features-and-functionalities/launchpad"
+        },
+        {
+          "type": "Roadmaps | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/reso-token/roadmaps"
+        },
+        {
+          "type": "Beta Launchpad Platform | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/informational/beta-launchpad-platform"
+        },
+        {
+          "type": "Beta DEX Launching | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/informational/beta-dex-launching"
+        },
+        {
+          "type": "Utility and Use Cases | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/reso-token/utility-and-use-cases"
+        },
+        {
+          "type": "Tokenomics | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/reso-token/tokenomics"
+        },
+        {
+          "type": "User Asset Protection | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/security/user-asset-protection"
+        },
+        {
+          "type": "Security Features | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/security/security-features"
+        },
+        {
+          "type": "Incident Response | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/security/incident-response"
+        },
+        {
+          "type": "Smart Contract Security | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/security/smart-contract-security"
+        },
+        {
+          "type": "Commitment to Developer Freedom | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/our-foundations/commitment-to-developer-freedom"
+        },
+        {
+          "type": "Understanding Staking and Rewards | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/informational/understanding-staking-and-rewards"
+        },
+        {
+          "type": "FAQs | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/faqs"
+        },
+        {
+          "type": "RESO Core Principles | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/our-foundations/reso-core-principles"
+        },
+        {
+          "type": "Create New Market | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/user-guide/create-new-market"
+        },
+        {
+          "type": "Staking | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/user-guide/staking"
+        },
+        {
+          "type": "Trading | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/user-guide/trading"
+        },
+        {
+          "type": "Getting Started | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/user-guide/getting-started"
+        },
+        {
+          "type": "Vision and Mission | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/introduction"
+        },
+        {
+          "type": "Token Launch \"Toast It!\" | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/features-and-functionalities"
+        },
+        {
+          "type": "Smart Contract Security | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/security"
+        },
+        {
+          "type": "Integration | mytoast",
+          "url": "https://reso.gitbook.io/mytoast/developers"
+        },
+        {
+          "type": "Use of the Platform | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/legal-disclaimer"
+        },
+        {
+          "type": "Trading | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/features-and-functionalities"
+        },
+        {
+          "type": "Initial DEX Offering (IDO) | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/informational"
+        },
+        {
+          "type": "Token Overview | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/reso-token"
+        },
+        {
+          "type": "RESO Core Principles | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/our-foundations"
+        },
+        {
+          "type": "Getting Started | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/user-guide"
+        },
+        {
+          "type": "Security Features | Rectoverso (RESO)",
+          "url": "https://reso.gitbook.io/reso-dex/security"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "76c5947147b61184f83088d092b1d1a238e6cbfbc5d6e92e97056d90cc5182b3"
 }

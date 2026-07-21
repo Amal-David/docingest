@@ -28,5 +28,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://api.sproutsocial.com/docs/#multipart-media-upload",
+      "canonicalSeedUrl": "https://api.sproutsocial.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-21T15:23:17.164Z",
+      "completedAt": "2025-02-21T15:23:17.164Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://api.sproutsocial.com/docs/#multipart-media-upload",
+          "canonicalUrl": "https://api.sproutsocial.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "d9a2e855be91e0d8678e2177bc3200637a465f2d42d5b8144a352c99ab953bd9",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "55d49bb001845140da6299c83348f3b48cb7c33fe5aac71a5070755f7ba24039",
+      "filename": "documentation_2025-02-21T15:23:17.164Z.md",
+      "contentHash": "ca9fc653a31a532731cd793a77607b88541284de7eecd1b23738d3996e048170",
+      "sourceUrl": "https://api.sproutsocial.com/docs/#multipart-media-upload",
+      "canonicalSourceUrl": "https://api.sproutsocial.com/docs",
+      "capturedAt": "2025-02-21T15:23:17.164Z",
+      "crawlRunId": "d9a2e855be91e0d8678e2177bc3200637a465f2d42d5b8144a352c99ab953bd9",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Sprout API",
+          "url": "https://api.sproutsocial.com/docs/#multipart-media-upload"
+        },
+        {
+          "type": "Changelog",
+          "url": "https://api.sproutsocial.com/docs/changelog/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "55d49bb001845140da6299c83348f3b48cb7c33fe5aac71a5070755f7ba24039"
 }

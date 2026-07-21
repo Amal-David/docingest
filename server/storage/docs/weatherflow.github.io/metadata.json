@@ -96,5 +96,139 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://weatherflow.github.io/Tempest/api/",
+      "canonicalSeedUrl": "https://weatherflow.github.io/Tempest/api",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-01T02:36:42.378Z",
+      "completedAt": "2025-04-01T02:36:42.378Z",
+      "providerTotals": {
+        "discovered": 19,
+        "returned": 19,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://weatherflow.github.io/Tempest/api/",
+          "canonicalUrl": "https://weatherflow.github.io/Tempest/api",
+          "status": "valid"
+        }
+      ],
+      "id": "6af5bdc9372e76b5301b917aa4deb040b88378d6d067987311aca38d0ba1fcb1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9ccab69a98b77a1b4d41e60b8877858c36bab4b4f41e71467634816da06dea8d",
+      "filename": "documentation_2025-04-01T02:36:42.378Z.md",
+      "contentHash": "bee696eee0d6ffcc92e360425eb38e5c0ab92980f65d9847b6d4aa159e4c97ea",
+      "sourceUrl": "https://weatherflow.github.io/Tempest/api/",
+      "canonicalSourceUrl": "https://weatherflow.github.io/Tempest/api",
+      "capturedAt": "2025-04-01T02:36:42.378Z",
+      "crawlRunId": "6af5bdc9372e76b5301b917aa4deb040b88378d6d067987311aca38d0ba1fcb1",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 19,
+      "successfulPages": 19,
+      "structure": [
+        {
+          "type": "WeatherFlow Tempest API & Developer Platform",
+          "url": "https://weatherflow.github.io/Tempest/api/"
+        },
+        {
+          "type": "WeatherFlow Tempest API & Developer Platform",
+          "url": "https://weatherflow.github.io/Tempest/"
+        },
+        {
+          "type": "Tempest API Remote Data Access Policy",
+          "url": "https://weatherflow.github.io/Tempest/api/remote-developer-policy.html"
+        },
+        {
+          "type": "WeatherFlow Tempest OAuth 2.0 Support",
+          "url": "https://weatherflow.github.io/Tempest/api/oauth.html"
+        },
+        {
+          "type": "WeatherFlow Tempest UDP Reference",
+          "url": "https://weatherflow.github.io/Tempest/api/udp.html"
+        },
+        {
+          "type": "WeatherFlow Tempest API Websocket Reference",
+          "url": "https://weatherflow.github.io/Tempest/api/ws.html"
+        },
+        {
+          "type": "Derived Metric Formulas",
+          "url": "https://weatherflow.github.io/Tempest/api/derived-metric-formulas.html"
+        },
+        {
+          "type": "Tempest Release Notes",
+          "url": "https://weatherflow.github.io/Tempest/releases/"
+        },
+        {
+          "type": "Code Challenge Tool",
+          "url": "https://weatherflow.github.io/Tempest/api/code-challenge.html"
+        },
+        {
+          "type": "WeatherFlow Tempest UDP Reference - v171",
+          "url": "https://weatherflow.github.io/Tempest/api/udp/v171"
+        },
+        {
+          "type": "Tempest Google Home Action",
+          "url": "https://weatherflow.github.io/Tempest/releases/google.html"
+        },
+        {
+          "type": "Tempest for Alexa",
+          "url": "https://weatherflow.github.io/Tempest/releases/alexa.html"
+        },
+        {
+          "type": "Tempest Website",
+          "url": "https://weatherflow.github.io/Tempest/releases/web.html"
+        },
+        {
+          "type": "WeatherFlow Smart Weather UDP Reference - v119",
+          "url": "https://weatherflow.github.io/Tempest/api/udp/v119"
+        },
+        {
+          "type": "Tempest for iOS",
+          "url": "https://weatherflow.github.io/Tempest/releases/ios.html"
+        },
+        {
+          "type": "Tempest Station Firmware",
+          "url": "https://weatherflow.github.io/Tempest/releases/firmware.html"
+        },
+        {
+          "type": "Tempest for Android",
+          "url": "https://weatherflow.github.io/Tempest/releases/android.html"
+        },
+        {
+          "type": "WeatherFlow Smart Weather UDP Reference - v114",
+          "url": "https://weatherflow.github.io/Tempest/api/udp/v114"
+        },
+        {
+          "type": "WeatherFlow Smart Weather UDP Reference - v105",
+          "url": "https://weatherflow.github.io/Tempest/api/udp/v105"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9ccab69a98b77a1b4d41e60b8877858c36bab4b4f41e71467634816da06dea8d"
 }

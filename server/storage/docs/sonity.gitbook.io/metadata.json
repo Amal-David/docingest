@@ -168,5 +168,211 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://sonity.gitbook.io/docs",
+      "canonicalSeedUrl": "https://sonity.gitbook.io/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-26T07:51:14.604Z",
+      "completedAt": "2026-01-26T07:51:14.604Z",
+      "providerTotals": {
+        "discovered": 37,
+        "returned": 37,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://sonity.gitbook.io/docs",
+          "canonicalUrl": "https://sonity.gitbook.io/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "e7b0376ed8e7699254a358308205591832531ceb9e0b5a833d9593cabbfea284",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ba8e9c12e583b01976c1d44f8b6954a5273351bf79430eeeb3a9660b84cd4df6",
+      "filename": "documentation_2026-01-26T07:51:14.604Z.md",
+      "contentHash": "dc9aca2b0b90ec180dd706691043c5a58b73e9a7c8d4b590b9858a3323ea2219",
+      "sourceUrl": "https://sonity.gitbook.io/docs",
+      "canonicalSourceUrl": "https://sonity.gitbook.io/docs",
+      "capturedAt": "2026-01-26T07:51:14.604Z",
+      "crawlRunId": "e7b0376ed8e7699254a358308205591832531ceb9e0b5a833d9593cabbfea284",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "structure": [
+        {
+          "type": "Sonity | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs"
+        },
+        {
+          "type": "Optimize AudioClip Settings | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/how-to-guides/optimize-audioclip-settings"
+        },
+        {
+          "type": "Debug Sounds and Performance | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/how-to-guides/debug-sounds-and-performance"
+        },
+        {
+          "type": "Rename A Lot of Assets | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/how-to-guides/rename-a-lot-of-assets"
+        },
+        {
+          "type": "Editor Tools | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundmanager/editor-tools"
+        },
+        {
+          "type": "Force Resave Assets | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/how-to-guides/force-resave-assets"
+        },
+        {
+          "type": "Steam Audio Settings | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundcontainer/steam-audio-settings"
+        },
+        {
+          "type": "Modifiers | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/modifiers"
+        },
+        {
+          "type": "SoundContainer | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundcontainer"
+        },
+        {
+          "type": "Third Party Integrations | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/third-party-integrations"
+        },
+        {
+          "type": "SoundEvent Functions | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundevent/soundevent-functions"
+        },
+        {
+          "type": "SoundManager Functions | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundmanager/soundmanager-functions"
+        },
+        {
+          "type": "SoundManager | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundmanager"
+        },
+        {
+          "type": "SoundEvent | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundevent"
+        },
+        {
+          "type": "SoundTrigger | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundtrigger"
+        },
+        {
+          "type": "Steam Audio Integration | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/third-party-integrations/steam-audio-integration"
+        },
+        {
+          "type": "SoundParameterIntensity | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundparameter/soundparameterintensity"
+        },
+        {
+          "type": "SoundParameter | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundparameter"
+        },
+        {
+          "type": "PlayMaker Integration | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/third-party-integrations/playmaker-integration"
+        },
+        {
+          "type": "SoundPicker | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundpicker"
+        },
+        {
+          "type": "SoundTrigger Functions | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundtrigger/soundtrigger-functions"
+        },
+        {
+          "type": "Legacy Support | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/sonity/legacy-support"
+        },
+        {
+          "type": "How To Guides | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/how-to-guides"
+        },
+        {
+          "type": "Create Assets From Selection | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/sonity/create-assets-from-selection"
+        },
+        {
+          "type": "SoundPhysics | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundphysics"
+        },
+        {
+          "type": "Unity Native Audio | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/sonity/unity-native-audio"
+        },
+        {
+          "type": "SoundPicker Functions | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundpicker/soundpicker-functions"
+        },
+        {
+          "type": "Templates & Examples | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/sonity/templates-and-examples"
+        },
+        {
+          "type": "Changelog | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/sonity/changelog"
+        },
+        {
+          "type": "FAQ | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/sonity/faq"
+        },
+        {
+          "type": "SoundVolumeGroup | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundvolumegroup"
+        },
+        {
+          "type": "SoundMix | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundmix"
+        },
+        {
+          "type": "SoundPolyGroup | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundpolygroup"
+        },
+        {
+          "type": "SoundPreset | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundpreset"
+        },
+        {
+          "type": "SoundDataGroup | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/sounddatagroup"
+        },
+        {
+          "type": "SoundTag | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/soundtag"
+        },
+        {
+          "type": "Getting Started | Sonity Docs",
+          "url": "https://sonity.gitbook.io/docs/sonity/getting-started"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ba8e9c12e583b01976c1d44f8b6954a5273351bf79430eeeb3a9660b84cd4df6"
 }

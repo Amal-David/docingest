@@ -24,5 +24,69 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.polytoria.com/objects/game/Game/",
+      "canonicalSeedUrl": "https://docs.polytoria.com/objects/game/Game",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-13T19:23:48.652Z",
+      "completedAt": "2026-03-13T19:23:48.652Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.polytoria.com/objects/game/Game/",
+          "canonicalUrl": "https://docs.polytoria.com/objects/game/Game",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "6affdb76f1e3e5c4801b27a40447f9abe7f6f4cacb706223774b82d9b97f5bc1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fcb91aca951f1fcbaca119c16d860f2fffae9c7e3fbb06d6ec3f44321e8378c9",
+      "filename": "documentation_2026-03-13T19:23:48.652Z.md",
+      "contentHash": "34183d71f544322f13791dc7642e70411bd97da7a32f97b9951d9bf4f07f5f4d",
+      "sourceUrl": "https://docs.polytoria.com/objects/game/Game/",
+      "canonicalSourceUrl": "https://docs.polytoria.com/objects/game/Game",
+      "capturedAt": "2026-03-13T19:23:48.652Z",
+      "crawlRunId": "6affdb76f1e3e5c4801b27a40447f9abe7f6f4cacb706223774b82d9b97f5bc1",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.polytoria.com/objects/game/Game/"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

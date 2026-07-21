@@ -122,5 +122,147 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.docs.microsui.com/docs/api_reference/functions/byte_conversions",
+      "canonicalSeedUrl": "https://www.docs.microsui.com/docs/api_reference/functions/byte_conversions",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-12T09:09:17.203Z",
+      "completedAt": "2026-03-12T09:09:17.203Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.docs.microsui.com/docs/api_reference/functions/byte_conversions",
+          "canonicalUrl": "https://www.docs.microsui.com/docs/api_reference/functions/byte_conversions",
+          "status": "valid"
+        }
+      ],
+      "id": "cca7c4f4dbf9d6261a293fc6d834b8479baeaf576524ef17b3c5bc6378aae41f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "52f704a5c61c89b0c59e39ef5a3d3dc81114d08ba8c3fe2a99ad48f506c499be",
+      "filename": "documentation_2026-03-12T09:09:17.203Z.md",
+      "contentHash": "0f70c8b5e5c8279f3f17029c53aa8902635612e1fbadc725e330dc884143984c",
+      "sourceUrl": "https://www.docs.microsui.com/docs/api_reference/functions/byte_conversions",
+      "canonicalSourceUrl": "https://www.docs.microsui.com/docs/api_reference/functions/byte_conversions",
+      "capturedAt": "2026-03-12T09:09:17.203Z",
+      "crawlRunId": "cca7c4f4dbf9d6261a293fc6d834b8479baeaf576524ef17b3c5bc6378aae41f",
+      "upstreamVersion": "1.0.2",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "byte_conversions.c (Byte Util Conversions) | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/api_reference/functions/byte_conversions"
+        },
+        {
+          "type": "cryptography.c (Cryptography) | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/api_reference/functions/cryptography"
+        },
+        {
+          "type": "rpc_json_builder.c (RPC JSON Builder) | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/api_reference/functions/rpc_json_builder"
+        },
+        {
+          "type": "sign.c (Signatures) | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/api_reference/functions/sign"
+        },
+        {
+          "type": "Client | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/api_reference/sdk/client"
+        },
+        {
+          "type": "API Reference | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/category/api-reference"
+        },
+        {
+          "type": "Keypair | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/api_reference/sdk/keypair"
+        },
+        {
+          "type": "Getting Started | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/getting-started"
+        },
+        {
+          "type": "Transaction | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/api_reference/sdk/transaction"
+        },
+        {
+          "type": "WiFi | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/api_reference/sdk/wifi"
+        },
+        {
+          "type": "-Types- | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/api_reference/sdk/types"
+        },
+        {
+          "type": "Examples | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/category/examples"
+        },
+        {
+          "type": "Broadcast Transaction to Sui Network | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/examples/broadcast-transaction"
+        },
+        {
+          "type": "Bytes,Base64,Hexa - Encode/Decode | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/examples/encode-decode"
+        },
+        {
+          "type": "Validating a Sui Signature for a given message | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/examples/validating_signature"
+        },
+        {
+          "type": "Obtain Sui Address and Public Key from Private Key | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/examples/private_key"
+        },
+        {
+          "type": "key_management.c (Key Management) | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/api_reference/functions/key_management"
+        },
+        {
+          "type": "SDK Classes | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/category/sdk-classes"
+        },
+        {
+          "type": "Core C functions | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/category/core-c-functions"
+        },
+        {
+          "type": "Offline Sign (Get Signature) | MicroSui Docs",
+          "url": "https://www.docs.microsui.com/docs/examples/offline-sign"
+        },
+        {
+          "type": "Overview | MicroSui Docs",
+          "url": "https://docs.microsui.com/docs/intro"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "52f704a5c61c89b0c59e39ef5a3d3dc81114d08ba8c3fe2a99ad48f506c499be"
 }

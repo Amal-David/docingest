@@ -329,5 +329,363 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://gsap.com/docs/v3/",
+      "canonicalSeedUrl": "https://gsap.com/docs/v3",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-28T15:02:35.258Z",
+      "completedAt": "2025-02-28T15:02:35.258Z",
+      "providerTotals": {
+        "discovered": 75,
+        "returned": 75,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://gsap.com/docs/v3/",
+          "canonicalUrl": "https://gsap.com/docs/v3",
+          "status": "valid"
+        }
+      ],
+      "id": "e1589d2787815e42fff86518ba4008a9d5f49122091b2638e312d7dbb2e639e8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "73d1136ce860155573f5aed4f20fc99dadb43e068026605a9dff55af7ac54233",
+      "filename": "documentation_2025-02-28T15:02:35.258Z.md",
+      "contentHash": "8ce4515ba4d4ad90240c12b212912f8930ca84617e4e5d152fc48f0e2b827cdf",
+      "sourceUrl": "https://gsap.com/docs/v3/",
+      "canonicalSourceUrl": "https://gsap.com/docs/v3",
+      "capturedAt": "2025-02-28T15:02:35.258Z",
+      "crawlRunId": "e1589d2787815e42fff86518ba4008a9d5f49122091b2638e312d7dbb2e639e8",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 75,
+      "successfulPages": 75,
+      "structure": [
+        {
+          "type": "docsHome | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/"
+        },
+        {
+          "type": "Flip | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/Flip/"
+        },
+        {
+          "type": "GSAP | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/"
+        },
+        {
+          "type": "HelperFunctions | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/HelperFunctions/"
+        },
+        {
+          "type": "CSSRule | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/CSSRulePlugin/"
+        },
+        {
+          "type": "Installation | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Installation"
+        },
+        {
+          "type": "Tween | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/Tween"
+        },
+        {
+          "type": "CSS | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/CorePlugins/CSS"
+        },
+        {
+          "type": "SteppedEase | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Eases/SteppedEase"
+        },
+        {
+          "type": "Easing | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Eases"
+        },
+        {
+          "type": "ScrollSmoother | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/ScrollSmoother/"
+        },
+        {
+          "type": "Timeline | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/Timeline"
+        },
+        {
+          "type": "checkPrefix | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/checkPrefix()"
+        },
+        {
+          "type": "Attributes | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/CorePlugins/Attributes"
+        },
+        {
+          "type": "Utility Methods | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods"
+        },
+        {
+          "type": "Draggable | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/Draggable/"
+        },
+        {
+          "type": "ScrollTrigger | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/"
+        },
+        {
+          "type": "Snap | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/CorePlugins/Snap"
+        },
+        {
+          "type": "gsap.context() | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/gsap.context()"
+        },
+        {
+          "type": "Modifiers | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/CorePlugins/Modifiers"
+        },
+        {
+          "type": "EndArray | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/CorePlugins/EndArray"
+        },
+        {
+          "type": "clamp | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/clamp()"
+        },
+        {
+          "type": "getUnit | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/getUnit()"
+        },
+        {
+          "type": "distribute | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/distribute()"
+        },
+        {
+          "type": "MorphSVG | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/MorphSVGPlugin"
+        },
+        {
+          "type": "gsap.ticker() | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/gsap.ticker()"
+        },
+        {
+          "type": "gsap.matchMedia() | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/gsap.matchMedia()"
+        },
+        {
+          "type": "interpolate | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/interpolate()"
+        },
+        {
+          "type": "shuffle | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/shuffle()"
+        },
+        {
+          "type": "toArray | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/toArray()"
+        },
+        {
+          "type": "pipe | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/pipe()"
+        },
+        {
+          "type": "unitize | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/unitize()"
+        },
+        {
+          "type": "mapRange | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/mapRange()"
+        },
+        {
+          "type": "normalize | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/normalize()"
+        },
+        {
+          "type": "wrap | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/wrap()"
+        },
+        {
+          "type": "random | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/random()"
+        },
+        {
+          "type": "selector | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/selector()"
+        },
+        {
+          "type": "wrapYoyo | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/wrapYoyo()"
+        },
+        {
+          "type": "splitColor | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/splitColor()"
+        },
+        {
+          "type": "snap | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/UtilityMethods/snap()"
+        },
+        {
+          "type": "Easel | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/EaselPlugin"
+        },
+        {
+          "type": "MotionPath | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/MotionPathPlugin"
+        },
+        {
+          "type": "ScrollTo | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/ScrollToPlugin"
+        },
+        {
+          "type": "RoughEase | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Eases/RoughEase"
+        },
+        {
+          "type": "Text | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/TextPlugin"
+        },
+        {
+          "type": "SlowMo | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Eases/SlowMo"
+        },
+        {
+          "type": "ExpoScaleEase | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Eases/ExpoScaleEase"
+        },
+        {
+          "type": "CustomEase | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Eases/CustomEase"
+        },
+        {
+          "type": "Physics2D | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/Physics2DPlugin"
+        },
+        {
+          "type": "DrawSVG | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/DrawSVGPlugin"
+        },
+        {
+          "type": "ScrambleText | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin"
+        },
+        {
+          "type": "CustomWiggle | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Eases/CustomWiggle"
+        },
+        {
+          "type": "PhysicsProps | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/PhysicsPropsPlugin"
+        },
+        {
+          "type": "CustomBounce | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Eases/CustomBounce"
+        },
+        {
+          "type": "Plugins | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/"
+        },
+        {
+          "type": "nestedLinesSplit | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/HelperFunctions/helpers/nestedLinesSplit"
+        },
+        {
+          "type": "progressiveBuild | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/HelperFunctions/helpers/progressiveBuild"
+        },
+        {
+          "type": "globalTime | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/Timeline/globalTime()"
+        },
+        {
+          "type": "getChildren | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/Timeline/getChildren()"
+        },
+        {
+          "type": "resume | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/Tween/resume()"
+        },
+        {
+          "type": "pluckRandomFrom | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/HelperFunctions/helpers/pluckRandomFrom"
+        },
+        {
+          "type": "pointerEvent | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/Draggable/pointerEvent"
+        },
+        {
+          "type": "getTweensOf | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/Timeline/getTweensOf()"
+        },
+        {
+          "type": "restart | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/Tween/restart()"
+        },
+        {
+          "type": "smoothOriginChange | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/HelperFunctions/helpers/smoothOriginChange"
+        },
+        {
+          "type": "seek | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/Tween/seek()"
+        },
+        {
+          "type": "reverse | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/Tween/reverse()"
+        },
+        {
+          "type": "disable | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/disable()"
+        },
+        {
+          "type": "invalidate | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/Timeline/invalidate()"
+        },
+        {
+          "type": "trackDirection | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/HelperFunctions/helpers/trackDirection"
+        },
+        {
+          "type": "iteration | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/Timeline/iteration()"
+        },
+        {
+          "type": "isActive | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/Timeline/isActive()"
+        },
+        {
+          "type": "tickGSAPWhileHidden | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/HelperFunctions/helpers/tickGSAPWhileHidden"
+        },
+        {
+          "type": "time | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/Tween/time()"
+        },
+        {
+          "type": "kill | GSAP | Docs & Learning",
+          "url": "https://gsap.com/docs/v3/GSAP/Timeline/kill()"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "73d1136ce860155573f5aed4f20fc99dadb43e068026605a9dff55af7ac54233"
 }

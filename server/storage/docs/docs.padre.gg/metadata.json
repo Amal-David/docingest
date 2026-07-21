@@ -176,5 +176,219 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.padre.gg/",
+      "canonicalSeedUrl": "https://docs.padre.gg/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-27T09:52:12.844Z",
+      "completedAt": "2025-10-27T09:52:12.844Z",
+      "providerTotals": {
+        "discovered": 39,
+        "returned": 39,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.padre.gg/",
+          "canonicalUrl": "https://docs.padre.gg/",
+          "status": "valid"
+        }
+      ],
+      "id": "07b1f592b4e7ae3b93bc0d5455b28ac9bfb61fd5cfa1a61294e65bc72b74d02e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7545258bda57b85417086b2b69cf462a7a40f0f8da74ef7bbd71e7c593aa456b",
+      "filename": "documentation_2025-10-27T09:52:12.844Z.md",
+      "contentHash": "c1cfa3f782ac11c0a230d459dda3697fcdbda55d6c8a5b16e4164df74c7ab79e",
+      "sourceUrl": "https://docs.padre.gg/",
+      "canonicalSourceUrl": "https://docs.padre.gg/",
+      "capturedAt": "2025-10-27T09:52:12.844Z",
+      "crawlRunId": "07b1f592b4e7ae3b93bc0d5455b28ac9bfb61fd5cfa1a61294e65bc72b74d02e",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 39,
+      "successfulPages": 39,
+      "structure": [
+        {
+          "type": "About Padre | Padre",
+          "url": "https://docs.padre.gg/"
+        },
+        {
+          "type": "Security | Padre",
+          "url": "https://docs.padre.gg/padre-v2/about-padre/security"
+        },
+        {
+          "type": "Getting started | Padre",
+          "url": "https://docs.padre.gg/padre-v2/about-padre/getting-started"
+        },
+        {
+          "type": "Supported DEXes | Padre",
+          "url": "https://docs.padre.gg/padre-v2/about-padre/supported-dexes"
+        },
+        {
+          "type": "Supported Pairs | Padre",
+          "url": "https://docs.padre.gg/padre-v2/about-padre/supported-pairs"
+        },
+        {
+          "type": "Tips & Tricks | Padre",
+          "url": "https://docs.padre.gg/padre-v2/tips-and-tricks"
+        },
+        {
+          "type": "Video Tutorials | Padre",
+          "url": "https://docs.padre.gg/padre-v2/video-tutorials"
+        },
+        {
+          "type": "Mobile App | Padre",
+          "url": "https://docs.padre.gg/padre-v2/mobile-app"
+        },
+        {
+          "type": "Padre Referral Program | Padre",
+          "url": "https://docs.padre.gg/padre-v2/padre-referral-program"
+        },
+        {
+          "type": "Rewards | Padre",
+          "url": "https://docs.padre.gg/padre-v2/rewards"
+        },
+        {
+          "type": "Support | Padre",
+          "url": "https://docs.padre.gg/padre-v2/support"
+        },
+        {
+          "type": "Glossary | Padre",
+          "url": "https://docs.padre.gg/padre-v2/glossary"
+        },
+        {
+          "type": "Did you know? | Padre",
+          "url": "https://docs.padre.gg/padre-v2/tips-and-tricks/did-you-know"
+        },
+        {
+          "type": "FAQ | Padre",
+          "url": "https://docs.padre.gg/padre-v2/faq"
+        },
+        {
+          "type": "Trending | Padre",
+          "url": "https://docs.padre.gg/app-guide/trending"
+        },
+        {
+          "type": "Market Orders | Padre",
+          "url": "https://docs.padre.gg/app-guide/trading/market-orders"
+        },
+        {
+          "type": "Exit Strategies | Padre",
+          "url": "https://docs.padre.gg/app-guide/trading/exit-strategies"
+        },
+        {
+          "type": "Trading | Padre",
+          "url": "https://docs.padre.gg/app-guide/trading"
+        },
+        {
+          "type": "Custom Presets | Padre",
+          "url": "https://docs.padre.gg/app-guide/trading/custom-presets"
+        },
+        {
+          "type": "Transaction Settings | Padre",
+          "url": "https://docs.padre.gg/app-guide/trading/transaction-settings"
+        },
+        {
+          "type": "Token Page | Padre",
+          "url": "https://docs.padre.gg/app-guide/token-page"
+        },
+        {
+          "type": "Limit Orders | Padre",
+          "url": "https://docs.padre.gg/app-guide/trading/limit-orders"
+        },
+        {
+          "type": "Trenches | Padre",
+          "url": "https://docs.padre.gg/app-guide/trenches"
+        },
+        {
+          "type": "Chart | Padre",
+          "url": "https://docs.padre.gg/app-guide/token-page/chart"
+        },
+        {
+          "type": "Official Links | Padre",
+          "url": "https://docs.padre.gg/assets/official-links"
+        },
+        {
+          "type": "New Pairs | Padre",
+          "url": "https://docs.padre.gg/app-guide/new-pairs"
+        },
+        {
+          "type": "Side Panel | Padre",
+          "url": "https://docs.padre.gg/app-guide/token-page/side-panel"
+        },
+        {
+          "type": "Wallets | Padre",
+          "url": "https://docs.padre.gg/app-guide/wallets"
+        },
+        {
+          "type": "Portfolio | Padre",
+          "url": "https://docs.padre.gg/app-guide/portfolio"
+        },
+        {
+          "type": "Open Orders | Padre",
+          "url": "https://docs.padre.gg/app-guide/token-page/open-orders"
+        },
+        {
+          "type": "Token Overview | Padre",
+          "url": "https://docs.padre.gg/app-guide/token-page/token-overview"
+        },
+        {
+          "type": "Order History | Padre",
+          "url": "https://docs.padre.gg/app-guide/token-page/order-history"
+        },
+        {
+          "type": "Streamer's PNL | Padre",
+          "url": "https://docs.padre.gg/assets/streamers-pnl"
+        },
+        {
+          "type": "Trades History | Padre",
+          "url": "https://docs.padre.gg/app-guide/token-page/trades-history"
+        },
+        {
+          "type": "Holders | Padre",
+          "url": "https://docs.padre.gg/app-guide/token-page/holders"
+        },
+        {
+          "type": "Liquidity | Padre",
+          "url": "https://docs.padre.gg/app-guide/token-page/liquidity"
+        },
+        {
+          "type": "Price Trends | Padre",
+          "url": "https://docs.padre.gg/app-guide/token-page/price-trends"
+        },
+        {
+          "type": "Raydium Migration Sniper | Padre",
+          "url": "https://docs.padre.gg/app-guide/token-page/raydium-migration-sniper"
+        },
+        {
+          "type": "Brand Assets | Padre",
+          "url": "https://docs.padre.gg/assets/brand-assets"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7545258bda57b85417086b2b69cf462a7a40f0f8da74ef7bbd71e7c593aa456b"
 }

@@ -160,5 +160,203 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.refuel.ai/sdk/python",
+      "canonicalSeedUrl": "https://docs.refuel.ai/sdk/python",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-05T07:52:26.541Z",
+      "completedAt": "2025-02-05T07:52:26.541Z",
+      "providerTotals": {
+        "discovered": 35,
+        "returned": 35,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.refuel.ai/sdk/python",
+          "canonicalUrl": "https://docs.refuel.ai/sdk/python",
+          "status": "valid"
+        }
+      ],
+      "id": "0124b79f1eb81a5bf61bf6432abeb7adf73a7bd36426b19399fef209be67a9eb",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "40f628c715e9a0761c51408e09b969c4e32907916a8140fd769375191c11eaf1",
+      "filename": "documentation_2025-02-05T07:52:26.541Z.md",
+      "contentHash": "262b43613313090316d6098ddbbb59cb57b8ce1daa72d35daba1f88b96fb9e45",
+      "sourceUrl": "https://docs.refuel.ai/sdk/python",
+      "canonicalSourceUrl": "https://docs.refuel.ai/sdk/python",
+      "capturedAt": "2025-02-05T07:52:26.541Z",
+      "crawlRunId": "0124b79f1eb81a5bf61bf6432abeb7adf73a7bd36426b19399fef209be67a9eb",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 35,
+      "successfulPages": 35,
+      "structure": [
+        {
+          "type": "Python SDK - Refuel.ai",
+          "url": "https://docs.refuel.ai/sdk/python"
+        },
+        {
+          "type": "Overview - Refuel.ai",
+          "url": "https://docs.refuel.ai/integrations/introduction"
+        },
+        {
+          "type": "Overview - Refuel.ai",
+          "url": "https://docs.refuel.ai/overview"
+        },
+        {
+          "type": "JavaScript SDK - Refuel.ai",
+          "url": "https://docs.refuel.ai/sdk/javascript"
+        },
+        {
+          "type": "Overview - Refuel.ai",
+          "url": "https://docs.refuel.ai/integrations/llm_providers"
+        },
+        {
+          "type": "Overview - Refuel.ai",
+          "url": "https://docs.refuel.ai/integrations/cloud_storage"
+        },
+        {
+          "type": "Amazon S3 - Refuel.ai",
+          "url": "https://docs.refuel.ai/integrations/s3"
+        },
+        {
+          "type": "Overview - Refuel.ai",
+          "url": "https://docs.refuel.ai/integrations/data_warehouses"
+        },
+        {
+          "type": "Google Cloud Storage - Refuel.ai",
+          "url": "https://docs.refuel.ai/integrations/gcs"
+        },
+        {
+          "type": "Overview - Refuel.ai",
+          "url": "https://docs.refuel.ai/integrations/api_sources"
+        },
+        {
+          "type": "Snowflake - Refuel.ai",
+          "url": "https://docs.refuel.ai/integrations/snowflake"
+        },
+        {
+          "type": "Introduction - Refuel.ai",
+          "url": "https://docs.refuel.ai/catalog/introduction"
+        },
+        {
+          "type": "Getting started - Refuel.ai",
+          "url": "https://docs.refuel.ai/quickstart"
+        },
+        {
+          "type": "List of Transformations - Refuel.ai",
+          "url": "https://docs.refuel.ai/catalog/catalog_list"
+        },
+        {
+          "type": "Adding datasets - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/datasets/datasets"
+        },
+        {
+          "type": "Documents and Images - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/datasets/documents"
+        },
+        {
+          "type": "Usage - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/team/usage"
+        },
+        {
+          "type": "Overview - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/tasks"
+        },
+        {
+          "type": "Creating applications - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/applications"
+        },
+        {
+          "type": "Import from Cloud Storage - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/datasets/cloud_storage"
+        },
+        {
+          "type": "Import from Data Warehouse - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/datasets/data_warehouse"
+        },
+        {
+          "type": "Evaluating LLM Outputs - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/tasks/evals"
+        },
+        {
+          "type": "Task Chaining - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/tasks/chaining"
+        },
+        {
+          "type": "Structured Outputs - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/tasks/structured_outputs"
+        },
+        {
+          "type": "Using finetuned models - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/models/using_finetuned_models"
+        },
+        {
+          "type": "Taxonomy Management - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/tasks/taxonomy_management"
+        },
+        {
+          "type": "Using applications - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/applications/using_applications"
+        },
+        {
+          "type": "Improving accuracy with feedback - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/tasks/feedback"
+        },
+        {
+          "type": "Team and User Settings - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/team/users"
+        },
+        {
+          "type": "Monitoring - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/applications/logs"
+        },
+        {
+          "type": "Batch Processing - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/tasks/task_runs"
+        },
+        {
+          "type": "Scheduled Task Run - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/tasks/scheduled_run"
+        },
+        {
+          "type": "Overview - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/models/overview"
+        },
+        {
+          "type": "Finetuning models - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/models/finetuning"
+        },
+        {
+          "type": "Tracking finetuning runs - Refuel.ai",
+          "url": "https://docs.refuel.ai/guides/models/models"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "40f628c715e9a0761c51408e09b969c4e32907916a8140fd769375191c11eaf1"
 }

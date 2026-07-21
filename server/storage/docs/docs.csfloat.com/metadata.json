@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.csfloat.com/",
+      "canonicalSeedUrl": "https://docs.csfloat.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-30T22:45:14.733Z",
+      "completedAt": "2025-10-30T22:45:14.733Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.csfloat.com/",
+          "canonicalUrl": "https://docs.csfloat.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "3d7172016506d673ed710967fba20eb0cc624c5da80451dfdb1e94b11cdcfc87",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0f98ff557a9bf92283785d9edf54db963d899fbd788dbd9432d261aa3084bdb2",
+      "filename": "documentation_2025-10-30T22:45:14.733Z.md",
+      "contentHash": "12eb17644d6dd994e00f34a303bef0ebf6bb51860d59e28ea0cd9ed48c3835ff",
+      "sourceUrl": "https://docs.csfloat.com/",
+      "canonicalSourceUrl": "https://docs.csfloat.com/",
+      "capturedAt": "2025-10-30T22:45:14.733Z",
+      "crawlRunId": "3d7172016506d673ed710967fba20eb0cc624c5da80451dfdb1e94b11cdcfc87",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Introduction – API Reference",
+          "url": "https://docs.csfloat.com/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0f98ff557a9bf92283785d9edf54db963d899fbd788dbd9432d261aa3084bdb2"
 }

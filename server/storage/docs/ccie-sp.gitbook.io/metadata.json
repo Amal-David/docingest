@@ -33,5 +33,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://ccie-sp.gitbook.io/ccie-spv5.1-labs",
+      "canonicalSeedUrl": "https://ccie-sp.gitbook.io/ccie-spv5.1-labs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-21T16:12:47.498Z",
+      "completedAt": "2025-09-21T16:12:47.498Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://ccie-sp.gitbook.io/ccie-spv5.1-labs",
+          "canonicalUrl": "https://ccie-sp.gitbook.io/ccie-spv5.1-labs",
+          "status": "valid"
+        }
+      ],
+      "id": "7b3f6a4156ccfc27a6750c7b55036931da161e1811353be85bbf4ef715c34997",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4d72566991ad020a65eea68d3725ff660badd78045ea63d4a60946a83b971a04",
+      "filename": "documentation_2025-09-21T16:12:47.498Z.md",
+      "contentHash": "2ec5a08933f988143bb00e342bd1b7721acf917d40a23e90fb9ed9a2e829fa27",
+      "sourceUrl": "https://ccie-sp.gitbook.io/ccie-spv5.1-labs",
+      "canonicalSourceUrl": "https://ccie-sp.gitbook.io/ccie-spv5.1-labs",
+      "capturedAt": "2025-09-21T16:12:47.498Z",
+      "crawlRunId": "7b3f6a4156ccfc27a6750c7b55036931da161e1811353be85bbf4ef715c34997",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Setup | CCIE SPv5.1 Labs",
+          "url": "https://ccie-sp.gitbook.io/ccie-spv5.1-labs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4d72566991ad020a65eea68d3725ff660badd78045ea63d4a60946a83b971a04"
 }

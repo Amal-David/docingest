@@ -160,5 +160,203 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.replit.com/getting-started/intro-replit",
+      "canonicalSeedUrl": "https://docs.replit.com/getting-started/intro-replit",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-06T16:37:55.709Z",
+      "completedAt": "2025-04-06T16:37:55.709Z",
+      "providerTotals": {
+        "discovered": 35,
+        "returned": 35,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.replit.com/getting-started/intro-replit",
+          "canonicalUrl": "https://docs.replit.com/getting-started/intro-replit",
+          "status": "valid"
+        }
+      ],
+      "id": "a047ea1fd6fcf395d8509412535d523bd4eedd4d04e127f13da42d13b20b6d1c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f016036679a875bdf8307ed99986e890232016264628beb4eb009aa38b9bbeb6",
+      "filename": "documentation_2025-04-06T16:37:55.709Z.md",
+      "contentHash": "99431d7564418efad1f6d0368e9d34690d57ca556caa27dfb9d638261f9afcb0",
+      "sourceUrl": "https://docs.replit.com/getting-started/intro-replit",
+      "canonicalSourceUrl": "https://docs.replit.com/getting-started/intro-replit",
+      "capturedAt": "2025-04-06T16:37:55.709Z",
+      "crawlRunId": "a047ea1fd6fcf395d8509412535d523bd4eedd4d04e127f13da42d13b20b6d1c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 35,
+      "successfulPages": 35,
+      "structure": [
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/getting-started/intro-replit"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replit-app/collaborate"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/updates"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/category/replit-apps"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replit-app/visibility"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replit-app/configuration"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replit-app/app-embed"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/category/replit-ai"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replitai/agent"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replitai/integrations"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/category/replit-workspace"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replit-workspace/introduction-to-workspace"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replitai/assistant"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replit-workspace/workflows"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replit-workspace/extensions"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replit-workspace/dependency-management"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replit-workspace/ssh"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replit-workspace/ports"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replit-workspace/keyboard-shortcuts"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replit-workspace/templates"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/category/replit-deployments"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/cloud-services/storage-and-databases/sql-database"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/category/storage-and-databases"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/updates/2025/03/28/changelog"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/platforms/mobile-app"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/cloud-services/storage-and-databases/replit-database"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/platforms/desktop-app"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/replit-core/replit-core"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/category/replit-core"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/category/bounties"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/additional-resources/bounties/posting-a-bounty"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/additional-resources/bounties/bounty-hunting"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/additional-resources/bounties/hunter-resources"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/additional-resources/bounties/bounty-templates"
+        },
+        {
+          "type": "Replit Docs",
+          "url": "https://docs.replit.com/additional-resources/add-a-made-with-replit-badge-to-your-webview"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f016036679a875bdf8307ed99986e890232016264628beb4eb009aa38b9bbeb6"
 }

@@ -42,5 +42,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://threejs.org/docs/index.html#manual/en/introduction/Installation",
+      "canonicalSeedUrl": "https://threejs.org/docs/index.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-03T16:58:36.804Z",
+      "completedAt": "2025-03-03T16:58:36.804Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://threejs.org/docs/index.html#manual/en/introduction/Installation",
+          "canonicalUrl": "https://threejs.org/docs/index.html",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "e9542aed4b4818c83ed24706f2424c469502135abd85dea23acb55bcc666da73",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d2b1b1400ebbbd70baae89db5582aad6f38083e537a97f62b35fd28910a7dd9f",
+      "filename": "documentation_2025-03-03T16:58:36.804Z.md",
+      "contentHash": "28662d49f9e9ab0488cbae6aac84ec65ee28230b6f0a4319007c57925b928320",
+      "sourceUrl": "https://threejs.org/docs/index.html#manual/en/introduction/Installation",
+      "canonicalSourceUrl": "https://threejs.org/docs/index.html",
+      "capturedAt": "2025-03-03T16:58:36.804Z",
+      "crawlRunId": "e9542aed4b4818c83ed24706f2424c469502135abd85dea23acb55bcc666da73",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "three.js docs",
+          "url": "https://threejs.org/docs/index.html#manual/en/introduction/Installation"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

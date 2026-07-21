@@ -51,5 +51,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://huggingface.co/docs",
+      "canonicalSeedUrl": "https://huggingface.co/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-21T18:31:59.990Z",
+      "completedAt": "2025-02-21T18:31:59.990Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://huggingface.co/docs",
+          "canonicalUrl": "https://huggingface.co/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "98360618b4895333d0a3e45ee50179ef2b9ba1565afb551bef11e461eece29f1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4cb6985b8fe9586cf4115f6b1eb75ad894de3fd6e2bdec69d9b1c22f61dd888a",
+      "filename": "documentation_2025-02-21T18:31:59.990Z.md",
+      "contentHash": "36247ec14039b26d413e08d53f2c63cc468a5a87cbbca4371011ca7bc2dcbd76",
+      "sourceUrl": "https://huggingface.co/docs",
+      "canonicalSourceUrl": "https://huggingface.co/docs",
+      "capturedAt": "2025-02-21T18:31:59.990Z",
+      "crawlRunId": "98360618b4895333d0a3e45ee50179ef2b9ba1565afb551bef11e461eece29f1",
+      "upstreamVersion": "1.3.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Hugging Face - Documentation",
+          "url": "https://huggingface.co/docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4cb6985b8fe9586cf4115f6b1eb75ad894de3fd6e2bdec69d9b1c22f61dd888a"
 }

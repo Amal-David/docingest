@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.lob.com/",
+      "canonicalSeedUrl": "https://docs.lob.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-09T05:18:39.673Z",
+      "completedAt": "2026-04-09T05:18:39.673Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.lob.com/",
+          "canonicalUrl": "https://docs.lob.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "57dbf9887c64450ccf968d7b1af32e4e17c51779b3e98c6cbeb50bd483f80463",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e8567637b310c2820033e58207b5937289c9853029246afc16533cba15ee9c91",
+      "filename": "documentation_2026-04-09T05:18:39.673Z.md",
+      "contentHash": "42e65886c1cb79783ba4e07e623a449e6dfd4db9be1fdb7979b8ac5fefe9d1b1",
+      "sourceUrl": "https://docs.lob.com/",
+      "canonicalSourceUrl": "https://docs.lob.com/",
+      "capturedAt": "2026-04-09T05:18:39.673Z",
+      "crawlRunId": "57dbf9887c64450ccf968d7b1af32e4e17c51779b3e98c6cbeb50bd483f80463",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Lob API documentation",
+          "url": "https://docs.lob.com/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e8567637b310c2820033e58207b5937289c9853029246afc16533cba15ee9c91"
 }

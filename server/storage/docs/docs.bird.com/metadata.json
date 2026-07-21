@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.bird.com/api/api-access",
+      "canonicalSeedUrl": "https://docs.bird.com/api/api-access",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-16T09:07:47.110Z",
+      "completedAt": "2025-12-16T09:07:47.110Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.bird.com/api/api-access",
+          "canonicalUrl": "https://docs.bird.com/api/api-access",
+          "status": "valid"
+        }
+      ],
+      "id": "379b71709871834c5f3b79d732db655ccf433376253a67963d59b7fefe747f21",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "bee293d9ac2e327241696ccab6ff7106cda53a464d3a97863036e34b6acb819d",
+      "filename": "documentation_2025-12-16T09:07:47.110Z.md",
+      "contentHash": "170305befd215618604e2576336ec583d0f7dcc9dd78b13ec80a2022d8d343b5",
+      "sourceUrl": "https://docs.bird.com/api/api-access",
+      "canonicalSourceUrl": "https://docs.bird.com/api/api-access",
+      "capturedAt": "2025-12-16T09:07:47.110Z",
+      "crawlRunId": "379b71709871834c5f3b79d732db655ccf433376253a67963d59b7fefe747f21",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "API Access | Bird API Docs",
+          "url": "https://docs.bird.com/api/api-access"
+        },
+        {
+          "type": "API Authorization | Bird API Docs",
+          "url": "https://docs.bird.com/api/api-access/api-authorization"
+        },
+        {
+          "type": "Access Policies | Bird API Docs",
+          "url": "https://docs.bird.com/api/api-access/access-policies"
+        },
+        {
+          "type": "Access Roles | Bird API Docs",
+          "url": "https://docs.bird.com/api/api-access/access-roles"
+        },
+        {
+          "type": "Conversations API | Bird API Docs",
+          "url": "https://docs.bird.com/api/conversations-api"
+        },
+        {
+          "type": "Common API usage | Bird API Docs",
+          "url": "https://docs.bird.com/api/api-access/common-api-usage"
+        },
+        {
+          "type": "Update conversations configuration | Bird API Docs",
+          "url": "https://docs.bird.com/api/conversations-api/api-reference/channel-configuration/update-conversations-configuration"
+        },
+        {
+          "type": "API reference | Bird API Docs",
+          "url": "https://docs.bird.com/api/conversations-api/api-reference"
+        },
+        {
+          "type": "Channel configuration | Bird API Docs",
+          "url": "https://docs.bird.com/api/conversations-api/api-reference/channel-configuration"
+        },
+        {
+          "type": "Conversations messaging | Bird API Docs",
+          "url": "https://docs.bird.com/api/conversations-api/api-reference/conversations-messaging"
+        },
+        {
+          "type": "Delete conversation message | Bird API Docs",
+          "url": "https://docs.bird.com/api/conversations-api/api-reference/conversations-messaging/delete-conversation-message"
+        },
+        {
+          "type": "Get conversations configuration | Bird API Docs",
+          "url": "https://docs.bird.com/api/conversations-api/api-reference/channel-configuration/get-conversations-configuration"
+        },
+        {
+          "type": "Conversations management | Bird API Docs",
+          "url": "https://docs.bird.com/api/conversations-api/api-reference/conversations-management"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "bee293d9ac2e327241696ccab6ff7106cda53a464d3a97863036e34b6acb819d"
 }

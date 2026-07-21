@@ -52,5 +52,95 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.dmex.app/api-docs/websocket/chart-klines",
+      "canonicalSeedUrl": "https://docs.dmex.app/api-docs/websocket/chart-klines",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-02T16:33:48.187Z",
+      "completedAt": "2026-03-02T16:33:48.187Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.dmex.app/api-docs/websocket/chart-klines",
+          "canonicalUrl": "https://docs.dmex.app/api-docs/websocket/chart-klines",
+          "status": "valid"
+        }
+      ],
+      "id": "7dd9f887680a6d0d372b93c4a40cd91097e394db265d502c4c71d858ad141e48",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a173ce971c5c61c869de9c8e355fe7d9e122252f54cd1200034e912ce81f59f6",
+      "filename": "documentation_2026-03-02T16:33:48.187Z.md",
+      "contentHash": "b182f88acc323d835c2c4cd11184228557ec30f84060da6b8c93c80ee1d4382c",
+      "sourceUrl": "https://docs.dmex.app/api-docs/websocket/chart-klines",
+      "canonicalSourceUrl": "https://docs.dmex.app/api-docs/websocket/chart-klines",
+      "capturedAt": "2026-03-02T16:33:48.187Z",
+      "crawlRunId": "7dd9f887680a6d0d372b93c4a40cd91097e394db265d502c4c71d858ad141e48",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Chart KLines | DMEX",
+          "url": "https://docs.dmex.app/api-docs/websocket/chart-klines"
+        },
+        {
+          "type": "WebSocket | DMEX",
+          "url": "https://docs.dmex.app/api-docs/websocket"
+        },
+        {
+          "type": "Create Order | DMEX",
+          "url": "https://docs.dmex.app/api-docs/websocket/create-order"
+        },
+        {
+          "type": "Cancel Order | DMEX",
+          "url": "https://docs.dmex.app/api-docs/websocket/cancel-order"
+        },
+        {
+          "type": "Base Tokens | DMEX",
+          "url": "https://docs.dmex.app/api-docs/base-tokens"
+        },
+        {
+          "type": "REST | DMEX",
+          "url": "https://docs.dmex.app/api-docs/rest"
+        },
+        {
+          "type": "General | DMEX",
+          "url": "https://docs.dmex.app/api-docs/general"
+        },
+        {
+          "type": "General | DMEX",
+          "url": "https://docs.dmex.app/api-docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a173ce971c5c61c869de9c8e355fe7d9e122252f54cd1200034e912ce81f59f6"
 }

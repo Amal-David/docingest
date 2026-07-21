@@ -152,5 +152,195 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://iks-nm.github.io/satlas2/index.html",
+      "canonicalSeedUrl": "https://iks-nm.github.io/satlas2/index.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-31T09:03:07.803Z",
+      "completedAt": "2025-10-31T09:03:07.803Z",
+      "providerTotals": {
+        "discovered": 33,
+        "returned": 33,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://iks-nm.github.io/satlas2/index.html",
+          "canonicalUrl": "https://iks-nm.github.io/satlas2/index.html",
+          "status": "valid"
+        }
+      ],
+      "id": "49c61a5c4fdb907a1a3897fd3ea25fe2b4ba709c49c1cc379ab1ff6b4478bc86",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9f9efb981daa8c5345308e809b983c8fb055fa8b2a85d3a93be33a53fcac3b63",
+      "filename": "documentation_2025-10-31T09:03:07.803Z.md",
+      "contentHash": "c686309cd0b59f81f2e4502eb2f37d07574d795dcd0c7f20e01509bc326000c5",
+      "sourceUrl": "https://iks-nm.github.io/satlas2/index.html",
+      "canonicalSourceUrl": "https://iks-nm.github.io/satlas2/index.html",
+      "capturedAt": "2025-10-31T09:03:07.803Z",
+      "crawlRunId": "49c61a5c4fdb907a1a3897fd3ea25fe2b4ba709c49c1cc379ab1ff6b4478bc86",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 33,
+      "successfulPages": 33,
+      "structure": [
+        {
+          "type": "SATLAS2 – Statistical Analysis Toolbox for Laser Spectroscopy, version 2 — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/index.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/index.rst"
+        },
+        {
+          "type": "Architecture of SATLAS2 — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/architecture/index.html"
+        },
+        {
+          "type": "Tutorial — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/tutorials/index.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/architecture/index.rst"
+        },
+        {
+          "type": "Fitting in SATLAS2 — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/tutorials/fitting/index.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/tutorials/index.rst"
+        },
+        {
+          "type": "Making a model — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/tutorials/createmodel/index.html"
+        },
+        {
+          "type": "Extracting dataframes — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/tutorials/dataframe/index.html"
+        },
+        {
+          "type": "Different emcee moves — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/tutorials/walkoptions/index.html"
+        },
+        {
+          "type": "Benchmark of SATLAS2 speed — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/tutorials/benchmark/index.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/tutorials/fitting/index.rst"
+        },
+        {
+          "type": "API reference — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/api/index.html"
+        },
+        {
+          "type": "Using the SATLAS interface — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/tutorials/interface/index.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/tutorials/dataframe/index.rst"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/tutorials/createmodel/index.rst"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/tutorials/walkoptions/index.rst"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/tutorials/benchmark/index.rst"
+        },
+        {
+          "type": "Python Module Index — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/py-modindex.html"
+        },
+        {
+          "type": "Index — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/genindex.html"
+        },
+        {
+          "type": "Search - SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/search.html"
+        },
+        {
+          "type": "API Models — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/api/summaries/models.html"
+        },
+        {
+          "type": "API Core — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/api/summaries/core.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/api/index.rst"
+        },
+        {
+          "type": "API Interface — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/api/summaries/interface.html"
+        },
+        {
+          "type": "API Plotting — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/api/summaries/plotting.html"
+        },
+        {
+          "type": "API Utilities — SATLAS2",
+          "url": "https://iks-nm.github.io/satlas2/api/summaries/utilities.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/tutorials/interface/index.rst"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/api/summaries/models.rst"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/api/summaries/core.rst"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/api/summaries/plotting.rst"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/api/summaries/utilities.rst"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://iks-nm.github.io/satlas2/_sources/api/summaries/interface.rst"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9f9efb981daa8c5345308e809b983c8fb055fa8b2a85d3a93be33a53fcac3b63"
 }

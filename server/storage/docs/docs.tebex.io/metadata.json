@@ -173,5 +173,207 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.tebex.io/developers/templates/overview",
+      "canonicalSeedUrl": "https://docs.tebex.io/developers/templates/overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-08T11:17:29.274Z",
+      "completedAt": "2026-03-08T11:17:29.274Z",
+      "providerTotals": {
+        "discovered": 36,
+        "returned": 36,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.tebex.io/developers/templates/overview",
+          "canonicalUrl": "https://docs.tebex.io/developers/templates/overview",
+          "status": "valid"
+        }
+      ],
+      "id": "a20eb22a87e1e9fac1ed8d918fc939b1c421c2f7acea9fdb6c8170ab22b92343",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4d70c9de61c24cedf78ba50611da5216cdc051ae3a5c0899f004785eb0d0dd9a",
+      "filename": "documentation_2026-03-08T11:17:29.274Z.md",
+      "contentHash": "a3f62fac322deab50cae78d91263de8e8c13a2413b949e4955e5ab6108207cfe",
+      "sourceUrl": "https://docs.tebex.io/developers/templates/overview",
+      "canonicalSourceUrl": "https://docs.tebex.io/developers/templates/overview",
+      "capturedAt": "2026-03-08T11:17:29.274Z",
+      "crawlRunId": "a20eb22a87e1e9fac1ed8d918fc939b1c421c2f7acea9fdb6c8170ab22b92343",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 36,
+      "successfulPages": 36,
+      "structure": [
+        {
+          "type": "Overview | Developers",
+          "url": "https://docs.tebex.io/developers/templates/overview"
+        },
+        {
+          "type": "Assets | Developers",
+          "url": "https://docs.tebex.io/developers/templates/assets"
+        },
+        {
+          "type": "Getting Started | Developers",
+          "url": "https://docs.tebex.io/developers/templates/getting-started"
+        },
+        {
+          "type": "Footer | Developers",
+          "url": "https://docs.tebex.io/developers/templates/footer"
+        },
+        {
+          "type": "Developer Plan | Developers",
+          "url": "https://docs.tebex.io/developers/templates/developer-plan"
+        },
+        {
+          "type": "Schema | Developers",
+          "url": "https://docs.tebex.io/developers/templates/schema"
+        },
+        {
+          "type": "Overview | Developers",
+          "url": "https://docs.tebex.io/developers/templates"
+        },
+        {
+          "type": "Guides | Developers",
+          "url": "https://docs.tebex.io/developers/templates/guides"
+        },
+        {
+          "type": "Twig | Developers",
+          "url": "https://docs.tebex.io/developers/templates/twig"
+        },
+        {
+          "type": "Global Variables | Developers",
+          "url": "https://docs.tebex.io/developers/templates/global-variables"
+        },
+        {
+          "type": "Pages | Developers",
+          "url": "https://docs.tebex.io/developers/templates/pages"
+        },
+        {
+          "type": "Sidebar Modules | Developers",
+          "url": "https://docs.tebex.io/developers/templates/sidebar-modules"
+        },
+        {
+          "type": "module.topdonator.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/sidebar-modules/module.topdonator.html"
+        },
+        {
+          "type": "checkout.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/pages/checkout.html"
+        },
+        {
+          "type": "Package Slugs | Developers",
+          "url": "https://docs.tebex.io/developers/templates/guides/package-slugs"
+        },
+        {
+          "type": "Tags | Developers",
+          "url": "https://docs.tebex.io/developers/templates/twig/tags"
+        },
+        {
+          "type": "module.communitygoal.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/sidebar-modules/module.communitygoal.html"
+        },
+        {
+          "type": "Filters | Developers",
+          "url": "https://docs.tebex.io/developers/templates/twig/filters"
+        },
+        {
+          "type": "store | Developers",
+          "url": "https://docs.tebex.io/developers/templates/global-variables/store"
+        },
+        {
+          "type": "page | Developers",
+          "url": "https://docs.tebex.io/developers/templates/global-variables/page"
+        },
+        {
+          "type": "basket | Developers",
+          "url": "https://docs.tebex.io/developers/templates/global-variables/basket"
+        },
+        {
+          "type": "username.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/pages/username.html"
+        },
+        {
+          "type": "module.featuredpackage.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/sidebar-modules/module.featuredpackage.html"
+        },
+        {
+          "type": "Supporting Package Media on Custom Store Templates | Developers",
+          "url": "https://docs.tebex.io/developers/templates/guides/supporting-package-media-on-custom-store-templates"
+        },
+        {
+          "type": "options.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/pages/options.html"
+        },
+        {
+          "type": "module.textbox.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/sidebar-modules/module.textbox.html"
+        },
+        {
+          "type": "module.giftcardbalance.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/sidebar-modules/module.giftcardbalance.html"
+        },
+        {
+          "type": "Functions | Developers",
+          "url": "https://docs.tebex.io/developers/templates/twig/functions"
+        },
+        {
+          "type": "package.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/pages/package.html"
+        },
+        {
+          "type": "Supporting Tiers on Custom Store Templates | Developers",
+          "url": "https://docs.tebex.io/developers/templates/guides/supporting-tiers-on-custom-store-templates"
+        },
+        {
+          "type": "module.goal.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/sidebar-modules/module.goal.html"
+        },
+        {
+          "type": "layout.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/pages/layout.html"
+        },
+        {
+          "type": "module.serverstatus.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/sidebar-modules/module.serverstatus.html"
+        },
+        {
+          "type": "cms/page.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/pages/cms-page.html"
+        },
+        {
+          "type": "category.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/pages/category.html"
+        },
+        {
+          "type": "module.payments.html | Developers",
+          "url": "https://docs.tebex.io/developers/templates/sidebar-modules/module.payments.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4d70c9de61c24cedf78ba50611da5216cdc051ae3a5c0899f004785eb0d0dd9a"
 }

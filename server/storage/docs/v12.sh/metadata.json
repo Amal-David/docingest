@@ -36,5 +36,79 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://v12.sh/runs/1378/public",
+      "canonicalSeedUrl": "https://v12.sh/runs/1378/public",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-19T09:37:58.160Z",
+      "completedAt": "2026-03-19T09:37:58.160Z",
+      "providerTotals": {
+        "discovered": 4,
+        "returned": 4,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://v12.sh/runs/1378/public",
+          "canonicalUrl": "https://v12.sh/runs/1378/public",
+          "status": "valid"
+        }
+      ],
+      "id": "516d29e307b3851078110defcc4df59a63f7b2b71a4479f34b63b94f0bbf892b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "440791f2df037e7b11b7f68987dba420070b9b52c0ea34a94fc235547c8cd0a4",
+      "filename": "documentation_2026-03-19T09:37:58.160Z.md",
+      "contentHash": "bff190bb406a2394c33c567160590909b0c3829d1b0131e83cd2fb8251519057",
+      "sourceUrl": "https://v12.sh/runs/1378/public",
+      "canonicalSourceUrl": "https://v12.sh/runs/1378/public",
+      "capturedAt": "2026-03-19T09:37:58.160Z",
+      "crawlRunId": "516d29e307b3851078110defcc4df59a63f7b2b71a4479f34b63b94f0bbf892b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "V12 - C4-2026-03-chainlink",
+          "url": "https://v12.sh/runs/1378/public"
+        },
+        {
+          "type": "Login | V12",
+          "url": "https://v12.sh/login?returnTo=%2Fcreate-run"
+        },
+        {
+          "type": "Terms of Service | V12",
+          "url": "https://v12.sh/terms-of-service"
+        },
+        {
+          "type": "Privacy Policy | V12",
+          "url": "https://v12.sh/privacy-policy"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "440791f2df037e7b11b7f68987dba420070b9b52c0ea34a94fc235547c8cd0a4"
 }

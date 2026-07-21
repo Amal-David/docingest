@@ -36,5 +36,79 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://agentskills.io/what-are-skills",
+      "canonicalSeedUrl": "https://agentskills.io/what-are-skills",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-25T04:40:17.555Z",
+      "completedAt": "2025-12-25T04:40:17.555Z",
+      "providerTotals": {
+        "discovered": 4,
+        "returned": 4,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://agentskills.io/what-are-skills",
+          "canonicalUrl": "https://agentskills.io/what-are-skills",
+          "status": "valid"
+        }
+      ],
+      "id": "47426c5699ae608b2bde2c02d3c712341c8d2b523d4dbefdca4bc11170750d3c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "00870b3fcbef0d045b3f8f2c9e904e6e48404856c9893ca411e4adfa55448b94",
+      "filename": "documentation_2025-12-25T04:40:17.555Z.md",
+      "contentHash": "99dcb935275aee1db7e12bdaa15a9eeaf4512d12afe2a2c666fac5ed3b8bcc96",
+      "sourceUrl": "https://agentskills.io/what-are-skills",
+      "canonicalSourceUrl": "https://agentskills.io/what-are-skills",
+      "capturedAt": "2025-12-25T04:40:17.555Z",
+      "crawlRunId": "47426c5699ae608b2bde2c02d3c712341c8d2b523d4dbefdca4bc11170750d3c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "What are skills? - Agent Skills",
+          "url": "https://agentskills.io/what-are-skills"
+        },
+        {
+          "type": "Integrate skills into your agent - Agent Skills",
+          "url": "https://agentskills.io/integrate-skills"
+        },
+        {
+          "type": "Overview - Agent Skills",
+          "url": "https://agentskills.io/home"
+        },
+        {
+          "type": "Specification - Agent Skills",
+          "url": "https://agentskills.io/specification"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "00870b3fcbef0d045b3f8f2c9e904e6e48404856c9893ca411e4adfa55448b94"
 }

@@ -201,5 +201,235 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developer.x.com/en/docs/x-api",
+      "canonicalSeedUrl": "https://developer.x.com/en/docs/x-api",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-29T20:44:13.533Z",
+      "completedAt": "2025-09-29T20:44:13.533Z",
+      "providerTotals": {
+        "discovered": 43,
+        "returned": 43,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developer.x.com/en/docs/x-api",
+          "canonicalUrl": "https://developer.x.com/en/docs/x-api",
+          "status": "valid"
+        }
+      ],
+      "id": "4de7147a0835a6214e8508299c1344369191d4afcd984c541c959a2b5805ddd9",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e192aa82bd7aaac9dd8c927ddb4b971794d29ff729fa2ecd9e1be8ec45ff2974",
+      "filename": "documentation_2025-09-29T20:44:13.533Z.md",
+      "contentHash": "2ce584ac1257048561478ff4961f31e9175dd3fb2322d098dae8d968dde3bd86",
+      "sourceUrl": "https://developer.x.com/en/docs/x-api",
+      "canonicalSourceUrl": "https://developer.x.com/en/docs/x-api",
+      "capturedAt": "2025-09-29T20:44:13.533Z",
+      "crawlRunId": "4de7147a0835a6214e8508299c1344369191d4afcd984c541c959a2b5805ddd9",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 43,
+      "successfulPages": 43,
+      "structure": [
+        {
+          "type": "Twitter API Documentation | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-api"
+        },
+        {
+          "type": "Sandbox | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/ads-api-sandbox"
+        },
+        {
+          "type": "Currency | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/currency"
+        },
+        {
+          "type": "Timezones | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/timezones"
+        },
+        {
+          "type": "Ads API hierarchy and terminology | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/hierarchy-terminology"
+        },
+        {
+          "type": "Pagination | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/pagination"
+        },
+        {
+          "type": "Ads API News | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/newsletter"
+        },
+        {
+          "type": "Twitter Ads API Tools & Libraries | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/tools-and-libraries"
+        },
+        {
+          "type": "Catalog Management | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/catalog-management"
+        },
+        {
+          "type": "Rate limiting | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/rate-limiting"
+        },
+        {
+          "type": "Error codes and responses | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/response-codes"
+        },
+        {
+          "type": "Privacy | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-for-websites/privacy"
+        },
+        {
+          "type": "Twitter for Websites Tools & Libraries | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-for-websites/tools-and-libraries"
+        },
+        {
+          "type": "Sorting | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/sorting"
+        },
+        {
+          "type": "Direct Message button | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-for-websites/direct-message-button"
+        },
+        {
+          "type": "Supported languages and browsers | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-for-websites/supported-languages"
+        },
+        {
+          "type": "Overview | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-for-websites/timelines"
+        },
+        {
+          "type": "Overview | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/audiences"
+        },
+        {
+          "type": "Overview | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/analytics"
+        },
+        {
+          "type": "Overview | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/creatives"
+        },
+        {
+          "type": "Overview | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-for-websites/cms"
+        },
+        {
+          "type": "About Twitter Cards | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-for-websites/cards"
+        },
+        {
+          "type": "Webpage properties | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-for-websites/webpage-properties"
+        },
+        {
+          "type": "Overview | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-for-websites/embedded-tweets"
+        },
+        {
+          "type": "Guides | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-for-websites/tweet-button"
+        },
+        {
+          "type": "Overview | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/campaign-management"
+        },
+        {
+          "type": "Versions | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-ads-api/versioning"
+        },
+        {
+          "type": "Overview | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-for-websites/follow-button"
+        },
+        {
+          "type": "JavaScript API | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-for-websites/javascript-api"
+        },
+        {
+          "type": "oEmbed API | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/x-for-websites/oembed-api"
+        },
+        {
+          "type": "Image Resources | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/twitter-for-websites/web-intents/image-resources"
+        },
+        {
+          "type": "Using Twurl | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/tutorials/using-twurl"
+        },
+        {
+          "type": "Standard v1.1 | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/twitter-api/v1"
+        },
+        {
+          "type": "Overview | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/tweets/post-and-engage"
+        },
+        {
+          "type": "Overview | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/tweets/search/overview"
+        },
+        {
+          "type": "Overview | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/direct-messages/sending-and-receiving/overview"
+        },
+        {
+          "type": "Edit Tweets | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/twitter-api/v1/edit-tweets"
+        },
+        {
+          "type": "Use Cases, Tutorials, & Documentation  | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/twitter-api/premium"
+        },
+        {
+          "type": "POST statuses/update | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/tweets/post-and-engage/api-reference"
+        },
+        {
+          "type": "Overview | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/direct-messages/quick-replies"
+        },
+        {
+          "type": "t.co links | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/basics/tco"
+        },
+        {
+          "type": "Overview | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/geo/place-information/overview"
+        },
+        {
+          "type": "Overview | Docs | Twitter Developer Platform  ",
+          "url": "https://developer.x.com/en/docs/media/upload-media/overview"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e192aa82bd7aaac9dd8c927ddb4b971794d29ff729fa2ecd9e1be8ec45ff2974"
 }

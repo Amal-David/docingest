@@ -146,5 +146,171 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.flyingtulip.com/",
+      "canonicalSeedUrl": "https://docs.flyingtulip.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-12T13:25:40.241Z",
+      "completedAt": "2026-01-12T13:25:40.241Z",
+      "providerTotals": {
+        "discovered": 27,
+        "returned": 27,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.flyingtulip.com/",
+          "canonicalUrl": "https://docs.flyingtulip.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "1687150dd149ce44ee2d9ece18cc2d214ce39bbc501b39585881fb2a631148bf",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1f9e9095a155f97f935fe0750a52a844a30c80e880d08235fd48088b05d16c88",
+      "filename": "documentation_2026-01-12T13:25:40.241Z.md",
+      "contentHash": "5097e400f3058e29cee2798971c140ef2160b028b853b2947b8fd386f06dd83e",
+      "sourceUrl": "https://docs.flyingtulip.com/",
+      "canonicalSourceUrl": "https://docs.flyingtulip.com/",
+      "capturedAt": "2026-01-12T13:25:40.241Z",
+      "crawlRunId": "1687150dd149ce44ee2d9ece18cc2d214ce39bbc501b39585881fb2a631148bf",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 27,
+      "successfulPages": 27,
+      "structure": [
+        {
+          "type": "Welcome | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/"
+        },
+        {
+          "type": "Search the documentation",
+          "url": "https://docs.flyingtulip.com/search/"
+        },
+        {
+          "type": "Brand Kit | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/brand/"
+        },
+        {
+          "type": "Audits & Responsible Disclosure | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/risks/audits-and-responsible-disclosure/"
+        },
+        {
+          "type": "Smart Contracts | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/smart-contracts/"
+        },
+        {
+          "type": "pFT | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/smart-contracts/pft/"
+        },
+        {
+          "type": "FT Token | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/smart-contracts/ft-token/"
+        },
+        {
+          "type": "ftYieldWrapper | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/smart-contracts/ftyieldwrapper/"
+        },
+        {
+          "type": "PutManager | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/smart-contracts/putmanager/"
+        },
+        {
+          "type": "Glossary | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/glossary/"
+        },
+        {
+          "type": "Capital Allocation | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/capital-allocation/"
+        },
+        {
+          "type": "Contract Addresses | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/contract-addresses/"
+        },
+        {
+          "type": "Technical Appendix | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/capital-allocation/technical-appendix/"
+        },
+        {
+          "type": "Flying Tulip | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/overview/flying-tulip/"
+        },
+        {
+          "type": "Intent Whitelist | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/guides/intent-whitelist/"
+        },
+        {
+          "type": "Supporter Whitelist | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/guides/supporter-whitelist/"
+        },
+        {
+          "type": "Public Capital Allocation | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/guides/sale-process/"
+        },
+        {
+          "type": "Risks, Security, Audits | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/risks/"
+        },
+        {
+          "type": "Multisigs | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/risks/multisigs/"
+        },
+        {
+          "type": "Futures | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/product-suite/ft-futures/"
+        },
+        {
+          "type": "Insurance | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/product-suite/ft-insurance/"
+        },
+        {
+          "type": "Lend | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/product-suite/ft-lend/"
+        },
+        {
+          "type": "Spot | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/product-suite/ft-spot/"
+        },
+        {
+          "type": "ftUSD | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/product-suite/ft-usd/"
+        },
+        {
+          "type": "Token | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/product-suite/ft-token/"
+        },
+        {
+          "type": "Roadmap | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/roadmap/"
+        },
+        {
+          "type": "Flying Tulip Product Suite | Flying Tulip Docs",
+          "url": "https://docs.flyingtulip.com/product-suite/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1f9e9095a155f97f935fe0750a52a844a30c80e880d08235fd48088b05d16c88"
 }

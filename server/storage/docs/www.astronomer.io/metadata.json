@@ -42,5 +42,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.astronomer.io/docs/learn/airflow-pgvector/",
+      "canonicalSeedUrl": "https://www.astronomer.io/docs/learn/airflow-pgvector",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-10T10:37:11.828Z",
+      "completedAt": "2025-02-10T10:37:11.828Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.astronomer.io/docs/learn/airflow-pgvector/",
+          "canonicalUrl": "https://www.astronomer.io/docs/learn/airflow-pgvector",
+          "status": "valid"
+        }
+      ],
+      "id": "f2dfea52dfde561c02621e6864a0ad3caf7a053a17792b472cae15dcc21fdda5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f6d73f913ad13cc03767c13de81735b1434758f595e4fb78f17c713db5b47aa9",
+      "filename": "documentation_2025-02-10T10:37:11.828Z.md",
+      "contentHash": "8ed6828d5c22d847725f9fcbc3d22b19fe08030126b55153f56d991a42366c4d",
+      "sourceUrl": "https://www.astronomer.io/docs/learn/airflow-pgvector/",
+      "canonicalSourceUrl": "https://www.astronomer.io/docs/learn/airflow-pgvector",
+      "capturedAt": "2025-02-10T10:37:11.828Z",
+      "crawlRunId": "f2dfea52dfde561c02621e6864a0ad3caf7a053a17792b472cae15dcc21fdda5",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Orchestrate pgvector operations with Apache Airflow | Astronomer Documentation",
+          "url": "https://www.astronomer.io/docs/learn/airflow-pgvector/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f6d73f913ad13cc03767c13de81735b1434758f595e4fb78f17c713db5b47aa9"
 }

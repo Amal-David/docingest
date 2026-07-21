@@ -100,5 +100,143 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://vtools.gitbook.io/restful-api/restful-api-v3/authentification",
+      "canonicalSeedUrl": "https://vtools.gitbook.io/restful-api/restful-api-v3/authentification",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-08T19:39:35.354Z",
+      "completedAt": "2025-02-08T19:39:35.354Z",
+      "providerTotals": {
+        "discovered": 20,
+        "returned": 20,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/authentification",
+          "canonicalUrl": "https://vtools.gitbook.io/restful-api/restful-api-v3/authentification",
+          "status": "valid"
+        }
+      ],
+      "id": "66e87610437331fc2f9cdaa59631a46ec1260e96947be9c817d496ab39ce85fe",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8df9f7b6c4033a71e32115aede3e6c5fbdd43483fbb6a55f41d014ae31d8b3c8",
+      "filename": "documentation_2025-02-08T19:39:35.354Z.md",
+      "contentHash": "6a6c168a3aa5b68269e10b9b1bc5f3dbe226c1a178b4bee76f2ee17eccd0345d",
+      "sourceUrl": "https://vtools.gitbook.io/restful-api/restful-api-v3/authentification",
+      "canonicalSourceUrl": "https://vtools.gitbook.io/restful-api/restful-api-v3/authentification",
+      "capturedAt": "2025-02-08T19:39:35.354Z",
+      "crawlRunId": "66e87610437331fc2f9cdaa59631a46ec1260e96947be9c817d496ab39ce85fe",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 20,
+      "successfulPages": 20,
+      "structure": [
+        {
+          "type": "Authentification | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/authentification"
+        },
+        {
+          "type": "RESTful API v3 | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/"
+        },
+        {
+          "type": "Abonnements | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/abonnements"
+        },
+        {
+          "type": "Authentification Discord | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/authentification/authentification-discord"
+        },
+        {
+          "type": "Article Vinted | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/modeles/article-vinted"
+        },
+        {
+          "type": "Authentification classique | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/authentification/authentification-classique"
+        },
+        {
+          "type": "Vinted | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/vinted"
+        },
+        {
+          "type": "(Dé)Lier un compte Discord | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/authentification/authentification-discord/de-lier-un-compte-discord"
+        },
+        {
+          "type": "Réinitialiser son mot de passe | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/authentification/authentification-classique/reinitialiser-son-mot-de-passe"
+        },
+        {
+          "type": "Websocket | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/websocket"
+        },
+        {
+          "type": "See also | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/authentification/see-also"
+        },
+        {
+          "type": "Cache | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/cache"
+        },
+        {
+          "type": "Stripe | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/abonnements/stripe"
+        },
+        {
+          "type": "Multicompte | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/vinted/multicompte"
+        },
+        {
+          "type": "Transactions | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/vinted/transactions"
+        },
+        {
+          "type": "Vinted CRM | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/vinted/vinted-crm"
+        },
+        {
+          "type": "Filtres | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/websocket/filtres"
+        },
+        {
+          "type": "Authentification Vinted | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/restful-api-v3/vinted/authentification-vinted"
+        },
+        {
+          "type": "Erreurs | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/modeles/erreurs"
+        },
+        {
+          "type": "Évènement | V-TOOLS API",
+          "url": "https://vtools.gitbook.io/restful-api/modeles/evenement"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8df9f7b6c4033a71e32115aede3e6c5fbdd43483fbb6a55f41d014ae31d8b3c8"
 }

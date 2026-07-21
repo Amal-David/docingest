@@ -113,5 +113,147 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.inceptionlabs.ai/capabilities/next-edit",
+      "canonicalSeedUrl": "https://docs.inceptionlabs.ai/capabilities/next-edit",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-28T08:22:03.139Z",
+      "completedAt": "2026-02-28T08:22:03.139Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.inceptionlabs.ai/capabilities/next-edit",
+          "canonicalUrl": "https://docs.inceptionlabs.ai/capabilities/next-edit",
+          "status": "valid"
+        }
+      ],
+      "id": "f9be10df5e432a3c5be26dd45109f4c1e8856530fd19d5273d49a3821ef5a63c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "750f526203b659e663ca434f01a6de393f0e61cd234d7016900e1af1118461e4",
+      "filename": "documentation_2026-02-28T08:22:03.139Z.md",
+      "contentHash": "893268b072c192073f1d6ebb56d52b7e0b66702ca6b86c47799702409e30a472",
+      "sourceUrl": "https://docs.inceptionlabs.ai/capabilities/next-edit",
+      "canonicalSourceUrl": "https://docs.inceptionlabs.ai/capabilities/next-edit",
+      "capturedAt": "2026-02-28T08:22:03.139Z",
+      "crawlRunId": "f9be10df5e432a3c5be26dd45109f4c1e8856530fd19d5273d49a3821ef5a63c",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "Next Edit - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/capabilities/next-edit"
+        },
+        {
+          "type": "Frequently Asked Questions - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/resources/faq"
+        },
+        {
+          "type": "Rate Limits - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/get-started/rate-limits"
+        },
+        {
+          "type": "LangChain - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/resources/langchain"
+        },
+        {
+          "type": "Kilo Code - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/resources/kilo-code"
+        },
+        {
+          "type": "Error Codes - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/resources/error-codes"
+        },
+        {
+          "type": "Autocomplete (FIM) - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/capabilities/fim"
+        },
+        {
+          "type": "Authentication - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/get-started/authentication"
+        },
+        {
+          "type": "Instant - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/capabilities/instant"
+        },
+        {
+          "type": "Chat Completions - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/capabilities/chat-completions"
+        },
+        {
+          "type": "Cline - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/resources/cline"
+        },
+        {
+          "type": "Structured Outputs - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/capabilities/structured-outputs"
+        },
+        {
+          "type": "Apply Edit - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/capabilities/apply-edit"
+        },
+        {
+          "type": "Zed - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/resources/zed"
+        },
+        {
+          "type": "Tool Use - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/capabilities/tool-use"
+        },
+        {
+          "type": "Streaming & Diffusion - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/capabilities/streaming"
+        },
+        {
+          "type": "Roo Code - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/resources/roo-code"
+        },
+        {
+          "type": "Continue - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/resources/continue"
+        },
+        {
+          "type": "Welcome to the Inception Platform - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/get-started/get-started"
+        },
+        {
+          "type": "OpenClaw 🦞  - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/resources/open-claw"
+        },
+        {
+          "type": "Models, Endpoints, and Pricing - Inception Platform",
+          "url": "https://docs.inceptionlabs.ai/get-started/models"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "750f526203b659e663ca434f01a6de393f0e61cd234d7016900e1af1118461e4"
 }

@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://reactflow.dev/learn",
+      "canonicalSeedUrl": "https://reactflow.dev/learn",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-07T05:01:48.727Z",
+      "completedAt": "2025-12-07T05:01:48.727Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://reactflow.dev/learn",
+          "canonicalUrl": "https://reactflow.dev/learn",
+          "status": "valid"
+        }
+      ],
+      "id": "41fa4e6aa3cc5128152b18b2d2576c12caa27fa19a11f20f9834b1305605ae09",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0852f8aa86b5cfd4202ea84ac0410181728856a086ae61e6d72202c12b7c8085",
+      "filename": "documentation_2025-12-07T05:01:48.727Z.md",
+      "contentHash": "df7e814cbcaae5d92960bda1f31c19f77bbe42183a800b9b971f220243f90987",
+      "sourceUrl": "https://reactflow.dev/learn",
+      "canonicalSourceUrl": "https://reactflow.dev/learn",
+      "capturedAt": "2025-12-07T05:01:48.727Z",
+      "crawlRunId": "41fa4e6aa3cc5128152b18b2d2576c12caa27fa19a11f20f9834b1305605ae09",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Quick Start - React Flow",
+          "url": "https://reactflow.dev/learn"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0852f8aa86b5cfd4202ea84ac0410181728856a086ae61e6d72202c12b7c8085"
 }

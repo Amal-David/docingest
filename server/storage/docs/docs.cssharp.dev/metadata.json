@@ -40,5 +40,83 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.cssharp.dev/docs/guides/hello-world-plugin.html",
+      "canonicalSeedUrl": "https://docs.cssharp.dev/docs/guides/hello-world-plugin.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-21T12:39:08.294Z",
+      "completedAt": "2026-06-21T12:39:08.294Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.cssharp.dev/docs/guides/hello-world-plugin.html",
+          "canonicalUrl": "https://docs.cssharp.dev/docs/guides/hello-world-plugin.html",
+          "status": "valid"
+        }
+      ],
+      "id": "89f5ff4f6769b33fb11a1d224b30191137ec1d66f473fcf0bc92094d52464a53",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1bd2843cd915d93d005f1b4e2ab9170ead24e65e6c6ac4f4648852d961603c43",
+      "filename": "documentation_2026-06-21T12:39:08.294Z.md",
+      "contentHash": "9a24a7c2cccb319530dc139b3aeef0266a8cb6813288d0011d7f6ee3066574e3",
+      "sourceUrl": "https://docs.cssharp.dev/docs/guides/hello-world-plugin.html",
+      "canonicalSourceUrl": "https://docs.cssharp.dev/docs/guides/hello-world-plugin.html",
+      "capturedAt": "2026-06-21T12:39:08.294Z",
+      "crawlRunId": "89f5ff4f6769b33fb11a1d224b30191137ec1d66f473fcf0bc92094d52464a53",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "Hello World Plugin | CounterStrikeSharp ",
+          "url": "https://docs.cssharp.dev/docs/guides/hello-world-plugin.html"
+        },
+        {
+          "type": "Dependency Injection | CounterStrikeSharp ",
+          "url": "https://docs.cssharp.dev/docs/guides/dependency-injection.html"
+        },
+        {
+          "type": "Automatically build/deploy your changes | CounterStrikeSharp ",
+          "url": "https://docs.cssharp.dev/docs/guides/auto-build-and-deploy.html"
+        },
+        {
+          "type": "Getting Started | CounterStrikeSharp ",
+          "url": "https://docs.cssharp.dev/docs/guides/getting-started.html"
+        },
+        {
+          "type": "Referencing Players | CounterStrikeSharp ",
+          "url": "https://docs.cssharp.dev/docs/guides/referencing-players.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1bd2843cd915d93d005f1b4e2ab9170ead24e65e6c6ac4f4648852d961603c43"
 }

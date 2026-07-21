@@ -84,5 +84,127 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://wiki.gpplugins.com/economyshopgui/",
+      "canonicalSeedUrl": "https://wiki.gpplugins.com/economyshopgui",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-06T06:14:41.785Z",
+      "completedAt": "2025-10-06T06:14:41.785Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://wiki.gpplugins.com/economyshopgui/",
+          "canonicalUrl": "https://wiki.gpplugins.com/economyshopgui",
+          "status": "valid"
+        }
+      ],
+      "id": "caf357c4ab7e92c1d657b80e1872534f21f1a2c53473fb93ffc93df771a73fd4",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "823dded4f95e4c557842a1d0137d7282749796e114f2f0316e09d8bdb199094e",
+      "filename": "documentation_2025-10-06T06:14:41.785Z.md",
+      "contentHash": "ce08c92d3b08d76cee7fc3b28db2c3110dd100586505eb965b2a8e67da044cc4",
+      "sourceUrl": "https://wiki.gpplugins.com/economyshopgui/",
+      "canonicalSourceUrl": "https://wiki.gpplugins.com/economyshopgui",
+      "capturedAt": "2025-10-06T06:14:41.785Z",
+      "crawlRunId": "caf357c4ab7e92c1d657b80e1872534f21f1a2c53473fb93ffc93df771a73fd4",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "EconomyShopGUI - Overview | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/"
+        },
+        {
+          "type": "FAQ & Read Me - start here! | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/basics/faq"
+        },
+        {
+          "type": "Commands: | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/basics/commands"
+        },
+        {
+          "type": "Permissions: | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/basics/permission"
+        },
+        {
+          "type": "Troubleshooting: | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/basics/troubleshooting"
+        },
+        {
+          "type": "General How-To's: | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/basics/how-to"
+        },
+        {
+          "type": "Limited Items | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/basics/limited-items"
+        },
+        {
+          "type": "About YAML (YML files) | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/file-configuration/about-yaml-yml-files"
+        },
+        {
+          "type": "Config.yml | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/file-configuration/config.yml"
+        },
+        {
+          "type": "API Usage | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/api/api-usage"
+        },
+        {
+          "type": "Languages | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/file-configuration/languages"
+        },
+        {
+          "type": "Sections | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/file-configuration/sections.yml"
+        },
+        {
+          "type": "Shops | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/file-configuration/shops.yml"
+        },
+        {
+          "type": "FAQ & Read Me - start here! | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/basics"
+        },
+        {
+          "type": "About YAML (YML files) | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/file-configuration"
+        },
+        {
+          "type": "API Usage | EconomyShopGUI wiki",
+          "url": "https://wiki.gpplugins.com/economyshopgui/api"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "823dded4f95e4c557842a1d0137d7282749796e114f2f0316e09d8bdb199094e"
 }

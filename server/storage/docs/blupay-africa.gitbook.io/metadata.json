@@ -77,5 +77,111 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://blupay-africa.gitbook.io/blupay-africa-docs",
+      "canonicalSeedUrl": "https://blupay-africa.gitbook.io/blupay-africa-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-07T11:00:56.804Z",
+      "completedAt": "2026-04-07T11:00:56.804Z",
+      "providerTotals": {
+        "discovered": 12,
+        "returned": 12,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://blupay-africa.gitbook.io/blupay-africa-docs",
+          "canonicalUrl": "https://blupay-africa.gitbook.io/blupay-africa-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "a46fc43683ccbb14ec1c223e5de1a04a2c10941ccd02ba37ec0ffa436a0b36ea",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cb02f35df0ca6f38d0c8cafdbf87223666de3c507b67c1fdaf9c16b35d7956f6",
+      "filename": "documentation_2026-04-07T11:00:56.804Z.md",
+      "contentHash": "63ceb5b4cc6028613128c372388bf07db5c8196265f51192bf3d013abe8031c3",
+      "sourceUrl": "https://blupay-africa.gitbook.io/blupay-africa-docs",
+      "canonicalSourceUrl": "https://blupay-africa.gitbook.io/blupay-africa-docs",
+      "capturedAt": "2026-04-07T11:00:56.804Z",
+      "crawlRunId": "a46fc43683ccbb14ec1c223e5de1a04a2c10941ccd02ba37ec0ffa436a0b36ea",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 12,
+      "successfulPages": 12,
+      "structure": [
+        {
+          "type": "Quickstart | BluPay Africa Docs",
+          "url": "https://blupay-africa.gitbook.io/blupay-africa-docs"
+        },
+        {
+          "type": "Whitelist IP Address | BluPay Africa Docs",
+          "url": "https://blupay-africa.gitbook.io/blupay-africa-docs/getting-started/ip-whitelisting"
+        },
+        {
+          "type": "Register Webhook | BluPay Africa Docs",
+          "url": "https://blupay-africa.gitbook.io/blupay-africa-docs/basics/register-webhook"
+        },
+        {
+          "type": "Make a Collection | BluPay Africa Docs",
+          "url": "https://blupay-africa.gitbook.io/blupay-africa-docs/basics/make-collection"
+        },
+        {
+          "type": "Get Wallet Balance | BluPay Africa Docs",
+          "url": "https://blupay-africa.gitbook.io/blupay-africa-docs/basics/get-wallet-balance"
+        },
+        {
+          "type": "Generate API Key | BluPay Africa Docs",
+          "url": "https://blupay-africa.gitbook.io/blupay-africa-docs/getting-started/generate-api-key"
+        },
+        {
+          "type": "Fetch a transaction | BluPay Africa Docs",
+          "url": "https://blupay-africa.gitbook.io/blupay-africa-docs/basics/fetch-transaction"
+        },
+        {
+          "type": "Determine MoMo Processor | BluPay Africa Docs",
+          "url": "https://blupay-africa.gitbook.io/blupay-africa-docs/basics/determine-processor"
+        },
+        {
+          "type": "Make a Payout | BluPay Africa Docs",
+          "url": "https://blupay-africa.gitbook.io/blupay-africa-docs/basics/make-payout"
+        },
+        {
+          "type": "Webhook Signature Verification | BluPay Africa Docs",
+          "url": "https://blupay-africa.gitbook.io/blupay-africa-docs/basics/register-webhook/webhook-signature-verification"
+        },
+        {
+          "type": "Quickstart | BluPay Africa Docs",
+          "url": "https://blupay-africa.gitbook.io/blupay-africa-docs/getting-started"
+        },
+        {
+          "type": "Register Webhook | BluPay Africa Docs",
+          "url": "https://blupay-africa.gitbook.io/blupay-africa-docs/basics"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cb02f35df0ca6f38d0c8cafdbf87223666de3c507b67c1fdaf9c16b35d7956f6"
 }

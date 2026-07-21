@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.guidewire.com/cloud/console/cloudconsoleapi/",
+      "canonicalSeedUrl": "https://docs.guidewire.com/cloud/console/cloudconsoleapi",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-26T10:28:27.680Z",
+      "completedAt": "2025-02-26T10:28:27.680Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.guidewire.com/cloud/console/cloudconsoleapi/",
+          "canonicalUrl": "https://docs.guidewire.com/cloud/console/cloudconsoleapi",
+          "status": "valid"
+        }
+      ],
+      "id": "ccd967b5c8809a90cf492a5de26b63a991308184c828ed1dc2aecb5d099d4980",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2c9afbf1eb36b34a8449201b8874449b5a363e37402080c4cc80b130beb66111",
+      "filename": "documentation_2025-02-26T10:28:27.680Z.md",
+      "contentHash": "da70d3a4f4d70c1c94415c0e1b3cbd584c453284db974207183c12ea1a8062de",
+      "sourceUrl": "https://docs.guidewire.com/cloud/console/cloudconsoleapi/",
+      "canonicalSourceUrl": "https://docs.guidewire.com/cloud/console/cloudconsoleapi",
+      "capturedAt": "2025-02-26T10:28:27.680Z",
+      "crawlRunId": "ccd967b5c8809a90cf492a5de26b63a991308184c828ed1dc2aecb5d099d4980",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Introduction | IS Deployments API",
+          "url": "https://docs.guidewire.com/cloud/console/cloudconsoleapi/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2c9afbf1eb36b34a8449201b8874449b5a363e37402080c4cc80b130beb66111"
 }

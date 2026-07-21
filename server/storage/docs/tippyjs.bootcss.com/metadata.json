@@ -92,5 +92,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://tippyjs.bootcss.com",
+      "canonicalSeedUrl": "https://tippyjs.bootcss.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-18T09:59:03.612Z",
+      "completedAt": "2025-07-18T09:59:03.612Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://tippyjs.bootcss.com",
+          "canonicalUrl": "https://tippyjs.bootcss.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "bc84639848d819947dd1d095f4ad273de452df057440b6ea5a0435e895e3992b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4c1cc500450f4473a9268e6daa8403bc48be7d1fe706400d583b9ea0925c2aa8",
+      "filename": "documentation_2025-07-18T09:59:03.612Z.md",
+      "contentHash": "95cbadede95615e9b8259aae1e5af95c969e747535190e05c88edb6fc92ac85c",
+      "sourceUrl": "https://tippyjs.bootcss.com",
+      "canonicalSourceUrl": "https://tippyjs.bootcss.com/",
+      "capturedAt": "2025-07-18T09:59:03.612Z",
+      "crawlRunId": "bc84639848d819947dd1d095f4ad273de452df057440b6ea5a0435e895e3992b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "Tippy.js - Tooltip and Popover Library",
+          "url": "https://tippyjs.bootcss.com"
+        },
+        {
+          "type": "Getting Started | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/getting-started/"
+        },
+        {
+          "type": "Creating Tooltips | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/creating-tooltips/"
+        },
+        {
+          "type": "Customizing Tooltips | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/customizing-tooltips/"
+        },
+        {
+          "type": "Themes | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/themes/"
+        },
+        {
+          "type": "Tippy Instance | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/tippy-instance/"
+        },
+        {
+          "type": "HTML Content | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/html-content/"
+        },
+        {
+          "type": "All Props | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/all-props/"
+        },
+        {
+          "type": "Lifecycle Hooks | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/lifecycle-hooks/"
+        },
+        {
+          "type": "Animations | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/animations/"
+        },
+        {
+          "type": "Addons | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/addons/"
+        },
+        {
+          "type": "AJAX | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/ajax/"
+        },
+        {
+          "type": "Methods | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/methods/"
+        },
+        {
+          "type": "Accessibility | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/accessibility/"
+        },
+        {
+          "type": "Misc | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/misc/"
+        },
+        {
+          "type": "Motivation | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/motivation/"
+        },
+        {
+          "type": "Plugins | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/plugins/"
+        },
+        {
+          "type": "FAQ | Tippy.js",
+          "url": "https://tippyjs.bootcss.com/faq/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4c1cc500450f4473a9268e6daa8403bc48be7d1fe706400d583b9ea0925c2aa8"
 }

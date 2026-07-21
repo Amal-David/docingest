@@ -118,5 +118,143 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://zarzel.gitbook.io/zarscript2/",
+      "canonicalSeedUrl": "https://zarzel.gitbook.io/zarscript2",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-10T04:46:06.797Z",
+      "completedAt": "2026-01-10T04:46:06.797Z",
+      "providerTotals": {
+        "discovered": 20,
+        "returned": 20,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://zarzel.gitbook.io/zarscript2/",
+          "canonicalUrl": "https://zarzel.gitbook.io/zarscript2",
+          "status": "valid"
+        }
+      ],
+      "id": "52081ef66a8006e01e7b047f8d385204a0f2bd126ec92c1f2d97800e7ecb3e63",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "64b37b11816622e061a57dea377a9fbd04a3d700b12c5bb3ca5c8a5ccaa8688a",
+      "filename": "documentation_2026-01-10T04:46:06.797Z.md",
+      "contentHash": "5c78b6a703a413b076079f02c84fa6a3a13bac3a49daa6fe636f3812a6ec5684",
+      "sourceUrl": "https://zarzel.gitbook.io/zarscript2/",
+      "canonicalSourceUrl": "https://zarzel.gitbook.io/zarscript2",
+      "capturedAt": "2026-01-10T04:46:06.797Z",
+      "crawlRunId": "52081ef66a8006e01e7b047f8d385204a0f2bd126ec92c1f2d97800e7ecb3e63",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 20,
+      "successfulPages": 20,
+      "structure": [
+        {
+          "type": "Initial page | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/"
+        },
+        {
+          "type": "Script loading | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/how-to-use-luas/script-loading"
+        },
+        {
+          "type": "Loaded players | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/module/examples/loaded-players"
+        },
+        {
+          "type": "Events | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/module/events"
+        },
+        {
+          "type": "Module | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/module"
+        },
+        {
+          "type": "Examples | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/module/examples"
+        },
+        {
+          "type": "Bow yourself | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/module/examples/bow-yourself"
+        },
+        {
+          "type": "Time counter | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/module/examples/time-counter"
+        },
+        {
+          "type": "API Libs | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/api-libs"
+        },
+        {
+          "type": "client | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/api-libs/client"
+        },
+        {
+          "type": "inventory | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/api-libs/player/inventory"
+        },
+        {
+          "type": "player | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/api-libs/player"
+        },
+        {
+          "type": "world | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/api-libs/world"
+        },
+        {
+          "type": "GUI Events | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/api-libs/render/gui-events"
+        },
+        {
+          "type": "render | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/api-libs/render"
+        },
+        {
+          "type": "module_manager | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/api-libs/module_manager"
+        },
+        {
+          "type": "http | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/api-libs/http"
+        },
+        {
+          "type": "input | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation/api-libs/input"
+        },
+        {
+          "type": "Script loading | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/how-to-use-luas"
+        },
+        {
+          "type": "Module | zarscript2",
+          "url": "https://zarzel.gitbook.io/zarscript2/documentation"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "64b37b11816622e061a57dea377a9fbd04a3d700b12c5bb3ca5c8a5ccaa8688a"
 }

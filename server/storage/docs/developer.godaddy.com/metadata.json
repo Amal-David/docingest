@@ -51,5 +51,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developer.godaddy.com/doc/endpoint/domains",
+      "canonicalSeedUrl": "https://developer.godaddy.com/doc/endpoint/domains",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-10T22:47:50.815Z",
+      "completedAt": "2025-02-10T22:47:50.815Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developer.godaddy.com/doc/endpoint/domains",
+          "canonicalUrl": "https://developer.godaddy.com/doc/endpoint/domains",
+          "status": "valid"
+        }
+      ],
+      "id": "a75296c3622b185b713b016db7c85c10a24e2a61fc938c8ef25326e1a46242b0",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "882432d551356eb58beeb165ca77c5ea2806f9ccf0a630f23798d0bb2adea83f",
+      "filename": "documentation_2025-02-10T22:47:50.815Z.md",
+      "contentHash": "2ff76c6e4ddc1c579646803b1c80f6474000b7ea04c039e62b24d5d9a2fbab91",
+      "sourceUrl": "https://developer.godaddy.com/doc/endpoint/domains",
+      "canonicalSourceUrl": "https://developer.godaddy.com/doc/endpoint/domains",
+      "capturedAt": "2025-02-10T22:47:50.815Z",
+      "crawlRunId": "a75296c3622b185b713b016db7c85c10a24e2a61fc938c8ef25326e1a46242b0",
+      "upstreamVersion": "1.3.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Unknown",
+          "url": "https://developer.godaddy.com/doc/endpoint/domains"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "882432d551356eb58beeb165ca77c5ea2806f9ccf0a630f23798d0bb2adea83f"
 }

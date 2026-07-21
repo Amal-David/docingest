@@ -108,5 +108,151 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.re.xyz/getting-started-with-re/quickstart-guide",
+      "canonicalSeedUrl": "https://docs.re.xyz/getting-started-with-re/quickstart-guide",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-13T19:59:21.082Z",
+      "completedAt": "2025-04-13T19:59:21.082Z",
+      "providerTotals": {
+        "discovered": 22,
+        "returned": 22,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.re.xyz/getting-started-with-re/quickstart-guide",
+          "canonicalUrl": "https://docs.re.xyz/getting-started-with-re/quickstart-guide",
+          "status": "valid"
+        }
+      ],
+      "id": "a53ac16af2fdb2c18d43ec735ef8b8a9525ad52788637ae0bc160435c74c7def",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "164bf23ac24a46553e4094da1c1144d6f03ecf75a0cc88eef97cb990a74f5250",
+      "filename": "documentation_2025-04-13T19:59:21.082Z.md",
+      "contentHash": "0c42ead693adaaa169d0988d47ed07d904cb68a6f57fb56da959794c8689aecc",
+      "sourceUrl": "https://docs.re.xyz/getting-started-with-re/quickstart-guide",
+      "canonicalSourceUrl": "https://docs.re.xyz/getting-started-with-re/quickstart-guide",
+      "capturedAt": "2025-04-13T19:59:21.082Z",
+      "crawlRunId": "a53ac16af2fdb2c18d43ec735ef8b8a9525ad52788637ae0bc160435c74c7def",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 22,
+      "successfulPages": 22,
+      "structure": [
+        {
+          "type": "QuickStart Guide | Protocol",
+          "url": "https://docs.re.xyz/getting-started-with-re/quickstart-guide"
+        },
+        {
+          "type": "FAQs | Protocol",
+          "url": "https://docs.re.xyz/"
+        },
+        {
+          "type": "How Collateralized Reinsurance Earns Returns | Protocol",
+          "url": "https://docs.re.xyz/reinsurance/how-collateralized-reinsurance-earns-returns"
+        },
+        {
+          "type": "What is Reinsurance? | Protocol",
+          "url": "https://docs.re.xyz/reinsurance/what-is-reinsurance"
+        },
+        {
+          "type": "How the Re Protocol Works | Protocol",
+          "url": "https://docs.re.xyz/protocol/how-the-re-protocol-works"
+        },
+        {
+          "type": "Introduction to the Re Protocol | Protocol",
+          "url": "https://docs.re.xyz/getting-started-with-re/introduction-to-the-re-protocol"
+        },
+        {
+          "type": "What is reUSD? | Protocol",
+          "url": "https://docs.re.xyz/what-is-reusd"
+        },
+        {
+          "type": "Connect with Us | Protocol",
+          "url": "https://docs.re.xyz/connect-with-us"
+        },
+        {
+          "type": "Investor Protections and Risk Management | Protocol",
+          "url": "https://docs.re.xyz/investor-protections-and-risk-management"
+        },
+        {
+          "type": "Disclaimers | Protocol",
+          "url": "https://docs.re.xyz/disclaimers"
+        },
+        {
+          "type": "Governance Model | Protocol",
+          "url": "https://docs.re.xyz/protocol/governance-model"
+        },
+        {
+          "type": "Security and Audits | Protocol",
+          "url": "https://docs.re.xyz/security-and-audits"
+        },
+        {
+          "type": "Insurance Capital Layer ( ICL ) | Protocol",
+          "url": "https://docs.re.xyz/protocol/insurance-capital-layer-icl"
+        },
+        {
+          "type": "What is reUSDe ? | Protocol",
+          "url": "https://docs.re.xyz/ethena-icl/what-is-reusde"
+        },
+        {
+          "type": "Use Cases for the Re Protocol | Protocol",
+          "url": "https://docs.re.xyz/use-cases-for-the-re-protocol"
+        },
+        {
+          "type": "reUSDe FAQ | Protocol",
+          "url": "https://docs.re.xyz/ethena-icl/reusde-faq"
+        },
+        {
+          "type": "Smart Contract Addresses | Protocol",
+          "url": "https://docs.re.xyz/protocol/smart-contract-addresses"
+        },
+        {
+          "type": "Fee Splits for Cell Managers and Risk Pools | Protocol",
+          "url": "https://docs.re.xyz/protocol/fee-splits-for-cell-managers-and-risk-pools"
+        },
+        {
+          "type": "Redemption Process and Liquidity | Protocol",
+          "url": "https://docs.re.xyz/protocol/redemption-process-and-liquidity"
+        },
+        {
+          "type": "Integration with the DeFi Ecosystem | Protocol",
+          "url": "https://docs.re.xyz/integration-with-the-defi-ecosystem"
+        },
+        {
+          "type": "Cells, Cell Managers, and Risk Pools | Protocol",
+          "url": "https://docs.re.xyz/protocol/cells-cell-managers-and-risk-pools"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.re.xyz/cdn-cgi/l/email-protection"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "164bf23ac24a46553e4094da1c1144d6f03ecf75a0cc88eef97cb990a74f5250"
 }

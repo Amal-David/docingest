@@ -28,5 +28,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://api.rugcheck.xyz/swagger/index.html",
+      "canonicalSeedUrl": "https://api.rugcheck.xyz/swagger/index.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-14T18:03:57.698Z",
+      "completedAt": "2025-11-14T18:03:57.698Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://api.rugcheck.xyz/swagger/index.html",
+          "canonicalUrl": "https://api.rugcheck.xyz/swagger/index.html",
+          "status": "valid"
+        }
+      ],
+      "id": "2e3d343ad7f9b783c468049e693a08a5481232a3f5807721d478b8a3a892193a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4bb3968aa13ca6158820123838ce27b574f24a2e601662d80022d9168dbfde92",
+      "filename": "documentation_2025-11-14T18:03:57.698Z.md",
+      "contentHash": "1d6ad496060a24d2f9525528577097040abbd0a10fb8d9b2a58b9c37411b21a7",
+      "sourceUrl": "https://api.rugcheck.xyz/swagger/index.html",
+      "canonicalSourceUrl": "https://api.rugcheck.xyz/swagger/index.html",
+      "capturedAt": "2025-11-14T18:03:57.698Z",
+      "crawlRunId": "2e3d343ad7f9b783c468049e693a08a5481232a3f5807721d478b8a3a892193a",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Swagger UI",
+          "url": "https://api.rugcheck.xyz/swagger/index.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://api.rugcheck.xyz/swagger/doc.json"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4bb3968aa13ca6158820123838ce27b574f24a2e601662d80022d9168dbfde92"
 }

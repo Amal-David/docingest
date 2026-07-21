@@ -40,5 +40,83 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://molns-organization.gitbook.io/untitled",
+      "canonicalSeedUrl": "https://molns-organization.gitbook.io/untitled",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-23T12:47:19.248Z",
+      "completedAt": "2025-10-23T12:47:19.248Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://molns-organization.gitbook.io/untitled",
+          "canonicalUrl": "https://molns-organization.gitbook.io/untitled",
+          "status": "valid"
+        }
+      ],
+      "id": "880bcf7790d19861198ac14ca737c1e84857e9a153081d075b03f26510d1a4ca",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4d774b4ffbe75f087047cddb015e5cabebd9468b17cdf40b151666a4b1018f7c",
+      "filename": "documentation_2025-10-23T12:47:19.248Z.md",
+      "contentHash": "bd4e58f7ad8abb4a476a4f76b6bbf3e294502153b09445d27bec93c7ec7053fc",
+      "sourceUrl": "https://molns-organization.gitbook.io/untitled",
+      "canonicalSourceUrl": "https://molns-organization.gitbook.io/untitled",
+      "capturedAt": "2025-10-23T12:47:19.248Z",
+      "crawlRunId": "880bcf7790d19861198ac14ca737c1e84857e9a153081d075b03f26510d1a4ca",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "Page | Untitled",
+          "url": "https://molns-organization.gitbook.io/untitled"
+        },
+        {
+          "type": "Support | Untitled",
+          "url": "https://molns-organization.gitbook.io/untitled/group-1/support"
+        },
+        {
+          "type": "How are you | Untitled",
+          "url": "https://molns-organization.gitbook.io/untitled/how-are-you"
+        },
+        {
+          "type": "Page 1 | Untitled",
+          "url": "https://molns-organization.gitbook.io/untitled/group-1/page-1"
+        },
+        {
+          "type": "Page 1 | Untitled",
+          "url": "https://molns-organization.gitbook.io/untitled/group-1"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4d774b4ffbe75f087047cddb015e5cabebd9468b17cdf40b151666a4b1018f7c"
 }

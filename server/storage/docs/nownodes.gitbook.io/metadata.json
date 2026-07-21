@@ -46,5 +46,71 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://nownodes.gitbook.io",
+      "canonicalSeedUrl": "https://nownodes.gitbook.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-12T09:14:24.634Z",
+      "completedAt": "2026-04-12T09:14:24.634Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://nownodes.gitbook.io",
+          "canonicalUrl": "https://nownodes.gitbook.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "0af49fd0a993f9ad0440bb1a90d25c156d1c0988e92547cc950835ab25be03ff",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7fcdea1d586a8488814eb6d20cca004a482b0dde87eaae15b7c86889a06bfd13",
+      "filename": "documentation_2026-04-12T09:14:24.634Z.md",
+      "contentHash": "440c9d8792be95b014335b1b4379c7879a39a4cec230120e1792091e56e50ca5",
+      "sourceUrl": "https://nownodes.gitbook.io",
+      "canonicalSourceUrl": "https://nownodes.gitbook.io/",
+      "capturedAt": "2026-04-12T09:14:24.634Z",
+      "crawlRunId": "0af49fd0a993f9ad0440bb1a90d25c156d1c0988e92547cc950835ab25be03ff",
+      "upstreamVersion": "1.1.1",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Join GitBook - GitBook",
+          "url": "https://nownodes.gitbook.io"
+        },
+        {
+          "type": "Join GitBook - GitBook",
+          "url": "https://nownodes.gitbook.io/join"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7fcdea1d586a8488814eb6d20cca004a482b0dde87eaae15b7c86889a06bfd13"
 }

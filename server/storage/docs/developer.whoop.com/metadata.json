@@ -116,5 +116,159 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developer.whoop.com/docs/introduction",
+      "canonicalSeedUrl": "https://developer.whoop.com/docs/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-26T09:11:09.271Z",
+      "completedAt": "2026-01-26T09:11:09.271Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developer.whoop.com/docs/introduction",
+          "canonicalUrl": "https://developer.whoop.com/docs/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "61bfb06b1e1f0746196ecba5eb5eeb0bb1680cfbf573d291f994f9735b39e120",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e0c690fd3689bd8e9ae7b3123076372748f34bb5eb6e38c2a17253e89f945a01",
+      "filename": "documentation_2026-01-26T09:11:09.271Z.md",
+      "contentHash": "480bb4f98ed670abf5cfca68e40b0a11b6406387db719eb9b4e56fcc15778ac1",
+      "sourceUrl": "https://developer.whoop.com/docs/introduction",
+      "canonicalSourceUrl": "https://developer.whoop.com/docs/introduction",
+      "capturedAt": "2026-01-26T09:11:09.271Z",
+      "crawlRunId": "61bfb06b1e1f0746196ecba5eb5eeb0bb1680cfbf573d291f994f9735b39e120",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "WHOOP Developer Platform | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/introduction"
+        },
+        {
+          "type": "WHOOP 101 | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/whoop-101"
+        },
+        {
+          "type": "Overview | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/overview"
+        },
+        {
+          "type": "Getting Started | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/getting-started"
+        },
+        {
+          "type": "API Rate Limiting | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/rate-limiting"
+        },
+        {
+          "type": "Webhooks | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/webhooks/"
+        },
+        {
+          "type": "OAuth 2.0 | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/oauth"
+        },
+        {
+          "type": "Design Guidelines | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/design-guidelines"
+        },
+        {
+          "type": "Tutorials | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/tutorials/"
+        },
+        {
+          "type": "Authenticating with WHOOP (with Passport) | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/tutorials/access-token-passport"
+        },
+        {
+          "type": "Support | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/support"
+        },
+        {
+          "type": "Pagination | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/pagination"
+        },
+        {
+          "type": "Authenticating with WHOOP | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/tutorials/access-token-postman"
+        },
+        {
+          "type": "v1 to v2 Migration Guide | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/v1-v2-migration"
+        },
+        {
+          "type": "App Approval | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/app-approval"
+        },
+        {
+          "type": "Cycle | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/user-data/cycle"
+        },
+        {
+          "type": "API Changelog | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/api-changelog"
+        },
+        {
+          "type": "Get Current Recovery Score | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/tutorials/get-current-recovery-score"
+        },
+        {
+          "type": "Sleep | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/user-data/sleep"
+        },
+        {
+          "type": "Recovery | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/user-data/recovery"
+        },
+        {
+          "type": "Refreshing Access Tokens | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/tutorials/refresh-token-postman"
+        },
+        {
+          "type": "Refreshing Access Tokens | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/tutorials/refresh-token-javascript"
+        },
+        {
+          "type": "Workout | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/user-data/workout"
+        },
+        {
+          "type": "User | WHOOP for Developers",
+          "url": "https://developer.whoop.com/docs/developing/user-data/user"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e0c690fd3689bd8e9ae7b3123076372748f34bb5eb6e38c2a17253e89f945a01"
 }

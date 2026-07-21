@@ -88,5 +88,131 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://probot.github.io/docs/*",
+      "canonicalSeedUrl": "https://probot.github.io/docs/*",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-11T18:23:38.963Z",
+      "completedAt": "2026-03-11T18:23:38.963Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://probot.github.io/docs/*",
+          "canonicalUrl": "https://probot.github.io/docs/*",
+          "status": "valid"
+        }
+      ],
+      "id": "79417d1e169fbde34ad32b3443007505067d3005d431f18b3733c90b0bac12e8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0679e79375f9333659f16eae4c995691a577ffba8aa06b1bc805c4fc00893978",
+      "filename": "documentation_2026-03-11T18:23:38.963Z.md",
+      "contentHash": "aa89ab21ead33c8b3e1f088a0a4a127f65511ae5218fd5cee348f9eac5744e01",
+      "sourceUrl": "https://probot.github.io/docs/*",
+      "canonicalSourceUrl": "https://probot.github.io/docs/*",
+      "capturedAt": "2026-03-11T18:23:38.963Z",
+      "crawlRunId": "79417d1e169fbde34ad32b3443007505067d3005d431f18b3733c90b0bac12e8",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/*"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/hello-world"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/README"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/development"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/webhooks"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/configuration"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/testing"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/github-api"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/simulating-webhooks"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/logging"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/pagination"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/deployment"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/http"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/extensions"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/persistence"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://probot.github.io/docs/best-practices"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0679e79375f9333659f16eae4c995691a577ffba8aa06b1bc805c4fc00893978"
 }

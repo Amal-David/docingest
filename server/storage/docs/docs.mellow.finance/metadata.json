@@ -88,5 +88,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.mellow.finance/",
+      "canonicalSeedUrl": "https://docs.mellow.finance/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-08T01:55:44.519Z",
+      "completedAt": "2025-12-08T01:55:44.519Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.mellow.finance/",
+          "canonicalUrl": "https://docs.mellow.finance/",
+          "status": "valid"
+        }
+      ],
+      "id": "31d1db0d5f376d543dcf680623a3e0bfe22761d470bfaa6b37fe2abcfc2cb928",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "73d07c39fe53b7a5c1c33b5ba199bec53ec077fa0b5f1c9d2d866168053140c0",
+      "filename": "documentation_2025-12-08T01:55:44.519Z.md",
+      "contentHash": "62a1c1be022e132e4babec9f26dce4d2570aed07ecd3825d72aecf0a7aaadc8c",
+      "sourceUrl": "https://docs.mellow.finance/",
+      "canonicalSourceUrl": "https://docs.mellow.finance/",
+      "capturedAt": "2025-12-08T01:55:44.519Z",
+      "crawlRunId": "31d1db0d5f376d543dcf680623a3e0bfe22761d470bfaa6b37fe2abcfc2cb928",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Welcome to Mellow | Mellow Protocol",
+          "url": "https://docs.mellow.finance/"
+        },
+        {
+          "type": "Security | Mellow Protocol",
+          "url": "https://docs.mellow.finance/security"
+        },
+        {
+          "type": "VerifierModule | Mellow Protocol",
+          "url": "https://docs.mellow.finance/core-vaults/architecture/modules/verifiermodule"
+        },
+        {
+          "type": "Protocols | Mellow Protocol",
+          "url": "https://docs.mellow.finance/core-vaults/architecture/permissions/protocols"
+        },
+        {
+          "type": "Consensus | Mellow Protocol",
+          "url": "https://docs.mellow.finance/core-vaults/architecture/permissions/consensus"
+        },
+        {
+          "type": "Permissions | Mellow Protocol",
+          "url": "https://docs.mellow.finance/core-vaults/architecture/permissions"
+        },
+        {
+          "type": "BasicRedeemHook | Mellow Protocol",
+          "url": "https://docs.mellow.finance/core-vaults/architecture/hooks/basicredeemhook"
+        },
+        {
+          "type": "TransferLibrary | Mellow Protocol",
+          "url": "https://docs.mellow.finance/core-vaults/architecture/libraries/transferlibrary"
+        },
+        {
+          "type": "TokenizedShareManager | Mellow Protocol",
+          "url": "https://docs.mellow.finance/core-vaults/architecture/managers/tokenizedsharemanager"
+        },
+        {
+          "type": "VaultConfigurator | Mellow Protocol",
+          "url": "https://docs.mellow.finance/core-vaults/architecture/vaults/vaultconfigurator"
+        },
+        {
+          "type": "Overview | Mellow Protocol",
+          "url": "https://docs.mellow.finance/dvsteth-vault/overview"
+        },
+        {
+          "type": "Architecture | Mellow Protocol",
+          "url": "https://docs.mellow.finance/multivault/architecture"
+        },
+        {
+          "type": "Multi Deployments | Mellow Protocol",
+          "url": "https://docs.mellow.finance/multi-deployments"
+        },
+        {
+          "type": "Tutorials | Mellow Protocol",
+          "url": "https://docs.mellow.finance/mellow-alm/mellow-permissionless-vaults/tutorials"
+        },
+        {
+          "type": "Tamper Strategy | Mellow Protocol",
+          "url": "https://docs.mellow.finance/mellow-alm/mellow-permissionless-vaults/mellow-contracts-addresses/lstrategy"
+        },
+        {
+          "type": "Strategies | Mellow Protocol",
+          "url": "https://docs.mellow.finance/resources/mellow-lrt-depreciated/strategies"
+        },
+        {
+          "type": "ManagedRatiosOracle | Mellow Protocol",
+          "url": "https://docs.mellow.finance/resources/mellow-lrt-depreciated/oracles/managedratiosoracle"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "73d07c39fe53b7a5c1c33b5ba199bec53ec077fa0b5f1c9d2d866168053140c0"
 }

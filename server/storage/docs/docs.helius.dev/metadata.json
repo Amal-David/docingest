@@ -114,5 +114,139 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.helius.dev/rpc/http",
+      "canonicalSeedUrl": "https://docs.helius.dev/rpc/http",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-06T13:58:35.410Z",
+      "completedAt": "2025-04-06T13:58:35.410Z",
+      "providerTotals": {
+        "discovered": 19,
+        "returned": 19,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.helius.dev/rpc/http",
+          "canonicalUrl": "https://docs.helius.dev/rpc/http",
+          "status": "valid"
+        }
+      ],
+      "id": "9eb34d75d4ea65fda106a218fe5e2375c4e0e329fa189142294ca90336cf49b5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e8b56788b11a84b4c738d6e0d71de1995d35679448898c7d3c7018b06e0855c8",
+      "filename": "documentation_2025-04-06T13:58:35.410Z.md",
+      "contentHash": "0ddd185e2d381a14d5d906d3322a4746f6a43ada0d234793d44aac0b3a956428",
+      "sourceUrl": "https://docs.helius.dev/rpc/http",
+      "canonicalSourceUrl": "https://docs.helius.dev/rpc/http",
+      "capturedAt": "2025-04-06T13:58:35.410Z",
+      "crawlRunId": "9eb34d75d4ea65fda106a218fe5e2375c4e0e329fa189142294ca90336cf49b5",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 19,
+      "successfulPages": 19,
+      "structure": [
+        {
+          "type": "HTTP | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http"
+        },
+        {
+          "type": "getBalance | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getbalance"
+        },
+        {
+          "type": "getAccountInfo | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getaccountinfo"
+        },
+        {
+          "type": "getBlockCommitment | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getblockcommitment"
+        },
+        {
+          "type": "getBlock | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getblock"
+        },
+        {
+          "type": "getClusterNodes | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getclusternodes"
+        },
+        {
+          "type": "getBlockHeight | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getblockheight"
+        },
+        {
+          "type": "getBlocks | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getblocks"
+        },
+        {
+          "type": "getBlockProduction | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getblockproduction"
+        },
+        {
+          "type": "getBlockTime | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getblocktime"
+        },
+        {
+          "type": "getBlocksWithLimit | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getblockswithlimit"
+        },
+        {
+          "type": "getEpochInfo | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getepochinfo"
+        },
+        {
+          "type": "getFirstAvailableBlock | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getfirstavailableblock"
+        },
+        {
+          "type": "getFeeForMessage | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getfeeformessage"
+        },
+        {
+          "type": "getHealth | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/gethealth"
+        },
+        {
+          "type": "getEpochSchedule | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getepochschedule"
+        },
+        {
+          "type": "getGenesisHash | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getgenesishash"
+        },
+        {
+          "type": "getInflationGovernor | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getinflationgovernor"
+        },
+        {
+          "type": "getInflationRate | Helius Docs",
+          "url": "https://docs.helius.dev/rpc/http/getinflationrate"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e8b56788b11a84b4c738d6e0d71de1995d35679448898c7d3c7018b06e0855c8"
 }

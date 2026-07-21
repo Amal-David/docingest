@@ -112,5 +112,155 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.mobyscreener.com/",
+      "canonicalSeedUrl": "https://docs.mobyscreener.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-03T20:22:57.205Z",
+      "completedAt": "2025-12-03T20:22:57.205Z",
+      "providerTotals": {
+        "discovered": 23,
+        "returned": 23,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.mobyscreener.com/",
+          "canonicalUrl": "https://docs.mobyscreener.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "46b72ab18673a5a61bc014b59b23c261350da049109cec145e43cb943fa7c604",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a8139f552aeb1d52102e2e166b3d472088265828c5f5175a6f783e53f9ac8f4e",
+      "filename": "documentation_2025-12-03T20:22:57.205Z.md",
+      "contentHash": "02be8e3431558bc3b1b5f7955bcf571cc3ef569f9b3603990764755efcf8b9ba",
+      "sourceUrl": "https://docs.mobyscreener.com/",
+      "canonicalSourceUrl": "https://docs.mobyscreener.com/",
+      "capturedAt": "2025-12-03T20:22:57.205Z",
+      "crawlRunId": "46b72ab18673a5a61bc014b59b23c261350da049109cec145e43cb943fa7c604",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 23,
+      "successfulPages": 23,
+      "structure": [
+        {
+          "type": "Welcome to Moby | Moby Docs",
+          "url": "https://docs.mobyscreener.com/"
+        },
+        {
+          "type": "Sign Up | Moby Docs",
+          "url": "https://docs.mobyscreener.com/getting-started/quickstart"
+        },
+        {
+          "type": "Referral Program | Moby Docs",
+          "url": "https://docs.mobyscreener.com/getting-started/rewards-program/publish-your-docs"
+        },
+        {
+          "type": "Fees | Moby Docs",
+          "url": "https://docs.mobyscreener.com/getting-started/fees"
+        },
+        {
+          "type": "Rewards Program | Moby Docs",
+          "url": "https://docs.mobyscreener.com/getting-started/rewards-program"
+        },
+        {
+          "type": "Airdrop Codes | Moby Docs",
+          "url": "https://docs.mobyscreener.com/getting-started/rewards-program/airdrop-codes"
+        },
+        {
+          "type": "Cash Back Program | Moby Docs",
+          "url": "https://docs.mobyscreener.com/getting-started/rewards-program/cash-back-program"
+        },
+        {
+          "type": "$MOBY | Moby Docs",
+          "url": "https://docs.mobyscreener.com/getting-started/usdmoby"
+        },
+        {
+          "type": "Track Your Rewards | Moby Docs",
+          "url": "https://docs.mobyscreener.com/moby-app/integrations"
+        },
+        {
+          "type": "Discovery | Moby Docs",
+          "url": "https://docs.mobyscreener.com/moby-app/markdown"
+        },
+        {
+          "type": "Fund Account To Start Trading | Moby Docs",
+          "url": "https://docs.mobyscreener.com/moby-app/editor"
+        },
+        {
+          "type": "Account | Moby Docs",
+          "url": "https://docs.mobyscreener.com/moby-app/interactive-blocks"
+        },
+        {
+          "type": "Notifications | Moby Docs",
+          "url": "https://docs.mobyscreener.com/moby-app/notifications"
+        },
+        {
+          "type": "Trade | Moby Docs",
+          "url": "https://docs.mobyscreener.com/moby-app/images-and-media"
+        },
+        {
+          "type": "Account | Moby Docs",
+          "url": "https://docs.mobyscreener.com/mobyscreener/account"
+        },
+        {
+          "type": "Trade | Moby Docs",
+          "url": "https://docs.mobyscreener.com/mobyscreener/trade"
+        },
+        {
+          "type": "Settings | Moby Docs",
+          "url": "https://docs.mobyscreener.com/moby-app/settings"
+        },
+        {
+          "type": "Fund Account To Start Trading | Moby Docs",
+          "url": "https://docs.mobyscreener.com/mobyscreener/fund-account-to-start-trading"
+        },
+        {
+          "type": "Track Your Rewards | Moby Docs",
+          "url": "https://docs.mobyscreener.com/mobyscreener/track-your-rewards"
+        },
+        {
+          "type": "Discovery | Moby Docs",
+          "url": "https://docs.mobyscreener.com/mobyscreener/discovery"
+        },
+        {
+          "type": "Terms | Moby Docs",
+          "url": "https://docs.mobyscreener.com/terms"
+        },
+        {
+          "type": "Privacy Policy | Moby Docs",
+          "url": "https://docs.mobyscreener.com/privacy-policy"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.mobyscreener.com/cdn-cgi/l/email-protection"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a8139f552aeb1d52102e2e166b3d472088265828c5f5175a6f783e53f9ac8f4e"
 }

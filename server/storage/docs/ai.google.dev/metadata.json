@@ -72,5 +72,79 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
+      "canonicalSeedUrl": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-13T13:34:27.145Z",
+      "completedAt": "2026-01-13T13:34:27.145Z",
+      "providerTotals": {
+        "discovered": 4,
+        "returned": 4,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
+          "canonicalUrl": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
+          "status": "valid"
+        }
+      ],
+      "id": "8996b61c7b3185ecf540c0241ea284a22f684016d802ef47a326f07c5831bea1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e76285a357a4242fff9a3739acbb180ebb0f0a633a81a4f1bf8ecb0e2e8e5c27",
+      "filename": "documentation_2026-01-13T13:34:27.145Z.md",
+      "contentHash": "06cb745869a2fa517e96208e40bc34b8d64b27a161edb8adebdf541d86504d1c",
+      "sourceUrl": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
+      "canonicalSourceUrl": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
+      "capturedAt": "2026-01-13T13:34:27.145Z",
+      "crawlRunId": "8996b61c7b3185ecf540c0241ea284a22f684016d802ef47a326f07c5831bea1",
+      "upstreamVersion": "1.4.0",
+      "upstreamChannel": "latest",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "Gemini API  |  Google AI for Developers",
+          "url": "https://ai.google.dev/gemini-api/docs/gemini-for-research"
+        },
+        {
+          "type": "Gemini API  |  Google AI for Developers",
+          "url": "https://ai.google.dev/gemini-api/docs"
+        },
+        {
+          "type": "إنشاء صور باستخدام Imagen  |  Gemini API  |  Google AI for Developers",
+          "url": "https://ai.google.dev/gemini-api/docs/imagen"
+        },
+        {
+          "type": "Membuat video dengan Veo 3.1 di Gemini API  |  Google AI for Developers",
+          "url": "https://ai.google.dev/gemini-api/docs/video"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e76285a357a4242fff9a3739acbb180ebb0f0a633a81a4f1bf8ecb0e2e8e5c27"
 }

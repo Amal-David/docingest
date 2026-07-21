@@ -112,5 +112,155 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.auroramc.gg/auroracrafting/configuration",
+      "canonicalSeedUrl": "https://docs.auroramc.gg/auroracrafting/configuration",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-27T22:49:51.433Z",
+      "completedAt": "2025-01-27T22:49:51.433Z",
+      "providerTotals": {
+        "discovered": 23,
+        "returned": 23,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.auroramc.gg/auroracrafting/configuration",
+          "canonicalUrl": "https://docs.auroramc.gg/auroracrafting/configuration",
+          "status": "valid"
+        }
+      ],
+      "id": "864403e8aa5e24f72934f66aee835bc47d3ea045db10c010bb9e2556413ddd82",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "06da0d3ca8b25efaaa90b7b38f57bc32717fa54a14dd666f334d0ca8105e212f",
+      "filename": "documentation_2025-01-27T22:49:51.433Z.md",
+      "contentHash": "69c14a6b9cac5009aa97981261f5808ad53c7372d34c0e4cc2c1dba8d0316759",
+      "sourceUrl": "https://docs.auroramc.gg/auroracrafting/configuration",
+      "canonicalSourceUrl": "https://docs.auroramc.gg/auroracrafting/configuration",
+      "capturedAt": "2025-01-27T22:49:51.433Z",
+      "crawlRunId": "864403e8aa5e24f72934f66aee835bc47d3ea045db10c010bb9e2556413ddd82",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 23,
+      "successfulPages": 23,
+      "structure": [
+        {
+          "type": "Configuration | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting/configuration"
+        },
+        {
+          "type": "Main config | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting/configuration/main-config"
+        },
+        {
+          "type": "Smithing recipe config | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting/configuration/smithing-recipe-config"
+        },
+        {
+          "type": "Cooking recipe config | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting/configuration/cooking-recipe-config"
+        },
+        {
+          "type": "Merchant config | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting/configuration/merchant-config"
+        },
+        {
+          "type": "Workbench config | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting/menu-configurations/workbench-config"
+        },
+        {
+          "type": "Commands | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting/commands"
+        },
+        {
+          "type": "Other menu configs | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting/menu-configurations/other-menu-configs"
+        },
+        {
+          "type": "Compatible plugins | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting/compatible-plugins"
+        },
+        {
+          "type": "Recipe config | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting/configuration/recipe-config"
+        },
+        {
+          "type": "Permissions | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting/permissions"
+        },
+        {
+          "type": "Recipe book config | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting/configuration/recipe-book-config"
+        },
+        {
+          "type": "Menu configurations | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting/menu-configurations"
+        },
+        {
+          "type": "AuroraCrafting | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting"
+        },
+        {
+          "type": "API | AuroraCrafting",
+          "url": "https://docs.auroramc.gg/auroracrafting/api"
+        },
+        {
+          "type": "Item config | Aurora",
+          "url": "https://docs.auroramc.gg/aurora/item-config"
+        },
+        {
+          "type": "Aurora | Aurora",
+          "url": "https://docs.auroramc.gg/aurora"
+        },
+        {
+          "type": "Commands | Aurora",
+          "url": "https://docs.auroramc.gg/aurora/commands"
+        },
+        {
+          "type": "Command dispatcher | Aurora",
+          "url": "https://docs.auroramc.gg/aurora/command-dispatcher"
+        },
+        {
+          "type": "Requirements | Aurora",
+          "url": "https://docs.auroramc.gg/aurora/custom-menus/requirements"
+        },
+        {
+          "type": "Main config | Aurora",
+          "url": "https://docs.auroramc.gg/aurora/main-config"
+        },
+        {
+          "type": "Item stash | Aurora",
+          "url": "https://docs.auroramc.gg/aurora/item-stash"
+        },
+        {
+          "type": "Custom Menus | Aurora",
+          "url": "https://docs.auroramc.gg/aurora/custom-menus"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "06da0d3ca8b25efaaa90b7b38f57bc32717fa54a14dd666f334d0ca8105e212f"
 }

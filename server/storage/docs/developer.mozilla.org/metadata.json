@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+      "canonicalSeedUrl": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-01T23:05:02.595Z",
+      "completedAt": "2025-03-01T23:05:02.595Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+          "canonicalUrl": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+          "status": "valid"
+        }
+      ],
+      "id": "4e8af8668cc4f4acedc33b0c767bb31979003c2b01fb901cf7143b42d62a5300",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d5be1df4ae1f0f173d792f92d0c4fe42a3ec764ba5fa6c2deca81dd147386bca",
+      "filename": "documentation_2025-03-01T23:05:02.595Z.md",
+      "contentHash": "caf3bbed976e8effc60c4aacd264e9b7a4f060e8d079de51d5382228756b740c",
+      "sourceUrl": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+      "canonicalSourceUrl": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+      "capturedAt": "2025-03-01T23:05:02.595Z",
+      "crawlRunId": "4e8af8668cc4f4acedc33b0c767bb31979003c2b01fb901cf7143b42d62a5300",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Document Object Model (DOM) - Web APIs | MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d5be1df4ae1f0f173d792f92d0c4fe42a3ec764ba5fa6c2deca81dd147386bca"
 }

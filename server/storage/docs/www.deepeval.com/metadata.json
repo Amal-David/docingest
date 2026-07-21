@@ -1,1 +1,285 @@
-{"url":"https://www.deepeval.com/docs/evaluation-datasets","domain":"www.deepeval.com","lastScraped":"2025-04-22T23:16:22.031Z","totalPages":25,"successfulPages":25,"failedPages":[],"structure":[{"type":"Datasets | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/evaluation-datasets"},{"type":"Quick Introduction | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/getting-started"},{"type":"Introduction | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/evaluation-introduction"},{"type":"Test Cases | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/evaluation-test-cases"},{"type":"Introduction | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/synthesizer-introduction"},{"type":"Conversation Simulator | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/evaluation-conversation-simulator"},{"type":"G-Eval | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-llm-evals"},{"type":"Introduction | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-introduction"},{"type":"Faithfulness | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-faithfulness"},{"type":"DAG (Deep Acyclic Graph) | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-dag"},{"type":"Contextual Precision | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-contextual-precision"},{"type":"Answer Relevancy | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-answer-relevancy"},{"type":"Contextual Recall | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-contextual-recall"},{"type":"Task Completion | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-task-completion"},{"type":"Conversational G-Eval | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-conversational-g-eval"},{"type":"Role Adherence | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-role-adherence"},{"type":"Contextual Relevancy | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-contextual-relevancy"},{"type":"Conversation Completeness | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-conversation-completeness"},{"type":"Conversation Relevancy | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-conversation-relevancy"},{"type":"Knowledge Retention | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-knowledge-retention"},{"type":"Tool Correctness | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-tool-correctness"},{"type":"Toxicity | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-toxicity"},{"type":"Bias | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-bias"},{"type":"Prompt Alignment | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-prompt-alignment"},{"type":"Summarization | DeepEval - The Open-Source LLM Evaluation Framework","url":"https://www.deepeval.com/docs/metrics-summarization"}]}
+{
+  "url": "https://www.deepeval.com/docs/evaluation-datasets",
+  "domain": "www.deepeval.com",
+  "lastScraped": "2025-04-22T23:16:22.031Z",
+  "totalPages": 25,
+  "successfulPages": 25,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Datasets | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/evaluation-datasets"
+    },
+    {
+      "type": "Quick Introduction | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/getting-started"
+    },
+    {
+      "type": "Introduction | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/evaluation-introduction"
+    },
+    {
+      "type": "Test Cases | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/evaluation-test-cases"
+    },
+    {
+      "type": "Introduction | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/synthesizer-introduction"
+    },
+    {
+      "type": "Conversation Simulator | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/evaluation-conversation-simulator"
+    },
+    {
+      "type": "G-Eval | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-llm-evals"
+    },
+    {
+      "type": "Introduction | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-introduction"
+    },
+    {
+      "type": "Faithfulness | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-faithfulness"
+    },
+    {
+      "type": "DAG (Deep Acyclic Graph) | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-dag"
+    },
+    {
+      "type": "Contextual Precision | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-contextual-precision"
+    },
+    {
+      "type": "Answer Relevancy | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-answer-relevancy"
+    },
+    {
+      "type": "Contextual Recall | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-contextual-recall"
+    },
+    {
+      "type": "Task Completion | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-task-completion"
+    },
+    {
+      "type": "Conversational G-Eval | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-conversational-g-eval"
+    },
+    {
+      "type": "Role Adherence | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-role-adherence"
+    },
+    {
+      "type": "Contextual Relevancy | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-contextual-relevancy"
+    },
+    {
+      "type": "Conversation Completeness | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-conversation-completeness"
+    },
+    {
+      "type": "Conversation Relevancy | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-conversation-relevancy"
+    },
+    {
+      "type": "Knowledge Retention | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-knowledge-retention"
+    },
+    {
+      "type": "Tool Correctness | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-tool-correctness"
+    },
+    {
+      "type": "Toxicity | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-toxicity"
+    },
+    {
+      "type": "Bias | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-bias"
+    },
+    {
+      "type": "Prompt Alignment | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-prompt-alignment"
+    },
+    {
+      "type": "Summarization | DeepEval - The Open-Source LLM Evaluation Framework",
+      "url": "https://www.deepeval.com/docs/metrics-summarization"
+    }
+  ],
+  "latestVersion": "legacy",
+  "versions": [
+    {
+      "version": "legacy",
+      "label": "legacy",
+      "timestamp": "2025-04-22T23:16:22.031Z",
+      "filename": "documentation_2025-04-22T23:16:22.031Z.md",
+      "totalPages": 25,
+      "successfulPages": 25,
+      "url": "https://www.deepeval.com/docs/evaluation-datasets",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "legacyDocumentFiles": [
+    "documentation_2025-04-22T22:38:12.834Z.md",
+    "documentation_2025-04-22T23:16:22.031Z.md"
+  ],
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.deepeval.com/docs/evaluation-datasets",
+      "canonicalSeedUrl": "https://www.deepeval.com/docs/evaluation-datasets",
+      "configuration": {
+        "sourceSchemaVersion": 1
+      },
+      "startedAt": "2025-04-22T23:16:22.031Z",
+      "completedAt": "2025-04-22T23:16:22.031Z",
+      "providerTotals": {
+        "discovered": 25,
+        "returned": 25,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.deepeval.com/docs/evaluation-datasets",
+          "canonicalUrl": "https://www.deepeval.com/docs/evaluation-datasets",
+          "status": "valid"
+        }
+      ],
+      "id": "5ad216aca14b43f358fb6fa5a1ae534e466395450b621ba2422d104ca24d4e52",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "13c7ba7947768a2eefc75c10512f369f5b1b75286bceb6116632589201630b0d",
+      "filename": "documentation_2025-04-22T23:16:22.031Z.md",
+      "contentHash": "6ac6cde82d4aed9c3d0f30f4604a711ba70b64062ce52705fc3046f46d53e03a",
+      "sourceUrl": "https://www.deepeval.com/docs/evaluation-datasets",
+      "canonicalSourceUrl": "https://www.deepeval.com/docs/evaluation-datasets",
+      "capturedAt": "2025-04-22T23:16:22.031Z",
+      "crawlRunId": "5ad216aca14b43f358fb6fa5a1ae534e466395450b621ba2422d104ca24d4e52",
+      "upstreamChannel": "legacy",
+      "totalPages": 25,
+      "successfulPages": 25,
+      "structure": [
+        {
+          "type": "Datasets | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/evaluation-datasets"
+        },
+        {
+          "type": "Quick Introduction | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/getting-started"
+        },
+        {
+          "type": "Introduction | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/evaluation-introduction"
+        },
+        {
+          "type": "Test Cases | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/evaluation-test-cases"
+        },
+        {
+          "type": "Introduction | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/synthesizer-introduction"
+        },
+        {
+          "type": "Conversation Simulator | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/evaluation-conversation-simulator"
+        },
+        {
+          "type": "G-Eval | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-llm-evals"
+        },
+        {
+          "type": "Introduction | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-introduction"
+        },
+        {
+          "type": "Faithfulness | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-faithfulness"
+        },
+        {
+          "type": "DAG (Deep Acyclic Graph) | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-dag"
+        },
+        {
+          "type": "Contextual Precision | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-contextual-precision"
+        },
+        {
+          "type": "Answer Relevancy | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-answer-relevancy"
+        },
+        {
+          "type": "Contextual Recall | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-contextual-recall"
+        },
+        {
+          "type": "Task Completion | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-task-completion"
+        },
+        {
+          "type": "Conversational G-Eval | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-conversational-g-eval"
+        },
+        {
+          "type": "Role Adherence | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-role-adherence"
+        },
+        {
+          "type": "Contextual Relevancy | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-contextual-relevancy"
+        },
+        {
+          "type": "Conversation Completeness | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-conversation-completeness"
+        },
+        {
+          "type": "Conversation Relevancy | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-conversation-relevancy"
+        },
+        {
+          "type": "Knowledge Retention | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-knowledge-retention"
+        },
+        {
+          "type": "Tool Correctness | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-tool-correctness"
+        },
+        {
+          "type": "Toxicity | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-toxicity"
+        },
+        {
+          "type": "Bias | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-bias"
+        },
+        {
+          "type": "Prompt Alignment | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-prompt-alignment"
+        },
+        {
+          "type": "Summarization | DeepEval - The Open-Source LLM Evaluation Framework",
+          "url": "https://www.deepeval.com/docs/metrics-summarization"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "13c7ba7947768a2eefc75c10512f369f5b1b75286bceb6116632589201630b0d"
+}

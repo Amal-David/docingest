@@ -188,5 +188,231 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://ponder.sh/docs/advanced/telemetry",
+      "canonicalSeedUrl": "https://ponder.sh/docs/advanced/telemetry",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-16T05:12:57.571Z",
+      "completedAt": "2026-02-16T05:12:57.571Z",
+      "providerTotals": {
+        "discovered": 42,
+        "returned": 42,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://ponder.sh/docs/advanced/telemetry",
+          "canonicalUrl": "https://ponder.sh/docs/advanced/telemetry",
+          "status": "valid"
+        }
+      ],
+      "id": "66a4e75a08af09559b7d194dccc6989914a0d9d619aa380eeca396059d00314e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5021edc3519607a36266c12e70e1dc5b768a689d08b43b818b21b04dc87485e3",
+      "filename": "documentation_2026-02-16T05:12:57.571Z.md",
+      "contentHash": "62afcc322139b8f9ea779b1dc34b75e3e27f9746efa9fa1109b021827c067d3a",
+      "sourceUrl": "https://ponder.sh/docs/advanced/telemetry",
+      "canonicalSourceUrl": "https://ponder.sh/docs/advanced/telemetry",
+      "capturedAt": "2026-02-16T05:12:57.571Z",
+      "crawlRunId": "66a4e75a08af09559b7d194dccc6989914a0d9d619aa380eeca396059d00314e",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 42,
+      "successfulPages": 42,
+      "structure": [
+        {
+          "type": "Telemetry – Ponder",
+          "url": "https://ponder.sh/docs/advanced/telemetry"
+        },
+        {
+          "type": "Get started – Ponder",
+          "url": "https://ponder.sh/docs/get-started"
+        },
+        {
+          "type": "Why Ponder",
+          "url": "https://ponder.sh/docs/why-ponder"
+        },
+        {
+          "type": "Database – Ponder",
+          "url": "https://ponder.sh/docs/database"
+        },
+        {
+          "type": "Requirements – Ponder",
+          "url": "https://ponder.sh/docs/requirements"
+        },
+        {
+          "type": "Chains – Ponder",
+          "url": "https://ponder.sh/docs/config/chains"
+        },
+        {
+          "type": "Migration guide – Ponder",
+          "url": "https://ponder.sh/docs/migration-guide"
+        },
+        {
+          "type": "Accounts – Ponder",
+          "url": "https://ponder.sh/docs/config/accounts"
+        },
+        {
+          "type": "Contracts – Ponder",
+          "url": "https://ponder.sh/docs/config/contracts"
+        },
+        {
+          "type": "Block intervals – Ponder",
+          "url": "https://ponder.sh/docs/config/block-intervals"
+        },
+        {
+          "type": "Indexing – Ponder",
+          "url": "https://ponder.sh/docs/indexing/overview"
+        },
+        {
+          "type": "Write to the database – Ponder",
+          "url": "https://ponder.sh/docs/indexing/write"
+        },
+        {
+          "type": "Read contract data – Ponder",
+          "url": "https://ponder.sh/docs/indexing/read-contracts"
+        },
+        {
+          "type": "SQL over HTTP – Ponder",
+          "url": "https://ponder.sh/docs/query/sql-over-http"
+        },
+        {
+          "type": "API endpoints – Ponder",
+          "url": "https://ponder.sh/docs/query/api-endpoints"
+        },
+        {
+          "type": "GraphQL – Ponder",
+          "url": "https://ponder.sh/docs/query/graphql"
+        },
+        {
+          "type": "Direct SQL – Ponder",
+          "url": "https://ponder.sh/docs/query/direct-sql"
+        },
+        {
+          "type": "Deploy on Marble – Ponder",
+          "url": "https://ponder.sh/docs/production/marble"
+        },
+        {
+          "type": "Deploy on Railway – Ponder",
+          "url": "https://ponder.sh/docs/production/railway"
+        },
+        {
+          "type": "Self-hosting – Ponder",
+          "url": "https://ponder.sh/docs/production/self-hosting"
+        },
+        {
+          "type": "Factory pattern – Ponder",
+          "url": "https://ponder.sh/docs/guides/factory"
+        },
+        {
+          "type": "Isolated indexing – Ponder",
+          "url": "https://ponder.sh/docs/guides/isolated-indexing"
+        },
+        {
+          "type": "Call traces – Ponder",
+          "url": "https://ponder.sh/docs/guides/call-traces"
+        },
+        {
+          "type": "Transaction receipts – Ponder",
+          "url": "https://ponder.sh/docs/guides/receipts"
+        },
+        {
+          "type": "Offchain data – Ponder",
+          "url": "https://ponder.sh/docs/guides/offchain-data"
+        },
+        {
+          "type": "Foundry – Ponder",
+          "url": "https://ponder.sh/docs/guides/foundry"
+        },
+        {
+          "type": "Time-series data – Ponder",
+          "url": "https://ponder.sh/docs/guides/time-series"
+        },
+        {
+          "type": "Custom views – Ponder",
+          "url": "https://ponder.sh/docs/schema/views"
+        },
+        {
+          "type": "Relations – Ponder",
+          "url": "https://ponder.sh/docs/schema/relations"
+        },
+        {
+          "type": "create-ponder – Ponder",
+          "url": "https://ponder.sh/docs/api-reference/create-ponder"
+        },
+        {
+          "type": "Bun – Ponder",
+          "url": "https://ponder.sh/docs/guides/bun"
+        },
+        {
+          "type": "ponder.config.ts – Ponder",
+          "url": "https://ponder.sh/docs/api-reference/ponder/config"
+        },
+        {
+          "type": "ponder – Ponder",
+          "url": "https://ponder.sh/docs/api-reference/ponder/cli"
+        },
+        {
+          "type": "Database reference – Ponder",
+          "url": "https://ponder.sh/docs/api-reference/ponder/database"
+        },
+        {
+          "type": "Tables – Ponder",
+          "url": "https://ponder.sh/docs/schema/tables"
+        },
+        {
+          "type": "ponder.schema.ts – Ponder",
+          "url": "https://ponder.sh/docs/api-reference/ponder/schema"
+        },
+        {
+          "type": "Indexing functions – Ponder",
+          "url": "https://ponder.sh/docs/api-reference/ponder/indexing-functions"
+        },
+        {
+          "type": "@ponder/client – Ponder",
+          "url": "https://ponder.sh/docs/api-reference/ponder-client"
+        },
+        {
+          "type": "API endpoints – Ponder",
+          "url": "https://ponder.sh/docs/api-reference/ponder/api-endpoints"
+        },
+        {
+          "type": "@ponder/react – Ponder",
+          "url": "https://ponder.sh/docs/api-reference/ponder-react"
+        },
+        {
+          "type": "@ponder/utils – Ponder",
+          "url": "https://ponder.sh/docs/api-reference/ponder-utils"
+        },
+        {
+          "type": "Observability – Ponder",
+          "url": "https://ponder.sh/docs/advanced/observability"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5021edc3519607a36266c12e70e1dc5b768a689d08b43b818b21b04dc87485e3"
 }

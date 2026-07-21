@@ -80,5 +80,123 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.tbi.univie.ac.at/RNA/documentation.html",
+      "canonicalSeedUrl": "https://www.tbi.univie.ac.at/RNA/documentation.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-31T00:40:55.132Z",
+      "completedAt": "2025-10-31T00:40:55.132Z",
+      "providerTotals": {
+        "discovered": 15,
+        "returned": 15,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.tbi.univie.ac.at/RNA/documentation.html",
+          "canonicalUrl": "https://www.tbi.univie.ac.at/RNA/documentation.html",
+          "status": "valid"
+        }
+      ],
+      "id": "d8928a21a84ac9c318cb5445ce9951c8367b842635d6a0fad27e0ecce7730f89",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "bb16cf820ce5e82bc40df90d5c63430c9c125906a3e3daa43298cb5664e19f55",
+      "filename": "documentation_2025-10-31T00:40:55.132Z.md",
+      "contentHash": "574820619a541c1939918484d755124bc1c4c5608de4c362c6081262c6c7f50f",
+      "sourceUrl": "https://www.tbi.univie.ac.at/RNA/documentation.html",
+      "canonicalSourceUrl": "https://www.tbi.univie.ac.at/RNA/documentation.html",
+      "capturedAt": "2025-10-31T00:40:55.132Z",
+      "crawlRunId": "d8928a21a84ac9c318cb5445ce9951c8367b842635d6a0fad27e0ecce7730f89",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 15,
+      "successfulPages": 15,
+      "structure": [
+        {
+          "type": "TBI - ViennaRNA Package 2",
+          "url": "https://www.tbi.univie.ac.at/RNA/documentation.html"
+        },
+        {
+          "type": "RNAz",
+          "url": "https://www.tbi.univie.ac.at/~wash/RNAz/"
+        },
+        {
+          "type": "Extended RNA Secondary Structures - RNAwolf",
+          "url": "http://www.tbi.univie.ac.at/software/rnawolf/rnawolf.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.tbi.univie.ac.at/~wash/RNAz/manual.pdf"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.tbi.univie.ac.at/RNA/gfx/TAR_ss.ps"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.tbi.univie.ac.at/RNA/gfx/5smnt.eps"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.tbi.univie.ac.at/RNA/gfx/TAR_aln.ps"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.tbi.univie.ac.at/RNA/gfx/TAR_cmt.eps"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.tbi.univie.ac.at/RNA/gfx/5srel.ps"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://www.tbi.univie.ac.at/~wash/RNAz/NEWS.txt"
+        },
+        {
+          "type": "Extended RNA Secondary Structures - RNAwolf & MC-Fold-DP",
+          "url": "http://www.tbi.univie.ac.at/software/rnawolf/index.html"
+        },
+        {
+          "type": "Extended RNA Secondary Structures - News",
+          "url": "http://www.tbi.univie.ac.at/software/rnawolf/news.html"
+        },
+        {
+          "type": "Extended RNA Secondary Structures - MC-Fold-DP",
+          "url": "http://www.tbi.univie.ac.at/software/rnawolf/mcfolddp.html"
+        },
+        {
+          "type": "Extended RNA Secondary Structures - SSP-Compare",
+          "url": "http://www.tbi.univie.ac.at/software/rnawolf/sspcompare.html"
+        },
+        {
+          "type": "Extended RNA Secondary Structures - Downloads",
+          "url": "http://www.tbi.univie.ac.at/software/rnawolf/download.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "bb16cf820ce5e82bc40df90d5c63430c9c125906a3e3daa43298cb5664e19f55"
 }

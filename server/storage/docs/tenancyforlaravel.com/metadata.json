@@ -212,5 +212,255 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://tenancyforlaravel.com/docs/v3/introduction/",
+      "canonicalSeedUrl": "https://tenancyforlaravel.com/docs/v3/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-17T12:48:03.346Z",
+      "completedAt": "2025-04-17T12:48:03.346Z",
+      "providerTotals": {
+        "discovered": 48,
+        "returned": 48,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://tenancyforlaravel.com/docs/v3/introduction/",
+          "canonicalUrl": "https://tenancyforlaravel.com/docs/v3/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "a95113644f444ce44cd6bd6878340739277ac56d7190a698997ed39d04b1a3e9",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "12900d0ebf4b21b0d6b3cca8409837ca5ec05ddc12ffacd5f399d7f457b75e4c",
+      "filename": "documentation_2025-04-17T12:48:03.346Z.md",
+      "contentHash": "813d2b88b5c3a2594d5f0c15d7c1e95c0c2fe6fbf9e50b2de64744ce44a7d5c6",
+      "sourceUrl": "https://tenancyforlaravel.com/docs/v3/introduction/",
+      "canonicalSourceUrl": "https://tenancyforlaravel.com/docs/v3/introduction",
+      "capturedAt": "2025-04-17T12:48:03.346Z",
+      "crawlRunId": "a95113644f444ce44cd6bd6878340739277ac56d7190a698997ed39d04b1a3e9",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 48,
+      "successfulPages": 48,
+      "structure": [
+        {
+          "type": "Introduction | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/introduction/"
+        },
+        {
+          "type": "Compared to other packages | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/package-comparison"
+        },
+        {
+          "type": "The two applications | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/the-two-applications"
+        },
+        {
+          "type": "Installation | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/installation"
+        },
+        {
+          "type": "Quickstart Tutorial | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/quickstart"
+        },
+        {
+          "type": "Upgrading from 2.x | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/upgrading"
+        },
+        {
+          "type": "Configuration | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/configuration"
+        },
+        {
+          "type": "Domains | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/domains"
+        },
+        {
+          "type": "Tenants | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/tenants"
+        },
+        {
+          "type": "Routes | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/routes"
+        },
+        {
+          "type": "Event system | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/event-system"
+        },
+        {
+          "type": "Tenancy bootstrappers | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/tenancy-bootstrappers"
+        },
+        {
+          "type": "Optional features | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/optional-features"
+        },
+        {
+          "type": "Automatic tenancy mode | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/automatic-mode"
+        },
+        {
+          "type": "Tenant-specific config | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/features/tenant-config"
+        },
+        {
+          "type": "Telescope tags | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/features/telescope-tags"
+        },
+        {
+          "type": "Migrations | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/migrations"
+        },
+        {
+          "type": "Universal routes | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/features/universal-routes"
+        },
+        {
+          "type": "Early identification | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/early-identification"
+        },
+        {
+          "type": "Cross-domain redirect | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/features/cross-domain-redirect"
+        },
+        {
+          "type": "Vite bundler | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/features/vite-bundler"
+        },
+        {
+          "type": "Multi-database tenancy | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/multi-database-tenancy"
+        },
+        {
+          "type": "Customizing tenant databases | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/customizing-databases"
+        },
+        {
+          "type": "Session scoping | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/session-scoping"
+        },
+        {
+          "type": "Single-database tenancy | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/single-database-tenancy"
+        },
+        {
+          "type": "Tenant identification | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/tenant-identification"
+        },
+        {
+          "type": "User impersonation | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/features/user-impersonation"
+        },
+        {
+          "type": "Manual tenancy mode | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/manual-mode"
+        },
+        {
+          "type": "Synced resources between tenants | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/synced-resources-between-tenants"
+        },
+        {
+          "type": "Integration with other packages | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/integrating"
+        },
+        {
+          "type": "Manual tenancy initialization | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/manual-initialization"
+        },
+        {
+          "type": "Queues | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/queues"
+        },
+        {
+          "type": "Testing | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/testing"
+        },
+        {
+          "type": "Laravel Horizon integration | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/integrations/horizon"
+        },
+        {
+          "type": "Integration with Spatie packages | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/integrations/spatie"
+        },
+        {
+          "type": "Laravel Sail integration | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/integrations/sail"
+        },
+        {
+          "type": "Laravel Nova integration | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/integrations/nova"
+        },
+        {
+          "type": "Laravel Passport integration | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/integrations/passport"
+        },
+        {
+          "type": "Laravel Orchid integration | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/integrations/orchid"
+        },
+        {
+          "type": "Laravel Telescope integration | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/integrations/telescope"
+        },
+        {
+          "type": "Livewire integration | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/integrations/livewire"
+        },
+        {
+          "type": "Tenant attribute encryption | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/tenant-attribute-encryption"
+        },
+        {
+          "type": "Console commands | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/console-commands"
+        },
+        {
+          "type": "Cached tenant lookup | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/cached-lookup"
+        },
+        {
+          "type": "Laravel Sanctum integration | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/integrations/sanctum"
+        },
+        {
+          "type": "Tenant maintenance mode | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/tenant-maintenance-mode"
+        },
+        {
+          "type": "Real-time facades | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/realtime-facades"
+        },
+        {
+          "type": "Tenant-aware commands | Tenancy for Laravel",
+          "url": "https://tenancyforlaravel.com/docs/v3/tenant-aware-commands"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "12900d0ebf4b21b0d6b3cca8409837ca5ec05ddc12ffacd5f399d7f457b75e4c"
 }

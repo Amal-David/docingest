@@ -33,5 +33,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://v2.tailwindcss.com/docs",
+      "canonicalSeedUrl": "https://v2.tailwindcss.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-07T17:28:30.358Z",
+      "completedAt": "2025-07-07T17:28:30.358Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://v2.tailwindcss.com/docs",
+          "canonicalUrl": "https://v2.tailwindcss.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "1c7e8aac52b21fbf0b10ebe959c25481bcf2b01c478779aa345014f99de9ae27",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d2324882d871b12e84d360d15cb695fa266ddc3912ebe7283c9a567671134647",
+      "filename": "documentation_2025-07-07T17:28:30.358Z.md",
+      "contentHash": "ba56310ccf8d71d68654e9f9b5131f3bce012c1859b5063827a2a645348ddeb5",
+      "sourceUrl": "https://v2.tailwindcss.com/docs",
+      "canonicalSourceUrl": "https://v2.tailwindcss.com/docs",
+      "capturedAt": "2025-07-07T17:28:30.358Z",
+      "crawlRunId": "1c7e8aac52b21fbf0b10ebe959c25481bcf2b01c478779aa345014f99de9ae27",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Documentation - Tailwind CSS",
+          "url": "https://v2.tailwindcss.com/docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d2324882d871b12e84d360d15cb695fa266ddc3912ebe7283c9a567671134647"
 }

@@ -48,5 +48,91 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://rabbykit.rabby.io/docs/introduction",
+      "canonicalSeedUrl": "https://rabbykit.rabby.io/docs/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-14T05:45:45.539Z",
+      "completedAt": "2026-04-14T05:45:45.539Z",
+      "providerTotals": {
+        "discovered": 7,
+        "returned": 7,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://rabbykit.rabby.io/docs/introduction",
+          "canonicalUrl": "https://rabbykit.rabby.io/docs/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "8dd8361fffe24e161966d7454b71374444d9b0c18513af2469de0c2b801c1f14",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "af894af55736521ab94a7f81cc4d725e8426ea974badafd1999ea71217778ef6",
+      "filename": "documentation_2026-04-14T05:45:45.539Z.md",
+      "contentHash": "99f555f8ce63e21376ab466f854eb554871ddb838c9623b03a76d1ff60b73b30",
+      "sourceUrl": "https://rabbykit.rabby.io/docs/introduction",
+      "canonicalSourceUrl": "https://rabbykit.rabby.io/docs/introduction",
+      "capturedAt": "2026-04-14T05:45:45.539Z",
+      "crawlRunId": "8dd8361fffe24e161966d7454b71374444d9b0c18513af2469de0c2b801c1f14",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 7,
+      "successfulPages": 7,
+      "structure": [
+        {
+          "type": "Introduction – RabbyKit",
+          "url": "https://rabbykit.rabby.io/docs/introduction"
+        },
+        {
+          "type": "Migrate – RabbyKit",
+          "url": "https://rabbykit.rabby.io/docs/migrate"
+        },
+        {
+          "type": "Theming – RabbyKit",
+          "url": "https://rabbykit.rabby.io/docs/theming"
+        },
+        {
+          "type": "Install – RabbyKit",
+          "url": "https://rabbykit.rabby.io/docs/install"
+        },
+        {
+          "type": "Actions – RabbyKit",
+          "url": "https://rabbykit.rabby.io/docs/actions"
+        },
+        {
+          "type": "Custom Login – RabbyKit",
+          "url": "https://rabbykit.rabby.io/docs/custom-login"
+        },
+        {
+          "type": "Localization – RabbyKit",
+          "url": "https://rabbykit.rabby.io/docs/localization"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "af894af55736521ab94a7f81cc4d725e8426ea974badafd1999ea71217778ef6"
 }

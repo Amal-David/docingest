@@ -54,5 +54,79 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://mezzaninewiki.atlassian.net/wiki/spaces/HTUT/pages/5735883/Helium+Beginner+s+Tutorial",
+      "canonicalSeedUrl": "https://mezzaninewiki.atlassian.net/wiki/spaces/HTUT/pages/5735883/Helium+Beginner+s+Tutorial",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-23T15:43:52.245Z",
+      "completedAt": "2025-01-23T15:43:52.245Z",
+      "providerTotals": {
+        "discovered": 4,
+        "returned": 4,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://mezzaninewiki.atlassian.net/wiki/spaces/HTUT/pages/5735883/Helium+Beginner+s+Tutorial",
+          "canonicalUrl": "https://mezzaninewiki.atlassian.net/wiki/spaces/HTUT/pages/5735883/Helium+Beginner+s+Tutorial",
+          "status": "valid"
+        }
+      ],
+      "id": "df7cd08dd7af789e9debb98995e56b46ced16d6736f9e7859f568cb0902040d7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fcb728d5cd05921cb9664fc0cb07a990c7ba25c87103eb4ada70bb7b2e787c23",
+      "filename": "documentation_2025-01-23T15:43:52.245Z.md",
+      "contentHash": "6d6a4d911e48b1928dab3dd62e65a166b5be229b7956ac2f731369aace9b5bb7",
+      "sourceUrl": "https://mezzaninewiki.atlassian.net/wiki/spaces/HTUT/pages/5735883/Helium+Beginner+s+Tutorial",
+      "canonicalSourceUrl": "https://mezzaninewiki.atlassian.net/wiki/spaces/HTUT/pages/5735883/Helium+Beginner+s+Tutorial",
+      "capturedAt": "2025-01-23T15:43:52.245Z",
+      "crawlRunId": "df7cd08dd7af789e9debb98995e56b46ced16d6736f9e7859f568cb0902040d7",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "Helium Beginner's Tutorial - Helium Rapid Documentation - Mezzanine Wiki",
+          "url": "https://mezzaninewiki.atlassian.net/wiki/spaces/HTUT/pages/5735883/Helium+Beginner+s+Tutorial"
+        },
+        {
+          "type": "Mezzanine Wiki",
+          "url": "https://mezzaninewiki.atlassian.net/wiki/spaces/HTUT/settings/home"
+        },
+        {
+          "type": "Mezzanine Wiki",
+          "url": "https://mezzaninewiki.atlassian.net/wiki/spaces/HTUT/pages"
+        },
+        {
+          "type": "Helium Rapid Documentation - Mezzanine Wiki",
+          "url": "https://mezzaninewiki.atlassian.net/wiki/spaces/HTUT/overview?homepageId=5734456"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fcb728d5cd05921cb9664fc0cb07a990c7ba25c87103eb4ada70bb7b2e787c23"
 }

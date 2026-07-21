@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://mastra.ai/en/docs",
+      "canonicalSeedUrl": "https://mastra.ai/en/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-04T14:00:11.079Z",
+      "completedAt": "2025-10-04T14:00:11.079Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://mastra.ai/en/docs",
+          "canonicalUrl": "https://mastra.ai/en/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "a176ee0c74ff53f6811ba1851fb41fb09755d0b9605ed06f6d952527bcfb6bf5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "10371586ad5ddc9ae85a9eb757b8903a514b883a056976cc86e1f80afb01ce8a",
+      "filename": "documentation_2025-10-04T14:00:11.079Z.md",
+      "contentHash": "4a121f513008157e857c8c501cecd17fe34cb2e18210721a01bb917e17638e4b",
+      "sourceUrl": "https://mastra.ai/en/docs",
+      "canonicalSourceUrl": "https://mastra.ai/en/docs",
+      "capturedAt": "2025-10-04T14:00:11.079Z",
+      "crawlRunId": "a176ee0c74ff53f6811ba1851fb41fb09755d0b9605ed06f6d952527bcfb6bf5",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Introduction | Mastra Docs",
+          "url": "https://mastra.ai/en/docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "10371586ad5ddc9ae85a9eb757b8903a514b883a056976cc86e1f80afb01ce8a"
 }

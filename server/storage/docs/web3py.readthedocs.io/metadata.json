@@ -252,5 +252,295 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://web3py.readthedocs.io/en/stable/",
+      "canonicalSeedUrl": "https://web3py.readthedocs.io/en/stable",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-07T01:25:26.890Z",
+      "completedAt": "2025-01-07T01:25:26.890Z",
+      "providerTotals": {
+        "discovered": 58,
+        "returned": 58,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://web3py.readthedocs.io/en/stable/",
+          "canonicalUrl": "https://web3py.readthedocs.io/en/stable",
+          "status": "valid"
+        }
+      ],
+      "id": "18e5ca210516a017ef2c65c072951476c02c5968ff2ce73887b7f9404b39f7d2",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8c16d83b8506cb8bc6c786d1ce032f0b242ce78736e683a492b7d6821bbe8b01",
+      "filename": "documentation_2025-01-07T01:25:26.890Z.md",
+      "contentHash": "6fbbf9ded049bd2c3bfdc2bf40b5f5e05ccb5e499833eef684347bee399373bd",
+      "sourceUrl": "https://web3py.readthedocs.io/en/stable/",
+      "canonicalSourceUrl": "https://web3py.readthedocs.io/en/stable",
+      "capturedAt": "2025-01-07T01:25:26.890Z",
+      "crawlRunId": "18e5ca210516a017ef2c65c072951476c02c5968ff2ce73887b7f9404b39f7d2",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 58,
+      "successfulPages": 58,
+      "structure": [
+        {
+          "type": "gm — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/"
+        },
+        {
+          "type": "Overview — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/overview.html"
+        },
+        {
+          "type": "Quickstart — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/quickstart.html"
+        },
+        {
+          "type": "Providers — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/providers.html"
+        },
+        {
+          "type": "Transactions — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/transactions.html"
+        },
+        {
+          "type": "Middleware — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/middleware.html"
+        },
+        {
+          "type": "Troubleshooting — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/troubleshooting.html"
+        },
+        {
+          "type": "Web3 Internals — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/internals.html"
+        },
+        {
+          "type": "Web3 API — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/web3.main.html"
+        },
+        {
+          "type": "Release Notes — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/release_notes.html"
+        },
+        {
+          "type": "Accounts — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/web3.eth.account.html"
+        },
+        {
+          "type": "Contracts — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/web3.contract.html"
+        },
+        {
+          "type": "Ethereum Name Service (ENS) — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/ens_overview.html"
+        },
+        {
+          "type": "Migration Guide — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/migration.html"
+        },
+        {
+          "type": "Events and Logs — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/filters.html"
+        },
+        {
+          "type": "Net API — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/web3.net.html"
+        },
+        {
+          "type": "Tracing API — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/web3.tracing.html"
+        },
+        {
+          "type": "Gas Price API — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/gas_price.html"
+        },
+        {
+          "type": "Code of Conduct — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/code_of_conduct.html"
+        },
+        {
+          "type": "Utils — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/web3.utils.html"
+        },
+        {
+          "type": "Constants — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/constants.html"
+        },
+        {
+          "type": "gm — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/index.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/overview.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/transactions.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/web3.main.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/providers.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/quickstart.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/internals.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/index.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/middleware.rst.txt"
+        },
+        {
+          "type": "Beacon API — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/web3.beacon.html"
+        },
+        {
+          "type": "Geth API — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/web3.geth.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/web3.eth.account.rst.txt"
+        },
+        {
+          "type": "Resources and Learning Material — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/resources.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/ens_overview.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/web3.contract.rst.txt"
+        },
+        {
+          "type": "Index — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/genindex.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/migration.rst.txt"
+        },
+        {
+          "type": "ENS API — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/ens.html"
+        },
+        {
+          "type": "web3.eth API — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/web3.eth.html"
+        },
+        {
+          "type": "Contributing — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/contributing.html"
+        },
+        {
+          "type": "Search — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/search.html"
+        },
+        {
+          "type": "Python Module Index — web3.py 7.6.1 documentation",
+          "url": "https://web3py.readthedocs.io/en/stable/py-modindex.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/troubleshooting.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/filters.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/web3.net.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/web3.tracing.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/gas_price.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/constants.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/web3.geth.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/web3.utils.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/resources.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/web3.beacon.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/ens.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/contributing.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/code_of_conduct.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/web3.eth.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://web3py.readthedocs.io/en/stable/_sources/release_notes.rst.txt"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8c16d83b8506cb8bc6c786d1ce032f0b242ce78736e683a492b7d6821bbe8b01"
 }

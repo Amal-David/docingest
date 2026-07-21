@@ -128,5 +128,171 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://berkeley-humanoid-lite.gitbook.io/docs",
+      "canonicalSeedUrl": "https://berkeley-humanoid-lite.gitbook.io/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-02T06:47:15.664Z",
+      "completedAt": "2025-09-02T06:47:15.664Z",
+      "providerTotals": {
+        "discovered": 27,
+        "returned": 27,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs",
+          "canonicalUrl": "https://berkeley-humanoid-lite.gitbook.io/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "e0f538cc62f4e73a958b13c4b8898a66f5ee55afd915799dec04e54474c60627",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "15ef6f9a8dd34790bd9d953f299aa6f10eb91db0f2cc71df9b97765580d1eefd",
+      "filename": "documentation_2025-09-02T06:47:15.664Z.md",
+      "contentHash": "50aa0d87edd8f4466cd183d5a50bd12a566d126af61865ccb0b99f303db373f7",
+      "sourceUrl": "https://berkeley-humanoid-lite.gitbook.io/docs",
+      "canonicalSourceUrl": "https://berkeley-humanoid-lite.gitbook.io/docs",
+      "capturedAt": "2025-09-02T06:47:15.664Z",
+      "crawlRunId": "e0f538cc62f4e73a958b13c4b8898a66f5ee55afd915799dec04e54474c60627",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 27,
+      "successfulPages": 27,
+      "structure": [
+        {
+          "type": "Home | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs"
+        },
+        {
+          "type": "Preparing the Tools | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/getting-started-with-hardware/preparing-the-tools"
+        },
+        {
+          "type": "Releases | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/releases"
+        },
+        {
+          "type": "Getting Started with Hardware | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/getting-started-with-hardware"
+        },
+        {
+          "type": "Materials and Parts (BOM) | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/getting-started-with-hardware/materials-and-parts-bom"
+        },
+        {
+          "type": "Building the Actuator | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/getting-started-with-hardware/building-the-actuator"
+        },
+        {
+          "type": "3D Printing Instructions | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/getting-started-with-hardware/3d-printing-instructions"
+        },
+        {
+          "type": "Getting Started with Software | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/getting-started-with-software"
+        },
+        {
+          "type": "Software Development Environment Overview | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/getting-started-with-software/software-development-environment-overview"
+        },
+        {
+          "type": "lerobot Integration | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/lerobot-integration"
+        },
+        {
+          "type": "Flashing the Motor Controllers | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/getting-started-with-hardware/flashing-the-motor-controllers"
+        },
+        {
+          "type": "Building the Robot | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/getting-started-with-hardware/building-the-robot"
+        },
+        {
+          "type": "In-depth Contents | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/in-depth-contents"
+        },
+        {
+          "type": "Sim2sim Validation | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/getting-started-with-software/sim2sim-validation"
+        },
+        {
+          "type": "Training Environment | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/getting-started-with-software/training-environment"
+        },
+        {
+          "type": "Motion Capture System | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/getting-started-with-software/motion-capture-system"
+        },
+        {
+          "type": "The On-board Computer | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/getting-started-with-software/the-on-board-computer"
+        },
+        {
+          "type": "Motor Controller Firmware Execution Timing Information | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/in-depth-contents/motor-controller-firmware-execution-timing-information"
+        },
+        {
+          "type": "Syncing Files From Training Server | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/in-depth-contents/syncing-files-from-training-server"
+        },
+        {
+          "type": "IMU Comparision | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/in-depth-contents/imu-comparision"
+        },
+        {
+          "type": "Joint ID Mapping | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/in-depth-contents/joint-id-mapping"
+        },
+        {
+          "type": "CAN Communication | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/in-depth-contents/can-communication"
+        },
+        {
+          "type": "Exporting Robot Description Files from Onshape | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/in-depth-contents/exporting-robot-description-files-from-onshape"
+        },
+        {
+          "type": "Training Environment Coding Convention | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/in-depth-contents/training-environment-coding-convention"
+        },
+        {
+          "type": "Contribute | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/contribute"
+        },
+        {
+          "type": "Motor Characterization | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/in-depth-contents/motor-characterization"
+        },
+        {
+          "type": "Field Oriented Control (FOC) Operation | Berkeley Humanoid Lite Docs",
+          "url": "https://berkeley-humanoid-lite.gitbook.io/docs/in-depth-contents/field-oriented-control-foc-operation"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "15ef6f9a8dd34790bd9d953f299aa6f10eb91db0f2cc71df9b97765580d1eefd"
 }

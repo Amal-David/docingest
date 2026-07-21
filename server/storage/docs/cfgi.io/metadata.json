@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://cfgi.io/docs",
+      "canonicalSeedUrl": "https://cfgi.io/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-23T23:01:59.978Z",
+      "completedAt": "2025-12-23T23:01:59.978Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://cfgi.io/docs",
+          "canonicalUrl": "https://cfgi.io/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "02a09aa0db729287d3f28004b431d5a66b09197e053c673247e9b654747bd2d4",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "267461d94c15c17a803f2e92a4145aed7a5cd1f2178400a74f9f55de6c5f260c",
+      "filename": "documentation_2025-12-23T23:01:59.978Z.md",
+      "contentHash": "84cb451b6056a8f9ba2eeb37940c32c312707be54ac30fdf294dc7f5125db358",
+      "sourceUrl": "https://cfgi.io/docs",
+      "canonicalSourceUrl": "https://cfgi.io/docs",
+      "capturedAt": "2025-12-23T23:01:59.978Z",
+      "crawlRunId": "02a09aa0db729287d3f28004b431d5a66b09197e053c673247e9b654747bd2d4",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "The CFGI Docs",
+          "url": "https://cfgi.io/docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "267461d94c15c17a803f2e92a4145aed7a5cd1f2178400a74f9f55de6c5f260c"
 }

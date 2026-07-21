@@ -105,5 +105,139 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.npmjs.com/products/pro",
+      "canonicalSeedUrl": "https://www.npmjs.com/products/pro",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-01T13:28:04.240Z",
+      "completedAt": "2025-09-01T13:28:04.240Z",
+      "providerTotals": {
+        "discovered": 19,
+        "returned": 19,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.npmjs.com/products/pro",
+          "canonicalUrl": "https://www.npmjs.com/products/pro",
+          "status": "valid"
+        }
+      ],
+      "id": "60cf9c659b6d34677e9f5cbbf6ebd53f4e74a08a49385f7279446ff77c4cd5e2",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5262d0a368e27c2057fae0dc82fcea1ef7b1b5c5f88ce6fda53a990c544235e2",
+      "filename": "documentation_2025-09-01T13:28:04.240Z.md",
+      "contentHash": "28aaa1c350db0551e358d4cfb9b6124f06926f4235f0794e64a75715ee238e47",
+      "sourceUrl": "https://www.npmjs.com/products/pro",
+      "canonicalSourceUrl": "https://www.npmjs.com/products/pro",
+      "capturedAt": "2025-09-01T13:28:04.240Z",
+      "crawlRunId": "60cf9c659b6d34677e9f5cbbf6ebd53f4e74a08a49385f7279446ff77c4cd5e2",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 19,
+      "successfulPages": 19,
+      "structure": [
+        {
+          "type": "npm | Pro",
+          "url": "https://www.npmjs.com/products/pro"
+        },
+        {
+          "type": "npm | Teams",
+          "url": "https://www.npmjs.com/products/teams"
+        },
+        {
+          "type": "npm | Products",
+          "url": "https://www.npmjs.com/products"
+        },
+        {
+          "type": "npm | Home",
+          "url": "https://www.npmjs.com/"
+        },
+        {
+          "type": "npm | Sign Up",
+          "url": "https://www.npmjs.com/signup"
+        },
+        {
+          "type": "npm | Support",
+          "url": "https://www.npmjs.com/support"
+        },
+        {
+          "type": "npm About",
+          "url": "https://www.npmjs.com/about"
+        },
+        {
+          "type": "npm | Sign In",
+          "url": "https://www.npmjs.com/login"
+        },
+        {
+          "type": "npm Code of Conduct | npm Docs",
+          "url": "https://www.npmjs.com/policies/conduct"
+        },
+        {
+          "type": "Privacy Questions and Answers | npm Docs",
+          "url": "https://www.npmjs.com/policies/privacy"
+        },
+        {
+          "type": "Terms and Licenses | npm Docs",
+          "url": "https://www.npmjs.com/policies/terms"
+        },
+        {
+          "type": "Policies | npm Docs",
+          "url": "https://www.npmjs.com/policies/"
+        },
+        {
+          "type": "keywords:DOM - npm search",
+          "url": "https://www.npmjs.com/search?q=keywords:DOM"
+        },
+        {
+          "type": "keywords:lightweight - npm search",
+          "url": "https://www.npmjs.com/search?q=keywords:lightweight"
+        },
+        {
+          "type": "keywords:JSDOM - npm search",
+          "url": "https://www.npmjs.com/search?q=keywords:JSDOM"
+        },
+        {
+          "type": "npm | Profile",
+          "url": "https://www.npmjs.com/~webreflection"
+        },
+        {
+          "type": "keywords:performance - npm search",
+          "url": "https://www.npmjs.com/search?q=keywords:performance"
+        },
+        {
+          "type": "keywords:alternative - npm search",
+          "url": "https://www.npmjs.com/search?q=keywords:alternative"
+        },
+        {
+          "type": "npm | Support",
+          "url": "https://www.npmjs.com/support?inquire=security&security-inquire=malware&package=linkedom&version=0.1.34"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5262d0a368e27c2057fae0dc82fcea1ef7b1b5c5f88ce6fda53a990c544235e2"
 }

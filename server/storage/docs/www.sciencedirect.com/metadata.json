@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.sciencedirect.com/science/article/pii/S1389041724000093",
+      "canonicalSeedUrl": "https://www.sciencedirect.com/science/article/pii/S1389041724000093",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-13T06:07:57.394Z",
+      "completedAt": "2025-01-13T06:07:57.394Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S1389041724000093",
+          "canonicalUrl": "https://www.sciencedirect.com/science/article/pii/S1389041724000093",
+          "status": "valid"
+        }
+      ],
+      "id": "c054cc43e6d1f48071d733a9d9e95d8f09ced953d8abe77600f903aad392c7a3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d25509ce647dcd5625eac9ca8ce70876c2fe9120e6c246da36ea13656dc6c861",
+      "filename": "documentation_2025-01-13T06:07:57.394Z.md",
+      "contentHash": "ad835c5fb1247d9d8d607d0292ddaeff4efc48253507b26404a9c2e56b5bcff9",
+      "sourceUrl": "https://www.sciencedirect.com/science/article/pii/S1389041724000093",
+      "canonicalSourceUrl": "https://www.sciencedirect.com/science/article/pii/S1389041724000093",
+      "capturedAt": "2025-01-13T06:07:57.394Z",
+      "crawlRunId": "c054cc43e6d1f48071d733a9d9e95d8f09ced953d8abe77600f903aad392c7a3",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Vector database management systems: Fundamental concepts, use-cases, and current challenges - ScienceDirect",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1389041724000093"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d25509ce647dcd5625eac9ca8ce70876c2fe9120e6c246da36ea13656dc6c861"
 }

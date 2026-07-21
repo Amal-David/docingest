@@ -33,5 +33,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://openapi.taptools.io/",
+      "canonicalSeedUrl": "https://openapi.taptools.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-29T03:56:27.043Z",
+      "completedAt": "2025-07-29T03:56:27.043Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://openapi.taptools.io/",
+          "canonicalUrl": "https://openapi.taptools.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "74b18efb131dba5f9f807c34eddda1586858a9addceefe511d52bf6ab4677a37",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "65053c805d55fec9bee14f2ca4ffddd5b29ab715b9f4f0f67c92f11872952f7e",
+      "filename": "documentation_2025-07-29T03:56:27.043Z.md",
+      "contentHash": "ac030efe4ebb64842ec14ed9cba9982261385392577360a42743fa27d933ab6f",
+      "sourceUrl": "https://openapi.taptools.io/",
+      "canonicalSourceUrl": "https://openapi.taptools.io/",
+      "capturedAt": "2025-07-29T03:56:27.043Z",
+      "crawlRunId": "74b18efb131dba5f9f807c34eddda1586858a9addceefe511d52bf6ab4677a37",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "TapTools - API Documentation",
+          "url": "https://openapi.taptools.io/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "65053c805d55fec9bee14f2ca4ffddd5b29ab715b9f4f0f67c92f11872952f7e"
 }

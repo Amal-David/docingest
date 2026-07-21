@@ -33,5 +33,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developer.dextools.io/docs/start",
+      "canonicalSeedUrl": "https://developer.dextools.io/docs/start",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-17T21:45:15.854Z",
+      "completedAt": "2025-12-17T21:45:15.854Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developer.dextools.io/docs/start",
+          "canonicalUrl": "https://developer.dextools.io/docs/start",
+          "status": "valid"
+        }
+      ],
+      "id": "425c4c100a002375741ecd005d6e084d489233a14727468a1d3e929ce87fa8ea",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "418d808188839413d576f44c4c01cca323e6299751b09ec1effba8a70c95e17a",
+      "filename": "documentation_2025-12-17T21:45:15.854Z.md",
+      "contentHash": "826a302a8d26fb07d19b561df46fdb6a8cd6388c12d1445108184b58bf4904ba",
+      "sourceUrl": "https://developer.dextools.io/docs/start",
+      "canonicalSourceUrl": "https://developer.dextools.io/docs/start",
+      "capturedAt": "2025-12-17T21:45:15.854Z",
+      "crawlRunId": "425c4c100a002375741ecd005d6e084d489233a14727468a1d3e929ce87fa8ea",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "API Portal",
+          "url": "https://developer.dextools.io/docs/start"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "418d808188839413d576f44c4c01cca323e6299751b09ec1effba8a70c95e17a"
 }

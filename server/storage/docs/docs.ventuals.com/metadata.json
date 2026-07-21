@@ -140,5 +140,183 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.ventuals.com/",
+      "canonicalSeedUrl": "https://docs.ventuals.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-03T05:15:33.498Z",
+      "completedAt": "2026-01-03T05:15:33.498Z",
+      "providerTotals": {
+        "discovered": 30,
+        "returned": 30,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.ventuals.com/",
+          "canonicalUrl": "https://docs.ventuals.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "67a2bfd831e6c088c829b6db08892bf86be892b9bb6c7265bcc5a8adc2da6f72",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "946fd0ce7facdbb07d2f5ceb55754451c624926f48c4d1fd9cdfe1a70fb387cc",
+      "filename": "documentation_2026-01-03T05:15:33.498Z.md",
+      "contentHash": "c078cf5ab63c1e8110327f457b9489c79b120c08ea909ba918d723d50ade289c",
+      "sourceUrl": "https://docs.ventuals.com/",
+      "canonicalSourceUrl": "https://docs.ventuals.com/",
+      "capturedAt": "2026-01-03T05:15:33.498Z",
+      "crawlRunId": "67a2bfd831e6c088c829b6db08892bf86be892b9bb6c7265bcc5a8adc2da6f72",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "structure": [
+        {
+          "type": "Welcome to Ventuals | Ventuals",
+          "url": "https://docs.ventuals.com/"
+        },
+        {
+          "type": "Audits | Ventuals",
+          "url": "https://docs.ventuals.com/vhype/audits"
+        },
+        {
+          "type": "Bug Bounty | Ventuals",
+          "url": "https://docs.ventuals.com/vhype/bug-bounty"
+        },
+        {
+          "type": "Contracts | Ventuals",
+          "url": "https://docs.ventuals.com/vhype/contracts"
+        },
+        {
+          "type": "Order Types | Ventuals",
+          "url": "https://docs.ventuals.com/trading/order-types"
+        },
+        {
+          "type": "Maker Points | Ventuals",
+          "url": "https://docs.ventuals.com/liquidity/maker-points"
+        },
+        {
+          "type": "Liquidations | Ventuals",
+          "url": "https://docs.ventuals.com/trading/liquidations"
+        },
+        {
+          "type": "Accessing Ventuals | Ventuals",
+          "url": "https://docs.ventuals.com/getting-started/accessing-ventuals"
+        },
+        {
+          "type": "Margining | Ventuals",
+          "url": "https://docs.ventuals.com/trading/margining"
+        },
+        {
+          "type": "Mark Price | Ventuals",
+          "url": "https://docs.ventuals.com/trading/mark-price"
+        },
+        {
+          "type": "Points | Ventuals",
+          "url": "https://docs.ventuals.com/vhype/points"
+        },
+        {
+          "type": "Fees | Ventuals",
+          "url": "https://docs.ventuals.com/trading/fees"
+        },
+        {
+          "type": "Markets | Ventuals",
+          "url": "https://docs.ventuals.com/overview/markets"
+        },
+        {
+          "type": "Why Ventuals? | Ventuals",
+          "url": "https://docs.ventuals.com/overview/why-ventuals"
+        },
+        {
+          "type": "Spot Inventory | Ventuals",
+          "url": "https://docs.ventuals.com/liquidity/spot-inventory"
+        },
+        {
+          "type": "vHYPE | Ventuals",
+          "url": "https://docs.ventuals.com/vhype/vhype"
+        },
+        {
+          "type": "Public Baskets | Ventuals",
+          "url": "https://docs.ventuals.com/perp-specifications/public-baskets"
+        },
+        {
+          "type": "Brand Kit | Ventuals",
+          "url": "https://docs.ventuals.com/community/brand-kit"
+        },
+        {
+          "type": "Links | Ventuals",
+          "url": "https://docs.ventuals.com/community/links"
+        },
+        {
+          "type": "FAQs | Ventuals",
+          "url": "https://docs.ventuals.com/resources/faqs"
+        },
+        {
+          "type": "API | Ventuals",
+          "url": "https://docs.ventuals.com/developers/api"
+        },
+        {
+          "type": "Private Companies | Ventuals",
+          "url": "https://docs.ventuals.com/perp-specifications/private-companies"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.ventuals.com/cdn-cgi/l/email-protection"
+        },
+        {
+          "type": "Accessing Ventuals | Ventuals",
+          "url": "https://docs.ventuals.com/getting-started"
+        },
+        {
+          "type": "Why Ventuals? | Ventuals",
+          "url": "https://docs.ventuals.com/overview"
+        },
+        {
+          "type": "Private Companies | Ventuals",
+          "url": "https://docs.ventuals.com/perp-specifications"
+        },
+        {
+          "type": "Order Types | Ventuals",
+          "url": "https://docs.ventuals.com/trading"
+        },
+        {
+          "type": "Links | Ventuals",
+          "url": "https://docs.ventuals.com/community"
+        },
+        {
+          "type": "FAQs | Ventuals",
+          "url": "https://docs.ventuals.com/resources"
+        },
+        {
+          "type": "API | Ventuals",
+          "url": "https://docs.ventuals.com/developers"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "946fd0ce7facdbb07d2f5ceb55754451c624926f48c4d1fd9cdfe1a70fb387cc"
 }

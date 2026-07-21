@@ -28,5 +28,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.openvino.ai",
+      "canonicalSeedUrl": "https://docs.openvino.ai/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-10T19:09:50.424Z",
+      "completedAt": "2025-07-10T19:09:50.424Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.openvino.ai",
+          "canonicalUrl": "https://docs.openvino.ai/",
+          "status": "valid"
+        }
+      ],
+      "id": "bed1c90beac4ffb8379d9126b8d1f1049fa867e7a6615d8c2802b393ab6c5fdc",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f80c6688f73d61877850d90f0afda3ccf0cb9e50ba87f2b4168c4fa45123b4e1",
+      "filename": "documentation_2025-07-10T19:09:50.424Z.md",
+      "contentHash": "a323a1941559853ab97833879d67d8420700ba063237653c565a4506f0a18fd9",
+      "sourceUrl": "https://docs.openvino.ai",
+      "canonicalSourceUrl": "https://docs.openvino.ai/",
+      "capturedAt": "2025-07-10T19:09:50.424Z",
+      "crawlRunId": "bed1c90beac4ffb8379d9126b8d1f1049fa867e7a6615d8c2802b393ab6c5fdc",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "OpenVINO 2025.2 — OpenVINO™ documentation — Version(2025)",
+          "url": "https://docs.openvino.ai"
+        },
+        {
+          "type": "Archive — OpenVINO™ documentation",
+          "url": "https://docs.openvino.ai/archives/index.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f80c6688f73d61877850d90f0afda3ccf0cb9e50ba87f2b4168c4fa45123b4e1"
 }

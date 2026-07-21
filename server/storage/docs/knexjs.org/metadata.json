@@ -100,5 +100,143 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://knexjs.org/guide/",
+      "canonicalSeedUrl": "https://knexjs.org/guide",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-27T08:07:25.576Z",
+      "completedAt": "2025-04-27T08:07:25.576Z",
+      "providerTotals": {
+        "discovered": 20,
+        "returned": 20,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://knexjs.org/guide/",
+          "canonicalUrl": "https://knexjs.org/guide",
+          "status": "valid"
+        }
+      ],
+      "id": "cfb1c828cbbc15d81086981c27a33a477ca302c6f4b93be6e856b351baed5692",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "815b8988320141eb6cf62411be2f3ddec28481c7cc23fd81e962c22aa58ff19f",
+      "filename": "documentation_2025-04-27T08:07:25.576Z.md",
+      "contentHash": "c32d8409607452079a7c5c6948519e4413cbd6ebe03af6a17943b95e6f156205",
+      "sourceUrl": "https://knexjs.org/guide/",
+      "canonicalSourceUrl": "https://knexjs.org/guide",
+      "capturedAt": "2025-04-27T08:07:25.576Z",
+      "crawlRunId": "cfb1c828cbbc15d81086981c27a33a477ca302c6f4b93be6e856b351baed5692",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 20,
+      "successfulPages": 20,
+      "structure": [
+        {
+          "type": "Installation | Knex.js",
+          "url": "https://knexjs.org/guide/"
+        },
+        {
+          "type": "F.A.Q. | Knex.js",
+          "url": "https://knexjs.org/faq/"
+        },
+        {
+          "type": "SQL Query Builder for Javascript | Knex.js",
+          "url": "https://knexjs.org/"
+        },
+        {
+          "type": "Schema Builder | Knex.js",
+          "url": "https://knexjs.org/guide/schema-builder"
+        },
+        {
+          "type": "Utility | Knex.js",
+          "url": "https://knexjs.org/guide/utility"
+        },
+        {
+          "type": "Interfaces | Knex.js",
+          "url": "https://knexjs.org/guide/interfaces"
+        },
+        {
+          "type": "Knex Query Builder | Knex.js",
+          "url": "https://knexjs.org/guide/query-builder"
+        },
+        {
+          "type": "Ref | Knex.js",
+          "url": "https://knexjs.org/guide/ref"
+        },
+        {
+          "type": "Changelog | Knex.js",
+          "url": "https://knexjs.org/changelog.html"
+        },
+        {
+          "type": "Raw | Knex.js",
+          "url": "https://knexjs.org/guide/raw"
+        },
+        {
+          "type": "Transactions | Knex.js",
+          "url": "https://knexjs.org/guide/transactions"
+        },
+        {
+          "type": "Migrations | Knex.js",
+          "url": "https://knexjs.org/guide/migrations"
+        },
+        {
+          "type": "Extending | Knex.js",
+          "url": "https://knexjs.org/guide/extending"
+        },
+        {
+          "type": "Migrations | Knex.js",
+          "url": "https://knexjs.org/guide/migrations.html"
+        },
+        {
+          "type": "Recipes | Knex.js",
+          "url": "https://knexjs.org/faq/recipes"
+        },
+        {
+          "type": "Support | Knex.js",
+          "url": "https://knexjs.org/faq/support"
+        },
+        {
+          "type": "Transactions | Knex.js",
+          "url": "https://knexjs.org/guide/transactions.html"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://knexjs.org/cdn-cgi/l/email-protection"
+        },
+        {
+          "type": "Knex Query Builder | Knex.js",
+          "url": "https://knexjs.org/guide/query-builder.html"
+        },
+        {
+          "type": "Schema Builder | Knex.js",
+          "url": "https://knexjs.org/guide/schema-builder.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "815b8988320141eb6cf62411be2f3ddec28481c7cc23fd81e962c22aa58ff19f"
 }

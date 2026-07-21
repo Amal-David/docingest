@@ -104,5 +104,147 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.usetrmnl.com/go/diy/byod",
+      "canonicalSeedUrl": "https://docs.usetrmnl.com/go/diy/byod",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-01T02:33:40.836Z",
+      "completedAt": "2025-04-01T02:33:40.836Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.usetrmnl.com/go/diy/byod",
+          "canonicalUrl": "https://docs.usetrmnl.com/go/diy/byod",
+          "status": "valid"
+        }
+      ],
+      "id": "c48ba4ba7b2616277e2ec1247c98dd3958e42281f4b2fe92e90358c8c9a16b6f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "040301dad01704d0078681624b2a17c5230cb445cfc56a2038d73025be8b3be9",
+      "filename": "documentation_2025-04-01T02:33:40.836Z.md",
+      "contentHash": "7a66ca3bb5db692d8cc14514c5ec1935e17b88db8e0edf95fb5157d0b8f8474b",
+      "sourceUrl": "https://docs.usetrmnl.com/go/diy/byod",
+      "canonicalSourceUrl": "https://docs.usetrmnl.com/go/diy/byod",
+      "capturedAt": "2025-04-01T02:33:40.836Z",
+      "crawlRunId": "c48ba4ba7b2616277e2ec1247c98dd3958e42281f4b2fe92e90358c8c9a16b6f",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "BYOD | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/diy/byod"
+        },
+        {
+          "type": "Screen Templating | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/private-plugins/templates"
+        },
+        {
+          "type": "Introduction | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/diy/introduction"
+        },
+        {
+          "type": "Screen Templating (Graphics) | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/private-plugins/templates-advanced"
+        },
+        {
+          "type": "How it Works | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/how-it-works"
+        },
+        {
+          "type": "Create a screen | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/private-plugins/create-a-screen"
+        },
+        {
+          "type": "BYOD/S | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/diy/byod-s"
+        },
+        {
+          "type": "Introduction | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/plugin-marketplace/introduction"
+        },
+        {
+          "type": "BYOS | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/diy/byos"
+        },
+        {
+          "type": "Plugin Creation | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/plugin-marketplace/plugin-creation"
+        },
+        {
+          "type": "Fetch Screen Content | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/private-api/fetch-screen-content"
+        },
+        {
+          "type": "Overview | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go"
+        },
+        {
+          "type": "Getting Started | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/partners-api/getting-started"
+        },
+        {
+          "type": "Going Live | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/plugin-marketplace/going-live"
+        },
+        {
+          "type": "Plugin Screen Generation Flow | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/plugin-marketplace/plugin-screen-generation-flow"
+        },
+        {
+          "type": "Plugin Management Flow | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/plugin-marketplace/plugin-management-flow"
+        },
+        {
+          "type": "Introduction | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/private-api/introduction"
+        },
+        {
+          "type": "Plugin Installation Flow | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/plugin-marketplace/plugin-installation-flow"
+        },
+        {
+          "type": "Plugin Uninstallation Flow | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/plugin-marketplace/plugin-uninstallation-flow"
+        },
+        {
+          "type": "Introduction | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/partners-api/introduction"
+        },
+        {
+          "type": "Provisioning Devices | TRMNL API",
+          "url": "https://docs.usetrmnl.com/go/partners-api/provisioning-devices"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "040301dad01704d0078681624b2a17c5230cb445cfc56a2038d73025be8b3be9"
 }

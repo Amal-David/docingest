@@ -33,5 +33,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://best-practices.8004scan.io/docs/01-agent-metadata-standard.html",
+      "canonicalSeedUrl": "https://best-practices.8004scan.io/docs/01-agent-metadata-standard.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-01T17:45:18.739Z",
+      "completedAt": "2026-02-01T17:45:18.739Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://best-practices.8004scan.io/docs/01-agent-metadata-standard.html",
+          "canonicalUrl": "https://best-practices.8004scan.io/docs/01-agent-metadata-standard.html",
+          "status": "valid"
+        }
+      ],
+      "id": "83c509239e7eee038a67979b85ee8572e7f2e077f4b05d70717af3e567d7f4b8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c15d612a760f33f39c6f525a77409a0b66066fe2f601df56c4b8c33cc89da69c",
+      "filename": "documentation_2026-02-01T17:45:18.739Z.md",
+      "contentHash": "08dae139c306abfc4a0f243d822340f5c7a72200ca6cd30b6fbb1c67cad0cab0",
+      "sourceUrl": "https://best-practices.8004scan.io/docs/01-agent-metadata-standard.html",
+      "canonicalSourceUrl": "https://best-practices.8004scan.io/docs/01-agent-metadata-standard.html",
+      "capturedAt": "2026-02-01T17:45:18.739Z",
+      "crawlRunId": "83c509239e7eee038a67979b85ee8572e7f2e077f4b05d70717af3e567d7f4b8",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Agent Metadata Profile (AgentURI) | ERC-8004",
+          "url": "https://best-practices.8004scan.io/docs/01-agent-metadata-standard.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c15d612a760f33f39c6f525a77409a0b66066fe2f601df56c4b8c33cc89da69c"
 }

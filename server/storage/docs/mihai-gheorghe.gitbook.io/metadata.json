@@ -122,5 +122,147 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://mihai-gheorghe.gitbook.io/tic/basic-web-principles/the-pillars-of-a-web-page",
+      "canonicalSeedUrl": "https://mihai-gheorghe.gitbook.io/tic/basic-web-principles/the-pillars-of-a-web-page",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-26T19:45:56.753Z",
+      "completedAt": "2025-01-26T19:45:56.753Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://mihai-gheorghe.gitbook.io/tic/basic-web-principles/the-pillars-of-a-web-page",
+          "canonicalUrl": "https://mihai-gheorghe.gitbook.io/tic/basic-web-principles/the-pillars-of-a-web-page",
+          "status": "valid"
+        }
+      ],
+      "id": "16054c34b005ebeb3e220fed117628667adb5d9bd8517b48ebe2ac6b10cb8989",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5e5c404d660411458d122add03db1c3e49940f20cb9c7e46f2753a071406de65",
+      "filename": "documentation_2025-01-26T19:45:56.753Z.md",
+      "contentHash": "299ef09eb63fb62a0b9cae1b7b6030426f16ed140bfb249c93bbe18f2973f48d",
+      "sourceUrl": "https://mihai-gheorghe.gitbook.io/tic/basic-web-principles/the-pillars-of-a-web-page",
+      "canonicalSourceUrl": "https://mihai-gheorghe.gitbook.io/tic/basic-web-principles/the-pillars-of-a-web-page",
+      "capturedAt": "2025-01-26T19:45:56.753Z",
+      "crawlRunId": "16054c34b005ebeb3e220fed117628667adb5d9bd8517b48ebe2ac6b10cb8989",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "The pillars of a web page | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/basic-web-principles/the-pillars-of-a-web-page"
+        },
+        {
+          "type": "Extra resources | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/basic-html/resurse-suplimentare"
+        },
+        {
+          "type": "Extra Resources | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/basic-javascript/extra-resources"
+        },
+        {
+          "type": "How web pages work | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/basic-web-principles/untitled"
+        },
+        {
+          "type": "The Color Game | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/basic-javascript/the-color-game"
+        },
+        {
+          "type": "Programming paradigms | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/programming-paradigms"
+        },
+        {
+          "type": "Extra Resources | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/basic-css/resurse-suplimentare"
+        },
+        {
+          "type": "Runtime Engine, Callstack, Scope | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/advanced-javascript/runtime-engine-callstack"
+        },
+        {
+          "type": "Advanced Positioning | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/basic-css/advanced-positioning"
+        },
+        {
+          "type": "Description and basic syntax | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/basic-javascript/description-and-basic-syntax"
+        },
+        {
+          "type": "Description and Basic Syntax | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/basic-html/descriere-limbaj"
+        },
+        {
+          "type": "Basic assignment | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/basic-javascript/basic-assignment"
+        },
+        {
+          "type": "The Document Object Model | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/basic-javascript/the-document-object-model"
+        },
+        {
+          "type": "Extra: Getting Started with GitHub | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/basic-web-principles/extra-getting-started-with-github"
+        },
+        {
+          "type": "Description and Basic Syntax | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/basic-css/descriere-limbaj"
+        },
+        {
+          "type": "ES6 | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/advanced-javascript/es6"
+        },
+        {
+          "type": "OOP vs. Functional Programming | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/oop-vs.-functional-programming"
+        },
+        {
+          "type": "Securing your database | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/firebase/securing-your-database"
+        },
+        {
+          "type": "Tehnologii ale informaţiei şi comunicaţiilor (TIC) | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic"
+        },
+        {
+          "type": "Database as a Service | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/firebase/database-as-a-service"
+        },
+        {
+          "type": "Google Cloud Firestore | TIC",
+          "url": "https://mihai-gheorghe.gitbook.io/tic/firebase/setting-up-firebase"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5e5c404d660411458d122add03db1c3e49940f20cb9c7e46f2753a071406de65"
 }

@@ -28,5 +28,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.aura.build/learn/prompt-for-styling",
+      "canonicalSeedUrl": "https://www.aura.build/learn/prompt-for-styling",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-24T08:47:40.439Z",
+      "completedAt": "2025-09-24T08:47:40.439Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.aura.build/learn/prompt-for-styling",
+          "canonicalUrl": "https://www.aura.build/learn/prompt-for-styling",
+          "status": "valid"
+        }
+      ],
+      "id": "24f4f8a7c7f726d01438f5eefe3079abb0a2237bf757fd2b813ff04b1bdf69ba",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "610d9c2f9b9686adee52c1462422e5e0167fd0de5ac13598959cc72192f8cb78",
+      "filename": "documentation_2025-09-24T08:47:40.439Z.md",
+      "contentHash": "31bf80886caea4ddf6bcbdfe41bbcfd121edeb3755dd34c2fce94b1359fc9abb",
+      "sourceUrl": "https://www.aura.build/learn/prompt-for-styling",
+      "canonicalSourceUrl": "https://www.aura.build/learn/prompt-for-styling",
+      "capturedAt": "2025-09-24T08:47:40.439Z",
+      "crawlRunId": "24f4f8a7c7f726d01438f5eefe3079abb0a2237bf757fd2b813ff04b1bdf69ba",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Styling Prompting | Aura Design Learning Center",
+          "url": "https://www.aura.build/learn/prompt-for-styling"
+        },
+        {
+          "type": "Layout Prompting | Aura Design Learning Center",
+          "url": "https://www.aura.build/learn/prompt-for-layout"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "610d9c2f9b9686adee52c1462422e5e0167fd0de5ac13598959cc72192f8cb78"
 }

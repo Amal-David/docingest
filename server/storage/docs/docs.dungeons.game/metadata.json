@@ -132,5 +132,175 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.dungeons.game/",
+      "canonicalSeedUrl": "https://docs.dungeons.game/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-02T14:00:57.714Z",
+      "completedAt": "2025-04-02T14:00:57.714Z",
+      "providerTotals": {
+        "discovered": 28,
+        "returned": 28,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.dungeons.game/",
+          "canonicalUrl": "https://docs.dungeons.game/",
+          "status": "valid"
+        }
+      ],
+      "id": "f26b2120577f71f5b9b5ae79b12199d167796274b0993255c3f8d402af404f40",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1968b0bfb42f44ecf5c0a0b03e2457e63fa2ef83136a37b2de2e49ae59575d6e",
+      "filename": "documentation_2025-04-02T14:00:57.714Z.md",
+      "contentHash": "d0498819ea3cadddb1b29a6dcd0fdbe1356b158aff534e14b565235f5fb060b1",
+      "sourceUrl": "https://docs.dungeons.game/",
+      "canonicalSourceUrl": "https://docs.dungeons.game/",
+      "capturedAt": "2025-04-02T14:00:57.714Z",
+      "crawlRunId": "f26b2120577f71f5b9b5ae79b12199d167796274b0993255c3f8d402af404f40",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 28,
+      "successfulPages": 28,
+      "structure": [
+        {
+          "type": "Introduction | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/"
+        },
+        {
+          "type": "Banker | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/defi-dungeons/heroes/banker"
+        },
+        {
+          "type": "Heroes | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/defi-dungeons/heroes"
+        },
+        {
+          "type": "Adventurer | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/defi-dungeons/heroes/adventurer"
+        },
+        {
+          "type": "Dungeons | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/dungeons"
+        },
+        {
+          "type": "$GOLD Token | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/defi-dungeons/usdgold-token"
+        },
+        {
+          "type": "Dungeon Mechanics | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/dungeons/dungeon-mechanics"
+        },
+        {
+          "type": "Quests | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/quests"
+        },
+        {
+          "type": "Quest Mechanics | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/quests/quest-mechanics"
+        },
+        {
+          "type": "Items | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/items"
+        },
+        {
+          "type": "Equipment | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/items/equipment"
+        },
+        {
+          "type": "Stats | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/the-training-ground/stats"
+        },
+        {
+          "type": "Combat Training | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/the-training-ground/combat-training"
+        },
+        {
+          "type": "Loot | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/items/loot"
+        },
+        {
+          "type": "Banking | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/the-tavern/banking"
+        },
+        {
+          "type": "Talents | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/the-training-ground/talents"
+        },
+        {
+          "type": "The Training Ground | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/the-training-ground"
+        },
+        {
+          "type": "The Tavern | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/the-tavern"
+        },
+        {
+          "type": "NFT Marketplace | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/nft-marketplace"
+        },
+        {
+          "type": "$GOLD Staking | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/the-tavern/usdgold-staking"
+        },
+        {
+          "type": "Introduction | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/defi-dungeons"
+        },
+        {
+          "type": "Economy & Expansions | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/economy-and-expansions"
+        },
+        {
+          "type": "Loot Exchange | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/the-tavern/loot-exchange"
+        },
+        {
+          "type": "Summoning | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/summoning"
+        },
+        {
+          "type": "Raids | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/raids"
+        },
+        {
+          "type": "Item Vault | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/the-tavern/item-vault"
+        },
+        {
+          "type": "Dungeons | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game"
+        },
+        {
+          "type": "Referrals | DeFi Dungeons",
+          "url": "https://docs.dungeons.game/the-game/referrals"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1968b0bfb42f44ecf5c0a0b03e2457e63fa2ef83136a37b2de2e49ae59575d6e"
 }

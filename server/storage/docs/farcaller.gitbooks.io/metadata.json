@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://farcaller.gitbooks.io/nbtb/content/",
+      "canonicalSeedUrl": "https://farcaller.gitbooks.io/nbtb/content",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-08T14:10:26.665Z",
+      "completedAt": "2025-04-08T14:10:26.665Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://farcaller.gitbooks.io/nbtb/content/",
+          "canonicalUrl": "https://farcaller.gitbooks.io/nbtb/content",
+          "status": "valid"
+        }
+      ],
+      "id": "97d5b69a339697c371a07c2b3ca416dc4a5dbc0957965a5c5ea26e9f1d8ac6c5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2faf11cb802ad7573351927388d8a841fa14a6afb6896eb251d0b9a371bdcfd3",
+      "filename": "documentation_2025-04-08T14:10:26.665Z.md",
+      "contentHash": "47eb6a9b614cad19e1f4756bfbfa74e78b39c151cbdeaa1cfde8b5bb5e2cd42f",
+      "sourceUrl": "https://farcaller.gitbooks.io/nbtb/content/",
+      "canonicalSourceUrl": "https://farcaller.gitbooks.io/nbtb/content",
+      "capturedAt": "2025-04-08T14:10:26.665Z",
+      "crawlRunId": "97d5b69a339697c371a07c2b3ca416dc4a5dbc0957965a5c5ea26e9f1d8ac6c5",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Introduction · The No-Bullshit Tulpa Book",
+          "url": "https://farcaller.gitbooks.io/nbtb/content/"
+        },
+        {
+          "type": "What is a Tulpa? · The No-Bullshit Tulpa Book",
+          "url": "https://farcaller.gitbooks.io/nbtb/content/tulpa.html"
+        },
+        {
+          "type": "Creating a Tulpa · The No-Bullshit Tulpa Book",
+          "url": "https://farcaller.gitbooks.io/nbtb/content/tulpamancy101.html"
+        },
+        {
+          "type": "Cognitive Thinking · The No-Bullshit Tulpa Book",
+          "url": "https://farcaller.gitbooks.io/nbtb/content/cognitive.html"
+        },
+        {
+          "type": "Before Starting · The No-Bullshit Tulpa Book",
+          "url": "https://farcaller.gitbooks.io/nbtb/content/prerequisites.html"
+        },
+        {
+          "type": "Living Through Experiencing · The No-Bullshit Tulpa Book",
+          "url": "https://farcaller.gitbooks.io/nbtb/content/tulpafocus-explained.html"
+        },
+        {
+          "type": "Points of Focus · The No-Bullshit Tulpa Book",
+          "url": "https://farcaller.gitbooks.io/nbtb/content/tulpafocus.html"
+        },
+        {
+          "type": "The Calm Mind · The No-Bullshit Tulpa Book",
+          "url": "https://farcaller.gitbooks.io/nbtb/content/meditation.html"
+        },
+        {
+          "type": "READ ME FIRST · The No-Bullshit Tulpa Book",
+          "url": "https://farcaller.gitbooks.io/nbtb/content/preface.html"
+        },
+        {
+          "type": "Starting the Practice · The No-Bullshit Tulpa Book",
+          "url": "https://farcaller.gitbooks.io/nbtb/content/earlytup.html"
+        },
+        {
+          "type": "A Conscious Tulpa · The No-Bullshit Tulpa Book",
+          "url": "https://farcaller.gitbooks.io/nbtb/content/conscious-tulpa.html"
+        },
+        {
+          "type": "The Development Stages · The No-Bullshit Tulpa Book",
+          "url": "https://farcaller.gitbooks.io/nbtb/content/development-stages.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://farcaller.gitbooks.io/nbtb/content/TODO.todo"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2faf11cb802ad7573351927388d8a841fa14a6afb6896eb251d0b9a371bdcfd3"
 }

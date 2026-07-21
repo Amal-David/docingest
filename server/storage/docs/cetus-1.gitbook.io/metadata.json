@@ -140,5 +140,183 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk",
+      "canonicalSeedUrl": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-11T01:07:05.626Z",
+      "completedAt": "2025-03-11T01:07:05.626Z",
+      "providerTotals": {
+        "discovered": 30,
+        "returned": 30,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk",
+          "canonicalUrl": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk",
+          "status": "valid"
+        }
+      ],
+      "id": "6f5600e582b1b2b5428ba51ea763ee2c08002065bb1d2c4fb099146cfb363301",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "30218669bfd067c3e828284e6abde3b4aaa2fa7f28978e1f33da17f6de241bd4",
+      "filename": "documentation_2025-03-11T01:07:05.626Z.md",
+      "contentHash": "a67184c2fee9e7b5afd515720026815f03e2032977d81a86a8b96e7a8d801b05",
+      "sourceUrl": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk",
+      "canonicalSourceUrl": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk",
+      "capturedAt": "2025-03-11T01:07:05.626Z",
+      "crawlRunId": "6f5600e582b1b2b5428ba51ea763ee2c08002065bb1d2c4fb099146cfb363301",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "structure": [
+        {
+          "type": "via SDK | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk"
+        },
+        {
+          "type": "Prerequisites | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/prerequisites"
+        },
+        {
+          "type": "Getting Started | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/getting-started"
+        },
+        {
+          "type": "Features Available | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available"
+        },
+        {
+          "type": "Get reward | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/get-reward"
+        },
+        {
+          "type": "Get clmm pools | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/get-clmm-pools"
+        },
+        {
+          "type": "Get positions | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/get-positions"
+        },
+        {
+          "type": "Partner swap | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/partner-swap"
+        },
+        {
+          "type": "Fee | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/fee"
+        },
+        {
+          "type": "Changelog | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/changelog"
+        },
+        {
+          "type": "Create clmm pool | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/create-clmm-pool"
+        },
+        {
+          "type": "Price impact | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/price-impact"
+        },
+        {
+          "type": "Collect fees | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/collect-fees"
+        },
+        {
+          "type": "Price, tick index and sqrt price correlation calculation | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/price-tick-index-and-sqrt-price-correlation-calculation"
+        },
+        {
+          "type": "Get ticks | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/get-ticks"
+        },
+        {
+          "type": "Open position | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/open-position"
+        },
+        {
+          "type": "Getting Started | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-contract/getting-started"
+        },
+        {
+          "type": "Add liquidity | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/add-liquidity"
+        },
+        {
+          "type": "Swap | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/swap"
+        },
+        {
+          "type": "Liquidity and coin amounts calculation | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/liquidity-and-coin-amounts-calculation"
+        },
+        {
+          "type": "Collect rewards | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/collect-rewards"
+        },
+        {
+          "type": "Preswap | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/preswap"
+        },
+        {
+          "type": "Close position | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/close-position"
+        },
+        {
+          "type": "Smart router v1 | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/smart-router-v1"
+        },
+        {
+          "type": "Smart router v2 | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/smart-router-v2"
+        },
+        {
+          "type": "via Contract | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-contract"
+        },
+        {
+          "type": "APR correlation calculation | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/apr-correlation-calculation"
+        },
+        {
+          "type": "Remove liquidity | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/remove-liquidity"
+        },
+        {
+          "type": "Minimum received & Maximum sold | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-sdk/features-available/minimum-received-and-maximum-sold"
+        },
+        {
+          "type": "Data Structure | Cetus Developer Docs",
+          "url": "https://cetus-1.gitbook.io/cetus-developer-docs/developer/via-contract/data-structure"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "30218669bfd067c3e828284e6abde3b4aaa2fa7f28978e1f33da17f6de241bd4"
 }

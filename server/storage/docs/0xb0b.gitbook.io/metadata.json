@@ -248,5 +248,291 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2025/banksmarter",
+      "canonicalSeedUrl": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2025/banksmarter",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-26T08:35:49.488Z",
+      "completedAt": "2026-01-26T08:35:49.488Z",
+      "providerTotals": {
+        "discovered": 57,
+        "returned": 57,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2025/banksmarter",
+          "canonicalUrl": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2025/banksmarter",
+          "status": "valid"
+        }
+      ],
+      "id": "7daaae3fb2f0e01e4465addf3886bda1f0e601c2bceca0db0ba97fc091f7b372",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8648650f324755a5d10ff55337da7725cb1b50a85404b43f4671680f0043d677",
+      "filename": "documentation_2026-01-26T08:35:49.488Z.md",
+      "contentHash": "fd3344f2b2285faa615e6fb853200427cbc790cea675fce80e80a8c4130843b3",
+      "sourceUrl": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2025/banksmarter",
+      "canonicalSourceUrl": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2025/banksmarter",
+      "capturedAt": "2026-01-26T08:35:49.488Z",
+      "crawlRunId": "7daaae3fb2f0e01e4465addf3886bda1f0e601c2bceca0db0ba97fc091f7b372",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 57,
+      "successfulPages": 57,
+      "structure": [
+        {
+          "type": "BankSmarter | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2025/banksmarter"
+        },
+        {
+          "type": "Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups"
+        },
+        {
+          "type": "Azure: Tapper | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2026/azure-tapper"
+        },
+        {
+          "type": "2026 | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2026"
+        },
+        {
+          "type": "2025 | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025"
+        },
+        {
+          "type": "Advent of Cyber '25 Side Quest | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/advent-of-cyber-25-side-quest"
+        },
+        {
+          "type": "The Great Disappearing Act | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/advent-of-cyber-25-side-quest/the-great-disappearing-act"
+        },
+        {
+          "type": "Padelify | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/padelify"
+        },
+        {
+          "type": "Attacking LLMs | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/attacking-llms"
+        },
+        {
+          "type": "Azure: Hoppity Hop | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/azure-hoppity-hop"
+        },
+        {
+          "type": "Farewell | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/farewell"
+        },
+        {
+          "type": "2023 | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hackthebox/2023"
+        },
+        {
+          "type": "Sequence | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/sequence"
+        },
+        {
+          "type": "2026 | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2026"
+        },
+        {
+          "type": "2025 | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hackthebox/2025"
+        },
+        {
+          "type": "Event Horizon | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/event-horizon"
+        },
+        {
+          "type": "Carrotbane of My Existence | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/advent-of-cyber-25-side-quest/carrotbane-of-my-existence"
+        },
+        {
+          "type": "Voyage | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/voyage"
+        },
+        {
+          "type": "CAPTCHApocalypse | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/captchapocalypse"
+        },
+        {
+          "type": "Pressed | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/pressed"
+        },
+        {
+          "type": "Security Footage | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/security-footage"
+        },
+        {
+          "type": "2024 | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hackthebox/2024"
+        },
+        {
+          "type": "Directory | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/directory"
+        },
+        {
+          "type": "Azure: Eyes Wide Shut | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/azure-eyes-wide-shut"
+        },
+        {
+          "type": "Red Team Capstone Challenge | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/red-team-capstone-challenge"
+        },
+        {
+          "type": "Full Compromise of Parent Domain | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/red-team-capstone-challenge/full-compromise-of-parent-domain"
+        },
+        {
+          "type": "Extract | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/extract"
+        },
+        {
+          "type": "OSINT | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/red-team-capstone-challenge/osint"
+        },
+        {
+          "type": "Perimeter Breach | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/red-team-capstone-challenge/perimeter-breach"
+        },
+        {
+          "type": "Certified | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hackthebox/2025/certified"
+        },
+        {
+          "type": "Topology | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hackthebox/2023/topology"
+        },
+        {
+          "type": "Soupedecode 01 | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2025/soupedecode-01"
+        },
+        {
+          "type": "Initial Compromise of Active Directory | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/red-team-capstone-challenge/initial-compromise-of-active-directory"
+        },
+        {
+          "type": "Codify | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hackthebox/2024/codify"
+        },
+        {
+          "type": "Full Compromise of CORP Domain | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/red-team-capstone-challenge/full-compromise-of-corp-domain"
+        },
+        {
+          "type": "Verbose | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2026/verbose"
+        },
+        {
+          "type": "BoardLight | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hackthebox/2024/boardlight"
+        },
+        {
+          "type": "Full Compromise of BANK Domain | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/red-team-capstone-challenge/full-compromise-of-bank-domain"
+        },
+        {
+          "type": "Manager | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hackthebox/2024/manager"
+        },
+        {
+          "type": "Surveillance | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hackthebox/2024/surveillance"
+        },
+        {
+          "type": "Compromise of SWIFT and Payment Transfer | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/red-team-capstone-challenge/compromise-of-swift-and-payment-transfer"
+        },
+        {
+          "type": "Devvortex | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hackthebox/2024/devvortex"
+        },
+        {
+          "type": "Crafty | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hackthebox/2024/crafty"
+        },
+        {
+          "type": "Zipping | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hackthebox/2024/zipping"
+        },
+        {
+          "type": "Drive | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hackthebox/2024/drive"
+        },
+        {
+          "type": "2025 | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2025"
+        },
+        {
+          "type": "Compiled | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2023/compiled"
+        },
+        {
+          "type": "Static | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2025/static"
+        },
+        {
+          "type": "Lumon Industries | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2026/lumon-industries"
+        },
+        {
+          "type": "Hunter | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2025/hunter"
+        },
+        {
+          "type": "Lesson learned? | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2023/lesson-learned"
+        },
+        {
+          "type": "Flip | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2023/flip"
+        },
+        {
+          "type": "Prioritise | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2023/prioritise"
+        },
+        {
+          "type": "PivotSmarter | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2025/pivotsmarter"
+        },
+        {
+          "type": "Forgotten Implant | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2023/forgotten-implant"
+        },
+        {
+          "type": "Capture | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/tryhackme/2023/capture"
+        },
+        {
+          "type": "Triathlon | Writeups",
+          "url": "https://0xb0b.gitbook.io/writeups/hack-smarter-labs/2026/triathlon"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8648650f324755a5d10ff55337da7725cb1b50a85404b43f4671680f0043d677"
 }

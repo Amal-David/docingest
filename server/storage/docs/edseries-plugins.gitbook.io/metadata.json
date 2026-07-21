@@ -125,5 +125,159 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://edseries-plugins.gitbook.io/p/edtools/features/main-configuration-config.yml",
+      "canonicalSeedUrl": "https://edseries-plugins.gitbook.io/p/edtools/features/main-configuration-config.yml",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-18T01:34:59.469Z",
+      "completedAt": "2025-09-18T01:34:59.469Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/features/main-configuration-config.yml",
+          "canonicalUrl": "https://edseries-plugins.gitbook.io/p/edtools/features/main-configuration-config.yml",
+          "status": "valid"
+        }
+      ],
+      "id": "a412f3f4abbd04bf0e3f9fbceeb2e19622489fc0df76ba214661059951b4921a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1e1cea7a6175fa2c18313cdbefb47489f5eb8a357da7a368a84470a32b387142",
+      "filename": "documentation_2025-09-18T01:34:59.469Z.md",
+      "contentHash": "39f1d0ffa6d783755f9806c4b8baad1480feb87e8bc668e26a918f19d057abd2",
+      "sourceUrl": "https://edseries-plugins.gitbook.io/p/edtools/features/main-configuration-config.yml",
+      "canonicalSourceUrl": "https://edseries-plugins.gitbook.io/p/edtools/features/main-configuration-config.yml",
+      "capturedAt": "2025-09-18T01:34:59.469Z",
+      "crawlRunId": "a412f3f4abbd04bf0e3f9fbceeb2e19622489fc0df76ba214661059951b4921a",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "Main Configuration (config.yml) | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/features/main-configuration-config.yml"
+        },
+        {
+          "type": "OmniTools | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/features/omnitools"
+        },
+        {
+          "type": "Backpacks | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/features/backpacks"
+        },
+        {
+          "type": "Regen Zones | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/features/regen-zones"
+        },
+        {
+          "type": "Enchantments | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/features/enchantments"
+        },
+        {
+          "type": "GUIs | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/features/guis"
+        },
+        {
+          "type": "RivalPets | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/features/rivalpets"
+        },
+        {
+          "type": "Currencies & Leveling | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/features/currencies-and-leveling"
+        },
+        {
+          "type": "Events | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/api/events"
+        },
+        {
+          "type": "Other Features | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/features/other-features"
+        },
+        {
+          "type": "Zones API | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/api/zones-api"
+        },
+        {
+          "type": "OmniTool API | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/api/omnitool-api"
+        },
+        {
+          "type": "EdTools API | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/api/edtools-api"
+        },
+        {
+          "type": "APIEnchant Class | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/api/enchants-api/apienchant-class"
+        },
+        {
+          "type": "Placeholders | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/features/placeholders"
+        },
+        {
+          "type": "Commands | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/features/commands"
+        },
+        {
+          "type": "Currency API | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/api/currency-api"
+        },
+        {
+          "type": "Enchants API | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/api/enchants-api"
+        },
+        {
+          "type": "Sell API | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/api/sell-api"
+        },
+        {
+          "type": "Leveling API | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/api/leveling-api"
+        },
+        {
+          "type": "GUIs API | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/api/guis-api"
+        },
+        {
+          "type": "Backpacks API | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/api/backpacks-api"
+        },
+        {
+          "type": "Boosters API | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/api/boosters-api"
+        },
+        {
+          "type": "Lucky Blocks API | EdSeries Plugins",
+          "url": "https://edseries-plugins.gitbook.io/p/edtools/api/lucky-blocks-api"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1e1cea7a6175fa2c18313cdbefb47489f5eb8a357da7a368a84470a32b387142"
 }

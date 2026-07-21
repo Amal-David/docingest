@@ -33,5 +33,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://opentools.com",
+      "canonicalSeedUrl": "https://opentools.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-05T22:45:45.101Z",
+      "completedAt": "2025-04-05T22:45:45.101Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://opentools.com",
+          "canonicalUrl": "https://opentools.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "9278a440d8f1604ddcfab7e606ef88444438650769b842eacb0bd6ddf36df995",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ef82366a1a9094e020576f1e9e0f60c99df9e5d892cbd3519b6f98535d6bde3b",
+      "filename": "documentation_2025-04-05T22:45:45.101Z.md",
+      "contentHash": "8fd45905472cdce4465c465a6b1be62d640d0c415dc82f93612f8887705aeb7e",
+      "sourceUrl": "https://opentools.com",
+      "canonicalSourceUrl": "https://opentools.com/",
+      "capturedAt": "2025-04-05T22:45:45.101Z",
+      "crawlRunId": "9278a440d8f1604ddcfab7e606ef88444438650769b842eacb0bd6ddf36df995",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "OpenTools | The API for LLM tool use",
+          "url": "https://opentools.com"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ef82366a1a9094e020576f1e9e0f60c99df9e5d892cbd3519b6f98535d6bde3b"
 }

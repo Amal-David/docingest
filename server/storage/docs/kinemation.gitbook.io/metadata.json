@@ -258,5 +258,283 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://kinemation.gitbook.io/scriptable-animation-system",
+      "canonicalSeedUrl": "https://kinemation.gitbook.io/scriptable-animation-system",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-02T14:35:53.375Z",
+      "completedAt": "2026-04-02T14:35:53.375Z",
+      "providerTotals": {
+        "discovered": 55,
+        "returned": 55,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system",
+          "canonicalUrl": "https://kinemation.gitbook.io/scriptable-animation-system",
+          "status": "valid"
+        }
+      ],
+      "id": "fcf090248889ab140f2ee598de9aa91fcbb8773aeef2c2be6ef486c7b5be7a26",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7e061c2444cd052879dbaf9f8229e701f48bcd7e101a8294216433e186259597",
+      "filename": "documentation_2026-04-02T14:35:53.375Z.md",
+      "contentHash": "acf6fa3e157be3f84ca967d06f8581fb30d8c872f9f11f967f8361586de13149",
+      "sourceUrl": "https://kinemation.gitbook.io/scriptable-animation-system",
+      "canonicalSourceUrl": "https://kinemation.gitbook.io/scriptable-animation-system",
+      "capturedAt": "2026-04-02T14:35:53.375Z",
+      "crawlRunId": "fcf090248889ab140f2ee598de9aa91fcbb8773aeef2c2be6ef486c7b5be7a26",
+      "upstreamVersion": "1.0.2",
+      "upstreamChannel": "latest",
+      "totalPages": 55,
+      "successfulPages": 55,
+      "structure": [
+        {
+          "type": "Welcome! | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system"
+        },
+        {
+          "type": "Profiles and Layers | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/workflow/profiles-and-layers"
+        },
+        {
+          "type": "Playing Animations | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/workflow/playing-animations"
+        },
+        {
+          "type": "Integration | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/workflow/integration"
+        },
+        {
+          "type": "Character Rig | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/workflow/character-rig"
+        },
+        {
+          "type": "Components | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/workflow/components"
+        },
+        {
+          "type": "Linking | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/workflow/linking"
+        },
+        {
+          "type": "Extending the System | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/workflow/extending-the-system"
+        },
+        {
+          "type": "Framework Architecture | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/framework-architecture"
+        },
+        {
+          "type": "Weapons and Items | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/demo-project/weapons-and-items"
+        },
+        {
+          "type": "Animator Layers | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers"
+        },
+        {
+          "type": "Resources | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/demo-project/resources"
+        },
+        {
+          "type": "Attachment System | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/demo-project/attachment-system"
+        },
+        {
+          "type": "Controller | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/demo-project/controller"
+        },
+        {
+          "type": "Animator Profiles | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-profiles"
+        },
+        {
+          "type": "Welcome! | PRAS Documentation",
+          "url": "https://kinemation.gitbook.io/pras-documentation"
+        },
+        {
+          "type": "Input System | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/input-system"
+        },
+        {
+          "type": "Rig | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/rig"
+        },
+        {
+          "type": "Recoil Settings | PRAS Documentation",
+          "url": "https://kinemation.gitbook.io/pras-documentation/basics/recoil-settings"
+        },
+        {
+          "type": "Recoil Animation | PRAS Documentation",
+          "url": "https://kinemation.gitbook.io/pras-documentation/basics/recoil-animation"
+        },
+        {
+          "type": "Getting Set Up | PRAS Documentation",
+          "url": "https://kinemation.gitbook.io/pras-documentation/tutorials/getting-set-up"
+        },
+        {
+          "type": "How to implement attachments | PRAS Documentation",
+          "url": "https://kinemation.gitbook.io/pras-documentation/tutorials/how-to-implement-attachments"
+        },
+        {
+          "type": "Animator Layer | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layer"
+        },
+        {
+          "type": "Aiming doesn't work | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/aiming-doesnt-work"
+        },
+        {
+          "type": "Twisted feet when looking left/right | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/twisted-feet-when-looking-left-right"
+        },
+        {
+          "type": "New Animation Library | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/new-animation-library"
+        },
+        {
+          "type": "Weapon Layer General | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers/weapon-layer-general"
+        },
+        {
+          "type": "Additive Layer | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers/additive-layer"
+        },
+        {
+          "type": "Pose Sampler Layer | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers/pose-sampler-layer"
+        },
+        {
+          "type": "Weapon Positioning | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/troubleshooting/weapon-positioning"
+        },
+        {
+          "type": "Can't Look Around | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/troubleshooting/cant-look-around"
+        },
+        {
+          "type": "Collision Layer | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers/collision-layer"
+        },
+        {
+          "type": "Initialization Warnings | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/troubleshooting/initialization-warnings"
+        },
+        {
+          "type": "Attach Hand Layer | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers/attach-hand-layer"
+        },
+        {
+          "type": "Ads Layer | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers/ads-layer"
+        },
+        {
+          "type": "Recoil Animation | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/recoil-system/recoil-animation"
+        },
+        {
+          "type": "Weapon is not moving | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/troubleshooting/weapon-is-not-moving"
+        },
+        {
+          "type": "Pose Offset Layer | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers/pose-offset-layer"
+        },
+        {
+          "type": "Recoil Pattern | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/recoil-system/recoil-pattern"
+        },
+        {
+          "type": "Changelog | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/misc/changelog"
+        },
+        {
+          "type": "4.7.0 Update | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/misc/changelog/4.7.0-update"
+        },
+        {
+          "type": "IK Motion Layer | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers/ik-motion-layer"
+        },
+        {
+          "type": "Look Layer | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers/look-layer"
+        },
+        {
+          "type": "IK Layer | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers/ik-layer"
+        },
+        {
+          "type": "Tools | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/tools"
+        },
+        {
+          "type": "View Layer | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers/view-layer"
+        },
+        {
+          "type": "Sway Layer | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers/sway-layer"
+        },
+        {
+          "type": "Turn Layer | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers/turn-layer"
+        },
+        {
+          "type": "Blending Layer | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals/animator-layers/blending-layer"
+        },
+        {
+          "type": "Camera Shake | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/recoil-system/camera-shake"
+        },
+        {
+          "type": "Rig | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/fundamentals"
+        },
+        {
+          "type": "Resources | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/demo-project"
+        },
+        {
+          "type": "Initialization Warnings | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/troubleshooting"
+        },
+        {
+          "type": "Changelog | FPS Animation Framework",
+          "url": "https://kinemation.gitbook.io/scriptable-animation-system/misc"
+        },
+        {
+          "type": "Recoil Animation | PRAS Documentation",
+          "url": "https://kinemation.gitbook.io/pras-documentation/basics"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7e061c2444cd052879dbaf9f8229e701f48bcd7e101a8294216433e186259597"
 }

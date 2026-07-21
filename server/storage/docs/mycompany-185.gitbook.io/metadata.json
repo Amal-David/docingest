@@ -97,5 +97,131 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://mycompany-185.gitbook.io/mycompany-docs",
+      "canonicalSeedUrl": "https://mycompany-185.gitbook.io/mycompany-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-12T21:21:36.136Z",
+      "completedAt": "2026-04-12T21:21:36.136Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs",
+          "canonicalUrl": "https://mycompany-185.gitbook.io/mycompany-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "620b446ba9f18a9600e153167cd258a4e31aab8751ff870d7e0bc51db948b48c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4203f53b070087d2524d937a96c3bbe0a99921e9b8fc41f141089bc6d4d23709",
+      "filename": "documentation_2026-04-12T21:21:36.136Z.md",
+      "contentHash": "c23d3a5a37836bac12ab447d5a0ac71c2e0cbe90463d20667069cc63e9d9574a",
+      "sourceUrl": "https://mycompany-185.gitbook.io/mycompany-docs",
+      "canonicalSourceUrl": "https://mycompany-185.gitbook.io/mycompany-docs",
+      "capturedAt": "2026-04-12T21:21:36.136Z",
+      "crawlRunId": "620b446ba9f18a9600e153167cd258a4e31aab8751ff870d7e0bc51db948b48c",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Actor | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs"
+        },
+        {
+          "type": "Cache | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/cache"
+        },
+        {
+          "type": "Console | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/console"
+        },
+        {
+          "type": "Debug | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/debug"
+        },
+        {
+          "type": "Drawing | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/drawing"
+        },
+        {
+          "type": "File System | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/file-system"
+        },
+        {
+          "type": "Input | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/input"
+        },
+        {
+          "type": "Metatable | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/metatable"
+        },
+        {
+          "type": "Instance | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/instance"
+        },
+        {
+          "type": "RakNet | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/raknet"
+        },
+        {
+          "type": "Web Sockets | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/web-sockets"
+        },
+        {
+          "type": "Crypt | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/crypt"
+        },
+        {
+          "type": "Closures | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/closures"
+        },
+        {
+          "type": "Scripts | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/scripts"
+        },
+        {
+          "type": "Miscellaneous | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/miscellaneous"
+        },
+        {
+          "type": "oth | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/oth"
+        },
+        {
+          "type": "Regex | MyCompany Docs",
+          "url": "https://mycompany-185.gitbook.io/mycompany-docs/regex"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4203f53b070087d2524d937a96c3bbe0a99921e9b8fc41f141089bc6d4d23709"
 }

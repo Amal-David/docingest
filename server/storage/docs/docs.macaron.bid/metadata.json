@@ -73,5 +73,107 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.macaron.bid/protocol/macaron-flavor",
+      "canonicalSeedUrl": "https://docs.macaron.bid/protocol/macaron-flavor",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-16T02:02:52.378Z",
+      "completedAt": "2025-12-16T02:02:52.378Z",
+      "providerTotals": {
+        "discovered": 11,
+        "returned": 11,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.macaron.bid/protocol/macaron-flavor",
+          "canonicalUrl": "https://docs.macaron.bid/protocol/macaron-flavor",
+          "status": "valid"
+        }
+      ],
+      "id": "3aa91f2aabe45f2ce614627c64c1e575fb772b0148793ccfbd93778ccb553f77",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c23d708faec1f42eb09c8c1791d988b4f74b4d30f5af27e625b11d10d98d8352",
+      "filename": "documentation_2025-12-16T02:02:52.378Z.md",
+      "contentHash": "5bfae0adae4ea3f39bce583d66095ef11e22581231c5e7d125954674fbbb4db8",
+      "sourceUrl": "https://docs.macaron.bid/protocol/macaron-flavor",
+      "canonicalSourceUrl": "https://docs.macaron.bid/protocol/macaron-flavor",
+      "capturedAt": "2025-12-16T02:02:52.378Z",
+      "crawlRunId": "3aa91f2aabe45f2ce614627c64c1e575fb772b0148793ccfbd93778ccb553f77",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 11,
+      "successfulPages": 11,
+      "structure": [
+        {
+          "type": "Macaron Flavor | MACARON",
+          "url": "https://docs.macaron.bid/protocol/macaron-flavor"
+        },
+        {
+          "type": "Intro | MACARON",
+          "url": "https://docs.macaron.bid"
+        },
+        {
+          "type": "Mining & Auction | MACARON",
+          "url": "https://docs.macaron.bid/protocol/mining-and-auction"
+        },
+        {
+          "type": "Auction Distribution | MACARON",
+          "url": "https://docs.macaron.bid/protocol/auction-distribution"
+        },
+        {
+          "type": "Auction Contribution Pool | MACARON",
+          "url": "https://docs.macaron.bid/protocol/auction-contribution-pool"
+        },
+        {
+          "type": "Refining | MACARON",
+          "url": "https://docs.macaron.bid/protocol/refining"
+        },
+        {
+          "type": "Halving | MACARON",
+          "url": "https://docs.macaron.bid/more/halving"
+        },
+        {
+          "type": "Official link | MACARON",
+          "url": "https://docs.macaron.bid/more/official-link"
+        },
+        {
+          "type": "Tokenomics | MACARON",
+          "url": "https://docs.macaron.bid/more/tokenomics"
+        },
+        {
+          "type": "Macaron Flavor | MACARON",
+          "url": "https://docs.macaron.bid/protocol"
+        },
+        {
+          "type": "Tokenomics | MACARON",
+          "url": "https://docs.macaron.bid/more"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c23d708faec1f42eb09c8c1791d988b4f74b4d30f5af27e625b11d10d98d8352"
 }

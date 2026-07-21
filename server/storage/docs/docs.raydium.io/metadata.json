@@ -136,5 +136,179 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.raydium.io/raydium/getting-started/best-practices",
+      "canonicalSeedUrl": "https://docs.raydium.io/raydium/getting-started/best-practices",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-19T03:53:13.151Z",
+      "completedAt": "2025-01-19T03:53:13.151Z",
+      "providerTotals": {
+        "discovered": 29,
+        "returned": 29,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.raydium.io/raydium/getting-started/best-practices",
+          "canonicalUrl": "https://docs.raydium.io/raydium/getting-started/best-practices",
+          "status": "valid"
+        }
+      ],
+      "id": "2a59c6eb89fbfccc086ad10fb4344a3076c71aa52c3b870bc6c96d214c2ced27",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "01c0a21f9216ed8fe7c5f9a36311eebcaea963f3df6bdf61cbc22b86124ed277",
+      "filename": "documentation_2025-01-19T03:53:13.151Z.md",
+      "contentHash": "2f4b0fa832073a6bd765daaf5387b45ead299f6bb6ceee163b13b1b760691938",
+      "sourceUrl": "https://docs.raydium.io/raydium/getting-started/best-practices",
+      "canonicalSourceUrl": "https://docs.raydium.io/raydium/getting-started/best-practices",
+      "capturedAt": "2025-01-19T03:53:13.151Z",
+      "crawlRunId": "2a59c6eb89fbfccc086ad10fb4344a3076c71aa52c3b870bc6c96d214c2ced27",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 29,
+      "successfulPages": 29,
+      "structure": [
+        {
+          "type": "Best practices |",
+          "url": "https://docs.raydium.io/raydium/getting-started/best-practices"
+        },
+        {
+          "type": "How-to guides |",
+          "url": "https://docs.raydium.io/raydium/getting-started/how-to-guides"
+        },
+        {
+          "type": "Welcome to UI V3 |",
+          "url": "https://docs.raydium.io/raydium/welcome-to-ui-v3"
+        },
+        {
+          "type": "Position creation cost (CLMM) |",
+          "url": "https://docs.raydium.io/raydium/liquidity-providers/providing-concentrated-liquidity-clmm/position-creation-cost-clmm"
+        },
+        {
+          "type": "APIs |",
+          "url": "https://docs.raydium.io/raydium/protocol/developers/apis"
+        },
+        {
+          "type": "Blinks and Referrals |",
+          "url": "https://docs.raydium.io/raydium/traders/blinks-and-referrals"
+        },
+        {
+          "type": "Developers |",
+          "url": "https://docs.raydium.io/raydium/protocol/developers"
+        },
+        {
+          "type": "SPL Wallet |",
+          "url": "https://docs.raydium.io/raydium/getting-started/spl-wallets"
+        },
+        {
+          "type": "CLMM Bug Bounty Details |",
+          "url": "https://docs.raydium.io/raydium/protocol/bug-bounty-program/clmm-bug-bounty-details"
+        },
+        {
+          "type": "Hybrid AMM Bug Bounty Details |",
+          "url": "https://docs.raydium.io/raydium/protocol/bug-bounty-program/hybrid-amm-bug-bounty-details"
+        },
+        {
+          "type": "Addresses |",
+          "url": "https://docs.raydium.io/raydium/protocol/developers/addresses"
+        },
+        {
+          "type": "Providing Concentrated Liquidity (CLMM) |",
+          "url": "https://docs.raydium.io/raydium/liquidity-providers/providing-concentrated-liquidity-clmm"
+        },
+        {
+          "type": "Liquidity providing FAQ |",
+          "url": "https://docs.raydium.io/raydium/liquidity-providers/liquidity-providing-faq"
+        },
+        {
+          "type": "Pool creation fees |",
+          "url": "https://docs.raydium.io/raydium/pool-creation/pool-creation-fees"
+        },
+        {
+          "type": "Intro on Concentrated Liquidity |",
+          "url": "https://docs.raydium.io/raydium/liquidity-providers/providing-concentrated-liquidity-clmm/intro-on-concentrated-liquidity"
+        },
+        {
+          "type": "RAY Buybacks |",
+          "url": "https://docs.raydium.io/raydium/ray_token/ray-buybacks"
+        },
+        {
+          "type": "Providing Constant Product liquidity |",
+          "url": "https://docs.raydium.io/raydium/liquidity-providers/liquidity-pools"
+        },
+        {
+          "type": "Burn & Earn |",
+          "url": "https://docs.raydium.io/raydium/pool-creation/burn-and-earn"
+        },
+        {
+          "type": "Swap FAQ |",
+          "url": "https://docs.raydium.io/raydium/traders/swapping/trade-and-swap"
+        },
+        {
+          "type": "Pool creation FAQ |",
+          "url": "https://docs.raydium.io/raydium/pool-creation-faq"
+        },
+        {
+          "type": "Swapping |",
+          "url": "https://docs.raydium.io/raydium/traders/swapping"
+        },
+        {
+          "type": "The Raydium Protocol |",
+          "url": "https://docs.raydium.io/raydium/protocol/untitled-1"
+        },
+        {
+          "type": "RAY Staking |",
+          "url": "https://docs.raydium.io/raydium/ray_token/stake-ray"
+        },
+        {
+          "type": "Buying and selling digital assets |",
+          "url": "https://docs.raydium.io/raydium/getting-started/spl-wallets/buying-and-selling-digital-assets"
+        },
+        {
+          "type": "FAQ |",
+          "url": "https://docs.raydium.io/raydium/getting-started/faq"
+        },
+        {
+          "type": "Bug Bounty Program |",
+          "url": "https://docs.raydium.io/raydium/protocol/bug-bounty-program"
+        },
+        {
+          "type": "Security |",
+          "url": "https://docs.raydium.io/raydium/protocol/security"
+        },
+        {
+          "type": "Acceleraytor |",
+          "url": "https://docs.raydium.io/raydium/ray_token/acceleraytor"
+        },
+        {
+          "type": "Access Controls |",
+          "url": "https://docs.raydium.io/raydium/protocol/security/access-controls"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "01c0a21f9216ed8fe7c5f9a36311eebcaea963f3df6bdf61cbc22b86124ed277"
 }

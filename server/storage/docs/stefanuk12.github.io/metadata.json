@@ -65,5 +65,99 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://stefanuk12.github.io/aimwork/api/Aimwork",
+      "canonicalSeedUrl": "https://stefanuk12.github.io/aimwork/api/Aimwork",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-16T04:10:23.461Z",
+      "completedAt": "2025-11-16T04:10:23.461Z",
+      "providerTotals": {
+        "discovered": 9,
+        "returned": 9,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://stefanuk12.github.io/aimwork/api/Aimwork",
+          "canonicalUrl": "https://stefanuk12.github.io/aimwork/api/Aimwork",
+          "status": "valid"
+        }
+      ],
+      "id": "ba45543d9b08dca1a9a92f965215cf68117317a96d4da62fe92d03ec00ce2105",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "05e7f3db2aacdc9372b2ace9959216eb3271d3b912e2006e25a405eb795517f4",
+      "filename": "documentation_2025-11-16T04:10:23.461Z.md",
+      "contentHash": "1bae9696a8679215bd8bc27d724807c938fa9d25f8d5945d02e4491fae7632dd",
+      "sourceUrl": "https://stefanuk12.github.io/aimwork/api/Aimwork",
+      "canonicalSourceUrl": "https://stefanuk12.github.io/aimwork/api/Aimwork",
+      "capturedAt": "2025-11-16T04:10:23.461Z",
+      "crawlRunId": "ba45543d9b08dca1a9a92f965215cf68117317a96d4da62fe92d03ec00ce2105",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 9,
+      "successfulPages": 9,
+      "structure": [
+        {
+          "type": "Aimwork | Aimwork",
+          "url": "https://stefanuk12.github.io/aimwork/api/Aimwork"
+        },
+        {
+          "type": "Aimwork | Aimwork",
+          "url": "https://stefanuk12.github.io/aimwork/"
+        },
+        {
+          "type": "Getting Started with Aimwork | Aimwork",
+          "url": "https://stefanuk12.github.io/aimwork/docs/intro"
+        },
+        {
+          "type": "Changelog | Aimwork",
+          "url": "https://stefanuk12.github.io/aimwork/changelog"
+        },
+        {
+          "type": "PlayerTracker | Aimwork",
+          "url": "https://stefanuk12.github.io/aimwork/api/PlayerTracker"
+        },
+        {
+          "type": "PlayerObject | Aimwork",
+          "url": "https://stefanuk12.github.io/aimwork/api/PlayerObject"
+        },
+        {
+          "type": "Checks | Aimwork",
+          "url": "https://stefanuk12.github.io/aimwork/api/Checks"
+        },
+        {
+          "type": "FOVObject | Aimwork",
+          "url": "https://stefanuk12.github.io/aimwork/api/FOVObject"
+        },
+        {
+          "type": "Functions | Aimwork",
+          "url": "https://stefanuk12.github.io/aimwork/api/Functions"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "05e7f3db2aacdc9372b2ace9959216eb3271d3b912e2006e25a405eb795517f4"
 }

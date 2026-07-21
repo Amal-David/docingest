@@ -331,5 +331,347 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://trading-api.readme.io/reference/getting-started",
+      "canonicalSeedUrl": "https://trading-api.readme.io/reference/getting-started",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-13T15:47:55.453Z",
+      "completedAt": "2025-07-13T15:47:55.453Z",
+      "providerTotals": {
+        "discovered": 71,
+        "returned": 71,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://trading-api.readme.io/reference/getting-started",
+          "canonicalUrl": "https://trading-api.readme.io/reference/getting-started",
+          "status": "valid"
+        }
+      ],
+      "id": "2301f45a0d02df7bbaa68818044d05000b57e9f21578828dbdf221be993f2253",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8aa75221749a24705bed3822284e4ee3e5b9d42b42603f3742feed16db65bb7e",
+      "filename": "documentation_2025-07-13T15:47:55.453Z.md",
+      "contentHash": "19fa7a5af1f36eb8e656598fd524d837dfeef372ca13706c7b6dbc0ac1dbbcd8",
+      "sourceUrl": "https://trading-api.readme.io/reference/getting-started",
+      "canonicalSourceUrl": "https://trading-api.readme.io/reference/getting-started",
+      "capturedAt": "2025-07-13T15:47:55.453Z",
+      "crawlRunId": "2301f45a0d02df7bbaa68818044d05000b57e9f21578828dbdf221be993f2253",
+      "upstreamVersion": "1.3.0",
+      "upstreamChannel": "latest",
+      "totalPages": 71,
+      "successfulPages": 71,
+      "structure": [
+        {
+          "type": "Welcome!",
+          "url": "https://trading-api.readme.io/reference/getting-started"
+        },
+        {
+          "type": "DeleteQuote",
+          "url": "https://trading-api.readme.io/reference/deletequote-1"
+        },
+        {
+          "type": "GetQuote",
+          "url": "https://trading-api.readme.io/reference/getquote-1"
+        },
+        {
+          "type": "AcceptQuote",
+          "url": "https://trading-api.readme.io/reference/acceptquote-1"
+        },
+        {
+          "type": "ConfirmQuote",
+          "url": "https://trading-api.readme.io/reference/confirmquote-1"
+        },
+        {
+          "type": "GetRFQs",
+          "url": "https://trading-api.readme.io/reference/getrfqs-1"
+        },
+        {
+          "type": "GetRFQ",
+          "url": "https://trading-api.readme.io/reference/getrfq-1"
+        },
+        {
+          "type": "GetEvents",
+          "url": "https://trading-api.readme.io/reference/getevents-1"
+        },
+        {
+          "type": "DeleteRFQ",
+          "url": "https://trading-api.readme.io/reference/deleterfq-1"
+        },
+        {
+          "type": "GetEvent",
+          "url": "https://trading-api.readme.io/reference/getevent-1"
+        },
+        {
+          "type": "GetTrades",
+          "url": "https://trading-api.readme.io/reference/gettrades-1"
+        },
+        {
+          "type": "GetMarkets",
+          "url": "https://trading-api.readme.io/reference/getmarkets-1"
+        },
+        {
+          "type": "GetMarket",
+          "url": "https://trading-api.readme.io/reference/getmarket-1"
+        },
+        {
+          "type": "CreateRFQ",
+          "url": "https://trading-api.readme.io/reference/createrfq-1"
+        },
+        {
+          "type": "GetMarketOrderbook",
+          "url": "https://trading-api.readme.io/reference/getmarketorderbook-1"
+        },
+        {
+          "type": "GetSeriesList",
+          "url": "https://trading-api.readme.io/reference/getserieslist"
+        },
+        {
+          "type": "GetSeries",
+          "url": "https://trading-api.readme.io/reference/getseries-1"
+        },
+        {
+          "type": "GetMarketCandlesticks",
+          "url": "https://trading-api.readme.io/reference/getmarketcandlesticks-1"
+        },
+        {
+          "type": "Making Your First Request",
+          "url": "https://trading-api.readme.io/reference/get-started-on-kalshi"
+        },
+        {
+          "type": "Test In The Demo Environment",
+          "url": "https://trading-api.readme.io/reference/creating-a-demo-account"
+        },
+        {
+          "type": "Changelog",
+          "url": "https://trading-api.readme.io/changelog"
+        },
+        {
+          "type": "API Keys",
+          "url": "https://trading-api.readme.io/reference/api-keys"
+        },
+        {
+          "type": "Kalshi Glossary",
+          "url": "https://trading-api.readme.io/reference/terms"
+        },
+        {
+          "type": "Changelog Instructions",
+          "url": "https://trading-api.readme.io/reference/keeping-up-with-the-changelog"
+        },
+        {
+          "type": "GetApiVersion",
+          "url": "https://trading-api.readme.io/reference/getapiversion"
+        },
+        {
+          "type": "GetCommunicationsID",
+          "url": "https://trading-api.readme.io/reference/getcommunicationsid-1"
+        },
+        {
+          "type": "GetQuotes",
+          "url": "https://trading-api.readme.io/reference/getquotes-1"
+        },
+        {
+          "type": "Market Data Feed",
+          "url": "https://trading-api.readme.io/reference/ws"
+        },
+        {
+          "type": "CreateQuote",
+          "url": "https://trading-api.readme.io/reference/createquote-1"
+        },
+        {
+          "type": "Rate Limits and Tiers",
+          "url": "https://trading-api.readme.io/reference/tiers-and-rate-limits-1"
+        },
+        {
+          "type": "GetExchangeAnnouncements",
+          "url": "https://trading-api.readme.io/reference/getexchangeannouncements-1"
+        },
+        {
+          "type": "GetExchangeSchedule",
+          "url": "https://trading-api.readme.io/reference/getexchangeschedule-1"
+        },
+        {
+          "type": "GetExchangeStatus",
+          "url": "https://trading-api.readme.io/reference/getexchangestatus-1"
+        },
+        {
+          "type": "GetUserDataTimestamp",
+          "url": "https://trading-api.readme.io/reference/getuserdatatimestamp"
+        },
+        {
+          "type": "GetMilestone",
+          "url": "https://trading-api.readme.io/reference/getmilestone-1"
+        },
+        {
+          "type": "GetMilestones",
+          "url": "https://trading-api.readme.io/reference/getmilestones-1"
+        },
+        {
+          "type": "GetMultivariateEventCollections",
+          "url": "https://trading-api.readme.io/reference/getmultivariateeventcollections-1"
+        },
+        {
+          "type": "GetMultivariateEventCollection",
+          "url": "https://trading-api.readme.io/reference/getmultivariateeventcollection-1"
+        },
+        {
+          "type": "CreateMarketInMultivariateEventCollection",
+          "url": "https://trading-api.readme.io/reference/createmarketinmultivariateeventcollection-1"
+        },
+        {
+          "type": "GetMultivariateEventCollectionLookupHistory",
+          "url": "https://trading-api.readme.io/reference/getmultivariateeventcollectionlookuphistory-1"
+        },
+        {
+          "type": "GetBalance",
+          "url": "https://trading-api.readme.io/reference/getbalance-1"
+        },
+        {
+          "type": "LookupTickersForMarketInMultivariateEventCollection",
+          "url": "https://trading-api.readme.io/reference/lookuptickersformarketinmultivariateeventcollection-1"
+        },
+        {
+          "type": "GetFills",
+          "url": "https://trading-api.readme.io/reference/getfills-1"
+        },
+        {
+          "type": "BatchCreateOrders",
+          "url": "https://trading-api.readme.io/reference/batchcreateorders-1"
+        },
+        {
+          "type": "CreateOrder",
+          "url": "https://trading-api.readme.io/reference/createorder-1"
+        },
+        {
+          "type": "GetOrders",
+          "url": "https://trading-api.readme.io/reference/getorders-1"
+        },
+        {
+          "type": "BatchCancelOrders",
+          "url": "https://trading-api.readme.io/reference/batchcancelorders-1"
+        },
+        {
+          "type": "CancelOrder",
+          "url": "https://trading-api.readme.io/reference/cancelorder-1"
+        },
+        {
+          "type": "AmendOrder",
+          "url": "https://trading-api.readme.io/reference/amendorder-1"
+        },
+        {
+          "type": "GetOrder",
+          "url": "https://trading-api.readme.io/reference/getorder-1"
+        },
+        {
+          "type": "DecreaseOrder",
+          "url": "https://trading-api.readme.io/reference/decreaseorder-1"
+        },
+        {
+          "type": "GetPositions",
+          "url": "https://trading-api.readme.io/reference/getpositions-1"
+        },
+        {
+          "type": "GetOrderQueuePosition",
+          "url": "https://trading-api.readme.io/reference/getorderqueueposition-1"
+        },
+        {
+          "type": "GetStructuredTarget",
+          "url": "https://trading-api.readme.io/reference/getstructuredtarget-1"
+        },
+        {
+          "type": "GetPortfolioRestingOrderTotalValue",
+          "url": "https://trading-api.readme.io/reference/getportfoliorestingordertotalvalue-1"
+        },
+        {
+          "type": "GetSettlements",
+          "url": "https://trading-api.readme.io/reference/getsettlements-1"
+        },
+        {
+          "type": "GetOrderQueuePosition Endpoint Added",
+          "url": "https://trading-api.readme.io/changelog/00012_order_queue_position"
+        },
+        {
+          "type": "Breaking Changes to Order Struct",
+          "url": "https://trading-api.readme.io/changelog/breaking-order-struct"
+        },
+        {
+          "type": "Breaking Changes to Max Order Cost",
+          "url": "https://trading-api.readme.io/changelog/breaking-max-order-cost"
+        },
+        {
+          "type": "Websocket Upgrades",
+          "url": "https://trading-api.readme.io/changelog/websocket-upgrades-20250506"
+        },
+        {
+          "type": "Websocket Upgrades",
+          "url": "https://trading-api.readme.io/changelog/websocket-upgrades"
+        },
+        {
+          "type": "Adding GetUserDataTimestamp",
+          "url": "https://trading-api.readme.io/changelog/add-api-user-clock"
+        },
+        {
+          "type": "GetMilestone PageSize -> Limit",
+          "url": "https://trading-api.readme.io/changelog/get-milestone-limit"
+        },
+        {
+          "type": "Undo Certain 2.0.1 Changes",
+          "url": "https://trading-api.readme.io/changelog/undo-version-201-changes"
+        },
+        {
+          "type": "<![CDATA[Kalshi Developer Suite]]>",
+          "url": "https://trading-api.readme.io/changelog.rss"
+        },
+        {
+          "type": "Removed Fields From GetMarket(s)",
+          "url": "https://trading-api.readme.io/changelog/removed-fields"
+        },
+        {
+          "type": "GetApiVersion",
+          "url": "https://trading-api.readme.io/changelog/version-endpoint"
+        },
+        {
+          "type": "Changelog",
+          "url": "https://trading-api.readme.io/changelog?page=2"
+        },
+        {
+          "type": "GetFills Millisecond Precision",
+          "url": "https://trading-api.readme.io/changelog/millisecond-precision"
+        },
+        {
+          "type": "GetRFQ Cursor Response",
+          "url": "https://trading-api.readme.io/changelog/rfq-cursor-response"
+        },
+        {
+          "type": "Changelog",
+          "url": "https://trading-api.readme.io/changelog?page=1"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8aa75221749a24705bed3822284e4ee3e5b9d42b42603f3742feed16db65bb7e"
 }

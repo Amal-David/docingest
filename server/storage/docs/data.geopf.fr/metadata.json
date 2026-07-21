@@ -28,5 +28,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://data.geopf.fr/geocodage/openapi",
+      "canonicalSeedUrl": "https://data.geopf.fr/geocodage/openapi",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-18T02:03:22.574Z",
+      "completedAt": "2026-01-18T02:03:22.574Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://data.geopf.fr/geocodage/openapi",
+          "canonicalUrl": "https://data.geopf.fr/geocodage/openapi",
+          "status": "valid"
+        }
+      ],
+      "id": "8c238df201c1591078d752dada3188d3e4bcda4458662fabe29dcb779d6d3703",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5111ec2fad018e0bfcb2154438f35822e9a2a16b6fd6ee6df26c4c3bab5804ef",
+      "filename": "documentation_2026-01-18T02:03:22.574Z.md",
+      "contentHash": "0b3a3cf8fd40bc6a084c00b5bd20120d893e9814f953fa0a1b2767f71b3b9811",
+      "sourceUrl": "https://data.geopf.fr/geocodage/openapi",
+      "canonicalSourceUrl": "https://data.geopf.fr/geocodage/openapi",
+      "capturedAt": "2026-01-18T02:03:22.574Z",
+      "crawlRunId": "8c238df201c1591078d752dada3188d3e4bcda4458662fabe29dcb779d6d3703",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "API de géocodage",
+          "url": "https://data.geopf.fr/geocodage/openapi"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://data.geopf.fr/geocodage/openapi.yaml"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5111ec2fad018e0bfcb2154438f35822e9a2a16b6fd6ee6df26c4c3bab5804ef"
 }

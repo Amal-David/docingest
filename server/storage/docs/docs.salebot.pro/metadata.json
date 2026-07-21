@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.salebot.pro/",
+      "canonicalSeedUrl": "https://docs.salebot.pro/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-20T11:02:57.893Z",
+      "completedAt": "2025-07-20T11:02:57.893Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.salebot.pro/",
+          "canonicalUrl": "https://docs.salebot.pro/",
+          "status": "valid"
+        }
+      ],
+      "id": "9d0d480364ad7e989d74ed35bdcd33ee92591d5ecb5662b1efce1370d8cb818c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e57fa033997e99e62c46e42a590a9600041960bc012955beeece102e27fb3847",
+      "filename": "documentation_2025-07-20T11:02:57.893Z.md",
+      "contentHash": "eef5f7fcff6f25ccb579a9cd3ad96d5bbdb79983c2014c769ce9fb3d064cb569",
+      "sourceUrl": "https://docs.salebot.pro/",
+      "canonicalSourceUrl": "https://docs.salebot.pro/",
+      "capturedAt": "2025-07-20T11:02:57.893Z",
+      "crawlRunId": "9d0d480364ad7e989d74ed35bdcd33ee92591d5ecb5662b1efce1370d8cb818c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "О нас | Salebot.pro",
+          "url": "https://docs.salebot.pro/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e57fa033997e99e62c46e42a590a9600041960bc012955beeece102e27fb3847"
 }

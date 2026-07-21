@@ -73,5 +73,107 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developer.instantly.ai/api-v1-docs",
+      "canonicalSeedUrl": "https://developer.instantly.ai/api-v1-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-27T09:04:53.273Z",
+      "completedAt": "2026-02-27T09:04:53.273Z",
+      "providerTotals": {
+        "discovered": 11,
+        "returned": 11,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developer.instantly.ai/api-v1-docs",
+          "canonicalUrl": "https://developer.instantly.ai/api-v1-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "1d866c966286a4975d8c92022ad2fee87d80cc8cc1ad9f9126d8e4c20a628ac4",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "aecc73b76b82ea1f8e2674318f17bae77018f91652ab10ded7f8e8eb71d8e4c1",
+      "filename": "documentation_2026-02-27T09:04:53.273Z.md",
+      "contentHash": "25417d8b7caf03ff22b79b0be2cc586ae1c2c5c0b32192d6afbbb7747798d007",
+      "sourceUrl": "https://developer.instantly.ai/api-v1-docs",
+      "canonicalSourceUrl": "https://developer.instantly.ai/api-v1-docs",
+      "capturedAt": "2026-02-27T09:04:53.273Z",
+      "crawlRunId": "1d866c966286a4975d8c92022ad2fee87d80cc8cc1ad9f9126d8e4c20a628ac4",
+      "upstreamVersion": "2.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 11,
+      "successfulPages": 11,
+      "structure": [
+        {
+          "type": "API V1 to API V2 Migration",
+          "url": "https://developer.instantly.ai/api-v1-docs"
+        },
+        {
+          "type": "Account",
+          "url": "https://developer.instantly.ai/api/v2/account"
+        },
+        {
+          "type": "CRM Actions",
+          "url": "https://developer.instantly.ai/api/v2/schemas/def-49"
+        },
+        {
+          "type": "Analytics",
+          "url": "https://developer.instantly.ai/api/v2/analytics"
+        },
+        {
+          "type": "Initialize google oauth",
+          "url": "https://developer.instantly.ai/api/v2/oauth/initgoogleoauth"
+        },
+        {
+          "type": "Get campaign(s) analytics",
+          "url": "https://developer.instantly.ai/api/v2/analytics/getcampaignanalytics"
+        },
+        {
+          "type": "Get warmup analytics",
+          "url": "https://developer.instantly.ai/api/v2/analytics/getwarmupanalytics"
+        },
+        {
+          "type": "Get daily campaign analytics",
+          "url": "https://developer.instantly.ai/api/v2/analytics/getdailycampaignanalytics"
+        },
+        {
+          "type": "OAuth",
+          "url": "https://developer.instantly.ai/api/v2/oauth"
+        },
+        {
+          "type": "Account",
+          "url": "https://developer.instantly.ai/api/v2/account/def-0"
+        },
+        {
+          "type": "Initialize microsoft oauth",
+          "url": "https://developer.instantly.ai/api/v2/oauth/initmicrosoftoauth"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "aecc73b76b82ea1f8e2674318f17bae77018f91652ab10ded7f8e8eb71d8e4c1"
 }

@@ -60,5 +60,103 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.kubeflow.org/docs",
+      "canonicalSeedUrl": "https://www.kubeflow.org/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-17T10:31:40.297Z",
+      "completedAt": "2025-11-17T10:31:40.297Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.kubeflow.org/docs",
+          "canonicalUrl": "https://www.kubeflow.org/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "6c501b8975eb7c12f1559ac19ec285d93a9c86e9eb9f566edf85283c24de9ace",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "771d69e0572cfc84ffda2e6d134ee77c20ad35df5346e0fa27e946f86cce2a5c",
+      "filename": "documentation_2025-11-17T10:31:40.297Z.md",
+      "contentHash": "a08d23d268e9eab2878123d8473f67b858265c3076beb76d17d867e699a47a45",
+      "sourceUrl": "https://www.kubeflow.org/docs",
+      "canonicalSourceUrl": "https://www.kubeflow.org/docs",
+      "capturedAt": "2025-11-17T10:31:40.297Z",
+      "crawlRunId": "6c501b8975eb7c12f1559ac19ec285d93a9c86e9eb9f566edf85283c24de9ace",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "Documentation | Kubeflow",
+          "url": "https://www.kubeflow.org/docs"
+        },
+        {
+          "type": "Kubeflow",
+          "url": "https://www.kubeflow.org/"
+        },
+        {
+          "type": "Future Events | Kubeflow",
+          "url": "https://www.kubeflow.org/events/upcoming-events/"
+        },
+        {
+          "type": "Google Summer of Code 2025 | Kubeflow",
+          "url": "https://www.kubeflow.org/events/gsoc-2025/"
+        },
+        {
+          "type": "Past Events | Kubeflow",
+          "url": "https://www.kubeflow.org/events/past-events/"
+        },
+        {
+          "type": "2023 | Kubeflow",
+          "url": "https://www.kubeflow.org/events/past-events/2023/"
+        },
+        {
+          "type": "Kubeflow Summit 2023 | Kubeflow",
+          "url": "https://www.kubeflow.org/events/kubeflow-summit-2023/"
+        },
+        {
+          "type": "2024 | Kubeflow",
+          "url": "https://www.kubeflow.org/events/past-events/2024/"
+        },
+        {
+          "type": "Google Summer of Code 2024 | Kubeflow",
+          "url": "https://www.kubeflow.org/events/gsoc-2024/"
+        },
+        {
+          "type": "2025 | Kubeflow",
+          "url": "https://www.kubeflow.org/events/past-events/2025/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "771d69e0572cfc84ffda2e6d134ee77c20ad35df5346e0fa27e946f86cce2a5c"
 }

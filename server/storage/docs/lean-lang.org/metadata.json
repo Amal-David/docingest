@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://lean-lang.org/doc/reference/latest/releases/v4.27.0/#release-v4___27___0",
+      "canonicalSeedUrl": "https://lean-lang.org/doc/reference/latest/releases/v4.27.0",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-02T21:31:05.836Z",
+      "completedAt": "2026-02-02T21:31:05.836Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://lean-lang.org/doc/reference/latest/releases/v4.27.0/#release-v4___27___0",
+          "canonicalUrl": "https://lean-lang.org/doc/reference/latest/releases/v4.27.0",
+          "status": "valid"
+        }
+      ],
+      "id": "cbd2ea2503aeb7e2e5954e00c750a99a130bcb236d5bcb4fd9df0c44e6e48bd7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7be8bb40c5c9500841275957867b301060102ba1739018ad7e06229eb41787b8",
+      "filename": "documentation_2026-02-02T21:31:05.836Z.md",
+      "contentHash": "c14e1ef3ce74c8cccc5b318abaecd4eedde95334adae9f87a01d5cef6449e036",
+      "sourceUrl": "https://lean-lang.org/doc/reference/latest/releases/v4.27.0/#release-v4___27___0",
+      "canonicalSourceUrl": "https://lean-lang.org/doc/reference/latest/releases/v4.27.0",
+      "capturedAt": "2026-02-02T21:31:05.836Z",
+      "crawlRunId": "cbd2ea2503aeb7e2e5954e00c750a99a130bcb236d5bcb4fd9df0c44e6e48bd7",
+      "upstreamVersion": "4.27.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Lean 4.27.0 (2026-01-24)",
+          "url": "https://lean-lang.org/doc/reference/latest/releases/v4.27.0/#release-v4___27___0"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7be8bb40c5c9500841275957867b301060102ba1739018ad7e06229eb41787b8"
 }

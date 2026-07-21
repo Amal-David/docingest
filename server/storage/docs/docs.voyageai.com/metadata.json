@@ -100,5 +100,143 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.voyageai.com/docs/",
+      "canonicalSeedUrl": "https://docs.voyageai.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-26T09:36:58.937Z",
+      "completedAt": "2025-03-26T09:36:58.937Z",
+      "providerTotals": {
+        "discovered": 20,
+        "returned": 20,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.voyageai.com/docs/",
+          "canonicalUrl": "https://docs.voyageai.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "5160241c11f1127c8c6bed5b0126110dce9628e88769f4b7f6bd9adce6bf5e2d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "62b71c3a9044d00312d20d26122ef3747a32ca8b842e25ac9b63b41f3b28376a",
+      "filename": "documentation_2025-03-26T09:36:58.937Z.md",
+      "contentHash": "7e1ca18ca6a30f2f7f717dfda354026c4c9c080af1a97193e9bb001e4806f512",
+      "sourceUrl": "https://docs.voyageai.com/docs/",
+      "canonicalSourceUrl": "https://docs.voyageai.com/docs",
+      "capturedAt": "2025-03-26T09:36:58.937Z",
+      "crawlRunId": "5160241c11f1127c8c6bed5b0126110dce9628e88769f4b7f6bd9adce6bf5e2d",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 20,
+      "successfulPages": 20,
+      "structure": [
+        {
+          "type": "Introduction",
+          "url": "https://docs.voyageai.com/docs/"
+        },
+        {
+          "type": "API Key and Python Client",
+          "url": "https://docs.voyageai.com/docs/api-key-and-installation"
+        },
+        {
+          "type": "Pricing",
+          "url": "https://docs.voyageai.com/docs/pricing"
+        },
+        {
+          "type": "Rate Limits",
+          "url": "https://docs.voyageai.com/docs/rate-limits"
+        },
+        {
+          "type": "Snowflake",
+          "url": "https://docs.voyageai.com/docs/snowflake"
+        },
+        {
+          "type": "Flexible Dimensions and Quantization",
+          "url": "https://docs.voyageai.com/docs/flexible-dimensions-and-quantization"
+        },
+        {
+          "type": "Organizations and Projects",
+          "url": "https://docs.voyageai.com/docs/organizations-and-projects"
+        },
+        {
+          "type": "Error Codes",
+          "url": "https://docs.voyageai.com/docs/error-codes"
+        },
+        {
+          "type": "Service Level Objectives",
+          "url": "https://docs.voyageai.com/docs/service-level-objectives"
+        },
+        {
+          "type": "Text Embeddings",
+          "url": "https://docs.voyageai.com/docs/embeddings"
+        },
+        {
+          "type": "Multimodal Embeddings",
+          "url": "https://docs.voyageai.com/docs/multimodal-embeddings"
+        },
+        {
+          "type": "Tokenization",
+          "url": "https://docs.voyageai.com/docs/tokenization"
+        },
+        {
+          "type": "Rerankers",
+          "url": "https://docs.voyageai.com/docs/reranker"
+        },
+        {
+          "type": "AWS Marketplace Model Package",
+          "url": "https://docs.voyageai.com/docs/aws-marketplace-model-package"
+        },
+        {
+          "type": "Quickstart Tutorial",
+          "url": "https://docs.voyageai.com/docs/quickstart-tutorial"
+        },
+        {
+          "type": "Azure Marketplace Managed Application",
+          "url": "https://docs.voyageai.com/docs/azure-marketplace-managed-application"
+        },
+        {
+          "type": "Integrations",
+          "url": "https://docs.voyageai.com/docs/integrations-and-other-libraries"
+        },
+        {
+          "type": "Community SDKs",
+          "url": "https://docs.voyageai.com/docs/community-sdks"
+        },
+        {
+          "type": "Discord",
+          "url": "https://docs.voyageai.com/docs/discord"
+        },
+        {
+          "type": "FAQ",
+          "url": "https://docs.voyageai.com/docs/faq"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "62b71c3a9044d00312d20d26122ef3747a32ca8b842e25ac9b63b41f3b28376a"
 }

@@ -96,5 +96,139 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.gearbox.finance/",
+      "canonicalSeedUrl": "https://docs.gearbox.finance/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-29T22:46:40.195Z",
+      "completedAt": "2025-04-29T22:46:40.195Z",
+      "providerTotals": {
+        "discovered": 19,
+        "returned": 19,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.gearbox.finance/",
+          "canonicalUrl": "https://docs.gearbox.finance/",
+          "status": "valid"
+        }
+      ],
+      "id": "17dcb3e1bba7b96c426cf105bee1af4571cbd25409eb19223615693804557f2e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2594185eac711ca8322319d244108040d9a9770da609e1a0053afcd7280057fc",
+      "filename": "documentation_2025-04-29T22:46:40.195Z.md",
+      "contentHash": "183c9982f13790c22972378c1eec9cee02e5acfea762532d056c95e8422ca030",
+      "sourceUrl": "https://docs.gearbox.finance/",
+      "canonicalSourceUrl": "https://docs.gearbox.finance/",
+      "capturedAt": "2025-04-29T22:46:40.195Z",
+      "crawlRunId": "17dcb3e1bba7b96c426cf105bee1af4571cbd25409eb19223615693804557f2e",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 19,
+      "successfulPages": 19,
+      "structure": [
+        {
+          "type": "Overview  | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/"
+        },
+        {
+          "type": "How to add new Contracts & Assets to AllowedList | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/credit-account/how-to-add-new-assets-protocols"
+        },
+        {
+          "type": "Credit Accounts | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/credit-account"
+        },
+        {
+          "type": "What can you do with leverage 2.0? | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/what-can-you-do-with-leverage-2.0"
+        },
+        {
+          "type": "Link Tree & Dev Docs | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/links"
+        },
+        {
+          "type": "Tech Paper | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/whitepaper"
+        },
+        {
+          "type": "Reserve Fund | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/liquidations/insurance-fund"
+        },
+        {
+          "type": "Liquidations | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/liquidations"
+        },
+        {
+          "type": "How it works | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/how-it-works"
+        },
+        {
+          "type": "Protocol Fees | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/protocol-fees"
+        },
+        {
+          "type": "FAQ | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/faq"
+        },
+        {
+          "type": "OLD: V1 and V2 | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/credit-account/allowedlist-integrations/old-v1-and-v2"
+        },
+        {
+          "type": "Birth at ETHGlobal MarketMake 2021 | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/launch-phases/birth-at-ethglobal-marketmake-and-first-contributors"
+        },
+        {
+          "type": "History: DAO-First Launch | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/launch-phases"
+        },
+        {
+          "type": "AllowedList: Integrations | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/credit-account/allowedlist-integrations"
+        },
+        {
+          "type": "Kovan testing with DegenScore & lobsterdao | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/launch-phases/kovan-testing-with-degenscore"
+        },
+        {
+          "type": "Credit Account Mining | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/launch-phases/credit-account-mining"
+        },
+        {
+          "type": "Early Testers and Discord | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/overview/launch-phases/early-drop"
+        },
+        {
+          "type": "Margin Trading: PURE | Gearbox Protocol",
+          "url": "https://docs.gearbox.finance/traders-and-farmers/margin-trading-pure"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2594185eac711ca8322319d244108040d9a9770da609e1a0053afcd7280057fc"
 }

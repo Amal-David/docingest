@@ -93,5 +93,127 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://wiki.rhythia.net/mapping/basic-mapping/creating-maps.html",
+      "canonicalSeedUrl": "https://wiki.rhythia.net/mapping/basic-mapping/creating-maps.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-05T22:17:23.035Z",
+      "completedAt": "2026-03-05T22:17:23.035Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://wiki.rhythia.net/mapping/basic-mapping/creating-maps.html",
+          "canonicalUrl": "https://wiki.rhythia.net/mapping/basic-mapping/creating-maps.html",
+          "status": "valid"
+        }
+      ],
+      "id": "59d1935d0130a27940a03c174e9811bdd07f8b577765387dac9ecd9283f51ac7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ba0a484ab6ffb88b09f1814a0ac977fab679158a32ab25dba8d2cc0abb10571e",
+      "filename": "documentation_2026-03-05T22:17:23.035Z.md",
+      "contentHash": "43ac84df1241608ba8166e680cb4f1118f8c6a14ccf31f427ed82e73ef505693",
+      "sourceUrl": "https://wiki.rhythia.net/mapping/basic-mapping/creating-maps.html",
+      "canonicalSourceUrl": "https://wiki.rhythia.net/mapping/basic-mapping/creating-maps.html",
+      "capturedAt": "2026-03-05T22:17:23.035Z",
+      "crawlRunId": "59d1935d0130a27940a03c174e9811bdd07f8b577765387dac9ecd9283f51ac7",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "Map creation | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/basic-mapping/creating-maps.html"
+        },
+        {
+          "type": "Map editor installation | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/editor-setup/installing-the-editor.html"
+        },
+        {
+          "type": "Customization | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/editor-setup/editor-customization.html"
+        },
+        {
+          "type": "Editor assets | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/editor-setup/editor-assets.html"
+        },
+        {
+          "type": "Basic Quantum Usage | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/basic-mapping/basic-quantum-usage.html"
+        },
+        {
+          "type": "Basic mapping: Patterns | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/basic-mapping/mapping-patterns.html"
+        },
+        {
+          "type": "Mapping aspects | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/basic-mapping/mapping-aspects.html"
+        },
+        {
+          "type": "Rating | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/basic-mapping/difficulty-rating.html"
+        },
+        {
+          "type": "Problem detection and self-modding | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/extra-mapping/antipatterns.html"
+        },
+        {
+          "type": "Basic Spacing | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/extra-mapping/basic_spacing.html"
+        },
+        {
+          "type": "Execution | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/extra-mapping/execution.html"
+        },
+        {
+          "type": "Song Representation | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/extra-mapping/song_representation.html"
+        },
+        {
+          "type": "Manual BPM Timing | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/extra-mapping/manual-bpm-timing.html"
+        },
+        {
+          "type": "Styles | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/extra-mapping/styles.html"
+        },
+        {
+          "type": "Creativity | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/extra-mapping/creativity.html"
+        },
+        {
+          "type": "Skillsets | Rhythia",
+          "url": "https://wiki.rhythia.net/mapping/basic-mapping/skillsets.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ba0a484ab6ffb88b09f1814a0ac977fab679158a32ab25dba8d2cc0abb10571e"
 }

@@ -33,5 +33,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://google.github.io/dopamine/docs/",
+      "canonicalSeedUrl": "https://google.github.io/dopamine/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-19T01:27:32.638Z",
+      "completedAt": "2026-04-19T01:27:32.638Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://google.github.io/dopamine/docs/",
+          "canonicalUrl": "https://google.github.io/dopamine/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "7ad6fad32e59e08790827cc241dfa6c3bae1eb42da3a7bd0b6200c295c8a59bd",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "588c5daa6599fd8d19f24d35264908acd1537163f0ca107fd739674dc59fab34",
+      "filename": "documentation_2026-04-19T01:27:32.638Z.md",
+      "contentHash": "fa358eda9a94a9983d623aef463f181a891975877b3eb9196ae41caeecd23470",
+      "sourceUrl": "https://google.github.io/dopamine/docs/",
+      "canonicalSourceUrl": "https://google.github.io/dopamine/docs",
+      "capturedAt": "2026-04-19T01:27:32.638Z",
+      "crawlRunId": "7ad6fad32e59e08790827cc241dfa6c3bae1eb42da3a7bd0b6200c295c8a59bd",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Overview | dopamine",
+          "url": "https://google.github.io/dopamine/docs/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "588c5daa6599fd8d19f24d35264908acd1537163f0ca107fd739674dc59fab34"
 }

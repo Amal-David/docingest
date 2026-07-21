@@ -192,5 +192,127 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://potassium.gitbook.io/",
+      "canonicalSeedUrl": "https://potassium.gitbook.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-16T15:55:29.416Z",
+      "completedAt": "2026-04-16T15:55:29.416Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://potassium.gitbook.io/",
+          "canonicalUrl": "https://potassium.gitbook.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "2ca95ebec2d28f0897de011aec7f12b2a2a3905ec3f3ce0471d370ad803a53f8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cabacd15c9cbfb779124d37251863f687f11faf44b0cb912ba954a3e809c71c3",
+      "filename": "documentation_2026-04-16T15:55:29.416Z.md",
+      "contentHash": "1ce0ccf8fe153bbb4d0d3904c165298d98292b20345e7c4b1459ae59890d8e5e",
+      "sourceUrl": "https://potassium.gitbook.io/",
+      "canonicalSourceUrl": "https://potassium.gitbook.io/",
+      "capturedAt": "2026-04-16T15:55:29.416Z",
+      "crawlRunId": "2ca95ebec2d28f0897de011aec7f12b2a2a3905ec3f3ce0471d370ad803a53f8",
+      "upstreamVersion": "1.4.8",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "Cache | Potassium API",
+          "url": "https://potassium.gitbook.io/"
+        },
+        {
+          "type": "Cache | Potassium API",
+          "url": "https://potassium.gitbook.io/api"
+        },
+        {
+          "type": "Closures | Potassium API",
+          "url": "https://potassium.gitbook.io/api/environment/closures"
+        },
+        {
+          "type": "Crypt | Potassium API",
+          "url": "https://potassium.gitbook.io/api/environment/crypt"
+        },
+        {
+          "type": "Debug | Potassium API",
+          "url": "https://potassium.gitbook.io/api/environment/debug"
+        },
+        {
+          "type": "Console | Potassium API",
+          "url": "https://potassium.gitbook.io/api/environment/console"
+        },
+        {
+          "type": "Metatable | Potassium API",
+          "url": "https://potassium.gitbook.io/api/environment/metatable"
+        },
+        {
+          "type": "Input | Potassium API",
+          "url": "https://potassium.gitbook.io/api/environment/input"
+        },
+        {
+          "type": "File System | Potassium API",
+          "url": "https://potassium.gitbook.io/api/environment/file-system"
+        },
+        {
+          "type": "Drawing | Potassium API",
+          "url": "https://potassium.gitbook.io/api/environment/drawing"
+        },
+        {
+          "type": "Scripts | Potassium API",
+          "url": "https://potassium.gitbook.io/api/environment/scripts"
+        },
+        {
+          "type": "Instance | Potassium API",
+          "url": "https://potassium.gitbook.io/api/environment/instance"
+        },
+        {
+          "type": "Miscellaneous | Potassium API",
+          "url": "https://potassium.gitbook.io/api/environment/miscellaneous"
+        },
+        {
+          "type": "Actor | Potassium API",
+          "url": "https://potassium.gitbook.io/api/environment/actor"
+        },
+        {
+          "type": "Web Sockets | Potassium API",
+          "url": "https://potassium.gitbook.io/api/environment/web-sockets"
+        },
+        {
+          "type": "Cache | Potassium API",
+          "url": "https://potassium.gitbook.io/api/environment"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cabacd15c9cbfb779124d37251863f687f11faf44b0cb912ba954a3e809c71c3"
 }

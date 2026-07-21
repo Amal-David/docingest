@@ -248,5 +248,291 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://r2r-docs.sciphi.ai/",
+      "canonicalSeedUrl": "https://r2r-docs.sciphi.ai/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-23T23:04:04.099Z",
+      "completedAt": "2025-01-23T23:04:04.099Z",
+      "providerTotals": {
+        "discovered": 57,
+        "returned": 57,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://r2r-docs.sciphi.ai/",
+          "canonicalUrl": "https://r2r-docs.sciphi.ai/",
+          "status": "valid"
+        }
+      ],
+      "id": "4c3843c9d8c23b52714aa4c001b002e087fd8535d251a85250c223f990bb19c4",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5e69f9ecfc0aa8131acf0bd8457f515173ebf8608f73dcc6d447b60c53adbccb",
+      "filename": "documentation_2025-01-23T23:04:04.099Z.md",
+      "contentHash": "32f350f80d5c44bf2216515b566f0e1e100da8acbe2c1e25fc6542fc904ba76f",
+      "sourceUrl": "https://r2r-docs.sciphi.ai/",
+      "canonicalSourceUrl": "https://r2r-docs.sciphi.ai/",
+      "capturedAt": "2025-01-23T23:04:04.099Z",
+      "crawlRunId": "4c3843c9d8c23b52714aa4c001b002e087fd8535d251a85250c223f990bb19c4",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 57,
+      "successfulPages": 57,
+      "structure": [
+        {
+          "type": "Introduction — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/"
+        },
+        {
+          "type": "Overview — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/overview"
+        },
+        {
+          "type": "R2R API & SDKs — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/api-and-sdks/introduction"
+        },
+        {
+          "type": "Ingestion — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/cookbooks/ingestion"
+        },
+        {
+          "type": "System — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/introduction/system"
+        },
+        {
+          "type": "R2R Installation — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/installation/overview"
+        },
+        {
+          "type": "What's New — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/introduction/whats-new"
+        },
+        {
+          "type": "What is R2R? — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/introduction/what-is-r2r"
+        },
+        {
+          "type": "Conversations — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/conversations"
+        },
+        {
+          "type": "Documents — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/documents"
+        },
+        {
+          "type": "Quickstart — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/quickstart"
+        },
+        {
+          "type": "Collections — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/collections"
+        },
+        {
+          "type": "Users — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/user-auth"
+        },
+        {
+          "type": "Knowledge Graphs in R2R — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/graphs"
+        },
+        {
+          "type": "Search and RAG — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/search-and-rag"
+        },
+        {
+          "type": "Prompts — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/prompts"
+        },
+        {
+          "type": "Walkthrough — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/walkthrough"
+        },
+        {
+          "type": "Agent — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/agent"
+        },
+        {
+          "type": "Contextual Enrichment — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/contextual-enrichment"
+        },
+        {
+          "type": "Hybrid Search — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/hybrid-search"
+        },
+        {
+          "type": "More about RAG — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/introduction/rag"
+        },
+        {
+          "type": "Advanced RAG — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/advanced-rag"
+        },
+        {
+          "type": "Deduplication — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/documentation/deduplication"
+        },
+        {
+          "type": "Data Ingestion — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/configuration/ingestion"
+        },
+        {
+          "type": "404: This page could not be found",
+          "url": "https://r2r-docs.sciphi.ai/documentation/installation/full/docker"
+        },
+        {
+          "type": "404: This page could not be found",
+          "url": "https://r2r-docs.sciphi.ai/cookbooks/hybrid-search"
+        },
+        {
+          "type": "Documents — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/api-and-sdks/documents/documents"
+        },
+        {
+          "type": "Knowledge Graphs — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/cookbooks/graphs"
+        },
+        {
+          "type": "404: This page could not be found",
+          "url": "https://r2r-docs.sciphi.ai/documentation/installation/light/local-system"
+        },
+        {
+          "type": "Orchestration — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/cookbooks/orchestration"
+        },
+        {
+          "type": "404: This page could not be found",
+          "url": "https://r2r-docs.sciphi.ai/cookbooks/application"
+        },
+        {
+          "type": "LLMs — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/configuration/llm"
+        },
+        {
+          "type": "Auth & Users — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/configuration/auth"
+        },
+        {
+          "type": "Local LLMs — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/cookbooks/local-llms"
+        },
+        {
+          "type": "404: This page could not be found",
+          "url": "https://r2r-docs.sciphi.ai/cookbooks/graphrag"
+        },
+        {
+          "type": "Maintenance & Scaling — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/cookbooks/maintenance"
+        },
+        {
+          "type": "Overview — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/configuration/overview"
+        },
+        {
+          "type": "Quickstart — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/quickstart"
+        },
+        {
+          "type": "Postgres — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/configuration/postgres"
+        },
+        {
+          "type": "Embedding — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/configuration/embedding"
+        },
+        {
+          "type": "404: This page could not be found",
+          "url": "https://r2r-docs.sciphi.ai/cookbooks/agent"
+        },
+        {
+          "type": "404: This page could not be found",
+          "url": "https://r2r-docs.sciphi.ai/cookbooks/advanced-rag"
+        },
+        {
+          "type": "Web Development — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/cookbooks/web-dev"
+        },
+        {
+          "type": "Create a new document — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/api-and-sdks/documents/create-document"
+        },
+        {
+          "type": "Collections — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/collections"
+        },
+        {
+          "type": "Retrieval Configuration — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/configuration/retrieval/overview"
+        },
+        {
+          "type": "404: This page could not be found",
+          "url": "https://r2r-docs.sciphi.ai/api-and-sdks/chunks/create-chunks"
+        },
+        {
+          "type": "Local LLMs — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/local-rag"
+        },
+        {
+          "type": "Prompts — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/configuration/retrieval/prompts"
+        },
+        {
+          "type": "Deploying R2R — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/deployment/introduction"
+        },
+        {
+          "type": "RAG — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/configuration/retrieval/rag"
+        },
+        {
+          "type": "404: This page could not be found",
+          "url": "https://r2r-docs.sciphi.ai/cookbooks/user-auth"
+        },
+        {
+          "type": "Graphs — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/configuration/knowledge-graph/overview"
+        },
+        {
+          "type": "R2R Local System Installation — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/installation/light/local-system"
+        },
+        {
+          "type": "Docker — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/installation/full/docker"
+        },
+        {
+          "type": "Analytics & Observability — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/observability"
+        },
+        {
+          "type": "Application — The most advanced AI retrieval system. Containerized, Retrieval-Augmented Generation (RAG) with a RESTful API.",
+          "url": "https://r2r-docs.sciphi.ai/self-hosting/application"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5e69f9ecfc0aa8131acf0bd8457f515173ebf8608f73dcc6d447b60c53adbccb"
 }

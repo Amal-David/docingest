@@ -90,5 +90,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.llamaindex.ai/en/stable/",
+      "canonicalSeedUrl": "https://docs.llamaindex.ai/en/stable",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-04T13:57:46.422Z",
+      "completedAt": "2025-01-04T13:57:46.422Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.llamaindex.ai/en/stable/",
+          "canonicalUrl": "https://docs.llamaindex.ai/en/stable",
+          "status": "valid"
+        }
+      ],
+      "id": "984e4336d1598ccc49fe01f8a56f25e1221f57a61bf06a76fa771099836a7718",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "275c44367c867b17417bdb7c53e1509207c963191c230ac73f880d3de90a68ef",
+      "filename": "documentation_2025-01-04T13:57:46.422Z.md",
+      "contentHash": "4544aab101f659228b5278465c48bb8b9a4f5b1d02c72bb6b5a137632278c0ba",
+      "sourceUrl": "https://docs.llamaindex.ai/en/stable/",
+      "canonicalSourceUrl": "https://docs.llamaindex.ai/en/stable",
+      "capturedAt": "2025-01-04T13:57:46.422Z",
+      "crawlRunId": "984e4336d1598ccc49fe01f8a56f25e1221f57a61bf06a76fa771099836a7718",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "LlamaIndex - LlamaIndex",
+          "url": "https://docs.llamaindex.ai/en/stable/"
+        },
+        {
+          "type": "API Reference - LlamaIndex",
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/"
+        },
+        {
+          "type": "Argilla - LlamaIndex",
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/callbacks/argilla/"
+        },
+        {
+          "type": "Docs - LlamaIndex",
+          "url": "https://docs.llamaindex.ai/en/stable/DOCS_README/"
+        },
+        {
+          "type": "Coa - LlamaIndex",
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/agent/coa/"
+        },
+        {
+          "type": "Core Agent Classes - LlamaIndex",
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/agent/"
+        },
+        {
+          "type": "Arize phoenix - LlamaIndex",
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/callbacks/arize_phoenix/"
+        },
+        {
+          "type": "Langfuse - LlamaIndex",
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/callbacks/langfuse/"
+        },
+        {
+          "type": "Agentops - LlamaIndex",
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/callbacks/agentops/"
+        },
+        {
+          "type": "Opik - LlamaIndex",
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/callbacks/opik/"
+        },
+        {
+          "type": "Token counter - LlamaIndex",
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/callbacks/token_counter/"
+        },
+        {
+          "type": "Code - LlamaIndex",
+          "url": "https://docs.llamaindex.ai/en/stable/CONTRIBUTING/"
+        },
+        {
+          "type": "Openai - LlamaIndex",
+          "url": "https://docs.llamaindex.ai/en/stable/api_reference/agent/openai/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "275c44367c867b17417bdb7c53e1509207c963191c230ac73f880d3de90a68ef"
 }
