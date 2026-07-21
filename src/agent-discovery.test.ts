@@ -44,6 +44,7 @@ test('describes only the real public read APIs', () => {
 
 test('publishes the existing npm stdio MCP package without claiming a remote transport', () => {
   const manifest = createMcpPackageManifest();
+  assert.equal(manifest.name, 'io.github.amal-david/docingest');
   assert.equal(manifest.packages[0].identifier, '@docingest/mcp-server');
   assert.equal(manifest.packages[0].transport.type, 'stdio');
   assert.equal('remotes' in manifest, false);
