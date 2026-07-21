@@ -64,6 +64,7 @@
     "test:acceptance": "tsx server/lib/crawl-acceptance.test.ts",
     "test:audit": "tsx server/scripts/audit-corpus-integrity.test.ts",
     "test:storage-paths": "tsx server/lib/storage-paths.test.ts",
+    "test:agent-discovery": "node --import tsx --test src/agent-discovery.test.ts src/utils/webmcp.test.ts src/frontend-static-server.test.ts",
     "eject": "react-scripts eject",
     "server": "tsx server/server.ts",
     "dev": "concurrently \"npm run server\" \"npm run dev-start\"",
@@ -95,7 +96,9 @@
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
     "@types/fs-extra": "^11.0.4",
+    "@types/supertest": "^7.2.1",
     "concurrently": "^8.2.2",
+    "supertest": "^7.2.2",
     "ts-node": "^10.9.2",
     "tsx": "^4.21.0"
   }

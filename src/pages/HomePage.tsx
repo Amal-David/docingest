@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { isLikelyBlockedPage } from '../utils/scrape-filter';
+import { registerDocIngestWebMcp } from '../utils/webmcp';
 
 // Types
 interface SearchResult {
@@ -79,6 +80,8 @@ export default function HomePage() {
   const pollAttemptsRef = useRef(0);
 
   const debouncedQuery = useDebounce(query, 150);
+
+  useEffect(() => registerDocIngestWebMcp(API_URL), []);
 
   // Cleanup polling on unmount
   useEffect(() => {
