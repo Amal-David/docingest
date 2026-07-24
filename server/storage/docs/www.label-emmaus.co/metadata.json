@@ -1,0 +1,105 @@
+{
+  "url": "https://www.label-emmaus.co/static/labo-api-docs.html",
+  "domain": "www.label-emmaus.co",
+  "lastScraped": "2026-07-23T09:00:48.156Z",
+  "totalPages": 1,
+  "successfulPages": 1,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Label Emmaüs API - Public",
+      "url": "https://www.label-emmaus.co/static/labo-api-docs.html"
+    }
+  ],
+  "latestVersion": "cb51a4977b73d2727951c8ca4a19de920a42ccc12145e16a2b189a4177b9bdb8",
+  "versions": [
+    {
+      "version": "cb51a4977b73d2727951c8ca4a19de920a42ccc12145e16a2b189a4177b9bdb8",
+      "label": "latest",
+      "timestamp": "2026-07-23T09:00:48.156Z",
+      "filename": "documentation_2026-07-23T09:00:48.156Z.md",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "url": "https://www.label-emmaus.co/static/labo-api-docs.html",
+      "snapshotId": "cb51a4977b73d2727951c8ca4a19de920a42ccc12145e16a2b189a4177b9bdb8",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://www.label-emmaus.co/static/labo-api-docs.html",
+      "canonicalSeedUrl": "https://www.label-emmaus.co/static/labo-api-docs.html",
+      "configuration": {
+        "url": "https://www.label-emmaus.co/static/labo-api-docs.html",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-07-23T08:58:41.451Z",
+      "completedAt": "2026-07-23T09:00:48.156Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 1,
+        "returned": 1,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://www.label-emmaus.co/static/labo-api-docs.html",
+          "canonicalUrl": "https://www.label-emmaus.co/static/labo-api-docs.html",
+          "status": "valid"
+        }
+      ],
+      "id": "58a6506fdd35db1838277d4714be4d28177d707be1d54d51ee87caf11c5f5253"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cb51a4977b73d2727951c8ca4a19de920a42ccc12145e16a2b189a4177b9bdb8",
+      "filename": "documentation_2026-07-23T09:00:48.156Z.md",
+      "contentHash": "138131ee80de53243c237b74d50163563f3410225f726b93feeb83e703e8d805",
+      "sourceUrl": "https://www.label-emmaus.co/static/labo-api-docs.html",
+      "canonicalSourceUrl": "https://www.label-emmaus.co/static/labo-api-docs.html",
+      "capturedAt": "2026-07-23T09:00:48.156Z",
+      "crawlRunId": "58a6506fdd35db1838277d4714be4d28177d707be1d54d51ee87caf11c5f5253",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Label Emmaüs API - Public",
+          "url": "https://www.label-emmaus.co/static/labo-api-docs.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cb51a4977b73d2727951c8ca4a19de920a42ccc12145e16a2b189a4177b9bdb8"
+}

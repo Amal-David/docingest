@@ -611,6 +611,53 @@
         "rejected": 0,
         "failed": 0
       }
+    },
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://docs.base44.com/superagents",
+      "canonicalSeedUrl": "https://docs.base44.com/superagents",
+      "configuration": {
+        "url": "https://docs.base44.com/superagents",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "includePaths": [
+          "/superagents/*"
+        ],
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-07-23T16:24:55.363Z",
+      "completedAt": "2026-07-23T16:29:11.073Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 0,
+        "discoveredIsExact": false
+      },
+      "totals": {
+        "discovered": 1,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [],
+      "id": "480c10fa8417855c492fcc1a8051ae67347a4aa52dae7c139f0561d7918e4679"
     }
   ],
   "snapshots": [
