@@ -1,0 +1,105 @@
+{
+  "url": "https://memoof.me/download/445/pdf/445.pdf",
+  "domain": "memoof.me",
+  "lastScraped": "2026-07-25T08:41:05.518Z",
+  "totalPages": 1,
+  "successfulPages": 1,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Unknown",
+      "url": "https://memoof.me/download/445/pdf/445.pdf"
+    }
+  ],
+  "latestVersion": "78a35cba8fab64768410ec2327dc302cad711240d89838a4a8501d3802e9a334",
+  "versions": [
+    {
+      "version": "78a35cba8fab64768410ec2327dc302cad711240d89838a4a8501d3802e9a334",
+      "label": "latest",
+      "timestamp": "2026-07-25T08:41:05.518Z",
+      "filename": "documentation_2026-07-25T08:41:05.518Z.md",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "url": "https://memoof.me/download/445/pdf/445.pdf",
+      "snapshotId": "78a35cba8fab64768410ec2327dc302cad711240d89838a4a8501d3802e9a334",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://memoof.me/download/445/pdf/445.pdf",
+      "canonicalSeedUrl": "https://memoof.me/download/445/pdf/445.pdf",
+      "configuration": {
+        "url": "https://memoof.me/download/445/pdf/445.pdf",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-07-25T08:41:05.512Z",
+      "completedAt": "2026-07-25T08:41:05.518Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 1,
+        "returned": 1,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://memoof.me/download/445/pdf/445.pdf",
+          "canonicalUrl": "https://memoof.me/download/445/pdf/445.pdf",
+          "status": "valid"
+        }
+      ],
+      "id": "4228159e99652aa9f864ba8565f43c47c8543d5a781dfb6d754f6d00979c9913"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "78a35cba8fab64768410ec2327dc302cad711240d89838a4a8501d3802e9a334",
+      "filename": "documentation_2026-07-25T08:41:05.518Z.md",
+      "contentHash": "9d1233eae9ae3df7dac6b3524c0d279b0cbc10c30adad16b2b5d2f0360a43902",
+      "sourceUrl": "https://memoof.me/download/445/pdf/445.pdf",
+      "canonicalSourceUrl": "https://memoof.me/download/445/pdf/445.pdf",
+      "capturedAt": "2026-07-25T08:41:05.518Z",
+      "crawlRunId": "4228159e99652aa9f864ba8565f43c47c8543d5a781dfb6d754f6d00979c9913",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Unknown",
+          "url": "https://memoof.me/download/445/pdf/445.pdf"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "78a35cba8fab64768410ec2327dc302cad711240d89838a4a8501d3802e9a334"
+}
