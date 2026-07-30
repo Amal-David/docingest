@@ -1,0 +1,108 @@
+{
+  "url": "https://nextdns.github.io/api/",
+  "domain": "nextdns.github.io",
+  "lastScraped": "2026-07-29T07:53:39.168Z",
+  "totalPages": 1,
+  "successfulPages": 1,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "NextDNS API Documentation | api",
+      "url": "https://nextdns.github.io/api/"
+    }
+  ],
+  "latestVersion": "ccc668f286346c7718bd4920fc1ae3137b7a4d54334f44107ac29d2f99e4ea66",
+  "versions": [
+    {
+      "version": "ccc668f286346c7718bd4920fc1ae3137b7a4d54334f44107ac29d2f99e4ea66",
+      "label": "latest",
+      "timestamp": "2026-07-29T07:53:39.168Z",
+      "filename": "documentation_2026-07-29T07:53:39.168Z.md",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "url": "https://nextdns.github.io/api/",
+      "snapshotId": "ccc668f286346c7718bd4920fc1ae3137b7a4d54334f44107ac29d2f99e4ea66",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://nextdns.github.io/api/",
+      "canonicalSeedUrl": "https://nextdns.github.io/api",
+      "configuration": {
+        "url": "https://nextdns.github.io/api/",
+        "limit": 625,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "includePaths": [
+          "/api/*"
+        ],
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-07-29T07:53:34.098Z",
+      "completedAt": "2026-07-29T07:53:39.168Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 1,
+        "returned": 1,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://nextdns.github.io/api/",
+          "canonicalUrl": "https://nextdns.github.io/api",
+          "status": "valid"
+        }
+      ],
+      "id": "db02a32038fe3d28b9123e38ce8e4bc201caa83ac7f10c4ed871999e72fb0cae"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ccc668f286346c7718bd4920fc1ae3137b7a4d54334f44107ac29d2f99e4ea66",
+      "filename": "documentation_2026-07-29T07:53:39.168Z.md",
+      "contentHash": "45e703e121786a8ff27825765c86e1f11c1555a0068ebd76484cdfe85824549c",
+      "sourceUrl": "https://nextdns.github.io/api/",
+      "canonicalSourceUrl": "https://nextdns.github.io/api",
+      "capturedAt": "2026-07-29T07:53:39.168Z",
+      "crawlRunId": "db02a32038fe3d28b9123e38ce8e4bc201caa83ac7f10c4ed871999e72fb0cae",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "NextDNS API Documentation | api",
+          "url": "https://nextdns.github.io/api/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ccc668f286346c7718bd4920fc1ae3137b7a4d54334f44107ac29d2f99e4ea66"
+}

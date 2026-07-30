@@ -1,0 +1,212 @@
+{
+  "url": "https://developer.shodan.io/api",
+  "domain": "developer.shodan.io",
+  "lastScraped": "2026-07-29T08:14:53.627Z",
+  "totalPages": 9,
+  "successfulPages": 9,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Shodan Developer",
+      "url": "https://developer.shodan.io/api"
+    },
+    {
+      "type": "Shodan Developer",
+      "url": "https://developer.shodan.io/api/requirements"
+    },
+    {
+      "type": "Shodan Developer",
+      "url": "https://developer.shodan.io/api/introduction"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://developer.shodan.io/api/openapi.json"
+    },
+    {
+      "type": "Shodan Developer",
+      "url": "https://developer.shodan.io/api/clients"
+    },
+    {
+      "type": "Shodan Developer",
+      "url": "https://developer.shodan.io/api/trends"
+    },
+    {
+      "type": "Shodan Developer",
+      "url": "https://developer.shodan.io/api/stream"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://developer.shodan.io/api/openapi-trends.json"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://developer.shodan.io/api/openapi-stream.json"
+    }
+  ],
+  "latestVersion": "5fbf0fb2f367bd07b89ae64723182b50e5f5399c76e75d6a040e4f462432008a",
+  "versions": [
+    {
+      "version": "5fbf0fb2f367bd07b89ae64723182b50e5f5399c76e75d6a040e4f462432008a",
+      "label": "latest",
+      "timestamp": "2026-07-29T08:14:53.627Z",
+      "filename": "documentation_2026-07-29T08:14:53.627Z.md",
+      "totalPages": 9,
+      "successfulPages": 9,
+      "url": "https://developer.shodan.io/api",
+      "snapshotId": "5fbf0fb2f367bd07b89ae64723182b50e5f5399c76e75d6a040e4f462432008a",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://developer.shodan.io/api",
+      "canonicalSeedUrl": "https://developer.shodan.io/api",
+      "configuration": {
+        "url": "https://developer.shodan.io/api",
+        "limit": 425,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "includePaths": [
+          "/api/*"
+        ],
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-07-29T08:14:37.801Z",
+      "completedAt": "2026-07-29T08:14:53.627Z",
+      "providerTotals": {
+        "discovered": 9,
+        "returned": 9,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 9,
+        "returned": 9,
+        "valid": 9,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://developer.shodan.io/api",
+          "canonicalUrl": "https://developer.shodan.io/api",
+          "status": "valid"
+        },
+        {
+          "url": "https://developer.shodan.io/api/requirements",
+          "canonicalUrl": "https://developer.shodan.io/api/requirements",
+          "status": "valid"
+        },
+        {
+          "url": "https://developer.shodan.io/api/introduction",
+          "canonicalUrl": "https://developer.shodan.io/api/introduction",
+          "status": "valid"
+        },
+        {
+          "url": "https://developer.shodan.io/api/openapi.json",
+          "canonicalUrl": "https://developer.shodan.io/api/openapi.json",
+          "status": "valid"
+        },
+        {
+          "url": "https://developer.shodan.io/api/clients",
+          "canonicalUrl": "https://developer.shodan.io/api/clients",
+          "status": "valid"
+        },
+        {
+          "url": "https://developer.shodan.io/api/trends",
+          "canonicalUrl": "https://developer.shodan.io/api/trends",
+          "status": "valid"
+        },
+        {
+          "url": "https://developer.shodan.io/api/stream",
+          "canonicalUrl": "https://developer.shodan.io/api/stream",
+          "status": "valid"
+        },
+        {
+          "url": "https://developer.shodan.io/api/openapi-trends.json",
+          "canonicalUrl": "https://developer.shodan.io/api/openapi-trends.json",
+          "status": "valid"
+        },
+        {
+          "url": "https://developer.shodan.io/api/openapi-stream.json",
+          "canonicalUrl": "https://developer.shodan.io/api/openapi-stream.json",
+          "status": "valid"
+        }
+      ],
+      "id": "4a96813f220a52d941250bcd9af20f387a424fa814136e1fd7e56e92224653df"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5fbf0fb2f367bd07b89ae64723182b50e5f5399c76e75d6a040e4f462432008a",
+      "filename": "documentation_2026-07-29T08:14:53.627Z.md",
+      "contentHash": "f982492991e0da226736e5d41d4a3c715dd8c57e50ef04263b660e3ab2f387fd",
+      "sourceUrl": "https://developer.shodan.io/api",
+      "canonicalSourceUrl": "https://developer.shodan.io/api",
+      "capturedAt": "2026-07-29T08:14:53.627Z",
+      "crawlRunId": "4a96813f220a52d941250bcd9af20f387a424fa814136e1fd7e56e92224653df",
+      "totalPages": 9,
+      "successfulPages": 9,
+      "structure": [
+        {
+          "type": "Shodan Developer",
+          "url": "https://developer.shodan.io/api"
+        },
+        {
+          "type": "Shodan Developer",
+          "url": "https://developer.shodan.io/api/requirements"
+        },
+        {
+          "type": "Shodan Developer",
+          "url": "https://developer.shodan.io/api/introduction"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://developer.shodan.io/api/openapi.json"
+        },
+        {
+          "type": "Shodan Developer",
+          "url": "https://developer.shodan.io/api/clients"
+        },
+        {
+          "type": "Shodan Developer",
+          "url": "https://developer.shodan.io/api/trends"
+        },
+        {
+          "type": "Shodan Developer",
+          "url": "https://developer.shodan.io/api/stream"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://developer.shodan.io/api/openapi-trends.json"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://developer.shodan.io/api/openapi-stream.json"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5fbf0fb2f367bd07b89ae64723182b50e5f5399c76e75d6a040e4f462432008a"
+}
