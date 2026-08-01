@@ -1,7 +1,7 @@
 {
   "url": "https://lunatask.app/api/overview",
   "domain": "lunatask.app",
-  "lastScraped": "2026-07-30T20:19:03.288Z",
+  "lastScraped": "2026-07-31T23:57:57.901Z",
   "totalPages": 20,
   "successfulPages": 19,
   "failedPages": [
@@ -9,72 +9,72 @@
   ],
   "structure": [
     {
-      "type": "Create entry | Lunatask",
-      "url": "https://lunatask.app/api/journal-api/create"
+      "type": "Update note | Lunatask",
+      "url": "https://lunatask.app/api/notes-api/update"
     },
     {
       "type": "Track activity | Lunatask",
       "url": "https://lunatask.app/api/habits-api/track-activity"
     },
     {
-      "type": "API | Lunatask",
-      "url": "https://lunatask.app/api/overview"
-    },
-    {
-      "type": "Authentication | Lunatask",
-      "url": "https://lunatask.app/api/authentication"
-    },
-    {
       "type": "Retrieve all notes | Lunatask",
       "url": "https://lunatask.app/api/notes-api/list"
     },
     {
-      "type": "Update note | Lunatask",
-      "url": "https://lunatask.app/api/notes-api/update"
-    },
-    {
-      "type": "Delete note | Lunatask",
-      "url": "https://lunatask.app/api/notes-api/delete"
-    },
-    {
-      "type": "Retrieve all people | Lunatask",
-      "url": "https://lunatask.app/api/people-api/list"
+      "type": "API | Lunatask",
+      "url": "https://lunatask.app/api/overview"
     },
     {
       "type": "Create note | Lunatask",
       "url": "https://lunatask.app/api/notes-api/create"
     },
     {
-      "type": "Create person | Lunatask",
-      "url": "https://lunatask.app/api/people-api/create"
+      "type": "Create entry | Lunatask",
+      "url": "https://lunatask.app/api/journal-api/create"
     },
     {
-      "type": "Delete person | Lunatask",
-      "url": "https://lunatask.app/api/people-api/delete"
-    },
-    {
-      "type": "Retrieve person | Lunatask",
-      "url": "https://lunatask.app/api/people-api/show"
-    },
-    {
-      "type": "Delete task | Lunatask",
-      "url": "https://lunatask.app/api/tasks-api/delete"
-    },
-    {
-      "type": "Create task | Lunatask",
-      "url": "https://lunatask.app/api/tasks-api/create"
-    },
-    {
-      "type": "Entities | Lunatask",
-      "url": "https://lunatask.app/api/tasks-api/entity"
+      "type": "Delete note | Lunatask",
+      "url": "https://lunatask.app/api/notes-api/delete"
     },
     {
       "type": "Create note | Lunatask",
       "url": "https://lunatask.app/api/person-timeline-notes-api/create"
     },
     {
+      "type": "Delete person | Lunatask",
+      "url": "https://lunatask.app/api/people-api/delete"
+    },
+    {
+      "type": "Authentication | Lunatask",
+      "url": "https://lunatask.app/api/authentication"
+    },
+    {
+      "type": "Retrieve person | Lunatask",
+      "url": "https://lunatask.app/api/people-api/show"
+    },
+    {
+      "type": "Create person | Lunatask",
+      "url": "https://lunatask.app/api/people-api/create"
+    },
+    {
+      "type": "Create task | Lunatask",
+      "url": "https://lunatask.app/api/tasks-api/create"
+    },
+    {
+      "type": "Retrieve all people | Lunatask",
+      "url": "https://lunatask.app/api/people-api/list"
+    },
+    {
       "type": "Retrieve all tasks | Lunatask",
       "url": "https://lunatask.app/api/tasks-api/list"
+    },
+    {
+      "type": "Delete task | Lunatask",
+      "url": "https://lunatask.app/api/tasks-api/delete"
+    },
+    {
+      "type": "Entities | Lunatask",
+      "url": "https://lunatask.app/api/tasks-api/entity"
     },
     {
       "type": "Update task | Lunatask",
@@ -85,18 +85,28 @@
       "url": "https://lunatask.app/api/tasks-api/show"
     }
   ],
-  "latestVersion": "5a187435fe5c47937d4fe9e5948cb8f7ca9927f12e57dda861f421cf28ed31b8",
+  "latestVersion": "7da91796957936b4fbaed9c68da0894b28fd51a8493f305729b164cf6d5ea1d0",
   "versions": [
     {
-      "version": "5a187435fe5c47937d4fe9e5948cb8f7ca9927f12e57dda861f421cf28ed31b8",
+      "version": "7da91796957936b4fbaed9c68da0894b28fd51a8493f305729b164cf6d5ea1d0",
       "label": "latest",
+      "timestamp": "2026-07-31T23:57:57.901Z",
+      "filename": "documentation_2026-07-31T23:57:57.901Z.md",
+      "totalPages": 20,
+      "successfulPages": 19,
+      "url": "https://lunatask.app/api/tasks-api/",
+      "snapshotId": "7da91796957936b4fbaed9c68da0894b28fd51a8493f305729b164cf6d5ea1d0",
+      "isLatest": true
+    },
+    {
+      "version": "5a187435fe5c47937d4fe9e5948cb8f7ca9927f12e57dda861f421cf28ed31b8",
       "timestamp": "2026-07-30T20:19:03.288Z",
       "filename": "documentation_2026-07-30T20:19:03.288Z.md",
       "totalPages": 20,
       "successfulPages": 19,
       "url": "https://lunatask.app/api/tasks-api/",
       "snapshotId": "5a187435fe5c47937d4fe9e5948cb8f7ca9927f12e57dda861f421cf28ed31b8",
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "1.0.1",
@@ -301,6 +311,155 @@
         }
       ],
       "id": "6b486e74b582144da5a5290a446d9964df309c0520508ac428187625d395d78c"
+    },
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://lunatask.app/api/tasks-api/",
+      "canonicalSeedUrl": "https://lunatask.app/api/tasks-api",
+      "configuration": {
+        "url": "https://lunatask.app/api/tasks-api/",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "includePaths": [
+          "/api/*"
+        ],
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-07-31T23:57:42.499Z",
+      "completedAt": "2026-07-31T23:57:57.901Z",
+      "providerTotals": {
+        "discovered": 20,
+        "returned": 20,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 20,
+        "returned": 20,
+        "valid": 19,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 1,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://lunatask.app/api/notes-api/update",
+          "canonicalUrl": "https://lunatask.app/api/notes-api/update",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/habits-api/track-activity",
+          "canonicalUrl": "https://lunatask.app/api/habits-api/track-activity",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/notes-api/list",
+          "canonicalUrl": "https://lunatask.app/api/notes-api/list",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/overview",
+          "canonicalUrl": "https://lunatask.app/api/overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/notes-api/create",
+          "canonicalUrl": "https://lunatask.app/api/notes-api/create",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/journal-api/create",
+          "canonicalUrl": "https://lunatask.app/api/journal-api/create",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/notes-api/delete",
+          "canonicalUrl": "https://lunatask.app/api/notes-api/delete",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/person-timeline-notes-api/create",
+          "canonicalUrl": "https://lunatask.app/api/person-timeline-notes-api/create",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/people-api/delete",
+          "canonicalUrl": "https://lunatask.app/api/people-api/delete",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/authentication",
+          "canonicalUrl": "https://lunatask.app/api/authentication",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/people-api/show",
+          "canonicalUrl": "https://lunatask.app/api/people-api/show",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/people-api/create",
+          "canonicalUrl": "https://lunatask.app/api/people-api/create",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/tasks-api/create",
+          "canonicalUrl": "https://lunatask.app/api/tasks-api/create",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/people-api/list",
+          "canonicalUrl": "https://lunatask.app/api/people-api/list",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/tasks-api/list",
+          "canonicalUrl": "https://lunatask.app/api/tasks-api/list",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/tasks-api/delete",
+          "canonicalUrl": "https://lunatask.app/api/tasks-api/delete",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/tasks-api/entity",
+          "canonicalUrl": "https://lunatask.app/api/tasks-api/entity",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/tasks-api/update",
+          "canonicalUrl": "https://lunatask.app/api/tasks-api/update",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/tasks-api/show",
+          "canonicalUrl": "https://lunatask.app/api/tasks-api/show",
+          "status": "valid"
+        },
+        {
+          "url": "https://lunatask.app/api/tasks-api/",
+          "canonicalUrl": "https://lunatask.app/api/tasks-api",
+          "status": "rejected",
+          "reason": "error-page-content"
+        }
+      ],
+      "id": "342460ef1acc5347b8cd7221434449d824577ad4b2bb1bbb94777aab2c7f1d88"
     }
   ],
   "snapshots": [
@@ -598,7 +757,100 @@
           "error-page-content"
         ]
       }
+    },
+    {
+      "id": "7da91796957936b4fbaed9c68da0894b28fd51a8493f305729b164cf6d5ea1d0",
+      "filename": "documentation_2026-07-31T23:57:57.901Z.md",
+      "contentHash": "2192d41b08acf1016688f824b49ff143f7e1e32a11071147e9aee42fb9bed962",
+      "sourceUrl": "https://lunatask.app/api/tasks-api/",
+      "canonicalSourceUrl": "https://lunatask.app/api/tasks-api",
+      "capturedAt": "2026-07-31T23:57:57.901Z",
+      "crawlRunId": "342460ef1acc5347b8cd7221434449d824577ad4b2bb1bbb94777aab2c7f1d88",
+      "totalPages": 20,
+      "successfulPages": 19,
+      "structure": [
+        {
+          "type": "Update note | Lunatask",
+          "url": "https://lunatask.app/api/notes-api/update"
+        },
+        {
+          "type": "Track activity | Lunatask",
+          "url": "https://lunatask.app/api/habits-api/track-activity"
+        },
+        {
+          "type": "Retrieve all notes | Lunatask",
+          "url": "https://lunatask.app/api/notes-api/list"
+        },
+        {
+          "type": "API | Lunatask",
+          "url": "https://lunatask.app/api/overview"
+        },
+        {
+          "type": "Create note | Lunatask",
+          "url": "https://lunatask.app/api/notes-api/create"
+        },
+        {
+          "type": "Create entry | Lunatask",
+          "url": "https://lunatask.app/api/journal-api/create"
+        },
+        {
+          "type": "Delete note | Lunatask",
+          "url": "https://lunatask.app/api/notes-api/delete"
+        },
+        {
+          "type": "Create note | Lunatask",
+          "url": "https://lunatask.app/api/person-timeline-notes-api/create"
+        },
+        {
+          "type": "Delete person | Lunatask",
+          "url": "https://lunatask.app/api/people-api/delete"
+        },
+        {
+          "type": "Authentication | Lunatask",
+          "url": "https://lunatask.app/api/authentication"
+        },
+        {
+          "type": "Retrieve person | Lunatask",
+          "url": "https://lunatask.app/api/people-api/show"
+        },
+        {
+          "type": "Create person | Lunatask",
+          "url": "https://lunatask.app/api/people-api/create"
+        },
+        {
+          "type": "Create task | Lunatask",
+          "url": "https://lunatask.app/api/tasks-api/create"
+        },
+        {
+          "type": "Retrieve all people | Lunatask",
+          "url": "https://lunatask.app/api/people-api/list"
+        },
+        {
+          "type": "Retrieve all tasks | Lunatask",
+          "url": "https://lunatask.app/api/tasks-api/list"
+        },
+        {
+          "type": "Delete task | Lunatask",
+          "url": "https://lunatask.app/api/tasks-api/delete"
+        },
+        {
+          "type": "Entities | Lunatask",
+          "url": "https://lunatask.app/api/tasks-api/entity"
+        },
+        {
+          "type": "Update task | Lunatask",
+          "url": "https://lunatask.app/api/tasks-api/update"
+        },
+        {
+          "type": "Retrieve task | Lunatask",
+          "url": "https://lunatask.app/api/tasks-api/show"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
     }
   ],
-  "currentSnapshotId": "5a187435fe5c47937d4fe9e5948cb8f7ca9927f12e57dda861f421cf28ed31b8"
+  "currentSnapshotId": "7da91796957936b4fbaed9c68da0894b28fd51a8493f305729b164cf6d5ea1d0"
 }
