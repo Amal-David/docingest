@@ -76,6 +76,37 @@ check "exit code 0" "0" "$RC"
 check "pushed" "yes" "$(echo "$OUT" | grep -q 'pushed docs to main' && echo yes || echo no)"
 check "origin received commit" "updated" "$(git -C "$SANDBOX/origin.git" show main:server/storage/docs/example.com/doc.md)"
 
+echo "=== Case 2b: LARGE backlog still syncs (SIGPIPE regression) ==="
+echo "     A single-file change cannot reproduce this. Piping git status into"
+echo "     'grep -q' kills the writer with SIGPIPE(141) once output exceeds the"
+echo "     pipe buffer; under pipefail that reads as 'no changes' and the sync"
+echo "     is skipped silently — the exact failure this script exists to prevent."
+setup
+python3 -c "
+import os
+for i in range(3000):
+    d = 'server/storage/docs/domain%d.example.com' % i
+    os.makedirs(d, exist_ok=True)
+    open(d + '/doc.md', 'w').write('x' * 200)
+"
+git add -A >/dev/null 2>&1 && git commit -qm "seed large corpus" >/dev/null 2>&1
+git push -q origin main
+# Modify every tracked doc so `git status` lists each file individually and the
+# output comfortably exceeds the 64KB pipe buffer.
+python3 -c "
+import glob
+for f in glob.glob('server/storage/docs/*/doc.md'):
+    open(f, 'w').write('y' * 300)
+"
+STATUS_BYTES="$(git status --porcelain -- server/storage/docs | wc -c | tr -d ' ')"
+OUT="$(run_script)"; RC=$?
+check "status output exceeds 64KB pipe buffer" "yes" "$([ "$STATUS_BYTES" -gt 65536 ] && echo yes || echo no)"
+check "exit code 0" "0" "$RC"
+check "did NOT silently report no-changes" "yes" "$(echo "$OUT" | grep -q 'no doc changes' && echo no || echo yes)"
+check "actually pushed the large backlog" "yes" "$(echo "$OUT" | grep -q 'pushed docs to main' && echo yes || echo no)"
+check "origin received the modified content" "yes" \
+  "$(git -C "$SANDBOX/origin.git" show main:server/storage/docs/domain0.example.com/doc.md 2>/dev/null | grep -q '^y' && echo yes || echo no)"
+
 echo "=== Case 3: DIVERGED -> fails loudly, exits non-zero, does NOT commit ==="
 echo "     (this is the exact July 2026 failure mode)"
 setup

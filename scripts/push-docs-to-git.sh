@@ -52,10 +52,21 @@ if [ "$AHEAD" -gt 0 ]; then
   log "note: $AHEAD local commit(s) not yet on origin/$BRANCH (likely an earlier push that failed); will retry the push"
 fi
 
+# Capture the status instead of piping it into `grep -q`.
+#
+# `grep -q` exits on the first match, so with a large backlog `git status` is
+# still writing when the read end closes and dies with SIGPIPE (141). Under
+# `set -o pipefail` that becomes the pipeline's status, the test below reads as
+# "no changes", and the script logs a clean no-op and exits 0 — silently
+# skipping the sync. Verified on Linux: 10/10 runs returned 141 with ~3999
+# changed files. A small change set does NOT reproduce it, which is exactly why
+# it is worth a comment.
+DOCS_STATUS="$(git status --porcelain -- "$DOCS_PATH")"
+
 # Only ever stage documentation. The server working tree can legitimately hold
 # unrelated modified source files, and they must never be swept into a sync
 # commit by a `git add` with a wider scope than intended.
-if git status --porcelain -- "$DOCS_PATH" | grep -q .; then
+if [ -n "$DOCS_STATUS" ]; then
   git add -- "$DOCS_PATH"
 
   STRAY_PATHS="$(git diff --cached --name-only | grep -v "^$DOCS_PATH/" || true)"
