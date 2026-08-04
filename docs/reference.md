@@ -87,7 +87,7 @@ Typical production setup:
 
 - React frontend build served behind Nginx
 - Node/Express backend managed by PM2
-- Firecrawl for external crawling (the default crawl provider; set `FIRECRAWL_API_KEY` for hosted or `FIRECRAWL_API_URL` for self-hosted)
+- Firecrawl for external crawling (the only crawl backend; set `FIRECRAWL_API_KEY` for hosted or `FIRECRAWL_API_URL` for self-hosted)
 - Redis for fast search and cached docs
 - Local markdown storage for the indexed corpus
 

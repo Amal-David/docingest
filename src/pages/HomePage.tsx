@@ -192,7 +192,7 @@ export default function HomePage() {
     }
 
     try {
-      // Start crawl via server proxy (Cloudflare Browser Rendering)
+      // Start crawl via server proxy (Firecrawl)
       const requestBody = {
         url: url.startsWith('http') ? url : `https://${url}`,
         limit: 250,

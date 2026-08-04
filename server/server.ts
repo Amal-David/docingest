@@ -66,12 +66,6 @@ import {
   resolveSafeSnapshotPath,
 } from './lib/storage-paths';
 import {
-  startCrawl,
-  getCrawlStatus,
-  isCloudflareConfigured,
-  isValidCrawlId,
-} from './lib/cloudflare-crawl';
-import {
   startFirecrawlCrawl,
   getFirecrawlCrawlStatus,
   isFirecrawlConfigured,
@@ -96,7 +90,6 @@ import {
 } from './lib/indexnow';
 const app = express();
 const PORT = process.env.PORT || 8001;
-const CRAWL_PROVIDER = (process.env.CRAWL_PROVIDER || 'firecrawl').toLowerCase();
 
 interface CrawlJobState {
   provider: string;
@@ -1987,28 +1980,18 @@ app.get('/api/admin/cache/stats', async (req, res) => {
 // CRAWL PROXY ENDPOINTS
 // ============================================================================
 
-function isCrawlProviderConfigured(): boolean {
-  return CRAWL_PROVIDER === 'firecrawl' ? isFirecrawlConfigured() : isCloudflareConfigured();
-}
-
-function isValidProviderCrawlId(id: string): boolean {
-  return CRAWL_PROVIDER === 'firecrawl' ? isValidFirecrawlCrawlId(id) : isValidCrawlId(id);
-}
-
 /**
  * POST /api/crawl/start
- * Start a crawl job via the configured crawl provider.
+ * Start a crawl job via Firecrawl.
  * Returns { success, id } matching the Firecrawl-shaped frontend contract.
  */
 app.post('/api/crawl/start', async (req, res) => {
   try {
     pruneExpiredCrawlJobs();
-    if (!isCrawlProviderConfigured()) {
+    if (!isFirecrawlConfigured()) {
       res.status(503).json({
         success: false,
-        error: CRAWL_PROVIDER === 'firecrawl'
-          ? 'Crawl service not configured. Set FIRECRAWL_API_KEY (hosted) or FIRECRAWL_API_URL (self-hosted), then restart the backend.'
-          : 'Crawl service not configured. Set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID, then restart the backend.',
+        error: 'Crawl service not configured. Set FIRECRAWL_API_KEY (hosted) or FIRECRAWL_API_URL (self-hosted), then restart the backend.',
       });
       return;
     }
@@ -2020,14 +2003,12 @@ app.post('/api/crawl/start', async (req, res) => {
       return;
     }
 
-    console.log(`[crawl-proxy] Starting ${CRAWL_PROVIDER} crawl for: ${body.url}`);
-    const result = CRAWL_PROVIDER === 'firecrawl'
-      ? await startFirecrawlCrawl(body)
-      : await startCrawl(body);
+    console.log(`[crawl-proxy] Starting firecrawl crawl for: ${body.url}`);
+    const result = await startFirecrawlCrawl(body);
 
     if (result.success && result.id) {
       crawlJobs.set(result.id, {
-        provider: CRAWL_PROVIDER,
+        provider: 'firecrawl',
         request: body,
         startedAt: new Date().toISOString(),
       });
@@ -2051,14 +2032,12 @@ app.get('/api/crawl/status/:id', async (req, res) => {
     pruneExpiredCrawlJobs();
     const { id } = req.params;
 
-    if (!id || !isValidProviderCrawlId(id)) {
+    if (!id || !isValidFirecrawlCrawlId(id)) {
       res.status(400).json({ status: 'failed', error: 'Invalid or missing crawl ID' });
       return;
     }
 
-    const status = CRAWL_PROVIDER === 'firecrawl'
-      ? await getFirecrawlCrawlStatus(id)
-      : await getCrawlStatus(id);
+    const status = await getFirecrawlCrawlStatus(id);
     const crawlJob = crawlJobs.get(id);
     if (crawlJob) {
       crawlJob.latestStatus = status;
@@ -2077,8 +2056,8 @@ app.get('/api/crawl/status/:id', async (req, res) => {
  */
 app.get('/api/crawl/health', async (_req, res) => {
   res.json({
-    configured: isCrawlProviderConfigured(),
-    provider: CRAWL_PROVIDER === 'firecrawl' ? 'firecrawl' : 'cloudflare-browser-rendering',
+    configured: isFirecrawlConfigured(),
+    provider: 'firecrawl',
   });
 });
 

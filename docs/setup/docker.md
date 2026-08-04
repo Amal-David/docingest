@@ -23,7 +23,6 @@ This starts:
 Use these backend env vars:
 
 ```bash
-CRAWL_PROVIDER=firecrawl
 FIRECRAWL_API_URL=http://localhost:3002/v1
 REDIS_HOST=localhost
 REDIS_PORT=6380
@@ -85,7 +84,6 @@ Use this when Redis and Firecrawl are already running somewhere else:
 REDIS_HOST=your-redis-host
 REDIS_PORT=6379
 REDIS_PASSWORD=your-password
-CRAWL_PROVIDER=firecrawl
 FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
 FIRECRAWL_API_KEY=fc-your-api-key
 ```

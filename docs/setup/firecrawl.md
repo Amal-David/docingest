@@ -50,7 +50,6 @@ Create a `.env` file in your project root:
 
 ```bash
 # Firecrawl Configuration
-CRAWL_PROVIDER=firecrawl
 FIRECRAWL_API_KEY=fc-your-actual-api-key-here
 FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
 
@@ -70,7 +69,6 @@ For production, use environment variables or a secure `.env` file:
 
 ```bash
 # Production Environment Variables
-export CRAWL_PROVIDER="firecrawl"
 export FIRECRAWL_API_KEY="fc-your-production-api-key"
 export FIRECRAWL_API_URL="https://api.firecrawl.dev/v1"
 export REACT_APP_API_URL="https://yourdomain.com/api"
@@ -170,9 +168,7 @@ DocIngest sends crawl requests through the backend proxy:
 - `GET /api/crawl/status/:id`
 - `GET /api/crawl/health`
 
-Firecrawl is the default. `CRAWL_PROVIDER` is optional when using Firecrawl, and leaving it unset selects Firecrawl.
-
-Set `CRAWL_PROVIDER=cloudflare` to use the Cloudflare Browser Rendering provider instead, which also needs `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. Any value other than `firecrawl` selects Cloudflare.
+Firecrawl is the only crawl backend. There is no provider switch to configure — set `FIRECRAWL_API_KEY` for hosted or `FIRECRAWL_API_URL` for self-hosted, and the crawl endpoints return `503` until one of them is present.
 
 ### Security Note
 
@@ -364,7 +360,6 @@ That profile starts:
 Point the DocIngest backend at the local Firecrawl API:
 
 ```bash
-CRAWL_PROVIDER=firecrawl
 FIRECRAWL_API_URL=http://localhost:3002/v1
 REDIS_HOST=localhost
 REDIS_PORT=6380
@@ -401,7 +396,6 @@ docker compose up -d
 Point DocIngest at your Firecrawl base URL:
 
 ```bash
-CRAWL_PROVIDER=firecrawl
 FIRECRAWL_API_URL=http://your-firecrawl-instance:3002/v1
 FIRECRAWL_API_KEY=your-self-hosted-key
 ```
