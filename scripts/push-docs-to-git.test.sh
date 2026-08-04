@@ -153,13 +153,32 @@ OUT="$(REPO_DIR="$SANDBOX/server" GIT_BRANCH=nonexistent-branch bash "$SCRIPT" 2
 check "exit code non-zero" "yes" "$([ "$RC" -ne 0 ] && echo yes || echo no)"
 check "emits ERROR marker" "yes" "$(echo "$OUT" | grep -q '\[push-docs\]\[ERROR\]' && echo yes || echo no)"
 
-echo "=== Case 7: push failure surfaces as non-zero ERROR ==="
+echo "=== Case 7: PUSH failure surfaces as non-zero ERROR ==="
+echo "     Remote stays reachable so fetch succeeds and execution actually"
+echo "     reaches the push. Deleting the remote instead aborts at fetch and"
+echo "     leaves the push path untested while still passing both assertions."
 setup
 echo "new doc" > server/storage/docs/example.com/fresh.md
-rm -rf "$SANDBOX/origin.git"   # make the remote unreachable
+printf '#!/bin/sh\nexit 1\n' > "$SANDBOX/origin.git/hooks/pre-receive"
+chmod +x "$SANDBOX/origin.git/hooks/pre-receive"
 OUT="$(run_script)"; RC=$?
 check "exit code non-zero" "yes" "$([ "$RC" -ne 0 ] && echo yes || echo no)"
 check "emits ERROR marker" "yes" "$(echo "$OUT" | grep -q '\[push-docs\]\[ERROR\]' && echo yes || echo no)"
+check "failure names the push, not the fetch" "yes" "$(echo "$OUT" | grep -q 'git push origin' && echo yes || echo no)"
+check "commit was still created locally" "yes" "$(git log --oneline -1 | grep -q 'sync documentation' && echo yes || echo no)"
+
+echo "=== Case 8: FETCH failure surfaces as non-zero ERROR ==="
+echo "     Distinct from Case 7: an unreachable remote must abort before any"
+echo "     commit is made, so nothing is ever committed onto an unverified base."
+setup
+echo "new doc" > server/storage/docs/example.com/fresh.md
+BEFORE_COUNT="$(git rev-list --count HEAD)"
+rm -rf "$SANDBOX/origin.git"   # remote genuinely unreachable
+OUT="$(run_script)"; RC=$?
+check "exit code non-zero" "yes" "$([ "$RC" -ne 0 ] && echo yes || echo no)"
+check "emits ERROR marker" "yes" "$(echo "$OUT" | grep -q '\[push-docs\]\[ERROR\]' && echo yes || echo no)"
+check "failure names the fetch" "yes" "$(echo "$OUT" | grep -q 'git fetch origin' && echo yes || echo no)"
+check "did NOT commit before failing" "$BEFORE_COUNT" "$(git rev-list --count HEAD)"
 
 cd /
 rm -rf "$SANDBOX"
