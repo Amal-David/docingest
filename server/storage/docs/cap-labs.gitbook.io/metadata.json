@@ -68,5 +68,111 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://cap-labs.gitbook.io/cap-overview/",
+      "canonicalSeedUrl": "https://cap-labs.gitbook.io/cap-overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-28T22:02:49.251Z",
+      "completedAt": "2025-04-28T22:02:49.251Z",
+      "providerTotals": {
+        "discovered": 12,
+        "returned": 12,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://cap-labs.gitbook.io/cap-overview/",
+          "canonicalUrl": "https://cap-labs.gitbook.io/cap-overview",
+          "status": "valid"
+        }
+      ],
+      "id": "7718eb514b66d0e237a7501eae0800d81e8087e17304b63bdadf1b27e2fd1556",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0045064ebbc4cf238f3e62bd3ff838bfe048228be39cbaba72f9b8925ba2bcb7",
+      "filename": "documentation_2025-04-28T22:02:49.251Z.md",
+      "contentHash": "e0a258494665cb782d0dded40cb14c3f0e32e3265935bfb9f354e067f7c0bf24",
+      "sourceUrl": "https://cap-labs.gitbook.io/cap-overview/",
+      "canonicalSourceUrl": "https://cap-labs.gitbook.io/cap-overview",
+      "capturedAt": "2025-04-28T22:02:49.251Z",
+      "crawlRunId": "7718eb514b66d0e237a7501eae0800d81e8087e17304b63bdadf1b27e2fd1556",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 12,
+      "successfulPages": 12,
+      "structure": [
+        {
+          "type": "Cap Overview | cap",
+          "url": "https://cap-labs.gitbook.io/cap-overview/"
+        },
+        {
+          "type": "Solution: CAP | cap",
+          "url": "https://cap-labs.gitbook.io/cap-overview/solution-cap"
+        },
+        {
+          "type": "Problem: Self-Consuming Yield | cap",
+          "url": "https://cap-labs.gitbook.io/cap-overview/problem-self-consuming-yield"
+        },
+        {
+          "type": "Implicit & Explicit Safety | cap",
+          "url": "https://cap-labs.gitbook.io/cap-overview/product-overview/implicit-and-explicit-safety"
+        },
+        {
+          "type": "Sources of Yield | cap",
+          "url": "https://cap-labs.gitbook.io/cap-overview/sources-of-yield"
+        },
+        {
+          "type": "Operator Yield | cap",
+          "url": "https://cap-labs.gitbook.io/cap-overview/product-overview/operator-yield"
+        },
+        {
+          "type": "Helpful links | cap",
+          "url": "https://cap-labs.gitbook.io/cap-overview/resources/helpful-links"
+        },
+        {
+          "type": "Alternative Stablecoins | cap",
+          "url": "https://cap-labs.gitbook.io/cap-overview/alternative-stablecoins"
+        },
+        {
+          "type": "General Risk Disclosures | cap",
+          "url": "https://cap-labs.gitbook.io/cap-overview/resources/general-risk-disclosures"
+        },
+        {
+          "type": "Shared Security Model | cap",
+          "url": "https://cap-labs.gitbook.io/cap-overview/product-overview/shared-security-model"
+        },
+        {
+          "type": "FAQs | cap",
+          "url": "https://cap-labs.gitbook.io/cap-overview/resources/faqs"
+        },
+        {
+          "type": "CAP Stablecoins | cap",
+          "url": "https://cap-labs.gitbook.io/cap-overview/product-overview/cap-stablecoins"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0045064ebbc4cf238f3e62bd3ff838bfe048228be39cbaba72f9b8925ba2bcb7"
 }

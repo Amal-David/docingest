@@ -28,5 +28,71 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://coolify.io/docs/",
+      "canonicalSeedUrl": "https://coolify.io/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-16T16:51:30.285Z",
+      "completedAt": "2026-02-16T16:51:30.285Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://coolify.io/docs/",
+          "canonicalUrl": "https://coolify.io/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "a42d88c39de60b6e2067dabba1bcc55239dc5649c5c3b22aadc217835020a14c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9c617d1c6db792cc786d021628fa1a853d898bd541b61935bb5e2c990e9efac9",
+      "filename": "documentation_2026-02-16T16:51:30.285Z.md",
+      "contentHash": "017d478c22776716ef4902aa45c246b8d796fb6d3482327b6761715b1d54ee67",
+      "sourceUrl": "https://coolify.io/docs/",
+      "canonicalSourceUrl": "https://coolify.io/docs",
+      "capturedAt": "2026-02-16T16:51:30.285Z",
+      "crawlRunId": "a42d88c39de60b6e2067dabba1bcc55239dc5649c5c3b22aadc217835020a14c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Coolify Docs",
+          "url": "https://coolify.io/docs/"
+        },
+        {
+          "type": "Destinations | Coolify Docs",
+          "url": "https://coolify.io/docs/knowledge-base/destinations/index"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9c617d1c6db792cc786d021628fa1a853d898bd541b61935bb5e2c990e9efac9"
 }

@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://lyethar.gitbook.io/methodology/readme/enumeration",
+      "canonicalSeedUrl": "https://lyethar.gitbook.io/methodology/readme/enumeration",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-24T19:14:15.339Z",
+      "completedAt": "2025-04-24T19:14:15.339Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://lyethar.gitbook.io/methodology/readme/enumeration",
+          "canonicalUrl": "https://lyethar.gitbook.io/methodology/readme/enumeration",
+          "status": "valid"
+        }
+      ],
+      "id": "dd2633aa314951b6a0a62770602814322ef4cb2d903e44a9a900818d561a272c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "60def4a6e071fedf9145ce00e1744e920c63978f9c81aafd31a8a3d2c3ad7a59",
+      "filename": "documentation_2025-04-24T19:14:15.339Z.md",
+      "contentHash": "040114019446a65664f0c23c1901b03623b6d1ad8e3782889b7b2facd709b574",
+      "sourceUrl": "https://lyethar.gitbook.io/methodology/readme/enumeration",
+      "canonicalSourceUrl": "https://lyethar.gitbook.io/methodology/readme/enumeration",
+      "capturedAt": "2025-04-24T19:14:15.339Z",
+      "crawlRunId": "dd2633aa314951b6a0a62770602814322ef4cb2d903e44a9a900818d561a272c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Enumeration | Methodology",
+          "url": "https://lyethar.gitbook.io/methodology/readme/enumeration"
+        },
+        {
+          "type": "Web Enumeration | Methodology",
+          "url": "https://lyethar.gitbook.io/methodology/readme/enumeration/web-enumeration"
+        },
+        {
+          "type": "LDAP Enumeration | Methodology",
+          "url": "https://lyethar.gitbook.io/methodology/readme/enumeration/ldap-enumeration"
+        },
+        {
+          "type": "Rsync Enumeration | Methodology",
+          "url": "https://lyethar.gitbook.io/methodology/readme/enumeration/rsync-enumeration"
+        },
+        {
+          "type": "SNMP Enumeration | Methodology",
+          "url": "https://lyethar.gitbook.io/methodology/readme/enumeration/snmp-enumeration"
+        },
+        {
+          "type": "SMB Enumeration | Methodology",
+          "url": "https://lyethar.gitbook.io/methodology/readme/enumeration/smb-enumeration"
+        },
+        {
+          "type": "Bullet Proof Strategy | Methodology",
+          "url": "https://lyethar.gitbook.io/methodology/readme/bullet-proof-strategy"
+        },
+        {
+          "type": "👁🗨 Enumeration Cheatsheet | Methodology",
+          "url": "https://lyethar.gitbook.io/methodology/readme/enumeration/enumeration-cheatsheet"
+        },
+        {
+          "type": "Exploitation | Methodology",
+          "url": "https://lyethar.gitbook.io/methodology/readme/exploitation"
+        },
+        {
+          "type": "Copy of SMBPass Change | Methodology",
+          "url": "https://lyethar.gitbook.io/methodology/readme/enumeration/smb-enumeration/copy-of-smbpass-change"
+        },
+        {
+          "type": "Enumerating Patterns Trick | Methodology",
+          "url": "https://lyethar.gitbook.io/methodology/readme/enumeration/web-enumeration/enumerating-patterns-trick"
+        },
+        {
+          "type": "RPC Enumeration | Methodology",
+          "url": "https://lyethar.gitbook.io/methodology/readme/enumeration/rpc-enumeration"
+        },
+        {
+          "type": "Kerberos Enumeration | Methodology",
+          "url": "https://lyethar.gitbook.io/methodology/readme/enumeration/kerberos-enumeration"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "60def4a6e071fedf9145ce00e1744e920c63978f9c81aafd31a8a3d2c3ad7a59"
 }

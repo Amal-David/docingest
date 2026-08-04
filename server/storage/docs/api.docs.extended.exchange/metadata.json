@@ -33,5 +33,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://api.docs.extended.exchange/",
+      "canonicalSeedUrl": "https://api.docs.extended.exchange/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-08T15:45:10.898Z",
+      "completedAt": "2026-01-08T15:45:10.898Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://api.docs.extended.exchange/",
+          "canonicalUrl": "https://api.docs.extended.exchange/",
+          "status": "valid"
+        }
+      ],
+      "id": "cda202961e9d7af70665fbfc1366197fb13fbe711f3da967c5b23331803bd036",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0229d4228a6748af4f87b40de9085974cc3a604fe2e5dcec40ff257288b70631",
+      "filename": "documentation_2026-01-08T15:45:10.898Z.md",
+      "contentHash": "0fcc22e76d9ad043d14d06d12e56cd9ce8c049749be56e1370fd44a93a2cca2d",
+      "sourceUrl": "https://api.docs.extended.exchange/",
+      "canonicalSourceUrl": "https://api.docs.extended.exchange/",
+      "capturedAt": "2026-01-08T15:45:10.898Z",
+      "crawlRunId": "cda202961e9d7af70665fbfc1366197fb13fbe711f3da967c5b23331803bd036",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "API Documentation",
+          "url": "https://api.docs.extended.exchange/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0229d4228a6748af4f87b40de9085974cc3a604fe2e5dcec40ff257288b70631"
 }

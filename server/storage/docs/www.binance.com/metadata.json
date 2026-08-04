@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.binance.com/fr/support/faq/detail/360002502072",
+      "canonicalSeedUrl": "https://www.binance.com/fr/support/faq/detail/360002502072",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-07T09:15:53.886Z",
+      "completedAt": "2026-04-07T09:15:53.886Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.binance.com/fr/support/faq/detail/360002502072",
+          "canonicalUrl": "https://www.binance.com/fr/support/faq/detail/360002502072",
+          "status": "valid"
+        }
+      ],
+      "id": "8ca6c678b3736a8d61a9fc06d0efed1aa469477216a4177203afc37b30cbbed0",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ee7ec1613320c5039892e6df19d45d9f858ed2dbacb15c6caaa54f3135212bf8",
+      "filename": "documentation_2026-04-07T09:15:53.886Z.md",
+      "contentHash": "4497cf8323d97065e2873f57d94a5ab1c97bb47a2d87990ce92ce0dc73989c13",
+      "sourceUrl": "https://www.binance.com/fr/support/faq/detail/360002502072",
+      "canonicalSourceUrl": "https://www.binance.com/fr/support/faq/detail/360002502072",
+      "capturedAt": "2026-04-07T09:15:53.886Z",
+      "crawlRunId": "8ca6c678b3736a8d61a9fc06d0efed1aa469477216a4177203afc37b30cbbed0",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Comment créer des clés API sur Binance ? | Binance",
+          "url": "https://www.binance.com/fr/support/faq/detail/360002502072"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ee7ec1613320c5039892e6df19d45d9f858ed2dbacb15c6caaa54f3135212bf8"
 }

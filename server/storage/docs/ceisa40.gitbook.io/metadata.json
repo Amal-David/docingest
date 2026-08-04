@@ -52,5 +52,95 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://ceisa40.gitbook.io/pia-ceisa40/",
+      "canonicalSeedUrl": "https://ceisa40.gitbook.io/pia-ceisa40",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-18T10:23:06.945Z",
+      "completedAt": "2025-12-18T10:23:06.945Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://ceisa40.gitbook.io/pia-ceisa40/",
+          "canonicalUrl": "https://ceisa40.gitbook.io/pia-ceisa40",
+          "status": "valid"
+        }
+      ],
+      "id": "963fd659d1145c9fddd379cd89a6231b8abd56dc74257563852d56789c6e95ba",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "92fd760c7ac2e27e31bb1d4b4fe32008f0f8eb5f3951296f4b6a62a3bcf653ab",
+      "filename": "documentation_2025-12-18T10:23:06.945Z.md",
+      "contentHash": "429abf9cf34d7b5aff60962d9ab829640b489b54cf69e0d59a486a190bc6e277",
+      "sourceUrl": "https://ceisa40.gitbook.io/pia-ceisa40/",
+      "canonicalSourceUrl": "https://ceisa40.gitbook.io/pia-ceisa40",
+      "capturedAt": "2025-12-18T10:23:06.945Z",
+      "crawlRunId": "963fd659d1145c9fddd379cd89a6231b8abd56dc74257563852d56789c6e95ba",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Introduction | PIA-CEISA40",
+          "url": "https://ceisa40.gitbook.io/pia-ceisa40/"
+        },
+        {
+          "type": "Headers | PIA-CEISA40",
+          "url": "https://ceisa40.gitbook.io/pia-ceisa40/headers"
+        },
+        {
+          "type": "OAuth 2.0 | PIA-CEISA40",
+          "url": "https://ceisa40.gitbook.io/pia-ceisa40/authentication/oauth2.0"
+        },
+        {
+          "type": "API Services Pabean | PIA-CEISA40",
+          "url": "https://ceisa40.gitbook.io/pia-ceisa40/api-services-pabean"
+        },
+        {
+          "type": "Authentication | PIA-CEISA40",
+          "url": "https://ceisa40.gitbook.io/pia-ceisa40/authentication"
+        },
+        {
+          "type": "Kirim Dokumen TPB | PIA-CEISA40",
+          "url": "https://ceisa40.gitbook.io/pia-ceisa40/api-services-pabean/kirim-dokumen-tpb"
+        },
+        {
+          "type": "Kirim Dokumen Impor Barang Tidak Berwujud* | PIA-CEISA40",
+          "url": "https://ceisa40.gitbook.io/pia-ceisa40/api-services-pabean/kirim-dokumen-impor/kirim-dokumen-impor-barang-tidak-berwujud"
+        },
+        {
+          "type": "Kirim Dokumen Ekspor | PIA-CEISA40",
+          "url": "https://ceisa40.gitbook.io/pia-ceisa40/api-services-pabean/kirim-dokumen-ekspor"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "92fd760c7ac2e27e31bb1d4b4fe32008f0f8eb5f3951296f4b6a62a3bcf653ab"
 }

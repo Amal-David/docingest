@@ -48,5 +48,91 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://scripting.mechanical.docs.pyansys.com/version/stable/api/ansys/mechanical/stubs/v241/Ansys/Mechanical/index.html",
+      "canonicalSeedUrl": "https://scripting.mechanical.docs.pyansys.com/version/stable/api/ansys/mechanical/stubs/v241/Ansys/Mechanical/index.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-17T20:11:36.940Z",
+      "completedAt": "2025-04-17T20:11:36.940Z",
+      "providerTotals": {
+        "discovered": 7,
+        "returned": 7,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://scripting.mechanical.docs.pyansys.com/version/stable/api/ansys/mechanical/stubs/v241/Ansys/Mechanical/index.html",
+          "canonicalUrl": "https://scripting.mechanical.docs.pyansys.com/version/stable/api/ansys/mechanical/stubs/v241/Ansys/Mechanical/index.html",
+          "status": "valid"
+        }
+      ],
+      "id": "fa5870a6d067003ddfb3d5f102b941e010031bce454bf14f67a2e7cfd460429e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0e4952aeb6e551abc773682b09a7801df4181b82cf5f6437a872e65fb27f70c3",
+      "filename": "documentation_2025-04-17T20:11:36.940Z.md",
+      "contentHash": "7ebfc417edb51c4571755704268fe546c14306fe34c3397d24aecfd64402b7c9",
+      "sourceUrl": "https://scripting.mechanical.docs.pyansys.com/version/stable/api/ansys/mechanical/stubs/v241/Ansys/Mechanical/index.html",
+      "canonicalSourceUrl": "https://scripting.mechanical.docs.pyansys.com/version/stable/api/ansys/mechanical/stubs/v241/Ansys/Mechanical/index.html",
+      "capturedAt": "2025-04-17T20:11:36.940Z",
+      "crawlRunId": "fa5870a6d067003ddfb3d5f102b941e010031bce454bf14f67a2e7cfd460429e",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 7,
+      "successfulPages": 7,
+      "structure": [
+        {
+          "type": "Mechanical — PyMechanical Stubs",
+          "url": "https://scripting.mechanical.docs.pyansys.com/version/stable/api/ansys/mechanical/stubs/v241/Ansys/Mechanical/index.html"
+        },
+        {
+          "type": "API reference — PyMechanical Stubs",
+          "url": "https://scripting.mechanical.docs.pyansys.com/version/stable/api/index.html"
+        },
+        {
+          "type": "Mechanical API Documentation — PyMechanical Stubs",
+          "url": "https://scripting.mechanical.docs.pyansys.com/version/stable/index.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://scripting.mechanical.docs.pyansys.com/version/stable/_sources/api/index.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://scripting.mechanical.docs.pyansys.com/version/stable/_sources/index.rst.txt"
+        },
+        {
+          "type": "Page not found · GitHub Pages",
+          "url": "https://scripting.mechanical.docs.pyansys.com/version/stable/api/None"
+        },
+        {
+          "type": "Mechanical API Documentation — PyMechanical Stubs",
+          "url": "https://scripting.mechanical.docs.pyansys.com/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0e4952aeb6e551abc773682b09a7801df4181b82cf5f6437a872e65fb27f70c3"
 }

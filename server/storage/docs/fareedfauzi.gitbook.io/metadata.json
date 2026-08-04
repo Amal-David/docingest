@@ -88,5 +88,131 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://fareedfauzi.gitbook.io/ctf-training",
+      "canonicalSeedUrl": "https://fareedfauzi.gitbook.io/ctf-training",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-29T04:33:15.972Z",
+      "completedAt": "2026-06-29T04:33:15.972Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://fareedfauzi.gitbook.io/ctf-training",
+          "canonicalUrl": "https://fareedfauzi.gitbook.io/ctf-training",
+          "status": "valid"
+        }
+      ],
+      "id": "bb9b27671ce12464f1c8773adee0eeb7a9a3f9248333692aa9724cd3435c890c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "de2e5a06a829dbcd2a5063340b97f59e6c2a7819315a599a6899b8adc2cc091c",
+      "filename": "documentation_2026-06-29T04:33:15.972Z.md",
+      "contentHash": "b8f9b6230f43fb2b9c5d12284062e546fdc95a50fdd21301fba5324dec54fa21",
+      "sourceUrl": "https://fareedfauzi.gitbook.io/ctf-training",
+      "canonicalSourceUrl": "https://fareedfauzi.gitbook.io/ctf-training",
+      "capturedAt": "2026-06-29T04:33:15.972Z",
+      "crawlRunId": "bb9b27671ce12464f1c8773adee0eeb7a9a3f9248333692aa9724cd3435c890c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Introduction | CTF Training",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training"
+        },
+        {
+          "type": "General | CTF Training",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/reverse-engineering/general"
+        },
+        {
+          "type": "KAPE Triage | CTF Training",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/forensic/kape-triage"
+        },
+        {
+          "type": "Memory dump analysis | CTF Training",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/forensic/memory-dump-analysis"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/llms.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/introduction.md"
+        },
+        {
+          "type": "Registry Analysis | CTF Training",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/forensic/kape-triage/registry-analysis"
+        },
+        {
+          "type": "Event Log Analysis | CTF Training",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/forensic/kape-triage/event-log-analysis"
+        },
+        {
+          "type": "Introduction | CTF Training",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/forensic/introduction"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/reverse-engineering/general.md"
+        },
+        {
+          "type": "General | CTF Training",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/reverse-engineering"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/forensic/memory-dump-analysis.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/forensic/kape-triage.md"
+        },
+        {
+          "type": "Introduction | CTF Training",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/forensic"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/forensic/introduction.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/forensic/kape-triage/event-log-analysis.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://fareedfauzi.gitbook.io/ctf-training/forensic/kape-triage/registry-analysis.md"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "de2e5a06a829dbcd2a5063340b97f59e6c2a7819315a599a6899b8adc2cc091c"
 }

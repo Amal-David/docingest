@@ -33,5 +33,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.hypernative.xyz/hypernative-product-docs",
+      "canonicalSeedUrl": "https://docs.hypernative.xyz/hypernative-product-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-03T15:41:15.472Z",
+      "completedAt": "2026-01-03T15:41:15.472Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.hypernative.xyz/hypernative-product-docs",
+          "canonicalUrl": "https://docs.hypernative.xyz/hypernative-product-docs",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "47b7c192ed99f9f35d410aef79b40febfc41244014e6f904286934612f817f9b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b67452decbc490db4400ad0f552c72d269575066402b7e7b995d0d2ffbf58fdc",
+      "filename": "documentation_2026-01-03T15:41:15.472Z.md",
+      "contentHash": "602f30e41f3fc5b39078af49206e1e165df83bb68414b9b43887cfd5d990f2f6",
+      "sourceUrl": "https://docs.hypernative.xyz/hypernative-product-docs",
+      "canonicalSourceUrl": "https://docs.hypernative.xyz/hypernative-product-docs",
+      "capturedAt": "2026-01-03T15:41:15.472Z",
+      "crawlRunId": "47b7c192ed99f9f35d410aef79b40febfc41244014e6f904286934612f817f9b",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Hypernative",
+          "url": "https://docs.hypernative.xyz/hypernative-product-docs"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

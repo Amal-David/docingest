@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.openintents.xyz/docs",
+      "canonicalSeedUrl": "https://docs.openintents.xyz/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-24T08:35:12.411Z",
+      "completedAt": "2026-06-24T08:35:12.411Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.openintents.xyz/docs",
+          "canonicalUrl": "https://docs.openintents.xyz/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "05722b89c09a6da01c0f3b5fae4146a9be4dfe433fc6653c334875308ae3ccb2",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "61d779b64340182f00208837671d7f4de9921d49f7833edfa803caced5a7fba2",
+      "filename": "documentation_2026-06-24T08:35:12.411Z.md",
+      "contentHash": "6c6c168449ff201d467783dcbb374d5776ab8d8e287d2f1dc5b8944cff1aa9c6",
+      "sourceUrl": "https://docs.openintents.xyz/docs",
+      "canonicalSourceUrl": "https://docs.openintents.xyz/docs",
+      "capturedAt": "2026-06-24T08:35:12.411Z",
+      "crawlRunId": "05722b89c09a6da01c0f3b5fae4146a9be4dfe433fc6653c334875308ae3ccb2",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Introduction",
+          "url": "https://docs.openintents.xyz/docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "61d779b64340182f00208837671d7f4de9921d49f7833edfa803caced5a7fba2"
 }

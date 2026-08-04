@@ -96,5 +96,139 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.aitmpl.com/*",
+      "canonicalSeedUrl": "https://docs.aitmpl.com/*",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-12T15:33:32.912Z",
+      "completedAt": "2026-03-12T15:33:32.912Z",
+      "providerTotals": {
+        "discovered": 19,
+        "returned": 19,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.aitmpl.com/*",
+          "canonicalUrl": "https://docs.aitmpl.com/*",
+          "status": "valid"
+        }
+      ],
+      "id": "571c35442dca0076e9452dc2f9b25395e02718c4c46393aff2ce1c57ec774e45",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f747f44cdcfd446481ea47fce35ae2aa70dfb9eafdaca2073851cc5dcaa538c4",
+      "filename": "documentation_2026-03-12T15:33:32.912Z.md",
+      "contentHash": "acf26d35ac22aafb5340b1a35f0689be99b2d10c1572ba5ad26c6c0e775f7d4d",
+      "sourceUrl": "https://docs.aitmpl.com/*",
+      "canonicalSourceUrl": "https://docs.aitmpl.com/*",
+      "capturedAt": "2026-03-12T15:33:32.912Z",
+      "crawlRunId": "571c35442dca0076e9452dc2f9b25395e02718c4c46393aff2ce1c57ec774e45",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 19,
+      "successfulPages": 19,
+      "structure": [
+        {
+          "type": "Page Not Found | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/*"
+        },
+        {
+          "type": "Hello from Claude Code Templates | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/"
+        },
+        {
+          "type": "Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/intro"
+        },
+        {
+          "type": "CLI Options Reference | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/cli-options"
+        },
+        {
+          "type": "Support | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/support"
+        },
+        {
+          "type": "Safety Features | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/safety-features"
+        },
+        {
+          "type": "Additional Tools | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/tools/overview"
+        },
+        {
+          "type": "Overview | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/components/overview"
+        },
+        {
+          "type": "E2B Sandbox | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/tools/sandbox"
+        },
+        {
+          "type": "Agents | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/components/agents"
+        },
+        {
+          "type": "Commands | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/components/commands"
+        },
+        {
+          "type": "Analytics Dashboard | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/tools/analytics"
+        },
+        {
+          "type": "Settings | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/components/settings"
+        },
+        {
+          "type": "Chats Interface | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/tools/chats"
+        },
+        {
+          "type": "Health Check | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/tools/health-check"
+        },
+        {
+          "type": "Hooks | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/components/hooks"
+        },
+        {
+          "type": "MCPs (Model Context Protocol) | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/components/mcps"
+        },
+        {
+          "type": "Cloudflare Tunnel | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/tools/tunnel"
+        },
+        {
+          "type": "Templates | Claude Code Templates",
+          "url": "https://docs.aitmpl.com/docs/components/templates"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f747f44cdcfd446481ea47fce35ae2aa70dfb9eafdaca2073851cc5dcaa538c4"
 }

@@ -1,1 +1,308 @@
-{"url":"https://hackback.zip/2023/10/02/Windows-AD.html","domain":"hackback.zip","lastScraped":"2025-08-27T06:15:41.653Z","totalPages":28,"successfulPages":28,"failedPages":[],"structure":[{"type":"\n    \n      Intro to Windows & AD Hacking\n    \n  ","url":"https://hackback.zip/2023/10/02/Windows-AD.html"},{"type":"\n    \n      Intro to Cryptography\n    \n  ","url":"https://hackback.zip/2021/04/16/Crypto.html"},{"type":"\n    \n      Intro to Web Exploitation\n    \n  ","url":"https://hackback.zip/2022/10/12/Web.html"},{"type":"\n    \n      Intro to Purple Teaming: Min-maxing your logging setup\n    \n  ","url":"https://hackback.zip/2023/11/09/Purple-Teaming.html"},{"type":"\n    \n      Hello, World\n    \n  ","url":"https://hackback.zip/2024/02/19/Hello-World.html"},{"type":"\n    \n      Intro to OSINT (Redacted)\n    \n  ","url":"https://hackback.zip/2024/02/01/OSINT.html"},{"type":"\n    \n      Active Defense and Cyber Deception: Dirty Blue Team Tricks\n    \n  ","url":"https://hackback.zip/2024/03/21/Active-Defense-Cyber-Deception-Dirty-Blue-Team-Tricks.html"},{"type":"\n    \n      Hiding in Plain Sight: A Survey of EDR Evasion Techniques\n    \n  ","url":"https://hackback.zip/2024/05/05/Hiding-in-plain-sight-survey-of-edr-evasion-techniques.html"},{"type":"\n    \n      My journey to OSCP\n    \n  ","url":"https://hackback.zip/2024/02/20/OSCP.html"},{"type":"\n    \n      CTF Cheat Sheet\n    \n  ","url":"https://hackback.zip/2024/04/30/CTF-Cheat-Sheet.html"},{"type":"\n    \n      Intro to Reverse Engineering\n    \n  ","url":"https://hackback.zip/2022/10/04/Rev.html"},{"type":"\n    \n      GitHub-Style Alerts in Jekyll with Liquid\n    \n  ","url":"https://hackback.zip/2024/03/10/Jekyll-GitHub-Alerts-Liquid.html"},{"type":"Redirecting...","url":"https://hackback.zip/ctf.html"},{"type":"\n    \n      Intro to Windows & Active Directory\n    \n  ","url":"https://hackback.zip/2024/10/17/Intro-To-Windows-AD.html"},{"type":"\n    \n      Remotely dumping Windows security questions with Impacket\n    \n  ","url":"https://hackback.zip/2024/05/08/Remotely-Dumping-Windows-Security-Questions-With-Impacket.html"},{"type":"\n    \n      Intro to Binary Exploitation\n    \n  ","url":"https://hackback.zip/2022/10/26/Pwn.html"},{"type":"\n    \n      Intro to Windows & AD Hacking - v2\n    \n  ","url":"https://hackback.zip/2024/10/21/Intro-To-Windows-AD-Hacking-v2.html"},{"type":"\n    \n      Intro to Windows & AD Defense\n    \n  ","url":"https://hackback.zip/2024/10/22/Intro-To-Windows-AD-Defense.html"},{"type":"\n    \n      LLM Hacking\n    \n  ","url":"https://hackback.zip/2025/04/02/LLM-Top-10-Security-Hacking.html"},{"type":"\n    \n      How to effectively take inventory\n    \n  ","url":"https://hackback.zip/2025/01/30/How-to-effectively-take-inventory.html"},{"type":"\n    \n      blog · adamkadaban\n    \n  ","url":"https://hackback.zip/blog.html"},{"type":"\n    \n      about · adamkadaban\n    \n  ","url":"https://hackback.zip/"},{"type":"\n    \n      presentations · adamkadaban\n    \n  ","url":"https://hackback.zip/presentations.html"},{"type":"\n    \n      tags · adamkadaban\n    \n  ","url":"https://hackback.zip/tags.html"},{"type":"Unknown","url":"https://hackback.zip/assets/pgp_public.txt"},{"type":"\n    \n      blog · adamkadaban\n    \n  ","url":"https://hackback.zip/blog"},{"type":"\n    \n      presentations · adamkadaban\n    \n  ","url":"https://hackback.zip/presentations"},{"type":"\n    \n      tags · adamkadaban\n    \n  ","url":"https://hackback.zip/tags"}]}
+{
+  "url": "https://hackback.zip/2023/10/02/Windows-AD.html",
+  "domain": "hackback.zip",
+  "lastScraped": "2025-08-27T06:15:41.653Z",
+  "totalPages": 28,
+  "successfulPages": 28,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "\n    \n      Intro to Windows & AD Hacking\n    \n  ",
+      "url": "https://hackback.zip/2023/10/02/Windows-AD.html"
+    },
+    {
+      "type": "\n    \n      Intro to Cryptography\n    \n  ",
+      "url": "https://hackback.zip/2021/04/16/Crypto.html"
+    },
+    {
+      "type": "\n    \n      Intro to Web Exploitation\n    \n  ",
+      "url": "https://hackback.zip/2022/10/12/Web.html"
+    },
+    {
+      "type": "\n    \n      Intro to Purple Teaming: Min-maxing your logging setup\n    \n  ",
+      "url": "https://hackback.zip/2023/11/09/Purple-Teaming.html"
+    },
+    {
+      "type": "\n    \n      Hello, World\n    \n  ",
+      "url": "https://hackback.zip/2024/02/19/Hello-World.html"
+    },
+    {
+      "type": "\n    \n      Intro to OSINT (Redacted)\n    \n  ",
+      "url": "https://hackback.zip/2024/02/01/OSINT.html"
+    },
+    {
+      "type": "\n    \n      Active Defense and Cyber Deception: Dirty Blue Team Tricks\n    \n  ",
+      "url": "https://hackback.zip/2024/03/21/Active-Defense-Cyber-Deception-Dirty-Blue-Team-Tricks.html"
+    },
+    {
+      "type": "\n    \n      Hiding in Plain Sight: A Survey of EDR Evasion Techniques\n    \n  ",
+      "url": "https://hackback.zip/2024/05/05/Hiding-in-plain-sight-survey-of-edr-evasion-techniques.html"
+    },
+    {
+      "type": "\n    \n      My journey to OSCP\n    \n  ",
+      "url": "https://hackback.zip/2024/02/20/OSCP.html"
+    },
+    {
+      "type": "\n    \n      CTF Cheat Sheet\n    \n  ",
+      "url": "https://hackback.zip/2024/04/30/CTF-Cheat-Sheet.html"
+    },
+    {
+      "type": "\n    \n      Intro to Reverse Engineering\n    \n  ",
+      "url": "https://hackback.zip/2022/10/04/Rev.html"
+    },
+    {
+      "type": "\n    \n      GitHub-Style Alerts in Jekyll with Liquid\n    \n  ",
+      "url": "https://hackback.zip/2024/03/10/Jekyll-GitHub-Alerts-Liquid.html"
+    },
+    {
+      "type": "Redirecting...",
+      "url": "https://hackback.zip/ctf.html"
+    },
+    {
+      "type": "\n    \n      Intro to Windows & Active Directory\n    \n  ",
+      "url": "https://hackback.zip/2024/10/17/Intro-To-Windows-AD.html"
+    },
+    {
+      "type": "\n    \n      Remotely dumping Windows security questions with Impacket\n    \n  ",
+      "url": "https://hackback.zip/2024/05/08/Remotely-Dumping-Windows-Security-Questions-With-Impacket.html"
+    },
+    {
+      "type": "\n    \n      Intro to Binary Exploitation\n    \n  ",
+      "url": "https://hackback.zip/2022/10/26/Pwn.html"
+    },
+    {
+      "type": "\n    \n      Intro to Windows & AD Hacking - v2\n    \n  ",
+      "url": "https://hackback.zip/2024/10/21/Intro-To-Windows-AD-Hacking-v2.html"
+    },
+    {
+      "type": "\n    \n      Intro to Windows & AD Defense\n    \n  ",
+      "url": "https://hackback.zip/2024/10/22/Intro-To-Windows-AD-Defense.html"
+    },
+    {
+      "type": "\n    \n      LLM Hacking\n    \n  ",
+      "url": "https://hackback.zip/2025/04/02/LLM-Top-10-Security-Hacking.html"
+    },
+    {
+      "type": "\n    \n      How to effectively take inventory\n    \n  ",
+      "url": "https://hackback.zip/2025/01/30/How-to-effectively-take-inventory.html"
+    },
+    {
+      "type": "\n    \n      blog · adamkadaban\n    \n  ",
+      "url": "https://hackback.zip/blog.html"
+    },
+    {
+      "type": "\n    \n      about · adamkadaban\n    \n  ",
+      "url": "https://hackback.zip/"
+    },
+    {
+      "type": "\n    \n      presentations · adamkadaban\n    \n  ",
+      "url": "https://hackback.zip/presentations.html"
+    },
+    {
+      "type": "\n    \n      tags · adamkadaban\n    \n  ",
+      "url": "https://hackback.zip/tags.html"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://hackback.zip/assets/pgp_public.txt"
+    },
+    {
+      "type": "\n    \n      blog · adamkadaban\n    \n  ",
+      "url": "https://hackback.zip/blog"
+    },
+    {
+      "type": "\n    \n      presentations · adamkadaban\n    \n  ",
+      "url": "https://hackback.zip/presentations"
+    },
+    {
+      "type": "\n    \n      tags · adamkadaban\n    \n  ",
+      "url": "https://hackback.zip/tags"
+    }
+  ],
+  "latestVersion": "legacy",
+  "versions": [
+    {
+      "version": "legacy",
+      "label": "legacy",
+      "timestamp": "2025-08-27T06:15:41.653Z",
+      "filename": "documentation_2025-08-27T06:15:41.653Z.md",
+      "totalPages": 28,
+      "successfulPages": 28,
+      "url": "https://hackback.zip/2023/10/02/Windows-AD.html",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "legacyDocumentFiles": [
+    "documentation_2025-08-27T06:15:41.653Z.md"
+  ],
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://hackback.zip/2023/10/02/Windows-AD.html",
+      "canonicalSeedUrl": "https://hackback.zip/2023/10/02/Windows-AD.html",
+      "configuration": {
+        "sourceSchemaVersion": 1
+      },
+      "startedAt": "2025-08-27T06:15:41.653Z",
+      "completedAt": "2025-08-27T06:15:41.653Z",
+      "providerTotals": {
+        "discovered": 28,
+        "returned": 28,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://hackback.zip/2023/10/02/Windows-AD.html",
+          "canonicalUrl": "https://hackback.zip/2023/10/02/Windows-AD.html",
+          "status": "valid"
+        }
+      ],
+      "id": "7967327425f8e786dbc6fb6321473e6f687fc0d89b64921fcdca5122fa6b9d45",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b9521c3ae4b41e804174c97ae69153f93e2e097dfebd09cd5c6189d55af420f3",
+      "filename": "documentation_2025-08-27T06:15:41.653Z.md",
+      "contentHash": "4e36804b31f12ce99e8e210c6cda347df883555b60954f94388c3dd532c63afe",
+      "sourceUrl": "https://hackback.zip/2023/10/02/Windows-AD.html",
+      "canonicalSourceUrl": "https://hackback.zip/2023/10/02/Windows-AD.html",
+      "capturedAt": "2025-08-27T06:15:41.653Z",
+      "crawlRunId": "7967327425f8e786dbc6fb6321473e6f687fc0d89b64921fcdca5122fa6b9d45",
+      "upstreamChannel": "legacy",
+      "totalPages": 28,
+      "successfulPages": 28,
+      "structure": [
+        {
+          "type": "\n    \n      Intro to Windows & AD Hacking\n    \n  ",
+          "url": "https://hackback.zip/2023/10/02/Windows-AD.html"
+        },
+        {
+          "type": "\n    \n      Intro to Cryptography\n    \n  ",
+          "url": "https://hackback.zip/2021/04/16/Crypto.html"
+        },
+        {
+          "type": "\n    \n      Intro to Web Exploitation\n    \n  ",
+          "url": "https://hackback.zip/2022/10/12/Web.html"
+        },
+        {
+          "type": "\n    \n      Intro to Purple Teaming: Min-maxing your logging setup\n    \n  ",
+          "url": "https://hackback.zip/2023/11/09/Purple-Teaming.html"
+        },
+        {
+          "type": "\n    \n      Hello, World\n    \n  ",
+          "url": "https://hackback.zip/2024/02/19/Hello-World.html"
+        },
+        {
+          "type": "\n    \n      Intro to OSINT (Redacted)\n    \n  ",
+          "url": "https://hackback.zip/2024/02/01/OSINT.html"
+        },
+        {
+          "type": "\n    \n      Active Defense and Cyber Deception: Dirty Blue Team Tricks\n    \n  ",
+          "url": "https://hackback.zip/2024/03/21/Active-Defense-Cyber-Deception-Dirty-Blue-Team-Tricks.html"
+        },
+        {
+          "type": "\n    \n      Hiding in Plain Sight: A Survey of EDR Evasion Techniques\n    \n  ",
+          "url": "https://hackback.zip/2024/05/05/Hiding-in-plain-sight-survey-of-edr-evasion-techniques.html"
+        },
+        {
+          "type": "\n    \n      My journey to OSCP\n    \n  ",
+          "url": "https://hackback.zip/2024/02/20/OSCP.html"
+        },
+        {
+          "type": "\n    \n      CTF Cheat Sheet\n    \n  ",
+          "url": "https://hackback.zip/2024/04/30/CTF-Cheat-Sheet.html"
+        },
+        {
+          "type": "\n    \n      Intro to Reverse Engineering\n    \n  ",
+          "url": "https://hackback.zip/2022/10/04/Rev.html"
+        },
+        {
+          "type": "\n    \n      GitHub-Style Alerts in Jekyll with Liquid\n    \n  ",
+          "url": "https://hackback.zip/2024/03/10/Jekyll-GitHub-Alerts-Liquid.html"
+        },
+        {
+          "type": "Redirecting...",
+          "url": "https://hackback.zip/ctf.html"
+        },
+        {
+          "type": "\n    \n      Intro to Windows & Active Directory\n    \n  ",
+          "url": "https://hackback.zip/2024/10/17/Intro-To-Windows-AD.html"
+        },
+        {
+          "type": "\n    \n      Remotely dumping Windows security questions with Impacket\n    \n  ",
+          "url": "https://hackback.zip/2024/05/08/Remotely-Dumping-Windows-Security-Questions-With-Impacket.html"
+        },
+        {
+          "type": "\n    \n      Intro to Binary Exploitation\n    \n  ",
+          "url": "https://hackback.zip/2022/10/26/Pwn.html"
+        },
+        {
+          "type": "\n    \n      Intro to Windows & AD Hacking - v2\n    \n  ",
+          "url": "https://hackback.zip/2024/10/21/Intro-To-Windows-AD-Hacking-v2.html"
+        },
+        {
+          "type": "\n    \n      Intro to Windows & AD Defense\n    \n  ",
+          "url": "https://hackback.zip/2024/10/22/Intro-To-Windows-AD-Defense.html"
+        },
+        {
+          "type": "\n    \n      LLM Hacking\n    \n  ",
+          "url": "https://hackback.zip/2025/04/02/LLM-Top-10-Security-Hacking.html"
+        },
+        {
+          "type": "\n    \n      How to effectively take inventory\n    \n  ",
+          "url": "https://hackback.zip/2025/01/30/How-to-effectively-take-inventory.html"
+        },
+        {
+          "type": "\n    \n      blog · adamkadaban\n    \n  ",
+          "url": "https://hackback.zip/blog.html"
+        },
+        {
+          "type": "\n    \n      about · adamkadaban\n    \n  ",
+          "url": "https://hackback.zip/"
+        },
+        {
+          "type": "\n    \n      presentations · adamkadaban\n    \n  ",
+          "url": "https://hackback.zip/presentations.html"
+        },
+        {
+          "type": "\n    \n      tags · adamkadaban\n    \n  ",
+          "url": "https://hackback.zip/tags.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://hackback.zip/assets/pgp_public.txt"
+        },
+        {
+          "type": "\n    \n      blog · adamkadaban\n    \n  ",
+          "url": "https://hackback.zip/blog"
+        },
+        {
+          "type": "\n    \n      presentations · adamkadaban\n    \n  ",
+          "url": "https://hackback.zip/presentations"
+        },
+        {
+          "type": "\n    \n      tags · adamkadaban\n    \n  ",
+          "url": "https://hackback.zip/tags"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b9521c3ae4b41e804174c97ae69153f93e2e097dfebd09cd5c6189d55af420f3"
+}

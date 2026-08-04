@@ -120,5 +120,163 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://lore.trade/docs",
+      "canonicalSeedUrl": "https://lore.trade/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-09T20:54:39.273Z",
+      "completedAt": "2026-03-09T20:54:39.273Z",
+      "providerTotals": {
+        "discovered": 25,
+        "returned": 25,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://lore.trade/docs",
+          "canonicalUrl": "https://lore.trade/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "d63fa58634f67ef25b5f5ed15b909bf91dba68b7ed2527134bfff9fea6859a32",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fa50dce23f589f685d4313b4f7c799a7910c70fc9d8dc7d5137dd864a0f76ed3",
+      "filename": "documentation_2026-03-09T20:54:39.273Z.md",
+      "contentHash": "70b4028be56debeb978dac9daa4851880643abc250d4d3958283f1fc2ab58fd6",
+      "sourceUrl": "https://lore.trade/docs",
+      "canonicalSourceUrl": "https://lore.trade/docs",
+      "capturedAt": "2026-03-09T20:54:39.273Z",
+      "crawlRunId": "d63fa58634f67ef25b5f5ed15b909bf91dba68b7ed2527134bfff9fea6859a32",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 25,
+      "successfulPages": 25,
+      "structure": [
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/core-concept"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/lore-token"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/for-traders"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/for-creators"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/ecosystem"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/access"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/verification"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/trading-agents"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/agent-swarms"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/scout-swarm"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/training-analysis"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/agents"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/dashboard"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/scanner"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/live-calls"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/vision"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/trends"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/feed"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/tokens"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/system-status"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/analysis-system"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/smart-wallets"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/community"
+        },
+        {
+          "type": "LORE - AI Alpha Terminal",
+          "url": "https://lore.trade/docs/signal-bots"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fa50dce23f589f685d4313b4f7c799a7910c70fc9d8dc7d5137dd864a0f76ed3"
 }

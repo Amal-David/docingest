@@ -119,5 +119,99 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://cloud.google.com/looker/docs/what-is-lookml",
+      "canonicalSeedUrl": "https://cloud.google.com/looker/docs/what-is-lookml",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-24T21:22:43.616Z",
+      "completedAt": "2025-04-24T21:22:43.616Z",
+      "providerTotals": {
+        "discovered": 9,
+        "returned": 9,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://cloud.google.com/looker/docs/what-is-lookml",
+          "canonicalUrl": "https://cloud.google.com/looker/docs/what-is-lookml",
+          "status": "valid"
+        }
+      ],
+      "id": "7083226821927d4d520b99d453fa1743e486856006feaf0b6621e55da45fb68f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c3f20d7249c5af74e0ee35f73bd6fe1f012d3dde1bf2a33402c7d39dae5530f4",
+      "filename": "documentation_2025-04-24T21:22:43.616Z.md",
+      "contentHash": "b5990f4ad5709f24994a977a6f171b88410e76c7a4cfad780877e65849d6cca8",
+      "sourceUrl": "https://cloud.google.com/looker/docs/what-is-lookml",
+      "canonicalSourceUrl": "https://cloud.google.com/looker/docs/what-is-lookml",
+      "capturedAt": "2025-04-24T21:22:43.616Z",
+      "crawlRunId": "7083226821927d4d520b99d453fa1743e486856006feaf0b6621e55da45fb68f",
+      "upstreamVersion": "1.7.0",
+      "upstreamChannel": "latest",
+      "totalPages": 9,
+      "successfulPages": 9,
+      "structure": [
+        {
+          "type": "Introduction to LookML  |  Looker  |  Google Cloud",
+          "url": "https://cloud.google.com/looker/docs/what-is-lookml"
+        },
+        {
+          "type": "LookML terms and concepts  |  Looker  |  Google Cloud",
+          "url": "https://cloud.google.com/looker/docs/lookml-terms-and-concepts"
+        },
+        {
+          "type": "Configuring the LookML Diagram  |  Looker  |  Google Cloud",
+          "url": "https://cloud.google.com/looker/docs/lookml-diagram-configuring"
+        },
+        {
+          "type": "Types of files in a LookML project  |  Looker  |  Google Cloud",
+          "url": "https://cloud.google.com/looker/docs/lookml-project-files"
+        },
+        {
+          "type": "LookML 对象的元数据  |  Looker  |  Google Cloud",
+          "url": "https://cloud.google.com/looker/docs/lookml-metadata"
+        },
+        {
+          "type": "Using the LookML Diagram  |  Looker  |  Google Cloud",
+          "url": "https://cloud.google.com/looker/docs/lookml-diagram-using"
+        },
+        {
+          "type": "LookML 优化  |  Looker  |  Google Cloud",
+          "url": "https://cloud.google.com/looker/docs/lookml-refinements?hl=zh-cn"
+        },
+        {
+          "type": "Penajaman LookML  |  Looker  |  Google Cloud",
+          "url": "https://cloud.google.com/looker/docs/lookml-refinements"
+        },
+        {
+          "type": "Validar seu LookML  |  Looker  |  Google Cloud",
+          "url": "https://cloud.google.com/looker/docs/lookml-validation"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c3f20d7249c5af74e0ee35f73bd6fe1f012d3dde1bf2a33402c7d39dae5530f4"
 }

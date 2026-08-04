@@ -44,5 +44,87 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://lunarcrush.com",
+      "canonicalSeedUrl": "https://lunarcrush.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-27T10:11:57.116Z",
+      "completedAt": "2025-10-27T10:11:57.116Z",
+      "providerTotals": {
+        "discovered": 6,
+        "returned": 6,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://lunarcrush.com",
+          "canonicalUrl": "https://lunarcrush.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "f8ac2f0add0ed520c53ffd2e42292cb644696917ddd535c19dd7b556b6ddec66",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8d455a1bd065841b135b920f5c450c985b8adef3dcc80829667c54fdfec51168",
+      "filename": "documentation_2025-10-27T10:11:57.116Z.md",
+      "contentHash": "8c17c1eee8c8ca87cd282523402b1ff3b9908ab7b93595020757bbcb5f487702",
+      "sourceUrl": "https://lunarcrush.com",
+      "canonicalSourceUrl": "https://lunarcrush.com/",
+      "capturedAt": "2025-10-27T10:11:57.116Z",
+      "crawlRunId": "f8ac2f0add0ed520c53ffd2e42292cb644696917ddd535c19dd7b556b6ddec66",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 6,
+      "successfulPages": 6,
+      "structure": [
+        {
+          "type": "LunarCrush",
+          "url": "https://lunarcrush.com"
+        },
+        {
+          "type": "LunarCrush",
+          "url": "https://lunarcrush.com/marketers"
+        },
+        {
+          "type": "LunarCrush",
+          "url": "https://lunarcrush.com/creators-persona"
+        },
+        {
+          "type": "LunarCrush",
+          "url": "https://lunarcrush.com/investors"
+        },
+        {
+          "type": "LunarCrush",
+          "url": "https://lunarcrush.com/mcpserver"
+        },
+        {
+          "type": "LunarCrush",
+          "url": "https://lunarcrush.com/enterprise"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8d455a1bd065841b135b920f5c450c985b8adef3dcc80829667c54fdfec51168"
 }

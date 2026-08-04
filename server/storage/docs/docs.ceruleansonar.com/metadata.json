@@ -181,5 +181,215 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.ceruleansonar.com/c/tracker-650",
+      "canonicalSeedUrl": "https://docs.ceruleansonar.com/c/tracker-650",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-03T09:44:42.310Z",
+      "completedAt": "2025-03-03T09:44:42.310Z",
+      "providerTotals": {
+        "discovered": 38,
+        "returned": 38,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.ceruleansonar.com/c/tracker-650",
+          "canonicalUrl": "https://docs.ceruleansonar.com/c/tracker-650",
+          "status": "valid"
+        }
+      ],
+      "id": "bcfbfe0f22c5ca31f08cd22198c754aa1a8643581e7294cf60129b69ac4cd7be",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9fc98bbef39626ca6756782383524360f9e19e235c2a339ba441bc7b30f5dbf6",
+      "filename": "documentation_2025-03-03T09:44:42.310Z.md",
+      "contentHash": "0ea44c3625b9a62e94659ffdb1a05206f218fefdbe60dadc5726c0493b6ea2ef",
+      "sourceUrl": "https://docs.ceruleansonar.com/c/tracker-650",
+      "canonicalSourceUrl": "https://docs.ceruleansonar.com/c/tracker-650",
+      "capturedAt": "2025-03-03T09:44:42.310Z",
+      "crawlRunId": "bcfbfe0f22c5ca31f08cd22198c754aa1a8643581e7294cf60129b69ac4cd7be",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 38,
+      "successfulPages": 38,
+      "structure": [
+        {
+          "type": "Overview | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650"
+        },
+        {
+          "type": "Overview | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/sonarview/?fallback=true"
+        },
+        {
+          "type": "Configuring the Tracker 650 | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/configuring-the-tracker-650"
+        },
+        {
+          "type": "Cerulean Standard Packet Protocol | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/cerulean-ping-protocol/?fallback=true"
+        },
+        {
+          "type": "Quick Start for ArduSub Users | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/quick-start-for-ardusub-users"
+        },
+        {
+          "type": "Overview | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/dvl-75/?fallback=true"
+        },
+        {
+          "type": "Overview | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/s-500-sounder/?fallback=true"
+        },
+        {
+          "type": "General Specifications | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/general-specifications"
+        },
+        {
+          "type": "Live Status Page | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/configuring-the-tracker-650/live-status-page"
+        },
+        {
+          "type": "Setting the Host IP Address | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/configuring-the-tracker-650/setting-the-host-ip-address"
+        },
+        {
+          "type": "Overview | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/?fallback=true"
+        },
+        {
+          "type": "Setting the Fallback IP Address | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/configuring-the-tracker-650/setting-the-fallback-ip-address"
+        },
+        {
+          "type": "Setting the Static IP Address | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/configuring-the-tracker-650/setting-the-static-ip-address"
+        },
+        {
+          "type": "Overview | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/insight-240/?fallback=true"
+        },
+        {
+          "type": "Overview | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/ceruleantracker/?fallback=true"
+        },
+        {
+          "type": "Directory | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/?fallback=true"
+        },
+        {
+          "type": "Overview | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/surveyor-240-16/?fallback=true"
+        },
+        {
+          "type": "Finding the Configuration Web Page | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/configuring-the-tracker-650/finding-the-configuration-web-page"
+        },
+        {
+          "type": "Directory | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com"
+        },
+        {
+          "type": "Overview | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/omniscan-450/?fallback=true"
+        },
+        {
+          "type": "Example Configuration Web Page | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/configuring-the-tracker-650/example-configuration-web-page"
+        },
+        {
+          "type": "Setting the MAVLink REST Server Parameters | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/configuring-the-tracker-650/setting-the-mavlink-rest-server-parameters"
+        },
+        {
+          "type": "Overview | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/rov-locator/?fallback=true"
+        },
+        {
+          "type": "Scenario: Driving Your Own Kalman Filter | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/configuring-the-tracker-650/setting-dvl-mounting-rotation-offsets/scenario-driving-your-own-kalman-filter"
+        },
+        {
+          "type": "Setting DVL Mounting Rotation Offsets | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/configuring-the-tracker-650/setting-dvl-mounting-rotation-offsets"
+        },
+        {
+          "type": "Setting Pool Mode | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/configuring-the-tracker-650/setting-pool-mode"
+        },
+        {
+          "type": "General Usage | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/general-usage"
+        },
+        {
+          "type": "Setting Speed of Sound | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/general-usage/setting-speed-of-sound"
+        },
+        {
+          "type": "Electrical Drawings | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/using-mavlink-and-blueos-for-position-hold-on-a-bluerov2/ardupilot-parameters/electrical-drawings"
+        },
+        {
+          "type": "Scenario: Doing Your Own Dead Reckoning | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/general-usage/scenario-doing-your-own-dead-reckoning"
+        },
+        {
+          "type": "General Hints and Tips | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/general-usage/general-hints-and-tips"
+        },
+        {
+          "type": "Bottom Mount | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/mounting-the-tracker-650/bottom-mount"
+        },
+        {
+          "type": "Setting Velocity Adjustment | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/configuring-the-tracker-650/setting-velocity-adjustment"
+        },
+        {
+          "type": "Mounting Drawings (V1 pre-2025) | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/mounting-drawings-v1-pre-2025"
+        },
+        {
+          "type": "Communicating with the Tracker 650 | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/communicating-with-the-tracker-650"
+        },
+        {
+          "type": "Global Origin | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/using-mavlink-and-blueos-for-position-hold-on-a-bluerov2/global-origin"
+        },
+        {
+          "type": "Thruster Deck Mount | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/mounting-the-tracker-650/thruster-deck-mount"
+        },
+        {
+          "type": "Using MAVLink and BlueOS for Position Hold on a BlueROV2 | Cerulean Sonar Docs",
+          "url": "https://docs.ceruleansonar.com/c/tracker-650/using-mavlink-and-blueos-for-position-hold-on-a-bluerov2"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9fc98bbef39626ca6756782383524360f9e19e235c2a339ba441bc7b30f5dbf6"
 }

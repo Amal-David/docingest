@@ -302,5 +302,327 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://devdocs.bagisto.com/getting-started/why-choose-bagisto.html",
+      "canonicalSeedUrl": "https://devdocs.bagisto.com/getting-started/why-choose-bagisto.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-12T18:18:37.300Z",
+      "completedAt": "2026-03-12T18:18:37.300Z",
+      "providerTotals": {
+        "discovered": 66,
+        "returned": 66,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://devdocs.bagisto.com/getting-started/why-choose-bagisto.html",
+          "canonicalUrl": "https://devdocs.bagisto.com/getting-started/why-choose-bagisto.html",
+          "status": "valid"
+        }
+      ],
+      "id": "8d6d84129f6352f1861e1c6e1744657c725624e55367acc430d534fda8a59afd",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8ff8178d56997599bb4ad773a15a0e0d67cba7efbf37c7bd9b4284432d6a4d45",
+      "filename": "documentation_2026-03-12T18:18:37.300Z.md",
+      "contentHash": "6d7cfa5623b70ec4c50cf0fe3b7ede95df8b86c438017741c18d25b333ae6041",
+      "sourceUrl": "https://devdocs.bagisto.com/getting-started/why-choose-bagisto.html",
+      "canonicalSourceUrl": "https://devdocs.bagisto.com/getting-started/why-choose-bagisto.html",
+      "capturedAt": "2026-03-12T18:18:37.300Z",
+      "crawlRunId": "8d6d84129f6352f1861e1c6e1744657c725624e55367acc430d534fda8a59afd",
+      "upstreamVersion": "1.1.1",
+      "upstreamChannel": "latest",
+      "totalPages": 66,
+      "successfulPages": 66,
+      "structure": [
+        {
+          "type": "Why Choose Bagisto? | Bagisto",
+          "url": "https://devdocs.bagisto.com/getting-started/why-choose-bagisto.html"
+        },
+        {
+          "type": "Bagisto",
+          "url": "https://devdocs.bagisto.com/"
+        },
+        {
+          "type": "Before You Start | Bagisto",
+          "url": "https://devdocs.bagisto.com/getting-started/before-you-start.html"
+        },
+        {
+          "type": "Installation | Bagisto",
+          "url": "https://devdocs.bagisto.com/getting-started/installation.html"
+        },
+        {
+          "type": "🔄 Upgrade Guide | Bagisto",
+          "url": "https://devdocs.bagisto.com/getting-started/upgrade-guide.html"
+        },
+        {
+          "type": "🤝 Contribution Guide | Bagisto",
+          "url": "https://devdocs.bagisto.com/getting-started/contribution-guide.html"
+        },
+        {
+          "type": "🔒 Best Security Practices | Bagisto",
+          "url": "https://devdocs.bagisto.com/getting-started/best-security-practice.html"
+        },
+        {
+          "type": "Bagisto Frontend Overview | Bagisto",
+          "url": "https://devdocs.bagisto.com/architecture/frontend.html"
+        },
+        {
+          "type": "Architecture Overview | Bagisto",
+          "url": "https://devdocs.bagisto.com/architecture/overview.html"
+        },
+        {
+          "type": "🚀 Deployment | Bagisto",
+          "url": "https://devdocs.bagisto.com/getting-started/deployment.html"
+        },
+        {
+          "type": "🧠 Bagisto Agent Skills | Bagisto",
+          "url": "https://devdocs.bagisto.com/getting-started/skills.html"
+        },
+        {
+          "type": "Getting Started | Bagisto",
+          "url": "https://devdocs.bagisto.com/package-development/getting-started.html"
+        },
+        {
+          "type": "Migrations | Bagisto",
+          "url": "https://devdocs.bagisto.com/package-development/migrations.html"
+        },
+        {
+          "type": "Bagisto Backend Overview | Bagisto",
+          "url": "https://devdocs.bagisto.com/architecture/backend.html"
+        },
+        {
+          "type": "Routes | Bagisto",
+          "url": "https://devdocs.bagisto.com/package-development/routes.html"
+        },
+        {
+          "type": "Views | Bagisto",
+          "url": "https://devdocs.bagisto.com/package-development/views.html"
+        },
+        {
+          "type": "Controllers | Bagisto",
+          "url": "https://devdocs.bagisto.com/package-development/controllers.html"
+        },
+        {
+          "type": "Models | Bagisto",
+          "url": "https://devdocs.bagisto.com/package-development/models.html"
+        },
+        {
+          "type": "Localization | Bagisto",
+          "url": "https://devdocs.bagisto.com/package-development/localization.html"
+        },
+        {
+          "type": "Repositories | Bagisto",
+          "url": "https://devdocs.bagisto.com/package-development/repositories.html"
+        },
+        {
+          "type": "Getting Started | Bagisto",
+          "url": "https://devdocs.bagisto.com/shipping-method-development/getting-started.html"
+        },
+        {
+          "type": "Menu | Bagisto",
+          "url": "https://devdocs.bagisto.com/package-development/menu.html"
+        },
+        {
+          "type": "Getting Started | Bagisto",
+          "url": "https://devdocs.bagisto.com/payment-method-development/getting-started.html"
+        },
+        {
+          "type": "Understanding System Configuration | Bagisto",
+          "url": "https://devdocs.bagisto.com/shipping-method-development/understanding-system-configuration.html"
+        },
+        {
+          "type": "Access Control List (ACL) | Bagisto",
+          "url": "https://devdocs.bagisto.com/package-development/access-control-list.html"
+        },
+        {
+          "type": "Understanding Carrier Class Implementation | Bagisto",
+          "url": "https://devdocs.bagisto.com/shipping-method-development/understanding-carrier-class.html"
+        },
+        {
+          "type": "Understanding Payment Configuration | Bagisto",
+          "url": "https://devdocs.bagisto.com/payment-method-development/understanding-payment-configuration.html"
+        },
+        {
+          "type": "Getting Started | Bagisto",
+          "url": "https://devdocs.bagisto.com/product-type-development/getting-started.html"
+        },
+        {
+          "type": "Creating Your First Shipping Method | Bagisto",
+          "url": "https://devdocs.bagisto.com/shipping-method-development/create-your-first-shipping-method.html"
+        },
+        {
+          "type": "Understanding Product Type Configuration | Bagisto",
+          "url": "https://devdocs.bagisto.com/product-type-development/understanding-product-type-configuration.html"
+        },
+        {
+          "type": "Understanding Carrier Configuration | Bagisto",
+          "url": "https://devdocs.bagisto.com/shipping-method-development/understanding-carrier-configuration.html"
+        },
+        {
+          "type": "Getting Started | Bagisto",
+          "url": "https://devdocs.bagisto.com/theme-development/getting-started.html"
+        },
+        {
+          "type": "Understanding Payment Class | Bagisto",
+          "url": "https://devdocs.bagisto.com/payment-method-development/understanding-payment-class.html"
+        },
+        {
+          "type": "Creating Your First Product Type | Bagisto",
+          "url": "https://devdocs.bagisto.com/product-type-development/create-your-first-product-type.html"
+        },
+        {
+          "type": "Creating Your First Payment Method | Bagisto",
+          "url": "https://devdocs.bagisto.com/payment-method-development/create-your-first-payment-method.html"
+        },
+        {
+          "type": "System Configuration | Bagisto",
+          "url": "https://devdocs.bagisto.com/package-development/system-configuration.html"
+        },
+        {
+          "type": "Building Your Subscription Product Type | Bagisto",
+          "url": "https://devdocs.bagisto.com/product-type-development/building-your-subscription-product-type.html"
+        },
+        {
+          "type": "🤖 AI Development Setup | Bagisto",
+          "url": "https://devdocs.bagisto.com/getting-started/llms.html"
+        },
+        {
+          "type": "Email Template | Bagisto",
+          "url": "https://devdocs.bagisto.com/theme-development/email-template.html"
+        },
+        {
+          "type": "Creating Store Theme | Bagisto",
+          "url": "https://devdocs.bagisto.com/theme-development/creating-store-theme.html"
+        },
+        {
+          "type": "Blade Tracer | Bagisto",
+          "url": "https://devdocs.bagisto.com/theme-development/blade-tracer.html"
+        },
+        {
+          "type": "Creating Admin Theme | Bagisto",
+          "url": "https://devdocs.bagisto.com/theme-development/creating-admin-theme.html"
+        },
+        {
+          "type": "Understanding AbstractType Class | Bagisto",
+          "url": "https://devdocs.bagisto.com/product-type-development/understanding-abstract-type-class.html"
+        },
+        {
+          "type": "Configure Laravel Octane | Bagisto",
+          "url": "https://devdocs.bagisto.com/performance/configure-laravel-octane.html"
+        },
+        {
+          "type": "Introduction | Bagisto",
+          "url": "https://devdocs.bagisto.com/performance/introduction.html"
+        },
+        {
+          "type": "DataGrid | Bagisto",
+          "url": "https://devdocs.bagisto.com/package-development/datagrid.html"
+        },
+        {
+          "type": "Creating Custom Theme Package | Bagisto",
+          "url": "https://devdocs.bagisto.com/theme-development/creating-custom-theme-package.html"
+        },
+        {
+          "type": "Digging Deeper | Bagisto",
+          "url": "https://devdocs.bagisto.com/advanced/introduction.html"
+        },
+        {
+          "type": "Configure Varnish | Bagisto",
+          "url": "https://devdocs.bagisto.com/performance/configure-varnish.html"
+        },
+        {
+          "type": "Validation | Bagisto",
+          "url": "https://devdocs.bagisto.com/theme-development/validation.html"
+        },
+        {
+          "type": "Configure Full Page Cache (FPC) | Bagisto",
+          "url": "https://devdocs.bagisto.com/performance/configure-fpc.html"
+        },
+        {
+          "type": "Configure Load Balancing | Bagisto",
+          "url": "https://devdocs.bagisto.com/performance/configure-load-balancing.html"
+        },
+        {
+          "type": "Configure Elasticsearch | Bagisto",
+          "url": "https://devdocs.bagisto.com/performance/configure-elasticsearch.html"
+        },
+        {
+          "type": "Introduction | Bagisto",
+          "url": "https://devdocs.bagisto.com/api/introduction.html"
+        },
+        {
+          "type": "Understanding Layouts | Bagisto",
+          "url": "https://devdocs.bagisto.com/theme-development/understanding-layouts.html"
+        },
+        {
+          "type": "REST API | Bagisto",
+          "url": "https://devdocs.bagisto.com/api/rest-api.html"
+        },
+        {
+          "type": "GraphQL API | Bagisto",
+          "url": "https://devdocs.bagisto.com/api/graphql-api.html"
+        },
+        {
+          "type": "Understanding Indexers | Bagisto",
+          "url": "https://devdocs.bagisto.com/advanced/understanding-indexers.html"
+        },
+        {
+          "type": "View Render Events | Bagisto",
+          "url": "https://devdocs.bagisto.com/advanced/view-render-events.html"
+        },
+        {
+          "type": "Understanding Core Class | Bagisto",
+          "url": "https://devdocs.bagisto.com/advanced/understanding-core-class.html"
+        },
+        {
+          "type": "Vite-Powered Theme Assets | Bagisto",
+          "url": "https://devdocs.bagisto.com/theme-development/vite-powered-theme-assets.html"
+        },
+        {
+          "type": "Understanding Data Transfer | Bagisto",
+          "url": "https://devdocs.bagisto.com/advanced/understanding-data-transfer.html"
+        },
+        {
+          "type": "Event Listeners | Bagisto",
+          "url": "https://devdocs.bagisto.com/advanced/event-listeners.html"
+        },
+        {
+          "type": "Blade Components | Bagisto",
+          "url": "https://devdocs.bagisto.com/theme-development/blade-components.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://devdocs.bagisto.com/llms.txt"
+        },
+        {
+          "type": "{{ $title ?? 'Custom Theme' }}",
+          "url": "https://devdocs.bagisto.com/llms-full.txt"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8ff8178d56997599bb4ad773a15a0e0d67cba7efbf37c7bd9b4284432d6a4d45"
 }

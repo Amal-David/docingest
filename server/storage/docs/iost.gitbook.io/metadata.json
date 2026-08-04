@@ -76,5 +76,119 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://iost.gitbook.io/iost-dev-doc/rwa-liu-dong-xing-xie-yi",
+      "canonicalSeedUrl": "https://iost.gitbook.io/iost-dev-doc/rwa-liu-dong-xing-xie-yi",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-22T18:00:47.988Z",
+      "completedAt": "2025-03-22T18:00:47.988Z",
+      "providerTotals": {
+        "discovered": 14,
+        "returned": 14,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://iost.gitbook.io/iost-dev-doc/rwa-liu-dong-xing-xie-yi",
+          "canonicalUrl": "https://iost.gitbook.io/iost-dev-doc/rwa-liu-dong-xing-xie-yi",
+          "status": "valid"
+        }
+      ],
+      "id": "2f4b785fe8b6c918eb834727389098f9a4f948ce23012cff2b1c02e5d11381f3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "681909f83500f327df109d87e11e0110ccb1fef49316022f58e8c723f8ffa4d7",
+      "filename": "documentation_2025-03-22T18:00:47.988Z.md",
+      "contentHash": "37f89f4df598e11890dc69e755923aba497cc1390a0ff9009e94a1879d1653a2",
+      "sourceUrl": "https://iost.gitbook.io/iost-dev-doc/rwa-liu-dong-xing-xie-yi",
+      "canonicalSourceUrl": "https://iost.gitbook.io/iost-dev-doc/rwa-liu-dong-xing-xie-yi",
+      "capturedAt": "2025-03-22T18:00:47.988Z",
+      "crawlRunId": "2f4b785fe8b6c918eb834727389098f9a4f948ce23012cff2b1c02e5d11381f3",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 14,
+      "successfulPages": 14,
+      "structure": [
+        {
+          "type": "RWA流动性协议 | IOST Dev doc",
+          "url": "https://iost.gitbook.io/iost-dev-doc/rwa-liu-dong-xing-xie-yi"
+        },
+        {
+          "type": "Proof of Heartbeat：基于硬件的PoH | IOST Dev doc",
+          "url": "https://iost.gitbook.io/iost-dev-doc/did/proof-of-heartbeat-ji-yu-ying-jian-de-poh"
+        },
+        {
+          "type": "IOST 3.0 Whitepaper  Lite 2024.10 | IOST Dev doc",
+          "url": "https://iost.gitbook.io/iost-dev-doc/iost-3.0-whitepaper-lite-2024.10"
+        },
+        {
+          "type": "KYC/KYB & AML Module | IOST Dev doc",
+          "url": "https://iost.gitbook.io/iost-dev-doc/kyc-kyb-and-aml-module"
+        },
+        {
+          "type": "Asset Bridge | IOST Dev doc",
+          "url": "https://iost.gitbook.io/iost-dev-doc/asset-bridge"
+        },
+        {
+          "type": "RWA Tokenization engine | IOST Dev doc",
+          "url": "https://iost.gitbook.io/iost-dev-doc/rwa-tokenization-engine"
+        },
+        {
+          "type": "PayPIN Node Ring Spec | IOST Dev doc",
+          "url": "https://iost.gitbook.io/iost-dev-doc/did/paypin-node-ring-spec"
+        },
+        {
+          "type": "PalmID - KUDO™ Spec | IOST Dev doc",
+          "url": "https://iost.gitbook.io/iost-dev-doc/did/palmid-kudo-tm-spec"
+        },
+        {
+          "type": "RWA二级交易市场（RWA DEX） | IOST Dev doc",
+          "url": "https://iost.gitbook.io/iost-dev-doc/rwa-liu-dong-xing-xie-yi/rwa-er-ji-jiao-yi-shi-chang-rwa-dex"
+        },
+        {
+          "type": "流动性借贷协议 | IOST Dev doc",
+          "url": "https://iost.gitbook.io/iost-dev-doc/rwa-liu-dong-xing-xie-yi/liu-dong-xing-jie-dai-xie-yi"
+        },
+        {
+          "type": "RWA资产二级市场流动性问题与本息分离设计方案 | IOST Dev doc",
+          "url": "https://iost.gitbook.io/iost-dev-doc/rwa-liu-dong-xing-xie-yi/rwa-zi-chan-er-ji-shi-chang-liu-dong-xing-wen-ti-yu-ben-xi-fen-li-she-ji-fang-an"
+        },
+        {
+          "type": "DID | IOST Dev doc",
+          "url": "https://iost.gitbook.io/iost-dev-doc/did"
+        },
+        {
+          "type": "资产模块技术概要 | IOST Dev doc",
+          "url": "https://iost.gitbook.io/iost-dev-doc"
+        },
+        {
+          "type": "IOST 3.0: Enhancing Payments with Real-World Assets | IOST Dev doc",
+          "url": "https://iost.gitbook.io/iost-dev-doc/iost-3.0-whitepaper-lite-2024.10/iost-3.0-enhancing-payments-with-real-world-assets"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "681909f83500f327df109d87e11e0110ccb1fef49316022f58e8c723f8ffa4d7"
 }

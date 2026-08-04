@@ -92,5 +92,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://support.google.com/a/answer/11424845?hl=en&ref_topic=4388346",
+      "canonicalSeedUrl": "https://support.google.com/a/answer/11424845?hl=en&ref_topic=4388346",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-31T07:25:19.098Z",
+      "completedAt": "2025-08-31T07:25:19.098Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://support.google.com/a/answer/11424845?hl=en&ref_topic=4388346",
+          "canonicalUrl": "https://support.google.com/a/answer/11424845?hl=en&ref_topic=4388346",
+          "status": "valid"
+        }
+      ],
+      "id": "31cfbb4fb8d75edfc58fedf7de298ecd13f44e3acbacce4d7bbbdf9526554dee",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "056b30b041410b8848e5b58d2d67f4340e80556c8dd3453122cc34c148ac2c59",
+      "filename": "documentation_2025-08-31T07:25:19.098Z.md",
+      "contentHash": "3c750b01b0e4447e96f37473b7fc1fc5f72723e4d5b2cbfa8147b8ce2fa019c4",
+      "sourceUrl": "https://support.google.com/a/answer/11424845?hl=en&ref_topic=4388346",
+      "canonicalSourceUrl": "https://support.google.com/a/answer/11424845?hl=en&ref_topic=4388346",
+      "capturedAt": "2025-08-31T07:25:19.098Z",
+      "crawlRunId": "31cfbb4fb8d75edfc58fedf7de298ecd13f44e3acbacce4d7bbbdf9526554dee",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "Google Workspace videos & webinars - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/answer/11424845?hl=en&ref_topic=4388346"
+        },
+        {
+          "type": "Sites - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/6385920?hl=en&ref_topic=9197"
+        },
+        {
+          "type": "Google Workspace with Gemini - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/13853688?hl=en&ref_topic=9197"
+        },
+        {
+          "type": "Storage - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/13135206?hl=en&ref_topic=9197"
+        },
+        {
+          "type": "Contact support / fix a problem - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/10029062?hl=en&ref_topic=4388346"
+        },
+        {
+          "type": "Groups - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/25838?hl=en&ref_topic=9197"
+        },
+        {
+          "type": "Gmail - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/9202?hl=en&ref_topic=9197"
+        },
+        {
+          "type": "Meet  - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/7302923?hl=en&ref_topic=9197"
+        },
+        {
+          "type": "Chat  - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/7651294?hl=en&ref_topic=9197"
+        },
+        {
+          "type": "Docs, Forms, Keep, Sheets, Sites, Slides, Vids - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/14846697?hl=en&ref_topic=9197"
+        },
+        {
+          "type": "Calendar - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/9201?hl=en&ref_topic=9197"
+        },
+        {
+          "type": "More services & resources - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/14849765?hl=en&ref_topic=9197"
+        },
+        {
+          "type": "Google Workspace accessibility - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/3035040?hl=en&ref_topic=4499525"
+        },
+        {
+          "type": "Customize web addresses for Google Workspace services - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/29260?hl=en&ref_topic=4499525"
+        },
+        {
+          "type": "Sync data with Windows, Mac, and on-premises systems - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/10029672?hl=en&ref_topic=4499525"
+        },
+        {
+          "type": "Track and manage feature releases - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/1227580?hl=en&ref_topic=4499525"
+        },
+        {
+          "type": "Turn services on or off for users - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/topic/28974?hl=en&ref_topic=4499525"
+        },
+        {
+          "type": "Customize a Google Workspace service URL - Google Workspace Admin Help",
+          "url": "https://support.google.com/a/answer/53340?hl=en&ref_topic=29260"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "056b30b041410b8848e5b58d2d67f4340e80556c8dd3453122cc34c148ac2c59"
 }

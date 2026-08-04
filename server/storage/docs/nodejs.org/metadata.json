@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://nodejs.org/en/blog/announcements/apigee-rising-stack-yahoo",
+      "canonicalSeedUrl": "https://nodejs.org/en/blog/announcements/apigee-rising-stack-yahoo",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-17T10:10:24.660Z",
+      "completedAt": "2025-11-17T10:10:24.660Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://nodejs.org/en/blog/announcements/apigee-rising-stack-yahoo",
+          "canonicalUrl": "https://nodejs.org/en/blog/announcements/apigee-rising-stack-yahoo",
+          "status": "valid"
+        }
+      ],
+      "id": "6582824e2d7827b37b1238e1b5ec21cae0aa07efe994241032152e9576932d7d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "df30702e1afe3a2ab3a839fa977aa64c7cc11b996c5af9c01985e4327603be8a",
+      "filename": "documentation_2025-11-17T10:10:24.660Z.md",
+      "contentHash": "7cd39cdda9156fe102289d00056f31c74b009e83bb1dd733af35eea20de18f53",
+      "sourceUrl": "https://nodejs.org/en/blog/announcements/apigee-rising-stack-yahoo",
+      "canonicalSourceUrl": "https://nodejs.org/en/blog/announcements/apigee-rising-stack-yahoo",
+      "capturedAt": "2025-11-17T10:10:24.660Z",
+      "crawlRunId": "6582824e2d7827b37b1238e1b5ec21cae0aa07efe994241032152e9576932d7d",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Node.js — Apigee, RisingStack and Yahoo Join the Node.js Foundation",
+          "url": "https://nodejs.org/en/blog/announcements/apigee-rising-stack-yahoo"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "df30702e1afe3a2ab3a839fa977aa64c7cc11b996c5af9c01985e4327603be8a"
 }

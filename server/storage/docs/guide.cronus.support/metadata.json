@@ -72,5 +72,115 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://guide.cronus.support/gpc/gpc-scripting-df-identifiers",
+      "canonicalSeedUrl": "https://guide.cronus.support/gpc/gpc-scripting-df-identifiers",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-06T23:34:57.457Z",
+      "completedAt": "2026-02-06T23:34:57.457Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://guide.cronus.support/gpc/gpc-scripting-df-identifiers",
+          "canonicalUrl": "https://guide.cronus.support/gpc/gpc-scripting-df-identifiers",
+          "status": "valid"
+        }
+      ],
+      "id": "d137491ea42d877ab046844ad383f7e7d83e199396c659c3def6cc8bce778eae",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7dcb67cbf62b98aa72b6fb08bcc73a6388e39879b1156d3761a24233c25f826d",
+      "filename": "documentation_2026-02-06T23:34:57.457Z.md",
+      "contentHash": "59d556fc84339263aa693506a29eee1647b2810d254f8a6868ee504086e6c44b",
+      "sourceUrl": "https://guide.cronus.support/gpc/gpc-scripting-df-identifiers",
+      "canonicalSourceUrl": "https://guide.cronus.support/gpc/gpc-scripting-df-identifiers",
+      "capturedAt": "2026-02-06T23:34:57.457Z",
+      "crawlRunId": "d137491ea42d877ab046844ad383f7e7d83e199396c659c3def6cc8bce778eae",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "GPC Scripting - DF Identifiers - GPC Script Guide",
+          "url": "https://guide.cronus.support/gpc/gpc-scripting-df-identifiers"
+        },
+        {
+          "type": "GPC Scripting - PS4 Identifiers - GPC Script Guide",
+          "url": "https://guide.cronus.support/gpc/gpc-scripting-ps4-identifiers"
+        },
+        {
+          "type": "GPC Scripting - Trace Constants - GPC Script Guide",
+          "url": "https://guide.cronus.support/gpc/gpc-scripting-trace-constants"
+        },
+        {
+          "type": "GPC Scripting - Xbox Series X/S Controller Identifiers - GPC Script Guide",
+          "url": "https://guide.cronus.support/gpc/gpc-scripting-xbox-series-xs-identifiers"
+        },
+        {
+          "type": "Data Section - GPC Script Guide",
+          "url": "https://guide.cronus.support/gpc/data-section"
+        },
+        {
+          "type": "GPC Scripting - Console Functions - GPC Script Guide",
+          "url": "https://guide.cronus.support/gpc/gpc-scripting-console-functions"
+        },
+        {
+          "type": "GPC Scripting - Core Keyboard Functions - GPC Script Guide",
+          "url": "https://guide.cronus.support/gpc/gpc-scripting-core-keyboard-functions"
+        },
+        {
+          "type": "GPC Scripting - LED Constants - GPC Script Guide",
+          "url": "https://guide.cronus.support/gpc/gpc-scripting-led-constants"
+        },
+        {
+          "type": "A Simple Tutorial - GPC Script Guide",
+          "url": "https://guide.cronus.support/gpc/a-simple-tutorial"
+        },
+        {
+          "type": "GPC Scripting - G29 Identifiers - GPC Script Guide",
+          "url": "https://guide.cronus.support/gpc/gpc-scripting-g29-identifiers"
+        },
+        {
+          "type": "GPC Scripting - Controller Constants - GPC Script Guide",
+          "url": "https://guide.cronus.support/gpc/controller-constants"
+        },
+        {
+          "type": "GPC Scripting - Nintendo WII Identifiers - GPC Script Guide",
+          "url": "https://guide.cronus.support/gpc/gpc-scripting-nintendo-wii-identifiers"
+        },
+        {
+          "type": "GPC Scripting - Core Console Functions - GPC Script Guide",
+          "url": "https://guide.cronus.support/gpc/gpc-scripting-core-console-functions"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7dcb67cbf62b98aa72b6fb08bcc73a6388e39879b1156d3761a24233c25f826d"
 }

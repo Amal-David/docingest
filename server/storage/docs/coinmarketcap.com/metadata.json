@@ -44,5 +44,87 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://coinmarketcap.com/api/documentation/v1/",
+      "canonicalSeedUrl": "https://coinmarketcap.com/api/documentation/v1",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-23T17:31:59.923Z",
+      "completedAt": "2025-12-23T17:31:59.923Z",
+      "providerTotals": {
+        "discovered": 6,
+        "returned": 6,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://coinmarketcap.com/api/documentation/v1/",
+          "canonicalUrl": "https://coinmarketcap.com/api/documentation/v1",
+          "status": "valid"
+        }
+      ],
+      "id": "9d9a50252f885e95b5c0e78984232a2a79325834972ade8feccd7c85b427869d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f6314422b30b47cb8367fddc71c2c6f153d0a07922e4277592d11a854090ecb6",
+      "filename": "documentation_2025-12-23T17:31:59.923Z.md",
+      "contentHash": "852ddb0ba4766b9df641ae058778985a5a4c588ab24bd1c1b68b5bbe2d9cf368",
+      "sourceUrl": "https://coinmarketcap.com/api/documentation/v1/",
+      "canonicalSourceUrl": "https://coinmarketcap.com/api/documentation/v1",
+      "capturedAt": "2025-12-23T17:31:59.923Z",
+      "crawlRunId": "9d9a50252f885e95b5c0e78984232a2a79325834972ade8feccd7c85b427869d",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 6,
+      "successfulPages": 6,
+      "structure": [
+        {
+          "type": "CoinMarketCap API Documentation",
+          "url": "https://coinmarketcap.com/api/documentation/v1/"
+        },
+        {
+          "type": "CoinMarketCap API Documentation",
+          "url": "https://coinmarketcap.com/api/documentation/v1/"
+        },
+        {
+          "type": "The World's Number 1 Cryptocurrency Market Data API",
+          "url": "https://coinmarketcap.com/api/"
+        },
+        {
+          "type": "Frequently Asked Questions for Crypto Market API",
+          "url": "https://coinmarketcap.com/api/faq/"
+        },
+        {
+          "type": "CoinMarketCap API Pricing Plans",
+          "url": "https://coinmarketcap.com/api/pricing/"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://coinmarketcap.com/api/features"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f6314422b30b47cb8367fddc71c2c6f153d0a07922e4277592d11a854090ecb6"
 }

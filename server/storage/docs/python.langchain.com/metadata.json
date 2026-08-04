@@ -132,5 +132,175 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://python.langchain.com/docs/introduction/",
+      "canonicalSeedUrl": "https://python.langchain.com/docs/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2024-12-28T11:22:35.007Z",
+      "completedAt": "2024-12-28T11:22:35.007Z",
+      "providerTotals": {
+        "discovered": 28,
+        "returned": 28,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://python.langchain.com/docs/introduction/",
+          "canonicalUrl": "https://python.langchain.com/docs/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "a41f9cb7d9709fcceca83c456d8f6b78bc6fb3882bbd2989b519e26786702eaa",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7c34bebc03a9e35686c90ce62300e482de9441945dbd82da54343f79c0f34f96",
+      "filename": "documentation_2024-12-28T11:22:35.007Z.md",
+      "contentHash": "9572cc690c52d947875aa76817457b522205c3cfb2bfdbcf99ea30731921a70d",
+      "sourceUrl": "https://python.langchain.com/docs/introduction/",
+      "canonicalSourceUrl": "https://python.langchain.com/docs/introduction",
+      "capturedAt": "2024-12-28T11:22:35.007Z",
+      "crawlRunId": "a41f9cb7d9709fcceca83c456d8f6b78bc6fb3882bbd2989b519e26786702eaa",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 28,
+      "successfulPages": 28,
+      "structure": [
+        {
+          "type": "Introduction | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/introduction/"
+        },
+        {
+          "type": "Providers | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/integrations/providers/"
+        },
+        {
+          "type": "LangChain Python API Reference — 🦜🔗 LangChain  documentation",
+          "url": "https://python.langchain.com/api_reference/"
+        },
+        {
+          "type": "Welcome Contributors | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/contributing/"
+        },
+        {
+          "type": "People | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/people/"
+        },
+        {
+          "type": "Error reference | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/troubleshooting/errors/"
+        },
+        {
+          "type": "Introduction | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/v0.2/docs/introduction"
+        },
+        {
+          "type": "Tutorials | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/tutorials/"
+        },
+        {
+          "type": "Introduction | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/v0.1/docs/get_started/introduction"
+        },
+        {
+          "type": "LangChain Python API Reference — 🦜🔗 LangChain  documentation",
+          "url": "https://python.langchain.com/api_reference/index.html"
+        },
+        {
+          "type": "Build a simple LLM application with chat models and prompt templates | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/tutorials/llm_chain/"
+        },
+        {
+          "type": "Build a Question Answering application over a Graph Database | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/tutorials/graph/"
+        },
+        {
+          "type": "langchain-core: 0.3.28 — 🦜🔗 LangChain  documentation",
+          "url": "https://python.langchain.com/api_reference/core/index.html"
+        },
+        {
+          "type": "Build a Chatbot | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/tutorials/chatbot/"
+        },
+        {
+          "type": "Anthropic | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/integrations/providers/anthropic/"
+        },
+        {
+          "type": "langchain: 0.3.13 — 🦜🔗 LangChain  documentation",
+          "url": "https://python.langchain.com/api_reference/langchain/index.html"
+        },
+        {
+          "type": "Tutorials | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/contributing/tutorials/"
+        },
+        {
+          "type": "Build a Retrieval Augmented Generation (RAG) App: Part 2 | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/tutorials/qa_chat_history/"
+        },
+        {
+          "type": "langchain-text-splitters: 0.3.4 — 🦜🔗 LangChain  documentation",
+          "url": "https://python.langchain.com/api_reference/text_splitters/index.html"
+        },
+        {
+          "type": "Make your first docs PR | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/contributing/tutorials/docs/"
+        },
+        {
+          "type": "Build an Extraction Chain | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/tutorials/extraction/"
+        },
+        {
+          "type": "AWS | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/integrations/providers/aws/"
+        },
+        {
+          "type": "Google | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/integrations/providers/google/"
+        },
+        {
+          "type": "Build an Agent | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/tutorials/agents/"
+        },
+        {
+          "type": "Hugging Face | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/integrations/providers/huggingface/"
+        },
+        {
+          "type": "langchain-experimental: 0.3.4 — 🦜🔗 LangChain  documentation",
+          "url": "https://python.langchain.com/api_reference/experimental/index.html"
+        },
+        {
+          "type": "How-to Guides | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/contributing/how_to/"
+        },
+        {
+          "type": "Tagging | 🦜️🔗 LangChain",
+          "url": "https://python.langchain.com/docs/tutorials/classification/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7c34bebc03a9e35686c90ce62300e482de9441945dbd82da54343f79c0f34f96"
 }

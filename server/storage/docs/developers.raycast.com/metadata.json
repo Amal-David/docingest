@@ -428,5 +428,471 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developers.raycast.com",
+      "canonicalSeedUrl": "https://developers.raycast.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-16T02:04:28.694Z",
+      "completedAt": "2026-07-16T02:04:28.694Z",
+      "providerTotals": {
+        "discovered": 102,
+        "returned": 102,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developers.raycast.com",
+          "canonicalUrl": "https://developers.raycast.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "0da8cc9319f86fe497c1e871cf359be56826b7fbe8e4f08416c53f63a8011c9c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "92a4fb0323d9cce1b0db74eb02f83077d82dc654fa68f4809c0333172ca7ddb8",
+      "filename": "documentation_2026-07-16T02:04:28.694Z.md",
+      "contentHash": "1725d38cd1643f88c03013c3a47af471a05d09fd354d970a295b68d41588fca3",
+      "sourceUrl": "https://developers.raycast.com",
+      "canonicalSourceUrl": "https://developers.raycast.com/",
+      "capturedAt": "2026-07-16T02:04:28.694Z",
+      "crawlRunId": "0da8cc9319f86fe497c1e871cf359be56826b7fbe8e4f08416c53f63a8011c9c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 102,
+      "successfulPages": 102,
+      "structure": [
+        {
+          "type": "Introduction | Raycast API",
+          "url": "https://developers.raycast.com"
+        },
+        {
+          "type": "Create Your First Extension | Raycast API",
+          "url": "https://developers.raycast.com/basics/create-your-first-extension"
+        },
+        {
+          "type": "Getting Started | Raycast API",
+          "url": "https://developers.raycast.com/basics/getting-started"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://developers.raycast.com/llms.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://developers.raycast.com/readme.md"
+        },
+        {
+          "type": "Contribute to an Extension | Raycast API",
+          "url": "https://developers.raycast.com/basics/contribute-to-an-extension"
+        },
+        {
+          "type": "Publish an Extension | Raycast API",
+          "url": "https://developers.raycast.com/basics/publish-an-extension"
+        },
+        {
+          "type": "Debug an Extension | Raycast API",
+          "url": "https://developers.raycast.com/basics/debug-an-extension"
+        },
+        {
+          "type": "Install an Extension | Raycast API",
+          "url": "https://developers.raycast.com/basics/install-an-extension"
+        },
+        {
+          "type": "Review an Extension in a Pull Request | Raycast API",
+          "url": "https://developers.raycast.com/basics/review-pullrequest"
+        },
+        {
+          "type": "Prepare an Extension for Store | Raycast API",
+          "url": "https://developers.raycast.com/basics/prepare-an-extension-for-store"
+        },
+        {
+          "type": "Create an AI Extension | Raycast API",
+          "url": "https://developers.raycast.com/ai/create-an-ai-extension"
+        },
+        {
+          "type": "Getting Started | Raycast API",
+          "url": "https://developers.raycast.com/ai/getting-started"
+        },
+        {
+          "type": "Learn Core Concepts of AI Extensions | Raycast API",
+          "url": "https://developers.raycast.com/ai/learn-core-concepts-of-ai-extensions"
+        },
+        {
+          "type": "Follow Best Practices for AI Extensions | Raycast API",
+          "url": "https://developers.raycast.com/ai/follow-best-practices-for-ai-extensions"
+        },
+        {
+          "type": "Write Evals for Your AI Extension | Raycast API",
+          "url": "https://developers.raycast.com/ai/write-evals-for-your-ai-extension"
+        },
+        {
+          "type": "Publish a Private Extension | Raycast API",
+          "url": "https://developers.raycast.com/teams/publish-a-private-extension"
+        },
+        {
+          "type": "Collaborate on Private Extensions | Raycast API",
+          "url": "https://developers.raycast.com/teams/collaborate-on-private-extensions"
+        },
+        {
+          "type": "Getting Started | Raycast API",
+          "url": "https://developers.raycast.com/teams/getting-started"
+        },
+        {
+          "type": "File Structure | Raycast API",
+          "url": "https://developers.raycast.com/information/file-structure"
+        },
+        {
+          "type": "Doppler Share Secrets | Raycast API",
+          "url": "https://developers.raycast.com/examples/doppler"
+        },
+        {
+          "type": "Hacker News | Raycast API",
+          "url": "https://developers.raycast.com/examples/hacker-news"
+        },
+        {
+          "type": "Spotify Controls | Raycast API",
+          "url": "https://developers.raycast.com/examples/spotify-controls"
+        },
+        {
+          "type": "Terminology | Raycast API",
+          "url": "https://developers.raycast.com/information/terminology"
+        },
+        {
+          "type": "Deeplinks | Raycast API",
+          "url": "https://developers.raycast.com/information/lifecycle/deeplinks"
+        },
+        {
+          "type": "Todo List | Raycast API",
+          "url": "https://developers.raycast.com/examples/todo-list"
+        },
+        {
+          "type": "Lifecycle | Raycast API",
+          "url": "https://developers.raycast.com/information/lifecycle"
+        },
+        {
+          "type": "Arguments | Raycast API",
+          "url": "https://developers.raycast.com/information/lifecycle/arguments"
+        },
+        {
+          "type": "Background Refresh | Raycast API",
+          "url": "https://developers.raycast.com/information/lifecycle/background-refresh"
+        },
+        {
+          "type": "Manage Extensions Command | Raycast API",
+          "url": "https://developers.raycast.com/information/developer-tools/manage-extensions-command"
+        },
+        {
+          "type": "Versioning | Raycast API",
+          "url": "https://developers.raycast.com/information/versioning"
+        },
+        {
+          "type": "Manifest | Raycast API",
+          "url": "https://developers.raycast.com/information/manifest"
+        },
+        {
+          "type": "CLI | Raycast API",
+          "url": "https://developers.raycast.com/information/developer-tools/cli"
+        },
+        {
+          "type": "Security | Raycast API",
+          "url": "https://developers.raycast.com/information/security"
+        },
+        {
+          "type": "Best Practices | Raycast API",
+          "url": "https://developers.raycast.com/information/best-practices"
+        },
+        {
+          "type": "Tool | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/tool"
+        },
+        {
+          "type": "VS Code (community tool) | Raycast API",
+          "url": "https://developers.raycast.com/information/developer-tools/vscode"
+        },
+        {
+          "type": "Browser Extension | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/browser-extension"
+        },
+        {
+          "type": "Developer Tools | Raycast API",
+          "url": "https://developers.raycast.com/information/developer-tools"
+        },
+        {
+          "type": "Preferences | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/preferences"
+        },
+        {
+          "type": "Forked Extensions (community tool) | Raycast API",
+          "url": "https://developers.raycast.com/information/developer-tools/forked-extensions"
+        },
+        {
+          "type": "HUD | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/feedback/hud"
+        },
+        {
+          "type": "Command | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/command"
+        },
+        {
+          "type": "Alert | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/feedback/alert"
+        },
+        {
+          "type": "Raycast Window & Search Bar | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/window-and-search-bar"
+        },
+        {
+          "type": "getAvatarIcon | Raycast API",
+          "url": "https://developers.raycast.com/utilities/icons/getavataricon"
+        },
+        {
+          "type": "Cache | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/cache"
+        },
+        {
+          "type": "Environment | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/environment"
+        },
+        {
+          "type": "Clipboard | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/clipboard"
+        },
+        {
+          "type": "Functions | Raycast API",
+          "url": "https://developers.raycast.com/utilities/functions"
+        },
+        {
+          "type": "Storage | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/storage"
+        },
+        {
+          "type": "Feedback | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/feedback"
+        },
+        {
+          "type": "Keyboard | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/keyboard"
+        },
+        {
+          "type": "runPowerShellScript | Raycast API",
+          "url": "https://developers.raycast.com/utilities/functions/runpowershellscript"
+        },
+        {
+          "type": "executeSQL | Raycast API",
+          "url": "https://developers.raycast.com/utilities/functions/executesql"
+        },
+        {
+          "type": "withCache | Raycast API",
+          "url": "https://developers.raycast.com/utilities/functions/withcache"
+        },
+        {
+          "type": "Toast | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/feedback/toast"
+        },
+        {
+          "type": "ESLint | Raycast API",
+          "url": "https://developers.raycast.com/information/developer-tools/eslint"
+        },
+        {
+          "type": "showFailureToast | Raycast API",
+          "url": "https://developers.raycast.com/utilities/functions/showfailuretoast"
+        },
+        {
+          "type": "getProgressIcon | Raycast API",
+          "url": "https://developers.raycast.com/utilities/icons/getprogressicon"
+        },
+        {
+          "type": "Window Management | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/window-management"
+        },
+        {
+          "type": "getFavicon | Raycast API",
+          "url": "https://developers.raycast.com/utilities/icons/getfavicon"
+        },
+        {
+          "type": "System Utilities | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/utilities"
+        },
+        {
+          "type": "Icons | Raycast API",
+          "url": "https://developers.raycast.com/utilities/icons"
+        },
+        {
+          "type": "createDeeplink | Raycast API",
+          "url": "https://developers.raycast.com/utilities/functions/createdeeplink"
+        },
+        {
+          "type": "runAppleScript | Raycast API",
+          "url": "https://developers.raycast.com/utilities/functions/runapplescript"
+        },
+        {
+          "type": "User Interface | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/user-interface"
+        },
+        {
+          "type": "AI | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/ai"
+        },
+        {
+          "type": "OAuth Utils | Raycast API",
+          "url": "https://developers.raycast.com/utilities/oauth"
+        },
+        {
+          "type": "getAccessToken | Raycast API",
+          "url": "https://developers.raycast.com/utilities/oauth/getaccesstoken"
+        },
+        {
+          "type": "Navigation | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/user-interface/navigation"
+        },
+        {
+          "type": "Getting a Google client ID | Raycast API",
+          "url": "https://developers.raycast.com/utilities/oauth/getting-google-client-id"
+        },
+        {
+          "type": "withAccessToken | Raycast API",
+          "url": "https://developers.raycast.com/utilities/oauth/withaccesstoken"
+        },
+        {
+          "type": "Templates | Raycast API",
+          "url": "https://developers.raycast.com/information/developer-tools/templates"
+        },
+        {
+          "type": "Menu Bar Commands | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/menu-bar-commands"
+        },
+        {
+          "type": "Action Panel | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/user-interface/action-panel"
+        },
+        {
+          "type": "FAQ | Raycast API",
+          "url": "https://developers.raycast.com/misc/faq"
+        },
+        {
+          "type": "v1.42.0 | Raycast API",
+          "url": "https://developers.raycast.com/misc/migration/v1.42.0"
+        },
+        {
+          "type": "v1.51.0 | Raycast API",
+          "url": "https://developers.raycast.com/misc/migration/v1.51.0"
+        },
+        {
+          "type": "Migration | Raycast API",
+          "url": "https://developers.raycast.com/misc/migration"
+        },
+        {
+          "type": "Colors | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/user-interface/colors"
+        },
+        {
+          "type": "v1.50.0 | Raycast API",
+          "url": "https://developers.raycast.com/misc/migration/v1.50.0"
+        },
+        {
+          "type": "React hooks | Raycast API",
+          "url": "https://developers.raycast.com/utilities/react-hooks"
+        },
+        {
+          "type": "v1.31.0 | Raycast API",
+          "url": "https://developers.raycast.com/misc/migration/v1.31.0"
+        },
+        {
+          "type": "useCachedState | Raycast API",
+          "url": "https://developers.raycast.com/utilities/react-hooks/usecachedstate"
+        },
+        {
+          "type": "Detail | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/user-interface/detail"
+        },
+        {
+          "type": "v1.48.8 | Raycast API",
+          "url": "https://developers.raycast.com/misc/migration/v1.48.8"
+        },
+        {
+          "type": "OAuthService | Raycast API",
+          "url": "https://developers.raycast.com/utilities/oauth/oauthservice"
+        },
+        {
+          "type": "v1.59.0 | Raycast API",
+          "url": "https://developers.raycast.com/misc/migration/v1.59.0"
+        },
+        {
+          "type": "useLocalStorage | Raycast API",
+          "url": "https://developers.raycast.com/utilities/react-hooks/uselocalstorage"
+        },
+        {
+          "type": "useAI | Raycast API",
+          "url": "https://developers.raycast.com/utilities/react-hooks/useai"
+        },
+        {
+          "type": "v1.37.0 | Raycast API",
+          "url": "https://developers.raycast.com/misc/migration/v1.37.0"
+        },
+        {
+          "type": "useFrecencySorting | Raycast API",
+          "url": "https://developers.raycast.com/utilities/react-hooks/usefrecencysorting"
+        },
+        {
+          "type": "v1.28.0 | Raycast API",
+          "url": "https://developers.raycast.com/misc/migration/v1.28.0"
+        },
+        {
+          "type": "useForm | Raycast API",
+          "url": "https://developers.raycast.com/utilities/react-hooks/useform"
+        },
+        {
+          "type": "OAuth | Raycast API",
+          "url": "https://developers.raycast.com/api-reference/oauth"
+        },
+        {
+          "type": "useSQL | Raycast API",
+          "url": "https://developers.raycast.com/utilities/react-hooks/usesql"
+        },
+        {
+          "type": "usePromise | Raycast API",
+          "url": "https://developers.raycast.com/utilities/react-hooks/usepromise"
+        },
+        {
+          "type": "Getting Started | Raycast API",
+          "url": "https://developers.raycast.com/utilities/getting-started"
+        },
+        {
+          "type": "useStreamJSON | Raycast API",
+          "url": "https://developers.raycast.com/utilities/react-hooks/usestreamjson"
+        },
+        {
+          "type": "useExec | Raycast API",
+          "url": "https://developers.raycast.com/utilities/react-hooks/useexec"
+        },
+        {
+          "type": "useFetch | Raycast API",
+          "url": "https://developers.raycast.com/utilities/react-hooks/usefetch"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "92a4fb0323d9cce1b0db74eb02f83077d82dc654fa68f4809c0333172ca7ddb8"
 }

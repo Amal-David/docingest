@@ -110,5 +110,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.harborfinance.app/",
+      "canonicalSeedUrl": "https://docs.harborfinance.app/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-05-16T10:31:23.750Z",
+      "completedAt": "2025-05-16T10:31:23.750Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.harborfinance.app/",
+          "canonicalUrl": "https://docs.harborfinance.app/",
+          "status": "valid"
+        }
+      ],
+      "id": "479418f2c77a741c7e85d75c6a1a73414cf0f5ee7c14fea00a08b818147ed6b6",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5a782bcec0e9f4d06251167364386809659ef242906b35830cb3fffe969167d1",
+      "filename": "documentation_2025-05-16T10:31:23.750Z.md",
+      "contentHash": "f93ff1c8cde6cd1bc7a84ad8a58bb530edf7ba65522aa8f602e987f6a4c4f264",
+      "sourceUrl": "https://docs.harborfinance.app/",
+      "canonicalSourceUrl": "https://docs.harborfinance.app/",
+      "capturedAt": "2025-05-16T10:31:23.750Z",
+      "crawlRunId": "479418f2c77a741c7e85d75c6a1a73414cf0f5ee7c14fea00a08b818147ed6b6",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "Welcome to Harbor Finance | Harbor Finance",
+          "url": "https://docs.harborfinance.app/"
+        },
+        {
+          "type": "Tokenomics | Harbor Finance",
+          "url": "https://docs.harborfinance.app/mechanics/usdfish/tokenomics"
+        },
+        {
+          "type": "$FISH | Harbor Finance",
+          "url": "https://docs.harborfinance.app/mechanics/usdfish"
+        },
+        {
+          "type": "Yield Items | Harbor Finance",
+          "url": "https://docs.harborfinance.app/dapp/yield-items"
+        },
+        {
+          "type": "Aquafarm Platform | Harbor Finance",
+          "url": "https://docs.harborfinance.app/mechanics/yield-items/aquafarm-platform"
+        },
+        {
+          "type": "Boat | Harbor Finance",
+          "url": "https://docs.harborfinance.app/mechanics/yield-items/boat"
+        },
+        {
+          "type": "Upgrade System | Harbor Finance",
+          "url": "https://docs.harborfinance.app/mechanics/upgrade-system"
+        },
+        {
+          "type": "Fuel | Harbor Finance",
+          "url": "https://docs.harborfinance.app/mechanics/fuel"
+        },
+        {
+          "type": "Security Audit | Harbor Finance",
+          "url": "https://docs.harborfinance.app/security-audit"
+        },
+        {
+          "type": "Fisher | Harbor Finance",
+          "url": "https://docs.harborfinance.app/mechanics/yield-items/fisher"
+        },
+        {
+          "type": "Dashboard | Harbor Finance",
+          "url": "https://docs.harborfinance.app/dapp/dashboard"
+        },
+        {
+          "type": "Fishing Net | Harbor Finance",
+          "url": "https://docs.harborfinance.app/mechanics/fishing-net"
+        },
+        {
+          "type": "Disclaimer | Harbor Finance",
+          "url": "https://docs.harborfinance.app/disclaimer"
+        },
+        {
+          "type": "Shop | Harbor Finance",
+          "url": "https://docs.harborfinance.app/dapp/shop"
+        },
+        {
+          "type": "Yield Items | Harbor Finance",
+          "url": "https://docs.harborfinance.app/mechanics/yield-items"
+        },
+        {
+          "type": "The Bank | Harbor Finance",
+          "url": "https://docs.harborfinance.app/economic/the-bank"
+        },
+        {
+          "type": "Coast Guard | Harbor Finance",
+          "url": "https://docs.harborfinance.app/economic/coast-guard"
+        },
+        {
+          "type": "Territories | Harbor Finance",
+          "url": "https://docs.harborfinance.app/mechanics/territories"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5a782bcec0e9f4d06251167364386809659ef242906b35830cb3fffe969167d1"
 }

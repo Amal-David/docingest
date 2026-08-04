@@ -246,5 +246,199 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.ultravox.ai/introduction",
+      "canonicalSeedUrl": "https://docs.ultravox.ai/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-02T10:20:41.754Z",
+      "completedAt": "2025-03-02T10:20:41.754Z",
+      "providerTotals": {
+        "discovered": 34,
+        "returned": 34,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.ultravox.ai/introduction",
+          "canonicalUrl": "https://docs.ultravox.ai/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "9e677be9e21541f8a32fa5127cc888623cb9d65de341a9788acdf040e56c5f33",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c98b8f1bfc94446d2f3218618f5f1d4c4a77d2001c3ef05c634ad367921c9c84",
+      "filename": "documentation_2025-03-02T10:20:41.754Z.md",
+      "contentHash": "9118c1aaab8165246094d54da8a57d2b73b6ee05ead2f9cd0d02c94227b2021f",
+      "sourceUrl": "https://docs.ultravox.ai/introduction",
+      "canonicalSourceUrl": "https://docs.ultravox.ai/introduction",
+      "capturedAt": "2025-03-02T10:20:41.754Z",
+      "crawlRunId": "9e677be9e21541f8a32fa5127cc888623cb9d65de341a9788acdf040e56c5f33",
+      "upstreamVersion": "1.10.0",
+      "upstreamChannel": "latest",
+      "totalPages": 34,
+      "successfulPages": 34,
+      "structure": [
+        {
+          "type": "Ultravox Realtime - Ultradox",
+          "url": "https://docs.ultravox.ai/introduction"
+        },
+        {
+          "type": "Ultravox REST API Overview - Ultradox",
+          "url": "https://docs.ultravox.ai/api-reference/introduction"
+        },
+        {
+          "type": "News & Updates - Ultradox",
+          "url": "https://docs.ultravox.ai/changelog/news"
+        },
+        {
+          "type": "Web Quickstart - Ultradox",
+          "url": "https://docs.ultravox.ai/gettingstarted/quickstart-web"
+        },
+        {
+          "type": "Prompting Guide - Ultradox",
+          "url": "https://docs.ultravox.ai/gettingstarted/prompting"
+        },
+        {
+          "type": "Using Tools - Ultradox",
+          "url": "https://docs.ultravox.ai/essentials/tools"
+        },
+        {
+          "type": "Ultravox Client SDK - Ultradox",
+          "url": "https://docs.ultravox.ai/sdk-reference/introduction"
+        },
+        {
+          "type": "Creating an API Key - Ultradox",
+          "url": "https://docs.ultravox.ai/essentials/apikeys"
+        },
+        {
+          "type": "SDKs - Ultradox",
+          "url": "https://docs.ultravox.ai/essentials/sdk"
+        },
+        {
+          "type": "Call Stages - Ultradox",
+          "url": "https://docs.ultravox.ai/guides/callstages"
+        },
+        {
+          "type": "Voice Cloning - Ultradox",
+          "url": "https://docs.ultravox.ai/essentials/voices"
+        },
+        {
+          "type": "Adding Knowledge (RAG) - Ultradox",
+          "url": "https://docs.ultravox.ai/essentials/rag"
+        },
+        {
+          "type": "Multilingual Agents - Ultradox",
+          "url": "https://docs.ultravox.ai/essentials/multilingual-agents"
+        },
+        {
+          "type": "Debugging & Troubleshooting - Ultradox",
+          "url": "https://docs.ultravox.ai/guides/debugging"
+        },
+        {
+          "type": "Data Messages - Ultradox",
+          "url": "https://docs.ultravox.ai/datamessages"
+        },
+        {
+          "type": "WebSocket Integration - Ultradox",
+          "url": "https://docs.ultravox.ai/guides/websockets"
+        },
+        {
+          "type": "Telephony - Ultradox",
+          "url": "https://docs.ultravox.ai/essentials/telephony"
+        },
+        {
+          "type": "Webhooks - Ultradox",
+          "url": "https://docs.ultravox.ai/guides/webhooks"
+        },
+        {
+          "type": "Get Account - Ultradox",
+          "url": "https://docs.ultravox.ai/api-reference/accounts/accounts-me-get"
+        },
+        {
+          "type": "Outgoing Phone Calls - Ultradox",
+          "url": "https://docs.ultravox.ai/gettingstarted/quickstart-phone-outgoing"
+        },
+        {
+          "type": "List Calls - Ultradox",
+          "url": "https://docs.ultravox.ai/api-reference/calls/calls-list"
+        },
+        {
+          "type": "Calls Overview - Ultradox",
+          "url": "https://docs.ultravox.ai/api-reference/calls/overview"
+        },
+        {
+          "type": "Deprecation Guide - Ultradox",
+          "url": "https://docs.ultravox.ai/changelog/deprecation"
+        },
+        {
+          "type": "Available Models - Ultradox",
+          "url": "https://docs.ultravox.ai/availablemodels"
+        },
+        {
+          "type": "List Call Messages - Ultradox",
+          "url": "https://docs.ultravox.ai/api-reference/calls/calls-messages-list"
+        },
+        {
+          "type": "Get Call - Ultradox",
+          "url": "https://docs.ultravox.ai/api-reference/calls/calls-get"
+        },
+        {
+          "type": "Get Call Recording - Ultradox",
+          "url": "https://docs.ultravox.ai/api-reference/calls/calls-recording-get"
+        },
+        {
+          "type": "It's All Prompting - Ultradox",
+          "url": "https://docs.ultravox.ai/gettingstarted/rule1"
+        },
+        {
+          "type": "List Call Tools - Ultradox",
+          "url": "https://docs.ultravox.ai/api-reference/calls/calls-tools-list"
+        },
+        {
+          "type": "Base Tool Definition - Ultradox",
+          "url": "https://docs.ultravox.ai/api-reference/schema/base-tool-definition"
+        },
+        {
+          "type": "Customer Success & Support - Ultradox",
+          "url": "https://docs.ultravox.ai/usecases/customersuccess"
+        },
+        {
+          "type": "Customer Acquisition - Ultradox",
+          "url": "https://docs.ultravox.ai/usecases/customeracquisition"
+        },
+        {
+          "type": "Operations - Ultradox",
+          "url": "https://docs.ultravox.ai/usecases/operations"
+        },
+        {
+          "type": "List Call Stage Messages - Ultradox",
+          "url": "https://docs.ultravox.ai/api-reference/calls/calls-stages-messages-list"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c98b8f1bfc94446d2f3218618f5f1d4c4a77d2001c3ef05c634ad367921c9c84"
 }

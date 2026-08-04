@@ -33,5 +33,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://highlevel.stoplight.io/docs/integrations/0443d7d1a4bd0-api-2-0-overview",
+      "canonicalSeedUrl": "https://highlevel.stoplight.io/docs/integrations/0443d7d1a4bd0-api-2-0-overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-21T16:11:30.518Z",
+      "completedAt": "2025-02-21T16:11:30.518Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://highlevel.stoplight.io/docs/integrations/0443d7d1a4bd0-api-2-0-overview",
+          "canonicalUrl": "https://highlevel.stoplight.io/docs/integrations/0443d7d1a4bd0-api-2-0-overview",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "528b06fc3853cecc37ccc7fe1aa39df87adbf5a74fcefd84819c3b918232da8a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cc18e0c9f02b75886f7096ea89163ac14b0432ba4e4f335a6760d872c85c765f",
+      "filename": "documentation_2025-02-21T16:11:30.518Z.md",
+      "contentHash": "c4f8e6fe2d9a82c8ea1982d4d6eeebeef34ea369f98e063a5498084794720b45",
+      "sourceUrl": "https://highlevel.stoplight.io/docs/integrations/0443d7d1a4bd0-api-2-0-overview",
+      "canonicalSourceUrl": "https://highlevel.stoplight.io/docs/integrations/0443d7d1a4bd0-api-2-0-overview",
+      "capturedAt": "2025-02-21T16:11:30.518Z",
+      "crawlRunId": "528b06fc3853cecc37ccc7fe1aa39df87adbf5a74fcefd84819c3b918232da8a",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Overview | Integrations API",
+          "url": "https://highlevel.stoplight.io/docs/integrations/0443d7d1a4bd0-api-2-0-overview"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

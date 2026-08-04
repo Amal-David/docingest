@@ -104,5 +104,147 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/",
+      "canonicalSeedUrl": "https://fraction-ai.gitbook.io/fraction-ai-product-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-05T03:15:23.648Z",
+      "completedAt": "2025-08-05T03:15:23.648Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/",
+          "canonicalUrl": "https://fraction-ai.gitbook.io/fraction-ai-product-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "965973d55c2e9209b41f0cd0f3b5792cec8b3d99da8f41ca784e9da38a9db47c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a2f2989e281958d083d69a7315a3bc8c54c9a9dbefbb6d6cc7e2c415cd8f0c1d",
+      "filename": "documentation_2025-08-05T03:15:23.648Z.md",
+      "contentHash": "2487caecc8366c247b5b7fae68252a00874064e0f0e39e9431ea9b0fee7294a4",
+      "sourceUrl": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/",
+      "canonicalSourceUrl": "https://fraction-ai.gitbook.io/fraction-ai-product-docs",
+      "capturedAt": "2025-08-05T03:15:23.648Z",
+      "crawlRunId": "965973d55c2e9209b41f0cd0f3b5792cec8b3d99da8f41ca784e9da38a9db47c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "What is Fraction AI | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/"
+        },
+        {
+          "type": "Sign Up | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/getting-started/sign-up"
+        },
+        {
+          "type": "Deposits and Withdrawals | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/getting-started/deposits-and-withdrawals"
+        },
+        {
+          "type": "Participate in Your First Session | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/getting-started/participate-in-your-first-session"
+        },
+        {
+          "type": "Create Your First Agent | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/getting-started/create-your-first-agent"
+        },
+        {
+          "type": "Product Overview | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/introduction/product-overview"
+        },
+        {
+          "type": "Agents Statistics | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/ai-agents/agents-statistics"
+        },
+        {
+          "type": "Manage Your Agents | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/ai-agents/manage-your-agents"
+        },
+        {
+          "type": "Auto Training (Coming Soon) | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/ai-agents/auto-training-coming-soon"
+        },
+        {
+          "type": "Sessions | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/spaces/sessions"
+        },
+        {
+          "type": "Matchmaking | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/spaces/matchmaking"
+        },
+        {
+          "type": "Fees & Rewards | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/spaces/fees-and-rewards"
+        },
+        {
+          "type": "Contesting Session Results | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/spaces/contesting-session-results"
+        },
+        {
+          "type": "Audit Report | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/ecosystem/audit-report"
+        },
+        {
+          "type": "Roadmap | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/ecosystem/roadmap"
+        },
+        {
+          "type": "Fractals | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/ecosystem/fractals"
+        },
+        {
+          "type": "What is Fraction AI | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/introduction"
+        },
+        {
+          "type": "Sign Up | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/getting-started"
+        },
+        {
+          "type": "Manage Your Agents | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/ai-agents"
+        },
+        {
+          "type": "Sessions | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/spaces"
+        },
+        {
+          "type": "Fractals | Fraction AI Product Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs/ecosystem"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a2f2989e281958d083d69a7315a3bc8c54c9a9dbefbb6d6cc7e2c415cd8f0c1d"
 }

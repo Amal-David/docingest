@@ -156,5 +156,199 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.pydantic.dev/latest/",
+      "canonicalSeedUrl": "https://docs.pydantic.dev/latest",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-16T23:17:55.716Z",
+      "completedAt": "2025-04-16T23:17:55.716Z",
+      "providerTotals": {
+        "discovered": 34,
+        "returned": 34,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.pydantic.dev/latest/",
+          "canonicalUrl": "https://docs.pydantic.dev/latest",
+          "status": "valid"
+        }
+      ],
+      "id": "432b44d803a3ec52bcd7aea5c332a63da73f0e12155256e59288b5f4846624fa",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3591d9c2580bf4fc55acf19e9c95d2d85c8c1bc852fbdcafff69ed3e1ac968cd",
+      "filename": "documentation_2025-04-16T23:17:55.716Z.md",
+      "contentHash": "b838ea7d709271e312f39be721a282f49d90f0fa143dfb13afd6f40cbe923abe",
+      "sourceUrl": "https://docs.pydantic.dev/latest/",
+      "canonicalSourceUrl": "https://docs.pydantic.dev/latest",
+      "capturedAt": "2025-04-16T23:17:55.716Z",
+      "crawlRunId": "432b44d803a3ec52bcd7aea5c332a63da73f0e12155256e59288b5f4846624fa",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 34,
+      "successfulPages": 34,
+      "structure": [
+        {
+          "type": "Welcome to Pydantic - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/"
+        },
+        {
+          "type": "Contributing - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/contributing/"
+        },
+        {
+          "type": "Installation - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/install/"
+        },
+        {
+          "type": "Aliases - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/aliases/"
+        },
+        {
+          "type": "Pydantic People - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/pydantic_people/"
+        },
+        {
+          "type": "Annotated Handlers - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/annotated_handlers/"
+        },
+        {
+          "type": "Help with Pydantic - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/help_with_pydantic/"
+        },
+        {
+          "type": "Changelog - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/changelog/"
+        },
+        {
+          "type": "Migration Guide - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/migration/"
+        },
+        {
+          "type": "Version Policy - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/version-policy/"
+        },
+        {
+          "type": "Why use Pydantic - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/why/"
+        },
+        {
+          "type": "Configuration - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/config/"
+        },
+        {
+          "type": "Errors - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/errors/"
+        },
+        {
+          "type": "Pydantic Dataclasses - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/dataclasses/"
+        },
+        {
+          "type": "Experimental - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/experimental/"
+        },
+        {
+          "type": "BaseModel - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/base_model/"
+        },
+        {
+          "type": "Network Types - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/networks/"
+        },
+        {
+          "type": "Fields - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/fields/"
+        },
+        {
+          "type": "Functional Serializers - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/functional_serializers/"
+        },
+        {
+          "type": "pydantic_core - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/pydantic_core/"
+        },
+        {
+          "type": "Functional Validators - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/functional_validators/"
+        },
+        {
+          "type": "ISBN - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/pydantic_extra_types_isbn/"
+        },
+        {
+          "type": "Currency - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/pydantic_extra_types_currency_code/"
+        },
+        {
+          "type": "Coordinate - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/pydantic_extra_types_coordinate/"
+        },
+        {
+          "type": "Country - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/pydantic_extra_types_country/"
+        },
+        {
+          "type": "Color - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/pydantic_extra_types_color/"
+        },
+        {
+          "type": "Mac Address - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/pydantic_extra_types_mac_address/"
+        },
+        {
+          "type": "Pendulum - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/pydantic_extra_types_pendulum_dt/"
+        },
+        {
+          "type": "Script Code - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/pydantic_extra_types_script_code/"
+        },
+        {
+          "type": "Semantic Version - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/pydantic_extra_types_semantic_version/"
+        },
+        {
+          "type": "Timezone Name - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/pydantic_extra_types_timezone_name/"
+        },
+        {
+          "type": "ULID - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/pydantic_extra_types_ulid/"
+        },
+        {
+          "type": "RootModel - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/root_model/"
+        },
+        {
+          "type": "Language - Pydantic",
+          "url": "https://docs.pydantic.dev/latest/api/pydantic_extra_types_language_code/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3591d9c2580bf4fc55acf19e9c95d2d85c8c1bc852fbdcafff69ed3e1ac968cd"
 }

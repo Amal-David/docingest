@@ -194,5 +194,219 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.adonisjs.com/guides/preface/introduction",
+      "canonicalSeedUrl": "https://docs.adonisjs.com/guides/preface/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-13T09:11:08.953Z",
+      "completedAt": "2025-12-13T09:11:08.953Z",
+      "providerTotals": {
+        "discovered": 39,
+        "returned": 39,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.adonisjs.com/guides/preface/introduction",
+          "canonicalUrl": "https://docs.adonisjs.com/guides/preface/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "a32fbe7289cb5223d2b4052d3651d575b27329c05a7e06453fea460f993f0c04",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "805b6885a2ecf87fdc95e80fa6f17f16ff7fe9025a6f9106962627cf86c25944",
+      "filename": "documentation_2025-12-13T09:11:08.953Z.md",
+      "contentHash": "e5bc254c97c46daadae6154e26d42b54a2589f779c0cd97277f163aa874d921f",
+      "sourceUrl": "https://docs.adonisjs.com/guides/preface/introduction",
+      "canonicalSourceUrl": "https://docs.adonisjs.com/guides/preface/introduction",
+      "capturedAt": "2025-12-13T09:11:08.953Z",
+      "crawlRunId": "a32fbe7289cb5223d2b4052d3651d575b27329c05a7e06453fea460f993f0c04",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 39,
+      "successfulPages": 39,
+      "structure": [
+        {
+          "type": "Introduction (Preface) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/preface/introduction"
+        },
+        {
+          "type": "Introduction (Views & Templates) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/views-and-templates/introduction"
+        },
+        {
+          "type": "Encryption (Security) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/security/encryption"
+        },
+        {
+          "type": "Basic auth guard (Authentication) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/authentication/basic-auth-guard"
+        },
+        {
+          "type": "CORS (Security) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/security/cors"
+        },
+        {
+          "type": "EdgeJS (Views & Templates) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/views-and-templates/edgejs"
+        },
+        {
+          "type": "Database (Testing) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/testing/database"
+        },
+        {
+          "type": "Mocks & Fakes (Testing) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/testing/mocks-and-fakes"
+        },
+        {
+          "type": "Repl (Digging deeper) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/digging-deeper/repl"
+        },
+        {
+          "type": "Hashing (Security) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/security/hashing"
+        },
+        {
+          "type": "Command arguments (Ace commands) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/ace/arguments"
+        },
+        {
+          "type": "Introduction (Testing) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/testing/introduction"
+        },
+        {
+          "type": "Console tests (Testing) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/testing/console-tests"
+        },
+        {
+          "type": "Custom auth guard (Authentication) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/authentication/custom-auth-guard"
+        },
+        {
+          "type": "Prompts (Ace commands) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/ace/prompts"
+        },
+        {
+          "type": "Introduction (Ace commands) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/ace/introduction"
+        },
+        {
+          "type": "Command flags (Ace commands) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/ace/flags"
+        },
+        {
+          "type": "Browser tests (Testing) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/testing/browser-tests"
+        },
+        {
+          "type": "Securing SSR apps (Security) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/security/securing-ssr-applications"
+        },
+        {
+          "type": "HTTP tests (Testing) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/testing/http-tests"
+        },
+        {
+          "type": "Social authentication (Authentication) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/authentication/social-authentication"
+        },
+        {
+          "type": "Transmit (Digging deeper) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/digging-deeper/transmit"
+        },
+        {
+          "type": "Terminal UI (Ace commands) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/ace/terminal-ui"
+        },
+        {
+          "type": "Creating commands (Ace commands) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/ace/creating-commands"
+        },
+        {
+          "type": "Drive (Digging deeper) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/digging-deeper/drive"
+        },
+        {
+          "type": "Locks (Digging deeper) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/digging-deeper/locks"
+        },
+        {
+          "type": "Cache (Digging deeper) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/digging-deeper/cache"
+        },
+        {
+          "type": "Events (References) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/references/events"
+        },
+        {
+          "type": "Exceptions (References) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/references/exceptions"
+        },
+        {
+          "type": "Edge helpers and tags (References) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/references/edge"
+        },
+        {
+          "type": "Commands (References) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/references/commands"
+        },
+        {
+          "type": "Logger (Digging deeper) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/digging-deeper/logger"
+        },
+        {
+          "type": "Emitter (Digging deeper) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/digging-deeper/emitter"
+        },
+        {
+          "type": "Health checks (Digging deeper) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/digging-deeper/health-checks"
+        },
+        {
+          "type": "Rate limiting (Security) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/security/rate-limiting"
+        },
+        {
+          "type": "Helpers (References) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/references/helpers"
+        },
+        {
+          "type": "I18n (Digging deeper) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/digging-deeper/i18n"
+        },
+        {
+          "type": "Mail (Digging deeper) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/digging-deeper/mail"
+        },
+        {
+          "type": "Inertia (Views & Templates) | AdonisJS Documentation",
+          "url": "https://docs.adonisjs.com/guides/views-and-templates/inertia"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "805b6885a2ecf87fdc95e80fa6f17f16ff7fe9025a6f9106962627cf86c25944"
 }

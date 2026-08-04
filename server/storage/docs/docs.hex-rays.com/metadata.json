@@ -44,5 +44,87 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.hex-rays.com/9.0sp1/getting-started/install-ida",
+      "canonicalSeedUrl": "https://docs.hex-rays.com/9.0sp1/getting-started/install-ida",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-09T02:51:24.963Z",
+      "completedAt": "2025-03-09T02:51:24.963Z",
+      "providerTotals": {
+        "discovered": 6,
+        "returned": 6,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.hex-rays.com/9.0sp1/getting-started/install-ida",
+          "canonicalUrl": "https://docs.hex-rays.com/9.0sp1/getting-started/install-ida",
+          "status": "valid"
+        }
+      ],
+      "id": "7336287a11e39c35973d7e3a2665e4a6baaf3604a4c52d5e680c384cc74800c4",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a4ff724ac9c2e14482c3beb073c8a2c2023b071fbae54fdef28d4170f8f10e15",
+      "filename": "documentation_2025-03-09T02:51:24.963Z.md",
+      "contentHash": "4927a2bac16e137fa0ef891350c08bfd7186eb56e63568d4ff2074501d3dca64",
+      "sourceUrl": "https://docs.hex-rays.com/9.0sp1/getting-started/install-ida",
+      "canonicalSourceUrl": "https://docs.hex-rays.com/9.0sp1/getting-started/install-ida",
+      "capturedAt": "2025-03-09T02:51:24.963Z",
+      "crawlRunId": "7336287a11e39c35973d7e3a2665e4a6baaf3604a4c52d5e680c384cc74800c4",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 6,
+      "successfulPages": 6,
+      "structure": [
+        {
+          "type": "Install IDA | Hex-Rays Docs",
+          "url": "https://docs.hex-rays.com/9.0sp1/getting-started/install-ida"
+        },
+        {
+          "type": "What's new? | Hex-Rays Docs",
+          "url": "https://docs.hex-rays.com/9.0sp1/readme/whats-new"
+        },
+        {
+          "type": "Welcome to Hex-Rays docs | Hex-Rays Docs",
+          "url": "https://docs.hex-rays.com/9.0sp1/"
+        },
+        {
+          "type": "What's next? | Hex-Rays Docs",
+          "url": "https://docs.hex-rays.com/9.0sp1/getting-started/whats-next"
+        },
+        {
+          "type": "How To Use List Viewers in IDA | Hex-Rays Docs",
+          "url": "https://docs.hex-rays.com/9.0sp1/user-guide/user-interface/how-to-use-list-viewers-in-ida"
+        },
+        {
+          "type": "Windows | Hex-Rays Docs",
+          "url": "https://docs.hex-rays.com/9.0sp1/user-guide/user-interface/menu-bar/windows"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a4ff724ac9c2e14482c3beb073c8a2c2023b071fbae54fdef28d4170f8f10e15"
 }

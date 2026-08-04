@@ -162,5 +162,187 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.thrml.ai/en/latest/architecture/",
+      "canonicalSeedUrl": "https://docs.thrml.ai/en/latest/architecture",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-23T20:52:43.975Z",
+      "completedAt": "2025-11-23T20:52:43.975Z",
+      "providerTotals": {
+        "discovered": 31,
+        "returned": 31,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.thrml.ai/en/latest/architecture/",
+          "canonicalUrl": "https://docs.thrml.ai/en/latest/architecture",
+          "status": "valid"
+        }
+      ],
+      "id": "499b7d1a25d3d82b0ab05aab8794714e37d618a08eca141edff6befa43059f78",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "91f1b9b2bad96c0094f85b24517efad0673b88a6025e25f3e9db816edae5492e",
+      "filename": "documentation_2025-11-23T20:52:43.975Z.md",
+      "contentHash": "5c0a2555be3bd1d0c8428efbddeacc9da7a8d3400ec7704b624a742d75b3506a",
+      "sourceUrl": "https://docs.thrml.ai/en/latest/architecture/",
+      "canonicalSourceUrl": "https://docs.thrml.ai/en/latest/architecture",
+      "capturedAt": "2025-11-23T20:52:43.975Z",
+      "crawlRunId": "499b7d1a25d3d82b0ab05aab8794714e37d618a08eca141edff6befa43059f78",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 31,
+      "successfulPages": 31,
+      "structure": [
+        {
+          "type": "Developer Documentation - THRML",
+          "url": "https://docs.thrml.ai/en/latest/architecture/"
+        },
+        {
+          "type": "THRML",
+          "url": "https://docs.thrml.ai/en/latest/"
+        },
+        {
+          "type": "Getting Started with THRML - THRML",
+          "url": "https://docs.thrml.ai/en/latest/examples/00_probabilistic_computing/"
+        },
+        {
+          "type": "Graphical Model Components - THRML",
+          "url": "https://docs.thrml.ai/en/latest/api/pgm/"
+        },
+        {
+          "type": "Block Management - THRML",
+          "url": "https://docs.thrml.ai/en/latest/api/block_management/"
+        },
+        {
+          "type": "Interaction Groups - THRML",
+          "url": "https://docs.thrml.ai/en/latest/api/interaction/"
+        },
+        {
+          "type": "Factors - THRML",
+          "url": "https://docs.thrml.ai/en/latest/api/factor/"
+        },
+        {
+          "type": "Block Sampling - THRML",
+          "url": "https://docs.thrml.ai/en/latest/api/block_sampling/"
+        },
+        {
+          "type": "Ising Models - THRML",
+          "url": "https://docs.thrml.ai/en/latest/api/models/ising/"
+        },
+        {
+          "type": "Sampling Observers - THRML",
+          "url": "https://docs.thrml.ai/en/latest/api/observers/"
+        },
+        {
+          "type": "Discrete Energy-Based Models - THRML",
+          "url": "https://docs.thrml.ai/en/latest/api/models/discrete_ebm/"
+        },
+        {
+          "type": "Energy-Based Models - THRML",
+          "url": "https://docs.thrml.ai/en/latest/api/models/ebm/"
+        },
+        {
+          "type": "Conditional Samplers - THRML",
+          "url": "https://docs.thrml.ai/en/latest/api/conditional_samplers/"
+        },
+        {
+          "type": "Spin Models in THRML - THRML",
+          "url": "https://docs.thrml.ai/en/latest/examples/02_spin_models/"
+        },
+        {
+          "type": "All of THRML - THRML",
+          "url": "https://docs.thrml.ai/en/latest/examples/01_all_of_thrml/"
+        },
+        {
+          "type": "THRML",
+          "url": "https://docs.thrml.ai/en/latest/examples/02_spin_models/denoising.paper"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/api/pgm/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/examples/00_probabilistic_computing/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/api/factor/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/examples/01_all_of_thrml/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/api/observers/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/api/block_sampling/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/api/interaction/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/api/block_management/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/api/models/ebm/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/api/conditional_samplers/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/examples/02_spin_models/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/api/models/discrete_ebm/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/architecture/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.thrml.ai/thrml/api/models/ising/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "91f1b9b2bad96c0094f85b24517efad0673b88a6025e25f3e9db816edae5492e"
 }

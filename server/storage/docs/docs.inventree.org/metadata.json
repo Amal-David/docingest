@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.inventree.org/en/1.1.x/",
+      "canonicalSeedUrl": "https://docs.inventree.org/en/1.1.x",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-06T19:31:30.351Z",
+      "completedAt": "2026-01-06T19:31:30.351Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.inventree.org/en/1.1.x/",
+          "canonicalUrl": "https://docs.inventree.org/en/1.1.x",
+          "status": "valid"
+        }
+      ],
+      "id": "4409c088a2d33a1c16a483facd7e43bc305afcd1afb8456653dbfbdd8248f250",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "15392eebb37c4221cc90f56808ca0d886b70a9a86ef1fae13e5028131a3b461a",
+      "filename": "documentation_2026-01-06T19:31:30.351Z.md",
+      "contentHash": "67bbd7982e18fe0dfe8c99ab7e329e4dc64e4b3dbfc4f18a61424233b7ded5bc",
+      "sourceUrl": "https://docs.inventree.org/en/1.1.x/",
+      "canonicalSourceUrl": "https://docs.inventree.org/en/1.1.x",
+      "capturedAt": "2026-01-06T19:31:30.351Z",
+      "crawlRunId": "4409c088a2d33a1c16a483facd7e43bc305afcd1afb8456653dbfbdd8248f250",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "InvenTree - InvenTree Documentation",
+          "url": "https://docs.inventree.org/en/1.1.x/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "15392eebb37c4221cc90f56808ca0d886b70a9a86ef1fae13e5028131a3b461a"
 }

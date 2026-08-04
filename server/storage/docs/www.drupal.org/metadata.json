@@ -42,5 +42,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.drupal.org/docs/develop/drupal-apis",
+      "canonicalSeedUrl": "https://www.drupal.org/docs/develop/drupal-apis",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-27T14:32:36.259Z",
+      "completedAt": "2026-02-27T14:32:36.259Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.drupal.org/docs/develop/drupal-apis",
+          "canonicalUrl": "https://www.drupal.org/docs/develop/drupal-apis",
+          "status": "valid"
+        }
+      ],
+      "id": "1d448226b0b979ee62d9bf324aeed12d4b41b2f3aa4738e046d6f81845d978af",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "82e55be4ed34209175165d6d432ac60d4a8389b1d57515ab55dc03b9f2cb0653",
+      "filename": "documentation_2026-02-27T14:32:36.259Z.md",
+      "contentHash": "27eb70a1fe2479b6cd10579cd3d73f4e72e5308c561231dbd9b611c65613de88",
+      "sourceUrl": "https://www.drupal.org/docs/develop/drupal-apis",
+      "canonicalSourceUrl": "https://www.drupal.org/docs/develop/drupal-apis",
+      "capturedAt": "2026-02-27T14:32:36.259Z",
+      "crawlRunId": "1d448226b0b979ee62d9bf324aeed12d4b41b2f3aa4738e046d6f81845d978af",
+      "upstreamVersion": "1.0.2",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Access to this page has been denied.",
+          "url": "https://www.drupal.org/docs/develop/drupal-apis"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "82e55be4ed34209175165d6d432ac60d4a8389b1d57515ab55dc03b9f2cb0653"
 }

@@ -36,5 +36,79 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.mallardorder.io/",
+      "canonicalSeedUrl": "https://docs.mallardorder.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-21T09:17:24.292Z",
+      "completedAt": "2025-04-21T09:17:24.292Z",
+      "providerTotals": {
+        "discovered": 4,
+        "returned": 4,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.mallardorder.io/",
+          "canonicalUrl": "https://docs.mallardorder.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "d183486d6fef8a9c01c2278aa3f711dfcf9137701b23ca13d3821e322b22f741",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "933f33fa3b322fc4fc9845e138d59324f3f38b76825351af27498696ec4de092",
+      "filename": "documentation_2025-04-21T09:17:24.292Z.md",
+      "contentHash": "d33a93852aa3c24f69d0eeb775e348a9c6eabf16279219c12416961d73af8e4e",
+      "sourceUrl": "https://docs.mallardorder.io/",
+      "canonicalSourceUrl": "https://docs.mallardorder.io/",
+      "capturedAt": "2025-04-21T09:17:24.292Z",
+      "crawlRunId": "d183486d6fef8a9c01c2278aa3f711dfcf9137701b23ca13d3821e322b22f741",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "Rune token - $RUNE | Rune - TMO Utility Token",
+          "url": "https://docs.mallardorder.io/"
+        },
+        {
+          "type": "Tokenomics | Rune - TMO Utility Token",
+          "url": "https://docs.mallardorder.io/tokenomics"
+        },
+        {
+          "type": "Staking | Rune - TMO Utility Token",
+          "url": "https://docs.mallardorder.io/staking"
+        },
+        {
+          "type": "Utility | Rune - TMO Utility Token",
+          "url": "https://docs.mallardorder.io/utility"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "933f33fa3b322fc4fc9845e138d59324f3f38b76825351af27498696ec4de092"
 }

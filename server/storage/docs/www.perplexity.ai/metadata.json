@@ -69,5 +69,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.perplexity.ai/es-es/hub",
+      "canonicalSeedUrl": "https://www.perplexity.ai/es-es/hub",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-01T22:58:52.501Z",
+      "completedAt": "2026-01-01T22:58:52.501Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.perplexity.ai/es-es/hub",
+          "canonicalUrl": "https://www.perplexity.ai/es-es/hub",
+          "status": "valid"
+        }
+      ],
+      "id": "c73738c7dd7126ad0a17a2dc7b74459d688314454e9c17ee9bdd93ae2accb00a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b4e6fb3973180a19adfd8bf112faa92cc5aeedc1d552dba43dd8d3515d01a384",
+      "filename": "documentation_2026-01-01T22:58:52.501Z.md",
+      "contentHash": "3c020e2117d86fbed1f741602e60cfb41a330619dde657e1b796cdeb88beeb7e",
+      "sourceUrl": "https://www.perplexity.ai/es-es/hub",
+      "canonicalSourceUrl": "https://www.perplexity.ai/es-es/hub",
+      "capturedAt": "2026-01-01T22:58:52.501Z",
+      "crawlRunId": "c73738c7dd7126ad0a17a2dc7b74459d688314454e9c17ee9bdd93ae2accb00a",
+      "upstreamVersion": "1.5.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Blog de Perplexity",
+          "url": "https://www.perplexity.ai/es-es/hub"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b4e6fb3973180a19adfd8bf112faa92cc5aeedc1d552dba43dd8d3515d01a384"
 }

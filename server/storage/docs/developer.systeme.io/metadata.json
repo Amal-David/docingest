@@ -42,5 +42,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developer.systeme.io/reference/api_contacts_get_collection",
+      "canonicalSeedUrl": "https://developer.systeme.io/reference/api_contacts_get_collection",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-12T04:37:54.368Z",
+      "completedAt": "2025-04-12T04:37:54.368Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developer.systeme.io/reference/api_contacts_get_collection",
+          "canonicalUrl": "https://developer.systeme.io/reference/api_contacts_get_collection",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "ad53d7cdaa46b997686aeb352ad115119c63f869643882e7321e9ce2c2f51ffe",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "541634c25c572e2cebaf3a190adabb51adefd2bd964da1d797269625ff8f90db",
+      "filename": "documentation_2025-04-12T04:37:54.368Z.md",
+      "contentHash": "9f664dfc081b2b8f86c288a7c56a91cf50acf2dab56bf0bb79ce4cf3916fe05e",
+      "sourceUrl": "https://developer.systeme.io/reference/api_contacts_get_collection",
+      "canonicalSourceUrl": "https://developer.systeme.io/reference/api_contacts_get_collection",
+      "capturedAt": "2025-04-12T04:37:54.368Z",
+      "crawlRunId": "ad53d7cdaa46b997686aeb352ad115119c63f869643882e7321e9ce2c2f51ffe",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Retrieves the collection of Contact resources.",
+          "url": "https://developer.systeme.io/reference/api_contacts_get_collection"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

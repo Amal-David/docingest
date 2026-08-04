@@ -112,5 +112,155 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.minorin.io/enma",
+      "canonicalSeedUrl": "https://docs.minorin.io/enma",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-27T00:02:06.683Z",
+      "completedAt": "2026-03-27T00:02:06.683Z",
+      "providerTotals": {
+        "discovered": 23,
+        "returned": 23,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.minorin.io/enma",
+          "canonicalUrl": "https://docs.minorin.io/enma",
+          "status": "valid"
+        }
+      ],
+      "id": "7bb3b37b0a48d22cb5976c172b7b51300838c6f92977a3a78cc3ec6b9d0d7af9",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8718c95f54ef29453cfda7912c03d3a95bdabb3492eb56d3af38f7e1d67c50be",
+      "filename": "documentation_2026-03-27T00:02:06.683Z.md",
+      "contentHash": "ad6d06f02a0838b4bb122b02a82bb708214e6a6b439e96e7cb23ba1b667a7381",
+      "sourceUrl": "https://docs.minorin.io/enma",
+      "canonicalSourceUrl": "https://docs.minorin.io/enma",
+      "capturedAt": "2026-03-27T00:02:06.683Z",
+      "crawlRunId": "7bb3b37b0a48d22cb5976c172b7b51300838c6f92977a3a78cc3ec6b9d0d7af9",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 23,
+      "successfulPages": 23,
+      "structure": [
+        {
+          "type": "Introduction | Enma",
+          "url": "https://docs.minorin.io/enma"
+        },
+        {
+          "type": "Cache | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/cache"
+        },
+        {
+          "type": "Quick Start | Enma",
+          "url": "https://docs.minorin.io/enma/getting-started/quick-start"
+        },
+        {
+          "type": "Google Drive | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/downloading-chapters/google-drive"
+        },
+        {
+          "type": "Symbolic Links | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/symbolic-links"
+        },
+        {
+          "type": "Authentication | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/authentication"
+        },
+        {
+          "type": "Downloading Chapters | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/downloading-chapters"
+        },
+        {
+          "type": "NHentai | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/authentication/nhentai"
+        },
+        {
+          "type": "Downloaders | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/extending/downloaders"
+        },
+        {
+          "type": "Extending | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/extending"
+        },
+        {
+          "type": "Sources | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/extending/sources"
+        },
+        {
+          "type": "Savers | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/extending/savers"
+        },
+        {
+          "type": "Errors | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/errors"
+        },
+        {
+          "type": "Entrypoint Methods | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/entrypoint-methods"
+        },
+        {
+          "type": "Download Chapter | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/entrypoint-methods/download-chapter"
+        },
+        {
+          "type": "Get | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/entrypoint-methods/get"
+        },
+        {
+          "type": "Paginate | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/entrypoint-methods/paginate"
+        },
+        {
+          "type": "Random | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/entrypoint-methods/random"
+        },
+        {
+          "type": "Author Page | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/entrypoint-methods/author-page"
+        },
+        {
+          "type": "Fetch Chapter By Symbolic Link | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/entrypoint-methods/fetch-chapter-by-symbolic-link"
+        },
+        {
+          "type": "Search | Enma",
+          "url": "https://docs.minorin.io/enma/documentation/entrypoint-methods/search"
+        },
+        {
+          "type": "Introduction | Enma",
+          "url": "https://docs.minorin.io/enma/getting-started"
+        },
+        {
+          "type": "Authentication | Enma",
+          "url": "https://docs.minorin.io/enma/documentation"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8718c95f54ef29453cfda7912c03d3a95bdabb3492eb56d3af38f7e1d67c50be"
 }

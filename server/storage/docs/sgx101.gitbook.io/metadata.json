@@ -108,5 +108,151 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://sgx101.gitbook.io/sgx101/sgx-security/speculative-side-channels",
+      "canonicalSeedUrl": "https://sgx101.gitbook.io/sgx101/sgx-security/speculative-side-channels",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-15T12:56:03.092Z",
+      "completedAt": "2025-04-15T12:56:03.092Z",
+      "providerTotals": {
+        "discovered": 22,
+        "returned": 22,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-security/speculative-side-channels",
+          "canonicalUrl": "https://sgx101.gitbook.io/sgx101/sgx-security/speculative-side-channels",
+          "status": "valid"
+        }
+      ],
+      "id": "3b91775784140259cf5e80ff089f2f08d79b2bfc7b495456c6278ded10c74ab1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c01ab32d94252bd08e91f93d34fc07a3342777c8c23d30565c54157cce6122ed",
+      "filename": "documentation_2025-04-15T12:56:03.092Z.md",
+      "contentHash": "4cc929c3b07659cc8076588b528b3e2ad84ad784bec5feeca98d1c1ddda3deb0",
+      "sourceUrl": "https://sgx101.gitbook.io/sgx101/sgx-security/speculative-side-channels",
+      "canonicalSourceUrl": "https://sgx101.gitbook.io/sgx101/sgx-security/speculative-side-channels",
+      "capturedAt": "2025-04-15T12:56:03.092Z",
+      "crawlRunId": "3b91775784140259cf5e80ff089f2f08d79b2bfc7b495456c6278ded10c74ab1",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 22,
+      "successfulPages": 22,
+      "structure": [
+        {
+          "type": "Speculative Execution Side Channels | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-security/speculative-side-channels"
+        },
+        {
+          "type": "Enclave | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-bootstrap/enclave"
+        },
+        {
+          "type": "Memory Corruption | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-security/memory-corruption"
+        },
+        {
+          "type": "SGX Security | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-security"
+        },
+        {
+          "type": "SGX Bootstrap | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-bootstrap"
+        },
+        {
+          "type": "Technion'18 Summer School Program | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-bootstrap/technion18-summer-school-program"
+        },
+        {
+          "type": "Overview | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-bootstrap/overview"
+        },
+        {
+          "type": "CCS'17 Tutorial | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-bootstrap/ccs17-tutorial"
+        },
+        {
+          "type": "Row Hammer Attacks | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-security/row-hammer-attack"
+        },
+        {
+          "type": "Communication between Architectural and Application Enclaves | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-bootstrap/enclave/interaction-between-pse-and-application-enclaves"
+        },
+        {
+          "type": "Page-table-based Attacks | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-security/page-table-based-attack"
+        },
+        {
+          "type": "Real-world Example | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-bootstrap/real-world-example"
+        },
+        {
+          "type": "Cache Attacks | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-security/cache-attack"
+        },
+        {
+          "type": "SSLab | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sslab"
+        },
+        {
+          "type": "Branch Shadowing | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-security/branch-shadowing"
+        },
+        {
+          "type": "Inter-process Local Attestation | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-bootstrap/attestation/inter-process-local-attestation"
+        },
+        {
+          "type": "About Us | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/about-us"
+        },
+        {
+          "type": "Uninitialized Memory | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-security/uninitialized-memory"
+        },
+        {
+          "type": "Other Resources | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/resources"
+        },
+        {
+          "type": "Attestation | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-bootstrap/attestation"
+        },
+        {
+          "type": "Sealing | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101/sgx-bootstrap/sealing"
+        },
+        {
+          "type": "Home | SGX 101",
+          "url": "https://sgx101.gitbook.io/sgx101"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c01ab32d94252bd08e91f93d34fc07a3342777c8c23d30565c54157cce6122ed"
 }

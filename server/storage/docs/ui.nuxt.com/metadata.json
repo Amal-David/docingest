@@ -198,5 +198,223 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://ui.nuxt.com/",
+      "canonicalSeedUrl": "https://ui.nuxt.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-06-12T12:56:06.774Z",
+      "completedAt": "2025-06-12T12:56:06.774Z",
+      "providerTotals": {
+        "discovered": 40,
+        "returned": 40,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://ui.nuxt.com/",
+          "canonicalUrl": "https://ui.nuxt.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "0a175ac3e6abac6ac34e037b5f8a6120984f6345b66659c09acc2d83d2141247",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d907ff24ef6df8771c850048298edd1d182dabe9c97cbe94a6f6776bad7acf22",
+      "filename": "documentation_2025-06-12T12:56:06.774Z.md",
+      "contentHash": "b4b20fc8976e4b45658c6b07e0ed7ec3da78a4efed7149aa143d8bb81fe8e037",
+      "sourceUrl": "https://ui.nuxt.com/",
+      "canonicalSourceUrl": "https://ui.nuxt.com/",
+      "capturedAt": "2025-06-12T12:56:06.774Z",
+      "crawlRunId": "0a175ac3e6abac6ac34e037b5f8a6120984f6345b66659c09acc2d83d2141247",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 40,
+      "successfulPages": 40,
+      "structure": [
+        {
+          "type": "The Intuitive Vue UI Library - Nuxt UI",
+          "url": "https://ui.nuxt.com/"
+        },
+        {
+          "type": "Introduction - Nuxt UI",
+          "url": "https://ui.nuxt.com/getting-started"
+        },
+        {
+          "type": "Vue Components - Nuxt UI",
+          "url": "https://ui.nuxt.com/components"
+        },
+        {
+          "type": "Nuxt UI Figma Design Kits",
+          "url": "https://ui.nuxt.com/figma"
+        },
+        {
+          "type": "Build faster with Nuxt UI Pro.",
+          "url": "https://ui.nuxt.com/pro"
+        },
+        {
+          "type": "Installation - Nuxt UI",
+          "url": "https://ui.nuxt.com/getting-started/installation/nuxt"
+        },
+        {
+          "type": "Installation - Nuxt UI   for Vue",
+          "url": "https://ui.nuxt.com/getting-started/installation/vue"
+        },
+        {
+          "type": "Installation - Nuxt UI Pro",
+          "url": "https://ui.nuxt.com/getting-started/installation/pro/nuxt"
+        },
+        {
+          "type": "Installation - Nuxt UI Pro  for Vue",
+          "url": "https://ui.nuxt.com/getting-started/installation/pro/vue"
+        },
+        {
+          "type": "Vue App Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/app"
+        },
+        {
+          "type": "Vue Avatar Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/avatar"
+        },
+        {
+          "type": "Vue Accordion Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/accordion"
+        },
+        {
+          "type": "Vue AvatarGroup Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/avatar-group"
+        },
+        {
+          "type": "Vue Alert Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/alert"
+        },
+        {
+          "type": "Vue Breadcrumb Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/breadcrumb"
+        },
+        {
+          "type": "Vue ButtonGroup Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/button-group"
+        },
+        {
+          "type": "Vue Badge Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/badge"
+        },
+        {
+          "type": "Vue Card Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/card"
+        },
+        {
+          "type": "Vue Button Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/button"
+        },
+        {
+          "type": "Vue Checkbox Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/checkbox"
+        },
+        {
+          "type": "Vue Chip Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/chip"
+        },
+        {
+          "type": "Vue Collapsible Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/collapsible"
+        },
+        {
+          "type": "Migration - Nuxt UI",
+          "url": "https://ui.nuxt.com/getting-started/migration"
+        },
+        {
+          "type": "Vue CheckboxGroup Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/checkbox-group"
+        },
+        {
+          "type": "License - Nuxt UI Pro",
+          "url": "https://ui.nuxt.com/getting-started/license"
+        },
+        {
+          "type": "Vue Carousel Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/carousel"
+        },
+        {
+          "type": "Vue ColorPicker Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/color-picker"
+        },
+        {
+          "type": "Vue Container Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/container"
+        },
+        {
+          "type": "Meet the Team - Nuxt UI",
+          "url": "https://ui.nuxt.com/team"
+        },
+        {
+          "type": "Theme - Nuxt UI",
+          "url": "https://ui.nuxt.com/getting-started/theme"
+        },
+        {
+          "type": "Icons - Nuxt UI",
+          "url": "https://ui.nuxt.com/getting-started/icons/nuxt"
+        },
+        {
+          "type": "Conditions Générales de Vente de Nuxt UI Pro",
+          "url": "https://ui.nuxt.com/pro/terms"
+        },
+        {
+          "type": "Icons - Nuxt UI   for Vue",
+          "url": "https://ui.nuxt.com/getting-started/icons/vue"
+        },
+        {
+          "type": "Internationalization (i18n) - Nuxt UI",
+          "url": "https://ui.nuxt.com/getting-started/i18n/nuxt"
+        },
+        {
+          "type": "Vue ChatPromptSubmit Component - Nuxt UI Pro",
+          "url": "https://ui.nuxt.com/components/chat-prompt-submit"
+        },
+        {
+          "type": "Fonts - Nuxt UI",
+          "url": "https://ui.nuxt.com/getting-started/fonts"
+        },
+        {
+          "type": "Vue CommandPalette Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/command-palette"
+        },
+        {
+          "type": "Vue ColorModeAvatar Component - Nuxt UI Pro",
+          "url": "https://ui.nuxt.com/components/color-mode-avatar"
+        },
+        {
+          "type": "Color Mode - Nuxt UI",
+          "url": "https://ui.nuxt.com/getting-started/color-mode/nuxt"
+        },
+        {
+          "type": "Vue ContextMenu Component - Nuxt UI",
+          "url": "https://ui.nuxt.com/components/context-menu"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d907ff24ef6df8771c850048298edd1d182dabe9c97cbe94a6f6776bad7acf22"
 }

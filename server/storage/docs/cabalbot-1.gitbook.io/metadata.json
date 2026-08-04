@@ -88,5 +88,131 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://cabalbot-1.gitbook.io/cabalbot-docs",
+      "canonicalSeedUrl": "https://cabalbot-1.gitbook.io/cabalbot-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-31T17:55:13.683Z",
+      "completedAt": "2026-01-31T17:55:13.683Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs",
+          "canonicalUrl": "https://cabalbot-1.gitbook.io/cabalbot-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "8b9074dbc0597d102cd7af4fa5d6741941844f2d9b485157740d67e1a7158c4c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a24d89a73af7216e7e55ab9c13a522821e1bfa86bc7fd8f7b7f73e48ce1a1e52",
+      "filename": "documentation_2026-01-31T17:55:13.683Z.md",
+      "contentHash": "a3f21f8bdca23237482d689e29b277e587ff40ceee20d03b663aa23af3f8b1b6",
+      "sourceUrl": "https://cabalbot-1.gitbook.io/cabalbot-docs",
+      "canonicalSourceUrl": "https://cabalbot-1.gitbook.io/cabalbot-docs",
+      "capturedAt": "2026-01-31T17:55:13.683Z",
+      "crawlRunId": "8b9074dbc0597d102cd7af4fa5d6741941844f2d9b485157740d67e1a7158c4c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Welcome to Cabal | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs"
+        },
+        {
+          "type": "💳 Wallet Setup | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/welcome-to-cabal/wallet-setup"
+        },
+        {
+          "type": "💰 Referrals | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/welcome-to-cabal/referrals"
+        },
+        {
+          "type": "Increased Speed | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/telegram-optimisation/increased-speed"
+        },
+        {
+          "type": "Intelligently Structured Interface | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/telegram-optimisation/intelligently-structured-interface"
+        },
+        {
+          "type": "⚙️ Settings Menu | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/welcome-to-cabal/settings-menu"
+        },
+        {
+          "type": "🥪 Auto MEV Protection | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/security-measures/auto-mev-protection"
+        },
+        {
+          "type": "♟ Slippage | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/security-measures/slippage"
+        },
+        {
+          "type": "Snipe Migrations | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/functionality/snipe-migrations"
+        },
+        {
+          "type": "Limit Orders | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/functionality/limit-orders"
+        },
+        {
+          "type": "📈Buy | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/functionality/lightning-speed-trades/buy"
+        },
+        {
+          "type": "📉Sell | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/functionality/lightning-speed-trades/sell"
+        },
+        {
+          "type": "Lightning Speed Trades | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/functionality/lightning-speed-trades"
+        },
+        {
+          "type": "🐻 TakeProfit (TP) | StopLoss (SL) | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/functionality/limit-orders/takeprofit-tp-or-stoploss-sl"
+        },
+        {
+          "type": "🟢AutoLimits | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/functionality/limit-orders/autolimits"
+        },
+        {
+          "type": "🐂Buy Dip | Buy Push | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/functionality/limit-orders/buy-dip-or-buy-push"
+        },
+        {
+          "type": "🟢AutoBuy | CabalBot Docs",
+          "url": "https://cabalbot-1.gitbook.io/cabalbot-docs/functionality/lightning-speed-trades/autobuy"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a24d89a73af7216e7e55ab9c13a522821e1bfa86bc7fd8f7b7f73e48ce1a1e52"
 }

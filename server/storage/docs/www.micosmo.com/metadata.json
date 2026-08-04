@@ -160,5 +160,203 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://micosmo.com/sensortoolkit2/docs/api/ray",
+      "canonicalSeedUrl": "https://micosmo.com/sensortoolkit2/docs/api/ray",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-02T11:35:22.009Z",
+      "completedAt": "2025-12-02T11:35:22.009Z",
+      "providerTotals": {
+        "discovered": 35,
+        "returned": 35,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://micosmo.com/sensortoolkit2/docs/api/ray",
+          "canonicalUrl": "https://micosmo.com/sensortoolkit2/docs/api/ray",
+          "status": "valid"
+        }
+      ],
+      "id": "6a3f1c0710ba1803051c5162d1b8c5899318eb9d5bf5f01c40939f681f468379",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b41a3ee0207823ec610afe94cfffec69bd5f06f0740834395405560c51d3ad6e",
+      "filename": "documentation_2025-12-02T11:35:22.009Z.md",
+      "contentHash": "c113f71a2eb3ee2f5a9b93a8597e19388d7bcda53e46dd7407c045df83d132cb",
+      "sourceUrl": "https://micosmo.com/sensortoolkit2/docs/api/ray",
+      "canonicalSourceUrl": "https://micosmo.com/sensortoolkit2/docs/api/ray",
+      "capturedAt": "2025-12-02T11:35:22.009Z",
+      "crawlRunId": "6a3f1c0710ba1803051c5162d1b8c5899318eb9d5bf5f01c40939f681f468379",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 35,
+      "successfulPages": 35,
+      "structure": [
+        {
+          "type": "RaySensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/api/ray"
+        },
+        {
+          "type": "LOSSensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/api/los"
+        },
+        {
+          "type": "BooleanSensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/api/boolean"
+        },
+        {
+          "type": "FOVCollider | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/api/fov"
+        },
+        {
+          "type": "NavMeshSensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/api/navmesh"
+        },
+        {
+          "type": "Sensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/api/sensor"
+        },
+        {
+          "type": "ArcSensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/api/arc"
+        },
+        {
+          "type": "RangeSensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/api/range"
+        },
+        {
+          "type": "Introduction | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/intro"
+        },
+        {
+          "type": "What's Included? | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/getting-started/whats-included"
+        },
+        {
+          "type": "Upgrading from V1 | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/getting-started/upgrade-guide"
+        },
+        {
+          "type": "2D Components | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/2d"
+        },
+        {
+          "type": "Signal Processor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/processor"
+        },
+        {
+          "type": "FOV Collider | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/fov"
+        },
+        {
+          "type": "Quickstart Tutorial | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/getting-started/quickstart-tutorial"
+        },
+        {
+          "type": "Signal Proxy | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/proxy"
+        },
+        {
+          "type": "AI Tree | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/integrations/aitree"
+        },
+        {
+          "type": "Behavior Designer | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/integrations/behavior-designer"
+        },
+        {
+          "type": "Game Creator 2 | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/integrations/gamecreator2"
+        },
+        {
+          "type": "TriggerSensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/api/trigger"
+        },
+        {
+          "type": "SteeringSensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/api/steering"
+        },
+        {
+          "type": "UserSignals | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/api/user-signals"
+        },
+        {
+          "type": "Signal | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/api/signal"
+        },
+        {
+          "type": "Fundamentals | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/fundamentals"
+        },
+        {
+          "type": "Playmaker | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/integrations/playmaker"
+        },
+        {
+          "type": "Arc Sensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/sensors/arc"
+        },
+        {
+          "type": "Range Sensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/sensors/range"
+        },
+        {
+          "type": "Trigger Sensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/sensors/trigger"
+        },
+        {
+          "type": "Line of Sight Sensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/sensors/los"
+        },
+        {
+          "type": "Boolean Sensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/sensors/boolean"
+        },
+        {
+          "type": "Ray Sensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/sensors/ray"
+        },
+        {
+          "type": "NavMesh Sensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/sensors/navmesh"
+        },
+        {
+          "type": "Steering Sensor | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/sensors/steering"
+        },
+        {
+          "type": "User Signals | SensorToolkit 2",
+          "url": "https://micosmo.com/sensortoolkit2/docs/manual/sensors/user-signals"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://micosmo.com/sensortoolkit2/docs/API/sensor"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b41a3ee0207823ec610afe94cfffec69bd5f06f0740834395405560c51d3ad6e"
 }

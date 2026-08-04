@@ -33,5 +33,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.ev0lve.xyz/",
+      "canonicalSeedUrl": "https://docs.ev0lve.xyz/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-17T12:43:35.630Z",
+      "completedAt": "2025-12-17T12:43:35.630Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.ev0lve.xyz/",
+          "canonicalUrl": "https://docs.ev0lve.xyz/",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "76af6e04a8aa14a263f612b4341cb6d50339551bff5036752b8afd62f7edc00a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "afa039da3eaa1b70844a06fc2d2a77d24d1ef5b3b77003a4e06b3c397a375ebe",
+      "filename": "documentation_2025-12-17T12:43:35.630Z.md",
+      "contentHash": "30f4338366ee89a91ef7728b49d2f67ab0aafd43af9888a05a7aaebe7058b29d",
+      "sourceUrl": "https://docs.ev0lve.xyz/",
+      "canonicalSourceUrl": "https://docs.ev0lve.xyz/",
+      "capturedAt": "2025-12-17T12:43:35.630Z",
+      "crawlRunId": "76af6e04a8aa14a263f612b4341cb6d50339551bff5036752b8afd62f7edc00a",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.ev0lve.xyz/"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

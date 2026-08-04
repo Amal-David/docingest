@@ -160,5 +160,203 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://mainstreet-finance.gitbook.io/mainstreet.finance",
+      "canonicalSeedUrl": "https://mainstreet-finance.gitbook.io/mainstreet.finance",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-18T22:16:26.277Z",
+      "completedAt": "2025-12-18T22:16:26.277Z",
+      "providerTotals": {
+        "discovered": 35,
+        "returned": 35,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance",
+          "canonicalUrl": "https://mainstreet-finance.gitbook.io/mainstreet.finance",
+          "status": "valid"
+        }
+      ],
+      "id": "e453a404ec7d8d299bd951d8042d8713dc2f0572aa6b2ea3f10de92647bf74ff",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ab0d93d051a7a464c7a266c4fd62c5250417f06deaa85b036818921e54d1b83b",
+      "filename": "documentation_2025-12-18T22:16:26.277Z.md",
+      "contentHash": "3f294c6d73e990dab3200a95453682f6f7b230013a08701275d2b6df54c607ce",
+      "sourceUrl": "https://mainstreet-finance.gitbook.io/mainstreet.finance",
+      "canonicalSourceUrl": "https://mainstreet-finance.gitbook.io/mainstreet.finance",
+      "capturedAt": "2025-12-18T22:16:26.277Z",
+      "crawlRunId": "e453a404ec7d8d299bd951d8042d8713dc2f0572aa6b2ea3f10de92647bf74ff",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 35,
+      "successfulPages": 35,
+      "structure": [
+        {
+          "type": "Welcome to Main St | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance"
+        },
+        {
+          "type": "Introduction | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/getting-started/quickstart"
+        },
+        {
+          "type": "Team | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/getting-started/team"
+        },
+        {
+          "type": "Main St Token Ecosystem Overview | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/msusd-yield-generating-dollar/main-st-token-ecosystem-overview"
+        },
+        {
+          "type": "Trading Strategy Framework | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/msusd-yield-generating-dollar/trading-strategy-framework"
+        },
+        {
+          "type": "Options Arbitrage | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/msusd-yield-generating-dollar/trading-strategy-framework/options-arbitrage"
+        },
+        {
+          "type": "Minting Pathway | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/msusd-yield-generating-dollar/minting-pathway"
+        },
+        {
+          "type": "Hedged liquidity pool farming | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/msusd-yield-generating-dollar/trading-strategy-framework/hedged-liquidity-pool-farming"
+        },
+        {
+          "type": "Basis Trading Implementation | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/msusd-yield-generating-dollar/trading-strategy-framework/basis-trading-implementation"
+        },
+        {
+          "type": "Key Features | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/msusd-yield-generating-dollar/trading-strategy-framework/key-features"
+        },
+        {
+          "type": "Permissionless Minting Partners | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/msusd-yield-generating-dollar/permissionless-minting-partners"
+        },
+        {
+          "type": "Buying msUSD | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/msusd-yield-generating-dollar/buying-msusd"
+        },
+        {
+          "type": "Market Stability Mechanisms | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/market-stability-mechanisms"
+        },
+        {
+          "type": "Redemption Process | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/msusd-yield-generating-dollar/redemption-process"
+        },
+        {
+          "type": "Returns Calculation & Distribution | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/returns-calculation-and-distribution"
+        },
+        {
+          "type": "Protocol Economics | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/protocol-economics-1"
+        },
+        {
+          "type": "Strategy Backtesting & Validation | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/msusd-yield-generating-dollar/trading-strategy-framework/strategy-backtesting-and-validation"
+        },
+        {
+          "type": "Staking Model | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/staking-model"
+        },
+        {
+          "type": "Insurance Fund | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/risk-factors/insurance-fund"
+        },
+        {
+          "type": "Risk Factors | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/risk-factors/risk-factors"
+        },
+        {
+          "type": "WatchPug Security Audit 2 | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/audits/watchpug-security-audit-2"
+        },
+        {
+          "type": "WatchPug Security Audit 1 | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/audits/watchpug-security-audit-1"
+        },
+        {
+          "type": "Key Addresses | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/technical/key-addresses"
+        },
+        {
+          "type": "Privacy Policy | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/legal-and-compliance/privacy-policy"
+        },
+        {
+          "type": "General Risk Disclosures | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/legal-and-compliance/general-risk-disclosures"
+        },
+        {
+          "type": "Terms of Service | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/legal-and-compliance/terms-of-service"
+        },
+        {
+          "type": "msUSD and smsUSD Mint User Agreement - Non EEA | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/legal-and-compliance/msusd-and-smsusd-mint-user-agreement-non-eea"
+        },
+        {
+          "type": "msUSD and smsUSD Terms and Conditions - EEA | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/legal-and-compliance/msusd-and-smsusd-terms-and-conditions-eea"
+        },
+        {
+          "type": "msUSD and smsUSD Terms and Conditions - Non EEA | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/legal-and-compliance/msusd-and-smsusd-terms-and-conditions-non-eea"
+        },
+        {
+          "type": "Introduction | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/getting-started"
+        },
+        {
+          "type": "Main St Token Ecosystem Overview | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/msusd-yield-generating-dollar"
+        },
+        {
+          "type": "Key Addresses | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/technical"
+        },
+        {
+          "type": "WatchPug Security Audit 2 | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/audits"
+        },
+        {
+          "type": "Risk Factors | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/risk-factors"
+        },
+        {
+          "type": "General Risk Disclosures | Mainstreet.Finance",
+          "url": "https://mainstreet-finance.gitbook.io/mainstreet.finance/legal-and-compliance"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ab0d93d051a7a464c7a266c4fd62c5250417f06deaa85b036818921e54d1b83b"
 }

@@ -193,5 +193,227 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.shadcn-svelte.com/docs",
+      "canonicalSeedUrl": "https://www.shadcn-svelte.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-06-12T09:16:19.970Z",
+      "completedAt": "2025-06-12T09:16:19.970Z",
+      "providerTotals": {
+        "discovered": 41,
+        "returned": 41,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.shadcn-svelte.com/docs",
+          "canonicalUrl": "https://www.shadcn-svelte.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "223f01273d7970d459665421acb9daa2b59eeba8a63b986e956dabc5dfb5d24a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5ce315c1d38242d23897b93421ce377196acaf2f5b6257bee66be71ac94a3f80",
+      "filename": "documentation_2025-06-12T09:16:19.970Z.md",
+      "contentHash": "7b3ded6045138fb9ec355409fc6374e3350c23a4dd265ee29e81aa9a253870d6",
+      "sourceUrl": "https://www.shadcn-svelte.com/docs",
+      "canonicalSourceUrl": "https://www.shadcn-svelte.com/docs",
+      "capturedAt": "2025-06-12T09:16:19.970Z",
+      "crawlRunId": "223f01273d7970d459665421acb9daa2b59eeba8a63b986e956dabc5dfb5d24a",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 41,
+      "successfulPages": 41,
+      "structure": [
+        {
+          "type": "Introduction - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs"
+        },
+        {
+          "type": "Components - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components"
+        },
+        {
+          "type": "Installation - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/installation"
+        },
+        {
+          "type": "components.json - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components-json"
+        },
+        {
+          "type": "Dark Mode - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/dark-mode"
+        },
+        {
+          "type": "JavaScript - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/javascript"
+        },
+        {
+          "type": "Theming - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/theming"
+        },
+        {
+          "type": "CLI - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/cli"
+        },
+        {
+          "type": "Figma - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/figma"
+        },
+        {
+          "type": "Legacy Docs - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/legacy"
+        },
+        {
+          "type": "Changelog - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/changelog"
+        },
+        {
+          "type": "Svelte 5 - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/migration/svelte-5"
+        },
+        {
+          "type": "Accordion - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/accordion"
+        },
+        {
+          "type": "Tailwind v4 - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/migration/tailwind-v4"
+        },
+        {
+          "type": "Alert Dialog - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/alert-dialog"
+        },
+        {
+          "type": "Alert - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/alert"
+        },
+        {
+          "type": "Aspect Ratio - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/aspect-ratio"
+        },
+        {
+          "type": "Avatar - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/avatar"
+        },
+        {
+          "type": "Badge - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/badge"
+        },
+        {
+          "type": "Button - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/button"
+        },
+        {
+          "type": "Breadcrumb - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/breadcrumb"
+        },
+        {
+          "type": "Card - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/card"
+        },
+        {
+          "type": "Checkbox - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/checkbox"
+        },
+        {
+          "type": "Collapsible - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/collapsible"
+        },
+        {
+          "type": "Calendar - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/calendar"
+        },
+        {
+          "type": "Carousel - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/carousel"
+        },
+        {
+          "type": "Combobox - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/combobox"
+        },
+        {
+          "type": "Command - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/command"
+        },
+        {
+          "type": "Chart - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/chart"
+        },
+        {
+          "type": "Context Menu - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/context-menu"
+        },
+        {
+          "type": "Dialog - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/dialog"
+        },
+        {
+          "type": "Date Picker - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/date-picker"
+        },
+        {
+          "type": "Drawer - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/drawer"
+        },
+        {
+          "type": "Dropdown Menu - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/dropdown-menu"
+        },
+        {
+          "type": "Hover Card - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/hover-card"
+        },
+        {
+          "type": "Data Table - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/data-table"
+        },
+        {
+          "type": "Formsnap - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/form"
+        },
+        {
+          "type": "Input - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/input"
+        },
+        {
+          "type": "Label - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/label"
+        },
+        {
+          "type": "Input OTP - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/input-otp"
+        },
+        {
+          "type": "Pagination - shadcn-svelte",
+          "url": "https://www.shadcn-svelte.com/docs/components/pagination"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5ce315c1d38242d23897b93421ce377196acaf2f5b6257bee66be71ac94a3f80"
 }

@@ -44,5 +44,87 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://app.neuronwriter.com/neuron-guide/en/*",
+      "canonicalSeedUrl": "https://app.neuronwriter.com/neuron-guide/en/*",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-25T04:10:36.964Z",
+      "completedAt": "2026-02-25T04:10:36.964Z",
+      "providerTotals": {
+        "discovered": 6,
+        "returned": 6,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://app.neuronwriter.com/neuron-guide/en/*",
+          "canonicalUrl": "https://app.neuronwriter.com/neuron-guide/en/*",
+          "status": "valid"
+        }
+      ],
+      "id": "180a2bcbedf08c0bfb48153863751c28e92a756264621ec8ceb1ffcd565c770b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "04d04b4b2d4cae648d538ecac20f7fdfdd32adf394b1d5063ae4ec7e61bf94b5",
+      "filename": "documentation_2026-02-25T04:10:36.964Z.md",
+      "contentHash": "af9eef09c67acdfb5479adaec4e1362c7466f56fe3a80016af59e07c9a214a12",
+      "sourceUrl": "https://app.neuronwriter.com/neuron-guide/en/*",
+      "canonicalSourceUrl": "https://app.neuronwriter.com/neuron-guide/en/*",
+      "capturedAt": "2026-02-25T04:10:36.964Z",
+      "crawlRunId": "180a2bcbedf08c0bfb48153863751c28e92a756264621ec8ceb1ffcd565c770b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 6,
+      "successfulPages": 6,
+      "structure": [
+        {
+          "type": "Login | NEURONwriter - powered by CONTADU",
+          "url": "https://app.neuronwriter.com/neuron-guide/en/*"
+        },
+        {
+          "type": "Access recovery | NEURONwriter - powered by CONTADU",
+          "url": "https://app.neuronwriter.com/ucp/forgot-password"
+        },
+        {
+          "type": "Sign up | NEURONwriter - powered by CONTADU",
+          "url": "https://app.neuronwriter.com/ucp/register?redirect_url=/neuron-guide/en/*"
+        },
+        {
+          "type": "Terms of service | NEURONwriter - powered by CONTADU",
+          "url": "https://app.neuronwriter.com/tos"
+        },
+        {
+          "type": "Privacy policy | NEURONwriter - powered by CONTADU",
+          "url": "https://app.neuronwriter.com/privacy"
+        },
+        {
+          "type": "Login | NEURONwriter - powered by CONTADU",
+          "url": "https://app.neuronwriter.com/ucp/login?redirect_url=/neuron-guide/en/*"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "04d04b4b2d4cae648d538ecac20f7fdfdd32adf394b1d5063ae4ec7e61bf94b5"
 }

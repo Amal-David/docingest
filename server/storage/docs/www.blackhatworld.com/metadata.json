@@ -24,5 +24,69 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.blackhatworld.com/forums/black-hat-seo.28/",
+      "canonicalSeedUrl": "https://www.blackhatworld.com/forums/black-hat-seo.28",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-18T06:50:54.307Z",
+      "completedAt": "2026-03-18T06:50:54.307Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.blackhatworld.com/forums/black-hat-seo.28/",
+          "canonicalUrl": "https://www.blackhatworld.com/forums/black-hat-seo.28",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "0fc1737b6d272836a60196ddc03654ff2d1f1ec19b72d7ab2aedb05450782ba1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9c4a5748dbf31fab5a38c71bc54e3d2aa72e924171471fe3a943ea0b50b27787",
+      "filename": "documentation_2026-03-18T06:50:54.307Z.md",
+      "contentHash": "72c6767ab12bd0f8d4ece8c02e1156e45662b170485120fa9a8ec73b29fb2122",
+      "sourceUrl": "https://www.blackhatworld.com/forums/black-hat-seo.28/",
+      "canonicalSourceUrl": "https://www.blackhatworld.com/forums/black-hat-seo.28",
+      "capturedAt": "2026-03-18T06:50:54.307Z",
+      "crawlRunId": "0fc1737b6d272836a60196ddc03654ff2d1f1ec19b72d7ab2aedb05450782ba1",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Just a moment...",
+          "url": "https://www.blackhatworld.com/forums/black-hat-seo.28/"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

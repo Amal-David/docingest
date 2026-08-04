@@ -58,5 +58,83 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.composio.dev/docs/welcome",
+      "canonicalSeedUrl": "https://docs.composio.dev/docs/welcome",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-12T13:53:51.976Z",
+      "completedAt": "2025-12-12T13:53:51.976Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.composio.dev/docs/welcome",
+          "canonicalUrl": "https://docs.composio.dev/docs/welcome",
+          "status": "valid"
+        }
+      ],
+      "id": "85cd62194e1d40d8dc804a119700e3b6f8a3deecb71f8169e76af36d359ef18c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0d9c8a3cdd777640747eb28e2db2f5c2c0f32f61a6a2841f2ed7d0b0d5c9894f",
+      "filename": "documentation_2025-12-12T13:53:51.976Z.md",
+      "contentHash": "f753dd01dc9cb990cb023a3091cf5dbbcd8d1909daf117ba1886dd90e5489bc9",
+      "sourceUrl": "https://docs.composio.dev/docs/welcome",
+      "canonicalSourceUrl": "https://docs.composio.dev/docs/welcome",
+      "capturedAt": "2025-12-12T13:53:51.976Z",
+      "crawlRunId": "85cd62194e1d40d8dc804a119700e3b6f8a3deecb71f8169e76af36d359ef18c",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "Welcome to Composio | Composio Docs",
+          "url": "https://docs.composio.dev/docs/welcome"
+        },
+        {
+          "type": "Quickstart | Composio Docs",
+          "url": "https://docs.composio.dev/docs/quickstart"
+        },
+        {
+          "type": "IDE and Agent Setup | Composio Docs",
+          "url": "https://docs.composio.dev/docs/dev-setup"
+        },
+        {
+          "type": "December 10, 2025 | Composio Docs",
+          "url": "https://docs.composio.dev/docs/changelog/2025/12/10"
+        },
+        {
+          "type": "Providers | Composio Docs",
+          "url": "https://docs.composio.dev/docs/providers"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0d9c8a3cdd777640747eb28e2db2f5c2c0f32f61a6a2841f2ed7d0b0d5c9894f"
 }

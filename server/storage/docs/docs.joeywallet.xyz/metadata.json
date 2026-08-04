@@ -104,5 +104,147 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.joeywallet.xyz",
+      "canonicalSeedUrl": "https://docs.joeywallet.xyz/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-23T12:41:20.612Z",
+      "completedAt": "2026-02-23T12:41:20.612Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.joeywallet.xyz",
+          "canonicalUrl": "https://docs.joeywallet.xyz/",
+          "status": "valid"
+        }
+      ],
+      "id": "b1b5c12f5e84ed32c20a0a02a3db0d3d0b14e7f133ee90f1af7b4dd8b3417ccc",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "dbc23ce30c70532a0475f9f77c81dbd3051db11c86ff89ad240d43d38d7b8623",
+      "filename": "documentation_2026-02-23T12:41:20.612Z.md",
+      "contentHash": "38b7b8b6342637b40b6618e23b2ad28eaf48e8113d630741343fc33582ee357f",
+      "sourceUrl": "https://docs.joeywallet.xyz",
+      "canonicalSourceUrl": "https://docs.joeywallet.xyz/",
+      "capturedAt": "2026-02-23T12:41:20.612Z",
+      "crawlRunId": "b1b5c12f5e84ed32c20a0a02a3db0d3d0b14e7f133ee90f1af7b4dd8b3417ccc",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "Welcome to Joey Wallet! | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz"
+        },
+        {
+          "type": "Getting Started | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/overview/getting-started"
+        },
+        {
+          "type": "Add to Existing Project | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/overview/add-to-existing-project"
+        },
+        {
+          "type": "Actions | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/actions"
+        },
+        {
+          "type": "XRP Ledger | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/supported-networks/xrp-ledger"
+        },
+        {
+          "type": "Disconnect | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/actions/disconnect"
+        },
+        {
+          "type": "Connect | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/actions/connect"
+        },
+        {
+          "type": "Methods | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/supported-networks/xrp-ledger/methods"
+        },
+        {
+          "type": "Configuration | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/configuration"
+        },
+        {
+          "type": "Generate | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/actions/generate"
+        },
+        {
+          "type": "Supported Networks | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/supported-networks"
+        },
+        {
+          "type": "Events | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/supported-networks/xrp-ledger/events"
+        },
+        {
+          "type": "xrpl_signTransaction | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/supported-networks/xrp-ledger/methods/xrpl_signtransaction"
+        },
+        {
+          "type": "xrpl_signTransactionFor | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/supported-networks/xrp-ledger/methods/xrpl_signtransactionfor"
+        },
+        {
+          "type": "Call-to-Action | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/call-to-action"
+        },
+        {
+          "type": "Signer-Tool | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/other-resources/signer-tool"
+        },
+        {
+          "type": "Install | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/install"
+        },
+        {
+          "type": "Chains | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/supported-networks/xrp-ledger/chains"
+        },
+        {
+          "type": "Reconnect | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/actions/reconnect"
+        },
+        {
+          "type": "xrpl_signTransactionBulk | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/integration/supported-networks/xrp-ledger/methods/xrpl_signtransactionbulk"
+        },
+        {
+          "type": "Quick Start | Joey Wallet",
+          "url": "https://docs.joeywallet.xyz/overview/quick-start"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "dbc23ce30c70532a0475f9f77c81dbd3051db11c86ff89ad240d43d38d7b8623"
 }

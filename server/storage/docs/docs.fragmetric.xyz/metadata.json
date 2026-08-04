@@ -389,5 +389,423 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.fragmetric.xyz/dev/solana-programs",
+      "canonicalSeedUrl": "https://docs.fragmetric.xyz/dev/solana-programs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-06T15:24:04.491Z",
+      "completedAt": "2025-11-06T15:24:04.491Z",
+      "providerTotals": {
+        "discovered": 90,
+        "returned": 90,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.fragmetric.xyz/dev/solana-programs",
+          "canonicalUrl": "https://docs.fragmetric.xyz/dev/solana-programs",
+          "status": "valid"
+        }
+      ],
+      "id": "48d047b75fed3b6856d7b0e22d8e6ab64ecb0a838d1c126b3d40bd68a965b5c3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "221eb085630266c4635c0ff782e4fa9aef019aa5c342b991c583e35fc52af835",
+      "filename": "documentation_2025-11-06T15:24:04.491Z.md",
+      "contentHash": "cff221d302cd1d2e5e8e22133f62048e1ad0741d2c6a08d74bd0e575dce30701",
+      "sourceUrl": "https://docs.fragmetric.xyz/dev/solana-programs",
+      "canonicalSourceUrl": "https://docs.fragmetric.xyz/dev/solana-programs",
+      "capturedAt": "2025-11-06T15:24:04.491Z",
+      "crawlRunId": "48d047b75fed3b6856d7b0e22d8e6ab64ecb0a838d1c126b3d40bd68a965b5c3",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 90,
+      "successfulPages": 90,
+      "structure": [
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/solana-programs"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/assets/frag2"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/assets/contracts"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/assets/fragbtc"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/assets/fragSWTCH"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/assets/fragsol"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/assets/fragjto"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/assets/wfragbtc"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/assets/wfragsol"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/references/ntp/status"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/references/ntp/overview"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/references/defi/reward-distribution"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/release-notes"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/tools/sdk/offchain/configuration"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/tools/sdk/offchain/contribution"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/tools/cli"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/tools/sdk/onchain/quickstart"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/development"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/assets/wfragjto"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/tools/sdk/offchain/quickstart"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/essentials/markdown"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/essentials/reusable-snippets"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/essentials/images"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/essentials/code"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/community/season1/phase1"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/community/season1/overview"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/essentials/settings"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/essentials/navigation"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/_endpoint/create"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/_endpoint/get"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/_endpoint/delete"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/introduction"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/references/defi/deposit-instruction"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/references/defi/defi-metadata"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/references/defi/fpoint-snapshot"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/references/defi/overview"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/dev/references/defi/integration-status"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/community/season1/phase2"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/community/season2/overview"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/get-started/sang"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/get-started/welcome"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/guides/buy-sell"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/guides/restake-unstake"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/guides/using-in-defi"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/guides/wrap-unwrap"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/fragmetric"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/wrap-unwrap"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/fund/overview"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/ntp/overview"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/ntp/normalized-token"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/fund/accounting"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/resources/brand-kit"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/fund/deposit"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/fund/withdraw"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/overview"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/restaking/overview"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/wrap/unwrap"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/resources/faq"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/resources/key-terms"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/wrap/overview"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/wrap/wrap"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/yield-source/adapter"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/resources/FRAG/tokenomics"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/yield-source/overview"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/resources/FRAG/FRAG2"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/restaking/restaking"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/restaking/staking"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/reward/claim"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/reward/reward-pool"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/restaking/ncn/partners"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/operator/fund-admin"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/operator/permissions"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/operator/roles"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/operator/reward-admin"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/reward/overview"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/reward/contribution"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/restaking/ncn/overview"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/operator/yield-operator"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/reward/defi"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/security/overview"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/operator/overview"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/protocol/module/operator/pricing-operator"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/security/audits"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.fragmetric.xyz/api-playground/demo"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/resources/legal/terms-of-use"
+        },
+        {
+          "type": "Fragmetric Docs",
+          "url": "https://docs.fragmetric.xyz/home/resources/legal/privacy-policy"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.fragmetric.xyz/writing-content/embed"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.fragmetric.xyz/wfragsol/"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.fragmetric.xyz/fragmetric-protocol/"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.fragmetric.xyz/legal/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "221eb085630266c4635c0ff782e4fa9aef019aa5c342b991c583e35fc52af835"
 }

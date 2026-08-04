@@ -121,5 +121,155 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.k9defense.tech/genesis",
+      "canonicalSeedUrl": "https://docs.k9defense.tech/genesis",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-16T05:00:47.611Z",
+      "completedAt": "2025-03-16T05:00:47.611Z",
+      "providerTotals": {
+        "discovered": 23,
+        "returned": 23,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.k9defense.tech/genesis",
+          "canonicalUrl": "https://docs.k9defense.tech/genesis",
+          "status": "valid"
+        }
+      ],
+      "id": "cb55cb6f42739935ded5d042fcb12cbba08a5f72f8224fb069d590b60d00ca99",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "473439ef3480f57321194bb9ef7b78135bd9e0bd9e18fd40bc5c53480f4bd583",
+      "filename": "documentation_2025-03-16T05:00:47.611Z.md",
+      "contentHash": "e1075c3b9d5c99dff4686406a8f0867d22397c93d62df3260dcaf44ffff7ae1f",
+      "sourceUrl": "https://docs.k9defense.tech/genesis",
+      "canonicalSourceUrl": "https://docs.k9defense.tech/genesis",
+      "capturedAt": "2025-03-16T05:00:47.611Z",
+      "crawlRunId": "cb55cb6f42739935ded5d042fcb12cbba08a5f72f8224fb069d590b60d00ca99",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 23,
+      "successfulPages": 23,
+      "structure": [
+        {
+          "type": "Overview | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis"
+        },
+        {
+          "type": "Canine Defense Technologies Wiki (Public) | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/?fallback=true"
+        },
+        {
+          "type": "Drone Specifications | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/drone-specifications"
+        },
+        {
+          "type": "Genesis UAV Variants | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/getting-started/genesis-uav-variants"
+        },
+        {
+          "type": "Canine Defense Technologies Wiki (Public) | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/"
+        },
+        {
+          "type": "Part Chooser | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/genesis/part-chooser"
+        },
+        {
+          "type": "Overview | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/?fallback=true"
+        },
+        {
+          "type": "Genesis Hardware Kit (Archived) | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/genesis/part-chooser/genesis-hardware-kit-archived"
+        },
+        {
+          "type": "Genesis Full Frame Kit (Archived) | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/genesis/part-chooser/genesis-full-frame-kit-archived"
+        },
+        {
+          "type": "Materials & Print Settings | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/genesis/part-chooser/3d-printed-parts/materials-and-print-settings"
+        },
+        {
+          "type": "About Us | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/about-us"
+        },
+        {
+          "type": "Product Manuals & Guide Index | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/product-manuals-and-guide-index"
+        },
+        {
+          "type": "Propellers | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/genesis/part-chooser/hardware/propellers"
+        },
+        {
+          "type": "Sheet Parts | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/genesis/part-chooser/hardware/sheet-parts"
+        },
+        {
+          "type": "3D Printed Parts | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/genesis/part-chooser/3d-printed-parts"
+        },
+        {
+          "type": "Arm Tubes | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/genesis/part-chooser/hardware/arm-tubes"
+        },
+        {
+          "type": "Hardware | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/genesis/part-chooser/hardware"
+        },
+        {
+          "type": "Genesis Digital FPV Main Body | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/genesis/part-chooser/3d-printed-parts/genesis-digital-fpv-main-body"
+        },
+        {
+          "type": "Fasteners | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/genesis/part-chooser/hardware/fasteners"
+        },
+        {
+          "type": "Electronics | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/genesis/part-chooser/electronics"
+        },
+        {
+          "type": "Flight Controller | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/genesis/part-chooser/electronics/flight-controller"
+        },
+        {
+          "type": "Drone Specifications | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/drone-specifications?fallback=true"
+        },
+        {
+          "type": "Motor | K9 Defense Tech",
+          "url": "https://docs.k9defense.tech/genesis/genesis/part-chooser/electronics/motor"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "473439ef3480f57321194bb9ef7b78135bd9e0bd9e18fd40bc5c53480f4bd583"
 }

@@ -65,5 +65,99 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://api.tidesandcurrents.noaa.gov/api/prod/",
+      "canonicalSeedUrl": "https://api.tidesandcurrents.noaa.gov/api/prod",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-10T02:48:43.554Z",
+      "completedAt": "2025-04-10T02:48:43.554Z",
+      "providerTotals": {
+        "discovered": 9,
+        "returned": 9,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://api.tidesandcurrents.noaa.gov/api/prod/",
+          "canonicalUrl": "https://api.tidesandcurrents.noaa.gov/api/prod",
+          "status": "valid"
+        }
+      ],
+      "id": "f1aa24b9344484cd852b4613e1e2a26b608caa6a9311aee1bbb87e0cfebbe4af",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0f2e570349153f14c8f1dc12fae18b0bc480111eaa5988dde2cd9c52a80cdece",
+      "filename": "documentation_2025-04-10T02:48:43.554Z.md",
+      "contentHash": "464ff16ec16c97d0561712404df1d36ce31c5dba2844dca5819f1b70c63311fe",
+      "sourceUrl": "https://api.tidesandcurrents.noaa.gov/api/prod/",
+      "canonicalSourceUrl": "https://api.tidesandcurrents.noaa.gov/api/prod",
+      "capturedAt": "2025-04-10T02:48:43.554Z",
+      "crawlRunId": "f1aa24b9344484cd852b4613e1e2a26b608caa6a9311aee1bbb87e0cfebbe4af",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 9,
+      "successfulPages": 9,
+      "structure": [
+        {
+          "type": "CO-OPS Data Retrieval API",
+          "url": "https://api.tidesandcurrents.noaa.gov/api/prod/"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=today&station=8453662&product=visibility&time_zone=lst_ldt&units=metric&format=csv"
+        },
+        {
+          "type": "The Data API Response Help",
+          "url": "https://api.tidesandcurrents.noaa.gov/api/prod/responseHelp.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20210601&end_date=20210630&station=8724580&product=wind&time_zone=lst_ldt&interval=h&units=english&application=DataAPI_Sample&format=csv"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=today&station=EPT0003&product=currents_predictions&time_zone=gmt&interval=10&units=english&application=DataAPI_Sample&format=xml&bin=14"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20221101&end_date=20221130&station=PCT1291&product=currents_predictions&time_zone=lst&interval=MAX_SLACK&units=english&application=DataAPI_Sample&format=xml&bin=1"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=today&station=EPT0003&product=currents_predictions&time_zone=gmt&interval=10&units=english&vel_type=speed_dir&application=DataAPI_Sample&format=xml&bin=14"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20160401&end_date=20160430&station=CFR1624&product=currents&time_zone=gmt&units=english&application=DataAPI_Sample&format=csv&bin=9"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20200101&end_date=20201231&station=8518750&product=hourly_height&datum=MLLW&time_zone=lst&units=metric&application=DataAPI_Sample&format=json"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0f2e570349153f14c8f1dc12fae18b0bc480111eaa5988dde2cd9c52a80cdece"
 }

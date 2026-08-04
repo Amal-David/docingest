@@ -75,5 +75,91 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.privy.io/recipes/yield/kamino-guide",
+      "canonicalSeedUrl": "https://docs.privy.io/recipes/yield/kamino-guide",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-20T16:46:14.469Z",
+      "completedAt": "2026-03-20T16:46:14.469Z",
+      "providerTotals": {
+        "discovered": 7,
+        "returned": 7,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.privy.io/recipes/yield/kamino-guide",
+          "canonicalUrl": "https://docs.privy.io/recipes/yield/kamino-guide",
+          "status": "valid"
+        }
+      ],
+      "id": "46e0724579316b17250b0be9da585bf7c24d1d93d6f45ed35d1f931a05357cc7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "163c23c13ac119aced7b5a8d696676c6b0f34c9cc1a8388cb68f0254af12ac53",
+      "filename": "documentation_2026-03-20T16:46:14.469Z.md",
+      "contentHash": "5ce59eaa7365320de31e6493ecfb465ac973365be6f4036c26f2d66f9d7f46ef",
+      "sourceUrl": "https://docs.privy.io/recipes/yield/kamino-guide",
+      "canonicalSourceUrl": "https://docs.privy.io/recipes/yield/kamino-guide",
+      "capturedAt": "2026-03-20T16:46:14.469Z",
+      "crawlRunId": "46e0724579316b17250b0be9da585bf7c24d1d93d6f45ed35d1f931a05357cc7",
+      "upstreamVersion": "1.1.2",
+      "upstreamChannel": "latest",
+      "totalPages": 7,
+      "successfulPages": 7,
+      "structure": [
+        {
+          "type": "Integrating Kamino with Privy - Privy Docs",
+          "url": "https://docs.privy.io/recipes/yield/kamino-guide"
+        },
+        {
+          "type": "Integrating Deframe with Privy - Privy Docs",
+          "url": "https://docs.privy.io/recipes/yield/deframe-guide"
+        },
+        {
+          "type": "Overview - Privy Docs",
+          "url": "https://docs.privy.io/recipes/yield/overview"
+        },
+        {
+          "type": "Integrating Sky Savings with Privy - Privy Docs",
+          "url": "https://docs.privy.io/recipes/yield/sky-savings-guide"
+        },
+        {
+          "type": "Integrating Ethena with Privy - Privy Docs",
+          "url": "https://docs.privy.io/recipes/yield/ethena-guide"
+        },
+        {
+          "type": "Integrating Aave with Privy - Privy Docs",
+          "url": "https://docs.privy.io/recipes/yield/aave-guide"
+        },
+        {
+          "type": "Overview - Privy Docs",
+          "url": "https://docs.privy.io/recipes/yield/morpho-guide"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "163c23c13ac119aced7b5a8d696676c6b0f34c9cc1a8388cb68f0254af12ac53"
 }

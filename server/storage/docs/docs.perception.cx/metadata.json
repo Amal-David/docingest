@@ -312,5 +312,175 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.perception.cx/perception/enma",
+      "canonicalSeedUrl": "https://docs.perception.cx/perception/enma",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-13T00:47:21.092Z",
+      "completedAt": "2026-06-13T00:47:21.092Z",
+      "providerTotals": {
+        "discovered": 28,
+        "returned": 28,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.perception.cx/perception/enma",
+          "canonicalUrl": "https://docs.perception.cx/perception/enma",
+          "status": "valid"
+        }
+      ],
+      "id": "29a3742f9337d4feffed903f28f1fb69523b7f62ff876397ab458e0d2a0501ee",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "661ac8e4340c2c2ff167a76c7e6a95ac821710cebba84b8f75f04420a800cbb2",
+      "filename": "documentation_2026-06-13T00:47:21.092Z.md",
+      "contentHash": "8b8d9f2e4af04af78058f2d99e9e179690a054d03670fcdf63e940370314e215",
+      "sourceUrl": "https://docs.perception.cx/perception/enma",
+      "canonicalSourceUrl": "https://docs.perception.cx/perception/enma",
+      "capturedAt": "2026-06-13T00:47:21.092Z",
+      "crawlRunId": "29a3742f9337d4feffed903f28f1fb69523b7f62ff876397ab458e0d2a0501ee",
+      "upstreamVersion": "1.7.13",
+      "upstreamChannel": "latest",
+      "totalPages": 28,
+      "successfulPages": 28,
+      "structure": [
+        {
+          "type": "Enma - Overview | Perception - Enma | Perception AngelScript & Lua API",
+          "url": "https://docs.perception.cx/perception/enma"
+        },
+        {
+          "type": "Render API | Perception - Enma | Perception AngelScript & Lua API",
+          "url": "https://docs.perception.cx/perception/enma/render-api"
+        },
+        {
+          "type": "Lifecycle and Routines | Perception - Enma | Perception AngelScript & Lua API",
+          "url": "https://docs.perception.cx/perception/enma/lifecycle-and-routines"
+        },
+        {
+          "type": "Proc API | Perception - Enma | Perception AngelScript & Lua API",
+          "url": "https://docs.perception.cx/perception/enma/proc-api"
+        },
+        {
+          "type": "Net API | Perception - Enma | Perception AngelScript & Lua API",
+          "url": "https://docs.perception.cx/perception/enma/net-api"
+        },
+        {
+          "type": "Input API | Perception - Enma | Perception AngelScript & Lua API",
+          "url": "https://docs.perception.cx/perception/enma/input-api"
+        },
+        {
+          "type": "Filesystem API | Perception - Enma | Perception AngelScript & Lua API",
+          "url": "https://docs.perception.cx/perception/enma/filesystem-api"
+        },
+        {
+          "type": "GUI API | Perception - Enma | Perception AngelScript & Lua API",
+          "url": "https://docs.perception.cx/perception/enma/gui-api"
+        },
+        {
+          "type": "CPU API | Perception - Enma | Perception AngelScript & Lua API",
+          "url": "https://docs.perception.cx/perception/enma/cpu-api"
+        },
+        {
+          "type": "Sound API | Perception - Enma | Perception AngelScript & Lua API",
+          "url": "https://docs.perception.cx/perception/enma/sound-api"
+        },
+        {
+          "type": "Win API | Perception - Enma | Perception AngelScript & Lua API",
+          "url": "https://docs.perception.cx/perception/enma/win-api"
+        },
+        {
+          "type": "Unicorn API | Perception - Enma | Perception AngelScript & Lua API",
+          "url": "https://docs.perception.cx/perception/enma/unicorn-api"
+        },
+        {
+          "type": "Zydis API | Perception - Enma | Perception AngelScript & Lua API",
+          "url": "https://docs.perception.cx/perception/enma/zydis-api"
+        },
+        {
+          "type": "MCP API | Perception - Enma | Perception AngelScript & Lua API",
+          "url": "https://docs.perception.cx/perception/enma/mcp-api"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.perception.cx/perception/enma/readme.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.perception.cx/perception/enma/zydis-api.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.perception.cx/perception/enma/unicorn-api.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.perception.cx/perception/enma/proc-api.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.perception.cx/perception/enma/sound-api.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.perception.cx/perception/enma/render-api.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.perception.cx/perception/enma/gui-api.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.perception.cx/perception/enma/win-api.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.perception.cx/perception/enma/mcp-api.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.perception.cx/perception/enma/lifecycle-and-routines.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.perception.cx/perception/enma/cpu-api.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.perception.cx/perception/enma/filesystem-api.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.perception.cx/perception/enma/net-api.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.perception.cx/perception/enma/input-api.md"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "661ac8e4340c2c2ff167a76c7e6a95ac821710cebba84b8f75f04420a800cbb2"
 }

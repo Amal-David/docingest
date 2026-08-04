@@ -76,5 +76,119 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://citresewn.shcm.io/",
+      "canonicalSeedUrl": "https://citresewn.shcm.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-01T12:36:48.290Z",
+      "completedAt": "2026-07-01T12:36:48.290Z",
+      "providerTotals": {
+        "discovered": 14,
+        "returned": 14,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://citresewn.shcm.io/",
+          "canonicalUrl": "https://citresewn.shcm.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "42d8d6c8b6fb1c783eecf875500ef513294874a88663ae528713c3c8bce6f744",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2f0b318ead8716457d62a9e88cb974fb91fd739d26ee3f228bf878878a778987",
+      "filename": "documentation_2026-07-01T12:36:48.290Z.md",
+      "contentHash": "ff52ed32c7d9d3ef066727950d48ef25b0ce0132b5f5689e94e947cd0ee5ce96",
+      "sourceUrl": "https://citresewn.shcm.io/",
+      "canonicalSourceUrl": "https://citresewn.shcm.io/",
+      "capturedAt": "2026-07-01T12:36:48.290Z",
+      "crawlRunId": "42d8d6c8b6fb1c783eecf875500ef513294874a88663ae528713c3c8bce6f744",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 14,
+      "successfulPages": 14,
+      "structure": [
+        {
+          "type": "Home - CIT Resewn Docs",
+          "url": "https://citresewn.shcm.io/"
+        },
+        {
+          "type": "CIT Armor - CIT Resewn Docs",
+          "url": "https://citresewn.shcm.io/cit/cit_armor/"
+        },
+        {
+          "type": "CIT Elytra - CIT Resewn Docs",
+          "url": "https://citresewn.shcm.io/cit/cit_elytra/"
+        },
+        {
+          "type": "CIT Enchantment - CIT Resewn Docs",
+          "url": "https://citresewn.shcm.io/cit/cit_enchantment/"
+        },
+        {
+          "type": "CIT Base - CIT Resewn Docs",
+          "url": "https://citresewn.shcm.io/cit/cit_base/"
+        },
+        {
+          "type": "CIT Item - CIT Resewn Docs",
+          "url": "https://citresewn.shcm.io/cit/cit_item/"
+        },
+        {
+          "type": "Global Properties - CIT Resewn Docs",
+          "url": "https://citresewn.shcm.io/cit/global/"
+        },
+        {
+          "type": "Mod Assets - CIT Resewn Docs",
+          "url": "https://citresewn.shcm.io/mods/mod_assets/"
+        },
+        {
+          "type": "API - CIT Resewn Docs",
+          "url": "https://citresewn.shcm.io/mods/mod_api/"
+        },
+        {
+          "type": "Supported Mods - CIT Resewn Docs",
+          "url": "https://citresewn.shcm.io/mods/supported/"
+        },
+        {
+          "type": "Configuration - CIT Resewn Docs",
+          "url": "https://citresewn.shcm.io/usage/config/"
+        },
+        {
+          "type": "Need Help / Found a Bug / Questions - CIT Resewn Docs",
+          "url": "https://citresewn.shcm.io/usage/help/"
+        },
+        {
+          "type": "Resource Pack Authors - CIT Resewn Docs",
+          "url": "https://citresewn.shcm.io/usage/pack_authors/"
+        },
+        {
+          "type": "Usage - CIT Resewn Docs",
+          "url": "https://citresewn.shcm.io/usage/users/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2f0b318ead8716457d62a9e88cb974fb91fd739d26ee3f228bf878878a778987"
 }

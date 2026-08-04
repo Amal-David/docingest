@@ -152,5 +152,195 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://orm.drizzle.team/docs/overview",
+      "canonicalSeedUrl": "https://orm.drizzle.team/docs/overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-06T10:37:00.053Z",
+      "completedAt": "2025-04-06T10:37:00.053Z",
+      "providerTotals": {
+        "discovered": 33,
+        "returned": 33,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://orm.drizzle.team/docs/overview",
+          "canonicalUrl": "https://orm.drizzle.team/docs/overview",
+          "status": "valid"
+        }
+      ],
+      "id": "ab026f0ff43def8d7a74b9c9ba8f4cc17d8500f1ef13d77abea290a297a3cd42",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a684ee3feb4a9038378266198ded79a80f116b4f977136fbbc3b0fcd2b9ec1d2",
+      "filename": "documentation_2025-04-06T10:37:00.053Z.md",
+      "contentHash": "bd15947246d432e0b827a515447d24b9466256cf6f00ccb0e072c84b9bcbdf69",
+      "sourceUrl": "https://orm.drizzle.team/docs/overview",
+      "canonicalSourceUrl": "https://orm.drizzle.team/docs/overview",
+      "capturedAt": "2025-04-06T10:37:00.053Z",
+      "crawlRunId": "ab026f0ff43def8d7a74b9c9ba8f4cc17d8500f1ef13d77abea290a297a3cd42",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 33,
+      "successfulPages": 33,
+      "structure": [
+        {
+          "type": "Drizzle ORM - Why Drizzle?",
+          "url": "https://orm.drizzle.team/docs/overview"
+        },
+        {
+          "type": "Drizzle ORM - Guides",
+          "url": "https://orm.drizzle.team/docs/guides"
+        },
+        {
+          "type": "Drizzle ORM - Tutorials",
+          "url": "https://orm.drizzle.team/docs/tutorials"
+        },
+        {
+          "type": "Drizzle ORM - Query data",
+          "url": "https://orm.drizzle.team/docs/data-querying"
+        },
+        {
+          "type": "Drizzle ORM - Latest releases",
+          "url": "https://orm.drizzle.team/docs/latest-releases"
+        },
+        {
+          "type": "Drizzle ORM - Get started",
+          "url": "https://orm.drizzle.team/docs/get-started"
+        },
+        {
+          "type": "Drizzle ORM - Gotchas",
+          "url": "https://orm.drizzle.team/docs/gotchas"
+        },
+        {
+          "type": "Drizzle ORM - Schema",
+          "url": "https://orm.drizzle.team/docs/sql-schema-declaration"
+        },
+        {
+          "type": "Drizzle ORM - Database connection",
+          "url": "https://orm.drizzle.team/docs/connect-overview"
+        },
+        {
+          "type": "Drizzle ORM - Migrations",
+          "url": "https://orm.drizzle.team/docs/migrations"
+        },
+        {
+          "type": "Drizzle ORM - Gel",
+          "url": "https://orm.drizzle.team/docs/get-started-gel"
+        },
+        {
+          "type": "Drizzle ORM - PostgreSQL",
+          "url": "https://orm.drizzle.team/docs/get-started-postgresql"
+        },
+        {
+          "type": "Drizzle ORM - MySQL",
+          "url": "https://orm.drizzle.team/docs/get-started-mysql"
+        },
+        {
+          "type": "Drizzle ORM - SingleStore",
+          "url": "https://orm.drizzle.team/docs/get-started-singlestore"
+        },
+        {
+          "type": "Drizzle ORM - Neon",
+          "url": "https://orm.drizzle.team/docs/connect-neon"
+        },
+        {
+          "type": "Drizzle ORM - SQLite",
+          "url": "https://orm.drizzle.team/docs/get-started-sqlite"
+        },
+        {
+          "type": "Drizzle ORM - Vercel Postgres",
+          "url": "https://orm.drizzle.team/docs/connect-vercel-postgres"
+        },
+        {
+          "type": "Drizzle ORM - Supabase",
+          "url": "https://orm.drizzle.team/docs/connect-supabase"
+        },
+        {
+          "type": "Drizzle ORM - Xata",
+          "url": "https://orm.drizzle.team/docs/connect-xata"
+        },
+        {
+          "type": "Drizzle ORM - PGLite",
+          "url": "https://orm.drizzle.team/docs/connect-pglite"
+        },
+        {
+          "type": "Drizzle ORM - Nile",
+          "url": "https://orm.drizzle.team/docs/connect-nile"
+        },
+        {
+          "type": "Drizzle ORM - Bun SQL",
+          "url": "https://orm.drizzle.team/docs/connect-bun-sql"
+        },
+        {
+          "type": "Drizzle ORM - PlanetScale",
+          "url": "https://orm.drizzle.team/docs/connect-planetscale"
+        },
+        {
+          "type": "Drizzle ORM - TiDB",
+          "url": "https://orm.drizzle.team/docs/connect-tidb"
+        },
+        {
+          "type": "Drizzle ORM - Turso",
+          "url": "https://orm.drizzle.team/docs/connect-turso"
+        },
+        {
+          "type": "Drizzle ORM - Cloudflare Durable Objects",
+          "url": "https://orm.drizzle.team/docs/connect-cloudflare-do"
+        },
+        {
+          "type": "Drizzle ORM - Cloudflare D1",
+          "url": "https://orm.drizzle.team/docs/connect-cloudflare-d1"
+        },
+        {
+          "type": "Drizzle ORM - AWS Data API Postgres",
+          "url": "https://orm.drizzle.team/docs/connect-aws-data-api-pg"
+        },
+        {
+          "type": "Drizzle ORM - Bun SQLite",
+          "url": "https://orm.drizzle.team/docs/connect-bun-sqlite"
+        },
+        {
+          "type": "Drizzle ORM - React Native SQLite",
+          "url": "https://orm.drizzle.team/docs/connect-react-native-sqlite"
+        },
+        {
+          "type": "Drizzle ORM - AWS Data API MySQL",
+          "url": "https://orm.drizzle.team/docs/connect-aws-data-api-mysql"
+        },
+        {
+          "type": "Drizzle ORM - OP SQLite",
+          "url": "https://orm.drizzle.team/docs/connect-op-sqlite"
+        },
+        {
+          "type": "Drizzle ORM - Expo SQLite",
+          "url": "https://orm.drizzle.team/docs/connect-expo-sqlite"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a684ee3feb4a9038378266198ded79a80f116b4f977136fbbc3b0fcd2b9ec1d2"
 }

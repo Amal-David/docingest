@@ -144,5 +144,187 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.kayba.ai/docs/*",
+      "canonicalSeedUrl": "https://www.kayba.ai/docs/*",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-03T07:13:31.013Z",
+      "completedAt": "2026-03-03T07:13:31.013Z",
+      "providerTotals": {
+        "discovered": 31,
+        "returned": 31,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.kayba.ai/docs/*",
+          "canonicalUrl": "https://www.kayba.ai/docs/*",
+          "status": "valid"
+        }
+      ],
+      "id": "00a242def2c55b87dad0259699a97d5a3488223e6767971ec32476cba275b803",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8233f822658dc5b34a94b445358ee7e09f21db6e4bf6650272b5f4369bbd8273",
+      "filename": "documentation_2026-03-03T07:13:31.013Z.md",
+      "contentHash": "204b7178e05bebfc60684c2057f1ed0bb5394edc8408fe2dcaea8318e30e483a",
+      "sourceUrl": "https://www.kayba.ai/docs/*",
+      "canonicalSourceUrl": "https://www.kayba.ai/docs/*",
+      "capturedAt": "2026-03-03T07:13:31.013Z",
+      "crawlRunId": "00a242def2c55b87dad0259699a97d5a3488223e6767971ec32476cba275b803",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 31,
+      "successfulPages": 31,
+      "structure": [
+        {
+          "type": "Documentation | Docs | Kayba",
+          "url": "https://www.kayba.ai/docs/*"
+        },
+        {
+          "type": "How ACE Works | Docs | Kayba",
+          "url": "https://kayba.ai/docs/concepts/overview"
+        },
+        {
+          "type": "Claude Code | Docs | Kayba",
+          "url": "https://kayba.ai/docs/integrations/claude-code"
+        },
+        {
+          "type": "Insight Levels | Docs | Kayba",
+          "url": "https://kayba.ai/docs/concepts/insight-levels"
+        },
+        {
+          "type": "Integration Pattern | Docs | Kayba",
+          "url": "https://kayba.ai/docs/guides/integration"
+        },
+        {
+          "type": "Async Learning | Docs | Kayba",
+          "url": "https://kayba.ai/docs/guides/async-learning"
+        },
+        {
+          "type": "Quick Start | Docs | Kayba",
+          "url": "https://kayba.ai/docs/getting-started/quick-start"
+        },
+        {
+          "type": "Prompt Engineering | Docs | Kayba",
+          "url": "https://kayba.ai/docs/guides/prompts"
+        },
+        {
+          "type": "Update Operations | Docs | Kayba",
+          "url": "https://kayba.ai/docs/concepts/updates"
+        },
+        {
+          "type": "LangChain | Docs | Kayba",
+          "url": "https://kayba.ai/docs/integrations/langchain"
+        },
+        {
+          "type": "Installation | Docs | Kayba",
+          "url": "https://kayba.ai/docs/getting-started/installation"
+        },
+        {
+          "type": "Branching & Parallelism | Docs | Kayba",
+          "url": "https://kayba.ai/docs/pipeline/branching"
+        },
+        {
+          "type": "Three Roles | Docs | Kayba",
+          "url": "https://kayba.ai/docs/concepts/roles"
+        },
+        {
+          "type": "Browser-Use | Docs | Kayba",
+          "url": "https://kayba.ai/docs/integrations/browser-use"
+        },
+        {
+          "type": "Opik Observability | Docs | Kayba",
+          "url": "https://kayba.ai/docs/integrations/opik"
+        },
+        {
+          "type": "API Reference | Docs | Kayba",
+          "url": "https://kayba.ai/docs/api/index"
+        },
+        {
+          "type": "Error Handling | Docs | Kayba",
+          "url": "https://kayba.ai/docs/pipeline/error-handling"
+        },
+        {
+          "type": "Full Pipeline | Docs | Kayba",
+          "url": "https://kayba.ai/docs/guides/full-pipeline"
+        },
+        {
+          "type": "Core Concepts | Docs | Kayba",
+          "url": "https://kayba.ai/docs/pipeline/core-concepts"
+        },
+        {
+          "type": "Building Custom Steps | Docs | Kayba",
+          "url": "https://kayba.ai/docs/pipeline/custom-steps"
+        },
+        {
+          "type": "The Skillbook | Docs | Kayba",
+          "url": "https://kayba.ai/docs/concepts/skillbook"
+        },
+        {
+          "type": "LiteLLM | Docs | Kayba",
+          "url": "https://kayba.ai/docs/integrations/litellm"
+        },
+        {
+          "type": "Testing | Docs | Kayba",
+          "url": "https://kayba.ai/docs/guides/testing"
+        },
+        {
+          "type": "Overview | Docs | Kayba",
+          "url": "https://kayba.ai/docs/pipeline/index"
+        },
+        {
+          "type": "Quick Start | Docs | Kayba",
+          "url": "https://kayba.ai/docs/pipeline/quick-start"
+        },
+        {
+          "type": "Execution Model | Docs | Kayba",
+          "url": "https://kayba.ai/docs/pipeline/execution"
+        },
+        {
+          "type": "Documentation | Kayba",
+          "url": "https://kayba.ai/docs"
+        },
+        {
+          "type": "API Reference | Docs | Kayba",
+          "url": "https://kayba.ai/docs/pipeline/api-reference"
+        },
+        {
+          "type": "Overview | Docs | Kayba",
+          "url": "https://kayba.ai/docs/integrations/index"
+        },
+        {
+          "type": "Documentation | Docs | Kayba",
+          "url": "https://kayba.ai/docs/integrations/openclaw"
+        },
+        {
+          "type": "Documentation | Docs | Kayba",
+          "url": "https://kayba.ai/docs/integrations/mcp"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8233f822658dc5b34a94b445358ee7e09f21db6e4bf6650272b5f4369bbd8273"
 }

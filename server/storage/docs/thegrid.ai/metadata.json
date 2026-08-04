@@ -80,5 +80,123 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://thegrid.ai/docs",
+      "canonicalSeedUrl": "https://thegrid.ai/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-21T17:09:24.397Z",
+      "completedAt": "2026-01-21T17:09:24.397Z",
+      "providerTotals": {
+        "discovered": 15,
+        "returned": 15,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://thegrid.ai/docs",
+          "canonicalUrl": "https://thegrid.ai/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "4027ac059f5ff8eaa376eab48607b93e56b83eaaf0e9fe96ff20e088cc4d3a95",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "19b46c4a33e2f2e620f53151214321d57ae105d091cd504a54b974f96c8aad3c",
+      "filename": "documentation_2026-01-21T17:09:24.397Z.md",
+      "contentHash": "4ded3bec1382e0dde84d0fa26fa8bdec91d52745cccae556c688b5c127695aaf",
+      "sourceUrl": "https://thegrid.ai/docs",
+      "canonicalSourceUrl": "https://thegrid.ai/docs",
+      "capturedAt": "2026-01-21T17:09:24.397Z",
+      "crawlRunId": "4027ac059f5ff8eaa376eab48607b93e56b83eaaf0e9fe96ff20e088cc4d3a95",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 15,
+      "successfulPages": 15,
+      "structure": [
+        {
+          "type": "Overview | The Grid",
+          "url": "https://thegrid.ai/docs"
+        },
+        {
+          "type": "Onboarding Guides | The Grid",
+          "url": "https://thegrid.ai/docs/onboarding-guides"
+        },
+        {
+          "type": "Getting Started | The Grid",
+          "url": "https://thegrid.ai/docs/getting-started"
+        },
+        {
+          "type": "Supplying to The Grid | The Grid",
+          "url": "https://thegrid.ai/docs/getting-started/supplying-to-the-grid"
+        },
+        {
+          "type": "Buying Units Programmatically | The Grid",
+          "url": "https://thegrid.ai/docs/getting-started/buying-units-programmatically"
+        },
+        {
+          "type": "Trading and Consumption Accounts | The Grid",
+          "url": "https://thegrid.ai/docs/core-concepts/trading-and-consumption-accounts"
+        },
+        {
+          "type": "Working with Trading and Consumption Balances | The Grid",
+          "url": "https://thegrid.ai/docs/onboarding-guides/working-with-trading-and-consumption-balances"
+        },
+        {
+          "type": "Tokens and Metering | The Grid",
+          "url": "https://thegrid.ai/docs/core-concepts/tokens-and-metering"
+        },
+        {
+          "type": "Instruments | The Grid",
+          "url": "https://thegrid.ai/docs/core-concepts/instruments"
+        },
+        {
+          "type": "Evolution of Specifications | The Grid",
+          "url": "https://thegrid.ai/docs/instruments-and-specifications/evolution-of-specifications"
+        },
+        {
+          "type": "Lifecycle of a Unit | The Grid",
+          "url": "https://thegrid.ai/docs/market-mechanics/lifecycle-of-a-unit"
+        },
+        {
+          "type": "Design Advantages | The Grid",
+          "url": "https://thegrid.ai/docs/market-mechanics/design-advantages"
+        },
+        {
+          "type": "Central Limit Order Book (CLOB) and Scheduled Sweeps | The Grid",
+          "url": "https://thegrid.ai/docs/market-mechanics/central-limit-order-book-clob-and-scheduled-sweeps"
+        },
+        {
+          "type": "Lots and Consumption Window | The Grid",
+          "url": "https://thegrid.ai/docs/core-concepts/lots-and-consumption-window"
+        },
+        {
+          "type": "Units | The Grid",
+          "url": "https://thegrid.ai/docs/core-concepts/units"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "19b46c4a33e2f2e620f53151214321d57ae105d091cd504a54b974f96c8aad3c"
 }

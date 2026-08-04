@@ -128,5 +128,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://spatie.be/docs/laravel-prometheus/v1/introduction",
+      "canonicalSeedUrl": "https://spatie.be/docs/laravel-prometheus/v1/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-02T09:40:58.914Z",
+      "completedAt": "2025-12-02T09:40:58.914Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/introduction",
+          "canonicalUrl": "https://spatie.be/docs/laravel-prometheus/v1/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "c9b097cbf13cfd75ffef1d38d1d7f4855b4206b973040a6c855ae03cfdd43959",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1c81535b139ff1255421b291e1cba62bf907265f022ad524b842b49004eaedb7",
+      "filename": "documentation_2025-12-02T09:40:58.914Z.md",
+      "contentHash": "4cdbd7b80c5574faf4ddb9931d018ccf7473aaa2bb011faff567e15ccdca9cc9",
+      "sourceUrl": "https://spatie.be/docs/laravel-prometheus/v1/introduction",
+      "canonicalSourceUrl": "https://spatie.be/docs/laravel-prometheus/v1/introduction",
+      "capturedAt": "2025-12-02T09:40:58.914Z",
+      "crawlRunId": "c9b097cbf13cfd75ffef1d38d1d7f4855b4206b973040a6c855ae03cfdd43959",
+      "upstreamVersion": "1.4.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "Introduction | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/introduction"
+        },
+        {
+          "type": "Support us | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/support-us"
+        },
+        {
+          "type": "Requirements | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/requirements"
+        },
+        {
+          "type": "Installation & setup | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/installation-setup"
+        },
+        {
+          "type": "Questions and issues | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/questions-issues"
+        },
+        {
+          "type": "Changelog | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/changelog"
+        },
+        {
+          "type": "About us | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/about-us"
+        },
+        {
+          "type": "Creating gauges | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/basic-usage/creating-gauges"
+        },
+        {
+          "type": "Using Horizon exporters | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/basic-usage/using-horizon-exporters"
+        },
+        {
+          "type": "Using cached values | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/basic-usage/using-cached-values"
+        },
+        {
+          "type": "Using Queue exporters | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/basic-usage/using-queue-exporters"
+        },
+        {
+          "type": "Introduction | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/setting-up-prometheus-and-grafana/introduction"
+        },
+        {
+          "type": "Using grafana.com | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/setting-up-prometheus-and-grafana/using-grafana-com"
+        },
+        {
+          "type": "Self-hosted | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/setting-up-prometheus-and-grafana/self-hosted"
+        },
+        {
+          "type": "Using fly.io | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/setting-up-prometheus-and-grafana/using-fly-metrics"
+        },
+        {
+          "type": "Creating multiple endpoints | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/advance-usage/using-multiple-endpoints"
+        },
+        {
+          "type": "Creating collectors | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/advance-usage/creating-collectors"
+        },
+        {
+          "type": "Using counter type metric | laravel-prometheus | Spatie",
+          "url": "https://spatie.be/docs/laravel-prometheus/v1/advance-usage/using-counter-metric"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1c81535b139ff1255421b291e1cba62bf907265f022ad524b842b49004eaedb7"
 }

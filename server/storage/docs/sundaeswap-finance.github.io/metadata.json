@@ -40,5 +40,83 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://sundaeswap-finance.github.io/sundae-sdk/",
+      "canonicalSeedUrl": "https://sundaeswap-finance.github.io/sundae-sdk",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-21T00:34:14.400Z",
+      "completedAt": "2025-12-21T00:34:14.400Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://sundaeswap-finance.github.io/sundae-sdk/",
+          "canonicalUrl": "https://sundaeswap-finance.github.io/sundae-sdk",
+          "status": "valid"
+        }
+      ],
+      "id": "27629805f6cac5bc37000b96634b8dc0d0703ffa8a53b4811261a341f466710b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "89d751ddb68eefb7c0c8ee3955341df0ec0130247938ec32b494a4f236dab2aa",
+      "filename": "documentation_2025-12-21T00:34:14.400Z.md",
+      "contentHash": "636002ee63830105d91c0791a4ad7bf6b566f9531a9804441be2eee0635d507e",
+      "sourceUrl": "https://sundaeswap-finance.github.io/sundae-sdk/",
+      "canonicalSourceUrl": "https://sundaeswap-finance.github.io/sundae-sdk",
+      "capturedAt": "2025-12-21T00:34:14.400Z",
+      "crawlRunId": "27629805f6cac5bc37000b96634b8dc0d0703ffa8a53b4811261a341f466710b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "Overview | SundaeSwap",
+          "url": "https://sundaeswap-finance.github.io/sundae-sdk/"
+        },
+        {
+          "type": "Guides | SundaeSwap",
+          "url": "https://sundaeswap-finance.github.io/sundae-sdk/guides/"
+        },
+        {
+          "type": "Core | SundaeSwap",
+          "url": "https://sundaeswap-finance.github.io/sundae-sdk/guides/core/"
+        },
+        {
+          "type": "Node | SundaeSwap",
+          "url": "https://sundaeswap-finance.github.io/sundae-sdk/guides/core/node.html"
+        },
+        {
+          "type": "Packages | SundaeSwap",
+          "url": "https://sundaeswap-finance.github.io/sundae-sdk/typescript/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "89d751ddb68eefb7c0c8ee3955341df0ec0130247938ec32b494a4f236dab2aa"
 }

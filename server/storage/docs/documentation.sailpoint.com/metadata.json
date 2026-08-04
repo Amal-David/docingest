@@ -133,5 +133,167 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://documentation.sailpoint.com/main_landing_page/customer_agreements.html",
+      "canonicalSeedUrl": "https://documentation.sailpoint.com/main_landing_page/customer_agreements.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-02T13:51:03.760Z",
+      "completedAt": "2025-10-02T13:51:03.760Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://documentation.sailpoint.com/main_landing_page/customer_agreements.html",
+          "canonicalUrl": "https://documentation.sailpoint.com/main_landing_page/customer_agreements.html",
+          "status": "valid"
+        }
+      ],
+      "id": "4b557df76ddb5ff62cfcdcc6477d417c9e8e9ed3f1e5ea8698932e2022ac4571",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "78476f6c8f7503cb941d9bf6ff2285cd42bea570f2abcdf0f41c835b0787436e",
+      "filename": "documentation_2025-10-02T13:51:03.760Z.md",
+      "contentHash": "e1ba3090f48e30bc4d54ac1c908c744acfd07d58d677e53b792b81fdcdbcf3b4",
+      "sourceUrl": "https://documentation.sailpoint.com/main_landing_page/customer_agreements.html",
+      "canonicalSourceUrl": "https://documentation.sailpoint.com/main_landing_page/customer_agreements.html",
+      "capturedAt": "2025-10-02T13:51:03.760Z",
+      "crawlRunId": "4b557df76ddb5ff62cfcdcc6477d417c9e8e9ed3f1e5ea8698932e2022ac4571",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "SailPoint Customer Agreements Definitions and Additional Terms - SailPoint Product Documentation",
+          "url": "https://documentation.sailpoint.com/main_landing_page/customer_agreements.html"
+        },
+        {
+          "type": "SailPoint Product Documentation",
+          "url": "https://documentation.sailpoint.com/index.html"
+        },
+        {
+          "type": "Policies",
+          "url": "https://documentation.sailpoint.com/identityiq_84/help/policy/iiqpolicies.html"
+        },
+        {
+          "type": "Getting Started with IdentityIQ",
+          "url": "https://documentation.sailpoint.com/identityiq_84/help/gettingstarted/getting_started.html"
+        },
+        {
+          "type": "IdentityIQ 8.4 Overview",
+          "url": "https://documentation.sailpoint.com/identityiq_84/help/iiqlandingpage.html"
+        },
+        {
+          "type": "SailPoint Identity Security Cloud User Help",
+          "url": "https://documentation.sailpoint.com/saas/user-help/index.html"
+        },
+        {
+          "type": "SailPoint Non-Employee Risk Management User Help",
+          "url": "https://documentation.sailpoint.com/ne-user/help/"
+        },
+        {
+          "type": "Access History",
+          "url": "https://documentation.sailpoint.com/identityiq_84/help/accesshistory/accesshistory.html"
+        },
+        {
+          "type": "Advanced Analytics",
+          "url": "https://documentation.sailpoint.com/identityiq_84/help/search/advanceanalytics.html"
+        },
+        {
+          "type": "Setting Up Lifecycle States - SailPoint Identity Services",
+          "url": "https://documentation.sailpoint.com/saas/help/provisioning/lifecycle.html"
+        },
+        {
+          "type": "AI Services",
+          "url": "https://documentation.sailpoint.com/identityiq_84/help/ai/aiservices.html"
+        },
+        {
+          "type": "Creating and Editing Profiles - SailPoint Non-Employee Risk Management Admin Help",
+          "url": "https://documentation.sailpoint.com/ne-admin/help/profiles/index.html"
+        },
+        {
+          "type": "SailPoint Identity Services - SailPoint Identity Services",
+          "url": "https://documentation.sailpoint.com/saas/help/index.html"
+        },
+        {
+          "type": "Application Configuration",
+          "url": "https://documentation.sailpoint.com/identityiq_84/help/appconfig/application_configuration.html"
+        },
+        {
+          "type": "SailPoint Non-Employee Risk Management Admin Help - SailPoint Non-Employee Risk Management Admin Help",
+          "url": "https://documentation.sailpoint.com/ne-admin/help/"
+        },
+        {
+          "type": "SailPoint Data Access Security",
+          "url": "https://documentation.sailpoint.com/das/help/index.html"
+        },
+        {
+          "type": "Business Processes",
+          "url": "https://documentation.sailpoint.com/identityiq_84/help/businessprocesses/business_processes.html"
+        },
+        {
+          "type": "Application Management",
+          "url": "https://documentation.sailpoint.com/identityiq_84/help/appmgmt/application_management.html"
+        },
+        {
+          "type": "Certifications and Access Reviews",
+          "url": "https://documentation.sailpoint.com/identityiq_84/help/certification/certification_and_access_reviews.html"
+        },
+        {
+          "type": "Classifications",
+          "url": "https://documentation.sailpoint.com/identityiq_84/help/classifications/classifications.html"
+        },
+        {
+          "type": "SailPoint Cloud Access Management - SailPoint Cloud Access Management",
+          "url": "https://documentation.sailpoint.com/cam/help/"
+        },
+        {
+          "type": "SailPoint Data Access Security Connector Documentation",
+          "url": "https://documentation.sailpoint.com/das-connectors/help/index.html"
+        },
+        {
+          "type": "SailPoint SaaS Management",
+          "url": "https://documentation.sailpoint.com/saas-mgmt/help/"
+        },
+        {
+          "type": "SailPoint Access Risk Management - SailPoint Access Risk Management",
+          "url": "https://documentation.sailpoint.com/access-risk-mgmt/help/"
+        },
+        {
+          "type": "SailPoint CIEM Overview - SailPoint Identity Services",
+          "url": "https://documentation.sailpoint.com/saas/help/ciem/index.html"
+        },
+        {
+          "type": "Machine Identity Security - Overview - SailPoint Identity Services",
+          "url": "https://documentation.sailpoint.com/saas/help/machine/index.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "78476f6c8f7503cb941d9bf6ff2285cd42bea570f2abcdf0f41c835b0787436e"
 }

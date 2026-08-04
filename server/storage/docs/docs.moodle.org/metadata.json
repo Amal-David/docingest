@@ -33,5 +33,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.moodle.org/405/en/Main_page",
+      "canonicalSeedUrl": "https://docs.moodle.org/405/en/Main_page",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-16T12:59:25.135Z",
+      "completedAt": "2025-07-16T12:59:25.135Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.moodle.org/405/en/Main_page",
+          "canonicalUrl": "https://docs.moodle.org/405/en/Main_page",
+          "status": "valid"
+        }
+      ],
+      "id": "fa5e4443172412a6023fa9b3da55190b8af30fe8f07d65f30bc10e74f4702fc9",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2b4a12374a67dea247c1a19451f59c91b69ee9a93c7c962fc5be0648a6bde3e7",
+      "filename": "documentation_2025-07-16T12:59:25.135Z.md",
+      "contentHash": "9c3d9d63ce83f8c3885af5e14733ed304f354d087a6e49c128c8890fba737590",
+      "sourceUrl": "https://docs.moodle.org/405/en/Main_page",
+      "canonicalSourceUrl": "https://docs.moodle.org/405/en/Main_page",
+      "capturedAt": "2025-07-16T12:59:25.135Z",
+      "crawlRunId": "fa5e4443172412a6023fa9b3da55190b8af30fe8f07d65f30bc10e74f4702fc9",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.moodle.org/405/en/Main_page"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2b4a12374a67dea247c1a19451f59c91b69ee9a93c7c962fc5be0648a6bde3e7"
 }

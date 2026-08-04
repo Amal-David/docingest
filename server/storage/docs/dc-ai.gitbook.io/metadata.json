@@ -128,5 +128,171 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://dc-ai.gitbook.io/dcai-ecosystem",
+      "canonicalSeedUrl": "https://dc-ai.gitbook.io/dcai-ecosystem",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-11T05:31:49.790Z",
+      "completedAt": "2026-04-11T05:31:49.790Z",
+      "providerTotals": {
+        "discovered": 27,
+        "returned": 27,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem",
+          "canonicalUrl": "https://dc-ai.gitbook.io/dcai-ecosystem",
+          "status": "valid"
+        }
+      ],
+      "id": "bc7517be396c3ce5ac3fcaf69c1b9b203265af0362d89d404557e5bbe1d0cbe5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "98bab1d587644ba7918f7f226bca6b69ee75f98f64091a5ca0bf167e56555d5b",
+      "filename": "documentation_2026-04-11T05:31:49.790Z.md",
+      "contentHash": "f93a1f650dfbce6165f6b2122d6211e2ba26fea96a7fb77f7441d946cb73e35d",
+      "sourceUrl": "https://dc-ai.gitbook.io/dcai-ecosystem",
+      "canonicalSourceUrl": "https://dc-ai.gitbook.io/dcai-ecosystem",
+      "capturedAt": "2026-04-11T05:31:49.790Z",
+      "crawlRunId": "bc7517be396c3ce5ac3fcaf69c1b9b203265af0362d89d404557e5bbe1d0cbe5",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 27,
+      "successfulPages": 27,
+      "structure": [
+        {
+          "type": "Introduction | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem"
+        },
+        {
+          "type": "Architecture and Protocol | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/ecosystem/depin/architecture-and-protocol"
+        },
+        {
+          "type": "Vision and Mission | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/vision-and-mission"
+        },
+        {
+          "type": "HealthFi | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/ecosystem/healthfi"
+        },
+        {
+          "type": "Key Features and Benefits | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/ecosystem/depin/key-features-and-benefits"
+        },
+        {
+          "type": "Market Insights and Potential | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/ecosystem/depin/market-insights-and-potential"
+        },
+        {
+          "type": "DePIN | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/ecosystem/depin"
+        },
+        {
+          "type": "Overview | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/ecosystem/overview"
+        },
+        {
+          "type": "Applications and Use Cases | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/ecosystem/healthfi/applications-and-use-cases"
+        },
+        {
+          "type": "Core Values of Our Application | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/technical-infrastructure/core-values-of-our-application"
+        },
+        {
+          "type": "Why Base Chain? | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/technical-infrastructure/why-base-chain"
+        },
+        {
+          "type": "Intelligent Feedback Loop for AI Advancement | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/technical-infrastructure/intelligent-feedback-loop-for-ai-advancement"
+        },
+        {
+          "type": "Core Features and Innovations | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/ecosystem/healthfi/core-features-and-innovations"
+        },
+        {
+          "type": "AI training on Distributed node | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/technical-infrastructure/ai-training-on-distributed-node"
+        },
+        {
+          "type": "Staking and Mining Incentives | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/tokenomics/staking-and-mining-incentives"
+        },
+        {
+          "type": "Tokenomics | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/tokenomics/tokenomics"
+        },
+        {
+          "type": "Strategic Ecosystem Incentives | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/tokenomics/strategic-ecosystem-incentives"
+        },
+        {
+          "type": "IPFS Integration | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/technical-infrastructure/ipfs-integration"
+        },
+        {
+          "type": "Cutting-Edge HealthTech Stack | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/technical-infrastructure/cutting-edge-healthtech-stack"
+        },
+        {
+          "type": "Technical Infrastructure | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/technical-infrastructure"
+        },
+        {
+          "type": "Revenue Model | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/tokenomics/revenue-model"
+        },
+        {
+          "type": "Decentralized Compute Network | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/technical-infrastructure/decentralized-compute-network"
+        },
+        {
+          "type": "Market Projections | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/ecosystem/healthfi/market-projections"
+        },
+        {
+          "type": "Smart Contract | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/tokenomics/smart-contract"
+        },
+        {
+          "type": "Vesting | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/tokenomics/vesting"
+        },
+        {
+          "type": "DePIN Device | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/technical-infrastructure/depin-device"
+        },
+        {
+          "type": "On-Chain Wallet Address Allocation | DCAI Ecosystem",
+          "url": "https://dc-ai.gitbook.io/dcai-ecosystem/tokenomics/on-chain-wallet-address-allocation"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "98bab1d587644ba7918f7f226bca6b69ee75f98f64091a5ca0bf167e56555d5b"
 }

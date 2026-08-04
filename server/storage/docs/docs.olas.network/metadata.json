@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.olas.network/",
+      "canonicalSeedUrl": "https://docs.olas.network/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-27T14:15:05.122Z",
+      "completedAt": "2026-01-27T14:15:05.122Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.olas.network/",
+          "canonicalUrl": "https://docs.olas.network/",
+          "status": "valid"
+        }
+      ],
+      "id": "68b0a112b00509fcb94287dcf464c35105600d63fd121a9e5c9588b3774c084f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "45f81718185fdb199b705a211a121261c122fa27dfca677143ddc8347f1f524a",
+      "filename": "documentation_2026-01-27T14:15:05.122Z.md",
+      "contentHash": "c2b33c21850dd6741087d77afc6b9b7eb2645b187b74e47c2eb7bcfa41f4093d",
+      "sourceUrl": "https://docs.olas.network/",
+      "canonicalSourceUrl": "https://docs.olas.network/",
+      "capturedAt": "2026-01-27T14:15:05.122Z",
+      "crawlRunId": "68b0a112b00509fcb94287dcf464c35105600d63fd121a9e5c9588b3774c084f",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Olas Docs | Docs | Olas",
+          "url": "https://docs.olas.network/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "45f81718185fdb199b705a211a121261c122fa27dfca677143ddc8347f1f524a"
 }

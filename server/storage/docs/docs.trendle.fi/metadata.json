@@ -68,5 +68,111 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.trendle.fi/product/liquidation-engine",
+      "canonicalSeedUrl": "https://docs.trendle.fi/product/liquidation-engine",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-12T11:06:46.892Z",
+      "completedAt": "2025-12-12T11:06:46.892Z",
+      "providerTotals": {
+        "discovered": 12,
+        "returned": 12,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.trendle.fi/product/liquidation-engine",
+          "canonicalUrl": "https://docs.trendle.fi/product/liquidation-engine",
+          "status": "valid"
+        }
+      ],
+      "id": "78b7e9c8df62f8119bc0bcb0013ac10e03033c9e746994171597e184dd2f8abd",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "32a3ea9d5ecb04d590f24226ae1cb20c16b3e15f5d65045b4198567c0e81b70d",
+      "filename": "documentation_2025-12-12T11:06:46.892Z.md",
+      "contentHash": "c4a65ba66e8714d6195379e0b77ec9fa5dac8de31a04fd492d9dbb79b564f354",
+      "sourceUrl": "https://docs.trendle.fi/product/liquidation-engine",
+      "canonicalSourceUrl": "https://docs.trendle.fi/product/liquidation-engine",
+      "capturedAt": "2025-12-12T11:06:46.892Z",
+      "crawlRunId": "78b7e9c8df62f8119bc0bcb0013ac10e03033c9e746994171597e184dd2f8abd",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 12,
+      "successfulPages": 12,
+      "structure": [
+        {
+          "type": "Liquidation Engine | Trendle Docs",
+          "url": "https://docs.trendle.fi/product/liquidation-engine"
+        },
+        {
+          "type": "Funding Rate | Trendle Docs",
+          "url": "https://docs.trendle.fi/product/funding-rate"
+        },
+        {
+          "type": "Intro | Trendle Docs",
+          "url": "https://docs.trendle.fi/"
+        },
+        {
+          "type": "Core Idea | Trendle Docs",
+          "url": "https://docs.trendle.fi/core-idea"
+        },
+        {
+          "type": "Background & Narrative | Trendle Docs",
+          "url": "https://docs.trendle.fi/background-and-narrative"
+        },
+        {
+          "type": "Product | Trendle Docs",
+          "url": "https://docs.trendle.fi/product"
+        },
+        {
+          "type": "Pulse / Data Feed | Trendle Docs",
+          "url": "https://docs.trendle.fi/product/pulse-data-feed"
+        },
+        {
+          "type": "Fees | Trendle Docs",
+          "url": "https://docs.trendle.fi/product/trading-engine/fees"
+        },
+        {
+          "type": "FAQ | Trendle Docs",
+          "url": "https://docs.trendle.fi/faq"
+        },
+        {
+          "type": "Trading Engine | Trendle Docs",
+          "url": "https://docs.trendle.fi/product/trading-engine"
+        },
+        {
+          "type": "Trendle UX Tutorial | Trendle Docs",
+          "url": "https://docs.trendle.fi/trendle-ux-tutorial"
+        },
+        {
+          "type": "Attention Index | Trendle Docs",
+          "url": "https://docs.trendle.fi/product/attention-index"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "32a3ea9d5ecb04d590f24226ae1cb20c16b3e15f5d65045b4198567c0e81b70d"
 }

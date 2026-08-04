@@ -177,5 +177,211 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.postiz.com/introduction",
+      "canonicalSeedUrl": "https://docs.postiz.com/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-08T07:56:04.746Z",
+      "completedAt": "2025-02-08T07:56:04.746Z",
+      "providerTotals": {
+        "discovered": 37,
+        "returned": 37,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.postiz.com/introduction",
+          "canonicalUrl": "https://docs.postiz.com/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "680e2326e06f3c0d3b3cab4a44010d788b05500243da032da4621918721f05f8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "418b3add1163a8e1888bfcdf43ea37d0d6d48cebec8d5098b72aafa2633f50d4",
+      "filename": "documentation_2025-02-08T07:56:04.746Z.md",
+      "contentHash": "21c74a1115f20c6a1eff5be452e18985ece44e2028018ab5e67f6500d0f651a0",
+      "sourceUrl": "https://docs.postiz.com/introduction",
+      "canonicalSourceUrl": "https://docs.postiz.com/introduction",
+      "capturedAt": "2025-02-08T07:56:04.746Z",
+      "crawlRunId": "680e2326e06f3c0d3b3cab4a44010d788b05500243da032da4621918721f05f8",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "structure": [
+        {
+          "type": "Introduction - Postiz Docs",
+          "url": "https://docs.postiz.com/introduction"
+        },
+        {
+          "type": "Public API - Postiz Docs",
+          "url": "https://docs.postiz.com/public-api"
+        },
+        {
+          "type": "How it works - Postiz Docs",
+          "url": "https://docs.postiz.com/howitworks"
+        },
+        {
+          "type": "Quickstart - Postiz Docs",
+          "url": "https://docs.postiz.com/quickstart"
+        },
+        {
+          "type": "Docker Compose - Postiz Docs",
+          "url": "https://docs.postiz.com/installation/docker-compose"
+        },
+        {
+          "type": "Docker - Postiz Docs",
+          "url": "https://docs.postiz.com/installation/docker"
+        },
+        {
+          "type": "Helm - Postiz Docs",
+          "url": "https://docs.postiz.com/installation/kubernetes-helm"
+        },
+        {
+          "type": "Development Environment - Postiz Docs",
+          "url": "https://docs.postiz.com/installation/development"
+        },
+        {
+          "type": "Dev Container - Postiz Docs",
+          "url": "https://docs.postiz.com/installation/devcontainer"
+        },
+        {
+          "type": "Coolify - Postiz Docs",
+          "url": "https://docs.postiz.com/installation/coolify"
+        },
+        {
+          "type": "Nginx - Postiz Docs",
+          "url": "https://docs.postiz.com/reverse-proxies/nginx"
+        },
+        {
+          "type": "Traefik + Docker Compose - Postiz Docs",
+          "url": "https://docs.postiz.com/reverse-proxies/traefik"
+        },
+        {
+          "type": "Caddy - Postiz Docs",
+          "url": "https://docs.postiz.com/reverse-proxies/caddy"
+        },
+        {
+          "type": "How to add a new provider - Postiz Docs",
+          "url": "https://docs.postiz.com/configuration/create-provider"
+        },
+        {
+          "type": "Email Notifications - Postiz Docs",
+          "url": "https://docs.postiz.com/configuration/emails"
+        },
+        {
+          "type": "Discord - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/discord"
+        },
+        {
+          "type": "R2 Configuration - Postiz Docs",
+          "url": "https://docs.postiz.com/configuration/r2"
+        },
+        {
+          "type": "Providers - Postiz Docs",
+          "url": "https://docs.postiz.com/providers"
+        },
+        {
+          "type": "Configuration Reference - Postiz Docs",
+          "url": "https://docs.postiz.com/configuration/reference"
+        },
+        {
+          "type": "Dribbble - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/dribbble"
+        },
+        {
+          "type": "Instagram - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/instagram"
+        },
+        {
+          "type": "Bluesky - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/bluesky"
+        },
+        {
+          "type": "Facebook - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/facebook"
+        },
+        {
+          "type": "Linkedin - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/linkedin"
+        },
+        {
+          "type": "LinkedIn Page - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/linkedin-page"
+        },
+        {
+          "type": "Pinterest - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/pinterest"
+        },
+        {
+          "type": "Mastodon - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/mastodon"
+        },
+        {
+          "type": "Slack - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/slack"
+        },
+        {
+          "type": "Reddit - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/reddit"
+        },
+        {
+          "type": "Telegram - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/telegram"
+        },
+        {
+          "type": "Threads - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/threads"
+        },
+        {
+          "type": "Tiktok - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/tiktok"
+        },
+        {
+          "type": "Youtube - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/youtube"
+        },
+        {
+          "type": "Developer Guide - Postiz Docs",
+          "url": "https://docs.postiz.com/developer-guide"
+        },
+        {
+          "type": "X - Postiz Docs",
+          "url": "https://docs.postiz.com/providers/x"
+        },
+        {
+          "type": "404: This page could not be found",
+          "url": "https://docs.postiz.com/emails"
+        },
+        {
+          "type": "Support - Postiz Docs",
+          "url": "https://docs.postiz.com/support"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "418b3add1163a8e1888bfcdf43ea37d0d6d48cebec8d5098b72aafa2633f50d4"
 }

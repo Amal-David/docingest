@@ -104,5 +104,147 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson4d",
+      "canonicalSeedUrl": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson4d",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-18T22:28:40.826Z",
+      "completedAt": "2025-07-18T22:28:40.826Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson4d",
+          "canonicalUrl": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson4d",
+          "status": "valid"
+        }
+      ],
+      "id": "894ffc0026e3a27e99be56dd92f955051d74b9f2dceeec19b856cc4662250954",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2642f3dec2c0cce505ac11ded996d1add4e4a23e8d5be38ccc50d851e32164c3",
+      "filename": "documentation_2025-07-18T22:28:40.826Z.md",
+      "contentHash": "a99c8b2a6de4082bdd6ad56427e5af99a20f9e5d037b428a5dd14a5f2e43103b",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson4d",
+      "canonicalSourceUrl": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson4d",
+      "capturedAt": "2025-07-18T22:28:40.826Z",
+      "crawlRunId": "894ffc0026e3a27e99be56dd92f955051d74b9f2dceeec19b856cc4662250954",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "PCB Tutorial",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson4d"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson5a"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson4c"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson3"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson1"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson7b"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson2"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson4b"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson6"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson5b"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson7a"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson8"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson5c"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson5d"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/index.cfm?action=main.feedback"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=main.default"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson4a"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/cder/omuf/?event=reqOTC"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/tutorial/index.cfm?action=tutorial.lesson5e"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/ora/pcb/index.cfm?action=main.pcb"
+        },
+        {
+          "type": "Access Denied",
+          "url": "https://www.accessdata.fda.gov/scripts/cder/ob/index.cfm"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2642f3dec2c0cce505ac11ded996d1add4e4a23e8d5be38ccc50d851e32164c3"
 }

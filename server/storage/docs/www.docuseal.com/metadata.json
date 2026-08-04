@@ -108,5 +108,151 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.docuseal.com/docs",
+      "canonicalSeedUrl": "https://www.docuseal.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-08T02:07:43.880Z",
+      "completedAt": "2026-04-08T02:07:43.880Z",
+      "providerTotals": {
+        "discovered": 22,
+        "returned": 22,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.docuseal.com/docs",
+          "canonicalUrl": "https://www.docuseal.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "92a276bc6c2cd76da0af1f41f4878d4080e11f9bc3caf748acc48ce04e4d1539",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d25376fef43146b6d6b65e42d3b2f425ddf15e4d1b14742f40fa3009af1ec7af",
+      "filename": "documentation_2026-04-08T02:07:43.880Z.md",
+      "contentHash": "6959e37e2eea3cdc545dbdbc69c399f23e8f086e1c90de67d6787919fe9309d7",
+      "sourceUrl": "https://www.docuseal.com/docs",
+      "canonicalSourceUrl": "https://www.docuseal.com/docs",
+      "capturedAt": "2026-04-08T02:07:43.880Z",
+      "crawlRunId": "92a276bc6c2cd76da0af1f41f4878d4080e11f9bc3caf748acc48ce04e4d1539",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 22,
+      "successfulPages": 22,
+      "structure": [
+        {
+          "type": "Documentation | DocuSeal",
+          "url": "https://www.docuseal.com/docs"
+        },
+        {
+          "type": "Embedded Signature Maker | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/embedded/signature"
+        },
+        {
+          "type": "Update DocuSeal on Render | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/update-docuseal-on-render"
+        },
+        {
+          "type": "Welcome to DocuSeal | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/welcome-to-docuseal"
+        },
+        {
+          "type": "Update DocuSeal to the latest version in Docker | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/update-docuseal-to-the-latest-version"
+        },
+        {
+          "type": "Configuring with environment variables | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/configuring-docuseal-via-environment-variables"
+        },
+        {
+          "type": "Update DocuSeal on Heroku | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/update-docuseal-on-heroku"
+        },
+        {
+          "type": "Update DocuSeal on Railway | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/update-docuseal-on-railway"
+        },
+        {
+          "type": "Deploying DocuSeal on Azure web apps | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/deploying-docuseal-on-azure-web-apps"
+        },
+        {
+          "type": "Deploying DocuSeal on Google Cloud Run | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/deploying-docuseal-on-google-cloud-run"
+        },
+        {
+          "type": "Embedded Signing Form | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/embedded/form"
+        },
+        {
+          "type": "Update DocuSeal on DigitalOcean | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/update-docusealon-digitalocean"
+        },
+        {
+          "type": "On-premises server requirements | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/on-premises-server-requirements"
+        },
+        {
+          "type": "Configuring SAML with Okta | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/configuring-saml-with-okta"
+        },
+        {
+          "type": "Configuring DocuSeal behind an existing Reverse proxy (nginx) | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/configuring-docuseal-behind-an-existing-reverse-proxy-nginx"
+        },
+        {
+          "type": "Convert legacy .p12 .pfx files to support OpenSSL 3 | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/convert-legacy-p12-pfx-files-to-support-openssl-3"
+        },
+        {
+          "type": "Embedded Form Builder | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/embedded/builder"
+        },
+        {
+          "type": "Configuring SAML with Keycloak | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/configuring-saml-with-keycloak"
+        },
+        {
+          "type": "Configure SAML with Authentic | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/configuring-saml-with-authentic"
+        },
+        {
+          "type": "Configuring SAML with Google Workspace | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/configuring-saml-with-google-workspace"
+        },
+        {
+          "type": "Configuring SAML with Microsoft Entra ID | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/configuring-saml-with-microsoft-entra-id"
+        },
+        {
+          "type": "API Reference | DocuSeal Docs",
+          "url": "https://www.docuseal.com/docs/api"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d25376fef43146b6d6b65e42d3b2f425ddf15e4d1b14742f40fa3009af1ec7af"
 }

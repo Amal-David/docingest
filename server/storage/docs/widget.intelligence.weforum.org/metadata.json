@@ -68,5 +68,111 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://widget.intelligence.weforum.org/getting-started",
+      "canonicalSeedUrl": "https://widget.intelligence.weforum.org/getting-started",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-18T21:38:58.126Z",
+      "completedAt": "2026-06-18T21:38:58.126Z",
+      "providerTotals": {
+        "discovered": 12,
+        "returned": 12,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://widget.intelligence.weforum.org/getting-started",
+          "canonicalUrl": "https://widget.intelligence.weforum.org/getting-started",
+          "status": "valid"
+        }
+      ],
+      "id": "8e5530d4fa5a30b21c5d992da694055135ac02107bc2de714807fb5a82724393",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9463ed22ac6dc4838a7c275db4be8ccefd6af973f38f33bdc28200299807b797",
+      "filename": "documentation_2026-06-18T21:38:58.126Z.md",
+      "contentHash": "e23d38bef4b3164c5e1210a28fdace2bf086d9f6d14061f0003145f7112689d3",
+      "sourceUrl": "https://widget.intelligence.weforum.org/getting-started",
+      "canonicalSourceUrl": "https://widget.intelligence.weforum.org/getting-started",
+      "capturedAt": "2026-06-18T21:38:58.126Z",
+      "crawlRunId": "8e5530d4fa5a30b21c5d992da694055135ac02107bc2de714807fb5a82724393",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 12,
+      "successfulPages": 12,
+      "structure": [
+        {
+          "type": "Getting started",
+          "url": "https://widget.intelligence.weforum.org/getting-started"
+        },
+        {
+          "type": "Welcome",
+          "url": "https://widget.intelligence.weforum.org/"
+        },
+        {
+          "type": "Configuration",
+          "url": "https://widget.intelligence.weforum.org/configuration"
+        },
+        {
+          "type": "Embedding using iframes",
+          "url": "https://widget.intelligence.weforum.org/embedding-using-iframes"
+        },
+        {
+          "type": "Browser Support",
+          "url": "https://widget.intelligence.weforum.org/browser-support"
+        },
+        {
+          "type": "Displaying your custom map created with your Digital Membership Pro",
+          "url": "https://widget.intelligence.weforum.org/displaying-your-own-map"
+        },
+        {
+          "type": "Detailed example",
+          "url": "https://widget.intelligence.weforum.org/detailed-example"
+        },
+        {
+          "type": "Release Notes",
+          "url": "https://widget.intelligence.weforum.org/release-notes"
+        },
+        {
+          "type": "Integrating with Wordpress blogs",
+          "url": "https://widget.intelligence.weforum.org/integrating-with-wordpress"
+        },
+        {
+          "type": "Integrating with WIX.com",
+          "url": "https://widget.intelligence.weforum.org/integrating-with-wix"
+        },
+        {
+          "type": "Resources",
+          "url": "https://widget.intelligence.weforum.org/resources"
+        },
+        {
+          "type": "Embed Strategic Intelligence | World Economic Forum",
+          "url": "https://widget.intelligence.weforum.org/configure"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9463ed22ac6dc4838a7c275db4be8ccefd6af973f38f33bdc28200299807b797"
 }

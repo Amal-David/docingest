@@ -84,5 +84,127 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.gumlet.com/docs",
+      "canonicalSeedUrl": "https://docs.gumlet.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-24T10:19:33.889Z",
+      "completedAt": "2025-02-24T10:19:33.889Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.gumlet.com/docs",
+          "canonicalUrl": "https://docs.gumlet.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "ada9542eed6295529bcc57ed210b527d2d12ce3f3d57072a0708b110e4cabd44",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "05c69294803e6486836aa9e4d8fcceab306e8664098b95e23635eda45aac85c8",
+      "filename": "documentation_2025-02-24T10:19:33.889Z.md",
+      "contentHash": "8d7e5a50d93ff7d7796e8dcec47a4e3d10319fdf993979391711d94c011d3cac",
+      "sourceUrl": "https://docs.gumlet.com/docs",
+      "canonicalSourceUrl": "https://docs.gumlet.com/docs",
+      "capturedAt": "2025-02-24T10:19:33.889Z",
+      "crawlRunId": "ada9542eed6295529bcc57ed210b527d2d12ce3f3d57072a0708b110e4cabd44",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "Welcome 👋",
+          "url": "https://docs.gumlet.com/docs"
+        },
+        {
+          "type": "Quick Start Guide",
+          "url": "https://docs.gumlet.com/docs/quick-start-guide-video"
+        },
+        {
+          "type": "Upload from Device",
+          "url": "https://docs.gumlet.com/docs/upload-from-device"
+        },
+        {
+          "type": "FAQs",
+          "url": "https://docs.gumlet.com/docs/video-faqs"
+        },
+        {
+          "type": "Cloud Storage",
+          "url": "https://docs.gumlet.com/docs/cloud-storage-video-upload"
+        },
+        {
+          "type": "Upload & Import Videos",
+          "url": "https://docs.gumlet.com/docs/upload-videos"
+        },
+        {
+          "type": "Manage Videos",
+          "url": "https://docs.gumlet.com/docs/manage-videos"
+        },
+        {
+          "type": "What is Gumlet?",
+          "url": "https://docs.gumlet.com/docs/video-introduction"
+        },
+        {
+          "type": "Video Analytics",
+          "url": "https://docs.gumlet.com/docs/advanced-video-analytics"
+        },
+        {
+          "type": "Import Zoom Recordings",
+          "url": "https://docs.gumlet.com/docs/import-from-zoom"
+        },
+        {
+          "type": "Import from Wistia",
+          "url": "https://docs.gumlet.com/docs/import-from-wistia"
+        },
+        {
+          "type": "Collection and Settings",
+          "url": "https://docs.gumlet.com/docs/edit-collection"
+        },
+        {
+          "type": "Working with oEmbed: Embedding Videos",
+          "url": "https://docs.gumlet.com/docs/oembed-support"
+        },
+        {
+          "type": "Publish First Video",
+          "url": "https://docs.gumlet.com/docs/publish-first-video"
+        },
+        {
+          "type": "Video Library",
+          "url": "https://docs.gumlet.com/docs/video-cms"
+        },
+        {
+          "type": "Usage Analytics",
+          "url": "https://docs.gumlet.com/docs/video-usage-analytics"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "05c69294803e6486836aa9e4d8fcceab306e8664098b95e23635eda45aac85c8"
 }

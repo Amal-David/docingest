@@ -212,5 +212,255 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.paperclip.ing/cli/setup-commands",
+      "canonicalSeedUrl": "https://docs.paperclip.ing/cli/setup-commands",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-28T16:48:39.003Z",
+      "completedAt": "2026-03-28T16:48:39.003Z",
+      "providerTotals": {
+        "discovered": 48,
+        "returned": 48,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.paperclip.ing/cli/setup-commands",
+          "canonicalUrl": "https://docs.paperclip.ing/cli/setup-commands",
+          "status": "valid"
+        }
+      ],
+      "id": "88f3c1b91226ad3a53603bd28285ecd3918b037b27fa20e061c6d28fa27be583",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "04b009bf2062ecee249be6af1162f84fa1a14daef24fa9e9164362abf544c4ae",
+      "filename": "documentation_2026-03-28T16:48:39.003Z.md",
+      "contentHash": "e60e5ac72d40c314ab35718c411223e192c2e729da2077779e4ee153c68dfe62",
+      "sourceUrl": "https://docs.paperclip.ing/cli/setup-commands",
+      "canonicalSourceUrl": "https://docs.paperclip.ing/cli/setup-commands",
+      "capturedAt": "2026-03-28T16:48:39.003Z",
+      "crawlRunId": "88f3c1b91226ad3a53603bd28285ecd3918b037b27fa20e061c6d28fa27be583",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 48,
+      "successfulPages": 48,
+      "structure": [
+        {
+          "type": "Setup Commands - Paperclip",
+          "url": "https://docs.paperclip.ing/cli/setup-commands"
+        },
+        {
+          "type": "Control-Plane Commands - Paperclip",
+          "url": "https://docs.paperclip.ing/cli/control-plane-commands"
+        },
+        {
+          "type": "CLI Overview - Paperclip",
+          "url": "https://docs.paperclip.ing/cli/overview"
+        },
+        {
+          "type": "What is Paperclip? - Paperclip",
+          "url": "https://docs.paperclip.ing/start/what-is-paperclip"
+        },
+        {
+          "type": "Core Concepts - Paperclip",
+          "url": "https://docs.paperclip.ing/start/core-concepts"
+        },
+        {
+          "type": "Architecture - Paperclip",
+          "url": "https://docs.paperclip.ing/start/architecture"
+        },
+        {
+          "type": "Quickstart - Paperclip",
+          "url": "https://docs.paperclip.ing/start/quickstart"
+        },
+        {
+          "type": "Codex Local - Paperclip",
+          "url": "https://docs.paperclip.ing/adapters/codex-local"
+        },
+        {
+          "type": "Gemini Local - Paperclip",
+          "url": "https://docs.paperclip.ing/adapters/gemini-local"
+        },
+        {
+          "type": "Adapters Overview - Paperclip",
+          "url": "https://docs.paperclip.ing/adapters/overview"
+        },
+        {
+          "type": "HTTP Adapter - Paperclip",
+          "url": "https://docs.paperclip.ing/adapters/http"
+        },
+        {
+          "type": "Claude Local - Paperclip",
+          "url": "https://docs.paperclip.ing/adapters/claude-local"
+        },
+        {
+          "type": "Creating an Adapter - Paperclip",
+          "url": "https://docs.paperclip.ing/adapters/creating-an-adapter"
+        },
+        {
+          "type": "Process Adapter - Paperclip",
+          "url": "https://docs.paperclip.ing/adapters/process"
+        },
+        {
+          "type": "Environment Variables - Paperclip",
+          "url": "https://docs.paperclip.ing/deploy/environment-variables"
+        },
+        {
+          "type": "Storage - Paperclip",
+          "url": "https://docs.paperclip.ing/deploy/storage"
+        },
+        {
+          "type": "Deployment Modes - Paperclip",
+          "url": "https://docs.paperclip.ing/deploy/deployment-modes"
+        },
+        {
+          "type": "Database - Paperclip",
+          "url": "https://docs.paperclip.ing/deploy/database"
+        },
+        {
+          "type": "Docker - Paperclip",
+          "url": "https://docs.paperclip.ing/deploy/docker"
+        },
+        {
+          "type": "Local Development - Paperclip",
+          "url": "https://docs.paperclip.ing/deploy/local-development"
+        },
+        {
+          "type": "Secrets Management - Paperclip",
+          "url": "https://docs.paperclip.ing/deploy/secrets"
+        },
+        {
+          "type": "Deployment Overview - Paperclip",
+          "url": "https://docs.paperclip.ing/deploy/overview"
+        },
+        {
+          "type": "Approvals - Paperclip",
+          "url": "https://docs.paperclip.ing/api/approvals"
+        },
+        {
+          "type": "Agents - Paperclip",
+          "url": "https://docs.paperclip.ing/api/agents"
+        },
+        {
+          "type": "Companies - Paperclip",
+          "url": "https://docs.paperclip.ing/api/companies"
+        },
+        {
+          "type": "Authentication - Paperclip",
+          "url": "https://docs.paperclip.ing/api/authentication"
+        },
+        {
+          "type": "Secrets - Paperclip",
+          "url": "https://docs.paperclip.ing/api/secrets"
+        },
+        {
+          "type": "Costs - Paperclip",
+          "url": "https://docs.paperclip.ing/api/costs"
+        },
+        {
+          "type": "API Overview - Paperclip",
+          "url": "https://docs.paperclip.ing/api/overview"
+        },
+        {
+          "type": "Goals and Projects - Paperclip",
+          "url": "https://docs.paperclip.ing/api/goals-and-projects"
+        },
+        {
+          "type": "Issues - Paperclip",
+          "url": "https://docs.paperclip.ing/api/issues"
+        },
+        {
+          "type": "Dashboard - Paperclip",
+          "url": "https://docs.paperclip.ing/api/dashboard"
+        },
+        {
+          "type": "Managing Agents - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/board-operator/managing-agents"
+        },
+        {
+          "type": "Creating a Company - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/board-operator/creating-a-company"
+        },
+        {
+          "type": "Heartbeat Protocol - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/agent-developer/heartbeat-protocol"
+        },
+        {
+          "type": "Dashboard - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/board-operator/dashboard"
+        },
+        {
+          "type": "Costs and Budgets - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/board-operator/costs-and-budgets"
+        },
+        {
+          "type": "Approvals - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/board-operator/approvals"
+        },
+        {
+          "type": "Managing Tasks - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/board-operator/managing-tasks"
+        },
+        {
+          "type": "Org Structure - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/board-operator/org-structure"
+        },
+        {
+          "type": "Cost Reporting - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/agent-developer/cost-reporting"
+        },
+        {
+          "type": "Activity Log - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/board-operator/activity-log"
+        },
+        {
+          "type": "How Agents Work - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/agent-developer/how-agents-work"
+        },
+        {
+          "type": "Handling Approvals - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/agent-developer/handling-approvals"
+        },
+        {
+          "type": "Comments and Communication - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/agent-developer/comments-and-communication"
+        },
+        {
+          "type": "Task Workflow - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/agent-developer/task-workflow"
+        },
+        {
+          "type": "Activity - Paperclip",
+          "url": "https://docs.paperclip.ing/api/activity"
+        },
+        {
+          "type": "Writing a Skill - Paperclip",
+          "url": "https://docs.paperclip.ing/guides/agent-developer/writing-a-skill"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "04b009bf2062ecee249be6af1162f84fa1a14daef24fa9e9164362abf544c4ae"
 }

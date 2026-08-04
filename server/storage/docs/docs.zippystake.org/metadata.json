@@ -56,5 +56,99 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.zippystake.org/",
+      "canonicalSeedUrl": "https://docs.zippystake.org/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-27T12:52:18.623Z",
+      "completedAt": "2025-03-27T12:52:18.623Z",
+      "providerTotals": {
+        "discovered": 9,
+        "returned": 9,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.zippystake.org/",
+          "canonicalUrl": "https://docs.zippystake.org/",
+          "status": "valid"
+        }
+      ],
+      "id": "5a77450f9b55cc4cccf3f943bc829ed328e588ee9ec4493c0b600d732a315402",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8576dca4837612e6105719014c33246e68a734c3971a33534878caac083d60cf",
+      "filename": "documentation_2025-03-27T12:52:18.623Z.md",
+      "contentHash": "1816c61167a17e2c9fb43f73ffa221929f311c2b65b260e90b2769b93ec13b42",
+      "sourceUrl": "https://docs.zippystake.org/",
+      "canonicalSourceUrl": "https://docs.zippystake.org/",
+      "capturedAt": "2025-03-27T12:52:18.623Z",
+      "crawlRunId": "5a77450f9b55cc4cccf3f943bc829ed328e588ee9ec4493c0b600d732a315402",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 9,
+      "successfulPages": 9,
+      "structure": [
+        {
+          "type": "Welcome | Zippy Stake Pool",
+          "url": "https://docs.zippystake.org/"
+        },
+        {
+          "type": "Defi integrations | Zippy Stake Pool",
+          "url": "https://docs.zippystake.org/liquid-staking/defi-integrations"
+        },
+        {
+          "type": "Delegation Strategy | Zippy Stake Pool",
+          "url": "https://docs.zippystake.org/validators/delegation-strategy"
+        },
+        {
+          "type": "The ZPY token | Zippy Stake Pool",
+          "url": "https://docs.zippystake.org/validators/the-zpy-token"
+        },
+        {
+          "type": "Safety | Zippy Stake Pool",
+          "url": "https://docs.zippystake.org/overview/safety"
+        },
+        {
+          "type": "Points Program | Zippy Stake Pool",
+          "url": "https://docs.zippystake.org/overview/points-program"
+        },
+        {
+          "type": "Governance | Zippy Stake Pool",
+          "url": "https://docs.zippystake.org/validators/governance"
+        },
+        {
+          "type": "What is Liquid Staking? | Zippy Stake Pool",
+          "url": "https://docs.zippystake.org/liquid-staking/what-is-liquid-staking"
+        },
+        {
+          "type": "As a validator how do I get a delegation? | Zippy Stake Pool",
+          "url": "https://docs.zippystake.org/validators/as-a-validator-how-do-i-get-a-delegation"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8576dca4837612e6105719014c33246e68a734c3971a33534878caac083d60cf"
 }

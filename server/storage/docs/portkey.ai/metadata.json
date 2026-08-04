@@ -144,5 +144,187 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://portkey.ai/docs/introduction/what-is-portkey",
+      "canonicalSeedUrl": "https://portkey.ai/docs/introduction/what-is-portkey",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-24T16:35:39.517Z",
+      "completedAt": "2025-10-24T16:35:39.517Z",
+      "providerTotals": {
+        "discovered": 31,
+        "returned": 31,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://portkey.ai/docs/introduction/what-is-portkey",
+          "canonicalUrl": "https://portkey.ai/docs/introduction/what-is-portkey",
+          "status": "valid"
+        }
+      ],
+      "id": "9c4aafe2ce6615b02534d89bac5240d6698eab2159e7794d2fec452581bd24e5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cd8b018234f0af2d9258f59668075cb2cd896b6eb69a95d3017a9c8905908e72",
+      "filename": "documentation_2025-10-24T16:35:39.517Z.md",
+      "contentHash": "4a9061c9ea7eb05cb452a77294dba51da31b36df39bb47335762ff2d3f79d45f",
+      "sourceUrl": "https://portkey.ai/docs/introduction/what-is-portkey",
+      "canonicalSourceUrl": "https://portkey.ai/docs/introduction/what-is-portkey",
+      "capturedAt": "2025-10-24T16:35:39.517Z",
+      "crawlRunId": "9c4aafe2ce6615b02534d89bac5240d6698eab2159e7794d2fec452581bd24e5",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 31,
+      "successfulPages": 31,
+      "structure": [
+        {
+          "type": "What is Portkey? - Portkey Docs",
+          "url": "https://portkey.ai/docs/introduction/what-is-portkey"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://portkey.ai/docs/llms.txt"
+        },
+        {
+          "type": "Introduction - Portkey Docs",
+          "url": "https://portkey.ai/docs/api-reference/admin-api/introduction"
+        },
+        {
+          "type": "Upgrade to Model Catalog - Portkey Docs",
+          "url": "https://portkey.ai/docs/support/upgrade-to-model-catalog"
+        },
+        {
+          "type": "Common Errors & Resolutions - Portkey Docs",
+          "url": "https://portkey.ai/docs/support/common-errors-and-resolutions"
+        },
+        {
+          "type": "Developer Forum - Portkey Docs",
+          "url": "https://portkey.ai/docs/support/developer-forum"
+        },
+        {
+          "type": "How to Contribute - Portkey Docs",
+          "url": "https://portkey.ai/docs/README"
+        },
+        {
+          "type": "Contact Us - Portkey Docs",
+          "url": "https://portkey.ai/docs/support/contact-us"
+        },
+        {
+          "type": "Feature Comparison - Portkey Docs",
+          "url": "https://portkey.ai/docs/product/product-feature-comparison"
+        },
+        {
+          "type": "Open Source - Portkey Docs",
+          "url": "https://portkey.ai/docs/product/open-source"
+        },
+        {
+          "type": "Prometheus Metrics - Portkey Docs",
+          "url": "https://portkey.ai/docs/self-hosting/prometheus-metrics"
+        },
+        {
+          "type": "December '23 Migration - Portkey Docs",
+          "url": "https://portkey.ai/docs/support/portkeys-december-migration"
+        },
+        {
+          "type": "Make Your First Request - Portkey Docs",
+          "url": "https://portkey.ai/docs/introduction/make-your-first-request"
+        },
+        {
+          "type": "September - Portkey Docs",
+          "url": "https://portkey.ai/docs/changelog/2025/september"
+        },
+        {
+          "type": "Errors - Portkey Docs",
+          "url": "https://portkey.ai/docs/api-reference/admin-api/error"
+        },
+        {
+          "type": "August - Portkey Docs",
+          "url": "https://portkey.ai/docs/changelog/2025/august"
+        },
+        {
+          "type": "July - Portkey Docs",
+          "url": "https://portkey.ai/docs/changelog/2025/july"
+        },
+        {
+          "type": "Supported Providers - Portkey Docs",
+          "url": "https://portkey.ai/docs/api-reference/inference-api/supported-providers"
+        },
+        {
+          "type": "Prompts - Portkey Docs",
+          "url": "https://portkey.ai/docs/guides/prompts"
+        },
+        {
+          "type": "Authentication - Portkey Docs",
+          "url": "https://portkey.ai/docs/api-reference/inference-api/authentication"
+        },
+        {
+          "type": "Building an LLM-as-a-Judge System for AI (Customer Support) Agent - Portkey Docs",
+          "url": "https://portkey.ai/docs/guides/prompts/llm-as-a-judge"
+        },
+        {
+          "type": "Headers - Portkey Docs",
+          "url": "https://portkey.ai/docs/api-reference/inference-api/headers"
+        },
+        {
+          "type": "AWS SageMaker - Portkey Docs",
+          "url": "https://portkey.ai/docs/integrations/llms/aws-sagemaker"
+        },
+        {
+          "type": "Google Gemini - Portkey Docs",
+          "url": "https://portkey.ai/docs/integrations/llms/gemini"
+        },
+        {
+          "type": "Overview - Portkey Docs",
+          "url": "https://portkey.ai/docs/integrations/llms"
+        },
+        {
+          "type": "June - Portkey Docs",
+          "url": "https://portkey.ai/docs/changelog/2025/june"
+        },
+        {
+          "type": "Universal API - Portkey Docs",
+          "url": "https://portkey.ai/docs/product/ai-gateway/universal-api"
+        },
+        {
+          "type": "Enterprise Architecture - Portkey Docs",
+          "url": "https://portkey.ai/docs/self-hosting/hybrid-deployments/architecture"
+        },
+        {
+          "type": "Observability (OpenTelemetry) - Portkey Docs",
+          "url": "https://portkey.ai/docs/product/observability"
+        },
+        {
+          "type": "OpenAI - Portkey Docs",
+          "url": "https://portkey.ai/docs/integrations/llms/openai"
+        },
+        {
+          "type": "Ultimate AI SDR - Portkey Docs",
+          "url": "https://portkey.ai/docs/guides/prompts/ultimate-ai-sdr"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cd8b018234f0af2d9258f59668075cb2cd896b6eb69a95d3017a9c8905908e72"
 }

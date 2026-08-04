@@ -84,5 +84,127 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://lkml.readthedocs.io/en/latest/",
+      "canonicalSeedUrl": "https://lkml.readthedocs.io/en/latest",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-24T21:10:40.333Z",
+      "completedAt": "2025-04-24T21:10:40.333Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://lkml.readthedocs.io/en/latest/",
+          "canonicalUrl": "https://lkml.readthedocs.io/en/latest",
+          "status": "valid"
+        }
+      ],
+      "id": "063310ea186865d33b891fc8565301453bfd1eec6142a6074b0d96b2c552f6e9",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7076388a5d5ef2256ef29fb4407e01e31b57bb955b90c3f1872595db44bf259a",
+      "filename": "documentation_2025-04-24T21:10:40.333Z.md",
+      "contentHash": "b2f1e34147dd222bbff7649002c749795dce35b425bb65f34c97a45976ef1457",
+      "sourceUrl": "https://lkml.readthedocs.io/en/latest/",
+      "canonicalSourceUrl": "https://lkml.readthedocs.io/en/latest",
+      "capturedAt": "2025-04-24T21:10:40.333Z",
+      "crawlRunId": "063310ea186865d33b891fc8565301453bfd1eec6142a6074b0d96b2c552f6e9",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "lkml — lkml  documentation",
+          "url": "https://lkml.readthedocs.io/en/latest/"
+        },
+        {
+          "type": "Installation — lkml  documentation",
+          "url": "https://lkml.readthedocs.io/en/latest/install.html"
+        },
+        {
+          "type": "Simple LookML parsing — lkml  documentation",
+          "url": "https://lkml.readthedocs.io/en/latest/simple.html"
+        },
+        {
+          "type": "Parsing from the command line — lkml  documentation",
+          "url": "https://lkml.readthedocs.io/en/latest/cli.html"
+        },
+        {
+          "type": "Advanced LookML parsing — lkml  documentation",
+          "url": "https://lkml.readthedocs.io/en/latest/advanced.html"
+        },
+        {
+          "type": "Index — lkml  documentation",
+          "url": "https://lkml.readthedocs.io/en/latest/genindex.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://lkml.readthedocs.io/en/latest/_sources/index.rst.txt"
+        },
+        {
+          "type": "Search — lkml  documentation",
+          "url": "https://lkml.readthedocs.io/en/latest/search.html"
+        },
+        {
+          "type": "lkml — lkml  documentation",
+          "url": "https://lkml.readthedocs.io/en/latest/index.html"
+        },
+        {
+          "type": "API reference — lkml  documentation",
+          "url": "https://lkml.readthedocs.io/en/latest/lkml.html"
+        },
+        {
+          "type": "Python Module Index — lkml  documentation",
+          "url": "https://lkml.readthedocs.io/en/latest/py-modindex.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://lkml.readthedocs.io/en/latest/_sources/install.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://lkml.readthedocs.io/en/latest/_sources/cli.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://lkml.readthedocs.io/en/latest/_sources/advanced.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://lkml.readthedocs.io/en/latest/_sources/simple.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://lkml.readthedocs.io/en/latest/_sources/lkml.rst.txt"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7076388a5d5ef2256ef29fb4407e01e31b57bb955b90c3f1872595db44bf259a"
 }

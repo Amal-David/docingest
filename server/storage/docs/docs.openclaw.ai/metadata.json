@@ -180,5 +180,115 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.openclaw.ai/",
+      "canonicalSeedUrl": "https://docs.openclaw.ai/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-10T11:03:08.422Z",
+      "completedAt": "2026-04-10T11:03:08.422Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.openclaw.ai/",
+          "canonicalUrl": "https://docs.openclaw.ai/",
+          "status": "valid"
+        }
+      ],
+      "id": "56ed49f6840b4e3cafbc699d396f7c59aee238238bbde14e450acc5f73996f32",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "668fe26217237d3588573413445d40ed0edee70ecf5e5f86bc8c484562804716",
+      "filename": "documentation_2026-04-10T11:03:08.422Z.md",
+      "contentHash": "66b6920eb64354fafffc3e33c398d5bb76a4fca994ef33bd8805c6e98efb3c4d",
+      "sourceUrl": "https://docs.openclaw.ai/",
+      "canonicalSourceUrl": "https://docs.openclaw.ai/",
+      "capturedAt": "2026-04-10T11:03:08.422Z",
+      "crawlRunId": "56ed49f6840b4e3cafbc699d396f7c59aee238238bbde14e450acc5f73996f32",
+      "upstreamVersion": "1.0.12",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "OpenClaw - OpenClaw",
+          "url": "https://docs.openclaw.ai/"
+        },
+        {
+          "type": "دلالات بيانات اعتماد المصادقة - OpenClaw",
+          "url": "https://docs.openclaw.ai/ar/auth-credential-semantics"
+        },
+        {
+          "type": "المهام المجدولة - OpenClaw",
+          "url": "https://docs.openclaw.ai/ar/automation/cron-jobs"
+        },
+        {
+          "type": "الأتمتة والمهام - OpenClaw",
+          "url": "https://docs.openclaw.ai/ar/automation"
+        },
+        {
+          "type": "الخطافات - OpenClaw",
+          "url": "https://docs.openclaw.ai/ar/automation/hooks"
+        },
+        {
+          "type": "توجيه القنوات - OpenClaw",
+          "url": "https://docs.openclaw.ai/ar/channels/channel-routing"
+        },
+        {
+          "type": "Google Chat - OpenClaw",
+          "url": "https://docs.openclaw.ai/ar/channels/googlechat"
+        },
+        {
+          "type": "Task Flow - OpenClaw",
+          "url": "https://docs.openclaw.ai/ar/automation/taskflow"
+        },
+        {
+          "type": "المهام في الخلفية - OpenClaw",
+          "url": "https://docs.openclaw.ai/ar/automation/tasks"
+        },
+        {
+          "type": "الأوامر الدائمة - OpenClaw",
+          "url": "https://docs.openclaw.ai/ar/automation/standing-orders"
+        },
+        {
+          "type": "مجموعات البث - OpenClaw",
+          "url": "https://docs.openclaw.ai/ar/channels/broadcast-groups"
+        },
+        {
+          "type": "BlueBubbles - OpenClaw",
+          "url": "https://docs.openclaw.ai/ar/channels/bluebubbles"
+        },
+        {
+          "type": "Feishu - OpenClaw",
+          "url": "https://docs.openclaw.ai/ar/channels/feishu"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "668fe26217237d3588573413445d40ed0edee70ecf5e5f86bc8c484562804716"
 }

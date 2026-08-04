@@ -112,5 +112,155 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "http://docs.heaven.xyz",
+      "canonicalSeedUrl": "http://docs.heaven.xyz/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-24T05:27:39.535Z",
+      "completedAt": "2025-08-24T05:27:39.535Z",
+      "providerTotals": {
+        "discovered": 23,
+        "returned": 23,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "http://docs.heaven.xyz",
+          "canonicalUrl": "http://docs.heaven.xyz/",
+          "status": "valid"
+        }
+      ],
+      "id": "7f26ff5428d0d74d6515ecd8f0594089a5405ed3287229f27aeae252843d8cac",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "90a0c5969b931dd3aec6d65673c8b5857e41562812dbbc951bd29233ec6d0200",
+      "filename": "documentation_2025-08-24T05:27:39.535Z.md",
+      "contentHash": "6b4fd2e917c01cf6b64b0fc4e6b7b1637faf73cdfdba687218314ad0e5a6c7b8",
+      "sourceUrl": "http://docs.heaven.xyz",
+      "canonicalSourceUrl": "http://docs.heaven.xyz/",
+      "capturedAt": "2025-08-24T05:27:39.535Z",
+      "crawlRunId": "7f26ff5428d0d74d6515ecd8f0594089a5405ed3287229f27aeae252843d8cac",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 23,
+      "successfulPages": 23,
+      "structure": [
+        {
+          "type": "Unknown",
+          "url": "http://docs.heaven.xyz"
+        },
+        {
+          "type": "Assets - Heaven Docs",
+          "url": "https://docs.heaven.xyz/assets"
+        },
+        {
+          "type": "What is Heaven? - Heaven Docs",
+          "url": "https://docs.heaven.xyz/about"
+        },
+        {
+          "type": "Certora Audit - Heaven Docs",
+          "url": "https://docs.heaven.xyz/certora"
+        },
+        {
+          "type": "No bonding curve - Heaven Docs",
+          "url": "https://docs.heaven.xyz/curve"
+        },
+        {
+          "type": "The god flywheel - Heaven Docs",
+          "url": "https://docs.heaven.xyz/god"
+        },
+        {
+          "type": "Genesis - Heaven Docs",
+          "url": "https://docs.heaven.xyz/ico"
+        },
+        {
+          "type": "Brand guidelines - Heaven Docs",
+          "url": "https://docs.heaven.xyz/guidelines"
+        },
+        {
+          "type": "What is $LIGHT? - Heaven Docs",
+          "url": "https://docs.heaven.xyz/light"
+        },
+        {
+          "type": "Intro - Heaven Docs",
+          "url": "https://docs.heaven.xyz/intro"
+        },
+        {
+          "type": "Flywheel - Heaven Docs",
+          "url": "https://docs.heaven.xyz/flywheel"
+        },
+        {
+          "type": "Fees - Heaven Docs",
+          "url": "https://docs.heaven.xyz/fees"
+        },
+        {
+          "type": "Permissionless launches - Heaven Docs",
+          "url": "https://docs.heaven.xyz/permissionless"
+        },
+        {
+          "type": "Why did we build this? - Heaven Docs",
+          "url": "https://docs.heaven.xyz/why"
+        },
+        {
+          "type": "Addresses - Heaven Docs",
+          "url": "https://docs.heaven.xyz/sdk/contract/addresses"
+        },
+        {
+          "type": "Permissioned fees - Heaven Docs",
+          "url": "https://docs.heaven.xyz/permissioned"
+        },
+        {
+          "type": "Highly profitable - Heaven Docs",
+          "url": "https://docs.heaven.xyz/profit"
+        },
+        {
+          "type": "Who did we build this for? - Heaven Docs",
+          "url": "https://docs.heaven.xyz/who"
+        },
+        {
+          "type": "Accounts - Heaven Docs",
+          "url": "https://docs.heaven.xyz/sdk/contract/accounts"
+        },
+        {
+          "type": "Standardized - Heaven Docs",
+          "url": "https://docs.heaven.xyz/standardized"
+        },
+        {
+          "type": "All-in-one - Heaven Docs",
+          "url": "https://docs.heaven.xyz/together"
+        },
+        {
+          "type": "Rust - Heaven Docs",
+          "url": "https://docs.heaven.xyz/sdk/quickstart/rust"
+        },
+        {
+          "type": "IDL - Heaven Docs",
+          "url": "https://docs.heaven.xyz/sdk/contract/idl"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "90a0c5969b931dd3aec6d65673c8b5857e41562812dbbc951bd29233ec6d0200"
 }

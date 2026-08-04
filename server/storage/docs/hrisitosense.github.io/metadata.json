@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://hrisitosense.github.io/lua",
+      "canonicalSeedUrl": "https://hrisitosense.github.io/lua",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-20T00:46:30.687Z",
+      "completedAt": "2026-07-20T00:46:30.687Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://hrisitosense.github.io/lua",
+          "canonicalUrl": "https://hrisitosense.github.io/lua",
+          "status": "valid"
+        }
+      ],
+      "id": "41d9b75cb2514e6a6367237ef727b8b30c8c0da3344b2320a2df8bbb6cc2d540",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0c37099df0ff682c1d54210b329ec50b37d991c98e5bf9bcdf747461bdc25264",
+      "filename": "documentation_2026-07-20T00:46:30.687Z.md",
+      "contentHash": "62d430b43b9ae76ffab193d47f0e3968434de89681617a7bb8f9919e409a0eed",
+      "sourceUrl": "https://hrisitosense.github.io/lua",
+      "canonicalSourceUrl": "https://hrisitosense.github.io/lua",
+      "capturedAt": "2026-07-20T00:46:30.687Z",
+      "crawlRunId": "41d9b75cb2514e6a6367237ef727b8b30c8c0da3344b2320a2df8bbb6cc2d540",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Lua API / HrisitoSense",
+          "url": "https://hrisitosense.github.io/lua"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0c37099df0ff682c1d54210b329ec50b37d991c98e5bf9bcdf747461bdc25264"
 }

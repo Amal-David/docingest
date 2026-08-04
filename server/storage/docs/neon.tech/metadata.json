@@ -88,5 +88,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://neon.tech/docs/use-cases/database-per-user#managing-many-projects",
+      "canonicalSeedUrl": "https://neon.tech/docs/use-cases/database-per-user",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-25T18:35:48.339Z",
+      "completedAt": "2025-04-25T18:35:48.339Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://neon.tech/docs/use-cases/database-per-user#managing-many-projects",
+          "canonicalUrl": "https://neon.tech/docs/use-cases/database-per-user",
+          "status": "valid"
+        }
+      ],
+      "id": "1e891497127e5739574159044da5028c4a714068af2a7cbf0da71940a8f2fc1a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d2e68083c2ed37474c9b3530ae68c5bffaf852996ec16bca143d2548ccf4d79f",
+      "filename": "documentation_2025-04-25T18:35:48.339Z.md",
+      "contentHash": "09eb692325d996285590c61cbacce576fa722efbc9d2072af5aef80f5db5e104",
+      "sourceUrl": "https://neon.tech/docs/use-cases/database-per-user#managing-many-projects",
+      "canonicalSourceUrl": "https://neon.tech/docs/use-cases/database-per-user",
+      "capturedAt": "2025-04-25T18:35:48.339Z",
+      "crawlRunId": "1e891497127e5739574159044da5028c4a714068af2a7cbf0da71940a8f2fc1a",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Neon for Database-per-user - Neon Docs",
+          "url": "https://neon.tech/docs/use-cases/database-per-user#managing-many-projects"
+        },
+        {
+          "type": "Neon Serverless Postgres — Ship faster",
+          "url": "https://neon.tech/"
+        },
+        {
+          "type": "Treat AI Like a Senior Dev, Not a Junior One - Neon",
+          "url": "https://neon.tech/blog/treat-ai-like-a-senior-dev-not-a-junior-one"
+        },
+        {
+          "type": "Neon Docs - Neon Docs",
+          "url": "https://neon.tech/docs/introduction"
+        },
+        {
+          "type": "Neon AI Chat",
+          "url": "https://neon.tech/ai-chat"
+        },
+        {
+          "type": "Connect to Neon - Neon Docs",
+          "url": "https://neon.tech/docs/connect/connect-intro"
+        },
+        {
+          "type": "Why Neon? - Neon Docs",
+          "url": "https://neon.tech/docs/get-started-with-neon/why-neon"
+        },
+        {
+          "type": "Neon data migration guides - Neon Docs",
+          "url": "https://neon.tech/docs/import/migrate-intro"
+        },
+        {
+          "type": "Neon architecture - Neon Docs",
+          "url": "https://neon.tech/docs/introduction/architecture-overview"
+        },
+        {
+          "type": "Playing with Neon - Neon Docs",
+          "url": "https://neon.tech/docs/get-started-with-neon/signing-up"
+        },
+        {
+          "type": "Neon feature guides - Neon Docs",
+          "url": "https://neon.tech/docs/guides/neon-features"
+        },
+        {
+          "type": "Neon use cases - Neon Docs",
+          "url": "https://neon.tech/docs/use-cases/use-cases-overview"
+        },
+        {
+          "type": "Neon for AI Agents - Neon Docs",
+          "url": "https://neon.tech/docs/use-cases/ai-agents"
+        },
+        {
+          "type": "Database Branching Workflows - Neon",
+          "url": "https://neon.tech/flow"
+        },
+        {
+          "type": "Import Data Assistant - Neon Docs",
+          "url": "https://neon.tech/docs/import/import-data-assistant"
+        },
+        {
+          "type": "Neon for Development and Testing - Neon Docs",
+          "url": "https://neon.tech/docs/use-cases/dev-test"
+        },
+        {
+          "type": "Neon for SaaS apps - Neon Docs",
+          "url": "https://neon.tech/docs/use-cases/saas-apps"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d2e68083c2ed37474c9b3530ae68c5bffaf852996ec16bca143d2548ccf4d79f"
 }

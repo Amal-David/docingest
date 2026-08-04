@@ -185,5 +185,219 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developers.deepgram.com/reference/deepgram-api-overview",
+      "canonicalSeedUrl": "https://developers.deepgram.com/reference/deepgram-api-overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-23T01:15:31.456Z",
+      "completedAt": "2025-10-23T01:15:31.456Z",
+      "providerTotals": {
+        "discovered": 39,
+        "returned": 39,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developers.deepgram.com/reference/deepgram-api-overview",
+          "canonicalUrl": "https://developers.deepgram.com/reference/deepgram-api-overview",
+          "status": "valid"
+        }
+      ],
+      "id": "dfeada6b0a1f5610a0e31c4abbc03252a3af687e6c9e446dedebee7af1b6e2d0",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8c9b6ae954dc2d8fbfcac5aad4c6d5577d39f2d141be573a7e9d074189d1b4a0",
+      "filename": "documentation_2025-10-23T01:15:31.456Z.md",
+      "contentHash": "9fbd285772aee972181718b9da37b45d6f418873bcafa072b47dbe6b4bb83f61",
+      "sourceUrl": "https://developers.deepgram.com/reference/deepgram-api-overview",
+      "canonicalSourceUrl": "https://developers.deepgram.com/reference/deepgram-api-overview",
+      "capturedAt": "2025-10-23T01:15:31.456Z",
+      "crawlRunId": "dfeada6b0a1f5610a0e31c4abbc03252a3af687e6c9e446dedebee7af1b6e2d0",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 39,
+      "successfulPages": 39,
+      "structure": [
+        {
+          "type": "Deepgram API Overview | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/reference/deepgram-api-overview"
+        },
+        {
+          "type": "Welcome to Deepgram's Docs! | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/home"
+        },
+        {
+          "type": "Changelog | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog"
+        },
+        {
+          "type": "Support | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/support"
+        },
+        {
+          "type": "August 6, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/voice-agent-changelog/2025/8/6"
+        },
+        {
+          "type": "September 4, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/voice-agent-changelog/2025/9/4"
+        },
+        {
+          "type": "October 16, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2025/10/16"
+        },
+        {
+          "type": "September 2, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2025/9/2"
+        },
+        {
+          "type": "October 2, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2025/10/2"
+        },
+        {
+          "type": "August 8, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/voice-agent-changelog/2025/8/8"
+        },
+        {
+          "type": "September 16, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2025/9/16"
+        },
+        {
+          "type": "July 31, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/voice-agent-changelog/2025/7/31"
+        },
+        {
+          "type": "July 11, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/voice-agent-changelog/2025/7/11"
+        },
+        {
+          "type": "Voice Agent | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/voice-agent-changelog"
+        },
+        {
+          "type": "March 31, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2025/3/31"
+        },
+        {
+          "type": "March 11, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2025/3/11"
+        },
+        {
+          "type": "May 21, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2025/5/21"
+        },
+        {
+          "type": "September 12, 2024 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2024/9/12"
+        },
+        {
+          "type": "August 15, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2025/8/15"
+        },
+        {
+          "type": "March 3, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2025/3/3"
+        },
+        {
+          "type": "December 16, 2024 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2024/12/16"
+        },
+        {
+          "type": "June 11, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2025/6/11"
+        },
+        {
+          "type": "February 12, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2025/2/12"
+        },
+        {
+          "type": "April 2, 2025 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2025/4/2"
+        },
+        {
+          "type": "August 19, 2024 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2024/8/19"
+        },
+        {
+          "type": "August 15, 2024 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2024/8/15"
+        },
+        {
+          "type": "Speech-to-Text | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog"
+        },
+        {
+          "type": "July 22, 2024 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2024/7/22"
+        },
+        {
+          "type": "September 28, 2023 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2023/9/28"
+        },
+        {
+          "type": "June 2, 2023 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2023/6/2"
+        },
+        {
+          "type": "May 24, 2024 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2024/5/24"
+        },
+        {
+          "type": "May 11, 2023 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2023/5/11"
+        },
+        {
+          "type": "July 16, 2024 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2024/7/16"
+        },
+        {
+          "type": "June 30, 2023 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2023/6/30"
+        },
+        {
+          "type": "October 17, 2022 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2022/10/17"
+        },
+        {
+          "type": "March 15, 2023 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2023/3/15"
+        },
+        {
+          "type": "February 27, 2023 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2023/2/27"
+        },
+        {
+          "type": "October 14, 2022 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2022/10/14"
+        },
+        {
+          "type": "April 13, 2023 | Deepgram's Docs",
+          "url": "https://developers.deepgram.com/changelog/speech-to-text-changelog/2023/4/13"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8c9b6ae954dc2d8fbfcac5aad4c6d5577d39f2d141be573a7e9d074189d1b4a0"
 }

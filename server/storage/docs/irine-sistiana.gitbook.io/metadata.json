@@ -106,5 +106,131 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://irine-sistiana.gitbook.io/mosdns-wiki/",
+      "canonicalSeedUrl": "https://irine-sistiana.gitbook.io/mosdns-wiki",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-01T08:30:40.806Z",
+      "completedAt": "2026-03-01T08:30:40.806Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/",
+          "canonicalUrl": "https://irine-sistiana.gitbook.io/mosdns-wiki",
+          "status": "valid"
+        }
+      ],
+      "id": "9051596b1d704115cf48119139019e8ea42aa6716ef8fa6d3bd75d08ee4fbc2d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "70a77dcff218503aacf351ea56408444aa71f8674ae3f028042fd45898dcfd25",
+      "filename": "documentation_2026-03-01T08:30:40.806Z.md",
+      "contentHash": "cce931c811b48d17d60adcf2e4e0e46abfe926b2152f4ede36caa8cb9703cb13",
+      "sourceUrl": "https://irine-sistiana.gitbook.io/mosdns-wiki/",
+      "canonicalSourceUrl": "https://irine-sistiana.gitbook.io/mosdns-wiki",
+      "capturedAt": "2026-03-01T08:30:40.806Z",
+      "crawlRunId": "9051596b1d704115cf48119139019e8ea42aa6716ef8fa6d3bd75d08ee4fbc2d",
+      "upstreamVersion": "1.0.2",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "mosdns wiki | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/"
+        },
+        {
+          "type": "服务器插件 | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v5/ru-he-pei-zhi-mosdns/fu-wu-qi-cha-jian"
+        },
+        {
+          "type": "mosdns v5 | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v5"
+        },
+        {
+          "type": "如何配置 mosdns | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v5/ru-he-pei-zhi-mosdns"
+        },
+        {
+          "type": "数据插件 | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v5/ru-he-pei-zhi-mosdns/shu-ju-cha-jian"
+        },
+        {
+          "type": "可执行插件 | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v5/ru-he-pei-zhi-mosdns/ke-zhi-xing-cha-jian"
+        },
+        {
+          "type": "域名匹配规则 | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v5/ru-he-pei-zhi-mosdns/yu-ming-pi-pei-gui-ze"
+        },
+        {
+          "type": "Sequence 插件 | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v5/ru-he-pei-zhi-mosdns/sequence-cha-jian"
+        },
+        {
+          "type": "Debug 内存与性能问题 | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v5/debug-nei-cun-yu-xing-neng-wen-ti"
+        },
+        {
+          "type": "如何编写新插件 | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v5/ru-he-bian-xie-xin-cha-jian"
+        },
+        {
+          "type": "API 说明 | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v5/api-shuo-ming"
+        },
+        {
+          "type": "Debug 内存与性能问题 | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v4/debug-nei-cun-yu-xing-neng-wen-ti"
+        },
+        {
+          "type": "mosdns v4 | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v4"
+        },
+        {
+          "type": "如何编写新插件 | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v4/ru-he-bian-xie-xin-cha-jian"
+        },
+        {
+          "type": "API 说明 | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v4/api-shuo-ming"
+        },
+        {
+          "type": "如何配置 mosdns | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v4/ru-he-pei-zhi-mosdns"
+        },
+        {
+          "type": "插件及其参数 | mosdns-wiki-zh",
+          "url": "https://irine-sistiana.gitbook.io/mosdns-wiki/mosdns-v4/cha-jian-ji-qi-can-shu"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "70a77dcff218503aacf351ea56408444aa71f8674ae3f028042fd45898dcfd25"
 }

@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.xstocks.fi/",
+      "canonicalSeedUrl": "https://docs.xstocks.fi/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-05T15:36:54.658Z",
+      "completedAt": "2026-01-05T15:36:54.658Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.xstocks.fi/",
+          "canonicalUrl": "https://docs.xstocks.fi/",
+          "status": "valid"
+        }
+      ],
+      "id": "4e4c8c45373c97397d559cef17bd71aa6fd8640b06ab2d82a31105ad124d8338",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ad657449e7f3f4c88f7f5a461c79d18e11f147e6b894f7e24dbf418643eb118b",
+      "filename": "documentation_2026-01-05T15:36:54.658Z.md",
+      "contentHash": "d45fa5df0ca6b91fee2792fa8bb745ab635ef558c312988139a02e40857fff5a",
+      "sourceUrl": "https://docs.xstocks.fi/",
+      "canonicalSourceUrl": "https://docs.xstocks.fi/",
+      "capturedAt": "2026-01-05T15:36:54.658Z",
+      "crawlRunId": "4e4c8c45373c97397d559cef17bd71aa6fd8640b06ab2d82a31105ad124d8338",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Welcome to xStocks | xStocks Docs",
+          "url": "https://docs.xstocks.fi/"
+        },
+        {
+          "type": "Frequently Asked Questions | xStocks Docs",
+          "url": "https://docs.xstocks.fi/frequently-asked-questions"
+        },
+        {
+          "type": "Products | xStocks Docs",
+          "url": "https://docs.xstocks.fi/overview/products"
+        },
+        {
+          "type": "Dividends & Stock Splits | xStocks Docs",
+          "url": "https://docs.xstocks.fi/overview/dividends-and-stock-splits"
+        },
+        {
+          "type": "Dividends & Stock Splits Technical Overview | xStocks Docs",
+          "url": "https://docs.xstocks.fi/overview/dividends-and-stock-splits/dividends-and-stock-splits-technical-overview"
+        },
+        {
+          "type": "Onboarding | xStocks Docs",
+          "url": "https://docs.xstocks.fi/overview/onboarding"
+        },
+        {
+          "type": "Tokenization | xStocks Docs",
+          "url": "https://docs.xstocks.fi/legal-and-compliance/tokenization"
+        },
+        {
+          "type": "Legal and Regulatory Overview | xStocks Docs",
+          "url": "https://docs.xstocks.fi/legal-and-compliance/legal-and-regulatory-overview"
+        },
+        {
+          "type": "Audits | xStocks Docs",
+          "url": "https://docs.xstocks.fi/reference/audits"
+        },
+        {
+          "type": "Issuance and Redemption | xStocks Docs",
+          "url": "https://docs.xstocks.fi/overview/issuance-and-redemption"
+        },
+        {
+          "type": "Backed Finance API – Integration Guide | xStocks Docs",
+          "url": "https://docs.xstocks.fi/overview/backed-finance-api-integration-guide"
+        },
+        {
+          "type": "Disclaimers | xStocks Docs",
+          "url": "https://docs.xstocks.fi/legal-and-compliance/disclaimers"
+        },
+        {
+          "type": "Media & Brand Kit | xStocks Docs",
+          "url": "https://docs.xstocks.fi/reference/media-and-brand-kit"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ad657449e7f3f4c88f7f5a461c79d18e11f147e6b894f7e24dbf418643eb118b"
 }

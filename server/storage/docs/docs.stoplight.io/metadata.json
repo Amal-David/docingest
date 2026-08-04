@@ -24,5 +24,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.stoplight.io",
+      "canonicalSeedUrl": "https://docs.stoplight.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-21T16:13:18.355Z",
+      "completedAt": "2025-02-21T16:13:18.355Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.stoplight.io",
+          "canonicalUrl": "https://docs.stoplight.io/",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "b3ef4ea694910ee959cedf4f9d89ed08f2176049962ba6330627574da4847883",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "70f98c881c9b61879065b2238db682490d69532114390fc1c1c27f205e95b3c9",
+      "filename": "documentation_2025-02-21T16:13:18.355Z.md",
+      "contentHash": "806a5978fb9aac0c68905329ca4838a760e5ba10eccf04c6eb0919f93a510723",
+      "sourceUrl": "https://docs.stoplight.io",
+      "canonicalSourceUrl": "https://docs.stoplight.io/",
+      "capturedAt": "2025-02-21T16:13:18.355Z",
+      "crawlRunId": "b3ef4ea694910ee959cedf4f9d89ed08f2176049962ba6330627574da4847883",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Stoplight | Stoplight",
+          "url": "https://docs.stoplight.io"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

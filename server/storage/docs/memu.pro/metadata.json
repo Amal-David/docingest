@@ -33,5 +33,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://memu.pro/docs",
+      "canonicalSeedUrl": "https://memu.pro/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-18T01:45:47.602Z",
+      "completedAt": "2026-02-18T01:45:47.602Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://memu.pro/docs",
+          "canonicalUrl": "https://memu.pro/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "0af2d1753fd59c1b1497127e377c3230d5e5563f1a5e72ca3ae97d5bd1387f0b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f57d0dd899f31969673c1fc70badd5238412a972cfb9d75414ef9939ddf493e8",
+      "filename": "documentation_2026-02-18T01:45:47.602Z.md",
+      "contentHash": "7e9148381265b0a42c28b03d005a58cbc4f5bcb341314b842d6564239bef7048",
+      "sourceUrl": "https://memu.pro/docs",
+      "canonicalSourceUrl": "https://memu.pro/docs",
+      "capturedAt": "2026-02-18T01:45:47.602Z",
+      "crawlRunId": "0af2d1753fd59c1b1497127e377c3230d5e5563f1a5e72ca3ae97d5bd1387f0b",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Memory for Proactive 24/7 Agents | MemU - Let AI Agents Work for You",
+          "url": "https://memu.pro/docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f57d0dd899f31969673c1fc70badd5238412a972cfb9d75414ef9939ddf493e8"
 }

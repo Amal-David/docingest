@@ -60,5 +60,69 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://postman.sportmonks.com/*",
+      "canonicalSeedUrl": "https://postman.sportmonks.com/*",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-24T14:01:38.208Z",
+      "completedAt": "2026-02-24T14:01:38.208Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://postman.sportmonks.com/*",
+          "canonicalUrl": "https://postman.sportmonks.com/*",
+          "status": "rejected",
+          "reason": "error-page-content"
+        }
+      ],
+      "id": "97fcc9945fa8e02ffd02a87609d5029e3b1f95d83d4864f63d8072bf8f4f926c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 1,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "6257aee0db13cd4b317d460047e4d652fbe71521bb5d9615025cc052b82f08ce",
+      "filename": "documentation_2026-02-24T14:01:38.208Z.md",
+      "contentHash": "d3c8425c00a2f77e63ed1b61bb4546600e3aee53daed7d9f04da5c802be6a0a9",
+      "sourceUrl": "https://postman.sportmonks.com/*",
+      "canonicalSourceUrl": "https://postman.sportmonks.com/*",
+      "capturedAt": "2026-02-24T14:01:38.208Z",
+      "crawlRunId": "97fcc9945fa8e02ffd02a87609d5029e3b1f95d83d4864f63d8072bf8f4f926c",
+      "upstreamVersion": "1.0.4",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Not found",
+          "url": "https://postman.sportmonks.com/*"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "error-page-content"
+        ]
+      }
+    }
+  ]
 }

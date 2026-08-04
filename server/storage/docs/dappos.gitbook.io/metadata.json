@@ -116,5 +116,159 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://dappos.gitbook.io/docs",
+      "canonicalSeedUrl": "https://dappos.gitbook.io/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-10T07:30:25.835Z",
+      "completedAt": "2025-11-10T07:30:25.835Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://dappos.gitbook.io/docs",
+          "canonicalUrl": "https://dappos.gitbook.io/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "e6ad6faed1bf68acceb093614525eb26441f06461e2f32c4bd6bdc005013cc40",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cad9750613b4d1c6cef41b49677c31ae5bdc9630b8d082c86f9d7c95d98bb018",
+      "filename": "documentation_2025-11-10T07:30:25.835Z.md",
+      "contentHash": "093370e4cbd806ffcb9afc384d0d557025e32fbb43a6997f43efeebb634b2da8",
+      "sourceUrl": "https://dappos.gitbook.io/docs",
+      "canonicalSourceUrl": "https://dappos.gitbook.io/docs",
+      "capturedAt": "2025-11-10T07:30:25.835Z",
+      "crawlRunId": "e6ad6faed1bf68acceb093614525eb26441f06461e2f32c4bd6bdc005013cc40",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "Overview of DAPPOS | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs"
+        },
+        {
+          "type": "Core Features | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/overview-of-dappos/core-features"
+        },
+        {
+          "type": "Introduction | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/overview-of-dappos/introduction"
+        },
+        {
+          "type": "Intelligence Layer | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/overview-of-dappos/intelligence-layer"
+        },
+        {
+          "type": "Generic AI vs. Web3 AI OS | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/overview-of-dappos/generic-ai-vs.-web3-ai-os"
+        },
+        {
+          "type": "Multi-Agent Framework (MAF) | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/overview-of-dappos/intelligence-layer/multi-agent-framework-maf"
+        },
+        {
+          "type": "Core Components | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/overview-of-dappos/intelligence-layer/core-components"
+        },
+        {
+          "type": "The Bubble Engine | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/overview-of-dappos/intelligence-layer/the-bubble-engine"
+        },
+        {
+          "type": "Innovations and Future | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/overview-of-dappos/intelligence-layer/innovations-and-future"
+        },
+        {
+          "type": "Execution Layer | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/overview-of-dappos/execution-layer"
+        },
+        {
+          "type": "Quick Start | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/how-to-guides/web3-ai-os/quick-start"
+        },
+        {
+          "type": "Use Cases | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/how-to-guides/web3-ai-os/use-cases"
+        },
+        {
+          "type": "Web3 AI OS | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/how-to-guides/web3-ai-os"
+        },
+        {
+          "type": "Background and Problem Statement | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/overview-of-dappos/execution-layer/background-and-problem-statement"
+        },
+        {
+          "type": "Intent Task Frameworks | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/overview-of-dappos/execution-layer/intent-task-frameworks"
+        },
+        {
+          "type": "How-to Guides | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/how-to-guides"
+        },
+        {
+          "type": "How Intent Execution Network works | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/overview-of-dappos/execution-layer/how-intent-execution-network-works"
+        },
+        {
+          "type": "Security | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/security"
+        },
+        {
+          "type": "Withdraw Delay | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/security/withdraw-delay"
+        },
+        {
+          "type": "Support | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/support"
+        },
+        {
+          "type": "BubbleUp Tasks | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/how-to-guides/bubbleup-tasks"
+        },
+        {
+          "type": "Bug Bounty | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/security/bug-bounty"
+        },
+        {
+          "type": "External Audits | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos/security/external-audits"
+        },
+        {
+          "type": "Overview of DAPPOS | DAPPOS",
+          "url": "https://dappos.gitbook.io/docs/dappos"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cad9750613b4d1c6cef41b49677c31ae5bdc9630b8d082c86f9d7c95d98bb018"
 }

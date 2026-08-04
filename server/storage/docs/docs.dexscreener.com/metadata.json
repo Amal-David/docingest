@@ -41,5 +41,75 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.dexscreener.com/api/reference",
+      "canonicalSeedUrl": "https://docs.dexscreener.com/api/reference",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-17T21:42:20.837Z",
+      "completedAt": "2025-12-17T21:42:20.837Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.dexscreener.com/api/reference",
+          "canonicalUrl": "https://docs.dexscreener.com/api/reference",
+          "status": "valid"
+        }
+      ],
+      "id": "5c772a1afba74c60161851285ceb99e17c8afa7520223fa0b5086de03eef3189",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2fabc7f5d07ee805073916365f97c37112babae192c53bc9292dd9163a3f14fd",
+      "filename": "documentation_2025-12-17T21:42:20.837Z.md",
+      "contentHash": "b1901466cba94f96bee05bfd690e0562dd4e56c7ef80b6abbc66b6bc34c5f932",
+      "sourceUrl": "https://docs.dexscreener.com/api/reference",
+      "canonicalSourceUrl": "https://docs.dexscreener.com/api/reference",
+      "capturedAt": "2025-12-17T21:42:20.837Z",
+      "crawlRunId": "5c772a1afba74c60161851285ceb99e17c8afa7520223fa0b5086de03eef3189",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "structure": [
+        {
+          "type": "Reference | DEX Screener - Docs",
+          "url": "https://docs.dexscreener.com/api/reference"
+        },
+        {
+          "type": "API Terms & Conditions | DEX Screener - Docs",
+          "url": "https://docs.dexscreener.com/api/api-terms-and-conditions"
+        },
+        {
+          "type": "Reference | DEX Screener - Docs",
+          "url": "https://docs.dexscreener.com/api"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2fabc7f5d07ee805073916365f97c37112babae192c53bc9292dd9163a3f14fd"
 }

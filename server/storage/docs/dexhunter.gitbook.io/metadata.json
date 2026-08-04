@@ -93,5 +93,127 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://dexhunter.gitbook.io/dexhunter-partners",
+      "canonicalSeedUrl": "https://dexhunter.gitbook.io/dexhunter-partners",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-15T05:00:31.423Z",
+      "completedAt": "2025-08-15T05:00:31.423Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners",
+          "canonicalUrl": "https://dexhunter.gitbook.io/dexhunter-partners",
+          "status": "valid"
+        }
+      ],
+      "id": "eb3cf0fbfe887362614102f40c93d2747cc0841ee8d9ccf939d61664f56f7e7b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "aa41249f510ad951aee6fca3655836b62a5959a51efea9429323bb5f623744aa",
+      "filename": "documentation_2025-08-15T05:00:31.423Z.md",
+      "contentHash": "77807247f83e7b45107f4ef5e797ec49da68fe0b00da09bf496da01c40a5fbf7",
+      "sourceUrl": "https://dexhunter.gitbook.io/dexhunter-partners",
+      "canonicalSourceUrl": "https://dexhunter.gitbook.io/dexhunter-partners",
+      "capturedAt": "2025-08-15T05:00:31.423Z",
+      "crawlRunId": "eb3cf0fbfe887362614102f40c93d2747cc0841ee8d9ccf939d61664f56f7e7b",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "DexHunter Partners | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners"
+        },
+        {
+          "type": "Introduction | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/introduction"
+        },
+        {
+          "type": "API Documentation | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/api-documentation/api-documentation"
+        },
+        {
+          "type": "Swap Customizations | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/swap-widget/swap-customizations"
+        },
+        {
+          "type": "DexHunter API | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/api-documentation/dexhunter-api"
+        },
+        {
+          "type": "Swap Integration | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/swap-widget/swap-integration"
+        },
+        {
+          "type": "API Examples | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/api-documentation/api-examples"
+        },
+        {
+          "type": "Advanced Nodes | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/advanced-nodes"
+        },
+        {
+          "type": "Planned Utility | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/planned-utility"
+        },
+        {
+          "type": "DexHunter Swap React Library | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/swap-widget/dexhunter-swap-react-library"
+        },
+        {
+          "type": "Dashboard | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/swap-widget/dashboard"
+        },
+        {
+          "type": "Embedded Swaps | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/swap-widget/embedded-swaps"
+        },
+        {
+          "type": "Buybacks & Burn | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/hunt-utility/buybacks-and-burn"
+        },
+        {
+          "type": "API Documentation | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/api-documentation"
+        },
+        {
+          "type": "Swap Integration | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/swap-widget"
+        },
+        {
+          "type": "Buybacks & Burn | DexHunter Partners",
+          "url": "https://dexhunter.gitbook.io/dexhunter-partners/hunt-utility"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "aa41249f510ad951aee6fca3655836b62a5959a51efea9429323bb5f623744aa"
 }

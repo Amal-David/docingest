@@ -124,5 +124,167 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://documentation.tokens.studio/",
+      "canonicalSeedUrl": "https://documentation.tokens.studio/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-13T20:23:59.857Z",
+      "completedAt": "2025-03-13T20:23:59.857Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://documentation.tokens.studio/",
+          "canonicalUrl": "https://documentation.tokens.studio/",
+          "status": "valid"
+        }
+      ],
+      "id": "8358574b5bb801913d39dfc0d80e6dfcdc293c0b4f503b335ad17c6a77cb6a17",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "bc682f1efea0c70da4e553a6dd53b931c1a5491d1d2d40e928f27cba59730d73",
+      "filename": "documentation_2025-03-13T20:23:59.857Z.md",
+      "contentHash": "6fc2bc5ad4693cd7a215373bc8837b9dd0c51422137b53c023ef353a0f54c694",
+      "sourceUrl": "https://documentation.tokens.studio/",
+      "canonicalSourceUrl": "https://documentation.tokens.studio/",
+      "capturedAt": "2025-03-13T20:23:59.857Z",
+      "crawlRunId": "8358574b5bb801913d39dfc0d80e6dfcdc293c0b4f503b335ad17c6a77cb6a17",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "Why Studio? | Studio",
+          "url": "https://documentation.tokens.studio/"
+        },
+        {
+          "type": "Inviting members | Studio",
+          "url": "https://documentation.tokens.studio/platform/platform/inviting-members"
+        },
+        {
+          "type": "Connect Studio to Figma | Studio",
+          "url": "https://documentation.tokens.studio/connect-studio-to-figma"
+        },
+        {
+          "type": "Import from Figma variables | Studio",
+          "url": "https://documentation.tokens.studio/setting-up-studio/import-from-figma-variables"
+        },
+        {
+          "type": "Features | Studio",
+          "url": "https://documentation.tokens.studio/platform/features"
+        },
+        {
+          "type": "Platform | Studio",
+          "url": "https://documentation.tokens.studio/platform/platform"
+        },
+        {
+          "type": "Editing | Studio",
+          "url": "https://documentation.tokens.studio/graph-engine/editing"
+        },
+        {
+          "type": "Creating a Graph Based Set | Studio",
+          "url": "https://documentation.tokens.studio/graph-engine/creating-a-graph-based-set"
+        },
+        {
+          "type": "Theme Groups and Theme Options | Studio",
+          "url": "https://documentation.tokens.studio/platform/features/themes/theme-groups-and-theme-options"
+        },
+        {
+          "type": "Getting Started | Studio",
+          "url": "https://documentation.tokens.studio/getting-started"
+        },
+        {
+          "type": "Token Sets | Studio",
+          "url": "https://documentation.tokens.studio/platform/features/tokens/token-sets"
+        },
+        {
+          "type": "Using Companion by Tokens Studio | Studio",
+          "url": "https://documentation.tokens.studio/connect-studio-to-figma/using-companion-by-tokens-studio"
+        },
+        {
+          "type": "Introduction | Studio",
+          "url": "https://documentation.tokens.studio/graph-engine/introduction"
+        },
+        {
+          "type": "Tokens Studio for Figma Plugin | Studio",
+          "url": "https://documentation.tokens.studio/plugins/tokens-studio-for-figma-plugin"
+        },
+        {
+          "type": "Types | Studio",
+          "url": "https://documentation.tokens.studio/graph-engine/types"
+        },
+        {
+          "type": "Token flow | Studio",
+          "url": "https://documentation.tokens.studio/platform/features/tokens/token-flow"
+        },
+        {
+          "type": "Releases | Studio",
+          "url": "https://documentation.tokens.studio/platform/features/releases"
+        },
+        {
+          "type": "Connect Studio to Code | Studio",
+          "url": "https://documentation.tokens.studio/connect-studio-to-code"
+        },
+        {
+          "type": "API keys | Studio",
+          "url": "https://documentation.tokens.studio/platform/platform/api-keys"
+        },
+        {
+          "type": "Setting up Studio | Studio",
+          "url": "https://documentation.tokens.studio/setting-up-studio"
+        },
+        {
+          "type": "Nodes | Studio",
+          "url": "https://documentation.tokens.studio/graph-engine/nodes"
+        },
+        {
+          "type": "Project | Studio",
+          "url": "https://documentation.tokens.studio/platform/platform/project"
+        },
+        {
+          "type": "Organisation | Studio",
+          "url": "https://documentation.tokens.studio/platform/platform/organisation"
+        },
+        {
+          "type": "Using Tokens Studio for Figma | Studio",
+          "url": "https://documentation.tokens.studio/connect-studio-to-figma/using-tokens-studio-for-figma"
+        },
+        {
+          "type": "Configuration | Studio",
+          "url": "https://documentation.tokens.studio/platform/features/configuration"
+        },
+        {
+          "type": "Accounts | Studio",
+          "url": "https://documentation.tokens.studio/platform/platform/accounts"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "bc682f1efea0c70da4e553a6dd53b931c1a5491d1d2d40e928f27cba59730d73"
 }

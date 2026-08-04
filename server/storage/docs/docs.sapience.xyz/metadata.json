@@ -165,5 +165,199 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.sapience.xyz/user-guide/introduction/what-is-sapience",
+      "canonicalSeedUrl": "https://docs.sapience.xyz/user-guide/introduction/what-is-sapience",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-22T17:05:49.758Z",
+      "completedAt": "2025-10-22T17:05:49.758Z",
+      "providerTotals": {
+        "discovered": 34,
+        "returned": 34,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.sapience.xyz/user-guide/introduction/what-is-sapience",
+          "canonicalUrl": "https://docs.sapience.xyz/user-guide/introduction/what-is-sapience",
+          "status": "valid"
+        }
+      ],
+      "id": "b5a30ad5e5c9afd3edc539bb209c6eccdf276f29ce93bc96be79f0aa7d2e31f8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f2fffb85fe4accddfc375d180c3fb08beeb600b2728cd7dc31fb882d613412fe",
+      "filename": "documentation_2025-10-22T17:05:49.758Z.md",
+      "contentHash": "c8ffc3c58e7bc13b6715b3467b50b997a6ba08a5208401745a8d9d135c52980d",
+      "sourceUrl": "https://docs.sapience.xyz/user-guide/introduction/what-is-sapience",
+      "canonicalSourceUrl": "https://docs.sapience.xyz/user-guide/introduction/what-is-sapience",
+      "capturedAt": "2025-10-22T17:05:49.758Z",
+      "crawlRunId": "b5a30ad5e5c9afd3edc539bb209c6eccdf276f29ce93bc96be79f0aa7d2e31f8",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 34,
+      "successfulPages": 34,
+      "structure": [
+        {
+          "type": "What is Sapience?",
+          "url": "https://docs.sapience.xyz/user-guide/introduction/what-is-sapience"
+        },
+        {
+          "type": "Glossary of Terms – Sapience",
+          "url": "https://docs.sapience.xyz/user-guide/other-resources/glossary"
+        },
+        {
+          "type": "Trading on Sapience — Overview",
+          "url": "https://docs.sapience.xyz/user-guide/trading/overview"
+        },
+        {
+          "type": "Auction Markets – Sapience",
+          "url": "https://docs.sapience.xyz/user-guide/trading/auction-markets"
+        },
+        {
+          "type": "Providing Liquidity – Sapience",
+          "url": "https://docs.sapience.xyz/user-guide/liquidity-overview"
+        },
+        {
+          "type": "Spot Markets – Sapience",
+          "url": "https://docs.sapience.xyz/user-guide/trading/spot-markets"
+        },
+        {
+          "type": "Verification & Settlement – Sapience",
+          "url": "https://docs.sapience.xyz/user-guide/trading/resolution-and-disputes"
+        },
+        {
+          "type": "Auction Liquidity – Sapience",
+          "url": "https://docs.sapience.xyz/user-guide/batch-auction-liquidity"
+        },
+        {
+          "type": "Spot Market Liquidity – Sapience",
+          "url": "https://docs.sapience.xyz/user-guide/liquidity-provisioning"
+        },
+        {
+          "type": "Get Started – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/getting-started/get-started"
+        },
+        {
+          "type": "Sapience Documentation",
+          "url": "https://docs.sapience.xyz/"
+        },
+        {
+          "type": "Liquidity Vaults – Sapience",
+          "url": "https://docs.sapience.xyz/user-guide/liquidity-vaults"
+        },
+        {
+          "type": "Brand Assets – Sapience",
+          "url": "https://docs.sapience.xyz/user-guide/other-resources/brand-assets"
+        },
+        {
+          "type": "Community – Sapience",
+          "url": "https://docs.sapience.xyz/user-guide/other-resources/community"
+        },
+        {
+          "type": "Audits – Sapience",
+          "url": "https://docs.sapience.xyz/user-guide/other-resources/audits"
+        },
+        {
+          "type": "FAQ – Sapience",
+          "url": "https://docs.sapience.xyz/user-guide/other-resources/faq"
+        },
+        {
+          "type": "Build a Auction Bot – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/guides/trading-auction-intent-markets"
+        },
+        {
+          "type": "Deploy a Forecasting Agent – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/guides/forecasting-agent"
+        },
+        {
+          "type": "Market Making Agent – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/guides/market-making-agent"
+        },
+        {
+          "type": "Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/storybook"
+        },
+        {
+          "type": "Frequently Asked Questions – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/faq"
+        },
+        {
+          "type": "Contributing – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/contributing"
+        },
+        {
+          "type": "Auction Relayer Reference – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/reference/auction-relayer"
+        },
+        {
+          "type": "Oracles & Settlement – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/reference/oracles-and-settlement"
+        },
+        {
+          "type": "Liquidity Provisioning Bots – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/guides/liquidity-provisioning-bots"
+        },
+        {
+          "type": "Customize Trading App – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/guides/customize-trading-app"
+        },
+        {
+          "type": "Design Dashboards, Games, and more – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/guides/design-dashboards-games"
+        },
+        {
+          "type": "Prediction Market Trading Bots – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/guides/trading-bots"
+        },
+        {
+          "type": "GraphQL API – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/api/graphql"
+        },
+        {
+          "type": "Quoter API – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/api/quoter"
+        },
+        {
+          "type": "GraphQL Schema – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/reference/graphql-schema"
+        },
+        {
+          "type": "Contracts & Addresses – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/reference/contracts-and-addresses"
+        },
+        {
+          "type": "Model Context Protocol (MCP) Server – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/api/mcp"
+        },
+        {
+          "type": "Auction Relayer API – Sapience",
+          "url": "https://docs.sapience.xyz/builder-guide/api/auction-relayer"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f2fffb85fe4accddfc375d180c3fb08beeb600b2728cd7dc31fb882d613412fe"
 }

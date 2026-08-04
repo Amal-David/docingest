@@ -32,5 +32,75 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.gopluslabs.io/docs/getting-started",
+      "canonicalSeedUrl": "https://docs.gopluslabs.io/docs/getting-started",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-14T18:01:30.850Z",
+      "completedAt": "2025-11-14T18:01:30.850Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.gopluslabs.io/docs/getting-started",
+          "canonicalUrl": "https://docs.gopluslabs.io/docs/getting-started",
+          "status": "valid"
+        }
+      ],
+      "id": "2ef69cb1fecac81d76d66ec710394734025a8260e86bb1b530382e5aa92e0b4f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "03b30b433ca5c6732038e2306556e66d2fb5eaa006572079da8004798a2d74c8",
+      "filename": "documentation_2025-11-14T18:01:30.850Z.md",
+      "contentHash": "bdce0874d7ff9cb3fb10bb028dc278640f528a166f4637191f23028d29d86cff",
+      "sourceUrl": "https://docs.gopluslabs.io/docs/getting-started",
+      "canonicalSourceUrl": "https://docs.gopluslabs.io/docs/getting-started",
+      "capturedAt": "2025-11-14T18:01:30.850Z",
+      "crawlRunId": "2ef69cb1fecac81d76d66ec710394734025a8260e86bb1b530382e5aa92e0b4f",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "structure": [
+        {
+          "type": "Introduction",
+          "url": "https://docs.gopluslabs.io/docs/getting-started"
+        },
+        {
+          "type": "Introduction",
+          "url": "https://docs.gopluslabs.io/docs"
+        },
+        {
+          "type": "GoPlus Security SDK",
+          "url": "https://docs.gopluslabs.io/docs/goplus-sdk"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "03b30b433ca5c6732038e2306556e66d2fb5eaa006572079da8004798a2d74c8"
 }

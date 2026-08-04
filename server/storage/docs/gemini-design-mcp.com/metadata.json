@@ -33,5 +33,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://gemini-design-mcp.com/docs",
+      "canonicalSeedUrl": "https://gemini-design-mcp.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-12T20:53:42.354Z",
+      "completedAt": "2026-03-12T20:53:42.354Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://gemini-design-mcp.com/docs",
+          "canonicalUrl": "https://gemini-design-mcp.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "eccc1f40d01a668ad7c2cc7d77421bde97a86b9cefffd4f31f93498af9a6431b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e780fad2552b6d99687aa483262529ed9959c38ba594047c577b9dccefa6e0a3",
+      "filename": "documentation_2026-03-12T20:53:42.354Z.md",
+      "contentHash": "82fefa56f956a89010f53e142ae56d477318e8996a00b5e6f685df7ae8ef2528",
+      "sourceUrl": "https://gemini-design-mcp.com/docs",
+      "canonicalSourceUrl": "https://gemini-design-mcp.com/docs",
+      "capturedAt": "2026-03-12T20:53:42.354Z",
+      "crawlRunId": "eccc1f40d01a668ad7c2cc7d77421bde97a86b9cefffd4f31f93498af9a6431b",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Gemini Design MCP",
+          "url": "https://gemini-design-mcp.com/docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e780fad2552b6d99687aa483262529ed9959c38ba594047c577b9dccefa6e0a3"
 }

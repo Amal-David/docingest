@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/",
+      "canonicalSeedUrl": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-20T13:25:01.328Z",
+      "completedAt": "2025-07-20T13:25:01.328Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/",
+          "canonicalUrl": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper",
+          "status": "valid"
+        }
+      ],
+      "id": "d47449f6295ed29aeb01b28982ec1de7ca7670dd6d27831252bf5e01aa2b0abb",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c73471cfdb5b0b7990b8fec86bd0ebadeefca399b5622af5230f007d904f902a",
+      "filename": "documentation_2025-07-20T13:25:01.328Z.md",
+      "contentHash": "b6d7de0f7da28cf678f66f6ffaf7ffadfb7fd5e4ffaed5043c6bae8df743d536",
+      "sourceUrl": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/",
+      "canonicalSourceUrl": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper",
+      "capturedAt": "2025-07-20T13:25:01.328Z",
+      "crawlRunId": "d47449f6295ed29aeb01b28982ec1de7ca7670dd6d27831252bf5e01aa2b0abb",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Introduction to Litepaper | Pixel Wardens Litepaper",
+          "url": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/"
+        },
+        {
+          "type": "Dynamic Value System | Pixel Wardens Litepaper",
+          "url": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/tokenomics/dynamic-value-system"
+        },
+        {
+          "type": "Core Missions | Pixel Wardens Litepaper",
+          "url": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/overview/publish-your-docs"
+        },
+        {
+          "type": "Play to Earn and Revenue | Pixel Wardens Litepaper",
+          "url": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/tokenomics/play-to-earn-and-revenue"
+        },
+        {
+          "type": "NFT Wardens | Pixel Wardens Litepaper",
+          "url": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/gameplay/images-and-media"
+        },
+        {
+          "type": "Rarity System | Pixel Wardens Litepaper",
+          "url": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/gameplay/rarity-system"
+        },
+        {
+          "type": "Combat | Pixel Wardens Litepaper",
+          "url": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/gameplay/combat"
+        },
+        {
+          "type": "Vaults | Pixel Wardens Litepaper",
+          "url": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/gameplay/markdown"
+        },
+        {
+          "type": "Introduction to Litepaper | Pixel Wardens Litepaper",
+          "url": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/overview"
+        },
+        {
+          "type": "Player Driven Economy | Pixel Wardens Litepaper",
+          "url": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/gameplay/interactive-blocks"
+        },
+        {
+          "type": "Forging | Pixel Wardens Litepaper",
+          "url": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/gameplay/openapi"
+        },
+        {
+          "type": "Dynamic Value System | Pixel Wardens Litepaper",
+          "url": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/tokenomics"
+        },
+        {
+          "type": "NFT Wardens | Pixel Wardens Litepaper",
+          "url": "https://pixel-wardens.gitbook.io/pixel-wardens-litepaper/gameplay"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c73471cfdb5b0b7990b8fec86bd0ebadeefca399b5622af5230f007d904f902a"
 }

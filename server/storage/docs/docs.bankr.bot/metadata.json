@@ -220,5 +220,263 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.bankr.bot/",
+      "canonicalSeedUrl": "https://docs.bankr.bot/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-11T00:44:09.492Z",
+      "completedAt": "2026-02-11T00:44:09.492Z",
+      "providerTotals": {
+        "discovered": 50,
+        "returned": 50,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.bankr.bot/",
+          "canonicalUrl": "https://docs.bankr.bot/",
+          "status": "valid"
+        }
+      ],
+      "id": "25a2f7374a70a75a8ab7ea8c426c8af8bb7916776af2e434914566829d07ac28",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "57a774c36c1579a801e3f1ccf59d947b84c13f551aa4d35bd0f0c444b39b8d51",
+      "filename": "documentation_2026-02-11T00:44:09.492Z.md",
+      "contentHash": "6b1d2a13461da21f738eb1c0e6038a86a790819248f284167b40c340c353e80d",
+      "sourceUrl": "https://docs.bankr.bot/",
+      "canonicalSourceUrl": "https://docs.bankr.bot/",
+      "capturedAt": "2026-02-11T00:44:09.492Z",
+      "crawlRunId": "25a2f7374a70a75a8ab7ea8c426c8af8bb7916776af2e434914566829d07ac28",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 50,
+      "successfulPages": 50,
+      "structure": [
+        {
+          "type": "Bankr Documentation",
+          "url": "https://docs.bankr.bot/"
+        },
+        {
+          "type": "Token Launching Overview | Bankr Documentation",
+          "url": "https://docs.bankr.bot/token-launching/overview"
+        },
+        {
+          "type": "Platform Overview | Bankr Documentation",
+          "url": "https://docs.bankr.bot/getting-started/overview"
+        },
+        {
+          "type": "Supported Chains | Bankr Documentation",
+          "url": "https://docs.bankr.bot/getting-started/supported-chains"
+        },
+        {
+          "type": "Quick Start | Bankr Documentation",
+          "url": "https://docs.bankr.bot/getting-started/quick-start"
+        },
+        {
+          "type": "Fee Splitting | Bankr Documentation",
+          "url": "https://docs.bankr.bot/token-launching/fee-splitting"
+        },
+        {
+          "type": "Vaulting and Vesting | Bankr Documentation",
+          "url": "https://docs.bankr.bot/token-launching/vaulting-vesting"
+        },
+        {
+          "type": "Installing the Bankr Skill | Bankr Documentation",
+          "url": "https://docs.bankr.bot/openclaw/installation"
+        },
+        {
+          "type": "Claiming Fees | Bankr Documentation",
+          "url": "https://docs.bankr.bot/token-launching/claiming-fees"
+        },
+        {
+          "type": "Available Skills | Bankr Documentation",
+          "url": "https://docs.bankr.bot/openclaw/available-skills"
+        },
+        {
+          "type": "Contributing Skills | Bankr Documentation",
+          "url": "https://docs.bankr.bot/openclaw/contributing-skills"
+        },
+        {
+          "type": "Transaction Types | Bankr Documentation",
+          "url": "https://docs.bankr.bot/agent-api/transaction-types"
+        },
+        {
+          "type": "Prompt Endpoint | Bankr Documentation",
+          "url": "https://docs.bankr.bot/agent-api/prompt-endpoint"
+        },
+        {
+          "type": "User Info | Bankr Documentation",
+          "url": "https://docs.bankr.bot/agent-api/user-info"
+        },
+        {
+          "type": "CLI | Bankr Documentation",
+          "url": "https://docs.bankr.bot/agent-api/cli"
+        },
+        {
+          "type": "Authentication | Bankr Documentation",
+          "url": "https://docs.bankr.bot/agent-api/authentication"
+        },
+        {
+          "type": "Submit Endpoint | Bankr Documentation",
+          "url": "https://docs.bankr.bot/agent-api/submit-endpoint"
+        },
+        {
+          "type": "Sign Endpoint | Bankr Documentation",
+          "url": "https://docs.bankr.bot/agent-api/sign-endpoint"
+        },
+        {
+          "type": "Job Management | Bankr Documentation",
+          "url": "https://docs.bankr.bot/agent-api/job-management"
+        },
+        {
+          "type": "Features Table | Bankr Documentation",
+          "url": "https://docs.bankr.bot/features/features-table"
+        },
+        {
+          "type": "Installation | Bankr Documentation",
+          "url": "https://docs.bankr.bot/sdk/installation"
+        },
+        {
+          "type": "Claude Plugins Overview | Bankr Documentation",
+          "url": "https://docs.bankr.bot/claude-plugins/overview"
+        },
+        {
+          "type": "Leveraged Trading | Bankr Documentation",
+          "url": "https://docs.bankr.bot/features/leveraged-trading"
+        },
+        {
+          "type": "Token Swaps | Bankr Documentation",
+          "url": "https://docs.bankr.bot/features/trading/swaps"
+        },
+        {
+          "type": "Transfers | Bankr Documentation",
+          "url": "https://docs.bankr.bot/features/transfers"
+        },
+        {
+          "type": "NFTs | Bankr Documentation",
+          "url": "https://docs.bankr.bot/features/nfts"
+        },
+        {
+          "type": "Polymarket | Bankr Documentation",
+          "url": "https://docs.bankr.bot/features/polymarket"
+        },
+        {
+          "type": "API Reference | Bankr Documentation",
+          "url": "https://docs.bankr.bot/llm-gateway/api-reference"
+        },
+        {
+          "type": "LLM Gateway | Bankr Documentation",
+          "url": "https://docs.bankr.bot/llm-gateway/overview"
+        },
+        {
+          "type": "Agent API Overview | Bankr Documentation",
+          "url": "https://docs.bankr.bot/agent-api/overview"
+        },
+        {
+          "type": "OpenClaw | Bankr Documentation",
+          "url": "https://docs.bankr.bot/llm-gateway/openclaw"
+        },
+        {
+          "type": "Portfolio & Balances | Bankr Documentation",
+          "url": "https://docs.bankr.bot/features/portfolio"
+        },
+        {
+          "type": "Zero to Earning Fees | Bankr Documentation",
+          "url": "https://docs.bankr.bot/guides/zero-to-earning"
+        },
+        {
+          "type": "Social Deployment | Bankr Documentation",
+          "url": "https://docs.bankr.bot/guides/social-deployment"
+        },
+        {
+          "type": "Building a Self-Sustaining Agent | Bankr Documentation",
+          "url": "https://docs.bankr.bot/guides/self-sustaining-agent"
+        },
+        {
+          "type": "bankr-agent Plugin | Bankr Documentation",
+          "url": "https://docs.bankr.bot/claude-plugins/bankr-agent-plugin"
+        },
+        {
+          "type": "bankr-agent-dev Plugin | Bankr Documentation",
+          "url": "https://docs.bankr.bot/claude-plugins/bankr-agent-dev"
+        },
+        {
+          "type": "Client Setup | Bankr Documentation",
+          "url": "https://docs.bankr.bot/sdk/client-setup"
+        },
+        {
+          "type": "DCA Orders | Bankr Documentation",
+          "url": "https://docs.bankr.bot/features/trading/dca-orders"
+        },
+        {
+          "type": "Stop Orders | Bankr Documentation",
+          "url": "https://docs.bankr.bot/features/trading/stop-orders"
+        },
+        {
+          "type": "bankr-x402-sdk-dev Plugin | Bankr Documentation",
+          "url": "https://docs.bankr.bot/claude-plugins/bankr-x402-sdk-dev"
+        },
+        {
+          "type": "TWAP Orders | Bankr Documentation",
+          "url": "https://docs.bankr.bot/features/trading/twap-orders"
+        },
+        {
+          "type": "Limit Orders | Bankr Documentation",
+          "url": "https://docs.bankr.bot/features/trading/limit-orders"
+        },
+        {
+          "type": "Prompt and Poll | Bankr Documentation",
+          "url": "https://docs.bankr.bot/sdk/prompt-and-poll"
+        },
+        {
+          "type": "Examples | Bankr Documentation",
+          "url": "https://docs.bankr.bot/sdk/examples"
+        },
+        {
+          "type": "AI Coding Tools | Bankr Documentation",
+          "url": "https://docs.bankr.bot/llm-gateway/coding-tools/overview"
+        },
+        {
+          "type": "OpenCode | Bankr Documentation",
+          "url": "https://docs.bankr.bot/llm-gateway/coding-tools/opencode"
+        },
+        {
+          "type": "Claude Code | Bankr Documentation",
+          "url": "https://docs.bankr.bot/llm-gateway/coding-tools/claude-code"
+        },
+        {
+          "type": "Codex | Bankr Documentation",
+          "url": "https://docs.bankr.bot/llm-gateway/coding-tools/codex"
+        },
+        {
+          "type": "Cursor | Bankr Documentation",
+          "url": "https://docs.bankr.bot/llm-gateway/coding-tools/cursor"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "57a774c36c1579a801e3f1ccf59d947b84c13f551aa4d35bd0f0c444b39b8d51"
 }

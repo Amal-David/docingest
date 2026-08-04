@@ -120,5 +120,163 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/install-gitlab-runner-local",
+      "canonicalSeedUrl": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/install-gitlab-runner-local",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-18T11:33:41.363Z",
+      "completedAt": "2025-04-18T11:33:41.363Z",
+      "providerTotals": {
+        "discovered": 25,
+        "returned": 25,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/install-gitlab-runner-local",
+          "canonicalUrl": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/install-gitlab-runner-local",
+          "status": "valid"
+        }
+      ],
+      "id": "10770e459f1097786c4e5b701ff8afb1ca0b5c972d8d1beb3286eba0f182d2f5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e881c94aca34c0da8a72205cb9b267e3aaa45aa27c3b03b5843b493df8495e52",
+      "filename": "documentation_2025-04-18T11:33:41.363Z.md",
+      "contentHash": "669ee718ff1b7fea2ac98ac3d668e697f876109c557d92b197a25db45a3b0e8f",
+      "sourceUrl": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/install-gitlab-runner-local",
+      "canonicalSourceUrl": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/install-gitlab-runner-local",
+      "capturedAt": "2025-04-18T11:33:41.363Z",
+      "crawlRunId": "10770e459f1097786c4e5b701ff8afb1ca0b5c972d8d1beb3286eba0f182d2f5",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 25,
+      "successfulPages": 25,
+      "structure": [
+        {
+          "type": "install gitlab runner local | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/install-gitlab-runner-local"
+        },
+        {
+          "type": "file variables | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/gitlab-variables/file-variables"
+        },
+        {
+          "type": "Stages | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/pipeline/stages"
+        },
+        {
+          "type": "11- Execute jobs on specific Runner (Tags) | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/11-execute-jobs-on-specific-runner-tags"
+        },
+        {
+          "type": "3 - Build Docker Image & Push to Private Registry | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/3-build-docker-image-and-push-to-private-registry"
+        },
+        {
+          "type": "14 - Self-Managed GitLab Instance | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/14-self-managed-gitlab-instance"
+        },
+        {
+          "type": "------------------------ | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/undefined"
+        },
+        {
+          "type": "Install behind the scenes | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/install-behind-the-scenes"
+        },
+        {
+          "type": "2 - Run Unit Tests & Collect Test Reports | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/2-run-unit-tests-and-collect-test-reports"
+        },
+        {
+          "type": "demo | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/demo"
+        },
+        {
+          "type": "Pipeline | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero"
+        },
+        {
+          "type": "trigger merge request | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/trigger-merge-request"
+        },
+        {
+          "type": "Jobs | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/pipeline/jobs"
+        },
+        {
+          "type": "Demo Overview & Node.js Project Overview | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/demo-overview-and-node.js-project-overview"
+        },
+        {
+          "type": "12-Add Docker Runner on EC2 Instance | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/12-add-docker-runner-on-ec2-instance"
+        },
+        {
+          "type": "scripts | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/scripts"
+        },
+        {
+          "type": "branches | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/branches"
+        },
+        {
+          "type": "tricks | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/tricks"
+        },
+        {
+          "type": "gitlab runner | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/gitlab-runner"
+        },
+        {
+          "type": "workflow execution | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/workflow-execution"
+        },
+        {
+          "type": "15 - Note on GitLab Runner Versions - Compatibility | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/15-note-on-gitlab-runner-versions-compatibility"
+        },
+        {
+          "type": "gitlab runner | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/install-behind-the-scenes/gitlab-runner"
+        },
+        {
+          "type": "gitlab variables | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/gitlab-variables"
+        },
+        {
+          "type": "13 - Group Runners: Runner for a GitLab Group | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/13-group-runners-runner-for-a-gitlab-group"
+        },
+        {
+          "type": "executor | GitLab CI/CD - From Zero To Hero",
+          "url": "https://walids-organization-2.gitbook.io/gitlab-ci-cd-from-zero-to-hero/executor"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e881c94aca34c0da8a72205cb9b267e3aaa45aa27c3b03b5843b493df8495e52"
 }

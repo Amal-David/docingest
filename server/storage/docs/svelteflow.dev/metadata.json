@@ -124,5 +124,167 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://svelteflow.dev/learn",
+      "canonicalSeedUrl": "https://svelteflow.dev/learn",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-05T21:56:05.759Z",
+      "completedAt": "2025-03-05T21:56:05.759Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://svelteflow.dev/learn",
+          "canonicalUrl": "https://svelteflow.dev/learn",
+          "status": "valid"
+        }
+      ],
+      "id": "c2f8058b17e4d44e1323f6f6a0b9784d85f44cc6be638ccc4e39a82c8fa8d997",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "64d404603d1c54cb471790daa5b9bb89cdca62dd7600cc0726bb0da83f3145b6",
+      "filename": "documentation_2025-03-05T21:56:05.759Z.md",
+      "contentHash": "f9655e3c7b32e55377324835ce24e06d7c6211b2b3aff8269676f0deb977e283",
+      "sourceUrl": "https://svelteflow.dev/learn",
+      "canonicalSourceUrl": "https://svelteflow.dev/learn",
+      "capturedAt": "2025-03-05T21:56:05.759Z",
+      "crawlRunId": "c2f8058b17e4d44e1323f6f6a0b9784d85f44cc6be638ccc4e39a82c8fa8d997",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "Quickstart - Svelte Flow",
+          "url": "https://svelteflow.dev/learn"
+        },
+        {
+          "type": "API Reference - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference"
+        },
+        {
+          "type": "The Node-Based UI for Svelte - Svelte Flow",
+          "url": "https://svelteflow.dev/"
+        },
+        {
+          "type": "Showcase - Svelte Flow",
+          "url": "https://svelteflow.dev/showcase"
+        },
+        {
+          "type": "Installation and Requirements - Svelte Flow",
+          "url": "https://svelteflow.dev/learn/getting-started/installation"
+        },
+        {
+          "type": "Examples - Svelte Flow",
+          "url": "https://svelteflow.dev/examples"
+        },
+        {
+          "type": "Building a Flow - Svelte Flow",
+          "url": "https://svelteflow.dev/learn/getting-started/building-a-flow"
+        },
+        {
+          "type": "Support Svelte Flow - Svelte Flow",
+          "url": "https://svelteflow.dev/support-us"
+        },
+        {
+          "type": "Custom Nodes - Svelte Flow",
+          "url": "https://svelteflow.dev/learn/guides/custom-nodes"
+        },
+        {
+          "type": "The SvelteFlow component - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/svelte-flow"
+        },
+        {
+          "type": "The SvelteFlowProvider component - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/svelte-flow-provider"
+        },
+        {
+          "type": "Sub Flows - Svelte Flow",
+          "url": "https://svelteflow.dev/learn/guides/sub-flows"
+        },
+        {
+          "type": "Theming - Svelte Flow",
+          "url": "https://svelteflow.dev/learn/guides/theming"
+        },
+        {
+          "type": "Components - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/components"
+        },
+        {
+          "type": "The Background component - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/components/background"
+        },
+        {
+          "type": "The MiniMap component - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/components/mini-map"
+        },
+        {
+          "type": "The Handle component - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/components/handle"
+        },
+        {
+          "type": "The BaseEdge component - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/components/base-edge"
+        },
+        {
+          "type": "The Controls component - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/components/controls"
+        },
+        {
+          "type": "The NodeResizeControl component - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/components/node-resize-control"
+        },
+        {
+          "type": "The ControlButton component - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/components/control-button"
+        },
+        {
+          "type": "The EdgeLabelRenderer component - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/components/edge-label-renderer"
+        },
+        {
+          "type": "The Edge Label component - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/components/edge-label"
+        },
+        {
+          "type": "The NodeToolbar component - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/components/node-toolbar"
+        },
+        {
+          "type": "useNodeConnections() - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/hooks/use-node-connections"
+        },
+        {
+          "type": "The NodeResizer component - Svelte Flow",
+          "url": "https://svelteflow.dev/api-reference/components/node-resizer"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "64d404603d1c54cb471790daa5b9bb89cdca62dd7600cc0726bb0da83f3145b6"
 }

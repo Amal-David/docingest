@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://softvelum.com/transcoder/docs/",
+      "canonicalSeedUrl": "https://softvelum.com/transcoder/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-18T02:38:10.875Z",
+      "completedAt": "2025-03-18T02:38:10.875Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://softvelum.com/transcoder/docs/",
+          "canonicalUrl": "https://softvelum.com/transcoder/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "be6acf564691c1d00c10aae28537640b2b3d846bba0c05e6c659c5c768e93aa9",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ce38ed75f954b92e6e70a57f91e922b5f2c6611efcca211a8d672029a2c01356",
+      "filename": "documentation_2025-03-18T02:38:10.875Z.md",
+      "contentHash": "9b2e9ae8513f8c2dcd3513e10d0948897220ffb72065a52f395042490cba90d1",
+      "sourceUrl": "https://softvelum.com/transcoder/docs/",
+      "canonicalSourceUrl": "https://softvelum.com/transcoder/docs",
+      "capturedAt": "2025-03-18T02:38:10.875Z",
+      "crawlRunId": "be6acf564691c1d00c10aae28537640b2b3d846bba0c05e6c659c5c768e93aa9",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Documentation reference for Nimble Live Transcoder – Softvelum: efficient tools to build your streaming networks",
+          "url": "https://softvelum.com/transcoder/docs/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ce38ed75f954b92e6e70a57f91e922b5f2c6611efcca211a8d672029a2c01356"
 }

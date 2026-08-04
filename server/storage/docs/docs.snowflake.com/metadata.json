@@ -141,5 +141,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.snowflake.com/en/developer-guide/streamlit/limitations",
+      "canonicalSeedUrl": "https://docs.snowflake.com/en/developer-guide/streamlit/limitations",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-17T15:56:58.967Z",
+      "completedAt": "2025-03-17T15:56:58.967Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.snowflake.com/en/developer-guide/streamlit/limitations",
+          "canonicalUrl": "https://docs.snowflake.com/en/developer-guide/streamlit/limitations",
+          "status": "valid"
+        }
+      ],
+      "id": "53f7c6f41fcc59d1a5ca98e7edc60e1e7bd3f050eecfbec83e4c767bf6025657",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b3a9708153d50cab0f59e051b6470353775735f12a11c5a32246b455d3e8f60a",
+      "filename": "documentation_2025-03-17T15:56:58.967Z.md",
+      "contentHash": "aec74b564f17fcd848bbaa3df2ab4868f06f8362e9c17703556c05caaa31c247",
+      "sourceUrl": "https://docs.snowflake.com/en/developer-guide/streamlit/limitations",
+      "canonicalSourceUrl": "https://docs.snowflake.com/en/developer-guide/streamlit/limitations",
+      "capturedAt": "2025-03-17T15:56:58.967Z",
+      "crawlRunId": "53f7c6f41fcc59d1a5ca98e7edc60e1e7bd3f050eecfbec83e4c767bf6025657",
+      "upstreamVersion": "1.13.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Limitations and unsupported features | Snowflake Documentation",
+          "url": "https://docs.snowflake.com/en/developer-guide/streamlit/limitations"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b3a9708153d50cab0f59e051b6470353775735f12a11c5a32246b455d3e8f60a"
 }

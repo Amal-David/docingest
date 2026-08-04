@@ -32,5 +32,75 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://support.uniswap.org/hc/en-us/articles/8015114520205-What-is-a-transaction-hash",
+      "canonicalSeedUrl": "https://support.uniswap.org/hc/en-us/articles/8015114520205-What-is-a-transaction-hash",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-26T08:17:14.062Z",
+      "completedAt": "2025-12-26T08:17:14.062Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://support.uniswap.org/hc/en-us/articles/8015114520205-What-is-a-transaction-hash",
+          "canonicalUrl": "https://support.uniswap.org/hc/en-us/articles/8015114520205-What-is-a-transaction-hash",
+          "status": "valid"
+        }
+      ],
+      "id": "9d153c1490c398501ac279d4af59052eeba732d7a8df016d84382b3980d1edda",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0ced953f708472a190f71b7dc2e24dae0c19c4a97d6fcf80a23d414c68a3d177",
+      "filename": "documentation_2025-12-26T08:17:14.062Z.md",
+      "contentHash": "cff9ea790510694b7805e39bd547236d5de417903348d509444445da51ddc905",
+      "sourceUrl": "https://support.uniswap.org/hc/en-us/articles/8015114520205-What-is-a-transaction-hash",
+      "canonicalSourceUrl": "https://support.uniswap.org/hc/en-us/articles/8015114520205-What-is-a-transaction-hash",
+      "capturedAt": "2025-12-26T08:17:14.062Z",
+      "crawlRunId": "9d153c1490c398501ac279d4af59052eeba732d7a8df016d84382b3980d1edda",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "structure": [
+        {
+          "type": "What is a transaction hash? – Uniswap Labs",
+          "url": "https://support.uniswap.org/hc/en-us/articles/8015114520205-What-is-a-transaction-hash"
+        },
+        {
+          "type": "How to send tokens using the Uniswap Wallet – Uniswap Labs",
+          "url": "https://support.uniswap.org/hc/en-us/articles/11306183979661-How-to-send-tokens-using-the-Uniswap-Wallet"
+        },
+        {
+          "type": "I bought crypto using the Uniswap Wallet, but I have not received it yet. – Uniswap Labs",
+          "url": "https://support.uniswap.org/hc/en-us/articles/11306414636685-I-bought-crypto-using-the-Uniswap-Wallet-but-I-have-not-received-it-yet"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0ced953f708472a190f71b7dc2e24dae0c19c4a97d6fcf80a23d414c68a3d177"
 }

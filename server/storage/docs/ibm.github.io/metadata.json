@@ -82,5 +82,107 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://ibm.github.io/mcp-context-forge/",
+      "canonicalSeedUrl": "https://ibm.github.io/mcp-context-forge",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-22T20:37:49.327Z",
+      "completedAt": "2026-03-22T20:37:49.327Z",
+      "providerTotals": {
+        "discovered": 11,
+        "returned": 11,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://ibm.github.io/mcp-context-forge/",
+          "canonicalUrl": "https://ibm.github.io/mcp-context-forge",
+          "status": "valid"
+        }
+      ],
+      "id": "d880139702ea92cc494f6b40b7f3b68b19d2ce88cc3165d412f1e783106ae95d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "13e863dd5a29e740258d79dec0196ccdd575c50abd65171764fe2f795a8a45ae",
+      "filename": "documentation_2026-03-22T20:37:49.327Z.md",
+      "contentHash": "bb9b8d83bc250ac0696864082af8d82e04f6925a30c580d81f1cd68dcbf476cd",
+      "sourceUrl": "https://ibm.github.io/mcp-context-forge/",
+      "canonicalSourceUrl": "https://ibm.github.io/mcp-context-forge",
+      "capturedAt": "2026-03-22T20:37:49.327Z",
+      "crawlRunId": "d880139702ea92cc494f6b40b7f3b68b19d2ce88cc3165d412f1e783106ae95d",
+      "upstreamVersion": "1.0.2",
+      "upstreamChannel": "latest",
+      "totalPages": 11,
+      "successfulPages": 11,
+      "structure": [
+        {
+          "type": "ContextForge AI Gateway",
+          "url": "https://ibm.github.io/mcp-context-forge/"
+        },
+        {
+          "type": "Overview - ContextForge AI Gateway",
+          "url": "https://ibm.github.io/mcp-context-forge/overview/"
+        },
+        {
+          "type": "Using ContextForge - ContextForge AI Gateway",
+          "url": "https://ibm.github.io/mcp-context-forge/using/"
+        },
+        {
+          "type": "Deployment Overview - ContextForge AI Gateway",
+          "url": "https://ibm.github.io/mcp-context-forge/deployment/"
+        },
+        {
+          "type": "Management Overview - ContextForge AI Gateway",
+          "url": "https://ibm.github.io/mcp-context-forge/manage/"
+        },
+        {
+          "type": "Config Validation - ContextForge AI Gateway",
+          "url": "https://ibm.github.io/mcp-context-forge/operations/config-validation/"
+        },
+        {
+          "type": "🧪 Testing ContextForge - ContextForge AI Gateway",
+          "url": "https://ibm.github.io/mcp-context-forge/testing/"
+        },
+        {
+          "type": "Overview - ContextForge AI Gateway",
+          "url": "https://ibm.github.io/mcp-context-forge/media/"
+        },
+        {
+          "type": "📚 Tutorials - ContextForge AI Gateway",
+          "url": "https://ibm.github.io/mcp-context-forge/tutorials/"
+        },
+        {
+          "type": "Testimonials - ContextForge AI Gateway",
+          "url": "https://ibm.github.io/mcp-context-forge/media/testimonials/"
+        },
+        {
+          "type": "RFC 9728 OAuth Protected Resource Metadata Compliance - ContextForge AI Gateway",
+          "url": "https://ibm.github.io/mcp-context-forge/architecture/rfc9728-compliance/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "13e863dd5a29e740258d79dec0196ccdd575c50abd65171764fe2f795a8a45ae"
 }

@@ -164,5 +164,207 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.trojanonsolana.com/",
+      "canonicalSeedUrl": "https://docs.trojanonsolana.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-06T23:16:02.936Z",
+      "completedAt": "2025-12-06T23:16:02.936Z",
+      "providerTotals": {
+        "discovered": 36,
+        "returned": 36,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.trojanonsolana.com/",
+          "canonicalUrl": "https://docs.trojanonsolana.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "14b472e606da72ff9c9b56727bbba7c9719509e326ee92a02641403827f1f8a1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7d0205f1febb0e479a5983dd9cb711fa59577e5a0d490af5c2f70c8c9899db21",
+      "filename": "documentation_2025-12-06T23:16:02.936Z.md",
+      "contentHash": "a52c10f52b4aa689497615eaf6d8cea5b7de6d571eeb6775beacc39413772913",
+      "sourceUrl": "https://docs.trojanonsolana.com/",
+      "canonicalSourceUrl": "https://docs.trojanonsolana.com/",
+      "capturedAt": "2025-12-06T23:16:02.936Z",
+      "crawlRunId": "14b472e606da72ff9c9b56727bbba7c9719509e326ee92a02641403827f1f8a1",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 36,
+      "successfulPages": 36,
+      "structure": [
+        {
+          "type": "Welcome to Trojan on Solana | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/"
+        },
+        {
+          "type": "Quick Start Guide | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/overview/quick-start-guide"
+        },
+        {
+          "type": "FAQ | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/overview/faq"
+        },
+        {
+          "type": "Trojan on Solana Overview | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/trojan-on-solana-overview"
+        },
+        {
+          "type": "Navigating the Telegram Bot | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/navigating-the-telegram-bot"
+        },
+        {
+          "type": "Buy Settings | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/settings/buy-settings"
+        },
+        {
+          "type": "Sell Settings | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/settings/sell-settings"
+        },
+        {
+          "type": "Priority Gas Tip | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/settings/priority-gas-tip"
+        },
+        {
+          "type": "Trading on the Bot | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/trading-on-the-bot"
+        },
+        {
+          "type": "Managing Your Positions | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/managing-your-positions"
+        },
+        {
+          "type": "Buying Tokens | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/trading-on-the-bot/buying-tokens"
+        },
+        {
+          "type": "DCA Orders | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/dca-orders"
+        },
+        {
+          "type": "Limit Orders | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/limit-orders"
+        },
+        {
+          "type": "Settings | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/settings"
+        },
+        {
+          "type": "Sell Protection | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/settings/sell-protection"
+        },
+        {
+          "type": "BOLT | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/settings/bolt"
+        },
+        {
+          "type": "Bot Modes | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/settings/bot-modes"
+        },
+        {
+          "type": "Account Security | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/settings/account-security"
+        },
+        {
+          "type": "Trenches | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/trenches"
+        },
+        {
+          "type": "Rewards Program | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/rewards-program"
+        },
+        {
+          "type": "Show/Hide Tokens | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/settings/show-hide-tokens"
+        },
+        {
+          "type": "Wallets | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/settings/wallets"
+        },
+        {
+          "type": "Withdraw | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/withdraw"
+        },
+        {
+          "type": "AutoBuy | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/advanced-features/autobuy"
+        },
+        {
+          "type": "Selling Tokens | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/trading-on-the-bot/selling-tokens"
+        },
+        {
+          "type": "Bridge | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/withdraw/bridge"
+        },
+        {
+          "type": "AutoSell | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/advanced-features/autosell"
+        },
+        {
+          "type": "Copy Trade | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/copy-trade"
+        },
+        {
+          "type": "Sniper | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/telegram-bot-user-guide/sniper"
+        },
+        {
+          "type": "Bundle Buys | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/advanced-features/bundle-buys"
+        },
+        {
+          "type": "Reclaim SOL and Burn Tokens | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/advanced-features/reclaim-sol-and-burn-tokens"
+        },
+        {
+          "type": "Deep Link Setup | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/about-trojan-on-solana/deep-link-setup"
+        },
+        {
+          "type": "Links | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/about-trojan-on-solana/links"
+        },
+        {
+          "type": "New Pairs Scanner | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/advanced-features/new-pairs-scanner"
+        },
+        {
+          "type": "Using Trojan on Solana | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/about-trojan-on-solana/using-trojan-on-solana"
+        },
+        {
+          "type": "Get to know Trojan on Solana | Trojan on Solana - Tutorials",
+          "url": "https://docs.trojanonsolana.com/overview/get-to-know-trojan-on-solana"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7d0205f1febb0e479a5983dd9cb711fa59577e5a0d490af5c2f70c8c9899db21"
 }

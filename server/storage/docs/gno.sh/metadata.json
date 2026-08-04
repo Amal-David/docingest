@@ -112,5 +112,155 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://gno.sh/docs",
+      "canonicalSeedUrl": "https://gno.sh/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-16T07:22:45.911Z",
+      "completedAt": "2026-07-16T07:22:45.911Z",
+      "providerTotals": {
+        "discovered": 23,
+        "returned": 23,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://gno.sh/docs",
+          "canonicalUrl": "https://gno.sh/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "e699104fab307caa279cebc0cabe87a4db173070103605fcca6945fefdedb9a4",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7370f2d7e4aa218d6564eb75bb6cd79b2c0b432894269367cdcfba896d07e912",
+      "filename": "documentation_2026-07-16T07:22:45.911Z.md",
+      "contentHash": "025ce8e36f9b41aa368f5cbce758ea06f4b206e86587ab3bacbe60cd7f9745fd",
+      "sourceUrl": "https://gno.sh/docs",
+      "canonicalSourceUrl": "https://gno.sh/docs",
+      "capturedAt": "2026-07-16T07:22:45.911Z",
+      "crawlRunId": "e699104fab307caa279cebc0cabe87a4db173070103605fcca6945fefdedb9a4",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 23,
+      "successfulPages": 23,
+      "structure": [
+        {
+          "type": "Documentation — GNO Local Knowledge Workspace",
+          "url": "https://gno.sh/docs"
+        },
+        {
+          "type": "Web UI — GNO Docs",
+          "url": "https://gno.sh/docs/web-ui"
+        },
+        {
+          "type": "REST API — GNO Docs",
+          "url": "https://gno.sh/docs/api"
+        },
+        {
+          "type": "Agent skills — GNO Docs",
+          "url": "https://gno.sh/docs/skills"
+        },
+        {
+          "type": "Packaging proof — GNO Docs",
+          "url": "https://gno.sh/docs/packaging"
+        },
+        {
+          "type": "SDK — GNO Docs",
+          "url": "https://gno.sh/docs/sdk"
+        },
+        {
+          "type": "MCP integration — GNO Docs",
+          "url": "https://gno.sh/docs/mcp"
+        },
+        {
+          "type": "How-To — GNO Docs",
+          "url": "https://gno.sh/docs/how-to"
+        },
+        {
+          "type": "Architecture — GNO Docs",
+          "url": "https://gno.sh/docs/architecture"
+        },
+        {
+          "type": "Quickstart — GNO Docs",
+          "url": "https://gno.sh/docs/quickstart"
+        },
+        {
+          "type": "Installation — GNO Docs",
+          "url": "https://gno.sh/docs/installation"
+        },
+        {
+          "type": "Configuration — GNO Docs",
+          "url": "https://gno.sh/docs/configuration"
+        },
+        {
+          "type": "CLI commands — GNO Docs",
+          "url": "https://gno.sh/docs/cli"
+        },
+        {
+          "type": "How search works — GNO Docs",
+          "url": "https://gno.sh/docs/how-search-works"
+        },
+        {
+          "type": "Troubleshooting — GNO Docs",
+          "url": "https://gno.sh/docs/troubleshooting"
+        },
+        {
+          "type": "Publish a note — GNO Docs",
+          "url": "https://gno.sh/docs/publish-quickstart"
+        },
+        {
+          "type": "Visibility modes — GNO Docs",
+          "url": "https://gno.sh/docs/publish-visibility"
+        },
+        {
+          "type": "Cursor integration — GNO Docs",
+          "url": "https://gno.sh/docs/cursor"
+        },
+        {
+          "type": "Claude Code integration — GNO Docs",
+          "url": "https://gno.sh/docs/claude-code"
+        },
+        {
+          "type": "Use cases — GNO Docs",
+          "url": "https://gno.sh/docs/use-cases"
+        },
+        {
+          "type": "Fine-tuned models — GNO Docs",
+          "url": "https://gno.sh/docs/fine-tuned-models"
+        },
+        {
+          "type": "Claude Desktop integration — GNO Docs",
+          "url": "https://gno.sh/docs/claude-desktop"
+        },
+        {
+          "type": "Structured query syntax — GNO Docs",
+          "url": "https://gno.sh/docs/syntax"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7370f2d7e4aa218d6564eb75bb6cd79b2c0b432894269367cdcfba896d07e912"
 }

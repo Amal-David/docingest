@@ -132,5 +132,175 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://dovish.gitbook.io/doveswap-v3",
+      "canonicalSeedUrl": "https://dovish.gitbook.io/doveswap-v3",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-16T18:07:46.981Z",
+      "completedAt": "2025-11-16T18:07:46.981Z",
+      "providerTotals": {
+        "discovered": 28,
+        "returned": 28,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://dovish.gitbook.io/doveswap-v3",
+          "canonicalUrl": "https://dovish.gitbook.io/doveswap-v3",
+          "status": "valid"
+        }
+      ],
+      "id": "35b52fc3dcb7583f80b93197c78098d2b70a8f97612c2c49d26e478f093bdd15",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8c3e9264f78df0cb7a1c8b8d2a4604af9d94dd84b221f21fb8b928286685e07c",
+      "filename": "documentation_2025-11-16T18:07:46.981Z.md",
+      "contentHash": "6ab8132bcf092f531df1f9aa9aab33dc41dbf17e090e2f5ba7cb928eae85723c",
+      "sourceUrl": "https://dovish.gitbook.io/doveswap-v3",
+      "canonicalSourceUrl": "https://dovish.gitbook.io/doveswap-v3",
+      "capturedAt": "2025-11-16T18:07:46.981Z",
+      "crawlRunId": "35b52fc3dcb7583f80b93197c78098d2b70a8f97612c2c49d26e478f093bdd15",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 28,
+      "successfulPages": 28,
+      "structure": [
+        {
+          "type": "Welcome to DoveSwap V3 | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3"
+        },
+        {
+          "type": "Protocol Concepts | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/protocol-concepts"
+        },
+        {
+          "type": "Fees | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/protocol-concepts/fees"
+        },
+        {
+          "type": "Concentrated Liquidity | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/protocol-concepts/concentrated-liquidity"
+        },
+        {
+          "type": "Range Orders | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/protocol-concepts/range-orders"
+        },
+        {
+          "type": "Token Integration Issues | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/protocol-concepts/token-integration-issues"
+        },
+        {
+          "type": "Technical Reference | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference"
+        },
+        {
+          "type": "Swaps | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/protocol-concepts/swaps"
+        },
+        {
+          "type": "Oracle | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/protocol-concepts/oracle"
+        },
+        {
+          "type": "Core | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference/core"
+        },
+        {
+          "type": "Overview | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference/overview"
+        },
+        {
+          "type": "DoveSwapV3Factory | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference/core/doveswapv3factory"
+        },
+        {
+          "type": "Periphery | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference/periphery"
+        },
+        {
+          "type": "DoveSwapV3PoolDeployer | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference/core/doveswapv3pooldeployer"
+        },
+        {
+          "type": "QuoterV2 | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference/periphery/quoterv2"
+        },
+        {
+          "type": "DoveSwapV3Pool | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference/core/doveswapv3pool"
+        },
+        {
+          "type": "Deployment Addresses | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference/deployment-addresses"
+        },
+        {
+          "type": "TickLens | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference/periphery/ticklens"
+        },
+        {
+          "type": "V3Migrator | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference/periphery/v3migrator"
+        },
+        {
+          "type": "NonfungibleTokenPositionDescriptor | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference/periphery/nonfungibletokenpositiondescriptor"
+        },
+        {
+          "type": "SwapRouter | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference/periphery/swaprouter"
+        },
+        {
+          "type": "NonfungiblePositionManager | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference/periphery/nonfungiblepositionmanager"
+        },
+        {
+          "type": "Governance | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/governance"
+        },
+        {
+          "type": "Error Codes | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/technical-reference/error-codes"
+        },
+        {
+          "type": "Tokenomics | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/tokenomics"
+        },
+        {
+          "type": "Real Yield | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/real-yield"
+        },
+        {
+          "type": "Future of DoveSwap | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/future-of-doveswap"
+        },
+        {
+          "type": "Staking Mechanics | DoveSwap V3",
+          "url": "https://dovish.gitbook.io/doveswap-v3/staking-mechanics"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8c3e9264f78df0cb7a1c8b8d2a4604af9d94dd84b221f21fb8b928286685e07c"
 }

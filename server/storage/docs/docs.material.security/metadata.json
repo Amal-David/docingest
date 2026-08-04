@@ -207,5 +207,223 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.material.security/llms.txt",
+      "canonicalSeedUrl": "https://docs.material.security/llms.txt",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-27T03:56:39.798Z",
+      "completedAt": "2026-02-27T03:56:39.798Z",
+      "providerTotals": {
+        "discovered": 40,
+        "returned": 40,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.material.security/llms.txt",
+          "canonicalUrl": "https://docs.material.security/llms.txt",
+          "status": "valid"
+        }
+      ],
+      "id": "4dbe8e063ff9fd1b706ae0fc27852869def653c97bb1d169198777f7b951b09a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3ee0100cc70a2d03bc7a0bbb19b68480783fd5903e01a7eefd4f1ca785b8317d",
+      "filename": "documentation_2026-02-27T03:56:39.798Z.md",
+      "contentHash": "cc209ee775953da267d861ab6ee3bfae86084a0b83177ab0eaed62d648e0e878",
+      "sourceUrl": "https://docs.material.security/llms.txt",
+      "canonicalSourceUrl": "https://docs.material.security/llms.txt",
+      "capturedAt": "2026-02-27T03:56:39.798Z",
+      "crawlRunId": "4dbe8e063ff9fd1b706ae0fc27852869def653c97bb1d169198777f7b951b09a",
+      "upstreamVersion": "1.0.3",
+      "upstreamChannel": "latest",
+      "totalPages": 40,
+      "successfulPages": 40,
+      "structure": [
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/llms.txt"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/product"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/providers/google-workspace"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/product/files"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/providers/microsoft-365"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/use-cases/modernize-your-approach-to-email-security"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/theater-2026"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/use-cases/reduce-the-operational-complexity-googles-native-tools"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/product/email"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/product/accounts"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/use-cases/secure-shared-files-without-slowing-your-users"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/use-cases/automate-user-report-response"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/integrations"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/use-cases"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/material-vs-segs"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/use-cases/detect-and-control-shadow-it-and-unauthorized-ai-usage"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/case-study/mars-forges-new-visibility-and-incident-response"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/case-study/lyft-journey-to-more-efficient-phishing-response"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/material-vs-google-native-controls"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/case-study/figma"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/case-study/dotmatics"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/love"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/case-study/pagerduty-upgrades-email-security"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/google-partnership"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/material-vs-email-security"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/case-study/headway"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/pricing"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/customers"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/resources"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/partners"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/careers"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/customer-success"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/events"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/privacy"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/disclosure"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/resources/closing-the-loop-automated-remediation-and-deeper-context"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/about"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/resources/connecting-the-dots-better-context-for-faster-triage"
+        },
+        {
+          "type": "Material Documentation",
+          "url": "https://docs.material.security/workspace-resources"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3ee0100cc70a2d03bc7a0bbb19b68480783fd5903e01a7eefd4f1ca785b8317d"
 }

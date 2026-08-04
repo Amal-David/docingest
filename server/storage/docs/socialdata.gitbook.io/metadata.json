@@ -96,5 +96,139 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://socialdata.gitbook.io/docs/pricing",
+      "canonicalSeedUrl": "https://socialdata.gitbook.io/docs/pricing",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-27T15:18:04.304Z",
+      "completedAt": "2025-01-27T15:18:04.304Z",
+      "providerTotals": {
+        "discovered": 19,
+        "returned": 19,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://socialdata.gitbook.io/docs/pricing",
+          "canonicalUrl": "https://socialdata.gitbook.io/docs/pricing",
+          "status": "valid"
+        }
+      ],
+      "id": "230360b925fea368ad16603bcfb708234d589e96829d36692b9dbe6842747b10",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5eac7a29614bfa2f882a8b164e60ae7fa9853ab381c5faa3428c7d0395fbabf5",
+      "filename": "documentation_2025-01-27T15:18:04.304Z.md",
+      "contentHash": "c89597150820ab23222d3fd7ba4cef9bff6b255335fee9c482a86fbfc53b063c",
+      "sourceUrl": "https://socialdata.gitbook.io/docs/pricing",
+      "canonicalSourceUrl": "https://socialdata.gitbook.io/docs/pricing",
+      "capturedAt": "2025-01-27T15:18:04.304Z",
+      "crawlRunId": "230360b925fea368ad16603bcfb708234d589e96829d36692b9dbe6842747b10",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 19,
+      "successfulPages": 19,
+      "structure": [
+        {
+          "type": "Pricing | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/pricing"
+        },
+        {
+          "type": "SDKs and Code Examples | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/sdks-and-code-examples"
+        },
+        {
+          "type": "Authentication | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/authentication"
+        },
+        {
+          "type": "Retrieve all users who retweeted a tweet | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-tweets/retrieve-all-users-who-retweeted-a-tweet"
+        },
+        {
+          "type": "Retrieve user's following | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-users/retrieve-users-following"
+        },
+        {
+          "type": "Retrieve profile's affiliated users | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-users/retrieve-profiles-affiliated-users"
+        },
+        {
+          "type": "Retrieve thread | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-tweets/retrieve-thread"
+        },
+        {
+          "type": "Retrieve tweets and replies made by a specific user | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-users/retrieve-tweets-and-replies-made-by-a-specific-user"
+        },
+        {
+          "type": "Retrieve likes made by a specific user | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-users/retrieve-likes-made-by-a-specific-user"
+        },
+        {
+          "type": "Retrieve user's highlighted tweets | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-users/retrieve-users-highlighted-tweets"
+        },
+        {
+          "type": "Retrieve user's followers | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-users/retrieve-users-followers"
+        },
+        {
+          "type": "Retrieve tweet details | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-tweets/retrieve-tweet-details"
+        },
+        {
+          "type": "Retrieve user profile details | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-users/retrieve-user-profile-details"
+        },
+        {
+          "type": "Retrieve user's lists | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-users/retrieve-users-lists"
+        },
+        {
+          "type": "Retrieve search results by keyword | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-tweets/retrieve-search-results-by-keyword"
+        },
+        {
+          "type": "Retrieve all users who liked a tweet | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-tweets/retrieve-all-users-who-liked-a-tweet"
+        },
+        {
+          "type": "Retrieve user's articles | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-users/retrieve-users-articles"
+        },
+        {
+          "type": "Retrieve article details | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-tweets/retrieve-article-details"
+        },
+        {
+          "type": "Retrieve community members | SocialData.Tools: API Documentation",
+          "url": "https://socialdata.gitbook.io/docs/twitter-x-communities/retrieve-community-members"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5eac7a29614bfa2f882a8b164e60ae7fa9853ab381c5faa3428c7d0395fbabf5"
 }

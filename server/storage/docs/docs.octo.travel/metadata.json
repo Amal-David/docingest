@@ -124,5 +124,167 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.octo.travel/",
+      "canonicalSeedUrl": "https://docs.octo.travel/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-10T02:30:24.163Z",
+      "completedAt": "2026-03-10T02:30:24.163Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.octo.travel/",
+          "canonicalUrl": "https://docs.octo.travel/",
+          "status": "valid"
+        }
+      ],
+      "id": "ff9b6aeed795e1e5d0cd05dc7164fd931c3a39c49e9f69d17a9dd7d2012af35e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "29ac7d2d3c62639eda7ec7ee8ac50c19c9e98fd73dafb5606d93315ada945c07",
+      "filename": "documentation_2026-03-10T02:30:24.163Z.md",
+      "contentHash": "a73de1b392ea0e6858e00818901b851baf5c530f63cb7d1718a880ad75bd67e7",
+      "sourceUrl": "https://docs.octo.travel/",
+      "canonicalSourceUrl": "https://docs.octo.travel/",
+      "capturedAt": "2026-03-10T02:30:24.163Z",
+      "crawlRunId": "ff9b6aeed795e1e5d0cd05dc7164fd931c3a39c49e9f69d17a9dd7d2012af35e",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "Welcome | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/"
+        },
+        {
+          "type": "Glossary of Terms | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/getting-started/glossary-of-terms"
+        },
+        {
+          "type": "Errors | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/getting-started/errors"
+        },
+        {
+          "type": "Development Support | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/getting-started/development-support"
+        },
+        {
+          "type": "Endpoints & Capabilities | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/getting-started/endpoints-and-capabilities"
+        },
+        {
+          "type": "Products | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/octo-api-core/products"
+        },
+        {
+          "type": "Schemas | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/getting-started/schemas"
+        },
+        {
+          "type": "Authentication | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/getting-started/authentication"
+        },
+        {
+          "type": "Headers | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/getting-started/headers"
+        },
+        {
+          "type": "Availability | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/octo-api-core/availability"
+        },
+        {
+          "type": "Supplier | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/octo-api-core/supplier"
+        },
+        {
+          "type": "Notifications | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/capabilities-optional/notifications"
+        },
+        {
+          "type": "Dropoffs [NEW] | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/capabilities-optional/dropoffs-new"
+        },
+        {
+          "type": "Pickups [NEW] | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/capabilities-optional/pickups-new"
+        },
+        {
+          "type": "Promotions [IN DEV] | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/capabilities-optional/promotions-in-dev"
+        },
+        {
+          "type": "Self-Certification Tool | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/additional-resources/self-certification-tool"
+        },
+        {
+          "type": "Slack Workspace | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/additional-resources/slack-workspace"
+        },
+        {
+          "type": "Content | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/capabilities-optional/content"
+        },
+        {
+          "type": "Postman Collections | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/additional-resources/postman-collections"
+        },
+        {
+          "type": "Pricing | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/capabilities-optional/pricing"
+        },
+        {
+          "type": "Known Implementations | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/additional-resources/known-implementations"
+        },
+        {
+          "type": "Glossary of Terms | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/getting-started"
+        },
+        {
+          "type": "Supplier | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/octo-api-core"
+        },
+        {
+          "type": "Slack Workspace | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/additional-resources"
+        },
+        {
+          "type": "Pricing | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/capabilities-optional"
+        },
+        {
+          "type": "Bookings | OCTO Developer Hub",
+          "url": "https://docs.octo.travel/octo-api-core/bookings"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "29ac7d2d3c62639eda7ec7ee8ac50c19c9e98fd73dafb5606d93315ada945c07"
 }

@@ -92,5 +92,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.apollo-bot.xyz",
+      "canonicalSeedUrl": "https://docs.apollo-bot.xyz/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-06-13T17:43:23.159Z",
+      "completedAt": "2025-06-13T17:43:23.159Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.apollo-bot.xyz",
+          "canonicalUrl": "https://docs.apollo-bot.xyz/",
+          "status": "valid"
+        }
+      ],
+      "id": "5d7c76ca950e317412aa1d5c3f6f0ffd0771aa0258dc9b615b0b0278b14fde7d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "bd15324d200a96d90177818e04b3e64b2d5c7eccbc63de41bea6934046903bf1",
+      "filename": "documentation_2025-06-13T17:43:23.159Z.md",
+      "contentHash": "daa7e038a5281a191bf24495785a7abe630c97febbe65fa3f39135bf639839b4",
+      "sourceUrl": "https://docs.apollo-bot.xyz",
+      "canonicalSourceUrl": "https://docs.apollo-bot.xyz/",
+      "capturedAt": "2025-06-13T17:43:23.159Z",
+      "crawlRunId": "5d7c76ca950e317412aa1d5c3f6f0ffd0771aa0258dc9b615b0b0278b14fde7d",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "Home | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz"
+        },
+        {
+          "type": "Basic configuration | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/basic-configuration"
+        },
+        {
+          "type": "Premium | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/premium"
+        },
+        {
+          "type": "Claimtime | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/guides/claimtime"
+        },
+        {
+          "type": "Configurations | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/guides/configurations"
+        },
+        {
+          "type": "Message Counter | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/guides/message-counter"
+        },
+        {
+          "type": "Giveaways | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/guides/giveaways"
+        },
+        {
+          "type": "Time-difference | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/guides/time-difference"
+        },
+        {
+          "type": "Overrides | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/guides/overrides"
+        },
+        {
+          "type": "Claimtime | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/commands/claimtime"
+        },
+        {
+          "type": "Greet | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/guides/greet"
+        },
+        {
+          "type": "Greeter | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/commands/greeter"
+        },
+        {
+          "type": "Meta | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/commands/meta"
+        },
+        {
+          "type": "Terms of service | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/legal/terms-of-service"
+        },
+        {
+          "type": "Privacy policy | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/legal/privacy-policy"
+        },
+        {
+          "type": "Utilities | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/commands/utilities"
+        },
+        {
+          "type": "Message Counter | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/commands/messages"
+        },
+        {
+          "type": "Giveaways | Apollo Documentation",
+          "url": "https://docs.apollo-bot.xyz/commands/giveaways"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "bd15324d200a96d90177818e04b3e64b2d5c7eccbc63de41bea6934046903bf1"
 }

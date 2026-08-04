@@ -49,5 +49,83 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.mspaint.cc/cobalt",
+      "canonicalSeedUrl": "https://docs.mspaint.cc/cobalt",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-07T19:25:18.449Z",
+      "completedAt": "2026-03-07T19:25:18.449Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.mspaint.cc/cobalt",
+          "canonicalUrl": "https://docs.mspaint.cc/cobalt",
+          "status": "valid"
+        }
+      ],
+      "id": "41e1cd2c62a7a60dc24e2ef94a320efa607edb7a3283e751c03df8d1a4c893f7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "48932cbbf0c024e96b47e89f084a406380032c411d5003b0607306bca801e5dd",
+      "filename": "documentation_2026-03-07T19:25:18.449Z.md",
+      "contentHash": "cb3ea215cb7640e7209b72c37bb83902d53516b88756b179664c02ff0cfab254",
+      "sourceUrl": "https://docs.mspaint.cc/cobalt",
+      "canonicalSourceUrl": "https://docs.mspaint.cc/cobalt",
+      "capturedAt": "2026-03-07T19:25:18.449Z",
+      "crawlRunId": "41e1cd2c62a7a60dc24e2ef94a320efa607edb7a3283e751c03df8d1a4c893f7",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "Getting Started",
+          "url": "https://docs.mspaint.cc/cobalt"
+        },
+        {
+          "type": "Local Development",
+          "url": "https://docs.mspaint.cc/cobalt/development"
+        },
+        {
+          "type": "Overview",
+          "url": "https://docs.mspaint.cc/cobalt/plugins/overview"
+        },
+        {
+          "type": "Contributing",
+          "url": "https://docs.mspaint.cc/cobalt/contributing"
+        },
+        {
+          "type": "API Reference",
+          "url": "https://docs.mspaint.cc/cobalt/plugins/api"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "48932cbbf0c024e96b47e89f084a406380032c411d5003b0607306bca801e5dd"
 }

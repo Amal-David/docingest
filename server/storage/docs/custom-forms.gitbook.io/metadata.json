@@ -40,5 +40,83 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://custom-forms.gitbook.io/formify-docs/",
+      "canonicalSeedUrl": "https://custom-forms.gitbook.io/formify-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-20T12:38:51.543Z",
+      "completedAt": "2025-08-20T12:38:51.543Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://custom-forms.gitbook.io/formify-docs/",
+          "canonicalUrl": "https://custom-forms.gitbook.io/formify-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "14ab9bcbb51e889488cca9a85b6db4a55339205771dcf08ace2272a9f8b1c895",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "6704b02397533c5a0b9d91b645670142b2a48bc6d07463f16106d9594dd77ff6",
+      "filename": "documentation_2025-08-20T12:38:51.543Z.md",
+      "contentHash": "4b4c037b6ec2c152aeb3e1de67d8d176d9c1785022c3f368a46b8f56816bc8d7",
+      "sourceUrl": "https://custom-forms.gitbook.io/formify-docs/",
+      "canonicalSourceUrl": "https://custom-forms.gitbook.io/formify-docs",
+      "capturedAt": "2025-08-20T12:38:51.543Z",
+      "crawlRunId": "14ab9bcbb51e889488cca9a85b6db4a55339205771dcf08ace2272a9f8b1c895",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "Form Creation | Formify",
+          "url": "https://custom-forms.gitbook.io/formify-docs/"
+        },
+        {
+          "type": "Panel Creation Dasboard | Formify",
+          "url": "https://custom-forms.gitbook.io/formify-docs/form-creation/formify-forms-via-website/panel-creation-dasboard"
+        },
+        {
+          "type": "Formify Forms Via Website | Formify",
+          "url": "https://custom-forms.gitbook.io/formify-docs/form-creation/formify-forms-via-website"
+        },
+        {
+          "type": "Formify Forms Via Discord | Formify",
+          "url": "https://custom-forms.gitbook.io/formify-docs/form-creation/formify-forms-via-discord"
+        },
+        {
+          "type": "Panel Creation Discord | Formify",
+          "url": "https://custom-forms.gitbook.io/formify-docs/form-creation/formify-forms-via-discord/panel-creation-discord"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "6704b02397533c5a0b9d91b645670142b2a48bc6d07463f16106d9594dd77ff6"
 }

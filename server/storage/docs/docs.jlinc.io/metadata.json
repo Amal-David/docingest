@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.jlinc.io/#/?id=the-jlinc-process",
+      "canonicalSeedUrl": "https://docs.jlinc.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-18T16:55:53.664Z",
+      "completedAt": "2025-11-18T16:55:53.664Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.jlinc.io/#/?id=the-jlinc-process",
+          "canonicalUrl": "https://docs.jlinc.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "5a167ab2b840bb240f882ba02044039d6aca333813df9bf563a92fc7ac3f856d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "6746a0f3d50a36a4349f933ead0404efe3dd781318ef13b4e8399cfcad04fb2e",
+      "filename": "documentation_2025-11-18T16:55:53.664Z.md",
+      "contentHash": "feb5f3b451b62a8a5afd7e3e48c7d459b7e706e94817f48857a1a1184ff170a2",
+      "sourceUrl": "https://docs.jlinc.io/#/?id=the-jlinc-process",
+      "canonicalSourceUrl": "https://docs.jlinc.io/",
+      "capturedAt": "2025-11-18T16:55:53.664Z",
+      "crawlRunId": "5a167ab2b840bb240f882ba02044039d6aca333813df9bf563a92fc7ac3f856d",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "JLINC Documentation Library",
+          "url": "https://docs.jlinc.io/#/?id=the-jlinc-process"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "6746a0f3d50a36a4349f933ead0404efe3dd781318ef13b4e8399cfcad04fb2e"
 }

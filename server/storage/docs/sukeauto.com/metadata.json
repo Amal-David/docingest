@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://sukeauto.com/vinyl-toy-production-everything-you-need-to-know/",
+      "canonicalSeedUrl": "https://sukeauto.com/vinyl-toy-production-everything-you-need-to-know",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-28T01:03:32.729Z",
+      "completedAt": "2026-01-28T01:03:32.729Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://sukeauto.com/vinyl-toy-production-everything-you-need-to-know/",
+          "canonicalUrl": "https://sukeauto.com/vinyl-toy-production-everything-you-need-to-know",
+          "status": "valid"
+        }
+      ],
+      "id": "5b9a297b2141591fd63d9a2cc4fd9e2f176e4861b2449bb1f0a60760f352700a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9e03c3f028c14547f9febc48514e0f728ce9fb424dd586473040204f4abcaa92",
+      "filename": "documentation_2026-01-28T01:03:32.729Z.md",
+      "contentHash": "4962e27a8cbb0da86308ac618ad21d3a8151cf0e3ced6f1746fd9671828f71d6",
+      "sourceUrl": "https://sukeauto.com/vinyl-toy-production-everything-you-need-to-know/",
+      "canonicalSourceUrl": "https://sukeauto.com/vinyl-toy-production-everything-you-need-to-know",
+      "capturedAt": "2026-01-28T01:03:32.729Z",
+      "crawlRunId": "5b9a297b2141591fd63d9a2cc4fd9e2f176e4861b2449bb1f0a60760f352700a",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Vinyl Toy Production: Everything You Need to Know",
+          "url": "https://sukeauto.com/vinyl-toy-production-everything-you-need-to-know/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9e03c3f028c14547f9febc48514e0f728ce9fb424dd586473040204f4abcaa92"
 }

@@ -142,5 +142,167 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib",
+      "canonicalSeedUrl": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-28T09:06:16.640Z",
+      "completedAt": "2025-12-28T09:06:16.640Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib",
+          "canonicalUrl": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib",
+          "status": "valid"
+        }
+      ],
+      "id": "bab45aade7aaeb5f22edf9d3b5e189171398c2268ca3709b3739906a7f20c35f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7243aa511bc1d56b07a0fef9e5ba4e9b2b4c4dd1718d7479b054850da10dcb6e",
+      "filename": "documentation_2025-12-28T09:06:16.640Z.md",
+      "contentHash": "7770c3e2d424418592a44d994f4bf42077168915e92848224048e2c8f0108186",
+      "sourceUrl": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib",
+      "canonicalSourceUrl": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib",
+      "capturedAt": "2025-12-28T09:06:16.640Z",
+      "crawlRunId": "bab45aade7aaeb5f22edf9d3b5e189171398c2268ca3709b3739906a7f20c35f",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "Loading Maclib | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib"
+        },
+        {
+          "type": "Welcome | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library"
+        },
+        {
+          "type": "Miscellaneous | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/information/miscellaneous"
+        },
+        {
+          "type": "Displaying a notification | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/displaying-a-notification"
+        },
+        {
+          "type": "Documentation Formatting | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/information/documentation-formatting"
+        },
+        {
+          "type": "Adding a Global Setting | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/adding-a-global-setting"
+        },
+        {
+          "type": "Creating a window | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window"
+        },
+        {
+          "type": "Creating a tab group | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group"
+        },
+        {
+          "type": "Prompting a dialog | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/prompting-a-dialog"
+        },
+        {
+          "type": "Header | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs/adding-sections/header"
+        },
+        {
+          "type": "Adding tabs | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs"
+        },
+        {
+          "type": "Input | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs/adding-sections/input"
+        },
+        {
+          "type": "Toggle | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs/adding-sections/toggle"
+        },
+        {
+          "type": "Colorpicker | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs/adding-sections/colorpicker"
+        },
+        {
+          "type": "Keybind | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs/adding-sections/keybind"
+        },
+        {
+          "type": "Dropdown | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs/adding-sections/dropdown"
+        },
+        {
+          "type": "Adding sections | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs/adding-sections"
+        },
+        {
+          "type": "Button | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs/adding-sections/button"
+        },
+        {
+          "type": "Slider | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs/adding-sections/slider"
+        },
+        {
+          "type": "Paragraph | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs/adding-sections/paragraph"
+        },
+        {
+          "type": "Label | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs/adding-sections/label"
+        },
+        {
+          "type": "Sub Label | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs/adding-sections/sub-label"
+        },
+        {
+          "type": "Divider | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs/adding-sections/divider"
+        },
+        {
+          "type": "Spacer | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started/loading-maclib/creating-a-window/creating-a-tab-group/adding-tabs/adding-sections/spacer"
+        },
+        {
+          "type": "Loading Maclib | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/getting-started"
+        },
+        {
+          "type": "Welcome | Maclib UI Library",
+          "url": "https://brady-xyz.gitbook.io/maclib-ui-library/information"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7243aa511bc1d56b07a0fef9e5ba4e9b2b4c4dd1718d7479b054850da10dcb6e"
 }

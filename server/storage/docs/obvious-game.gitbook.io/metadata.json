@@ -140,5 +140,183 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-variable",
+      "canonicalSeedUrl": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-variable",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-18T07:55:47.935Z",
+      "completedAt": "2025-03-18T07:55:47.935Z",
+      "providerTotals": {
+        "discovered": 30,
+        "returned": 30,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-variable",
+          "canonicalUrl": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-variable",
+          "status": "valid"
+        }
+      ],
+      "id": "46d15fda5281da43ac497ca2ebdc2b6973a20fb9635e27ef1030ae67a60d57c0",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "50e0cbd5f882cf2ec103f12cdff6fe7b7c1754ae2635a4003ed1bf628f29241e",
+      "filename": "documentation_2025-03-18T07:55:47.935Z.md",
+      "contentHash": "565f7aa1d513dfd54599ff4bcdd3b28c1f1a2bf626c3f6d031e74d8f1d322d03",
+      "sourceUrl": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-variable",
+      "canonicalSourceUrl": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-variable",
+      "capturedAt": "2025-03-18T07:55:47.935Z",
+      "crawlRunId": "46d15fda5281da43ac497ca2ebdc2b6973a20fb9635e27ef1030ae67a60d57c0",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "structure": [
+        {
+          "type": "Scriptable Variable | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-variable"
+        },
+        {
+          "type": "Where to get Soap? | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/getting-started/where-to-get-soap"
+        },
+        {
+          "type": "Why use Soap? | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/getting-started/why-use-soap"
+        },
+        {
+          "type": "Debugging | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-variable/debugging"
+        },
+        {
+          "type": "Scriptable List | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-list"
+        },
+        {
+          "type": "Properties | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-variable/properties"
+        },
+        {
+          "type": "Properties | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-list/properties"
+        },
+        {
+          "type": "FAQ | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-variable/faq"
+        },
+        {
+          "type": "Runtime Variables | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-variable/runtime-variables"
+        },
+        {
+          "type": "Bindings | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/bindings"
+        },
+        {
+          "type": "Properties | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-event/properties"
+        },
+        {
+          "type": "Callbacks | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-list/callbacks"
+        },
+        {
+          "type": "Variable Reference | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-variable/variable-reference"
+        },
+        {
+          "type": "Scriptable Event | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-event"
+        },
+        {
+          "type": "FAQ | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-list/faq"
+        },
+        {
+          "type": "Debugging | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-event/debugging"
+        },
+        {
+          "type": "FAQ | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-event/faq"
+        },
+        {
+          "type": "Event Listener | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/event-listener"
+        },
+        {
+          "type": "Properties | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/event-listener/properties"
+        },
+        {
+          "type": "Dynamic Binding | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/event-listener/dynamic-binding"
+        },
+        {
+          "type": "FAQ | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/event-listener/faq"
+        },
+        {
+          "type": "Callbacks | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-dictionary/callbacks"
+        },
+        {
+          "type": "Scriptable Enum | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-enum"
+        },
+        {
+          "type": "FAQ | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-subassets/faq"
+        },
+        {
+          "type": "FAQ | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-save/faq"
+        },
+        {
+          "type": "Accessing SubAssets | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-subassets/accessing-subassets"
+        },
+        {
+          "type": "Scriptable Dictionary | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-dictionary"
+        },
+        {
+          "type": "Creating Soap ScriptableObjects | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/useful-tips/creating-soap-scriptableobjects"
+        },
+        {
+          "type": "Scriptable SubAssets | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-subassets"
+        },
+        {
+          "type": "Creating/Deleting SubAssets | Soap - 3.5.1",
+          "url": "https://obvious-game.gitbook.io/soap/soap-core-assets/scriptable-subassets/creating-deleting-subassets"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "50e0cbd5f882cf2ec103f12cdff6fe7b7c1754ae2635a4003ed1bf628f29241e"
 }

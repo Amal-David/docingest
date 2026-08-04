@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.github.com/en/rest?apiVersion=2022-11-28",
+      "canonicalSeedUrl": "https://docs.github.com/en/rest?apiVersion=2022-11-28",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-29T02:47:55.834Z",
+      "completedAt": "2025-07-29T02:47:55.834Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.github.com/en/rest?apiVersion=2022-11-28",
+          "canonicalUrl": "https://docs.github.com/en/rest?apiVersion=2022-11-28",
+          "status": "valid"
+        }
+      ],
+      "id": "9b017e6fe3fc9cf34ce09b02db0bf6b0e34bedba67c149faef75dc9ae83f1b80",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "653c37bcef6e028ffc63c37649250ac6777b5726917230f412b6ab2271084996",
+      "filename": "documentation_2025-07-29T02:47:55.834Z.md",
+      "contentHash": "ac4da4ff5f92adddae05b332635893d5924ac8080d6a01c8b72ab2ce8e6e5fdb",
+      "sourceUrl": "https://docs.github.com/en/rest?apiVersion=2022-11-28",
+      "canonicalSourceUrl": "https://docs.github.com/en/rest?apiVersion=2022-11-28",
+      "capturedAt": "2025-07-29T02:47:55.834Z",
+      "crawlRunId": "9b017e6fe3fc9cf34ce09b02db0bf6b0e34bedba67c149faef75dc9ae83f1b80",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "GitHub REST API documentation - GitHub Docs",
+          "url": "https://docs.github.com/en/rest?apiVersion=2022-11-28"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "653c37bcef6e028ffc63c37649250ac6777b5726917230f412b6ab2271084996"
 }

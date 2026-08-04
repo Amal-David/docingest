@@ -64,5 +64,107 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.cardknox.com/cardknox-products/3d-secure",
+      "canonicalSeedUrl": "https://docs.cardknox.com/cardknox-products/3d-secure",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-13T13:09:24.112Z",
+      "completedAt": "2025-01-13T13:09:24.112Z",
+      "providerTotals": {
+        "discovered": 11,
+        "returned": 11,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.cardknox.com/cardknox-products/3d-secure",
+          "canonicalUrl": "https://docs.cardknox.com/cardknox-products/3d-secure",
+          "status": "valid"
+        }
+      ],
+      "id": "2c73b201961feb1492214a076861bf6b090820e8889c0becfa257b663d6284f1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "abcd1676686150954c5bd6f2d878459df16c794bc1d7e04c56981fa9111f8e34",
+      "filename": "documentation_2025-01-13T13:09:24.112Z.md",
+      "contentHash": "85a7fa88b4d48e328f5155d5324f53e907579c9f30a36dbbb8b1a0bf32b3979f",
+      "sourceUrl": "https://docs.cardknox.com/cardknox-products/3d-secure",
+      "canonicalSourceUrl": "https://docs.cardknox.com/cardknox-products/3d-secure",
+      "capturedAt": "2025-01-13T13:09:24.112Z",
+      "crawlRunId": "2c73b201961feb1492214a076861bf6b090820e8889c0becfa257b663d6284f1",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 11,
+      "successfulPages": 11,
+      "structure": [
+        {
+          "type": "3D Secure 2.0 | Cardknox",
+          "url": "https://docs.cardknox.com/cardknox-products/3d-secure"
+        },
+        {
+          "type": "Account Boarding Swagger UI | Cardknox",
+          "url": "https://docs.cardknox.com/api/account-boarding-api/account-boarding-swagger-ui"
+        },
+        {
+          "type": "Client-Side Integration | Cardknox",
+          "url": "https://docs.cardknox.com/cardknox-products/3d-secure/client-side-integration"
+        },
+        {
+          "type": "Transaction API | Cardknox",
+          "url": "https://docs.cardknox.com/api/transaction"
+        },
+        {
+          "type": "Fraud | Cardknox",
+          "url": "https://docs.cardknox.com/api/transaction/fraud"
+        },
+        {
+          "type": "Account Boarding Merchant Agreement | Cardknox",
+          "url": "https://docs.cardknox.com/api/account-boarding-api/account-boarding-merchant-agreement"
+        },
+        {
+          "type": "iOS SDK - Technical Guide | Cardknox",
+          "url": "https://docs.cardknox.com/sdk/ios-sdk/ios-sdk"
+        },
+        {
+          "type": "Account Updater | Cardknox",
+          "url": "https://docs.cardknox.com/cardknox-products/account-updater"
+        },
+        {
+          "type": ".NET SDK | Cardknox",
+          "url": "https://docs.cardknox.com/sdk/payment-engine-sdk"
+        },
+        {
+          "type": "Introduction | Cardknox",
+          "url": "https://docs.cardknox.com/"
+        },
+        {
+          "type": "Account Boarding API | Cardknox",
+          "url": "https://docs.cardknox.com/api/account-boarding-api"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "abcd1676686150954c5bd6f2d878459df16c794bc1d7e04c56981fa9111f8e34"
 }

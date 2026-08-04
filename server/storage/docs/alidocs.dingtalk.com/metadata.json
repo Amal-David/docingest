@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aZxe5myC99MelA2WgN7R35y?iframeQuery=&utm_medium=dingdoc_doc_plugin_url&utm_scene=team_space&utm_source=dingdoc_doc",
+      "canonicalSeedUrl": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aZxe5myC99MelA2WgN7R35y?iframeQuery=",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-01T16:20:26.506Z",
+      "completedAt": "2025-08-01T16:20:26.506Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aZxe5myC99MelA2WgN7R35y?iframeQuery=&utm_medium=dingdoc_doc_plugin_url&utm_scene=team_space&utm_source=dingdoc_doc",
+          "canonicalUrl": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aZxe5myC99MelA2WgN7R35y?iframeQuery=",
+          "status": "valid"
+        }
+      ],
+      "id": "26c5137ef324bb2733578990a0f184d8b37be22ed0cfa6b21e10dd6e956bd15a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ddfd35deab626fb3cdef1be828122019af572527ae216734e43609f5939e2d05",
+      "filename": "documentation_2025-08-01T16:20:26.506Z.md",
+      "contentHash": "500c14edf021d841a0871ce7be1564b8b08ee251d6281568688be843d9433671",
+      "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aZxe5myC99MelA2WgN7R35y?iframeQuery=&utm_medium=dingdoc_doc_plugin_url&utm_scene=team_space&utm_source=dingdoc_doc",
+      "canonicalSourceUrl": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aZxe5myC99MelA2WgN7R35y?iframeQuery=",
+      "capturedAt": "2025-08-01T16:20:26.506Z",
+      "crawlRunId": "26c5137ef324bb2733578990a0f184d8b37be22ed0cfa6b21e10dd6e956bd15a",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Easy Creation with One Click - AI Videos · DingTalk Docs",
+          "url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aZxe5myC99MelA2WgN7R35y?iframeQuery=&utm_medium=dingdoc_doc_plugin_url&utm_scene=team_space&utm_source=dingdoc_doc"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ddfd35deab626fb3cdef1be828122019af572527ae216734e43609f5939e2d05"
 }

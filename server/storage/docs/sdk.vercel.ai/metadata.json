@@ -111,5 +111,127 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://sdk.vercel.ai/docs/introduction",
+      "canonicalSeedUrl": "https://sdk.vercel.ai/docs/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-19T08:21:37.869Z",
+      "completedAt": "2025-04-19T08:21:37.869Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://sdk.vercel.ai/docs/introduction",
+          "canonicalUrl": "https://sdk.vercel.ai/docs/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "227d2919381c4af868572a4bf8bcdb26948aaedb6dc602ffd2d69ec4af970feb",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "dea8aa1587d5d2798384364c32d842856e2ce5b531ec7a530978092f3d4e8bf2",
+      "filename": "documentation_2025-04-19T08:21:37.869Z.md",
+      "contentHash": "3fd8c83820f521307f142cc0b4a75cb1c64b4bbd6c36b9996b43f61cf1cc1bcc",
+      "sourceUrl": "https://sdk.vercel.ai/docs/introduction",
+      "canonicalSourceUrl": "https://sdk.vercel.ai/docs/introduction",
+      "capturedAt": "2025-04-19T08:21:37.869Z",
+      "crawlRunId": "227d2919381c4af868572a4bf8bcdb26948aaedb6dc602ffd2d69ec4af970feb",
+      "upstreamVersion": "1.3.0",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "AI SDK by Vercel",
+          "url": "https://sdk.vercel.ai/docs/introduction"
+        },
+        {
+          "type": "Foundations",
+          "url": "https://sdk.vercel.ai/docs/foundations"
+        },
+        {
+          "type": "Foundations: Overview",
+          "url": "https://sdk.vercel.ai/docs/foundations/overview"
+        },
+        {
+          "type": "Foundations: Tools",
+          "url": "https://sdk.vercel.ai/docs/foundations/tools"
+        },
+        {
+          "type": "Foundations: Prompts",
+          "url": "https://sdk.vercel.ai/docs/foundations/prompts"
+        },
+        {
+          "type": "Foundations: Streaming",
+          "url": "https://sdk.vercel.ai/docs/foundations/streaming"
+        },
+        {
+          "type": "Foundations: Providers and Models",
+          "url": "https://sdk.vercel.ai/docs/foundations/providers-and-models"
+        },
+        {
+          "type": "Getting Started",
+          "url": "https://sdk.vercel.ai/docs/getting-started"
+        },
+        {
+          "type": "Foundations: Agents",
+          "url": "https://sdk.vercel.ai/docs/foundations/agents"
+        },
+        {
+          "type": "Getting Started: Navigating the Library",
+          "url": "https://sdk.vercel.ai/docs/getting-started/navigating-the-library"
+        },
+        {
+          "type": "Getting Started: Next.js Pages Router",
+          "url": "https://sdk.vercel.ai/docs/getting-started/nextjs-pages-router"
+        },
+        {
+          "type": "Getting Started: Next.js App Router",
+          "url": "https://sdk.vercel.ai/docs/getting-started/nextjs-app-router"
+        },
+        {
+          "type": "Getting Started: Svelte",
+          "url": "https://sdk.vercel.ai/docs/getting-started/svelte"
+        },
+        {
+          "type": "Guides",
+          "url": "https://sdk.vercel.ai/docs/guides"
+        },
+        {
+          "type": "Getting Started: Node.js",
+          "url": "https://sdk.vercel.ai/docs/getting-started/nodejs"
+        },
+        {
+          "type": "Getting Started: Vue.js (Nuxt)",
+          "url": "https://sdk.vercel.ai/docs/getting-started/nuxt"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "dea8aa1587d5d2798384364c32d842856e2ce5b531ec7a530978092f3d4e8bf2"
 }

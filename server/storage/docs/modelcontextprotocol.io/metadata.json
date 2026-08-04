@@ -160,5 +160,131 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://modelcontextprotocol.io/docs/develop/build-with-agent-skills",
+      "canonicalSeedUrl": "https://modelcontextprotocol.io/docs/develop/build-with-agent-skills",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-25T19:27:07.505Z",
+      "completedAt": "2026-04-25T19:27:07.505Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://modelcontextprotocol.io/docs/develop/build-with-agent-skills",
+          "canonicalUrl": "https://modelcontextprotocol.io/docs/develop/build-with-agent-skills",
+          "status": "valid"
+        }
+      ],
+      "id": "3f6cdfcb43b3212fadd781df32fa64a17ff240a91c70caa88402384711df9ab3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "6b96c22d1bb18ec5dfb9de96c8076e040b5c221a697d37dcc264c529c5ba9703",
+      "filename": "documentation_2026-04-25T19:27:07.505Z.md",
+      "contentHash": "324c22fd2268d44348c66ea15cf8d1d30e0675807cd1183eeaecf2aad74cce7a",
+      "sourceUrl": "https://modelcontextprotocol.io/docs/develop/build-with-agent-skills",
+      "canonicalSourceUrl": "https://modelcontextprotocol.io/docs/develop/build-with-agent-skills",
+      "capturedAt": "2026-04-25T19:27:07.505Z",
+      "crawlRunId": "3f6cdfcb43b3212fadd781df32fa64a17ff240a91c70caa88402384711df9ab3",
+      "upstreamVersion": "1.6.2",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Build with Agent Skills - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/develop/build-with-agent-skills"
+        },
+        {
+          "type": "Client Best Practices - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/develop/clients/client-best-practices"
+        },
+        {
+          "type": "What is the Model Context Protocol (MCP)? - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/"
+        },
+        {
+          "type": "What is the Model Context Protocol (MCP)? - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/getting-started/intro"
+        },
+        {
+          "type": "Connect to local MCP servers - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/develop/connect-local-servers"
+        },
+        {
+          "type": "Build an MCP client - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/develop/build-client"
+        },
+        {
+          "type": "Architecture overview - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/learn/architecture"
+        },
+        {
+          "type": "Understanding MCP clients - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/learn/client-concepts"
+        },
+        {
+          "type": "Understanding MCP servers - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/learn/server-concepts"
+        },
+        {
+          "type": "Versioning - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/learn/versioning"
+        },
+        {
+          "type": "Connect to remote MCP Servers - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/develop/connect-remote-servers"
+        },
+        {
+          "type": "Debugging - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/tools/debugging"
+        },
+        {
+          "type": "MCP Inspector - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/tools/inspector"
+        },
+        {
+          "type": "Security Best Practices - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices"
+        },
+        {
+          "type": "SDKs - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/sdk"
+        },
+        {
+          "type": "Build an MCP server - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/develop/build-server"
+        },
+        {
+          "type": "Understanding Authorization in MCP - Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/docs/tutorials/security/authorization"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "6b96c22d1bb18ec5dfb9de96c8076e040b5c221a697d37dcc264c529c5ba9703"
 }

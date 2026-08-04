@@ -104,5 +104,147 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.rysk.finance/",
+      "canonicalSeedUrl": "https://docs.rysk.finance/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-21T15:26:10.290Z",
+      "completedAt": "2026-04-21T15:26:10.290Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.rysk.finance/",
+          "canonicalUrl": "https://docs.rysk.finance/",
+          "status": "valid"
+        }
+      ],
+      "id": "253dddf257d9624c889838c7d3d66c64ba2a85e436e212e11e1a0a29c1f537dc",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "35733ce69222202181dbf562f61e069ac51d479ffaf3ffc2c96b0d77a237a105",
+      "filename": "documentation_2026-04-21T15:26:10.290Z.md",
+      "contentHash": "bab2d7c8d65c17718f9986e803c0c82a0a2a573326f75cdc5bb5f8dd92027f6b",
+      "sourceUrl": "https://docs.rysk.finance/",
+      "canonicalSourceUrl": "https://docs.rysk.finance/",
+      "capturedAt": "2026-04-21T15:26:10.290Z",
+      "crawlRunId": "253dddf257d9624c889838c7d3d66c64ba2a85e436e212e11e1a0a29c1f537dc",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "Welcome to Rysk | Rysk Finance",
+          "url": "https://docs.rysk.finance/"
+        },
+        {
+          "type": "Solution: Rysk V12 | Rysk Finance",
+          "url": "https://docs.rysk.finance/getting-started/solution-rysk-v12"
+        },
+        {
+          "type": "Problem | Rysk Finance",
+          "url": "https://docs.rysk.finance/getting-started/problem"
+        },
+        {
+          "type": "Official links | Rysk Finance",
+          "url": "https://docs.rysk.finance/resources/official-links"
+        },
+        {
+          "type": "Rysk Premium Explainer | Rysk Finance",
+          "url": "https://docs.rysk.finance/rysk-premium/rysk-premium-explainer"
+        },
+        {
+          "type": "PROTOCOL AND PRODUCT | Rysk Finance",
+          "url": "https://docs.rysk.finance/getting-started/protocol-and-product"
+        },
+        {
+          "type": "Products | Rysk Finance",
+          "url": "https://docs.rysk.finance/getting-started/protocol-and-product/products"
+        },
+        {
+          "type": "[Makers] How to integrate in the RFQ | Rysk Finance",
+          "url": "https://docs.rysk.finance/getting-started/protocol-and-product/makers-how-to-integrate-in-the-rfq"
+        },
+        {
+          "type": "FAQ | Rysk Finance",
+          "url": "https://docs.rysk.finance/getting-started/protocol-and-product/faq"
+        },
+        {
+          "type": "Oracle | Rysk Finance",
+          "url": "https://docs.rysk.finance/resources/oracle"
+        },
+        {
+          "type": "How to use Rysk | Rysk Finance",
+          "url": "https://docs.rysk.finance/getting-started/protocol-and-product/how-to-use-rysk"
+        },
+        {
+          "type": "How it works | Rysk Finance",
+          "url": "https://docs.rysk.finance/getting-started/protocol-and-product/how-it-works"
+        },
+        {
+          "type": "Security | Rysk Finance",
+          "url": "https://docs.rysk.finance/resources/security"
+        },
+        {
+          "type": "Important Contracts | Rysk Finance",
+          "url": "https://docs.rysk.finance/resources/important-contracts"
+        },
+        {
+          "type": "Terms of Service | Rysk Finance",
+          "url": "https://docs.rysk.finance/resources/terms-of-service"
+        },
+        {
+          "type": "Points | Rysk Finance",
+          "url": "https://docs.rysk.finance/getting-started/protocol-and-product/points"
+        },
+        {
+          "type": "Privacy Policy | Rysk Finance",
+          "url": "https://docs.rysk.finance/resources/privacy-policy"
+        },
+        {
+          "type": "Brand Kit | Rysk Finance",
+          "url": "https://docs.rysk.finance/resources/brand-kit"
+        },
+        {
+          "type": "Welcome to Rysk | Rysk Finance",
+          "url": "https://docs.rysk.finance/getting-started"
+        },
+        {
+          "type": "Official links | Rysk Finance",
+          "url": "https://docs.rysk.finance/resources"
+        },
+        {
+          "type": "Rysk Premium Explainer | Rysk Finance",
+          "url": "https://docs.rysk.finance/rysk-premium"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "35733ce69222202181dbf562f61e069ac51d479ffaf3ffc2c96b0d77a237a105"
 }

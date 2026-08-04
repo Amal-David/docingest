@@ -56,5 +56,99 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.mail.tm/getting-started/authentication",
+      "canonicalSeedUrl": "https://docs.mail.tm/getting-started/authentication",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-08T12:25:05.024Z",
+      "completedAt": "2026-04-08T12:25:05.024Z",
+      "providerTotals": {
+        "discovered": 9,
+        "returned": 9,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.mail.tm/getting-started/authentication",
+          "canonicalUrl": "https://docs.mail.tm/getting-started/authentication",
+          "status": "valid"
+        }
+      ],
+      "id": "e5bd1f9a64440f0702b6ebda78d18bf5d8dd3ae73fcddb747c00c0361bcf3461",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b31dcd5b0aeb198d9f0891d714d30936f691a92ab493af5d3e495288f4b7d88a",
+      "filename": "documentation_2026-04-08T12:25:05.024Z.md",
+      "contentHash": "fb5980e7999f03003f38bad03ecef0f79622e28e1f946d5d9ce62ab80059cb82",
+      "sourceUrl": "https://docs.mail.tm/getting-started/authentication",
+      "canonicalSourceUrl": "https://docs.mail.tm/getting-started/authentication",
+      "capturedAt": "2026-04-08T12:25:05.024Z",
+      "crawlRunId": "e5bd1f9a64440f0702b6ebda78d18bf5d8dd3ae73fcddb747c00c0361bcf3461",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 9,
+      "successfulPages": 9,
+      "structure": [
+        {
+          "type": "Authentication - Mail.tm",
+          "url": "https://docs.mail.tm/getting-started/authentication"
+        },
+        {
+          "type": "Temp Mail API - Mail.tm",
+          "url": "https://docs.mail.tm/"
+        },
+        {
+          "type": "Error Handling - Mail.tm",
+          "url": "https://docs.mail.tm/getting-started/error-handling"
+        },
+        {
+          "type": "Domains - Mail.tm",
+          "url": "https://docs.mail.tm/api/domains"
+        },
+        {
+          "type": "Messages - Mail.tm",
+          "url": "https://docs.mail.tm/api/messages"
+        },
+        {
+          "type": "Accounts - Mail.tm",
+          "url": "https://docs.mail.tm/api/accounts"
+        },
+        {
+          "type": "Real-time Events - Mail.tm",
+          "url": "https://docs.mail.tm/api/webhooks"
+        },
+        {
+          "type": "Integrations - Mail.tm",
+          "url": "https://docs.mail.tm/integrations"
+        },
+        {
+          "type": "About - Mail.tm",
+          "url": "https://docs.mail.tm/about"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b31dcd5b0aeb198d9f0891d714d30936f691a92ab493af5d3e495288f4b7d88a"
 }

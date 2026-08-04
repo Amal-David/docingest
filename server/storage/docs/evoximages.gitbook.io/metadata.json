@@ -148,5 +148,191 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://evoximages.gitbook.io/docs",
+      "canonicalSeedUrl": "https://evoximages.gitbook.io/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-21T13:17:23.021Z",
+      "completedAt": "2025-10-21T13:17:23.021Z",
+      "providerTotals": {
+        "discovered": 32,
+        "returned": 32,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://evoximages.gitbook.io/docs",
+          "canonicalUrl": "https://evoximages.gitbook.io/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "56f880de9c88ca6d7e98f96bd6d41330bc32c05c1c36f2ceb56aa196a9add6c1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cbe5ecd7b55ffc9d658e80e41d74b3b734966d3076e0f53f5e5c2d1e05b36339",
+      "filename": "documentation_2025-10-21T13:17:23.021Z.md",
+      "contentHash": "14177eb6f7a6d1c1064598e16bda753205c8f0d8b1ab682ef6f22a8f862ba27c",
+      "sourceUrl": "https://evoximages.gitbook.io/docs",
+      "canonicalSourceUrl": "https://evoximages.gitbook.io/docs",
+      "capturedAt": "2025-10-21T13:17:23.021Z",
+      "crawlRunId": "56f880de9c88ca6d7e98f96bd6d41330bc32c05c1c36f2ceb56aa196a9add6c1",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 32,
+      "successfulPages": 32,
+      "structure": [
+        {
+          "type": "Introduction | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs"
+        },
+        {
+          "type": "Getting Started | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/get-started"
+        },
+        {
+          "type": "Changelog | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/changelog"
+        },
+        {
+          "type": "Authentication | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/authentication"
+        },
+        {
+          "type": "Product Catalog - USA | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/product-chart"
+        },
+        {
+          "type": "Errors | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/error-codes"
+        },
+        {
+          "type": "Vids | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/vids"
+        },
+        {
+          "type": "Spec Guides | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/spec-guides"
+        },
+        {
+          "type": "/vids/:vid | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/vids/vids-vid-1"
+        },
+        {
+          "type": "/vids/:vid/products/:productId/:productTypeId | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/vids/vids-vid-products-productid-producttypeid"
+        },
+        {
+          "type": "Vehicles | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/endpoints"
+        },
+        {
+          "type": "/vehicles/:vifnum | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/endpoints/vehicles-vifnum"
+        },
+        {
+          "type": "/vehicles/:vifnum/stills | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/endpoints/vehicles-vifnum-stills"
+        },
+        {
+          "type": "/vehicles/:vifnum/products/:productId/:productTypeId | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/endpoints/vehicles-vifnum-products-productid-producttypeid"
+        },
+        {
+          "type": "/vehicles | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/endpoints/vehicles"
+        },
+        {
+          "type": "/makes | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/makes/untitled"
+        },
+        {
+          "type": "Products | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/products-1"
+        },
+        {
+          "type": "Btllists | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/btllists"
+        },
+        {
+          "type": "Mappings | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/mappings"
+        },
+        {
+          "type": "/products | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/products-1/untitled-1"
+        },
+        {
+          "type": "Makes | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/makes"
+        },
+        {
+          "type": "/mappings | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/mappings/mappings"
+        },
+        {
+          "type": "/products/:productId | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/products-1/untitled"
+        },
+        {
+          "type": "/vehicles/:vifnum/colors | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/endpoints/vehicles-vifnum-colors"
+        },
+        {
+          "type": "/vehicles/:vifnum/hotspots | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/endpoints/vehicles-vifnum-hotspots"
+        },
+        {
+          "type": "/btllists | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/btllists/btllists"
+        },
+        {
+          "type": "Viflist | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/viflist"
+        },
+        {
+          "type": "/viflists | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources/viflist/viflists"
+        },
+        {
+          "type": "Contact Us | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/getting-help/contact-us"
+        },
+        {
+          "type": "Legal | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/getting-help/legal"
+        },
+        {
+          "type": "Spec Guides | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/resources"
+        },
+        {
+          "type": "Contact Us | Evox API Documentation",
+          "url": "https://evoximages.gitbook.io/docs/getting-help"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cbe5ecd7b55ffc9d658e80e41d74b3b734966d3076e0f53f5e5c2d1e05b36339"
 }

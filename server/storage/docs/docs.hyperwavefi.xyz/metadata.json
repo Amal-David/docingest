@@ -140,5 +140,183 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.hyperwavefi.xyz/",
+      "canonicalSeedUrl": "https://docs.hyperwavefi.xyz/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-19T17:44:36.595Z",
+      "completedAt": "2026-03-19T17:44:36.595Z",
+      "providerTotals": {
+        "discovered": 30,
+        "returned": 30,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.hyperwavefi.xyz/",
+          "canonicalUrl": "https://docs.hyperwavefi.xyz/",
+          "status": "valid"
+        }
+      ],
+      "id": "93e5e8e0c6051224b39e9ff1f375ebf2aaf21d9f40f38891504971b8ca0b961d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d49cbd8a1fa6f5ef41a78ef3cc3a4f9c6eae9b5abe8c0f44e45a5d823ffff598",
+      "filename": "documentation_2026-03-19T17:44:36.595Z.md",
+      "contentHash": "fb4f99084c7175b78542b224128501e7e4c5649b9db2d09ad1238bf9d9bd6450",
+      "sourceUrl": "https://docs.hyperwavefi.xyz/",
+      "canonicalSourceUrl": "https://docs.hyperwavefi.xyz/",
+      "capturedAt": "2026-03-19T17:44:36.595Z",
+      "crawlRunId": "93e5e8e0c6051224b39e9ff1f375ebf2aaf21d9f40f38891504971b8ca0b961d",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "structure": [
+        {
+          "type": "Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/"
+        },
+        {
+          "type": "Hyperwave HLP | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/assets/hyperwave-hlp"
+        },
+        {
+          "type": "Hyperwave GWAVE | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/assets/hyperwave-gwave"
+        },
+        {
+          "type": "Fee implementation | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/assets/hyperwave-hlp/fee-implementation"
+        },
+        {
+          "type": "Referral FAQ | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/dao/season-1-points-program/referral-faq"
+        },
+        {
+          "type": "Hyperwave HYPE | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/vaults/hyperwave-hype"
+        },
+        {
+          "type": "Architecture | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/vaults/hyperwave-hype/architecture"
+        },
+        {
+          "type": "Hyperwave USD | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/vaults/hyperwave-usd"
+        },
+        {
+          "type": "Season 1 Points Program | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/dao/season-1-points-program"
+        },
+        {
+          "type": "Season 2 Points Program | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/dao/season-2-points-program"
+        },
+        {
+          "type": "HWAVE | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/dao/hwave"
+        },
+        {
+          "type": "Technical Details | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/assets/hyperwave-hlp/technical-details"
+        },
+        {
+          "type": "Transparency & Decentralization | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/assets/hyperwave-hlp/transparency-and-decentralization"
+        },
+        {
+          "type": "Audits | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/references/audits"
+        },
+        {
+          "type": "Contracts | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/references/contracts"
+        },
+        {
+          "type": "Official links | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/official-links"
+        },
+        {
+          "type": "MiCAR Whitepaper | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/references/micar-whitepaper"
+        },
+        {
+          "type": "Referral Guide | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/dao/referral-guide"
+        },
+        {
+          "type": "Season 2 & Referral FAQ | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/dao/season-2-points-program/season-2-and-referral-faq"
+        },
+        {
+          "type": "Referral bonus | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/dao/season-1-points-program/referral-bonus"
+        },
+        {
+          "type": "Brand Kit | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/brand-kit"
+        },
+        {
+          "type": "hwHLP Integrations | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/developers/hwhlp-integrations"
+        },
+        {
+          "type": "Hyperwave HYPE Bonus | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/dao/season-1-points-program/hyperwave-hype-bonus"
+        },
+        {
+          "type": "Minting Guide | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/assets/hyperwave-hlp/minting-guide"
+        },
+        {
+          "type": "Hyperwave HLP | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/assets"
+        },
+        {
+          "type": "Season 1 Points Program | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/dao"
+        },
+        {
+          "type": "Hyperwave HYPE | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/vaults"
+        },
+        {
+          "type": "Redemption Guide | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/assets/hyperwave-hlp/redemption-guide"
+        },
+        {
+          "type": "Audits | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/references"
+        },
+        {
+          "type": "hwHLP Integrations | Hyperwave",
+          "url": "https://docs.hyperwavefi.xyz/developers"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d49cbd8a1fa6f5ef41a78ef3cc3a4f9c6eae9b5abe8c0f44e45a5d823ffff598"
 }

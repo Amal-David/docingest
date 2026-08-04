@@ -188,5 +188,231 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.ordinals.com/overview.html",
+      "canonicalSeedUrl": "https://docs.ordinals.com/overview.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-05T11:23:21.348Z",
+      "completedAt": "2026-02-05T11:23:21.348Z",
+      "providerTotals": {
+        "discovered": 42,
+        "returned": 42,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.ordinals.com/overview.html",
+          "canonicalUrl": "https://docs.ordinals.com/overview.html",
+          "status": "valid"
+        }
+      ],
+      "id": "3717209895ff0ae1c4b98b6361144997f1e8d762de6bc5192ddfb58741f88b4b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4c0e95d45e7fef623c073f0c29a342eba13622653308165b5d0455c69664556b",
+      "filename": "documentation_2026-02-05T11:23:21.348Z.md",
+      "contentHash": "fd50c7d8d07a70322197787b9b118dddb5fba30c67f5aacc59a15300155c6c0c",
+      "sourceUrl": "https://docs.ordinals.com/overview.html",
+      "canonicalSourceUrl": "https://docs.ordinals.com/overview.html",
+      "capturedAt": "2026-02-05T11:23:21.348Z",
+      "crawlRunId": "3717209895ff0ae1c4b98b6361144997f1e8d762de6bc5192ddfb58741f88b4b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 42,
+      "successfulPages": 42,
+      "structure": [
+        {
+          "type": "Overview - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/overview.html"
+        },
+        {
+          "type": "Digital Artifacts - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/digital-artifacts.html"
+        },
+        {
+          "type": "Introduction - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/introduction.html"
+        },
+        {
+          "type": "Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/print.html"
+        },
+        {
+          "type": "Inscriptions - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/inscriptions.html"
+        },
+        {
+          "type": "Pointer - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/inscriptions/pointer.html"
+        },
+        {
+          "type": "Metadata - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/inscriptions/metadata.html"
+        },
+        {
+          "type": "Delegate - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/inscriptions/delegate.html"
+        },
+        {
+          "type": "Provenance - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/inscriptions/provenance.html"
+        },
+        {
+          "type": "Sparrow Wallet - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides/collecting/sparrow-wallet.html"
+        },
+        {
+          "type": "Wallet - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides/wallet.html"
+        },
+        {
+          "type": "Explorer - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides/explorer.html"
+        },
+        {
+          "type": "Recursion - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/inscriptions/recursion.html"
+        },
+        {
+          "type": "FAQ - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/faq.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.ordinals.com/bounty/frequency.tsv"
+        },
+        {
+          "type": "API - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides/api.html"
+        },
+        {
+          "type": "Burning - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/inscriptions/burning.html"
+        },
+        {
+          "type": "Properties - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/inscriptions/properties.html"
+        },
+        {
+          "type": "Collecting - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides/collecting.html"
+        },
+        {
+          "type": "Testing - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides/testing.html"
+        },
+        {
+          "type": "Bounties - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/bounties.html"
+        },
+        {
+          "type": "Security - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/security.html"
+        },
+        {
+          "type": "Rendering - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/inscriptions/rendering.html"
+        },
+        {
+          "type": "Moderation - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides/moderation.html"
+        },
+        {
+          "type": "Guides - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides.html"
+        },
+        {
+          "type": "Contributing - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/contributing.html"
+        },
+        {
+          "type": "Batch Inscribing - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides/batch-inscribing.html"
+        },
+        {
+          "type": "Teleburning - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides/teleburning.html"
+        },
+        {
+          "type": "Bounty 0: 100,000 sats Claimed! - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/bounty/0.html"
+        },
+        {
+          "type": "Donate - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/donate.html"
+        },
+        {
+          "type": "URIs - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/inscriptions/uris.html"
+        },
+        {
+          "type": "Specification - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/runes/specification.html"
+        },
+        {
+          "type": "Reindexing - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides/reindexing.html"
+        },
+        {
+          "type": "Splitting - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides/splitting.html"
+        },
+        {
+          "type": "Bounty 1: 200,000 sats Claimed! - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/bounty/1.html"
+        },
+        {
+          "type": "Runes - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/runes.html"
+        },
+        {
+          "type": "Examples - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/inscriptions/examples.html"
+        },
+        {
+          "type": "Sat Hunting - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides/sat-hunting.html"
+        },
+        {
+          "type": "Settings - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides/settings.html"
+        },
+        {
+          "type": "Bounty 2: 300,000 sats Claimed! - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/bounty/2.html"
+        },
+        {
+          "type": "Satscards - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/guides/satscards.html"
+        },
+        {
+          "type": "Bounty 3: 400,000 sats - Ordinal Theory Handbook",
+          "url": "https://docs.ordinals.com/bounty/3.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4c0e95d45e7fef623c073f0c29a342eba13622653308165b5d0455c69664556b"
 }

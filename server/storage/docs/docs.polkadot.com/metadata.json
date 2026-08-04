@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.polkadot.com/develop/parachains/",
+      "canonicalSeedUrl": "https://docs.polkadot.com/develop/parachains",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-10T12:55:53.817Z",
+      "completedAt": "2025-11-10T12:55:53.817Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.polkadot.com/develop/parachains/",
+          "canonicalUrl": "https://docs.polkadot.com/develop/parachains",
+          "status": "valid"
+        }
+      ],
+      "id": "93b179fa4c8e90c55e1c5fca6bdd9f7f3edac1613cf270714aa1ee5c70d1632b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c0e288ad3bb11e1f66ce62caf2f507df6b1a7009c0c473ca47eb5d3dae1d33de",
+      "filename": "documentation_2025-11-10T12:55:53.817Z.md",
+      "contentHash": "ca9a7272d6aedeee6124070e2c7c411c0047b55f02b9cee484bd01ffb036fec6",
+      "sourceUrl": "https://docs.polkadot.com/develop/parachains/",
+      "canonicalSourceUrl": "https://docs.polkadot.com/develop/parachains",
+      "capturedAt": "2025-11-10T12:55:53.817Z",
+      "crawlRunId": "93b179fa4c8e90c55e1c5fca6bdd9f7f3edac1613cf270714aa1ee5c70d1632b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Parachains | Polkadot Developer Docs",
+          "url": "https://docs.polkadot.com/develop/parachains/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c0e288ad3bb11e1f66ce62caf2f507df6b1a7009c0c473ca47eb5d3dae1d33de"
 }

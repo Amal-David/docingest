@@ -40,5 +40,83 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-agent.html",
+      "canonicalSeedUrl": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-agent.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-15T13:06:46.515Z",
+      "completedAt": "2025-01-15T13:06:46.515Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-agent.html",
+          "canonicalUrl": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-agent.html",
+          "status": "valid"
+        }
+      ],
+      "id": "b31fa6d014a096b056ce7cb3d9ddcc536980c94ac03d4c6496103ddfd67566ca",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e94e0871823b8eced1ff7b0c1edae6fd74d1eb56b2eb3574d8144a32e00068ae",
+      "filename": "documentation_2025-01-15T13:06:46.515Z.md",
+      "contentHash": "80c015a9bee93a08f20a322861eb987a46a87b6cc24439adfff42c8b57075b78",
+      "sourceUrl": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-agent.html",
+      "canonicalSourceUrl": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-agent.html",
+      "capturedAt": "2025-01-15T13:06:46.515Z",
+      "crawlRunId": "b31fa6d014a096b056ce7cb3d9ddcc536980c94ac03d4c6496103ddfd67566ca",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "AgentsforBedrock - Boto3 1.35.98 documentation",
+          "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-agent.html"
+        },
+        {
+          "type": "Developer Guide - Boto3 1.35.99 documentation",
+          "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/guide/index.html"
+        },
+        {
+          "type": "Boto3 1.35.99 documentation",
+          "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/index.html"
+        },
+        {
+          "type": "Python Module Index - Boto3 1.35.99 documentation",
+          "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/py-modindex.html"
+        },
+        {
+          "type": "Search - Boto3 1.35.98 documentation",
+          "url": "https://boto3.amazonaws.com/v1/documentation/api/latest/search.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e94e0871823b8eced1ff7b0c1edae6fd74d1eb56b2eb3574d8144a32e00068ae"
 }

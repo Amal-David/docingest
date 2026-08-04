@@ -51,5 +51,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://vercel.com/docs/redirects",
+      "canonicalSeedUrl": "https://vercel.com/docs/redirects",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-03T14:20:38.500Z",
+      "completedAt": "2025-09-03T14:20:38.500Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://vercel.com/docs/redirects",
+          "canonicalUrl": "https://vercel.com/docs/redirects",
+          "status": "valid"
+        }
+      ],
+      "id": "ff1c1b510fafe08d31838bd7389cff823751ee543913a57e6f3a00307067d0ea",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4b0049064e36fd7b645e451d3dc092724afa3dd09f2057afb7ad2d182ae17360",
+      "filename": "documentation_2025-09-03T14:20:38.500Z.md",
+      "contentHash": "6ee6db32e8cb0c2fdf49737d126f930eaa4e5ecbe639ba7b3212034236c38b0a",
+      "sourceUrl": "https://vercel.com/docs/redirects",
+      "canonicalSourceUrl": "https://vercel.com/docs/redirects",
+      "capturedAt": "2025-09-03T14:20:38.500Z",
+      "crawlRunId": "ff1c1b510fafe08d31838bd7389cff823751ee543913a57e6f3a00307067d0ea",
+      "upstreamVersion": "1.3.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Redirects",
+          "url": "https://vercel.com/docs/redirects"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4b0049064e36fd7b645e451d3dc092724afa3dd09f2057afb7ad2d182ae17360"
 }

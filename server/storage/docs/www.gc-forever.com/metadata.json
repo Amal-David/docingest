@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.gc-forever.com/yagcd/index.html",
+      "canonicalSeedUrl": "https://www.gc-forever.com/yagcd/index.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-24T16:12:25.532Z",
+      "completedAt": "2026-06-24T16:12:25.532Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.gc-forever.com/yagcd/index.html",
+          "canonicalUrl": "https://www.gc-forever.com/yagcd/index.html",
+          "status": "valid"
+        }
+      ],
+      "id": "b25a23e738307e5fe9c3f5cd7f193067bf6bb906ec3d62e95cd5069dfa561ea6",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "82981c72960aeaf45d6e4054e8724962dbeb70ee703b0f17769af6ec6e3c1313",
+      "filename": "documentation_2026-06-24T16:12:25.532Z.md",
+      "contentHash": "d73ad9e1f9517155f5454cbbe9d9b498b0762785cbb5e9387c4fd0ad73aff65e",
+      "sourceUrl": "https://www.gc-forever.com/yagcd/index.html",
+      "canonicalSourceUrl": "https://www.gc-forever.com/yagcd/index.html",
+      "capturedAt": "2026-06-24T16:12:25.532Z",
+      "crawlRunId": "b25a23e738307e5fe9c3f5cd7f193067bf6bb906ec3d62e95cd5069dfa561ea6",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": " Yet Another Gamecube Documentation",
+          "url": "https://www.gc-forever.com/yagcd/index.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "82981c72960aeaf45d6e4054e8724962dbeb70ee703b0f17769af6ec6e3c1313"
 }

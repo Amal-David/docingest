@@ -272,5 +272,315 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.certhis.io",
+      "canonicalSeedUrl": "https://docs.certhis.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-22T02:06:39.284Z",
+      "completedAt": "2025-11-22T02:06:39.284Z",
+      "providerTotals": {
+        "discovered": 63,
+        "returned": 63,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.certhis.io",
+          "canonicalUrl": "https://docs.certhis.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "f59b3004bab9e4e4e99e28ee1158431447fe985f5df8cc908661c5f9523ec2c9",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1a12a804edff20179e7ba63638847cc5ead7b8464faa9e813b280c8b471fe047",
+      "filename": "documentation_2025-11-22T02:06:39.284Z.md",
+      "contentHash": "44f8a2865863d0b00cfe4195db41ef48e749f841a398eb55f8b35b4a8709c981",
+      "sourceUrl": "https://docs.certhis.io",
+      "canonicalSourceUrl": "https://docs.certhis.io/",
+      "capturedAt": "2025-11-22T02:06:39.284Z",
+      "crawlRunId": "f59b3004bab9e4e4e99e28ee1158431447fe985f5df8cc908661c5f9523ec2c9",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 63,
+      "successfulPages": 63,
+      "structure": [
+        {
+          "type": "GET STARTED | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io"
+        },
+        {
+          "type": "Platform Quick Overview | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/get-started/platform-quick-overview"
+        },
+        {
+          "type": "Certhis Academy | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/get-started/certhis-academy"
+        },
+        {
+          "type": "API Object References | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-object-references"
+        },
+        {
+          "type": "NFT | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-object-references/nft"
+        },
+        {
+          "type": "Label | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-object-references/label"
+        },
+        {
+          "type": "Create Collection | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/get-started/create-collection"
+        },
+        {
+          "type": "Currency | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-object-references/currency"
+        },
+        {
+          "type": "Dynamic NFT | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/dynamic-nft"
+        },
+        {
+          "type": "Web3 CRM | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/web3-crm"
+        },
+        {
+          "type": "Authentication | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/dynamic-nft/authentication"
+        },
+        {
+          "type": "Webhook | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/web3-crm/webhook"
+        },
+        {
+          "type": "User | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-object-references/user"
+        },
+        {
+          "type": "Scanner | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/apple-and-google-wallet/scanner"
+        },
+        {
+          "type": "NFT Checkout | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/nft-checkout"
+        },
+        {
+          "type": "API Endpoints | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/apple-and-google-wallet/api-endpoints"
+        },
+        {
+          "type": "API Endpoints | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/web3-crm/api-endpoints"
+        },
+        {
+          "type": "Apple & Google Wallet | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/apple-and-google-wallet"
+        },
+        {
+          "type": "API Endpoint | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/nft-checkout/api-endpoint"
+        },
+        {
+          "type": "Collection | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-object-references/collection"
+        },
+        {
+          "type": "Claimer | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/nft-checkout/claimer"
+        },
+        {
+          "type": "Free Claim User | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/mint-api/free-claim-user"
+        },
+        {
+          "type": "Certhis SDK | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/certhis-sdk"
+        },
+        {
+          "type": "Mint API | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/mint-api"
+        },
+        {
+          "type": "MINTER ADDRESS | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/mint-api/minter-address"
+        },
+        {
+          "type": "API endpoints | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-endpoints"
+        },
+        {
+          "type": "API Endpoint | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/mint-api/api-endpoint"
+        },
+        {
+          "type": "Fetch Transactions | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/certhis-sdk/fetch-transactions"
+        },
+        {
+          "type": "Deploy Collection | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/certhis-sdk/deploy-collection"
+        },
+        {
+          "type": "Contract Checker | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/smart-contract/contract-checker"
+        },
+        {
+          "type": "Usage | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/certhis-wallet/usage"
+        },
+        {
+          "type": "CURRENCIES | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-endpoints/currencies"
+        },
+        {
+          "type": "Fetch NFT | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/certhis-sdk/fetch-nft"
+        },
+        {
+          "type": "Certhis WALLET | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/certhis-wallet"
+        },
+        {
+          "type": "USER | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-endpoints/user"
+        },
+        {
+          "type": "Introduction | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/certhis-wallet/introduction"
+        },
+        {
+          "type": "STATISTICS | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-endpoints/statistics"
+        },
+        {
+          "type": "Royalties | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/royalties"
+        },
+        {
+          "type": "Mint Royalties | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/royalties/mint-royalties"
+        },
+        {
+          "type": "Export private key | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/certhis-wallet/export-private-key"
+        },
+        {
+          "type": "Resell Royalties | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/royalties/resell-royalties"
+        },
+        {
+          "type": "Webhook | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/mint-api/webhook"
+        },
+        {
+          "type": "Certhis On Social Media | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/community/certhis-on-social-media"
+        },
+        {
+          "type": "Generate Wallet | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/certhis-wallet/generate-wallet"
+        },
+        {
+          "type": "Affiliation Royalties | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/royalties/affiliation-royalties"
+        },
+        {
+          "type": "Deactivate Collection Royatlies | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/royalties/deactivate-collection-royatlies"
+        },
+        {
+          "type": "SIGNATURE | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-endpoints/signature"
+        },
+        {
+          "type": "Co-Creator Royalties | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/royalties/co-creator-royalties"
+        },
+        {
+          "type": "GATE | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/gate"
+        },
+        {
+          "type": "Connect to DAPP | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/certhis-wallet/connect-to-dapp"
+        },
+        {
+          "type": "INTERFACE | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/smart-contract/interface"
+        },
+        {
+          "type": "Contact | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/community/contact"
+        },
+        {
+          "type": "Founders | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/community/founders"
+        },
+        {
+          "type": "TRANSACTIONS | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-endpoints/transactions"
+        },
+        {
+          "type": "Smart Contract | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/smart-contract"
+        },
+        {
+          "type": "COLLECTION | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-endpoints/collection"
+        },
+        {
+          "type": "Audit | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/smart-contract/audit"
+        },
+        {
+          "type": "FAQ | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/faq/faq"
+        },
+        {
+          "type": "API Endpoints | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/dynamic-nft/api-endpoints"
+        },
+        {
+          "type": "NFT | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-endpoints/nft"
+        },
+        {
+          "type": "ABI | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/smart-contract/abi"
+        },
+        {
+          "type": "CONTRACT | 🧑‍🚀 CERTHIS 🧑‍🚀",
+          "url": "https://docs.certhis.io/api-endpoints/contract"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.certhis.io/cdn-cgi/l/email-protection"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1a12a804edff20179e7ba63638847cc5ead7b8464faa9e813b280c8b471fe047"
 }

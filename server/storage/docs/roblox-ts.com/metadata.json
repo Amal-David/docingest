@@ -108,5 +108,151 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://roblox-ts.com/docs/",
+      "canonicalSeedUrl": "https://roblox-ts.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-03T10:13:54.091Z",
+      "completedAt": "2025-10-03T10:13:54.091Z",
+      "providerTotals": {
+        "discovered": 22,
+        "returned": 22,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://roblox-ts.com/docs/",
+          "canonicalUrl": "https://roblox-ts.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "999df2b7488222c8920b18daf2be31c57df185445df4e20d882ea71094f9db70",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "739950c45a9d45b7e90c7363405131606cd9179ccad943776e77707fa5d4c682",
+      "filename": "documentation_2025-10-03T10:13:54.091Z.md",
+      "contentHash": "dadba150085d601c9f0aa58eb058fd41da104d3fa2b34e0d9afa6cd1f3652c2a",
+      "sourceUrl": "https://roblox-ts.com/docs/",
+      "canonicalSourceUrl": "https://roblox-ts.com/docs",
+      "capturedAt": "2025-10-03T10:13:54.091Z",
+      "crawlRunId": "999df2b7488222c8920b18daf2be31c57df185445df4e20d882ea71094f9db70",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 22,
+      "successfulPages": 22,
+      "structure": [
+        {
+          "type": "Introduction | roblox-ts",
+          "url": "https://roblox-ts.com/docs/"
+        },
+        {
+          "type": "Constructors | roblox-ts",
+          "url": "https://roblox-ts.com/docs/api/constructors"
+        },
+        {
+          "type": "Functions | roblox-ts",
+          "url": "https://roblox-ts.com/docs/api/functions"
+        },
+        {
+          "type": "Roblox API | roblox-ts",
+          "url": "https://roblox-ts.com/docs/api/roblox-api"
+        },
+        {
+          "type": "PowerShell errors with \"running scripts is disabled on this system\" | roblox-ts",
+          "url": "https://roblox-ts.com/docs/faq/powershell"
+        },
+        {
+          "type": "npm publish errors with \"npm error 402 Payment Required\" | roblox-ts",
+          "url": "https://roblox-ts.com/docs/faq/publish-as-public"
+        },
+        {
+          "type": "Frequently Asked Questions | roblox-ts",
+          "url": "https://roblox-ts.com/docs/faq"
+        },
+        {
+          "type": "Utility Types | roblox-ts",
+          "url": "https://roblox-ts.com/docs/api/utility-types"
+        },
+        {
+          "type": "npm publish errors with \"npm error 404 Not Found\" | roblox-ts",
+          "url": "https://roblox-ts.com/docs/faq/publish-not-found"
+        },
+        {
+          "type": "Quick Start | roblox-ts",
+          "url": "https://roblox-ts.com/docs/quick-start"
+        },
+        {
+          "type": "Usage | roblox-ts",
+          "url": "https://roblox-ts.com/docs/usage"
+        },
+        {
+          "type": "Setup Guide | roblox-ts",
+          "url": "https://roblox-ts.com/docs/setup-guide"
+        },
+        {
+          "type": "Luau Packages | roblox-ts",
+          "url": "https://roblox-ts.com/docs/guides/luau-packages"
+        },
+        {
+          "type": "Indexing Children | roblox-ts",
+          "url": "https://roblox-ts.com/docs/guides/indexing-children"
+        },
+        {
+          "type": "Callbacks vs Methods | roblox-ts",
+          "url": "https://roblox-ts.com/docs/guides/callbacks-vs-methods"
+        },
+        {
+          "type": "DataType Math | roblox-ts",
+          "url": "https://roblox-ts.com/docs/guides/datatype-math"
+        },
+        {
+          "type": "LuaTuple<T> | roblox-ts",
+          "url": "https://roblox-ts.com/docs/guides/lua-tuple"
+        },
+        {
+          "type": "TypeScript Transformers | roblox-ts",
+          "url": "https://roblox-ts.com/docs/guides/typescript-transformers"
+        },
+        {
+          "type": "Using Existing Luau | roblox-ts",
+          "url": "https://roblox-ts.com/docs/guides/using-existing-luau"
+        },
+        {
+          "type": "TypeScript Packages | roblox-ts",
+          "url": "https://roblox-ts.com/docs/guides/typescript-packages"
+        },
+        {
+          "type": "Syncing with Rojo | roblox-ts",
+          "url": "https://roblox-ts.com/docs/guides/syncing-with-rojo"
+        },
+        {
+          "type": "Roact JSX | roblox-ts",
+          "url": "https://roblox-ts.com/docs/guides/roact-jsx"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "739950c45a9d45b7e90c7363405131606cd9179ccad943776e77707fa5d4c682"
 }

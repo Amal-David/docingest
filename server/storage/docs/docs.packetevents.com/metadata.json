@@ -95,5 +95,111 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.packetevents.com/faq/",
+      "canonicalSeedUrl": "https://docs.packetevents.com/faq",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-22T19:55:43.999Z",
+      "completedAt": "2026-02-22T19:55:43.999Z",
+      "providerTotals": {
+        "discovered": 12,
+        "returned": 12,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.packetevents.com/faq/",
+          "canonicalUrl": "https://docs.packetevents.com/faq",
+          "status": "valid"
+        }
+      ],
+      "id": "edbe2e7ed4f8686611257c1b091e6554200e09e921449a9f3ad583e9c3584f23",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "19c8a59ad1f8a9bdf675b6c659503e2e0f60d9ef82af402cad76ebfced1774d8",
+      "filename": "documentation_2026-02-22T19:55:43.999Z.md",
+      "contentHash": "daca66bcd02076fe2a56690204b7ef565a520d0713dd7a56a94d15d1b1e711af",
+      "sourceUrl": "https://docs.packetevents.com/faq/",
+      "canonicalSourceUrl": "https://docs.packetevents.com/faq",
+      "capturedAt": "2026-02-22T19:55:43.999Z",
+      "crawlRunId": "edbe2e7ed4f8686611257c1b091e6554200e09e921449a9f3ad583e9c3584f23",
+      "upstreamVersion": "1.2.1",
+      "upstreamChannel": "latest",
+      "totalPages": 12,
+      "successfulPages": 12,
+      "structure": [
+        {
+          "type": "FAQ | packetevents",
+          "url": "https://docs.packetevents.com/faq/"
+        },
+        {
+          "type": "A Developer's Introduction | packetevents",
+          "url": "https://docs.packetevents.com/introduction/a-developers-introduction/"
+        },
+        {
+          "type": "Development Setup | packetevents",
+          "url": "https://docs.packetevents.com/introduction/development-setup/"
+        },
+        {
+          "type": "The Problem of Bundling | packetevents",
+          "url": "https://docs.packetevents.com/introduction/the-problem-of-bundling/"
+        },
+        {
+          "type": "Prerequisites | packetevents",
+          "url": "https://docs.packetevents.com/introduction/prerequisites/"
+        },
+        {
+          "type": "Advanced PacketEvents Example: Combining our Knowledge | packetevents",
+          "url": "https://docs.packetevents.com/processing-and-sending/advanced-packetevents-example-combining-our-knowledge/"
+        },
+        {
+          "type": "What is PacketEvents? | packetevents",
+          "url": "https://docs.packetevents.com/"
+        },
+        {
+          "type": "Introduction to Packet Listeners | packetevents",
+          "url": "https://docs.packetevents.com/processing-and-sending/master/"
+        },
+        {
+          "type": "Sending and Simulating Packets | packetevents",
+          "url": "https://docs.packetevents.com/sending-and-simulating-packets/"
+        },
+        {
+          "type": "Creating a PacketEvents Instance | packetevents",
+          "url": "https://docs.packetevents.com/setup-when-bundling/master/"
+        },
+        {
+          "type": "A Beginner's Guide to Bundling | packetevents",
+          "url": "https://docs.packetevents.com/setup-when-bundling/a-beginners-guide-to-bundling/"
+        },
+        {
+          "type": "Tweaking PacketEvents | packetevents",
+          "url": "https://docs.packetevents.com/setup-when-bundling/tweaking-packetevents/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "19c8a59ad1f8a9bdf675b6c659503e2e0f60d9ef82af402cad76ebfced1774d8"
 }

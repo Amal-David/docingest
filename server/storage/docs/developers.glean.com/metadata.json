@@ -46,5 +46,71 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developers.glean.com/api/client-api/insights/insights",
+      "canonicalSeedUrl": "https://developers.glean.com/api/client-api/insights/insights",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-28T22:01:28.003Z",
+      "completedAt": "2026-01-28T22:01:28.003Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developers.glean.com/api/client-api/insights/insights",
+          "canonicalUrl": "https://developers.glean.com/api/client-api/insights/insights",
+          "status": "valid"
+        }
+      ],
+      "id": "73d15da8dc2f85db3d4b2518127d1ffd795a1142a01753e5a9232a4eb0e43552",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "eb86758fa5ae3e0d19e2ea453321e746ef95dd4817cf51f8087429df374b845f",
+      "filename": "documentation_2026-01-28T22:01:28.003Z.md",
+      "contentHash": "ee3dbaa27fe901d90b924a25fdf99e3e8eaf7dc7bc55dfbff5a9d411b31ace37",
+      "sourceUrl": "https://developers.glean.com/api/client-api/insights/insights",
+      "canonicalSourceUrl": "https://developers.glean.com/api/client-api/insights/insights",
+      "capturedAt": "2026-01-28T22:01:28.003Z",
+      "crawlRunId": "73d15da8dc2f85db3d4b2518127d1ffd795a1142a01753e5a9232a4eb0e43552",
+      "upstreamVersion": "1.0.2",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Get insights | Glean Developer",
+          "url": "https://developers.glean.com/api/client-api/insights/insights"
+        },
+        {
+          "type": "Insights API Overview | Glean Developer",
+          "url": "https://developers.glean.com/api/client-api/insights/overview"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "eb86758fa5ae3e0d19e2ea453321e746ef95dd4817cf51f8087429df374b845f"
 }

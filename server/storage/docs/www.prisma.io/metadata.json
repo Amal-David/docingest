@@ -160,5 +160,203 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.prisma.io/docs/search",
+      "canonicalSeedUrl": "https://www.prisma.io/docs/search",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-07T16:03:07.369Z",
+      "completedAt": "2025-08-07T16:03:07.369Z",
+      "providerTotals": {
+        "discovered": 35,
+        "returned": 35,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.prisma.io/docs/search",
+          "canonicalUrl": "https://www.prisma.io/docs/search",
+          "status": "valid"
+        }
+      ],
+      "id": "0ff1ec7f239bbbde98d77a83ce371c5d16f18a295a646285861913dee3e64349",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7b6271d65b13844082d423f584c17bbea952e365a3aadda687a65614a9bfb621",
+      "filename": "documentation_2025-08-07T16:03:07.369Z.md",
+      "contentHash": "9797daf459441cf47650322a90c0009747d517a254267d0b7c4c2dde70e47458",
+      "sourceUrl": "https://www.prisma.io/docs/search",
+      "canonicalSourceUrl": "https://www.prisma.io/docs/search",
+      "capturedAt": "2025-08-07T16:03:07.369Z",
+      "crawlRunId": "0ff1ec7f239bbbde98d77a83ce371c5d16f18a295a646285861913dee3e64349",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 35,
+      "successfulPages": 35,
+      "structure": [
+        {
+          "type": "Search the documentation | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/search"
+        },
+        {
+          "type": "One doc tagged with \"optimization\" | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/tags/optimization"
+        },
+        {
+          "type": "One doc tagged with \"workflows\" | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/tags/workflows"
+        },
+        {
+          "type": "How to write guides for Prisma ORM | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/making-guides"
+        },
+        {
+          "type": "How to use Prisma ORM with Cloudflare D1 | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/cloudflare-d1"
+        },
+        {
+          "type": "How to provision preview databases with GitHub Actions and Prisma Postgres | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/github-actions"
+        },
+        {
+          "type": "Partner Database Provisioning & User Claim Flow | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/management-api"
+        },
+        {
+          "type": "Get started with the Prisma Management API | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/management-api-basic"
+        },
+        {
+          "type": "How to manage schema changes in a team with Prisma Migrate and Prisma ORM | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/implementing-schema-changes"
+        },
+        {
+          "type": "How to use Prisma in Docker | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/docker"
+        },
+        {
+          "type": "Datadog tracing with Prisma ORM | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/data-dog"
+        },
+        {
+          "type": "How to migrate from Mongoose to Prisma ORM | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/migrate-from-mongoose"
+        },
+        {
+          "type": "How to migrate from Drizzle to Prisma ORM | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/migrate-from-drizzle"
+        },
+        {
+          "type": "How to migrate data with Prisma ORM using the expand and contract pattern | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/data-migration"
+        },
+        {
+          "type": "How to migrate from Sequelize to Prisma ORM | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/migrate-from-sequelize"
+        },
+        {
+          "type": "How to migrate from TypeORM to Prisma ORM | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/migrate-from-typeorm"
+        },
+        {
+          "type": "How to use multiple databases in a single app | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/multiple-databases"
+        },
+        {
+          "type": "Set up PostgreSQL on Neon with Prisma Accelerate's Connection Pool | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/neon-accelerate"
+        },
+        {
+          "type": "How to use Prisma ORM and Prisma Postgres with Next.js 15 and Vercel | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/nextjs"
+        },
+        {
+          "type": "Build a Nuxt app with Prisma ORM and Prisma Postgres | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/nuxt"
+        },
+        {
+          "type": "How to use Prisma ORM and Prisma Postgres with CPermit.io | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/permit-io-access-control"
+        },
+        {
+          "type": "How to use Prisma ORM and Prisma Postgres with React Router 7 | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/react-router-7"
+        },
+        {
+          "type": "How to use Prisma Postgres with Shopify | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/shopify"
+        },
+        {
+          "type": "How to use Prisma ORM and Prisma Postgres with SolidStart | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/solid-start"
+        },
+        {
+          "type": "Set up PostgreSQL on Supabase with Prisma Accelerate's Connection Pool | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/supabase-accelerate"
+        },
+        {
+          "type": "Prisma Optimize | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/optimize"
+        },
+        {
+          "type": "Prisma Optimize: FAQ | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/optimize/faq"
+        },
+        {
+          "type": "How to use Prisma ORM and Prisma Postgres with SvelteKit | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/sveltekit"
+        },
+        {
+          "type": "How to use Prisma ORM and Prisma Postgres with TanStack Start | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/tanstack-start"
+        },
+        {
+          "type": "How to use Prisma ORM with Turborepo | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/turborepo"
+        },
+        {
+          "type": "How to use Prisma ORM in a pnpm workspaces monorepo | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/guides/use-prisma-in-pnpm-workspaces"
+        },
+        {
+          "type": "Optimize: Known limitations | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/optimize/known-limitations"
+        },
+        {
+          "type": "Optimize: Prisma AI | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/optimize/prisma-ai"
+        },
+        {
+          "type": "Getting started with Prisma Optimize | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/optimize/getting-started"
+        },
+        {
+          "type": "Optimize: Recordings | Prisma Documentation",
+          "url": "https://www.prisma.io/docs/optimize/recordings"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7b6271d65b13844082d423f584c17bbea952e365a3aadda687a65614a9bfb621"
 }

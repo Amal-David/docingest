@@ -96,5 +96,139 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.yield.fi/faqs",
+      "canonicalSeedUrl": "https://docs.yield.fi/faqs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-31T15:32:42.667Z",
+      "completedAt": "2025-03-31T15:32:42.667Z",
+      "providerTotals": {
+        "discovered": 19,
+        "returned": 19,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.yield.fi/faqs",
+          "canonicalUrl": "https://docs.yield.fi/faqs",
+          "status": "valid"
+        }
+      ],
+      "id": "8828efd7dfd04e957c9e841466826abe55a6bade5c81efd2e2a66f9454c14a9d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fd0c8faf3f0412e13b7a1f147865bc6bd805a9397af3141f06f5ca206ec342ed",
+      "filename": "documentation_2025-03-31T15:32:42.667Z.md",
+      "contentHash": "1e90980931a34b49892512cae77c2592792e1796589a728505b03befea2ed8b2",
+      "sourceUrl": "https://docs.yield.fi/faqs",
+      "canonicalSourceUrl": "https://docs.yield.fi/faqs",
+      "capturedAt": "2025-03-31T15:32:42.667Z",
+      "crawlRunId": "8828efd7dfd04e957c9e841466826abe55a6bade5c81efd2e2a66f9454c14a9d",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 19,
+      "successfulPages": 19,
+      "structure": [
+        {
+          "type": "FAQs | YieldFi",
+          "url": "https://docs.yield.fi/faqs"
+        },
+        {
+          "type": "Introduction | YieldFi",
+          "url": "https://docs.yield.fi/"
+        },
+        {
+          "type": "How It Works | YieldFi",
+          "url": "https://docs.yield.fi/how-it-works"
+        },
+        {
+          "type": "Problem & Solution | YieldFi",
+          "url": "https://docs.yield.fi/problem-and-solution"
+        },
+        {
+          "type": "USPs | YieldFi",
+          "url": "https://docs.yield.fi/usps"
+        },
+        {
+          "type": "Mint | YieldFi",
+          "url": "https://docs.yield.fi/guides/mint"
+        },
+        {
+          "type": "Swap | YieldFi",
+          "url": "https://docs.yield.fi/guides/swap"
+        },
+        {
+          "type": "Transparency | YieldFi",
+          "url": "https://docs.yield.fi/concepts/transparency"
+        },
+        {
+          "type": "Custody Solution | YieldFi",
+          "url": "https://docs.yield.fi/concepts/custody-solution"
+        },
+        {
+          "type": "Risk Management | YieldFi",
+          "url": "https://docs.yield.fi/concepts/risk-management"
+        },
+        {
+          "type": "LP Program | YieldFi",
+          "url": "https://docs.yield.fi/rewards-program/lp-program"
+        },
+        {
+          "type": "Reserve Fund | YieldFi",
+          "url": "https://docs.yield.fi/concepts/reserve-fund"
+        },
+        {
+          "type": "Contract Addresses | YieldFi",
+          "url": "https://docs.yield.fi/resources/contract-addresses"
+        },
+        {
+          "type": "Audits | YieldFi",
+          "url": "https://docs.yield.fi/resources/audits"
+        },
+        {
+          "type": "Brand Kit | YieldFi",
+          "url": "https://docs.yield.fi/resources/brand-kit"
+        },
+        {
+          "type": "Oracles | YieldFi",
+          "url": "https://docs.yield.fi/resources/oracles"
+        },
+        {
+          "type": "Terms of Service | YieldFi",
+          "url": "https://docs.yield.fi/resources/terms-of-service"
+        },
+        {
+          "type": "General Risk Disclosures | YieldFi",
+          "url": "https://docs.yield.fi/resources/general-risk-disclosures"
+        },
+        {
+          "type": "Privacy Policy | YieldFi",
+          "url": "https://docs.yield.fi/resources/privacy-policy"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fd0c8faf3f0412e13b7a1f147865bc6bd805a9397af3141f06f5ca206ec342ed"
 }

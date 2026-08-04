@@ -32,5 +32,75 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://wons-organization-2.gitbook.io/soltrade/",
+      "canonicalSeedUrl": "https://wons-organization-2.gitbook.io/soltrade",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-13T20:21:06.759Z",
+      "completedAt": "2025-07-13T20:21:06.759Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://wons-organization-2.gitbook.io/soltrade/",
+          "canonicalUrl": "https://wons-organization-2.gitbook.io/soltrade",
+          "status": "valid"
+        }
+      ],
+      "id": "c29c5c2fb247bae0914068761b9533db09c32e6bf4d969c2394fa6fb7807721c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "52602e2ea221abff618ec6a81a2f86ecfc60a75643ae04360180345b4ca89683",
+      "filename": "documentation_2025-07-13T20:21:06.759Z.md",
+      "contentHash": "cde81f7c88dcb06260b567c268d2e65328e91928beb9b82a3c3dfd1e15c38637",
+      "sourceUrl": "https://wons-organization-2.gitbook.io/soltrade/",
+      "canonicalSourceUrl": "https://wons-organization-2.gitbook.io/soltrade",
+      "capturedAt": "2025-07-13T20:21:06.759Z",
+      "crawlRunId": "c29c5c2fb247bae0914068761b9533db09c32e6bf4d969c2394fa6fb7807721c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "structure": [
+        {
+          "type": "Soltrade | Soltrade",
+          "url": "https://wons-organization-2.gitbook.io/soltrade/"
+        },
+        {
+          "type": "Soltrade",
+          "url": "https://wons-organization-2.gitbook.io/soltrade/~gitbook/pdf?page=xskPcdddsA5TxUzL00eN&only=yes&limit=100"
+        },
+        {
+          "type": "Soltrade",
+          "url": "https://wons-organization-2.gitbook.io/soltrade/~gitbook/pdf?limit=100"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "52602e2ea221abff618ec6a81a2f86ecfc60a75643ae04360180345b4ca89683"
 }

@@ -128,5 +128,171 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://arceon.gitbook.io/arceon-wiki",
+      "canonicalSeedUrl": "https://arceon.gitbook.io/arceon-wiki",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-08T10:47:58.879Z",
+      "completedAt": "2025-12-08T10:47:58.879Z",
+      "providerTotals": {
+        "discovered": 27,
+        "returned": 27,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://arceon.gitbook.io/arceon-wiki",
+          "canonicalUrl": "https://arceon.gitbook.io/arceon-wiki",
+          "status": "valid"
+        }
+      ],
+      "id": "ad53abd03e55b1d680ed6fa230964148a4f96214f075960ab5163c309ff2dd4c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "60aea152cd53e31f26c00949495c6227a2f2368798ac5fbd33495c987bc08db4",
+      "filename": "documentation_2025-12-08T10:47:58.879Z.md",
+      "contentHash": "610023740dcca7ad568b936722c34dfe333a996262ef2ca4b0f4cc85e3ba85d1",
+      "sourceUrl": "https://arceon.gitbook.io/arceon-wiki",
+      "canonicalSourceUrl": "https://arceon.gitbook.io/arceon-wiki",
+      "capturedAt": "2025-12-08T10:47:58.879Z",
+      "crawlRunId": "ad53abd03e55b1d680ed6fa230964148a4f96214f075960ab5163c309ff2dd4c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 27,
+      "successfulPages": 27,
+      "structure": [
+        {
+          "type": "Home | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki"
+        },
+        {
+          "type": "Permission Nodes | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/general-information/perms"
+        },
+        {
+          "type": "Axiom Addon | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/axiom-addon"
+        },
+        {
+          "type": "Brushes | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/general-information/brushes"
+        },
+        {
+          "type": "General Information | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/general-information"
+        },
+        {
+          "type": "Config | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/general-information/config"
+        },
+        {
+          "type": "Patterns | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/general-information/patterns"
+        },
+        {
+          "type": "Masks | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/general-information/masks"
+        },
+        {
+          "type": "Arch-Tool | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/arch-tool"
+        },
+        {
+          "type": "Dashes-Tool | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/dashes-tool"
+        },
+        {
+          "type": "Revolve-Tool | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/revolve-tool"
+        },
+        {
+          "type": "Tools | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools"
+        },
+        {
+          "type": "Color-Replace | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/color-replace"
+        },
+        {
+          "type": "Road-Tool | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/road-tool"
+        },
+        {
+          "type": "River-Tool | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/river-tool"
+        },
+        {
+          "type": "Resize-Tool | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/resize-tool"
+        },
+        {
+          "type": "Rope-Tool | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/rope-tool"
+        },
+        {
+          "type": "Smear-Tool | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/smear-tool"
+        },
+        {
+          "type": "Roof-Tool | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/roof-tool"
+        },
+        {
+          "type": "Smooth-Snow-Tool | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/smooth-snow-tool"
+        },
+        {
+          "type": "Shadow-Tool | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/shadow-tool"
+        },
+        {
+          "type": "Loft-Tool | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/loft-tool"
+        },
+        {
+          "type": "Experimental-tools | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/experimental-tools"
+        },
+        {
+          "type": "Text-Tool | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/text-tool"
+        },
+        {
+          "type": "Type-Replace | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/type-replace"
+        },
+        {
+          "type": "Terragen | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/terragen"
+        },
+        {
+          "type": "Spike-Tool | Arceon Wiki",
+          "url": "https://arceon.gitbook.io/arceon-wiki/tools/spike-tool"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "60aea152cd53e31f26c00949495c6227a2f2368798ac5fbd33495c987bc08db4"
 }

@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://openphone-public-api-prod.s3.us-west-2.amazonaws.com/public/openphone-public-api-v1-prod.json",
+      "canonicalSeedUrl": "https://openphone-public-api-prod.s3.us-west-2.amazonaws.com/public/openphone-public-api-v1-prod.json",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-26T09:41:09.406Z",
+      "completedAt": "2025-10-26T09:41:09.406Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://openphone-public-api-prod.s3.us-west-2.amazonaws.com/public/openphone-public-api-v1-prod.json",
+          "canonicalUrl": "https://openphone-public-api-prod.s3.us-west-2.amazonaws.com/public/openphone-public-api-v1-prod.json",
+          "status": "valid"
+        }
+      ],
+      "id": "a720a1f79c7728792eb47f62f2878f391fbce73900a4bd631e88bb732fadabcf",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "70b0eae325bc3669da9c5aec053c18d058b3ee7c374cf45cc9550c40d331ce21",
+      "filename": "documentation_2025-10-26T09:41:09.406Z.md",
+      "contentHash": "1ccb855e40d3a4992376977380fc5742491d147fed77796e9ac1b0acbdea7e76",
+      "sourceUrl": "https://openphone-public-api-prod.s3.us-west-2.amazonaws.com/public/openphone-public-api-v1-prod.json",
+      "canonicalSourceUrl": "https://openphone-public-api-prod.s3.us-west-2.amazonaws.com/public/openphone-public-api-v1-prod.json",
+      "capturedAt": "2025-10-26T09:41:09.406Z",
+      "crawlRunId": "a720a1f79c7728792eb47f62f2878f391fbce73900a4bd631e88bb732fadabcf",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Unknown",
+          "url": "https://openphone-public-api-prod.s3.us-west-2.amazonaws.com/public/openphone-public-api-v1-prod.json"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "70b0eae325bc3669da9c5aec053c18d058b3ee7c374cf45cc9550c40d331ce21"
 }

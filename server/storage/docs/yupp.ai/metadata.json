@@ -24,5 +24,69 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://yupp.ai/",
+      "canonicalSeedUrl": "https://yupp.ai/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-03T10:51:12.520Z",
+      "completedAt": "2026-02-03T10:51:12.520Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://yupp.ai/",
+          "canonicalUrl": "https://yupp.ai/",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-content"
+        }
+      ],
+      "id": "33f1b1179d58b2c13cb90132dd448d91ce27598d0b77a9672a9f21ca661801bf",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 1,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "909369017bbc0e6280a087becc5ea7c578436436e7224f7e382b48d45b631d99",
+      "filename": "documentation_2026-02-03T10:51:12.520Z.md",
+      "contentHash": "90805820418312a35fd24ed5734a662e2235cbbddc75087f6699fdf6770c3cdc",
+      "sourceUrl": "https://yupp.ai/",
+      "canonicalSourceUrl": "https://yupp.ai/",
+      "capturedAt": "2026-02-03T10:51:12.520Z",
+      "crawlRunId": "33f1b1179d58b2c13cb90132dd448d91ce27598d0b77a9672a9f21ca661801bf",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://yupp.ai/"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "checkpoint-or-challenge-content"
+        ]
+      }
+    }
+  ]
 }

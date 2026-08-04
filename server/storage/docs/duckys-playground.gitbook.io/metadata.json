@@ -112,5 +112,155 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://duckys-playground.gitbook.io/wave/functions",
+      "canonicalSeedUrl": "https://duckys-playground.gitbook.io/wave/functions",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-10T20:19:55.661Z",
+      "completedAt": "2025-03-10T20:19:55.661Z",
+      "providerTotals": {
+        "discovered": 23,
+        "returned": 23,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://duckys-playground.gitbook.io/wave/functions",
+          "canonicalUrl": "https://duckys-playground.gitbook.io/wave/functions",
+          "status": "valid"
+        }
+      ],
+      "id": "abc1767ad56500ff28691b5c9676e2af2d19ee1068c04f16abe87f3875c65e6c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cd5f326d457774dbc54c76a4aae6d7a5a6beb8841573679708c785c6dd4f3589",
+      "filename": "documentation_2025-03-10T20:19:55.661Z.md",
+      "contentHash": "20bcd660d5ab33dbb61b8bcbd67b8483a6ed2096e7e729603526ea78c937eaea",
+      "sourceUrl": "https://duckys-playground.gitbook.io/wave/functions",
+      "canonicalSourceUrl": "https://duckys-playground.gitbook.io/wave/functions",
+      "capturedAt": "2025-03-10T20:19:55.661Z",
+      "crawlRunId": "abc1767ad56500ff28691b5c9676e2af2d19ee1068c04f16abe87f3875c65e6c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 23,
+      "successfulPages": 23,
+      "structure": [
+        {
+          "type": "Functions | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/functions"
+        },
+        {
+          "type": "Getting Started | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/getting-started"
+        },
+        {
+          "type": "Hooking | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/functions/hooking"
+        },
+        {
+          "type": "Console | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/functions/console"
+        },
+        {
+          "type": "Input | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/functions/input"
+        },
+        {
+          "type": "File System | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/functions/file-system"
+        },
+        {
+          "type": "Environment | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/functions/environment"
+        },
+        {
+          "type": "Table | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/functions/table"
+        },
+        {
+          "type": "Signal | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/functions/signal"
+        },
+        {
+          "type": "Miscellaneous | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/functions/miscellaneous"
+        },
+        {
+          "type": "Actors | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/libraries/actors"
+        },
+        {
+          "type": "Libraries | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/libraries"
+        },
+        {
+          "type": "Cache | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/libraries/cache"
+        },
+        {
+          "type": "Script | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/functions/script"
+        },
+        {
+          "type": "Reflection | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/functions/reflection"
+        },
+        {
+          "type": "Credits | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/credits"
+        },
+        {
+          "type": "Debug | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/libraries/debug"
+        },
+        {
+          "type": "Introduction | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave"
+        },
+        {
+          "type": "Changelogs | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/changelogs"
+        },
+        {
+          "type": "WebSocket | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/libraries/websocket"
+        },
+        {
+          "type": "Crypt | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/libraries/crypt"
+        },
+        {
+          "type": "ImGui | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/libraries/imgui"
+        },
+        {
+          "type": "Drawing | Wave",
+          "url": "https://duckys-playground.gitbook.io/wave/libraries/drawing"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cd5f326d457774dbc54c76a4aae6d7a5a6beb8841573679708c785c6dd4f3589"
 }

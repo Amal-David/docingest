@@ -153,5 +153,187 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://ajneb97.gitbook.io/servervariables",
+      "canonicalSeedUrl": "https://ajneb97.gitbook.io/servervariables",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-15T05:45:12.593Z",
+      "completedAt": "2026-03-15T05:45:12.593Z",
+      "providerTotals": {
+        "discovered": 31,
+        "returned": 31,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://ajneb97.gitbook.io/servervariables",
+          "canonicalUrl": "https://ajneb97.gitbook.io/servervariables",
+          "status": "valid"
+        }
+      ],
+      "id": "3b9dda268d1526aa02e629a3548846a789b5dc52ee42989cd418644d0531301c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "198b02e10e1c4fa4a06ef5ac65c0178e7cd37c2ba26efce229146472ca6c64c1",
+      "filename": "documentation_2026-03-15T05:45:12.593Z.md",
+      "contentHash": "717bd21944c473f1521e0dee3ff3441e12744d9f9551ca2f04f5356855dbb899",
+      "sourceUrl": "https://ajneb97.gitbook.io/servervariables",
+      "canonicalSourceUrl": "https://ajneb97.gitbook.io/servervariables",
+      "capturedAt": "2026-03-15T05:45:12.593Z",
+      "crawlRunId": "3b9dda268d1526aa02e629a3548846a789b5dc52ee42989cd418644d0531301c",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 31,
+      "successfulPages": 31,
+      "structure": [
+        {
+          "type": "ServerVariables Wiki | ServerVariables",
+          "url": "https://ajneb97.gitbook.io/servervariables"
+        },
+        {
+          "type": "Interactions Wiki | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions"
+        },
+        {
+          "type": "How to Start | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/how-to-start"
+        },
+        {
+          "type": "Creating a Conversation: Inventory | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/creating-a-conversation"
+        },
+        {
+          "type": "Creating a Conversation: Config | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/creating-a-conversation-config"
+        },
+        {
+          "type": "Conversation Entities Properties | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/conversation-entities-properties"
+        },
+        {
+          "type": "Conversation Properties | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/conversation-properties"
+        },
+        {
+          "type": "Options Properties | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/options-properties"
+        },
+        {
+          "type": "Dialogues Properties | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/dialogues-properties"
+        },
+        {
+          "type": "Actions | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/actions"
+        },
+        {
+          "type": "PlaceholderAPI Variables | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/placeholderapi-variables"
+        },
+        {
+          "type": "Commands and Permissions | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/commands-and-permissions"
+        },
+        {
+          "type": "Requirements | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/requirements"
+        },
+        {
+          "type": "Commands and Permissions | ServerVariables",
+          "url": "https://ajneb97.gitbook.io/servervariables/commands-and-permissions"
+        },
+        {
+          "type": "Examples | ServerVariables",
+          "url": "https://ajneb97.gitbook.io/servervariables/examples"
+        },
+        {
+          "type": "PlaceholderAPI Variables | ServerVariables",
+          "url": "https://ajneb97.gitbook.io/servervariables/placeholderapi-variables"
+        },
+        {
+          "type": "Config.yml File | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/config.yml-file"
+        },
+        {
+          "type": "Conversation Entity | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/keywords/conversation-entity"
+        },
+        {
+          "type": "API | ServerVariables",
+          "url": "https://ajneb97.gitbook.io/servervariables/api"
+        },
+        {
+          "type": "Option | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/keywords/option"
+        },
+        {
+          "type": "Config.yml | ServerVariables",
+          "url": "https://ajneb97.gitbook.io/servervariables/config.yml"
+        },
+        {
+          "type": "Conversation | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/keywords/conversation"
+        },
+        {
+          "type": "Dialogue | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/keywords/dialogue"
+        },
+        {
+          "type": "How to Start | ServerVariables",
+          "url": "https://ajneb97.gitbook.io/servervariables/how-to-start"
+        },
+        {
+          "type": "FAQ | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/faq/faq"
+        },
+        {
+          "type": "Variables Tutorial | ServerVariables",
+          "url": "https://ajneb97.gitbook.io/servervariables/variables-tutorial"
+        },
+        {
+          "type": "Options in Dialogue Example | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/full-examples/options-in-dialogue-example"
+        },
+        {
+          "type": "API Methods and Events | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/api/api-methods"
+        },
+        {
+          "type": "Influence Example | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/full-examples/influence-example"
+        },
+        {
+          "type": "Quests Example | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/full-examples/quest-example"
+        },
+        {
+          "type": "Messages.yml File | Interactions",
+          "url": "https://ajneb97.gitbook.io/interactions/messages.yml-file"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "198b02e10e1c4fa4a06ef5ac65c0178e7cd37c2ba26efce229146472ca6c64c1"
 }

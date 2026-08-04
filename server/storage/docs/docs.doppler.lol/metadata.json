@@ -76,5 +76,119 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.doppler.lol/how-it-works/publish-your-docs",
+      "canonicalSeedUrl": "https://docs.doppler.lol/how-it-works/publish-your-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-28T10:51:00.926Z",
+      "completedAt": "2025-04-28T10:51:00.926Z",
+      "providerTotals": {
+        "discovered": 14,
+        "returned": 14,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.doppler.lol/how-it-works/publish-your-docs",
+          "canonicalUrl": "https://docs.doppler.lol/how-it-works/publish-your-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "fe645286b19c80327b1605ac37ef5450c504a821de92dc63b95cc551d9519606",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "249e5b0b933754402f566952eca4536b89aeefdcaa0d32fd6f40bc1be9cc0083",
+      "filename": "documentation_2025-04-28T10:51:00.926Z.md",
+      "contentHash": "168c876c80976fe541de243df4fbb8c955a5c922443d5fb5a6d096a0c004bd64",
+      "sourceUrl": "https://docs.doppler.lol/how-it-works/publish-your-docs",
+      "canonicalSourceUrl": "https://docs.doppler.lol/how-it-works/publish-your-docs",
+      "capturedAt": "2025-04-28T10:51:00.926Z",
+      "crawlRunId": "fe645286b19c80327b1605ac37ef5450c504a821de92dc63b95cc551d9519606",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 14,
+      "successfulPages": 14,
+      "structure": [
+        {
+          "type": "Explainer | Doppler Docs",
+          "url": "https://docs.doppler.lol/how-it-works/publish-your-docs"
+        },
+        {
+          "type": "Treasury & governance | Doppler Docs",
+          "url": "https://docs.doppler.lol/how-it-works/treasury-and-governance"
+        },
+        {
+          "type": "Welcome | Doppler Docs",
+          "url": "https://docs.doppler.lol/"
+        },
+        {
+          "type": "Airlock & modules | Doppler Docs",
+          "url": "https://docs.doppler.lol/how-it-works/airlock-and-modules"
+        },
+        {
+          "type": "Pure.st | Doppler Docs",
+          "url": "https://docs.doppler.lol/featured-users/pure.st"
+        },
+        {
+          "type": "Quoter | Doppler Docs",
+          "url": "https://docs.doppler.lol/sdk-reference/quoter"
+        },
+        {
+          "type": "Zora | Doppler Docs",
+          "url": "https://docs.doppler.lol/featured-users/zora"
+        },
+        {
+          "type": "Fees & economics | Doppler Docs",
+          "url": "https://docs.doppler.lol/how-it-works/fees-and-economics"
+        },
+        {
+          "type": "Ohara | Doppler Docs",
+          "url": "https://docs.doppler.lol/featured-users/ohara"
+        },
+        {
+          "type": "Security & bug bounties | Doppler Docs",
+          "url": "https://docs.doppler.lol/resources/security-and-bug-bounties"
+        },
+        {
+          "type": "Implementation | Doppler Docs",
+          "url": "https://docs.doppler.lol/how-it-works/implementation"
+        },
+        {
+          "type": "Token | Doppler Docs",
+          "url": "https://docs.doppler.lol/sdk-reference/token"
+        },
+        {
+          "type": "Factory | Doppler Docs",
+          "url": "https://docs.doppler.lol/sdk-reference/factory"
+        },
+        {
+          "type": "Contract addresses | Doppler Docs",
+          "url": "https://docs.doppler.lol/resources/contract-addresses"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "249e5b0b933754402f566952eca4536b89aeefdcaa0d32fd6f40bc1be9cc0083"
 }

@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.balldontlie.io/#nba-api",
+      "canonicalSeedUrl": "https://docs.balldontlie.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-23T03:48:05.490Z",
+      "completedAt": "2025-12-23T03:48:05.490Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.balldontlie.io/#nba-api",
+          "canonicalUrl": "https://docs.balldontlie.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "68427adc5ec8b4e266d194eea5b00e100ac19a951eab174ace58c85bd6c1bbd0",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8d0d7d0fdad4dc9da99281c250cdbcb2a24bff2402175b4e1c7f7051c5f81e30",
+      "filename": "documentation_2025-12-23T03:48:05.490Z.md",
+      "contentHash": "de35d26ac680d9189b6413b794503de612874a28aa3f71952af0692fd3ae4d67",
+      "sourceUrl": "https://docs.balldontlie.io/#nba-api",
+      "canonicalSourceUrl": "https://docs.balldontlie.io/",
+      "capturedAt": "2025-12-23T03:48:05.490Z",
+      "crawlRunId": "68427adc5ec8b4e266d194eea5b00e100ac19a951eab174ace58c85bd6c1bbd0",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "NBA API – BALLDONTLIE NBA API",
+          "url": "https://docs.balldontlie.io/#nba-api"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8d0d7d0fdad4dc9da99281c250cdbcb2a24bff2402175b4e1c7f7051c5f81e30"
 }

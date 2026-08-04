@@ -33,5 +33,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://dadosabertos.compras.gov.br/v3/api-docs",
+      "canonicalSeedUrl": "https://dadosabertos.compras.gov.br/v3/api-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-01T16:30:24.359Z",
+      "completedAt": "2026-07-01T16:30:24.359Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://dadosabertos.compras.gov.br/v3/api-docs",
+          "canonicalUrl": "https://dadosabertos.compras.gov.br/v3/api-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "ba8499343c280a0beb5f189f101cd098f898dde4a60335684911b1d8cb363cb1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ffe390e77f6b2f9bbdb17ee453d488794563a2501c6c4c526ad37cc5c03ac41d",
+      "filename": "documentation_2026-07-01T16:30:24.359Z.md",
+      "contentHash": "203b9f65738dce1a2b23a70b80a1c0834811c82787446a053a4879ca321150d2",
+      "sourceUrl": "https://dadosabertos.compras.gov.br/v3/api-docs",
+      "canonicalSourceUrl": "https://dadosabertos.compras.gov.br/v3/api-docs",
+      "capturedAt": "2026-07-01T16:30:24.359Z",
+      "crawlRunId": "ba8499343c280a0beb5f189f101cd098f898dde4a60335684911b1d8cb363cb1",
+      "upstreamVersion": "3.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Unknown",
+          "url": "https://dadosabertos.compras.gov.br/v3/api-docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ffe390e77f6b2f9bbdb17ee453d488794563a2501c6c4c526ad37cc5c03ac41d"
 }

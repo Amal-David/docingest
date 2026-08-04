@@ -52,5 +52,95 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://grims-organization-2.gitbook.io/ruthlessrp",
+      "canonicalSeedUrl": "https://grims-organization-2.gitbook.io/ruthlessrp",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-18T15:47:18.363Z",
+      "completedAt": "2026-01-18T15:47:18.363Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://grims-organization-2.gitbook.io/ruthlessrp",
+          "canonicalUrl": "https://grims-organization-2.gitbook.io/ruthlessrp",
+          "status": "valid"
+        }
+      ],
+      "id": "a3a067785914e55dec3bd34a32c8af8931b0de3a5466fb5a595d6113703c0608",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f310e23ec4071748834dd04aa3114cc3fa1aaa5c22f4a12f58ed365b4653de22",
+      "filename": "documentation_2026-01-18T15:47:18.363Z.md",
+      "contentHash": "c99c61bbbd548d08c2f540f88f6c8cc96d54e0334694ea9ec2ac580017dfafcb",
+      "sourceUrl": "https://grims-organization-2.gitbook.io/ruthlessrp",
+      "canonicalSourceUrl": "https://grims-organization-2.gitbook.io/ruthlessrp",
+      "capturedAt": "2026-01-18T15:47:18.363Z",
+      "crawlRunId": "a3a067785914e55dec3bd34a32c8af8931b0de3a5466fb5a595d6113703c0608",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Ruthless RP | RuthlessRP",
+          "url": "https://grims-organization-2.gitbook.io/ruthlessrp"
+        },
+        {
+          "type": "📝 Modalités de Whitelist Ruthless 📝 | RuthlessRP",
+          "url": "https://grims-organization-2.gitbook.io/ruthlessrp/ruthless-rp/publish-your-docs-1"
+        },
+        {
+          "type": "🔒 Réglement Ruthless RP 🔒 | RuthlessRP",
+          "url": "https://grims-organization-2.gitbook.io/ruthlessrp/ruthless-rp/publish-your-docs"
+        },
+        {
+          "type": "🧬Lore Ruthless 🧬 | RuthlessRP",
+          "url": "https://grims-organization-2.gitbook.io/ruthlessrp/editor"
+        },
+        {
+          "type": "🏚️ Lore Quartier — Le Retour de Franklin : Gardien des Ruines 🏚️ | RuthlessRP",
+          "url": "https://grims-organization-2.gitbook.io/ruthlessrp/markdown"
+        },
+        {
+          "type": "💼 Lore des Cartels – L’Héritage de Michael : Architecte de l’Ombre 💼 | RuthlessRP",
+          "url": "https://grims-organization-2.gitbook.io/ruthlessrp/images-and-media"
+        },
+        {
+          "type": "EN COURS DE PRÉPARATION... | RuthlessRP",
+          "url": "https://grims-organization-2.gitbook.io/ruthlessrp/en-cours-de-preparation..."
+        },
+        {
+          "type": "Ruthless RP | RuthlessRP",
+          "url": "https://grims-organization-2.gitbook.io/ruthlessrp/ruthless-rp"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f310e23ec4071748834dd04aa3114cc3fa1aaa5c22f4a12f58ed365b4653de22"
 }

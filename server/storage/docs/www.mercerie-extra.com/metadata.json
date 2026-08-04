@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.mercerie-extra.com/fr/",
+      "canonicalSeedUrl": "https://www.mercerie-extra.com/fr",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-24T10:15:50.931Z",
+      "completedAt": "2025-07-24T10:15:50.931Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.mercerie-extra.com/fr/",
+          "canonicalUrl": "https://www.mercerie-extra.com/fr",
+          "status": "valid"
+        }
+      ],
+      "id": "86bc085bc6774ce9794ab0a5276d1c28b509eb3ae037b2f4b9d25b4ec386e7fb",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d6dd5ca2feb35b40f077536f56e3bdc8d5242f413b2f3f4f17161c41a1c674e8",
+      "filename": "documentation_2025-07-24T10:15:50.931Z.md",
+      "contentHash": "ceef1818078102fcf00458066be54d940297a1c44d2ce60bf9ab3e09671c0fad",
+      "sourceUrl": "https://www.mercerie-extra.com/fr/",
+      "canonicalSourceUrl": "https://www.mercerie-extra.com/fr",
+      "capturedAt": "2025-07-24T10:15:50.931Z",
+      "crawlRunId": "86bc085bc6774ce9794ab0a5276d1c28b509eb3ae037b2f4b9d25b4ec386e7fb",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "mercerie-extra",
+          "url": "https://www.mercerie-extra.com/fr/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d6dd5ca2feb35b40f077536f56e3bdc8d5242f413b2f3f4f17161c41a1c674e8"
 }

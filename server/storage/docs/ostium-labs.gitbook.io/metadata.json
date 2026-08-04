@@ -124,5 +124,167 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://ostium-labs.gitbook.io/ostium-docs/getting-started/glossary",
+      "canonicalSeedUrl": "https://ostium-labs.gitbook.io/ostium-docs/getting-started/glossary",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-02T02:08:51.447Z",
+      "completedAt": "2025-04-02T02:08:51.447Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/getting-started/glossary",
+          "canonicalUrl": "https://ostium-labs.gitbook.io/ostium-docs/getting-started/glossary",
+          "status": "valid"
+        }
+      ],
+      "id": "41b5fbe252de4f6cf1f78e9c3bdd0b8425eb1e15bac13d84cb3768352c43fd3f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5771889920d6a7154a6a2e7a0d187973412947d23fe593dddfe2d95eb9661383",
+      "filename": "documentation_2025-04-02T02:08:51.447Z.md",
+      "contentHash": "675b17049d20bbee54d826669198f6aa5b7a49c5eea8583b63bd6d549c5433d3",
+      "sourceUrl": "https://ostium-labs.gitbook.io/ostium-docs/getting-started/glossary",
+      "canonicalSourceUrl": "https://ostium-labs.gitbook.io/ostium-docs/getting-started/glossary",
+      "capturedAt": "2025-04-02T02:08:51.447Z",
+      "crawlRunId": "41b5fbe252de4f6cf1f78e9c3bdd0b8425eb1e15bac13d84cb3768352c43fd3f",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "Glossary | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/getting-started/glossary"
+        },
+        {
+          "type": "Overview | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/getting-started/overview"
+        },
+        {
+          "type": "Introduction: Our Thesis | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/getting-started/introduction-our-thesis"
+        },
+        {
+          "type": "Holding Trades | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/ostium-trading-engine/holding-trades"
+        },
+        {
+          "type": "Overview | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/ostium-trading-engine/overview"
+        },
+        {
+          "type": "Opening Trades | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/ostium-trading-engine/opening-trades"
+        },
+        {
+          "type": "Closing Trades | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/ostium-trading-engine/closing-trades"
+        },
+        {
+          "type": "Order Types | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/ostium-trading-engine/order-types"
+        },
+        {
+          "type": "Step-By-Step Tutorial | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/ostium-trading-engine/step-by-step-tutorial"
+        },
+        {
+          "type": "Referral Score | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/ostium-trading-engine/referral-score"
+        },
+        {
+          "type": "Market Making Vault | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/shared-liquidity-layer/market-making-vault"
+        },
+        {
+          "type": "Overview | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/shared-liquidity-layer/overview"
+        },
+        {
+          "type": "Liquidity Buffer | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/shared-liquidity-layer/liquidity-buffer"
+        },
+        {
+          "type": "OLP token | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/shared-liquidity-layer/market-making-vault/olp-token"
+        },
+        {
+          "type": "Risks | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/shared-liquidity-layer/risks"
+        },
+        {
+          "type": "Withdraw | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/shared-liquidity-layer/market-making-vault/withdraw"
+        },
+        {
+          "type": "Automations | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/supporting-infrastructure/automations"
+        },
+        {
+          "type": "Overview | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/supporting-infrastructure/overview"
+        },
+        {
+          "type": "Deposit | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/shared-liquidity-layer/market-making-vault/deposit"
+        },
+        {
+          "type": "Price Oracle | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/supporting-infrastructure/price-oracle"
+        },
+        {
+          "type": "Smart Contract Audits | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/security/smart-contract-audits"
+        },
+        {
+          "type": "API & SDK | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/api-and-sdk"
+        },
+        {
+          "type": "Economic Audit | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/security/economic-audit"
+        },
+        {
+          "type": "Terms of Use | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/legal/terms-of-use"
+        },
+        {
+          "type": "Disclaimer | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs/legal/disclaimer"
+        },
+        {
+          "type": "Welcome to Ostium | Ostium Documentation",
+          "url": "https://ostium-labs.gitbook.io/ostium-docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5771889920d6a7154a6a2e7a0d187973412947d23fe593dddfe2d95eb9661383"
 }

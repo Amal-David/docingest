@@ -216,5 +216,259 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.iagon.com/overview/royaltynode",
+      "canonicalSeedUrl": "https://docs.iagon.com/overview/royaltynode",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-29T14:39:10.637Z",
+      "completedAt": "2026-01-29T14:39:10.637Z",
+      "providerTotals": {
+        "discovered": 49,
+        "returned": 49,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.iagon.com/overview/royaltynode",
+          "canonicalUrl": "https://docs.iagon.com/overview/royaltynode",
+          "status": "valid"
+        }
+      ],
+      "id": "24e1fe0ca447360f5a3c4892478bcd11745ce5bb06de6a74afb1ff2c0f9b8838",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fa877ec41cccc350d5035432b37cb610e182933ecc24683c7612e2a08bd00ffd",
+      "filename": "documentation_2026-01-29T14:39:10.637Z.md",
+      "contentHash": "332890da3dcd1d6991d4be11d39e3d2825ba74e20b16eb8ba5eab888a938d1c1",
+      "sourceUrl": "https://docs.iagon.com/overview/royaltynode",
+      "canonicalSourceUrl": "https://docs.iagon.com/overview/royaltynode",
+      "capturedAt": "2026-01-29T14:39:10.637Z",
+      "crawlRunId": "24e1fe0ca447360f5a3c4892478bcd11745ce5bb06de6a74afb1ff2c0f9b8838",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 49,
+      "successfulPages": 49,
+      "structure": [
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/overview/royaltynode"
+        },
+        {
+          "type": "Markdown page example | Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/markdown-page"
+        },
+        {
+          "type": "Connecting Your Domain Name to Your Iagon Website | Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/developers/developers-guide/connecting-domain-name"
+        },
+        {
+          "type": "Developers Guide | Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/developers/developers-guide/developers-guide-overview"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/iagon-compute/compute-solutions/running-apps"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/iagon-compute/compute-overview"
+        },
+        {
+          "type": "Disclaimer | Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/disclaimer"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/iagon-storage/common-use-cases"
+        },
+        {
+          "type": "Setup Process for Equinix Server | Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/equinix/setup-process"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/iagon-storage/detailed-storage-architecture/fermato"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/iagon-compute/compute-subscription"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/compute-testnet/testnet-updates-changelogs"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/compute-testnet/running-apps-testnet"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/developers/api"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/roadmap/"
+        },
+        {
+          "type": "Running Iagon Storage Node with WMT Earth Node | Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/wmt/"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/compute-testnet/testnet-node-cli"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/iagon-storage/high-level-architecture"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/iagon-storage/subscription"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/overview/terminology"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/overview/introduction"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/products/cyclone/cyclone-qs"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/iagon-storage/detailed-storage-architecture/secure-lake"
+        },
+        {
+          "type": "Statur | Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/products/statur"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/products/volo"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/iagon-storage/detailed-storage-architecture/sharding"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/compute-node-setup/compute-node-cli"
+        },
+        {
+          "type": "Tokenomics | Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/iagon-token/tokenomics"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/products/staking-platform"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/products/cyclone/cyclone-qs-without-drives"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/overview/governance/voting-power"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/compute-node/compute-requirements"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/compute-node/compute-metrics"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/compute-node-setup/compute-changelogs"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/products/cyclone/cyclone-qs-faq-maintenance"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/products/cyclone/cyclone-qs-with-drives"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/overview/lspo"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/storage-nodes/get-started"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/compute-node/compute-fees"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/storage-nodes/fees"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/storage-nodes/features"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/storage-nodes/minimum-requirements"
+        },
+        {
+          "type": "Iagon Documentation | Comprehensive Guide to AI-Driven Storage & Compute Economy ",
+          "url": "https://docs.iagon.com/"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/storage-node-setup/faq"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/compute-node/compute-rewards"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/storage-node-setup/node-gui"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/storage-node-setup/Synology"
+        },
+        {
+          "type": "Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/storage-node-setup/node-cli"
+        },
+        {
+          "type": "Updates and Changelogs | Iagon's decentralized cloud protocol documentation",
+          "url": "https://docs.iagon.com/provide-resources/storage-node-setup/updates-and-changelogs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fa877ec41cccc350d5035432b37cb610e182933ecc24683c7612e2a08bd00ffd"
 }

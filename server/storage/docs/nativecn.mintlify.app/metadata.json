@@ -88,5 +88,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://nativecn.mintlify.app/introduction",
+      "canonicalSeedUrl": "https://nativecn.mintlify.app/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-21T03:31:22.863Z",
+      "completedAt": "2025-01-21T03:31:22.863Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://nativecn.mintlify.app/introduction",
+          "canonicalUrl": "https://nativecn.mintlify.app/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "487a1b64ed74c2e28095048f4cd1b0332860321270a6bbd8931c20865d305e08",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "37a467b9802ff1c941fddc5e238fe103ace2c7f202d5d251cf855d396e254378",
+      "filename": "documentation_2025-01-21T03:31:22.863Z.md",
+      "contentHash": "8e38a3b9a856ffde920f11a0614dc4902c504932dab935751a766b8a249b8497",
+      "sourceUrl": "https://nativecn.mintlify.app/introduction",
+      "canonicalSourceUrl": "https://nativecn.mintlify.app/introduction",
+      "capturedAt": "2025-01-21T03:31:22.863Z",
+      "crawlRunId": "487a1b64ed74c2e28095048f4cd1b0332860321270a6bbd8931c20865d305e08",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Introduction - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/introduction"
+        },
+        {
+          "type": "Avatar - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/avatar"
+        },
+        {
+          "type": "Dark mode - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/dark-mode"
+        },
+        {
+          "type": "Badge - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/badge"
+        },
+        {
+          "type": "Button - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/button"
+        },
+        {
+          "type": "Dialog - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/dialog"
+        },
+        {
+          "type": "Checkbox - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/checkbox"
+        },
+        {
+          "type": "Drop down - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/drop-down"
+        },
+        {
+          "type": "Input - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/input"
+        },
+        {
+          "type": "Progress - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/progress"
+        },
+        {
+          "type": "Card - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/card"
+        },
+        {
+          "type": "Skeleton - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/skeleton"
+        },
+        {
+          "type": "Switch - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/switch"
+        },
+        {
+          "type": "Select - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/select"
+        },
+        {
+          "type": "Radio group - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/radio-group"
+        },
+        {
+          "type": "Tabs - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/tabs"
+        },
+        {
+          "type": "Toast - nativecn-ui",
+          "url": "https://nativecn.mintlify.app/toast"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "37a467b9802ff1c941fddc5e238fe103ace2c7f202d5d251cf855d396e254378"
 }

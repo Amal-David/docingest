@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://spec.filecoin.io/",
+      "canonicalSeedUrl": "https://spec.filecoin.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-05-02T16:39:15.999Z",
+      "completedAt": "2026-05-02T16:39:15.999Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://spec.filecoin.io/",
+          "canonicalUrl": "https://spec.filecoin.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "2481ebb0ec2f27c341e8ffc1253cd6e9d5bff0dcc71b32931884b3b561eea086",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "970ab77adcdc8d98c66a6b5e4478e13f965625080d3f6c4c9bd2723dd81b3041",
+      "filename": "documentation_2026-05-02T16:39:15.999Z.md",
+      "contentHash": "d25a5368fccbf6e7d22c87d67b70c7b545e78fd91497bb429af806fef185dc99",
+      "sourceUrl": "https://spec.filecoin.io/",
+      "canonicalSourceUrl": "https://spec.filecoin.io/",
+      "capturedAt": "2026-05-02T16:39:15.999Z",
+      "crawlRunId": "2481ebb0ec2f27c341e8ffc1253cd6e9d5bff0dcc71b32931884b3b561eea086",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Home | Filecoin Spec",
+          "url": "https://spec.filecoin.io/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "970ab77adcdc8d98c66a6b5e4478e13f965625080d3f6c4c9bd2723dd81b3041"
 }

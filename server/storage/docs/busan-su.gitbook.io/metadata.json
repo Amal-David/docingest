@@ -108,5 +108,151 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://busan-su.gitbook.io/busan.su-docs/",
+      "canonicalSeedUrl": "https://busan-su.gitbook.io/busan.su-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-10T21:06:26.925Z",
+      "completedAt": "2025-11-10T21:06:26.925Z",
+      "providerTotals": {
+        "discovered": 22,
+        "returned": 22,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://busan-su.gitbook.io/busan.su-docs/",
+          "canonicalUrl": "https://busan-su.gitbook.io/busan.su-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "d4bbf814a91f0d1f7322612e12594c8827f88dd00c4ae3de70b252d33b6cffe2",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "28e4e7e609aa821f42ad2aef2c8e917fc230333c8a557c72518fa4a36ec72b6b",
+      "filename": "documentation_2025-11-10T21:06:26.925Z.md",
+      "contentHash": "ba301c5dd7ee5afebe1c6e4b40336cff58eb28481da10ab5e645aa5216d5d228",
+      "sourceUrl": "https://busan-su.gitbook.io/busan.su-docs/",
+      "canonicalSourceUrl": "https://busan-su.gitbook.io/busan.su-docs",
+      "capturedAt": "2025-11-10T21:06:26.925Z",
+      "crawlRunId": "d4bbf814a91f0d1f7322612e12594c8827f88dd00c4ae3de70b252d33b6cffe2",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 22,
+      "successfulPages": 22,
+      "structure": [
+        {
+          "type": "Busan.Manual | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/"
+        },
+        {
+          "type": "Virus Protection | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/virus-protection"
+        },
+        {
+          "type": "Firewall Protection | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/firewall-protection"
+        },
+        {
+          "type": "Exploit Protection. | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/exploit-protection."
+        },
+        {
+          "type": "Reputation-based protection | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/reputation-based-protection"
+        },
+        {
+          "type": "UAC | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/uac"
+        },
+        {
+          "type": "DControl | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/dcontrol"
+        },
+        {
+          "type": "Store | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/reference/store"
+        },
+        {
+          "type": "Petstore | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/reference/petstore"
+        },
+        {
+          "type": "Pets | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/reference/store/pets"
+        },
+        {
+          "type": "Antivirus | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/program/antivirus"
+        },
+        {
+          "type": "INSTALL BEFORE USE | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/program/install-before-use"
+        },
+        {
+          "type": "Anti Cheat | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/program/anti-cheat"
+        },
+        {
+          "type": "Overclocking And VM | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/program/overclocking-and-vm"
+        },
+        {
+          "type": "Virtualization. | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/program/bios/virtualization."
+        },
+        {
+          "type": "UEFI | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/program/bios/uefi"
+        },
+        {
+          "type": "TPM | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/program/bios/tpm"
+        },
+        {
+          "type": "Boot Mode | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/program/bios/boot-mode"
+        },
+        {
+          "type": "Virus Protection | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps"
+        },
+        {
+          "type": "Petstore | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/reference"
+        },
+        {
+          "type": "Antivirus | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/program"
+        },
+        {
+          "type": "UEFI | Busan.SU Docs",
+          "url": "https://busan-su.gitbook.io/busan.su-docs/windows-steps/program/bios"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "28e4e7e609aa821f42ad2aef2c8e917fc230333c8a557c72518fa4a36ec72b6b"
 }

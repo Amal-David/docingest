@@ -64,5 +64,107 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://wp-mock.gitbook.io/documentation/",
+      "canonicalSeedUrl": "https://wp-mock.gitbook.io/documentation",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-10T07:32:06.492Z",
+      "completedAt": "2025-11-10T07:32:06.492Z",
+      "providerTotals": {
+        "discovered": 11,
+        "returned": 11,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://wp-mock.gitbook.io/documentation/",
+          "canonicalUrl": "https://wp-mock.gitbook.io/documentation",
+          "status": "valid"
+        }
+      ],
+      "id": "0fce4882bd1012bb5dd5e907fb1a1e540144e0102e22962e65b2fe15df9e138d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fb7ce13e2dd84a2c0de0bd31c3ca0857c887e8cba2d931e805829d458e8db93e",
+      "filename": "documentation_2025-11-10T07:32:06.492Z.md",
+      "contentHash": "2dbc3db42efef088f2b0a83371ead0ec7c81ec063ade2c5804b330635fdd7868",
+      "sourceUrl": "https://wp-mock.gitbook.io/documentation/",
+      "canonicalSourceUrl": "https://wp-mock.gitbook.io/documentation",
+      "capturedAt": "2025-11-10T07:32:06.492Z",
+      "crawlRunId": "0fce4882bd1012bb5dd5e907fb1a1e540144e0102e22962e65b2fe15df9e138d",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 11,
+      "successfulPages": 11,
+      "structure": [
+        {
+          "type": "Introduction | WP_Mock",
+          "url": "https://wp-mock.gitbook.io/documentation/"
+        },
+        {
+          "type": "Installation | WP_Mock",
+          "url": "https://wp-mock.gitbook.io/documentation/getting-started/installation"
+        },
+        {
+          "type": "Configuration | WP_Mock",
+          "url": "https://wp-mock.gitbook.io/documentation/getting-started/configuration"
+        },
+        {
+          "type": "Mocking WordPress Functions | WP_Mock",
+          "url": "https://wp-mock.gitbook.io/documentation/usage/using-wp-mock"
+        },
+        {
+          "type": "Mocking WordPress Objects | WP_Mock",
+          "url": "https://wp-mock.gitbook.io/documentation/usage/mocking-wp-objects"
+        },
+        {
+          "type": "Mocking WordPress Hooks | WP_Mock",
+          "url": "https://wp-mock.gitbook.io/documentation/usage/mocking-wp-action-and-filter-hooks"
+        },
+        {
+          "type": "Mocking WordPress Constants | WP_Mock",
+          "url": "https://wp-mock.gitbook.io/documentation/usage/mocking-wp-constants"
+        },
+        {
+          "type": "WP_Mock Test Case | WP_Mock",
+          "url": "https://wp-mock.gitbook.io/documentation/tools/wp-mock-test-case"
+        },
+        {
+          "type": "Introduction | WP_Mock",
+          "url": "https://wp-mock.gitbook.io/documentation/getting-started"
+        },
+        {
+          "type": "Mocking WordPress Functions | WP_Mock",
+          "url": "https://wp-mock.gitbook.io/documentation/usage"
+        },
+        {
+          "type": "WP_Mock Test Case | WP_Mock",
+          "url": "https://wp-mock.gitbook.io/documentation/tools"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fb7ce13e2dd84a2c0de0bd31c3ca0857c887e8cba2d931e805829d458e8db93e"
 }

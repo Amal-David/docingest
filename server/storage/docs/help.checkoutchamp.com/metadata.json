@@ -53,5 +53,87 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://help.checkoutchamp.com/funnel-builder/creating-and-editing-funnels-pages/funnel-visualizer-and-page-builder/funnel-visualizer/edit-funnel-settings",
+      "canonicalSeedUrl": "https://help.checkoutchamp.com/funnel-builder/creating-and-editing-funnels-pages/funnel-visualizer-and-page-builder/funnel-visualizer/edit-funnel-settings",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-30T08:16:04.529Z",
+      "completedAt": "2025-04-30T08:16:04.529Z",
+      "providerTotals": {
+        "discovered": 6,
+        "returned": 6,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://help.checkoutchamp.com/funnel-builder/creating-and-editing-funnels-pages/funnel-visualizer-and-page-builder/funnel-visualizer/edit-funnel-settings",
+          "canonicalUrl": "https://help.checkoutchamp.com/funnel-builder/creating-and-editing-funnels-pages/funnel-visualizer-and-page-builder/funnel-visualizer/edit-funnel-settings",
+          "status": "valid"
+        }
+      ],
+      "id": "216f9384c5b7a76f48f08a05f3b274732e99647cffa8cd4487a2d9256d3ad854",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3ed8ab460edfe8425fd69afe07ee6cecfa5b3e60da25bc073ab520637d46e820",
+      "filename": "documentation_2025-04-30T08:16:04.529Z.md",
+      "contentHash": "3a9d323469378ddc91019da694bd022a053d18c2236a84e13f3804d58f76c667",
+      "sourceUrl": "https://help.checkoutchamp.com/funnel-builder/creating-and-editing-funnels-pages/funnel-visualizer-and-page-builder/funnel-visualizer/edit-funnel-settings",
+      "canonicalSourceUrl": "https://help.checkoutchamp.com/funnel-builder/creating-and-editing-funnels-pages/funnel-visualizer-and-page-builder/funnel-visualizer/edit-funnel-settings",
+      "capturedAt": "2025-04-30T08:16:04.529Z",
+      "crawlRunId": "216f9384c5b7a76f48f08a05f3b274732e99647cffa8cd4487a2d9256d3ad854",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 6,
+      "successfulPages": 6,
+      "structure": [
+        {
+          "type": "Edit Funnel Settings | CheckoutChamp",
+          "url": "https://help.checkoutchamp.com/funnel-builder/creating-and-editing-funnels-pages/funnel-visualizer-and-page-builder/funnel-visualizer/edit-funnel-settings"
+        },
+        {
+          "type": "Creating & Editing Funnels/Pages | CheckoutChamp",
+          "url": "https://help.checkoutchamp.com/funnel-builder/creating-and-editing-funnels-pages"
+        },
+        {
+          "type": "Dashboard Overview (APP) | CheckoutChamp",
+          "url": "https://help.checkoutchamp.com/funnel-builder/dashboard-overview-app"
+        },
+        {
+          "type": "Style Manager | CheckoutChamp",
+          "url": "https://help.checkoutchamp.com/funnel-builder/creating-and-editing-funnels-pages/funnel-visualizer-and-page-builder/page-builder/style-manager"
+        },
+        {
+          "type": "Funnel Visualizer | CheckoutChamp",
+          "url": "https://help.checkoutchamp.com/funnel-builder/creating-and-editing-funnels-pages/funnel-visualizer-and-page-builder/funnel-visualizer"
+        },
+        {
+          "type": "Page Templates | CheckoutChamp",
+          "url": "https://help.checkoutchamp.com/funnel-builder/creating-and-editing-funnels-pages/funnel-visualizer-and-page-builder/funnel-visualizer/page-templates"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3ed8ab460edfe8425fd69afe07ee6cecfa5b3e60da25bc073ab520637d46e820"
 }

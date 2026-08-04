@@ -112,5 +112,155 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://faq.deltaemulator.com/",
+      "canonicalSeedUrl": "https://faq.deltaemulator.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-09T13:56:14.852Z",
+      "completedAt": "2025-04-09T13:56:14.852Z",
+      "providerTotals": {
+        "discovered": 23,
+        "returned": 23,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://faq.deltaemulator.com/",
+          "canonicalUrl": "https://faq.deltaemulator.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "98c67b7871c708473ad32e217a0adae0421651a4e4cced6e48a6791dd51eea49",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e7199113efa75a3636012476d4f1d602b5b277259841ab91ea58846205375800",
+      "filename": "documentation_2025-04-09T13:56:14.852Z.md",
+      "contentHash": "63f8d6c9a55e800321e09a4e9764f149eeecbf5ab9b9338ea31755c3a1fe3b8a",
+      "sourceUrl": "https://faq.deltaemulator.com/",
+      "canonicalSourceUrl": "https://faq.deltaemulator.com/",
+      "capturedAt": "2025-04-09T13:56:14.852Z",
+      "crawlRunId": "98c67b7871c708473ad32e217a0adae0421651a4e4cced6e48a6791dd51eea49",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 23,
+      "successfulPages": 23,
+      "structure": [
+        {
+          "type": "Delta User Guide | Delta",
+          "url": "https://faq.deltaemulator.com/"
+        },
+        {
+          "type": "Get Delta | Delta",
+          "url": "https://faq.deltaemulator.com/getting-started/get-delta"
+        },
+        {
+          "type": "Settings | Delta",
+          "url": "https://faq.deltaemulator.com/getting-started/settings"
+        },
+        {
+          "type": "Access Patreon Benefits | Delta",
+          "url": "https://faq.deltaemulator.com/getting-started/access-patreon-benefits"
+        },
+        {
+          "type": "Importing Games | Delta",
+          "url": "https://faq.deltaemulator.com/getting-started/importing-games"
+        },
+        {
+          "type": "Delta Sync | Delta",
+          "url": "https://faq.deltaemulator.com/using-delta/delta-sync"
+        },
+        {
+          "type": "Pausing | Delta",
+          "url": "https://faq.deltaemulator.com/using-delta/pausing"
+        },
+        {
+          "type": "Troubleshooting | Delta",
+          "url": "https://faq.deltaemulator.com/getting-started/troubleshooting"
+        },
+        {
+          "type": "Save States | Delta",
+          "url": "https://faq.deltaemulator.com/using-delta/save-states"
+        },
+        {
+          "type": "Release Notes | Delta",
+          "url": "https://faq.deltaemulator.com/release-notes"
+        },
+        {
+          "type": "Cheat Codes | Delta",
+          "url": "https://faq.deltaemulator.com/using-delta/cheat-codes"
+        },
+        {
+          "type": "Controllers | Delta",
+          "url": "https://faq.deltaemulator.com/using-delta/controllers"
+        },
+        {
+          "type": "Fast Forward | Delta",
+          "url": "https://faq.deltaemulator.com/using-delta/fast-forward"
+        },
+        {
+          "type": "Nintendo DS | Delta",
+          "url": "https://faq.deltaemulator.com/using-delta/nintendo-ds"
+        },
+        {
+          "type": "Controller Skins | Delta",
+          "url": "https://faq.deltaemulator.com/using-delta/controller-skins"
+        },
+        {
+          "type": "Nintendo DS BIOS Files | Delta",
+          "url": "https://faq.deltaemulator.com/using-delta/nintendo-ds/nintendo-ds-bios-files"
+        },
+        {
+          "type": "Hold Buttons | Delta",
+          "url": "https://faq.deltaemulator.com/using-delta/hold-buttons"
+        },
+        {
+          "type": "N64 | Delta",
+          "url": "https://faq.deltaemulator.com/n64"
+        },
+        {
+          "type": "Customize Mupen64Plus | Delta",
+          "url": "https://faq.deltaemulator.com/n64/customize-mupen64plus"
+        },
+        {
+          "type": "Team | Delta",
+          "url": "https://faq.deltaemulator.com/about/team"
+        },
+        {
+          "type": "Incompatible Save States | Delta",
+          "url": "https://faq.deltaemulator.com/using-delta/nintendo-ds/incompatible-save-states"
+        },
+        {
+          "type": "Online Multiplayer | Delta",
+          "url": "https://faq.deltaemulator.com/using-delta/online-multiplayer"
+        },
+        {
+          "type": "Press Kit | Delta",
+          "url": "https://faq.deltaemulator.com/about/press-kit"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e7199113efa75a3636012476d4f1d602b5b277259841ab91ea58846205375800"
 }

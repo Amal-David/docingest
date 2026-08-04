@@ -112,5 +112,155 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.backed.fi/",
+      "canonicalSeedUrl": "https://docs.backed.fi/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-05T15:34:30.878Z",
+      "completedAt": "2026-01-05T15:34:30.878Z",
+      "providerTotals": {
+        "discovered": 23,
+        "returned": 23,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.backed.fi/",
+          "canonicalUrl": "https://docs.backed.fi/",
+          "status": "valid"
+        }
+      ],
+      "id": "59e5f49c802828654ed6c5ccebb8f74e5f1c0a11078975f5a8f92bf45f9f4d18",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4b87c4fb7239446158ab30bf147713dffcd0123a42470ba2417acd67f1c23a78",
+      "filename": "documentation_2026-01-05T15:34:30.878Z.md",
+      "contentHash": "97a6e7b91854cb48859555b303d1ff9114599e661ce154ac1001464aa0b2b305",
+      "sourceUrl": "https://docs.backed.fi/",
+      "canonicalSourceUrl": "https://docs.backed.fi/",
+      "capturedAt": "2026-01-05T15:34:30.878Z",
+      "crawlRunId": "59e5f49c802828654ed6c5ccebb8f74e5f1c0a11078975f5a8f92bf45f9f4d18",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 23,
+      "successfulPages": 23,
+      "structure": [
+        {
+          "type": "Introduction | Backed Docs",
+          "url": "https://docs.backed.fi/"
+        },
+        {
+          "type": "Contacts and Enquiries | Backed Docs",
+          "url": "https://docs.backed.fi/contacts-and-enquiries"
+        },
+        {
+          "type": "Onboarding | Backed Docs",
+          "url": "https://docs.backed.fi/backed-platform/onboarding"
+        },
+        {
+          "type": "Who can use Backed? | Backed Docs",
+          "url": "https://docs.backed.fi/backed-platform/who-can-use-backed"
+        },
+        {
+          "type": "Redemption | Backed Docs",
+          "url": "https://docs.backed.fi/backed-platform/issuance-and-redemption/redemption"
+        },
+        {
+          "type": "Issuance | Backed Docs",
+          "url": "https://docs.backed.fi/backed-platform/issuance-and-redemption/issuance"
+        },
+        {
+          "type": "Frequently Asked Questions | Backed Docs",
+          "url": "https://docs.backed.fi/frequently-asked-questions"
+        },
+        {
+          "type": "Onboarding Troubleshooting | Backed Docs",
+          "url": "https://docs.backed.fi/backed-platform/onboarding/onboarding-troubleshooting"
+        },
+        {
+          "type": "Issuance and Redemption | Backed Docs",
+          "url": "https://docs.backed.fi/backed-platform/issuance-and-redemption"
+        },
+        {
+          "type": "Backed API | Backed Docs",
+          "url": "https://docs.backed.fi/backed-platform/backed-api"
+        },
+        {
+          "type": "Limits and Refunds | Backed Docs",
+          "url": "https://docs.backed.fi/backed-platform/limits-and-refunds"
+        },
+        {
+          "type": "Proof of Reserves | Backed Docs",
+          "url": "https://docs.backed.fi/backed-ecosystem/proof-of-reserves"
+        },
+        {
+          "type": "Refunds | Backed Docs",
+          "url": "https://docs.backed.fi/backed-platform/limits-and-refunds/refunds"
+        },
+        {
+          "type": "Oracles | Backed Docs",
+          "url": "https://docs.backed.fi/backed-ecosystem/oracles"
+        },
+        {
+          "type": "Limits | Backed Docs",
+          "url": "https://docs.backed.fi/backed-platform/limits-and-refunds/limits"
+        },
+        {
+          "type": "Wrapped bTokens | Backed Docs",
+          "url": "https://docs.backed.fi/backed-ecosystem/wrapped-btokens"
+        },
+        {
+          "type": "Entities | Backed Docs",
+          "url": "https://docs.backed.fi/legal-and-compliance/fatca-crs/entities"
+        },
+        {
+          "type": "Controlling Persons | Backed Docs",
+          "url": "https://docs.backed.fi/legal-and-compliance/fatca-crs/controlling-persons"
+        },
+        {
+          "type": "FATCA/CRS | Backed Docs",
+          "url": "https://docs.backed.fi/legal-and-compliance/fatca-crs"
+        },
+        {
+          "type": "Individuals | Backed Docs",
+          "url": "https://docs.backed.fi/legal-and-compliance/fatca-crs/individuals"
+        },
+        {
+          "type": "AEOI - Q&A and Definitions | Backed Docs",
+          "url": "https://docs.backed.fi/legal-and-compliance/aeoi-q-and-a-and-definitions"
+        },
+        {
+          "type": "Brand Assets | Backed Docs",
+          "url": "https://docs.backed.fi/branding/brand-assets"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.backed.fi/cdn-cgi/l/email-protection"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4b87c4fb7239446158ab30bf147713dffcd0123a42470ba2417acd67f1c23a78"
 }

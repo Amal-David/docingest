@@ -76,5 +76,119 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://pumpportal.fun/legal/",
+      "canonicalSeedUrl": "https://pumpportal.fun/legal",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-17T07:31:29.238Z",
+      "completedAt": "2026-02-17T07:31:29.238Z",
+      "providerTotals": {
+        "discovered": 14,
+        "returned": 14,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://pumpportal.fun/legal/",
+          "canonicalUrl": "https://pumpportal.fun/legal",
+          "status": "valid"
+        }
+      ],
+      "id": "43b8d9bd7f1f17d93e522cb6b348cfb1f57886a3ef5a776c76a91c4cca71d714",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "de81902784cd0629bf834532fae6e417ae477953557b862320fec62fa91702aa",
+      "filename": "documentation_2026-02-17T07:31:29.238Z.md",
+      "contentHash": "97d829adee8149131c26be6704b3bc9c8e2aa8afd753147f409fb5d2d06cf6b6",
+      "sourceUrl": "https://pumpportal.fun/legal/",
+      "canonicalSourceUrl": "https://pumpportal.fun/legal",
+      "capturedAt": "2026-02-17T07:31:29.238Z",
+      "crawlRunId": "43b8d9bd7f1f17d93e522cb6b348cfb1f57886a3ef5a776c76a91c4cca71d714",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 14,
+      "successfulPages": 14,
+      "structure": [
+        {
+          "type": "TERMS OF USE | Pump Fun API",
+          "url": "https://pumpportal.fun/legal/"
+        },
+        {
+          "type": "Claiming Token Creator Fees | Pump Fun API",
+          "url": "https://pumpportal.fun/creator-fee/"
+        },
+        {
+          "type": "Getting Started | Pump Fun API",
+          "url": "https://pumpportal.fun/trading-api/setup/"
+        },
+        {
+          "type": "Lightning Transaction API Docs | Pump Fun API",
+          "url": "https://pumpportal.fun/trading-api/"
+        },
+        {
+          "type": "Fees | Pump Fun API",
+          "url": "https://pumpportal.fun/fees/"
+        },
+        {
+          "type": "What is PumpPortal? | Pump Fun API",
+          "url": "https://pumpportal.fun/"
+        },
+        {
+          "type": "Frequently Asked Questions | Pump Fun API",
+          "url": "https://pumpportal.fun/FAQ/"
+        },
+        {
+          "type": "Create a New Wallet and API Key | Pump Fun API",
+          "url": "https://pumpportal.fun/create-wallet/"
+        },
+        {
+          "type": "PumpSwap Data API | Pump Fun API",
+          "url": "https://pumpportal.fun/data-api/pump-swap/"
+        },
+        {
+          "type": "Jito Bundles | Pump Fun API",
+          "url": "https://pumpportal.fun/local-trading-api/jito-bundles/"
+        },
+        {
+          "type": "Real-time Updates | Pump Fun API",
+          "url": "https://pumpportal.fun/data-api/bonk-fun-data-api/"
+        },
+        {
+          "type": "Transaction API Docs | Pump Fun API",
+          "url": "https://pumpportal.fun/local-trading-api/trading-api/"
+        },
+        {
+          "type": "Real-time Updates | Pump Fun API",
+          "url": "https://pumpportal.fun/data-api/real-time/"
+        },
+        {
+          "type": "Pump.fun Token Creation | Pump Fun API",
+          "url": "https://pumpportal.fun/creation/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "de81902784cd0629bf834532fae6e417ae477953557b862320fec62fa91702aa"
 }

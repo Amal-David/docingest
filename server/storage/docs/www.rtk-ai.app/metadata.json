@@ -60,5 +60,103 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.rtk-ai.app/docs/",
+      "canonicalSeedUrl": "https://www.rtk-ai.app/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-08T07:24:55.079Z",
+      "completedAt": "2026-06-08T07:24:55.079Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.rtk-ai.app/docs/",
+          "canonicalUrl": "https://www.rtk-ai.app/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "89216ade2a1ddaec5492c044856906f70dc675dff08eca81424554b19062422e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cf62d7ef021e9bf460b8b0dc324cc4763e9fb718f3c99ecf1785946ca9fbfae8",
+      "filename": "documentation_2026-06-08T07:24:55.079Z.md",
+      "contentHash": "0d3c3e899ebc40fdcfb753631b289c9f439afe6800b46a8f8e74bb0f9b5c4808",
+      "sourceUrl": "https://www.rtk-ai.app/docs/",
+      "canonicalSourceUrl": "https://www.rtk-ai.app/docs",
+      "capturedAt": "2026-06-08T07:24:55.079Z",
+      "crawlRunId": "89216ade2a1ddaec5492c044856906f70dc675dff08eca81424554b19062422e",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "RTK Documentation | RTK",
+          "url": "https://www.rtk-ai.app/docs/"
+        },
+        {
+          "type": "Token Savings Analytics | RTK",
+          "url": "https://www.rtk-ai.app/docs/analytics/gain/"
+        },
+        {
+          "type": "Discover and Session | RTK",
+          "url": "https://www.rtk-ai.app/docs/analytics/discover/"
+        },
+        {
+          "type": "Installation | RTK",
+          "url": "https://www.rtk-ai.app/docs/getting-started/installation/"
+        },
+        {
+          "type": "Quick Start | RTK",
+          "url": "https://www.rtk-ai.app/docs/getting-started/quick-start/"
+        },
+        {
+          "type": "What RTK Optimizes | RTK",
+          "url": "https://www.rtk-ai.app/docs/resources/what-rtk-covers/"
+        },
+        {
+          "type": "Configuration | RTK",
+          "url": "https://www.rtk-ai.app/docs/getting-started/configuration/"
+        },
+        {
+          "type": "Supported Agents | RTK",
+          "url": "https://www.rtk-ai.app/docs/getting-started/supported-agents/"
+        },
+        {
+          "type": "Troubleshooting | RTK",
+          "url": "https://www.rtk-ai.app/docs/resources/troubleshooting/"
+        },
+        {
+          "type": "Telemetry & Privacy | RTK",
+          "url": "https://www.rtk-ai.app/docs/resources/telemetry/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cf62d7ef021e9bf460b8b0dc324cc4763e9fb718f3c99ecf1785946ca9fbfae8"
 }

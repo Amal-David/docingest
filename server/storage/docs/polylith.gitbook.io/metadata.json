@@ -121,5 +121,155 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://polylith.gitbook.io/polylith/architecture/2.1.-workspace",
+      "canonicalSeedUrl": "https://polylith.gitbook.io/polylith/architecture/2.1.-workspace",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-01T08:39:39.281Z",
+      "completedAt": "2026-04-01T08:39:39.281Z",
+      "providerTotals": {
+        "discovered": 23,
+        "returned": 23,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://polylith.gitbook.io/polylith/architecture/2.1.-workspace",
+          "canonicalUrl": "https://polylith.gitbook.io/polylith/architecture/2.1.-workspace",
+          "status": "valid"
+        }
+      ],
+      "id": "5c4fc7934d3434dbc5003a1b78b6af1014f9df633f8beb87105407fef11ccc0b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7d53da015bc2a9151814226ed03e03da5e388615268354f0d8219182def48796",
+      "filename": "documentation_2026-04-01T08:39:39.281Z.md",
+      "contentHash": "ef709d47ef2d8a7627049a46b7186765949bdea166a37be6ca01c64d389b98b6",
+      "sourceUrl": "https://polylith.gitbook.io/polylith/architecture/2.1.-workspace",
+      "canonicalSourceUrl": "https://polylith.gitbook.io/polylith/architecture/2.1.-workspace",
+      "capturedAt": "2026-04-01T08:39:39.281Z",
+      "crawlRunId": "5c4fc7934d3434dbc5003a1b78b6af1014f9df633f8beb87105407fef11ccc0b",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 23,
+      "successfulPages": 23,
+      "structure": [
+        {
+          "type": "Workspace | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/architecture/2.1.-workspace"
+        },
+        {
+          "type": "Testing incrementally | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/introduction/testing-incrementally"
+        },
+        {
+          "type": "Sharing code | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/introduction/sharing-code"
+        },
+        {
+          "type": "Polylith in a Nutshell | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/introduction/polylith-in-a-nutshell"
+        },
+        {
+          "type": "Base | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/architecture/2.2.-base"
+        },
+        {
+          "type": "Project | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/architecture/2.6.-project"
+        },
+        {
+          "type": "Transitioning to Polylith | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/conclusion/should-you-convert-your-system"
+        },
+        {
+          "type": "Component | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/architecture/2.3.-component"
+        },
+        {
+          "type": "Development project | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/architecture/2.4.-development"
+        },
+        {
+          "type": "Simplicity | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/architecture/simplicity"
+        },
+        {
+          "type": "Bring it all together | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/architecture/bring-it-all-together"
+        },
+        {
+          "type": "Current architectures | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/conclusion/current-arcitectures"
+        },
+        {
+          "type": "Why the name \"Polylith\"? | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/conclusion/the-name"
+        },
+        {
+          "type": "Overview | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/tool/the-polylith-plugin"
+        },
+        {
+          "type": "Advantages of Polylith | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/conclusion/advantages-of-polylith"
+        },
+        {
+          "type": "FAQ | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/conclusion/faq"
+        },
+        {
+          "type": "Who made this? | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/conclusion/who-made-polylith"
+        },
+        {
+          "type": "Polylith",
+          "url": "https://polylith.gitbook.io/polylith"
+        },
+        {
+          "type": "Videos | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/conclusion/videos"
+        },
+        {
+          "type": "Workspace | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/architecture"
+        },
+        {
+          "type": "Overview | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/tool"
+        },
+        {
+          "type": "Sharing code | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/introduction"
+        },
+        {
+          "type": "Current architectures | Polylith",
+          "url": "https://polylith.gitbook.io/polylith/conclusion"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7d53da015bc2a9151814226ed03e03da5e388615268354f0d8219182def48796"
 }

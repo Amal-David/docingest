@@ -61,5 +61,95 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://comms.push.org/docs/chat/",
+      "canonicalSeedUrl": "https://comms.push.org/docs/chat",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-28T18:15:34.819Z",
+      "completedAt": "2025-03-28T18:15:34.819Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://comms.push.org/docs/chat/",
+          "canonicalUrl": "https://comms.push.org/docs/chat",
+          "status": "valid"
+        }
+      ],
+      "id": "7c169bde884af564f1797fe0683c02210c8906d3c8ccbfb1558f62a8fe4088be",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "bea22514ee0c4f0670d7ddc56e53fe3480dfc55e4f87f5d64ba625f47c283113",
+      "filename": "documentation_2025-03-28T18:15:34.819Z.md",
+      "contentHash": "8fb78d635613a61fc34fd3b06c8520faa4dc493f4a930e736806cadb698e6584",
+      "sourceUrl": "https://comms.push.org/docs/chat/",
+      "canonicalSourceUrl": "https://comms.push.org/docs/chat",
+      "capturedAt": "2025-03-28T18:15:34.819Z",
+      "crawlRunId": "7c169bde884af564f1797fe0683c02210c8906d3c8ccbfb1558f62a8fe4088be",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Introduction | Push Chat | Push Documentation",
+          "url": "https://comms.push.org/docs/chat/"
+        },
+        {
+          "type": "Message Type - Text | Push Chat | Push Documentation",
+          "url": "https://comms.push.org/docs/chat/message-types/text/"
+        },
+        {
+          "type": "Intro to Message Types | Push Chat | Push Documentation",
+          "url": "https://comms.push.org/docs/chat/message-types/"
+        },
+        {
+          "type": "Message Type - File | Push Chat | Push Documentation",
+          "url": "https://comms.push.org/docs/chat/message-types/file/"
+        },
+        {
+          "type": "Message Type - Image | Push Chat | Push Documentation",
+          "url": "https://comms.push.org/docs/chat/message-types/image/"
+        },
+        {
+          "type": "Message Type - Meta | Push Chat | Push Documentation",
+          "url": "https://comms.push.org/docs/chat/message-types/meta/"
+        },
+        {
+          "type": "Message Type - Media Embed | Push Chat | Push Documentation",
+          "url": "https://comms.push.org/docs/chat/message-types/media-embed/"
+        },
+        {
+          "type": "Message Type - Reaction | Push Chat | Push Documentation",
+          "url": "https://comms.push.org/docs/chat/message-types/reaction/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "bea22514ee0c4f0670d7ddc56e53fe3480dfc55e4f87f5d64ba625f47c283113"
 }

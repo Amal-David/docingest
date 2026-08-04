@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developer.todoist.com/api/v1",
+      "canonicalSeedUrl": "https://developer.todoist.com/api/v1",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-27T03:15:26.031Z",
+      "completedAt": "2025-07-27T03:15:26.031Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developer.todoist.com/api/v1",
+          "canonicalUrl": "https://developer.todoist.com/api/v1",
+          "status": "valid"
+        }
+      ],
+      "id": "5203e8bf97c4cc603b57151a064e1cef2166c5e806a2c4c3af1a1113c610d8f5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9952fff722633c497baf9d740c743facb3511adb3907bb4684a7d8d3e915e44a",
+      "filename": "documentation_2025-07-27T03:15:26.031Z.md",
+      "contentHash": "52622b2787a60ef69ff05eb2205225afd8712dc81d901bc7eb968b2fd80e8ead",
+      "sourceUrl": "https://developer.todoist.com/api/v1",
+      "canonicalSourceUrl": "https://developer.todoist.com/api/v1",
+      "capturedAt": "2025-07-27T03:15:26.031Z",
+      "crawlRunId": "5203e8bf97c4cc603b57151a064e1cef2166c5e806a2c4c3af1a1113c610d8f5",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Todoist API",
+          "url": "https://developer.todoist.com/api/v1"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9952fff722633c497baf9d740c743facb3511adb3907bb4684a7d8d3e915e44a"
 }

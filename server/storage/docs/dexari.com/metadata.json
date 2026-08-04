@@ -28,5 +28,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://dexari.com/",
+      "canonicalSeedUrl": "https://dexari.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-10T05:22:37.496Z",
+      "completedAt": "2025-10-10T05:22:37.496Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://dexari.com/",
+          "canonicalUrl": "https://dexari.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "3f89456db173174081d426371c1fbb7216b0d9bc6691a64f5fc5caac8648ebe1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9a23fdcc8129c6fea2f4068ddcdce509f5c6db4b46d02d441e37a00322dc309f",
+      "filename": "documentation_2025-10-10T05:22:37.496Z.md",
+      "contentHash": "100912e3a709048957cb1b45a87f3b0f563edf29c62a9eb970d1e10cb5097fb9",
+      "sourceUrl": "https://dexari.com/",
+      "canonicalSourceUrl": "https://dexari.com/",
+      "capturedAt": "2025-10-10T05:22:37.496Z",
+      "crawlRunId": "3f89456db173174081d426371c1fbb7216b0d9bc6691a64f5fc5caac8648ebe1",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Dexari – Trade Perps Onchain, Anywhere",
+          "url": "https://dexari.com/"
+        },
+        {
+          "type": "Dexari – Trade Perps Onchain, Anywhere",
+          "url": "https://dexari.com/join"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9a23fdcc8129c6fea2f4068ddcdce509f5c6db4b46d02d441e37a00322dc309f"
 }

@@ -56,5 +56,99 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://linuxtips.io/girus-labs/",
+      "canonicalSeedUrl": "https://linuxtips.io/girus-labs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-26T14:10:30.135Z",
+      "completedAt": "2025-08-26T14:10:30.135Z",
+      "providerTotals": {
+        "discovered": 9,
+        "returned": 9,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://linuxtips.io/girus-labs/",
+          "canonicalUrl": "https://linuxtips.io/girus-labs",
+          "status": "valid"
+        }
+      ],
+      "id": "7cc872a8bd265fb5333514472db3299597b61f7b799a9897fd3fbb0d5201c021",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b0d516c417558c883b55e729640f2accb03c56821156ebfe926cb5d7e21cd1a8",
+      "filename": "documentation_2025-08-26T14:10:30.135Z.md",
+      "contentHash": "8b170f724bff473530683f7879015ce140d2b388e7b86e9e79ff8827787619dc",
+      "sourceUrl": "https://linuxtips.io/girus-labs/",
+      "canonicalSourceUrl": "https://linuxtips.io/girus-labs",
+      "capturedAt": "2025-08-26T14:10:30.135Z",
+      "crawlRunId": "7cc872a8bd265fb5333514472db3299597b61f7b799a9897fd3fbb0d5201c021",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 9,
+      "successfulPages": 9,
+      "structure": [
+        {
+          "type": "Girus Labs: Revolucionando O Aprendizado Prático De DevOps E Kubernetes - LINUXtips",
+          "url": "https://linuxtips.io/girus-labs/"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://linuxtips.io/locations.kml"
+        },
+        {
+          "type": "Jeferson Fernando: Especialista Em Kubernetes E Linux",
+          "url": "https://linuxtips.io/instrutor/jeferson-fernando/"
+        },
+        {
+          "type": "Camila Maia - LINUXtips",
+          "url": "https://linuxtips.io/instrutor/camila-maia/"
+        },
+        {
+          "type": "André Brandão: Soft Skills Em Tecnologia E LINUXtips",
+          "url": "https://linuxtips.io/instrutor/andre-brandao/"
+        },
+        {
+          "type": "Minha Conta - LINUXtips",
+          "url": "https://linuxtips.io/wp-json/lw/v1/sso?redirectUrl=https://school.linuxtips.io"
+        },
+        {
+          "type": "Minha Conta - LINUXtips",
+          "url": "https://linuxtips.io/wp-json/lw/v1/sso?redirectUrl="
+        },
+        {
+          "type": "Minha Conta - LINUXtips",
+          "url": "https://linuxtips.io/my-account/lost-password/?redirect_to=https%3A%2F%2Flinuxtips.io%2Fwp-json%2Flw%2Fv1%2Fsso%3FredirectUrl%3Dhttps%253A%252F%252Fschool.linuxtips.io"
+        },
+        {
+          "type": "Minha Conta - LINUXtips",
+          "url": "https://linuxtips.io/my-account/lost-password/?redirect_to=https%3A%2F%2Flinuxtips.io%2Fwp-json%2Flw%2Fv1%2Fsso%3FredirectUrl"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b0d516c417558c883b55e729640f2accb03c56821156ebfe926cb5d7e21cd1a8"
 }

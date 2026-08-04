@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://spellbook-docs.dune.com/#!/overview",
+      "canonicalSeedUrl": "https://spellbook-docs.dune.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-03T09:39:43.783Z",
+      "completedAt": "2026-02-03T09:39:43.783Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://spellbook-docs.dune.com/#!/overview",
+          "canonicalUrl": "https://spellbook-docs.dune.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "6e8b6cbb0262dde64ce259f5f126913118083e5679cc1350478885b3432fea89",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "df01c7acd172a9e5e3a0c6a226e4ec4c7242364b4396be28a90fd73189c94477",
+      "filename": "documentation_2026-02-03T09:39:43.783Z.md",
+      "contentHash": "e5b6cbf9ba8c0046a96ae1819794804bd54b873a10d2db802a01088cecd391e0",
+      "sourceUrl": "https://spellbook-docs.dune.com/#!/overview",
+      "canonicalSourceUrl": "https://spellbook-docs.dune.com/",
+      "capturedAt": "2026-02-03T09:39:43.783Z",
+      "crawlRunId": "6e8b6cbb0262dde64ce259f5f126913118083e5679cc1350478885b3432fea89",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Dune Spellbook",
+          "url": "https://spellbook-docs.dune.com/#!/overview"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "df01c7acd172a9e5e3a0c6a226e4ec4c7242364b4396be28a90fd73189c94477"
 }

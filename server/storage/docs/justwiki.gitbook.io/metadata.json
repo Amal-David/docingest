@@ -208,5 +208,251 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://justwiki.gitbook.io",
+      "canonicalSeedUrl": "https://justwiki.gitbook.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-25T18:39:33.293Z",
+      "completedAt": "2025-10-25T18:39:33.293Z",
+      "providerTotals": {
+        "discovered": 47,
+        "returned": 47,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://justwiki.gitbook.io",
+          "canonicalUrl": "https://justwiki.gitbook.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "b54463a56577db89103a484c4396cd93925240746748d36f06da9f211b38a8e2",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "26d42ca43a6898543a0b32ca810a92ff89366e02c9b88da77e6a5e2deabf3008",
+      "filename": "documentation_2025-10-25T18:39:33.293Z.md",
+      "contentHash": "66047c8bf03a90dfeb3f2657f823bb0b991693ee23e0df4d55af8c7312201d50",
+      "sourceUrl": "https://justwiki.gitbook.io",
+      "canonicalSourceUrl": "https://justwiki.gitbook.io/",
+      "capturedAt": "2025-10-25T18:39:33.293Z",
+      "crawlRunId": "b54463a56577db89103a484c4396cd93925240746748d36f06da9f211b38a8e2",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 47,
+      "successfulPages": 47,
+      "structure": [
+        {
+          "type": "Главная страница | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io"
+        },
+        {
+          "type": "Главная страница | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki"
+        },
+        {
+          "type": "Регистрация | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/profile/registration"
+        },
+        {
+          "type": "О сервере | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/about"
+        },
+        {
+          "type": "Персонал | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/about/staff"
+        },
+        {
+          "type": "Интеграции | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/profile/integrations"
+        },
+        {
+          "type": "Чат | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/profile/chat"
+        },
+        {
+          "type": "О режиме | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/about"
+        },
+        {
+          "type": "Модуль | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/module"
+        },
+        {
+          "type": "Мир | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/world"
+        },
+        {
+          "type": "Ресурспак | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/world/resourcepack"
+        },
+        {
+          "type": "Блоки кода | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks"
+        },
+        {
+          "type": "Персонал | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/skyblockm/about/staff"
+        },
+        {
+          "type": "О режиме | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/skyblockm/about"
+        },
+        {
+          "type": "Предмет | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/arguments/item"
+        },
+        {
+          "type": "Событие мира | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/world_event"
+        },
+        {
+          "type": "Вызвать функцию | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/call_function"
+        },
+        {
+          "type": "Текст | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/arguments/text"
+        },
+        {
+          "type": "Иначе | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/else"
+        },
+        {
+          "type": "Блок | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/arguments/block"
+        },
+        {
+          "type": "Событие сущности | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/entity_event"
+        },
+        {
+          "type": "Запустить процесс | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/start_process"
+        },
+        {
+          "type": "Контроллер | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/controller"
+        },
+        {
+          "type": "Параметр | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/arguments/parameter"
+        },
+        {
+          "type": "Вектор | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/arguments/vector"
+        },
+        {
+          "type": "Редактор кода | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor"
+        },
+        {
+          "type": "Звук | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/arguments/sound"
+        },
+        {
+          "type": "Местоположение | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/arguments/location"
+        },
+        {
+          "type": "Функция | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/function"
+        },
+        {
+          "type": "Число | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/arguments/number"
+        },
+        {
+          "type": "Словарь | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/arguments/dictionary"
+        },
+        {
+          "type": "Переменная | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/arguments/variable"
+        },
+        {
+          "type": "Список | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/arguments/list"
+        },
+        {
+          "type": "Контроль действий | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/control"
+        },
+        {
+          "type": "Аргументы | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/arguments"
+        },
+        {
+          "type": "Процесс | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/process"
+        },
+        {
+          "type": "Если в мире | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/if_game"
+        },
+        {
+          "type": "Выбрать цель | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/select"
+        },
+        {
+          "type": "Повторение | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/repeat"
+        },
+        {
+          "type": "Зелье | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/arguments/potion"
+        },
+        {
+          "type": "Если сущность | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/if_entity"
+        },
+        {
+          "type": "Событие игрока | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/player_event"
+        },
+        {
+          "type": "Инструкция по редактированию | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/editing"
+        },
+        {
+          "type": "Если переменная | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/if_variable"
+        },
+        {
+          "type": "Если игрок | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative/editor/blocks/if_player"
+        },
+        {
+          "type": "Регистрация | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/profile"
+        },
+        {
+          "type": "О режиме | JustMC Wiki",
+          "url": "https://justwiki.gitbook.io/wiki/creative"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "26d42ca43a6898543a0b32ca810a92ff89366e02c9b88da77e6a5e2deabf3008"
 }

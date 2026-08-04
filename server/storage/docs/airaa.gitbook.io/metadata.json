@@ -88,5 +88,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://airaa.gitbook.io/docs",
+      "canonicalSeedUrl": "https://airaa.gitbook.io/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-03T17:11:04.289Z",
+      "completedAt": "2025-09-03T17:11:04.289Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://airaa.gitbook.io/docs",
+          "canonicalUrl": "https://airaa.gitbook.io/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "f0a32b3434a0cd55b3b62418f24249d3eed9014e6f6f5e554f61e75adb31e125",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f6cc7eebbb2f598555a43600f9a1542d920de235b1be22a57d028d6b9de55416",
+      "filename": "documentation_2025-09-03T17:11:04.289Z.md",
+      "contentHash": "c5fa79cd11d12f5a5549f17f5c31746e20d3e04991b6f7ea36daa68dc1d540fd",
+      "sourceUrl": "https://airaa.gitbook.io/docs",
+      "canonicalSourceUrl": "https://airaa.gitbook.io/docs",
+      "capturedAt": "2025-09-03T17:11:04.289Z",
+      "crawlRunId": "f0a32b3434a0cd55b3b62418f24249d3eed9014e6f6f5e554f61e75adb31e125",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Welcome to Airaa 👨‍🌾 | AIRAA",
+          "url": "https://airaa.gitbook.io/docs"
+        },
+        {
+          "type": "Market Analytics | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/products/images-and-media"
+        },
+        {
+          "type": "Market Intelligence | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/products/markdown"
+        },
+        {
+          "type": "What is Airaa? | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/getting-started/quickstart"
+        },
+        {
+          "type": "Projects | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/products/integrations/projects"
+        },
+        {
+          "type": "Aura Boards | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/products/editor"
+        },
+        {
+          "type": "Why Airaa exists? | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/getting-started/publish-your-docs"
+        },
+        {
+          "type": "Airaa Pro | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/products/interactive-blocks"
+        },
+        {
+          "type": "API | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/products/integrations"
+        },
+        {
+          "type": "Contributors | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/products/integrations/contributors"
+        },
+        {
+          "type": "Discovery | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/products/integrations/discovery"
+        },
+        {
+          "type": "Narratives | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/products/integrations/narratives"
+        },
+        {
+          "type": "Status | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/products/integrations/status"
+        },
+        {
+          "type": "Leaderboards | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/products/integrations/leaderboards"
+        },
+        {
+          "type": "Feed & Events | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/products/integrations/feed-and-events"
+        },
+        {
+          "type": "Aura Boards | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/products"
+        },
+        {
+          "type": "What is Airaa? | AIRAA",
+          "url": "https://airaa.gitbook.io/docs/getting-started"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f6cc7eebbb2f598555a43600f9a1542d920de235b1be22a57d028d6b9de55416"
 }

@@ -60,5 +60,103 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.pyth.network/home",
+      "canonicalSeedUrl": "https://docs.pyth.network/home",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-30T12:39:51.468Z",
+      "completedAt": "2025-08-30T12:39:51.468Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.pyth.network/home",
+          "canonicalUrl": "https://docs.pyth.network/home",
+          "status": "valid"
+        }
+      ],
+      "id": "3c7e76f5b4ab9e8258f018f20e619b111231df66b798bdbd0c5215b72df30e66",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "689b26b1ca161dc79b8ce5a43bde78a4d5c86e1dc9bae4d4c221f26ced425682",
+      "filename": "documentation_2025-08-30T12:39:51.468Z.md",
+      "contentHash": "47984f47c20b6b98a6e45284c8356c7d221c7b023688792f8ba5e0b4cc79e0c0",
+      "sourceUrl": "https://docs.pyth.network/home",
+      "canonicalSourceUrl": "https://docs.pyth.network/home",
+      "capturedAt": "2025-08-30T12:39:51.468Z",
+      "crawlRunId": "3c7e76f5b4ab9e8258f018f20e619b111231df66b798bdbd0c5215b72df30e66",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "Welcome to Pyth Network – Pyth Network Documentation",
+          "url": "https://docs.pyth.network/home"
+        },
+        {
+          "type": "Welcome to Pyth Network – Pyth Network Documentation",
+          "url": "https://docs.pyth.network/"
+        },
+        {
+          "type": "Introduction to Pyth Price Feeds – Pyth Network Documentation",
+          "url": "https://docs.pyth.network/price-feeds"
+        },
+        {
+          "type": "Pyth Lazer – Pyth Network Documentation",
+          "url": "https://docs.pyth.network/lazer"
+        },
+        {
+          "type": "Introduction – Pyth Network Documentation",
+          "url": "https://docs.pyth.network/express-relay"
+        },
+        {
+          "type": "Entropy – Pyth Network Documentation",
+          "url": "https://docs.pyth.network/entropy"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.pyth.network/home/pyth-token"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.pyth.network/home/pyth-token/pyth-distribution"
+        },
+        {
+          "type": "Pyth on EVM – Pyth Network Documentation",
+          "url": "https://docs.pyth.network/home/pyth-token/pyth-token-addresses"
+        },
+        {
+          "type": "Oracle Integrity Staking (OIS) – Pyth Network Documentation",
+          "url": "https://docs.pyth.network/home/oracle-integrity-staking"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "689b26b1ca161dc79b8ce5a43bde78a4d5c86e1dc9bae4d4c221f26ced425682"
 }

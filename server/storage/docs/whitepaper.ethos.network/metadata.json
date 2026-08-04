@@ -104,5 +104,147 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://whitepaper.ethos.network/",
+      "canonicalSeedUrl": "https://whitepaper.ethos.network/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-25T20:33:07.095Z",
+      "completedAt": "2025-07-25T20:33:07.095Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://whitepaper.ethos.network/",
+          "canonicalUrl": "https://whitepaper.ethos.network/",
+          "status": "valid"
+        }
+      ],
+      "id": "6deb4e5650dc1393dfda73f2f190b12deb77cb158b1e6e61a4c9de5397eea2a4",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3743d36db74c0cdee7dcfdbc275ebcb6da30e596eb184c7f42497378e0c78be5",
+      "filename": "documentation_2025-07-25T20:33:07.095Z.md",
+      "contentHash": "f52da868a10458179413537add9ba0f6264d85e3364a7270aa7a4047336546bc",
+      "sourceUrl": "https://whitepaper.ethos.network/",
+      "canonicalSourceUrl": "https://whitepaper.ethos.network/",
+      "capturedAt": "2025-07-25T20:33:07.095Z",
+      "crawlRunId": "6deb4e5650dc1393dfda73f2f190b12deb77cb158b1e6e61a4c9de5397eea2a4",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "Ethos Overview | Ethos",
+          "url": "https://whitepaper.ethos.network/"
+        },
+        {
+          "type": "Ethos Labs | Ethos",
+          "url": "https://whitepaper.ethos.network/about-ethos/ethos-labs"
+        },
+        {
+          "type": "Why Ethos | Ethos",
+          "url": "https://whitepaper.ethos.network/about-ethos/why-ethos"
+        },
+        {
+          "type": "Slash | Ethos",
+          "url": "https://whitepaper.ethos.network/ethos-mechanisms/slash"
+        },
+        {
+          "type": "Review | Ethos",
+          "url": "https://whitepaper.ethos.network/ethos-mechanisms/review"
+        },
+        {
+          "type": "Attest | Ethos",
+          "url": "https://whitepaper.ethos.network/ethos-mechanisms/attest"
+        },
+        {
+          "type": "Invite | Ethos",
+          "url": "https://whitepaper.ethos.network/ethos-mechanisms/invite"
+        },
+        {
+          "type": "Vouch | Ethos",
+          "url": "https://whitepaper.ethos.network/ethos-mechanisms/vouch"
+        },
+        {
+          "type": "Credibility Score | Ethos",
+          "url": "https://whitepaper.ethos.network/ethos-mechanisms/credibility-score"
+        },
+        {
+          "type": "Profile | Ethos",
+          "url": "https://whitepaper.ethos.network/ethos-mechanisms/profile"
+        },
+        {
+          "type": "Principles | Ethos",
+          "url": "https://whitepaper.ethos.network/governance/principles"
+        },
+        {
+          "type": "Smart Contract Audits | Ethos",
+          "url": "https://whitepaper.ethos.network/security/smart-contract-audits"
+        },
+        {
+          "type": "Litepaper | Ethos",
+          "url": "https://whitepaper.ethos.network/ethos.markets/litepaper"
+        },
+        {
+          "type": "Bug Bounty | Ethos",
+          "url": "https://whitepaper.ethos.network/security/bug-bounty"
+        },
+        {
+          "type": "Credibility Consensus | Ethos",
+          "url": "https://whitepaper.ethos.network/governance/credibility-consensus"
+        },
+        {
+          "type": "Contracts and Ownership | Ethos",
+          "url": "https://whitepaper.ethos.network/security/contracts-and-ownership"
+        },
+        {
+          "type": "Ethos Overview | Ethos",
+          "url": "https://whitepaper.ethos.network/about-ethos"
+        },
+        {
+          "type": "Review | Ethos",
+          "url": "https://whitepaper.ethos.network/ethos-mechanisms"
+        },
+        {
+          "type": "Litepaper | Ethos",
+          "url": "https://whitepaper.ethos.network/ethos.markets"
+        },
+        {
+          "type": "Contracts and Ownership | Ethos",
+          "url": "https://whitepaper.ethos.network/security"
+        },
+        {
+          "type": "Principles | Ethos",
+          "url": "https://whitepaper.ethos.network/governance"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3743d36db74c0cdee7dcfdbc275ebcb6da30e596eb184c7f42497378e0c78be5"
 }

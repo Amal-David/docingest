@@ -97,5 +97,131 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://apidocs.lighter.xyz/docs",
+      "canonicalSeedUrl": "https://apidocs.lighter.xyz/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-02T20:10:41.545Z",
+      "completedAt": "2026-04-02T20:10:41.545Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://apidocs.lighter.xyz/docs",
+          "canonicalUrl": "https://apidocs.lighter.xyz/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "88cdb6371020415f9892c8da5fe7416a3eef0bc488dc9de841f84f50f5ccc794",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2232f09bd7a05d93a102c8e4f91704667585e9324ddc961d7353690669fa8560",
+      "filename": "documentation_2026-04-02T20:10:41.545Z.md",
+      "contentHash": "0e8c947530a979be7457cb978ce5fde43b6bf546753eed7977d9c21b7739d979",
+      "sourceUrl": "https://apidocs.lighter.xyz/docs",
+      "canonicalSourceUrl": "https://apidocs.lighter.xyz/docs",
+      "capturedAt": "2026-04-02T20:10:41.545Z",
+      "crawlRunId": "88cdb6371020415f9892c8da5fe7416a3eef0bc488dc9de841f84f50f5ccc794",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Get Started",
+          "url": "https://apidocs.lighter.xyz/docs"
+        },
+        {
+          "type": "API keys",
+          "url": "https://apidocs.lighter.xyz/docs/api-keys"
+        },
+        {
+          "type": "Rate Limits",
+          "url": "https://apidocs.lighter.xyz/docs/rate-limits"
+        },
+        {
+          "type": "Account Types",
+          "url": "https://apidocs.lighter.xyz/docs/account-types"
+        },
+        {
+          "type": "SDK",
+          "url": "https://apidocs.lighter.xyz/docs/repos"
+        },
+        {
+          "type": "Signing Transactions",
+          "url": "https://apidocs.lighter.xyz/docs/trading"
+        },
+        {
+          "type": "WebSocket",
+          "url": "https://apidocs.lighter.xyz/docs/websocket-reference"
+        },
+        {
+          "type": "Volume Quota",
+          "url": "https://apidocs.lighter.xyz/docs/volume-quota-program"
+        },
+        {
+          "type": "Historical Data",
+          "url": "https://apidocs.lighter.xyz/docs/historical-data"
+        },
+        {
+          "type": "Partner Integration",
+          "url": "https://apidocs.lighter.xyz/docs/partner-integration"
+        },
+        {
+          "type": "Manage Referrals",
+          "url": "https://apidocs.lighter.xyz/docs/referrals"
+        },
+        {
+          "type": "Priority Transactions",
+          "url": "https://apidocs.lighter.xyz/docs/priority-transactions"
+        },
+        {
+          "type": "Manage Public Pools",
+          "url": "https://apidocs.lighter.xyz/docs/manage-public-pools-shares"
+        },
+        {
+          "type": "Multi-signature and smart wallets",
+          "url": "https://apidocs.lighter.xyz/docs/multi-signature-wallets"
+        },
+        {
+          "type": "Data Structures, Constants and Errors",
+          "url": "https://apidocs.lighter.xyz/docs/data-structures-constants-and-errors"
+        },
+        {
+          "type": "Create accounts programmatically",
+          "url": "https://apidocs.lighter.xyz/docs/create-accounts-programmatically"
+        },
+        {
+          "type": "Deposits, Transfers and Withdrawals",
+          "url": "https://apidocs.lighter.xyz/docs/deposits-transfers-and-withdrawals"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2232f09bd7a05d93a102c8e4f91704667585e9324ddc961d7353690669fa8560"
 }

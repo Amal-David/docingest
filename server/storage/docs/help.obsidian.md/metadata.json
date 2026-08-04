@@ -32,5 +32,75 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://help.obsidian.md",
+      "canonicalSeedUrl": "https://help.obsidian.md/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-30T15:30:23.317Z",
+      "completedAt": "2025-12-30T15:30:23.317Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://help.obsidian.md",
+          "canonicalUrl": "https://help.obsidian.md/",
+          "status": "valid"
+        }
+      ],
+      "id": "33a22cc3557e8ad057e8932f07cd7e400a97504222c6383cbb36027c33d28521",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "034ac1dfed3ab641923474b7d7a0487b2274eb48a684dbf34e71e0294274921d",
+      "filename": "documentation_2025-12-30T15:30:23.317Z.md",
+      "contentHash": "70fbfb0daa6fcc68f53512e9b01bfffdc5f01eeac1869f4966b45234abdbd64b",
+      "sourceUrl": "https://help.obsidian.md",
+      "canonicalSourceUrl": "https://help.obsidian.md/",
+      "capturedAt": "2025-12-30T15:30:23.317Z",
+      "crawlRunId": "33a22cc3557e8ad057e8932f07cd7e400a97504222c6383cbb36027c33d28521",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "structure": [
+        {
+          "type": "Home - Obsidian Help",
+          "url": "https://help.obsidian.md"
+        },
+        {
+          "type": "Workspaces - Obsidian Help",
+          "url": "https://help.obsidian.md/plugins/workspaces"
+        },
+        {
+          "type": "Word count - Obsidian Help",
+          "url": "https://help.obsidian.md/plugins/word-count"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "034ac1dfed3ab641923474b7d7a0487b2274eb48a684dbf34e71e0294274921d"
 }

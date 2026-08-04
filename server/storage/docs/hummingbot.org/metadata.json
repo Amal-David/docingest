@@ -42,5 +42,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://hummingbot.org/docs/",
+      "canonicalSeedUrl": "https://hummingbot.org/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-07T05:23:16.860Z",
+      "completedAt": "2026-04-07T05:23:16.860Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://hummingbot.org/docs/",
+          "canonicalUrl": "https://hummingbot.org/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "96ddeecabe3967306db374a910532c8e351cfe54e0d4e97331c1b7533c4aa304",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a9beb41eef4c035d6d78f00501120fbbb48b8fd6170f14d39bb3cc04edad8cab",
+      "filename": "documentation_2026-04-07T05:23:16.860Z.md",
+      "contentHash": "d216e839023b511fab4b4c5a00a781269a21fb93251497f3bce5334011c27cdf",
+      "sourceUrl": "https://hummingbot.org/docs/",
+      "canonicalSourceUrl": "https://hummingbot.org/docs",
+      "capturedAt": "2026-04-07T05:23:16.860Z",
+      "crawlRunId": "96ddeecabe3967306db374a910532c8e351cfe54e0d4e97331c1b7533c4aa304",
+      "upstreamVersion": "1.0.2",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Documentation - Hummingbot",
+          "url": "https://hummingbot.org/docs/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a9beb41eef4c035d6d78f00501120fbbb48b8fd6170f14d39bb3cc04edad8cab"
 }

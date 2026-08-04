@@ -136,5 +136,179 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.solanatracker.io/swap-api/swap",
+      "canonicalSeedUrl": "https://docs.solanatracker.io/swap-api/swap",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-21T03:02:59.436Z",
+      "completedAt": "2025-03-21T03:02:59.436Z",
+      "providerTotals": {
+        "discovered": 29,
+        "returned": 29,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.solanatracker.io/swap-api/swap",
+          "canonicalUrl": "https://docs.solanatracker.io/swap-api/swap",
+          "status": "valid"
+        }
+      ],
+      "id": "e4f882bbeec3b315dace8176c2813eaaea63bb62a806673fc7d8acc581d9f536",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e7cb43ad1dff86af9767da23d16110dca81c4bbbadf9d9368368ed155f401a9a",
+      "filename": "documentation_2025-03-21T03:02:59.436Z.md",
+      "contentHash": "a5e0a09ad91f5dadde066e0f5ee73b7f6dfbdfc93bf006fbfd8f642b9fb590f3",
+      "sourceUrl": "https://docs.solanatracker.io/swap-api/swap",
+      "canonicalSourceUrl": "https://docs.solanatracker.io/swap-api/swap",
+      "capturedAt": "2025-03-21T03:02:59.436Z",
+      "crawlRunId": "e4f882bbeec3b315dace8176c2813eaaea63bb62a806673fc7d8acc581d9f536",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 29,
+      "successfulPages": 29,
+      "structure": [
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/swap-api/swap"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/Discord-Trading-Bot"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/Discord-Trading-Bot/commands"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/Discord-Trading-Bot/commands/info"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/Discord-Trading-Bot/commands/profit-and-loss"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/Discord-Trading-Bot/commands/retrieve-token"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/Discord-Trading-Bot/about"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/Discord-Trading-Bot/commands/buy"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/Discord-Trading-Bot/commands/sell"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/Discord-Trading-Bot/commands/set-amount"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/Discord-Trading-Bot/commands/set-buy-priority-fee"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/Discord-Trading-Bot/commands/set-buy-slippage"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/Discord-Trading-Bot/commands/set-percentage"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/Discord-Trading-Bot/commands/set-sell-slippage"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/Discord-Trading-Bot/commands/set-sell-priority-fee"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/priority-fee-api"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/public-data-api/risk"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/solana-rpc/credits"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/public-data-api/docs"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/solana-rpc"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/public-data-api"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/public-data-api/websocket"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/public-data-api/websocket-python"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/swap-api"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/swap-api/about"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/swap-api/errors"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/swap-api/libraries"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://docs.solanatracker.io/swap-api/get-rate"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e7cb43ad1dff86af9767da23d16110dca81c4bbbadf9d9368368ed155f401a9a"
 }

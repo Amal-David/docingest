@@ -41,5 +41,75 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://help.tipalti.com/hc/en-us/articles/30402122912663-Unexpected-Error-for-Tipalti-NetSuite-Syncs",
+      "canonicalSeedUrl": "https://help.tipalti.com/hc/en-us/articles/30402122912663-Unexpected-Error-for-Tipalti-NetSuite-Syncs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-27T22:52:00.105Z",
+      "completedAt": "2026-03-27T22:52:00.105Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://help.tipalti.com/hc/en-us/articles/30402122912663-Unexpected-Error-for-Tipalti-NetSuite-Syncs",
+          "canonicalUrl": "https://help.tipalti.com/hc/en-us/articles/30402122912663-Unexpected-Error-for-Tipalti-NetSuite-Syncs",
+          "status": "valid"
+        }
+      ],
+      "id": "cdd0cd4817bd265833dff25edfca50e8559da133ba6ca08aabe7957d8787574b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "6762cd46e90d6727a96d456be78f2d930e3265a7a40b228da11ed6316341fdc3",
+      "filename": "documentation_2026-03-27T22:52:00.105Z.md",
+      "contentHash": "deefe5b08438fef8ebafde68f241a13dcab7604a746301421d351725faa6d993",
+      "sourceUrl": "https://help.tipalti.com/hc/en-us/articles/30402122912663-Unexpected-Error-for-Tipalti-NetSuite-Syncs",
+      "canonicalSourceUrl": "https://help.tipalti.com/hc/en-us/articles/30402122912663-Unexpected-Error-for-Tipalti-NetSuite-Syncs",
+      "capturedAt": "2026-03-27T22:52:00.105Z",
+      "crawlRunId": "cdd0cd4817bd265833dff25edfca50e8559da133ba6ca08aabe7957d8787574b",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "structure": [
+        {
+          "type": "Unexpected Error for Tipalti/NetSuite Syncs – Tipalti",
+          "url": "https://help.tipalti.com/hc/en-us/articles/30402122912663-Unexpected-Error-for-Tipalti-NetSuite-Syncs"
+        },
+        {
+          "type": "Swaarm – Tipalti",
+          "url": "https://help.tipalti.com/hc/en-us/articles/30607274828311-Swaarm"
+        },
+        {
+          "type": "Payment terms – Tipalti",
+          "url": "https://help.tipalti.com/hc/en-us/articles/30607279069591-Payment-terms"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "6762cd46e90d6727a96d456be78f2d930e3265a7a40b228da11ed6316341fdc3"
 }

@@ -120,5 +120,163 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.ven.pub/",
+      "canonicalSeedUrl": "https://docs.ven.pub/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-05T12:29:04.845Z",
+      "completedAt": "2026-07-05T12:29:04.845Z",
+      "providerTotals": {
+        "discovered": 25,
+        "returned": 25,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.ven.pub/",
+          "canonicalUrl": "https://docs.ven.pub/",
+          "status": "valid"
+        }
+      ],
+      "id": "a943be85c2e012230832e84682169d535a873c965aba3f3d67dd7403d096b966",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3475bcf1fcbd8bd75938b1d3a6afb81bf8fa837858ede8b0c497d35dae93b8f2",
+      "filename": "documentation_2026-07-05T12:29:04.845Z.md",
+      "contentHash": "59fdad4b0336f535ae7601cd302a3c6f79f97f2d81d0ef0f86c8c4a93d1e152d",
+      "sourceUrl": "https://docs.ven.pub/",
+      "canonicalSourceUrl": "https://docs.ven.pub/",
+      "capturedAt": "2026-07-05T12:29:04.845Z",
+      "crawlRunId": "a943be85c2e012230832e84682169d535a873c965aba3f3d67dd7403d096b966",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 25,
+      "successfulPages": 25,
+      "structure": [
+        {
+          "type": "Welcome | VEN Documentation",
+          "url": "https://docs.ven.pub/"
+        },
+        {
+          "type": "Getting Started | VEN Documentation",
+          "url": "https://docs.ven.pub/getting-started.html"
+        },
+        {
+          "type": "Logging | VEN Documentation",
+          "url": "https://docs.ven.pub/logging.html"
+        },
+        {
+          "type": "Hud Manager | VEN Documentation",
+          "url": "https://docs.ven.pub/hud-manager.html"
+        },
+        {
+          "type": "Object Manager | VEN Documentation",
+          "url": "https://docs.ven.pub/object-manager.html"
+        },
+        {
+          "type": "Events | VEN Documentation",
+          "url": "https://docs.ven.pub/events.html"
+        },
+        {
+          "type": "Menu | VEN Documentation",
+          "url": "https://docs.ven.pub/menu.html"
+        },
+        {
+          "type": "Clock Facade | VEN Documentation",
+          "url": "https://docs.ven.pub/clock-facade.html"
+        },
+        {
+          "type": "Net Client | VEN Documentation",
+          "url": "https://docs.ven.pub/net-client.html"
+        },
+        {
+          "type": "Renderer | VEN Documentation",
+          "url": "https://docs.ven.pub/renderer.html"
+        },
+        {
+          "type": "Game Info | VEN Documentation",
+          "url": "https://docs.ven.pub/game-info.html"
+        },
+        {
+          "type": "Nav Mesh | VEN Documentation",
+          "url": "https://docs.ven.pub/nav-mesh.html"
+        },
+        {
+          "type": "Game GUI | VEN Documentation",
+          "url": "https://docs.ven.pub/game-gui.html"
+        },
+        {
+          "type": "Setup | VEN Documentation",
+          "url": "https://docs.ven.pub/setup.html"
+        },
+        {
+          "type": "Target Selector | VEN Documentation",
+          "url": "https://docs.ven.pub/target-selector.html"
+        },
+        {
+          "type": "Orbwalker | VEN Documentation",
+          "url": "https://docs.ven.pub/orbwalker.html"
+        },
+        {
+          "type": "Health Prediction | VEN Documentation",
+          "url": "https://docs.ven.pub/health-prediction.html"
+        },
+        {
+          "type": "Spell Manager | VEN Documentation",
+          "url": "https://docs.ven.pub/spell-manager.html"
+        },
+        {
+          "type": "Evade | VEN Documentation",
+          "url": "https://docs.ven.pub/evade.html"
+        },
+        {
+          "type": "Damage | VEN Documentation",
+          "url": "https://docs.ven.pub/damage.html"
+        },
+        {
+          "type": "Infotab | VEN Documentation",
+          "url": "https://docs.ven.pub/infotab.html"
+        },
+        {
+          "type": "Prediction | VEN Documentation",
+          "url": "https://docs.ven.pub/prediction.html"
+        },
+        {
+          "type": "Notification | VEN Documentation",
+          "url": "https://docs.ven.pub/notification.html"
+        },
+        {
+          "type": "Shaders | VEN Documentation",
+          "url": "https://docs.ven.pub/shaders.html"
+        },
+        {
+          "type": "Benchmark | VEN Documentation",
+          "url": "https://docs.ven.pub/benchmark.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3475bcf1fcbd8bd75938b1d3a6afb81bf8fa837858ede8b0c497d35dae93b8f2"
 }

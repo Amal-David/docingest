@@ -76,5 +76,119 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://webrtc.org/getting-started/overview",
+      "canonicalSeedUrl": "https://webrtc.org/getting-started/overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-24T16:06:59.755Z",
+      "completedAt": "2025-03-24T16:06:59.755Z",
+      "providerTotals": {
+        "discovered": 14,
+        "returned": 14,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://webrtc.org/getting-started/overview",
+          "canonicalUrl": "https://webrtc.org/getting-started/overview",
+          "status": "valid"
+        }
+      ],
+      "id": "55f07270761771eff99fd96dbbf36277287e2ffa8a20152af2c6571411228e4e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a28c6f431a3a8a53e0292e748c80a4f21d6dae9dd294d572250d9d28d03fa721",
+      "filename": "documentation_2025-03-24T16:06:59.755Z.md",
+      "contentHash": "b7a6a2dcc24e21282988ff368d264c0707abe656127f32a5b6066793dee050e1",
+      "sourceUrl": "https://webrtc.org/getting-started/overview",
+      "canonicalSourceUrl": "https://webrtc.org/getting-started/overview",
+      "capturedAt": "2025-03-24T16:06:59.755Z",
+      "crawlRunId": "55f07270761771eff99fd96dbbf36277287e2ffa8a20152af2c6571411228e4e",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 14,
+      "successfulPages": 14,
+      "structure": [
+        {
+          "type": "WebRTC 시작하기",
+          "url": "https://webrtc.org/getting-started/overview"
+        },
+        {
+          "type": "Testing WebRTC applications",
+          "url": "https://webrtc.org/getting-started/testing"
+        },
+        {
+          "type": "Unified Plan SDP format - transition plan  |  WebRTC",
+          "url": "https://webrtc.org/getting-started/unified-plan-transition-guide"
+        },
+        {
+          "type": "Firebase + WebRTC の Codelab",
+          "url": "https://webrtc.org/getting-started/firebase-rtc-codelab"
+        },
+        {
+          "type": "미디어 기기 시작하기  |  WebRTC",
+          "url": "https://webrtc.org/getting-started/media-devices"
+        },
+        {
+          "type": "원격 스트림 시작하기  |  WebRTC",
+          "url": "https://webrtc.org/getting-started/remote-streams"
+        },
+        {
+          "type": "데이터 채널  |  WebRTC",
+          "url": "https://webrtc.org/getting-started/data-channels"
+        },
+        {
+          "type": "Nyalakan server  |  WebRTC",
+          "url": "https://webrtc.org/getting-started/turn-server"
+        },
+        {
+          "type": "אילוץ מדיה ואילוצים  |  WebRTC",
+          "url": "https://webrtc.org/getting-started/media-capture-and-constraints"
+        },
+        {
+          "type": "Comienza a usar las conexiones entre pares  |  WebRTC",
+          "url": "https://webrtc.org/getting-started/peer-connections"
+        },
+        {
+          "type": "Memulai WebRTC",
+          "url": "https://webrtc.org/getting-started/overview?hl=id"
+        },
+        {
+          "type": "תחילת העבודה עם WebRTC",
+          "url": "https://webrtc.org/getting-started/overview?hl=he"
+        },
+        {
+          "type": "WebRTC スタートガイド",
+          "url": "https://webrtc.org/getting-started/overview?hl=ja"
+        },
+        {
+          "type": "Comienza a usar WebRTC",
+          "url": "https://webrtc.org/getting-started/overview?hl=es-419"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a28c6f431a3a8a53e0292e748c80a4f21d6dae9dd294d572250d9d28d03fa721"
 }

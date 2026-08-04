@@ -157,5 +157,191 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.gomaestro.org/bitcoin",
+      "canonicalSeedUrl": "https://docs.gomaestro.org/bitcoin",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-23T23:35:39.326Z",
+      "completedAt": "2025-10-23T23:35:39.326Z",
+      "providerTotals": {
+        "discovered": 32,
+        "returned": 32,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.gomaestro.org/bitcoin",
+          "canonicalUrl": "https://docs.gomaestro.org/bitcoin",
+          "status": "valid"
+        }
+      ],
+      "id": "3f57dfe657ef152e2520365cab0bbfe52284b677bab9a4899e696b0ef72983b8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b3e5ad5df4a52c65b688c9261bc07f74761debf59fea1319e0d8cdcd0dfa255c",
+      "filename": "documentation_2025-10-23T23:35:39.326Z.md",
+      "contentHash": "e73bee348818a3eece2304f0ef623a0c309ea924c57ea3fd4d65fb6ae34c0db9",
+      "sourceUrl": "https://docs.gomaestro.org/bitcoin",
+      "canonicalSourceUrl": "https://docs.gomaestro.org/bitcoin",
+      "capturedAt": "2025-10-23T23:35:39.326Z",
+      "crawlRunId": "3f57dfe657ef152e2520365cab0bbfe52284b677bab9a4899e696b0ef72983b8",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 32,
+      "successfulPages": 32,
+      "structure": [
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/bitcoin"
+        },
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/account/contact-us"
+        },
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/arch-network/changelog"
+        },
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/arch-network"
+        },
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/account/manage-billing"
+        },
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/account/teams"
+        },
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/account/upgrade"
+        },
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/account/subscription"
+        },
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/arch-network/node-rpc-api/accounts/account-address-hex-by-pubkey"
+        },
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/arch-network/api-usage"
+        },
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/arch-network/node-rpc-api/accounts/account-info-by-address-hex"
+        },
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/arch-network/node-rpc-api/accounts/account-info-by-pubkey"
+        },
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/arch-network/node-rpc-api/overview"
+        },
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/account/view"
+        },
+        {
+          "type": "Maestro Official Developer Documentation",
+          "url": "https://docs.gomaestro.org/arch-network/node-rpc-api/accounts/account-info-hex-by-address-hex"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/account-address"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/api-reference.mdx"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/k9a4-account-info"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/account-info"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/block-count"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/latest-block-hash"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/latest-block-info"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/block-range-info"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/recent-block-info"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/block-info"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/send-transaction"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/program-accounts"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/send-multiple-transactions"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/processed-transaction-info-hex"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/recent-transactions"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/processed-transaction-info"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.gomaestro.org/arch-network/recent-transactions-hex"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b3e5ad5df4a52c65b688c9261bc07f74761debf59fea1319e0d8cdcd0dfa255c"
 }

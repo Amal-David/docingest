@@ -132,5 +132,175 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.solanamevbot.com/home/",
+      "canonicalSeedUrl": "https://docs.solanamevbot.com/home",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-12T21:43:20.715Z",
+      "completedAt": "2025-12-12T21:43:20.715Z",
+      "providerTotals": {
+        "discovered": 28,
+        "returned": 28,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.solanamevbot.com/home/",
+          "canonicalUrl": "https://docs.solanamevbot.com/home",
+          "status": "valid"
+        }
+      ],
+      "id": "d73b26134b3b03d663bc9fd3e87c7e629554facba17dbfafd813d5ecc9891fbb",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "27cb775e7958ba30ffaca6d7f5e5526a3dca6edb9f00beeb0fbb88e2866d065f",
+      "filename": "documentation_2025-12-12T21:43:20.715Z.md",
+      "contentHash": "92f9b135274d0f8bc508c4d77bf5949b5e83fb75750ae1d18ef47e266d946b5c",
+      "sourceUrl": "https://docs.solanamevbot.com/home/",
+      "canonicalSourceUrl": "https://docs.solanamevbot.com/home",
+      "capturedAt": "2025-12-12T21:43:20.715Z",
+      "crawlRunId": "d73b26134b3b03d663bc9fd3e87c7e629554facba17dbfafd813d5ecc9891fbb",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 28,
+      "successfulPages": 28,
+      "structure": [
+        {
+          "type": "SolanaMevBot - Solana Arbitrage Bot | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/"
+        },
+        {
+          "type": "Blog | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/solanamevbot-solana-arbitrage-bot/blog"
+        },
+        {
+          "type": "How to Frontrun on Solana: A Step-by-Step Guide | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/solanamevbot-solana-arbitrage-bot/blog/how-to-frontrun-on-solana-a-step-by-step-guide"
+        },
+        {
+          "type": "Fees | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/solanamevbot-solana-arbitrage-bot/fees"
+        },
+        {
+          "type": "The Current Landscape of MEV on Solana | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/solanamevbot-solana-arbitrage-bot/blog/the-current-landscape-of-mev-on-solana"
+        },
+        {
+          "type": "How this bot work | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/onchain-bot/how-this-bot-work"
+        },
+        {
+          "type": "Getting started | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/onchain-bot/getting-started"
+        },
+        {
+          "type": "Onchain program | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/onchain-bot/onchain-program"
+        },
+        {
+          "type": "Address lookup table | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/onchain-bot/address-lookup-table"
+        },
+        {
+          "type": "Performance tuning | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/onchain-bot/performance-tuning"
+        },
+        {
+          "type": "Trouble shooting | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/onchain-bot/trouble-shooting"
+        },
+        {
+          "type": "Circular config | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/onchain-bot/bot-configurations/circular-config"
+        },
+        {
+          "type": "Bot configurations | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/onchain-bot/bot-configurations"
+        },
+        {
+          "type": "Config examples | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/onchain-bot/bot-configurations/config-examples"
+        },
+        {
+          "type": "Jupiter Bot | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/deprecated/jupiter-bot"
+        },
+        {
+          "type": "How this bot work | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/deprecated/jupiter-bot/how-this-bot-work"
+        },
+        {
+          "type": "Beginner's guide to write your own Solana arbitrage bot | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/solanamevbot-solana-arbitrage-bot/blog/beginners-guide-to-write-your-own-solana-arbitrage-bot"
+        },
+        {
+          "type": "FAQ | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/deprecated/jupiter-bot/faq"
+        },
+        {
+          "type": "Bot Strategy | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/deprecated/jupiter-bot/bot-strategy"
+        },
+        {
+          "type": "Trouble shooting | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/deprecated/jupiter-bot/trouble-shooting"
+        },
+        {
+          "type": "Getting started | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/deprecated/jupiter-bot/getting-started"
+        },
+        {
+          "type": "Sending Vender examples | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/onchain-bot/bot-configurations/sending-vender-examples"
+        },
+        {
+          "type": "Common workflow | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/deprecated/jupiter-bot/common-workflow"
+        },
+        {
+          "type": "Performance tuning | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/deprecated/jupiter-bot/performance-tuning"
+        },
+        {
+          "type": "Config examples | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/deprecated/jupiter-bot/bot-configurations/config-examples"
+        },
+        {
+          "type": "Releases | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/onchain-bot/releases"
+        },
+        {
+          "type": "Releases | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/deprecated/jupiter-bot/releases"
+        },
+        {
+          "type": "Bot configurations | SolanaMevBot",
+          "url": "https://docs.solanamevbot.com/home/deprecated/jupiter-bot/bot-configurations"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "27cb775e7958ba30ffaca6d7f5e5526a3dca6edb9f00beeb0fbb88e2866d065f"
 }

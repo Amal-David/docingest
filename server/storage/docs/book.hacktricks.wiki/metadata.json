@@ -60,5 +60,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://book.hacktricks.wiki",
+      "canonicalSeedUrl": "https://book.hacktricks.wiki/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-05-15T23:22:14.312Z",
+      "completedAt": "2025-05-15T23:22:14.312Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://book.hacktricks.wiki",
+          "canonicalUrl": "https://book.hacktricks.wiki/",
+          "status": "valid"
+        }
+      ],
+      "id": "12874e7a7e714a33db8f022a2bbf710b2794716308b547a37048566c0612fc87",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "30ad2928c1a28d253857a14a9913acf692d94f8ce0121eadad6dc94354204881",
+      "filename": "documentation_2025-05-15T23:22:14.312Z.md",
+      "contentHash": "57d549c2322819b45e0252d62ffbab0d3c4196feb27541bf1d657479840dd8f6",
+      "sourceUrl": "https://book.hacktricks.wiki",
+      "canonicalSourceUrl": "https://book.hacktricks.wiki/",
+      "capturedAt": "2025-05-15T23:22:14.312Z",
+      "crawlRunId": "12874e7a7e714a33db8f022a2bbf710b2794716308b547a37048566c0612fc87",
+      "upstreamVersion": "1.4.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "HackTricks - HackTricks",
+          "url": "https://book.hacktricks.wiki"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "30ad2928c1a28d253857a14a9913acf692d94f8ce0121eadad6dc94354204881"
 }

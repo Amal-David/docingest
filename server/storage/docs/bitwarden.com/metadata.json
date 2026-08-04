@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://bitwarden.com/help/",
+      "canonicalSeedUrl": "https://bitwarden.com/help",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-25T21:29:39.441Z",
+      "completedAt": "2025-08-25T21:29:39.441Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://bitwarden.com/help/",
+          "canonicalUrl": "https://bitwarden.com/help",
+          "status": "valid"
+        }
+      ],
+      "id": "ef3cfe9914b8b5cd59d717f269d5afd96a68ec4a580295d0543db1d13643fc36",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f837dcd4cbbef2ef599ea119e90c39d5caa55eedbcefc803e39904f2b456d49f",
+      "filename": "documentation_2025-08-25T21:29:39.441Z.md",
+      "contentHash": "ba0dbead141821a80b4b73c9957c562adc7ada28541c596309cc8443b33a04cf",
+      "sourceUrl": "https://bitwarden.com/help/",
+      "canonicalSourceUrl": "https://bitwarden.com/help",
+      "capturedAt": "2025-08-25T21:29:39.441Z",
+      "crawlRunId": "ef3cfe9914b8b5cd59d717f269d5afd96a68ec4a580295d0543db1d13643fc36",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Help Center | Bitwarden",
+          "url": "https://bitwarden.com/help/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f837dcd4cbbef2ef599ea119e90c39d5caa55eedbcefc803e39904f2b456d49f"
 }

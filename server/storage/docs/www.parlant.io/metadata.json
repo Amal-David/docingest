@@ -48,5 +48,91 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.parlant.io/docs/quickstart/introduction",
+      "canonicalSeedUrl": "https://www.parlant.io/docs/quickstart/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-01T15:04:09.589Z",
+      "completedAt": "2025-02-01T15:04:09.589Z",
+      "providerTotals": {
+        "discovered": 7,
+        "returned": 7,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.parlant.io/docs/quickstart/introduction",
+          "canonicalUrl": "https://www.parlant.io/docs/quickstart/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "c1e683d0f91b5e3a4dd2ee1536425c1b67755577e0c430fbc6ac06b5542dede7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "048d52039c2b14fb33bd7ae98bba8f7dfabb33f11335cbbf54eb43dd9cfe8cee",
+      "filename": "documentation_2025-02-01T15:04:09.589Z.md",
+      "contentHash": "09b5eb085dbf2fa9a76d33423e025c03898add76dd1a6c13affb339a20ab658d",
+      "sourceUrl": "https://www.parlant.io/docs/quickstart/introduction",
+      "canonicalSourceUrl": "https://www.parlant.io/docs/quickstart/introduction",
+      "capturedAt": "2025-02-01T15:04:09.589Z",
+      "crawlRunId": "c1e683d0f91b5e3a4dd2ee1536425c1b67755577e0c430fbc6ac06b5542dede7",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 7,
+      "successfulPages": 7,
+      "structure": [
+        {
+          "type": "Introduction | Parlant",
+          "url": "https://www.parlant.io/docs/quickstart/introduction"
+        },
+        {
+          "type": "Guidelines | Parlant",
+          "url": "https://www.parlant.io/docs/concepts/customization/guidelines"
+        },
+        {
+          "type": "Ensuring Coherence | Parlant",
+          "url": "https://www.parlant.io/docs/concepts/customization/coherence"
+        },
+        {
+          "type": "Sessions | Parlant",
+          "url": "https://www.parlant.io/docs/concepts/customization/sessions"
+        },
+        {
+          "type": "Glossary | Parlant",
+          "url": "https://www.parlant.io/docs/concepts/customization/glossary"
+        },
+        {
+          "type": "Context Variables | Parlant",
+          "url": "https://www.parlant.io/docs/concepts/customization/context-variables"
+        },
+        {
+          "type": "Tools & APIs | Parlant",
+          "url": "https://www.parlant.io/docs/concepts/customization/tools"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "048d52039c2b14fb33bd7ae98bba8f7dfabb33f11335cbbf54eb43dd9cfe8cee"
 }

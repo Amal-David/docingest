@@ -152,5 +152,195 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://primer.ought.org/intro/factored-cognition",
+      "canonicalSeedUrl": "https://primer.ought.org/intro/factored-cognition",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-15T19:08:06.964Z",
+      "completedAt": "2025-03-15T19:08:06.964Z",
+      "providerTotals": {
+        "discovered": 33,
+        "returned": 33,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://primer.ought.org/intro/factored-cognition",
+          "canonicalUrl": "https://primer.ought.org/intro/factored-cognition",
+          "status": "valid"
+        }
+      ],
+      "id": "fa85e7b638e1e2e707f1ffbaa7a3d65dda187102cad452b315c33727e3bb1b8d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cdd05de54819e424d2deaa4b0aaf1709936fd0b892810415fdb24094e97e282d",
+      "filename": "documentation_2025-03-15T19:08:06.964Z.md",
+      "contentHash": "a0c037098cdb270f994b220bd1263b6b82372c07308a31925f4dbb99d446f0d4",
+      "sourceUrl": "https://primer.ought.org/intro/factored-cognition",
+      "canonicalSourceUrl": "https://primer.ought.org/intro/factored-cognition",
+      "capturedAt": "2025-03-15T19:08:06.964Z",
+      "crawlRunId": "fa85e7b638e1e2e707f1ffbaa7a3d65dda187102cad452b315c33727e3bb1b8d",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 33,
+      "successfulPages": 33,
+      "structure": [
+        {
+          "type": "Factored Cognition | Primer",
+          "url": "https://primer.ought.org/intro/factored-cognition"
+        },
+        {
+          "type": "Representing debates | Primer",
+          "url": "https://primer.ought.org/chapters/debate/representing-debates"
+        },
+        {
+          "type": "Question Answering | Primer",
+          "url": "https://primer.ought.org/chapters/question-answering"
+        },
+        {
+          "type": "Factored Cognition Primer | Primer",
+          "url": "https://primer.ought.org/"
+        },
+        {
+          "type": "From debates to prompts | Primer",
+          "url": "https://primer.ought.org/chapters/debate/from-debates-to-prompts"
+        },
+        {
+          "type": "Debate | Primer",
+          "url": "https://primer.ought.org/chapters/debate"
+        },
+        {
+          "type": "Before We Start | Primer",
+          "url": "https://primer.ought.org/intro/before-we-start"
+        },
+        {
+          "type": "Long Texts | Primer",
+          "url": "https://primer.ought.org/chapters/long-texts"
+        },
+        {
+          "type": "Amplification | Primer",
+          "url": "https://primer.ought.org/chapters/amplification"
+        },
+        {
+          "type": "Q&A about short texts | Primer",
+          "url": "https://primer.ought.org/chapters/question-answering/q-and-a-about-short-texts"
+        },
+        {
+          "type": "The debate recipe | Primer",
+          "url": "https://primer.ought.org/chapters/debate/the-debate-recipe"
+        },
+        {
+          "type": "Hello World | Primer",
+          "url": "https://primer.ought.org/chapters/hello-world"
+        },
+        {
+          "type": "Answering subquestions | Primer",
+          "url": "https://primer.ought.org/chapters/amplification/answering-subquestions"
+        },
+        {
+          "type": "Action Selection | Primer",
+          "url": "https://primer.ought.org/chapters/action-selection"
+        },
+        {
+          "type": "Tool Use | Primer",
+          "url": "https://primer.ought.org/chapters/tool-use"
+        },
+        {
+          "type": "Checking answers | Primer",
+          "url": "https://primer.ought.org/chapters/verifiers/checking-answers"
+        },
+        {
+          "type": "Iterative action selection | Primer",
+          "url": "https://primer.ought.org/chapters/action-selection/iterative-action-selection"
+        },
+        {
+          "type": "Loading paper text | Primer",
+          "url": "https://primer.ought.org/chapters/long-texts/loading-paper-text"
+        },
+        {
+          "type": "Verifiers | Primer",
+          "url": "https://primer.ought.org/chapters/verifiers"
+        },
+        {
+          "type": "Finding relevant paragraphs | Primer",
+          "url": "https://primer.ought.org/chapters/long-texts/finding-relevant-paragraphs"
+        },
+        {
+          "type": "One-step amplification | Primer",
+          "url": "https://primer.ought.org/chapters/amplification/one-step-amplification"
+        },
+        {
+          "type": "Amplification Revisited | Primer",
+          "url": "https://primer.ought.org/chapters/amplification-revisited"
+        },
+        {
+          "type": "Q&A without context | Primer",
+          "url": "https://primer.ought.org/chapters/question-answering/q-and-a-without-context"
+        },
+        {
+          "type": "Deduction | Primer",
+          "url": "https://primer.ought.org/chapters/deduction"
+        },
+        {
+          "type": "Asking subquestions | Primer",
+          "url": "https://primer.ought.org/chapters/amplification/asking-subquestions"
+        },
+        {
+          "type": "Answering given paragraphs | Primer",
+          "url": "https://primer.ought.org/chapters/long-texts/answering-given-paragraphs"
+        },
+        {
+          "type": "Recursive amplification | Primer",
+          "url": "https://primer.ought.org/chapters/amplification/recursive-amplification"
+        },
+        {
+          "type": "One-shot action selection | Primer",
+          "url": "https://primer.ought.org/chapters/action-selection/one-shot-action-selection"
+        },
+        {
+          "type": "Chain of Thought | Primer",
+          "url": "https://primer.ought.org/chapters/deduction/chain-of-thought"
+        },
+        {
+          "type": "Checking reasoning steps | Primer",
+          "url": "https://primer.ought.org/chapters/verifiers/checking-reasoning-steps"
+        },
+        {
+          "type": "Interpreters | Primer",
+          "url": "https://primer.ought.org/chapters/tool-use/interpreters"
+        },
+        {
+          "type": "Web search | Primer",
+          "url": "https://primer.ought.org/chapters/tool-use/web-search"
+        },
+        {
+          "type": "What’s next? | Primer",
+          "url": "https://primer.ought.org/appendix/whats-next"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cdd05de54819e424d2deaa4b0aaf1709936fd0b892810415fdb24094e97e282d"
 }

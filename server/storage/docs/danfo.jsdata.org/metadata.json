@@ -80,5 +80,123 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://danfo.jsdata.org/",
+      "canonicalSeedUrl": "https://danfo.jsdata.org/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-01T17:13:32.522Z",
+      "completedAt": "2025-04-01T17:13:32.522Z",
+      "providerTotals": {
+        "discovered": 15,
+        "returned": 15,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://danfo.jsdata.org/",
+          "canonicalUrl": "https://danfo.jsdata.org/",
+          "status": "valid"
+        }
+      ],
+      "id": "df5f63f222a0056cf486a732dcfeefe5d2b3817e4e8bdb8252caf3e87e902c81",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ecad9fa6deae833049dada1b5947e2cffc0b91bcd54c65a95cfb3cb0480d8d5a",
+      "filename": "documentation_2025-04-01T17:13:32.522Z.md",
+      "contentHash": "13e25841adf963b8b81f9b33c5017f22a8189b4fb02e7b7f1cc88ff7f33cbefa",
+      "sourceUrl": "https://danfo.jsdata.org/",
+      "canonicalSourceUrl": "https://danfo.jsdata.org/",
+      "capturedAt": "2025-04-01T17:13:32.522Z",
+      "crawlRunId": "df5f63f222a0056cf486a732dcfeefe5d2b3817e4e8bdb8252caf3e87e902c81",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 15,
+      "successfulPages": 15,
+      "structure": [
+        {
+          "type": "Danfo.js Documentation | Danfo.js",
+          "url": "https://danfo.jsdata.org/"
+        },
+        {
+          "type": "danfo. convertFunctionTotransformer | Danfo.js",
+          "url": "https://danfo.jsdata.org/api-reference/general-functions/danfo.-convertfunctiontotransformer"
+        },
+        {
+          "type": "General Functions | Danfo.js",
+          "url": "https://danfo.jsdata.org/api-reference/general-functions"
+        },
+        {
+          "type": "danfo.Dt | Danfo.js",
+          "url": "https://danfo.jsdata.org/api-reference/general-functions/danfo.dt"
+        },
+        {
+          "type": "danfo.dateRange | Danfo.js",
+          "url": "https://danfo.jsdata.org/api-reference/general-functions/danfo.date_range"
+        },
+        {
+          "type": "danfo.Utils | Danfo.js",
+          "url": "https://danfo.jsdata.org/api-reference/general-functions/danfo.utils"
+        },
+        {
+          "type": "Getting Started | Danfo.js",
+          "url": "https://danfo.jsdata.org/getting-started"
+        },
+        {
+          "type": "danfo.Str | Danfo.js",
+          "url": "https://danfo.jsdata.org/api-reference/general-functions/danfo.str"
+        },
+        {
+          "type": "danfo.streamJSON | Danfo.js",
+          "url": "https://danfo.jsdata.org/api-reference/general-functions/danfo.streamjson"
+        },
+        {
+          "type": "danfo.tensorflow | Danfo.js",
+          "url": "https://danfo.jsdata.org/api-reference/general-functions/danfo.tensorflow"
+        },
+        {
+          "type": "API reference | Danfo.js",
+          "url": "https://danfo.jsdata.org/api-reference"
+        },
+        {
+          "type": "danfo.streamCSV | Danfo.js",
+          "url": "https://danfo.jsdata.org/api-reference/general-functions/danfo.streamcsv"
+        },
+        {
+          "type": "danfo.streamCsvTransformer | Danfo.js",
+          "url": "https://danfo.jsdata.org/api-reference/general-functions/danfo.streamcsvtransformer"
+        },
+        {
+          "type": "danfo.toDateTime | Danfo.js",
+          "url": "https://danfo.jsdata.org/api-reference/general-functions/danfo.to_datetime"
+        },
+        {
+          "type": "danfo.MinMaxScaler | Danfo.js",
+          "url": "https://danfo.jsdata.org/api-reference/general-functions/danfo.minmaxscaler"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ecad9fa6deae833049dada1b5947e2cffc0b91bcd54c65a95cfb3cb0480d8d5a"
 }

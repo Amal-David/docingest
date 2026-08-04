@@ -84,5 +84,127 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.phpunit.de/en/12.4/",
+      "canonicalSeedUrl": "https://docs.phpunit.de/en/12.4",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-10T09:53:48.447Z",
+      "completedAt": "2025-11-10T09:53:48.447Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.phpunit.de/en/12.4/",
+          "canonicalUrl": "https://docs.phpunit.de/en/12.4",
+          "status": "valid"
+        }
+      ],
+      "id": "2f8eaa39595dc72b2f6a6559b4025b3be0b2a1769b161440d5d85a52fde207c3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f03366d5b347e215d8967c8fc5be9a65cf4e7725d4d3dfdd1793c59d91f92933",
+      "filename": "documentation_2025-11-10T09:53:48.447Z.md",
+      "contentHash": "dd899b0930fa64a99f3f359b1d938a99a86837cdb487d466b0eb921cbc9328d1",
+      "sourceUrl": "https://docs.phpunit.de/en/12.4/",
+      "canonicalSourceUrl": "https://docs.phpunit.de/en/12.4",
+      "capturedAt": "2025-11-10T09:53:48.447Z",
+      "crawlRunId": "2f8eaa39595dc72b2f6a6559b4025b3be0b2a1769b161440d5d85a52fde207c3",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "PHPUnit Manual — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/"
+        },
+        {
+          "type": "1. Installation — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/installation.html"
+        },
+        {
+          "type": "3. The Command-Line Test Runner — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/textui.html"
+        },
+        {
+          "type": "4. Organizing Tests — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/organizing-tests.html"
+        },
+        {
+          "type": "2. Writing Tests for PHPUnit — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/writing-tests-for-phpunit.html"
+        },
+        {
+          "type": "5. Fixtures — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/fixtures.html"
+        },
+        {
+          "type": "6. Test Doubles — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/test-doubles.html"
+        },
+        {
+          "type": "7. Code Coverage — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/code-coverage.html"
+        },
+        {
+          "type": "8. Risky Tests — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/risky-tests.html"
+        },
+        {
+          "type": "10. Extending PHPUnit — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/extending-phpunit.html"
+        },
+        {
+          "type": "9. Error Handling — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/error-handling.html"
+        },
+        {
+          "type": "3. Events — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/events.html"
+        },
+        {
+          "type": "2. Attributes — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/attributes.html"
+        },
+        {
+          "type": "5. Copyright — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/copyright.html"
+        },
+        {
+          "type": "4. The XML Configuration File — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/configuration.html"
+        },
+        {
+          "type": "1. Assertions — PHPUnit 12.4 Manual",
+          "url": "https://docs.phpunit.de/en/12.4/assertions.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f03366d5b347e215d8967c8fc5be9a65cf4e7725d4d3dfdd1793c59d91f92933"
 }

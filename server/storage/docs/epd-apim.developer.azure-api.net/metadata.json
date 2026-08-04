@@ -40,5 +40,83 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://epd-apim.developer.azure-api.net/api-details",
+      "canonicalSeedUrl": "https://epd-apim.developer.azure-api.net/api-details",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-14T10:08:22.860Z",
+      "completedAt": "2025-02-14T10:08:22.860Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://epd-apim.developer.azure-api.net/api-details",
+          "canonicalUrl": "https://epd-apim.developer.azure-api.net/api-details",
+          "status": "valid"
+        }
+      ],
+      "id": "f3db6aa60aef1a08838f70864c5ad0a74a09e240e70b4874fe15fce1b9359e3c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2acfde88afccf35a3e6acbcf9823eb9c7c874f36862537ccb09d9b4f82f6abb6",
+      "filename": "documentation_2025-02-14T10:08:22.860Z.md",
+      "contentHash": "b2dffdcbdae6b37bae4eb1b03314f28364302fb9a671d4ef48a0c7147e2231fa",
+      "sourceUrl": "https://epd-apim.developer.azure-api.net/api-details",
+      "canonicalSourceUrl": "https://epd-apim.developer.azure-api.net/api-details",
+      "capturedAt": "2025-02-14T10:08:22.860Z",
+      "crawlRunId": "f3db6aa60aef1a08838f70864c5ad0a74a09e240e70b4874fe15fce1b9359e3c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "APIs: Details - Microsoft Azure API Management - developer portal",
+          "url": "https://epd-apim.developer.azure-api.net/api-details"
+        },
+        {
+          "type": "Sign in - Microsoft Azure API Management - developer portal",
+          "url": "https://epd-apim.developer.azure-api.net/signin"
+        },
+        {
+          "type": "Reset password - Microsoft Azure API Management - developer portal",
+          "url": "https://epd-apim.developer.azure-api.net/reset-password"
+        },
+        {
+          "type": "Home - Microsoft Azure API Management - developer portal",
+          "url": "https://epd-apim.developer.azure-api.net/"
+        },
+        {
+          "type": "Sign up - Microsoft Azure API Management - developer portal",
+          "url": "https://epd-apim.developer.azure-api.net/signup"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2acfde88afccf35a3e6acbcf9823eb9c7c874f36862537ccb09d9b4f82f6abb6"
 }

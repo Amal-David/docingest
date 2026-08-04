@@ -28,5 +28,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.patreon.com/",
+      "canonicalSeedUrl": "https://docs.patreon.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-16T15:19:15.081Z",
+      "completedAt": "2025-04-16T15:19:15.081Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.patreon.com/",
+          "canonicalUrl": "https://docs.patreon.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "cbaef6df0970fe7550d8d54641157840c8f2f0b0e52098b501e4323125dcff3c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8f053c2befa4fcd039d5383a9d9e73360a436d052069b80170e3cc88d090f899",
+      "filename": "documentation_2025-04-16T15:19:15.081Z.md",
+      "contentHash": "46901bba8c138a72f073e951c364c7e0b59d45aabb18958e581327b879ed2aa5",
+      "sourceUrl": "https://docs.patreon.com/",
+      "canonicalSourceUrl": "https://docs.patreon.com/",
+      "capturedAt": "2025-04-16T15:19:15.081Z",
+      "crawlRunId": "cbaef6df0970fe7550d8d54641157840c8f2f0b0e52098b501e4323125dcff3c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "API Reference",
+          "url": "https://docs.patreon.com/"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.patreon.com/cdn-cgi/l/email-protection"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8f053c2befa4fcd039d5383a9d9e73360a436d052069b80170e3cc88d090f899"
 }

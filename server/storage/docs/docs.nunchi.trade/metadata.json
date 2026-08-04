@@ -148,5 +148,191 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.nunchi.trade/",
+      "canonicalSeedUrl": "https://docs.nunchi.trade/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-19T20:07:52.744Z",
+      "completedAt": "2026-03-19T20:07:52.744Z",
+      "providerTotals": {
+        "discovered": 32,
+        "returned": 32,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.nunchi.trade/",
+          "canonicalUrl": "https://docs.nunchi.trade/",
+          "status": "valid"
+        }
+      ],
+      "id": "62cb579e35eac158aef420cc1aafa5e1cacda05bccb5dfb76d505debd6d8afd1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d607b2fa3e037fa1e26e648759dfb3f58e61a3853bef9967bdde48c23cce0227",
+      "filename": "documentation_2026-03-19T20:07:52.744Z.md",
+      "contentHash": "d947b2cfd9eadf2d8131244e70c426f43c6930cbb720c1f1f40658b90792a020",
+      "sourceUrl": "https://docs.nunchi.trade/",
+      "canonicalSourceUrl": "https://docs.nunchi.trade/",
+      "capturedAt": "2026-03-19T20:07:52.744Z",
+      "crawlRunId": "62cb579e35eac158aef420cc1aafa5e1cacda05bccb5dfb76d505debd6d8afd1",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 32,
+      "successfulPages": 32,
+      "structure": [
+        {
+          "type": "Agentic Trading | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/"
+        },
+        {
+          "type": "USDYP Trading | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/agentic-trading/usdyp-trading"
+        },
+        {
+          "type": "Nunchi Yield Exchange Perps | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/nunchi-yield-exchange-perps"
+        },
+        {
+          "type": "USDE Trading | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/agentic-trading/usde-trading"
+        },
+        {
+          "type": "YEX Perps Specifications | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/nunchi-yield-exchange-perps/yex-perps-specifications"
+        },
+        {
+          "type": "Market Mechanics & Parameters | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/nunchi-yield-exchange-perps/market-mechanics-and-parameters"
+        },
+        {
+          "type": "Volatility Indices | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/nunchi-yield-exchange-perps/yex-perps-specifications/volatility-indices"
+        },
+        {
+          "type": "US Treasury Yield Indices | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/nunchi-yield-exchange-perps/yex-perps-specifications/us-treasury-yield-indices"
+        },
+        {
+          "type": "Yield Deserves its Own Exchange | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/nunchi-yield-exchange-perps/yex-perps-specifications/yield-deserves-its-own-exchange"
+        },
+        {
+          "type": "Agentic Bin Manager | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/abm"
+        },
+        {
+          "type": "Fees  & Incentives | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/nunchi-yield-exchange-perps/market-mechanics-and-parameters/fees-and-incentives"
+        },
+        {
+          "type": "Growth Mode | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/nunchi-yield-exchange-perps/market-mechanics-and-parameters/growth-mode"
+        },
+        {
+          "type": "Liquidations | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/nunchi-yield-exchange-perps/market-mechanics-and-parameters/liquidations"
+        },
+        {
+          "type": "Auto-Deleveraging (ADL) | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/nunchi-yield-exchange-perps/market-mechanics-and-parameters/auto-deleveraging-adl"
+        },
+        {
+          "type": "Oracles: Pyth and SEDA | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/nunchi-yield-exchange-perps/oracles-pyth-and-seda"
+        },
+        {
+          "type": "Developer Integration | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/nunchi-yield-exchange-perps/developer-integration"
+        },
+        {
+          "type": "Pendle nLP LP & YT Multipliers (wNLP) | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/chips-chips/pendle-nlp-lp-and-yt-multipliers-wnlp"
+        },
+        {
+          "type": "CHIPs (cHIPs) | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/chips-chips"
+        },
+        {
+          "type": "cHIPs Season One Rewards | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/chips-chips/chips-season-one-rewards"
+        },
+        {
+          "type": "ISFR Index | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/abm/isfr-index"
+        },
+        {
+          "type": "cHIPs Pre-Season Rewards | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/chips-chips/chips-pre-season-rewards"
+        },
+        {
+          "type": "Pricing Spreads | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/abm/agentic-binned-liquidity/pricing-spreads"
+        },
+        {
+          "type": "nHYPE Contracts | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/chips-chips/nunchi-x-ethena-hip-3-nhype/nhype-contracts"
+        },
+        {
+          "type": "Nunchi HIP-3 Liquidity (nLP) | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/chips-chips/nunchi-hip-3-liquidity-nlp"
+        },
+        {
+          "type": "Index Methodology | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/abm/isfr-index/index-methodology"
+        },
+        {
+          "type": "Index API | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/abm/isfr-index/index-api"
+        },
+        {
+          "type": "Batch Clearing | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/abm/agentic-binned-liquidity/batch-clearing"
+        },
+        {
+          "type": "Inventory Skewing | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/abm/agentic-binned-liquidity/inventory-skewing"
+        },
+        {
+          "type": "Agentic Binned-Liquidity | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/abm/agentic-binned-liquidity"
+        },
+        {
+          "type": "Funding Rate Indices | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/nunchi-yield-exchange-perps/yex-perps-specifications/funding-rate-indices"
+        },
+        {
+          "type": "Nunchi x Ethena HIP-3 (nHYPE) | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/chips-chips/nunchi-x-ethena-hip-3-nhype"
+        },
+        {
+          "type": "TEE Clearing | Nunchi Docs",
+          "url": "https://docs.nunchi.trade/abm/tee-clearing"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d607b2fa3e037fa1e26e648759dfb3f58e61a3853bef9967bdde48c23cce0227"
 }

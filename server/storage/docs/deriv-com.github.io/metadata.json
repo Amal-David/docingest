@@ -33,5 +33,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://deriv-com.github.io/python-deriv-api/",
+      "canonicalSeedUrl": "https://deriv-com.github.io/python-deriv-api",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-18T20:42:05.836Z",
+      "completedAt": "2025-03-18T20:42:05.836Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://deriv-com.github.io/python-deriv-api/",
+          "canonicalUrl": "https://deriv-com.github.io/python-deriv-api",
+          "status": "valid"
+        }
+      ],
+      "id": "60956e64dbbd8780f3ee10fd7e6d01d825a363d2612619d03929f639ee32f177",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "295247e063f632f554981996050b0f8cae3c1178fb0f527068eaace88ff6ef9c",
+      "filename": "documentation_2025-03-18T20:42:05.836Z.md",
+      "contentHash": "7dbe39c4fbbd5b1bdf8f70e39f632ab78e88e1dd3395c99f51e5e852c473294d",
+      "sourceUrl": "https://deriv-com.github.io/python-deriv-api/",
+      "canonicalSourceUrl": "https://deriv-com.github.io/python-deriv-api",
+      "capturedAt": "2025-03-18T20:42:05.836Z",
+      "crawlRunId": "60956e64dbbd8780f3ee10fd7e6d01d825a363d2612619d03929f639ee32f177",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "deriv_api API documentation",
+          "url": "https://deriv-com.github.io/python-deriv-api/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "295247e063f632f554981996050b0f8cae3c1178fb0f527068eaace88ff6ef9c"
 }

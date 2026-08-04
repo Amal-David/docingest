@@ -64,5 +64,107 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://blog.yupp.ai/",
+      "canonicalSeedUrl": "https://blog.yupp.ai/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-03T10:53:06.182Z",
+      "completedAt": "2026-02-03T10:53:06.182Z",
+      "providerTotals": {
+        "discovered": 11,
+        "returned": 11,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://blog.yupp.ai/",
+          "canonicalUrl": "https://blog.yupp.ai/",
+          "status": "valid"
+        }
+      ],
+      "id": "e6ad7e2757a50f251bc849f8eb3506c7332020a46bfd0327651b03b5cf170ee8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "079849217059b38a107fa0d378179208feb99630cc1bfdc7f3c04929c5d1e3bb",
+      "filename": "documentation_2026-02-03T10:53:06.182Z.md",
+      "contentHash": "576fec13ad7b5760bde20e869dfd350f83160abaa5c663849fb3ca894eb458f6",
+      "sourceUrl": "https://blog.yupp.ai/",
+      "canonicalSourceUrl": "https://blog.yupp.ai/",
+      "capturedAt": "2026-02-03T10:53:06.182Z",
+      "crawlRunId": "e6ad7e2757a50f251bc849f8eb3506c7332020a46bfd0327651b03b5cf170ee8",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 11,
+      "successfulPages": 11,
+      "structure": [
+        {
+          "type": "Yupp",
+          "url": "https://blog.yupp.ai/"
+        },
+        {
+          "type": "Yupp",
+          "url": "https://blog.yupp.ai/temp"
+        },
+        {
+          "type": "Yupp",
+          "url": "https://blog.yupp.ai/careers_for-alex"
+        },
+        {
+          "type": "Yupp",
+          "url": "https://blog.yupp.ai/cashout"
+        },
+        {
+          "type": "Yupp",
+          "url": "https://blog.yupp.ai/launch"
+        },
+        {
+          "type": "Yupp",
+          "url": "https://blog.yupp.ai/leaderboard"
+        },
+        {
+          "type": "Yupp",
+          "url": "https://blog.yupp.ai/hmc"
+        },
+        {
+          "type": "Yupp",
+          "url": "https://blog.yupp.ai/svg"
+        },
+        {
+          "type": "Yupp",
+          "url": "https://blog.yupp.ai/design"
+        },
+        {
+          "type": "Yupp",
+          "url": "https://blog.yupp.ai/blog_old"
+        },
+        {
+          "type": "Yupp",
+          "url": "https://blog.yupp.ai/404"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "079849217059b38a107fa0d378179208feb99630cc1bfdc7f3c04929c5d1e3bb"
 }

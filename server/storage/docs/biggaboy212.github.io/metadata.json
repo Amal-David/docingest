@@ -158,5 +158,183 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://biggaboy212.github.io/Cascade/",
+      "canonicalSeedUrl": "https://biggaboy212.github.io/Cascade",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-27T16:22:34.503Z",
+      "completedAt": "2026-02-27T16:22:34.503Z",
+      "providerTotals": {
+        "discovered": 30,
+        "returned": 30,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://biggaboy212.github.io/Cascade/",
+          "canonicalUrl": "https://biggaboy212.github.io/Cascade",
+          "status": "valid"
+        }
+      ],
+      "id": "05b96b2a95cbdd550ee297eb79748791c97328d3472c083581a57d032142ad4b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a7d9d8c993b0383d21a06b23e4659db58f908d0017b49baefdb40ece3c0103d3",
+      "filename": "documentation_2026-02-27T16:22:34.503Z.md",
+      "contentHash": "2e3505925d01a8e5ebfcdb079c61001ca19896d7fd3644592fba83c0180d5898",
+      "sourceUrl": "https://biggaboy212.github.io/Cascade/",
+      "canonicalSourceUrl": "https://biggaboy212.github.io/Cascade",
+      "capturedAt": "2026-02-27T16:22:34.503Z",
+      "crawlRunId": "05b96b2a95cbdd550ee297eb79748791c97328d3472c083581a57d032142ad4b",
+      "upstreamVersion": "1.0.2",
+      "upstreamChannel": "latest",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "structure": [
+        {
+          "type": "Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/"
+        },
+        {
+          "type": "Interface Guidelines - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Getting%20Started/interface-guidelines/"
+        },
+        {
+          "type": "Importing the Library - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Getting%20Started/importing-the-library/"
+        },
+        {
+          "type": "Themes - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Getting%20Started/The%20API/themes/"
+        },
+        {
+          "type": "Accents - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Getting%20Started/The%20API/accents/"
+        },
+        {
+          "type": "App - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Getting%20Started/The%20API/app/"
+        },
+        {
+          "type": "Window - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/Window/"
+        },
+        {
+          "type": "Example - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Getting%20Started/example/"
+        },
+        {
+          "type": "Section - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/Section/"
+        },
+        {
+          "type": "Page - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/Page/"
+        },
+        {
+          "type": "Tab - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/Tab/"
+        },
+        {
+          "type": "Form - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/Form/"
+        },
+        {
+          "type": "Row - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/Row/"
+        },
+        {
+          "type": "Base Component - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/"
+        },
+        {
+          "type": "VStack - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/VStack/"
+        },
+        {
+          "type": "HStack - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/HStack/"
+        },
+        {
+          "type": "PageSection - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/PageSection/"
+        },
+        {
+          "type": "Label - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/Label/"
+        },
+        {
+          "type": "TitleStack - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/TitleStack/"
+        },
+        {
+          "type": "Button - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/Button/"
+        },
+        {
+          "type": "Symbol - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/Symbol/"
+        },
+        {
+          "type": "Toggle - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/Toggle/"
+        },
+        {
+          "type": "Slider - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/Slider/"
+        },
+        {
+          "type": "TextField - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/TextField/"
+        },
+        {
+          "type": "Stepper - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/Stepper/"
+        },
+        {
+          "type": "KeybindField - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/KeybindField/"
+        },
+        {
+          "type": "RadioButtonGroup - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/RadioButtonGroup/"
+        },
+        {
+          "type": "Notification - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/Notification/"
+        },
+        {
+          "type": "PopUpButton - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/PopUpButton/"
+        },
+        {
+          "type": "PullDownButton - Cascade Developer Documentation",
+          "url": "https://biggaboy212.github.io/Cascade/Components/PullDownButton/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a7d9d8c993b0383d21a06b23e4659db58f908d0017b49baefdb40ece3c0103d3"
 }

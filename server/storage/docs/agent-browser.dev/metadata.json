@@ -124,5 +124,167 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://agent-browser.dev/",
+      "canonicalSeedUrl": "https://agent-browser.dev/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-04T13:38:42.223Z",
+      "completedAt": "2026-04-04T13:38:42.223Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://agent-browser.dev/",
+          "canonicalUrl": "https://agent-browser.dev/",
+          "status": "valid"
+        }
+      ],
+      "id": "191119fe36ceed6d002a1143829662a30ad1a06a10611c5f9f59908f5fb74c79",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0f499e014e16e5e6b61f8d1e8c9a7cd965fd8dde7e4d21bc9c176e6f6447d1a7",
+      "filename": "documentation_2026-04-04T13:38:42.223Z.md",
+      "contentHash": "187aaf477dea60d82a2e9b3b5d550166c8e2ba225ee21bef6d84af5eb01caa6f",
+      "sourceUrl": "https://agent-browser.dev/",
+      "canonicalSourceUrl": "https://agent-browser.dev/",
+      "capturedAt": "2026-04-04T13:38:42.223Z",
+      "crawlRunId": "191119fe36ceed6d002a1143829662a30ad1a06a10611c5f9f59908f5fb74c79",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "agent-browser | Browser Automation for AI",
+          "url": "https://agent-browser.dev/"
+        },
+        {
+          "type": "Installation | agent-browser",
+          "url": "https://agent-browser.dev/installation"
+        },
+        {
+          "type": "Skills | agent-browser",
+          "url": "https://agent-browser.dev/skills"
+        },
+        {
+          "type": "Selectors | agent-browser",
+          "url": "https://agent-browser.dev/selectors"
+        },
+        {
+          "type": "Configuration | agent-browser",
+          "url": "https://agent-browser.dev/configuration"
+        },
+        {
+          "type": "Commands | agent-browser",
+          "url": "https://agent-browser.dev/commands"
+        },
+        {
+          "type": "Dashboard | agent-browser",
+          "url": "https://agent-browser.dev/dashboard"
+        },
+        {
+          "type": "Snapshots | agent-browser",
+          "url": "https://agent-browser.dev/snapshots"
+        },
+        {
+          "type": "CDP Mode | agent-browser",
+          "url": "https://agent-browser.dev/cdp-mode"
+        },
+        {
+          "type": "Quick Start | agent-browser",
+          "url": "https://agent-browser.dev/quick-start"
+        },
+        {
+          "type": "Diffing | agent-browser",
+          "url": "https://agent-browser.dev/diffing"
+        },
+        {
+          "type": "Sessions | agent-browser",
+          "url": "https://agent-browser.dev/sessions"
+        },
+        {
+          "type": "Profiler | agent-browser",
+          "url": "https://agent-browser.dev/profiler"
+        },
+        {
+          "type": "iOS Simulator | agent-browser",
+          "url": "https://agent-browser.dev/ios"
+        },
+        {
+          "type": "Security | agent-browser",
+          "url": "https://agent-browser.dev/security"
+        },
+        {
+          "type": "Browser Use | agent-browser",
+          "url": "https://agent-browser.dev/providers/browser-use"
+        },
+        {
+          "type": "Browserless | agent-browser",
+          "url": "https://agent-browser.dev/providers/browserless"
+        },
+        {
+          "type": "Browserbase | agent-browser",
+          "url": "https://agent-browser.dev/providers/browserbase"
+        },
+        {
+          "type": "Kernel | agent-browser",
+          "url": "https://agent-browser.dev/providers/kernel"
+        },
+        {
+          "type": "AgentCore | agent-browser",
+          "url": "https://agent-browser.dev/providers/agentcore"
+        },
+        {
+          "type": "Native Mode | agent-browser",
+          "url": "https://agent-browser.dev/native-mode"
+        },
+        {
+          "type": "Chrome | agent-browser",
+          "url": "https://agent-browser.dev/engines/chrome"
+        },
+        {
+          "type": "Lightpanda | agent-browser",
+          "url": "https://agent-browser.dev/engines/lightpanda"
+        },
+        {
+          "type": "Streaming | agent-browser",
+          "url": "https://agent-browser.dev/streaming"
+        },
+        {
+          "type": "Changelog | agent-browser",
+          "url": "https://agent-browser.dev/changelog"
+        },
+        {
+          "type": "Next.js + Vercel | agent-browser",
+          "url": "https://agent-browser.dev/next"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0f499e014e16e5e6b61f8d1e8c9a7cd965fd8dde7e4d21bc9c176e6f6447d1a7"
 }

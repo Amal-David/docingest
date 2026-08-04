@@ -124,5 +124,167 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://devdocs.prestashop-project.org/8/",
+      "canonicalSeedUrl": "https://devdocs.prestashop-project.org/8",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-25T08:38:00.468Z",
+      "completedAt": "2025-09-25T08:38:00.468Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://devdocs.prestashop-project.org/8/",
+          "canonicalUrl": "https://devdocs.prestashop-project.org/8",
+          "status": "valid"
+        }
+      ],
+      "id": "5ebf9b08eecf6f12ce6207fc3b6bf78e5ee13151742e97f224b98af2c66ea385",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5f1bc59b2a6aa1f85c7497f5f00cf4781159c367410cdb97b49307afc87d991b",
+      "filename": "documentation_2025-09-25T08:38:00.468Z.md",
+      "contentHash": "a627a5cde9f4c548411d4b92436191a39abfb1e81114a8a7733aad0bfdb71e56",
+      "sourceUrl": "https://devdocs.prestashop-project.org/8/",
+      "canonicalSourceUrl": "https://devdocs.prestashop-project.org/8",
+      "capturedAt": "2025-09-25T08:38:00.468Z",
+      "crawlRunId": "5ebf9b08eecf6f12ce6207fc3b6bf78e5ee13151742e97f224b98af2c66ea385",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "PrestaShop 8 Documentation :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/8/"
+        },
+        {
+          "type": "Introduction :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/9/basics/introduction/"
+        },
+        {
+          "type": "Interacting with APIs :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/1.7/modules/creation/external-services/"
+        },
+        {
+          "type": "Getting Started :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/8/modules/creation/"
+        },
+        {
+          "type": "Extension concepts :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/1.7/modules/concepts/"
+        },
+        {
+          "type": "Shops configuration :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/9/development/multistore/shops-configuration/"
+        },
+        {
+          "type": "Configuration forms :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/9/development/multistore/configuration-forms/"
+        },
+        {
+          "type": "Shops context :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/9/development/multistore/shop-context/"
+        },
+        {
+          "type": "Adding a configuration page (Legacy architecture) :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/8/modules/creation/adding-configuration-page/"
+        },
+        {
+          "type": "Testing :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/9/testing/"
+        },
+        {
+          "type": "Modern configuration page :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/8/modules/creation/adding-configuration-page-modern/"
+        },
+        {
+          "type": "Asset management :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/1.7/themes/getting-started/asset-management/"
+        },
+        {
+          "type": "How to add a layout in a theme from a module :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/9/modules/concepts/mail-templates/add-a-layout-from-module/"
+        },
+        {
+          "type": "Webpack :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/1.7/themes/getting-started/asset-management/webpack/"
+        },
+        {
+          "type": "Changes in PrestaShop 8.1 :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/8/modules/core-updates/8.1/"
+        },
+        {
+          "type": "Theme development reference :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/1.7/themes/reference/"
+        },
+        {
+          "type": "New password policy based on zxcvbn :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/8/modules/core-updates/new-password-policy/"
+        },
+        {
+          "type": "How to add an email theme from a module :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/9/modules/concepts/mail-templates/add-a-theme-from-module/"
+        },
+        {
+          "type": "How to add layout variables from a module :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/9/modules/concepts/mail-templates/add-layout-variables-from-module/"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://devdocs.prestashop-project.org/cdn-cgi/l/email-protection"
+        },
+        {
+          "type": "Optimize your Apache httpd configuration :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/1.7/scale/webservers/httpd/"
+        },
+        {
+          "type": "The Hook component :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/9/development/components/hook/"
+        },
+        {
+          "type": "Frequently Asked Questions :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/9/faq/"
+        },
+        {
+          "type": "Tutorials :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/9/development/components/grid/tutorials/"
+        },
+        {
+          "type": "Internationalization :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/8/development/internationalization/"
+        },
+        {
+          "type": "Writing a good commit message :: PrestaShop Developer Documentation",
+          "url": "https://devdocs.prestashop-project.org/8/contribute/contribution-guidelines/writing-a-good-commit-message/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5f1bc59b2a6aa1f85c7497f5f00cf4781159c367410cdb97b49307afc87d991b"
 }

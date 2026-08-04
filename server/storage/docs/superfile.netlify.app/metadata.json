@@ -80,5 +80,123 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://superfile.netlify.app/overview/",
+      "canonicalSeedUrl": "https://superfile.netlify.app/overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-21T07:08:36.015Z",
+      "completedAt": "2025-01-21T07:08:36.015Z",
+      "providerTotals": {
+        "discovered": 15,
+        "returned": 15,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://superfile.netlify.app/overview/",
+          "canonicalUrl": "https://superfile.netlify.app/overview",
+          "status": "valid"
+        }
+      ],
+      "id": "56cb212333f4c6d92af91205c0c83557c965652ac7b34938a8599662766a9c39",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ff34bb9f9e7ee14495195271faaf04359d934c2a001dd6870d0fd6bd34e03aae",
+      "filename": "documentation_2025-01-21T07:08:36.015Z.md",
+      "contentHash": "fad9a621ca3ecd8977c071aee4e6ca5bbdc28a353599c79adfd472fdbcc74453",
+      "sourceUrl": "https://superfile.netlify.app/overview/",
+      "canonicalSourceUrl": "https://superfile.netlify.app/overview",
+      "capturedAt": "2025-01-21T07:08:36.015Z",
+      "crawlRunId": "56cb212333f4c6d92af91205c0c83557c965652ac7b34938a8599662766a9c39",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 15,
+      "successfulPages": 15,
+      "structure": [
+        {
+          "type": "Overview | superfile",
+          "url": "https://superfile.netlify.app/overview/"
+        },
+        {
+          "type": "superfile config | superfile",
+          "url": "https://superfile.netlify.app/configure/superfile-config/"
+        },
+        {
+          "type": "Install superfile | superfile",
+          "url": "https://superfile.netlify.app/getting-started/installation/"
+        },
+        {
+          "type": "Custom theme | superfile",
+          "url": "https://superfile.netlify.app/configure/custom-theme"
+        },
+        {
+          "type": "Config file path | superfile",
+          "url": "https://superfile.netlify.app/configure/config-file-path"
+        },
+        {
+          "type": "Enable plugins | superfile",
+          "url": "https://superfile.netlify.app/configure/enable-plugin"
+        },
+        {
+          "type": "superfile | terminal-based file manager | superfile",
+          "url": "https://superfile.netlify.app/"
+        },
+        {
+          "type": "Tutorial | superfile",
+          "url": "https://superfile.netlify.app/getting-started/tutorial/"
+        },
+        {
+          "type": "Custom hotkeys | superfile",
+          "url": "https://superfile.netlify.app/configure/custom-hotkeys/"
+        },
+        {
+          "type": "Hotkey list | superfile",
+          "url": "https://superfile.netlify.app/list/hotkey-list/"
+        },
+        {
+          "type": "Theme list | superfile",
+          "url": "https://superfile.netlify.app/list/theme-list/"
+        },
+        {
+          "type": "Plugin list | superfile",
+          "url": "https://superfile.netlify.app/list/plugin-list/"
+        },
+        {
+          "type": "Troubleshooting | superfile",
+          "url": "https://superfile.netlify.app/troubleshooting"
+        },
+        {
+          "type": "How to Contribute | superfile",
+          "url": "https://superfile.netlify.app/how-to-contribute"
+        },
+        {
+          "type": "superfile ChangeLog | superfile",
+          "url": "https://superfile.netlify.app/changelog"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ff34bb9f9e7ee14495195271faaf04359d934c2a001dd6870d0fd6bd34e03aae"
 }

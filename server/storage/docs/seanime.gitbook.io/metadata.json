@@ -245,5 +245,279 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://seanime.gitbook.io/",
+      "canonicalSeedUrl": "https://seanime.gitbook.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-18T21:28:28.537Z",
+      "completedAt": "2026-01-18T21:28:28.537Z",
+      "providerTotals": {
+        "discovered": 54,
+        "returned": 54,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://seanime.gitbook.io/",
+          "canonicalUrl": "https://seanime.gitbook.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "838381305d39d5f4fbcdfbe4b096307c4501571ec2769c4d0ee53658afcd7345",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "07204bfb3479c6c3443c499d17a9ee7f863717aaa06d12f8211b5be65dfd297d",
+      "filename": "documentation_2026-01-18T21:28:28.537Z.md",
+      "contentHash": "30a67cb5905f405f72e30b1b5ca3de3e4595a410aae87e5dbf2e9bc5142e3718",
+      "sourceUrl": "https://seanime.gitbook.io/",
+      "canonicalSourceUrl": "https://seanime.gitbook.io/",
+      "capturedAt": "2026-01-18T21:28:28.537Z",
+      "crawlRunId": "838381305d39d5f4fbcdfbe4b096307c4501571ec2769c4d0ee53658afcd7345",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 54,
+      "successfulPages": 54,
+      "structure": [
+        {
+          "type": "Getting started | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/"
+        },
+        {
+          "type": "Getting started | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions"
+        },
+        {
+          "type": "Core APIs | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/seanime/core-apis"
+        },
+        {
+          "type": "Changelog | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/seanime/changelog"
+        },
+        {
+          "type": "Online Streaming Provider | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/online-streaming-provider"
+        },
+        {
+          "type": "Manga Provider | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/manga-provider"
+        },
+        {
+          "type": "Write, test, share | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/write-test-share"
+        },
+        {
+          "type": "Anime Torrent Provider | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/anime-torrent-provider"
+        },
+        {
+          "type": "Introduction | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/introduction"
+        },
+        {
+          "type": "Custom Source | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/custom-source"
+        },
+        {
+          "type": "Permissions | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/permissions"
+        },
+        {
+          "type": "APIs | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis"
+        },
+        {
+          "type": "Write, test, share | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/write-test-share"
+        },
+        {
+          "type": "Helpers | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/helpers"
+        },
+        {
+          "type": "Store | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/store"
+        },
+        {
+          "type": "UI | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui"
+        },
+        {
+          "type": "Storage | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/storage"
+        },
+        {
+          "type": "Basics | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/basics"
+        },
+        {
+          "type": "AniList | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/anilist"
+        },
+        {
+          "type": "Database | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/database"
+        },
+        {
+          "type": "Other | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other"
+        },
+        {
+          "type": "Downloading | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading"
+        },
+        {
+          "type": "Permissions | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/permissions"
+        },
+        {
+          "type": "Hooks | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/hooks"
+        },
+        {
+          "type": "System | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system"
+        },
+        {
+          "type": "MIME | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/mime"
+        },
+        {
+          "type": "Feature requests | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/frequently-asked/feature-requests"
+        },
+        {
+          "type": "Example | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/example"
+        },
+        {
+          "type": "Downloader | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/downloader"
+        },
+        {
+          "type": "User Interface | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface"
+        },
+        {
+          "type": "Discord | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/discord"
+        },
+        {
+          "type": "Filepath | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/filepath"
+        },
+        {
+          "type": "Buffers, I/O | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/buffers-i-o"
+        },
+        {
+          "type": "Command Palette | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/command-palette"
+        },
+        {
+          "type": "Commands | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/commands"
+        },
+        {
+          "type": "OS | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/os"
+        },
+        {
+          "type": "Screen | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/screen"
+        },
+        {
+          "type": "Torrent Client | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/torrent-client"
+        },
+        {
+          "type": "Toast | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/toast"
+        },
+        {
+          "type": "Manga | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/manga"
+        },
+        {
+          "type": "Anime/Library | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library"
+        },
+        {
+          "type": "Auto Downloader | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-downloader"
+        },
+        {
+          "type": "Auto Scanner | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-scanner"
+        },
+        {
+          "type": "Anime | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/anime"
+        },
+        {
+          "type": "Continuity | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/continuity"
+        },
+        {
+          "type": "External Player Link | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/external-player-link"
+        },
+        {
+          "type": "Filler Manager | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/filler-manager"
+        },
+        {
+          "type": "MPV | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/mpv"
+        },
+        {
+          "type": "Tray | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/tray"
+        },
+        {
+          "type": "Playback (External) | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/playback-external"
+        },
+        {
+          "type": "Webview | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/webview"
+        },
+        {
+          "type": "Action | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/action"
+        },
+        {
+          "type": "VideoCore | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/videocore"
+        },
+        {
+          "type": "DOM | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/dom"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "07204bfb3479c6c3443c499d17a9ee7f863717aaa06d12f8211b5be65dfd297d"
 }

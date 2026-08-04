@@ -124,5 +124,167 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.kanzzai.com/kanzzai-ecosystem/discover-kanzz",
+      "canonicalSeedUrl": "https://docs.kanzzai.com/kanzzai-ecosystem/discover-kanzz",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-26T19:57:38.869Z",
+      "completedAt": "2025-01-26T19:57:38.869Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.kanzzai.com/kanzzai-ecosystem/discover-kanzz",
+          "canonicalUrl": "https://docs.kanzzai.com/kanzzai-ecosystem/discover-kanzz",
+          "status": "valid"
+        }
+      ],
+      "id": "0845483e43c1d2e7b3f55419ea31abf7647054c6d738bd88dde3df481f0e7906",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "212a6ba816fdc9f9604d68737bcbef373d196f513c4103eaf7082c1ba633d7e7",
+      "filename": "documentation_2025-01-26T19:57:38.869Z.md",
+      "contentHash": "861a8b266585b7feb0046fb83d22d7edd5c07395c713728f304290d0b9c6bc68",
+      "sourceUrl": "https://docs.kanzzai.com/kanzzai-ecosystem/discover-kanzz",
+      "canonicalSourceUrl": "https://docs.kanzzai.com/kanzzai-ecosystem/discover-kanzz",
+      "capturedAt": "2025-01-26T19:57:38.869Z",
+      "crawlRunId": "0845483e43c1d2e7b3f55419ea31abf7647054c6d738bd88dde3df481f0e7906",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "Discover Kanzz | KanzzAI",
+          "url": "https://docs.kanzzai.com/kanzzai-ecosystem/discover-kanzz"
+        },
+        {
+          "type": "Principles | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/principles"
+        },
+        {
+          "type": "About Us | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us"
+        },
+        {
+          "type": "Discover Kanzz | KanzzAI",
+          "url": "https://docs.kanzzai.com/kanzzai-ecosystem/discover-kanzz?fallback=true"
+        },
+        {
+          "type": "Terms of Service | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/policies/terms-of-service"
+        },
+        {
+          "type": "Cookie Policy | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/policies/cookie-policy"
+        },
+        {
+          "type": "Links | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/links"
+        },
+        {
+          "type": "Vision, Mission & Dedication | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/vision-mission-and-dedication"
+        },
+        {
+          "type": "Acceptable Use Policy | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/policies/acceptable-use-policy"
+        },
+        {
+          "type": "Refund Policy | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/policies/refund-policy"
+        },
+        {
+          "type": "Policies | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/policies"
+        },
+        {
+          "type": "Roadmap | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/roadmap"
+        },
+        {
+          "type": "Welcome to KanzzAI | KanzzAI",
+          "url": "https://docs.kanzzai.com/"
+        },
+        {
+          "type": "Cancellation Policy | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/policies/cancellation-policy"
+        },
+        {
+          "type": "About Us | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us?fallback=true"
+        },
+        {
+          "type": "Acceptable Use Policy | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/policies/acceptable-use-policy?fallback=true"
+        },
+        {
+          "type": "KanzzAI Terminal | KanzzAI",
+          "url": "https://docs.kanzzai.com/kanzzai-ecosystem/kanzzai-terminal"
+        },
+        {
+          "type": "Refund Policy | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/policies/refund-policy?fallback=true"
+        },
+        {
+          "type": "Policies | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/policies?fallback=true"
+        },
+        {
+          "type": "Cookie Policy | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/policies/cookie-policy?fallback=true"
+        },
+        {
+          "type": "Vision, Mission & Dedication | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/vision-mission-and-dedication?fallback=true"
+        },
+        {
+          "type": "KAAI Token Disclaimer | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/policies/kaai-token-disclaimer"
+        },
+        {
+          "type": "Kanzz Products | KanzzAI",
+          "url": "https://docs.kanzzai.com/kanzzai-ecosystem/kanzz-products"
+        },
+        {
+          "type": "معلومات عنا | KanzzAI",
+          "url": "https://docs.kanzzai.com/kanzz-ai-documents-ar/malwmat-ana"
+        },
+        {
+          "type": "Privacy Policy | KanzzAI",
+          "url": "https://docs.kanzzai.com/about-us/policies/privacy-policy"
+        },
+        {
+          "type": "Collaborations | KanzzAI",
+          "url": "https://docs.kanzzai.com/collaborations"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "212a6ba816fdc9f9604d68737bcbef373d196f513c4103eaf7082c1ba633d7e7"
 }

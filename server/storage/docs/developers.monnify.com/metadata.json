@@ -154,5 +154,179 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://developers.monnify.com/docs/bills-payment",
+      "canonicalSeedUrl": "https://developers.monnify.com/docs/bills-payment",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-10T09:18:38.128Z",
+      "completedAt": "2026-07-10T09:18:38.128Z",
+      "providerTotals": {
+        "discovered": 29,
+        "returned": 29,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://developers.monnify.com/docs/bills-payment",
+          "canonicalUrl": "https://developers.monnify.com/docs/bills-payment",
+          "status": "valid"
+        }
+      ],
+      "id": "46d2205bcbfd25594682719f058d16b546f40aabdcf56e1b98126925626984ef",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d6cd7d2226a1557ec071f460026a7a3b3ee2bc17912bce667c10337ffef181a7",
+      "filename": "documentation_2026-07-10T09:18:38.128Z.md",
+      "contentHash": "c733ffbeaca7e1a68d9575217f17c44092bea6af7f7830c1ce24bd2d33b359d9",
+      "sourceUrl": "https://developers.monnify.com/docs/bills-payment",
+      "canonicalSourceUrl": "https://developers.monnify.com/docs/bills-payment",
+      "capturedAt": "2026-07-10T09:18:38.128Z",
+      "crawlRunId": "46d2205bcbfd25594682719f058d16b546f40aabdcf56e1b98126925626984ef",
+      "upstreamVersion": "1.0.2",
+      "upstreamChannel": "latest",
+      "totalPages": 29,
+      "successfulPages": 29,
+      "structure": [
+        {
+          "type": "Bills Payments",
+          "url": "https://developers.monnify.com/docs/bills-payment"
+        },
+        {
+          "type": "Customer Verification",
+          "url": "https://developers.monnify.com/docs/verification-api"
+        },
+        {
+          "type": "One-Time Payments",
+          "url": "https://developers.monnify.com/docs/collections/one-time-payments"
+        },
+        {
+          "type": "Offline Pay-ins",
+          "url": "https://developers.monnify.com/docs/collections/one-time-payments/offline-payins"
+        },
+        {
+          "type": "Reconciliation",
+          "url": "https://developers.monnify.com/docs/collections/manage-payments/reconciliation"
+        },
+        {
+          "type": "Going Live",
+          "url": "https://developers.monnify.com/docs/live"
+        },
+        {
+          "type": "Checkout API",
+          "url": "https://developers.monnify.com/docs/collections/one-time-payments/checkout-api"
+        },
+        {
+          "type": "Retry & Failure Handling",
+          "url": "https://developers.monnify.com/docs/collections/recurring-payments/retry-failure-handling"
+        },
+        {
+          "type": "Quickstart – Accept Payments",
+          "url": "https://developers.monnify.com/docs/collections/quickstart"
+        },
+        {
+          "type": "Checkout Page",
+          "url": "https://developers.monnify.com/docs/collections/one-time-payments/checkout-page"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://developers.monnify.com/docs/brand-logo"
+        },
+        {
+          "type": "Process a bill",
+          "url": "https://developers.monnify.com/docs/bills-payment/settlement-process"
+        },
+        {
+          "type": "Transaction Splitting / Sub Accounts",
+          "url": "https://developers.monnify.com/docs/collections/manage-payments/transaction-splitting"
+        },
+        {
+          "type": "Process a bill",
+          "url": "https://developers.monnify.com/docs/bills-payment/process-a-bill"
+        },
+        {
+          "type": "Accept Payments",
+          "url": "https://developers.monnify.com/docs/collections"
+        },
+        {
+          "type": "Verify Transactions",
+          "url": "https://developers.monnify.com/docs/collections/manage-payments/verify-transactions"
+        },
+        {
+          "type": "International Payment",
+          "url": "https://developers.monnify.com/docs/collections/international-payment"
+        },
+        {
+          "type": "Recurring Payments",
+          "url": "https://developers.monnify.com/docs/collections/recurring-payments"
+        },
+        {
+          "type": "Invoice",
+          "url": "https://developers.monnify.com/docs/collections/one-time-payments/invoice"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://developers.monnify.com/docs/error-codes"
+        },
+        {
+          "type": "Payment Methods",
+          "url": "https://developers.monnify.com/docs/collections/payment-methods"
+        },
+        {
+          "type": "Transfer/Payout",
+          "url": "https://developers.monnify.com/docs/disbursements"
+        },
+        {
+          "type": "Offline Pay-outs (Paycode)",
+          "url": "https://developers.monnify.com/docs/disbursements/offline-payout"
+        },
+        {
+          "type": "Sample Codes",
+          "url": "https://developers.monnify.com/docs/integration/sample-codes"
+        },
+        {
+          "type": "Transaction Refunds",
+          "url": "https://developers.monnify.com/docs/collections/manage-payments/refunds"
+        },
+        {
+          "type": "Card Tokenization",
+          "url": "https://developers.monnify.com/docs/collections/recurring-payments/card-tokenization"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://developers.monnify.com/docs/test-cards"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://developers.monnify.com/docs/change-logs"
+        },
+        {
+          "type": "Integration Tools",
+          "url": "https://developers.monnify.com/docs/integration"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d6cd7d2226a1557ec071f460026a7a3b3ee2bc17912bce667c10337ffef181a7"
 }

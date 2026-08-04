@@ -96,5 +96,139 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://proton-utilities.github.io/Standard2/",
+      "canonicalSeedUrl": "https://proton-utilities.github.io/Standard2",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-24T23:00:22.874Z",
+      "completedAt": "2026-01-24T23:00:22.874Z",
+      "providerTotals": {
+        "discovered": 19,
+        "returned": 19,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://proton-utilities.github.io/Standard2/",
+          "canonicalUrl": "https://proton-utilities.github.io/Standard2",
+          "status": "valid"
+        }
+      ],
+      "id": "71546a19cb4c8f43633a927e00790b69097391e1518b91b516cff4f98561c237",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d80638344ffc07fde19cf6c59fc6f76701b2aed90781d8ad461020982a5990d6",
+      "filename": "documentation_2026-01-24T23:00:22.874Z.md",
+      "contentHash": "49600a63ab800d313ace7a5b11848ca2d81828f2af396504ffe565cb6b3fccac",
+      "sourceUrl": "https://proton-utilities.github.io/Standard2/",
+      "canonicalSourceUrl": "https://proton-utilities.github.io/Standard2",
+      "capturedAt": "2026-01-24T23:00:22.874Z",
+      "crawlRunId": "71546a19cb4c8f43633a927e00790b69097391e1518b91b516cff4f98561c237",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 19,
+      "successfulPages": 19,
+      "structure": [
+        {
+          "type": "S2",
+          "url": "https://proton-utilities.github.io/Standard2/"
+        },
+        {
+          "type": "include - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/"
+        },
+        {
+          "type": "Algorithms - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/CeDe/Algorithms/"
+        },
+        {
+          "type": "CeDe - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/CeDe/"
+        },
+        {
+          "type": "cede.compress - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/CeDe/compress/"
+        },
+        {
+          "type": "cede.decompress - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/CeDe/decompress/"
+        },
+        {
+          "type": "Codec - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/Codec/"
+        },
+        {
+          "type": "Crypt - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/Crypt/"
+        },
+        {
+          "type": "Drawing - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/Drawing/"
+        },
+        {
+          "type": "Env - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/Env/"
+        },
+        {
+          "type": "env.rbx - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/Env/rbx/"
+        },
+        {
+          "type": "env.this - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/Env/this/"
+        },
+        {
+          "type": "FS - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/FS/"
+        },
+        {
+          "type": "Net - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/Net/"
+        },
+        {
+          "type": "RBX - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/RBX/"
+        },
+        {
+          "type": "SerDe - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/SerDe/"
+        },
+        {
+          "type": "serde.deserialize - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/SerDe/deserialize/"
+        },
+        {
+          "type": "Formats - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/SerDe/Formats/"
+        },
+        {
+          "type": "serde.serialize - S2",
+          "url": "https://proton-utilities.github.io/Standard2/Libraries/SerDe/serialize/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d80638344ffc07fde19cf6c59fc6f76701b2aed90781d8ad461020982a5990d6"
 }

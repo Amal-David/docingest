@@ -33,5 +33,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://pokemmo.shoutwiki.com/wiki/",
+      "canonicalSeedUrl": "https://pokemmo.shoutwiki.com/wiki",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-13T07:56:24.872Z",
+      "completedAt": "2026-01-13T07:56:24.872Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://pokemmo.shoutwiki.com/wiki/",
+          "canonicalUrl": "https://pokemmo.shoutwiki.com/wiki",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "957b053cb2cbec8f68b5c6d72dc6c53fb34b82c2eb85d8f3f6fa8c930b4fc145",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "05ee487bdd908ea9776989129ecde0c9e40f0094d471e232d678d7c31d39aca7",
+      "filename": "documentation_2026-01-13T07:56:24.872Z.md",
+      "contentHash": "d8cc7dc8e540c5e32a1999cb25cb016981fd268d5692c9def453f9f724250edb",
+      "sourceUrl": "https://pokemmo.shoutwiki.com/wiki/",
+      "canonicalSourceUrl": "https://pokemmo.shoutwiki.com/wiki",
+      "capturedAt": "2026-01-13T07:56:24.872Z",
+      "crawlRunId": "957b053cb2cbec8f68b5c6d72dc6c53fb34b82c2eb85d8f3f6fa8c930b4fc145",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "503 Service Unavailable",
+          "url": "https://pokemmo.shoutwiki.com/wiki/"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

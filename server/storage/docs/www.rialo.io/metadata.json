@@ -48,5 +48,91 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.rialo.io/",
+      "canonicalSeedUrl": "https://www.rialo.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-26T13:55:13.574Z",
+      "completedAt": "2025-09-26T13:55:13.574Z",
+      "providerTotals": {
+        "discovered": 7,
+        "returned": 7,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.rialo.io/",
+          "canonicalUrl": "https://www.rialo.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "b44fb03781861192c5e50eaf5d7906c21adf894c8d139a34b19fe4a0aee2a19d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7cc19848f0406e2f7fae53e248da6b30a07542198a0d86846d6ea95546b09aaf",
+      "filename": "documentation_2025-09-26T13:55:13.574Z.md",
+      "contentHash": "0ac4f90ff6ae926d865b2e7004b4aefe036dccbf018880e640df1073dc610449",
+      "sourceUrl": "https://www.rialo.io/",
+      "canonicalSourceUrl": "https://www.rialo.io/",
+      "capturedAt": "2025-09-26T13:55:13.574Z",
+      "crawlRunId": "b44fb03781861192c5e50eaf5d7906c21adf894c8d139a34b19fe4a0aee2a19d",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 7,
+      "successfulPages": 7,
+      "structure": [
+        {
+          "type": "Rialo Isn't a Layer One.",
+          "url": "https://www.rialo.io/"
+        },
+        {
+          "type": "Rialo",
+          "url": "https://www.rialo.io/posts/introducing-rialo"
+        },
+        {
+          "type": "Rialo",
+          "url": "https://www.rialo.io/posts/rialo-makes-real-world-assets-real"
+        },
+        {
+          "type": "Rialo",
+          "url": "https://www.rialo.io/posts/making-the-agent-economy-simple-and-safe-with-rialo"
+        },
+        {
+          "type": "Privacy Policy",
+          "url": "https://www.rialo.io/privacy-policy"
+        },
+        {
+          "type": "Brand Assets",
+          "url": "https://www.rialo.io/brand-assets"
+        },
+        {
+          "type": "Terms of Service",
+          "url": "https://www.rialo.io/terms-of-service"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7cc19848f0406e2f7fae53e248da6b30a07542198a0d86846d6ea95546b09aaf"
 }

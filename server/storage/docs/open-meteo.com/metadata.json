@@ -145,5 +145,179 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://open-meteo.com/en/docs",
+      "canonicalSeedUrl": "https://open-meteo.com/en/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-21T20:50:52.435Z",
+      "completedAt": "2026-01-21T20:50:52.435Z",
+      "providerTotals": {
+        "discovered": 29,
+        "returned": 29,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://open-meteo.com/en/docs",
+          "canonicalUrl": "https://open-meteo.com/en/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "a71936b20ae998d3d53eb37f0634f516cbcc2f94afab5412f7c1558fe17604dc",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "287a0280787d548b757254d788e5c2f4f0962590a98af07cab1f4e1edbc0021c",
+      "filename": "documentation_2026-01-21T20:50:52.435Z.md",
+      "contentHash": "5741a8edd3896f9f115fe5a252570df8f5dc9a5ee3b9e6426666cbd98b354c82",
+      "sourceUrl": "https://open-meteo.com/en/docs",
+      "canonicalSourceUrl": "https://open-meteo.com/en/docs",
+      "capturedAt": "2026-01-21T20:50:52.435Z",
+      "crawlRunId": "a71936b20ae998d3d53eb37f0634f516cbcc2f94afab5412f7c1558fe17604dc",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 29,
+      "successfulPages": 29,
+      "structure": [
+        {
+          "type": "🌦️ Docs | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs"
+        },
+        {
+          "type": "Historical Forecast API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/historical-forecast-api"
+        },
+        {
+          "type": "Previous Runs API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/previous-runs-api"
+        },
+        {
+          "type": "DWD ICON API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/dwd-api"
+        },
+        {
+          "type": "GFS & HRRR API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/gfs-api"
+        },
+        {
+          "type": "Météo-France API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/meteofrance-api"
+        },
+        {
+          "type": "MeteoSwiss ICON API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/meteoswiss-api"
+        },
+        {
+          "type": "ECMWF Forecast API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/ecmwf-api"
+        },
+        {
+          "type": "JMA API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/jma-api"
+        },
+        {
+          "type": "UK Met Office API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/ukmo-api"
+        },
+        {
+          "type": "MET Norway API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/metno-api"
+        },
+        {
+          "type": "UK Met Office API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/kma-api"
+        },
+        {
+          "type": "BOM ACCESS-G Weather Model API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/bom-api"
+        },
+        {
+          "type": "🏛️ Historical Weather API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/historical-weather-api"
+        },
+        {
+          "type": "KNMI Weather Model API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/knmi-api"
+        },
+        {
+          "type": "ItaliaMeteo ARPAE ICON-2i | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/italia-meteo-arpae-api"
+        },
+        {
+          "type": "DMI Weather Model API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/dmi-api"
+        },
+        {
+          "type": "🌡️ Climate API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/climate-api"
+        },
+        {
+          "type": "Satellite Radiation API 🛰️☀️ | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/satellite-radiation-api"
+        },
+        {
+          "type": "🌊 Marine Weather API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/marine-weather-api"
+        },
+        {
+          "type": "Elevation API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/elevation-api"
+        },
+        {
+          "type": "Geocoding API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/geocoding-api"
+        },
+        {
+          "type": "💨 Air Quality API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/air-quality-api"
+        },
+        {
+          "type": "API Production Status | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/model-updates"
+        },
+        {
+          "type": "Flood API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/flood-api"
+        },
+        {
+          "type": "Ensemble API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/ensemble-api"
+        },
+        {
+          "type": "Seasonal Weather Forecast API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/seasonal-forecast-api"
+        },
+        {
+          "type": "GEM API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/gem-api"
+        },
+        {
+          "type": "CMA GFS GRAPES Weather Model API | Open-Meteo.com",
+          "url": "https://open-meteo.com/en/docs/cma-api"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "287a0280787d548b757254d788e5c2f4f0962590a98af07cab1f4e1edbc0021c"
 }

@@ -289,5 +289,323 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.arc.network/app-kit/send",
+      "canonicalSeedUrl": "https://docs.arc.network/app-kit/send",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-15T19:43:27.519Z",
+      "completedAt": "2026-04-15T19:43:27.519Z",
+      "providerTotals": {
+        "discovered": 65,
+        "returned": 65,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.arc.network/app-kit/send",
+          "canonicalUrl": "https://docs.arc.network/app-kit/send",
+          "status": "valid"
+        }
+      ],
+      "id": "4e015fa5b29a52ca76ffadb10a677312d24dcab9f4add1728a63ce8baa282257",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "072672f641914f9889a12009f29bcaa66f8848c664c03ccb0337db2c251cab0d",
+      "filename": "documentation_2026-04-15T19:43:27.519Z.md",
+      "contentHash": "10d8da8e94fb17b262adb31590b183c72421fb8b3ac17e3c843ad04087b9abae",
+      "sourceUrl": "https://docs.arc.network/app-kit/send",
+      "canonicalSourceUrl": "https://docs.arc.network/app-kit/send",
+      "capturedAt": "2026-04-15T19:43:27.519Z",
+      "crawlRunId": "4e015fa5b29a52ca76ffadb10a677312d24dcab9f4add1728a63ce8baa282257",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 65,
+      "successfulPages": 65,
+      "structure": [
+        {
+          "type": "App Kit: Send - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/send"
+        },
+        {
+          "type": "Welcome to Arc docs - Arc Docs",
+          "url": "https://docs.arc.network/"
+        },
+        {
+          "type": "App Kit: Swap - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/swap"
+        },
+        {
+          "type": "How swap fees work - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/concepts/swap-fees"
+        },
+        {
+          "type": "Arc MCP server - Arc Docs",
+          "url": "https://docs.arc.network/ai/mcp"
+        },
+        {
+          "type": "App Kit supported blockchains and tokens - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/references/supported-blockchains"
+        },
+        {
+          "type": "Install App Kit - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/tutorials/installation"
+        },
+        {
+          "type": "How bridge fees work - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/concepts/bridge-fees"
+        },
+        {
+          "type": "App Kit: Bridge - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/bridge"
+        },
+        {
+          "type": "Consensus layer - Arc Docs",
+          "url": "https://docs.arc.network/arc/concepts/consensus-layer"
+        },
+        {
+          "type": "How to: Configure transfer speed and maximum cost - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/tutorials/bridge/configure-transfer-speed"
+        },
+        {
+          "type": "How to: Collect custom swap fees - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/tutorials/swap/collect-swap-fee"
+        },
+        {
+          "type": "Arc Network - Arc Docs",
+          "url": "https://docs.arc.network/arc-chain"
+        },
+        {
+          "type": "How-to: Estimate swap rate - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/tutorials/swap/estimate-swap-rate"
+        },
+        {
+          "type": "How to: Use the CCTP forwarding service - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/tutorials/bridge/use-forwarding-service"
+        },
+        {
+          "type": "How to: Estimate costs before bridging - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/tutorials/bridge/estimate-costs"
+        },
+        {
+          "type": "How to: Specify a recipient address - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/tutorials/bridge/specify-recipient-address"
+        },
+        {
+          "type": "Quickstart: Send tokens across wallets on the same blockchain - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/quickstarts/send-tokens-same-chain"
+        },
+        {
+          "type": "How to: Collect custom bridge fees - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/tutorials/bridge/collect-bridge-fee"
+        },
+        {
+          "type": "App Kit - Arc Docs",
+          "url": "https://docs.arc.network/app-kit"
+        },
+        {
+          "type": "Quickstart: Swap tokens on a blockchain - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/quickstarts/swap-tokens-same-chain"
+        },
+        {
+          "type": "Quickstart: Bridge between Solana and EVM - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/quickstarts/bridge-between-solana-and-evm"
+        },
+        {
+          "type": "Quickstart: Bridge between EVM chains - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/quickstarts/bridge-between-evm-chains"
+        },
+        {
+          "type": "Error recovery and troubleshooting for bridges - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/references/bridge-error-recovery"
+        },
+        {
+          "type": "Quickstart: Bridge with Circle Wallets - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/quickstarts/bridge-with-circle-wallets"
+        },
+        {
+          "type": "Quickstart: Swap tokens across chains - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/quickstarts/swap-tokens-crosschain"
+        },
+        {
+          "type": "Adapter setups - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/tutorials/adapter-setups"
+        },
+        {
+          "type": "How-to: Set slippage tolerance or stop limit on swaps - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/tutorials/swap/set-slippage-tolerance-or-stop-limit"
+        },
+        {
+          "type": "App Kit SDK reference - Arc Docs",
+          "url": "https://docs.arc.network/app-kit/references/sdk-reference"
+        },
+        {
+          "type": "Deterministic finality and settlement - Arc Docs",
+          "url": "https://docs.arc.network/arc/concepts/deterministic-finality"
+        },
+        {
+          "type": "Execution layer - Arc Docs",
+          "url": "https://docs.arc.network/arc/concepts/execution-layer"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.arc.network/ai/llms"
+        },
+        {
+          "type": "Opt-in privacy - Arc Docs",
+          "url": "https://docs.arc.network/arc/concepts/opt-in-privacy"
+        },
+        {
+          "type": "Fees - Arc Docs",
+          "url": "https://docs.arc.network/arc/concepts/stable-fee-design"
+        },
+        {
+          "type": "Post-quantum security - Arc Docs",
+          "url": "https://docs.arc.network/arc/concepts/post-quantum-security"
+        },
+        {
+          "type": "Running a node - Arc Docs",
+          "url": "https://docs.arc.network/arc/concepts/running-a-node"
+        },
+        {
+          "type": "Architecture - Arc Docs",
+          "url": "https://docs.arc.network/arc/concepts/system-overview"
+        },
+        {
+          "type": "Contract addresses - Arc Docs",
+          "url": "https://docs.arc.network/arc/references/contract-addresses"
+        },
+        {
+          "type": "Connect to Arc - Arc Docs",
+          "url": "https://docs.arc.network/arc/references/connect-to-arc"
+        },
+        {
+          "type": "EVM compatibility - Arc Docs",
+          "url": "https://docs.arc.network/arc/references/evm-compatibility"
+        },
+        {
+          "type": "Gas and fees - Arc Docs",
+          "url": "https://docs.arc.network/arc/references/gas-and-fees"
+        },
+        {
+          "type": "Node requirements - Arc Docs",
+          "url": "https://docs.arc.network/arc/references/node-requirements"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.arc.network/llms.txt"
+        },
+        {
+          "type": "Sample apps - Arc Docs",
+          "url": "https://docs.arc.network/arc/references/sample-applications"
+        },
+        {
+          "type": "Compliance - Arc Docs",
+          "url": "https://docs.arc.network/arc/tools/compliance-vendors"
+        },
+        {
+          "type": "Data indexers - Arc Docs",
+          "url": "https://docs.arc.network/arc/tools/data-indexers"
+        },
+        {
+          "type": "Account abstraction - Arc Docs",
+          "url": "https://docs.arc.network/arc/tools/account-abstraction"
+        },
+        {
+          "type": "Deploying a node as a service - Arc Docs",
+          "url": "https://docs.arc.network/arc/tutorials/deploy-node-as-service"
+        },
+        {
+          "type": "Integrate with Arc - Arc Docs",
+          "url": "https://docs.arc.network/integrate"
+        },
+        {
+          "type": "Node providers - Arc Docs",
+          "url": "https://docs.arc.network/arc/tools/node-providers"
+        },
+        {
+          "type": "Monitoring a node - Arc Docs",
+          "url": "https://docs.arc.network/arc/tutorials/monitor-a-node"
+        },
+        {
+          "type": "Run an Arc node - Arc Docs",
+          "url": "https://docs.arc.network/arc/tutorials/run-an-arc-node"
+        },
+        {
+          "type": "Deploy on Arc - Arc Docs",
+          "url": "https://docs.arc.network/arc/tutorials/deploy-on-arc"
+        },
+        {
+          "type": "Connect to Arc - Arc Docs",
+          "url": "https://docs.arc.network/integrate/connect-to-arc"
+        },
+        {
+          "type": "Build on Arc - Arc Docs",
+          "url": "https://docs.arc.network/build"
+        },
+        {
+          "type": "Deploy on Arc - Arc Docs",
+          "url": "https://docs.arc.network/integrate/deploy-on-arc"
+        },
+        {
+          "type": "Terms of Service - Arc Docs",
+          "url": "https://docs.arc.network/terms"
+        },
+        {
+          "type": "Bridge USDC to Arc - Arc Docs",
+          "url": "https://docs.arc.network/arc/tutorials/bridge-usdc-to-arc"
+        },
+        {
+          "type": "Monitor contract events - Arc Docs",
+          "url": "https://docs.arc.network/arc/tutorials/monitor-contract-events"
+        },
+        {
+          "type": "Transfer USDC or EURC - Arc Docs",
+          "url": "https://docs.arc.network/arc/tutorials/transfer-usdc-or-eurc"
+        },
+        {
+          "type": "Interact with contracts - Arc Docs",
+          "url": "https://docs.arc.network/arc/tutorials/interact-with-contracts"
+        },
+        {
+          "type": "Access USDC crosschain - Arc Docs",
+          "url": "https://docs.arc.network/arc/tutorials/access-usdc-crosschain"
+        },
+        {
+          "type": "Deploy contracts - Arc Docs",
+          "url": "https://docs.arc.network/arc/tutorials/deploy-contracts"
+        },
+        {
+          "type": "Create your first ERC-8183 job - Arc Docs",
+          "url": "https://docs.arc.network/arc/tutorials/create-your-first-erc-8183-job"
+        },
+        {
+          "type": "Register your first AI agent - Arc Docs",
+          "url": "https://docs.arc.network/arc/tutorials/register-your-first-ai-agent"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "072672f641914f9889a12009f29bcaa66f8848c664c03ccb0337db2c251cab0d"
 }

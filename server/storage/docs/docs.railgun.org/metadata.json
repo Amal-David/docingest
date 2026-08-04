@@ -184,5 +184,191 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.railgun.org/wiki",
+      "canonicalSeedUrl": "https://docs.railgun.org/wiki",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-14T21:28:22.872Z",
+      "completedAt": "2026-02-14T21:28:22.872Z",
+      "providerTotals": {
+        "discovered": 32,
+        "returned": 32,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.railgun.org/wiki",
+          "canonicalUrl": "https://docs.railgun.org/wiki",
+          "status": "valid"
+        }
+      ],
+      "id": "92f9c4c7b7621a96ea126341f3f670711e9a98b32c0b112e2fb2dbc57146fd52",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4f015e45ef58fcad5e6ab6f081ad3780ecc1b184bf34318432ed56904f87f148",
+      "filename": "documentation_2026-02-14T21:28:22.872Z.md",
+      "contentHash": "d89baa6d349e65ffc7b9ba31a2afd46794678fb875af8a86fa9575d114e3ccb9",
+      "sourceUrl": "https://docs.railgun.org/wiki",
+      "canonicalSourceUrl": "https://docs.railgun.org/wiki",
+      "capturedAt": "2026-02-14T21:28:22.872Z",
+      "crawlRunId": "92f9c4c7b7621a96ea126341f3f670711e9a98b32c0b112e2fb2dbc57146fd52",
+      "upstreamVersion": "1.3.1",
+      "upstreamChannel": "latest",
+      "totalPages": 32,
+      "successfulPages": 32,
+      "structure": [
+        {
+          "type": "Overview | Wiki",
+          "url": "https://docs.railgun.org/wiki"
+        },
+        {
+          "type": "RAILGUN Privacy System | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/privacy-system"
+        },
+        {
+          "type": "Getting Started | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/getting-started"
+        },
+        {
+          "type": "Trusted Setup Ceremony | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/privacy-system/trusted-setup-ceremony"
+        },
+        {
+          "type": "Zero-Knowledge Cryptography | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/privacy-system/zero-knowledge-cryptography"
+        },
+        {
+          "type": "Privacy Overview | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/privacy-system/privacy-overview"
+        },
+        {
+          "type": "Using Private Tokens | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/using-private-tokens"
+        },
+        {
+          "type": "Wallets and Keys | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/wallets-and-keys"
+        },
+        {
+          "type": "Community Broadcasters | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/privacy-system/community-broadcasters"
+        },
+        {
+          "type": "Shielding Tokens | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/shielding-tokens"
+        },
+        {
+          "type": "Private Proofs of Innocence | Wiki",
+          "url": "https://docs.railgun.org/wiki/assurance/private-proofs-of-innocence"
+        },
+        {
+          "type": "Integrating RAILGUN | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/integrating-railgun"
+        },
+        {
+          "type": "Gasless Interactions | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/using-private-tokens/gasless-interactions"
+        },
+        {
+          "type": "RAILGUN SDKs | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/integrating-railgun/railgun-sdks"
+        },
+        {
+          "type": "Adapt Modules | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/integrating-railgun/adapt-modules"
+        },
+        {
+          "type": "Example - DEX Swaps | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/integrating-railgun/example-dex-swaps"
+        },
+        {
+          "type": "RAILGUN Deductions | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/railgun-deductions"
+        },
+        {
+          "type": "Unshielding Tokens | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/unshielding-tokens"
+        },
+        {
+          "type": "Helpful Links | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/helpful-links"
+        },
+        {
+          "type": "RAILGUN Assurance Suite | Wiki",
+          "url": "https://docs.railgun.org/wiki/assurance/railgun-assurance-suite"
+        },
+        {
+          "type": "Koinly Tax Exports | Wiki",
+          "url": "https://docs.railgun.org/wiki/assurance/koinly-tax-exports"
+        },
+        {
+          "type": "RAIL Token Overview | Wiki",
+          "url": "https://docs.railgun.org/wiki/rail-token/rail-token-overview"
+        },
+        {
+          "type": "RAIL Active Governor Allocation | Wiki",
+          "url": "https://docs.railgun.org/wiki/rail-token/rail-active-governor-allocation"
+        },
+        {
+          "type": "RAIL Tokenomics | Wiki",
+          "url": "https://docs.railgun.org/wiki/rail-token/rail-tokenomics"
+        },
+        {
+          "type": "How to Lock RAIL | Wiki",
+          "url": "https://docs.railgun.org/wiki/rail-token/how-to-stake-rail-tokens"
+        },
+        {
+          "type": "Decentralized Governance | Wiki",
+          "url": "https://docs.railgun.org/wiki/rail-token/protocol-governance"
+        },
+        {
+          "type": "Overview | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn"
+        },
+        {
+          "type": "Private Proofs of Innocence | Wiki",
+          "url": "https://docs.railgun.org/wiki/assurance"
+        },
+        {
+          "type": "RAIL Token Overview | Wiki",
+          "url": "https://docs.railgun.org/wiki/rail-token"
+        },
+        {
+          "type": "Gasless Interactions | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/using-shielded-tokens/gasless-transactions"
+        },
+        {
+          "type": "RAILGUN Deductions | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/railgun-fees"
+        },
+        {
+          "type": "Community Broadcasters | Wiki",
+          "url": "https://docs.railgun.org/wiki/learn/privacy-system/community-relayers"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4f015e45ef58fcad5e6ab6f081ad3780ecc1b184bf34318432ed56904f87f148"
 }

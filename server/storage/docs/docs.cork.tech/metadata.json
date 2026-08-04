@@ -51,5 +51,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.cork.tech",
+      "canonicalSeedUrl": "https://docs.cork.tech/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-14T11:43:24.510Z",
+      "completedAt": "2025-03-14T11:43:24.510Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.cork.tech",
+          "canonicalUrl": "https://docs.cork.tech/",
+          "status": "valid"
+        }
+      ],
+      "id": "0e5c4575a7bdb147f54ee263d398136aa3529b6f3e9364663c9a6f16020eba5c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4c1aec5dbd85d9efaef45428cfa52f2d90aaed2c193584bf205dfa913d66b2e4",
+      "filename": "documentation_2025-03-14T11:43:24.510Z.md",
+      "contentHash": "55360fa53221e2dc0bb23dda08c09bd422069b3f24be0501e9058d0c2ba77ba7",
+      "sourceUrl": "https://docs.cork.tech",
+      "canonicalSourceUrl": "https://docs.cork.tech/",
+      "capturedAt": "2025-03-14T11:43:24.510Z",
+      "crawlRunId": "0e5c4575a7bdb147f54ee263d398136aa3529b6f3e9364663c9a6f16020eba5c",
+      "upstreamVersion": "1.3.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "What is Cork? | Cork Protocol Docs",
+          "url": "https://docs.cork.tech"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4c1aec5dbd85d9efaef45428cfa52f2d90aaed2c193584bf205dfa913d66b2e4"
 }

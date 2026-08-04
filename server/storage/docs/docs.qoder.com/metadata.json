@@ -120,5 +120,163 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.qoder.com/",
+      "canonicalSeedUrl": "https://docs.qoder.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-22T06:26:04.053Z",
+      "completedAt": "2025-08-22T06:26:04.053Z",
+      "providerTotals": {
+        "discovered": 25,
+        "returned": 25,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.qoder.com/",
+          "canonicalUrl": "https://docs.qoder.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "7ba0bc3b3f49958077e7bd54eeab528f1d2a7d40cdd837e1c2a8c2c80945c979",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "237946005e7960db26e188b04f75a24161cea7c0ea6a21f3988c6ce686ed012b",
+      "filename": "documentation_2025-08-22T06:26:04.053Z.md",
+      "contentHash": "656fd088c6c266e4deb8b9ebdf5a712ad9b938a9406589bf3ea9a5f8c4c0a01a",
+      "sourceUrl": "https://docs.qoder.com/",
+      "canonicalSourceUrl": "https://docs.qoder.com/",
+      "capturedAt": "2025-08-22T06:26:04.053Z",
+      "crawlRunId": "7ba0bc3b3f49958077e7bd54eeab528f1d2a7d40cdd837e1c2a8c2c80945c979",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 25,
+      "successfulPages": 25,
+      "structure": [
+        {
+          "type": "Introduction - Qoder",
+          "url": "https://docs.qoder.com/"
+        },
+        {
+          "type": "Credits - Qoder",
+          "url": "https://docs.qoder.com/Credits"
+        },
+        {
+          "type": "Quick Start - Qoder",
+          "url": "https://docs.qoder.com/quick-start"
+        },
+        {
+          "type": "Troubleshooting Guide - Qoder",
+          "url": "https://docs.qoder.com/troubleshooting/troubleshooting-guide"
+        },
+        {
+          "type": "Introduction - Qoder",
+          "url": "https://docs.qoder.com/index"
+        },
+        {
+          "type": "Common Issues - Qoder",
+          "url": "https://docs.qoder.com/troubleshooting/common-issue"
+        },
+        {
+          "type": "Terminal Execution Exceptions - Qoder",
+          "url": "https://docs.qoder.com/troubleshooting/terminal-execution-exceptions"
+        },
+        {
+          "type": "MCP Common Issues - Qoder",
+          "url": "https://docs.qoder.com/troubleshooting/mcp-common-issue"
+        },
+        {
+          "type": "Memory - Qoder",
+          "url": "https://docs.qoder.com/user-guide/chat/memory"
+        },
+        {
+          "type": "Context - Qoder",
+          "url": "https://docs.qoder.com/user-guide/chat/context"
+        },
+        {
+          "type": "Tools - Qoder",
+          "url": "https://docs.qoder.com/user-guide/chat/tools"
+        },
+        {
+          "type": "Configure a Network Proxy - Qoder",
+          "url": "https://docs.qoder.com/user-guide/configure-network-proxy"
+        },
+        {
+          "type": "Indexing - Qoder",
+          "url": "https://docs.qoder.com/user-guide/indexing"
+        },
+        {
+          "type": "Keyboard Shortcuts - Qoder",
+          "url": "https://docs.qoder.com/user-guide/keyboard-shortcuts"
+        },
+        {
+          "type": "MCP - Qoder",
+          "url": "https://docs.qoder.com/user-guide/chat/model-context-protocol"
+        },
+        {
+          "type": "Code Completion - Qoder",
+          "url": "https://docs.qoder.com/user-guide/code-completion"
+        },
+        {
+          "type": "Ask - Qoder",
+          "url": "https://docs.qoder.com/user-guide/chat/ask"
+        },
+        {
+          "type": "Agent - Qoder",
+          "url": "https://docs.qoder.com/user-guide/chat/agent"
+        },
+        {
+          "type": "Rules - Qoder",
+          "url": "https://docs.qoder.com/user-guide/rules"
+        },
+        {
+          "type": "Quest Mode - Qoder",
+          "url": "https://docs.qoder.com/user-guide/quest-mode"
+        },
+        {
+          "type": "Inline Chat - Qoder",
+          "url": "https://docs.qoder.com/user-guide/inline-chat"
+        },
+        {
+          "type": "Overview - Qoder",
+          "url": "https://docs.qoder.com/user-guide/chat/overview"
+        },
+        {
+          "type": "Diff View - Qoder",
+          "url": "https://docs.qoder.com/user-guide/diff-view"
+        },
+        {
+          "type": "NES - Qoder",
+          "url": "https://docs.qoder.com/user-guide/next-edit-suggestion"
+        },
+        {
+          "type": "Repo Wiki - Qoder",
+          "url": "https://docs.qoder.com/user-guide/repo-wiki"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "237946005e7960db26e188b04f75a24161cea7c0ea6a21f3988c6ce686ed012b"
 }

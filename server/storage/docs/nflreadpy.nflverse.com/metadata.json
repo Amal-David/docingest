@@ -52,5 +52,95 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://nflreadpy.nflverse.com/CHANGELOG/",
+      "canonicalSeedUrl": "https://nflreadpy.nflverse.com/CHANGELOG",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-28T00:59:58.261Z",
+      "completedAt": "2026-02-28T00:59:58.261Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://nflreadpy.nflverse.com/CHANGELOG/",
+          "canonicalUrl": "https://nflreadpy.nflverse.com/CHANGELOG",
+          "status": "valid"
+        }
+      ],
+      "id": "308374f60c027769727b17545134835276e4491776ad830125e6c3d1804989e3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b2ddc83759cef02838cfd32650081028fe37673ea4fca76340a21424f6f224da",
+      "filename": "documentation_2026-02-28T00:59:58.261Z.md",
+      "contentHash": "7dfbb8eecbde832ae2844c27ba7c8bbb32b56861a013866f51c53bd9ca6eeecf",
+      "sourceUrl": "https://nflreadpy.nflverse.com/CHANGELOG/",
+      "canonicalSourceUrl": "https://nflreadpy.nflverse.com/CHANGELOG",
+      "capturedAt": "2026-02-28T00:59:58.261Z",
+      "crawlRunId": "308374f60c027769727b17545134835276e4491776ad830125e6c3d1804989e3",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Changelog - nflreadpy",
+          "url": "https://nflreadpy.nflverse.com/CHANGELOG/"
+        },
+        {
+          "type": "Contributing - nflreadpy",
+          "url": "https://nflreadpy.nflverse.com/CONTRIBUTING/"
+        },
+        {
+          "type": "LICENSE - nflreadpy",
+          "url": "https://nflreadpy.nflverse.com/LICENSE/"
+        },
+        {
+          "type": "Cache Management - nflreadpy",
+          "url": "https://nflreadpy.nflverse.com/api/cache/"
+        },
+        {
+          "type": "Configuration - nflreadpy",
+          "url": "https://nflreadpy.nflverse.com/api/configuration/"
+        },
+        {
+          "type": "nflreadpy",
+          "url": "https://nflreadpy.nflverse.com/"
+        },
+        {
+          "type": "Utilities - nflreadpy",
+          "url": "https://nflreadpy.nflverse.com/api/utils/"
+        },
+        {
+          "type": "Load Functions - nflreadpy",
+          "url": "https://nflreadpy.nflverse.com/api/load_functions/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b2ddc83759cef02838cfd32650081028fe37673ea4fca76340a21424f6f224da"
 }

@@ -128,5 +128,171 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.midas.app",
+      "canonicalSeedUrl": "https://docs.midas.app/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-25T13:29:56.376Z",
+      "completedAt": "2026-03-25T13:29:56.376Z",
+      "providerTotals": {
+        "discovered": 27,
+        "returned": 27,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.midas.app",
+          "canonicalUrl": "https://docs.midas.app/",
+          "status": "valid"
+        }
+      ],
+      "id": "9d2f0904208a8336c28a7b25c800ba8c8c84ab546d2759cd75f0192b32919384",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "571507658a3141d6f9b1789a2ee6556671ff8ed016e37a355411d56303b9464f",
+      "filename": "documentation_2026-03-25T13:29:56.376Z.md",
+      "contentHash": "9d1093afdf20ad6c830d866c313d83a666f13356cc5cf94d5f50c8aae63f1c51",
+      "sourceUrl": "https://docs.midas.app",
+      "canonicalSourceUrl": "https://docs.midas.app/",
+      "capturedAt": "2026-03-25T13:29:56.376Z",
+      "crawlRunId": "9d2f0904208a8336c28a7b25c800ba8c8c84ab546d2759cd75f0192b32919384",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 27,
+      "successfulPages": 27,
+      "structure": [
+        {
+          "type": "About Midas | Midas Documentation",
+          "url": "https://docs.midas.app"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/welcome/quick-guide-to-investing"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/liquidity-and-composability/open-liquidity-architecture"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/liquidity-and-composability/midas-staked-liquidity-msl"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/liquidity-and-composability/composability"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/transparency/transparency-of-collateral"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/transparency/pricing-of-the-mtoken"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/transparency/oracle-architecture"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/transparency/the-midas-attestation-engine"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/investment-risk-management/strategy-rules"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/investment-risk-management/risk-monitoring"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/security/security-framework"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/security/smart-contract-security"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/security/wallet-and-transaction-security"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/security/smart-contract-security-1"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/legal/eligibility-and-compliance"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/security/operational-security"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/legal/investment-risks-1-0-1"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/legal/legal-structure"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/resources/official-links"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/resources/smart-contracts-registry"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/resources/audits"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/resources/methodology-and-definitions"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/resources/policies"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/resources/legal-product-documentation"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/welcome"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://docs.midas.app/resources/support"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "571507658a3141d6f9b1789a2ee6556671ff8ed016e37a355411d56303b9464f"
 }

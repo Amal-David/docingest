@@ -156,5 +156,199 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://junpenglao.gitbooks.io/imap4_guidebook/content/",
+      "canonicalSeedUrl": "https://junpenglao.gitbooks.io/imap4_guidebook/content",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-16T09:53:07.792Z",
+      "completedAt": "2025-07-16T09:53:07.792Z",
+      "providerTotals": {
+        "discovered": 34,
+        "returned": 34,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/",
+          "canonicalUrl": "https://junpenglao.gitbooks.io/imap4_guidebook/content",
+          "status": "valid"
+        }
+      ],
+      "id": "cd1e46b576402941fd4ec0e290c22f8446adde86d3b5dbc2921f4ca2f212b5f5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a386a0dcf6e02778bd5a834c58723d2833dff78d8b0423e4b88f7176643d4358",
+      "filename": "documentation_2025-07-16T09:53:07.792Z.md",
+      "contentHash": "b5fe7fe516dea00a3e6c81c550edc59aa079efd6864c4f22ca6b5752afe869b0",
+      "sourceUrl": "https://junpenglao.gitbooks.io/imap4_guidebook/content/",
+      "canonicalSourceUrl": "https://junpenglao.gitbooks.io/imap4_guidebook/content",
+      "capturedAt": "2025-07-16T09:53:07.792Z",
+      "crawlRunId": "cd1e46b576402941fd4ec0e290c22f8446adde86d3b5dbc2921f4ca2f212b5f5",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 34,
+      "successfulPages": 34,
+      "structure": [
+        {
+          "type": "Introduction · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/"
+        },
+        {
+          "type": "Getting Started · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/readme_intro.html"
+        },
+        {
+          "type": "Installation and running the GUI · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Installation-and-running-the-GUI.html"
+        },
+        {
+          "type": "Overview · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Overview.html"
+        },
+        {
+          "type": "Theory · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/readme_theory.html"
+        },
+        {
+          "type": "Power analysis of iMap4 · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Power-analysis-of-iMap4.html"
+        },
+        {
+          "type": "Pixel Wise Modeling and non-parametric statistics · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Pixel-Wise-Modeling-and-non-parametric-statistics.html"
+        },
+        {
+          "type": "Family-wise error rate (FWER) under H0 · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Family-wise-error-rate-FWER-under-H0.html"
+        },
+        {
+          "type": "Linear Mixed Models · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Linear-Mixed-Models.html"
+        },
+        {
+          "type": "Core functions · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Core-functions.html"
+        },
+        {
+          "type": "Input Matrix · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Input-Matrix.html"
+        },
+        {
+          "type": "LMMmap · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/LMMmap.html"
+        },
+        {
+          "type": "Example 1 (GUI) · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/readme_eg1.html"
+        },
+        {
+          "type": "Using the GUI (1): Import Data and label columns · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Using-the-GUI1.html"
+        },
+        {
+          "type": "Using the GUI (3): Create smoothed fixation matrix · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Using-the-GUI3.html"
+        },
+        {
+          "type": "Using the GUI (4): Optional for preprocessing · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Using-the-GUI4.html"
+        },
+        {
+          "type": "Using the GUI (2): Parameters and Conditions · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Using-the-GUI2.html"
+        },
+        {
+          "type": "Using the GUI (5): Descriptive Statistics Report · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Using-the-GUI5.html"
+        },
+        {
+          "type": "Other useful features and function · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Other-useful-features-and-function.html"
+        },
+        {
+          "type": "Using the GUI (6): Spatial Mapping Using Linear Mixed Models · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Using-the-GUI6.html"
+        },
+        {
+          "type": "Background of Example 2 · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Background-of-Example-2.html"
+        },
+        {
+          "type": "Example 2 (Code) · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/readme_eg2.html"
+        },
+        {
+          "type": "Using the GUI (7): Hypothesis testing and Display results · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Using-the-GUI7.html"
+        },
+        {
+          "type": "References · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/References.html"
+        },
+        {
+          "type": "Future development · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Future-development.html"
+        },
+        {
+          "type": "Background of Example 1 · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Background-of-Example-1.html"
+        },
+        {
+          "type": "Additional information · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/readme_addi.html"
+        },
+        {
+          "type": "Example 3 - Simulation Study A · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Example-3---Simulation-Study-A.html"
+        },
+        {
+          "type": "Analysis using codes: example 2 · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Analysis-using-codes-example-2.html"
+        },
+        {
+          "type": "Using the GUI (8): Post-hoc analysis · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Using-the-GUI8.html"
+        },
+        {
+          "type": "Credit and other information · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Credit-and-other-information.html"
+        },
+        {
+          "type": "Example 4 - Simulation Study B · iMap4 User Guidebook",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/Example-4---Simulation-Study-B.html"
+        },
+        {
+          "type": "Page Not Found · GitBook (Legacy)",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/readme_data&func.html"
+        },
+        {
+          "type": "Page Not Found · GitBook (Legacy)",
+          "url": "https://junpenglao.gitbooks.io/imap4_guidebook/content/StatMap,-Posthoc-and-figure-outputs.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a386a0dcf6e02778bd5a834c58723d2833dff78d8b0423e4b88f7176643d4358"
 }

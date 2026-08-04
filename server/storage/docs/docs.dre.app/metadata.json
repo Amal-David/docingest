@@ -125,5 +125,159 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.dre.app/",
+      "canonicalSeedUrl": "https://docs.dre.app/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-09T07:10:48.323Z",
+      "completedAt": "2026-06-09T07:10:48.323Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.dre.app/",
+          "canonicalUrl": "https://docs.dre.app/",
+          "status": "valid"
+        }
+      ],
+      "id": "cadf7342e88abf7260a01019aa969585fd428cc151d66a7fc991bf71485b90b9",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2689ba40e7b16f281326e9fc9c7931057467054ce8265b2615549e1d6414870c",
+      "filename": "documentation_2026-06-09T07:10:48.323Z.md",
+      "contentHash": "5d2a785b4a7c19295637e5c120191593fc5016ef179a987e3b71941a831de6c0",
+      "sourceUrl": "https://docs.dre.app/",
+      "canonicalSourceUrl": "https://docs.dre.app/",
+      "capturedAt": "2026-06-09T07:10:48.323Z",
+      "crawlRunId": "cadf7342e88abf7260a01019aa969585fd428cc151d66a7fc991bf71485b90b9",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "Welcome to DRE | DRE Docs",
+          "url": "https://docs.dre.app/"
+        },
+        {
+          "type": "Why DRE? | DRE Docs",
+          "url": "https://docs.dre.app/overview/why-dre"
+        },
+        {
+          "type": "Asset Backing | DRE Docs",
+          "url": "https://docs.dre.app/stablecoin/asset-backing"
+        },
+        {
+          "type": "How DRE works | DRE Docs",
+          "url": "https://docs.dre.app/overview/how-dre-works"
+        },
+        {
+          "type": "Market Opportunity | DRE Docs",
+          "url": "https://docs.dre.app/overview/market-opportunity"
+        },
+        {
+          "type": "Proof of Reserves | DRE Docs",
+          "url": "https://docs.dre.app/stablecoin/proof-of-reserves"
+        },
+        {
+          "type": "dreUSDs | DRE Docs",
+          "url": "https://docs.dre.app/stablecoin/dreusds"
+        },
+        {
+          "type": "Brand Guide | DRE Docs",
+          "url": "https://docs.dre.app/resources/brand-guide"
+        },
+        {
+          "type": "Asset Eligibility Framework | DRE Docs",
+          "url": "https://docs.dre.app/stablecoin/asset-eligibility-framework"
+        },
+        {
+          "type": "Oracles | DRE Docs",
+          "url": "https://docs.dre.app/stablecoin/oracles"
+        },
+        {
+          "type": "dreUSD | DRE Docs",
+          "url": "https://docs.dre.app/stablecoin/dreusd"
+        },
+        {
+          "type": "Governance | DRE Docs",
+          "url": "https://docs.dre.app/stablecoin/governance"
+        },
+        {
+          "type": "Risks | DRE Docs",
+          "url": "https://docs.dre.app/trust-and-security/risks"
+        },
+        {
+          "type": "DRE Points | DRE Docs",
+          "url": "https://docs.dre.app/rewards/dre-points"
+        },
+        {
+          "type": "Audits | DRE Docs",
+          "url": "https://docs.dre.app/trust-and-security/audits"
+        },
+        {
+          "type": "Contracts Overview | DRE Docs",
+          "url": "https://docs.dre.app/developers/contracts-overview"
+        },
+        {
+          "type": "Contract Addresses | DRE Docs",
+          "url": "https://docs.dre.app/developers/contract-addresses"
+        },
+        {
+          "type": "FAQ's | DRE Docs",
+          "url": "https://docs.dre.app/resources/faqs"
+        },
+        {
+          "type": "Welcome to DRE | DRE Docs",
+          "url": "https://docs.dre.app/overview"
+        },
+        {
+          "type": "dreUSD | DRE Docs",
+          "url": "https://docs.dre.app/stablecoin"
+        },
+        {
+          "type": "Contracts Overview | DRE Docs",
+          "url": "https://docs.dre.app/developers"
+        },
+        {
+          "type": "DRE Points | DRE Docs",
+          "url": "https://docs.dre.app/rewards"
+        },
+        {
+          "type": "Audits | DRE Docs",
+          "url": "https://docs.dre.app/trust-and-security"
+        },
+        {
+          "type": "Brand Guide | DRE Docs",
+          "url": "https://docs.dre.app/resources"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2689ba40e7b16f281326e9fc9c7931057467054ce8265b2615549e1d6414870c"
 }

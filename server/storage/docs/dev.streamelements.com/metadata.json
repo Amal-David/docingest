@@ -24,5 +24,69 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://dev.streamelements.com/",
+      "canonicalSeedUrl": "https://dev.streamelements.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-06T22:16:29.347Z",
+      "completedAt": "2026-03-06T22:16:29.347Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://dev.streamelements.com/",
+          "canonicalUrl": "https://dev.streamelements.com/",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "9573acaea153c2d50efe0b3a8ea456aec26c6552d3eb6446dc67df1fe1e6866b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "df22d199c568d60049756796415ddb7925bb9b8499b16d42a42bcd9228f0dff9",
+      "filename": "documentation_2026-03-06T22:16:29.347Z.md",
+      "contentHash": "9dc3eeb890c58cf1fcb0a41ffad74b5f971f00d724b49c7500b354f5a22d5de5",
+      "sourceUrl": "https://dev.streamelements.com/",
+      "canonicalSourceUrl": "https://dev.streamelements.com/",
+      "capturedAt": "2026-03-06T22:16:29.347Z",
+      "crawlRunId": "9573acaea153c2d50efe0b3a8ea456aec26c6552d3eb6446dc67df1fe1e6866b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "StreamElements | Stoplight",
+          "url": "https://dev.streamelements.com/"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

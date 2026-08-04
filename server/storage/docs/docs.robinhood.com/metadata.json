@@ -144,5 +144,187 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.robinhood.com/chain",
+      "canonicalSeedUrl": "https://docs.robinhood.com/chain",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-08T01:28:30.888Z",
+      "completedAt": "2026-07-08T01:28:30.888Z",
+      "providerTotals": {
+        "discovered": 31,
+        "returned": 31,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.robinhood.com/chain",
+          "canonicalUrl": "https://docs.robinhood.com/chain",
+          "status": "valid"
+        }
+      ],
+      "id": "9ab73518b784ad6cca3a814cad89dee9bf11f5a4477f358dfc0316c9d588d59b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "eee8dbc6c261430404bf60f803d42fba2563843e904a770a6716cb81b6ff09f8",
+      "filename": "documentation_2026-07-08T01:28:30.888Z.md",
+      "contentHash": "8c11d9e2d7268811827999ce3d65b8ae3697dbc46a3bc4a035bb73099c30fe38",
+      "sourceUrl": "https://docs.robinhood.com/chain",
+      "canonicalSourceUrl": "https://docs.robinhood.com/chain",
+      "capturedAt": "2026-07-08T01:28:30.888Z",
+      "crawlRunId": "9ab73518b784ad6cca3a814cad89dee9bf11f5a4477f358dfc0316c9d588d59b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 31,
+      "successfulPages": 31,
+      "structure": [
+        {
+          "type": "About Robinhood Chain – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain"
+        },
+        {
+          "type": "Robinhood",
+          "url": "https://docs.robinhood.com/"
+        },
+        {
+          "type": "Robinhood",
+          "url": "https://docs.robinhood.com/crypto/connect/"
+        },
+        {
+          "type": "Robinhood",
+          "url": "https://docs.robinhood.com/crypto/trading/"
+        },
+        {
+          "type": "Robinhood",
+          "url": "https://docs.robinhood.com/crypto/"
+        },
+        {
+          "type": "Connecting to Robinhood Chain – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/connecting"
+        },
+        {
+          "type": "Add network to your wallet – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/add-network-to-wallet"
+        },
+        {
+          "type": "Bridging – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/bridging"
+        },
+        {
+          "type": "Building with Stock Tokens – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/building-with-stock-tokens"
+        },
+        {
+          "type": "Differences from Ethereum – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/differences-from-ethereum"
+        },
+        {
+          "type": "Gas & Fees – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/gas-and-fees"
+        },
+        {
+          "type": "Stock Tokens – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/stock-tokens"
+        },
+        {
+          "type": "Transaction Finality – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/transaction-finality"
+        },
+        {
+          "type": "Robinhood Chain Token Contracts – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/contracts"
+        },
+        {
+          "type": "Account Abstraction – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/account-abstraction"
+        },
+        {
+          "type": "Deploy a Contract – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/deploy-smart-contracts"
+        },
+        {
+          "type": "Robinhood Chain Contracts – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/protocol-contracts"
+        },
+        {
+          "type": "Cross-Chain Messaging – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/cross-chain-messaging"
+        },
+        {
+          "type": "Oracles & Price Feeds – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/oracles-and-price-feeds"
+        },
+        {
+          "type": "Run a Robinhood Chain full node – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/run-a-full-node"
+        },
+        {
+          "type": "Notices & Upgrades – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/notices-and-upgrades"
+        },
+        {
+          "type": "Report an issue – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/report-issue"
+        },
+        {
+          "type": "Robinhood Chain Terms of Service – Robinhood Chain Documentation",
+          "url": "https://docs.robinhood.com/chain/terms-of-service"
+        },
+        {
+          "type": "Robinhood RHJ",
+          "url": "http://docs.robinhood.com/rhj"
+        },
+        {
+          "type": "FAQ – Robinhood RHJ",
+          "url": "http://docs.robinhood.com/rhj/faq"
+        },
+        {
+          "type": "Product – Robinhood RHJ",
+          "url": "http://docs.robinhood.com/rhj/product"
+        },
+        {
+          "type": "Service Provider Details – Robinhood RHJ",
+          "url": "http://docs.robinhood.com/rhj/service-providers"
+        },
+        {
+          "type": "Restricted Jurisdictions – Robinhood RHJ",
+          "url": "http://docs.robinhood.com/rhj/restricted-jurisdictions"
+        },
+        {
+          "type": "Use of Website – Robinhood RHJ",
+          "url": "http://docs.robinhood.com/rhj/use-of-website"
+        },
+        {
+          "type": "Corporate Actions – Robinhood RHJ",
+          "url": "http://docs.robinhood.com/rhj/corporate-actions"
+        },
+        {
+          "type": "Price Deviations – Robinhood RHJ",
+          "url": "http://docs.robinhood.com/rhj/price-deviations"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "eee8dbc6c261430404bf60f803d42fba2563843e904a770a6716cb81b6ff09f8"
 }

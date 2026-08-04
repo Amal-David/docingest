@@ -128,5 +128,171 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://galley.gitbook.io/galley-docs",
+      "canonicalSeedUrl": "https://galley.gitbook.io/galley-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-10T18:26:53.644Z",
+      "completedAt": "2026-06-10T18:26:53.644Z",
+      "providerTotals": {
+        "discovered": 27,
+        "returned": 27,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://galley.gitbook.io/galley-docs",
+          "canonicalUrl": "https://galley.gitbook.io/galley-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "b870f0c911e20cba16ef4e538603f87383bd808b179b18bdbc60dcd3c8626b1e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3cc34d9d7b2c2f41bed9a1c6693fc418cdfd82b57333955f777260bf171710f3",
+      "filename": "documentation_2026-06-10T18:26:53.644Z.md",
+      "contentHash": "b610cb44a38c89bd8bb4dc28893fc7d04b115b9b58fd550ba0e8efa36a9a2de4",
+      "sourceUrl": "https://galley.gitbook.io/galley-docs",
+      "canonicalSourceUrl": "https://galley.gitbook.io/galley-docs",
+      "capturedAt": "2026-06-10T18:26:53.644Z",
+      "crawlRunId": "b870f0c911e20cba16ef4e538603f87383bd808b179b18bdbc60dcd3c8626b1e",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 27,
+      "successfulPages": 27,
+      "structure": [
+        {
+          "type": "Bem-Vindo(a)!!! | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs"
+        },
+        {
+          "type": "Entrando no Servidor! | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/inicio"
+        },
+        {
+          "type": "Guias | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/guias"
+        },
+        {
+          "type": "Customizable Player Models (CPM) | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/guias/customizable-player-models-cpm"
+        },
+        {
+          "type": "Recurso de voz | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/guias/recurso-de-voz"
+        },
+        {
+          "type": "Modpack | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/guias/modpack"
+        },
+        {
+          "type": "Sistemas | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/sistemas"
+        },
+        {
+          "type": "História | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/historia"
+        },
+        {
+          "type": "Askalon | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/historia/askalon"
+        },
+        {
+          "type": "Comandos de Jogo | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/guias/comandos-de-jogo"
+        },
+        {
+          "type": "Criadores de Conteúdo | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/regras/criadores-de-conteudo"
+        },
+        {
+          "type": "Hobbies | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/sistemas/hobbies"
+        },
+        {
+          "type": "Player/Item Models | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/regras/player-item-models"
+        },
+        {
+          "type": "Introdução e Conduta | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/regras/introducao-e-conduta"
+        },
+        {
+          "type": "Changelog | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/changelog"
+        },
+        {
+          "type": "Profissões | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/sistemas/profissoes"
+        },
+        {
+          "type": "Progressão | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/sistemas/progressao"
+        },
+        {
+          "type": "Vidas e Mortes | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/sistemas/vidas-e-mortes"
+        },
+        {
+          "type": "Medicina | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/sistemas/medicina"
+        },
+        {
+          "type": "Bênçãos e Maldições | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/sistemas/bencaos-e-maldicoes"
+        },
+        {
+          "type": "Mercantil | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/sistemas/mercantil"
+        },
+        {
+          "type": "Consulta RP | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/guias/consulta-rp"
+        },
+        {
+          "type": "Chegada e Convite | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/historia/chegada-e-convite"
+        },
+        {
+          "type": "Cosmologia | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias/historia/cosmologia"
+        },
+        {
+          "type": "Roleplay | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/regras/roleplay"
+        },
+        {
+          "type": "Entrando no Servidor! | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/guias"
+        },
+        {
+          "type": "Introdução e Conduta | GalleyRP",
+          "url": "https://galley.gitbook.io/galley-docs/regras"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3cc34d9d7b2c2f41bed9a1c6693fc418cdfd82b57333955f777260bf171710f3"
 }

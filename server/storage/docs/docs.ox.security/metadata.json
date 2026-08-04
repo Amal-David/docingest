@@ -226,5 +226,251 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.ox.security/making-connections",
+      "canonicalSeedUrl": "https://docs.ox.security/making-connections",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-29T15:01:17.593Z",
+      "completedAt": "2025-11-29T15:01:17.593Z",
+      "providerTotals": {
+        "discovered": 47,
+        "returned": 47,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.ox.security/making-connections",
+          "canonicalUrl": "https://docs.ox.security/making-connections",
+          "status": "valid"
+        }
+      ],
+      "id": "6d53565ccd125c2ed632fca5ad0bfc38890b220d33516bc72cc964bea40b3449",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "200f1bf7862781971dcd118922d5d82a1f1c008d5336e624351215afb73bebd7",
+      "filename": "documentation_2025-11-29T15:01:17.593Z.md",
+      "contentHash": "780e537039dd044b521777d4a2974b2ce918822f87c60be248b47a04b7bbcd29",
+      "sourceUrl": "https://docs.ox.security/making-connections",
+      "canonicalSourceUrl": "https://docs.ox.security/making-connections",
+      "capturedAt": "2025-11-29T15:01:17.593Z",
+      "crawlRunId": "6d53565ccd125c2ed632fca5ad0bfc38890b220d33516bc72cc964bea40b3449",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 47,
+      "successfulPages": 47,
+      "structure": [
+        {
+          "type": "Making connections | OX docs",
+          "url": "https://docs.ox.security/making-connections"
+        },
+        {
+          "type": "Connectors | OX docs",
+          "url": "https://docs.ox.security/making-connections/connectors"
+        },
+        {
+          "type": "GPT | OX docs",
+          "url": "https://docs.ox.security/making-connections/gpt"
+        },
+        {
+          "type": "OX Broker | OX docs",
+          "url": "https://docs.ox.security/making-connections/ox-broker"
+        },
+        {
+          "type": "Model Context Protocol | OX docs",
+          "url": "https://docs.ox.security/making-connections/model-context-protocol"
+        },
+        {
+          "type": "MCP Integration Guide | OX docs",
+          "url": "https://docs.ox.security/making-connections/model-context-protocol/mcp-integration-guide"
+        },
+        {
+          "type": "GPL-Licensed Components and Source Availability | OX docs",
+          "url": "https://docs.ox.security/making-connections/ox-runtime-sensor/gpl-licensed-components-and-source-availability"
+        },
+        {
+          "type": "OX Connectors | OX docs",
+          "url": "https://docs.ox.security/making-connections/ox-connectors"
+        },
+        {
+          "type": "OX Runtime Sensor | OX docs",
+          "url": "https://docs.ox.security/making-connections/ox-runtime-sensor"
+        },
+        {
+          "type": "Source Control | OX docs",
+          "url": "https://docs.ox.security/making-connections/source-control"
+        },
+        {
+          "type": "OX K8s Inspector | OX docs",
+          "url": "https://docs.ox.security/making-connections/ox-inspector"
+        },
+        {
+          "type": "GitHub | OX docs",
+          "url": "https://docs.ox.security/making-connections/source-control/github"
+        },
+        {
+          "type": "Bitbucket | OX docs",
+          "url": "https://docs.ox.security/making-connections/source-control/bitbucket"
+        },
+        {
+          "type": "GitLab | OX docs",
+          "url": "https://docs.ox.security/making-connections/source-control/gitlab"
+        },
+        {
+          "type": "Getting GitHub Tokens | OX docs",
+          "url": "https://docs.ox.security/making-connections/source-control/github/getting-github-tokens"
+        },
+        {
+          "type": "Ticket Management | OX docs",
+          "url": "https://docs.ox.security/making-connections/ticket-management"
+        },
+        {
+          "type": "Connecting to Azure | OX docs",
+          "url": "https://docs.ox.security/making-connections/source-control/azure/connecting-to-azure"
+        },
+        {
+          "type": "Azure Repos | OX docs",
+          "url": "https://docs.ox.security/making-connections/source-control/azure"
+        },
+        {
+          "type": "Asana Ticketing | OX docs",
+          "url": "https://docs.ox.security/making-connections/ticket-management/asana"
+        },
+        {
+          "type": "Azure Cloud | OX docs",
+          "url": "https://docs.ox.security/making-connections/azure-cloud"
+        },
+        {
+          "type": "GitHub Issues | OX docs",
+          "url": "https://docs.ox.security/making-connections/ticket-management/github-issues"
+        },
+        {
+          "type": "Azure Boards | OX docs",
+          "url": "https://docs.ox.security/making-connections/ticket-management/azure-boards"
+        },
+        {
+          "type": "Tenable | OX docs",
+          "url": "https://docs.ox.security/making-connections/tenable"
+        },
+        {
+          "type": "Invicti | OX docs",
+          "url": "https://docs.ox.security/making-connections/dynamic-app-security/invicti"
+        },
+        {
+          "type": "AWS | OX docs",
+          "url": "https://docs.ox.security/making-connections/aws"
+        },
+        {
+          "type": "GitGuardian | OX docs",
+          "url": "https://docs.ox.security/making-connections/gitguardian"
+        },
+        {
+          "type": "Monday | OX docs",
+          "url": "https://docs.ox.security/making-connections/ticket-management/monday"
+        },
+        {
+          "type": "Bitsight | OX docs",
+          "url": "https://docs.ox.security/making-connections/dynamic-app-security/bitsight"
+        },
+        {
+          "type": "AWS OX Integration Policy | OX docs",
+          "url": "https://docs.ox.security/making-connections/aws/aws-ox-integration-policy"
+        },
+        {
+          "type": "Jira Permissions | OX docs",
+          "url": "https://docs.ox.security/making-connections/ticket-management/jira/jira-permissions"
+        },
+        {
+          "type": "Bright Security | OX docs",
+          "url": "https://docs.ox.security/making-connections/dynamic-app-security/bright"
+        },
+        {
+          "type": "Adding comments to Jira tickets | OX docs",
+          "url": "https://docs.ox.security/making-connections/ticket-management/jira/page-1"
+        },
+        {
+          "type": "JFrog Artifactory | OX docs",
+          "url": "https://docs.ox.security/making-connections/jfrog-artifactory"
+        },
+        {
+          "type": "Applause | OX docs",
+          "url": "https://docs.ox.security/making-connections/dynamic-app-security/applause"
+        },
+        {
+          "type": "Dynamic App Security | OX docs",
+          "url": "https://docs.ox.security/making-connections/dynamic-app-security"
+        },
+        {
+          "type": "Automating Jira Ticketing | OX docs",
+          "url": "https://docs.ox.security/making-connections/ticket-management/jira/automating-jira-ticketing-in-ox"
+        },
+        {
+          "type": "ServiceNow | OX docs",
+          "url": "https://docs.ox.security/making-connections/ticket-management/servicenow"
+        },
+        {
+          "type": "Jenkins | OX docs",
+          "url": "https://docs.ox.security/making-connections/jenkins"
+        },
+        {
+          "type": "Nexus IQ CLI | OX docs",
+          "url": "https://docs.ox.security/making-connections/nexus-iq-cli"
+        },
+        {
+          "type": "Slack | OX docs",
+          "url": "https://docs.ox.security/making-connections/slack"
+        },
+        {
+          "type": "EKS | OX docs",
+          "url": "https://docs.ox.security/making-connections/eks"
+        },
+        {
+          "type": "Red Hat Quay | OX docs",
+          "url": "https://docs.ox.security/making-connections/red-hat-quay"
+        },
+        {
+          "type": "Microsoft Teams | OX docs",
+          "url": "https://docs.ox.security/making-connections/microsoft-teams"
+        },
+        {
+          "type": "Jira | OX docs",
+          "url": "https://docs.ox.security/making-connections/ticket-management/jira"
+        },
+        {
+          "type": "GKE | OX docs",
+          "url": "https://docs.ox.security/making-connections/gke"
+        },
+        {
+          "type": "Google | OX docs",
+          "url": "https://docs.ox.security/making-connections/google"
+        },
+        {
+          "type": "CyCognito | OX docs",
+          "url": "https://docs.ox.security/making-connections/dynamic-app-security/cycognito"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "200f1bf7862781971dcd118922d5d82a1f1c008d5336e624351215afb73bebd7"
 }

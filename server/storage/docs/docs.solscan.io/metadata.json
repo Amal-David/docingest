@@ -212,5 +212,255 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.solscan.io/",
+      "canonicalSeedUrl": "https://docs.solscan.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-23T22:47:35.444Z",
+      "completedAt": "2025-12-23T22:47:35.444Z",
+      "providerTotals": {
+        "discovered": 48,
+        "returned": 48,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.solscan.io/",
+          "canonicalUrl": "https://docs.solscan.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "372af3a7f4e4d6ca3e6041ccc1b80a1e84499f8b5e1e6d5a35d251e91d4d665c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "bacf03ce764eeecda6d3fe4512743b7ba3859df7f6167b4df32d9f3b2dcba7c0",
+      "filename": "documentation_2025-12-23T22:47:35.444Z.md",
+      "contentHash": "8a909df73076276b5032653f712c210f32a09b26893a7963ba2b2d1715f000e7",
+      "sourceUrl": "https://docs.solscan.io/",
+      "canonicalSourceUrl": "https://docs.solscan.io/",
+      "capturedAt": "2025-12-23T22:47:35.444Z",
+      "crawlRunId": "372af3a7f4e4d6ca3e6041ccc1b80a1e84499f8b5e1e6d5a35d251e91d4d665c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 48,
+      "successfulPages": 48,
+      "structure": [
+        {
+          "type": "Solscan Introduction | Solscan Documentation",
+          "url": "https://docs.solscan.io/"
+        },
+        {
+          "type": "Solana Blockchain | Solscan Documentation",
+          "url": "https://docs.solscan.io/solana-blockchain"
+        },
+        {
+          "type": "Home | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/home"
+        },
+        {
+          "type": "Resources | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/resources"
+        },
+        {
+          "type": "Token Page | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/token-page"
+        },
+        {
+          "type": "Blockchain Tab | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/blockchain-tab"
+        },
+        {
+          "type": "Validators | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/resources/validators"
+        },
+        {
+          "type": "Search Bar | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/search-bar"
+        },
+        {
+          "type": "Public API | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/resources/public-api"
+        },
+        {
+          "type": "General | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/solscan-knowledge-base/general"
+        },
+        {
+          "type": "What is Solscan? | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/solscan-knowledge-base/general/what-is-solscan"
+        },
+        {
+          "type": "DeFi Dashboard | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/solscan-knowledge-base/general/defi-dashboard"
+        },
+        {
+          "type": "SOLSCAN KNOWLEDGE BASE | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/solscan-knowledge-base"
+        },
+        {
+          "type": "FAQs | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/solscan-knowledge-base/faqs"
+        },
+        {
+          "type": "NFT Dashboard | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/solscan-knowledge-base/general/nft-dashboard"
+        },
+        {
+          "type": "Parse Instruction | Solscan Documentation",
+          "url": "https://docs.solscan.io/integration/parse-instruction"
+        },
+        {
+          "type": "NFT Page | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/solscan-knowledge-base/general/nft-dashboard/nft-page"
+        },
+        {
+          "type": "Token & App | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/solscan-knowledge-base/token-and-app"
+        },
+        {
+          "type": "Update Token Details | Solscan Documentation",
+          "url": "https://docs.solscan.io/integration/update-token-details"
+        },
+        {
+          "type": "Anchor Verified Programs | Solscan Documentation",
+          "url": "https://docs.solscan.io/transaction-details/anchor-verified-programs"
+        },
+        {
+          "type": "Anchor Integration | Solscan Documentation",
+          "url": "https://docs.solscan.io/integration/anchor-integration"
+        },
+        {
+          "type": "Metaplex Integration | Solscan Documentation",
+          "url": "https://docs.solscan.io/integration/metaplex-integration"
+        },
+        {
+          "type": "Personal Label | Solscan Documentation",
+          "url": "https://docs.solscan.io/solscan-account/personal-label"
+        },
+        {
+          "type": "Developer | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/solscan-knowledge-base/developer"
+        },
+        {
+          "type": "Manage Watchlist | Solscan Documentation",
+          "url": "https://docs.solscan.io/solscan-account/manage-watchlist"
+        },
+        {
+          "type": "Asset Management / Token Holdings | Solscan Documentation",
+          "url": "https://docs.solscan.io/transaction-details/account/asset-management-token-holdings"
+        },
+        {
+          "type": "Analytic Dashboard | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/solscan-knowledge-base/general/analytic-dashboard"
+        },
+        {
+          "type": "Program | Solscan Documentation",
+          "url": "https://docs.solscan.io/transaction-details/program"
+        },
+        {
+          "type": "TX MAP | Solscan Documentation",
+          "url": "https://docs.solscan.io/transaction-details/transaction-details/tx-map"
+        },
+        {
+          "type": "Notification Bot | Solscan Documentation",
+          "url": "https://docs.solscan.io/solscan-account/notification-bot"
+        },
+        {
+          "type": "Homepage | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/solscan-knowledge-base/general/homepage"
+        },
+        {
+          "type": "Download CSV Report | Solscan Documentation",
+          "url": "https://docs.solscan.io/solscan-tool/download-csv-report"
+        },
+        {
+          "type": "Create & Manage Your Account | Solscan Documentation",
+          "url": "https://docs.solscan.io/solscan-account/create-and-manage-your-account"
+        },
+        {
+          "type": "Tutorial | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/solscan-knowledge-base/tutorial"
+        },
+        {
+          "type": "Solscan Integration Guideline | Solscan Documentation",
+          "url": "https://docs.solscan.io/integration/solscan-integration-guideline"
+        },
+        {
+          "type": "Collection Page | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/solscan-knowledge-base/general/nft-dashboard/collection-page"
+        },
+        {
+          "type": "Interact With Program | Solscan Documentation",
+          "url": "https://docs.solscan.io/solscan-tool/interact-with-program"
+        },
+        {
+          "type": "Transaction Details | Solscan Documentation",
+          "url": "https://docs.solscan.io/transaction-details/transaction-details"
+        },
+        {
+          "type": "Account | Solscan Documentation",
+          "url": "https://docs.solscan.io/transaction-details/account"
+        },
+        {
+          "type": "Dashboard Overview | Solscan Documentation",
+          "url": "https://docs.solscan.io/browsing-the-site/solscan-knowledge-base/general/nft-dashboard/dashboard-overview"
+        },
+        {
+          "type": "Solscan Pro API Data Coverage | Solscan Documentation",
+          "url": "https://docs.solscan.io/solscan-pro-api-data-coverage"
+        },
+        {
+          "type": "Pro API Error Type | Solscan Documentation",
+          "url": "https://docs.solscan.io/api-access/pro-api-error-type"
+        },
+        {
+          "type": "Solscan Pro API FAQ | Solscan Documentation",
+          "url": "https://docs.solscan.io/api-access/solscan-pro-api-faq"
+        },
+        {
+          "type": "Labeling | Solscan Documentation",
+          "url": "https://docs.solscan.io/transaction-details/labeling"
+        },
+        {
+          "type": "Pro API Endpoints | Solscan Documentation",
+          "url": "https://docs.solscan.io/api-access/pro-api-endpoints"
+        },
+        {
+          "type": "How to generate your Solscan Pro API Key | Solscan Documentation",
+          "url": "https://docs.solscan.io/api-access/how-to-generate-your-solscan-pro-api-key"
+        },
+        {
+          "type": "Pro API Terms and Services | Solscan Documentation",
+          "url": "https://docs.solscan.io/api-access/pro-api-terms-and-services"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.solscan.io/cdn-cgi/l/email-protection"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "bacf03ce764eeecda6d3fe4512743b7ba3859df7f6167b4df32d9f3b2dcba7c0"
 }

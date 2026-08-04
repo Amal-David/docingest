@@ -64,5 +64,71 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.tradingview.com/support/knowledge-base/",
+      "canonicalSeedUrl": "https://www.tradingview.com/support/knowledge-base",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-16T07:04:57.310Z",
+      "completedAt": "2026-04-16T07:04:57.310Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.tradingview.com/support/knowledge-base/",
+          "canonicalUrl": "https://www.tradingview.com/support/knowledge-base",
+          "status": "valid"
+        }
+      ],
+      "id": "e653a4298503d6cd2e80b96e56f4fbe9e7cc2788dd180448e7b35b5c75a8c70d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d63a1e130d7cae656ae0407c63959f2d0bc5a600ba44d975cceba34b2f1ca7e7",
+      "filename": "documentation_2026-04-16T07:04:57.310Z.md",
+      "contentHash": "426d27cea771919b31588a9dbe2e18aae5b78b7c7b3b7d0008624fbdf7d40878",
+      "sourceUrl": "https://www.tradingview.com/support/knowledge-base/",
+      "canonicalSourceUrl": "https://www.tradingview.com/support/knowledge-base",
+      "capturedAt": "2026-04-16T07:04:57.310Z",
+      "crawlRunId": "e653a4298503d6cd2e80b96e56f4fbe9e7cc2788dd180448e7b35b5c75a8c70d",
+      "upstreamVersion": "1.2.2",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Help Center and Support — TradingView",
+          "url": "https://www.tradingview.com/support/knowledge-base/"
+        },
+        {
+          "type": "Help Center and Support — TradingView",
+          "url": "https://www.tradingview.com/support/knowledge-base/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d63a1e130d7cae656ae0407c63959f2d0bc5a600ba44d975cceba34b2f1ca7e7"
 }

@@ -142,5 +142,167 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://laravel.com/docs/12.x",
+      "canonicalSeedUrl": "https://laravel.com/docs/12.x",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-25T20:09:51.613Z",
+      "completedAt": "2025-04-25T20:09:51.613Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://laravel.com/docs/12.x",
+          "canonicalUrl": "https://laravel.com/docs/12.x",
+          "status": "valid"
+        }
+      ],
+      "id": "8a52c411b2042ec2deaa0f6777b2fbf5c7af9ab07358a108684373ae12b842e8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b34dd056d3eacecdb78e6675f9ce9ef25831cffcaffe43edc296b712a926bc0a",
+      "filename": "documentation_2025-04-25T20:09:51.613Z.md",
+      "contentHash": "a0c95016b0d87c428500253b56964a7d1037626324e4e450318579486bb5a2ca",
+      "sourceUrl": "https://laravel.com/docs/12.x",
+      "canonicalSourceUrl": "https://laravel.com/docs/12.x",
+      "capturedAt": "2025-04-25T20:09:51.613Z",
+      "crawlRunId": "8a52c411b2042ec2deaa0f6777b2fbf5c7af9ab07358a108684373ae12b842e8",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "Installation - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x"
+        },
+        {
+          "type": "Upgrade Guide - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/upgrade"
+        },
+        {
+          "type": "Release Notes - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/releases"
+        },
+        {
+          "type": "Installation - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/installation"
+        },
+        {
+          "type": "Contribution Guide - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/contributions"
+        },
+        {
+          "type": "Configuration - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/configuration"
+        },
+        {
+          "type": "Request Lifecycle - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/lifecycle"
+        },
+        {
+          "type": "Service Providers - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/providers"
+        },
+        {
+          "type": "Directory Structure - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/structure"
+        },
+        {
+          "type": "Frontend - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/frontend"
+        },
+        {
+          "type": "Deployment - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/deployment"
+        },
+        {
+          "type": "Routing - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/routing"
+        },
+        {
+          "type": "Middleware - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/middleware"
+        },
+        {
+          "type": "Starter Kits - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/starter-kits"
+        },
+        {
+          "type": "CSRF Protection - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/csrf"
+        },
+        {
+          "type": "Facades - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/facades"
+        },
+        {
+          "type": "Service Container - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/container"
+        },
+        {
+          "type": "Views - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/views"
+        },
+        {
+          "type": "Controllers - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/controllers"
+        },
+        {
+          "type": "HTTP Requests - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/requests"
+        },
+        {
+          "type": "HTTP Responses - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/responses"
+        },
+        {
+          "type": "Validation - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/validation"
+        },
+        {
+          "type": "URL Generation - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/urls"
+        },
+        {
+          "type": "HTTP Session - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/session"
+        },
+        {
+          "type": "Error Handling - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/errors"
+        },
+        {
+          "type": "Blade Templates - Laravel 12.x - The PHP Framework For Web Artisans",
+          "url": "https://laravel.com/docs/12.x/blade"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b34dd056d3eacecdb78e6675f9ce9ef25831cffcaffe43edc296b712a926bc0a"
 }

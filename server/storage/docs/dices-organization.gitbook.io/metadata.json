@@ -113,5 +113,147 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://dices-organization.gitbook.io/farmroll",
+      "canonicalSeedUrl": "https://dices-organization.gitbook.io/farmroll",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-19T18:03:57.032Z",
+      "completedAt": "2025-07-19T18:03:57.032Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://dices-organization.gitbook.io/farmroll",
+          "canonicalUrl": "https://dices-organization.gitbook.io/farmroll",
+          "status": "valid"
+        }
+      ],
+      "id": "a5c9c2e699f46acd286757caaff5d4f3e37403b402e830b7da8727fd726e3dd6",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "712b87fbacc76809b9dc27721d51572637c1c52f10948d52e6c18fbf160ade0f",
+      "filename": "documentation_2025-07-19T18:03:57.032Z.md",
+      "contentHash": "aefc713947c90c3eb6630e4cf34288f2f8c97b2a1ce65a8bb95af599db3a71a3",
+      "sourceUrl": "https://dices-organization.gitbook.io/farmroll",
+      "canonicalSourceUrl": "https://dices-organization.gitbook.io/farmroll",
+      "capturedAt": "2025-07-19T18:03:57.032Z",
+      "crawlRunId": "a5c9c2e699f46acd286757caaff5d4f3e37403b402e830b7da8727fd726e3dd6",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "Welcome to Farmroll Whitepaper | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll"
+        },
+        {
+          "type": "Technical Architecture Overview | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/rollout/technical-architecture-overview"
+        },
+        {
+          "type": "Addressing the Gaps | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/rollout/markdown"
+        },
+        {
+          "type": "Identifying the Opportunity | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/rollout/editor"
+        },
+        {
+          "type": "Executive Summary | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/enroll/quickstart"
+        },
+        {
+          "type": "Value Proposition | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/rollout/images-and-media"
+        },
+        {
+          "type": "Introduction | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/enroll/publish-your-docs"
+        },
+        {
+          "type": "Platform Governance | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/rollout/openapi"
+        },
+        {
+          "type": "What is Farmroll | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/enroll/what-is-farmroll"
+        },
+        {
+          "type": "Market Landscape and Trends | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/rollout/market-landscape-and-trends"
+        },
+        {
+          "type": "Minswap IDO | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/usdroll/minswap-ido"
+        },
+        {
+          "type": "Tokenomics | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/usdroll/integrations"
+        },
+        {
+          "type": "Rollpaper | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/pitch-deck-and-rollmap/rollpaper"
+        },
+        {
+          "type": "$ROLL utilities | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/usdroll/usdroll-utilities"
+        },
+        {
+          "type": "Pitch Deck | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/pitch-deck-and-rollmap/pitch-deck"
+        },
+        {
+          "type": "Rollmap | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/pitch-deck-and-rollmap/rollmap"
+        },
+        {
+          "type": "Conclusion | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/rollout/conclusion"
+        },
+        {
+          "type": "Market Landscape and Trends | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/rollout"
+        },
+        {
+          "type": "Executive Summary | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/enroll"
+        },
+        {
+          "type": "$ROLL utilities | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/usdroll"
+        },
+        {
+          "type": "Rollpaper | Farmroll",
+          "url": "https://dices-organization.gitbook.io/farmroll/pitch-deck-and-rollmap"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "712b87fbacc76809b9dc27721d51572637c1c52f10948d52e6c18fbf160ade0f"
 }

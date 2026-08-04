@@ -117,5 +117,151 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.magiceden.io/reference/ordinals-overview",
+      "canonicalSeedUrl": "https://docs.magiceden.io/reference/ordinals-overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-23T23:38:23.603Z",
+      "completedAt": "2025-10-23T23:38:23.603Z",
+      "providerTotals": {
+        "discovered": 22,
+        "returned": 22,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.magiceden.io/reference/ordinals-overview",
+          "canonicalUrl": "https://docs.magiceden.io/reference/ordinals-overview",
+          "status": "valid"
+        }
+      ],
+      "id": "11fa0a482d459dcfccedc2434bfcb70fa352ea4bcac9487c24fb5ff2edd0852f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c3a7c95a2135746f5d555511af9e7a902a674fc684c3978c12449b7a8dd694bb",
+      "filename": "documentation_2025-10-23T23:38:23.603Z.md",
+      "contentHash": "1c1f5f9e7b6bef8fb38ec6882b431327398484489005bfa8cde273e860c0351f",
+      "sourceUrl": "https://docs.magiceden.io/reference/ordinals-overview",
+      "canonicalSourceUrl": "https://docs.magiceden.io/reference/ordinals-overview",
+      "capturedAt": "2025-10-23T23:38:23.603Z",
+      "crawlRunId": "11fa0a482d459dcfccedc2434bfcb70fa352ea4bcac9487c24fb5ff2edd0852f",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 22,
+      "successfulPages": 22,
+      "structure": [
+        {
+          "type": "Ordinals API Overview",
+          "url": "https://docs.magiceden.io/reference/ordinals-overview"
+        },
+        {
+          "type": "Magic Eden Developer",
+          "url": "https://docs.magiceden.io/"
+        },
+        {
+          "type": "Magic Eden Developer",
+          "url": "https://docs.magiceden.io/recipes/btc-create-and-submit-runes-listing-order"
+        },
+        {
+          "type": "Magic Eden Developer",
+          "url": "https://docs.magiceden.io/recipes/btc-swap-runes"
+        },
+        {
+          "type": "Magic Eden Developer",
+          "url": "https://docs.magiceden.io/recipes/sol-bid-on-an-individual-nft"
+        },
+        {
+          "type": "Magic Eden Developer",
+          "url": "https://docs.magiceden.io/recipes/btc-sweep-runes"
+        },
+        {
+          "type": "Magic Eden Developer",
+          "url": "https://docs.magiceden.io/recipes/sol-place-collection-bid-from-escrow"
+        },
+        {
+          "type": "Magic Eden Developer",
+          "url": "https://docs.magiceden.io/recipes/sol-list-an-nft"
+        },
+        {
+          "type": "Wallet Docs",
+          "url": "https://docs.magiceden.io/docs/wallet-docs"
+        },
+        {
+          "type": "Changelog",
+          "url": "https://docs.magiceden.io/changelog"
+        },
+        {
+          "type": "Solana - Filtering and Sorting Enhancements",
+          "url": "https://docs.magiceden.io/changelog/sorting-and-filtering-enhancements"
+        },
+        {
+          "type": "Solana - Introducing the AMM Pool API",
+          "url": "https://docs.magiceden.io/changelog/mmm"
+        },
+        {
+          "type": "Recipes",
+          "url": "https://docs.magiceden.io/recipes"
+        },
+        {
+          "type": "Frequently Asked Questions (FAQs)",
+          "url": "https://docs.magiceden.io/reference/frequently-asked-questions-faqs"
+        },
+        {
+          "type": "Solana API Overview",
+          "url": "https://docs.magiceden.io/reference/solana-overview"
+        },
+        {
+          "type": "MMM Pool Pricing",
+          "url": "https://docs.magiceden.io/reference/mmm-pool-pricing"
+        },
+        {
+          "type": "EVM API Overview",
+          "url": "https://docs.magiceden.io/v4.0/reference/evm-api-overview"
+        },
+        {
+          "type": "Recipes",
+          "url": "https://docs.magiceden.io/v4.0/recipes"
+        },
+        {
+          "type": "Wallet Docs",
+          "url": "https://docs.magiceden.io/v4.0/docs"
+        },
+        {
+          "type": "Changelog",
+          "url": "https://docs.magiceden.io/v4.0/changelog"
+        },
+        {
+          "type": "Solana - Introducing the AMM Pool API",
+          "url": "https://docs.magiceden.io/v4.0/changelog/mmm"
+        },
+        {
+          "type": "Solana - Filtering and Sorting Enhancements",
+          "url": "https://docs.magiceden.io/v4.0/changelog/sorting-and-filtering-enhancements"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c3a7c95a2135746f5d555511af9e7a902a674fc684c3978c12449b7a8dd694bb"
 }

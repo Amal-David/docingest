@@ -28,5 +28,73 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://portal.grid.gg/login?requestUrl=/public/documentation/api-documentation",
+      "canonicalSeedUrl": "https://portal.grid.gg/login?requestUrl=%2Fpublic%2Fdocumentation%2Fapi-documentation",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-08T09:57:59.596Z",
+      "completedAt": "2026-02-08T09:57:59.596Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://portal.grid.gg/login?requestUrl=/public/documentation/api-documentation",
+          "canonicalUrl": "https://portal.grid.gg/login?requestUrl=%2Fpublic%2Fdocumentation%2Fapi-documentation",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "49ee500f153e9f58c36e64259e8d19bdb62e1aca46012172ed28565423ac92e2",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ad99c77f2c5cdc368eb5e22140f82008c55c6b7ef3a2c06ad75a76b02346404c",
+      "filename": "documentation_2026-02-08T09:57:59.596Z.md",
+      "contentHash": "e8f30884990b759f9867aa8135546e2e9dd7add58c7a5bfdf6727c3eecaabb7a",
+      "sourceUrl": "https://portal.grid.gg/login?requestUrl=/public/documentation/api-documentation",
+      "canonicalSourceUrl": "https://portal.grid.gg/login?requestUrl=%2Fpublic%2Fdocumentation%2Fapi-documentation",
+      "capturedAt": "2026-02-08T09:57:59.596Z",
+      "crawlRunId": "49ee500f153e9f58c36e64259e8d19bdb62e1aca46012172ed28565423ac92e2",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "GRID",
+          "url": "https://portal.grid.gg/login?requestUrl=/public/documentation/api-documentation"
+        },
+        {
+          "type": "GRID",
+          "url": "https://portal.grid.gg/forgot-password"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

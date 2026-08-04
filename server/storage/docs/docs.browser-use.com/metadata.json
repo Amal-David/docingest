@@ -308,5 +308,351 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.browser-use.com/introduction",
+      "canonicalSeedUrl": "https://docs.browser-use.com/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-27T01:18:52.515Z",
+      "completedAt": "2025-09-27T01:18:52.515Z",
+      "providerTotals": {
+        "discovered": 72,
+        "returned": 72,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.browser-use.com/introduction",
+          "canonicalUrl": "https://docs.browser-use.com/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "0248fdd5c4093afd1788a9f03440a873b85daed0cf11c2a1f26a58615c86526c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b59dac293bb6aa98eee1439b8079d14c1c28b3e8d573b2ef27666c44f3337c5f",
+      "filename": "documentation_2025-09-27T01:18:52.515Z.md",
+      "contentHash": "e2546bcf372a847fb96ebe40b535e1de5a1d997cfbdbaf643741b0a8a3cbc4d8",
+      "sourceUrl": "https://docs.browser-use.com/introduction",
+      "canonicalSourceUrl": "https://docs.browser-use.com/introduction",
+      "capturedAt": "2025-09-27T01:18:52.515Z",
+      "crawlRunId": "0248fdd5c4093afd1788a9f03440a873b85daed0cf11c2a1f26a58615c86526c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 72,
+      "successfulPages": 72,
+      "structure": [
+        {
+          "type": "Introduction - Browser Use",
+          "url": "https://docs.browser-use.com/introduction"
+        },
+        {
+          "type": "Check Balance - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/accounts/check-balance"
+        },
+        {
+          "type": "Me - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/accounts/me"
+        },
+        {
+          "type": "Upload File Presigned Url - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/files/upload-file-presigned-url"
+        },
+        {
+          "type": "Simple Search - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/search/simple-search"
+        },
+        {
+          "type": "Search Url - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/search/search-url"
+        },
+        {
+          "type": "Create Browser Profile - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/profiles/create-browser-profile"
+        },
+        {
+          "type": "List Browser Profiles - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/profiles/list-browser-profiles"
+        },
+        {
+          "type": "Get Browser Profile - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/profiles/get-browser-profile"
+        },
+        {
+          "type": "Basics - Browser Use",
+          "url": "https://docs.browser-use.com/customize/actor/basics"
+        },
+        {
+          "type": "Pricing - Browser Use",
+          "url": "https://docs.browser-use.com/cloud/v1/pricing"
+        },
+        {
+          "type": "All Parameters - Browser Use",
+          "url": "https://docs.browser-use.com/customize/actor/all-parameters"
+        },
+        {
+          "type": "Examples - Browser Use",
+          "url": "https://docs.browser-use.com/customize/actor/examples"
+        },
+        {
+          "type": "Get Browser Use Version - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/utility/get-browser-use-version"
+        },
+        {
+          "type": "Get Help - Browser Use",
+          "url": "https://docs.browser-use.com/development/get-help"
+        },
+        {
+          "type": "Ping - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/utility/ping"
+        },
+        {
+          "type": "All Parameters - Browser Use",
+          "url": "https://docs.browser-use.com/customize/agent/all-parameters"
+        },
+        {
+          "type": "Cloud SDK - Browser Use",
+          "url": "https://docs.browser-use.com/cloud/v1/custom-sdk"
+        },
+        {
+          "type": "Search API - Browser Use",
+          "url": "https://docs.browser-use.com/cloud/v1/search"
+        },
+        {
+          "type": "Webhooks - Browser Use",
+          "url": "https://docs.browser-use.com/cloud/v1/webhooks"
+        },
+        {
+          "type": "Telemetry - Browser Use",
+          "url": "https://docs.browser-use.com/development/monitoring/telemetry"
+        },
+        {
+          "type": "Get Task Output File - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/tasks/get-task-output-file"
+        },
+        {
+          "type": "Real Browser - Browser Use",
+          "url": "https://docs.browser-use.com/customize/browser/real-browser"
+        },
+        {
+          "type": "Remote Browser - Browser Use",
+          "url": "https://docs.browser-use.com/customize/browser/remote"
+        },
+        {
+          "type": "Get Task - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/tasks/get-task"
+        },
+        {
+          "type": "Output Format - Browser Use",
+          "url": "https://docs.browser-use.com/customize/agent/output-format"
+        },
+        {
+          "type": "Basics - Browser Use",
+          "url": "https://docs.browser-use.com/customize/browser/basics"
+        },
+        {
+          "type": "Contribution Guide - Browser Use",
+          "url": "https://docs.browser-use.com/development/setup/contribution-guide"
+        },
+        {
+          "type": "Local Setup - Browser Use",
+          "url": "https://docs.browser-use.com/development/setup/local-setup"
+        },
+        {
+          "type": "Available Tools - Browser Use",
+          "url": "https://docs.browser-use.com/customize/tools/available"
+        },
+        {
+          "type": "MCP Server - Browser Use",
+          "url": "https://docs.browser-use.com/customize/mcp-server"
+        },
+        {
+          "type": "Authentication - Browser Use",
+          "url": "https://docs.browser-use.com/cloud/v1/authentication"
+        },
+        {
+          "type": "Lifecycle Hooks - Browser Use",
+          "url": "https://docs.browser-use.com/customize/hooks"
+        },
+        {
+          "type": "Observability - Browser Use",
+          "url": "https://docs.browser-use.com/development/monitoring/observability"
+        },
+        {
+          "type": "Basics - Browser Use",
+          "url": "https://docs.browser-use.com/customize/agent/basics"
+        },
+        {
+          "type": "All Parameters - Browser Use",
+          "url": "https://docs.browser-use.com/customize/browser/all-parameters"
+        },
+        {
+          "type": "Remove Tools - Browser Use",
+          "url": "https://docs.browser-use.com/customize/tools/remove"
+        },
+        {
+          "type": "Prompting Guide - Browser Use",
+          "url": "https://docs.browser-use.com/customize/agent/prompting-guide"
+        },
+        {
+          "type": "Add Tools - Browser Use",
+          "url": "https://docs.browser-use.com/customize/tools/add"
+        },
+        {
+          "type": "Quickstart - Browser Use",
+          "url": "https://docs.browser-use.com/cloud/v1/quickstart"
+        },
+        {
+          "type": "Get Task Media - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/tasks/get-task-media"
+        },
+        {
+          "type": "Get Task Screenshots - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/tasks/get-task-screenshots"
+        },
+        {
+          "type": "Pause Task - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/tasks/pause-task"
+        },
+        {
+          "type": "Get Task Status - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/tasks/get-task-status"
+        },
+        {
+          "type": "Ad-Use (Ad Generator) - Browser Use",
+          "url": "https://docs.browser-use.com/examples/apps/ad-use"
+        },
+        {
+          "type": "Vibetest-Use (Automated QA) - Browser Use",
+          "url": "https://docs.browser-use.com/examples/apps/vibetest-use"
+        },
+        {
+          "type": "Resume Task - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/tasks/resume-task"
+        },
+        {
+          "type": "Basics - Browser Use",
+          "url": "https://docs.browser-use.com/customize/tools/basics"
+        },
+        {
+          "type": "List Tasks - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/tasks/list-tasks"
+        },
+        {
+          "type": "Human Quickstart - Browser Use",
+          "url": "https://docs.browser-use.com/quickstart"
+        },
+        {
+          "type": "News-Use (News Monitor) - Browser Use",
+          "url": "https://docs.browser-use.com/examples/apps/news-use"
+        },
+        {
+          "type": "Stop Task - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/tasks/stop-task"
+        },
+        {
+          "type": "More Examples - Browser Use",
+          "url": "https://docs.browser-use.com/examples/templates/more-examples"
+        },
+        {
+          "type": "Tool Response - Browser Use",
+          "url": "https://docs.browser-use.com/customize/tools/response"
+        },
+        {
+          "type": "LLM Quickstart - Browser Use",
+          "url": "https://docs.browser-use.com/quickstart_llm"
+        },
+        {
+          "type": "Run Task - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/tasks/run-task"
+        },
+        {
+          "type": "Follow up tasks - Browser Use",
+          "url": "https://docs.browser-use.com/examples/templates/follow-up-tasks"
+        },
+        {
+          "type": "Msg-Use (WhatsApp Sender) - Browser Use",
+          "url": "https://docs.browser-use.com/examples/apps/msg-use"
+        },
+        {
+          "type": "Parallel Agents - Browser Use",
+          "url": "https://docs.browser-use.com/examples/templates/parallel-browser"
+        },
+        {
+          "type": "Secure Setup - Browser Use",
+          "url": "https://docs.browser-use.com/examples/templates/secure"
+        },
+        {
+          "type": "Sensitive Data - Browser Use",
+          "url": "https://docs.browser-use.com/examples/templates/sensitive-data"
+        },
+        {
+          "type": "Supported Models - Browser Use",
+          "url": "https://docs.browser-use.com/customize/agent/supported-models"
+        },
+        {
+          "type": "Fast Agent - Browser Use",
+          "url": "https://docs.browser-use.com/examples/templates/fast-agent"
+        },
+        {
+          "type": "V1 Implementation - Browser Use",
+          "url": "https://docs.browser-use.com/cloud/v1/implementation"
+        },
+        {
+          "type": "Delete Browser Profile - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/profiles/delete-browser-profile"
+        },
+        {
+          "type": "N8N + Browser Use Cloud - Browser Use",
+          "url": "https://docs.browser-use.com/cloud/v1/n8n-browser-use-integration"
+        },
+        {
+          "type": "Update Browser Profile - Browser Use",
+          "url": "https://docs.browser-use.com/api-reference/profiles/update-browser-profile"
+        },
+        {
+          "type": "Playwright Integration - Browser Use",
+          "url": "https://docs.browser-use.com/examples/templates/playwright-integration"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.browser-use.com/api-reference/api-v1/me"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.browser-use.com/llms-full.txt"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.browser-use.com/api-reference/api-v1/run-task"
+        },
+        {
+          "type": "Page Not Found",
+          "url": "https://docs.browser-use.com/api-reference/api-v1/run-task?playground=open"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b59dac293bb6aa98eee1439b8079d14c1c28b3e8d573b2ef27666c44f3337c5f"
 }

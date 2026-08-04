@@ -100,5 +100,143 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://m335.ict-bz.ch/infrastruktur-und-tools",
+      "canonicalSeedUrl": "https://m335.ict-bz.ch/infrastruktur-und-tools",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-17T07:20:15.818Z",
+      "completedAt": "2025-04-17T07:20:15.818Z",
+      "providerTotals": {
+        "discovered": 20,
+        "returned": 20,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://m335.ict-bz.ch/infrastruktur-und-tools",
+          "canonicalUrl": "https://m335.ict-bz.ch/infrastruktur-und-tools",
+          "status": "valid"
+        }
+      ],
+      "id": "efba2af70dcf4ba17e619442c6e897911c72ddca12896de00e123320b6d2fcdb",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cf2c36aa85c2c463c92863fec1c40e969000466a83d2c27fa806414d4f175ad0",
+      "filename": "documentation_2025-04-17T07:20:15.818Z.md",
+      "contentHash": "b8e00d603d8f32f94fdd603d9a72a06851cfead8396e4b51e9a2f0e22129bb45",
+      "sourceUrl": "https://m335.ict-bz.ch/infrastruktur-und-tools",
+      "canonicalSourceUrl": "https://m335.ict-bz.ch/infrastruktur-und-tools",
+      "capturedAt": "2025-04-17T07:20:15.818Z",
+      "crawlRunId": "efba2af70dcf4ba17e619442c6e897911c72ddca12896de00e123320b6d2fcdb",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 20,
+      "successfulPages": 20,
+      "structure": [
+        {
+          "type": "Infrastruktur und Tools | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/infrastruktur-und-tools"
+        },
+        {
+          "type": "Intro | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/"
+        },
+        {
+          "type": "FAQ | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/faq"
+        },
+        {
+          "type": "Native, Hybrid, Web | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/native-hybrid-web"
+        },
+        {
+          "type": "Angular | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/angular"
+        },
+        {
+          "type": "Hinweise und Zusatzaufgaben zu Kapitel 1 | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/tour-of-heroes/1.-the-hero-editor/hinweise-und-zusatzaufgaben-zu-kapitel-1"
+        },
+        {
+          "type": "Frameworks | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/frameworks"
+        },
+        {
+          "type": "Hinweise zu Kapitel 4 | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/tour-of-heroes/4.-add-services/hinweise-zu-kapitel-4"
+        },
+        {
+          "type": "Hinweise zu Kapitel 3 | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/tour-of-heroes/3.-create-a-feature-component/hinweise-zu-kapitel-3"
+        },
+        {
+          "type": "Kursplanung & Organisation | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/kursplanung-and-organisation"
+        },
+        {
+          "type": "Tour of Heroes | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/tour-of-heroes"
+        },
+        {
+          "type": "Introduction | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/tour-of-heroes/introduction"
+        },
+        {
+          "type": "1. The hero editor | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/tour-of-heroes/1.-the-hero-editor"
+        },
+        {
+          "type": "3. Create a feature component | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/tour-of-heroes/3.-create-a-feature-component"
+        },
+        {
+          "type": "Hinweise und Zusatzaufgaben zu Kapitel 2 | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/tour-of-heroes/2.-display-a-list/hinweise-und-zusatzaufgaben-zu-kapitel-2"
+        },
+        {
+          "type": "Create a project | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/tour-of-heroes/create-a-project"
+        },
+        {
+          "type": "2. Display a list | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/tour-of-heroes/2.-display-a-list"
+        },
+        {
+          "type": "4. Add services | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/tour-of-heroes/4.-add-services"
+        },
+        {
+          "type": "Ergänzend zu Navigation | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/tour-of-heroes/5.-navigation/erganzend-zu-navigation"
+        },
+        {
+          "type": "Hinweise und Zusatzaufgaben zu Kapitel 5 | M335 - Mobile-Applikation realisieren",
+          "url": "https://m335.ict-bz.ch/tag-1/tour-of-heroes/5.-navigation/hinweise-und-zusatzaufgaben-zu-kapitel-5"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cf2c36aa85c2c463c92863fec1c40e969000466a83d2c27fa806414d4f175ad0"
 }

@@ -65,5 +65,99 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://tenacity.readthedocs.io",
+      "canonicalSeedUrl": "https://tenacity.readthedocs.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-21T20:18:19.248Z",
+      "completedAt": "2026-01-21T20:18:19.248Z",
+      "providerTotals": {
+        "discovered": 9,
+        "returned": 9,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://tenacity.readthedocs.io",
+          "canonicalUrl": "https://tenacity.readthedocs.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "75a48df192b759c1207f15d70f7254746725593b17c5047b572f49f15767b9bb",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "17130bde949a95574c9476b11bf2a00f9aebe933f69082c57fe8d975fc99e686",
+      "filename": "documentation_2026-01-21T20:18:19.248Z.md",
+      "contentHash": "77470b5d0e83ff1014ce38c3560fee7c7fa24fcea6815d5aeb2fe416533aff65",
+      "sourceUrl": "https://tenacity.readthedocs.io",
+      "canonicalSourceUrl": "https://tenacity.readthedocs.io/",
+      "capturedAt": "2026-01-21T20:18:19.248Z",
+      "crawlRunId": "75a48df192b759c1207f15d70f7254746725593b17c5047b572f49f15767b9bb",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 9,
+      "successfulPages": 9,
+      "structure": [
+        {
+          "type": "Tenacity — Tenacity  documentation",
+          "url": "https://tenacity.readthedocs.io"
+        },
+        {
+          "type": "Tenacity — Tenacity  documentation",
+          "url": "https://tenacity.readthedocs.io/en/latest/"
+        },
+        {
+          "type": "Tenacity — Tenacity  documentation",
+          "url": "https://tenacity.readthedocs.io/en/stable/"
+        },
+        {
+          "type": "Changelog — Tenacity  documentation",
+          "url": "https://tenacity.readthedocs.io/en/latest/changelog.html"
+        },
+        {
+          "type": "API Reference — Tenacity  documentation",
+          "url": "https://tenacity.readthedocs.io/en/latest/api.html"
+        },
+        {
+          "type": "Changelog — Tenacity  documentation",
+          "url": "https://tenacity.readthedocs.io/en/stable/changelog.html"
+        },
+        {
+          "type": "API Reference — Tenacity  documentation",
+          "url": "https://tenacity.readthedocs.io/en/stable/api.html"
+        },
+        {
+          "type": "\n  Page not found\n - Read the Docs Community ",
+          "url": "https://tenacity.readthedocs.io/api.html"
+        },
+        {
+          "type": "\n  Page not found\n - Read the Docs Community ",
+          "url": "https://tenacity.readthedocs.io/changelog.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "17130bde949a95574c9476b11bf2a00f9aebe933f69082c57fe8d975fc99e686"
 }

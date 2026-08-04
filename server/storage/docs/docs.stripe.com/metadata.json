@@ -156,5 +156,199 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.stripe.com/api",
+      "canonicalSeedUrl": "https://docs.stripe.com/api",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-01T04:49:12.298Z",
+      "completedAt": "2025-09-01T04:49:12.298Z",
+      "providerTotals": {
+        "discovered": 34,
+        "returned": 34,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.stripe.com/api",
+          "canonicalUrl": "https://docs.stripe.com/api",
+          "status": "valid"
+        }
+      ],
+      "id": "fb16d1cc7e29c1c3343f32cf5531b8d0f33dc1203728b7a626d30e5cd3f8bd06",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8ac18f2c5301aac68bdf9c279b815b5ace21279a9a9bfa118c47d7da4e66e25e",
+      "filename": "documentation_2025-09-01T04:49:12.298Z.md",
+      "contentHash": "7bb6ecae7fb6bdc76eaae5170cf9b3a4abdc68753b7da112b2f5b16799a7f7d6",
+      "sourceUrl": "https://docs.stripe.com/api",
+      "canonicalSourceUrl": "https://docs.stripe.com/api",
+      "capturedAt": "2025-09-01T04:49:12.298Z",
+      "crawlRunId": "fb16d1cc7e29c1c3343f32cf5531b8d0f33dc1203728b7a626d30e5cd3f8bd06",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 34,
+      "successfulPages": 34,
+      "structure": [
+        {
+          "type": "Stripe API Reference",
+          "url": "https://docs.stripe.com/api"
+        },
+        {
+          "type": "API v2 overview | Stripe Documentation",
+          "url": "https://docs.stripe.com/api-v2-overview"
+        },
+        {
+          "type": "Send your first Stripe API request | Stripe Documentation",
+          "url": "https://docs.stripe.com/get-started/api-request"
+        },
+        {
+          "type": "Visa Compelling Evidence 3.0 disputes | Stripe Documentation",
+          "url": "https://docs.stripe.com/disputes/api/visa-ce3"
+        },
+        {
+          "type": "API authentication methods | Stripe Documentation",
+          "url": "https://docs.stripe.com/stripe-apps/api-authentication"
+        },
+        {
+          "type": "Visa compliance disputes | Stripe Documentation",
+          "url": "https://docs.stripe.com/disputes/api/visa-compliance"
+        },
+        {
+          "type": "Restricted API key authentication | Stripe Documentation",
+          "url": "https://docs.stripe.com/stripe-apps/api-authentication/rak"
+        },
+        {
+          "type": "Revenue Recognition API | Stripe Documentation",
+          "url": "https://docs.stripe.com/revenue-recognition/api"
+        },
+        {
+          "type": "API and advanced usage | Stripe Documentation",
+          "url": "https://docs.stripe.com/billing/testing/test-clocks/api-advanced-usage"
+        },
+        {
+          "type": "OAuth 2.0 | Stripe Documentation",
+          "url": "https://docs.stripe.com/stripe-apps/api-authentication/oauth"
+        },
+        {
+          "type": "Include-dependent response values in API v2 | Stripe Documentation",
+          "url": "https://docs.stripe.com/api-includable-response-values"
+        },
+        {
+          "type": "How pagination works | Stripe Documentation",
+          "url": "https://docs.stripe.com/api-pagination"
+        },
+        {
+          "type": "Build a custom Capital program | Stripe Documentation",
+          "url": "https://docs.stripe.com/capital/api-integration"
+        },
+        {
+          "type": "Use the API to respond to disputes | Stripe Documentation",
+          "url": "https://docs.stripe.com/disputes/api"
+        },
+        {
+          "type": "API onboarding | Stripe Documentation",
+          "url": "https://docs.stripe.com/connect/api-onboarding"
+        },
+        {
+          "type": "Terminal API and SDK references | Stripe Documentation",
+          "url": "https://docs.stripe.com/terminal/references/api"
+        },
+        {
+          "type": "Accounts v2 API | Stripe Documentation",
+          "url": "https://docs.stripe.com/connect/accounts-v2/api"
+        },
+        {
+          "type": "Run a report from the API | Stripe Documentation",
+          "url": "https://docs.stripe.com/reports/api"
+        },
+        {
+          "type": "Adds support for retrieving thin events | Stripe Documentation",
+          "url": "https://docs.stripe.com/changelog/acacia/2024-09-30/api-v2-thin-events"
+        },
+        {
+          "type": "Onramp API reference | Stripe Documentation",
+          "url": "https://docs.stripe.com/crypto/onramp/api-reference"
+        },
+        {
+          "type": "JavaScript API reference | Stripe Documentation",
+          "url": "https://docs.stripe.com/terminal/references/api/js-sdk"
+        },
+        {
+          "type": "Use the API to create and manage payment links | Stripe Documentation",
+          "url": "https://docs.stripe.com/payment-links/api"
+        },
+        {
+          "type": "Recipient creation using the API | Stripe Documentation",
+          "url": "https://docs.stripe.com/global-payouts/api-recipient-creation"
+        },
+        {
+          "type": "Deactivate a billing alert | Stripe API Reference",
+          "url": "https://docs.stripe.com/api/billing/alert/deactivate"
+        },
+        {
+          "type": "The Crypto Onramp Session object | Stripe API Reference",
+          "url": "https://docs.stripe.com/api/crypto/onramp_sessions/object"
+        },
+        {
+          "type": "The Crypto Onramp Quote object | Stripe API Reference",
+          "url": "https://docs.stripe.com/api/crypto/onramp_quotes/object"
+        },
+        {
+          "type": "The ClaimableSandbox object | Stripe API Reference",
+          "url": "https://docs.stripe.com/api/v2/claimable-sandboxes/object"
+        },
+        {
+          "type": "Retrieve a billing intent | Stripe API Reference",
+          "url": "https://docs.stripe.com/api/v2/billing-intents/retrieve"
+        },
+        {
+          "type": "List Billing Intent Actions | Stripe API Reference",
+          "url": "https://docs.stripe.com/api/v2/billing-intents/list"
+        },
+        {
+          "type": "Create a billing intent | Stripe API Reference",
+          "url": "https://docs.stripe.com/api/v2/billing-intents/create"
+        },
+        {
+          "type": "Reserve a billing intent | Stripe API Reference",
+          "url": "https://docs.stripe.com/api/v2/billing-intents/reserve"
+        },
+        {
+          "type": "Release a reserved Billing Intent back to draft | Stripe API Reference",
+          "url": "https://docs.stripe.com/api/v2/billing-intents/release"
+        },
+        {
+          "type": "Commit a billing intent | Stripe API Reference",
+          "url": "https://docs.stripe.com/api/v2/billing-intents/commit"
+        },
+        {
+          "type": "Cancel a billing intent | Stripe API Reference",
+          "url": "https://docs.stripe.com/api/v2/billing-intents/cancel"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8ac18f2c5301aac68bdf9c279b815b5ace21279a9a9bfa118c47d7da4e66e25e"
 }

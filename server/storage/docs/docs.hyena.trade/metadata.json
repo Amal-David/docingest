@@ -100,5 +100,143 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.hyena.trade/",
+      "canonicalSeedUrl": "https://docs.hyena.trade/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-09T13:01:33.673Z",
+      "completedAt": "2025-12-09T13:01:33.673Z",
+      "providerTotals": {
+        "discovered": 20,
+        "returned": 20,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.hyena.trade/",
+          "canonicalUrl": "https://docs.hyena.trade/",
+          "status": "valid"
+        }
+      ],
+      "id": "3f33ecdd6e0c7926c0c9cb1d773ade195264f7e87d1794879e90bc13186a50f8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "36a356fa12928f14d7cd39bf582d201a2bb41c3dfa50403e299b1729ba47e073",
+      "filename": "documentation_2025-12-09T13:01:33.673Z.md",
+      "contentHash": "ea4e5b907d27ba30748e04fc0fbf0e3b3042b85dd4d96562709573ef7d3d82fa",
+      "sourceUrl": "https://docs.hyena.trade/",
+      "canonicalSourceUrl": "https://docs.hyena.trade/",
+      "capturedAt": "2025-12-09T13:01:33.673Z",
+      "crawlRunId": "3f33ecdd6e0c7926c0c9cb1d773ade195264f7e87d1794879e90bc13186a50f8",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 20,
+      "successfulPages": 20,
+      "structure": [
+        {
+          "type": "HyENA Overview | HyENA",
+          "url": "https://docs.hyena.trade/"
+        },
+        {
+          "type": "How HIP-3 Works | HyENA",
+          "url": "https://docs.hyena.trade/how-hip-3-works"
+        },
+        {
+          "type": "USDC to USDe Conversion | HyENA",
+          "url": "https://docs.hyena.trade/usdc-to-usde-conversion"
+        },
+        {
+          "type": "USDe Rewards | HyENA",
+          "url": "https://docs.hyena.trade/usde-rewards"
+        },
+        {
+          "type": "Boosted Rewards | HyENA",
+          "url": "https://docs.hyena.trade/boosted-rewards"
+        },
+        {
+          "type": "No Cost Migration from Any Exchange | HyENA",
+          "url": "https://docs.hyena.trade/no-cost-migration-from-any-exchange"
+        },
+        {
+          "type": "Migrating Existing Positions to HyENA | HyENA",
+          "url": "https://docs.hyena.trade/migrating-existing-positions-to-hyena"
+        },
+        {
+          "type": "HyENA Points | HyENA",
+          "url": "https://docs.hyena.trade/hyena-points"
+        },
+        {
+          "type": "HLPe | HyENA",
+          "url": "https://docs.hyena.trade/hlpe"
+        },
+        {
+          "type": "USDe on HyENA | HyENA",
+          "url": "https://docs.hyena.trade/usde-on-hyena"
+        },
+        {
+          "type": "Oracle Price and Mark Price | HyENA",
+          "url": "https://docs.hyena.trade/trading/oracle-price-and-mark-price"
+        },
+        {
+          "type": "Margin Management | HyENA",
+          "url": "https://docs.hyena.trade/trading/margin-management"
+        },
+        {
+          "type": "Perpetual Assets | HyENA",
+          "url": "https://docs.hyena.trade/trading/perpetual-assets"
+        },
+        {
+          "type": "Fees | HyENA",
+          "url": "https://docs.hyena.trade/trading/fees"
+        },
+        {
+          "type": "Contract Specs and Margining | HyENA",
+          "url": "https://docs.hyena.trade/trading/contract-specs-and-margining"
+        },
+        {
+          "type": "API | HyENA",
+          "url": "https://docs.hyena.trade/trading/api"
+        },
+        {
+          "type": "Funding Rates | HyENA",
+          "url": "https://docs.hyena.trade/trading/funding-rates"
+        },
+        {
+          "type": "Order Types | HyENA",
+          "url": "https://docs.hyena.trade/trading/order-types"
+        },
+        {
+          "type": "Liquidation | HyENA",
+          "url": "https://docs.hyena.trade/trading/liquidation"
+        },
+        {
+          "type": "Terms and Conditions | HyENA",
+          "url": "https://docs.hyena.trade/misc/terms-and-conditions"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "36a356fa12928f14d7cd39bf582d201a2bb41c3dfa50403e299b1729ba47e073"
 }

@@ -64,5 +64,107 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.grid.gg/public/documentation/api-documentation/getting-started/overview",
+      "canonicalSeedUrl": "https://docs.grid.gg/public/documentation/api-documentation/getting-started/overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-02T07:43:51.841Z",
+      "completedAt": "2026-02-02T07:43:51.841Z",
+      "providerTotals": {
+        "discovered": 11,
+        "returned": 11,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.grid.gg/public/documentation/api-documentation/getting-started/overview",
+          "canonicalUrl": "https://docs.grid.gg/public/documentation/api-documentation/getting-started/overview",
+          "status": "valid"
+        }
+      ],
+      "id": "b5cdf793adc728f486d344955f83d7f9101468093d8a2258b43e96380487b3ec",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "03285159032fcd705f60315f570e7ec97ed5c092ee9e040c296fb62310352f68",
+      "filename": "documentation_2026-02-02T07:43:51.841Z.md",
+      "contentHash": "efc318f36a06f8a0a9372aad314501678e7aa6a93c6f56f5e8d83e17f470f43e",
+      "sourceUrl": "https://docs.grid.gg/public/documentation/api-documentation/getting-started/overview",
+      "canonicalSourceUrl": "https://docs.grid.gg/public/documentation/api-documentation/getting-started/overview",
+      "capturedAt": "2026-02-02T07:43:51.841Z",
+      "crawlRunId": "b5cdf793adc728f486d344955f83d7f9101468093d8a2258b43e96380487b3ec",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 11,
+      "successfulPages": 11,
+      "structure": [
+        {
+          "type": "GRID Data Portal | Documentation",
+          "url": "https://docs.grid.gg/public/documentation/api-documentation/getting-started/overview"
+        },
+        {
+          "type": "GRID Data Portal | Documentation",
+          "url": "https://docs.grid.gg/public/documentation/api-documentation/getting-started/glossary"
+        },
+        {
+          "type": "GRID Data Portal | Documentation",
+          "url": "https://docs.grid.gg/public/documentation/api-documentation/static-data/data-feed-quick-start-guide"
+        },
+        {
+          "type": "GRID Data Portal | Documentation",
+          "url": "https://docs.grid.gg/public/documentation/api-documentation/static-data/central-data-feed-api-overview"
+        },
+        {
+          "type": "GRID Data Portal | Documentation",
+          "url": "https://docs.grid.gg/public/documentation/api-documentation/static-data/static-data-entities"
+        },
+        {
+          "type": "GRID",
+          "url": "https://docs.grid.gg/public/documentation/api-documentation/in-game-data/live-data-feed-quick-start-guide"
+        },
+        {
+          "type": "GRID",
+          "url": "https://docs.grid.gg/public/documentation/api-documentation/in-game-data/series-events"
+        },
+        {
+          "type": "GRID Data Portal | Documentation",
+          "url": "https://docs.grid.gg/public/documentation/api-documentation/static-data/static-data-faq"
+        },
+        {
+          "type": "GRID",
+          "url": "https://docs.grid.gg/public/documentation/api-documentation/in-game-data/getting-data-for-a-series"
+        },
+        {
+          "type": "GRID",
+          "url": "https://docs.grid.gg/public/documentation/api-documentation/in-game-data/series-state"
+        },
+        {
+          "type": "GRID",
+          "url": "https://docs.grid.gg/public/documentation/api-documentation/in-game-data/grid-file-download-api"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "03285159032fcd705f60315f570e7ec97ed5c092ee9e040c296fb62310352f68"
 }

@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.onlysq.ru/#get-started",
+      "canonicalSeedUrl": "https://docs.onlysq.ru/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-09T09:42:51.821Z",
+      "completedAt": "2026-04-09T09:42:51.821Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.onlysq.ru/#get-started",
+          "canonicalUrl": "https://docs.onlysq.ru/",
+          "status": "valid"
+        }
+      ],
+      "id": "6514482e6f881c40439ee4ca82ae99bcdca53070f978414ec8ba6960ccaab3bf",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5d5098dc82e3b0d5783bfb140775e61e680cef7e4becc5cf1980ffcefa14e3fb",
+      "filename": "documentation_2026-04-09T09:42:51.821Z.md",
+      "contentHash": "8350e3a5646e76ab0890da293641d74bdbcb9ac406a39490f5b7798ca766509e",
+      "sourceUrl": "https://docs.onlysq.ru/#get-started",
+      "canonicalSourceUrl": "https://docs.onlysq.ru/",
+      "capturedAt": "2026-04-09T09:42:51.821Z",
+      "crawlRunId": "6514482e6f881c40439ee4ca82ae99bcdca53070f978414ec8ba6960ccaab3bf",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "OnlySq API — Free Access to 40+ AI Models",
+          "url": "https://docs.onlysq.ru/#get-started"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5d5098dc82e3b0d5783bfb140775e61e680cef7e4becc5cf1980ffcefa14e3fb"
 }

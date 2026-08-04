@@ -51,5 +51,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://dev-docs.fanbasis.com/protected/",
+      "canonicalSeedUrl": "https://dev-docs.fanbasis.com/protected",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-23T10:32:11.737Z",
+      "completedAt": "2025-12-23T10:32:11.737Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://dev-docs.fanbasis.com/protected/",
+          "canonicalUrl": "https://dev-docs.fanbasis.com/protected",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "2776e0fcef3dc4bd1473a5304ceaa9a53218eec992e0faa3f9fa4073b4c9a336",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "50941a779e754693ef9b2e171800fd43b7c31333d510a31fd8153e38a71588fb",
+      "filename": "documentation_2025-12-23T10:32:11.737Z.md",
+      "contentHash": "e4be4dab0946b1f0a40678a0e32d97fea8110bd533df2da384e5f68552cee8ad",
+      "sourceUrl": "https://dev-docs.fanbasis.com/protected/",
+      "canonicalSourceUrl": "https://dev-docs.fanbasis.com/protected",
+      "capturedAt": "2025-12-23T10:32:11.737Z",
+      "crawlRunId": "2776e0fcef3dc4bd1473a5304ceaa9a53218eec992e0faa3f9fa4073b4c9a336",
+      "upstreamVersion": "1.3.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Login - FanBasis API Docsv3",
+          "url": "https://dev-docs.fanbasis.com/protected/"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

@@ -1,0 +1,108 @@
+{
+  "url": "https://www.tasteskill.dev/docs",
+  "domain": "www.tasteskill.dev",
+  "lastScraped": "2026-07-25T00:53:06.846Z",
+  "totalPages": 1,
+  "successfulPages": 1,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Documentation | Taste Skill",
+      "url": "https://www.tasteskill.dev/docs"
+    }
+  ],
+  "latestVersion": "23c1a818b25771397e5947aca67cbce325c5340c5b89868b51e49423cc064946",
+  "versions": [
+    {
+      "version": "23c1a818b25771397e5947aca67cbce325c5340c5b89868b51e49423cc064946",
+      "label": "latest",
+      "timestamp": "2026-07-25T00:53:06.846Z",
+      "filename": "documentation_2026-07-25T00:53:06.846Z.md",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "url": "https://www.tasteskill.dev/docs",
+      "snapshotId": "23c1a818b25771397e5947aca67cbce325c5340c5b89868b51e49423cc064946",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://www.tasteskill.dev/docs",
+      "canonicalSeedUrl": "https://www.tasteskill.dev/docs",
+      "configuration": {
+        "url": "https://www.tasteskill.dev/docs",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "includePaths": [
+          "/docs/*"
+        ],
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-07-25T00:53:03.855Z",
+      "completedAt": "2026-07-25T00:53:06.846Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 1,
+        "returned": 1,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://www.tasteskill.dev/docs",
+          "canonicalUrl": "https://www.tasteskill.dev/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "3a100b227c37f383886681a4a42a2e3297b27f6202713a8ff50ee1467baccb35"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "23c1a818b25771397e5947aca67cbce325c5340c5b89868b51e49423cc064946",
+      "filename": "documentation_2026-07-25T00:53:06.846Z.md",
+      "contentHash": "e08c868434ad8cbc0134191be40498358c446de3181655a4aae4c67c935cfd18",
+      "sourceUrl": "https://www.tasteskill.dev/docs",
+      "canonicalSourceUrl": "https://www.tasteskill.dev/docs",
+      "capturedAt": "2026-07-25T00:53:06.846Z",
+      "crawlRunId": "3a100b227c37f383886681a4a42a2e3297b27f6202713a8ff50ee1467baccb35",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Documentation | Taste Skill",
+          "url": "https://www.tasteskill.dev/docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "23c1a818b25771397e5947aca67cbce325c5340c5b89868b51e49423cc064946"
+}

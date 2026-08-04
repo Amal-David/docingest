@@ -92,5 +92,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.vaultedge.fi/the-protocol/borrowing/collateral-whitelisting",
+      "canonicalSeedUrl": "https://docs.vaultedge.fi/the-protocol/borrowing/collateral-whitelisting",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-23T08:01:41.640Z",
+      "completedAt": "2025-04-23T08:01:41.640Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.vaultedge.fi/the-protocol/borrowing/collateral-whitelisting",
+          "canonicalUrl": "https://docs.vaultedge.fi/the-protocol/borrowing/collateral-whitelisting",
+          "status": "valid"
+        }
+      ],
+      "id": "787b553531f2fe33958a590c75afe3c4f0367fba48508b2dfc850ad0ec2efefb",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "49bed4177ac1dc3b6a76a7343e444afb3ac0ccc005a1e5be1eaccff3f6095573",
+      "filename": "documentation_2025-04-23T08:01:41.640Z.md",
+      "contentHash": "568f7b2e5b7a8d36710b85847c7b7502330de25919d1d620ba0acc76cf4f64a3",
+      "sourceUrl": "https://docs.vaultedge.fi/the-protocol/borrowing/collateral-whitelisting",
+      "canonicalSourceUrl": "https://docs.vaultedge.fi/the-protocol/borrowing/collateral-whitelisting",
+      "capturedAt": "2025-04-23T08:01:41.640Z",
+      "crawlRunId": "787b553531f2fe33958a590c75afe3c4f0367fba48508b2dfc850ad0ec2efefb",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "Collateral Whitelisting | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/borrowing/collateral-whitelisting"
+        },
+        {
+          "type": "VE tokens management | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/borrowing/ve-tokens-management"
+        },
+        {
+          "type": "Fees | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/borrowing/fees"
+        },
+        {
+          "type": "General | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/general"
+        },
+        {
+          "type": "Whitelisted assets | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/borrowing/whitelisted-assets"
+        },
+        {
+          "type": "Introduction | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/"
+        },
+        {
+          "type": "Price stability | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/veusd/price-stability"
+        },
+        {
+          "type": "Vaults | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/borrowing/vaults"
+        },
+        {
+          "type": "Maintaining the peg | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/veusd/maintaining-the-peg"
+        },
+        {
+          "type": "Stability pool | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/borrowing/stability-pool"
+        },
+        {
+          "type": "Risk methodology | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/borrowing/risk-methodology"
+        },
+        {
+          "type": "Soft liquidations | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/borrowing/soft-liquidations"
+        },
+        {
+          "type": "Borrowing | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/borrowing"
+        },
+        {
+          "type": "The flywheel | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/the-flywheel"
+        },
+        {
+          "type": "veUSD | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/veusd"
+        },
+        {
+          "type": "Recovery mode | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/borrowing/recovery-mode"
+        },
+        {
+          "type": "Terminology | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/the-protocol/terminology"
+        },
+        {
+          "type": "Terms and Conditions | Vaultedge docs",
+          "url": "https://docs.vaultedge.fi/terms-and-conditions"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "49bed4177ac1dc3b6a76a7343e444afb3ac0ccc005a1e5be1eaccff3f6095573"
 }

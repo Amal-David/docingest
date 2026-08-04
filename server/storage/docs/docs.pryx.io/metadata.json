@@ -48,5 +48,91 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.pryx.io/",
+      "canonicalSeedUrl": "https://docs.pryx.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-14T07:25:19.217Z",
+      "completedAt": "2025-04-14T07:25:19.217Z",
+      "providerTotals": {
+        "discovered": 7,
+        "returned": 7,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.pryx.io/",
+          "canonicalUrl": "https://docs.pryx.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "dd85f2f671b6fee155d2bc85a7f459d6c49402ba5618125e8b6d8b597cd0fd6e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "bf322e1a3ae4ee595a2bbb446292706aef15fc1983f14c75cbe2c67583d377f3",
+      "filename": "documentation_2025-04-14T07:25:19.217Z.md",
+      "contentHash": "5404a8fdfefe9eb412caa33a69fc592589dd3700d21ba22989ccfaac14a8af11",
+      "sourceUrl": "https://docs.pryx.io/",
+      "canonicalSourceUrl": "https://docs.pryx.io/",
+      "capturedAt": "2025-04-14T07:25:19.217Z",
+      "crawlRunId": "dd85f2f671b6fee155d2bc85a7f459d6c49402ba5618125e8b6d8b597cd0fd6e",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 7,
+      "successfulPages": 7,
+      "structure": [
+        {
+          "type": "Welcome to Pryx AI | Pryx AI Docs",
+          "url": "https://docs.pryx.io/"
+        },
+        {
+          "type": "All In One Web3 Assistant | Pryx AI Docs",
+          "url": "https://docs.pryx.io/pryx-ai/aio"
+        },
+        {
+          "type": "Roadmap | Pryx AI Docs",
+          "url": "https://docs.pryx.io/pryx-ai/roadmap"
+        },
+        {
+          "type": "Contacts | Pryx AI Docs",
+          "url": "https://docs.pryx.io/pryx-ai/contacts"
+        },
+        {
+          "type": "$PRYX | Pryx AI Docs",
+          "url": "https://docs.pryx.io/pryx-ai/token"
+        },
+        {
+          "type": "Guides | Pryx AI Docs",
+          "url": "https://docs.pryx.io/pryx-ai/guides"
+        },
+        {
+          "type": "Pryx Branding | Pryx AI Docs",
+          "url": "https://docs.pryx.io/pryx-ai/pryx-branding"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "bf322e1a3ae4ee595a2bbb446292706aef15fc1983f14c75cbe2c67583d377f3"
 }

@@ -140,5 +140,183 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://rojo.space/docs/v7/",
+      "canonicalSeedUrl": "https://rojo.space/docs/v7",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-03T10:14:59.379Z",
+      "completedAt": "2025-10-03T10:14:59.379Z",
+      "providerTotals": {
+        "discovered": 30,
+        "returned": 30,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://rojo.space/docs/v7/",
+          "canonicalUrl": "https://rojo.space/docs/v7",
+          "status": "valid"
+        }
+      ],
+      "id": "70943d1a06873c41645774fd782d2b983f5278d833c1b2fcd35d43d942fab077",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b1b3484683fe01a90cd9abb48aee59debb5dd8f0541e45bfe317231329671843",
+      "filename": "documentation_2025-10-03T10:14:59.379Z.md",
+      "contentHash": "3fcb25c5ed6f1ac1c5f85a3d7f7eba840e5a7b0d9ab8a6a75a257170a5fb4146",
+      "sourceUrl": "https://rojo.space/docs/v7/",
+      "canonicalSourceUrl": "https://rojo.space/docs/v7",
+      "capturedAt": "2025-10-03T10:14:59.379Z",
+      "crawlRunId": "70943d1a06873c41645774fd782d2b983f5278d833c1b2fcd35d43d942fab077",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "structure": [
+        {
+          "type": "Introduction | Rojo",
+          "url": "https://rojo.space/docs/v7/"
+        },
+        {
+          "type": "Introduction | Rojo",
+          "url": "https://rojo.space/docs/v0.5/"
+        },
+        {
+          "type": "Porting an Existing Game | Rojo",
+          "url": "https://rojo.space/docs/v0.5/getting-started/existing-game/"
+        },
+        {
+          "type": "Installation | Rojo",
+          "url": "https://rojo.space/docs/v0.5/getting-started/installation/"
+        },
+        {
+          "type": "Creating a New Game | Rojo",
+          "url": "https://rojo.space/docs/v0.5/getting-started/new-game/"
+        },
+        {
+          "type": "Help! | Rojo",
+          "url": "https://rojo.space/docs/v0.5/help/"
+        },
+        {
+          "type": "Project Format | Rojo",
+          "url": "https://rojo.space/docs/v0.5/project-format/"
+        },
+        {
+          "type": "Rojo Alternatives | Rojo",
+          "url": "https://rojo.space/docs/v0.5/rojo-alternatives/"
+        },
+        {
+          "type": "Fully vs Partially Managed Rojo | Rojo",
+          "url": "https://rojo.space/docs/v0.5/reference/full-vs-partial/"
+        },
+        {
+          "type": "Introduction | Rojo",
+          "url": "https://rojo.space/docs/v6/"
+        },
+        {
+          "type": "Recomended Workflows | Rojo",
+          "url": "https://rojo.space/docs/v0.5/workflows/"
+        },
+        {
+          "type": "Sync Details | Rojo",
+          "url": "https://rojo.space/docs/v0.5/sync-details/"
+        },
+        {
+          "type": "Porting an Existing Game | Rojo",
+          "url": "https://rojo.space/docs/v6/getting-started/existing-game/"
+        },
+        {
+          "type": "Installation | Rojo",
+          "url": "https://rojo.space/docs/v6/getting-started/installation/"
+        },
+        {
+          "type": "Help! | Rojo",
+          "url": "https://rojo.space/docs/v6/help/"
+        },
+        {
+          "type": "Creating a New Game | Rojo",
+          "url": "https://rojo.space/docs/v6/getting-started/new-game/"
+        },
+        {
+          "type": "Rojo Alternatives | Rojo",
+          "url": "https://rojo.space/docs/v6/rojo-alternatives/"
+        },
+        {
+          "type": "Project Format | Rojo",
+          "url": "https://rojo.space/docs/v6/project-format/"
+        },
+        {
+          "type": "Recomended Workflows | Rojo",
+          "url": "https://rojo.space/docs/v6/workflows/"
+        },
+        {
+          "type": "Sync Details | Rojo",
+          "url": "https://rojo.space/docs/v6/sync-details/"
+        },
+        {
+          "type": "Porting an Existing Game | Rojo",
+          "url": "https://rojo.space/docs/v7/getting-started/existing-game/"
+        },
+        {
+          "type": "Installation | Rojo",
+          "url": "https://rojo.space/docs/v7/getting-started/installation/"
+        },
+        {
+          "type": "Help! | Rojo",
+          "url": "https://rojo.space/docs/v7/help/"
+        },
+        {
+          "type": "Creating a New Game | Rojo",
+          "url": "https://rojo.space/docs/v7/getting-started/new-game/"
+        },
+        {
+          "type": "Rojo Alternatives | Rojo",
+          "url": "https://rojo.space/docs/v7/rojo-alternatives/"
+        },
+        {
+          "type": "Project Format | Rojo",
+          "url": "https://rojo.space/docs/v7/project-format/"
+        },
+        {
+          "type": "Recommended Workflows | Rojo",
+          "url": "https://rojo.space/docs/v7/workflows/"
+        },
+        {
+          "type": "Sync Details | Rojo",
+          "url": "https://rojo.space/docs/v7/sync-details/"
+        },
+        {
+          "type": "Upgrading From Rojo 6 | Rojo",
+          "url": "https://rojo.space/docs/v7/upgrade/"
+        },
+        {
+          "type": "Properties | Rojo",
+          "url": "https://rojo.space/docs/v7/properties/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b1b3484683fe01a90cd9abb48aee59debb5dd8f0541e45bfe317231329671843"
 }

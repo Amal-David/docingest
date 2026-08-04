@@ -264,5 +264,307 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://shopify.github.io/liquid/basics/types/",
+      "canonicalSeedUrl": "https://shopify.github.io/liquid/basics/types",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-23T00:45:07.419Z",
+      "completedAt": "2026-03-23T00:45:07.419Z",
+      "providerTotals": {
+        "discovered": 61,
+        "returned": 61,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://shopify.github.io/liquid/basics/types/",
+          "canonicalUrl": "https://shopify.github.io/liquid/basics/types",
+          "status": "valid"
+        }
+      ],
+      "id": "93ef58af0f4f9ebb79659f664d37f57b4728375fa6465dce8418ad45bd2d5b36",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2789c4d9075b1c47d9f8e865b404bd179630fc355aa1b655c02aaa91b236cdbf",
+      "filename": "documentation_2026-03-23T00:45:07.419Z.md",
+      "contentHash": "952ee79fe44521a8dbfc4e06118a935b042b5c1482091e5056b30c5e5c78e9db",
+      "sourceUrl": "https://shopify.github.io/liquid/basics/types/",
+      "canonicalSourceUrl": "https://shopify.github.io/liquid/basics/types",
+      "capturedAt": "2026-03-23T00:45:07.419Z",
+      "crawlRunId": "93ef58af0f4f9ebb79659f664d37f57b4728375fa6465dce8418ad45bd2d5b36",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 61,
+      "successfulPages": 61,
+      "structure": [
+        {
+          "type": "Types – Liquid template language",
+          "url": "https://shopify.github.io/liquid/basics/types/"
+        },
+        {
+          "type": "Variations of Liquid – Liquid template language",
+          "url": "https://shopify.github.io/liquid/basics/variations/"
+        },
+        {
+          "type": "Whitespace control – Liquid template language",
+          "url": "https://shopify.github.io/liquid/basics/whitespace/"
+        },
+        {
+          "type": "Control flow – Liquid template language",
+          "url": "https://shopify.github.io/liquid/tags/control-flow/"
+        },
+        {
+          "type": "Iteration – Liquid template language",
+          "url": "https://shopify.github.io/liquid/tags/iteration/"
+        },
+        {
+          "type": "Template – Liquid template language",
+          "url": "https://shopify.github.io/liquid/tags/template/"
+        },
+        {
+          "type": "abs – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/abs/"
+        },
+        {
+          "type": "Variable – Liquid template language",
+          "url": "https://shopify.github.io/liquid/tags/variable/"
+        },
+        {
+          "type": "append – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/append/"
+        },
+        {
+          "type": "at_least – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/at_least/"
+        },
+        {
+          "type": "at_most – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/at_most/"
+        },
+        {
+          "type": "capitalize – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/capitalize/"
+        },
+        {
+          "type": "ceil – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/ceil/"
+        },
+        {
+          "type": "compact – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/compact/"
+        },
+        {
+          "type": "concat – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/concat/"
+        },
+        {
+          "type": "date – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/date/"
+        },
+        {
+          "type": "default – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/default/"
+        },
+        {
+          "type": "divided_by – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/divided_by/"
+        },
+        {
+          "type": "downcase – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/downcase/"
+        },
+        {
+          "type": "escape – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/escape/"
+        },
+        {
+          "type": "escape_once – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/escape_once/"
+        },
+        {
+          "type": "first – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/first/"
+        },
+        {
+          "type": "join – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/join/"
+        },
+        {
+          "type": "floor – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/floor/"
+        },
+        {
+          "type": "lstrip – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/lstrip/"
+        },
+        {
+          "type": "last – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/last/"
+        },
+        {
+          "type": "map – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/map/"
+        },
+        {
+          "type": "minus – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/minus/"
+        },
+        {
+          "type": "modulo – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/modulo/"
+        },
+        {
+          "type": "newline_to_br – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/newline_to_br/"
+        },
+        {
+          "type": "remove – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/remove/"
+        },
+        {
+          "type": "plus – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/plus/"
+        },
+        {
+          "type": "prepend – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/prepend/"
+        },
+        {
+          "type": "remove_first – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/remove_first/"
+        },
+        {
+          "type": "replace_first – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/replace_first/"
+        },
+        {
+          "type": "remove_last – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/remove_last/"
+        },
+        {
+          "type": "replace – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/replace/"
+        },
+        {
+          "type": "replace_last – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/replace_last/"
+        },
+        {
+          "type": "reverse – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/reverse/"
+        },
+        {
+          "type": "round – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/round/"
+        },
+        {
+          "type": "rstrip – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/rstrip/"
+        },
+        {
+          "type": "size – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/size/"
+        },
+        {
+          "type": "slice – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/slice/"
+        },
+        {
+          "type": "sort – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/sort/"
+        },
+        {
+          "type": "strip – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/strip/"
+        },
+        {
+          "type": "sort_natural – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/sort_natural/"
+        },
+        {
+          "type": "split – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/split/"
+        },
+        {
+          "type": "strip_html – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/strip_html/"
+        },
+        {
+          "type": "strip_newlines – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/strip_newlines/"
+        },
+        {
+          "type": "times – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/times/"
+        },
+        {
+          "type": "sum – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/sum/"
+        },
+        {
+          "type": "truncate – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/truncate/"
+        },
+        {
+          "type": "uniq – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/uniq/"
+        },
+        {
+          "type": "truncatewords – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/truncatewords/"
+        },
+        {
+          "type": "upcase – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/upcase/"
+        },
+        {
+          "type": "url_encode – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/url_encode/"
+        },
+        {
+          "type": "url_decode – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/url_decode/"
+        },
+        {
+          "type": "where – Liquid template language",
+          "url": "https://shopify.github.io/liquid/filters/where/"
+        },
+        {
+          "type": "Truthy and falsy – Liquid template language",
+          "url": "https://shopify.github.io/liquid/basics/truthy-and-falsy/"
+        },
+        {
+          "type": "Operators – Liquid template language",
+          "url": "https://shopify.github.io/liquid/basics/operators/"
+        },
+        {
+          "type": "Introduction – Liquid template language",
+          "url": "https://shopify.github.io/liquid/basics/introduction/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2789c4d9075b1c47d9f8e865b404bd179630fc355aa1b655c02aaa91b236cdbf"
 }

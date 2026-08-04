@@ -180,5 +180,223 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.hyperswitch.io/about-hyperswitch/readme-2",
+      "canonicalSeedUrl": "https://docs.hyperswitch.io/about-hyperswitch/readme-2",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-08T18:34:28.842Z",
+      "completedAt": "2026-04-08T18:34:28.842Z",
+      "providerTotals": {
+        "discovered": 40,
+        "returned": 40,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/readme-2",
+          "canonicalUrl": "https://docs.hyperswitch.io/about-hyperswitch/readme-2",
+          "status": "valid"
+        }
+      ],
+      "id": "b375af6a6f28144fa52351517f742b318428d943838b429983d848d205067c13",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "337bc67463dda0828d583ba011ce6dd5921f3f2c7b9a89d559836e1fa84f0832",
+      "filename": "documentation_2026-04-08T18:34:28.842Z.md",
+      "contentHash": "446b795ce17d7ed90b214c3336e68e76b87f102de26c7bf2515d7ced0d30fcde",
+      "sourceUrl": "https://docs.hyperswitch.io/about-hyperswitch/readme-2",
+      "canonicalSourceUrl": "https://docs.hyperswitch.io/about-hyperswitch/readme-2",
+      "capturedAt": "2026-04-08T18:34:28.842Z",
+      "crawlRunId": "b375af6a6f28144fa52351517f742b318428d943838b429983d848d205067c13",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 40,
+      "successfulPages": 40,
+      "structure": [
+        {
+          "type": "Overview | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/readme-2"
+        },
+        {
+          "type": "Hyperswitch architecture | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/hyperswitch-architecture"
+        },
+        {
+          "type": "Roadmap - Q1 2026 | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/roadmap"
+        },
+        {
+          "type": "SDK Payment flows | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/sdk-payment-flows"
+        },
+        {
+          "type": "Previous Roadmap - Q3 2025 | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/roadmap/previous-roadmap-q3-2025"
+        },
+        {
+          "type": "Previous Roadmap - Q4 2025 | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/roadmap/previous-roadmap-q4-2025"
+        },
+        {
+          "type": "Previous roadmap - Q1 2024 | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/roadmap/roadmap-q1-2024"
+        },
+        {
+          "type": "Vault-Then-Pay | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/integration-guide/payment-suite/payment-method-card"
+        },
+        {
+          "type": "Previous Roadmap - Q3 2024 | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/roadmap/roadmap-q3-2024"
+        },
+        {
+          "type": "Previous Roadmap - Q4 2024 | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/roadmap/roadmap-q4-2024"
+        },
+        {
+          "type": "Previous roadmap - Q4 2023 | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/roadmap/roadmap-q4-2023"
+        },
+        {
+          "type": "Storage | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/hyperswitch-architecture/storage"
+        },
+        {
+          "type": "Previous Roadmap - Q2 2025 | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/roadmap/roadmap-q2-2025"
+        },
+        {
+          "type": "Previous Roadmap - Q2 2024 | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/roadmap/roadmap-q2-2024"
+        },
+        {
+          "type": "A Payments Switch with virtually zero overhead | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/hyperswitch-architecture/a-payments-switch-with-virtually-zero-overhead"
+        },
+        {
+          "type": "Previous Roadmap - Q1 2025 | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/about-hyperswitch/roadmap/roadmap-q1-2025"
+        },
+        {
+          "type": "Payments Flows | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/integration-guide/payment-suite"
+        },
+        {
+          "type": "Overcapture | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/integration-guide/payment-suite/payments/manual-capture/overcapture"
+        },
+        {
+          "type": "Recurring payments | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/integration-guide/payment-suite/payments/recurring-payments"
+        },
+        {
+          "type": "Authorizations | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/integration-guide/payment-suite/payments/authorizations"
+        },
+        {
+          "type": "Saving Payment Method | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/integration-guide/payment-suite/payments/save-a-payment-method"
+        },
+        {
+          "type": "Pay-Then-Vault | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/integration-guide/payment-suite/payments"
+        },
+        {
+          "type": "Saved Card | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/integration-guide/payment-suite/payments/save-a-payment-method/saved-card"
+        },
+        {
+          "type": "Smart Routing | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/other-features/payment-orchestration/smart-router"
+        },
+        {
+          "type": "WooCommerce Plugin | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/other-features/e-commerce-platform-plugins/woocommerce-plugin"
+        },
+        {
+          "type": "Checkout Experience | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/explore-hyperswitch/merchant-controls"
+        },
+        {
+          "type": "Subscriptions | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/other-features/payment-orchestration/subscriptions"
+        },
+        {
+          "type": "Automatic Tax calculation for Express Checkout wallets | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/explore-hyperswitch/e-commerce-platform-plugins/automatic-tax-calculation-for-express-checkout-wallets"
+        },
+        {
+          "type": "Local Setup Guide | Self Hosting | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/self-hosting/hyperswitch-open-source/local-setup-guide"
+        },
+        {
+          "type": "Deployment Models | Self Hosting | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/self-hosting/production-deployment"
+        },
+        {
+          "type": "PG Agnostic Card Forwarding | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/other-features/payment-orchestration/quickstart/tokenization-and-saved-cards/pg-agnostic-recurring-payments"
+        },
+        {
+          "type": "Customizable and Native Integrations | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/other-features/merchant-controls/integration-guide"
+        },
+        {
+          "type": "E-commerce Platform Plugins by Hyperswitch | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/other-features/e-commerce-platform-plugins"
+        },
+        {
+          "type": "Reconciliation V1 | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/other-features/payments-modules/reconciliation"
+        },
+        {
+          "type": "Node | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/integration-guide/payment-experience/sdk-reference/node"
+        },
+        {
+          "type": "Manual Capture | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/explore-hyperswitch/payment-flows-and-management/quickstart/manual-capture"
+        },
+        {
+          "type": "Saleor App | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/other-features/e-commerce-platform-plugins/saleor-app"
+        },
+        {
+          "type": "Payment Features | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/other-features/merchant-controls/payment-features"
+        },
+        {
+          "type": "Getting Started with Recon | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/other-features/payments-modules/reconciliation/getting-started-with-recon"
+        },
+        {
+          "type": "Setup | Hyperswitch",
+          "url": "https://docs.hyperswitch.io/other-features/e-commerce-platform-plugins/saleor-app/setup"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "337bc67463dda0828d583ba011ce6dd5921f3f2c7b9a89d559836e1fa84f0832"
 }

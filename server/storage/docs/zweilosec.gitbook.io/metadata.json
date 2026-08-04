@@ -52,5 +52,95 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://zweilosec.gitbook.io/hackers-rest",
+      "canonicalSeedUrl": "https://zweilosec.gitbook.io/hackers-rest",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-27T06:01:28.924Z",
+      "completedAt": "2025-08-27T06:01:28.924Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://zweilosec.gitbook.io/hackers-rest",
+          "canonicalUrl": "https://zweilosec.gitbook.io/hackers-rest",
+          "status": "valid"
+        }
+      ],
+      "id": "2ec61c9a25fdaa5ee5ae142b7a648e78449d814044ccee324ab04e51d41df0c0",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7057fec50da9cfe39f34b4c6f9d937bd13e0910c255578721fb8839f293fd73d",
+      "filename": "documentation_2025-08-27T06:01:28.924Z.md",
+      "contentHash": "ddeb760e0f9ff318f12a46526f6d636f2fab74f61a87daa3c6b72a897013b09a",
+      "sourceUrl": "https://zweilosec.gitbook.io/hackers-rest",
+      "canonicalSourceUrl": "https://zweilosec.gitbook.io/hackers-rest",
+      "capturedAt": "2025-08-27T06:01:28.924Z",
+      "crawlRunId": "2ec61c9a25fdaa5ee5ae142b7a648e78449d814044ccee324ab04e51d41df0c0",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Hacker's Rest | Hackers Rest",
+          "url": "https://zweilosec.gitbook.io/hackers-rest"
+        },
+        {
+          "type": "Zweilosec's Blog | Home",
+          "url": "https://zweilosec.gitbook.io/home"
+        },
+        {
+          "type": "Cybersecurity YouTube Channels | Hackers Rest",
+          "url": "https://zweilosec.gitbook.io/hackers-rest/tools-cheatsheets/cybersecurity-youtube-channels"
+        },
+        {
+          "type": "Hands-on Practice | Hackers Rest",
+          "url": "https://zweilosec.gitbook.io/hackers-rest/hands-on-practice"
+        },
+        {
+          "type": "Tools & Cheatsheets | Hackers Rest",
+          "url": "https://zweilosec.gitbook.io/hackers-rest/tools-cheatsheets"
+        },
+        {
+          "type": "PowerShell Administration Tools | Sysadmin Solutions",
+          "url": "https://zweilosec.gitbook.io/sysadmin-solutions/"
+        },
+        {
+          "type": "Python for Pentesters | Python Pearls",
+          "url": "https://zweilosec.gitbook.io/python-pearls/"
+        },
+        {
+          "type": "Hack the Box Write-ups | HTB Writeups",
+          "url": "https://zweilosec.gitbook.io/htb-writeups/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7057fec50da9cfe39f34b4c6f9d937bd13e0910c255578721fb8839f293fd73d"
 }

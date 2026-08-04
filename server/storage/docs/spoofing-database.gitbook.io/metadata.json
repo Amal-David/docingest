@@ -72,5 +72,115 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/perm-spoofing/introduction",
+      "canonicalSeedUrl": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/perm-spoofing/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-18T16:33:52.753Z",
+      "completedAt": "2026-03-18T16:33:52.753Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/perm-spoofing/introduction",
+          "canonicalUrl": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/perm-spoofing/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "b440a24b32032ffbb2e48550421cff05d7924ea91319d92915e2d03c88c617d7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "39d5944efcd7eb80a5320de04372f17e5578a0ba430fed554c9663ef1d9af22c",
+      "filename": "documentation_2026-03-18T16:33:52.753Z.md",
+      "contentHash": "e867c7acf9daa92d3df516452cae810d2d77eca735cc1917a452196082cf1e76",
+      "sourceUrl": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/perm-spoofing/introduction",
+      "canonicalSourceUrl": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/perm-spoofing/introduction",
+      "capturedAt": "2026-03-18T16:33:52.753Z",
+      "crawlRunId": "b440a24b32032ffbb2e48550421cff05d7924ea91319d92915e2d03c88c617d7",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Introduction | Spoofing Database",
+          "url": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/perm-spoofing/introduction"
+        },
+        {
+          "type": "Welcome | Spoofing Database",
+          "url": "https://spoofing-database.gitbook.io/free-spoofing-database-docs"
+        },
+        {
+          "type": "Maxio MAP1202 | Spoofing Database",
+          "url": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/disk-spoofing/maxio-map1202"
+        },
+        {
+          "type": "Introduction | Spoofing Database",
+          "url": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/temp-spoofing/introduction"
+        },
+        {
+          "type": "EFI Spoofing | Spoofing Database",
+          "url": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/perm-spoofing/efi-spoofing"
+        },
+        {
+          "type": "VolumeID | Spoofing Database",
+          "url": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/disk-spoofing/volumeid"
+        },
+        {
+          "type": "AFUWIN Method | Spoofing Database",
+          "url": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/perm-spoofing/afuwin-method"
+        },
+        {
+          "type": "DMIEdit Method | Spoofing Database",
+          "url": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/perm-spoofing/dmiedit-method"
+        },
+        {
+          "type": "Compatibility | Spoofing Database",
+          "url": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/pre-spoofing/compatibility"
+        },
+        {
+          "type": "Reinstalling Windows | Spoofing Database",
+          "url": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/pre-spoofing/windows"
+        },
+        {
+          "type": "VolumeID | Spoofing Database",
+          "url": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/disk-spoofing"
+        },
+        {
+          "type": "Introduction | Spoofing Database",
+          "url": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/temp-spoofing"
+        },
+        {
+          "type": "Compatibility | Spoofing Database",
+          "url": "https://spoofing-database.gitbook.io/free-spoofing-database-docs/pre-spoofing"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "39d5944efcd7eb80a5320de04372f17e5578a0ba430fed554c9663ef1d9af22c"
 }

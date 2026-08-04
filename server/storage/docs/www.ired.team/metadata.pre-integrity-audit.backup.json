@@ -1,0 +1,649 @@
+{
+  "url": "https://www.ired.team/offensive-security/code-injection-process-injection",
+  "domain": "www.ired.team",
+  "lastScraped": "2026-06-29T04:23:03.493Z",
+  "totalPages": 145,
+  "successfulPages": 145,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "What is ired.team notes? | Red Team Notes",
+      "url": "https://www.ired.team/"
+    },
+    {
+      "type": "Active Directory & Kerberos Abuse | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse"
+    },
+    {
+      "type": "SQL Injection & XSS Playground | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets/sql-injection-xss-playground"
+    },
+    {
+      "type": "Kerberos: Golden Tickets | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/kerberos-golden-tickets"
+    },
+    {
+      "type": "Kerberoasting: Requesting RC4 Encrypted TGS when AES is Enabled | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/kerberoasting-requesting-rc4-encrypted-tgs-when-aes-is-enabled"
+    },
+    {
+      "type": "AS-REP Roasting | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/as-rep-roasting-using-rubeus-and-hashcat"
+    },
+    {
+      "type": "Kerberos: Silver Tickets | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/kerberos-silver-tickets"
+    },
+    {
+      "type": "Kerberos Unconstrained Delegation | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/domain-compromise-via-unrestricted-kerberos-delegation"
+    },
+    {
+      "type": "Kerberoasting | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/t1208-kerberoasting"
+    },
+    {
+      "type": "Kerberos Constrained Delegation | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/abusing-kerberos-constrained-delegation"
+    },
+    {
+      "type": "From Domain Admin to Enterprise Admin | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/child-domain-da-to-ea-in-parent-domain"
+    },
+    {
+      "type": "Initial Access | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access"
+    },
+    {
+      "type": "Red Team Infrastructure | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/red-team-infrastructure"
+    },
+    {
+      "type": "Spiderfoot 101 with Kali using Docker | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/red-team-infrastructure/spiderfoot-101-with-kali-using-docker"
+    },
+    {
+      "type": "Pentesting Cheatsheets | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets"
+    },
+    {
+      "type": "DCShadow - Becoming a Rogue Domain Controller | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/t1207-creating-rogue-domain-controllers-with-dcshadow"
+    },
+    {
+      "type": "HTTP Forwarders / Relays | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/red-team-infrastructure/redirectors-forwarders"
+    },
+    {
+      "type": "Kerberos Resource-based Constrained Delegation: Computer Object Takeover | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/resource-based-constrained-delegation-ad-computer-object-take-over-and-privilged-code-execution"
+    },
+    {
+      "type": "Phishing with Modlishka Reverse HTTP Proxy | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/red-team-infrastructure/how-to-setup-modliska-reverse-http-proxy-for-phishing"
+    },
+    {
+      "type": "Code Execution | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution"
+    },
+    {
+      "type": "Domain Compromise via DC Print Server and Kerberos Delegation | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/domain-compromise-via-dc-print-server-and-kerberos-delegation"
+    },
+    {
+      "type": "Phishing with MS Office | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office"
+    },
+    {
+      "type": "NetNTLMv2 hash stealing using Outlook | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/netntlmv2-hash-stealing-using-outlook"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/llms.txt"
+    },
+    {
+      "type": "regsvr32 | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution/t1117-regsvr32-aka-squiblydoo"
+    },
+    {
+      "type": "Password Spraying Outlook Web Access: Remote Shell | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/password-spraying-outlook-web-access-remote-shell"
+    },
+    {
+      "type": "T1173: Phishing - DDE | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/t1173-dde"
+    },
+    {
+      "type": "Phishing with GoPhish and DigitalOcean | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/phishing-with-gophish-and-digitalocean"
+    },
+    {
+      "type": "Phishing: .SLK Excel | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/phishing-.slk-excel"
+    },
+    {
+      "type": "Phishing: Embedded HTML Forms | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/phishing-embedded-html-forms"
+    },
+    {
+      "type": "SMTP Forwarders / Relays | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/red-team-infrastructure/smtp"
+    },
+    {
+      "type": "Phishing: XLM / Macro 4.0 | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/phishing-xlm-macro-4.0"
+    },
+    {
+      "type": "Phishing: Embedded Internet Explorer | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/phishing-embedded-internet-explorer"
+    },
+    {
+      "type": "Active Directory Enumeration with AD Module without RSAT or Admin Privileges | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/active-directory-enumeration-with-ad-module-without-rsat-or-admin-privileges"
+    },
+    {
+      "type": "MSHTA | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution/t1170-mshta-code-execution"
+    },
+    {
+      "type": "pubprn.vbs Signed Script Code Execution | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution/t1216-signed-script-ce"
+    },
+    {
+      "type": "Forfiles Indirect Command Execution | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution/t1202-forfiles-indirect-command-execution"
+    },
+    {
+      "type": "Powershell Empire 101 | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/red-team-infrastructure/powershell-empire-101"
+    },
+    {
+      "type": "PowerView: Active Directory Enumeration | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/active-directory-enumeration-with-powerview"
+    },
+    {
+      "type": "Backdooring AdminSDHolder for Persistence | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/how-to-abuse-and-backdoor-adminsdholder-to-obtain-domain-admin-persistence"
+    },
+    {
+      "type": "DCSync: Dump Password Hashes from Domain Controller | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/dump-password-hashes-from-domain-controller-with-dcsync"
+    },
+    {
+      "type": "Inject Macros from a Remote Dotm Template | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/inject-macros-from-a-remote-dotm-template-docx-with-macros"
+    },
+    {
+      "type": "Powershell Without Powershell.exe | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution/powershell-without-powershell"
+    },
+    {
+      "type": "Pass the Hash with Machine$ Accounts | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/pass-the-hash-with-machine-accounts"
+    },
+    {
+      "type": "Active Directory Password Spraying | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/active-directory-password-spraying"
+    },
+    {
+      "type": "CMSTP | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution/t1191-cmstp-code-execution"
+    },
+    {
+      "type": "T1137: Phishing - Office Macros | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/t1137-office-vba-macros"
+    },
+    {
+      "type": "Application Whitelisting Bypass with WMIC and XSL | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution/application-whitelisting-bypass-with-wmic-and-xsl"
+    },
+    {
+      "type": "Powershell Constrained Language Mode Bypass | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution/powershell-constrained-language-mode-bypass"
+    },
+    {
+      "type": "Control Panel Item | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution/t1196-control-panel-item-code-execution"
+    },
+    {
+      "type": "Phishing: OLE + LNK | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/phishing-ole-+-lnk"
+    },
+    {
+      "type": "Code Execution through Control Panel Add-ins | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution/code-execution-through-control-panel-add-ins"
+    },
+    {
+      "type": "Executing Code as a Control Panel Item through an Exported Cplapplet Function | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution/executing-code-in-control-panel-item-through-an-exported-cplapplet-function"
+    },
+    {
+      "type": "Active Directory Lab with Hyper-V and PowerShell | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/active-directory-lab-with-hyper-v-and-powershell"
+    },
+    {
+      "type": "Cobalt Strike 101 | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/red-team-infrastructure/cobalt-strike-101-installation-and-interesting-commands"
+    },
+    {
+      "type": "Enumerating AD Object Permissions with dsacls | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/using-dsacls-to-check-ad-object-permissions"
+    },
+    {
+      "type": "Using MSBuild to Execute Shellcode in C# | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution/using-msbuild-to-execute-shellcode-in-c"
+    },
+    {
+      "type": "Forced Authentication | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/t1187-forced-authentication"
+    },
+    {
+      "type": "BloodHound with Kali Linux: 101 | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/abusing-active-directory-with-bloodhound-on-kali-linux"
+    },
+    {
+      "type": "InstallUtil | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution/t1118-installutil"
+    },
+    {
+      "type": "Automating Red Team Infrastructure with Terraform | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/red-team-infrastructure/automating-red-team-infrastructure-with-terraform"
+    },
+    {
+      "type": "Abusing Trust Account$: Accessing Resources on a Trusted Domain from a Trusting Domain | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/abusing-trust-accountusd-accessing-resources-on-a-trusted-domain-from-a-trusting-domain"
+    },
+    {
+      "type": "From Misconfigured Certificate Template to Domain Admin | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/from-misconfigured-certificate-template-to-domain-admin"
+    },
+    {
+      "type": "From DnsAdmins to SYSTEM to Domain Compromise | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/from-dnsadmins-to-system-to-domain-compromise"
+    },
+    {
+      "type": "Forcing Iexplore.exe to Load a Malicious DLL via COM Abuse | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-execution/forcing-iexplore.exe-to-load-a-malicious-dll-via-com-abuse"
+    },
+    {
+      "type": "Shadow Credentials | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/shadow-credentials"
+    },
+    {
+      "type": "Code & Process Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection"
+    },
+    {
+      "type": "Shellcode Execution via CreateThreadpoolWait | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/shellcode-execution-via-createthreadpoolwait"
+    },
+    {
+      "type": "Shellcode Reflective DLL Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/reflective-shellcode-dll-injection"
+    },
+    {
+      "type": "Bypassing Parent Child / Ancestry Detections | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/bypassing-malicious-macro-detections-by-defeating-child-parent-process-relationships"
+    },
+    {
+      "type": "DLL Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/dll-injection"
+    },
+    {
+      "type": "Shellcode Execution through Fibers | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/executing-shellcode-with-createfiber"
+    },
+    {
+      "type": "Loading and Executing Shellcode From PE Resources | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/loading-and-executing-shellcode-from-portable-executable-resources"
+    },
+    {
+      "type": "Local Shellcode Execution without Windows APIs | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/local-shellcode-execution-without-windows-apis"
+    },
+    {
+      "type": "Process Doppelganging | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/process-doppelganging"
+    },
+    {
+      "type": "Early Bird APC Queue Code Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/early-bird-apc-queue-code-injection"
+    },
+    {
+      "type": "Abusing Active Directory ACLs/ACEs | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/abusing-active-directory-acls-aces"
+    },
+    {
+      "type": "Executing Shellcode with Inline Assembly in C/C++ | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/executing-shellcode-with-inline-assembly-in-c-c++"
+    },
+    {
+      "type": "Shellcode Execution in a Local Process with QueueUserAPC and NtTestAlert | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/shellcode-execution-in-a-local-process-with-queueuserapc-and-nttestalert"
+    },
+    {
+      "type": "Defense Evasion | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/defense-evasion"
+    },
+    {
+      "type": "Phishing: Replacing Embedded Video with Bogus Payload | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/initial-access/phishing-with-ms-office/phishing-replacing-embedded-video-with-bogus-payload"
+    },
+    {
+      "type": "SetWindowHookEx Code Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/setwindowhookex-code-injection"
+    },
+    {
+      "type": "Binary Exploitation | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation"
+    },
+    {
+      "type": "CreateRemoteThread Shellcode Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/process-injection"
+    },
+    {
+      "type": "Privileged Accounts and Token Privileges | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security-experiments/active-directory-kerberos-abuse/privileged-accounts-and-token-privileges"
+    },
+    {
+      "type": "AddressOfEntryPoint Code Injection without VirtualAllocEx RWX | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/addressofentrypoint-code-injection-without-virtualallocex-rwx"
+    },
+    {
+      "type": "NtCreateSection + NtMapViewOfSection Code Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/ntcreatesection-+-ntmapviewofsection-code-injection"
+    },
+    {
+      "type": "Injecting to Remote Process via Thread Hijacking | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/injecting-to-remote-process-via-thread-hijacking"
+    },
+    {
+      "type": "APC Queue Code Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/apc-queue-code-injection"
+    },
+    {
+      "type": "DLL Injection via a Custom .NET Garbage Collector | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/injecting-dll-via-custom-.net-garbage-collector-environment-variable-complus_gcname"
+    },
+    {
+      "type": "Windows API Hooking | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/how-to-hook-windows-api-using-c++"
+    },
+    {
+      "type": "PE Injection: Executing PEs inside Remote Processes | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/pe-injection-executing-pes-inside-remote-processes"
+    },
+    {
+      "type": "Module Stomping for Shellcode Injection | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/modulestomping-dll-hollowing-shellcode-injection"
+    },
+    {
+      "type": "Injecting .NET Assembly to an Unmanaged Process | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/injecting-and-executing-.net-assemblies-to-unmanaged-process"
+    },
+    {
+      "type": "Evading Windows Defender with 1 Byte Change | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/defense-evasion/evading-windows-defender-using-classic-c-shellcode-launcher-with-1-byte-change"
+    },
+    {
+      "type": "Enumeration and Discovery | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/enumeration-and-discovery"
+    },
+    {
+      "type": "Privilege Escalation | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/privilege-escalation"
+    },
+    {
+      "type": "Exfiltration | Red Team Notes",
+      "url": "https://www.ired.team/offensive-security/exfiltration"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/format-string-bug.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/privilege-escalation/t1038-dll-hijacking.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/backdooring-portable-executables-pe-with-shellcode.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/defense-evasion/downloading-file-with-certutil.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-lsa-secrets.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/exfiltration/payload-delivery-via-dns-using-invoke-powercloud.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/writing-and-compiling-shellcode-in-c.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/persistence/t1013-addmonitor.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/interrupt-descriptor-table-idt.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/persistence/t1138-application-shimming.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/persistence/word-library-add-ins.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/etw-event-tracing-for-windows-101.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/persistence/t1084-abusing-windows-managent-instrumentation.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/persistence/persisting-in-svchost.exe-with-a-service-dll-servicemain.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/subscribing-to-process-creation-thread-creation-and-image-load-notifications-from-a-kernel-driver.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/lateral-movement/wmi-+-powershell-desired-state-configuration-lateral-movement.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/glimpse-into-ssdt-in-windows-x64-kernel.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/manipulating-activeprocesslinks-to-unlink-processes-in-userland.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/finding-kernel32-base-and-function-addresses-in-shellcode.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/get-all-open-handles-and-kernel-object-address-from-userland.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/exploring-process-environment-block.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/instrumenting-windows-apis-with-frida.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/seh-based-buffer-overflow.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/defense-evasion/file-smuggling-with-html-and-javascript.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/sending-commands-from-userland-to-your-kernel-driver-using-ioctl.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/lateral-movement/lateral-movement-via-wmi-events.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/persistence/dll-proxying-for-persistence.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/lateral-movement/ssh-tunnelling-port-forwarding.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/persistence/t1198-trust-provider-hijacking.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/lateral-movement/shadowmove-lateral-movement-by-stealing-duplicating-existing-connected-sockets.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/defense-evasion/acg-arbitrary-code-guard-processdynamiccodepolicy.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/credential-access-and-credential-dumping/credentials-collection-via-creduipromptforcredentials.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/rop-chaining-return-oriented-programming.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/lateral-movement/man-in-the-browser-via-chrome-extension.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/loading-a-windows-kernel-driver-osr-driver-loader-debugging-with-source-code.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/get-injectedthread.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/compiling-first-kernel-driver-kdprint-dbgprint-and-debugview.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/persistence/t1128-netsh-helper-dll.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/credential-access-and-credential-dumping/intercepting-logon-credentials-via-custom-security-support-provider-and-authentication-package.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/persistence/t1084-abusing-windows-managent-instrumentation/wmi-data-storage.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/defense-evasion/retrieving-ntdll-syscall-stubs-at-run-time.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/persistence/t1180-screensaver-hijack.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/lateral-movement/t1028-winrm-for-lateral-movement.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/defense-evasion/masquerading-processes-in-userland-through-_peb.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/miscellaneous-reversing-forensics/windows-kernel-internals/linux-x64-calling-convention-stack-frame.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/persistence/rid-hijacking.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://www.ired.team/offensive-security/lateral-movement/wmi-via-newscheduledtask.md"
+    }
+  ],
+  "latestVersion": "1.4.1",
+  "versions": [
+    {
+      "version": "1.4.1",
+      "label": "latest",
+      "timestamp": "2026-06-29T04:23:03.493Z",
+      "filename": "documentation_2026-06-29T04:23:03.493Z.md",
+      "totalPages": 145,
+      "successfulPages": 145,
+      "url": "https://www.ired.team/",
+      "isLatest": true
+    },
+    {
+      "version": "1.4.0",
+      "timestamp": "2025-11-25T11:12:56.613Z",
+      "filename": "documentation_2025-11-25T11:12:56.613Z.md",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection",
+      "isLatest": false
+    },
+    {
+      "version": "1.3.0",
+      "timestamp": "2025-11-25T11:10:02.370Z",
+      "filename": "documentation_2025-11-25T11:10:02.370Z.md",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection",
+      "isLatest": false
+    },
+    {
+      "version": "1.2.0",
+      "timestamp": "2025-11-25T11:06:37.770Z",
+      "filename": "documentation_2025-11-25T11:06:37.770Z.md",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection",
+      "isLatest": false
+    },
+    {
+      "version": "1.1.0",
+      "timestamp": "2025-07-24T12:49:57.453Z",
+      "filename": "documentation_2025-07-24T12:49:57.453Z.md",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection",
+      "isLatest": false
+    },
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-07-14T12:26:41.225Z",
+      "filename": "documentation_2025-07-14T12:26:41.225Z.md",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "url": "https://www.ired.team/offensive-security/code-injection-process-injection",
+      "isLatest": false
+    }
+  ],
+  "schemaVersion": 2
+}

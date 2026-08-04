@@ -56,5 +56,99 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.shellspells.net/",
+      "canonicalSeedUrl": "https://www.shellspells.net/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-06T14:37:32.078Z",
+      "completedAt": "2026-01-06T14:37:32.078Z",
+      "providerTotals": {
+        "discovered": 9,
+        "returned": 9,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.shellspells.net/",
+          "canonicalUrl": "https://www.shellspells.net/",
+          "status": "valid"
+        }
+      ],
+      "id": "5d17084828130e67f9639beb73be70308d4b8c9179edcd9e577730e0c758eb99",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a20097e9bc8f98c5a615dad7ce9f4ccd2bc641ba7ab2b34532a0af417282b8ca",
+      "filename": "documentation_2026-01-06T14:37:32.078Z.md",
+      "contentHash": "37be6b47e4dc0bb30afc4053f2d750b8b0fa6e2783edefd9c2b7b3628582b3d3",
+      "sourceUrl": "https://www.shellspells.net/",
+      "canonicalSourceUrl": "https://www.shellspells.net/",
+      "capturedAt": "2026-01-06T14:37:32.078Z",
+      "crawlRunId": "5d17084828130e67f9639beb73be70308d4b8c9179edcd9e577730e0c758eb99",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 9,
+      "successfulPages": 9,
+      "structure": [
+        {
+          "type": "ShellSpells",
+          "url": "https://www.shellspells.net/"
+        },
+        {
+          "type": "FAQs | ShellSpells",
+          "url": "https://www.shellspells.net/welcome/faqs"
+        },
+        {
+          "type": "Help | ShellSpells",
+          "url": "https://www.shellspells.net/linux/system-ops/help"
+        },
+        {
+          "type": "Transcripts | ShellSpells",
+          "url": "https://www.shellspells.net/linux/system-ops/transcripts"
+        },
+        {
+          "type": "License & Disclaimer | ShellSpells",
+          "url": "https://www.shellspells.net/welcome/license"
+        },
+        {
+          "type": "System Ops | ShellSpells",
+          "url": "https://www.shellspells.net/linux/system-ops"
+        },
+        {
+          "type": "System Info | ShellSpells",
+          "url": "https://www.shellspells.net/linux/system-ops/system-info"
+        },
+        {
+          "type": "System Details | ShellSpells",
+          "url": "https://www.shellspells.net/linux/system-ops/system-info/system-details"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://www.shellspells.net/cdn-cgi/l/email-protection"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a20097e9bc8f98c5a615dad7ce9f4ccd2bc641ba7ab2b34532a0af417282b8ca"
 }

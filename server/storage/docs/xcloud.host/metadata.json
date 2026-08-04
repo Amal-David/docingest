@@ -33,5 +33,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://xcloud.host/docs/",
+      "canonicalSeedUrl": "https://xcloud.host/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-15T22:03:25.869Z",
+      "completedAt": "2026-07-15T22:03:25.869Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://xcloud.host/docs/",
+          "canonicalUrl": "https://xcloud.host/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "7a430dcf950cf2e6244ff59d97c2dc2fd56e8174ecd0a63643d1cc802fc1468e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d01e500c905ae3784b8c5f2f2d0063bf5f6b6686280002093b046e7e9c9ec24e",
+      "filename": "documentation_2026-07-15T22:03:25.869Z.md",
+      "contentHash": "9e40c8105d8a84a690b5b60f1a01600bcf5375f4c497e9f474f56f44f7eb8910",
+      "sourceUrl": "https://xcloud.host/docs/",
+      "canonicalSourceUrl": "https://xcloud.host/docs",
+      "capturedAt": "2026-07-15T22:03:25.869Z",
+      "crawlRunId": "7a430dcf950cf2e6244ff59d97c2dc2fd56e8174ecd0a63643d1cc802fc1468e",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Docs - xCloud",
+          "url": "https://xcloud.host/docs/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d01e500c905ae3784b8c5f2f2d0063bf5f6b6686280002093b046e7e9c9ec24e"
 }

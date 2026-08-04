@@ -92,5 +92,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://wiki.notmarra.com/notcredits/what-is-it",
+      "canonicalSeedUrl": "https://wiki.notmarra.com/notcredits/what-is-it",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-26T21:40:10.413Z",
+      "completedAt": "2025-07-26T21:40:10.413Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://wiki.notmarra.com/notcredits/what-is-it",
+          "canonicalUrl": "https://wiki.notmarra.com/notcredits/what-is-it",
+          "status": "valid"
+        }
+      ],
+      "id": "6b373fd85944763fbefc1126f7a042bdec55f7bba6198b0c263318f85a2c1335",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1e38d69f123819224dd578f7a8bc170635ef7f03f6aa51d3bedc3e230c1e49e8",
+      "filename": "documentation_2025-07-26T21:40:10.413Z.md",
+      "contentHash": "adaa1f6d7ba4c3d156781c126622fd543f2a7e9dbb4a9acfb01197045e28bd7a",
+      "sourceUrl": "https://wiki.notmarra.com/notcredits/what-is-it",
+      "canonicalSourceUrl": "https://wiki.notmarra.com/notcredits/what-is-it",
+      "capturedAt": "2025-07-26T21:40:10.413Z",
+      "crawlRunId": "6b373fd85944763fbefc1126f7a042bdec55f7bba6198b0c263318f85a2c1335",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "What is it? | NotWiki",
+          "url": "https://wiki.notmarra.com/notcredits/what-is-it"
+        },
+        {
+          "type": "Who am I? | NotWiki",
+          "url": "https://wiki.notmarra.com"
+        },
+        {
+          "type": "Welcome | NotWiki",
+          "url": "https://wiki.notmarra.com/notchat/welcome"
+        },
+        {
+          "type": "Placeholders | NotWiki",
+          "url": "https://wiki.notmarra.com/notcredits/placeholders"
+        },
+        {
+          "type": "Permissions | NotWiki",
+          "url": "https://wiki.notmarra.com/notcredits/permissions"
+        },
+        {
+          "type": "Commands | NotWiki",
+          "url": "https://wiki.notmarra.com/notcredits/commands"
+        },
+        {
+          "type": "Modules | NotWiki",
+          "url": "https://wiki.notmarra.com/notchat/modules"
+        },
+        {
+          "type": "Format | NotWiki",
+          "url": "https://wiki.notmarra.com/notchat/modules/format"
+        },
+        {
+          "type": "Chat Color | NotWiki",
+          "url": "https://wiki.notmarra.com/notchat/modules/chat-color"
+        },
+        {
+          "type": "Local Chat | NotWiki",
+          "url": "https://wiki.notmarra.com/notchat/modules/local-chat"
+        },
+        {
+          "type": "What is it? | NotWiki",
+          "url": "https://wiki.notmarra.com/notcredits"
+        },
+        {
+          "type": "Message (MSG) | NotWiki",
+          "url": "https://wiki.notmarra.com/notchat/modules/message-msg"
+        },
+        {
+          "type": "Tags | NotWiki",
+          "url": "https://wiki.notmarra.com/notchat/modules/tags"
+        },
+        {
+          "type": "Ping | NotWiki",
+          "url": "https://wiki.notmarra.com/notchat/modules/ping"
+        },
+        {
+          "type": "Games | NotWiki",
+          "url": "https://wiki.notmarra.com/notchat/modules/games"
+        },
+        {
+          "type": "Tab Completer | NotWiki",
+          "url": "https://wiki.notmarra.com/notchat/modules/tab-completer"
+        },
+        {
+          "type": "Filter | NotWiki",
+          "url": "https://wiki.notmarra.com/notchat/modules/filter"
+        },
+        {
+          "type": "Welcome | NotWiki",
+          "url": "https://wiki.notmarra.com/notchat"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1e38d69f123819224dd578f7a8bc170635ef7f03f6aa51d3bedc3e230c1e49e8"
 }

@@ -56,5 +56,99 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.bubblemaps.io/introduction",
+      "canonicalSeedUrl": "https://docs.bubblemaps.io/introduction",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-23T22:55:01.147Z",
+      "completedAt": "2025-12-23T22:55:01.147Z",
+      "providerTotals": {
+        "discovered": 9,
+        "returned": 9,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.bubblemaps.io/introduction",
+          "canonicalUrl": "https://docs.bubblemaps.io/introduction",
+          "status": "valid"
+        }
+      ],
+      "id": "0e738ab7d7976e1fc9ac135e9502b34862caa0a95a08a617005b6585af9dadf0",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "75d9e1b3a8cf6b9772dca9436de34a88ea417289cce2b3339f212fff20313988",
+      "filename": "documentation_2025-12-23T22:55:01.147Z.md",
+      "contentHash": "4b289e7dd98e75cf2cafd124452aa8cd236d14cb15e2c6e8535d3faa6976a21d",
+      "sourceUrl": "https://docs.bubblemaps.io/introduction",
+      "canonicalSourceUrl": "https://docs.bubblemaps.io/introduction",
+      "capturedAt": "2025-12-23T22:55:01.147Z",
+      "crawlRunId": "0e738ab7d7976e1fc9ac135e9502b34862caa0a95a08a617005b6585af9dadf0",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 9,
+      "successfulPages": 9,
+      "structure": [
+        {
+          "type": "Our B2B Products - Bubblemaps B2B",
+          "url": "https://docs.bubblemaps.io/introduction"
+        },
+        {
+          "type": "Authentication - Bubblemaps B2B",
+          "url": "https://docs.bubblemaps.io/data/api/authentication"
+        },
+        {
+          "type": "Introduction - Bubblemaps B2B",
+          "url": "https://docs.bubblemaps.io/data/api/introduction"
+        },
+        {
+          "type": "Introduction - Bubblemaps B2B",
+          "url": "https://docs.bubblemaps.io/iframe/introduction"
+        },
+        {
+          "type": "Get Map Data - Bubblemaps B2B",
+          "url": "https://docs.bubblemaps.io/data/api/endpoints/get-map-data"
+        },
+        {
+          "type": "Interactive Demo - Bubblemaps B2B",
+          "url": "https://docs.bubblemaps.io/iframe/demo"
+        },
+        {
+          "type": "Pricing - Bubblemaps B2B",
+          "url": "https://docs.bubblemaps.io/iframe/pricing"
+        },
+        {
+          "type": "Get Supported Chains - Bubblemaps B2B",
+          "url": "https://docs.bubblemaps.io/data/api/endpoints/get-supported-chains"
+        },
+        {
+          "type": "Quickstart - Bubblemaps B2B",
+          "url": "https://docs.bubblemaps.io/iframe/quickstart"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "75d9e1b3a8cf6b9772dca9436de34a88ea417289cce2b3339f212fff20313988"
 }

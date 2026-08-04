@@ -111,5 +111,127 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer",
+      "canonicalSeedUrl": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-29T14:23:05.688Z",
+      "completedAt": "2026-06-29T14:23:05.688Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer",
+          "canonicalUrl": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer",
+          "status": "valid"
+        }
+      ],
+      "id": "fdf8fed6eabde0c010cb45bbeb58296dcc2c364069f1723640f4f40e464fe99d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d5b9979de73caf3e98de6b51d468f1b41356e4c861858a3eeb4905b1251ac7c2",
+      "filename": "documentation_2026-06-29T14:23:05.688Z.md",
+      "contentHash": "60c5947022a543b2907ca945053bf2fb7b8f67566e35d00b96c87acc907bf9d7",
+      "sourceUrl": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer",
+      "canonicalSourceUrl": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer",
+      "capturedAt": "2026-06-29T14:23:05.688Z",
+      "crawlRunId": "fdf8fed6eabde0c010cb45bbeb58296dcc2c364069f1723640f4f40e464fe99d",
+      "upstreamVersion": "1.0.3",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "0R - Clothing Designer | 0Resmon",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer"
+        },
+        {
+          "type": "Setup and Database | 0Resmon",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer/setup-and-database"
+        },
+        {
+          "type": "Configuration | 0Resmon",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer/configuration"
+        },
+        {
+          "type": "Templates and Export Flow | 0Resmon",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer/templates-and-export-flow"
+        },
+        {
+          "type": "Saved Designs | 0Resmon",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer/saved-designs"
+        },
+        {
+          "type": "Adding a New YDD or YTD | 0Resmon",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer/templates-and-export-flow/adding-new-ydd-or-ytd"
+        },
+        {
+          "type": "Exports and RPC | 0Resmon",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer/exports-and-rpc"
+        },
+        {
+          "type": "Troubleshooting | 0Resmon",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer/troubleshooting"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer/setup-and-database.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer/configuration.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer/templates-and-export-flow.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer/exports-and-rpc.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer/troubleshooting.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer/templates-and-export-flow/adding-new-ydd-or-ytd.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.0resmon.org/0resmon/0r-resources/0r-clothing_designer/saved-designs.md"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d5b9979de73caf3e98de6b51d468f1b41356e4c861858a3eeb4905b1251ac7c2"
 }

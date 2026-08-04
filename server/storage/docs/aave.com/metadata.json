@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://aave.com/docs/aave-v4",
+      "canonicalSeedUrl": "https://aave.com/docs/aave-v4",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-21T09:17:28.483Z",
+      "completedAt": "2025-12-21T09:17:28.483Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://aave.com/docs/aave-v4",
+          "canonicalUrl": "https://aave.com/docs/aave-v4",
+          "status": "valid"
+        }
+      ],
+      "id": "e9ebfe701998250fee142dc4d67c5485b217e29ec8ce1bff4e20839f6b3c7f24",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cbe6016dbccb3e44b56719f918cf803eda8fd5b135ea2429f319087080f28af8",
+      "filename": "documentation_2025-12-21T09:17:28.483Z.md",
+      "contentHash": "7213ea800c406a70579340d56c2fb0356aaedeccebb3a72272a16b53c8ce82b4",
+      "sourceUrl": "https://aave.com/docs/aave-v4",
+      "canonicalSourceUrl": "https://aave.com/docs/aave-v4",
+      "capturedAt": "2025-12-21T09:17:28.483Z",
+      "crawlRunId": "e9ebfe701998250fee142dc4d67c5485b217e29ec8ce1bff4e20839f6b3c7f24",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Aave v4 Overview | Aave Protocol Documentation",
+          "url": "https://aave.com/docs/aave-v4"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cbe6016dbccb3e44b56719f918cf803eda8fd5b135ea2429f319087080f28af8"
 }

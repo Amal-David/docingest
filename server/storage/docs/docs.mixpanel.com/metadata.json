@@ -78,5 +78,103 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.mixpanel.com/docs/what-is-mixpanel",
+      "canonicalSeedUrl": "https://docs.mixpanel.com/docs/what-is-mixpanel",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-07T14:48:27.001Z",
+      "completedAt": "2026-01-07T14:48:27.001Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.mixpanel.com/docs/what-is-mixpanel",
+          "canonicalUrl": "https://docs.mixpanel.com/docs/what-is-mixpanel",
+          "status": "valid"
+        }
+      ],
+      "id": "6c822395bd73912f98bf53db971e5d10dbbccece106b688e54b3b27b5b692c58",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "62d6cf6fe1d10ec5fd346b00ecc562360b5e1731d22c9db0e22928a5104b203a",
+      "filename": "documentation_2026-01-07T14:48:27.001Z.md",
+      "contentHash": "cfb4f9b0c6a70edc699559dd792af4c64b5efb2849a05e7a471ea6ed346f905e",
+      "sourceUrl": "https://docs.mixpanel.com/docs/what-is-mixpanel",
+      "canonicalSourceUrl": "https://docs.mixpanel.com/docs/what-is-mixpanel",
+      "capturedAt": "2026-01-07T14:48:27.001Z",
+      "crawlRunId": "6c822395bd73912f98bf53db971e5d10dbbccece106b688e54b3b27b5b692c58",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "What is Mixpanel? - Mixpanel Docs",
+          "url": "https://docs.mixpanel.com/docs/what-is-mixpanel"
+        },
+        {
+          "type": " Install Mixpanel - Mixpanel Docs",
+          "url": "https://docs.mixpanel.com/docs/quickstart/connect-your-data?sdk=javascript"
+        },
+        {
+          "type": " Install Mixpanel - Mixpanel Docs",
+          "url": "https://docs.mixpanel.com/docs/quickstart/connect-your-data?sdk=ruby"
+        },
+        {
+          "type": " Install Mixpanel - Mixpanel Docs",
+          "url": "https://docs.mixpanel.com/docs/quickstart/connect-your-data?sdk=android"
+        },
+        {
+          "type": " Install Mixpanel - Mixpanel Docs",
+          "url": "https://docs.mixpanel.com/docs/quickstart/connect-your-data?sdk=ios"
+        },
+        {
+          "type": " Install Mixpanel - Mixpanel Docs",
+          "url": "https://docs.mixpanel.com/docs/quickstart/connect-your-data?sdk=unity"
+        },
+        {
+          "type": " Install Mixpanel - Mixpanel Docs",
+          "url": "https://docs.mixpanel.com/docs/quickstart/connect-your-data?sdk=reactnative"
+        },
+        {
+          "type": " Install Mixpanel - Mixpanel Docs",
+          "url": "https://docs.mixpanel.com/docs/quickstart/connect-your-data?sdk=flutter"
+        },
+        {
+          "type": " Install Mixpanel - Mixpanel Docs",
+          "url": "https://docs.mixpanel.com/docs/quickstart/connect-your-data?sdk=httpapi"
+        },
+        {
+          "type": " Install Mixpanel - Mixpanel Docs",
+          "url": "https://docs.mixpanel.com/docs/quickstart/connect-your-data?sdk=python"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "62d6cf6fe1d10ec5fd346b00ecc562360b5e1731d22c9db0e22928a5104b203a"
 }

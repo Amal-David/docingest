@@ -152,5 +152,195 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://football-fun.gitbook.io/wiki/",
+      "canonicalSeedUrl": "https://football-fun.gitbook.io/wiki",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-24T13:34:01.948Z",
+      "completedAt": "2025-08-24T13:34:01.948Z",
+      "providerTotals": {
+        "discovered": 33,
+        "returned": 33,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://football-fun.gitbook.io/wiki/",
+          "canonicalUrl": "https://football-fun.gitbook.io/wiki",
+          "status": "valid"
+        }
+      ],
+      "id": "ac56da5bd71c87e234a9ebc048cc7c7f769329a61b9df4f123f2d4bb92051c8d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9f9c1e8ec60a62df03c371de40567bc47245d3e9bb3ea11068b4fbc95d735ee7",
+      "filename": "documentation_2025-08-24T13:34:01.948Z.md",
+      "contentHash": "0e7d022850673cd27e3aeca5d625af2c1354686ac93d9fce34f2a982dfc08bf5",
+      "sourceUrl": "https://football-fun.gitbook.io/wiki/",
+      "canonicalSourceUrl": "https://football-fun.gitbook.io/wiki",
+      "capturedAt": "2025-08-24T13:34:01.948Z",
+      "crawlRunId": "ac56da5bd71c87e234a9ebc048cc7c7f769329a61b9df4f123f2d4bb92051c8d",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 33,
+      "successfulPages": 33,
+      "structure": [
+        {
+          "type": "Football.Fun | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/"
+        },
+        {
+          "type": "Sign Up | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/sign-up"
+        },
+        {
+          "type": "Free to Play vs Pro | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/sign-up/free-to-play-vs-pro"
+        },
+        {
+          "type": "Player Packs | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/how-fdf-works/player-packs"
+        },
+        {
+          "type": "The Currencies | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/how-fdf-works/the-currencies"
+        },
+        {
+          "type": "How FDF Works | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/how-fdf-works"
+        },
+        {
+          "type": "Contracts | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/how-fdf-works/contracts"
+        },
+        {
+          "type": "Players | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/how-fdf-works/players"
+        },
+        {
+          "type": "Tournament Scoring - Basics | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/how-fdf-works/tournaments/tournament-scoring-basics"
+        },
+        {
+          "type": "Tournaments | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/how-fdf-works/tournaments"
+        },
+        {
+          "type": "Account Rep | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/how-fdf-works/account-rep"
+        },
+        {
+          "type": "Skill Rating - Basic | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/how-fdf-works/skill-rating-basic"
+        },
+        {
+          "type": "Trading During Tournaments | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/how-fdf-works/tournaments/trading-during-tournaments"
+        },
+        {
+          "type": "Tournament Prizes | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/how-fdf-works/tournaments/tournament-prizes"
+        },
+        {
+          "type": "Navigating FDF | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/navigating-fdf"
+        },
+        {
+          "type": "Main Page | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/navigating-fdf/main-page"
+        },
+        {
+          "type": "Live Scores Page | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/navigating-fdf/live-scores-page"
+        },
+        {
+          "type": "Leaderboard Page | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/navigating-fdf/leaderboard-page"
+        },
+        {
+          "type": "Skill Rating - Advanced | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/how-fdf-works/skill-rating-basic/skill-rating-advanced"
+        },
+        {
+          "type": "Profile Page | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/navigating-fdf/profile-page"
+        },
+        {
+          "type": "Squad Page | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/navigating-fdf/squad-page"
+        },
+        {
+          "type": "Objectives | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/navigating-fdf/profile-page/objectives"
+        },
+        {
+          "type": "Transfers Page | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/navigating-fdf/transfers-page"
+        },
+        {
+          "type": "Development & Active Squad | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/navigating-fdf/squad-page/development-and-active-squad"
+        },
+        {
+          "type": "Live Score Filters | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/navigating-fdf/live-scores-page/live-score-filters"
+        },
+        {
+          "type": "Invites | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/navigating-fdf/profile-page/invites"
+        },
+        {
+          "type": "Connect | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/navigating-fdf/profile-page/connect"
+        },
+        {
+          "type": "FAQs | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/faqs"
+        },
+        {
+          "type": "Tournament Scoring - Advanced | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started/how-fdf-works/tournaments/tournament-scoring-advanced"
+        },
+        {
+          "type": "History | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/navigating-fdf/profile-page/history"
+        },
+        {
+          "type": "Day 6 Recap | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/dev-updates/day-6-recap"
+        },
+        {
+          "type": "Sign Up | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/getting-started"
+        },
+        {
+          "type": "Day 6 Recap | Football.Fun",
+          "url": "https://football-fun.gitbook.io/wiki/dev-updates"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9f9c1e8ec60a62df03c371de40567bc47245d3e9bb3ea11068b4fbc95d735ee7"
 }

@@ -152,5 +152,195 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://jupiter.mintlify.app/docs/swap/get-quote?utm_source=chatgpt.com",
+      "canonicalSeedUrl": "https://jupiter.mintlify.app/docs/swap/get-quote",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-20T01:01:13.443Z",
+      "completedAt": "2025-12-20T01:01:13.443Z",
+      "providerTotals": {
+        "discovered": 33,
+        "returned": 33,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://jupiter.mintlify.app/docs/swap/get-quote?utm_source=chatgpt.com",
+          "canonicalUrl": "https://jupiter.mintlify.app/docs/swap/get-quote",
+          "status": "valid"
+        }
+      ],
+      "id": "29f8170f7d1afd111ca96e7e56d21746d364d452b57b421d82003a6c216d780a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9ee39e65bd0c9a566d6821e45a0f39f34f73598a2bdf1d4862e51a56d2920913",
+      "filename": "documentation_2025-12-20T01:01:13.443Z.md",
+      "contentHash": "49c2da242d1a42761c900d438633f1b1d6c6a295d67df5ae95d7bff84daf9e20",
+      "sourceUrl": "https://jupiter.mintlify.app/docs/swap/get-quote?utm_source=chatgpt.com",
+      "canonicalSourceUrl": "https://jupiter.mintlify.app/docs/swap/get-quote",
+      "capturedAt": "2025-12-20T01:01:13.443Z",
+      "crawlRunId": "29f8170f7d1afd111ca96e7e56d21746d364d452b57b421d82003a6c216d780a",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 33,
+      "successfulPages": 33,
+      "structure": [
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/swap/get-quote?utm_source=chatgpt.com"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/ultra/gasless"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/ultra/get-order"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/ultra/rate-limit"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/ultra"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/ultra/execute-order"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/ultra/get-started"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/ultra/add-payer"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/ultra/response"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/ultra/plugin-integration"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/swap/get-quote"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/swap/send-swap-transaction"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/swap/build-swap-transaction"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/swap/requote-with-lower-max-accounts"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/ultra/add-fees-to-ultra"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/swap"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/ultra/search-token"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/ultra/get-holdings"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/ultra/get-shield"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/swap/common-errors"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/swap/add-fees-to-swap"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/swap/payments-through-swap"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/routing"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/routing/market-listing"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/tokens/organic-score"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/routing/token-listing"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/tokens"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/tokens/token-tag-standard"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/tokens/v2/content"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/price"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/price/v3"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/routing/dex-integration"
+        },
+        {
+          "type": "Jupiter Developers",
+          "url": "https://jupiter.mintlify.app/docs/tokens/v2/token-information"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9ee39e65bd0c9a566d6821e45a0f39f34f73598a2bdf1d4862e51a56d2920913"
 }

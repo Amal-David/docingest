@@ -140,5 +140,183 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.opennhp.org/",
+      "canonicalSeedUrl": "https://docs.opennhp.org/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-14T18:28:47.136Z",
+      "completedAt": "2026-04-14T18:28:47.136Z",
+      "providerTotals": {
+        "discovered": 30,
+        "returned": 30,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.opennhp.org/",
+          "canonicalUrl": "https://docs.opennhp.org/",
+          "status": "valid"
+        }
+      ],
+      "id": "1e10f2a417ce40b78b0f8170677a84df802f643ca4c89128267995d87bf64566",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1ac01b908df3006aaaaf80803d793589fb39d921b0dcb324bf6fa9da103f7c2e",
+      "filename": "documentation_2026-04-14T18:28:47.136Z.md",
+      "contentHash": "9a3a4e9b280f57d0bc0eb1e5d98071d54a89c654f7459e5d59bca1e0042da39c",
+      "sourceUrl": "https://docs.opennhp.org/",
+      "canonicalSourceUrl": "https://docs.opennhp.org/",
+      "capturedAt": "2026-04-14T18:28:47.136Z",
+      "crawlRunId": "1e10f2a417ce40b78b0f8170677a84df802f643ca4c89128267995d87bf64566",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "structure": [
+        {
+          "type": "Overview | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/"
+        },
+        {
+          "type": "Features | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/features/"
+        },
+        {
+          "type": "NHP Quick Start | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/nhp_quick_start/"
+        },
+        {
+          "type": "Comparison | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/comparison/"
+        },
+        {
+          "type": "Cryptography | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/cryptography/"
+        },
+        {
+          "type": "How to Deploy | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/deploy/"
+        },
+        {
+          "type": "Understand the Code | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/code/"
+        },
+        {
+          "type": "DHP Quick Start | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/dhp_quick_start/"
+        },
+        {
+          "type": "How to Build | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/build/"
+        },
+        {
+          "type": "Server Plugins | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/server_plugin/"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.opennhp.org/claw-dhp-demo/"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.opennhp.org/arch-demo/"
+        },
+        {
+          "type": "About | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/about/"
+        },
+        {
+          "type": "中文版 | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/zh-cn/"
+        },
+        {
+          "type": "OpenNHP简介 | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/zh-cn/overview/"
+        },
+        {
+          "type": "功能列表 | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/zh-cn/features/"
+        },
+        {
+          "type": "NHP快速开始 | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/zh-cn/nhp_quick_start/"
+        },
+        {
+          "type": "加密算法 | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/zh-cn/cryptography/"
+        },
+        {
+          "type": "Client SDKs | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/agent_sdk/"
+        },
+        {
+          "type": "对比NHP与SPA | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/zh-cn/comparison/"
+        },
+        {
+          "type": "DHP快速开始 | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/zh-cn/dhp_quick_start/"
+        },
+        {
+          "type": "关于我们 | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/zh-cn/about/"
+        },
+        {
+          "type": "编译源代码 | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/zh-cn/build/"
+        },
+        {
+          "type": "部署OpenNHP | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/zh-cn/deploy/"
+        },
+        {
+          "type": "服务器插件开发 | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/zh-cn/server_plugin/"
+        },
+        {
+          "type": "源代码解读 | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/zh-cn/code/"
+        },
+        {
+          "type": "客户端SDK | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/zh-cn/agent_sdk/"
+        },
+        {
+          "type": "404 | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/quick_start"
+        },
+        {
+          "type": "404 | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/docs/comparison.md"
+        },
+        {
+          "type": "404 | OpenNHP Documentation",
+          "url": "https://docs.opennhp.org/zh-cn/quick_start/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1ac01b908df3006aaaaf80803d793589fb39d921b0dcb324bf6fa9da103f7c2e"
 }

@@ -33,5 +33,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://documentation.ajaxsearchpro.com/",
+      "canonicalSeedUrl": "https://documentation.ajaxsearchpro.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-25T13:41:29.400Z",
+      "completedAt": "2025-07-25T13:41:29.400Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://documentation.ajaxsearchpro.com/",
+          "canonicalUrl": "https://documentation.ajaxsearchpro.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "d5de538ddbdaa18d7d318d5dc8d9db1fb827367b2c2c00525bacaf48419098bb",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "161b49bbd2993afdb3f0962aff5daf68a96f01439f1db00ca06d0661db7d2d0e",
+      "filename": "documentation_2025-07-25T13:41:29.400Z.md",
+      "contentHash": "c7ef37c64893e4c98de11b7a719045e3398b89f7c3ad7677f9be1ddce3dff4d7",
+      "sourceUrl": "https://documentation.ajaxsearchpro.com/",
+      "canonicalSourceUrl": "https://documentation.ajaxsearchpro.com/",
+      "capturedAt": "2025-07-25T13:41:29.400Z",
+      "crawlRunId": "d5de538ddbdaa18d7d318d5dc8d9db1fb827367b2c2c00525bacaf48419098bb",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Ajax Search Pro Documentation | Ajax Search Pro Documentation",
+          "url": "https://documentation.ajaxsearchpro.com/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "161b49bbd2993afdb3f0962aff5daf68a96f01439f1db00ca06d0661db7d2d0e"
 }

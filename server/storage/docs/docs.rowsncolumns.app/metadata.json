@@ -51,5 +51,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.rowsncolumns.app/",
+      "canonicalSeedUrl": "https://docs.rowsncolumns.app/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-08T12:29:30.559Z",
+      "completedAt": "2025-02-08T12:29:30.559Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.rowsncolumns.app/",
+          "canonicalUrl": "https://docs.rowsncolumns.app/",
+          "status": "valid"
+        }
+      ],
+      "id": "0829d71a8888a755bf4264f9bd2bb45c436617bc57255dcc2731bf44d9d51da1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fd6676214183cdc59fc8d6ac9da375b3a0bb173251e1d40dac745bfdab672fe0",
+      "filename": "documentation_2025-02-08T12:29:30.559Z.md",
+      "contentHash": "8509225ab38d9ae013f5dc3238417c7cbfa9b5b9ee015e3f2b99b5382cb14df6",
+      "sourceUrl": "https://docs.rowsncolumns.app/",
+      "canonicalSourceUrl": "https://docs.rowsncolumns.app/",
+      "capturedAt": "2025-02-08T12:29:30.559Z",
+      "crawlRunId": "0829d71a8888a755bf4264f9bd2bb45c436617bc57255dcc2731bf44d9d51da1",
+      "upstreamVersion": "1.3.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Introduction | Rows n’ Columns Docs",
+          "url": "https://docs.rowsncolumns.app/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fd6676214183cdc59fc8d6ac9da375b3a0bb173251e1d40dac745bfdab672fe0"
 }

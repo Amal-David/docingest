@@ -156,5 +156,199 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://current-finance.gitbook.io/current/",
+      "canonicalSeedUrl": "https://current-finance.gitbook.io/current",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-13T14:07:27.032Z",
+      "completedAt": "2026-03-13T14:07:27.032Z",
+      "providerTotals": {
+        "discovered": 34,
+        "returned": 34,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://current-finance.gitbook.io/current/",
+          "canonicalUrl": "https://current-finance.gitbook.io/current",
+          "status": "valid"
+        }
+      ],
+      "id": "4f3ec742a960796adb110e3bf5ac0ca7481ce6ed9db7145ad3adddad5bad03d8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "588843517271db097877e627ce5b449636d6e9fcdd3987cfdf440d92a07fb22e",
+      "filename": "documentation_2026-03-13T14:07:27.032Z.md",
+      "contentHash": "0bf87f82fe9eaf3ffa8db242e8063eb1301f8435828567c4c5df89231d122fd9",
+      "sourceUrl": "https://current-finance.gitbook.io/current/",
+      "canonicalSourceUrl": "https://current-finance.gitbook.io/current",
+      "capturedAt": "2026-03-13T14:07:27.032Z",
+      "crawlRunId": "4f3ec742a960796adb110e3bf5ac0ca7481ce6ed9db7145ad3adddad5bad03d8",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 34,
+      "successfulPages": 34,
+      "structure": [
+        {
+          "type": "What is Current | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/"
+        },
+        {
+          "type": "Product Overview | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/product-overview"
+        },
+        {
+          "type": "Market | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/market"
+        },
+        {
+          "type": "Supplying Assets | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/market/supplying-assets"
+        },
+        {
+          "type": "Margin | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/margin"
+        },
+        {
+          "type": "Borrowing Assets | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/market/borrowing-assets"
+        },
+        {
+          "type": "Flash Loan | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/market/flash-loan"
+        },
+        {
+          "type": "Interest Rate Model | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/market/interest-rate-model"
+        },
+        {
+          "type": "Multiply | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/multiply"
+        },
+        {
+          "type": "Opening a Position | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/margin/opening-a-position"
+        },
+        {
+          "type": "Risks | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/margin/risks"
+        },
+        {
+          "type": "Managing a Position | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/margin/managing-a-position"
+        },
+        {
+          "type": "How Does it Work? | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/margin/how-does-it-work"
+        },
+        {
+          "type": "Position Risk & Liquidations | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/market/position-risk-and-liquidations"
+        },
+        {
+          "type": "Security Overview | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/security-and-risk/security-overview"
+        },
+        {
+          "type": "How It Work? | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/multiply/how-it-work"
+        },
+        {
+          "type": "Risk Management Framework | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/security-and-risk/risk-management-framework"
+        },
+        {
+          "type": "Monitoring & Circuit Breakers | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/security-and-risk/monitoring-and-circuit-breakers"
+        },
+        {
+          "type": "Risks | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/multiply/risks"
+        },
+        {
+          "type": "Audit Reports | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/security-and-risk/audit-reports"
+        },
+        {
+          "type": "Risk Disclosure | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/security-and-risk/risk-disclosure"
+        },
+        {
+          "type": "E-Mode | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/protocol-mechanism/daily-caps/e-mode"
+        },
+        {
+          "type": "FAQ | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/faq"
+        },
+        {
+          "type": "Daily Caps | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/protocol-mechanism/daily-caps"
+        },
+        {
+          "type": "Referral | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/incentives/referral"
+        },
+        {
+          "type": "Opening a Position | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/multiply/opening-a-position"
+        },
+        {
+          "type": "Managing a Position | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/product/multiply/managing-a-position"
+        },
+        {
+          "type": "Code Security & Formal Verification | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/security-and-risk/code-security-and-formal-verification"
+        },
+        {
+          "type": "FLP-1: Founding Liquidity Partner | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/incentives/flp-1-founding-liquidity-partner"
+        },
+        {
+          "type": "Current Points | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/incentives/current-points"
+        },
+        {
+          "type": "ADL (Automated Deleverage) | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/protocol-mechanism/adl-automated-deleverage"
+        },
+        {
+          "type": "Season 1 | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/playbook/season-1"
+        },
+        {
+          "type": "Farm Multiply points + stSUI yield | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/playbook/season-1/farm-multiply-points-+-stsui-yield"
+        },
+        {
+          "type": "The Sleep-Well System Playbook | Current Finance Doc",
+          "url": "https://current-finance.gitbook.io/current/playbook/season-1/the-sleep-well-system-playbook"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "588843517271db097877e627ce5b449636d6e9fcdd3987cfdf440d92a07fb22e"
 }

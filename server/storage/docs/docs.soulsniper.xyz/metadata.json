@@ -149,5 +149,183 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.soulsniper.xyz/",
+      "canonicalSeedUrl": "https://docs.soulsniper.xyz/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-10T22:54:58.252Z",
+      "completedAt": "2026-01-10T22:54:58.252Z",
+      "providerTotals": {
+        "discovered": 30,
+        "returned": 30,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.soulsniper.xyz/",
+          "canonicalUrl": "https://docs.soulsniper.xyz/",
+          "status": "valid"
+        }
+      ],
+      "id": "cafefb8d2a7614c925d95ce9ef82c1c19bc4ac362fbde671a6f28bd9f35c9b04",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f3544a27501e74a405cb526e4e3fd55876b0b68506baba6efdd065185f23bbe3",
+      "filename": "documentation_2026-01-10T22:54:58.252Z.md",
+      "contentHash": "f02d1a8a9dd36fa81540563f7173308b42259a1e31a89e4f3769644ecf8543a5",
+      "sourceUrl": "https://docs.soulsniper.xyz/",
+      "canonicalSourceUrl": "https://docs.soulsniper.xyz/",
+      "capturedAt": "2026-01-10T22:54:58.252Z",
+      "crawlRunId": "cafefb8d2a7614c925d95ce9ef82c1c19bc4ac362fbde671a6f28bd9f35c9b04",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "structure": [
+        {
+          "type": "Introduction | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/"
+        },
+        {
+          "type": "Roadmap | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/overview/roadmap"
+        },
+        {
+          "type": "Community | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/overview/community"
+        },
+        {
+          "type": "Team | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/overview/team"
+        },
+        {
+          "type": "Glossary | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/soul-scanner/glossary"
+        },
+        {
+          "type": "Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/soul-scanner"
+        },
+        {
+          "type": "Usage | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/soul-scanner/usage"
+        },
+        {
+          "type": "Alerts and Warnings | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/soul-scanner/alerts-and-warnings"
+        },
+        {
+          "type": "Trending | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/trending"
+        },
+        {
+          "type": "Soul Sniper | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/soul-sniper"
+        },
+        {
+          "type": "Early Trending | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/trending/early-trending"
+        },
+        {
+          "type": "Usage | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/soul-sniper/usage"
+        },
+        {
+          "type": "Utility | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/usdsoul-token/utility"
+        },
+        {
+          "type": "Whale Trending | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/trending/whale-trending"
+        },
+        {
+          "type": "Glossary | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/soul-sniper/glossary"
+        },
+        {
+          "type": "Soul Sniper | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/ecosystem/soul-sniper"
+        },
+        {
+          "type": "Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/ecosystem/soul-scanner"
+        },
+        {
+          "type": "CA and Tokenomics | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/usdsoul-token/ca-and-tokenomics"
+        },
+        {
+          "type": "Snipers | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/soul-scanner/snipers"
+        },
+        {
+          "type": "Trending | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/support/disclaimers/trending"
+        },
+        {
+          "type": "Fake Volume | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/soul-scanner/fake-volume"
+        },
+        {
+          "type": "Rewards | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/usdsoul-token/rewards"
+        },
+        {
+          "type": "First 20 | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/soul-scanner/first-20"
+        },
+        {
+          "type": "Contact | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/support/contact"
+        },
+        {
+          "type": "Terms | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/support/terms"
+        },
+        {
+          "type": "Fake Holder | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/soul-scanner/fake-holder"
+        },
+        {
+          "type": "Privacy Policies | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/support/privacy-policies"
+        },
+        {
+          "type": "Disclaimers | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/support/disclaimers"
+        },
+        {
+          "type": "Bundles | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/soul-scanner/bundles"
+        },
+        {
+          "type": "Group Trading™ | Soul Scanner",
+          "url": "https://docs.soulsniper.xyz/user-guides/soul-scanner/group-trading-tm"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f3544a27501e74a405cb526e4e3fd55876b0b68506baba6efdd065185f23bbe3"
 }

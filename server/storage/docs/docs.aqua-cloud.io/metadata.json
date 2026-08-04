@@ -82,5 +82,107 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.aqua-cloud.io/documentation/web-client/general",
+      "canonicalSeedUrl": "https://docs.aqua-cloud.io/documentation/web-client/general",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-12T17:09:08.233Z",
+      "completedAt": "2025-03-12T17:09:08.233Z",
+      "providerTotals": {
+        "discovered": 11,
+        "returned": 11,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.aqua-cloud.io/documentation/web-client/general",
+          "canonicalUrl": "https://docs.aqua-cloud.io/documentation/web-client/general",
+          "status": "valid"
+        }
+      ],
+      "id": "025c1df93271b0bf8db5b00e2a344084a03945c0d33b12b781793b4cfe989a56",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d5c6ce3c6f9f7a1de79715280b65212dd7a0b45738893fc2c6ffddf03b5a6eb5",
+      "filename": "documentation_2025-03-12T17:09:08.233Z.md",
+      "contentHash": "0bafdb9e5e1aa82f191171a40e81cdb1935c0b7453412210baadc05e967acb78",
+      "sourceUrl": "https://docs.aqua-cloud.io/documentation/web-client/general",
+      "canonicalSourceUrl": "https://docs.aqua-cloud.io/documentation/web-client/general",
+      "capturedAt": "2025-03-12T17:09:08.233Z",
+      "crawlRunId": "025c1df93271b0bf8db5b00e2a344084a03945c0d33b12b781793b4cfe989a56",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 11,
+      "successfulPages": 11,
+      "structure": [
+        {
+          "type": "General | Documentation - aqua cloud",
+          "url": "https://docs.aqua-cloud.io/documentation/web-client/general"
+        },
+        {
+          "type": "Home page | Documentation - aqua cloud",
+          "url": "https://docs.aqua-cloud.io/documentation/web-client/general/home-page"
+        },
+        {
+          "type": "App language | Documentation - aqua cloud",
+          "url": "https://docs.aqua-cloud.io/documentation/web-client/general/app-language"
+        },
+        {
+          "type": "User administration | Documentation - aqua cloud",
+          "url": "https://docs.aqua-cloud.io/documentation/user-administration"
+        },
+        {
+          "type": "User account | Documentation - aqua cloud",
+          "url": "https://docs.aqua-cloud.io/documentation/web-client/general/user-account"
+        },
+        {
+          "type": "How to Contact Our Support | Documentation - aqua cloud",
+          "url": "https://docs.aqua-cloud.io/documentation/web-client/how-to-contact-our-support"
+        },
+        {
+          "type": "Change password | Documentation - aqua cloud",
+          "url": "https://docs.aqua-cloud.io/documentation/web-client/general/change-password"
+        },
+        {
+          "type": "Shortcuts & Accessibility | Documentation - aqua cloud",
+          "url": "https://docs.aqua-cloud.io/documentation/web-client/general/shortcuts-and-accessibility"
+        },
+        {
+          "type": "Administration | Documentation - aqua cloud",
+          "url": "https://docs.aqua-cloud.io/documentation/administration"
+        },
+        {
+          "type": "Adding and managing users | Documentation - aqua cloud",
+          "url": "https://docs.aqua-cloud.io/documentation/user-administration/adding-and-managing-users"
+        },
+        {
+          "type": "Roles and permissions | Documentation - aqua cloud",
+          "url": "https://docs.aqua-cloud.io/documentation/user-administration/roles-and-permissions"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d5c6ce3c6f9f7a1de79715280b65212dd7a0b45738893fc2c6ffddf03b5a6eb5"
 }

@@ -33,5 +33,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://simulate365.com/docs/",
+      "canonicalSeedUrl": "https://simulate365.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-26T21:08:22.714Z",
+      "completedAt": "2025-03-26T21:08:22.714Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://simulate365.com/docs/",
+          "canonicalUrl": "https://simulate365.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "9bf9410309ceeeba8e134b7cdda02eb48a3138c56f7f9458cf1aaff2302bcfed",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "92d843b850391aad7f0188e64afb8dc679a85d81e0ac1a636f89b4b21f54d41e",
+      "filename": "documentation_2025-03-26T21:08:22.714Z.md",
+      "contentHash": "10da8c15db3eb1ea013b0f18405039c114352d131d7b61695170cdc48d68a063",
+      "sourceUrl": "https://simulate365.com/docs/",
+      "canonicalSourceUrl": "https://simulate365.com/docs",
+      "capturedAt": "2025-03-26T21:08:22.714Z",
+      "crawlRunId": "9bf9410309ceeeba8e134b7cdda02eb48a3138c56f7f9458cf1aaff2302bcfed",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Your access to this site has been limited by the site owner",
+          "url": "https://simulate365.com/docs/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "92d843b850391aad7f0188e64afb8dc679a85d81e0ac1a636f89b4b21f54d41e"
 }

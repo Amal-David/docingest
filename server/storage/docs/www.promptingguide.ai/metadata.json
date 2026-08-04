@@ -81,5 +81,79 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.promptingguide.ai/risks",
+      "canonicalSeedUrl": "https://www.promptingguide.ai/risks",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-13T11:29:56.778Z",
+      "completedAt": "2026-01-13T11:29:56.778Z",
+      "providerTotals": {
+        "discovered": 4,
+        "returned": 4,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.promptingguide.ai/risks",
+          "canonicalUrl": "https://www.promptingguide.ai/risks",
+          "status": "valid"
+        }
+      ],
+      "id": "3a011e2e87e861092a0eec2b65f7c2e781f4b1031f06c69354d386d71dc6538d",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "64437d33802fea2f7f247ca26d97f54cf56d995680319aac4ad15d2544a98edf",
+      "filename": "documentation_2026-01-13T11:29:56.778Z.md",
+      "contentHash": "22fc36872f3f5d0b9866cd40d0a969184a8dea0b13b4d151f53b5c3d33f92f66",
+      "sourceUrl": "https://www.promptingguide.ai/risks",
+      "canonicalSourceUrl": "https://www.promptingguide.ai/risks",
+      "capturedAt": "2026-01-13T11:29:56.778Z",
+      "crawlRunId": "3a011e2e87e861092a0eec2b65f7c2e781f4b1031f06c69354d386d71dc6538d",
+      "upstreamVersion": "1.5.0",
+      "upstreamChannel": "latest",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "Risks & Misuses | Prompt Engineering Guide<!-- --> ",
+          "url": "https://www.promptingguide.ai/risks"
+        },
+        {
+          "type": "Adversarial Prompting in LLMs | Prompt Engineering Guide<!-- --> ",
+          "url": "https://www.promptingguide.ai/risks/adversarial"
+        },
+        {
+          "type": "Factuality | Prompt Engineering Guide<!-- --> ",
+          "url": "https://www.promptingguide.ai/risks/factuality"
+        },
+        {
+          "type": "Biases | Prompt Engineering Guide<!-- --> ",
+          "url": "https://www.promptingguide.ai/risks/biases"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "64437d33802fea2f7f247ca26d97f54cf56d995680319aac4ad15d2544a98edf"
 }

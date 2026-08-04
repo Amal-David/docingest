@@ -160,5 +160,203 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://help.cleanlab.ai/studio/quickstart/",
+      "canonicalSeedUrl": "https://help.cleanlab.ai/studio/quickstart",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-24T20:53:09.723Z",
+      "completedAt": "2025-04-24T20:53:09.723Z",
+      "providerTotals": {
+        "discovered": 35,
+        "returned": 35,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://help.cleanlab.ai/studio/quickstart/",
+          "canonicalUrl": "https://help.cleanlab.ai/studio/quickstart",
+          "status": "valid"
+        }
+      ],
+      "id": "228369191dcb51f0d03ea10c6e6923f60908d7d9efea928f52d851350a4630e9",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c38ddd140d7c5720dd71e655b52be7b0672355af8093b4d3a054b98627f08386",
+      "filename": "documentation_2025-04-24T20:53:09.723Z.md",
+      "contentHash": "b28c0da1c898648464d8a15ce17f862f6951d76ea25ce0e4f3b858cf9fcb3bad",
+      "sourceUrl": "https://help.cleanlab.ai/studio/quickstart/",
+      "canonicalSourceUrl": "https://help.cleanlab.ai/studio/quickstart",
+      "capturedAt": "2025-04-24T20:53:09.723Z",
+      "crawlRunId": "228369191dcb51f0d03ea10c6e6923f60908d7d9efea928f52d851350a4630e9",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 35,
+      "successfulPages": 35,
+      "structure": [
+        {
+          "type": "Cleanlab Studio | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/quickstart/"
+        },
+        {
+          "type": "Python API Reference for Cleanlab Studio | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/api/"
+        },
+        {
+          "type": "Docs | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/"
+        },
+        {
+          "type": "Getting Started with Cleanlab Studio Python API | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/quickstart/api/"
+        },
+        {
+          "type": "Getting Started with Cleanlab Studio CLI | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/quickstart/cli/"
+        },
+        {
+          "type": "Cleanlab Studio Documentation",
+          "url": "https://help.cleanlab.ai/studio/quickstart/web/"
+        },
+        {
+          "type": "Datasets | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/concepts/datasets/"
+        },
+        {
+          "type": "Concepts | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/concepts/"
+        },
+        {
+          "type": "Projects | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/concepts/projects/"
+        },
+        {
+          "type": "Models | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/concepts/models/"
+        },
+        {
+          "type": "Cleanlab Columns | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/concepts/cleanlab_columns/"
+        },
+        {
+          "type": "Resolver | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/concepts/resolver/"
+        },
+        {
+          "type": "Welcome to the Cleanlab Studio tutorials! | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/tutorials/"
+        },
+        {
+          "type": "Using Filters and Analytics to Understand Your data | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/understanding_data/"
+        },
+        {
+          "type": "AI Automated Data Labeling with Cleanlab Studio",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/data_labeling/"
+        },
+        {
+          "type": "Cleanset | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/concepts/cleanset/"
+        },
+        {
+          "type": "Overview | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/codex/"
+        },
+        {
+          "type": "Datasets | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/concepts/datasets_v1/"
+        },
+        {
+          "type": "Frequently Asked Questions | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/FAQ/"
+        },
+        {
+          "type": "Data Curation with Train vs Test Splits",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/train_test/"
+        },
+        {
+          "type": "Trustworthy Language Model (TLM) | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/tlm/"
+        },
+        {
+          "type": "How to Automatically Curate Multi-Label Datasets",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/multilabel/"
+        },
+        {
+          "type": "Instant ML Model Training + Deployment for Multi-Label Data",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/multilabel_model_deployment/"
+        },
+        {
+          "type": "Dynamically evolve your classification datasets by adding new classes",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-web/creating_new_classes/"
+        },
+        {
+          "type": "Automatically Find and Fix Issues in Any Text Dataset",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/text_data_quickstart/"
+        },
+        {
+          "type": "Automatically Find and Fix Issues in Any Tabular Dataset",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/tabular_data_quickstart/"
+        },
+        {
+          "type": "Curating Heterogeneous Document Datasets with Data-Centric AI",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/document_data_quickstart/"
+        },
+        {
+          "type": "AI to Detect Data Entry Errors (and Impute Missing Values) in any Tabular Dataset",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/data_entry/"
+        },
+        {
+          "type": "Catching Issues in a Product Catalog (Multimodal Dataset)",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/multimodal_dataset/"
+        },
+        {
+          "type": "How to Produce Better-Quality Data 10x Faster in any Data Annotation Platform",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/data_annotation_label_studio/"
+        },
+        {
+          "type": "Automated Data Quality for Large-Scale Image Datasets",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/large_image_datasets/"
+        },
+        {
+          "type": "Formatting common types of Python text datasets | Cleanlab Documentation",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/format_text_data/"
+        },
+        {
+          "type": "Detecting Issues in Named Entity Recognition Datasets",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/named_entity_recognition/"
+        },
+        {
+          "type": "Automatically Detect Erroneous Values in Numerical Data via AI",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/regression/"
+        },
+        {
+          "type": "How to detect issues in datasets without labels (unsupervised learning)",
+          "url": "https://help.cleanlab.ai/studio/tutorials/cleanlab-studio-api/unsupervised/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c38ddd140d7c5720dd71e655b52be7b0672355af8093b4d3a054b98627f08386"
 }

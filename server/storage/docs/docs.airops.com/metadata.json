@@ -70,5 +70,95 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.airops.com",
+      "canonicalSeedUrl": "https://docs.airops.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-11T15:59:53.722Z",
+      "completedAt": "2026-01-11T15:59:53.722Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.airops.com",
+          "canonicalUrl": "https://docs.airops.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "b462916b06c90540cfd7150f17ec1cba83382b32920eaf0be4c0512dcabccebc",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "76cae297b0cda376240207731b10eece7458ebc0e60dc065912d1d1a3e14128b",
+      "filename": "documentation_2026-01-11T15:59:53.722Z.md",
+      "contentHash": "953a21a7ca16dfe160ade549bf4aff03b19bc80d2dfffb982968fcc3779f39dd",
+      "sourceUrl": "https://docs.airops.com",
+      "canonicalSourceUrl": "https://docs.airops.com/",
+      "capturedAt": "2026-01-11T15:59:53.722Z",
+      "crawlRunId": "b462916b06c90540cfd7150f17ec1cba83382b32920eaf0be4c0512dcabccebc",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "Overview | AirOps Docs",
+          "url": "https://docs.airops.com"
+        },
+        {
+          "type": "Core Concepts | AirOps Docs",
+          "url": "https://docs.airops.com/getting-started/readme/readme"
+        },
+        {
+          "type": "Knowledge Bases | AirOps Docs",
+          "url": "https://docs.airops.com/your-data/memory-stores"
+        },
+        {
+          "type": "Brand Kits | AirOps Docs",
+          "url": "https://docs.airops.com/your-data/brand-kit"
+        },
+        {
+          "type": "Building your First Workflow | AirOps Docs",
+          "url": "https://docs.airops.com/getting-started/readme/building-your-first-workflow"
+        },
+        {
+          "type": "Knowledge Base Search | AirOps Docs",
+          "url": "https://docs.airops.com/your-data/memory-stores/knowledge-base-search"
+        },
+        {
+          "type": "Knowledge Base API | AirOps Docs",
+          "url": "https://docs.airops.com/your-data/memory-stores/memory-stores-api"
+        },
+        {
+          "type": "Add Data | AirOps Docs",
+          "url": "https://docs.airops.com/your-data/memory-stores/add-data"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "76cae297b0cda376240207731b10eece7458ebc0e60dc065912d1d1a3e14128b"
 }

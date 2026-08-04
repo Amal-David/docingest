@@ -84,5 +84,127 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.firedancer.io/guide/",
+      "canonicalSeedUrl": "https://docs.firedancer.io/guide",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-09T17:52:50.982Z",
+      "completedAt": "2026-04-09T17:52:50.982Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.firedancer.io/guide/",
+          "canonicalUrl": "https://docs.firedancer.io/guide",
+          "status": "valid"
+        }
+      ],
+      "id": "79c7b8a67a49f0dca50b35515f07279bba9ca69c204f70c154643189f6bd548b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a73b47dc95d62149860d4bad8db8245a463d15014dcacee3642a5521a2881a12",
+      "filename": "documentation_2026-04-09T17:52:50.982Z.md",
+      "contentHash": "18daebf7bea88f66d8101fafd9ca5167cde35ebe24abcb299f364f83e7b18310",
+      "sourceUrl": "https://docs.firedancer.io/guide/",
+      "canonicalSourceUrl": "https://docs.firedancer.io/guide",
+      "capturedAt": "2026-04-09T17:52:50.982Z",
+      "crawlRunId": "79c7b8a67a49f0dca50b35515f07279bba9ca69c204f70c154643189f6bd548b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "404 | Firedancer",
+          "url": "https://docs.firedancer.io/guide/"
+        },
+        {
+          "type": "Firedancer",
+          "url": "https://docs.firedancer.io/"
+        },
+        {
+          "type": "Firedancer",
+          "url": "https://docs.firedancer.io/guide/firedancer.html"
+        },
+        {
+          "type": "fdctl Command Line Interface | Firedancer",
+          "url": "https://docs.firedancer.io/api/cli.html"
+        },
+        {
+          "type": "Getting Started | Firedancer",
+          "url": "https://docs.firedancer.io/guide/getting-started.html"
+        },
+        {
+          "type": "Initializing | Firedancer",
+          "url": "https://docs.firedancer.io/guide/initializing.html"
+        },
+        {
+          "type": "Performance Tuning | Firedancer",
+          "url": "https://docs.firedancer.io/guide/tuning.html"
+        },
+        {
+          "type": "Monitoring | Firedancer",
+          "url": "https://docs.firedancer.io/guide/monitoring.html"
+        },
+        {
+          "type": "Configuring | Firedancer",
+          "url": "https://docs.firedancer.io/guide/configuring.html"
+        },
+        {
+          "type": "Frequently Asked Questions | Firedancer",
+          "url": "https://docs.firedancer.io/guide/faq.html"
+        },
+        {
+          "type": "Troubleshooting | Firedancer",
+          "url": "https://docs.firedancer.io/guide/troubleshooting.html"
+        },
+        {
+          "type": "Netlink Integration | Firedancer",
+          "url": "https://docs.firedancer.io/guide/internals/netlink.html"
+        },
+        {
+          "type": "Net Tile | Firedancer",
+          "url": "https://docs.firedancer.io/guide/internals/net_tile.html"
+        },
+        {
+          "type": "firedancer Command Line Interface | Firedancer",
+          "url": "https://docs.firedancer.io/api/firedancer-cli.html"
+        },
+        {
+          "type": "Metrics | Firedancer",
+          "url": "https://docs.firedancer.io/api/metrics.html"
+        },
+        {
+          "type": "Firedancer WebSocket API | Firedancer",
+          "url": "https://docs.firedancer.io/api/websocket.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a73b47dc95d62149860d4bad8db8245a463d15014dcacee3642a5521a2881a12"
 }

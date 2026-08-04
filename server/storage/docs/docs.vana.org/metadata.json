@@ -176,5 +176,219 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.vana.org/",
+      "canonicalSeedUrl": "https://docs.vana.org/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-17T18:37:49.198Z",
+      "completedAt": "2025-04-17T18:37:49.198Z",
+      "providerTotals": {
+        "discovered": 39,
+        "returned": 39,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.vana.org/",
+          "canonicalUrl": "https://docs.vana.org/",
+          "status": "valid"
+        }
+      ],
+      "id": "73ef66975c2342ca61421d415e7efae75b3033e26bfa38a488e22c177b337dc8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0704d3618d5b6eda1a1ea5a15fc8530c7842b9143aeb523ba860dcd1aa315b3a",
+      "filename": "documentation_2025-04-17T18:37:49.198Z.md",
+      "contentHash": "ecf3bed6607ea0f4d874b8f048e389b5b846924612245e2d70677b64d0a199f8",
+      "sourceUrl": "https://docs.vana.org/",
+      "canonicalSourceUrl": "https://docs.vana.org/",
+      "capturedAt": "2025-04-17T18:37:49.198Z",
+      "crawlRunId": "73ef66975c2342ca61421d415e7efae75b3033e26bfa38a488e22c177b337dc8",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 39,
+      "successfulPages": 39,
+      "structure": [
+        {
+          "type": "Welcome",
+          "url": "https://docs.vana.org/"
+        },
+        {
+          "type": "Explain Like I'm Five",
+          "url": "https://docs.vana.org/docs/explain-like-im-five"
+        },
+        {
+          "type": "Release Notes",
+          "url": "https://docs.vana.org/changelog"
+        },
+        {
+          "type": "Vana Token Overview",
+          "url": "https://docs.vana.org/docs/vana-token-overview"
+        },
+        {
+          "type": "Vana Whitepaper",
+          "url": "https://docs.vana.org/docs/vana-whitepaper"
+        },
+        {
+          "type": "What is Vana?",
+          "url": "https://docs.vana.org/docs/what-is-vana"
+        },
+        {
+          "type": "For Data Consumers",
+          "url": "https://docs.vana.org/docs/for-data-consumers"
+        },
+        {
+          "type": "For Developers",
+          "url": "https://docs.vana.org/docs/for-developers"
+        },
+        {
+          "type": "Network Information",
+          "url": "https://docs.vana.org/docs/overview"
+        },
+        {
+          "type": "Governance",
+          "url": "https://docs.vana.org/docs/governance"
+        },
+        {
+          "type": "DataDAO Rewards",
+          "url": "https://docs.vana.org/docs/datadao-rewards"
+        },
+        {
+          "type": "For Explorers",
+          "url": "https://docs.vana.org/docs/for-explorers"
+        },
+        {
+          "type": "DataDAOs",
+          "url": "https://docs.vana.org/docs/data-liquidity-pools-dlps"
+        },
+        {
+          "type": "Quickstart",
+          "url": "https://docs.vana.org/reference"
+        },
+        {
+          "type": "For Data Contributors",
+          "url": "https://docs.vana.org/docs/for-data-contributors"
+        },
+        {
+          "type": "Contract Addresses",
+          "url": "https://docs.vana.org/docs/contract-addresses"
+        },
+        {
+          "type": "ChatGPT DataDAO Example",
+          "url": "https://docs.vana.org/docs/chatgpt-dlp-example"
+        },
+        {
+          "type": "Ecosystem Partners",
+          "url": "https://docs.vana.org/docs/ecosystem-partners"
+        },
+        {
+          "type": "Bridging on Vana",
+          "url": "https://docs.vana.org/docs/bridging-on-vana"
+        },
+        {
+          "type": "Network",
+          "url": "https://docs.vana.org/docs/network-overview"
+        },
+        {
+          "type": "Minimum Requirements",
+          "url": "https://docs.vana.org/docs/minimum-requirements"
+        },
+        {
+          "type": "Data Liquidity Pool & DLPToken",
+          "url": "https://docs.vana.org/docs/data-liquidity-pool-dlptoken"
+        },
+        {
+          "type": "L1 Validator",
+          "url": "https://docs.vana.org/docs/l1-validators"
+        },
+        {
+          "type": "VanaPool",
+          "url": "https://docs.vana.org/docs/vana-pool"
+        },
+        {
+          "type": "Data Registry",
+          "url": "https://docs.vana.org/docs/data-registry"
+        },
+        {
+          "type": "Cycle 6 Rewards Distribution Example",
+          "url": "https://docs.vana.org/docs/cycle-6-rewards-distribution-example"
+        },
+        {
+          "type": "VanaPool Entity",
+          "url": "https://docs.vana.org/docs/vana-pool-entity"
+        },
+        {
+          "type": "Cycle 2 Rewards Distribution Example",
+          "url": "https://docs.vana.org/docs/rewards-distribution-example"
+        },
+        {
+          "type": "FAQ",
+          "url": "https://docs.vana.org/docs/datadao-rewards-faq"
+        },
+        {
+          "type": "TEE Pool",
+          "url": "https://docs.vana.org/docs/tee-pool"
+        },
+        {
+          "type": "Smart Contracts",
+          "url": "https://docs.vana.org/docs/smart-contracts"
+        },
+        {
+          "type": "Vana Docs",
+          "url": "https://docs.vana.org/docs/snapshot.org"
+        },
+        {
+          "type": "Release Notes",
+          "url": "https://docs.vana.org/changelog?page=2"
+        },
+        {
+          "type": "DLP Root Epoch",
+          "url": "https://docs.vana.org/docs/dlp-root-epoch"
+        },
+        {
+          "type": "Validators",
+          "url": "https://docs.vana.org/docs/validators"
+        },
+        {
+          "type": "Cycle 3-5 Rewards Distribution Example",
+          "url": "https://docs.vana.org/docs/cycle-3-rewards-distribution-example"
+        },
+        {
+          "type": "Proof of Contribution",
+          "url": "https://docs.vana.org/docs/proof-of-contribution"
+        },
+        {
+          "type": "DLP Root Core",
+          "url": "https://docs.vana.org/docs/dlp-root-core"
+        },
+        {
+          "type": "VanaPool Staking",
+          "url": "https://docs.vana.org/docs/vana-pool-staking"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0704d3618d5b6eda1a1ea5a15fc8530c7842b9143aeb523ba860dcd1aa315b3a"
 }

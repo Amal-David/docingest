@@ -109,5 +109,143 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://poshcode.gitbook.io/powershell-practice-and-style",
+      "canonicalSeedUrl": "https://poshcode.gitbook.io/powershell-practice-and-style",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-19T05:41:50.183Z",
+      "completedAt": "2026-01-19T05:41:50.183Z",
+      "providerTotals": {
+        "discovered": 20,
+        "returned": 20,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style",
+          "canonicalUrl": "https://poshcode.gitbook.io/powershell-practice-and-style",
+          "status": "valid"
+        }
+      ],
+      "id": "686a0f24510fffcfc4daa0698c200ee226e337ca2c176537235d89e92042823e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "572b7b49916acc720caf0eff481655e79c94e621c0893aab9df034a0b5bd2543",
+      "filename": "documentation_2026-01-19T05:41:50.183Z.md",
+      "contentHash": "85b364310c46a2e0312391a20a12e4d7327d559815fce26868196ed5f7c39d00",
+      "sourceUrl": "https://poshcode.gitbook.io/powershell-practice-and-style",
+      "canonicalSourceUrl": "https://poshcode.gitbook.io/powershell-practice-and-style",
+      "capturedAt": "2026-01-19T05:41:50.183Z",
+      "crawlRunId": "686a0f24510fffcfc4daa0698c200ee226e337ca2c176537235d89e92042823e",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 20,
+      "successfulPages": 20,
+      "structure": [
+        {
+          "type": "About this Guide | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style"
+        },
+        {
+          "type": "Contributing | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/introduction/contributing"
+        },
+        {
+          "type": "Introduction | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/style-guide/introduction"
+        },
+        {
+          "type": "Readability | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/style-guide/readability"
+        },
+        {
+          "type": "Code Layout and Formatting | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/style-guide/code-layout-and-formatting"
+        },
+        {
+          "type": "Function Structure | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/style-guide/function-structure"
+        },
+        {
+          "type": "Introduction | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/best-practices/introduction"
+        },
+        {
+          "type": "Documentation and Comments | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/style-guide/documentation-and-comments"
+        },
+        {
+          "type": "Naming Conventions | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/style-guide/naming-conventions"
+        },
+        {
+          "type": "Output and Formatting | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/best-practices/output-and-formatting"
+        },
+        {
+          "type": "Naming Conventions | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/best-practices/naming-conventions"
+        },
+        {
+          "type": "Error Handling | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/best-practices/error-handling"
+        },
+        {
+          "type": "Building Reusable Tools | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/best-practices/building-reusable-tools"
+        },
+        {
+          "type": "Performance | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/best-practices/performance"
+        },
+        {
+          "type": "Security | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/best-practices/security"
+        },
+        {
+          "type": "Language, Interop and .NET | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/best-practices/language-interop-and-.net"
+        },
+        {
+          "type": "Metadata, Versioning, and Packaging | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/best-practices/metadata-versioning-and-packaging"
+        },
+        {
+          "type": "About this Guide | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/introduction"
+        },
+        {
+          "type": "Introduction | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/style-guide"
+        },
+        {
+          "type": "Introduction | PowerShell Practice and Style",
+          "url": "https://poshcode.gitbook.io/powershell-practice-and-style/best-practices"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "572b7b49916acc720caf0eff481655e79c94e621c0893aab9df034a0b5bd2543"
 }

@@ -228,5 +228,271 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://maximilian-dorninger.gitbook.io/mediamanager/importing-existing-media",
+      "canonicalSeedUrl": "https://maximilian-dorninger.gitbook.io/mediamanager/importing-existing-media",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-25T00:46:22.892Z",
+      "completedAt": "2026-01-25T00:46:22.892Z",
+      "providerTotals": {
+        "discovered": 52,
+        "returned": 52,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/importing-existing-media",
+          "canonicalUrl": "https://maximilian-dorninger.gitbook.io/mediamanager/importing-existing-media",
+          "status": "valid"
+        }
+      ],
+      "id": "0b541316d682af0aa41be8022a9913cdaf82e132652337b48f87621a37a8a536",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "67d1be0845c48158377cf08206654703e9471b23dfed0b37f4723e09896a057d",
+      "filename": "documentation_2026-01-25T00:46:22.892Z.md",
+      "contentHash": "b6c9e6dda0c93635e62693e2ef76c81dad84e27195e9e426603120bd0666f0f3",
+      "sourceUrl": "https://maximilian-dorninger.gitbook.io/mediamanager/importing-existing-media",
+      "canonicalSourceUrl": "https://maximilian-dorninger.gitbook.io/mediamanager/importing-existing-media",
+      "capturedAt": "2026-01-25T00:46:22.892Z",
+      "crawlRunId": "0b541316d682af0aa41be8022a9913cdaf82e132652337b48f87621a37a8a536",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 52,
+      "successfulPages": 52,
+      "structure": [
+        {
+          "type": "Importing existing media | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/importing-existing-media"
+        },
+        {
+          "type": "Installation Guide | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/installation-guide"
+        },
+        {
+          "type": "Usage | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/usage"
+        },
+        {
+          "type": "Metadata Provider Configuration | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/advanced-features/metadata-provider-configuration"
+        },
+        {
+          "type": "Logging | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/configuration/logging"
+        },
+        {
+          "type": "Custom Libraries | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/configuration/custom-libraries"
+        },
+        {
+          "type": "Backend | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/configuration/backend"
+        },
+        {
+          "type": "Configuration | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/configuration"
+        },
+        {
+          "type": "API Reference | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/api-reference"
+        },
+        {
+          "type": "Custom port | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/advanced-features/custom-port"
+        },
+        {
+          "type": "Screenshots | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/screenshots"
+        },
+        {
+          "type": "Follow symlinks in frontend files | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/advanced-features/follow-symlinks-in-frontend-files"
+        },
+        {
+          "type": "Scoring Rulesets | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/configuration/scoring-rulesets"
+        },
+        {
+          "type": "Troubleshooting | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/troubleshooting"
+        },
+        {
+          "type": "API Reference | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/api-reference"
+        },
+        {
+          "type": "MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager"
+        },
+        {
+          "type": "Screenshots | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/screenshots"
+        },
+        {
+          "type": "qBittorrent Category | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/advanced-features/qbittorrent-category"
+        },
+        {
+          "type": "Importing existing media | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/importing-existing-media"
+        },
+        {
+          "type": "Advanced Features | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/advanced-features"
+        },
+        {
+          "type": "Installation Guide | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/installation"
+        },
+        {
+          "type": "Usage | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/usage"
+        },
+        {
+          "type": "URL Prefix | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/advanced-features/url-prefix"
+        },
+        {
+          "type": "MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master"
+        },
+        {
+          "type": "Database | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/configuration/database"
+        },
+        {
+          "type": "Backend | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/configuration/backend"
+        },
+        {
+          "type": "Troubleshooting | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/troubleshooting"
+        },
+        {
+          "type": "Docker Compose | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/installation/docker"
+        },
+        {
+          "type": "Documentation | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/contributing-to-mediamanager/documentation"
+        },
+        {
+          "type": "Advanced Features | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/advanced-features"
+        },
+        {
+          "type": "Custom port | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/advanced-features/custom-port"
+        },
+        {
+          "type": "URL Prefix | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/advanced-features/url-prefix"
+        },
+        {
+          "type": "Follow symlinks in frontend files | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/advanced-features/follow-symlinks-in-frontend-files"
+        },
+        {
+          "type": "qBittorrent Category | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/advanced-features/qbittorrent-category"
+        },
+        {
+          "type": "Nix Flakes [Community] | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/installation/flakes"
+        },
+        {
+          "type": "Indexers | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/configuration/indexers"
+        },
+        {
+          "type": "Notifications | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/configuration/notifications"
+        },
+        {
+          "type": "Authentication | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/configuration/authentication"
+        },
+        {
+          "type": "Metadata Provider Configuration | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/advanced-features/metadata-provider-configuration"
+        },
+        {
+          "type": "Download Clients | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/configuration/download-clients"
+        },
+        {
+          "type": "Database | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/configuration/database"
+        },
+        {
+          "type": "Logging | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/configuration/logging"
+        },
+        {
+          "type": "Notifications | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/configuration/notifications"
+        },
+        {
+          "type": "Custom Libraries | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/configuration/custom-libraries"
+        },
+        {
+          "type": "Indexers | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/configuration/indexers"
+        },
+        {
+          "type": "Configuration | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/configuration"
+        },
+        {
+          "type": "Download Clients | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/configuration/download-clients"
+        },
+        {
+          "type": "Authentication | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/configuration/authentication"
+        },
+        {
+          "type": "Scoring Rulesets | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/configuration/scoring-rulesets"
+        },
+        {
+          "type": "Developer Guide | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/developer-guide"
+        },
+        {
+          "type": "Developer Guide | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/contributing-to-mediamanager/developer-guide"
+        },
+        {
+          "type": "Developer Guide | MediaManager",
+          "url": "https://maximilian-dorninger.gitbook.io/mediamanager/master/contributing-to-mediamanager"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "67d1be0845c48158377cf08206654703e9471b23dfed0b37f4723e09896a057d"
 }

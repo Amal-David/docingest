@@ -116,5 +116,159 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.agentmail.to",
+      "canonicalSeedUrl": "https://docs.agentmail.to/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-29T20:40:20.235Z",
+      "completedAt": "2026-01-29T20:40:20.235Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.agentmail.to",
+          "canonicalUrl": "https://docs.agentmail.to/",
+          "status": "valid"
+        }
+      ],
+      "id": "7b766fce790f53deca721c273e2d98216fee538171d3210da0c6553d09dc3a97",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3b1ade1aa712dd2dc42c9f72a975a58f8d964efba1e2a1c5c162a816610c21e2",
+      "filename": "documentation_2026-01-29T20:40:20.235Z.md",
+      "contentHash": "57b8481eb0905a95a592ffc3c39a614bbb1ee202f898b09e331ae070512393d7",
+      "sourceUrl": "https://docs.agentmail.to",
+      "canonicalSourceUrl": "https://docs.agentmail.to/",
+      "capturedAt": "2026-01-29T20:40:20.235Z",
+      "crawlRunId": "7b766fce790f53deca721c273e2d98216fee538171d3210da0c6553d09dc3a97",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "Welcome | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to"
+        },
+        {
+          "type": "Welcome | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/welcome"
+        },
+        {
+          "type": "API Welcome | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/api-reference"
+        },
+        {
+          "type": "Message Sent | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/api-reference/webhooks/events/message-sent"
+        },
+        {
+          "type": "Message Delivered | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/api-reference/webhooks/events/message-delivered"
+        },
+        {
+          "type": "Message Bounced | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/api-reference/webhooks/events/message-bounced"
+        },
+        {
+          "type": "Message Rejected | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/api-reference/webhooks/events/message-rejected"
+        },
+        {
+          "type": "Message Complained | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/api-reference/webhooks/events/message-complained"
+        },
+        {
+          "type": "Quickstart | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/quickstart"
+        },
+        {
+          "type": "Domain Verified | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/api-reference/webhooks/events/domain-verified"
+        },
+        {
+          "type": "Message Received | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/api-reference/webhooks/events/message-received"
+        },
+        {
+          "type": "Introduction | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/introduction"
+        },
+        {
+          "type": "Threads | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/threads"
+        },
+        {
+          "type": "Drafts | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/drafts"
+        },
+        {
+          "type": "Inboxes | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/inboxes"
+        },
+        {
+          "type": "Messages | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/messages"
+        },
+        {
+          "type": "MCP | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/integrations/mcp"
+        },
+        {
+          "type": "Attachments | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/attachments"
+        },
+        {
+          "type": "Labels | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/labels"
+        },
+        {
+          "type": "Guide: Sending & Receiving Email | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/sending-receiving-email"
+        },
+        {
+          "type": "Replit | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/integrations/replit"
+        },
+        {
+          "type": "Pods | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/documentation/core-concepts/pods"
+        },
+        {
+          "type": "Connect | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/api-reference/websockets/websockets"
+        },
+        {
+          "type": "Integrate LiveKit Agents | AgentMail | Documentation",
+          "url": "https://docs.agentmail.to/integrate-livekit-agents"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3b1ade1aa712dd2dc42c9f72a975a58f8d964efba1e2a1c5c162a816610c21e2"
 }

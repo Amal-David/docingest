@@ -104,5 +104,147 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://evvware.gitbook.io/evvware-api",
+      "canonicalSeedUrl": "https://evvware.gitbook.io/evvware-api",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-02T13:16:53.638Z",
+      "completedAt": "2026-04-02T13:16:53.638Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://evvware.gitbook.io/evvware-api",
+          "canonicalUrl": "https://evvware.gitbook.io/evvware-api",
+          "status": "valid"
+        }
+      ],
+      "id": "1f72258e89a6743c8c5f699f39b5f3e6ed514f462f8d29beb1b52b93022ac151",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "bbecd9277396c42422def5b890e27d28899ff00d5f2e112b04e44e5e01e7393c",
+      "filename": "documentation_2026-04-02T13:16:53.638Z.md",
+      "contentHash": "542a5d29be36c9df72e479f1606c1ecdc6097b41124be06bbe83bafe0c87c822",
+      "sourceUrl": "https://evvware.gitbook.io/evvware-api",
+      "canonicalSourceUrl": "https://evvware.gitbook.io/evvware-api",
+      "capturedAt": "2026-04-02T13:16:53.638Z",
+      "crawlRunId": "1f72258e89a6743c8c5f699f39b5f3e6ed514f462f8d29beb1b52b93022ac151",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "Welcome | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api"
+        },
+        {
+          "type": "Pending changes | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/info/pending-changes"
+        },
+        {
+          "type": "Quickstart | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/getting-started/quickstart"
+        },
+        {
+          "type": "Evvware LUA Basics | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/info/evvware-lua-basics"
+        },
+        {
+          "type": "config data | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/info/config-data"
+        },
+        {
+          "type": "Keybind Symbols | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/info/keybind-symbols"
+        },
+        {
+          "type": "callbacks | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/variables/callbacks"
+        },
+        {
+          "type": "classes | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/variables/classes"
+        },
+        {
+          "type": "cvar | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/variables/cvar"
+        },
+        {
+          "type": "materials | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/variables/materials"
+        },
+        {
+          "type": "client | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/variables/client"
+        },
+        {
+          "type": "entities | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/variables/entities"
+        },
+        {
+          "type": "render | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/variables/render"
+        },
+        {
+          "type": "engine | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/variables/engine"
+        },
+        {
+          "type": "globalvars | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/variables/globalvars"
+        },
+        {
+          "type": "menu | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/variables/menu"
+        },
+        {
+          "type": "lua example | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/info/lua-example"
+        },
+        {
+          "type": "config | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/variables/config"
+        },
+        {
+          "type": "Keybind Symbols | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/info"
+        },
+        {
+          "type": "Quickstart | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/getting-started"
+        },
+        {
+          "type": "callbacks | Evvware API",
+          "url": "https://evvware.gitbook.io/evvware-api/variables"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "bbecd9277396c42422def5b890e27d28899ff00d5f2e112b04e44e5e01e7393c"
 }

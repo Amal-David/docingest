@@ -94,5 +94,119 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.odoo.com/documentation/19.0/fr/developer",
+      "canonicalSeedUrl": "https://www.odoo.com/documentation/19.0/fr/developer",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-13T19:35:34.717Z",
+      "completedAt": "2025-11-13T19:35:34.717Z",
+      "providerTotals": {
+        "discovered": 14,
+        "returned": 14,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.odoo.com/documentation/19.0/fr/developer",
+          "canonicalUrl": "https://www.odoo.com/documentation/19.0/fr/developer",
+          "status": "valid"
+        }
+      ],
+      "id": "794f1b4eab7be93a1f87dff4385bee1137d527586d7f237fc40a13c245e69b9b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ccabc40153a345f62e18574f659ae1bf5a7c1cc0dc335470e899fc4c2735f197",
+      "filename": "documentation_2025-11-13T19:35:34.717Z.md",
+      "contentHash": "77b71a659cae4d15459b548bf7a77d6b8971c1c6d7ca7e552a0d0835f16f9b2a",
+      "sourceUrl": "https://www.odoo.com/documentation/19.0/fr/developer",
+      "canonicalSourceUrl": "https://www.odoo.com/documentation/19.0/fr/developer",
+      "capturedAt": "2025-11-13T19:35:34.717Z",
+      "crawlRunId": "794f1b4eab7be93a1f87dff4385bee1137d527586d7f237fc40a13c245e69b9b",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 14,
+      "successfulPages": 14,
+      "structure": [
+        {
+          "type": "Index of /documentation/19.0/fr/developer/",
+          "url": "https://www.odoo.com/documentation/19.0/fr/developer"
+        },
+        {
+          "type": "Odoo Documentation — Odoo 19.0 documentation",
+          "url": "https://www.odoo.com/documentation/19.0/"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://www.odoo.com/documentation/19.0/fr/api/"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://www.odoo.com/documentation/19.0/fr/howtos/"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://www.odoo.com/documentation/19.0/fr/misc/"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://www.odoo.com/documentation/19.0/fr/tutorials/"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://www.odoo.com/documentation/19.0/fr/reference/"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://www.odoo.com/documentation/19.0/fr/webservices/"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://www.odoo.com/documentation/19.0/fr/cli.html"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://www.odoo.com/documentation/19.0/fr/glossary.html"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://www.odoo.com/documentation/19.0/fr/iot.html"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://www.odoo.com/documentation/19.0/fr/howtos.html"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://www.odoo.com/documentation/19.0/fr/reference.html"
+        },
+        {
+          "type": "404 Not Found",
+          "url": "https://www.odoo.com/documentation/19.0/fr/tutorials.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ccabc40153a345f62e18574f659ae1bf5a7c1cc0dc335470e899fc4c2735f197"
 }

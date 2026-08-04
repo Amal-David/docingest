@@ -140,5 +140,183 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.pxlz.org/the-basics/ding-token",
+      "canonicalSeedUrl": "https://docs.pxlz.org/the-basics/ding-token",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-21T08:43:13.599Z",
+      "completedAt": "2025-04-21T08:43:13.599Z",
+      "providerTotals": {
+        "discovered": 30,
+        "returned": 30,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.pxlz.org/the-basics/ding-token",
+          "canonicalUrl": "https://docs.pxlz.org/the-basics/ding-token",
+          "status": "valid"
+        }
+      ],
+      "id": "a5c15f8c3da857702566d90e5671627fc5ae846fffe01bed55e58ce634ac5bff",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "70586054d783be608e50cc31954e0a183c65d69613b183adc083bafabdffcbfc",
+      "filename": "documentation_2025-04-21T08:43:13.599Z.md",
+      "contentHash": "d278d71d0b07110a277e3eb12ed608faaaed4e88c01c5b4398d46986bdc431d4",
+      "sourceUrl": "https://docs.pxlz.org/the-basics/ding-token",
+      "canonicalSourceUrl": "https://docs.pxlz.org/the-basics/ding-token",
+      "capturedAt": "2025-04-21T08:43:13.599Z",
+      "crawlRunId": "a5c15f8c3da857702566d90e5671627fc5ae846fffe01bed55e58ce634ac5bff",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "structure": [
+        {
+          "type": "DING Token | DEADPXLZ",
+          "url": "https://docs.pxlz.org/the-basics/ding-token"
+        },
+        {
+          "type": "Hello & welcome to DEADPXLZ! | DEADPXLZ",
+          "url": "https://docs.pxlz.org/"
+        },
+        {
+          "type": "Genesis PXLZ | DEADPXLZ",
+          "url": "https://docs.pxlz.org/the-basics/genesis-pxlz"
+        },
+        {
+          "type": "Meet a PXL! | DEADPXLZ",
+          "url": "https://docs.pxlz.org/the-basics/genesis-pxlz/meet-a-pxl"
+        },
+        {
+          "type": "PXL Explorer | DEADPXLZ",
+          "url": "https://docs.pxlz.org/ecosystem/pxl-explorer"
+        },
+        {
+          "type": "MetaPXLZ | DEADPXLZ",
+          "url": "https://docs.pxlz.org/the-basics/metapxlz"
+        },
+        {
+          "type": "PXLZ Stake Pool | DEADPXLZ",
+          "url": "https://docs.pxlz.org/ecosystem/pxlz-stake-pool"
+        },
+        {
+          "type": "Get DING! | DEADPXLZ",
+          "url": "https://docs.pxlz.org/ecosystem/get-ding"
+        },
+        {
+          "type": "PXL Wallet | DEADPXLZ",
+          "url": "https://docs.pxlz.org/ecosystem/pxl-wallet"
+        },
+        {
+          "type": "PXL Staking | DEADPXLZ",
+          "url": "https://docs.pxlz.org/ding-token-metrics/distribution/pxl-staking"
+        },
+        {
+          "type": "Discord Verification | DEADPXLZ",
+          "url": "https://docs.pxlz.org/ecosystem/discord-verification"
+        },
+        {
+          "type": "Project Milestones | DEADPXLZ",
+          "url": "https://docs.pxlz.org/roadmap/project-milestones"
+        },
+        {
+          "type": "Schedule & Rewards | DEADPXLZ",
+          "url": "https://docs.pxlz.org/community-events/ding-lp-drive/schedule-and-rewards"
+        },
+        {
+          "type": "Distribution | DEADPXLZ",
+          "url": "https://docs.pxlz.org/ding-token-metrics/distribution"
+        },
+        {
+          "type": "DING LP Drive (ended) | DEADPXLZ",
+          "url": "https://docs.pxlz.org/community-events/ding-lp-drive"
+        },
+        {
+          "type": "Team & Advisors | DEADPXLZ",
+          "url": "https://docs.pxlz.org/ding-token-metrics/distribution/team-and-advisors"
+        },
+        {
+          "type": "Community DAO Treasury | DEADPXLZ",
+          "url": "https://docs.pxlz.org/ding-token-metrics/distribution/community-dao-treasury"
+        },
+        {
+          "type": "PXL Boot Camp | DEADPXLZ",
+          "url": "https://docs.pxlz.org/ding-token-metrics/distribution/pxl-boot-camp"
+        },
+        {
+          "type": "DING Royale | DEADPXLZ",
+          "url": "https://docs.pxlz.org/community-events/ding-royale"
+        },
+        {
+          "type": "Ecosystem Fund | DEADPXLZ",
+          "url": "https://docs.pxlz.org/ding-token-metrics/distribution/ecosystem-fund"
+        },
+        {
+          "type": "DING Staking & Rewards | DEADPXLZ",
+          "url": "https://docs.pxlz.org/ding-token-metrics/ding-staking-and-rewards"
+        },
+        {
+          "type": "Boot Camp | DEADPXLZ",
+          "url": "https://docs.pxlz.org/pxl-wars/boot-camp"
+        },
+        {
+          "type": "Introduction | DEADPXLZ",
+          "url": "https://docs.pxlz.org/pxl-wars/introduction"
+        },
+        {
+          "type": "Forging | DEADPXLZ",
+          "url": "https://docs.pxlz.org/pxl-wars/forging"
+        },
+        {
+          "type": "Shop & Loot Boxes | DEADPXLZ",
+          "url": "https://docs.pxlz.org/pxl-wars/shop-and-loot-boxes"
+        },
+        {
+          "type": "Skirmishes | DEADPXLZ",
+          "url": "https://docs.pxlz.org/pxl-wars/skirmishes"
+        },
+        {
+          "type": "P2E PvP | DEADPXLZ",
+          "url": "https://docs.pxlz.org/pxl-wars/p2e-pvp"
+        },
+        {
+          "type": "Game Economy | DEADPXLZ",
+          "url": "https://docs.pxlz.org/pxl-wars/game-economy"
+        },
+        {
+          "type": "Genesis Rewards | DEADPXLZ",
+          "url": "https://docs.pxlz.org/pxl-wars/game-economy/genesis-rewards"
+        },
+        {
+          "type": "Reward Distribution | DEADPXLZ",
+          "url": "https://docs.pxlz.org/pxl-wars/game-economy/reward-distribution"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "70586054d783be608e50cc31954e0a183c65d69613b183adc083bafabdffcbfc"
 }

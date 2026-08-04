@@ -145,5 +145,179 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.makina.finance/concepts/caliber/base-tokens",
+      "canonicalSeedUrl": "https://docs.makina.finance/concepts/caliber/base-tokens",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-09T21:26:41.106Z",
+      "completedAt": "2025-12-09T21:26:41.106Z",
+      "providerTotals": {
+        "discovered": 29,
+        "returned": 29,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.makina.finance/concepts/caliber/base-tokens",
+          "canonicalUrl": "https://docs.makina.finance/concepts/caliber/base-tokens",
+          "status": "valid"
+        }
+      ],
+      "id": "00e57d85f98a8bb638a90682330645a39b1f8f8cea47e90f8916f0aa08439061",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e30b7cb216c790e2b0e2226390fa822fb3376a88c4bcac580e073c7f19a02aeb",
+      "filename": "documentation_2025-12-09T21:26:41.106Z.md",
+      "contentHash": "3b918df332eaf6955e38b3080086b7b01b39e5048c68f2ff7193c1f4cbfa5299",
+      "sourceUrl": "https://docs.makina.finance/concepts/caliber/base-tokens",
+      "canonicalSourceUrl": "https://docs.makina.finance/concepts/caliber/base-tokens",
+      "capturedAt": "2025-12-09T21:26:41.106Z",
+      "crawlRunId": "00e57d85f98a8bb638a90682330645a39b1f8f8cea47e90f8916f0aa08439061",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 29,
+      "successfulPages": 29,
+      "structure": [
+        {
+          "type": "Base Tokens | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/caliber/base-tokens"
+        },
+        {
+          "type": "Caliber Accounting | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/caliber/caliber-accounting"
+        },
+        {
+          "type": "Flash Loans | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/caliber/flash-loans"
+        },
+        {
+          "type": "Harvests | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/caliber/harvests"
+        },
+        {
+          "type": "MakinaVM | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/caliber/makina-vm"
+        },
+        {
+          "type": "Caliber Mailbox | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/cross-chain/caliber-mailbox"
+        },
+        {
+          "type": "Cross-Chain Accounting | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/cross-chain/cross-chain-accounting"
+        },
+        {
+          "type": "Swaps | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/caliber/swaps"
+        },
+        {
+          "type": "Overview | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/caliber/overview"
+        },
+        {
+          "type": "Positions | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/caliber/positions"
+        },
+        {
+          "type": "Liquidity Bridging | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/cross-chain/liquidity-bridging"
+        },
+        {
+          "type": "Operator | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/governance/operator"
+        },
+        {
+          "type": "Overview | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/governance/overview"
+        },
+        {
+          "type": "Permissions and Scopes | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/governance/permissions-and-scopes"
+        },
+        {
+          "type": "Risk Manager | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/governance/risk-manager"
+        },
+        {
+          "type": "Root Update Lifecycle | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/governance/root-update-lifecycle"
+        },
+        {
+          "type": "Safe Security Structure | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/governance/safe-security-structure"
+        },
+        {
+          "type": "Introduction | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/introduction"
+        },
+        {
+          "type": "Security Council | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/governance/security-council"
+        },
+        {
+          "type": "Depositors | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/machine/depositors"
+        },
+        {
+          "type": "Fee Managers | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/machine/fee-managers"
+        },
+        {
+          "type": "Overview | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/machine/overview"
+        },
+        {
+          "type": "Pre-Deposit | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/machine/pre-deposit"
+        },
+        {
+          "type": "Redeemers | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/machine/redeemers"
+        },
+        {
+          "type": "Security Module | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/machine/security-module"
+        },
+        {
+          "type": "Machine Token | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/machine/machine-token"
+        },
+        {
+          "type": "Share Price | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/machine/share-price"
+        },
+        {
+          "type": "Recovery Mode | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/security/recovery-mode"
+        },
+        {
+          "type": "Oracle Registry | Makina Docs",
+          "url": "https://docs.makina.finance/concepts/oracle-registry"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e30b7cb216c790e2b0e2226390fa822fb3376a88c4bcac580e073c7f19a02aeb"
 }

@@ -36,5 +36,79 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://xoridius.github.io/apple-llms",
+      "canonicalSeedUrl": "https://xoridius.github.io/apple-llms",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-12T00:10:31.691Z",
+      "completedAt": "2025-04-12T00:10:31.691Z",
+      "providerTotals": {
+        "discovered": 4,
+        "returned": 4,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://xoridius.github.io/apple-llms",
+          "canonicalUrl": "https://xoridius.github.io/apple-llms",
+          "status": "valid"
+        }
+      ],
+      "id": "8ebccb848476454a6cd807ee4a4a2c659a55b517bc54a9129c92ccb0cfcfea1f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "362c646edbf75da461abaae9a4bd42af500bef7988a9bb434995759b4c81a28f",
+      "filename": "documentation_2025-04-12T00:10:31.691Z.md",
+      "contentHash": "28241cb1a2e559e37ae830d35ac736a7adac6284ce21743ce798ad9cab33b9f4",
+      "sourceUrl": "https://xoridius.github.io/apple-llms",
+      "canonicalSourceUrl": "https://xoridius.github.io/apple-llms",
+      "capturedAt": "2025-04-12T00:10:31.691Z",
+      "crawlRunId": "8ebccb848476454a6cd807ee4a4a2c659a55b517bc54a9129c92ccb0cfcfea1f",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "Repository Files",
+          "url": "https://xoridius.github.io/apple-llms"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://raw.githubusercontent.com/xoridius/apple-llms/refs/heads/main/tipkit-interface.swift"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://raw.githubusercontent.com/xoridius/apple-llms/refs/heads/main/swiftuicore-interface.swift"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://raw.githubusercontent.com/xoridius/apple-llms/refs/heads/main/swiftui-interface.swift"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "362c646edbf75da461abaae9a4bd42af500bef7988a9bb434995759b4c81a28f"
 }

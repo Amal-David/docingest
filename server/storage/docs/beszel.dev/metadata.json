@@ -176,5 +176,219 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://beszel.dev/guide/what-is-beszel",
+      "canonicalSeedUrl": "https://beszel.dev/guide/what-is-beszel",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-21T04:22:02.656Z",
+      "completedAt": "2025-01-21T04:22:02.656Z",
+      "providerTotals": {
+        "discovered": 39,
+        "returned": 39,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://beszel.dev/guide/what-is-beszel",
+          "canonicalUrl": "https://beszel.dev/guide/what-is-beszel",
+          "status": "valid"
+        }
+      ],
+      "id": "b0742c74790472f3ece9a5b9cbc96bd0b6a02b2095a2d6cc0e4d25305790bcba",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4795339bc7fa8c2267972f9e1d2eb84d5189f84e7ce1045927da43d5f4a89303",
+      "filename": "documentation_2025-01-21T04:22:02.656Z.md",
+      "contentHash": "a9114f05f776ac4b90519937199eb8d2c05f8be57d7095a00f8269854b287f72",
+      "sourceUrl": "https://beszel.dev/guide/what-is-beszel",
+      "canonicalSourceUrl": "https://beszel.dev/guide/what-is-beszel",
+      "capturedAt": "2025-01-21T04:22:02.656Z",
+      "crawlRunId": "b0742c74790472f3ece9a5b9cbc96bd0b6a02b2095a2d6cc0e4d25305790bcba",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 39,
+      "successfulPages": 39,
+      "structure": [
+        {
+          "type": "What is Beszel? | Beszel",
+          "url": "https://beszel.dev/guide/what-is-beszel"
+        },
+        {
+          "type": "Getting Started | Beszel",
+          "url": "https://beszel.dev/guide/getting-started"
+        },
+        {
+          "type": "Beszel | Simple, lightweight server monitoring",
+          "url": "https://beszel.dev/"
+        },
+        {
+          "type": "GPU Monitoring | Beszel",
+          "url": "https://beszel.dev/guide/gpu"
+        },
+        {
+          "type": "Additional Disks | Beszel",
+          "url": "https://beszel.dev/guide/additional-disks"
+        },
+        {
+          "type": "Agent Installation | Beszel",
+          "url": "https://beszel.dev/guide/agent-installation"
+        },
+        {
+          "type": "Environment Variables | Beszel",
+          "url": "https://beszel.dev/guide/environment-variables"
+        },
+        {
+          "type": "Hub Installation | Beszel",
+          "url": "https://beszel.dev/guide/hub-installation"
+        },
+        {
+          "type": "OAuth / OIDC | Beszel",
+          "url": "https://beszel.dev/guide/oauth"
+        },
+        {
+          "type": "Compiling | Beszel",
+          "url": "https://beszel.dev/guide/compiling"
+        },
+        {
+          "type": "什么是 Beszel？ | Beszel",
+          "url": "https://beszel.dev/zh/guide/what-is-beszel"
+        },
+        {
+          "type": "Podman Monitoring | Beszel",
+          "url": "https://beszel.dev/guide/podman"
+        },
+        {
+          "type": "REST API | Beszel",
+          "url": "https://beszel.dev/guide/rest-api"
+        },
+        {
+          "type": "User Roles | Beszel",
+          "url": "https://beszel.dev/guide/user-roles"
+        },
+        {
+          "type": "开始使用 | Beszel",
+          "url": "https://beszel.dev/zh/guide/getting-started"
+        },
+        {
+          "type": "其他磁盘 | Beszel",
+          "url": "https://beszel.dev/zh/guide/additional-disks"
+        },
+        {
+          "type": "Common Issues | Beszel",
+          "url": "https://beszel.dev/guide/common-issues"
+        },
+        {
+          "type": "Docker Shell | Beszel",
+          "url": "https://beszel.dev/guide/docker-shell"
+        },
+        {
+          "type": "Multilingual and localization | Beszel",
+          "url": "https://beszel.dev/guide/multlingual-and-localization"
+        },
+        {
+          "type": "环境变量 | Beszel",
+          "url": "https://beszel.dev/zh/guide/environment-variables"
+        },
+        {
+          "type": "Beszel | 轻量易用的服务器监控",
+          "url": "https://beszel.dev/zh/"
+        },
+        {
+          "type": "Security | Beszel",
+          "url": "https://beszel.dev/guide/security"
+        },
+        {
+          "type": "用户角色 | Beszel",
+          "url": "https://beszel.dev/zh/guide/user-roles"
+        },
+        {
+          "type": "OAuth / OIDC 认证 | Beszel",
+          "url": "https://beszel.dev/zh/guide/oauth"
+        },
+        {
+          "type": "编译 | Beszel",
+          "url": "https://beszel.dev/zh/guide/compiling"
+        },
+        {
+          "type": "Home Assistant Agent | Beszel",
+          "url": "https://beszel.dev/guide/home-assistant"
+        },
+        {
+          "type": "Podman 监控 | Beszel",
+          "url": "https://beszel.dev/zh/guide/podman"
+        },
+        {
+          "type": "Developer Guide | Beszel",
+          "url": "https://beszel.dev/guide/developer-guide"
+        },
+        {
+          "type": "GPU 监控 | Beszel",
+          "url": "https://beszel.dev/zh/guide/gpu"
+        },
+        {
+          "type": "Hub 安装 | Beszel",
+          "url": "https://beszel.dev/zh/guide/hub-installation"
+        },
+        {
+          "type": "常见问题 | Beszel",
+          "url": "https://beszel.dev/zh/guide/common-issues"
+        },
+        {
+          "type": "REST API | Beszel",
+          "url": "https://beszel.dev/zh/guide/rest-api"
+        },
+        {
+          "type": "代理安装 | Beszel",
+          "url": "https://beszel.dev/zh/guide/agent-installation"
+        },
+        {
+          "type": "Docker Shell | Beszel",
+          "url": "https://beszel.dev/zh/guide/docker-shell"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://beszel.dev/cdn-cgi/l/email-protection"
+        },
+        {
+          "type": "安全 | Beszel",
+          "url": "https://beszel.dev/zh/guide/security"
+        },
+        {
+          "type": "开发者指南 | Beszel",
+          "url": "https://beszel.dev/zh/guide/developer-guide"
+        },
+        {
+          "type": "多语言和本地化 | Beszel",
+          "url": "https://beszel.dev/zh/guide/multlingual-and-localization"
+        },
+        {
+          "type": "Home Assistant 代理 | Beszel",
+          "url": "https://beszel.dev/zh/guide/home-assistant"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4795339bc7fa8c2267972f9e1d2eb84d5189f84e7ce1045927da43d5f4a89303"
 }

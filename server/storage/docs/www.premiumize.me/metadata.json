@@ -42,5 +42,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.premiumize.me/api",
+      "canonicalSeedUrl": "https://www.premiumize.me/api",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-13T13:48:38.746Z",
+      "completedAt": "2026-07-13T13:48:38.746Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.premiumize.me/api",
+          "canonicalUrl": "https://www.premiumize.me/api",
+          "status": "valid"
+        }
+      ],
+      "id": "20e08ba6411fcf7be15efb11668337f101ba6842300b0ce565bf5e2b2e09f87e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0acc751556649ca9d6fe9d0bcdc13b372e07a4d3355b4ab8a9f262676044ff93",
+      "filename": "documentation_2026-07-13T13:48:38.746Z.md",
+      "contentHash": "436897390ee21cce074b5534384f525beffad1e03f9c222efd6fd5cdbd1e9533",
+      "sourceUrl": "https://www.premiumize.me/api",
+      "canonicalSourceUrl": "https://www.premiumize.me/api",
+      "capturedAt": "2026-07-13T13:48:38.746Z",
+      "crawlRunId": "20e08ba6411fcf7be15efb11668337f101ba6842300b0ce565bf5e2b2e09f87e",
+      "upstreamVersion": "1.0.2",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Premiumize.me - Cloud Storage",
+          "url": "https://www.premiumize.me/api"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0acc751556649ca9d6fe9d0bcdc13b372e07a4d3355b4ab8a9f262676044ff93"
 }

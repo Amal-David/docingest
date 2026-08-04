@@ -74,5 +74,99 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.h4rithd.com/forensic/volatility3",
+      "canonicalSeedUrl": "https://docs.h4rithd.com/forensic/volatility3",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-08T08:50:43.418Z",
+      "completedAt": "2025-03-08T08:50:43.418Z",
+      "providerTotals": {
+        "discovered": 9,
+        "returned": 9,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.h4rithd.com/forensic/volatility3",
+          "canonicalUrl": "https://docs.h4rithd.com/forensic/volatility3",
+          "status": "valid"
+        }
+      ],
+      "id": "198edd1dc1b0a5b89ab1b500dfb91db527f0029fb686ef9ef408bf506a38c2f8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f3b6817c41395729e3b42a0e4c793fecc85d13237c3397b9316a9ab0607c8aa8",
+      "filename": "documentation_2025-03-08T08:50:43.418Z.md",
+      "contentHash": "94724c50e6d8ac77908059ed5f802871bcbe0d66ec7c53e70b4f38e8e0a0243a",
+      "sourceUrl": "https://docs.h4rithd.com/forensic/volatility3",
+      "canonicalSourceUrl": "https://docs.h4rithd.com/forensic/volatility3",
+      "capturedAt": "2025-03-08T08:50:43.418Z",
+      "crawlRunId": "198edd1dc1b0a5b89ab1b500dfb91db527f0029fb686ef9ef408bf506a38c2f8",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 9,
+      "successfulPages": 9,
+      "structure": [
+        {
+          "type": "Volatility3 | h4rithd.com | Notes",
+          "url": "https://docs.h4rithd.com/forensic/volatility3"
+        },
+        {
+          "type": "Hi, 😎🤏 | h4rithd.com | Notes",
+          "url": "https://docs.h4rithd.com/"
+        },
+        {
+          "type": "Lateral Movement | h4rithd.com | Notes",
+          "url": "https://docs.h4rithd.com/linux/basic-commands"
+        },
+        {
+          "type": "Docker | h4rithd.com | Notes",
+          "url": "https://docs.h4rithd.com/cloud/docker"
+        },
+        {
+          "type": "PrivilageEsc Linux 👑 | h4rithd.com | Notes",
+          "url": "https://docs.h4rithd.com/linux/privilageesc-linux"
+        },
+        {
+          "type": "AWS | h4rithd.com | Notes",
+          "url": "https://docs.h4rithd.com/cloud/aws"
+        },
+        {
+          "type": "Lateral Movement | h4rithd.com | Notes",
+          "url": "https://docs.h4rithd.com/windows/basic-commands"
+        },
+        {
+          "type": "PrivilageEsc Windows 👑 | h4rithd.com | Notes",
+          "url": "https://docs.h4rithd.com/windows/privilageesc-windows"
+        },
+        {
+          "type": "Kubernetes | h4rithd.com | Notes",
+          "url": "https://docs.h4rithd.com/cloud/kubernetes"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f3b6817c41395729e3b42a0e4c793fecc85d13237c3397b9316a9ab0607c8aa8"
 }

@@ -60,5 +60,103 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api",
+      "canonicalSeedUrl": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-03T06:27:49.599Z",
+      "completedAt": "2025-08-03T06:27:49.599Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api",
+          "canonicalUrl": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api",
+          "status": "valid"
+        }
+      ],
+      "id": "e3fbb98be097b5069c466bb63da650a09e7633d50a1f0f40e394a6baea0595b3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fc56f3d994906bd32117a201b43b90ee4db183c751c649510ef50d8ebe9c3821",
+      "filename": "documentation_2025-08-03T06:27:49.599Z.md",
+      "contentHash": "adcd8df1492d6796e695088a570e305cf0f281aab91e8b7d9aa7eabc51761323",
+      "sourceUrl": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api",
+      "canonicalSourceUrl": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api",
+      "capturedAt": "2025-08-03T06:27:49.599Z",
+      "crawlRunId": "e3fbb98be097b5069c466bb63da650a09e7633d50a1f0f40e394a6baea0595b3",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "Mirror Node REST API | Hedera",
+          "url": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api"
+        },
+        {
+          "type": "Blocks | Hedera",
+          "url": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api/blocks"
+        },
+        {
+          "type": "Balances | Hedera",
+          "url": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api/balances"
+        },
+        {
+          "type": "Schedule Transactions | Hedera",
+          "url": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api/schedule-transactions"
+        },
+        {
+          "type": "Topics | Hedera",
+          "url": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api/topics"
+        },
+        {
+          "type": "Accounts | Hedera",
+          "url": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api/accounts"
+        },
+        {
+          "type": "Transactions | Hedera",
+          "url": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api/transactions"
+        },
+        {
+          "type": "Tokens | Hedera",
+          "url": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api/tokens"
+        },
+        {
+          "type": "Smart Contracts | Hedera",
+          "url": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api/smart-contracts"
+        },
+        {
+          "type": "Network | Hedera",
+          "url": "https://docs.hedera.com/hedera/sdks-and-apis/rest-api/network"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fc56f3d994906bd32117a201b43b90ee4db183c751c649510ef50d8ebe9c3821"
 }

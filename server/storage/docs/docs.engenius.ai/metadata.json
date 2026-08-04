@@ -284,5 +284,111 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.engenius.ai/engenius-cloud-licensing/",
+      "canonicalSeedUrl": "https://docs.engenius.ai/engenius-cloud-licensing",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-10T15:17:35.812Z",
+      "completedAt": "2025-07-10T15:17:35.812Z",
+      "providerTotals": {
+        "discovered": 12,
+        "returned": 12,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.engenius.ai/engenius-cloud-licensing/",
+          "canonicalUrl": "https://docs.engenius.ai/engenius-cloud-licensing",
+          "status": "valid"
+        }
+      ],
+      "id": "ad5acfa43ebdce66f2062a0074e7bde004fdab51599196c2335ad0583f630443",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3ec339735d02910168351d437ed4814c0fa97f21172b4941367de83be8dba303",
+      "filename": "documentation_2025-07-10T15:17:35.812Z.md",
+      "contentHash": "daa7adec7d1c1e1f5b1edb52071168841549feb0e2da7049619bd9b9cd8f4cf9",
+      "sourceUrl": "https://docs.engenius.ai/engenius-cloud-licensing/",
+      "canonicalSourceUrl": "https://docs.engenius.ai/engenius-cloud-licensing",
+      "capturedAt": "2025-07-10T15:17:35.812Z",
+      "crawlRunId": "ad5acfa43ebdce66f2062a0074e7bde004fdab51599196c2335ad0583f630443",
+      "upstreamVersion": "1.24.0",
+      "upstreamChannel": "latest",
+      "totalPages": 12,
+      "successfulPages": 12,
+      "structure": [
+        {
+          "type": "License Overview | EnGenius Cloud Licensing",
+          "url": "https://docs.engenius.ai/engenius-cloud-licensing/"
+        },
+        {
+          "type": "Terminology | EnGenius Cloud Licensing",
+          "url": "https://docs.engenius.ai/engenius-cloud-licensing/license-overview/terminology"
+        },
+        {
+          "type": "License Order and License Key | EnGenius Cloud Licensing",
+          "url": "https://docs.engenius.ai/engenius-cloud-licensing/license-overview/license-order-and-license-key"
+        },
+        {
+          "type": "License Status & Lifecycle | EnGenius Cloud Licensing",
+          "url": "https://docs.engenius.ai/engenius-cloud-licensing/license-overview/license-status-and-lifecycle"
+        },
+        {
+          "type": "License Activation | EnGenius Cloud Licensing",
+          "url": "https://docs.engenius.ai/engenius-cloud-licensing/license-overview/license-activation"
+        },
+        {
+          "type": "License Expiration | EnGenius Cloud Licensing",
+          "url": "https://docs.engenius.ai/engenius-cloud-licensing/license-overview/license-expiration"
+        },
+        {
+          "type": "Add License | EnGenius Cloud Licensing",
+          "url": "https://docs.engenius.ai/engenius-cloud-licensing/license-overview/add-license"
+        },
+        {
+          "type": "Associate License | EnGenius Cloud Licensing",
+          "url": "https://docs.engenius.ai/engenius-cloud-licensing/license-overview/associate-license"
+        },
+        {
+          "type": "Move License | EnGenius Cloud Licensing",
+          "url": "https://docs.engenius.ai/engenius-cloud-licensing/license-overview/move-license"
+        },
+        {
+          "type": "License Status | EnGenius Cloud Licensing",
+          "url": "https://docs.engenius.ai/engenius-cloud-licensing/license-guidelines/license-status"
+        },
+        {
+          "type": "License Operation | EnGenius Cloud Licensing",
+          "url": "https://docs.engenius.ai/engenius-cloud-licensing/license-guidelines/license-operation"
+        },
+        {
+          "type": "General Licensing | EnGenius Cloud Licensing",
+          "url": "https://docs.engenius.ai/engenius-cloud-licensing/license-guidelines/general-licensing"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "3ec339735d02910168351d437ed4814c0fa97f21172b4941367de83be8dba303"
 }

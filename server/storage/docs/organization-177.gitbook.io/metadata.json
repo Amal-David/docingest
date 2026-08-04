@@ -69,5 +69,103 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://organization-177.gitbook.io/crypto/basics/openapi",
+      "canonicalSeedUrl": "https://organization-177.gitbook.io/crypto/basics/openapi",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-01T14:07:51.767Z",
+      "completedAt": "2025-03-01T14:07:51.767Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://organization-177.gitbook.io/crypto/basics/openapi",
+          "canonicalUrl": "https://organization-177.gitbook.io/crypto/basics/openapi",
+          "status": "valid"
+        }
+      ],
+      "id": "63e951e759e6afdc1f136423a643e7f9d5612f0a7ddf1679dd6faf878c602c4c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d0a9f38468140c936ccef20b910c8896ac8bebef24ea98a8f9ccaeba108bbc4c",
+      "filename": "documentation_2025-03-01T14:07:51.767Z.md",
+      "contentHash": "936d6f3947068c20db40307699486826d0c1b36c7d38d8d9d067f47c17d4dd86",
+      "sourceUrl": "https://organization-177.gitbook.io/crypto/basics/openapi",
+      "canonicalSourceUrl": "https://organization-177.gitbook.io/crypto/basics/openapi",
+      "capturedAt": "2025-03-01T14:07:51.767Z",
+      "crawlRunId": "63e951e759e6afdc1f136423a643e7f9d5612f0a7ddf1679dd6faf878c602c4c",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "OpenAPI | Crypto",
+          "url": "https://organization-177.gitbook.io/crypto/basics/openapi"
+        },
+        {
+          "type": "Welcome | Crypto",
+          "url": "https://organization-177.gitbook.io/crypto"
+        },
+        {
+          "type": "Quickstart | Crypto",
+          "url": "https://organization-177.gitbook.io/crypto/getting-started/quickstart"
+        },
+        {
+          "type": "Editor | Crypto",
+          "url": "https://organization-177.gitbook.io/crypto/basics/editor"
+        },
+        {
+          "type": "Images & media | Crypto",
+          "url": "https://organization-177.gitbook.io/crypto/basics/images-and-media"
+        },
+        {
+          "type": "Publish your docs | Crypto",
+          "url": "https://organization-177.gitbook.io/crypto/getting-started/publish-your-docs"
+        },
+        {
+          "type": "Markdown | Crypto",
+          "url": "https://organization-177.gitbook.io/crypto/basics/markdown"
+        },
+        {
+          "type": "Integrations | Crypto",
+          "url": "https://organization-177.gitbook.io/crypto/basics/integrations"
+        },
+        {
+          "type": "Page 1 | Crypto",
+          "url": "https://organization-177.gitbook.io/crypto/basics/markdown/page-1"
+        },
+        {
+          "type": "Interactive blocks | Crypto",
+          "url": "https://organization-177.gitbook.io/crypto/basics/interactive-blocks"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d0a9f38468140c936ccef20b910c8896ac8bebef24ea98a8f9ccaeba108bbc4c"
 }

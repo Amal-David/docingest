@@ -96,5 +96,139 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.synthdata.co/",
+      "canonicalSeedUrl": "https://docs.synthdata.co/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-25T14:39:08.372Z",
+      "completedAt": "2026-02-25T14:39:08.372Z",
+      "providerTotals": {
+        "discovered": 19,
+        "returned": 19,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.synthdata.co/",
+          "canonicalUrl": "https://docs.synthdata.co/",
+          "status": "valid"
+        }
+      ],
+      "id": "675051382a1aa2e5a1240693b076e897685f14d4d8cc527e9635958b993ed41f",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4a7c35e2413db1ca2566c6da5f8d809dfa0713f33fe80fc77379c93533b87b50",
+      "filename": "documentation_2026-02-25T14:39:08.372Z.md",
+      "contentHash": "564ede834bc53f1b15346922b28397d873f77a382118c9290fef9cca8fecaf77",
+      "sourceUrl": "https://docs.synthdata.co/",
+      "canonicalSourceUrl": "https://docs.synthdata.co/",
+      "capturedAt": "2026-02-25T14:39:08.372Z",
+      "crawlRunId": "675051382a1aa2e5a1240693b076e897685f14d4d8cc527e9635958b993ed41f",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 19,
+      "successfulPages": 19,
+      "structure": [
+        {
+          "type": "Introduction | Synth API",
+          "url": "https://docs.synthdata.co/"
+        },
+        {
+          "type": "Getting Started | Synth API",
+          "url": "https://docs.synthdata.co/getting-started"
+        },
+        {
+          "type": "Credits and Pricing | Synth API",
+          "url": "https://docs.synthdata.co/getting-started/credits-and-pricing"
+        },
+        {
+          "type": "Authentication | Synth API",
+          "url": "https://docs.synthdata.co/getting-started/authentication"
+        },
+        {
+          "type": "MCP | Synth API",
+          "url": "https://docs.synthdata.co/mcp"
+        },
+        {
+          "type": "Assets | Synth API",
+          "url": "https://docs.synthdata.co/getting-started/assets"
+        },
+        {
+          "type": "Trading | Synth API",
+          "url": "https://docs.synthdata.co/insights/trading"
+        },
+        {
+          "type": "Insights | Synth API",
+          "url": "https://docs.synthdata.co/insights"
+        },
+        {
+          "type": "Error Handling | Synth API",
+          "url": "https://docs.synthdata.co/getting-started/error-handling"
+        },
+        {
+          "type": "Glossary | Synth API",
+          "url": "https://docs.synthdata.co/glossary"
+        },
+        {
+          "type": "Polymarket | Synth API",
+          "url": "https://docs.synthdata.co/insights/polymarket"
+        },
+        {
+          "type": "Options | Synth API",
+          "url": "https://docs.synthdata.co/insights/options"
+        },
+        {
+          "type": "Predictions | Synth API",
+          "url": "https://docs.synthdata.co/predictions"
+        },
+        {
+          "type": "Prediction Percentiles | Synth API",
+          "url": "https://docs.synthdata.co/prediction-percentiles"
+        },
+        {
+          "type": "Endpoints Overview | Synth API",
+          "url": "https://docs.synthdata.co/endpoints-overview"
+        },
+        {
+          "type": "Risk Management | Synth API",
+          "url": "https://docs.synthdata.co/insights/risk-management"
+        },
+        {
+          "type": "Volatility | Synth API",
+          "url": "https://docs.synthdata.co/insights/volatility"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.synthdata.co/cdn-cgi/l/email-protection"
+        },
+        {
+          "type": "Volatility (old) | Synth API",
+          "url": "https://docs.synthdata.co/insights/volatility-old"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4a7c35e2413db1ca2566c6da5f8d809dfa0713f33fe80fc77379c93533b87b50"
 }

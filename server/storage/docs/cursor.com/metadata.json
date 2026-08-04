@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://cursor.com/fr/docs",
+      "canonicalSeedUrl": "https://cursor.com/fr/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-09T06:01:36.232Z",
+      "completedAt": "2026-02-09T06:01:36.232Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://cursor.com/fr/docs",
+          "canonicalUrl": "https://cursor.com/fr/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "8402d77493c26b17bfd37748b4cec52474d9bb8ec9d168ae80689cc59dd0b794",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f9abea54f25235c234790b62d940b327005c835c72ae373ddcd27e577f6efef5",
+      "filename": "documentation_2026-02-09T06:01:36.232Z.md",
+      "contentHash": "1e4d7634d16830f0ce3dc3408c4ff704bdcb7accba9641145bb0c05409ab60c4",
+      "sourceUrl": "https://cursor.com/fr/docs",
+      "canonicalSourceUrl": "https://cursor.com/fr/docs",
+      "capturedAt": "2026-02-09T06:01:36.232Z",
+      "crawlRunId": "8402d77493c26b17bfd37748b4cec52474d9bb8ec9d168ae80689cc59dd0b794",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Documentation Cursor",
+          "url": "https://cursor.com/fr/docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f9abea54f25235c234790b62d940b327005c835c72ae373ddcd27e577f6efef5"
 }

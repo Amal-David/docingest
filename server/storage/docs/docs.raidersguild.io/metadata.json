@@ -84,5 +84,127 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.raidersguild.io/",
+      "canonicalSeedUrl": "https://docs.raidersguild.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-04T07:11:49.687Z",
+      "completedAt": "2025-03-04T07:11:49.687Z",
+      "providerTotals": {
+        "discovered": 16,
+        "returned": 16,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.raidersguild.io/",
+          "canonicalUrl": "https://docs.raidersguild.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "da9af8f17c0e8cdc4863c13b8ea47a4b2138bcac38dfc701af3e5c97b3974646",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "aa2299756e6162e5a9a33eed9c34bd0a4efc2c925ceeb61a8f54cac6dddbdc03",
+      "filename": "documentation_2025-03-04T07:11:49.687Z.md",
+      "contentHash": "502dbc8659d55774a821a3bec00770cee55a72a5207143503bcbabdbe5bf5885",
+      "sourceUrl": "https://docs.raidersguild.io/",
+      "canonicalSourceUrl": "https://docs.raidersguild.io/",
+      "capturedAt": "2025-03-04T07:11:49.687Z",
+      "crawlRunId": "da9af8f17c0e8cdc4863c13b8ea47a4b2138bcac38dfc701af3e5c97b3974646",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 16,
+      "successfulPages": 16,
+      "structure": [
+        {
+          "type": "Intro | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/"
+        },
+        {
+          "type": "Get Started | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/intro/get-started"
+        },
+        {
+          "type": "Raids/Tasks | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/raids-tasks"
+        },
+        {
+          "type": "Asset Holdings | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/account-page/asset-holdings"
+        },
+        {
+          "type": "Progression System | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/progression-system"
+        },
+        {
+          "type": "Withdraw Rewards | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/account-page/withdraw-rewards"
+        },
+        {
+          "type": "Account History | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/account-page/account-history"
+        },
+        {
+          "type": "Cross-Chain | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/cross-chain"
+        },
+        {
+          "type": "Account Page | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/account-page"
+        },
+        {
+          "type": "Create Raid | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/raids-tasks/create-raid"
+        },
+        {
+          "type": "User Profile Setup | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/account-page/user-profile-setup"
+        },
+        {
+          "type": "Ranking | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/progression-system/ranking"
+        },
+        {
+          "type": "Raid Participation | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/raids-tasks/raid-participation"
+        },
+        {
+          "type": "Experience Points | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/progression-system/experience-points"
+        },
+        {
+          "type": "Leaderboard | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/progression-system/leaderboard"
+        },
+        {
+          "type": "NFT Utility | Raiders Guild (RG)",
+          "url": "https://docs.raidersguild.io/nft-utility"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "aa2299756e6162e5a9a33eed9c34bd0a4efc2c925ceeb61a8f54cac6dddbdc03"
 }

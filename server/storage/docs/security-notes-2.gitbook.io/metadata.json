@@ -40,5 +40,83 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://security-notes-2.gitbook.io/penetration-tester/",
+      "canonicalSeedUrl": "https://security-notes-2.gitbook.io/penetration-tester",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-14T19:56:50.058Z",
+      "completedAt": "2025-11-14T19:56:50.058Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://security-notes-2.gitbook.io/penetration-tester/",
+          "canonicalUrl": "https://security-notes-2.gitbook.io/penetration-tester",
+          "status": "valid"
+        }
+      ],
+      "id": "a9538f2795384c5497860f85a6eb469dbe08e0c1a963abd8efc33f5f8147a76c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cd331270bc2be99eeebd76d4015af71f15e40c452ae6fe76720f39dd7babc432",
+      "filename": "documentation_2025-11-14T19:56:50.058Z.md",
+      "contentHash": "b4a30e63496bc7e44c5d496a859cbe59ebd7f6b4e64d3745b717beb268311a40",
+      "sourceUrl": "https://security-notes-2.gitbook.io/penetration-tester/",
+      "canonicalSourceUrl": "https://security-notes-2.gitbook.io/penetration-tester",
+      "capturedAt": "2025-11-14T19:56:50.058Z",
+      "crawlRunId": "a9538f2795384c5497860f85a6eb469dbe08e0c1a963abd8efc33f5f8147a76c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "Info | Penetration Tester",
+          "url": "https://security-notes-2.gitbook.io/penetration-tester/"
+        },
+        {
+          "type": "Getting_Started_Module_Cheat_Sheet | Penetration Tester",
+          "url": "https://security-notes-2.gitbook.io/penetration-tester/getting_started_module_cheat_sheet"
+        },
+        {
+          "type": "Network Enumeration with Nmap | Penetration Tester",
+          "url": "https://security-notes-2.gitbook.io/penetration-tester/network-enumeration-with-nmap"
+        },
+        {
+          "type": "Information Gathering Web Edition | Penetration Tester",
+          "url": "https://security-notes-2.gitbook.io/penetration-tester/information-gathering-web-edition"
+        },
+        {
+          "type": "Penetration Testing Process | Penetration Tester",
+          "url": "https://security-notes-2.gitbook.io/penetration-tester/penetration-testing-process"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cd331270bc2be99eeebd76d4015af71f15e40c452ae6fe76720f39dd7babc432"
 }

@@ -97,5 +97,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/",
+      "canonicalSeedUrl": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-26T21:37:25.535Z",
+      "completedAt": "2025-10-26T21:37:25.535Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/",
+          "canonicalUrl": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods",
+          "status": "valid"
+        }
+      ],
+      "id": "c44de04c5b3053684e655c4bba0b8e329951f0db0bf6eb162afbba992f16028b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "46033d4414559113c7d67b89c31a05c4fe039b8c3ab88bd1816c813afafa87ec",
+      "filename": "documentation_2025-10-26T21:37:25.535Z.md",
+      "contentHash": "b705d9873b49f72e39f5aab5a73a19940fa6231450b7c8daabed4d94ee76a959",
+      "sourceUrl": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/",
+      "canonicalSourceUrl": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods",
+      "capturedAt": "2025-10-26T21:37:25.535Z",
+      "crawlRunId": "c44de04c5b3053684e655c4bba0b8e329951f0db0bf6eb162afbba992f16028b",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Websocket Methods | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/"
+        },
+        {
+          "type": "blockSubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/blocksubscribe"
+        },
+        {
+          "type": "accountUnsubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/accountunsubscribe"
+        },
+        {
+          "type": "blockUnsubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/blockunsubscribe"
+        },
+        {
+          "type": "logsSubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/logssubscribe"
+        },
+        {
+          "type": "logsUnsubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/logsunsubscribe"
+        },
+        {
+          "type": "accountSubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/accountsubscribe"
+        },
+        {
+          "type": "programUnsubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/programunsubscribe"
+        },
+        {
+          "type": "programSubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/programsubscribe"
+        },
+        {
+          "type": "voteSubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/votesubscribe"
+        },
+        {
+          "type": "voteUnsubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/voteunsubscribe"
+        },
+        {
+          "type": "signatureSubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/signaturesubscribe"
+        },
+        {
+          "type": "rootUnsubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/rootunsubscribe"
+        },
+        {
+          "type": "rootSubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/rootsubscribe"
+        },
+        {
+          "type": "signatureUnsubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/signatureunsubscribe"
+        },
+        {
+          "type": "slotSubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/slotsubscribe"
+        },
+        {
+          "type": "slotUnsubscribe | Solana Vibe Station",
+          "url": "https://docs.solanavibestation.com/developers/solana-rpc/websocket-methods/slotunsubscribe"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "46033d4414559113c7d67b89c31a05c4fe039b8c3ab88bd1816c813afafa87ec"
 }

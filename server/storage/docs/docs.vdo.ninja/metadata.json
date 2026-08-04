@@ -61,5 +61,95 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.vdo.ninja/",
+      "canonicalSeedUrl": "https://docs.vdo.ninja/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-19T04:56:56.148Z",
+      "completedAt": "2025-03-19T04:56:56.148Z",
+      "providerTotals": {
+        "discovered": 8,
+        "returned": 8,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.vdo.ninja/",
+          "canonicalUrl": "https://docs.vdo.ninja/",
+          "status": "valid"
+        }
+      ],
+      "id": "a86057c58d01f8f03fb8c68013c19f972b5a646a4da042881945e63328d913bd",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "7d0361ec07f9ba1275e1aea5b829e7e6b9e4bd57503dd73ca665cb180ba69e9a",
+      "filename": "documentation_2025-03-19T04:56:56.148Z.md",
+      "contentHash": "f693a4626559227175c40c6c1cbf4452d39767504c69ef3f9138a647270170f6",
+      "sourceUrl": "https://docs.vdo.ninja/",
+      "canonicalSourceUrl": "https://docs.vdo.ninja/",
+      "capturedAt": "2025-03-19T04:56:56.148Z",
+      "crawlRunId": "a86057c58d01f8f03fb8c68013c19f972b5a646a4da042881945e63328d913bd",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 8,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "What is VDO.Ninja? | Ninja Docs",
+          "url": "https://docs.vdo.ninja/"
+        },
+        {
+          "type": "Why use VDO.Ninja over other solutions? | Ninja Docs",
+          "url": "https://docs.vdo.ninja/master/why-use-obs.ninja-over-other-solutions"
+        },
+        {
+          "type": "Even higher quality video | Ninja Docs",
+          "url": "https://docs.vdo.ninja/getting-started/even-higher-quality-video"
+        },
+        {
+          "type": "VDO.Ninja basics | Ninja Docs",
+          "url": "https://docs.vdo.ninja/getting-started/vdo.ninja-basics"
+        },
+        {
+          "type": "The power of the URL parameter | Ninja Docs",
+          "url": "https://docs.vdo.ninja/getting-started/the-power-of-the-url-parameter"
+        },
+        {
+          "type": "Getting started | Ninja Docs",
+          "url": "https://docs.vdo.ninja/getting-started"
+        },
+        {
+          "type": "Meshcast.io | Ninja Docs",
+          "url": "https://docs.vdo.ninja/steves-helper-apps/meshcast.io"
+        },
+        {
+          "type": "Documentation | Ninja Docs",
+          "url": "https://docs.vdo.ninja/steves-helper-apps/electron-capture/documentation"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "7d0361ec07f9ba1275e1aea5b829e7e6b9e4bd57503dd73ca665cb180ba69e9a"
 }

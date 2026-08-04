@@ -164,5 +164,207 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://pyportfolioopt.readthedocs.io/en/latest/*",
+      "canonicalSeedUrl": "https://pyportfolioopt.readthedocs.io/en/latest/*",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-21T03:57:45.448Z",
+      "completedAt": "2026-03-21T03:57:45.448Z",
+      "providerTotals": {
+        "discovered": 36,
+        "returned": 36,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/*",
+          "canonicalUrl": "https://pyportfolioopt.readthedocs.io/en/latest/*",
+          "status": "valid"
+        }
+      ],
+      "id": "b99f37fd369014f0e91a8b74c00061f1f91e9f774611e3501164c4b23ae6d685",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1a66c97d9d0765a4896badf913a6ed443b88779f903cc9b80ac11fd051c2177a",
+      "filename": "documentation_2026-03-21T03:57:45.448Z.md",
+      "contentHash": "ac1e0505cdc6391e946d2a9d973125024d3955d361731369b35dd16869558818",
+      "sourceUrl": "https://pyportfolioopt.readthedocs.io/en/latest/*",
+      "canonicalSourceUrl": "https://pyportfolioopt.readthedocs.io/en/latest/*",
+      "capturedAt": "2026-03-21T03:57:45.448Z",
+      "crawlRunId": "b99f37fd369014f0e91a8b74c00061f1f91e9f774611e3501164c4b23ae6d685",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 36,
+      "successfulPages": 36,
+      "structure": [
+        {
+          "type": "\n  Documentation page not found\n - Read the Docs Community ",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/*"
+        },
+        {
+          "type": "User Guide — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/UserGuide.html"
+        },
+        {
+          "type": "Expected Returns — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/ExpectedReturns.html"
+        },
+        {
+          "type": "User Guide — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/UserGuide.html"
+        },
+        {
+          "type": "Expected Returns — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/ExpectedReturns.html"
+        },
+        {
+          "type": "Risk Models — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/RiskModels.html"
+        },
+        {
+          "type": "Installation — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/"
+        },
+        {
+          "type": "Risk Models — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/RiskModels.html"
+        },
+        {
+          "type": "Installation — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/"
+        },
+        {
+          "type": "Mean-Variance Optimization — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/MeanVariance.html"
+        },
+        {
+          "type": "Mean-Variance Optimization — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/MeanVariance.html"
+        },
+        {
+          "type": "Other Optimizers — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/OtherOptimizers.html"
+        },
+        {
+          "type": "Post-processing weights — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/Postprocessing.html"
+        },
+        {
+          "type": "Other Optimizers — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/OtherOptimizers.html"
+        },
+        {
+          "type": "Post-processing weights — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/Postprocessing.html"
+        },
+        {
+          "type": "Plotting — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/Plotting.html"
+        },
+        {
+          "type": "Plotting — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/Plotting.html"
+        },
+        {
+          "type": "Roadmap and Changelog — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/Roadmap.html"
+        },
+        {
+          "type": "FAQs — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/FAQ.html"
+        },
+        {
+          "type": "FAQs — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/FAQ.html"
+        },
+        {
+          "type": "Contributing — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/Contributing.html"
+        },
+        {
+          "type": "Roadmap and Changelog — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/Roadmap.html"
+        },
+        {
+          "type": "Citing PyPortfolioOpt — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/Citing.html"
+        },
+        {
+          "type": "Contributing — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/Contributing.html"
+        },
+        {
+          "type": "Python Module Index — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/py-modindex.html"
+        },
+        {
+          "type": "Search — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/search.html"
+        },
+        {
+          "type": "About — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/About.html"
+        },
+        {
+          "type": "About — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/About.html"
+        },
+        {
+          "type": "Python Module Index — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/py-modindex.html"
+        },
+        {
+          "type": "Search — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/search.html"
+        },
+        {
+          "type": "Black-Litterman Allocation — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/BlackLitterman.html"
+        },
+        {
+          "type": "Black-Litterman Allocation — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/BlackLitterman.html"
+        },
+        {
+          "type": "General Efficient Frontier — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/GeneralEfficientFrontier.html"
+        },
+        {
+          "type": "General Efficient Frontier — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/GeneralEfficientFrontier.html"
+        },
+        {
+          "type": "Index — PyPortfolioOpt 1.5.4 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/latest/genindex.html"
+        },
+        {
+          "type": "Index — PyPortfolioOpt 1.4.1 documentation",
+          "url": "https://pyportfolioopt.readthedocs.io/en/stable/genindex.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1a66c97d9d0765a4896badf913a6ed443b88779f903cc9b80ac11fd051c2177a"
 }

@@ -104,5 +104,147 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://synapsexdocs.github.io/",
+      "canonicalSeedUrl": "https://synapsexdocs.github.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-14T13:14:49.611Z",
+      "completedAt": "2025-12-14T13:14:49.611Z",
+      "providerTotals": {
+        "discovered": 21,
+        "returned": 21,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://synapsexdocs.github.io/",
+          "canonicalUrl": "https://synapsexdocs.github.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "36b00727e2767544098988a8637a2634ca90a9252d22cf8cc6673e5df823bfc5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "73c23695e90afed6628844730bcd0494d5a61512265979c0669547b35bf2b3c2",
+      "filename": "documentation_2025-12-14T13:14:49.611Z.md",
+      "contentHash": "0a7ea7482732dcf37ab5689cd7230654e48350c720ac4660cff610d21b95003b",
+      "sourceUrl": "https://synapsexdocs.github.io/",
+      "canonicalSourceUrl": "https://synapsexdocs.github.io/",
+      "capturedAt": "2025-12-14T13:14:49.611Z",
+      "crawlRunId": "36b00727e2767544098988a8637a2634ca90a9252d22cf8cc6673e5df823bfc5",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 21,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/"
+        },
+        {
+          "type": "Credits - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/credits/"
+        },
+        {
+          "type": "Script Environment Functions - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/custom-lua-functions/script-environment-functions/"
+        },
+        {
+          "type": "Environment Helper Functions - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/custom-lua-functions/environment-helper-functions/"
+        },
+        {
+          "type": "Hooking Functions - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/custom-lua-functions/hooking-functions/"
+        },
+        {
+          "type": "Reflection Functions - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/custom-lua-functions/reflection-functions/"
+        },
+        {
+          "type": "Keyboard/Mouse Functions - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/custom-lua-functions/keyboard-mouse-functions/"
+        },
+        {
+          "type": "Table Modification Functions - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/custom-lua-functions/table-modification-functions/"
+        },
+        {
+          "type": "File Functions - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/custom-lua-functions/file-functions/"
+        },
+        {
+          "type": "Internal Functions - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/custom-lua-functions/internal-functions/"
+        },
+        {
+          "type": "Changelog - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/changelog/"
+        },
+        {
+          "type": "Console Functions - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/custom-lua-functions/console-functions/"
+        },
+        {
+          "type": "Misc. Functions - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/custom-lua-functions/misc-functions/"
+        },
+        {
+          "type": "Drawing - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/libraries/drawing/"
+        },
+        {
+          "type": "WebSocket - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/libraries/websocket/"
+        },
+        {
+          "type": "Debug - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/libraries/debug/"
+        },
+        {
+          "type": "Bit - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/libraries/bit/"
+        },
+        {
+          "type": "Crypt - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/libraries/crypt/"
+        },
+        {
+          "type": "Syn - Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/libraries/syn/"
+        },
+        {
+          "type": "Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/custom-lua-functions/changelog/"
+        },
+        {
+          "type": "Synapse X Documentation",
+          "url": "https://synapsexdocs.github.io/libraries/changelog/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "73c23695e90afed6628844730bcd0494d5a61512265979c0669547b35bf2b3c2"
 }

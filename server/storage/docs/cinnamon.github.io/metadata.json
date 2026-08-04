@@ -229,5 +229,263 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://cinnamon.github.io/kotaemon/",
+      "canonicalSeedUrl": "https://cinnamon.github.io/kotaemon",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-23T22:49:02.744Z",
+      "completedAt": "2025-01-23T22:49:02.744Z",
+      "providerTotals": {
+        "discovered": 50,
+        "returned": 50,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://cinnamon.github.io/kotaemon/",
+          "canonicalUrl": "https://cinnamon.github.io/kotaemon",
+          "status": "valid"
+        }
+      ],
+      "id": "8c64ee67b72ec15b6aed3ce02c821735c1b2693c299c3816db74b2f4bb67885a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f3714ddbf2a48850e8377e86ee062934b0da0f6dbcdb39e1d7ed43c94b5eba4e",
+      "filename": "documentation_2025-01-23T22:49:02.744Z.md",
+      "contentHash": "a4a645a8df38b84a62fad683bb0ccb519fc7ff34e6417d8039bc24cf66d7b881",
+      "sourceUrl": "https://cinnamon.github.io/kotaemon/",
+      "canonicalSourceUrl": "https://cinnamon.github.io/kotaemon",
+      "capturedAt": "2025-01-23T22:49:02.744Z",
+      "crawlRunId": "8c64ee67b72ec15b6aed3ce02c821735c1b2693c299c3816db74b2f4bb67885a",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 50,
+      "successfulPages": 50,
+      "structure": [
+        {
+          "type": "Quick Start - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/"
+        },
+        {
+          "type": "Basic Usage - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/usage/"
+        },
+        {
+          "type": "Development - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/development/"
+        },
+        {
+          "type": "Customize flow logic - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/pages/app/customize-flows/"
+        },
+        {
+          "type": "Creating a Component - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/development/create-a-component/"
+        },
+        {
+          "type": "Agents - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/agents/"
+        },
+        {
+          "type": "File index - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/pages/app/index/file/"
+        },
+        {
+          "type": "User management - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/pages/app/ext/user-management/"
+        },
+        {
+          "type": "Settings - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/pages/app/settings/overview/"
+        },
+        {
+          "type": "Contributing - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/development/contributing/"
+        },
+        {
+          "type": "User settings - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/pages/app/settings/user-settings/"
+        },
+        {
+          "type": "Component - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/base/component/"
+        },
+        {
+          "type": "Base - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/base/"
+        },
+        {
+          "type": "Schema - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/base/schema/"
+        },
+        {
+          "type": "Chatbot - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/chatbot/"
+        },
+        {
+          "type": "Simple Respondent - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/chatbot/simple_respondent/"
+        },
+        {
+          "type": "Base - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/base/"
+        },
+        {
+          "type": "Extractors - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/extractors/"
+        },
+        {
+          "type": "Base - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/chatbot/base/"
+        },
+        {
+          "type": "Doc Parsers - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/extractors/doc_parsers/"
+        },
+        {
+          "type": "Ingests - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/ingests/"
+        },
+        {
+          "type": "Endpoint Based - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/embeddings/endpoint_based/"
+        },
+        {
+          "type": "Fastembed - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/embeddings/fastembed/"
+        },
+        {
+          "type": "Langchain Based - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/embeddings/langchain_based/"
+        },
+        {
+          "type": "CLI - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/cli/"
+        },
+        {
+          "type": "Base - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/embeddings/base/"
+        },
+        {
+          "type": "Files - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/ingests/files/"
+        },
+        {
+          "type": "Embeddings - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/embeddings/"
+        },
+        {
+          "type": "Tei Endpoint Embed - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/embeddings/tei_endpoint_embed/"
+        },
+        {
+          "type": "Indices - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/"
+        },
+        {
+          "type": "Openai - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/embeddings/openai/"
+        },
+        {
+          "type": "Utils - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/qa/utils/"
+        },
+        {
+          "type": "Qa - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/qa/"
+        },
+        {
+          "type": "Citation Qa Inline - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/qa/citation_qa_inline/"
+        },
+        {
+          "type": "Base - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/rankings/base/"
+        },
+        {
+          "type": "Citation - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/qa/citation/"
+        },
+        {
+          "type": "Format Context - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/qa/format_context/"
+        },
+        {
+          "type": "Rankings - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/rankings/"
+        },
+        {
+          "type": "Citation Qa - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/qa/citation_qa/"
+        },
+        {
+          "type": "Cohere - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/rankings/cohere/"
+        },
+        {
+          "type": "Retrievers - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/retrievers/"
+        },
+        {
+          "type": "Base - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/llms/base/"
+        },
+        {
+          "type": "Llm - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/rankings/llm/"
+        },
+        {
+          "type": "Llm Scoring - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/rankings/llm_scoring/"
+        },
+        {
+          "type": "Llm Trulens - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/rankings/llm_trulens/"
+        },
+        {
+          "type": "Base - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/llms/chats/base/"
+        },
+        {
+          "type": "Splitters - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/splitters/"
+        },
+        {
+          "type": "Jina Web Search - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/retrievers/jina_web_search/"
+        },
+        {
+          "type": "Tavily Web Search - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/indices/retrievers/tavily_web_search/"
+        },
+        {
+          "type": "Branching - kotaemon Docs",
+          "url": "https://cinnamon.github.io/kotaemon/reference/llms/branching/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f3714ddbf2a48850e8377e86ee062934b0da0f6dbcdb39e1d7ed43c94b5eba4e"
 }

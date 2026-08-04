@@ -36,5 +36,79 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://cel.dev/",
+      "canonicalSeedUrl": "https://cel.dev/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-02T01:51:21.913Z",
+      "completedAt": "2026-03-02T01:51:21.913Z",
+      "providerTotals": {
+        "discovered": 4,
+        "returned": 4,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://cel.dev/",
+          "canonicalUrl": "https://cel.dev/",
+          "status": "valid"
+        }
+      ],
+      "id": "6fd72e6e0a63433cf5e30147c1fa6f46cd2bfe0a283b2b7d39e35b860df224b1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ea98b5ef3baf437530ba19f44a03a396438ea3b78b84861ac7777b37d470cdc9",
+      "filename": "documentation_2026-03-02T01:51:21.913Z.md",
+      "contentHash": "addb7a09a026351d12c3cbae51d3d716d0bea7f5ad6ea96d92031179bf67d6f3",
+      "sourceUrl": "https://cel.dev/",
+      "canonicalSourceUrl": "https://cel.dev/",
+      "capturedAt": "2026-03-02T01:51:21.913Z",
+      "crawlRunId": "6fd72e6e0a63433cf5e30147c1fa6f46cd2bfe0a283b2b7d39e35b860df224b1",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "CEL  |  Common Expression Language",
+          "url": "https://cel.dev/"
+        },
+        {
+          "type": "Common Expression Language (CEL)",
+          "url": "https://cel.dev/overview/cel-overview"
+        },
+        {
+          "type": "Tutorials: Get started with CEL  |  Common Expression Language",
+          "url": "https://cel.dev/tutorials/cel-get-started-tutorial"
+        },
+        {
+          "type": "Sign in - Google Accounts",
+          "url": "https://cel.dev/_d/signin?continue=https%3A%2F%2Fcel.dev%2F&prompt=select_account"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ea98b5ef3baf437530ba19f44a03a396438ea3b78b84861ac7777b37d470cdc9"
 }

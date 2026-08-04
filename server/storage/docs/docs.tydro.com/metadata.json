@@ -168,5 +168,211 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.tydro.com/",
+      "canonicalSeedUrl": "https://docs.tydro.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-27T15:25:52.122Z",
+      "completedAt": "2026-01-27T15:25:52.122Z",
+      "providerTotals": {
+        "discovered": 37,
+        "returned": 37,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.tydro.com/",
+          "canonicalUrl": "https://docs.tydro.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "8cb7dd21fd51ae11993fe5d00874b48bbedd357bb5814e5471ab0a02f5355ed1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cb941557c557ab50f15a3c632ff790493a7324e32e749f9460a2c2095b4f6280",
+      "filename": "documentation_2026-01-27T15:25:52.122Z.md",
+      "contentHash": "c0bd1978e17facfa2f087b16a9b8eaf501e284e6aa02c2034ae5e12cc30a0e82",
+      "sourceUrl": "https://docs.tydro.com/",
+      "canonicalSourceUrl": "https://docs.tydro.com/",
+      "capturedAt": "2026-01-27T15:25:52.122Z",
+      "crawlRunId": "8cb7dd21fd51ae11993fe5d00874b48bbedd357bb5814e5471ab0a02f5355ed1",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "structure": [
+        {
+          "type": "Overview | Tydro Documentation",
+          "url": "https://docs.tydro.com/"
+        },
+        {
+          "type": "Concepts | Tydro Documentation",
+          "url": "https://docs.tydro.com/introduction/concepts"
+        },
+        {
+          "type": "Supply | Tydro Documentation",
+          "url": "https://docs.tydro.com/introduction/concepts/supply"
+        },
+        {
+          "type": "Lending Protocol | Tydro Documentation",
+          "url": "https://docs.tydro.com/introduction/concepts/lending-protocol"
+        },
+        {
+          "type": "Smart Contracts | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers/smart-contracts"
+        },
+        {
+          "type": "L2 Pool | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers/smart-contracts/l2-pool"
+        },
+        {
+          "type": "Borrow | Tydro Documentation",
+          "url": "https://docs.tydro.com/introduction/concepts/borrow"
+        },
+        {
+          "type": "Repay | Tydro Documentation",
+          "url": "https://docs.tydro.com/introduction/concepts/repay"
+        },
+        {
+          "type": "Withdraw | Tydro Documentation",
+          "url": "https://docs.tydro.com/introduction/concepts/withdraw"
+        },
+        {
+          "type": "Liquidations | Tydro Documentation",
+          "url": "https://docs.tydro.com/introduction/concepts/liquidations"
+        },
+        {
+          "type": "Liquidity Pool | Tydro Documentation",
+          "url": "https://docs.tydro.com/primitives/liquidity-pool"
+        },
+        {
+          "type": "Reserve | Tydro Documentation",
+          "url": "https://docs.tydro.com/primitives/reserve"
+        },
+        {
+          "type": "Incentives | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers/smart-contracts/incentives"
+        },
+        {
+          "type": "Flash Loans | Tydro Documentation",
+          "url": "https://docs.tydro.com/primitives/flash-loans"
+        },
+        {
+          "type": "Wrapped Token Gateway | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers/smart-contracts/wrapped-token-gateway"
+        },
+        {
+          "type": "Oracle | Tydro Documentation",
+          "url": "https://docs.tydro.com/primitives/oracle"
+        },
+        {
+          "type": "Glossary | Tydro Documentation",
+          "url": "https://docs.tydro.com/resources/glossary"
+        },
+        {
+          "type": "Interest Rate Strategy | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers/smart-contracts/interest-rate-strategy"
+        },
+        {
+          "type": "ACLManager | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers/smart-contracts/aclmanager"
+        },
+        {
+          "type": "Oracles | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers/smart-contracts/oracles"
+        },
+        {
+          "type": "Credit Delegation | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers/credit-delegation"
+        },
+        {
+          "type": "Pool Addresses Provider | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers/smart-contracts/pool-addresses-provider"
+        },
+        {
+          "type": "Risks | Tydro Documentation",
+          "url": "https://docs.tydro.com/resources/risks"
+        },
+        {
+          "type": "Addresses | Tydro Documentation",
+          "url": "https://docs.tydro.com/resources/addresses"
+        },
+        {
+          "type": "Incentives | Tydro Documentation",
+          "url": "https://docs.tydro.com/primitives/incentives"
+        },
+        {
+          "type": "Testing & Debugging | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers/testing-and-debugging"
+        },
+        {
+          "type": "Code Licensing | Tydro Documentation",
+          "url": "https://docs.tydro.com/resources/code-licensing"
+        },
+        {
+          "type": "Risk Parameters | Tydro Documentation",
+          "url": "https://docs.tydro.com/resources/risk-parameters"
+        },
+        {
+          "type": "Web3 | Tydro Documentation",
+          "url": "https://docs.tydro.com/resources/web3"
+        },
+        {
+          "type": "Bridge to INK | Tydro Documentation",
+          "url": "https://docs.tydro.com/resources/bridge-to-ink"
+        },
+        {
+          "type": "Tokenization | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers/smart-contracts/tokenization"
+        },
+        {
+          "type": "Pool Configurator | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers/smart-contracts/pool-configurator"
+        },
+        {
+          "type": "View Contracts | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers/smart-contracts/view-contracts"
+        },
+        {
+          "type": "Pool | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers/smart-contracts/pool"
+        },
+        {
+          "type": "Overview | Tydro Documentation",
+          "url": "https://docs.tydro.com/introduction"
+        },
+        {
+          "type": "Liquidity Pool | Tydro Documentation",
+          "url": "https://docs.tydro.com/primitives"
+        },
+        {
+          "type": "Smart Contracts | Tydro Documentation",
+          "url": "https://docs.tydro.com/developers"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cb941557c557ab50f15a3c632ff790493a7324e32e749f9460a2c2095b4f6280"
 }

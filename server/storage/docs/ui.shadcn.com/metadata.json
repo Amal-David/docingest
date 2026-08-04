@@ -266,5 +266,219 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://ui.shadcn.com/docs",
+      "canonicalSeedUrl": "https://ui.shadcn.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-23T05:37:22.533Z",
+      "completedAt": "2026-03-23T05:37:22.533Z",
+      "providerTotals": {
+        "discovered": 39,
+        "returned": 39,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://ui.shadcn.com/docs",
+          "canonicalUrl": "https://ui.shadcn.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "4e6fa82c8845df96e943e3fa85b5455b866c46501f0b466aa55deeda27be8e60",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "9081fc77e36663cec2930730acf735e08c153582d0c9b7c41ab98ca24d00050b",
+      "filename": "documentation_2026-03-23T05:37:22.533Z.md",
+      "contentHash": "717cae7d8f0fadd56cb540d544fff248a5cf4494c35c46ae67a42de1357768ae",
+      "sourceUrl": "https://ui.shadcn.com/docs",
+      "canonicalSourceUrl": "https://ui.shadcn.com/docs",
+      "capturedAt": "2026-03-23T05:37:22.533Z",
+      "crawlRunId": "4e6fa82c8845df96e943e3fa85b5455b866c46501f0b466aa55deeda27be8e60",
+      "upstreamVersion": "1.7.3",
+      "upstreamChannel": "latest",
+      "totalPages": 39,
+      "successfulPages": 39,
+      "structure": [
+        {
+          "type": "Introduction - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs"
+        },
+        {
+          "type": "Installation - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/installation"
+        },
+        {
+          "type": "Skills - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/skills"
+        },
+        {
+          "type": "Components - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components"
+        },
+        {
+          "type": "RTL - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/rtl"
+        },
+        {
+          "type": "Theming - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/theming"
+        },
+        {
+          "type": "shadcn - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/cli"
+        },
+        {
+          "type": "Introduction - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/registry"
+        },
+        {
+          "type": "Forms - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/forms"
+        },
+        {
+          "type": "MCP Server - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/mcp"
+        },
+        {
+          "type": "Registry Directory - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/directory"
+        },
+        {
+          "type": "Sidebar - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components/radix/sidebar"
+        },
+        {
+          "type": "Skeleton - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components/radix/skeleton"
+        },
+        {
+          "type": "Slider - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components/radix/slider"
+        },
+        {
+          "type": "components.json - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components-json"
+        },
+        {
+          "type": "Figma - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/figma"
+        },
+        {
+          "type": "JavaScript - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/javascript"
+        },
+        {
+          "type": "Textarea - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components/radix/textarea"
+        },
+        {
+          "type": "Legacy Docs - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/legacy"
+        },
+        {
+          "type": "Tooltip - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components/radix/tooltip"
+        },
+        {
+          "type": "Sonner - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components/radix/sonner"
+        },
+        {
+          "type": "Open in v0 - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/v0"
+        },
+        {
+          "type": "Monorepo - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/monorepo"
+        },
+        {
+          "type": "Switch - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components/radix/switch"
+        },
+        {
+          "type": "Typography - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components/radix/typography"
+        },
+        {
+          "type": "Tabs - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components/radix/tabs"
+        },
+        {
+          "type": "MCP Server - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/registry/mcp"
+        },
+        {
+          "type": "Getting Started - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/registry/getting-started"
+        },
+        {
+          "type": "Add a Registry - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/registry/registry-index"
+        },
+        {
+          "type": "Open in v0 - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/registry/open-in-v0"
+        },
+        {
+          "type": "Spinner - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components/radix/spinner"
+        },
+        {
+          "type": "Toggle - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components/radix/toggle"
+        },
+        {
+          "type": "Toast - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components/radix/toast"
+        },
+        {
+          "type": "registry.json - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/registry/registry-json"
+        },
+        {
+          "type": "Table - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components/radix/table"
+        },
+        {
+          "type": "Authentication - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/registry/authentication"
+        },
+        {
+          "type": "Toggle Group - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/components/radix/toggle-group"
+        },
+        {
+          "type": "registry-item.json - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/registry/registry-item-json"
+        },
+        {
+          "type": "Dark Mode - shadcn/ui",
+          "url": "https://ui.shadcn.com/docs/dark-mode"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "9081fc77e36663cec2930730acf735e08c153582d0c9b7c41ab98ca24d00050b"
 }

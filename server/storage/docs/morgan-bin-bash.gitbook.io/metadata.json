@@ -137,5 +137,171 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://morgan-bin-bash.gitbook.io/pentesting/",
+      "canonicalSeedUrl": "https://morgan-bin-bash.gitbook.io/pentesting",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-07T09:49:37.596Z",
+      "completedAt": "2026-03-07T09:49:37.596Z",
+      "providerTotals": {
+        "discovered": 27,
+        "returned": 27,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/",
+          "canonicalUrl": "https://morgan-bin-bash.gitbook.io/pentesting",
+          "status": "valid"
+        }
+      ],
+      "id": "1d8f585bf6cffcb62db780217dab4d0c9833de46650088caa2cc86f1b13050c6",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b92663ba192ce1f5e467ab6defbfc6d7ae4b1a592938c7a605306357a1032fea",
+      "filename": "documentation_2026-03-07T09:49:37.596Z.md",
+      "contentHash": "05292db0e0d5b2da04e72bb37147ea678d869d27878ec6787581a4f63dcd012f",
+      "sourceUrl": "https://morgan-bin-bash.gitbook.io/pentesting/",
+      "canonicalSourceUrl": "https://morgan-bin-bash.gitbook.io/pentesting",
+      "capturedAt": "2026-03-07T09:49:37.596Z",
+      "crawlRunId": "1d8f585bf6cffcb62db780217dab4d0c9833de46650088caa2cc86f1b13050c6",
+      "upstreamVersion": "1.0.1",
+      "upstreamChannel": "latest",
+      "totalPages": 27,
+      "successfulPages": 27,
+      "structure": [
+        {
+          "type": "API Pentesting | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/"
+        },
+        {
+          "type": "Pivoting techniques | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/pivoting-techniques"
+        },
+        {
+          "type": "Basic LDAP Injection | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/basic-ldap-injection"
+        },
+        {
+          "type": "Aquatone | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/aquatone"
+        },
+        {
+          "type": "NOSQL injections | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/nosql-injections"
+        },
+        {
+          "type": "Basic authentication bypass | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/basic-authentication-bypass"
+        },
+        {
+          "type": "SSTI | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/ssti"
+        },
+        {
+          "type": "SERVER SIDE REQUEST FORGERY (SSRF) | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/server-side-request-forgery-ssrf"
+        },
+        {
+          "type": "GENERAL INFORMATION | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/general-information"
+        },
+        {
+          "type": "Easy - No Protections | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/easy-no-protections"
+        },
+        {
+          "type": "SQL injections | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/sql-injections"
+        },
+        {
+          "type": "Cracking files | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/cracking-files"
+        },
+        {
+          "type": "Wordlists & co. | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/wordlists-and-co."
+        },
+        {
+          "type": "XML External Entity (XXE) Injection Payloads | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/xml-external-entity-xxe-injection-payloads"
+        },
+        {
+          "type": "John The Ripper Cheatsheet | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/john-the-ripper-cheatsheet"
+        },
+        {
+          "type": "Hashcat Cheatsheet | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/hashcat-cheatsheet"
+        },
+        {
+          "type": "Post exploitation techniques | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/post-exploitation-techniques"
+        },
+        {
+          "type": "WinRM (Windows Remote Management) Pentesting | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/winrm-windows-remote-management-pentesting"
+        },
+        {
+          "type": "Command find priv /esc | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/command-find-priv-esc"
+        },
+        {
+          "type": "Crawl/Fuzz | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/crawl-fuzz"
+        },
+        {
+          "type": "API Recon | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/api-recon"
+        },
+        {
+          "type": "Shells & Payloads | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/shells-and-payloads"
+        },
+        {
+          "type": "API windows | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/api-windows"
+        },
+        {
+          "type": "API Token Attacks | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/api-token-attacks"
+        },
+        {
+          "type": "HTTP Request Smuggling | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/http-request-smuggling"
+        },
+        {
+          "type": "Pivoting, Tunneling, and Port Forwarding | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/pivoting-tunneling-and-port-forwarding"
+        },
+        {
+          "type": "Api keys | Pentesting",
+          "url": "https://morgan-bin-bash.gitbook.io/pentesting/api-keys"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b92663ba192ce1f5e467ab6defbfc6d7ae4b1a592938c7a605306357a1032fea"
 }

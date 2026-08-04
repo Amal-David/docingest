@@ -168,5 +168,211 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.battlechain.com/overview",
+      "canonicalSeedUrl": "https://docs.battlechain.com/overview",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-15T07:39:13.716Z",
+      "completedAt": "2026-07-15T07:39:13.716Z",
+      "providerTotals": {
+        "discovered": 37,
+        "returned": 37,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.battlechain.com/overview",
+          "canonicalUrl": "https://docs.battlechain.com/overview",
+          "status": "valid"
+        }
+      ],
+      "id": "697bde0a98e6ebcbef8c8fdedf24958de2ba475b8f3b5940817c8b0e504df783",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cbefe0264355a06cf643017173cd2ea4e22e90a2b9da51d09d8def83c047481d",
+      "filename": "documentation_2026-07-15T07:39:13.716Z.md",
+      "contentHash": "3125d31f9272193019f64efedef5f2fa95cfc0406ab7f0bc37d41ecf8b7996ed",
+      "sourceUrl": "https://docs.battlechain.com/overview",
+      "canonicalSourceUrl": "https://docs.battlechain.com/overview",
+      "capturedAt": "2026-07-15T07:39:13.716Z",
+      "crawlRunId": "697bde0a98e6ebcbef8c8fdedf24958de2ba475b8f3b5940817c8b0e504df783",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "structure": [
+        {
+          "type": "BattleChain Docs",
+          "url": "https://docs.battlechain.com/overview"
+        },
+        {
+          "type": "BattleChain Docs",
+          "url": "https://docs.battlechain.com/"
+        },
+        {
+          "type": "Going Attackable: End-to-End Protocol Tutorial",
+          "url": "https://docs.battlechain.com/battlechain/tutorials/going-attackable"
+        },
+        {
+          "type": "Using BattleChain with AI",
+          "url": "https://docs.battlechain.com/battlechain/using-battlechain-with-ai"
+        },
+        {
+          "type": "Deploying Contracts to BattleChain",
+          "url": "https://docs.battlechain.com/battlechain/tutorials/deploying-contracts"
+        },
+        {
+          "type": "How to Create a Safe Harbor Agreement",
+          "url": "https://docs.battlechain.com/battlechain/how-to/create-agreement"
+        },
+        {
+          "type": "How to Request Attack Mode",
+          "url": "https://docs.battlechain.com/battlechain/how-to/request-attack-mode"
+        },
+        {
+          "type": "How to Promote to Production",
+          "url": "https://docs.battlechain.com/battlechain/how-to/promote-to-production"
+        },
+        {
+          "type": "How to Find Attackable Contracts",
+          "url": "https://docs.battlechain.com/battlechain/how-to/find-attackable-contracts"
+        },
+        {
+          "type": "How to Execute an Attack",
+          "url": "https://docs.battlechain.com/battlechain/how-to/execute-attack"
+        },
+        {
+          "type": "Review Your First Request",
+          "url": "https://docs.battlechain.com/battlechain/quickstart/review-first-request"
+        },
+        {
+          "type": "Attack a Contract",
+          "url": "https://docs.battlechain.com/battlechain/tutorials/attacking-contracts"
+        },
+        {
+          "type": "How to Claim Bounties",
+          "url": "https://docs.battlechain.com/battlechain/how-to/claim-bounties"
+        },
+        {
+          "type": "How to Approve or Reject Requests",
+          "url": "https://docs.battlechain.com/battlechain/how-to/approve-reject-requests"
+        },
+        {
+          "type": "How to Use Instant Promotion",
+          "url": "https://docs.battlechain.com/battlechain/how-to/instant-promotion"
+        },
+        {
+          "type": "How to Add BattleChain to MetaMask",
+          "url": "https://docs.battlechain.com/battlechain/how-to/add-battlechain-to-metamask"
+        },
+        {
+          "type": "Approving Requests: DAO Member Tutorial",
+          "url": "https://docs.battlechain.com/battlechain/tutorials/approving-requests"
+        },
+        {
+          "type": "Configure Your AI Tools",
+          "url": "https://docs.battlechain.com/battlechain/how-to/configure-ai-tools"
+        },
+        {
+          "type": "How Deployment Works",
+          "url": "https://docs.battlechain.com/battlechain/explanation/how-deployment-works"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/reference/contracts"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/reference/contract-states"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/reference/mock-contracts"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/reference/bounty-terms"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/reference/architecture"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/reference/governance-parameters"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/reference/identity-requirements"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/explanation/contract-lifecycle"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/explanation/safe-harbor"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/faq"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/explanation/best-practices"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/quickstart/deploy-your-contract"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/quickstart/one-prompt-demo"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/quickstart/execute-first-attack"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/llms.txt"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/llms-full.txt"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/how-to/exploring-agreements"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.battlechain.com/battlechain/how-to/verifying-contracts"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cbefe0264355a06cf643017173cd2ea4e22e90a2b9da51d09d8def83c047481d"
 }

@@ -88,5 +88,131 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://albert-software.gitbook.io/fast-tv/proje-detaylari/quickstart",
+      "canonicalSeedUrl": "https://albert-software.gitbook.io/fast-tv/proje-detaylari/quickstart",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-05-29T15:30:42.273Z",
+      "completedAt": "2025-05-29T15:30:42.273Z",
+      "providerTotals": {
+        "discovered": 17,
+        "returned": 17,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://albert-software.gitbook.io/fast-tv/proje-detaylari/quickstart",
+          "canonicalUrl": "https://albert-software.gitbook.io/fast-tv/proje-detaylari/quickstart",
+          "status": "valid"
+        }
+      ],
+      "id": "c09f21aa58f2df6132e8811f0d045de9ba9148bffbc327235fcb85382d37c40c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2dad6f7cb0cd0cdf90d4eb9bff1d5aadf58546de0360b7f4d24acfbe4d485eb7",
+      "filename": "documentation_2025-05-29T15:30:42.273Z.md",
+      "contentHash": "fea14ed53cd5342fbe4a07cd35805be5ef7b1d921cf4997dcd20585bfe12a51b",
+      "sourceUrl": "https://albert-software.gitbook.io/fast-tv/proje-detaylari/quickstart",
+      "canonicalSourceUrl": "https://albert-software.gitbook.io/fast-tv/proje-detaylari/quickstart",
+      "capturedAt": "2025-05-29T15:30:42.273Z",
+      "crawlRunId": "c09f21aa58f2df6132e8811f0d045de9ba9148bffbc327235fcb85382d37c40c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 17,
+      "successfulPages": 17,
+      "structure": [
+        {
+          "type": "Giriş ve Proje Tanımı | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/proje-detaylari/quickstart"
+        },
+        {
+          "type": "Sonuç ve Çağrı | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/sonuc-ve-cagri"
+        },
+        {
+          "type": "Referanslar ve İlham Alınan Çözümler | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/proje-detaylari/publish-your-docs"
+        },
+        {
+          "type": "Test ve Kalite Planı | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/test-ve-kalite-plani"
+        },
+        {
+          "type": "İş Planları | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/is-planlari"
+        },
+        {
+          "type": "Operasyon ve Bakım Planı | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/operasyon-ve-bakim-plani"
+        },
+        {
+          "type": "Risk Yönetimi ve Çözüm Önerileri | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/risk-yonetimi-ve-cozum-onerileri"
+        },
+        {
+          "type": "Teknik Planlar | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/proje-detaylari/teknik-planlar"
+        },
+        {
+          "type": "FAST TV Projesi | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv"
+        },
+        {
+          "type": "Önemli Notlar | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/ekler/editor"
+        },
+        {
+          "type": "Gantt Diyagramı | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/ekler/interactive-blocks"
+        },
+        {
+          "type": "Entegrasyon ve Yayın Planı | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/entegrasyon-ve-yayin-plani"
+        },
+        {
+          "type": "Connected TV | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/ekler/markdown"
+        },
+        {
+          "type": "FAST TV | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/ekler/images-and-media"
+        },
+        {
+          "type": "Uzmanlık Seviyeleri ve Saatlik Ücretler | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/ekler/uzmanlik-seviyeleri-ve-saatlik-ucretler"
+        },
+        {
+          "type": "Kullanıcı Senaryoları | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/ekler/openapi"
+        },
+        {
+          "type": "Maliyet ve Bütçe Planı | Albert  | Fast TV",
+          "url": "https://albert-software.gitbook.io/fast-tv/maliyet-ve-butce-plani"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2dad6f7cb0cd0cdf90d4eb9bff1d5aadf58546de0360b7f4d24acfbe4d485eb7"
 }

@@ -24,5 +24,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://manual.gamemaker.io/monthly/en/",
+      "canonicalSeedUrl": "https://manual.gamemaker.io/monthly/en",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-20T03:24:58.585Z",
+      "completedAt": "2025-11-20T03:24:58.585Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://manual.gamemaker.io/monthly/en/",
+          "canonicalUrl": "https://manual.gamemaker.io/monthly/en",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "4fd8b8d3853c9aeb3bb7bfc30ab00d3e4b6b781aee0ccc64b8f47462f795fa36",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1615001d822f9bdb30c3793f221e053029ff7e3a9dd5b4c20bc59b5ebe6973b9",
+      "filename": "documentation_2025-11-20T03:24:58.585Z.md",
+      "contentHash": "aea5303b900a0896028d61241a3a430cd9609343163b47a05eb3612dfb4a05e4",
+      "sourceUrl": "https://manual.gamemaker.io/monthly/en/",
+      "canonicalSourceUrl": "https://manual.gamemaker.io/monthly/en",
+      "capturedAt": "2025-11-20T03:24:58.585Z",
+      "crawlRunId": "4fd8b8d3853c9aeb3bb7bfc30ab00d3e4b6b781aee0ccc64b8f47462f795fa36",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "GameMaker Manual",
+          "url": "https://manual.gamemaker.io/monthly/en/"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

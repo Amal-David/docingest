@@ -86,5 +86,111 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/baseline.html",
+      "canonicalSeedUrl": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/baseline.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-06-12T23:17:26.773Z",
+      "completedAt": "2025-06-12T23:17:26.773Z",
+      "providerTotals": {
+        "discovered": 12,
+        "returned": 12,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/baseline.html",
+          "canonicalUrl": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/baseline.html",
+          "status": "valid"
+        }
+      ],
+      "id": "5557ad679b7630ad11bec6f019f409d1cfb3662a2c85b476710902566f449d02",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "0a64dc54aebaaa9ed6ba378609670f0ba72033d26a6ce4ebac168124d2ceae91",
+      "filename": "documentation_2025-06-12T23:17:26.773Z.md",
+      "contentHash": "d0217f5833d6e32cc916a5ed6afbff51b19cdf21a03a5322216be4316145d509",
+      "sourceUrl": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/baseline.html",
+      "canonicalSourceUrl": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/baseline.html",
+      "capturedAt": "2025-06-12T23:17:26.773Z",
+      "crawlRunId": "5557ad679b7630ad11bec6f019f409d1cfb3662a2c85b476710902566f449d02",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 12,
+      "successfulPages": 12,
+      "structure": [
+        {
+          "type": "trafilatura.baseline — Trafilatura 2.0.0 documentation",
+          "url": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/baseline.html"
+        },
+        {
+          "type": "trafilatura.core — Trafilatura 2.0.0 documentation",
+          "url": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/core.html"
+        },
+        {
+          "type": "trafilatura.external — Trafilatura 2.0.0 documentation",
+          "url": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/external.html"
+        },
+        {
+          "type": "trafilatura.downloads — Trafilatura 2.0.0 documentation",
+          "url": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/downloads.html"
+        },
+        {
+          "type": "trafilatura.feeds — Trafilatura 2.0.0 documentation",
+          "url": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/feeds.html"
+        },
+        {
+          "type": "\n  Documentation page not found\n - Read the Docs Community ",
+          "url": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/"
+        },
+        {
+          "type": "trafilatura.main_extractor — Trafilatura 2.0.0 documentation",
+          "url": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/main_extractor.html"
+        },
+        {
+          "type": "trafilatura.sitemaps — Trafilatura 2.0.0 documentation",
+          "url": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/sitemaps.html"
+        },
+        {
+          "type": "trafilatura.metadata — Trafilatura 2.0.0 documentation",
+          "url": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/metadata.html"
+        },
+        {
+          "type": "trafilatura.spider — Trafilatura 2.0.0 documentation",
+          "url": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/spider.html"
+        },
+        {
+          "type": "trafilatura.utils — Trafilatura 2.0.0 documentation",
+          "url": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/utils.html"
+        },
+        {
+          "type": "trafilatura.xml — Trafilatura 2.0.0 documentation",
+          "url": "https://trafilatura.readthedocs.io/en/latest/_modules/trafilatura/xml.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "0a64dc54aebaaa9ed6ba378609670f0ba72033d26a6ce4ebac168124d2ceae91"
 }

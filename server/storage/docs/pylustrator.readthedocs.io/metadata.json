@@ -56,5 +56,99 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://pylustrator.readthedocs.io/en/latest/",
+      "canonicalSeedUrl": "https://pylustrator.readthedocs.io/en/latest",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-16T22:14:09.099Z",
+      "completedAt": "2025-03-16T22:14:09.099Z",
+      "providerTotals": {
+        "discovered": 9,
+        "returned": 9,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://pylustrator.readthedocs.io/en/latest/",
+          "canonicalUrl": "https://pylustrator.readthedocs.io/en/latest",
+          "status": "valid"
+        }
+      ],
+      "id": "5739b1820bd4182d4594541b717a60c69e10f213aad676eec301084b5b364c0b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "10c8f1d91e3a8c6173b251c1d6f0134c907d3e588ba3c77f8dba037d5028258f",
+      "filename": "documentation_2025-03-16T22:14:09.099Z.md",
+      "contentHash": "9308a77573164afc21fbdfd35a9d00a31a8f74558089ab9def0bfdf494ad0576",
+      "sourceUrl": "https://pylustrator.readthedocs.io/en/latest/",
+      "canonicalSourceUrl": "https://pylustrator.readthedocs.io/en/latest",
+      "capturedAt": "2025-03-16T22:14:09.099Z",
+      "crawlRunId": "5739b1820bd4182d4594541b717a60c69e10f213aad676eec301084b5b364c0b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 9,
+      "successfulPages": 9,
+      "structure": [
+        {
+          "type": "Welcome to the Pylustrator Documentation — pylustrator 1.3.0 documentation",
+          "url": "https://pylustrator.readthedocs.io/en/latest/"
+        },
+        {
+          "type": "Composing Figures — pylustrator 1.3.0 documentation",
+          "url": "https://pylustrator.readthedocs.io/en/latest/composing.html"
+        },
+        {
+          "type": "Styling Figures — pylustrator 1.3.0 documentation",
+          "url": "https://pylustrator.readthedocs.io/en/latest/styling.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://pylustrator.readthedocs.io/en/latest/_sources/index.rst.txt"
+        },
+        {
+          "type": "API — pylustrator 1.3.0 documentation",
+          "url": "https://pylustrator.readthedocs.io/en/latest/api.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://pylustrator.readthedocs.io/en/latest/_sources/composing.rst.txt"
+        },
+        {
+          "type": "Welcome to the Pylustrator Documentation — pylustrator 1.3.0 documentation",
+          "url": "https://pylustrator.readthedocs.io/en/latest/index.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://pylustrator.readthedocs.io/en/latest/_sources/styling.rst.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://pylustrator.readthedocs.io/en/latest/_sources/api.rst.txt"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "10c8f1d91e3a8c6173b251c1d6f0134c907d3e588ba3c77f8dba037d5028258f"
 }

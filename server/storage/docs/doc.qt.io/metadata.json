@@ -156,5 +156,199 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://doc.qt.io/qt-6/",
+      "canonicalSeedUrl": "https://doc.qt.io/qt-6",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-11T10:21:46.938Z",
+      "completedAt": "2025-12-11T10:21:46.938Z",
+      "providerTotals": {
+        "discovered": 34,
+        "returned": 34,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://doc.qt.io/qt-6/",
+          "canonicalUrl": "https://doc.qt.io/qt-6",
+          "status": "valid"
+        }
+      ],
+      "id": "7d4709f22b9f7c8ff2e65d339a442105d98d087ffa5e4953d6c105dec068c916",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ad5c3153de076213a583b6d64cf11c59b3c346c1577232d1ece505e1e12014f2",
+      "filename": "documentation_2025-12-11T10:21:46.938Z.md",
+      "contentHash": "cc748d146b29126ff29176690f4584fdcb38eada1b3d5667b2c49914b555c120",
+      "sourceUrl": "https://doc.qt.io/qt-6/",
+      "canonicalSourceUrl": "https://doc.qt.io/qt-6",
+      "capturedAt": "2025-12-11T10:21:46.938Z",
+      "crawlRunId": "7d4709f22b9f7c8ff2e65d339a442105d98d087ffa5e4953d6c105dec068c916",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 34,
+      "successfulPages": 34,
+      "structure": [
+        {
+          "type": "Qt 6.10",
+          "url": "https://doc.qt.io/qt-6/"
+        },
+        {
+          "type": "Qt Quick Dialogs | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtquickdialogs-index.html"
+        },
+        {
+          "type": "Qt Network | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtnetwork-index.html"
+        },
+        {
+          "type": "Qt Quick Test | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtquicktest-index.html"
+        },
+        {
+          "type": "Qt Documentation | Home",
+          "url": "https://doc.qt.io/"
+        },
+        {
+          "type": "Qt D-Bus | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtdbus-index.html"
+        },
+        {
+          "type": "Qt Test | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qttest-index.html"
+        },
+        {
+          "type": "Qt CoAP | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtcoap-index.html"
+        },
+        {
+          "type": "Qt Image Formats | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtimageformats-index.html"
+        },
+        {
+          "type": "Qt Help | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qthelp-index.html"
+        },
+        {
+          "type": "Qt Quick Layouts | Qt Quick | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtquicklayouts-index.html"
+        },
+        {
+          "type": "Qt Lottie Animation | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtlottieanimation-index.html"
+        },
+        {
+          "type": "Qt MQTT | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtmqtt-index.html"
+        },
+        {
+          "type": "Qt Qml | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtqml-index.html"
+        },
+        {
+          "type": "Qt Graphs | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtgraphs-index.html"
+        },
+        {
+          "type": "Qt GRPC | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtgrpc-index.html"
+        },
+        {
+          "type": "Qt HTTP Server | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qthttpserver-index.html"
+        },
+        {
+          "type": "Qt Network Authorization | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtnetworkauth-index.html"
+        },
+        {
+          "type": "All Modules | Qt 6.10",
+          "url": "https://doc.qt.io/qt-6/qtmodules.html"
+        },
+        {
+          "type": "Qt Widgets | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtwidgets-index.html"
+        },
+        {
+          "type": "Qt Quick | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtquick-index.html"
+        },
+        {
+          "type": "Qt Concurrent | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtconcurrent-index.html"
+        },
+        {
+          "type": "Qt Bluetooth | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtbluetooth-index.html"
+        },
+        {
+          "type": "Qt GUI | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtgui-index.html"
+        },
+        {
+          "type": "Qt Core | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtcore-index.html"
+        },
+        {
+          "type": "Qt NFC | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtnfc-index.html"
+        },
+        {
+          "type": "Qt OPC UA | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtopcua-index.html"
+        },
+        {
+          "type": "What's New in Qt 6.10 | Qt 6.10",
+          "url": "https://doc.qt.io/qt-6/whatsnew610.html"
+        },
+        {
+          "type": "Qt Multimedia | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtmultimedia-index.html"
+        },
+        {
+          "type": "Qt Quick Controls | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtquickcontrols-index.html"
+        },
+        {
+          "type": "Qt OpenGL",
+          "url": "https://doc.qt.io/qt-6/qtopengl-index.html"
+        },
+        {
+          "type": "Qt Positioning | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtpositioning-index.html"
+        },
+        {
+          "type": "Qt Serial Bus | Qt 6.10.1",
+          "url": "https://doc.qt.io/qt-6/qtserialbus-index.html"
+        },
+        {
+          "type": "Qt 6.10",
+          "url": "https://doc.qt.io/qt-6/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ad5c3153de076213a583b6d64cf11c59b3c346c1577232d1ece505e1e12014f2"
 }

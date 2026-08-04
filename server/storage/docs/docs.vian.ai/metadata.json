@@ -344,5 +344,387 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.vian.ai/4.0/cf-user.html",
+      "canonicalSeedUrl": "https://docs.vian.ai/4.0/cf-user.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-24T13:51:55.923Z",
+      "completedAt": "2025-03-24T13:51:55.923Z",
+      "providerTotals": {
+        "discovered": 81,
+        "returned": 81,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.vian.ai/4.0/cf-user.html",
+          "canonicalUrl": "https://docs.vian.ai/4.0/cf-user.html",
+          "status": "valid"
+        }
+      ],
+      "id": "153ad8f71d38bc4e1a90ef3e4212ca5812283e9b9cdf914ad4f84bd08fcc37ef",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a76aae36815cdb16a054db5b833362ea6a4073d348c0f8b81d00a33adb892e50",
+      "filename": "documentation_2025-03-24T13:51:55.923Z.md",
+      "contentHash": "8f5ba5d152997fb9f9f4d1fc340dcc48e3993c2c486e7822ed0477030341b470",
+      "sourceUrl": "https://docs.vian.ai/4.0/cf-user.html",
+      "canonicalSourceUrl": "https://docs.vian.ai/4.0/cf-user.html",
+      "capturedAt": "2025-03-24T13:51:55.923Z",
+      "crawlRunId": "153ad8f71d38bc4e1a90ef3e4212ca5812283e9b9cdf914ad4f84bd08fcc37ef",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 81,
+      "successfulPages": 81,
+      "structure": [
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-user.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/apis.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/support-hila-about.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-about.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/support-release-notes.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/support-languages.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/support-feature-list.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/support-data-security.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/key-tech-glossary.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/key-tech-parent.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/key-tech-anti-hallucination.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/key-tech-table-extraction.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/support-overview.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/key-tech-text2sql.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/support-vian.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-settings-parent.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-settings-users.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-settings-data-connections.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-settings-jobs.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-settings-profile.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/support-legal.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-settings-notifications.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/support-licenses.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/site-map.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-sso.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-settings-eai-routes.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-settings-config-values.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-settings-service-logs.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-open-edahub.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/deploy-integrate-llms.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/api-quickstart.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-variance-analysis.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/api-list.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-profitability-analysis.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-manage-conv-quest.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-sales-analysis.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-admin-setup.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-admin-configure.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-admin-prep-data-with-schema.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/deploy-vian-condition.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-admin-delta-ingest.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-admin-ingest-custom-data.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-admin-monitoring.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-lexicon.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-admin-preload-conv.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-permissions.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-permissions-objects.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-permissions-data.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/cf-user-charts.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/flow-analyze-unstruct-user.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/flow-analyze-struct-user.html"
+        },
+        {
+          "type": "hila Python client documentation — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/index.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-data-manager.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-update-sql.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-data-ingest.html"
+        },
+        {
+          "type": "hila Enterprise",
+          "url": "https://docs.vian.ai/legal/aup.html"
+        },
+        {
+          "type": "hila Enterprise",
+          "url": "https://docs.vian.ai/legal/msa.html"
+        },
+        {
+          "type": "hila Enterprise",
+          "url": "https://docs.vian.ai/legal/app-terms.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-sso-okta.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-sso-azure.html"
+        },
+        {
+          "type": "hila",
+          "url": "https://docs.vian.ai/legal/data-security.html"
+        },
+        {
+          "type": "hila Enterprise",
+          "url": "https://docs.vian.ai/legal/data-proc.html"
+        },
+        {
+          "type": "hila Enterprise",
+          "url": "https://docs.vian.ai/legal/deploy-spec-terms.html"
+        },
+        {
+          "type": "hila Enterprise",
+          "url": "https://docs.vian.ai/legal/prof-serv-terms.html"
+        },
+        {
+          "type": "hila Enterprise",
+          "url": "https://docs.vian.ai/legal/EULA.html"
+        },
+        {
+          "type": "hila Documentation",
+          "url": "https://docs.vian.ai/4.0/admin-llm-config.html"
+        },
+        {
+          "type": "Datapipeline APIs — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.api.datapipeline.html"
+        },
+        {
+          "type": "Classes and methods — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.api.html"
+        },
+        {
+          "type": "Feature store APIs — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.api.featurestore.html"
+        },
+        {
+          "type": "Job maker APIs — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.api.jobmaker.html"
+        },
+        {
+          "type": "Inference store APIs — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.api.inferencestore.html"
+        },
+        {
+          "type": "Model store APIs — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.api.modelstore.html"
+        },
+        {
+          "type": "QNA store APIs — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.api.qnastore.html"
+        },
+        {
+          "type": "Risk store APIs — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.api.riskstore.html"
+        },
+        {
+          "type": "User service APIs — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.api.userservice.html"
+        },
+        {
+          "type": "Utilities APIs — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.api.utilities.html"
+        },
+        {
+          "type": "Web services APIs — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.api.webservices.html"
+        },
+        {
+          "type": "Objects and models — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.models.html"
+        },
+        {
+          "type": "Datapipeline objects — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.models.datapipeline.html"
+        },
+        {
+          "type": "Feature store objects — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.models.featurestore.html"
+        },
+        {
+          "type": "Inference store objects — hila Enterprise Python Client 4.0.0-r2 documentation",
+          "url": "https://docs.vian.ai/sdk/vianops_client.models.inferencestore.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "a76aae36815cdb16a054db5b833362ea6a4073d348c0f8b81d00a33adb892e50"
 }

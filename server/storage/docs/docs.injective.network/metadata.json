@@ -72,5 +72,115 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.injective.network/developers-native/injective/peggy/01_definitions",
+      "canonicalSeedUrl": "https://docs.injective.network/developers-native/injective/peggy/01_definitions",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-27T08:39:48.583Z",
+      "completedAt": "2026-02-27T08:39:48.583Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.injective.network/developers-native/injective/peggy/01_definitions",
+          "canonicalUrl": "https://docs.injective.network/developers-native/injective/peggy/01_definitions",
+          "status": "valid"
+        }
+      ],
+      "id": "5cdc43f3555aaedf8c60d3b32b53ff6d319b788d356d54124a8413c7b5bae794",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "6f9ba5b85b0a771371ec34d7461e50c2bfdebc56da3a4e8c2b0a3a1933d3afa9",
+      "filename": "documentation_2026-02-27T08:39:48.583Z.md",
+      "contentHash": "08efe73d0cfaac926b180686bfa32abe50f7d2c5615f97f7de6f373ffe6e0340",
+      "sourceUrl": "https://docs.injective.network/developers-native/injective/peggy/01_definitions",
+      "canonicalSourceUrl": "https://docs.injective.network/developers-native/injective/peggy/01_definitions",
+      "capturedAt": "2026-02-27T08:39:48.583Z",
+      "crawlRunId": "5cdc43f3555aaedf8c60d3b32b53ff6d319b788d356d54124a8413c7b5bae794",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Definitions - Injective Docs",
+          "url": "https://docs.injective.network/developers-native/injective/peggy/01_definitions"
+        },
+        {
+          "type": "Workflow - Injective Docs",
+          "url": "https://docs.injective.network/developers-native/injective/peggy/02_workflow"
+        },
+        {
+          "type": "State - Injective Docs",
+          "url": "https://docs.injective.network/developers-native/injective/peggy/03_state"
+        },
+        {
+          "type": "End-Block - Injective Docs",
+          "url": "https://docs.injective.network/developers-native/injective/peggy/06_end_block"
+        },
+        {
+          "type": "Messages - Injective Docs",
+          "url": "https://docs.injective.network/developers-native/injective/peggy/04_messages"
+        },
+        {
+          "type": "Parameters - Injective Docs",
+          "url": "https://docs.injective.network/developers-native/injective/peggy/08_params"
+        },
+        {
+          "type": "Slashing - Injective Docs",
+          "url": "https://docs.injective.network/developers-native/injective/peggy/05_slashing"
+        },
+        {
+          "type": "Events - Injective Docs",
+          "url": "https://docs.injective.network/developers-native/injective/peggy/07_events"
+        },
+        {
+          "type": "Relay Semantics - Injective Docs",
+          "url": "https://docs.injective.network/developers-native/injective/peggy/09_relay_semantics"
+        },
+        {
+          "type": "Future Improvements - Injective Docs",
+          "url": "https://docs.injective.network/developers-native/injective/peggy/10_future_improvements"
+        },
+        {
+          "type": "Error Codes - Injective Docs",
+          "url": "https://docs.injective.network/developers-native/injective/peggy/99_errors"
+        },
+        {
+          "type": "Peggy - Injective Docs",
+          "url": "https://docs.injective.network/developers-native/injective/peggy"
+        },
+        {
+          "type": "Peggy - Injective Docs",
+          "url": "https://docs.injective.network/developers-native/injective/peggy/index"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "6f9ba5b85b0a771371ec34d7461e50c2bfdebc56da3a4e8c2b0a3a1933d3afa9"
 }

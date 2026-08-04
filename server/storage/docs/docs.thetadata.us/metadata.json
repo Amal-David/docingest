@@ -68,5 +68,111 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.thetadata.us/",
+      "canonicalSeedUrl": "https://docs.thetadata.us/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-10T06:03:39.383Z",
+      "completedAt": "2026-01-10T06:03:39.383Z",
+      "providerTotals": {
+        "discovered": 12,
+        "returned": 12,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.thetadata.us/",
+          "canonicalUrl": "https://docs.thetadata.us/",
+          "status": "valid"
+        }
+      ],
+      "id": "bdef398d08a1c072b46c34ce848786af2c59c8f35e61b4237e5344272dc0b830",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "70a3366d25187f6c840db5930010fd71d55cd4d2ef7d9060707377f36cb94fdd",
+      "filename": "documentation_2026-01-10T06:03:39.383Z.md",
+      "contentHash": "171d0ee3bccbc5596636a1c8f367d37dc3a309b1ec0e475fc6a2612abf57d49e",
+      "sourceUrl": "https://docs.thetadata.us/",
+      "canonicalSourceUrl": "https://docs.thetadata.us/",
+      "capturedAt": "2026-01-10T06:03:39.383Z",
+      "crawlRunId": "bdef398d08a1c072b46c34ce848786af2c59c8f35e61b4237e5344272dc0b830",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 12,
+      "successfulPages": 12,
+      "structure": [
+        {
+          "type": "ThetaData v3",
+          "url": "https://docs.thetadata.us/"
+        },
+        {
+          "type": "Building with AI/LLMs | ThetaData v3",
+          "url": "https://docs.thetadata.us/Articles/AI-LLMs/Building-with-AI.html"
+        },
+        {
+          "type": "Concurrent Requests | ThetaData v3",
+          "url": "https://docs.thetadata.us/Articles/Data-And-Requests/Concurrent-Requests.html"
+        },
+        {
+          "type": "Data Issues | ThetaData v3",
+          "url": "https://docs.thetadata.us/Articles/Data-And-Requests/Data-Issues.html"
+        },
+        {
+          "type": "Making Requests | ThetaData v3",
+          "url": "https://docs.thetadata.us/Articles/Data-And-Requests/Making-Requests.html"
+        },
+        {
+          "type": "OHLC & EOD | ThetaData v3",
+          "url": "https://docs.thetadata.us/Articles/Data-And-Requests/OHLC-EOD.html"
+        },
+        {
+          "type": "Option Greeks | ThetaData v3",
+          "url": "https://docs.thetadata.us/Articles/Data-And-Requests/Option-Greeks.html"
+        },
+        {
+          "type": "Request Sizing | ThetaData v3",
+          "url": "https://docs.thetadata.us/Articles/Data-And-Requests/Request-Sizing.html"
+        },
+        {
+          "type": "Symbology | ThetaData v3",
+          "url": "https://docs.thetadata.us/Articles/Data-And-Requests/Symbology.html"
+        },
+        {
+          "type": "The SIPs | ThetaData v3",
+          "url": "https://docs.thetadata.us/Articles/Data-And-Requests/The-SIPs.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.thetadata.us/openapiv3.yaml"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.thetadata.us/example.py"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "70a3366d25187f6c840db5930010fd71d55cd4d2ef7d9060707377f36cb94fdd"
 }

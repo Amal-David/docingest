@@ -120,5 +120,163 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://ubuntuversal.org/",
+      "canonicalSeedUrl": "https://ubuntuversal.org/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-17T15:52:57.688Z",
+      "completedAt": "2026-07-17T15:52:57.688Z",
+      "providerTotals": {
+        "discovered": 25,
+        "returned": 25,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://ubuntuversal.org/",
+          "canonicalUrl": "https://ubuntuversal.org/",
+          "status": "valid"
+        }
+      ],
+      "id": "96d4b47d73fc2febf72df2e00a7d0af424b4fcc09606471c76eddb5f52181d65",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "f4a41d2f39db60d7d1bbe78d8c76b59f8a95f33ff828938f684eb962d4d759f8",
+      "filename": "documentation_2026-07-17T15:52:57.688Z.md",
+      "contentHash": "af1e0a4dfbcded08c374fb62c6521c91a38c8996fb78f6f9d431eeb53d7d3009",
+      "sourceUrl": "https://ubuntuversal.org/",
+      "canonicalSourceUrl": "https://ubuntuversal.org/",
+      "capturedAt": "2026-07-17T15:52:57.688Z",
+      "crawlRunId": "96d4b47d73fc2febf72df2e00a7d0af424b4fcc09606471c76eddb5f52181d65",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 25,
+      "successfulPages": 25,
+      "structure": [
+        {
+          "type": "Home - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://ubuntuversal.org/wp-content/uploads/2026/04/3-Trillion-PlayBook-Corporate-Green-Industrialisation.pdf"
+        },
+        {
+          "type": "Contact - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/contact/"
+        },
+        {
+          "type": "Privacy Policy & Terms of Service - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/privacy-policy-terms-of-service/"
+        },
+        {
+          "type": "The PlayBook - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/the-playbook/"
+        },
+        {
+          "type": "About Us - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/about-us/"
+        },
+        {
+          "type": "Custom Page Attributes - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/custom-page-attributes/"
+        },
+        {
+          "type": "Shortcodes - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/shortcodes/"
+        },
+        {
+          "type": "No sidebars - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/no-sidebars/"
+        },
+        {
+          "type": "Jetpack Portfolio - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/jetpack-portfolio/"
+        },
+        {
+          "type": "Two sidebars right - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/two-sidebars-right/"
+        },
+        {
+          "type": "Jetpack Portfolio Shortcode - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/jetpack-portfolio-shortcode/"
+        },
+        {
+          "type": "Sidebar left - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/sidebar-left/"
+        },
+        {
+          "type": "Blog - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/blog/"
+        },
+        {
+          "type": "Typography - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/typography/"
+        },
+        {
+          "type": "Two sidebars left - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/two-sidebars-left/"
+        },
+        {
+          "type": "Sidebar right - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/sidebar-right/"
+        },
+        {
+          "type": "Two sidebars sided - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/two-sidebars-sided/"
+        },
+        {
+          "type": "ubuntuversal.org - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/author/ubuntuversal-org/"
+        },
+        {
+          "type": "no sidebar - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/tag/no-sidebar/"
+        },
+        {
+          "type": "layouts - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/tag/layouts/"
+        },
+        {
+          "type": "Post Layouts - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/category/post-layouts/"
+        },
+        {
+          "type": "two sidebars - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/tag/two-sidebars/"
+        },
+        {
+          "type": "layout - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/tag/layout/"
+        },
+        {
+          "type": "one sidebar - Ubuntuverse Institute",
+          "url": "https://ubuntuversal.org/tag/one-sidebar/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "f4a41d2f39db60d7d1bbe78d8c76b59f8a95f33ff828938f684eb962d4d759f8"
 }

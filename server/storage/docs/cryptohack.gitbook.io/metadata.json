@@ -300,5 +300,343 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://cryptohack.gitbook.io/cryptobook/",
+      "canonicalSeedUrl": "https://cryptohack.gitbook.io/cryptobook",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-20T23:09:07.163Z",
+      "completedAt": "2025-07-20T23:09:07.163Z",
+      "providerTotals": {
+        "discovered": 70,
+        "returned": 70,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://cryptohack.gitbook.io/cryptobook/",
+          "canonicalUrl": "https://cryptohack.gitbook.io/cryptobook",
+          "status": "valid"
+        }
+      ],
+      "id": "2728fb15348c3db1c5b36262fdfe90cae08d15da8e7ef038691f2af9f453a6ad",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1f1dadbbcfa3a3f383813a6d08f59345f2ebce85141f8f8bff5e1095f5261a81",
+      "filename": "documentation_2025-07-20T23:09:07.163Z.md",
+      "contentHash": "a63bd9c230288fdf3877f6d73e131331cd0f844e804cd994afd903cb9d119134",
+      "sourceUrl": "https://cryptohack.gitbook.io/cryptobook/",
+      "canonicalSourceUrl": "https://cryptohack.gitbook.io/cryptobook",
+      "capturedAt": "2025-07-20T23:09:07.163Z",
+      "crawlRunId": "2728fb15348c3db1c5b36262fdfe90cae08d15da8e7ef038691f2af9f453a6ad",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 70,
+      "successfulPages": 70,
+      "structure": [
+        {
+          "type": "CryptoBook | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/"
+        },
+        {
+          "type": "Division and Greatest common divisor | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/fundamentals/division-and-gcd"
+        },
+        {
+          "type": "Contributors | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/contributors"
+        },
+        {
+          "type": "Sample Page | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/style-guide/sample-page"
+        },
+        {
+          "type": "Theorems of Wilson, Euler, and Fermat | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/fundamentals/modular-arithmetic/theorems-of-wilson-euler-and-fermat"
+        },
+        {
+          "type": "Style Guide | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/style-guide"
+        },
+        {
+          "type": "Fermat's Little Theorem in Detail | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/fundamentals/modular-arithmetic/theorems-of-wilson-euler-and-fermat/fermat-euler-theorem"
+        },
+        {
+          "type": "Mathematical Notation | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/fundamentals/notation"
+        },
+        {
+          "type": "Modular Arithmetic | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/fundamentals/modular-arithmetic"
+        },
+        {
+          "type": "Euclidean Algorithm | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/fundamentals/division-and-gcd/euclidean-algorithm"
+        },
+        {
+          "type": "Book Plan | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/todo"
+        },
+        {
+          "type": "Pollard rho | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/integer-factorization/pollard-rho"
+        },
+        {
+          "type": "Quadratic Residues | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/fundamentals/modular-arithmetic/quadratic-residues"
+        },
+        {
+          "type": "Polynomials | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/abstract-algebra/polynomials"
+        },
+        {
+          "type": "Polynomials With Shared Roots | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/polynomials-with-shared-roots"
+        },
+        {
+          "type": "Sieves | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/integer-factorization/sieves"
+        },
+        {
+          "type": "Integer Factorization | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/integer-factorization"
+        },
+        {
+          "type": "Euler's Theorem in Detail | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/fundamentals/modular-arithmetic/theorems-of-wilson-euler-and-fermat/eulers-theorem-in-detail"
+        },
+        {
+          "type": "Rings | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/abstract-algebra/rings"
+        },
+        {
+          "type": "Fields | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/abstract-algebra/fields"
+        },
+        {
+          "type": "Applications | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/applications"
+        },
+        {
+          "type": "Another take on groups | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/abstract-algebra/groups/another-take-on-groups"
+        },
+        {
+          "type": "NTRU | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/cryptographic-lattice-problems/ntru"
+        },
+        {
+          "type": "Ideals | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/ideals"
+        },
+        {
+          "type": "HKZ reduced | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/shortest-vector-problem/hkz-reduced"
+        },
+        {
+          "type": "Low Private Component Attacks | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/untitled/low-private-component-attacks"
+        },
+        {
+          "type": "Ring-LWE | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/cryptographic-lattice-problems/ring-lwe"
+        },
+        {
+          "type": "Discrete Log Problem | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/abstract-algebra/groups/untitled"
+        },
+        {
+          "type": "Untitled | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/elliptic-curves/untitled"
+        },
+        {
+          "type": "MITM | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/diffie-hellman/mitm"
+        },
+        {
+          "type": "Cryptographic lattice problems | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/cryptographic-lattice-problems"
+        },
+        {
+          "type": "Learning with errors (LWE) | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/cryptographic-lattice-problems/learning-with-errors-lwe"
+        },
+        {
+          "type": "LLL reduction | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/lll-reduction"
+        },
+        {
+          "type": "Resources and notations | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/resources-and-notations"
+        },
+        {
+          "type": "Lattice reduction | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/shortest-vector-problem"
+        },
+        {
+          "type": "RSA application | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/untitled/rsa-application"
+        },
+        {
+          "type": "Gram-Schmidt Orthogonalization | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/lll-reduction/gram-schmidt-orthogonalization"
+        },
+        {
+          "type": "LLL reduced | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/shortest-vector-problem/lll-reduced"
+        },
+        {
+          "type": "Elliptic Curve Cryptography | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/elliptic-curve-cryptography"
+        },
+        {
+          "type": "RSA | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/untitled"
+        },
+        {
+          "type": "Common Modulus Attack | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/untitled/common-modulus-attack"
+        },
+        {
+          "type": "Proof of correctness | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/untitled/proof-of-correctness"
+        },
+        {
+          "type": "Continued Fractions | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/fundamentals/continued-fractions"
+        },
+        {
+          "type": "Boneh-Durfee Attack | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/untitled/low-private-component-attacks/boneh-durfee-attack"
+        },
+        {
+          "type": "Probability Theory | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/appendices/probability-theory"
+        },
+        {
+          "type": "Diffie-Hellman | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/diffie-hellman"
+        },
+        {
+          "type": "Encryption | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/symmetric-cryptography/encryption"
+        },
+        {
+          "type": "Interactive fun | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/interactive-fun"
+        },
+        {
+          "type": "Isogenies | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/isogeny-based-cryptography/untitled"
+        },
+        {
+          "type": "Isogeny and Ramanujan Graphs | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/isogeny-based-cryptography/isogeny-and-ramanujan-graphs"
+        },
+        {
+          "type": "Hard lattice problems | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/hard-lattice-problems"
+        },
+        {
+          "type": "Extensions of Coppersmith algorithm | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/applications/extensions-of-coppersmith-algorithm"
+        },
+        {
+          "type": "Sets and Functions | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/appendices/sets-and-functions"
+        },
+        {
+          "type": "The One Time Pad | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/symmetric-cryptography/the-one-time-pad"
+        },
+        {
+          "type": "AES | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/symmetric-cryptography/aes"
+        },
+        {
+          "type": "Recovering the Modulus | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/untitled/recovering-the-modulus"
+        },
+        {
+          "type": "Groups | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/abstract-algebra/groups"
+        },
+        {
+          "type": "Introduction to Isogeny Cryptography | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/isogeny-based-cryptography/introduction-to-isogeny-cryptography"
+        },
+        {
+          "type": "Lagrange's algorithm | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/lll-reduction/gaussian-reduction"
+        },
+        {
+          "type": "Short integer solutions (SIS) | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/cryptographic-lattice-problems/short-integer-solutions-sis"
+        },
+        {
+          "type": "Minkowski reduced | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/shortest-vector-problem/minkowski-reduced"
+        },
+        {
+          "type": "LLL reduction | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/lll-reduction/lll-reduced-basis"
+        },
+        {
+          "type": "Introduction | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/definitions"
+        },
+        {
+          "type": "Wiener's Attack | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/untitled/low-private-component-attacks/wieners-attack"
+        },
+        {
+          "type": "Rijndael Finite Field | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/symmetric-cryptography/aes/rijndael-finite-field"
+        },
+        {
+          "type": "Introduction / overview | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/hashes/introduction-overview"
+        },
+        {
+          "type": "Lattices of interest | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/lattices-of-interest"
+        },
+        {
+          "type": "Round Transformations | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/symmetric-cryptography/aes/round-transformations"
+        },
+        {
+          "type": "The Birthday paradox / attack | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/hashes/the-birthday-paradox-attack"
+        },
+        {
+          "type": "Coppersmith algorithm | CryptoBook",
+          "url": "https://cryptohack.gitbook.io/cryptobook/lattices/applications/coppersmith-algorithm"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1f1dadbbcfa3a3f383813a6d08f59345f2ebce85141f8f8bff5e1095f5261a81"
 }

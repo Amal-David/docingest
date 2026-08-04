@@ -92,5 +92,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "http://docs.tjservice.org",
+      "canonicalSeedUrl": "http://docs.tjservice.org/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-31T04:13:51.423Z",
+      "completedAt": "2025-08-31T04:13:51.423Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "http://docs.tjservice.org",
+          "canonicalUrl": "http://docs.tjservice.org/",
+          "status": "valid"
+        }
+      ],
+      "id": "b0264f2ff35f2e4b6d76c01bd0daacaf62d3ff90a8c96e9173d545bef34d1e8c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ac1c566e491dd4edf21c70d7eb624e46bed664b2d1faf48ee7c01692e6ed5e7c",
+      "filename": "documentation_2025-08-31T04:13:51.423Z.md",
+      "contentHash": "40bac35c5e0535d683b326eadad5056775c9e5e2fd0054e9bbe4f3a8796f24d9",
+      "sourceUrl": "http://docs.tjservice.org",
+      "canonicalSourceUrl": "http://docs.tjservice.org/",
+      "capturedAt": "2025-08-31T04:13:51.423Z",
+      "crawlRunId": "b0264f2ff35f2e4b6d76c01bd0daacaf62d3ff90a8c96e9173d545bef34d1e8c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "插件委託 | TJService                                                                                             Less Cost & More Power",
+          "url": "http://docs.tjservice.org"
+        },
+        {
+          "type": "設定 | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/she-ding"
+        },
+        {
+          "type": "類型 | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/she-ding/ji-chu/lei-xing"
+        },
+        {
+          "type": "通用動作 | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/she-ding/tjaction/tong-yong-dong-zuo"
+        },
+        {
+          "type": "委託須知 | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/wei-tuo-xu-zhi"
+        },
+        {
+          "type": "基礎 | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/she-ding/ji-chu"
+        },
+        {
+          "type": "格式化文字 | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/she-ding/ji-chu/ge-shi-hua-wen-zi"
+        },
+        {
+          "type": "TJAction | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/she-ding/tjaction"
+        },
+        {
+          "type": "YAML語法 | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/she-ding/ji-chu/yaml-yu-fa"
+        },
+        {
+          "type": "簡易運算式 | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/she-ding/tjaction/jian-yi-yun-suan-shi"
+        },
+        {
+          "type": "Spigot | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/she-ding/tjaction/spigot"
+        },
+        {
+          "type": "SimpleDatabase | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/she-ding/simpledatabase"
+        },
+        {
+          "type": "時代的眼淚 | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/she-ding/shi-dai-de-yan-lei"
+        },
+        {
+          "type": "FAQ | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/faq"
+        },
+        {
+          "type": "IDisplay | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/she-ding/idisplay"
+        },
+        {
+          "type": "常見依賴 | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/chang-jian-yi-lai"
+        },
+        {
+          "type": "TJMessage | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/cha-jian-wei-tuo/she-ding/shi-dai-de-yan-lei/tjmessage"
+        },
+        {
+          "type": "服務條款 | TJService                                                                                             Less Cost & More Power",
+          "url": "https://docs.tjservice.org/fu-wu-tiao-kuan"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ac1c566e491dd4edf21c70d7eb624e46bed664b2d1faf48ee7c01692e6ed5e7c"
 }

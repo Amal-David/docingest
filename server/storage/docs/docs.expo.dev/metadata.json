@@ -201,5 +201,235 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.expo.dev",
+      "canonicalSeedUrl": "https://docs.expo.dev/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-12T10:07:55.572Z",
+      "completedAt": "2025-12-12T10:07:55.572Z",
+      "providerTotals": {
+        "discovered": 43,
+        "returned": 43,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.expo.dev",
+          "canonicalUrl": "https://docs.expo.dev/",
+          "status": "valid"
+        }
+      ],
+      "id": "7b5ea4e9204c5184f8650d6568e061769e5ad3e1cdd17e3112c82834eb7a017c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "435714207825133a51be2269682ea26438a203e72b72736442b64d7d6cf8a3c1",
+      "filename": "documentation_2025-12-12T10:07:55.572Z.md",
+      "contentHash": "c2f26997ff26a91259eacd979edde2877b7dffd0365fb4fff22a3c5f4803e9c1",
+      "sourceUrl": "https://docs.expo.dev",
+      "canonicalSourceUrl": "https://docs.expo.dev/",
+      "capturedAt": "2025-12-12T10:07:55.572Z",
+      "crawlRunId": "7b5ea4e9204c5184f8650d6568e061769e5ad3e1cdd17e3112c82834eb7a017c",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 43,
+      "successfulPages": 43,
+      "structure": [
+        {
+          "type": "Expo Documentation",
+          "url": "https://docs.expo.dev"
+        },
+        {
+          "type": "Core concepts - Expo Documentation",
+          "url": "https://docs.expo.dev/core-concepts/"
+        },
+        {
+          "type": "Documentation for LLMs - Expo Documentation",
+          "url": "https://docs.expo.dev/llms/"
+        },
+        {
+          "type": "Create a project - Expo Documentation",
+          "url": "https://docs.expo.dev/get-started/create-a-project/"
+        },
+        {
+          "type": "Introduction - Expo Documentation",
+          "url": "https://docs.expo.dev/get-started/introduction/"
+        },
+        {
+          "type": "Next steps - Expo Documentation",
+          "url": "https://docs.expo.dev/get-started/next-steps/"
+        },
+        {
+          "type": "Start developing - Expo Documentation",
+          "url": "https://docs.expo.dev/get-started/start-developing/"
+        },
+        {
+          "type": "Navigation in Expo and React Native apps - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/app-navigation/"
+        },
+        {
+          "type": "FAQ - Expo Documentation",
+          "url": "https://docs.expo.dev/faq/"
+        },
+        {
+          "type": "Set up your environment - Expo Documentation",
+          "url": "https://docs.expo.dev/get-started/set-up-your-environment/"
+        },
+        {
+          "type": "Authentication in Expo and React Native apps - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/authentication/"
+        },
+        {
+          "type": "Create a development build on EAS - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/development-builds/create-a-build/"
+        },
+        {
+          "type": "Tools for development - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/tools/"
+        },
+        {
+          "type": "Animation - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/user-interface/animation/"
+        },
+        {
+          "type": "Next steps - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/development-builds/next-steps/"
+        },
+        {
+          "type": "Share a development build with your team - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/development-builds/share-with-your-team/"
+        },
+        {
+          "type": "Switch from Expo Go to a development build - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/development-builds/expo-go-to-dev-build/"
+        },
+        {
+          "type": "Use a development build - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/development-builds/use-development-builds/"
+        },
+        {
+          "type": "Next steps - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/user-interface/next-steps/"
+        },
+        {
+          "type": "Color themes - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/user-interface/color-themes/"
+        },
+        {
+          "type": "Store data - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/user-interface/store-data/"
+        },
+        {
+          "type": "System bars - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/user-interface/system-bars/"
+        },
+        {
+          "type": "Tools, workflows and extensions - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/development-builds/development-workflows/"
+        },
+        {
+          "type": "Safe areas - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/user-interface/safe-areas/"
+        },
+        {
+          "type": "Assets - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/user-interface/assets/"
+        },
+        {
+          "type": "Errors and warnings - Expo Documentation",
+          "url": "https://docs.expo.dev/debugging/errors-and-warnings/"
+        },
+        {
+          "type": "Using a dangerous mod - Expo Documentation",
+          "url": "https://docs.expo.dev/config-plugins/dangerous-mods/"
+        },
+        {
+          "type": "Unit testing with Jest - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/unit-testing/"
+        },
+        {
+          "type": "How to launch an update using Expo Orbit - Expo Documentation",
+          "url": "https://docs.expo.dev/review/with-orbit/"
+        },
+        {
+          "type": "Introduction to config plugins - Expo Documentation",
+          "url": "https://docs.expo.dev/config-plugins/introduction/"
+        },
+        {
+          "type": "App stores metadata - Expo Documentation",
+          "url": "https://docs.expo.dev/deploy/app-stores-metadata/"
+        },
+        {
+          "type": "Introduction to development builds - Expo Documentation",
+          "url": "https://docs.expo.dev/develop/development-builds/introduction/"
+        },
+        {
+          "type": "Send over-the-air updates - Expo Documentation",
+          "url": "https://docs.expo.dev/deploy/send-over-the-air-updates/"
+        },
+        {
+          "type": "Publish your web app - Expo Documentation",
+          "url": "https://docs.expo.dev/deploy/web/"
+        },
+        {
+          "type": "Create a dev tools plugin - Expo Documentation",
+          "url": "https://docs.expo.dev/debugging/create-devtools-plugins/"
+        },
+        {
+          "type": "Share previews with your team - Expo Documentation",
+          "url": "https://docs.expo.dev/review/share-previews-with-your-team/"
+        },
+        {
+          "type": "DateTimePicker - Expo Documentation",
+          "url": "https://docs.expo.dev/versions/v52.0.0/sdk/date-time-picker/"
+        },
+        {
+          "type": "MailComposer - Expo Documentation",
+          "url": "https://docs.expo.dev/versions/v52.0.0/sdk/mail-composer/"
+        },
+        {
+          "type": "FlashList - Expo Documentation",
+          "url": "https://docs.expo.dev/versions/v52.0.0/sdk/flash-list/"
+        },
+        {
+          "type": "React Native Maps - Expo Documentation",
+          "url": "https://docs.expo.dev/versions/v52.0.0/sdk/map-view/"
+        },
+        {
+          "type": "captureRef - Expo Documentation",
+          "url": "https://docs.expo.dev/versions/v52.0.0/sdk/captureRef/"
+        },
+        {
+          "type": "Manifests - Expo Documentation",
+          "url": "https://docs.expo.dev/versions/v52.0.0/sdk/manifests/"
+        },
+        {
+          "type": "MaskedView - Expo Documentation",
+          "url": "https://docs.expo.dev/versions/v52.0.0/sdk/masked-view/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "435714207825133a51be2269682ea26438a203e72b72736442b64d7d6cf8a3c1"
 }

@@ -132,5 +132,175 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.circular.bot/circular-docs/api/tokens",
+      "canonicalSeedUrl": "https://docs.circular.bot/circular-docs/api/tokens",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-02T00:47:45.996Z",
+      "completedAt": "2025-03-02T00:47:45.996Z",
+      "providerTotals": {
+        "discovered": 28,
+        "returned": 28,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.circular.bot/circular-docs/api/tokens",
+          "canonicalUrl": "https://docs.circular.bot/circular-docs/api/tokens",
+          "status": "valid"
+        }
+      ],
+      "id": "df57639d8f79e0f2c113c360c66535560569507226e115b816caddfac1f8750b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "76f0267f235499926c4a3f2c6cb3af6a4008e99545b60b2fa2611e9e4c125193",
+      "filename": "documentation_2025-03-02T00:47:45.996Z.md",
+      "contentHash": "a953ee26bfecbcab3735c9e9a465b292541822e3a202fb4aa69fcd6a3eaf2dcf",
+      "sourceUrl": "https://docs.circular.bot/circular-docs/api/tokens",
+      "canonicalSourceUrl": "https://docs.circular.bot/circular-docs/api/tokens",
+      "capturedAt": "2025-03-02T00:47:45.996Z",
+      "crawlRunId": "df57639d8f79e0f2c113c360c66535560569507226e115b816caddfac1f8750b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 28,
+      "successfulPages": 28,
+      "structure": [
+        {
+          "type": "Tokens | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/tokens"
+        },
+        {
+          "type": "Tips | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/fast/tips"
+        },
+        {
+          "type": "Endpoint | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/fast/transactions"
+        },
+        {
+          "type": "Endpoint | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/tokens/transactions"
+        },
+        {
+          "type": "Status | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/status"
+        },
+        {
+          "type": "Tools | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/tools"
+        },
+        {
+          "type": "Transactions | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/tools/transactions"
+        },
+        {
+          "type": "Examples | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/tokens/examples"
+        },
+        {
+          "type": "Tips | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/tools/tips"
+        },
+        {
+          "type": "Plans | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/api-keys-1"
+        },
+        {
+          "type": "Endpoint | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/status/transactions"
+        },
+        {
+          "type": "Compute Units | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/tools/fees/transactions"
+        },
+        {
+          "type": "Compute Units | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/tools/tips/transactions"
+        },
+        {
+          "type": "Transactions | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/tools/wallets/transactions-1"
+        },
+        {
+          "type": "Api Keys | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/api-keys"
+        },
+        {
+          "type": "Market Cache | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/market-cache"
+        },
+        {
+          "type": "Fast | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/fast"
+        },
+        {
+          "type": "Wallets | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/tools/wallets"
+        },
+        {
+          "type": "Gains | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/tools/tips/transactions-1"
+        },
+        {
+          "type": "Examples | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/market-cache/examples"
+        },
+        {
+          "type": "Overview | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/tools/wallets/transactions"
+        },
+        {
+          "type": "Examples | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/status/examples"
+        },
+        {
+          "type": "Fees | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/tools/fees"
+        },
+        {
+          "type": "Contact | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/contact"
+        },
+        {
+          "type": "Transaction | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/tools/transactions/transactions"
+        },
+        {
+          "type": "Endpoint | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/market-cache/transactions"
+        },
+        {
+          "type": "Examples | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs/api/fast/examples"
+        },
+        {
+          "type": "Circular | Circular Docs",
+          "url": "https://docs.circular.bot/circular-docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "76f0267f235499926c4a3f2c6cb3af6a4008e99545b60b2fa2611e9e4c125193"
 }

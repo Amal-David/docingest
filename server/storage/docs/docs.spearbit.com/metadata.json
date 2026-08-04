@@ -64,5 +64,107 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.spearbit.com/",
+      "canonicalSeedUrl": "https://docs.spearbit.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-07T17:51:39.281Z",
+      "completedAt": "2026-04-07T17:51:39.281Z",
+      "providerTotals": {
+        "discovered": 11,
+        "returned": 11,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.spearbit.com/",
+          "canonicalUrl": "https://docs.spearbit.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "7138af0599c8e13c86dbf47764f38e9571eeab4cce18d73e8d7f84a7b3cb6ec5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d201708afdb90e69485dfc29978ec6d823b52c3178713ac2ad97f6d8a84f93b2",
+      "filename": "documentation_2026-04-07T17:51:39.281Z.md",
+      "contentHash": "44e853df647ff2d6935f81848df22bb42b0dd54b1d80ab8869b1166c2d62cbd0",
+      "sourceUrl": "https://docs.spearbit.com/",
+      "canonicalSourceUrl": "https://docs.spearbit.com/",
+      "capturedAt": "2026-04-07T17:51:39.281Z",
+      "crawlRunId": "7138af0599c8e13c86dbf47764f38e9571eeab4cce18d73e8d7f84a7b3cb6ec5",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 11,
+      "successfulPages": 11,
+      "structure": [
+        {
+          "type": "Anatomy of a Spearbit Review | Spearbook",
+          "url": "https://docs.spearbit.com/"
+        },
+        {
+          "type": "Scoping and Information Gathering | Spearbook",
+          "url": "https://docs.spearbit.com/spearbook/anatomy-of-a-spearbit-review/scoping-and-information-gathering"
+        },
+        {
+          "type": "Form Submission | Spearbook",
+          "url": "https://docs.spearbit.com/spearbook/anatomy-of-a-spearbit-review/form-submission"
+        },
+        {
+          "type": "Communication Channels and Access | Spearbook",
+          "url": "https://docs.spearbit.com/spearbook/anatomy-of-a-spearbit-review/communication-channels-and-access"
+        },
+        {
+          "type": "Final Report Delivery | Spearbook",
+          "url": "https://docs.spearbit.com/spearbook/anatomy-of-a-spearbit-review/final-report-delivery"
+        },
+        {
+          "type": "Kickoff | Spearbook",
+          "url": "https://docs.spearbit.com/spearbook/anatomy-of-a-spearbit-review/kickoff"
+        },
+        {
+          "type": "SOW & Rates | Spearbook",
+          "url": "https://docs.spearbit.com/spearbook/anatomy-of-a-spearbit-review/sow-and-rates"
+        },
+        {
+          "type": "Close-out Call and Walkthrough | Spearbook",
+          "url": "https://docs.spearbit.com/spearbook/anatomy-of-a-spearbit-review/close-out-call-and-walkthrough"
+        },
+        {
+          "type": "Security Review Period | Spearbook",
+          "url": "https://docs.spearbit.com/spearbook/anatomy-of-a-spearbit-review/security-review-period"
+        },
+        {
+          "type": "Fix Period | Spearbook",
+          "url": "https://docs.spearbit.com/spearbook/anatomy-of-a-spearbit-review/fix-period"
+        },
+        {
+          "type": "Anatomy of a Spearbit Review | Spearbook",
+          "url": "https://docs.spearbit.com/spearbook"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d201708afdb90e69485dfc29978ec6d823b52c3178713ac2ad97f6d8a84f93b2"
 }

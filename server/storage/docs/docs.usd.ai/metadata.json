@@ -77,5 +77,75 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.usd.ai/technical-overview/contract-addresses",
+      "canonicalSeedUrl": "https://docs.usd.ai/technical-overview/contract-addresses",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-13T06:34:06.017Z",
+      "completedAt": "2025-11-13T06:34:06.017Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.usd.ai/technical-overview/contract-addresses",
+          "canonicalUrl": "https://docs.usd.ai/technical-overview/contract-addresses",
+          "status": "valid"
+        }
+      ],
+      "id": "57acc971fb1656ad7cf314147c042c9dec65b4d37fbfe347e86a030e49b7e9a1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "04776cd6d6b5e0b9c33cf0fa77dc42e0e5b19cd554b6d489ec1b8465606c1467",
+      "filename": "documentation_2025-11-13T06:34:06.017Z.md",
+      "contentHash": "0d48b054d7103b8add1679abb5ca69cdfe1910b5d447b61847da9f90ef8d4eb5",
+      "sourceUrl": "https://docs.usd.ai/technical-overview/contract-addresses",
+      "canonicalSourceUrl": "https://docs.usd.ai/technical-overview/contract-addresses",
+      "capturedAt": "2025-11-13T06:34:06.017Z",
+      "crawlRunId": "57acc971fb1656ad7cf314147c042c9dec65b4d37fbfe347e86a030e49b7e9a1",
+      "upstreamVersion": "1.5.0",
+      "upstreamChannel": "latest",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "structure": [
+        {
+          "type": "Contract Addresses | USD.AI",
+          "url": "https://docs.usd.ai/technical-overview/contract-addresses"
+        },
+        {
+          "type": "Technical Protocol Overview | USD.AI",
+          "url": "https://docs.usd.ai/technical-overview/technical-protocol-overview"
+        },
+        {
+          "type": "Audits | USD.AI",
+          "url": "https://docs.usd.ai/technical-overview/audits"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "04776cd6d6b5e0b9c33cf0fa77dc42e0e5b19cd554b6d489ec1b8465606c1467"
 }

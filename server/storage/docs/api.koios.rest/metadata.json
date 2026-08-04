@@ -24,5 +24,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://api.koios.rest/",
+      "canonicalSeedUrl": "https://api.koios.rest/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-23T03:51:53.395Z",
+      "completedAt": "2025-12-23T03:51:53.395Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://api.koios.rest/",
+          "canonicalUrl": "https://api.koios.rest/",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "4b8bd5a1b50891721b7e3c678264cd03a1f34428eb3f18bc6375abf9a0ffdba3",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "acfb3132df936fd85fc0765b4a2a2443613b26d5b9b3aa81886aece6d3699fdf",
+      "filename": "documentation_2025-12-23T03:51:53.395Z.md",
+      "contentHash": "e8a871a975150f5a3003c43edd5d77e5ea8250fee696a900c86dcbd1e13f79c2",
+      "sourceUrl": "https://api.koios.rest/",
+      "canonicalSourceUrl": "https://api.koios.rest/",
+      "capturedAt": "2025-12-23T03:51:53.395Z",
+      "crawlRunId": "4b8bd5a1b50891721b7e3c678264cd03a1f34428eb3f18bc6375abf9a0ffdba3",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Koios API Documentation",
+          "url": "https://api.koios.rest/"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

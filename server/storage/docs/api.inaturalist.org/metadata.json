@@ -42,5 +42,69 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://api.inaturalist.org/v1/docs/#/Observations",
+      "canonicalSeedUrl": "https://api.inaturalist.org/v1/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-23T00:48:37.988Z",
+      "completedAt": "2025-04-23T00:48:37.988Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://api.inaturalist.org/v1/docs/#/Observations",
+          "canonicalUrl": "https://api.inaturalist.org/v1/docs",
+          "status": "needs-review",
+          "reason": "content-too-short-for-automatic-approval"
+        }
+      ],
+      "id": "f30305a474127262388759776e7ba4fa4bf601dfe81ef3f91bad6e9db535ac1a",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 1,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "773c8cea96002b895daeb05709c3e8dcb8d92ecaca570d6c911a0a04569c790b",
+      "filename": "documentation_2025-04-23T00:48:37.988Z.md",
+      "contentHash": "7cd4b684287288a817880ebf96b4ac4f3be3e0e8c4267a4d2b37718ce28f9c32",
+      "sourceUrl": "https://api.inaturalist.org/v1/docs/#/Observations",
+      "canonicalSourceUrl": "https://api.inaturalist.org/v1/docs",
+      "capturedAt": "2025-04-23T00:48:37.988Z",
+      "crawlRunId": "f30305a474127262388759776e7ba4fa4bf601dfe81ef3f91bad6e9db535ac1a",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "iNaturalist API",
+          "url": "https://api.inaturalist.org/v1/docs/#/Observations"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "content-too-short-for-automatic-approval"
+        ]
+      }
+    }
+  ]
 }

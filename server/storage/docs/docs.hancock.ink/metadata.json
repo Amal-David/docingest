@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.hancock.ink/",
+      "canonicalSeedUrl": "https://docs.hancock.ink/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-24T21:27:51.272Z",
+      "completedAt": "2025-07-24T21:27:51.272Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.hancock.ink/",
+          "canonicalUrl": "https://docs.hancock.ink/",
+          "status": "valid"
+        }
+      ],
+      "id": "a752f694a59f501f1b466d7b5cce0093ea9effc8ab76ececd9dfe326c0141188",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "694c1a155c1d6a511079f4c94a92e65c3661a514fee73b44e920082c96d3553d",
+      "filename": "documentation_2025-07-24T21:27:51.272Z.md",
+      "contentHash": "349566c0c342c678c921d78c762a90271c3cf8ab121ed61a302e6d37cb440ae8",
+      "sourceUrl": "https://docs.hancock.ink/",
+      "canonicalSourceUrl": "https://docs.hancock.ink/",
+      "capturedAt": "2025-07-24T21:27:51.272Z",
+      "crawlRunId": "a752f694a59f501f1b466d7b5cce0093ea9effc8ab76ececd9dfe326c0141188",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "API Documentation | Hancock",
+          "url": "https://docs.hancock.ink/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "694c1a155c1d6a511079f4c94a92e65c3661a514fee73b44e920082c96d3553d"
 }

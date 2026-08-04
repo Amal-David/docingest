@@ -156,5 +156,199 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://adidas.gitbook.io/api-guidelines/general-guidelines/contract",
+      "canonicalSeedUrl": "https://adidas.gitbook.io/api-guidelines/general-guidelines/contract",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-24T21:27:26.043Z",
+      "completedAt": "2025-02-24T21:27:26.043Z",
+      "providerTotals": {
+        "discovered": 34,
+        "returned": 34,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://adidas.gitbook.io/api-guidelines/general-guidelines/contract",
+          "canonicalUrl": "https://adidas.gitbook.io/api-guidelines/general-guidelines/contract",
+          "status": "valid"
+        }
+      ],
+      "id": "00697bf72fbec8b417cbb351e0497d390b8c9e855edb3164966adc98817185b2",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "afbb85b816b2440aef27579fc6dc9804bb080e8b1278156b463720fe0d3297cb",
+      "filename": "documentation_2025-02-24T21:27:26.043Z.md",
+      "contentHash": "179dd3bece61a6bb9adc8737cf0bb1912a793d4d803992197312463cee121f0d",
+      "sourceUrl": "https://adidas.gitbook.io/api-guidelines/general-guidelines/contract",
+      "canonicalSourceUrl": "https://adidas.gitbook.io/api-guidelines/general-guidelines/contract",
+      "capturedAt": "2025-02-24T21:27:26.043Z",
+      "crawlRunId": "00697bf72fbec8b417cbb351e0497d390b8c9e855edb3164966adc98817185b2",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 34,
+      "successfulPages": 34,
+      "structure": [
+        {
+          "type": "Contract | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/general-guidelines/contract"
+        },
+        {
+          "type": "JSON | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/general-guidelines/json"
+        },
+        {
+          "type": "Version Control System | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/general-guidelines/version-control-system"
+        },
+        {
+          "type": "Robustness | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/general-guidelines/robustness"
+        },
+        {
+          "type": "Minimal API Surface | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/general-guidelines/minimal-api-surface"
+        },
+        {
+          "type": "Protocol | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/protocol"
+        },
+        {
+          "type": "Immutability | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/general-guidelines/c_immutability"
+        },
+        {
+          "type": "TLS | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/protocol/tls"
+        },
+        {
+          "type": "Introduction | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/general-guidelines/general-guidelines"
+        },
+        {
+          "type": "Rules for Extending | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/general-guidelines/rules-for-extending"
+        },
+        {
+          "type": "Introduction | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/rest"
+        },
+        {
+          "type": "API Design Platform | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/core-principles/design-platform"
+        },
+        {
+          "type": "Testing | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/core-principles/testing"
+        },
+        {
+          "type": "Status Codes | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/protocol/use-appropriate-status-codes"
+        },
+        {
+          "type": "Common Data Types | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/general-guidelines/d_data_types"
+        },
+        {
+          "type": "Separate Concerns | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/protocol/separate-concerns"
+        },
+        {
+          "type": "Tooling | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/general-guidelines/n_tooling"
+        },
+        {
+          "type": "OpenAPI Specification | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/core-principles/openapi-specification"
+        },
+        {
+          "type": "HTTP | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/protocol/http"
+        },
+        {
+          "type": "Content Negotiation | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/message/content-negotiation"
+        },
+        {
+          "type": "Pagination | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/execution/pagination"
+        },
+        {
+          "type": "Message | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/message"
+        },
+        {
+          "type": "Long Running Tasks | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/execution/long-running-tasks"
+        },
+        {
+          "type": "Application | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/application"
+        },
+        {
+          "type": "Corporate Data Model | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/application/harmonize-data"
+        },
+        {
+          "type": "Message Formats | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/message/message-formats"
+        },
+        {
+          "type": "API First | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/general-guidelines/api-first"
+        },
+        {
+          "type": "Polling | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/execution/long-running-tasks/polling"
+        },
+        {
+          "type": "Core REST Principles | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/core-principles"
+        },
+        {
+          "type": "Common Data Types | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/application/common-data-types"
+        },
+        {
+          "type": "Security | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/general-guidelines/security"
+        },
+        {
+          "type": "Design Maturity | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/core-principles/design-maturity"
+        },
+        {
+          "type": "Batch Operations | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/execution/batch-operations"
+        },
+        {
+          "type": "Problem Detail | API Guidelines",
+          "url": "https://adidas.gitbook.io/api-guidelines/rest-api-guidelines/message/error-reporting"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "afbb85b816b2440aef27579fc6dc9804bb080e8b1278156b463720fe0d3297cb"
 }

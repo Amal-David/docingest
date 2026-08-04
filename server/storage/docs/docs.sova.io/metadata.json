@@ -112,5 +112,155 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.sova.io/",
+      "canonicalSeedUrl": "https://docs.sova.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-06T01:21:51.610Z",
+      "completedAt": "2025-08-06T01:21:51.610Z",
+      "providerTotals": {
+        "discovered": 23,
+        "returned": 23,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.sova.io/",
+          "canonicalUrl": "https://docs.sova.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "287cea1a6539c0d1f88b0caff5a472fe168e4872c37f0c0c9a3441e2d8772af8",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "8c89eb0d558c6d9d0d7ecc18d8083b7364437568d99af14690016f2db0cab2a1",
+      "filename": "documentation_2025-08-06T01:21:51.610Z.md",
+      "contentHash": "31084de1239532e1d2b62222b0c472fa4c48bcc2ace9ffd2ae9df9e1c820464a",
+      "sourceUrl": "https://docs.sova.io/",
+      "canonicalSourceUrl": "https://docs.sova.io/",
+      "capturedAt": "2025-08-06T01:21:51.610Z",
+      "crawlRunId": "287cea1a6539c0d1f88b0caff5a472fe168e4872c37f0c0c9a3441e2d8772af8",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 23,
+      "successfulPages": 23,
+      "structure": [
+        {
+          "type": "Welcome to Sova | Sova Docs",
+          "url": "https://docs.sova.io/"
+        },
+        {
+          "type": "Node Design & Architecture | Sova Docs",
+          "url": "https://docs.sova.io/technology/node-design-and-architecture"
+        },
+        {
+          "type": "Bitcoin Precompiles | Sova Docs",
+          "url": "https://docs.sova.io/technology/bitcoin-precompiles"
+        },
+        {
+          "type": "Network Operation Manual | Sova Docs",
+          "url": "https://docs.sova.io/node-operators/network-operation-manual"
+        },
+        {
+          "type": "Sova Contracts | Sova Docs",
+          "url": "https://docs.sova.io/network-information/sova-contracts"
+        },
+        {
+          "type": "Connecting to Sova | Sova Docs",
+          "url": "https://docs.sova.io/network-information/network-info"
+        },
+        {
+          "type": "OP Chain Configuration | Sova Docs",
+          "url": "https://docs.sova.io/network-information/op-chain-configuration"
+        },
+        {
+          "type": "How It Works | Sova Docs",
+          "url": "https://docs.sova.io/quickstart/publish-your-docs"
+        },
+        {
+          "type": "Execution Client & Sentinel | Sova Docs",
+          "url": "https://docs.sova.io/technology/execution-client-and-sentinel"
+        },
+        {
+          "type": "SovaBTC | Sova Docs",
+          "url": "https://docs.sova.io/sovabtc"
+        },
+        {
+          "type": "Why Sova? | Sova Docs",
+          "url": "https://docs.sova.io/why-sova"
+        },
+        {
+          "type": "Sova Network | Sova Docs",
+          "url": "https://docs.sova.io/quickstart"
+        },
+        {
+          "type": "Double Spend Protection | Sova Docs",
+          "url": "https://docs.sova.io/technology/double-spend-protection"
+        },
+        {
+          "type": "For Solidity Developers | Sova Docs",
+          "url": "https://docs.sova.io/contributors-and-community/for-solidity-developers"
+        },
+        {
+          "type": "Sova Whitepaper | Sova Docs",
+          "url": "https://docs.sova.io/quickstart/sova-whitepaper"
+        },
+        {
+          "type": "Use Cases | Sova Docs",
+          "url": "https://docs.sova.io/use-cases"
+        },
+        {
+          "type": "Contributing | Sova Docs",
+          "url": "https://docs.sova.io/contributors-and-community/contributing"
+        },
+        {
+          "type": "Frequently Asked Questions (FAQ) | Sova Docs",
+          "url": "https://docs.sova.io/contributors-and-community/frequently-asked-questions-faq"
+        },
+        {
+          "type": "For Frontend Developers | Sova Docs",
+          "url": "https://docs.sova.io/contributors-and-community/for-frontend-developers"
+        },
+        {
+          "type": "Node Design & Architecture | Sova Docs",
+          "url": "https://docs.sova.io/technology"
+        },
+        {
+          "type": "Network Operation Manual | Sova Docs",
+          "url": "https://docs.sova.io/node-operators"
+        },
+        {
+          "type": "Connecting to Sova | Sova Docs",
+          "url": "https://docs.sova.io/network-information"
+        },
+        {
+          "type": "For Frontend Developers | Sova Docs",
+          "url": "https://docs.sova.io/contributors-and-community"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "8c89eb0d558c6d9d0d7ecc18d8083b7364437568d99af14690016f2db0cab2a1"
 }

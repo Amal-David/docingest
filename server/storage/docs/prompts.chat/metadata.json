@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://prompts.chat/",
+      "canonicalSeedUrl": "https://prompts.chat/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-01-21T07:24:15.095Z",
+      "completedAt": "2025-01-21T07:24:15.095Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://prompts.chat/",
+          "canonicalUrl": "https://prompts.chat/",
+          "status": "valid"
+        }
+      ],
+      "id": "18aded466c86ee0af54de4ac2e2bcf474da6e2828411b5384f2f88c202e3a4ca",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "77ddefbbeb50ca63ee3ded0eae997969535648c1bb99476a9dba5f3f2aeb3c7d",
+      "filename": "documentation_2025-01-21T07:24:15.095Z.md",
+      "contentHash": "c60281a2157273442f8ae0bebb3eaa250ed2e363afbd49fe190fc3337304bf3b",
+      "sourceUrl": "https://prompts.chat/",
+      "canonicalSourceUrl": "https://prompts.chat/",
+      "capturedAt": "2025-01-21T07:24:15.095Z",
+      "crawlRunId": "18aded466c86ee0af54de4ac2e2bcf474da6e2828411b5384f2f88c202e3a4ca",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "prompts.chat — awesome AI prompts",
+          "url": "https://prompts.chat/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "77ddefbbeb50ca63ee3ded0eae997969535648c1bb99476a9dba5f3f2aeb3c7d"
 }

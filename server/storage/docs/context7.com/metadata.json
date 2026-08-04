@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://context7.com/docs/clients/claude-code",
+      "canonicalSeedUrl": "https://context7.com/docs/clients/claude-code",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-14T11:00:38.180Z",
+      "completedAt": "2026-03-14T11:00:38.180Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://context7.com/docs/clients/claude-code",
+          "canonicalUrl": "https://context7.com/docs/clients/claude-code",
+          "status": "valid"
+        }
+      ],
+      "id": "90c6561b177c5126e31b9263805650c0819f1f6a3467b893d8add815f1dc459b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "61470b0034edd119a1ae3957daa778c25a60c98f6d22f9d8803ccef4d4d4c394",
+      "filename": "documentation_2026-03-14T11:00:38.180Z.md",
+      "contentHash": "5023a90dc27e625c639089fa3ec67a9d38c5a9f0f8c4d817535f91a9af9f60d3",
+      "sourceUrl": "https://context7.com/docs/clients/claude-code",
+      "canonicalSourceUrl": "https://context7.com/docs/clients/claude-code",
+      "capturedAt": "2026-03-14T11:00:38.180Z",
+      "crawlRunId": "90c6561b177c5126e31b9263805650c0819f1f6a3467b893d8add815f1dc459b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Claude Code - Context7 MCP",
+          "url": "https://context7.com/docs/clients/claude-code"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "61470b0034edd119a1ae3957daa778c25a60c98f6d22f9d8803ccef4d4d4c394"
 }

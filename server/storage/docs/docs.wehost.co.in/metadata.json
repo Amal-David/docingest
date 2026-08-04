@@ -76,5 +76,119 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.wehost.co.in",
+      "canonicalSeedUrl": "https://docs.wehost.co.in/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-15T14:38:19.970Z",
+      "completedAt": "2025-12-15T14:38:19.970Z",
+      "providerTotals": {
+        "discovered": 14,
+        "returned": 14,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.wehost.co.in",
+          "canonicalUrl": "https://docs.wehost.co.in/",
+          "status": "valid"
+        }
+      ],
+      "id": "9b1bde67c012a222e3e4ffe9c8c6779c341db8af7dfa1627ab5ef3b587b0927b",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fc1fbcb8106f282a8cef73b5cdfb6f62dec792d2ff0b6853a434008944dce325",
+      "filename": "documentation_2025-12-15T14:38:19.970Z.md",
+      "contentHash": "e96f14195d2c58bed86455b42ce68e9d57705b69957fc94516993b3a4253f17c",
+      "sourceUrl": "https://docs.wehost.co.in",
+      "canonicalSourceUrl": "https://docs.wehost.co.in/",
+      "capturedAt": "2025-12-15T14:38:19.970Z",
+      "crawlRunId": "9b1bde67c012a222e3e4ffe9c8c6779c341db8af7dfa1627ab5ef3b587b0927b",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 14,
+      "successfulPages": 14,
+      "structure": [
+        {
+          "type": "About Me | Nathaniel Cyber Security",
+          "url": "https://docs.wehost.co.in"
+        },
+        {
+          "type": "Homelab | Nathaniel Cyber Security",
+          "url": "https://docs.wehost.co.in/homelab"
+        },
+        {
+          "type": "Change SSH Port | Nathaniel Cyber Security",
+          "url": "https://docs.wehost.co.in/homelab/change-ssh-port"
+        },
+        {
+          "type": "Portainer | Nathaniel Cyber Security",
+          "url": "https://docs.wehost.co.in/homelab/portainer"
+        },
+        {
+          "type": "Install Docker Ubuntu | Nathaniel Cyber Security",
+          "url": "https://docs.wehost.co.in/homelab/install-docker-ubuntu"
+        },
+        {
+          "type": "Setting up Wireguard | Nathaniel Cyber Security",
+          "url": "https://docs.wehost.co.in/homelab/setting-up-wireguard"
+        },
+        {
+          "type": "Cloudflare Tunnels: The Cybersecurity Pro's Secret Weapon for Secure Cloud Access | Nathaniel Cyber Security",
+          "url": "https://docs.wehost.co.in/homelab/cloudflare-tunnels-the-cybersecurity-pros-secret-weapon-for-secure-cloud-access"
+        },
+        {
+          "type": "Opening SSH with Root Access to the World: A Controlled Honeypot Experiment | Nathaniel Cyber Security",
+          "url": "https://docs.wehost.co.in/homelab/opening-ssh-with-root-access-to-the-world-a-controlled-honeypot-experiment"
+        },
+        {
+          "type": "Managing WireGuard Logs with Systemd and Logrotate 🔥 | Nathaniel Cyber Security",
+          "url": "https://docs.wehost.co.in/homelab/managing-wireguard-logs-with-systemd-and-logrotate"
+        },
+        {
+          "type": "Install Active Directory | Nathaniel Cyber Security",
+          "url": "https://docs.wehost.co.in/homelab/install-active-directory"
+        },
+        {
+          "type": "🧠💥 How I Routed My Entire Lab's HTB Traffic Through a Single VPN Box | Nathaniel Cyber Security",
+          "url": "https://docs.wehost.co.in/homelab/how-i-routed-my-entire-labs-htb-traffic-through-a-single-vpn-box"
+        },
+        {
+          "type": "Grup Labs | Nathaniel Cyber Security",
+          "url": "https://docs.wehost.co.in/grup-labs"
+        },
+        {
+          "type": "Building a Comprehensive AWS Config Lab: Tracking IAM Configuration Changes with SNS and S3 | Nathaniel Cyber Security",
+          "url": "https://docs.wehost.co.in/grup-labs/building-a-comprehensive-aws-config-lab-tracking-iam-configuration-changes-with-sns-and-s3"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://docs.wehost.co.in/cdn-cgi/l/email-protection"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fc1fbcb8106f282a8cef73b5cdfb6f62dec792d2ff0b6853a434008944dce325"
 }

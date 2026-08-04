@@ -156,5 +156,199 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.vaults.fyi/general/methodology/vaults.fyi-eth-benchmark-rate",
+      "canonicalSeedUrl": "https://docs.vaults.fyi/general/methodology/vaults.fyi-eth-benchmark-rate",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-03T17:32:43.706Z",
+      "completedAt": "2025-04-03T17:32:43.706Z",
+      "providerTotals": {
+        "discovered": 34,
+        "returned": 34,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.vaults.fyi/general/methodology/vaults.fyi-eth-benchmark-rate",
+          "canonicalUrl": "https://docs.vaults.fyi/general/methodology/vaults.fyi-eth-benchmark-rate",
+          "status": "valid"
+        }
+      ],
+      "id": "eb94f7fa05bbf649e7fa18ee4c8a5f9800c93a2a8b27dedac6bcab94cf7cb82c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "35c05c9352b54b36d68c1e3af1648f0231502a2e44970b8773ef537bb6177175",
+      "filename": "documentation_2025-04-03T17:32:43.706Z.md",
+      "contentHash": "00773efd9aa68d80b001d47aefba9d2d46efe59a80c6cca91bbffe714b80abf5",
+      "sourceUrl": "https://docs.vaults.fyi/general/methodology/vaults.fyi-eth-benchmark-rate",
+      "canonicalSourceUrl": "https://docs.vaults.fyi/general/methodology/vaults.fyi-eth-benchmark-rate",
+      "capturedAt": "2025-04-03T17:32:43.706Z",
+      "crawlRunId": "eb94f7fa05bbf649e7fa18ee4c8a5f9800c93a2a8b27dedac6bcab94cf7cb82c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 34,
+      "successfulPages": 34,
+      "structure": [
+        {
+          "type": "vaults.fyi ETH benchmark rate | vaults.fyi",
+          "url": "https://docs.vaults.fyi/general/methodology/vaults.fyi-eth-benchmark-rate"
+        },
+        {
+          "type": "vaults.fyi USD benchmark rate | vaults.fyi",
+          "url": "https://docs.vaults.fyi/general/methodology/vaults.fyi-usd-benchmark-rate"
+        },
+        {
+          "type": "Overview | vaults.fyi",
+          "url": "https://docs.vaults.fyi/"
+        },
+        {
+          "type": "Insights API | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/vaults.fyi-api-overview/insights-api"
+        },
+        {
+          "type": "Vault requirements for inclusion on vaults.fyi | vaults.fyi",
+          "url": "https://docs.vaults.fyi/general/faq/vault-requirements-for-inclusion-on-vaults.fyi"
+        },
+        {
+          "type": "vaults.fyi API Overview | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/vaults.fyi-api-overview"
+        },
+        {
+          "type": "Earn API | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/vaults.fyi-api-overview/earn-api"
+        },
+        {
+          "type": "FAQ | vaults.fyi",
+          "url": "https://docs.vaults.fyi/general/faq"
+        },
+        {
+          "type": "Endpoints | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints"
+        },
+        {
+          "type": "Flow diagrams | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/vaults.fyi-api-overview/earn-api/flow-diagrams"
+        },
+        {
+          "type": "Methodology | vaults.fyi",
+          "url": "https://docs.vaults.fyi/general/methodology"
+        },
+        {
+          "type": "Product demo | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/vaults.fyi-api-overview/earn-api/product-demo"
+        },
+        {
+          "type": "Get historical data | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/market-data/get-historical-data"
+        },
+        {
+          "type": "Market data | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/market-data"
+        },
+        {
+          "type": "Get historical TVL on single vault | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/market-data/get-historical-data/get-historical-tvl-on-single-vault"
+        },
+        {
+          "type": "Get historical data on single vault | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/market-data/get-historical-data/get-historical-data-on-single-vault"
+        },
+        {
+          "type": "Get supported vaults, networks & tokens | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/market-data/get-supported-vaults-networks-and-tokens"
+        },
+        {
+          "type": "Get historical APY on single vault | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/market-data/get-historical-data/get-historical-apy-on-single-vault"
+        },
+        {
+          "type": "Get data for multiple vaults | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/market-data/get-data-for-multiple-vaults"
+        },
+        {
+          "type": "/tokens | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/market-data/get-supported-vaults-networks-and-tokens/tokens"
+        },
+        {
+          "type": "Get data on single vault | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/market-data/get-data-on-single-vault"
+        },
+        {
+          "type": "/vaults | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/market-data/get-supported-vaults-networks-and-tokens/vaults"
+        },
+        {
+          "type": "Get benchmark rates | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/market-data/get-benchmark-rates"
+        },
+        {
+          "type": "Contextual insights | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/contextual-insights"
+        },
+        {
+          "type": "Get APY on single vault | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/market-data/get-data-on-single-vault/get-apy-on-single-vault"
+        },
+        {
+          "type": "Top vault options for address | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/contextual-insights/top-vault-options-for-address"
+        },
+        {
+          "type": "[Etherscan cards] Get top USD, top ETH vault for address | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/contextual-insights/etherscan-cards-get-top-usd-top-eth-vault-for-address"
+        },
+        {
+          "type": "/networks | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/market-data/get-supported-vaults-networks-and-tokens/networks"
+        },
+        {
+          "type": "/tags | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/market-data/get-supported-vaults-networks-and-tokens/tags"
+        },
+        {
+          "type": "Get single top option for address | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/contextual-insights/get-single-top-option-for-address"
+        },
+        {
+          "type": "Transactional (Earn API) | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/transactional-earn-api"
+        },
+        {
+          "type": "Claim rewards | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/transactional-earn-api/prepare-transaction-calldata/claim-rewards"
+        },
+        {
+          "type": "Prepare transaction calldata | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/transactional-earn-api/prepare-transaction-calldata"
+        },
+        {
+          "type": "Get transaction prep details | vaults.fyi",
+          "url": "https://docs.vaults.fyi/api/endpoints/transactional-earn-api/get-transaction-prep-details"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "35c05c9352b54b36d68c1e3af1648f0231502a2e44970b8773ef537bb6177175"
 }

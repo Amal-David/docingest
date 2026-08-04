@@ -151,5 +151,167 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://interstellas-api-doc-v1.stellasbank.com/api-docs",
+      "canonicalSeedUrl": "https://interstellas-api-doc-v1.stellasbank.com/api-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-13T14:38:04.795Z",
+      "completedAt": "2026-07-13T14:38:04.795Z",
+      "providerTotals": {
+        "discovered": 26,
+        "returned": 26,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs",
+          "canonicalUrl": "https://interstellas-api-doc-v1.stellasbank.com/api-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "a05b368e8ffc5853a5b0f06eaf25af8f21766daceff677b106748358a66756ff",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1e075a02b496d324bd00fd026500d585f3a387d9ed4b82e0bba0c05286895e91",
+      "filename": "documentation_2026-07-13T14:38:04.795Z.md",
+      "contentHash": "1ffcf3cd34388808a4fe8b9fa7c501c912097556d23bec35d0aa4646c8d20cd6",
+      "sourceUrl": "https://interstellas-api-doc-v1.stellasbank.com/api-docs",
+      "canonicalSourceUrl": "https://interstellas-api-doc-v1.stellasbank.com/api-docs",
+      "capturedAt": "2026-07-13T14:38:04.795Z",
+      "crawlRunId": "a05b368e8ffc5853a5b0f06eaf25af8f21766daceff677b106748358a66756ff",
+      "upstreamVersion": "1.0.3",
+      "upstreamChannel": "latest",
+      "totalPages": 26,
+      "successfulPages": 26,
+      "structure": [
+        {
+          "type": "Interstellas Documentation | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs"
+        },
+        {
+          "type": "Quick Start | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/quick-start"
+        },
+        {
+          "type": "Clients | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients"
+        },
+        {
+          "type": "API Reference | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference"
+        },
+        {
+          "type": "Audit | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients/business/audit"
+        },
+        {
+          "type": "Payouts | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients/business/payouts"
+        },
+        {
+          "type": "Authentication | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/authentication"
+        },
+        {
+          "type": "Members | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients/members"
+        },
+        {
+          "type": "Virtual Account | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients/business/virtual-account"
+        },
+        {
+          "type": "Business | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients/business"
+        },
+        {
+          "type": "Settings | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients/settings"
+        },
+        {
+          "type": "Subscription | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients/business/subscription"
+        },
+        {
+          "type": "Customer / Account | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients/business/customer-account"
+        },
+        {
+          "type": "Transactions | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients/business/transactions"
+        },
+        {
+          "type": "Webhook | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients/business/webhook"
+        },
+        {
+          "type": "Dispute | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients/business/dispute"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/llms.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/interstellas-documentation.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/quick-start.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/authentication.md"
+        },
+        {
+          "type": "API Reference | API Docs",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients/members.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients/settings.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://interstellas-api-doc-v1.stellasbank.com/api-docs/reference/api-reference/clients/business.md"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1e075a02b496d324bd00fd026500d585f3a387d9ed4b82e0bba0c05286895e91"
 }

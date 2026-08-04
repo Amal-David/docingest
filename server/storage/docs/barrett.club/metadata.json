@@ -24,5 +24,67 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "http://barrett.club/docs",
+      "canonicalSeedUrl": "http://barrett.club/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-27T09:29:28.000Z",
+      "completedAt": "2025-10-27T09:29:28.000Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "http://barrett.club/docs",
+          "canonicalUrl": "http://barrett.club/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "1873551773266df159c07733ab84316a09b35e697583fe61902a0c05695d2fb9",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4d0e69f875de6debd54850cd2f1fe8b01374e18735e706fc7e6f3443c75411c6",
+      "filename": "documentation_2025-10-27T09:29:28.000Z.md",
+      "contentHash": "3b9506535a9b269dd977070b089c8e32a4f05eb942a06e0523d065ad4a806314",
+      "sourceUrl": "http://barrett.club/docs",
+      "canonicalSourceUrl": "http://barrett.club/docs",
+      "capturedAt": "2025-10-27T09:29:28.000Z",
+      "crawlRunId": "1873551773266df159c07733ab84316a09b35e697583fe61902a0c05695d2fb9",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Barret Club",
+          "url": "http://barrett.club/docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4d0e69f875de6debd54850cd2f1fe8b01374e18735e706fc7e6f3443c75411c6"
 }

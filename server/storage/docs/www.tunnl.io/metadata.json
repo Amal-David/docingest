@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://www.tunnl.io/docs/tunnl-master-guide",
+      "canonicalSeedUrl": "https://www.tunnl.io/docs/tunnl-master-guide",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-30T04:55:31.758Z",
+      "completedAt": "2026-01-30T04:55:31.758Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://www.tunnl.io/docs/tunnl-master-guide",
+          "canonicalUrl": "https://www.tunnl.io/docs/tunnl-master-guide",
+          "status": "valid"
+        }
+      ],
+      "id": "74c6b66b1c8dff3787e2318f47f84bca26fdfb0b7a8d086b4da3d09573347164",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "5ff0223e12d7178a29aa9528851d6e3086e1ef35de33947777c51a2edd8c7b96",
+      "filename": "documentation_2026-01-30T04:55:31.758Z.md",
+      "contentHash": "105a01983745b7db98c484c7fa12bb6e652cec4997ed8dd152a9c2b0ed9d0dff",
+      "sourceUrl": "https://www.tunnl.io/docs/tunnl-master-guide",
+      "canonicalSourceUrl": "https://www.tunnl.io/docs/tunnl-master-guide",
+      "capturedAt": "2026-01-30T04:55:31.758Z",
+      "crawlRunId": "74c6b66b1c8dff3787e2318f47f84bca26fdfb0b7a8d086b4da3d09573347164",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "tunnl",
+          "url": "https://www.tunnl.io/docs/tunnl-master-guide"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "5ff0223e12d7178a29aa9528851d6e3086e1ef35de33947777c51a2edd8c7b96"
 }

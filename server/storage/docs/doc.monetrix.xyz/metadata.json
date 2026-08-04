@@ -96,5 +96,139 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://doc.monetrix.xyz/",
+      "canonicalSeedUrl": "https://doc.monetrix.xyz/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-25T18:27:04.594Z",
+      "completedAt": "2026-04-25T18:27:04.594Z",
+      "providerTotals": {
+        "discovered": 19,
+        "returned": 19,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://doc.monetrix.xyz/",
+          "canonicalUrl": "https://doc.monetrix.xyz/",
+          "status": "valid"
+        }
+      ],
+      "id": "3ada1ff3c411524f5f7bde0b2dbe1d3968abd6ef2f8a39894a9425c71ca84145",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "13d1edc08089303ae674d4feed9c70b6618d97246e8bb584272c66940f527afb",
+      "filename": "documentation_2026-04-25T18:27:04.594Z.md",
+      "contentHash": "ac6863deae16cadbab717d23b23447ff22c8d4d01fc1b2489beda1c64a23d291",
+      "sourceUrl": "https://doc.monetrix.xyz/",
+      "canonicalSourceUrl": "https://doc.monetrix.xyz/",
+      "capturedAt": "2026-04-25T18:27:04.594Z",
+      "crawlRunId": "3ada1ff3c411524f5f7bde0b2dbe1d3968abd6ef2f8a39894a9425c71ca84145",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 19,
+      "successfulPages": 19,
+      "structure": [
+        {
+          "type": "Introduction | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/"
+        },
+        {
+          "type": "What is Monetrix | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/introduction/what-is-monetrix"
+        },
+        {
+          "type": "Market Opportunity | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/introduction/market-opportunity"
+        },
+        {
+          "type": "FAQ | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/guide/faq"
+        },
+        {
+          "type": "Stake & Unstake | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/guide/stake"
+        },
+        {
+          "type": "Getting Started | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/guide/getting-started"
+        },
+        {
+          "type": "Mint USDM | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/guide/mint"
+        },
+        {
+          "type": "Redeem USDM | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/guide/redeem"
+        },
+        {
+          "type": "The CEX Dependency Trap | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/introduction/the-problem"
+        },
+        {
+          "type": "Delta-Neutral Strategy | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/how-it-works/delta-neutral-strategy"
+        },
+        {
+          "type": "Hyperliquid-Native Advantage | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/how-it-works/hyperliquid-native"
+        },
+        {
+          "type": "APR Estimates | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/yield/apr-estimates"
+        },
+        {
+          "type": "Protocol Architecture | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/how-it-works/architecture"
+        },
+        {
+          "type": "Native Anti-ADL Shield | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/risk-and-security/anti-adl-shield"
+        },
+        {
+          "type": "Yield Composition | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/yield/composition"
+        },
+        {
+          "type": "Overview | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/tokenomics/tokenomics"
+        },
+        {
+          "type": "Links & Contact | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/resources/resources"
+        },
+        {
+          "type": "Monetrix vs Alternatives | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/ecosystem/comparison"
+        },
+        {
+          "type": "Security Design | Monetrix Docs",
+          "url": "https://doc.monetrix.xyz/risk-and-security/security-design"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "13d1edc08089303ae674d4feed9c70b6618d97246e8bb584272c66940f527afb"
 }

@@ -40,5 +40,83 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://chipadevteam.github.io/GmGnAPI/api-reference.html",
+      "canonicalSeedUrl": "https://chipadevteam.github.io/GmGnAPI/api-reference.html",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-09T09:56:48.558Z",
+      "completedAt": "2026-01-09T09:56:48.558Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://chipadevteam.github.io/GmGnAPI/api-reference.html",
+          "canonicalUrl": "https://chipadevteam.github.io/GmGnAPI/api-reference.html",
+          "status": "valid"
+        }
+      ],
+      "id": "0c199cb9ba19ac5c571e7df9d1d6d4e316e3b6a622019ae8362bb581fca50abd",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "86fc29846e1c3bf2f65885cad97593f6c55e5e38306ebe19a2c0a92805ba8aba",
+      "filename": "documentation_2026-01-09T09:56:48.558Z.md",
+      "contentHash": "1b944b79160ec2b1152e6fb2f8f013b16cff7777a7a1240b9d57e50a926dae34",
+      "sourceUrl": "https://chipadevteam.github.io/GmGnAPI/api-reference.html",
+      "canonicalSourceUrl": "https://chipadevteam.github.io/GmGnAPI/api-reference.html",
+      "capturedAt": "2026-01-09T09:56:48.558Z",
+      "crawlRunId": "0c199cb9ba19ac5c571e7df9d1d6d4e316e3b6a622019ae8362bb581fca50abd",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "API Reference - GmGnAPI Documentation",
+          "url": "https://chipadevteam.github.io/GmGnAPI/api-reference.html"
+        },
+        {
+          "type": "GmGnAPI - Professional Python Client for GMGN.ai",
+          "url": "https://chipadevteam.github.io/GmGnAPI/index.html"
+        },
+        {
+          "type": "Getting Started - GmGnAPI Documentation",
+          "url": "https://chipadevteam.github.io/GmGnAPI/getting-started.html"
+        },
+        {
+          "type": "Examples - GmGnAPI Documentation",
+          "url": "https://chipadevteam.github.io/GmGnAPI/examples.html"
+        },
+        {
+          "type": "Advanced Usage - GmGnAPI Documentation",
+          "url": "https://chipadevteam.github.io/GmGnAPI/advanced.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "86fc29846e1c3bf2f65885cad97593f6c55e5e38306ebe19a2c0a92805ba8aba"
 }

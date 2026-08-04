@@ -136,5 +136,179 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.thevault.finance/about/vsol",
+      "canonicalSeedUrl": "https://docs.thevault.finance/about/vsol",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-25T11:03:38.592Z",
+      "completedAt": "2025-03-25T11:03:38.592Z",
+      "providerTotals": {
+        "discovered": 29,
+        "returned": 29,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.thevault.finance/about/vsol",
+          "canonicalUrl": "https://docs.thevault.finance/about/vsol",
+          "status": "valid"
+        }
+      ],
+      "id": "09a8870c6db892dafaa2ce712e5afc1ef2b32aa5b325bcaad77bd9a29583922e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "489c3b9843043adcf34f106cae9751869672348de93306a542629fd8b9516ba4",
+      "filename": "documentation_2025-03-25T11:03:38.592Z.md",
+      "contentHash": "a43c4ec0465a098e3030b4bc2bde01ee00e0d90751ea4616ddbb7bb945699ef3",
+      "sourceUrl": "https://docs.thevault.finance/about/vsol",
+      "canonicalSourceUrl": "https://docs.thevault.finance/about/vsol",
+      "capturedAt": "2025-03-25T11:03:38.592Z",
+      "crawlRunId": "09a8870c6db892dafaa2ce712e5afc1ef2b32aa5b325bcaad77bd9a29583922e",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 29,
+      "successfulPages": 29,
+      "structure": [
+        {
+          "type": "vSOL | The Vault",
+          "url": "https://docs.thevault.finance/about/vsol"
+        },
+        {
+          "type": "The Vault Fees | The Vault",
+          "url": "https://docs.thevault.finance/about/the-vault-fees"
+        },
+        {
+          "type": "Stake pool address | The Vault",
+          "url": "https://docs.thevault.finance/about/stake-pool-address"
+        },
+        {
+          "type": "Contributors | The Vault",
+          "url": "https://docs.thevault.finance/about/contributors"
+        },
+        {
+          "type": "Points program | The Vault",
+          "url": "https://docs.thevault.finance/about/points-program"
+        },
+        {
+          "type": "Tokenomics | The Vault",
+          "url": "https://docs.thevault.finance/about/tokenomics"
+        },
+        {
+          "type": "Validator Shield Initiative | The Vault",
+          "url": "https://docs.thevault.finance/validators/validator-shield-initiative"
+        },
+        {
+          "type": "Our Mission | The Vault",
+          "url": "https://docs.thevault.finance/"
+        },
+        {
+          "type": "Delegation Strategy | The Vault",
+          "url": "https://docs.thevault.finance/validators/delegation-strategy"
+        },
+        {
+          "type": "Validator Allowlist | The Vault",
+          "url": "https://docs.thevault.finance/validators/validator-allowlist"
+        },
+        {
+          "type": "Get stake from the pool! | The Vault",
+          "url": "https://docs.thevault.finance/validators/get-stake-from-the-pool"
+        },
+        {
+          "type": "LST Creator | The Vault",
+          "url": "https://docs.thevault.finance/validators/lst-creator"
+        },
+        {
+          "type": "Allowlist Criteria | The Vault",
+          "url": "https://docs.thevault.finance/validators/allowlist-criteria"
+        },
+        {
+          "type": "Signing A Message | The Vault",
+          "url": "https://docs.thevault.finance/validators/signing-a-message"
+        },
+        {
+          "type": "Validator Application Process | The Vault",
+          "url": "https://docs.thevault.finance/validators/validator-application-process"
+        },
+        {
+          "type": "LST Creator Widget | The Vault",
+          "url": "https://docs.thevault.finance/validators/lst-creator-widget"
+        },
+        {
+          "type": "Waitlist Criteria | The Vault",
+          "url": "https://docs.thevault.finance/validators/waitlist-criteria"
+        },
+        {
+          "type": "LST Creator API | The Vault",
+          "url": "https://docs.thevault.finance/validators/lst-creator-api"
+        },
+        {
+          "type": "Liquid staking | The Vault",
+          "url": "https://docs.thevault.finance/users/liquid-staking"
+        },
+        {
+          "type": "Validator target stake | The Vault",
+          "url": "https://docs.thevault.finance/users/validator-target-stake"
+        },
+        {
+          "type": "The Vault Discord | The Vault",
+          "url": "https://docs.thevault.finance/users/the-vault-discord"
+        },
+        {
+          "type": "Staking APY | The Vault",
+          "url": "https://docs.thevault.finance/users/staking-apy"
+        },
+        {
+          "type": "Multisig staking | The Vault",
+          "url": "https://docs.thevault.finance/users/multisig-staking"
+        },
+        {
+          "type": "Squads | The Vault",
+          "url": "https://docs.thevault.finance/users/squads"
+        },
+        {
+          "type": "Delayed LST unstaking in Solflare Wallet | The Vault",
+          "url": "https://docs.thevault.finance/users/delayed-lst-unstaking-in-solflare-wallet"
+        },
+        {
+          "type": "Delayed LST unstaking in Phantom Wallet | The Vault",
+          "url": "https://docs.thevault.finance/users/delayed-lst-unstaking-in-phantom-wallet"
+        },
+        {
+          "type": "Links | The Vault",
+          "url": "https://docs.thevault.finance/links"
+        },
+        {
+          "type": "Risks | The Vault",
+          "url": "https://docs.thevault.finance/risks"
+        },
+        {
+          "type": "Units | The Vault",
+          "url": "https://docs.thevault.finance/users/units"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "489c3b9843043adcf34f106cae9751869672348de93306a542629fd8b9516ba4"
 }

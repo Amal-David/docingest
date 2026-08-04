@@ -28,5 +28,71 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.developer.tech.gov.sg/docs/opus-documentation/?product=Opus",
+      "canonicalSeedUrl": "https://docs.developer.tech.gov.sg/docs/opus-documentation?product=Opus",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-21T07:33:37.551Z",
+      "completedAt": "2026-06-21T07:33:37.551Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.developer.tech.gov.sg/docs/opus-documentation/?product=Opus",
+          "canonicalUrl": "https://docs.developer.tech.gov.sg/docs/opus-documentation?product=Opus",
+          "status": "valid"
+        }
+      ],
+      "id": "88e3eccc4f6cb4df9ff23272c7ac57cd74b4b90d55c8a8555892c8dc5b8e162c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2e238c8bd7ddc1a20cb650a02b0e1808004a88cfdd988d6f2d91513f8d564be6",
+      "filename": "documentation_2026-06-21T07:33:37.551Z.md",
+      "contentHash": "1da3a282c117489557891fac3b7ddbdacb429228c9de01bfc72406dbac4bc8a9",
+      "sourceUrl": "https://docs.developer.tech.gov.sg/docs/opus-documentation/?product=Opus",
+      "canonicalSourceUrl": "https://docs.developer.tech.gov.sg/docs/opus-documentation?product=Opus",
+      "capturedAt": "2026-06-21T07:33:37.551Z",
+      "crawlRunId": "88e3eccc4f6cb4df9ff23272c7ac57cd74b4b90d55c8a8555892c8dc5b8e162c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Opus Documentation",
+          "url": "https://docs.developer.tech.gov.sg/docs/opus-documentation/?product=Opus"
+        },
+        {
+          "type": "All Products",
+          "url": "https://docs.developer.tech.gov.sg/docs"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2e238c8bd7ddc1a20cb650a02b0e1808004a88cfdd988d6f2d91513f8d564be6"
 }

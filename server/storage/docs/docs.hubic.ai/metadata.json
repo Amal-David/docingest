@@ -204,5 +204,247 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.hubic.ai",
+      "canonicalSeedUrl": "https://docs.hubic.ai/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-15T18:20:53.908Z",
+      "completedAt": "2025-07-15T18:20:53.908Z",
+      "providerTotals": {
+        "discovered": 46,
+        "returned": 46,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.hubic.ai",
+          "canonicalUrl": "https://docs.hubic.ai/",
+          "status": "valid"
+        }
+      ],
+      "id": "5537084182a57c14bfd1857de4eae62d126cd14e835f03d8a73e542b9d226bcc",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c22853f0bd4d90e8b2fe8804e32ad6f69f8d3343f831f3242efd9999857338dc",
+      "filename": "documentation_2025-07-15T18:20:53.908Z.md",
+      "contentHash": "2287b9987b2d9eeeca048267f0c6ee29773d2230ab49c6fddb141c9a264bd2b5",
+      "sourceUrl": "https://docs.hubic.ai",
+      "canonicalSourceUrl": "https://docs.hubic.ai/",
+      "capturedAt": "2025-07-15T18:20:53.908Z",
+      "crawlRunId": "5537084182a57c14bfd1857de4eae62d126cd14e835f03d8a73e542b9d226bcc",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 46,
+      "successfulPages": 46,
+      "structure": [
+        {
+          "type": "Hubic AI | Hubic.ai",
+          "url": "https://docs.hubic.ai"
+        },
+        {
+          "type": "Proof-of-Inference (PoI) | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart/proof-of-inference-poi"
+        },
+        {
+          "type": "Introduction | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart"
+        },
+        {
+          "type": "Proof-of-Weights (PoWg) | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart/proof-of-weights-powg"
+        },
+        {
+          "type": "Main Actors and Their Roles | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart/main-actors-and-their-roles"
+        },
+        {
+          "type": "RWA Integration | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart/rwa-integration"
+        },
+        {
+          "type": "Hubic AI Hub – Model Registry | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart/hubic-ai-hub-model-registry"
+        },
+        {
+          "type": "Use Case Examples | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart/use-case-examples"
+        },
+        {
+          "type": "Architecture Overview | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart/architecture-overview"
+        },
+        {
+          "type": "Registry & System Architecture | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-1"
+        },
+        {
+          "type": "Sovereign AI Agents (On-chain AI Logic Executors) | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-1/sovereign-ai-agents-on-chain-ai-logic-executors"
+        },
+        {
+          "type": "Liquid Strategy Engine (LSE) | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-1/liquid-strategy-engine-lse"
+        },
+        {
+          "type": "Why Hubic? | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart/why-hubic"
+        },
+        {
+          "type": "Visual System Map | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-1/visual-system-map"
+        },
+        {
+          "type": "Economic Model | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-2"
+        },
+        {
+          "type": "HUB Token Utility | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-2/hub-token-utility"
+        },
+        {
+          "type": "Economic Actors & Reward Mechanics | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-2/economic-actors-and-reward-mechanics"
+        },
+        {
+          "type": "Token Flow Diagram | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-2/token-flow-diagram"
+        },
+        {
+          "type": "Optional Enterprise Layer | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-2/optional-enterprise-layer"
+        },
+        {
+          "type": "Long-Term Sustainability | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-2/long-term-sustainability"
+        },
+        {
+          "type": "Security & Reputation Systems | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-2/security-and-reputation-systems"
+        },
+        {
+          "type": "Program Flow Overview | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-3"
+        },
+        {
+          "type": "Summary Table | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-2/summary-table"
+        },
+        {
+          "type": "Future Expansion Points | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-2/future-expansion-points"
+        },
+        {
+          "type": "Model Registration (One-Time) | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-3/model-registration-one-time"
+        },
+        {
+          "type": "Final Notes | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-2/final-notes"
+        },
+        {
+          "type": "Hubic Intelligence Hub (Expanded) | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-1/hubic-intelligence-hub-expanded"
+        },
+        {
+          "type": "Verification Phase | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-3/verification-phase"
+        },
+        {
+          "type": "Inference Request (User Job) | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-3/inference-request-user-job"
+        },
+        {
+          "type": "Proof-of-Weights (PoW2) | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-1/proof-of-weights-pow2"
+        },
+        {
+          "type": "Execution Phase (Off-Chain) | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-3/execution-phase-off-chain"
+        },
+        {
+          "type": "Governance System | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-1/governance-system"
+        },
+        {
+          "type": "Optional Extensions | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-3/optional-extensions"
+        },
+        {
+          "type": "Rewards & Settlement | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-3/rewards-and-settlement"
+        },
+        {
+          "type": "Key Takeaways | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-3/key-takeaways"
+        },
+        {
+          "type": "Real-World Use Case Example | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-4"
+        },
+        {
+          "type": "Introduction | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-4/introduction"
+        },
+        {
+          "type": "Problem Statement | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-4/problem-statement"
+        },
+        {
+          "type": "System Actors | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-4/system-actors"
+        },
+        {
+          "type": "End-to-End Flow: DAO Delegation Automation | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-4/end-to-end-flow-dao-delegation-automation"
+        },
+        {
+          "type": "Benefits to DAO Operations | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-4/benefits-to-dao-operations"
+        },
+        {
+          "type": "Extensions & Advanced Use | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon/quickstart-4/extensions-and-advanced-use"
+        },
+        {
+          "type": "Roadmap | Hubic.ai",
+          "url": "https://docs.hubic.ai/hubic-economic-engine/quickstart-1"
+        },
+        {
+          "type": "Tokenomics | Hubic.ai",
+          "url": "https://docs.hubic.ai/hubic-economic-engine/quickstart"
+        },
+        {
+          "type": "Introduction | Hubic.ai",
+          "url": "https://docs.hubic.ai/embark-upon"
+        },
+        {
+          "type": "Tokenomics | Hubic.ai",
+          "url": "https://docs.hubic.ai/hubic-economic-engine"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c22853f0bd4d90e8b2fe8804e32ad6f69f8d3343f831f3242efd9999857338dc"
 }

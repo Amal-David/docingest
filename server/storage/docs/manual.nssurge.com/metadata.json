@@ -51,5 +51,67 @@
       "isLatest": false
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://manual.nssurge.com/book/understanding-surge/en/",
+      "canonicalSeedUrl": "https://manual.nssurge.com/book/understanding-surge/en",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-22T17:40:37.079Z",
+      "completedAt": "2026-06-22T17:40:37.079Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://manual.nssurge.com/book/understanding-surge/en/",
+          "canonicalUrl": "https://manual.nssurge.com/book/understanding-surge/en",
+          "status": "valid"
+        }
+      ],
+      "id": "acf487c0ad687ef616c4f4abc1d327924df21bd287efee4b9a332234b04e4b1e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "18cd10a89a7d75a373d3833534209a05425006f156c28ca85a5483752bff426d",
+      "filename": "documentation_2026-06-22T17:40:37.079Z.md",
+      "contentHash": "47cb3e2ec0f5ced7d003ba62693c692fb81d974d9cd258656bad4bc78e25eff5",
+      "sourceUrl": "https://manual.nssurge.com/book/understanding-surge/en/",
+      "canonicalSourceUrl": "https://manual.nssurge.com/book/understanding-surge/en",
+      "capturedAt": "2026-06-22T17:40:37.079Z",
+      "crawlRunId": "acf487c0ad687ef616c4f4abc1d327924df21bd287efee4b9a332234b04e4b1e",
+      "upstreamVersion": "1.1.2",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Official Guidance：Understanding Surge",
+          "url": "https://manual.nssurge.com/book/understanding-surge/en/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "18cd10a89a7d75a373d3833534209a05425006f156c28ca85a5483752bff426d"
 }

@@ -160,5 +160,203 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics",
+      "canonicalSeedUrl": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-01T14:24:34.862Z",
+      "completedAt": "2025-04-01T14:24:34.862Z",
+      "providerTotals": {
+        "discovered": 35,
+        "returned": 35,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics",
+          "canonicalUrl": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics",
+          "status": "valid"
+        }
+      ],
+      "id": "c5e985e6e24ff83a6864cee295aa390d98ae9ba78a06aedff01c5b3d9a1c357e",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cb986e5693065387c7418006e0be2aae70ef7a01348bf4ba8293f9258d0105dc",
+      "filename": "documentation_2025-04-01T14:24:34.862Z.md",
+      "contentHash": "5bd2a09951a4ed9e77e1f4ec4b8bcc0eb494c89a4b60e249d0a7e0a7e5aae873",
+      "sourceUrl": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics",
+      "canonicalSourceUrl": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics",
+      "capturedAt": "2025-04-01T14:24:34.862Z",
+      "crawlRunId": "c5e985e6e24ff83a6864cee295aa390d98ae9ba78a06aedff01c5b3d9a1c357e",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 35,
+      "successfulPages": 35,
+      "structure": [
+        {
+          "type": "Section (b) The measurement of land characteristics | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics"
+        },
+        {
+          "type": "Glossary | Landler Rulebook",
+          "url": "https://rulebook.landler.io/glossary"
+        },
+        {
+          "type": "Section (a) The Platform | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-a-the-platform"
+        },
+        {
+          "type": "Section (a.3) Proof of Land Stewardship | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-a-the-platform/section-a.3-proof-of-land-stewardship"
+        },
+        {
+          "type": "Section (a.5) Data Protection Information | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-a-the-platform/section-a.5-data-protection-information"
+        },
+        {
+          "type": "Section (a.4) Sponsorship | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-a-the-platform/section-a.4-sponsorship"
+        },
+        {
+          "type": "Section (b.2) Data Sources | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/section-b.2-data-sources"
+        },
+        {
+          "type": "Indicator: Greenhouse Gas Emissions | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/dimension-carbon/indicator-greenhouse-gas-emissions"
+        },
+        {
+          "type": "Section (a.2) Verification of identity | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-a-the-platform/section-a.2-verification-of-identity"
+        },
+        {
+          "type": "Overview | Landler Rulebook",
+          "url": "https://rulebook.landler.io/"
+        },
+        {
+          "type": "Dimension: Biodiversity | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/dimension-biodiversity"
+        },
+        {
+          "type": "Dimension: Water | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/dimension-water"
+        },
+        {
+          "type": "Section (a.1) Upload Plot Data for identification | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-a-the-platform/section-a.1-upload-plot-data-for-identification"
+        },
+        {
+          "type": "Indicator: Ecological Integrity | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/dimension-biodiversity/indicator-ecological-integrity"
+        },
+        {
+          "type": "Indicator: Soil Moisture | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/dimension-water/indicator-soil-moisture"
+        },
+        {
+          "type": "Indicator: Indicator Species Presence | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/dimension-biodiversity/indicator-indicator-species-presence"
+        },
+        {
+          "type": "Indicator: Water Holding Capacity Potential | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/dimension-water/indicator-water-holding-capacity-potential"
+        },
+        {
+          "type": "Indicator: Deforestation | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/dimension-biodiversity/indicator-deforestation"
+        },
+        {
+          "type": "Dimension: Carbon | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/dimension-carbon"
+        },
+        {
+          "type": "Section (c) - Natural Capital Accounting | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-c-natural-capital-accounting"
+        },
+        {
+          "type": "Section (b.1) Dimensions, Indicators and Models Dimensions | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/section-b.1-dimensions-indicators-and-models-dimensions"
+        },
+        {
+          "type": "Indicator: Soil Carbon Potential | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/dimension-carbon/indicator-soil-carbon-potential"
+        },
+        {
+          "type": "Indicator: Protected On-Site Habitat | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/dimension-biodiversity/indicator-protected-on-site-habitat"
+        },
+        {
+          "type": "Section (b.3) Modelling | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/section-b.3-modelling"
+        },
+        {
+          "type": "Indicator: Soil Carbon Stock | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/dimension-carbon/indicator-soil-carbon-stock"
+        },
+        {
+          "type": "Section (c.2) Locking and Activation of a Natural Capital Account | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-c-natural-capital-accounting/section-c.2-locking-and-activation-of-a-natural-capital-account"
+        },
+        {
+          "type": "Indicator: Water Holding Capacity | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/dimension-water/indicator-water-holding-capacity"
+        },
+        {
+          "type": "Indicator: Habitat Intactness | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-b-the-measurement-of-land-characteristics/dimension-biodiversity/indicator-habitat-intactness"
+        },
+        {
+          "type": "Section (c.4) Natural Capital Units Attributes | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-c-natural-capital-accounting/section-c.4-natural-capital-units-attributes"
+        },
+        {
+          "type": "Section (c.3) Natural Capital Units | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-c-natural-capital-accounting/section-c.3-natural-capital-units"
+        },
+        {
+          "type": "Section (c.1) Natural Capital Account | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-c-natural-capital-accounting/section-c.1-natural-capital-account"
+        },
+        {
+          "type": "Section (d) - Nature Equity Assets | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-d-nature-equity-assets"
+        },
+        {
+          "type": "Section (e.2) Settlement Services | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-e-nature-equity-accounts-and-settlement-services/section-e.2-settlement-services"
+        },
+        {
+          "type": "Section (e) - Nature Equity Accounts and Settlement Services | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-e-nature-equity-accounts-and-settlement-services"
+        },
+        {
+          "type": "Section (e.1) Nature Equity Account | Landler Rulebook",
+          "url": "https://rulebook.landler.io/section-e-nature-equity-accounts-and-settlement-services/section-e.1-nature-equity-account"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cb986e5693065387c7418006e0be2aae70ef7a01348bf4ba8293f9258d0105dc"
 }

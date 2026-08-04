@@ -188,5 +188,231 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://hybra-foundation.gitbook.io/",
+      "canonicalSeedUrl": "https://hybra-foundation.gitbook.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-19T14:34:06.961Z",
+      "completedAt": "2026-03-19T14:34:06.961Z",
+      "providerTotals": {
+        "discovered": 42,
+        "returned": 42,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://hybra-foundation.gitbook.io/",
+          "canonicalUrl": "https://hybra-foundation.gitbook.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "206b972bc25e43d9ce915207ee5f7f5edcc99788ccfd75a7dec91ac0d1dc0f39",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "828186d242053acf17f16f362705e909532cd1e31c37a0ca54d56524540d2c19",
+      "filename": "documentation_2026-03-19T14:34:06.961Z.md",
+      "contentHash": "dfc6497ec1ce31dc86ae4d4cb30f3db779b4ceffa27536cdf41b7dcfc4b1355f",
+      "sourceUrl": "https://hybra-foundation.gitbook.io/",
+      "canonicalSourceUrl": "https://hybra-foundation.gitbook.io/",
+      "capturedAt": "2026-03-19T14:34:06.961Z",
+      "crawlRunId": "206b972bc25e43d9ce915207ee5f7f5edcc99788ccfd75a7dec91ac0d1dc0f39",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 42,
+      "successfulPages": 42,
+      "structure": [
+        {
+          "type": "Whitepaper | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/"
+        },
+        {
+          "type": "What is ve(3,3) ? | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/what-is-ve-3-3"
+        },
+        {
+          "type": "Whitepaper | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation"
+        },
+        {
+          "type": "Roadmap | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/roadmap"
+        },
+        {
+          "type": "Liquidity | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/product/liquidity"
+        },
+        {
+          "type": "Remove/Decrease Liquidity | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/product/liquidity/remove-decrease-liquidity"
+        },
+        {
+          "type": "Trade | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/product/trade"
+        },
+        {
+          "type": "Team | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/team"
+        },
+        {
+          "type": "Add Liquidity | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/product/liquidity/add-liquidity"
+        },
+        {
+          "type": "Dashboard | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/product/dashboard"
+        },
+        {
+          "type": "Hybra G33 Token System Overview | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/tokenomics/hybra-g33-token-system-overview"
+        },
+        {
+          "type": "Tokens | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/tokenomics/tokens"
+        },
+        {
+          "type": "LP Revenue & Rewards | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/tokenomics/lp-revenue-and-rewards"
+        },
+        {
+          "type": "Bribes | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/gauge-and-voting/bribes"
+        },
+        {
+          "type": "Smart Max — One-click balanced adds for CL liquidity | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/product/liquidity/smart-max-one-click-balanced-adds-for-cl-liquidity"
+        },
+        {
+          "type": "Weekly Cash 10000$ drop #2 | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/events/hybra-cl-launch-and-ascension/weekly-cash-10000usd-drop-2"
+        },
+        {
+          "type": "Weekly Cash 10000$ drop | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/events/hybra-cl-launch-and-ascension/weekly-cash-10000usd-drop"
+        },
+        {
+          "type": "Contracts | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/security/contracts"
+        },
+        {
+          "type": "Tokenomics & Launch details | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/tokenomics/tokenomics-and-launch-details"
+        },
+        {
+          "type": "gHYBR Deep Dive | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/tokenomics/hybra-g33-token-system-overview/ghybr-deep-dive"
+        },
+        {
+          "type": "Whitelisting Token | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/gauge-and-voting/whitelisting-token"
+        },
+        {
+          "type": "Governance & Dynamic Balancing | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/tokenomics/hybra-g33-token-system-overview/governance-and-dynamic-balancing"
+        },
+        {
+          "type": "Partners boost | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/events/hybra-stage1-points-from-aug-1/points-boost/partners-boost"
+        },
+        {
+          "type": "Hybra CL launch & Ascension | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/events/hybra-cl-launch-and-ascension"
+        },
+        {
+          "type": "Points Boost | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/events/hybra-stage1-points-from-aug-1/points-boost"
+        },
+        {
+          "type": "Brand Assets | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/brand-assets"
+        },
+        {
+          "type": "Hybra Stage1 Points ( From Aug 1 ) | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/events/hybra-stage1-points-from-aug-1"
+        },
+        {
+          "type": "Fees | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/product/trade/fees"
+        },
+        {
+          "type": "Ascension #1 #2 | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/events/hybra-cl-launch-and-ascension/ascension-1-2"
+        },
+        {
+          "type": "VIP trading-tier boosts | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/events/hybra-stage1-points-from-aug-1/points-boost/vip-trading-tier-boosts"
+        },
+        {
+          "type": "Role or NFT boosts (stackable) | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/events/hybra-stage1-points-from-aug-1/points-boost/role-or-nft-boosts-stackable"
+        },
+        {
+          "type": "Ascension #3 | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/events/hybra-cl-launch-and-ascension/ascension-3"
+        },
+        {
+          "type": "Emission rule | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/tokenomics/tokenomics-and-launch-details/emission-rule"
+        },
+        {
+          "type": "Trading VIP program | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/product/trade/trading-vip-program"
+        },
+        {
+          "type": "Loyalty Rating boost | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/events/hybra-stage1-points-from-aug-1/points-boost/loyalty-rating-boost"
+        },
+        {
+          "type": "Emission schedule | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/tokenomics/tokenomics-and-launch-details/emission-schedule"
+        },
+        {
+          "type": "Hybra Pre-TGE Points ( Ascension ) | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/events/hybra-pre-tge-points-ascension"
+        },
+        {
+          "type": "Trade | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/product"
+        },
+        {
+          "type": "Contracts | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/security"
+        },
+        {
+          "type": "Whitelisting Token | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/gauge-and-voting"
+        },
+        {
+          "type": "Tokens | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/tokenomics"
+        },
+        {
+          "type": "Hybra Pre-TGE Points ( Before Ascension ) | Hybra Foundation",
+          "url": "https://hybra-foundation.gitbook.io/hybra-foundation/events"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "828186d242053acf17f16f362705e909532cd1e31c37a0ca54d56524540d2c19"
 }

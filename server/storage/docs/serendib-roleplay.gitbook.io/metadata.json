@@ -44,5 +44,87 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://serendib-roleplay.gitbook.io/serendib-roleplay-docs/",
+      "canonicalSeedUrl": "https://serendib-roleplay.gitbook.io/serendib-roleplay-docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-10-23T23:36:35.302Z",
+      "completedAt": "2025-10-23T23:36:35.302Z",
+      "providerTotals": {
+        "discovered": 6,
+        "returned": 6,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://serendib-roleplay.gitbook.io/serendib-roleplay-docs/",
+          "canonicalUrl": "https://serendib-roleplay.gitbook.io/serendib-roleplay-docs",
+          "status": "valid"
+        }
+      ],
+      "id": "96eff9c6d697f36451e307dab4f08324197033fc867b1e5d98831afa31cec9ef",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d3be035c285db326f6e400977a48b0be42030586467ea6d07641ed91dcf2783f",
+      "filename": "documentation_2025-10-23T23:36:35.302Z.md",
+      "contentHash": "e7ab3f84037ba4a14516a4bc030d2b112f46a7cef889d264e0bfb6b5cb23ff02",
+      "sourceUrl": "https://serendib-roleplay.gitbook.io/serendib-roleplay-docs/",
+      "canonicalSourceUrl": "https://serendib-roleplay.gitbook.io/serendib-roleplay-docs",
+      "capturedAt": "2025-10-23T23:36:35.302Z",
+      "crawlRunId": "96eff9c6d697f36451e307dab4f08324197033fc867b1e5d98831afa31cec9ef",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 6,
+      "successfulPages": 6,
+      "structure": [
+        {
+          "type": "Serendib RP Community Guidelines | Serendib RolePlay Rule Book",
+          "url": "https://serendib-roleplay.gitbook.io/serendib-roleplay-docs/"
+        },
+        {
+          "type": "Roleplay Situation Counts | Serendib RolePlay Rule Book",
+          "url": "https://serendib-roleplay.gitbook.io/serendib-roleplay-docs/roleplay-situation-counts"
+        },
+        {
+          "type": "Robbery Guidelines | Serendib RolePlay Rule Book",
+          "url": "https://serendib-roleplay.gitbook.io/serendib-roleplay-docs/robbery-guidelines"
+        },
+        {
+          "type": "Road To Permanent Ban | Serendib RolePlay Rule Book",
+          "url": "https://serendib-roleplay.gitbook.io/serendib-roleplay-docs/road-to-permanent-ban"
+        },
+        {
+          "type": "Illegal Faction Guidelines | Serendib RolePlay Rule Book",
+          "url": "https://serendib-roleplay.gitbook.io/serendib-roleplay-docs/illegal-faction-guidelines"
+        },
+        {
+          "type": "Faction Services - Faction Expectations | Serendib RolePlay Rule Book",
+          "url": "https://serendib-roleplay.gitbook.io/serendib-roleplay-docs/faction-services-faction-expectations"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "d3be035c285db326f6e400977a48b0be42030586467ea6d07641ed91dcf2783f"
 }

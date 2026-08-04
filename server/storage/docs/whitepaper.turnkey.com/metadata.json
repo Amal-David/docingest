@@ -40,5 +40,83 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://whitepaper.turnkey.com",
+      "canonicalSeedUrl": "https://whitepaper.turnkey.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-19T10:49:58.528Z",
+      "completedAt": "2025-09-19T10:49:58.528Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://whitepaper.turnkey.com",
+          "canonicalUrl": "https://whitepaper.turnkey.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "45194c60a239c9c6d1815264640d609c6bf655bb90a4d51e4a035247637b35dc",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ac257898c29c4bb285eb0aae06539bff28e35576265d563cc39002156871c844",
+      "filename": "documentation_2025-09-19T10:49:58.528Z.md",
+      "contentHash": "c18c2d01e40312b914514061a0add6fc9d1c0689e5240c9ceb026a3e163cde02",
+      "sourceUrl": "https://whitepaper.turnkey.com",
+      "canonicalSourceUrl": "https://whitepaper.turnkey.com/",
+      "capturedAt": "2025-09-19T10:49:58.528Z",
+      "crawlRunId": "45194c60a239c9c6d1815264640d609c6bf655bb90a4d51e4a035247637b35dc",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 5,
+      "successfulPages": 5,
+      "structure": [
+        {
+          "type": "Turnkey Whitepaper",
+          "url": "https://whitepaper.turnkey.com"
+        },
+        {
+          "type": "Turnkey Whitepaper",
+          "url": "https://whitepaper.turnkey.com/applications/"
+        },
+        {
+          "type": "Turnkey Whitepaper",
+          "url": "https://whitepaper.turnkey.com/architecture/"
+        },
+        {
+          "type": "Turnkey Whitepaper",
+          "url": "https://whitepaper.turnkey.com/principles/"
+        },
+        {
+          "type": "Turnkey Whitepaper",
+          "url": "https://whitepaper.turnkey.com/foundations/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "ac257898c29c4bb285eb0aae06539bff28e35576265d563cc39002156871c844"
 }

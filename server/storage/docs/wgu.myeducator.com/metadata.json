@@ -32,5 +32,75 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://wgu.myeducator.com/",
+      "canonicalSeedUrl": "https://wgu.myeducator.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-04-09T17:11:10.012Z",
+      "completedAt": "2026-04-09T17:11:10.012Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://wgu.myeducator.com/",
+          "canonicalUrl": "https://wgu.myeducator.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "3c346209b02867be4aef02c780f4ca0930fadb14c435dfed2dc060d8acf83dd7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2e30f21b2f13c16b324e259bc87a1369bde8df1ad7a41fd805bd5dca6e5a2711",
+      "filename": "documentation_2026-04-09T17:11:10.012Z.md",
+      "contentHash": "3b4c0beb95e7425dab172b09f7e390a61f9e3327c8830e57b948397305673425",
+      "sourceUrl": "https://wgu.myeducator.com/",
+      "canonicalSourceUrl": "https://wgu.myeducator.com/",
+      "capturedAt": "2026-04-09T17:11:10.012Z",
+      "crawlRunId": "3c346209b02867be4aef02c780f4ca0930fadb14c435dfed2dc060d8acf83dd7",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "structure": [
+        {
+          "type": "Home Page -",
+          "url": "https://wgu.myeducator.com/"
+        },
+        {
+          "type": "MyEducator - Login",
+          "url": "https://wgu.myeducator.com/account/login/"
+        },
+        {
+          "type": "MyEducator - Forgot Password",
+          "url": "https://wgu.myeducator.com/account/resetpassword/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2e30f21b2f13c16b324e259bc87a1369bde8df1ad7a41fd805bd5dca6e5a2711"
 }

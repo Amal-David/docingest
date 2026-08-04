@@ -128,5 +128,171 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults",
+      "canonicalSeedUrl": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-19T19:02:46.557Z",
+      "completedAt": "2026-01-19T19:02:46.557Z",
+      "providerTotals": {
+        "discovered": 27,
+        "returned": 27,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults",
+          "canonicalUrl": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults",
+          "status": "valid"
+        }
+      ],
+      "id": "3624ddf9f2f0e503bb76e9940823f5261bd55f538bb9816e24a344ca05034029",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "88e8062620b2137359a2c5ecda3cb33c5a9268ebf5dd8c2d5d07db0432d6c60e",
+      "filename": "documentation_2026-01-19T19:02:46.557Z.md",
+      "contentHash": "e54a515e154de1706d8c487b8ff12dda7c3f1c317c329f7dd3b32969303e7acb",
+      "sourceUrl": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults",
+      "canonicalSourceUrl": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults",
+      "capturedAt": "2026-01-19T19:02:46.557Z",
+      "crawlRunId": "3624ddf9f2f0e503bb76e9940823f5261bd55f538bb9816e24a344ca05034029",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 27,
+      "successfulPages": 27,
+      "structure": [
+        {
+          "type": "Introduction | Insured Metavaults | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults"
+        },
+        {
+          "type": "Claims | Insured Metavaults | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults/insurance/claims"
+        },
+        {
+          "type": "Covered risks | Insured Metavaults | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults/insurance/covered-risks"
+        },
+        {
+          "type": "Overview | Insured Metavaults | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults/integration/overview"
+        },
+        {
+          "type": "Bug bounty | Insured Metavaults | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults/security/bug-bounty"
+        },
+        {
+          "type": "Metavault creation | Insured Metavaults | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults/integration/metavault-creation"
+        },
+        {
+          "type": "Audits | Insured Metavaults | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults/security/audits"
+        },
+        {
+          "type": "Metavault lifecycle | Insured Metavaults | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults/integration/metavault-lifecycle"
+        },
+        {
+          "type": "Monitoring | Insured Metavaults | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults/security/monitoring"
+        },
+        {
+          "type": "Getting started | Insured Metavaults | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults/integration/getting-started"
+        },
+        {
+          "type": "Overview | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK"
+        },
+        {
+          "type": "Request deposit | Insured Metavaults | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults/integration/getting-started/request-deposit"
+        },
+        {
+          "type": "Integration types | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/integration-types"
+        },
+        {
+          "type": "Getting started | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/native-integration/getting-started"
+        },
+        {
+          "type": "Request redemption | Insured Metavaults | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults/integration/getting-started/request-redemption"
+        },
+        {
+          "type": "Track deposit status | Insured Metavaults | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/insured-metavaults/integration/getting-started/track-deposit-status"
+        },
+        {
+          "type": "Integration guide | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/native-integration/integration-guide"
+        },
+        {
+          "type": "Quote lifecycle | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/resources/quote-lifecycle"
+        },
+        {
+          "type": "Smart contracts | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/resources/contracts"
+        },
+        {
+          "type": "Integration parameters | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/linkout-integration/integration-parameters"
+        },
+        {
+          "type": "Products | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/resources/products"
+        },
+        {
+          "type": "API reference | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/native-integration/api-endpoints"
+        },
+        {
+          "type": "Email Protection | Cloudflare",
+          "url": "https://integrate.opencover.com/cdn-cgi/l/email-protection"
+        },
+        {
+          "type": "Get a quote | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/native-integration/integration-guide/get-a-quote"
+        },
+        {
+          "type": "Subscribe to notifications | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/native-integration/integration-guide/subscribe-to-notifications"
+        },
+        {
+          "type": "Submit a quote | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/native-integration/integration-guide/submit-a-quote"
+        },
+        {
+          "type": "Track coverage | OpenCover",
+          "url": "https://integrate.opencover.com/zeiNPSbmoJnSDblPJcJK/native-integration/integration-guide/track-coverage"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "88e8062620b2137359a2c5ecda3cb33c5a9268ebf5dd8c2d5d07db0432d6c60e"
 }

@@ -85,5 +85,119 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://rune.mallardorder.io",
+      "canonicalSeedUrl": "https://rune.mallardorder.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-09-30T12:24:13.068Z",
+      "completedAt": "2025-09-30T12:24:13.068Z",
+      "providerTotals": {
+        "discovered": 14,
+        "returned": 14,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://rune.mallardorder.io",
+          "canonicalUrl": "https://rune.mallardorder.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "c6391696ab7db47ec56e506dea400ab970f451d08fab74abb66f1d39986685d1",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "16c81bad5dd751f3700d9a648c12f15b9b60dc68f7d896d707445b25a14977b4",
+      "filename": "documentation_2025-09-30T12:24:13.068Z.md",
+      "contentHash": "6e247b92139f7641e89faa25c2e9ff2256250b12920c2a491bfc7ec97466c953",
+      "sourceUrl": "https://rune.mallardorder.io",
+      "canonicalSourceUrl": "https://rune.mallardorder.io/",
+      "capturedAt": "2025-09-30T12:24:13.068Z",
+      "crawlRunId": "c6391696ab7db47ec56e506dea400ab970f451d08fab74abb66f1d39986685d1",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 14,
+      "successfulPages": 14,
+      "structure": [
+        {
+          "type": "RUNE V2 intro | RUNE Ecosystem",
+          "url": "https://rune.mallardorder.io"
+        },
+        {
+          "type": "Tokenomics | RUNE Ecosystem",
+          "url": "https://rune.mallardorder.io/getting-started/quickstart"
+        },
+        {
+          "type": "Social Fi | RUNE Ecosystem",
+          "url": "https://rune.mallardorder.io/getting-started/social-fi"
+        },
+        {
+          "type": "Utility | RUNE Ecosystem",
+          "url": "https://rune.mallardorder.io/getting-started/publish-your-docs"
+        },
+        {
+          "type": "Disclaimer | RUNE Ecosystem",
+          "url": "https://rune.mallardorder.io/disclaimer"
+        },
+        {
+          "type": "Rewards | RUNE Ecosystem",
+          "url": "https://rune.mallardorder.io/getting-started/rewards"
+        },
+        {
+          "type": "Burn Pit | RUNE Ecosystem",
+          "url": "https://rune.mallardorder.io/staking/burn-pit"
+        },
+        {
+          "type": "Token Staking | RUNE Ecosystem",
+          "url": "https://rune.mallardorder.io/staking/images-and-media"
+        },
+        {
+          "type": "How it works | RUNE Ecosystem",
+          "url": "https://rune.mallardorder.io/staking/markdown"
+        },
+        {
+          "type": "Treasury | RUNE Ecosystem",
+          "url": "https://rune.mallardorder.io/getting-started/editor"
+        },
+        {
+          "type": "NFT Staking | RUNE Ecosystem",
+          "url": "https://rune.mallardorder.io/staking/interactive-blocks"
+        },
+        {
+          "type": "V1 to V2 conversion | RUNE Ecosystem",
+          "url": "https://rune.mallardorder.io/staking/integrations"
+        },
+        {
+          "type": "Tokenomics | RUNE Ecosystem",
+          "url": "https://rune.mallardorder.io/getting-started"
+        },
+        {
+          "type": "How it works | RUNE Ecosystem",
+          "url": "https://rune.mallardorder.io/staking"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "16c81bad5dd751f3700d9a648c12f15b9b60dc68f7d896d707445b25a14977b4"
 }

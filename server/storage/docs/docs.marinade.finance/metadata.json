@@ -132,5 +132,175 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.marinade.finance/",
+      "canonicalSeedUrl": "https://docs.marinade.finance/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-04-01T11:33:41.554Z",
+      "completedAt": "2025-04-01T11:33:41.554Z",
+      "providerTotals": {
+        "discovered": 28,
+        "returned": 28,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.marinade.finance/",
+          "canonicalUrl": "https://docs.marinade.finance/",
+          "status": "valid"
+        }
+      ],
+      "id": "cd2cbd5e62e4d2a324ec31cf2838c4229fec353cfbf5b58c9db14975844bf698",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1ac58cac96366f8c1cdb701e25f6d042829a143f8e794be6d5171c7ee472c9a1",
+      "filename": "documentation_2025-04-01T11:33:41.554Z.md",
+      "contentHash": "f88a6ee1218ec041e8c99e4e1695d4a8ff37e7f01da1b24a18b29ad3240ed350",
+      "sourceUrl": "https://docs.marinade.finance/",
+      "canonicalSourceUrl": "https://docs.marinade.finance/",
+      "capturedAt": "2025-04-01T11:33:41.554Z",
+      "crawlRunId": "cd2cbd5e62e4d2a324ec31cf2838c4229fec353cfbf5b58c9db14975844bf698",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 28,
+      "successfulPages": 28,
+      "structure": [
+        {
+          "type": "Welcome to Marinade | Marinade.Finance",
+          "url": "https://docs.marinade.finance/"
+        },
+        {
+          "type": "Contributors | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-dao/contributors"
+        },
+        {
+          "type": "Marinade DAO | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-dao"
+        },
+        {
+          "type": "The MNDE token | Marinade.Finance",
+          "url": "https://docs.marinade.finance/the-mnde-token"
+        },
+        {
+          "type": "Official Links | Marinade.Finance",
+          "url": "https://docs.marinade.finance/official-links"
+        },
+        {
+          "type": "What is Marinade Native? | Marinade.Finance",
+          "url": "https://docs.marinade.finance/getting-started/what-is-marinade-native"
+        },
+        {
+          "type": "What is mSOL? | Marinade.Finance",
+          "url": "https://docs.marinade.finance/getting-started/what-is-msol"
+        },
+        {
+          "type": "MNDE Governance | Marinade.Finance",
+          "url": "https://docs.marinade.finance/governance"
+        },
+        {
+          "type": "Glossary | Marinade.Finance",
+          "url": "https://docs.marinade.finance/getting-started/glossary"
+        },
+        {
+          "type": "Marinade Liquid | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-protocol/system-overview/liquid-staking"
+        },
+        {
+          "type": "Introduction | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-protocol/vision"
+        },
+        {
+          "type": "Protocol Overview | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-protocol/system-overview"
+        },
+        {
+          "type": "Bot operations | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-protocol/system-overview/liquid-staking/bot-operations"
+        },
+        {
+          "type": "FAQ | Marinade.Finance",
+          "url": "https://docs.marinade.finance/getting-started/faq"
+        },
+        {
+          "type": "Marinade Native | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-protocol/system-overview/marinade-native"
+        },
+        {
+          "type": "mSOL Token | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-protocol/system-overview/liquid-staking/msol-token"
+        },
+        {
+          "type": "Security | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-protocol/security"
+        },
+        {
+          "type": "Protected Staking Rewards | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-protocol/system-overview/protected-staking-rewards"
+        },
+        {
+          "type": "Delegation Strategy v2 | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-protocol/system-overview/delegation-strategy-v2"
+        },
+        {
+          "type": "Audits | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-protocol/security/audits"
+        },
+        {
+          "type": "Multisig governance | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-protocol/security/multisig-governance"
+        },
+        {
+          "type": "Marinade Rust SDK | Marinade.Finance",
+          "url": "https://docs.marinade.finance/developers/marinade-rust-sdk"
+        },
+        {
+          "type": "Anchor IDL | Marinade.Finance",
+          "url": "https://docs.marinade.finance/developers/anchor-idl"
+        },
+        {
+          "type": "Risks | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-protocol/legal/risks"
+        },
+        {
+          "type": "Contracts & Tokens Addresses | Marinade.Finance",
+          "url": "https://docs.marinade.finance/developers/contract-addresses"
+        },
+        {
+          "type": "Legal | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-protocol/legal"
+        },
+        {
+          "type": "Disclaimer | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-protocol/legal/disclaimer"
+        },
+        {
+          "type": "Directed Stake | Marinade.Finance",
+          "url": "https://docs.marinade.finance/marinade-products/directed-stake"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1ac58cac96366f8c1cdb701e25f6d042829a143f8e794be6d5171c7ee472c9a1"
 }

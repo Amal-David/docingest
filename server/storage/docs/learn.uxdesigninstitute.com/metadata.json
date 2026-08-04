@@ -41,5 +41,75 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://learn.uxdesigninstitute.com/courses/027033fd-b0ca-4526-893e-9cbe2efeb796/activities/21a263bb-6113-43fb-84e8-80c4507f0bd9",
+      "canonicalSeedUrl": "https://learn.uxdesigninstitute.com/courses/027033fd-b0ca-4526-893e-9cbe2efeb796/activities/21a263bb-6113-43fb-84e8-80c4507f0bd9",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-08-23T09:17:11.212Z",
+      "completedAt": "2025-08-23T09:17:11.212Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://learn.uxdesigninstitute.com/courses/027033fd-b0ca-4526-893e-9cbe2efeb796/activities/21a263bb-6113-43fb-84e8-80c4507f0bd9",
+          "canonicalUrl": "https://learn.uxdesigninstitute.com/courses/027033fd-b0ca-4526-893e-9cbe2efeb796/activities/21a263bb-6113-43fb-84e8-80c4507f0bd9",
+          "status": "valid"
+        }
+      ],
+      "id": "1067a743da5b6b0bd4864169505a70ca9be3bc3681b1f283516495c46a35f8fa",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b1e4144ae0f9decb01934112b15ad20da895179f6453756b78da9f01bc0030ac",
+      "filename": "documentation_2025-08-23T09:17:11.212Z.md",
+      "contentHash": "21312d7b35da8bdf31db87b39936d60dcd18ce7439bae6adb855fea471b273ef",
+      "sourceUrl": "https://learn.uxdesigninstitute.com/courses/027033fd-b0ca-4526-893e-9cbe2efeb796/activities/21a263bb-6113-43fb-84e8-80c4507f0bd9",
+      "canonicalSourceUrl": "https://learn.uxdesigninstitute.com/courses/027033fd-b0ca-4526-893e-9cbe2efeb796/activities/21a263bb-6113-43fb-84e8-80c4507f0bd9",
+      "capturedAt": "2025-08-23T09:17:11.212Z",
+      "crawlRunId": "1067a743da5b6b0bd4864169505a70ca9be3bc3681b1f283516495c46a35f8fa",
+      "upstreamVersion": "1.1.0",
+      "upstreamChannel": "latest",
+      "totalPages": 3,
+      "successfulPages": 3,
+      "structure": [
+        {
+          "type": "UX Design Institute",
+          "url": "https://learn.uxdesigninstitute.com/courses/027033fd-b0ca-4526-893e-9cbe2efeb796/activities/21a263bb-6113-43fb-84e8-80c4507f0bd9"
+        },
+        {
+          "type": "UX Design Institute",
+          "url": "https://learn.uxdesigninstitute.com/learners/password/new"
+        },
+        {
+          "type": "UX Design Institute",
+          "url": "https://learn.uxdesigninstitute.com/app"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b1e4144ae0f9decb01934112b15ad20da895179f6453756b78da9f01bc0030ac"
 }

@@ -100,5 +100,143 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.neartreasury.com/search",
+      "canonicalSeedUrl": "https://docs.neartreasury.com/search",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-01-22T19:26:14.925Z",
+      "completedAt": "2026-01-22T19:26:14.925Z",
+      "providerTotals": {
+        "discovered": 20,
+        "returned": 20,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.neartreasury.com/search",
+          "canonicalUrl": "https://docs.neartreasury.com/search",
+          "status": "valid"
+        }
+      ],
+      "id": "b0dcd6530fef7e4dc9dbcc0c1e786a52207f612b0d4b65ab79b3a8f54cb4f441",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "4a42d8882d170e97351d7c9233dd8b5c933738169ac99c7cf3a725895c908fcb",
+      "filename": "documentation_2026-01-22T19:26:14.925Z.md",
+      "contentHash": "29242b8976abe00daab5a6246477b0982535e37e9262a9693f8560f466f3a3d7",
+      "sourceUrl": "https://docs.neartreasury.com/search",
+      "canonicalSourceUrl": "https://docs.neartreasury.com/search",
+      "capturedAt": "2026-01-22T19:26:14.925Z",
+      "crawlRunId": "b0dcd6530fef7e4dc9dbcc0c1e786a52207f612b0d4b65ab79b3a8f54cb4f441",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 20,
+      "successfulPages": 20,
+      "structure": [
+        {
+          "type": "Search the documentation",
+          "url": "https://docs.neartreasury.com/search"
+        },
+        {
+          "type": "Overview | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/"
+        },
+        {
+          "type": "Function Calls | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/advanced/function-calls"
+        },
+        {
+          "type": "Asset Exchange Backend | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/help/exchange"
+        },
+        {
+          "type": "My Treasuries | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/setup/my-treasuries"
+        },
+        {
+          "type": "Dashboard | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/dashboard"
+        },
+        {
+          "type": "Lockup | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/management/lockup"
+        },
+        {
+          "type": "Support | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/help/support"
+        },
+        {
+          "type": "Roles & Permissions | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/setup/permissions"
+        },
+        {
+          "type": "NEAR Intents | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/payments/intents"
+        },
+        {
+          "type": "Settings | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/settings"
+        },
+        {
+          "type": "Using a Ledger device | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/help/ledger"
+        },
+        {
+          "type": "Bulk Payment Import | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/payments/bulk-import"
+        },
+        {
+          "type": "About System Updates | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/help/sys-update"
+        },
+        {
+          "type": "Asset Exchange | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/management/asset-exchange"
+        },
+        {
+          "type": "Getting Started Guide | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/setup/quickstart"
+        },
+        {
+          "type": "Latest Changes | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/changelog"
+        },
+        {
+          "type": "Stake Delegation | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/management/stake-delegation"
+        },
+        {
+          "type": "About Lockups | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/help/lockups"
+        },
+        {
+          "type": "Payments | NEAR Treasury Docs",
+          "url": "https://docs.neartreasury.com/payments/manage-payments"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "4a42d8882d170e97351d7c9233dd8b5c933738169ac99c7cf3a725895c908fcb"
 }

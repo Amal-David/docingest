@@ -24,5 +24,67 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://n64.readthedocs.io/",
+      "canonicalSeedUrl": "https://n64.readthedocs.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-24T15:44:18.465Z",
+      "completedAt": "2026-06-24T15:44:18.465Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://n64.readthedocs.io/",
+          "canonicalUrl": "https://n64.readthedocs.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "eef2f0427788bf5c2114860fbd046447eea80e7dbb143939af33133a3e6b2a55",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "455c0cb519b28c1ca5adf9678fe5168445592c1cb5ecbb2be5306a437a206815",
+      "filename": "documentation_2026-06-24T15:44:18.465Z.md",
+      "contentHash": "78efe5f998b5f0bb04f58e3c3d6acdb570317b43043a3cbac2cdcd4a4ef3bc34",
+      "sourceUrl": "https://n64.readthedocs.io/",
+      "canonicalSourceUrl": "https://n64.readthedocs.io/",
+      "capturedAt": "2026-06-24T15:44:18.465Z",
+      "crawlRunId": "eef2f0427788bf5c2114860fbd046447eea80e7dbb143939af33133a3e6b2a55",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "n64docs latest documentation",
+          "url": "https://n64.readthedocs.io/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "455c0cb519b28c1ca5adf9678fe5168445592c1cb5ecbb2be5306a437a206815"
 }

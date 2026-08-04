@@ -168,5 +168,211 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://electric-sql.com/docs",
+      "canonicalSeedUrl": "https://electric-sql.com/docs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-06T04:19:46.709Z",
+      "completedAt": "2025-03-06T04:19:46.709Z",
+      "providerTotals": {
+        "discovered": 37,
+        "returned": 37,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://electric-sql.com/docs",
+          "canonicalUrl": "https://electric-sql.com/docs",
+          "status": "valid"
+        }
+      ],
+      "id": "a1d87f9fa4237686e6cf57824ffa3158d0638ac7bc78f0f8a7e9274b1f879759",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "254ed60234df7422fe3bfd3e7bcc9c54a0f6d91217279562b1b46762a50d5da8",
+      "filename": "documentation_2025-03-06T04:19:46.709Z.md",
+      "contentHash": "91b8f3014d733021fcd7af627470f58f3953b4910c4f1b9e8674c41d87223618",
+      "sourceUrl": "https://electric-sql.com/docs",
+      "canonicalSourceUrl": "https://electric-sql.com/docs",
+      "capturedAt": "2025-03-06T04:19:46.709Z",
+      "crawlRunId": "a1d87f9fa4237686e6cf57824ffa3158d0638ac7bc78f0f8a7e9274b1f879759",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 37,
+      "successfulPages": 37,
+      "structure": [
+        {
+          "type": "Documentation | ElectricSQL",
+          "url": "https://electric-sql.com/docs"
+        },
+        {
+          "type": "Auth - Guide | ElectricSQL",
+          "url": "https://electric-sql.com/docs/guides/auth"
+        },
+        {
+          "type": "Quickstart | ElectricSQL",
+          "url": "https://electric-sql.com/docs/quickstart"
+        },
+        {
+          "type": "Shapes - Guide | ElectricSQL",
+          "url": "https://electric-sql.com/docs/guides/shapes"
+        },
+        {
+          "type": "Writes - Guide | ElectricSQL",
+          "url": "https://electric-sql.com/docs/guides/writes"
+        },
+        {
+          "type": "HTTP API | ElectricSQL",
+          "url": "https://electric-sql.com/docs/api/http"
+        },
+        {
+          "type": "Installation - Guide | ElectricSQL",
+          "url": "https://electric-sql.com/docs/guides/installation"
+        },
+        {
+          "type": "Deployment - Guide | ElectricSQL",
+          "url": "https://electric-sql.com/docs/guides/deployment"
+        },
+        {
+          "type": "Elixir Client | ElectricSQL",
+          "url": "https://electric-sql.com/docs/api/clients/elixir"
+        },
+        {
+          "type": "Client development - Guide | ElectricSQL",
+          "url": "https://electric-sql.com/docs/guides/client-development"
+        },
+        {
+          "type": "MobX - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/mobx"
+        },
+        {
+          "type": "Sync service | ElectricSQL",
+          "url": "https://electric-sql.com/docs/api/config"
+        },
+        {
+          "type": "Typescript Client | ElectricSQL",
+          "url": "https://electric-sql.com/docs/api/clients/typescript"
+        },
+        {
+          "type": "Troubleshooting - Guide | ElectricSQL",
+          "url": "https://electric-sql.com/docs/guides/troubleshooting"
+        },
+        {
+          "type": "Security - Guide | ElectricSQL",
+          "url": "https://electric-sql.com/docs/guides/security"
+        },
+        {
+          "type": "LiveStore - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/livestore"
+        },
+        {
+          "type": "TanStack - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/tanstack"
+        },
+        {
+          "type": "Yjs - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/yjs"
+        },
+        {
+          "type": "Cloudflare - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/cloudflare"
+        },
+        {
+          "type": "React - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/react"
+        },
+        {
+          "type": "Redis - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/redis"
+        },
+        {
+          "type": "Phoenix - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/phoenix"
+        },
+        {
+          "type": "Next.js - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/next"
+        },
+        {
+          "type": "Amazon Web Services (AWS) - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/aws"
+        },
+        {
+          "type": "Crunchy Data - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/crunchy"
+        },
+        {
+          "type": "Neon - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/neon"
+        },
+        {
+          "type": "Digital Ocean - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/digital-ocean"
+        },
+        {
+          "type": "Expo - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/expo"
+        },
+        {
+          "type": "Fly.io - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/fly"
+        },
+        {
+          "type": "Google Cloud Platform (GCP) - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/gcp"
+        },
+        {
+          "type": "Netlify - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/netlify"
+        },
+        {
+          "type": "Render - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/render"
+        },
+        {
+          "type": "Supabase - Integrations | ElectricSQL",
+          "url": "https://electric-sql.com/docs/integrations/supabase"
+        },
+        {
+          "type": "Alternatives | ElectricSQL",
+          "url": "https://electric-sql.com/docs/reference/alternatives"
+        },
+        {
+          "type": "Benchmarks - Reference | ElectricSQL",
+          "url": "https://electric-sql.com/docs/reference/benchmarks"
+        },
+        {
+          "type": "Telemetry | ElectricSQL",
+          "url": "https://electric-sql.com/docs/reference/telemetry"
+        },
+        {
+          "type": "Literature | ElectricSQL",
+          "url": "https://electric-sql.com/docs/reference/literature"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "254ed60234df7422fe3bfd3e7bcc9c54a0f6d91217279562b1b46762a50d5da8"
 }

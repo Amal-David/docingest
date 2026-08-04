@@ -292,5 +292,335 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://clanker.gitbook.io/clanker-documentation",
+      "canonicalSeedUrl": "https://clanker.gitbook.io/clanker-documentation",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-03-12T01:30:44.746Z",
+      "completedAt": "2026-03-12T01:30:44.746Z",
+      "providerTotals": {
+        "discovered": 68,
+        "returned": 68,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://clanker.gitbook.io/clanker-documentation",
+          "canonicalUrl": "https://clanker.gitbook.io/clanker-documentation",
+          "status": "valid"
+        }
+      ],
+      "id": "c61c42e2bc32336e82aab2a6a83997f439dd2ddd734cabe6b620cee01c8a50b6",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c84d93968afa9e189316418fd0c0615e78b39a9f13f599008a0bb5d7c1c7c134",
+      "filename": "documentation_2026-03-12T01:30:44.746Z.md",
+      "contentHash": "28f9ba054fc493e1882453ddfec11b89dab78750067c67d02d48b364e42caf60",
+      "sourceUrl": "https://clanker.gitbook.io/clanker-documentation",
+      "canonicalSourceUrl": "https://clanker.gitbook.io/clanker-documentation",
+      "capturedAt": "2026-03-12T01:30:44.746Z",
+      "crawlRunId": "c61c42e2bc32336e82aab2a6a83997f439dd2ddd734cabe6b620cee01c8a50b6",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 68,
+      "successfulPages": 68,
+      "structure": [
+        {
+          "type": "Introduction to Clanker | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation"
+        },
+        {
+          "type": "Changelog | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/changelog"
+        },
+        {
+          "type": "Token Deployments | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/general/token-deployments"
+        },
+        {
+          "type": "Educational Resources | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/general/educational-resources"
+        },
+        {
+          "type": "Legacy Fee Claims | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/general/legacy-fee-claims"
+        },
+        {
+          "type": "Creator Rewards & Fees | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/general/creator-rewards-and-fees"
+        },
+        {
+          "type": "Public | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/public"
+        },
+        {
+          "type": "FAQ | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/general/faq"
+        },
+        {
+          "type": "Alternative Interface Deployments | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/general/token-deployments/alternative-interface-deployments"
+        },
+        {
+          "type": "Clanker.world Warning Tags | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/general/clanker.world-warning-tags"
+        },
+        {
+          "type": "Farcaster Bot Deployments | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/general/token-deployments/farcaster-bot-deployments"
+        },
+        {
+          "type": "Preclank Deployments | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/general/token-deployments/preclank-deployments"
+        },
+        {
+          "type": "Clanker.world Deployments | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/general/token-deployments/clanker.world-deployments"
+        },
+        {
+          "type": "v3.1.0 | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/sdk/v3.1.0"
+        },
+        {
+          "type": "Quick Start | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/sdk/quick-start"
+        },
+        {
+          "type": "Quick Start | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/quick-start"
+        },
+        {
+          "type": "Get Paginated List of Tokens | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/public/get-paginated-list-of-tokens"
+        },
+        {
+          "type": "CLI | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/sdk/cli"
+        },
+        {
+          "type": "Get Tokens by Creator | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/public/get-tokens-by-creator"
+        },
+        {
+          "type": "Authenticated | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/authenticated"
+        },
+        {
+          "type": "[DEPRECATED] Get Estimated Rewards | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/authenticated/deprecated-get-estimated-rewards"
+        },
+        {
+          "type": "v4.0.0 | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/sdk/v4.0.0"
+        },
+        {
+          "type": "Core Contracts | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts"
+        },
+        {
+          "type": "[DEPRECATED] Get Uncollected Fees | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/authenticated/deprecated-get-uncollected-fees"
+        },
+        {
+          "type": "Brand Assets | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/brand-assets"
+        },
+        {
+          "type": "Core Team | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-team"
+        },
+        {
+          "type": "Fee Management Contracts | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/fee-management-contracts"
+        },
+        {
+          "type": "Index Token | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/authenticated/index-token"
+        },
+        {
+          "type": "ClankerFeeLocker | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/fee-management-contracts/clankerfeelocker"
+        },
+        {
+          "type": "Compatible Trading Platforms | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/compatible-trading-platforms"
+        },
+        {
+          "type": "ClankerLpLockerMultiple [Deprecated] | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/fee-management-contracts/clankerlplockermultiple-deprecated"
+        },
+        {
+          "type": "ClankerVault | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/extensions/clankervault"
+        },
+        {
+          "type": "Extensions | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/extensions"
+        },
+        {
+          "type": "Contact | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/contact"
+        },
+        {
+          "type": "ClankerUniv4EthDevBuy | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/extensions/clankeruniv4ethdevbuy"
+        },
+        {
+          "type": "ClankerLpLockerFeeConversion | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/fee-management-contracts/clankerlplockerfeeconversion"
+        },
+        {
+          "type": "Get Claimed Fees [beta] | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/authenticated/get-claimed-fees-beta"
+        },
+        {
+          "type": "v4 | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4"
+        },
+        {
+          "type": "Audits | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/audits"
+        },
+        {
+          "type": "ClankerAirdrop | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/extensions/clankerairdrop"
+        },
+        {
+          "type": "ClankerHook | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/clankerhook"
+        },
+        {
+          "type": "Get Tokens by Admin | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/authenticated/get-tokens-by-admin"
+        },
+        {
+          "type": "ClankerToken v3.1.0 and v4.0.0 | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/clankertoken-v3.1.0-and-v4.0.0"
+        },
+        {
+          "type": "Supported Quote Tokens | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/supported-quote-tokens"
+        },
+        {
+          "type": "ClankerHookStaticFee | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/clankerhook/clankerhookstaticfee"
+        },
+        {
+          "type": "ClankerAirdropV2 | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/extensions/clankerairdropv2"
+        },
+        {
+          "type": "ClankerPresaleAllowlist | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/extensions/clankerpresaleallowlist"
+        },
+        {
+          "type": "ClankerVault | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v3.1/clankervault"
+        },
+        {
+          "type": "ClankerHookDynamicFeeV2 | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/clankerhookv2/clankerhookdynamicfeev2"
+        },
+        {
+          "type": "v3.1 | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v3.1"
+        },
+        {
+          "type": "LpLockerv2 | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v3.1/lplockerv2"
+        },
+        {
+          "type": "ClankerMevModule2BlockDelay | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/mev-modules/clankermevmodule2blockdelay"
+        },
+        {
+          "type": "ClankerHookV2 | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/clankerhookv2"
+        },
+        {
+          "type": "ClankerHookStaticFeeV2 | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/clankerhookv2/clankerhookstaticfeev2"
+        },
+        {
+          "type": "Get Token by Address | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/authenticated/get-token-by-address"
+        },
+        {
+          "type": "ClankerPresaleEthToCreator | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/extensions/clankerpresaleethtocreator"
+        },
+        {
+          "type": "ClankerMevDescendingFees | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/mev-modules/clankermevdescendingfees"
+        },
+        {
+          "type": "ClankerHookDynamicFee | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/clankerhook/clankerhookdynamicfee"
+        },
+        {
+          "type": "Clanker (Direct Contract Deployments) | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v3.1/clanker-direct-contract-deployments"
+        },
+        {
+          "type": "Deployment Config | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/deployment-config"
+        },
+        {
+          "type": "Get Tokens Deployed by Address | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/authenticated/get-tokens-deployed-by-address"
+        },
+        {
+          "type": "Mev Modules | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/mev-modules"
+        },
+        {
+          "type": "Pool Extensions | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/clankerhookv2/pool-extensions"
+        },
+        {
+          "type": "Administrative Permissions | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/administrative-permissions"
+        },
+        {
+          "type": "ClankerSniperAuctionV0 | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/mev-modules/clankersniperauctionv0"
+        },
+        {
+          "type": "ClankerSniperAuctionV2 | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/core-contracts/v4/mev-modules/clankersniperauctionv2"
+        },
+        {
+          "type": "Deploy Token (v4.0.0) | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/authenticated/deploy-token-v4.0.0"
+        },
+        {
+          "type": "Deployed Contracts | Clanker Documentation",
+          "url": "https://clanker.gitbook.io/clanker-documentation/references/deployed-contracts"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "c84d93968afa9e189316418fd0c0615e78b39a9f13f599008a0bb5d7c1c7c134"
 }

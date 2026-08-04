@@ -92,5 +92,135 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://cointrendzbot.com/",
+      "canonicalSeedUrl": "https://cointrendzbot.com/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-23T23:41:08.989Z",
+      "completedAt": "2025-12-23T23:41:08.989Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://cointrendzbot.com/",
+          "canonicalUrl": "https://cointrendzbot.com/",
+          "status": "valid"
+        }
+      ],
+      "id": "d083dafef43c5bdb811238add75f1484d8db2fc13860026c5a27412731cc6b47",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "e4f36c6b110549b9191beaece14cd552b4b9d1343342b13538eee3f8e904a74b",
+      "filename": "documentation_2025-12-23T23:41:08.989Z.md",
+      "contentHash": "f16dda162788b4a977e75ec5300effed962da53843ef8a85ce58914b0f9029d6",
+      "sourceUrl": "https://cointrendzbot.com/",
+      "canonicalSourceUrl": "https://cointrendzbot.com/",
+      "capturedAt": "2025-12-23T23:41:08.989Z",
+      "crawlRunId": "d083dafef43c5bdb811238add75f1484d8db2fc13860026c5a27412731cc6b47",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "The Best, Most Feature-Rich Crypto Telegram Bot | CoinTrendzBot",
+          "url": "https://cointrendzbot.com/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/add"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/pro"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/features/"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/pricing"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/about"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/features/price"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/features/chart"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/features/trending"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/features/google"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/features/ta"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/features/sentiment"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/features/ideas"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/terms"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/privacy"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/crypto-discord-bot"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/advertise"
+        },
+        {
+          "type": "Just a moment...",
+          "url": "https://cointrendzbot.com/sentiment"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "e4f36c6b110549b9191beaece14cd552b4b9d1343342b13538eee3f8e904a74b"
 }

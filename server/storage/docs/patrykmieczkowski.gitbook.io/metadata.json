@@ -72,5 +72,115 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-2",
+      "canonicalSeedUrl": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-2",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-26T00:10:52.825Z",
+      "completedAt": "2025-02-26T00:10:52.825Z",
+      "providerTotals": {
+        "discovered": 13,
+        "returned": 13,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-2",
+          "canonicalUrl": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-2",
+          "status": "valid"
+        }
+      ],
+      "id": "43802246dc5193efa934f825dcff84e945fb4b5b0649a89a7aba6cd165147b72",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "64d445826c98a3c4b27cdde48c617a8922301f95bb8ee8dfb33802a05a1545a5",
+      "filename": "documentation_2025-02-26T00:10:52.825Z.md",
+      "contentHash": "9e85bf18ff926f9d6f219953817c89dae91d45f124a04dd573ce729434cc6552",
+      "sourceUrl": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-2",
+      "canonicalSourceUrl": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-2",
+      "capturedAt": "2025-02-26T00:10:52.825Z",
+      "crawlRunId": "43802246dc5193efa934f825dcff84e945fb4b5b0649a89a7aba6cd165147b72",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 13,
+      "successfulPages": 13,
+      "structure": [
+        {
+          "type": "Laboratorium 2 | Języki Skryptowe",
+          "url": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-2"
+        },
+        {
+          "type": "Laboratorium 3 | Języki Skryptowe",
+          "url": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-3"
+        },
+        {
+          "type": "Laboratorium 9 | Języki Skryptowe",
+          "url": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-9"
+        },
+        {
+          "type": "Laboratorium 12 | Języki Skryptowe",
+          "url": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-12"
+        },
+        {
+          "type": "Języki Skryptowe | Języki Skryptowe",
+          "url": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe"
+        },
+        {
+          "type": "Laboratorium 4 | Języki Skryptowe",
+          "url": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-4"
+        },
+        {
+          "type": "Laboratorium 7 | Języki Skryptowe",
+          "url": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-7"
+        },
+        {
+          "type": "Laboratorium 8 | Języki Skryptowe",
+          "url": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-8"
+        },
+        {
+          "type": "Laboratorium 1 | Języki Skryptowe",
+          "url": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-1"
+        },
+        {
+          "type": "Laboratorium 5 | Języki Skryptowe",
+          "url": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-5"
+        },
+        {
+          "type": "Laboratorium 10 | Języki Skryptowe",
+          "url": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-10"
+        },
+        {
+          "type": "Laboratorium 6 | Języki Skryptowe",
+          "url": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-6"
+        },
+        {
+          "type": "Laboratorium 11 | Języki Skryptowe",
+          "url": "https://patrykmieczkowski.gitbook.io/jezyki-skryptowe/laboratorium-11"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "64d445826c98a3c4b27cdde48c617a8922301f95bb8ee8dfb33802a05a1545a5"
 }

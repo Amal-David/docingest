@@ -100,5 +100,143 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://rbxcli.github.io/eUNC/api",
+      "canonicalSeedUrl": "https://rbxcli.github.io/eUNC/api",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-26T14:01:10.622Z",
+      "completedAt": "2026-02-26T14:01:10.622Z",
+      "providerTotals": {
+        "discovered": 20,
+        "returned": 20,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://rbxcli.github.io/eUNC/api",
+          "canonicalUrl": "https://rbxcli.github.io/eUNC/api",
+          "status": "valid"
+        }
+      ],
+      "id": "b19a5bc1b98a8f247865b2d6789b4f31b699c2b5d590a25f94a7760c89107e80",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "b9d9e5d0e21cf0cb89f43627112583a083aa6c51cbb282aa336e9ad4da5ec0e3",
+      "filename": "documentation_2026-02-26T14:01:10.622Z.md",
+      "contentHash": "a5ef56ed04694c124d1c8b95da74080b8574d248fa0a9401734c73914de65880",
+      "sourceUrl": "https://rbxcli.github.io/eUNC/api",
+      "canonicalSourceUrl": "https://rbxcli.github.io/eUNC/api",
+      "capturedAt": "2026-02-26T14:01:10.622Z",
+      "crawlRunId": "b19a5bc1b98a8f247865b2d6789b4f31b699c2b5d590a25f94a7760c89107e80",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 20,
+      "successfulPages": 20,
+      "structure": [
+        {
+          "type": "KeyCode | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api"
+        },
+        {
+          "type": "RbxCli | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/"
+        },
+        {
+          "type": "KeyCode | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api/KeyCode"
+        },
+        {
+          "type": "Introduction | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/docs/intro"
+        },
+        {
+          "type": "ProcessWriteResult | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api/ProcessWriteResult"
+        },
+        {
+          "type": "ProcessReadResult | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api/ProcessReadResult"
+        },
+        {
+          "type": "global | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api/global"
+        },
+        {
+          "type": "input | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api/input"
+        },
+        {
+          "type": "physics | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api/physics"
+        },
+        {
+          "type": "rendering | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api/rendering"
+        },
+        {
+          "type": "rbxcli | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api/rbxcli"
+        },
+        {
+          "type": "memory | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api/memory"
+        },
+        {
+          "type": "ProductInformation | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api/ProductInformation"
+        },
+        {
+          "type": "BasePart | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api/BasePart"
+        },
+        {
+          "type": "Security | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/docs/security"
+        },
+        {
+          "type": "RakNet IDs | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/docs/Roblox/NetworkIds"
+        },
+        {
+          "type": "DataModel | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api/DataModel"
+        },
+        {
+          "type": "Instance | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api/Instance"
+        },
+        {
+          "type": "LuaSourceContainer | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/api/LuaSourceContainer"
+        },
+        {
+          "type": "Yielding | RbxCli",
+          "url": "https://rbxcli.github.io/eUNC/docs/Luau%20VM/yielding"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "b9d9e5d0e21cf0cb89f43627112583a083aa6c51cbb282aa336e9ad4da5ec0e3"
 }

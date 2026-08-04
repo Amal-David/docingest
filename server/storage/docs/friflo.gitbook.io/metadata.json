@@ -92,5 +92,135 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://friflo.gitbook.io/friflo.engine.ecs",
+      "canonicalSeedUrl": "https://friflo.gitbook.io/friflo.engine.ecs",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-02-19T18:33:56.528Z",
+      "completedAt": "2026-02-19T18:33:56.528Z",
+      "providerTotals": {
+        "discovered": 18,
+        "returned": 18,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs",
+          "canonicalUrl": "https://friflo.gitbook.io/friflo.engine.ecs",
+          "status": "valid"
+        }
+      ],
+      "id": "e448060e7e12a677d99a60c51c38c61df955ef0722216df1c363bf1296563a37",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "039fdfd79fa95f07b7c93aaac2c0788dd78d0e19de1de70969af7527e2f0b6ef",
+      "filename": "documentation_2026-02-19T18:33:56.528Z.md",
+      "contentHash": "719f9e63b73719f91727003967027b53a2a824fd20979bc3ba6c4fdb88219341",
+      "sourceUrl": "https://friflo.gitbook.io/friflo.engine.ecs",
+      "canonicalSourceUrl": "https://friflo.gitbook.io/friflo.engine.ecs",
+      "capturedAt": "2026-02-19T18:33:56.528Z",
+      "crawlRunId": "e448060e7e12a677d99a60c51c38c61df955ef0722216df1c363bf1296563a37",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 18,
+      "successfulPages": 18,
+      "structure": [
+        {
+          "type": "Start | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs"
+        },
+        {
+          "type": "Query | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/documentation/query"
+        },
+        {
+          "type": "Events | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/documentation/events"
+        },
+        {
+          "type": "Relationships | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/documentation/relationships"
+        },
+        {
+          "type": "Index / Search | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/documentation/component-index"
+        },
+        {
+          "type": "Relations | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/documentation/relations"
+        },
+        {
+          "type": "Entity | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/documentation/entity"
+        },
+        {
+          "type": "Systems | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/documentation/systems"
+        },
+        {
+          "type": "Query Optimization | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/documentation/query-optimization"
+        },
+        {
+          "type": "Batch Operations | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/documentation/batch"
+        },
+        {
+          "type": "Library | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/project/package/library"
+        },
+        {
+          "type": "Package | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/project/package"
+        },
+        {
+          "type": "Native AOT | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/project/package/native-aot"
+        },
+        {
+          "type": "Unity Extension | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/project/unity-extension"
+        },
+        {
+          "type": "Features | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/project/package/features"
+        },
+        {
+          "type": "Release Notes | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/project/package/release-notes"
+        },
+        {
+          "type": "Entity | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/documentation"
+        },
+        {
+          "type": "Package | friflo ECS",
+          "url": "https://friflo.gitbook.io/friflo.engine.ecs/project"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "039fdfd79fa95f07b7c93aaac2c0788dd78d0e19de1de70969af7527e2f0b6ef"
 }

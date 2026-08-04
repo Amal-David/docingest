@@ -28,5 +28,71 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://support.crowdin.com/enterprise/crowdin-ai/",
+      "canonicalSeedUrl": "https://support.crowdin.com/enterprise/crowdin-ai",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-02T09:12:47.282Z",
+      "completedAt": "2025-12-02T09:12:47.282Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://support.crowdin.com/enterprise/crowdin-ai/",
+          "canonicalUrl": "https://support.crowdin.com/enterprise/crowdin-ai",
+          "status": "valid"
+        }
+      ],
+      "id": "66660f3f1992f5c65b7e0fd3353cab9112f9d13713dae6cb80ece48fdaf726fd",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "cda872a2c806230f8d31d3a561f36f1ed5e68e6f43335ab7b3c37dc925c883ab",
+      "filename": "documentation_2025-12-02T09:12:47.282Z.md",
+      "contentHash": "607ab9b7228f40ae4d1f1feb68a31eeadc28579ca0450119d3769c6d8cf90041",
+      "sourceUrl": "https://support.crowdin.com/enterprise/crowdin-ai/",
+      "canonicalSourceUrl": "https://support.crowdin.com/enterprise/crowdin-ai",
+      "capturedAt": "2025-12-02T09:12:47.282Z",
+      "crawlRunId": "66660f3f1992f5c65b7e0fd3353cab9112f9d13713dae6cb80ece48fdaf726fd",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Crowdin AI | Crowdin Docs",
+          "url": "https://support.crowdin.com/enterprise/crowdin-ai/"
+        },
+        {
+          "type": "Crowdin AI | Crowdin Docs",
+          "url": "https://support.crowdin.com/crowdin-ai/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "cda872a2c806230f8d31d3a561f36f1ed5e68e6f43335ab7b3c37dc925c883ab"
 }

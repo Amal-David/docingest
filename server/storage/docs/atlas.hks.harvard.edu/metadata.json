@@ -44,5 +44,87 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://atlas.hks.harvard.edu/data-downloads",
+      "canonicalSeedUrl": "https://atlas.hks.harvard.edu/data-downloads",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-06-18T21:28:13.971Z",
+      "completedAt": "2026-06-18T21:28:13.971Z",
+      "providerTotals": {
+        "discovered": 6,
+        "returned": 6,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://atlas.hks.harvard.edu/data-downloads",
+          "canonicalUrl": "https://atlas.hks.harvard.edu/data-downloads",
+          "status": "valid"
+        }
+      ],
+      "id": "9a90b7ff1f450f47261faa3d77dedfce092415ced045cba1da825d39b52fe10c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "2af6aad7edd2569e2ae73ede2a502c1783dd9a1d57d392c1d29e0c456d3e11cb",
+      "filename": "documentation_2026-06-18T21:28:13.971Z.md",
+      "contentHash": "b394e33759cfcf85e4adf8651b2f7ad861453e45f18898fdc91432819aed51b4",
+      "sourceUrl": "https://atlas.hks.harvard.edu/data-downloads",
+      "canonicalSourceUrl": "https://atlas.hks.harvard.edu/data-downloads",
+      "capturedAt": "2026-06-18T21:28:13.971Z",
+      "crawlRunId": "9a90b7ff1f450f47261faa3d77dedfce092415ced045cba1da825d39b52fe10c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 6,
+      "successfulPages": 6,
+      "structure": [
+        {
+          "type": "Data Downloads — The Atlas of Economic Complexity",
+          "url": "https://atlas.hks.harvard.edu/data-downloads"
+        },
+        {
+          "type": "The Atlas of Economic Complexity",
+          "url": "https://atlas.hks.harvard.edu/"
+        },
+        {
+          "type": "Glossary — The Atlas of Economic Complexity",
+          "url": "https://atlas.hks.harvard.edu/glossary"
+        },
+        {
+          "type": "FAQ — The Atlas of Economic Complexity",
+          "url": "https://atlas.hks.harvard.edu/faq"
+        },
+        {
+          "type": "About — The Atlas of Economic Complexity",
+          "url": "https://atlas.hks.harvard.edu/about"
+        },
+        {
+          "type": "Trade Data Methodology — The Atlas of Economic Complexity",
+          "url": "https://atlas.hks.harvard.edu/trade-data-methodology"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "2af6aad7edd2569e2ae73ede2a502c1783dd9a1d57d392c1d29e0c456d3e11cb"
 }

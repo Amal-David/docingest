@@ -272,5 +272,315 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://pandas-datareader.readthedocs.io/en/latest/#documentation",
+      "canonicalSeedUrl": "https://pandas-datareader.readthedocs.io/en/latest",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-11-22T15:23:47.023Z",
+      "completedAt": "2025-11-22T15:23:47.023Z",
+      "providerTotals": {
+        "discovered": 63,
+        "returned": 63,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/#documentation",
+          "canonicalUrl": "https://pandas-datareader.readthedocs.io/en/latest",
+          "status": "valid"
+        }
+      ],
+      "id": "a6bcf9c7a1b21de171e55ac64922aa9abf7e0baca0e984395dd13cc9e7907ad0",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1815a8d039f829efe1ef5463646999b52cbc5b47121059f90e6a8d2993666520",
+      "filename": "documentation_2025-11-22T15:23:47.023Z.md",
+      "contentHash": "bd2b12bcf70f8bd2e7639d6b966ab8d201e9993b155ad8ef7adfed6ab83fcfb4",
+      "sourceUrl": "https://pandas-datareader.readthedocs.io/en/latest/#documentation",
+      "canonicalSourceUrl": "https://pandas-datareader.readthedocs.io/en/latest",
+      "capturedAt": "2025-11-22T15:23:47.023Z",
+      "crawlRunId": "a6bcf9c7a1b21de171e55ac64922aa9abf7e0baca0e984395dd13cc9e7907ad0",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 63,
+      "successfulPages": 63,
+      "structure": [
+        {
+          "type": "pandas-datareader — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/#documentation"
+        },
+        {
+          "type": "pandas-datareader — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/"
+        },
+        {
+          "type": "Caching queries — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/cache.html"
+        },
+        {
+          "type": "Other Data Sources — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/see-also.html"
+        },
+        {
+          "type": "Remote Data Access — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/remote_data.html"
+        },
+        {
+          "type": "Caching queries — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/cache.html"
+        },
+        {
+          "type": "Remote Data Access — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/remote_data.html"
+        },
+        {
+          "type": "What’s New — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/whatsnew.html"
+        },
+        {
+          "type": "Data Readers — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/index.html"
+        },
+        {
+          "type": "Other Data Sources — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/see-also.html"
+        },
+        {
+          "type": "AlphaVantage — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/alphavantage.html"
+        },
+        {
+          "type": "Federal Reserve Economic Data (FRED) — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/fred.html"
+        },
+        {
+          "type": "Fama-French Data (Ken French’s Data Library) — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/famafrench.html"
+        },
+        {
+          "type": "Search — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/search.html"
+        },
+        {
+          "type": "Yahoo Finance — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/yahoo.html"
+        },
+        {
+          "type": "Bank of Canada — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/bank-of-canada.html"
+        },
+        {
+          "type": "Econdb — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/econdb.html"
+        },
+        {
+          "type": "The Investors Exchange (IEX) — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/iex.html"
+        },
+        {
+          "type": "Enigma — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/enigma.html"
+        },
+        {
+          "type": "Eurostat — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/eurostat.html"
+        },
+        {
+          "type": "Moscow Exchange (MOEX) — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/moex.html"
+        },
+        {
+          "type": "NASDAQ — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/nasdaq-trader.html"
+        },
+        {
+          "type": "Stooq.com — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/stooq.html"
+        },
+        {
+          "type": "Naver Finance — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/naver.html"
+        },
+        {
+          "type": "Quandl — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/quandl.html"
+        },
+        {
+          "type": "Organisation for Economic Co-operation and Development (OECD) — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/oecd.html"
+        },
+        {
+          "type": "World Bank — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/world-bank.html"
+        },
+        {
+          "type": "Thrift Savings Plan (TSP) — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/tsp.html"
+        },
+        {
+          "type": "Tiingo — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/readers/tiingo.html"
+        },
+        {
+          "type": "Index — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/genindex.html"
+        },
+        {
+          "type": "Python Module Index — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/py-modindex.html"
+        },
+        {
+          "type": "Python Module Index — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/py-modindex.html"
+        },
+        {
+          "type": "Search — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/latest/search.html"
+        },
+        {
+          "type": "What’s New — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/whatsnew.html"
+        },
+        {
+          "type": "pandas-datareader — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/"
+        },
+        {
+          "type": "Data Readers — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/index.html"
+        },
+        {
+          "type": "Index — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/genindex.html"
+        },
+        {
+          "type": "Yahoo Finance — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/yahoo.html"
+        },
+        {
+          "type": "AlphaVantage — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/alphavantage.html"
+        },
+        {
+          "type": "Federal Reserve Economic Data (FRED) — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/fred.html"
+        },
+        {
+          "type": "Fama-French Data (Ken French’s Data Library) — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/famafrench.html"
+        },
+        {
+          "type": "Bank of Canada — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/bank-of-canada.html"
+        },
+        {
+          "type": "Econdb — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/econdb.html"
+        },
+        {
+          "type": "Enigma — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/enigma.html"
+        },
+        {
+          "type": "Eurostat — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/eurostat.html"
+        },
+        {
+          "type": "The Investors Exchange (IEX) — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/iex.html"
+        },
+        {
+          "type": "Moscow Exchange (MOEX) — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/moex.html"
+        },
+        {
+          "type": "NASDAQ — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/nasdaq-trader.html"
+        },
+        {
+          "type": "Naver Finance — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/naver.html"
+        },
+        {
+          "type": "Quandl — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/quandl.html"
+        },
+        {
+          "type": "Organisation for Economic Co-operation and Development (OECD) — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/oecd.html"
+        },
+        {
+          "type": "Thrift Savings Plan (TSP) — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/tsp.html"
+        },
+        {
+          "type": "Stooq.com — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/stooq.html"
+        },
+        {
+          "type": "World Bank — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/world-bank.html"
+        },
+        {
+          "type": "Tiingo — pandas-datareader 0.10.0 documentation",
+          "url": "https://pandas-datareader.readthedocs.io/en/stable/readers/tiingo.html"
+        },
+        {
+          "type": "\n  Page not found\n - Read the Docs Community ",
+          "url": "https://pandas-datareader.readthedocs.io/cache.html"
+        },
+        {
+          "type": "\n  Page not found\n - Read the Docs Community ",
+          "url": "https://pandas-datareader.readthedocs.io/remote_data.html"
+        },
+        {
+          "type": "\n  Page not found\n - Read the Docs Community ",
+          "url": "https://pandas-datareader.readthedocs.io/see-also.html"
+        },
+        {
+          "type": "\n  Page not found\n - Read the Docs Community ",
+          "url": "https://pandas-datareader.readthedocs.io/readers/index.html"
+        },
+        {
+          "type": "\n  Page not found\n - Read the Docs Community ",
+          "url": "https://pandas-datareader.readthedocs.io/whatsnew.html"
+        },
+        {
+          "type": "\n  Page not found\n - Read the Docs Community ",
+          "url": "https://pandas-datareader.readthedocs.io/genindex.html"
+        },
+        {
+          "type": "\n  Page not found\n - Read the Docs Community ",
+          "url": "https://pandas-datareader.readthedocs.io/py-modindex.html"
+        },
+        {
+          "type": "\n  Page not found\n - Read the Docs Community ",
+          "url": "https://pandas-datareader.readthedocs.io/search.html"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1815a8d039f829efe1ef5463646999b52cbc5b47121059f90e6a8d2993666520"
 }

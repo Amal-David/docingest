@@ -250,5 +250,275 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.tradeonnova.io/",
+      "canonicalSeedUrl": "https://docs.tradeonnova.io/",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-07-15T03:43:58.862Z",
+      "completedAt": "2025-07-15T03:43:58.862Z",
+      "providerTotals": {
+        "discovered": 53,
+        "returned": 53,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.tradeonnova.io/",
+          "canonicalUrl": "https://docs.tradeonnova.io/",
+          "status": "valid"
+        }
+      ],
+      "id": "18b3665745b1ab0e1f41a1a13e817c83c3d2469b6d1da292d08477b4f1145514",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "69110420a87734bb0595b8f6ddfcccb64b07e20ad69398bbc4bc50c847b738e3",
+      "filename": "documentation_2025-07-15T03:43:58.862Z.md",
+      "contentHash": "7e5fb7c8e8a5779f380b2d95864aad68813eb1cb0e68cf9ff64fc79f0da9aaa2",
+      "sourceUrl": "https://docs.tradeonnova.io/",
+      "canonicalSourceUrl": "https://docs.tradeonnova.io/",
+      "capturedAt": "2025-07-15T03:43:58.862Z",
+      "crawlRunId": "18b3665745b1ab0e1f41a1a13e817c83c3d2469b6d1da292d08477b4f1145514",
+      "upstreamVersion": "1.2.0",
+      "upstreamChannel": "latest",
+      "totalPages": 53,
+      "successfulPages": 53,
+      "structure": [
+        {
+          "type": "Welcome to Nova | Nova",
+          "url": "https://docs.tradeonnova.io/"
+        },
+        {
+          "type": "Setting Up | Nova",
+          "url": "https://docs.tradeonnova.io/welcome/setting-up"
+        },
+        {
+          "type": "Default Wallet | Nova",
+          "url": "https://docs.tradeonnova.io/welcome/setting-up/default-wallet"
+        },
+        {
+          "type": "Deposit | Nova",
+          "url": "https://docs.tradeonnova.io/welcome/setting-up/deposit"
+        },
+        {
+          "type": "Multiple Wallets Support | Nova",
+          "url": "https://docs.tradeonnova.io/welcome/setting-up/multiple-wallets-support"
+        },
+        {
+          "type": "Importing Wallets | Nova",
+          "url": "https://docs.tradeonnova.io/welcome/setting-up/importing-wallets"
+        },
+        {
+          "type": "Waitlist | Nova",
+          "url": "https://docs.tradeonnova.io/welcome/waitlist"
+        },
+        {
+          "type": "Buy | Nova",
+          "url": "https://docs.tradeonnova.io/modules/buy"
+        },
+        {
+          "type": "FAQ | Nova",
+          "url": "https://docs.tradeonnova.io/welcome/faq"
+        },
+        {
+          "type": "Overview | Nova",
+          "url": "https://docs.tradeonnova.io/modules/overview"
+        },
+        {
+          "type": "Multi-Wallet Buy | Nova",
+          "url": "https://docs.tradeonnova.io/modules/buy/multi-wallet-buy"
+        },
+        {
+          "type": "Auto Buy | Nova",
+          "url": "https://docs.tradeonnova.io/modules/buy/auto-buy"
+        },
+        {
+          "type": "Selling | Nova",
+          "url": "https://docs.tradeonnova.io/modules/selling"
+        },
+        {
+          "type": "Normal Buy | Nova",
+          "url": "https://docs.tradeonnova.io/modules/buy/normal-buy"
+        },
+        {
+          "type": "Nova Click | Nova",
+          "url": "https://docs.tradeonnova.io/modules/nova-click"
+        },
+        {
+          "type": "Pump Fun Sniper | Nova",
+          "url": "https://docs.tradeonnova.io/modules/sniper/pump-fun-sniper"
+        },
+        {
+          "type": "Auto-Sell when Bonded | Nova",
+          "url": "https://docs.tradeonnova.io/modules/selling/auto-sell-when-bonded"
+        },
+        {
+          "type": "AFK | Nova",
+          "url": "https://docs.tradeonnova.io/modules/afk"
+        },
+        {
+          "type": "Buying | Nova",
+          "url": "https://docs.tradeonnova.io/modules/nova-click/buying"
+        },
+        {
+          "type": "Axiom Setup | Nova",
+          "url": "https://docs.tradeonnova.io/modules/nova-click/setting-up/axiom-setup"
+        },
+        {
+          "type": "Discord Sniper | Nova",
+          "url": "https://docs.tradeonnova.io/modules/nova-click/discord-sniper"
+        },
+        {
+          "type": "Migration Sniper | Nova",
+          "url": "https://docs.tradeonnova.io/modules/nova-click/migration-sniper"
+        },
+        {
+          "type": "Demon Mode | Nova",
+          "url": "https://docs.tradeonnova.io/modules/sniper/demon-mode"
+        },
+        {
+          "type": "BullX Neo | Nova",
+          "url": "https://docs.tradeonnova.io/modules/nova-click/chrome-extension-workaround/bullx-neo"
+        },
+        {
+          "type": "Selling | Nova",
+          "url": "https://docs.tradeonnova.io/modules/nova-click/selling"
+        },
+        {
+          "type": "Change Fee Settings | Nova",
+          "url": "https://docs.tradeonnova.io/modules/nova-click/panel/change-fee-settings"
+        },
+        {
+          "type": "\"Failed\" Issue when using Nova Click | Nova",
+          "url": "https://docs.tradeonnova.io/modules/nova-click/failed-issue-when-using-nova-click"
+        },
+        {
+          "type": "Setting Up | Nova",
+          "url": "https://docs.tradeonnova.io/modules/nova-click/setting-up"
+        },
+        {
+          "type": "Panel | Nova",
+          "url": "https://docs.tradeonnova.io/modules/nova-click/panel"
+        },
+        {
+          "type": "Overview | Nova",
+          "url": "https://docs.tradeonnova.io/configuration/overview"
+        },
+        {
+          "type": "Chrome Extension Workaround | Nova",
+          "url": "https://docs.tradeonnova.io/modules/nova-click/chrome-extension-workaround"
+        },
+        {
+          "type": "Copy Trade | Nova",
+          "url": "https://docs.tradeonnova.io/modules/copy-trade"
+        },
+        {
+          "type": "Slippage | Nova",
+          "url": "https://docs.tradeonnova.io/configuration/settings/slippage"
+        },
+        {
+          "type": "Limit Order | Nova",
+          "url": "https://docs.tradeonnova.io/modules/limit-order"
+        },
+        {
+          "type": "MEV Protect | Nova",
+          "url": "https://docs.tradeonnova.io/configuration/settings/mev-protect"
+        },
+        {
+          "type": "Quick Sell | Nova",
+          "url": "https://docs.tradeonnova.io/configuration/settings/quick-sell"
+        },
+        {
+          "type": "Sniper | Nova",
+          "url": "https://docs.tradeonnova.io/modules/sniper"
+        },
+        {
+          "type": "Fees | Nova",
+          "url": "https://docs.tradeonnova.io/configuration/settings/fees"
+        },
+        {
+          "type": "Regions | Nova",
+          "url": "https://docs.tradeonnova.io/configuration/regions"
+        },
+        {
+          "type": "Processor | Nova",
+          "url": "https://docs.tradeonnova.io/configuration/settings/processor"
+        },
+        {
+          "type": "Quick Buy | Nova",
+          "url": "https://docs.tradeonnova.io/configuration/settings/quick-buy"
+        },
+        {
+          "type": "Security Pin | Nova",
+          "url": "https://docs.tradeonnova.io/configuration/wallets/security-pin"
+        },
+        {
+          "type": "Settings | Nova",
+          "url": "https://docs.tradeonnova.io/configuration/settings"
+        },
+        {
+          "type": "Withdraw | Nova",
+          "url": "https://docs.tradeonnova.io/configuration/wallets/withdraw"
+        },
+        {
+          "type": "Overlay for Streamers | Nova",
+          "url": "https://docs.tradeonnova.io/branding/overlay-for-streamers"
+        },
+        {
+          "type": "TP & SL | Nova",
+          "url": "https://docs.tradeonnova.io/configuration/tp-and-sl"
+        },
+        {
+          "type": "Firefox Setup | Nova",
+          "url": "https://docs.tradeonnova.io/modules/nova-click/setting-up/firefox-setup"
+        },
+        {
+          "type": "Wallets | Nova",
+          "url": "https://docs.tradeonnova.io/configuration/wallets"
+        },
+        {
+          "type": "Nova Points | Nova",
+          "url": "https://docs.tradeonnova.io/earning-with-nova/nova-points"
+        },
+        {
+          "type": "Referrals | Nova",
+          "url": "https://docs.tradeonnova.io/earning-with-nova/referrals"
+        },
+        {
+          "type": "Branding | Nova",
+          "url": "https://docs.tradeonnova.io/branding"
+        },
+        {
+          "type": "TOS & Privacy Policy | Nova",
+          "url": "https://docs.tradeonnova.io/tos-and-privacy-policy"
+        },
+        {
+          "type": "Presets | Nova",
+          "url": "https://docs.tradeonnova.io/configuration/settings/presets"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "69110420a87734bb0595b8f6ddfcccb64b07e20ad69398bbc4bc50c847b738e3"
 }

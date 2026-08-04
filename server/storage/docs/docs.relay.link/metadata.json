@@ -216,5 +216,259 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.relay.link/what-is-relay",
+      "canonicalSeedUrl": "https://docs.relay.link/what-is-relay",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-02-03T03:21:57.042Z",
+      "completedAt": "2025-02-03T03:21:57.042Z",
+      "providerTotals": {
+        "discovered": 49,
+        "returned": 49,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.relay.link/what-is-relay",
+          "canonicalUrl": "https://docs.relay.link/what-is-relay",
+          "status": "valid"
+        }
+      ],
+      "id": "63c4c74e74d9c62e7e9f2eaa76d8367561f3ade6c678a05685f3f6c8be2297d5",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "87ce96b463a8a111b70d97bc4385a7e7847f3c53ae0270df975c9ec63072050f",
+      "filename": "documentation_2025-02-03T03:21:57.042Z.md",
+      "contentHash": "db472c0454c6d5ca4023fb0916778c8222af2871038e836da2af33b134e9cd7d",
+      "sourceUrl": "https://docs.relay.link/what-is-relay",
+      "canonicalSourceUrl": "https://docs.relay.link/what-is-relay",
+      "capturedAt": "2025-02-03T03:21:57.042Z",
+      "crawlRunId": "63c4c74e74d9c62e7e9f2eaa76d8367561f3ade6c678a05685f3f6c8be2297d5",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 49,
+      "successfulPages": 49,
+      "structure": [
+        {
+          "type": "What is Relay? - Relay",
+          "url": "https://docs.relay.link/what-is-relay"
+        },
+        {
+          "type": "API Overview - Relay",
+          "url": "https://docs.relay.link/references/api/overview"
+        },
+        {
+          "type": "Overview - Relay",
+          "url": "https://docs.relay.link/references/relay-kit/overview"
+        },
+        {
+          "type": "Getting Started - Relay",
+          "url": "https://docs.relay.link/references/sdk/getting-started"
+        },
+        {
+          "type": "Instant Bridging - Relay",
+          "url": "https://docs.relay.link/use-cases/instant-bridging"
+        },
+        {
+          "type": "Cross-Chain Execution - Relay",
+          "url": "https://docs.relay.link/use-cases/cross-chain-execution"
+        },
+        {
+          "type": "Bridging - Relay",
+          "url": "https://docs.relay.link/guides/bridging"
+        },
+        {
+          "type": "Testnet Support - Relay",
+          "url": "https://docs.relay.link/guides/testnet"
+        },
+        {
+          "type": "Swapping - Relay",
+          "url": "https://docs.relay.link/guides/swapping"
+        },
+        {
+          "type": "Solana Support - Relay",
+          "url": "https://docs.relay.link/guides/solana"
+        },
+        {
+          "type": "Relay Protocol - Relay",
+          "url": "https://docs.relay.link/how-it-works/relay-protocol"
+        },
+        {
+          "type": "The Reservoir Relayer - Relay",
+          "url": "https://docs.relay.link/how-it-works/the-reservoir-relayer"
+        },
+        {
+          "type": "Calling - Relay",
+          "url": "https://docs.relay.link/guides/calling"
+        },
+        {
+          "type": "Contract Compatibility - Relay",
+          "url": "https://docs.relay.link/how-it-works/contract-compatibility"
+        },
+        {
+          "type": "Swapping - Relay",
+          "url": "https://docs.relay.link/how-it-works/swapping"
+        },
+        {
+          "type": "Fees - Relay",
+          "url": "https://docs.relay.link/how-it-works/fees"
+        },
+        {
+          "type": "Refunds - Relay",
+          "url": "https://docs.relay.link/how-it-works/refunds"
+        },
+        {
+          "type": "Trade Types - Relay",
+          "url": "https://docs.relay.link/how-it-works/trade-types"
+        },
+        {
+          "type": "Surplus & Shortage - Relay",
+          "url": "https://docs.relay.link/how-it-works/surplus-and-shortage"
+        },
+        {
+          "type": "Supported Chains - Relay",
+          "url": "https://docs.relay.link/resources/supported-chains"
+        },
+        {
+          "type": "Contract Addresses - Relay",
+          "url": "https://docs.relay.link/resources/contract-addresses"
+        },
+        {
+          "type": "Bounties - Relay",
+          "url": "https://docs.relay.link/resources/bounties"
+        },
+        {
+          "type": "Handling Errors - Relay",
+          "url": "https://docs.relay.link/references/api/handling-errors"
+        },
+        {
+          "type": "Brand Assets - Relay",
+          "url": "https://docs.relay.link/resources/brand-assets"
+        },
+        {
+          "type": "Getting Started - Relay",
+          "url": "https://docs.relay.link/references/relay-kit/hooks/getting-started"
+        },
+        {
+          "type": "Get Chains - Relay",
+          "url": "https://docs.relay.link/references/api/get-chains"
+        },
+        {
+          "type": "Step Execution Overview - Relay",
+          "url": "https://docs.relay.link/references/api/step-execution"
+        },
+        {
+          "type": "createClient - Relay",
+          "url": "https://docs.relay.link/references/sdk/createClient"
+        },
+        {
+          "type": "Getting Started - Relay",
+          "url": "https://docs.relay.link/references/relay-kit/ui/getting-started"
+        },
+        {
+          "type": "Get Config - Relay",
+          "url": "https://docs.relay.link/references/api/get-config"
+        },
+        {
+          "type": "Get Execution Status - Relay",
+          "url": "https://docs.relay.link/references/api/get-intents-status-v2"
+        },
+        {
+          "type": "Adapters - Relay",
+          "url": "https://docs.relay.link/references/sdk/adapters"
+        },
+        {
+          "type": "Get Requests - Relay",
+          "url": "https://docs.relay.link/references/api/get-requests"
+        },
+        {
+          "type": "Get Currencies - Relay",
+          "url": "https://docs.relay.link/references/api/get-currencies"
+        },
+        {
+          "type": "Get Token Price - Relay",
+          "url": "https://docs.relay.link/references/api/get-token-price"
+        },
+        {
+          "type": "Typescript API Typings - Relay",
+          "url": "https://docs.relay.link/references/sdk/api-types"
+        },
+        {
+          "type": "Get Price - Relay",
+          "url": "https://docs.relay.link/references/api/get-price"
+        },
+        {
+          "type": "Get Quote - Relay",
+          "url": "https://docs.relay.link/references/api/get-quote"
+        },
+        {
+          "type": "Transactions Index - Relay",
+          "url": "https://docs.relay.link/references/api/transactions-index"
+        },
+        {
+          "type": "Get Transactions Status - Relay",
+          "url": "https://docs.relay.link/references/api/get-transactions-status"
+        },
+        {
+          "type": "Swap Multi-Input - Relay",
+          "url": "https://docs.relay.link/references/api/swap-multi-input"
+        },
+        {
+          "type": "getPrice - Relay",
+          "url": "https://docs.relay.link/references/sdk/actions/getPrice"
+        },
+        {
+          "type": "usePrice - Relay",
+          "url": "https://docs.relay.link/references/relay-kit/hooks/usePrice"
+        },
+        {
+          "type": "getQuote - Relay",
+          "url": "https://docs.relay.link/references/sdk/actions/getQuote"
+        },
+        {
+          "type": "ERC-4337 - Relay",
+          "url": "https://docs.relay.link/guides/erc-4337"
+        },
+        {
+          "type": "Just-In-Time Gas - Relay",
+          "url": "https://docs.relay.link/guides/just-in-time-gas"
+        },
+        {
+          "type": "useQuote - Relay",
+          "url": "https://docs.relay.link/references/relay-kit/hooks/useQuote"
+        },
+        {
+          "type": "Overview - Relay",
+          "url": "https://docs.relay.link/references/overview"
+        },
+        {
+          "type": "useRelayChains - Relay",
+          "url": "https://docs.relay.link/references/relay-kit/hooks/useRelayChains"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "87ce96b463a8a111b70d97bc4385a7e7847f3c53ae0270df975c9ec63072050f"
 }

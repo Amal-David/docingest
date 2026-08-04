@@ -48,5 +48,91 @@
       "label": "latest"
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://docs.lightning.engineering/the-lightning-network/taproot-assets",
+      "canonicalSeedUrl": "https://docs.lightning.engineering/the-lightning-network/taproot-assets",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-03-21T16:22:47.649Z",
+      "completedAt": "2025-03-21T16:22:47.649Z",
+      "providerTotals": {
+        "discovered": 7,
+        "returned": 7,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.lightning.engineering/the-lightning-network/taproot-assets",
+          "canonicalUrl": "https://docs.lightning.engineering/the-lightning-network/taproot-assets",
+          "status": "valid"
+        }
+      ],
+      "id": "96d2ad566368d93b8f7918c64a6218f97b78142e3d6716e8357919f7fad39cd7",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "00d95e6e28e51304933da16fb380f179446cbcdb26d7093371007150073738b1",
+      "filename": "documentation_2025-03-21T16:22:47.649Z.md",
+      "contentHash": "b0369b80cdafb98f21cf98a12895b43570523b9ece1d5f070bed464272fcd5db",
+      "sourceUrl": "https://docs.lightning.engineering/the-lightning-network/taproot-assets",
+      "canonicalSourceUrl": "https://docs.lightning.engineering/the-lightning-network/taproot-assets",
+      "capturedAt": "2025-03-21T16:22:47.649Z",
+      "crawlRunId": "96d2ad566368d93b8f7918c64a6218f97b78142e3d6716e8357919f7fad39cd7",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 7,
+      "successfulPages": 7,
+      "structure": [
+        {
+          "type": "Taproot Assets | Builder's Guide",
+          "url": "https://docs.lightning.engineering/the-lightning-network/taproot-assets"
+        },
+        {
+          "type": "Taproot Assets Protocol | Builder's Guide",
+          "url": "https://docs.lightning.engineering/the-lightning-network/taproot-assets/taproot-assets-protocol"
+        },
+        {
+          "type": "Edge Nodes | Builder's Guide",
+          "url": "https://docs.lightning.engineering/the-lightning-network/taproot-assets/edge-nodes"
+        },
+        {
+          "type": "FAQ | Builder's Guide",
+          "url": "https://docs.lightning.engineering/the-lightning-network/taproot-assets/faq"
+        },
+        {
+          "type": "Glossary | Builder's Guide",
+          "url": "https://docs.lightning.engineering/the-lightning-network/taproot-assets/glossary"
+        },
+        {
+          "type": "Taproot Assets on Lightning | Builder's Guide",
+          "url": "https://docs.lightning.engineering/the-lightning-network/taproot-assets/taproot-assets-on-lightning"
+        },
+        {
+          "type": "Taproot Assets Trustless Swap | Builder's Guide",
+          "url": "https://docs.lightning.engineering/the-lightning-network/taproot-assets/trustless-swap"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "00d95e6e28e51304933da16fb380f179446cbcdb26d7093371007150073738b1"
 }

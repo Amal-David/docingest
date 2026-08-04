@@ -28,5 +28,71 @@
       "isLatest": true
     }
   ],
-  "schemaVersion": 2
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://app.gitbook.com/join",
+      "canonicalSeedUrl": "https://app.gitbook.com/join",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2026-07-13T08:45:24.720Z",
+      "completedAt": "2026-07-13T08:45:24.720Z",
+      "providerTotals": {
+        "discovered": 2,
+        "returned": 2,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://app.gitbook.com/join",
+          "canonicalUrl": "https://app.gitbook.com/join",
+          "status": "valid"
+        }
+      ],
+      "id": "72594b3ec97356dd2a4c91e48fea3839d00864801fcccc32ed8ca272395273e2",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "49b7843eccfa0d3b9a5a4bfa7d2580f56c16fcd79b45c56892018891bdc96212",
+      "filename": "documentation_2026-07-13T08:45:24.720Z.md",
+      "contentHash": "ed12b063d1a0028c703ce60dae674405a45f41ed742d531d66a0de13712b66cb",
+      "sourceUrl": "https://app.gitbook.com/join",
+      "canonicalSourceUrl": "https://app.gitbook.com/join",
+      "capturedAt": "2026-07-13T08:45:24.720Z",
+      "crawlRunId": "72594b3ec97356dd2a4c91e48fea3839d00864801fcccc32ed8ca272395273e2",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 2,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Join GitBook - GitBook",
+          "url": "https://app.gitbook.com/join"
+        },
+        {
+          "type": "Join GitBook - GitBook",
+          "url": "https://app.gitbook.com/"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "49b7843eccfa0d3b9a5a4bfa7d2580f56c16fcd79b45c56892018891bdc96212"
 }
