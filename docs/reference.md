@@ -63,9 +63,23 @@ Common routes:
 - `GET /api/docs/content`
 - `GET /api/docs/domain/:domain?topic=hooks&maxTokens=5000`
 - `GET /api/docs/download`
+- `GET /api/docs/markdown/:domain` for the latest approved snapshot as raw Markdown
+- `GET /api/sitemap.xml` for the live corpus, covering both human pages and `.md` URLs
+- `GET /api/indexnow/status` to check whether IndexNow is configured
+- `POST /api/indexnow/submit-sitemap` to submit the current public sitemap URLs to IndexNow
 - `POST /api/docs/save`
 
 The app also exposes crawl and admin endpoints used by the UI.
+
+### Public agent-readable paths
+
+The frontend proxies a small set of clean public paths to the backend routes above, so agents and crawlers do not need to know the `/api` layout:
+
+- `GET /markdown/:domain.md` → `/api/docs/markdown/:domain`, served as `text/plain` with inline, bot-friendly headers and an HTTP canonical pointing at the human document page
+- `GET /sitemap.xml` → `/api/sitemap.xml`
+- `GET /:key.txt` → `/api/indexnow/key/:key`, for IndexNow key verification
+
+Only the approved current snapshot for a domain is served on these paths. A domain whose snapshots are all quarantined returns nothing rather than falling back to unverified content.
 
 ## Deployment Shape
 
