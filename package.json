@@ -64,6 +64,8 @@
     "test:acceptance": "tsx server/lib/crawl-acceptance.test.ts",
     "test:audit": "tsx server/scripts/audit-corpus-integrity.test.ts",
     "test:storage-paths": "tsx server/lib/storage-paths.test.ts",
+    "test:ai-readable": "node --import tsx --test server/lib/ai-readable.test.ts",
+    "test:indexnow": "node --import tsx --test server/lib/indexnow.test.ts",
     "test:agent-discovery": "node --import tsx --test src/agent-discovery.test.ts src/utils/webmcp.test.ts src/frontend-static-server.test.ts",
     "eject": "react-scripts eject",
     "server": "tsx server/server.ts",

@@ -66,6 +66,12 @@ import {
   resolveSafeSnapshotPath,
 } from './lib/storage-paths';
 import {
+  startCrawl,
+  getCrawlStatus,
+  isCloudflareConfigured,
+  isValidCrawlId,
+} from './lib/cloudflare-crawl';
+import {
   startFirecrawlCrawl,
   getFirecrawlCrawlStatus,
   isFirecrawlConfigured,
@@ -73,8 +79,24 @@ import {
   type CrawlStartRequest,
   type CrawlStatusResponse,
 } from './lib/firecrawl-crawl';
+import {
+  buildPublicSitemapUrls,
+  generateSitemapXml,
+  getMarkdownResponseHeaders,
+  isSafePublicDomain,
+  loadPublicMarkdown,
+  publicMarkdownPath,
+  type PublicSitemapDomain,
+} from './lib/ai-readable';
+import {
+  getIndexNowConfig,
+  isIndexNowKeyFileRequest,
+  submitIndexNowUrls,
+  type IndexNowSubmissionResult,
+} from './lib/indexnow';
 const app = express();
 const PORT = process.env.PORT || 8001;
+const CRAWL_PROVIDER = (process.env.CRAWL_PROVIDER || 'firecrawl').toLowerCase();
 
 interface CrawlJobState {
   provider: string;
@@ -150,14 +172,6 @@ function checkRateLimit(ip: string, file: string): boolean {
   entry.count++;
   entry.last = now;
   return entry.count > RATE_LIMIT;
-}
-
-// Define SitemapUrl interface
-interface SitemapUrl {
-  url: string;
-  changefreq?: string;
-  priority?: number;
-  lastmod?: string;
 }
 
 // Define sortDocs function
@@ -306,108 +320,135 @@ const mergeExistingFiles = async (domainPath: string) => {
   }
 };
 
-app.get('/api/sitemap/generate', async (req, res) => {
-  try {
-      const baseUrl = 'https://docingest.com';
-      const domains = await fs.readdir(STORAGE_PATH);
-      const totalDomains = domains.length;
-      let processedDomains = 0;
-      
-      // Static pages with high priority
-      const staticPages = [
-          {
-              url: `${baseUrl}/`,
-              changefreq: 'daily',
-              priority: 1.0,
-              lastmod: new Date().toISOString()
-          },
-          {
-              url: `${baseUrl}/view`,
-              changefreq: 'daily',
-              priority: 0.9,
-              lastmod: new Date().toISOString()
-          }
-      ];
+const PUBLIC_BASE_URL = (process.env.PUBLIC_BASE_URL || 'https://docingest.com').replace(/\/+$/, '');
+const INDEXNOW_CONFIG = getIndexNowConfig(PUBLIC_BASE_URL, process.env.INDEXNOW_KEY);
+const SITEMAP_CACHE_TTL = 15 * 60 * 1000;
+let sitemapCache: { xml: string; totalDomains: number; generatedAt: number } | null = null;
+let sitemapRefreshPromise: Promise<{ xml: string; totalDomains: number; generatedAt: number }> | null = null;
 
-      const sitemapUrls: Array<{
-          url: string;
-          changefreq: string;
-          priority: number;
-          lastmod?: string;
-      }> = [...staticPages];
+async function collectPublicSitemapDomains(): Promise<PublicSitemapDomain[]> {
+  const domains = await fs.readdir(STORAGE_PATH);
+  const entries: PublicSitemapDomain[] = [];
 
-      // Process domains in batches
-      for (let i = 0; i < totalDomains; i += BATCH_SIZE) {
-          const batch = domains.slice(i, i + BATCH_SIZE);
-          
-          for (const domain of batch) {
-              const domainPath = path.join(STORAGE_PATH, domain);
-              const metadataPath = path.join(domainPath, 'metadata.json');
-              
-              if (await fs.pathExists(metadataPath)) {
-                  const metadata = await fs.readJSON(metadataPath) as DomainMetadata;
-                  const approvedSnapshot = checkHasVersioning(metadata)
-                    ? getApprovedSnapshot(metadata)
-                    : undefined;
-                  if (!checkHasVersioning(metadata) || metadata.schemaVersion !== 3 || !approvedSnapshot) {
-                      continue;
-                  }
-                  const lastScraped = approvedSnapshot?.capturedAt || metadata.lastScraped || (metadata as any).lastUpdated;
-                  const lastmod = lastScraped ? new Date(lastScraped).toISOString() : undefined;
-                  
-                  // Calculate priority based on:
-                  // - Total pages (more pages = higher priority)
-                  // - Recency (recently updated = higher priority)
-                  let priority = 0.7; // Base priority
-                  
-                  if (metadata.totalPages) {
-                      if (metadata.totalPages > 100) priority = 0.9;
-                      else if (metadata.totalPages > 50) priority = 0.8;
-                      else if (metadata.totalPages > 20) priority = 0.75;
-                  }
-                  
-                  // Boost priority for recently updated docs
-                  if (lastmod) {
-                      const daysSinceUpdate = (Date.now() - new Date(lastmod).getTime()) / (1000 * 60 * 60 * 24);
-                      if (daysSinceUpdate < 7) priority += 0.1;
-                      else if (daysSinceUpdate < 30) priority += 0.05;
-                  }
-                  
-                  // Cap priority at 0.9 (keep homepage at 1.0)
-                  priority = Math.min(0.9, priority);
-                  
-                  // Determine changefreq based on update recency
-                  let changefreq = 'monthly';
-                  if (lastmod) {
-                      const daysSinceUpdate = (Date.now() - new Date(lastmod).getTime()) / (1000 * 60 * 60 * 24);
-                      if (daysSinceUpdate < 7) changefreq = 'daily';
-                      else if (daysSinceUpdate < 30) changefreq = 'weekly';
-                      else if (daysSinceUpdate < 90) changefreq = 'monthly';
-                  }
-                  
-                  sitemapUrls.push({
-                      url: `${baseUrl}/docs/${domain}`,
-                      changefreq,
-                      priority: Math.round(priority * 10) / 10, // Round to 1 decimal
-                      lastmod
-                  });
-              }
-              processedDomains++;
-          }
+  for (const domain of domains) {
+    if (!isSafePublicDomain(domain)) continue;
+
+    const metadataPath = path.join(STORAGE_PATH, domain, 'metadata.json');
+    if (!await fs.pathExists(metadataPath)) continue;
+
+    try {
+      const metadata = await fs.readJSON(metadataPath) as DomainMetadata;
+      const approvedSnapshot = checkHasVersioning(metadata)
+        ? getApprovedSnapshot(metadata)
+        : undefined;
+      if (!checkHasVersioning(metadata) || metadata.schemaVersion !== 3 || !approvedSnapshot) {
+        continue;
       }
-
-      // Sort by priority (descending) for better SEO
-      sitemapUrls.sort((a, b) => (b.priority || 0) - (a.priority || 0));
-
-      // Generate sitemap XML
-      const sitemapContent = generateSitemapXML(sitemapUrls);
-      res.type('application/xml').send(sitemapContent);
-  } catch (error) {
-      console.error('Sitemap generation error:', error);
-      res.status(500).json({ 
-          success: false, 
-          error: 'Failed to generate sitemap' 
+      const rawLastmod = approvedSnapshot.capturedAt;
+      const lastmodDate = rawLastmod ? new Date(rawLastmod) : null;
+      entries.push({
+        domain,
+        lastmod: lastmodDate && Number.isFinite(lastmodDate.getTime())
+          ? lastmodDate.toISOString()
+          : undefined,
       });
+    } catch (error) {
+      console.error(`Skipping invalid sitemap metadata for ${domain}:`, error);
+    }
+  }
+
+  return entries;
+}
+
+async function refreshPublicSitemap(force = false) {
+  if (!force && sitemapCache && Date.now() - sitemapCache.generatedAt < SITEMAP_CACHE_TTL) {
+    return sitemapCache;
+  }
+
+  if (sitemapRefreshPromise) return sitemapRefreshPromise;
+
+  sitemapRefreshPromise = (async () => {
+    const domains = await collectPublicSitemapDomains();
+    const urls = buildPublicSitemapUrls(PUBLIC_BASE_URL, domains);
+    const refreshed = {
+      xml: generateSitemapXml(urls),
+      totalDomains: domains.length,
+      generatedAt: Date.now(),
+    };
+    sitemapCache = refreshed;
+    return refreshed;
+  })();
+
+  try {
+    return await sitemapRefreshPromise;
+  } finally {
+    sitemapRefreshPromise = null;
+  }
+}
+
+async function submitPublicSitemapToIndexNow(): Promise<IndexNowSubmissionResult> {
+  const domains = await collectPublicSitemapDomains();
+  const urls = buildPublicSitemapUrls(PUBLIC_BASE_URL, domains);
+  return submitIndexNowUrls(urls.map(entry => entry.url), INDEXNOW_CONFIG);
+}
+
+async function submitDomainToIndexNow(domain: string): Promise<IndexNowSubmissionResult> {
+  return submitIndexNowUrls([
+    `${PUBLIC_BASE_URL}/docs/${domain}`,
+    `${PUBLIC_BASE_URL}${publicMarkdownPath(domain)}`,
+  ], INDEXNOW_CONFIG);
+}
+
+app.get('/api/indexnow/status', (_req, res) => {
+  res.json({
+    configured: Boolean(INDEXNOW_CONFIG),
+    keyLocation: INDEXNOW_CONFIG?.keyLocation,
+    endpoint: 'https://api.indexnow.org/indexnow',
+  });
+});
+
+app.get('/api/indexnow/key/:keyFile', (req, res) => {
+  if (!isIndexNowKeyFileRequest(req.params.keyFile, INDEXNOW_CONFIG)) {
+    return res.status(404).type('text/plain').send('Not found');
+  }
+
+  res.setHeader('Content-Type', 'text/plain; charset=utf-8');
+  res.setHeader('Cache-Control', 'public, max-age=3600');
+  res.send(INDEXNOW_CONFIG!.key);
+});
+
+app.post('/api/indexnow/submit-sitemap', async (_req, res) => {
+  const result = await submitPublicSitemapToIndexNow();
+  res.status(result.accepted || result.submitted === false ? 200 : 502).json(result);
+});
+
+app.get('/api/sitemap.xml', async (_req, res) => {
+  try {
+    const sitemap = await refreshPublicSitemap();
+    res.setHeader('Content-Type', 'application/xml; charset=utf-8');
+    res.setHeader('Cache-Control', 'public, max-age=300, stale-while-revalidate=3600');
+    res.send(sitemap.xml);
+  } catch (error) {
+    console.error('Sitemap delivery error:', error);
+    res.status(500).json({ success: false, error: 'Failed to generate sitemap' });
+  }
+});
+
+app.get('/api/sitemap/generate', async (_req, res) => {
+  try {
+    const sitemap = await refreshPublicSitemap(true);
+    const indexNow = await submitPublicSitemapToIndexNow();
+    res.json({
+      success: true,
+      processedDomains: sitemap.totalDomains,
+      totalDomains: sitemap.totalDomains,
+      totalUrls: (sitemap.totalDomains * 2) + 2,
+      sitemapUrl: `${PUBLIC_BASE_URL}/sitemap.xml`,
+      indexNow,
+    });
+  } catch (error) {
+    console.error('Sitemap generation error:', error);
+    res.status(500).json({ success: false, error: 'Failed to generate sitemap' });
   }
 });
 
@@ -687,6 +728,29 @@ app.post('/api/docs/save', async (req, res) => {
     await syncApprovedSnapshotIndex(domain, updatedMetadata, snapshot.id, fullContent);
     if (crawlId) crawlJobs.delete(crawlId);
 
+    let markdownUrl: string | null = null;
+    let sitemapUpdated = false;
+    let sitemapError: string | undefined;
+    let indexNow: IndexNowSubmissionResult | undefined;
+
+    if (isSafePublicDomain(domain)) {
+      markdownUrl = `${PUBLIC_BASE_URL}${publicMarkdownPath(domain)}`;
+      try {
+        await refreshPublicSitemap(true);
+        sitemapUpdated = true;
+        indexNow = await submitDomainToIndexNow(domain);
+        if (indexNow.error) {
+          console.error(`Documentation saved for ${domain}, but IndexNow reported: ${indexNow.error}`);
+        }
+      } catch (error) {
+        sitemapError = error instanceof Error ? error.message : 'Unknown sitemap error';
+        console.error(`Documentation saved for ${domain}, but sitemap refresh failed:`, error);
+      }
+    } else {
+      sitemapError = 'Domain is not safe for a public Markdown URL';
+      console.error(`Documentation saved for ${domain}, but no public Markdown URL was created`);
+    }
+
     res.json({
       success: true,
       filePath,
@@ -698,6 +762,10 @@ app.post('/api/docs/save', async (req, res) => {
       crawlRunId: crawlRun.id,
       acceptedPages: successfulPages,
       quality: snapshot.quality,
+      markdownUrl,
+      sitemapUpdated,
+      ...(indexNow ? { indexNow } : {}),
+      ...(sitemapError ? { sitemapError } : {}),
     });
   } catch (error) {
     console.error('Save error:', error);
@@ -793,6 +861,7 @@ app.get('/api/docs/list/all', async (req, res) => {
 
     console.log(`Returning ${paginatedDocs.length} documents for page ${page}`);
 
+    await refreshPublicSitemap(true);
     res.json({ 
       docs: paginatedDocs,
       urls: paginatedUrls,
@@ -807,33 +876,6 @@ app.get('/api/docs/list/all', async (req, res) => {
     res.status(500).json({ success: false, error: 'Failed to list documentation' });
   }
 });
-
-
-const BATCH_SIZE = 100; // Process 100 domains at a time
-
-
-
-function generateSitemapXML(urls: Array<{
-    url: string;
-    changefreq: string;
-    priority: number;
-    lastmod?: string;
-}>): string {
-    const urlElements = urls.map(entry => {
-        const lastmod = entry.lastmod ? `\n            <lastmod>${entry.lastmod}</lastmod>` : '';
-        return `
-        <url>
-            <loc>${entry.url}</loc>
-            <changefreq>${entry.changefreq}</changefreq>
-            <priority>${entry.priority}</priority>${lastmod}
-        </url>`;
-    }).join('');
-
-    return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urlElements}
-</urlset>`;
-}
-
 
 
 app.get('/api/docs/list', async (req, res) => {
@@ -1172,6 +1214,38 @@ app.get('/api/docs/search', async (req, res) => {
   } catch (error) {
     console.error('Search error:', error);
     res.status(500).json({ success: false, error: 'Failed to perform search' });
+  }
+});
+
+// Public, bot-friendly Markdown for the latest stored version of a domain.
+app.get('/api/docs/markdown/:domain', async (req, res) => {
+  try {
+    const document = await loadPublicMarkdown(STORAGE_PATH, req.params.domain);
+    if (!document) {
+      return res.status(404).json({ error: 'Documentation not found' });
+    }
+
+    const headers = getMarkdownResponseHeaders(document, PUBLIC_BASE_URL);
+    for (const [name, value] of Object.entries(headers)) {
+      res.setHeader(name, value);
+    }
+
+    if (req.headers['if-none-match'] === document.etag) {
+      return res.status(304).end();
+    }
+
+    const ifModifiedSince = req.headers['if-modified-since'];
+    if (ifModifiedSince) {
+      const clientMtime = new Date(ifModifiedSince).getTime();
+      if (Number.isFinite(clientMtime) && clientMtime >= Math.floor(document.mtimeMs / 1000) * 1000) {
+        return res.status(304).end();
+      }
+    }
+
+    res.send(document.content);
+  } catch (error) {
+    console.error('Public Markdown delivery error:', error);
+    res.status(500).json({ error: 'Failed to read documentation' });
   }
 });
 
@@ -1913,18 +1987,28 @@ app.get('/api/admin/cache/stats', async (req, res) => {
 // CRAWL PROXY ENDPOINTS
 // ============================================================================
 
+function isCrawlProviderConfigured(): boolean {
+  return CRAWL_PROVIDER === 'firecrawl' ? isFirecrawlConfigured() : isCloudflareConfigured();
+}
+
+function isValidProviderCrawlId(id: string): boolean {
+  return CRAWL_PROVIDER === 'firecrawl' ? isValidFirecrawlCrawlId(id) : isValidCrawlId(id);
+}
+
 /**
  * POST /api/crawl/start
- * Start a crawl job via Firecrawl.
+ * Start a crawl job via the configured crawl provider.
  * Returns { success, id } matching the Firecrawl-shaped frontend contract.
  */
 app.post('/api/crawl/start', async (req, res) => {
   try {
     pruneExpiredCrawlJobs();
-    if (!isFirecrawlConfigured()) {
+    if (!isCrawlProviderConfigured()) {
       res.status(503).json({
         success: false,
-        error: 'Crawl service not configured. Set FIRECRAWL_API_URL or FIRECRAWL_API_KEY.',
+        error: CRAWL_PROVIDER === 'firecrawl'
+          ? 'Crawl service not configured. Set FIRECRAWL_API_KEY (hosted) or FIRECRAWL_API_URL (self-hosted), then restart the backend.'
+          : 'Crawl service not configured. Set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID, then restart the backend.',
       });
       return;
     }
@@ -1936,13 +2020,14 @@ app.post('/api/crawl/start', async (req, res) => {
       return;
     }
 
-    console.log(`[crawl-proxy] Starting crawl for: ${body.url}`, JSON.stringify({ limit: body.limit, maxDepth: body.maxDepth, includePaths: body.includePaths, excludePaths: body.excludePaths }));
-    const result = await startFirecrawlCrawl(body);
-    console.log(`[crawl-proxy] Start result:`, JSON.stringify(result));
+    console.log(`[crawl-proxy] Starting ${CRAWL_PROVIDER} crawl for: ${body.url}`);
+    const result = CRAWL_PROVIDER === 'firecrawl'
+      ? await startFirecrawlCrawl(body)
+      : await startCrawl(body);
 
     if (result.success && result.id) {
       crawlJobs.set(result.id, {
-        provider: 'firecrawl',
+        provider: CRAWL_PROVIDER,
         request: body,
         startedAt: new Date().toISOString(),
       });
@@ -1966,12 +2051,14 @@ app.get('/api/crawl/status/:id', async (req, res) => {
     pruneExpiredCrawlJobs();
     const { id } = req.params;
 
-    if (!id || !isValidFirecrawlCrawlId(id)) {
+    if (!id || !isValidProviderCrawlId(id)) {
       res.status(400).json({ status: 'failed', error: 'Invalid or missing crawl ID' });
       return;
     }
 
-    const status = await getFirecrawlCrawlStatus(id);
+    const status = CRAWL_PROVIDER === 'firecrawl'
+      ? await getFirecrawlCrawlStatus(id)
+      : await getCrawlStatus(id);
     const crawlJob = crawlJobs.get(id);
     if (crawlJob) {
       crawlJob.latestStatus = status;
@@ -1990,8 +2077,8 @@ app.get('/api/crawl/status/:id', async (req, res) => {
  */
 app.get('/api/crawl/health', async (_req, res) => {
   res.json({
-    configured: isFirecrawlConfigured(),
-    provider: 'firecrawl',
+    configured: isCrawlProviderConfigured(),
+    provider: CRAWL_PROVIDER === 'firecrawl' ? 'firecrawl' : 'cloudflare-browser-rendering',
   });
 });
 
