@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet-async';
 import { Tooltip as ReactTooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
 
-// API configuration - crawl goes through server proxy (Cloudflare Browser Rendering)
+// API configuration - crawl goes through server proxy (Firecrawl)
 const API_URL = process.env.REACT_APP_API_URL || '/api';
 
 interface DocPreview {
@@ -372,7 +372,7 @@ const HomePage: React.FC = () => {
         inProgress: true
       });
 
-      // Prepare the crawl request (proxied through server to Cloudflare)
+      // Prepare the crawl request (proxied through server to Firecrawl)
       const requestBody = {
         url,
         limit: maxPages,

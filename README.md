@@ -65,10 +65,9 @@ cd server && npm install && cd ..
 
 ### Configure
 
-Copy `.env.example` to `.env` in the repo root and fill it in. Firecrawl is the default crawl provider, so `CRAWL_PROVIDER` is optional when using Firecrawl:
+Copy `.env.example` to `.env` in the repo root and fill it in. Firecrawl is the only crawl backend, so set either `FIRECRAWL_API_KEY` (hosted) or `FIRECRAWL_API_URL` (self-hosted):
 
 ```bash
-CRAWL_PROVIDER=firecrawl
 FIRECRAWL_API_KEY=fc-your-api-key-here
 FIRECRAWL_API_URL=https://api.firecrawl.dev/v1
 REACT_APP_API_URL=http://localhost:8001/api
@@ -79,7 +78,6 @@ REDIS_PORT=6380
 For local Docker with self-hosted Firecrawl:
 
 ```bash
-CRAWL_PROVIDER=firecrawl
 FIRECRAWL_API_URL=http://localhost:3002/v1
 REACT_APP_API_URL=http://localhost:8001/api
 REDIS_HOST=localhost
