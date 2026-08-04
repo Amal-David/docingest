@@ -170,7 +170,9 @@ DocIngest sends crawl requests through the backend proxy:
 - `GET /api/crawl/status/:id`
 - `GET /api/crawl/health`
 
-Set `CRAWL_PROVIDER=firecrawl` to use Firecrawl. Leave it unset to use the Cloudflare Browser Rendering provider currently used by the hosted deployment.
+Firecrawl is the default. `CRAWL_PROVIDER` is optional when using Firecrawl, and leaving it unset selects Firecrawl.
+
+Set `CRAWL_PROVIDER=cloudflare` to use the Cloudflare Browser Rendering provider instead, which also needs `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. Any value other than `firecrawl` selects Cloudflare.
 
 ### Security Note
 
