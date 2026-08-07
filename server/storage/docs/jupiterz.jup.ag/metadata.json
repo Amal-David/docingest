@@ -1,0 +1,407 @@
+{
+  "url": "https://jupiterz.jup.ag/docs/",
+  "domain": "jupiterz.jup.ag",
+  "lastScraped": "2026-08-06T08:21:06.549Z",
+  "totalPages": 25,
+  "successfulPages": 8,
+  "failedPages": [
+    "https://jupiterz.jup.ag/docs/ (error-page-content)",
+    "https://jupiterz.jup.ag/docs/v2/overview (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/v2/getting-started (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/v2/sdk-integration (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/v2/last-look-and-safety (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/v2/grpc-api (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/v2/testing (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/circuit_breaker (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/understanding_ids (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/integration/webhook-implementation (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/testing/troubleshooting (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/api/tokens (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/integration/squads (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/integration/deployment (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/api/permissioned-tokens (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/api/quote (checkpoint-or-challenge-title)",
+    "https://jupiterz.jup.ag/docs/api/swap (checkpoint-or-challenge-title)"
+  ],
+  "structure": [
+    {
+      "type": "JupiterZ v2 | JupiterZ Documentation",
+      "url": "https://jupiterz.jup.ag/docs/v2"
+    },
+    {
+      "type": "JupiterZ API Overview | JupiterZ Documentation",
+      "url": "https://jupiterz.jup.ag/docs/stats/overview"
+    },
+    {
+      "type": "Introduction | JupiterZ Documentation",
+      "url": "https://jupiterz.jup.ag/docs/intro"
+    },
+    {
+      "type": "Integration Overview | JupiterZ Documentation",
+      "url": "https://jupiterz.jup.ag/docs/integration/overview"
+    },
+    {
+      "type": "API Overview | JupiterZ Documentation",
+      "url": "https://jupiterz.jup.ag/docs/api/overview"
+    },
+    {
+      "type": "API Reference | JupiterZ Documentation",
+      "url": "https://jupiterz.jup.ag/docs/stats/api-reference"
+    },
+    {
+      "type": "Testing Overview | JupiterZ Documentation",
+      "url": "https://jupiterz.jup.ag/docs/testing/overview"
+    },
+    {
+      "type": "Frequently Asked Questions | JupiterZ Documentation",
+      "url": "https://jupiterz.jup.ag/docs/faq"
+    }
+  ],
+  "latestVersion": "ddb3b5bb7097bc1842388ca0365032b4d20fb0b619bb9a6fb4432c38226d8b06",
+  "versions": [
+    {
+      "version": "ddb3b5bb7097bc1842388ca0365032b4d20fb0b619bb9a6fb4432c38226d8b06",
+      "label": "latest",
+      "timestamp": "2026-08-06T08:21:06.549Z",
+      "filename": "documentation_2026-08-06T08:21:06.549Z.md",
+      "totalPages": 25,
+      "successfulPages": 8,
+      "url": "https://jupiterz.jup.ag/docs/",
+      "snapshotId": "ddb3b5bb7097bc1842388ca0365032b4d20fb0b619bb9a6fb4432c38226d8b06",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://jupiterz.jup.ag/docs/",
+      "canonicalSeedUrl": "https://jupiterz.jup.ag/docs",
+      "configuration": {
+        "url": "https://jupiterz.jup.ag/docs/",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "includePaths": [
+          "/docs/*"
+        ],
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-06T08:20:30.047Z",
+      "completedAt": "2026-08-06T08:21:06.549Z",
+      "providerTotals": {
+        "discovered": 25,
+        "returned": 25,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 25,
+        "returned": 25,
+        "valid": 8,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 17,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://jupiterz.jup.ag/docs/",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/v2",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/v2",
+          "status": "valid"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/stats/overview",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/stats/overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/intro",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/intro",
+          "status": "valid"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/integration/overview",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/integration/overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/api/overview",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/api/overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/stats/api-reference",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/stats/api-reference",
+          "status": "valid"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/testing/overview",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/testing/overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/faq",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/faq",
+          "status": "valid"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/v2/overview",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/v2/overview",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/v2/getting-started",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/v2/getting-started",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/v2/sdk-integration",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/v2/sdk-integration",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/v2/last-look-and-safety",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/v2/last-look-and-safety",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/v2/grpc-api",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/v2/grpc-api",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/v2/testing",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/v2/testing",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/circuit_breaker",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/circuit_breaker",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/understanding_ids",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/understanding_ids",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/integration/webhook-implementation",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/integration/webhook-implementation",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/testing/troubleshooting",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/testing/troubleshooting",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/api/tokens",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/api/tokens",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/integration/squads",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/integration/squads",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/integration/deployment",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/integration/deployment",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/api/permissioned-tokens",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/api/permissioned-tokens",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/api/quote",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/api/quote",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://jupiterz.jup.ag/docs/api/swap",
+          "canonicalUrl": "https://jupiterz.jup.ag/docs/api/swap",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        }
+      ],
+      "id": "150d7a4ad1d6b1aa0370c6dd57e353110b7e15103423bc41583f268e51d7cd71"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "ddb3b5bb7097bc1842388ca0365032b4d20fb0b619bb9a6fb4432c38226d8b06",
+      "filename": "documentation_2026-08-06T08:21:06.549Z.md",
+      "contentHash": "aee851bd8a0edec395d180261131f93257e593a449f9d3b6d27da3bee6086945",
+      "sourceUrl": "https://jupiterz.jup.ag/docs/",
+      "canonicalSourceUrl": "https://jupiterz.jup.ag/docs",
+      "capturedAt": "2026-08-06T08:21:06.549Z",
+      "crawlRunId": "150d7a4ad1d6b1aa0370c6dd57e353110b7e15103423bc41583f268e51d7cd71",
+      "totalPages": 25,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "JupiterZ v2 | JupiterZ Documentation",
+          "url": "https://jupiterz.jup.ag/docs/v2"
+        },
+        {
+          "type": "JupiterZ API Overview | JupiterZ Documentation",
+          "url": "https://jupiterz.jup.ag/docs/stats/overview"
+        },
+        {
+          "type": "Introduction | JupiterZ Documentation",
+          "url": "https://jupiterz.jup.ag/docs/intro"
+        },
+        {
+          "type": "Integration Overview | JupiterZ Documentation",
+          "url": "https://jupiterz.jup.ag/docs/integration/overview"
+        },
+        {
+          "type": "API Overview | JupiterZ Documentation",
+          "url": "https://jupiterz.jup.ag/docs/api/overview"
+        },
+        {
+          "type": "API Reference | JupiterZ Documentation",
+          "url": "https://jupiterz.jup.ag/docs/stats/api-reference"
+        },
+        {
+          "type": "Testing Overview | JupiterZ Documentation",
+          "url": "https://jupiterz.jup.ag/docs/testing/overview"
+        },
+        {
+          "type": "Frequently Asked Questions | JupiterZ Documentation",
+          "url": "https://jupiterz.jup.ag/docs/faq"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    },
+    {
+      "id": "e23d3925ced00e78980fbab2d026e8f643929ade75aa6707c6a404e2e4fbbb9f",
+      "filename": "evidence_2026-08-06T08:21:06.549Z.md",
+      "contentHash": "7c89a74e004d82012ab7b904a36cafed0a20c55c0988fb343bd89aa5c0a10076",
+      "sourceUrl": "https://jupiterz.jup.ag/docs/",
+      "canonicalSourceUrl": "https://jupiterz.jup.ag/docs",
+      "capturedAt": "2026-08-06T08:21:06.549Z",
+      "crawlRunId": "150d7a4ad1d6b1aa0370c6dd57e353110b7e15103423bc41583f268e51d7cd71",
+      "totalPages": 17,
+      "successfulPages": 0,
+      "structure": [
+        {
+          "type": "JupiterZ Documentation",
+          "url": "https://jupiterz.jup.ag/docs/"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/v2/overview"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/v2/getting-started"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/v2/sdk-integration"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/v2/last-look-and-safety"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/v2/grpc-api"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/v2/testing"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/circuit_breaker"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/understanding_ids"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/integration/webhook-implementation"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/testing/troubleshooting"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/api/tokens"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/integration/squads"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/integration/deployment"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/api/permissioned-tokens"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/api/quote"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://jupiterz.jup.ag/docs/api/swap"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "error-page-content",
+          "checkpoint-or-challenge-title"
+        ]
+      }
+    }
+  ],
+  "currentSnapshotId": "ddb3b5bb7097bc1842388ca0365032b4d20fb0b619bb9a6fb4432c38226d8b06"
+}
