@@ -1,0 +1,410 @@
+{
+  "url": "https://astryx.atmeta.com/docs",
+  "domain": "astryx.atmeta.com",
+  "lastScraped": "2026-08-07T12:24:23.031Z",
+  "totalPages": 23,
+  "successfulPages": 21,
+  "failedPages": [
+    "https://astryx.atmeta.com/docs/core (checkpoint-or-challenge-title)",
+    "https://astryx.atmeta.com/docs/cli (checkpoint-or-challenge-title)"
+  ],
+  "structure": [
+    {
+      "type": "Getting Started · Astryx",
+      "url": "https://astryx.atmeta.com/docs"
+    },
+    {
+      "type": "Browser Support · Astryx",
+      "url": "https://astryx.atmeta.com/docs/browser-support"
+    },
+    {
+      "type": "CLI Integrations · Astryx",
+      "url": "https://astryx.atmeta.com/docs/cli-integrations"
+    },
+    {
+      "type": "Elevation · Astryx",
+      "url": "https://astryx.atmeta.com/docs/elevation"
+    },
+    {
+      "type": "Getting Started · Astryx",
+      "url": "https://astryx.atmeta.com/docs/getting-started"
+    },
+    {
+      "type": "Icons · Astryx",
+      "url": "https://astryx.atmeta.com/docs/icons"
+    },
+    {
+      "type": "Color · Astryx",
+      "url": "https://astryx.atmeta.com/docs/color"
+    },
+    {
+      "type": "Illustrations · Astryx",
+      "url": "https://astryx.atmeta.com/docs/illustrations"
+    },
+    {
+      "type": "Migration Guide · Astryx",
+      "url": "https://astryx.atmeta.com/docs/migration"
+    },
+    {
+      "type": "Motion · Astryx",
+      "url": "https://astryx.atmeta.com/docs/motion"
+    },
+    {
+      "type": "Layout · Astryx",
+      "url": "https://astryx.atmeta.com/docs/layout"
+    },
+    {
+      "type": "Spacing · Astryx",
+      "url": "https://astryx.atmeta.com/docs/spacing"
+    },
+    {
+      "type": "Principles · Astryx",
+      "url": "https://astryx.atmeta.com/docs/principles"
+    },
+    {
+      "type": "Internationalization · Astryx",
+      "url": "https://astryx.atmeta.com/docs/internationalization"
+    },
+    {
+      "type": "Theme System · Astryx",
+      "url": "https://astryx.atmeta.com/docs/theme"
+    },
+    {
+      "type": "Shape · Astryx",
+      "url": "https://astryx.atmeta.com/docs/shape"
+    },
+    {
+      "type": "Styling Library Interop · Astryx",
+      "url": "https://astryx.atmeta.com/docs/styling-libraries"
+    },
+    {
+      "type": "Typography · Astryx",
+      "url": "https://astryx.atmeta.com/docs/typography"
+    },
+    {
+      "type": "All Tokens · Astryx",
+      "url": "https://astryx.atmeta.com/docs/tokens"
+    },
+    {
+      "type": "Styling Components · Astryx",
+      "url": "https://astryx.atmeta.com/docs/styling"
+    },
+    {
+      "type": "Working with AI · Astryx",
+      "url": "https://astryx.atmeta.com/docs/working-with-ai"
+    }
+  ],
+  "latestVersion": "19cbe00b69f3933a11488fbc6c55674569cef17e921f3b138ad6d6b1d9168cd7",
+  "versions": [
+    {
+      "version": "19cbe00b69f3933a11488fbc6c55674569cef17e921f3b138ad6d6b1d9168cd7",
+      "label": "latest",
+      "timestamp": "2026-08-07T12:24:23.031Z",
+      "filename": "documentation_2026-08-07T12:24:23.031Z.md",
+      "totalPages": 23,
+      "successfulPages": 21,
+      "url": "https://astryx.atmeta.com/docs",
+      "snapshotId": "19cbe00b69f3933a11488fbc6c55674569cef17e921f3b138ad6d6b1d9168cd7",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://astryx.atmeta.com/docs",
+      "canonicalSeedUrl": "https://astryx.atmeta.com/docs",
+      "configuration": {
+        "url": "https://astryx.atmeta.com/docs",
+        "limit": 1000,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "includePaths": [
+          "/docs/*"
+        ],
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-07T12:23:59.548Z",
+      "completedAt": "2026-08-07T12:24:23.031Z",
+      "providerTotals": {
+        "discovered": 23,
+        "returned": 23,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 23,
+        "returned": 23,
+        "valid": 21,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 2,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://astryx.atmeta.com/docs",
+          "canonicalUrl": "https://astryx.atmeta.com/docs",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/browser-support",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/browser-support",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/cli-integrations",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/cli-integrations",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/elevation",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/elevation",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/getting-started",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/getting-started",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/icons",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/icons",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/color",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/color",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/illustrations",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/illustrations",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/migration",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/migration",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/motion",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/motion",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/layout",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/layout",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/spacing",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/spacing",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/principles",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/principles",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/internationalization",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/internationalization",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/theme",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/theme",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/shape",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/shape",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/styling-libraries",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/styling-libraries",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/typography",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/typography",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/tokens",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/tokens",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/styling",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/styling",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/working-with-ai",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/working-with-ai",
+          "status": "valid"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/core",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/core",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://astryx.atmeta.com/docs/cli",
+          "canonicalUrl": "https://astryx.atmeta.com/docs/cli",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        }
+      ],
+      "id": "5406a73e9247ba26c86c81b8e50aadc32b7c8783312d36707b5460361626c3a0"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "19cbe00b69f3933a11488fbc6c55674569cef17e921f3b138ad6d6b1d9168cd7",
+      "filename": "documentation_2026-08-07T12:24:23.031Z.md",
+      "contentHash": "d6929784ad6a46fc05a20e463459ad91763e6a811e7d832a4044375ca886e481",
+      "sourceUrl": "https://astryx.atmeta.com/docs",
+      "canonicalSourceUrl": "https://astryx.atmeta.com/docs",
+      "capturedAt": "2026-08-07T12:24:23.031Z",
+      "crawlRunId": "5406a73e9247ba26c86c81b8e50aadc32b7c8783312d36707b5460361626c3a0",
+      "totalPages": 23,
+      "successfulPages": 21,
+      "structure": [
+        {
+          "type": "Getting Started · Astryx",
+          "url": "https://astryx.atmeta.com/docs"
+        },
+        {
+          "type": "Browser Support · Astryx",
+          "url": "https://astryx.atmeta.com/docs/browser-support"
+        },
+        {
+          "type": "CLI Integrations · Astryx",
+          "url": "https://astryx.atmeta.com/docs/cli-integrations"
+        },
+        {
+          "type": "Elevation · Astryx",
+          "url": "https://astryx.atmeta.com/docs/elevation"
+        },
+        {
+          "type": "Getting Started · Astryx",
+          "url": "https://astryx.atmeta.com/docs/getting-started"
+        },
+        {
+          "type": "Icons · Astryx",
+          "url": "https://astryx.atmeta.com/docs/icons"
+        },
+        {
+          "type": "Color · Astryx",
+          "url": "https://astryx.atmeta.com/docs/color"
+        },
+        {
+          "type": "Illustrations · Astryx",
+          "url": "https://astryx.atmeta.com/docs/illustrations"
+        },
+        {
+          "type": "Migration Guide · Astryx",
+          "url": "https://astryx.atmeta.com/docs/migration"
+        },
+        {
+          "type": "Motion · Astryx",
+          "url": "https://astryx.atmeta.com/docs/motion"
+        },
+        {
+          "type": "Layout · Astryx",
+          "url": "https://astryx.atmeta.com/docs/layout"
+        },
+        {
+          "type": "Spacing · Astryx",
+          "url": "https://astryx.atmeta.com/docs/spacing"
+        },
+        {
+          "type": "Principles · Astryx",
+          "url": "https://astryx.atmeta.com/docs/principles"
+        },
+        {
+          "type": "Internationalization · Astryx",
+          "url": "https://astryx.atmeta.com/docs/internationalization"
+        },
+        {
+          "type": "Theme System · Astryx",
+          "url": "https://astryx.atmeta.com/docs/theme"
+        },
+        {
+          "type": "Shape · Astryx",
+          "url": "https://astryx.atmeta.com/docs/shape"
+        },
+        {
+          "type": "Styling Library Interop · Astryx",
+          "url": "https://astryx.atmeta.com/docs/styling-libraries"
+        },
+        {
+          "type": "Typography · Astryx",
+          "url": "https://astryx.atmeta.com/docs/typography"
+        },
+        {
+          "type": "All Tokens · Astryx",
+          "url": "https://astryx.atmeta.com/docs/tokens"
+        },
+        {
+          "type": "Styling Components · Astryx",
+          "url": "https://astryx.atmeta.com/docs/styling"
+        },
+        {
+          "type": "Working with AI · Astryx",
+          "url": "https://astryx.atmeta.com/docs/working-with-ai"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    },
+    {
+      "id": "edc510d2dd391d8e158fc82312169a6ce32f6b837d9faf7d9e0299cc8af89fc5",
+      "filename": "evidence_2026-08-07T12:24:23.031Z.md",
+      "contentHash": "40823b11dbb8295dc6e72ff3c6d07b8708234db01f66fdfacd56ed664af1ab11",
+      "sourceUrl": "https://astryx.atmeta.com/docs",
+      "canonicalSourceUrl": "https://astryx.atmeta.com/docs",
+      "capturedAt": "2026-08-07T12:24:23.031Z",
+      "crawlRunId": "5406a73e9247ba26c86c81b8e50aadc32b7c8783312d36707b5460361626c3a0",
+      "totalPages": 2,
+      "successfulPages": 0,
+      "structure": [
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://astryx.atmeta.com/docs/core"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://astryx.atmeta.com/docs/cli"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "checkpoint-or-challenge-title"
+        ]
+      }
+    }
+  ],
+  "currentSnapshotId": "19cbe00b69f3933a11488fbc6c55674569cef17e921f3b138ad6d6b1d9168cd7"
+}
