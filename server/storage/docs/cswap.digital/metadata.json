@@ -1,0 +1,172 @@
+{
+  "url": "https://cswap.digital/#capabilities",
+  "domain": "cswap.digital",
+  "lastScraped": "2026-08-09T00:08:03.310Z",
+  "totalPages": 5,
+  "successfulPages": 2,
+  "failedPages": [
+    "https://cswap.digital/terms (error-page-content)",
+    "https://cswap.digital/privacy (error-page-content)",
+    "https://cswap.digital/cookie (error-page-content)"
+  ],
+  "structure": [
+    {
+      "type": "CSWAP Digital",
+      "url": "https://cswap.digital/#capabilities"
+    },
+    {
+      "type": "CSWAP Digital | Connect with Our Experts",
+      "url": "https://cswap.digital/contact"
+    }
+  ],
+  "latestVersion": "a35960b3c5cc7a2bbe6c33648e89d49f8ff686376453e164ef67be018837c892",
+  "versions": [
+    {
+      "version": "a35960b3c5cc7a2bbe6c33648e89d49f8ff686376453e164ef67be018837c892",
+      "label": "latest",
+      "timestamp": "2026-08-09T00:08:03.310Z",
+      "filename": "documentation_2026-08-09T00:08:03.310Z.md",
+      "totalPages": 5,
+      "successfulPages": 2,
+      "url": "https://cswap.digital/#capabilities",
+      "snapshotId": "a35960b3c5cc7a2bbe6c33648e89d49f8ff686376453e164ef67be018837c892",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://cswap.digital/#capabilities",
+      "canonicalSeedUrl": "https://cswap.digital/",
+      "configuration": {
+        "url": "https://cswap.digital/#capabilities",
+        "limit": 1000,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-09T00:07:46.645Z",
+      "completedAt": "2026-08-09T00:08:03.310Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 5,
+        "returned": 5,
+        "valid": 2,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 3,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://cswap.digital/#capabilities",
+          "canonicalUrl": "https://cswap.digital/",
+          "status": "valid"
+        },
+        {
+          "url": "https://cswap.digital/contact",
+          "canonicalUrl": "https://cswap.digital/contact",
+          "status": "valid"
+        },
+        {
+          "url": "https://cswap.digital/terms",
+          "canonicalUrl": "https://cswap.digital/terms",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://cswap.digital/privacy",
+          "canonicalUrl": "https://cswap.digital/privacy",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://cswap.digital/cookie",
+          "canonicalUrl": "https://cswap.digital/cookie",
+          "status": "rejected",
+          "reason": "error-page-content"
+        }
+      ],
+      "id": "a90393e6ac3bfd090de1d28e60d75490a70e9e427513e29313ca524071ef4564"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "a35960b3c5cc7a2bbe6c33648e89d49f8ff686376453e164ef67be018837c892",
+      "filename": "documentation_2026-08-09T00:08:03.310Z.md",
+      "contentHash": "8c4affdd8336edd575a21900e2fcb0b5ae64850742b3d8c7619f4e8fa01d3956",
+      "sourceUrl": "https://cswap.digital/#capabilities",
+      "canonicalSourceUrl": "https://cswap.digital/",
+      "capturedAt": "2026-08-09T00:08:03.310Z",
+      "crawlRunId": "a90393e6ac3bfd090de1d28e60d75490a70e9e427513e29313ca524071ef4564",
+      "totalPages": 5,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "CSWAP Digital",
+          "url": "https://cswap.digital/#capabilities"
+        },
+        {
+          "type": "CSWAP Digital | Connect with Our Experts",
+          "url": "https://cswap.digital/contact"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "one-or-more-pages-need-review"
+        ]
+      }
+    },
+    {
+      "id": "c4bf72e0e05c592c50c473050d4de6a2f02f76422c668a1dafbbd78e86167b8d",
+      "filename": "evidence_2026-08-09T00:08:03.310Z.md",
+      "contentHash": "2eed61b1c1f6a1bcb2b8472da097bc9cb5011c4e02535580714c94605e728a74",
+      "sourceUrl": "https://cswap.digital/#capabilities",
+      "canonicalSourceUrl": "https://cswap.digital/",
+      "capturedAt": "2026-08-09T00:08:03.310Z",
+      "crawlRunId": "a90393e6ac3bfd090de1d28e60d75490a70e9e427513e29313ca524071ef4564",
+      "totalPages": 3,
+      "successfulPages": 0,
+      "structure": [
+        {
+          "type": "CSWAP Digital",
+          "url": "https://cswap.digital/terms"
+        },
+        {
+          "type": "CSWAP Digital",
+          "url": "https://cswap.digital/privacy"
+        },
+        {
+          "type": "CSWAP Digital",
+          "url": "https://cswap.digital/cookie"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "error-page-content"
+        ]
+      }
+    }
+  ]
+}
