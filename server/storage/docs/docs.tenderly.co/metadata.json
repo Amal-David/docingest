@@ -1,39 +1,129 @@
 {
   "url": "https://docs.tenderly.co/mcp-server",
   "domain": "docs.tenderly.co",
-  "lastScraped": "2026-04-02T13:30:48.425Z",
-  "totalPages": 4,
-  "successfulPages": 4,
+  "lastScraped": "2026-08-09T13:19:25.733Z",
+  "totalPages": 24,
+  "successfulPages": 24,
   "failedPages": [],
   "structure": [
     {
-      "type": "MCP Server | Tenderly Documentation",
-      "url": "https://docs.tenderly.co/mcp-server"
+      "type": "Tenderly MCP Server examples with Claude - Tenderly",
+      "url": "https://docs.tenderly.co/ai-tools/examples"
     },
     {
-      "type": "MCP Server Quickstart | Tenderly Documentation",
-      "url": "https://docs.tenderly.co/mcp-server/quickstart"
+      "type": "Tenderly MCP Server for Claude and AI assistants - Tenderly",
+      "url": "https://docs.tenderly.co/ai-tools/overview"
     },
     {
-      "type": "MCP Server Tools Reference | Tenderly Documentation",
-      "url": "https://docs.tenderly.co/mcp-server/tools"
+      "type": "Tenderly MCP Server tools reference - Tenderly",
+      "url": "https://docs.tenderly.co/ai-tools/tools"
     },
     {
-      "type": "MCP Server Examples | Tenderly Documentation",
-      "url": "https://docs.tenderly.co/mcp-server/examples"
+      "type": "Tenderly MCP Server quickstart for Claude clients - Tenderly",
+      "url": "https://docs.tenderly.co/ai-tools/quickstart"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.tenderly.co/llms.txt"
+    },
+    {
+      "type": "Changelog - Tenderly",
+      "url": "https://docs.tenderly.co/changelog/overview"
+    },
+    {
+      "type": "Changelog - Tenderly",
+      "url": "https://docs.tenderly.co/hi/changelog/overview"
+    },
+    {
+      "type": "Uniswap V3 - Tenderly",
+      "url": "https://docs.tenderly.co/defi-modules/uniswap"
+    },
+    {
+      "type": "Aave V3 - Tenderly",
+      "url": "https://docs.tenderly.co/defi-modules/aave"
+    },
+    {
+      "type": "Morpho - Tenderly",
+      "url": "https://docs.tenderly.co/defi-modules/morpho"
+    },
+    {
+      "type": "Verify Contracts via Dashboard - Tenderly",
+      "url": "https://docs.tenderly.co/contract-verification/dashboard"
+    },
+    {
+      "type": "Gas Profiler - Tenderly",
+      "url": "https://docs.tenderly.co/debugger/gas-profiler"
+    },
+    {
+      "type": "Transaction Listing - Tenderly",
+      "url": "https://docs.tenderly.co/developer-explorer/transaction-listing"
+    },
+    {
+      "type": "DeFi Modules - Tenderly",
+      "url": "https://docs.tenderly.co/defi-modules/overview"
+    },
+    {
+      "type": "War Room Aid Kit - Tenderly",
+      "url": "https://docs.tenderly.co/debugger/war-room-aid-kit"
+    },
+    {
+      "type": "Evaluate Expressions with Advanced Debugger - Tenderly",
+      "url": "https://docs.tenderly.co/debugger/evaluate-expression"
+    },
+    {
+      "type": "Commenting & Prioritizing Traces - Tenderly",
+      "url": "https://docs.tenderly.co/debugger/commenting"
+    },
+    {
+      "type": "Smart Contract Verification - Tenderly",
+      "url": "https://docs.tenderly.co/contract-verification/overview"
+    },
+    {
+      "type": "Fund Flow - Tenderly",
+      "url": "https://docs.tenderly.co/developer-explorer/inspect-transaction/fund-flow"
+    },
+    {
+      "type": "Claude और AI assistants के लिए Tenderly MCP Server - Tenderly",
+      "url": "https://docs.tenderly.co/hi/ai-tools/overview"
+    },
+    {
+      "type": "How to Use Tenderly Debugger - Tenderly",
+      "url": "https://docs.tenderly.co/debugger/overview"
+    },
+    {
+      "type": "Investigating a Failed Transaction - Tenderly",
+      "url": "https://docs.tenderly.co/debugger/guides/failed-transaction"
+    },
+    {
+      "type": "Simulation Mode in the Explorer - Tenderly",
+      "url": "https://docs.tenderly.co/developer-explorer/simulation-mode"
+    },
+    {
+      "type": "Developer Explorer - Tenderly",
+      "url": "https://docs.tenderly.co/developer-explorer/overview"
     }
   ],
-  "latestVersion": "1.0.0",
+  "latestVersion": "1bc7fb365e0356666beaa9db82c3d599dea8f0f971bb9143409c0ee3454999dc",
   "versions": [
     {
-      "version": "1.0.0",
+      "version": "1bc7fb365e0356666beaa9db82c3d599dea8f0f971bb9143409c0ee3454999dc",
       "label": "latest",
+      "timestamp": "2026-08-09T13:19:25.733Z",
+      "filename": "documentation_2026-08-09T13:19:25.733Z.md",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "url": "https://docs.tenderly.co/",
+      "snapshotId": "1bc7fb365e0356666beaa9db82c3d599dea8f0f971bb9143409c0ee3454999dc",
+      "isLatest": true
+    },
+    {
+      "version": "1.0.0",
       "timestamp": "2026-04-02T13:30:48.425Z",
       "filename": "documentation_2026-04-02T13:30:48.425Z.md",
       "totalPages": 4,
       "successfulPages": 4,
       "url": "https://docs.tenderly.co/mcp-server",
-      "isLatest": true
+      "isLatest": false
     }
   ],
   "schemaVersion": 3,
@@ -71,6 +161,171 @@
         "rejected": 0,
         "failed": 0
       }
+    },
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://docs.tenderly.co/",
+      "canonicalSeedUrl": "https://docs.tenderly.co/",
+      "configuration": {
+        "url": "https://docs.tenderly.co/",
+        "limit": 1000,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-09T13:16:59.111Z",
+      "completedAt": "2026-08-09T13:19:25.733Z",
+      "providerTotals": {
+        "discovered": 24,
+        "returned": 24,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 24,
+        "returned": 24,
+        "valid": 24,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.tenderly.co/ai-tools/examples",
+          "canonicalUrl": "https://docs.tenderly.co/ai-tools/examples",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/ai-tools/overview",
+          "canonicalUrl": "https://docs.tenderly.co/ai-tools/overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/ai-tools/tools",
+          "canonicalUrl": "https://docs.tenderly.co/ai-tools/tools",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/ai-tools/quickstart",
+          "canonicalUrl": "https://docs.tenderly.co/ai-tools/quickstart",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/llms.txt",
+          "canonicalUrl": "https://docs.tenderly.co/llms.txt",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/changelog/overview",
+          "canonicalUrl": "https://docs.tenderly.co/changelog/overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/hi/changelog/overview",
+          "canonicalUrl": "https://docs.tenderly.co/hi/changelog/overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/defi-modules/uniswap",
+          "canonicalUrl": "https://docs.tenderly.co/defi-modules/uniswap",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/defi-modules/aave",
+          "canonicalUrl": "https://docs.tenderly.co/defi-modules/aave",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/defi-modules/morpho",
+          "canonicalUrl": "https://docs.tenderly.co/defi-modules/morpho",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/contract-verification/dashboard",
+          "canonicalUrl": "https://docs.tenderly.co/contract-verification/dashboard",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/debugger/gas-profiler",
+          "canonicalUrl": "https://docs.tenderly.co/debugger/gas-profiler",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/developer-explorer/transaction-listing",
+          "canonicalUrl": "https://docs.tenderly.co/developer-explorer/transaction-listing",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/defi-modules/overview",
+          "canonicalUrl": "https://docs.tenderly.co/defi-modules/overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/debugger/war-room-aid-kit",
+          "canonicalUrl": "https://docs.tenderly.co/debugger/war-room-aid-kit",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/debugger/evaluate-expression",
+          "canonicalUrl": "https://docs.tenderly.co/debugger/evaluate-expression",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/debugger/commenting",
+          "canonicalUrl": "https://docs.tenderly.co/debugger/commenting",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/contract-verification/overview",
+          "canonicalUrl": "https://docs.tenderly.co/contract-verification/overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/developer-explorer/inspect-transaction/fund-flow",
+          "canonicalUrl": "https://docs.tenderly.co/developer-explorer/inspect-transaction/fund-flow",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/hi/ai-tools/overview",
+          "canonicalUrl": "https://docs.tenderly.co/hi/ai-tools/overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/debugger/overview",
+          "canonicalUrl": "https://docs.tenderly.co/debugger/overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/debugger/guides/failed-transaction",
+          "canonicalUrl": "https://docs.tenderly.co/debugger/guides/failed-transaction",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/developer-explorer/simulation-mode",
+          "canonicalUrl": "https://docs.tenderly.co/developer-explorer/simulation-mode",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.tenderly.co/developer-explorer/overview",
+          "canonicalUrl": "https://docs.tenderly.co/developer-explorer/overview",
+          "status": "valid"
+        }
+      ],
+      "id": "c6f3f0664db423958b756315725c1280cd592a02b9561455084f517e30429379"
     }
   ],
   "snapshots": [
@@ -108,7 +363,120 @@
         "status": "approved",
         "reasons": []
       }
+    },
+    {
+      "id": "1bc7fb365e0356666beaa9db82c3d599dea8f0f971bb9143409c0ee3454999dc",
+      "filename": "documentation_2026-08-09T13:19:25.733Z.md",
+      "contentHash": "e5779e4828e16447899ab7f6791d69ab21e04a9e48a7dca9dc0855a7a1f3880a",
+      "sourceUrl": "https://docs.tenderly.co/",
+      "canonicalSourceUrl": "https://docs.tenderly.co/",
+      "capturedAt": "2026-08-09T13:19:25.733Z",
+      "crawlRunId": "c6f3f0664db423958b756315725c1280cd592a02b9561455084f517e30429379",
+      "totalPages": 24,
+      "successfulPages": 24,
+      "structure": [
+        {
+          "type": "Tenderly MCP Server examples with Claude - Tenderly",
+          "url": "https://docs.tenderly.co/ai-tools/examples"
+        },
+        {
+          "type": "Tenderly MCP Server for Claude and AI assistants - Tenderly",
+          "url": "https://docs.tenderly.co/ai-tools/overview"
+        },
+        {
+          "type": "Tenderly MCP Server tools reference - Tenderly",
+          "url": "https://docs.tenderly.co/ai-tools/tools"
+        },
+        {
+          "type": "Tenderly MCP Server quickstart for Claude clients - Tenderly",
+          "url": "https://docs.tenderly.co/ai-tools/quickstart"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.tenderly.co/llms.txt"
+        },
+        {
+          "type": "Changelog - Tenderly",
+          "url": "https://docs.tenderly.co/changelog/overview"
+        },
+        {
+          "type": "Changelog - Tenderly",
+          "url": "https://docs.tenderly.co/hi/changelog/overview"
+        },
+        {
+          "type": "Uniswap V3 - Tenderly",
+          "url": "https://docs.tenderly.co/defi-modules/uniswap"
+        },
+        {
+          "type": "Aave V3 - Tenderly",
+          "url": "https://docs.tenderly.co/defi-modules/aave"
+        },
+        {
+          "type": "Morpho - Tenderly",
+          "url": "https://docs.tenderly.co/defi-modules/morpho"
+        },
+        {
+          "type": "Verify Contracts via Dashboard - Tenderly",
+          "url": "https://docs.tenderly.co/contract-verification/dashboard"
+        },
+        {
+          "type": "Gas Profiler - Tenderly",
+          "url": "https://docs.tenderly.co/debugger/gas-profiler"
+        },
+        {
+          "type": "Transaction Listing - Tenderly",
+          "url": "https://docs.tenderly.co/developer-explorer/transaction-listing"
+        },
+        {
+          "type": "DeFi Modules - Tenderly",
+          "url": "https://docs.tenderly.co/defi-modules/overview"
+        },
+        {
+          "type": "War Room Aid Kit - Tenderly",
+          "url": "https://docs.tenderly.co/debugger/war-room-aid-kit"
+        },
+        {
+          "type": "Evaluate Expressions with Advanced Debugger - Tenderly",
+          "url": "https://docs.tenderly.co/debugger/evaluate-expression"
+        },
+        {
+          "type": "Commenting & Prioritizing Traces - Tenderly",
+          "url": "https://docs.tenderly.co/debugger/commenting"
+        },
+        {
+          "type": "Smart Contract Verification - Tenderly",
+          "url": "https://docs.tenderly.co/contract-verification/overview"
+        },
+        {
+          "type": "Fund Flow - Tenderly",
+          "url": "https://docs.tenderly.co/developer-explorer/inspect-transaction/fund-flow"
+        },
+        {
+          "type": "Claude और AI assistants के लिए Tenderly MCP Server - Tenderly",
+          "url": "https://docs.tenderly.co/hi/ai-tools/overview"
+        },
+        {
+          "type": "How to Use Tenderly Debugger - Tenderly",
+          "url": "https://docs.tenderly.co/debugger/overview"
+        },
+        {
+          "type": "Investigating a Failed Transaction - Tenderly",
+          "url": "https://docs.tenderly.co/debugger/guides/failed-transaction"
+        },
+        {
+          "type": "Simulation Mode in the Explorer - Tenderly",
+          "url": "https://docs.tenderly.co/developer-explorer/simulation-mode"
+        },
+        {
+          "type": "Developer Explorer - Tenderly",
+          "url": "https://docs.tenderly.co/developer-explorer/overview"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
     }
   ],
-  "currentSnapshotId": "50d48dca0d19031e4ab2188d207f4626a731613287c51ac4f8f2adc1dd915f8e"
+  "currentSnapshotId": "1bc7fb365e0356666beaa9db82c3d599dea8f0f971bb9143409c0ee3454999dc"
 }
