@@ -1,0 +1,269 @@
+{
+  "url": "https://bwired.nl",
+  "domain": "bwired.nl",
+  "lastScraped": "2026-08-10T10:52:37.742Z",
+  "totalPages": 1,
+  "successfulPages": 1,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Even geduld · Bwired.nl",
+      "url": "https://bwired.nl"
+    }
+  ],
+  "latestVersion": "c60a2ed4e9b107e53ebdae999fa95d125e53caba4d7de79ce614a6630cd606fc",
+  "versions": [
+    {
+      "version": "c60a2ed4e9b107e53ebdae999fa95d125e53caba4d7de79ce614a6630cd606fc",
+      "label": "latest",
+      "timestamp": "2026-08-10T10:52:37.742Z",
+      "filename": "documentation_2026-08-10T10:52:37.742Z.md",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "url": "https://bwired.nl",
+      "snapshotId": "c60a2ed4e9b107e53ebdae999fa95d125e53caba4d7de79ce614a6630cd606fc",
+      "isLatest": true
+    },
+    {
+      "version": "fa7f3ec1ec3c6fc1554a08455b951919b4ab9480d608873bfadf0538e02f94c5",
+      "timestamp": "2026-08-10T10:51:48.849Z",
+      "filename": "documentation_2026-08-10T10:51:48.849Z.md",
+      "totalPages": 11,
+      "successfulPages": 8,
+      "url": "https://bwired.nl",
+      "snapshotId": "fa7f3ec1ec3c6fc1554a08455b951919b4ab9480d608873bfadf0538e02f94c5",
+      "isLatest": false
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://bwired.nl",
+      "canonicalSeedUrl": "https://bwired.nl/",
+      "configuration": {
+        "url": "https://bwired.nl",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-10T10:51:36.820Z",
+      "completedAt": "2026-08-10T10:51:48.849Z",
+      "providerTotals": {
+        "discovered": 11,
+        "returned": 11,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 11,
+        "returned": 11,
+        "valid": 8,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 3,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://www.bwired.nl/zon",
+          "canonicalUrl": "https://www.bwired.nl/zon",
+          "status": "valid"
+        },
+        {
+          "url": "https://www.bwired.nl/ems/rapport",
+          "canonicalUrl": "https://www.bwired.nl/ems/rapport",
+          "status": "valid"
+        },
+        {
+          "url": "https://www.bwired.nl/morgen",
+          "canonicalUrl": "https://www.bwired.nl/morgen",
+          "status": "valid"
+        },
+        {
+          "url": "https://bwired.nl",
+          "canonicalUrl": "https://bwired.nl/",
+          "status": "valid"
+        },
+        {
+          "url": "https://www.bwired.nl/records",
+          "canonicalUrl": "https://www.bwired.nl/records",
+          "status": "valid"
+        },
+        {
+          "url": "https://www.bwired.nl/lucht",
+          "canonicalUrl": "https://www.bwired.nl/lucht",
+          "status": "valid"
+        },
+        {
+          "url": "https://www.bwired.nl/ems",
+          "canonicalUrl": "https://www.bwired.nl/ems",
+          "status": "valid"
+        },
+        {
+          "url": "https://www.bwired.nl/buienradar",
+          "canonicalUrl": "https://www.bwired.nl/buienradar",
+          "status": "empty",
+          "reason": "provider-result-had-no-extractable-content"
+        },
+        {
+          "url": "https://www.bwired.nl/davis",
+          "canonicalUrl": "https://www.bwired.nl/davis",
+          "status": "empty",
+          "reason": "provider-result-had-no-extractable-content"
+        },
+        {
+          "url": "https://www.bwired.nl/water",
+          "canonicalUrl": "https://www.bwired.nl/water",
+          "status": "empty",
+          "reason": "provider-result-had-no-extractable-content"
+        },
+        {
+          "url": "https://www.bwired.nl/uitleg",
+          "canonicalUrl": "https://www.bwired.nl/uitleg",
+          "status": "valid"
+        }
+      ],
+      "id": "9dba6e7f6b89f9995e9bd7bf9a3d4aff0d7bc4d6220541f30f98f7b6c29a2a03"
+    },
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://bwired.nl",
+      "canonicalSeedUrl": "https://bwired.nl/",
+      "configuration": {
+        "url": "https://bwired.nl",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-10T10:52:25.852Z",
+      "completedAt": "2026-08-10T10:52:37.742Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 1,
+        "returned": 1,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://bwired.nl",
+          "canonicalUrl": "https://bwired.nl/",
+          "status": "valid"
+        }
+      ],
+      "id": "ded5e99003f3daea2ebedc5d1df46050570c1f3615e3dda2052414959929e4f0"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fa7f3ec1ec3c6fc1554a08455b951919b4ab9480d608873bfadf0538e02f94c5",
+      "filename": "documentation_2026-08-10T10:51:48.849Z.md",
+      "contentHash": "a98b5d82d7a273d0ab91d10fc31d8009231ac539c8759a9b0c5a0f1698d6d3c0",
+      "sourceUrl": "https://bwired.nl",
+      "canonicalSourceUrl": "https://bwired.nl/",
+      "capturedAt": "2026-08-10T10:51:48.849Z",
+      "crawlRunId": "9dba6e7f6b89f9995e9bd7bf9a3d4aff0d7bc4d6220541f30f98f7b6c29a2a03",
+      "totalPages": 11,
+      "successfulPages": 8,
+      "structure": [
+        {
+          "type": "bwired.nl — Zon",
+          "url": "https://www.bwired.nl/zon"
+        },
+        {
+          "type": "bwired.nl — EMS Rapport",
+          "url": "https://www.bwired.nl/ems/rapport"
+        },
+        {
+          "type": "bwired.nl — Prijzen",
+          "url": "https://www.bwired.nl/morgen"
+        },
+        {
+          "type": "bwired.nl — live energie",
+          "url": "https://bwired.nl"
+        },
+        {
+          "type": "bwired.nl — Records",
+          "url": "https://www.bwired.nl/records"
+        },
+        {
+          "type": "bwired.nl — Lucht",
+          "url": "https://www.bwired.nl/lucht"
+        },
+        {
+          "type": "bwired.nl — EMS",
+          "url": "https://www.bwired.nl/ems"
+        },
+        {
+          "type": "bwired.nl — Uitleg",
+          "url": "https://www.bwired.nl/uitleg"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    },
+    {
+      "id": "c60a2ed4e9b107e53ebdae999fa95d125e53caba4d7de79ce614a6630cd606fc",
+      "filename": "documentation_2026-08-10T10:52:37.742Z.md",
+      "contentHash": "9c2d96e9d5407e2aebaddca81c08e1b537c4e08eeb44f294c724fa6658f447bb",
+      "sourceUrl": "https://bwired.nl",
+      "canonicalSourceUrl": "https://bwired.nl/",
+      "capturedAt": "2026-08-10T10:52:37.742Z",
+      "crawlRunId": "ded5e99003f3daea2ebedc5d1df46050570c1f3615e3dda2052414959929e4f0",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Even geduld · Bwired.nl",
+          "url": "https://bwired.nl"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "one-or-more-pages-need-review"
+        ]
+      }
+    }
+  ],
+  "currentSnapshotId": "fa7f3ec1ec3c6fc1554a08455b951919b4ab9480d608873bfadf0538e02f94c5"
+}
