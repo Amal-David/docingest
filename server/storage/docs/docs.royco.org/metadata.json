@@ -1,0 +1,482 @@
+{
+  "url": "https://docs.royco.org/",
+  "domain": "docs.royco.org",
+  "lastScraped": "2026-08-12T08:59:10.273Z",
+  "totalPages": 30,
+  "successfulPages": 30,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Royco Overview - Royco",
+      "url": "https://docs.royco.org/"
+    },
+    {
+      "type": "Governance and Fees - Royco",
+      "url": "https://docs.royco.org/governance-and-fees"
+    },
+    {
+      "type": "API Reference - Royco",
+      "url": "https://docs.royco.org/api-reference"
+    },
+    {
+      "type": "Frequently Asked Questions - Royco",
+      "url": "https://docs.royco.org/faq"
+    },
+    {
+      "type": "Deposits and Withdrawals - Royco",
+      "url": "https://docs.royco.org/deposits-and-withdrawals"
+    },
+    {
+      "type": "Key Addresses - Royco",
+      "url": "https://docs.royco.org/key-addresses"
+    },
+    {
+      "type": "Junior Tranche (JT) - Royco",
+      "url": "https://docs.royco.org/junior-tranche"
+    },
+    {
+      "type": "Vaults Overview - Royco",
+      "url": "https://docs.royco.org/how-the-vaults-work"
+    },
+    {
+      "type": "Glossary - Royco",
+      "url": "https://docs.royco.org/glossary"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.royco.org/llms.txt"
+    },
+    {
+      "type": "5. Deposits and Withdrawals - Royco",
+      "url": "https://docs.royco.org/royco-dawn/deposits-and-withdrawals"
+    },
+    {
+      "type": "4. Governance and Fees - Royco",
+      "url": "https://docs.royco.org/royco-dawn/governance-and-fees"
+    },
+    {
+      "type": "9. Frequently Asked Questions - Royco",
+      "url": "https://docs.royco.org/royco-dawn/faq"
+    },
+    {
+      "type": "2. How Dawn Works - Royco",
+      "url": "https://docs.royco.org/royco-dawn/how-dawn-works"
+    },
+    {
+      "type": "10. Key Addresses - Royco",
+      "url": "https://docs.royco.org/royco-dawn/key-addresses"
+    },
+    {
+      "type": "How Royco Works - Royco",
+      "url": "https://docs.royco.org/how-royco-works"
+    },
+    {
+      "type": "Senior Liquidity Provider (SLP) - Royco",
+      "url": "https://docs.royco.org/liquidity-provider-tranche"
+    },
+    {
+      "type": "7. Security and Audits - Royco",
+      "url": "https://docs.royco.org/royco-dawn/security-and-audits"
+    },
+    {
+      "type": "Market Dynamics - Royco",
+      "url": "https://docs.royco.org/market-dynamics"
+    },
+    {
+      "type": "Risks - Royco",
+      "url": "https://docs.royco.org/risk-framework"
+    },
+    {
+      "type": "Royco ETH (roywstETH) - Royco",
+      "url": "https://docs.royco.org/royco-eth-roywst-eth"
+    },
+    {
+      "type": "8. EntryPoint - Royco",
+      "url": "https://docs.royco.org/royco-dawn/roycoentrypoint"
+    },
+    {
+      "type": "6. Risk Framework - Royco",
+      "url": "https://docs.royco.org/royco-dawn/risk-framework"
+    },
+    {
+      "type": "3. Vault Products - Royco",
+      "url": "https://docs.royco.org/royco-dawn/vault-products"
+    },
+    {
+      "type": "1. Overview - Royco",
+      "url": "https://docs.royco.org/royco-dawn/overview"
+    },
+    {
+      "type": "EntryPoint - Royco",
+      "url": "https://docs.royco.org/roycoentrypoint"
+    },
+    {
+      "type": "Security and Audits - Royco",
+      "url": "https://docs.royco.org/security-and-audits"
+    },
+    {
+      "type": "Senior Vault (srRoyUSDC) - Royco",
+      "url": "https://docs.royco.org/vault-products"
+    },
+    {
+      "type": "Senior Tranche (ST) - Royco",
+      "url": "https://docs.royco.org/senior-tranche"
+    },
+    {
+      "type": "Royco Overview - Royco",
+      "url": "https://docs.royco.org/royco-overview"
+    }
+  ],
+  "latestVersion": "fa404b8c0c9c4ba7289326d100349dcf014f4a2c32694ed8874b9a3435c80f08",
+  "versions": [
+    {
+      "version": "fa404b8c0c9c4ba7289326d100349dcf014f4a2c32694ed8874b9a3435c80f08",
+      "label": "latest",
+      "timestamp": "2026-08-12T08:59:10.273Z",
+      "filename": "documentation_2026-08-12T08:59:10.273Z.md",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "url": "https://docs.royco.org/",
+      "snapshotId": "fa404b8c0c9c4ba7289326d100349dcf014f4a2c32694ed8874b9a3435c80f08",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://docs.royco.org/",
+      "canonicalSeedUrl": "https://docs.royco.org/",
+      "configuration": {
+        "url": "https://docs.royco.org/",
+        "limit": 1000,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-12T08:58:53.471Z",
+      "completedAt": "2026-08-12T08:59:10.273Z",
+      "providerTotals": {
+        "discovered": 30,
+        "returned": 30,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 30,
+        "returned": 30,
+        "valid": 30,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.royco.org/",
+          "canonicalUrl": "https://docs.royco.org/",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/governance-and-fees",
+          "canonicalUrl": "https://docs.royco.org/governance-and-fees",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/api-reference",
+          "canonicalUrl": "https://docs.royco.org/api-reference",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/faq",
+          "canonicalUrl": "https://docs.royco.org/faq",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/deposits-and-withdrawals",
+          "canonicalUrl": "https://docs.royco.org/deposits-and-withdrawals",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/key-addresses",
+          "canonicalUrl": "https://docs.royco.org/key-addresses",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/junior-tranche",
+          "canonicalUrl": "https://docs.royco.org/junior-tranche",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/how-the-vaults-work",
+          "canonicalUrl": "https://docs.royco.org/how-the-vaults-work",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/glossary",
+          "canonicalUrl": "https://docs.royco.org/glossary",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/llms.txt",
+          "canonicalUrl": "https://docs.royco.org/llms.txt",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/royco-dawn/deposits-and-withdrawals",
+          "canonicalUrl": "https://docs.royco.org/royco-dawn/deposits-and-withdrawals",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/royco-dawn/governance-and-fees",
+          "canonicalUrl": "https://docs.royco.org/royco-dawn/governance-and-fees",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/royco-dawn/faq",
+          "canonicalUrl": "https://docs.royco.org/royco-dawn/faq",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/royco-dawn/how-dawn-works",
+          "canonicalUrl": "https://docs.royco.org/royco-dawn/how-dawn-works",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/royco-dawn/key-addresses",
+          "canonicalUrl": "https://docs.royco.org/royco-dawn/key-addresses",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/how-royco-works",
+          "canonicalUrl": "https://docs.royco.org/how-royco-works",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/liquidity-provider-tranche",
+          "canonicalUrl": "https://docs.royco.org/liquidity-provider-tranche",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/royco-dawn/security-and-audits",
+          "canonicalUrl": "https://docs.royco.org/royco-dawn/security-and-audits",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/market-dynamics",
+          "canonicalUrl": "https://docs.royco.org/market-dynamics",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/risk-framework",
+          "canonicalUrl": "https://docs.royco.org/risk-framework",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/royco-eth-roywst-eth",
+          "canonicalUrl": "https://docs.royco.org/royco-eth-roywst-eth",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/royco-dawn/roycoentrypoint",
+          "canonicalUrl": "https://docs.royco.org/royco-dawn/roycoentrypoint",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/royco-dawn/risk-framework",
+          "canonicalUrl": "https://docs.royco.org/royco-dawn/risk-framework",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/royco-dawn/vault-products",
+          "canonicalUrl": "https://docs.royco.org/royco-dawn/vault-products",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/royco-dawn/overview",
+          "canonicalUrl": "https://docs.royco.org/royco-dawn/overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/roycoentrypoint",
+          "canonicalUrl": "https://docs.royco.org/roycoentrypoint",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/security-and-audits",
+          "canonicalUrl": "https://docs.royco.org/security-and-audits",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/vault-products",
+          "canonicalUrl": "https://docs.royco.org/vault-products",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/senior-tranche",
+          "canonicalUrl": "https://docs.royco.org/senior-tranche",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.royco.org/royco-overview",
+          "canonicalUrl": "https://docs.royco.org/royco-overview",
+          "status": "valid"
+        }
+      ],
+      "id": "26106c2e0615866344f30f85e52493125d534dc6ae2fb521088afe582f713290"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "fa404b8c0c9c4ba7289326d100349dcf014f4a2c32694ed8874b9a3435c80f08",
+      "filename": "documentation_2026-08-12T08:59:10.273Z.md",
+      "contentHash": "f4cfca371de48a9f435a644bc5c287a63494307d34835a45a5f0b9a3cc311e71",
+      "sourceUrl": "https://docs.royco.org/",
+      "canonicalSourceUrl": "https://docs.royco.org/",
+      "capturedAt": "2026-08-12T08:59:10.273Z",
+      "crawlRunId": "26106c2e0615866344f30f85e52493125d534dc6ae2fb521088afe582f713290",
+      "totalPages": 30,
+      "successfulPages": 30,
+      "structure": [
+        {
+          "type": "Royco Overview - Royco",
+          "url": "https://docs.royco.org/"
+        },
+        {
+          "type": "Governance and Fees - Royco",
+          "url": "https://docs.royco.org/governance-and-fees"
+        },
+        {
+          "type": "API Reference - Royco",
+          "url": "https://docs.royco.org/api-reference"
+        },
+        {
+          "type": "Frequently Asked Questions - Royco",
+          "url": "https://docs.royco.org/faq"
+        },
+        {
+          "type": "Deposits and Withdrawals - Royco",
+          "url": "https://docs.royco.org/deposits-and-withdrawals"
+        },
+        {
+          "type": "Key Addresses - Royco",
+          "url": "https://docs.royco.org/key-addresses"
+        },
+        {
+          "type": "Junior Tranche (JT) - Royco",
+          "url": "https://docs.royco.org/junior-tranche"
+        },
+        {
+          "type": "Vaults Overview - Royco",
+          "url": "https://docs.royco.org/how-the-vaults-work"
+        },
+        {
+          "type": "Glossary - Royco",
+          "url": "https://docs.royco.org/glossary"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.royco.org/llms.txt"
+        },
+        {
+          "type": "5. Deposits and Withdrawals - Royco",
+          "url": "https://docs.royco.org/royco-dawn/deposits-and-withdrawals"
+        },
+        {
+          "type": "4. Governance and Fees - Royco",
+          "url": "https://docs.royco.org/royco-dawn/governance-and-fees"
+        },
+        {
+          "type": "9. Frequently Asked Questions - Royco",
+          "url": "https://docs.royco.org/royco-dawn/faq"
+        },
+        {
+          "type": "2. How Dawn Works - Royco",
+          "url": "https://docs.royco.org/royco-dawn/how-dawn-works"
+        },
+        {
+          "type": "10. Key Addresses - Royco",
+          "url": "https://docs.royco.org/royco-dawn/key-addresses"
+        },
+        {
+          "type": "How Royco Works - Royco",
+          "url": "https://docs.royco.org/how-royco-works"
+        },
+        {
+          "type": "Senior Liquidity Provider (SLP) - Royco",
+          "url": "https://docs.royco.org/liquidity-provider-tranche"
+        },
+        {
+          "type": "7. Security and Audits - Royco",
+          "url": "https://docs.royco.org/royco-dawn/security-and-audits"
+        },
+        {
+          "type": "Market Dynamics - Royco",
+          "url": "https://docs.royco.org/market-dynamics"
+        },
+        {
+          "type": "Risks - Royco",
+          "url": "https://docs.royco.org/risk-framework"
+        },
+        {
+          "type": "Royco ETH (roywstETH) - Royco",
+          "url": "https://docs.royco.org/royco-eth-roywst-eth"
+        },
+        {
+          "type": "8. EntryPoint - Royco",
+          "url": "https://docs.royco.org/royco-dawn/roycoentrypoint"
+        },
+        {
+          "type": "6. Risk Framework - Royco",
+          "url": "https://docs.royco.org/royco-dawn/risk-framework"
+        },
+        {
+          "type": "3. Vault Products - Royco",
+          "url": "https://docs.royco.org/royco-dawn/vault-products"
+        },
+        {
+          "type": "1. Overview - Royco",
+          "url": "https://docs.royco.org/royco-dawn/overview"
+        },
+        {
+          "type": "EntryPoint - Royco",
+          "url": "https://docs.royco.org/roycoentrypoint"
+        },
+        {
+          "type": "Security and Audits - Royco",
+          "url": "https://docs.royco.org/security-and-audits"
+        },
+        {
+          "type": "Senior Vault (srRoyUSDC) - Royco",
+          "url": "https://docs.royco.org/vault-products"
+        },
+        {
+          "type": "Senior Tranche (ST) - Royco",
+          "url": "https://docs.royco.org/senior-tranche"
+        },
+        {
+          "type": "Royco Overview - Royco",
+          "url": "https://docs.royco.org/royco-overview"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "fa404b8c0c9c4ba7289326d100349dcf014f4a2c32694ed8874b9a3435c80f08"
+}
