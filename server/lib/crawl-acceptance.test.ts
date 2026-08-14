@@ -43,6 +43,11 @@ assert.deepEqual(
   assessSnapshotQuality([...Array(99).fill(substantialPage), shortPage]),
   { status: 'approved', reasons: [] }
 );
+// The ratio boundary is inclusive: exactly half approved still approves.
+assert.deepEqual(assessSnapshotQuality([substantialPage, shortPage]), {
+  status: 'approved',
+  reasons: [],
+});
 assert.deepEqual(assessSnapshotQuality([shortPage, shortPage]), {
   status: 'unknown',
   reasons: ['no-accepted-page-met-automatic-approval'],
