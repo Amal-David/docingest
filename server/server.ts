@@ -53,7 +53,7 @@ import {
   selectApprovedCurrentSnapshot,
 } from './lib/document-integrity';
 import {
-  assessDocumentationQuality,
+  assessSnapshotQuality,
   failedPageLabels,
   reconcileCrawlOutcomes,
 } from './lib/crawl-acceptance';
@@ -631,9 +631,7 @@ app.post('/api/docs/save', async (req, res) => {
       structure: validPages.map((page) => ({ type: page.type || '', url: page.url || null })),
       upstreamVersion: explicitVersion,
       upstreamChannel: versionLabel,
-      quality: validPages.some((page) => assessDocumentationQuality(page).status !== 'approved')
-        ? { status: 'unknown', reasons: ['one-or-more-pages-need-review'] }
-        : { status: 'approved', reasons: [] },
+      quality: assessSnapshotQuality(validPages),
     });
     const existingSnapshot = existingMetadata?.schemaVersion === 3
       ? existingMetadata.snapshots.find((candidate) => candidate.id === proposedSnapshot.id)
