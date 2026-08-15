@@ -1,190 +1,41 @@
 {
   "url": "https://daikirai.gitbook.io/",
   "domain": "daikirai.gitbook.io",
-  "lastScraped": "2026-06-14T18:35:14.946Z",
-  "totalPages": 57,
-  "successfulPages": 57,
-  "failedPages": [],
+  "lastScraped": "2026-08-14T09:51:25.328Z",
+  "totalPages": 260,
+  "successfulPages": 258,
+  "failedPages": [
+    "https://daikirai.gitbook.io/scripting/guide (provider-result-had-no-extractable-content)",
+    "https://daikirai.gitbook.io/scripting/documentation (provider-result-had-no-extractable-content)"
+  ],
   "structure": [
-    {
-      "type": "entity | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/entity"
-    },
-    {
-      "type": "encryption | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/guide/encryption"
-    },
-    {
-      "type": "image | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/image"
-    },
-    {
-      "type": "setup | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/guide/setup"
-    },
-    {
-      "type": "itemstack | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/itemstack"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/llms.txt"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/entity.md"
-    },
-    {
-      "type": "main | raven client",
-      "url": "https://daikirai.gitbook.io/scripting"
-    },
     {
       "type": "imports | raven client",
       "url": "https://daikirai.gitbook.io/scripting/documentation/imports"
-    },
-    {
-      "type": "bridge | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/bridge"
-    },
-    {
-      "type": "block | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/block"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/image.md"
-    },
-    {
-      "type": "keybinds | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/keybinds"
-    },
-    {
-      "type": "config | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/config"
     },
     {
       "type": "events | raven client",
       "url": "https://daikirai.gitbook.io/scripting/documentation/events"
     },
     {
-      "type": "network | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/network"
+      "type": "formatting | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/guide/formatting"
     },
     {
-      "type": "inventory | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/inventory"
+      "type": "main | raven client",
+      "url": "https://daikirai.gitbook.io/scripting"
     },
     {
-      "type": "gl | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/gl"
+      "type": "setup | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/guide/setup"
     },
     {
-      "type": "json | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/json"
+      "type": "encryption | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/guide/encryption"
     },
     {
       "type": "Unknown",
       "url": "https://daikirai.gitbook.io/scripting/guide/setup.md"
-    },
-    {
-      "type": "client | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/client"
-    },
-    {
-      "type": "load string | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/loadstring"
-    },
-    {
-      "type": "packets | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/packets"
-    },
-    {
-      "type": "tile entity | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/tile-entity"
-    },
-    {
-      "type": "response | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/response"
-    },
-    {
-      "type": "util | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/util"
-    },
-    {
-      "type": "playerstate | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/playerstate"
-    },
-    {
-      "type": "request | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/request"
-    },
-    {
-      "type": "vec3 | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/vec3"
-    },
-    {
-      "type": "modules | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/modules"
-    },
-    {
-      "type": "world | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/world"
-    },
-    {
-      "type": "render | raven client",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/render"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/imports.md"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/json.md"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/network.md"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/util.md"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/client.md"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/packets.md"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/modules.md"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/playerstate.md"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/keybinds.md"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/config.md"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/vec3.md"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/world.md"
-    },
-    {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/render.md"
     },
     {
       "type": "Unknown",
@@ -196,35 +47,543 @@
     },
     {
       "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/bridge.md"
-    },
-    {
-      "type": "Unknown",
       "url": "https://daikirai.gitbook.io/scripting/guide/encryption.md"
     },
     {
       "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/loadstring.md"
+      "url": "https://daikirai.gitbook.io/scripting/documentation/imports.md"
     },
     {
       "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/gl.md"
+      "url": "https://daikirai.gitbook.io/scripting/llms.txt"
     },
     {
       "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/response.md"
+      "url": "https://daikirai.gitbook.io/scripting/guide/formatting.md"
     },
     {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/inventory.md"
+      "type": "global | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/global"
     },
     {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/request.md"
+      "type": "block | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/block"
     },
     {
-      "type": "Unknown",
-      "url": "https://daikirai.gitbook.io/scripting/documentation/tile-entity.md"
+      "type": "config | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/config"
+    },
+    {
+      "type": "bridge | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/bridge"
+    },
+    {
+      "type": "image | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/image"
+    },
+    {
+      "type": "json | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/json"
+    },
+    {
+      "type": "itemstack | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/itemstack"
+    },
+    {
+      "type": "inventory | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/inventory"
+    },
+    {
+      "type": "load string | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/loadstring"
+    },
+    {
+      "type": "keybinds | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/keybinds"
+    },
+    {
+      "type": "gl | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/gl"
+    },
+    {
+      "type": "network | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/network"
+    },
+    {
+      "type": "playerstate | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/playerstate"
+    },
+    {
+      "type": "entity | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/entity"
+    },
+    {
+      "type": "request | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/request"
+    },
+    {
+      "type": "response | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/response"
+    },
+    {
+      "type": "modules | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/modules"
+    },
+    {
+      "type": "Backtrack | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/network/backtrack"
+    },
+    {
+      "type": "AntiBot | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/world/antibot"
+    },
+    {
+      "type": "Settings | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/client/settings"
+    },
+    {
+      "type": "BedAura | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/bedaura"
+    },
+    {
+      "type": "InvMove | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/invmove"
+    },
+    {
+      "type": "Speed Builders | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/speed-builders"
+    },
+    {
+      "type": "client | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/client"
+    },
+    {
+      "type": "SafeWalk | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/safewalk"
+    },
+    {
+      "type": "SlyPort | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/fun/slyport"
+    },
+    {
+      "type": "Scaffold | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/scaffold"
+    },
+    {
+      "type": "Lag Range | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/network/lag-range"
+    },
+    {
+      "type": "Freeze | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/network/freeze"
+    },
+    {
+      "type": "NoSlow | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/noslow"
+    },
+    {
+      "type": "GUI | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/client/gui"
+    },
+    {
+      "type": "KillAura | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/combat/killaura"
+    },
+    {
+      "type": "Boost | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/boost"
+    },
+    {
+      "type": "world | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/world"
+    },
+    {
+      "type": "packets | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/packets"
+    },
+    {
+      "type": "tile entity | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/tile-entity"
+    },
+    {
+      "type": "render | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/render"
+    },
+    {
+      "type": "util | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/util"
+    },
+    {
+      "type": "AutoClicker | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/combat/autoclicker"
+    },
+    {
+      "type": "AimAssist | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/combat/aimassist"
+    },
+    {
+      "type": "NoHurtCam | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/nohurtcam"
+    },
+    {
+      "type": "Tracers | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/tracers"
+    },
+    {
+      "type": "InvManager | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/invmanager"
+    },
+    {
+      "type": "Stasis | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/stasis"
+    },
+    {
+      "type": "Bridge Info | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/bridge-info"
+    },
+    {
+      "type": "AutoRequeue | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/autorequeue"
+    },
+    {
+      "type": "Sumo Fences | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/sumo-fences"
+    },
+    {
+      "type": "Fake Chat | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/other/fake-chat"
+    },
+    {
+      "type": "Hitbox | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/combat/hitbox"
+    },
+    {
+      "type": "TPAura | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/combat/tpaura"
+    },
+    {
+      "type": "AntiShuffle | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/antishuffle"
+    },
+    {
+      "type": "Chams | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/chams"
+    },
+    {
+      "type": "Reach | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/combat/reach"
+    },
+    {
+      "type": "ItemESP | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/itemesp"
+    },
+    {
+      "type": "Fall View | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/fall-view"
+    },
+    {
+      "type": "Radar | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/radar"
+    },
+    {
+      "type": "Speed | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/speed"
+    },
+    {
+      "type": "AutoLadder | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/autoladder"
+    },
+    {
+      "type": "VClip | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/vclip"
+    },
+    {
+      "type": "AutoWho | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/autowho"
+    },
+    {
+      "type": "Murder Mystery | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/murder-mystery"
+    },
+    {
+      "type": "ClickAssist | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/combat/clickassist"
+    },
+    {
+      "type": "VPN Status | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/network/vpn-status"
+    },
+    {
+      "type": "Sky Wars | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/sky-wars"
+    },
+    {
+      "type": "Spammer | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/other/spammer"
+    },
+    {
+      "type": "Limbo | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/network/limbo"
+    },
+    {
+      "type": "Assistant | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/client/assistant"
+    },
+    {
+      "type": "Spin | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/fun/spin"
+    },
+    {
+      "type": "Jump Reset | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/combat/jump-reset"
+    },
+    {
+      "type": "Reduce | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/combat/reduce"
+    },
+    {
+      "type": "ChestESP | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/chestesp"
+    },
+    {
+      "type": "Damage Tags | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/damage-tags"
+    },
+    {
+      "type": "Indicators | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/indicators"
+    },
+    {
+      "type": "PlayerESP | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/playeresp"
+    },
+    {
+      "type": "AntiFireball | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/antifireball"
+    },
+    {
+      "type": "TargetHUD | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/targethud"
+    },
+    {
+      "type": "AutoBlockin | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/autoblockin"
+    },
+    {
+      "type": "AutoPlace | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/autoplace"
+    },
+    {
+      "type": "AutoJump | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/autojump"
+    },
+    {
+      "type": "AutoTool | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/autotool"
+    },
+    {
+      "type": "Xray | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/xray"
+    },
+    {
+      "type": "Trajectories | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/trajectories"
+    },
+    {
+      "type": "AutoSwap | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/autoswap"
+    },
+    {
+      "type": "Water Bucket | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/water-bucket"
+    },
+    {
+      "type": "NoRotate | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/norotate"
+    },
+    {
+      "type": "Stop Motion | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/stop-motion"
+    },
+    {
+      "type": "Hit Particles | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/other/hit-particles"
+    },
+    {
+      "type": "Teleport | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/teleport"
+    },
+    {
+      "type": "Command Line | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/client/command-line"
+    },
+    {
+      "type": "Name Hider | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/other/name-hider"
+    },
+    {
+      "type": "Hit Select | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/combat/hit-select"
+    },
+    {
+      "type": "vec3 | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/vec3"
+    },
+    {
+      "type": "WTap | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/combat/wtap"
+    },
+    {
+      "type": "Extend Camera | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/extend-camera"
+    },
+    {
+      "type": "BreakProgress | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/breakprogress"
+    },
+    {
+      "type": "Nametags | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/nametags"
+    },
+    {
+      "type": "BedESP | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/bedesp"
+    },
+    {
+      "type": "MobESP | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/mobesp"
+    },
+    {
+      "type": "NoCameraClip | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/nocameraclip"
+    },
+    {
+      "type": "AntiAFK | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/antiafk"
+    },
+    {
+      "type": "Shaders | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/shaders"
+    },
+    {
+      "type": "FastMine | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/fastmine"
+    },
+    {
+      "type": "GhostHand | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/ghosthand"
+    },
+    {
+      "type": "Freecam | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/freecam"
+    },
+    {
+      "type": "Delay Remover | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/delay-remover"
+    },
+    {
+      "type": "Fly | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/fly"
+    },
+    {
+      "type": "Long Jump | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/long-jump"
+    },
+    {
+      "type": "Sprint | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/sprint"
+    },
+    {
+      "type": "Duels Stats | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/duels-stats"
+    },
+    {
+      "type": "AntiCheat | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/other/anticheat"
+    },
+    {
+      "type": "Blink | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/network/blink"
+    },
+    {
+      "type": "Latency Alerts | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/other/latency-alerts"
+    },
+    {
+      "type": "Extra Bobbing | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/fun/extra-bobbing"
+    },
+    {
+      "type": "Chat Bypass | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/other/chat-bypass"
+    },
+    {
+      "type": "Chat Commands | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/client/chat-commands"
+    },
+    {
+      "type": "Weather | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/world/weather"
+    },
+    {
+      "type": "IRC | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/client/irc"
+    },
+    {
+      "type": "Dolphin | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/dolphin"
+    },
+    {
+      "type": "TargetStrafe | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/targetstrafe"
+    },
+    {
+      "type": "KeepSprint | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/keepsprint"
+    },
+    {
+      "type": "Bed Wars | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/bed-wars"
+    },
+    {
+      "type": "HUD | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/render/hud"
+    },
+    {
+      "type": "NoFall | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/nofall"
+    },
+    {
+      "type": "Tower | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/tower"
+    },
+    {
+      "type": "FastPlace | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/player/fastplace"
+    },
+    {
+      "type": "Timer | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/timer"
+    },
+    {
+      "type": "Bhop | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/movement/bhop"
+    },
+    {
+      "type": "AntiKnockback | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/combat/antiknockback"
+    },
+    {
+      "type": "Fake Lag | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/network/fake-lag"
+    },
+    {
+      "type": "Velocity | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/combat/velocity"
+    },
+    {
+      "type": "Flame Trail | raven client",
+      "url": "https://daikirai.gitbook.io/scripting/fun/flame-trail"
     },
     {
       "type": "Unknown",
@@ -232,20 +591,478 @@
     },
     {
       "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/global.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/config.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/bridge.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/image.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/json.md"
+    },
+    {
+      "type": "Unknown",
       "url": "https://daikirai.gitbook.io/scripting/documentation/itemstack.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/inventory.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/loadstring.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/keybinds.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/gl.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/network.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/response.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/playerstate.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/request.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/combat/velocity.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/entity.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/fun/flame-trail.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/modules.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/client.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/util.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/render.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/tile-entity.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/combat/autoclicker.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/combat/aimassist.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/tracers.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/movement/stasis.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/invmanager.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/nohurtcam.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/bridge-info.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/autorequeue.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/other/fake-chat.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/sumo-fences.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/combat/hitbox.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/antishuffle.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/chams.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/combat/tpaura.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/combat/reach.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/itemesp.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/fall-view.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/movement/vclip.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/radar.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/movement/speed.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/autowho.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/autoladder.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/network/vpn-status.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/sky-wars.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/murder-mystery.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/combat/clickassist.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/network/limbo.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/other/spammer.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/client/assistant.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/combat/reduce.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/chestesp.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/fun/spin.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/combat/jump-reset.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/antifireball.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/indicators.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/damage-tags.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/playeresp.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/targethud.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/autoblockin.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/autojump.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/autotool.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/autoplace.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/xray.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/trajectories.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/autoswap.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/norotate.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/water-bucket.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/movement/stop-motion.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/other/hit-particles.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/movement/teleport.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/documentation/vec3.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/client/command-line.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/other/name-hider.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/combat/hit-select.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/extend-camera.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/combat/wtap.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/nocameraclip.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/mobesp.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/nametags.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/bedesp.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/breakprogress.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/antiafk.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/shaders.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/fastmine.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/ghosthand.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/freecam.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/movement/fly.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/movement/sprint.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/delay-remover.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/movement/long-jump.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/other/latency-alerts.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/fun/extra-bobbing.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/other/chat-bypass.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/other/anticheat.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/network/blink.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/client/chat-commands.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/client/irc.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/movement/targetstrafe.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/movement/dolphin.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/duels-stats.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/world/weather.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/render/hud.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/minigames/bed-wars.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/movement/keepsprint.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/tower.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/nofall.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/player/fastplace.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/movement/bhop.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/combat/antiknockback.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/network/fake-lag.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://daikirai.gitbook.io/scripting/movement/timer.md"
     }
   ],
-  "latestVersion": "1.0.3",
+  "latestVersion": "e8978ad56b80f10d7a97f8b743aebb0040e469cf3c79b4c1edd44cf915ccd04a",
   "versions": [
     {
-      "version": "1.0.3",
+      "version": "e8978ad56b80f10d7a97f8b743aebb0040e469cf3c79b4c1edd44cf915ccd04a",
       "label": "latest",
+      "timestamp": "2026-08-14T09:51:25.328Z",
+      "filename": "documentation_2026-08-14T09:51:25.328Z.md",
+      "totalPages": 260,
+      "successfulPages": 258,
+      "url": "https://daikirai.gitbook.io/scripting/documentation/imports",
+      "snapshotId": "e8978ad56b80f10d7a97f8b743aebb0040e469cf3c79b4c1edd44cf915ccd04a",
+      "isLatest": true
+    },
+    {
+      "version": "1.0.3",
       "timestamp": "2026-06-14T18:35:14.946Z",
       "filename": "documentation_2026-06-14T18:35:14.946Z.md",
       "totalPages": 57,
       "successfulPages": 57,
       "url": "https://daikirai.gitbook.io/scripting/documentation/entity",
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "1.0.2",
@@ -310,6 +1127,1353 @@
         "rejected": 0,
         "failed": 0
       }
+    },
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://daikirai.gitbook.io/scripting/documentation/imports",
+      "canonicalSeedUrl": "https://daikirai.gitbook.io/scripting/documentation/imports",
+      "configuration": {
+        "url": "https://daikirai.gitbook.io/scripting/documentation/imports",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-14T09:50:24.306Z",
+      "completedAt": "2026-08-14T09:51:25.328Z",
+      "providerTotals": {
+        "discovered": 260,
+        "returned": 260,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 260,
+        "returned": 260,
+        "valid": 258,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 2,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/imports",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/imports",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/events",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/events",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/guide/formatting",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/guide/formatting",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/guide/setup",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/guide/setup",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/guide/encryption",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/guide/encryption",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/guide/setup.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/guide/setup.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/events.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/events.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/readme.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/readme.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/guide/encryption.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/guide/encryption.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/imports.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/imports.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/llms.txt",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/llms.txt",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/guide/formatting.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/guide/formatting.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/guide",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/guide",
+          "status": "empty",
+          "reason": "provider-result-had-no-extractable-content"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation",
+          "status": "empty",
+          "reason": "provider-result-had-no-extractable-content"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/global",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/global",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/block",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/block",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/config",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/config",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/bridge",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/bridge",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/image",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/image",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/json",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/json",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/itemstack",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/itemstack",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/inventory",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/inventory",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/loadstring",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/loadstring",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/keybinds",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/keybinds",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/gl",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/gl",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/network",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/network",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/playerstate",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/playerstate",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/entity",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/entity",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/request",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/request",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/response",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/response",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/modules",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/modules",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/network/backtrack",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/network/backtrack",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/world/antibot",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/world/antibot",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/client/settings",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/client/settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/bedaura",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/bedaura",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/invmove",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/invmove",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/speed-builders",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/speed-builders",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/client",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/client",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/safewalk",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/safewalk",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/fun/slyport",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/fun/slyport",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/scaffold",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/scaffold",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/network/lag-range",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/network/lag-range",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/network/freeze",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/network/freeze",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/noslow",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/noslow",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/client/gui",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/client/gui",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/killaura",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/killaura",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/boost",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/boost",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/world",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/world",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/packets",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/packets",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/tile-entity",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/tile-entity",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/render",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/render",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/util",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/util",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/autoclicker",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/autoclicker",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/aimassist",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/aimassist",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/nohurtcam",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/nohurtcam",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/tracers",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/tracers",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/invmanager",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/invmanager",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/stasis",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/stasis",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/bridge-info",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/bridge-info",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/autorequeue",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/autorequeue",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/sumo-fences",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/sumo-fences",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/other/fake-chat",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/other/fake-chat",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/hitbox",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/hitbox",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/tpaura",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/tpaura",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/antishuffle",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/antishuffle",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/chams",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/chams",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/reach",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/reach",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/itemesp",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/itemesp",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/fall-view",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/fall-view",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/radar",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/radar",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/speed",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/speed",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/autoladder",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/autoladder",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/vclip",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/vclip",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/autowho",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/autowho",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/murder-mystery",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/murder-mystery",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/clickassist",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/clickassist",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/network/vpn-status",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/network/vpn-status",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/sky-wars",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/sky-wars",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/other/spammer",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/other/spammer",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/network/limbo",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/network/limbo",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/client/assistant",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/client/assistant",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/fun/spin",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/fun/spin",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/jump-reset",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/jump-reset",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/reduce",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/reduce",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/chestesp",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/chestesp",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/damage-tags",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/damage-tags",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/indicators",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/indicators",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/playeresp",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/playeresp",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/antifireball",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/antifireball",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/targethud",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/targethud",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/autoblockin",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/autoblockin",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/autoplace",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/autoplace",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/autojump",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/autojump",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/autotool",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/autotool",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/xray",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/xray",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/trajectories",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/trajectories",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/autoswap",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/autoswap",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/water-bucket",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/water-bucket",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/norotate",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/norotate",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/stop-motion",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/stop-motion",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/other/hit-particles",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/other/hit-particles",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/teleport",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/teleport",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/client/command-line",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/client/command-line",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/other/name-hider",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/other/name-hider",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/hit-select",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/hit-select",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/vec3",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/vec3",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/wtap",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/wtap",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/extend-camera",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/extend-camera",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/breakprogress",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/breakprogress",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/nametags",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/nametags",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/bedesp",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/bedesp",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/mobesp",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/mobesp",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/nocameraclip",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/nocameraclip",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/antiafk",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/antiafk",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/shaders",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/shaders",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/fastmine",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/fastmine",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/ghosthand",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/ghosthand",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/freecam",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/freecam",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/delay-remover",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/delay-remover",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/fly",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/fly",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/long-jump",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/long-jump",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/sprint",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/sprint",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/duels-stats",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/duels-stats",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/other/anticheat",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/other/anticheat",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/network/blink",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/network/blink",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/other/latency-alerts",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/other/latency-alerts",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/fun/extra-bobbing",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/fun/extra-bobbing",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/other/chat-bypass",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/other/chat-bypass",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/client/chat-commands",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/client/chat-commands",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/world/weather",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/world/weather",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/client/irc",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/client/irc",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/dolphin",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/dolphin",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/targetstrafe",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/targetstrafe",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/keepsprint",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/keepsprint",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/bed-wars",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/bed-wars",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/hud",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/hud",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/nofall",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/nofall",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/tower",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/tower",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/fastplace",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/fastplace",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/timer",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/timer",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/bhop",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/bhop",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/antiknockback",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/antiknockback",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/network/fake-lag",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/network/fake-lag",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/velocity",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/velocity",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/fun/flame-trail",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/fun/flame-trail",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/block.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/block.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/global.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/global.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/config.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/config.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/bridge.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/bridge.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/image.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/image.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/json.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/json.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/itemstack.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/itemstack.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/inventory.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/inventory.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/loadstring.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/loadstring.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/keybinds.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/keybinds.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/gl.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/gl.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/network.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/network.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/response.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/response.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/playerstate.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/playerstate.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/request.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/request.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/velocity.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/velocity.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/entity.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/entity.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/fun/flame-trail.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/fun/flame-trail.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/modules.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/modules.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/client.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/client.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/util.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/util.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/render.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/render.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/tile-entity.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/tile-entity.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/autoclicker.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/autoclicker.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/aimassist.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/aimassist.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/tracers.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/tracers.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/stasis.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/stasis.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/invmanager.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/invmanager.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/nohurtcam.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/nohurtcam.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/bridge-info.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/bridge-info.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/autorequeue.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/autorequeue.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/other/fake-chat.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/other/fake-chat.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/sumo-fences.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/sumo-fences.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/hitbox.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/hitbox.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/antishuffle.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/antishuffle.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/chams.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/chams.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/tpaura.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/tpaura.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/reach.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/reach.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/itemesp.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/itemesp.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/fall-view.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/fall-view.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/vclip.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/vclip.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/radar.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/radar.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/speed.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/speed.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/autowho.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/autowho.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/autoladder.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/autoladder.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/network/vpn-status.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/network/vpn-status.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/sky-wars.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/sky-wars.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/murder-mystery.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/murder-mystery.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/clickassist.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/clickassist.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/network/limbo.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/network/limbo.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/other/spammer.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/other/spammer.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/client/assistant.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/client/assistant.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/reduce.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/reduce.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/chestesp.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/chestesp.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/fun/spin.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/fun/spin.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/jump-reset.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/jump-reset.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/antifireball.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/antifireball.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/indicators.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/indicators.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/damage-tags.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/damage-tags.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/playeresp.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/playeresp.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/targethud.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/targethud.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/autoblockin.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/autoblockin.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/autojump.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/autojump.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/autotool.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/autotool.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/autoplace.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/autoplace.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/xray.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/xray.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/trajectories.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/trajectories.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/autoswap.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/autoswap.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/norotate.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/norotate.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/water-bucket.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/water-bucket.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/stop-motion.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/stop-motion.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/other/hit-particles.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/other/hit-particles.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/teleport.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/teleport.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/documentation/vec3.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/documentation/vec3.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/client/command-line.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/client/command-line.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/other/name-hider.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/other/name-hider.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/hit-select.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/hit-select.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/extend-camera.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/extend-camera.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/wtap.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/wtap.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/nocameraclip.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/nocameraclip.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/mobesp.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/mobesp.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/nametags.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/nametags.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/bedesp.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/bedesp.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/breakprogress.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/breakprogress.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/antiafk.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/antiafk.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/shaders.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/shaders.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/fastmine.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/fastmine.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/ghosthand.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/ghosthand.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/freecam.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/freecam.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/fly.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/fly.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/sprint.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/sprint.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/delay-remover.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/delay-remover.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/long-jump.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/long-jump.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/other/latency-alerts.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/other/latency-alerts.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/fun/extra-bobbing.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/fun/extra-bobbing.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/other/chat-bypass.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/other/chat-bypass.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/other/anticheat.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/other/anticheat.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/network/blink.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/network/blink.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/client/chat-commands.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/client/chat-commands.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/client/irc.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/client/irc.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/targetstrafe.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/targetstrafe.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/dolphin.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/dolphin.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/duels-stats.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/duels-stats.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/world/weather.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/world/weather.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/render/hud.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/render/hud.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/minigames/bed-wars.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/minigames/bed-wars.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/keepsprint.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/keepsprint.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/tower.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/tower.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/nofall.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/nofall.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/player/fastplace.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/player/fastplace.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/bhop.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/bhop.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/combat/antiknockback.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/combat/antiknockback.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/network/fake-lag.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/network/fake-lag.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://daikirai.gitbook.io/scripting/movement/timer.md",
+          "canonicalUrl": "https://daikirai.gitbook.io/scripting/movement/timer.md",
+          "status": "valid"
+        }
+      ],
+      "id": "d4d562f330b8954803ae5d02de5617e579eb0cd9d46b9f66f5ee632f84fd3d80"
     }
   ],
   "snapshots": [
@@ -558,6 +2722,1057 @@
       "quality": {
         "status": "approved",
         "reasons": []
+      }
+    },
+    {
+      "id": "e8978ad56b80f10d7a97f8b743aebb0040e469cf3c79b4c1edd44cf915ccd04a",
+      "filename": "documentation_2026-08-14T09:51:25.328Z.md",
+      "contentHash": "189336a241282087707deaa358ccaa1128fb7656d47c7c15b15449025afd4bff",
+      "sourceUrl": "https://daikirai.gitbook.io/scripting/documentation/imports",
+      "canonicalSourceUrl": "https://daikirai.gitbook.io/scripting/documentation/imports",
+      "capturedAt": "2026-08-14T09:51:25.328Z",
+      "crawlRunId": "d4d562f330b8954803ae5d02de5617e579eb0cd9d46b9f66f5ee632f84fd3d80",
+      "totalPages": 260,
+      "successfulPages": 258,
+      "structure": [
+        {
+          "type": "imports | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/imports"
+        },
+        {
+          "type": "events | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/events"
+        },
+        {
+          "type": "formatting | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/guide/formatting"
+        },
+        {
+          "type": "main | raven client",
+          "url": "https://daikirai.gitbook.io/scripting"
+        },
+        {
+          "type": "setup | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/guide/setup"
+        },
+        {
+          "type": "encryption | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/guide/encryption"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/guide/setup.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/events.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/readme.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/guide/encryption.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/imports.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/llms.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/guide/formatting.md"
+        },
+        {
+          "type": "global | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/global"
+        },
+        {
+          "type": "block | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/block"
+        },
+        {
+          "type": "config | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/config"
+        },
+        {
+          "type": "bridge | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/bridge"
+        },
+        {
+          "type": "image | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/image"
+        },
+        {
+          "type": "json | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/json"
+        },
+        {
+          "type": "itemstack | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/itemstack"
+        },
+        {
+          "type": "inventory | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/inventory"
+        },
+        {
+          "type": "load string | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/loadstring"
+        },
+        {
+          "type": "keybinds | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/keybinds"
+        },
+        {
+          "type": "gl | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/gl"
+        },
+        {
+          "type": "network | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/network"
+        },
+        {
+          "type": "playerstate | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/playerstate"
+        },
+        {
+          "type": "entity | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/entity"
+        },
+        {
+          "type": "request | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/request"
+        },
+        {
+          "type": "response | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/response"
+        },
+        {
+          "type": "modules | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/modules"
+        },
+        {
+          "type": "Backtrack | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/network/backtrack"
+        },
+        {
+          "type": "AntiBot | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/world/antibot"
+        },
+        {
+          "type": "Settings | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/client/settings"
+        },
+        {
+          "type": "BedAura | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/bedaura"
+        },
+        {
+          "type": "InvMove | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/invmove"
+        },
+        {
+          "type": "Speed Builders | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/speed-builders"
+        },
+        {
+          "type": "client | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/client"
+        },
+        {
+          "type": "SafeWalk | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/safewalk"
+        },
+        {
+          "type": "SlyPort | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/fun/slyport"
+        },
+        {
+          "type": "Scaffold | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/scaffold"
+        },
+        {
+          "type": "Lag Range | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/network/lag-range"
+        },
+        {
+          "type": "Freeze | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/network/freeze"
+        },
+        {
+          "type": "NoSlow | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/noslow"
+        },
+        {
+          "type": "GUI | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/client/gui"
+        },
+        {
+          "type": "KillAura | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/combat/killaura"
+        },
+        {
+          "type": "Boost | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/boost"
+        },
+        {
+          "type": "world | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/world"
+        },
+        {
+          "type": "packets | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/packets"
+        },
+        {
+          "type": "tile entity | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/tile-entity"
+        },
+        {
+          "type": "render | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/render"
+        },
+        {
+          "type": "util | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/util"
+        },
+        {
+          "type": "AutoClicker | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/combat/autoclicker"
+        },
+        {
+          "type": "AimAssist | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/combat/aimassist"
+        },
+        {
+          "type": "NoHurtCam | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/nohurtcam"
+        },
+        {
+          "type": "Tracers | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/tracers"
+        },
+        {
+          "type": "InvManager | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/invmanager"
+        },
+        {
+          "type": "Stasis | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/stasis"
+        },
+        {
+          "type": "Bridge Info | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/bridge-info"
+        },
+        {
+          "type": "AutoRequeue | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/autorequeue"
+        },
+        {
+          "type": "Sumo Fences | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/sumo-fences"
+        },
+        {
+          "type": "Fake Chat | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/other/fake-chat"
+        },
+        {
+          "type": "Hitbox | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/combat/hitbox"
+        },
+        {
+          "type": "TPAura | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/combat/tpaura"
+        },
+        {
+          "type": "AntiShuffle | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/antishuffle"
+        },
+        {
+          "type": "Chams | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/chams"
+        },
+        {
+          "type": "Reach | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/combat/reach"
+        },
+        {
+          "type": "ItemESP | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/itemesp"
+        },
+        {
+          "type": "Fall View | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/fall-view"
+        },
+        {
+          "type": "Radar | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/radar"
+        },
+        {
+          "type": "Speed | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/speed"
+        },
+        {
+          "type": "AutoLadder | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/autoladder"
+        },
+        {
+          "type": "VClip | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/vclip"
+        },
+        {
+          "type": "AutoWho | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/autowho"
+        },
+        {
+          "type": "Murder Mystery | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/murder-mystery"
+        },
+        {
+          "type": "ClickAssist | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/combat/clickassist"
+        },
+        {
+          "type": "VPN Status | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/network/vpn-status"
+        },
+        {
+          "type": "Sky Wars | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/sky-wars"
+        },
+        {
+          "type": "Spammer | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/other/spammer"
+        },
+        {
+          "type": "Limbo | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/network/limbo"
+        },
+        {
+          "type": "Assistant | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/client/assistant"
+        },
+        {
+          "type": "Spin | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/fun/spin"
+        },
+        {
+          "type": "Jump Reset | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/combat/jump-reset"
+        },
+        {
+          "type": "Reduce | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/combat/reduce"
+        },
+        {
+          "type": "ChestESP | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/chestesp"
+        },
+        {
+          "type": "Damage Tags | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/damage-tags"
+        },
+        {
+          "type": "Indicators | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/indicators"
+        },
+        {
+          "type": "PlayerESP | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/playeresp"
+        },
+        {
+          "type": "AntiFireball | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/antifireball"
+        },
+        {
+          "type": "TargetHUD | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/targethud"
+        },
+        {
+          "type": "AutoBlockin | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/autoblockin"
+        },
+        {
+          "type": "AutoPlace | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/autoplace"
+        },
+        {
+          "type": "AutoJump | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/autojump"
+        },
+        {
+          "type": "AutoTool | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/autotool"
+        },
+        {
+          "type": "Xray | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/xray"
+        },
+        {
+          "type": "Trajectories | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/trajectories"
+        },
+        {
+          "type": "AutoSwap | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/autoswap"
+        },
+        {
+          "type": "Water Bucket | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/water-bucket"
+        },
+        {
+          "type": "NoRotate | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/norotate"
+        },
+        {
+          "type": "Stop Motion | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/stop-motion"
+        },
+        {
+          "type": "Hit Particles | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/other/hit-particles"
+        },
+        {
+          "type": "Teleport | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/teleport"
+        },
+        {
+          "type": "Command Line | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/client/command-line"
+        },
+        {
+          "type": "Name Hider | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/other/name-hider"
+        },
+        {
+          "type": "Hit Select | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/combat/hit-select"
+        },
+        {
+          "type": "vec3 | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/vec3"
+        },
+        {
+          "type": "WTap | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/combat/wtap"
+        },
+        {
+          "type": "Extend Camera | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/extend-camera"
+        },
+        {
+          "type": "BreakProgress | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/breakprogress"
+        },
+        {
+          "type": "Nametags | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/nametags"
+        },
+        {
+          "type": "BedESP | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/bedesp"
+        },
+        {
+          "type": "MobESP | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/mobesp"
+        },
+        {
+          "type": "NoCameraClip | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/nocameraclip"
+        },
+        {
+          "type": "AntiAFK | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/antiafk"
+        },
+        {
+          "type": "Shaders | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/shaders"
+        },
+        {
+          "type": "FastMine | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/fastmine"
+        },
+        {
+          "type": "GhostHand | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/ghosthand"
+        },
+        {
+          "type": "Freecam | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/freecam"
+        },
+        {
+          "type": "Delay Remover | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/delay-remover"
+        },
+        {
+          "type": "Fly | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/fly"
+        },
+        {
+          "type": "Long Jump | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/long-jump"
+        },
+        {
+          "type": "Sprint | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/sprint"
+        },
+        {
+          "type": "Duels Stats | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/duels-stats"
+        },
+        {
+          "type": "AntiCheat | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/other/anticheat"
+        },
+        {
+          "type": "Blink | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/network/blink"
+        },
+        {
+          "type": "Latency Alerts | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/other/latency-alerts"
+        },
+        {
+          "type": "Extra Bobbing | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/fun/extra-bobbing"
+        },
+        {
+          "type": "Chat Bypass | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/other/chat-bypass"
+        },
+        {
+          "type": "Chat Commands | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/client/chat-commands"
+        },
+        {
+          "type": "Weather | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/world/weather"
+        },
+        {
+          "type": "IRC | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/client/irc"
+        },
+        {
+          "type": "Dolphin | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/dolphin"
+        },
+        {
+          "type": "TargetStrafe | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/targetstrafe"
+        },
+        {
+          "type": "KeepSprint | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/keepsprint"
+        },
+        {
+          "type": "Bed Wars | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/bed-wars"
+        },
+        {
+          "type": "HUD | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/render/hud"
+        },
+        {
+          "type": "NoFall | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/nofall"
+        },
+        {
+          "type": "Tower | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/tower"
+        },
+        {
+          "type": "FastPlace | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/player/fastplace"
+        },
+        {
+          "type": "Timer | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/timer"
+        },
+        {
+          "type": "Bhop | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/movement/bhop"
+        },
+        {
+          "type": "AntiKnockback | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/combat/antiknockback"
+        },
+        {
+          "type": "Fake Lag | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/network/fake-lag"
+        },
+        {
+          "type": "Velocity | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/combat/velocity"
+        },
+        {
+          "type": "Flame Trail | raven client",
+          "url": "https://daikirai.gitbook.io/scripting/fun/flame-trail"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/block.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/global.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/config.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/bridge.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/image.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/json.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/itemstack.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/inventory.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/loadstring.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/keybinds.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/gl.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/network.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/response.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/playerstate.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/request.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/combat/velocity.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/entity.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/fun/flame-trail.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/modules.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/client.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/util.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/render.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/tile-entity.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/combat/autoclicker.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/combat/aimassist.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/tracers.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/movement/stasis.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/invmanager.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/nohurtcam.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/bridge-info.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/autorequeue.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/other/fake-chat.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/sumo-fences.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/combat/hitbox.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/antishuffle.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/chams.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/combat/tpaura.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/combat/reach.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/itemesp.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/fall-view.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/movement/vclip.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/radar.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/movement/speed.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/autowho.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/autoladder.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/network/vpn-status.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/sky-wars.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/murder-mystery.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/combat/clickassist.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/network/limbo.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/other/spammer.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/client/assistant.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/combat/reduce.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/chestesp.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/fun/spin.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/combat/jump-reset.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/antifireball.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/indicators.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/damage-tags.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/playeresp.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/targethud.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/autoblockin.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/autojump.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/autotool.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/autoplace.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/xray.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/trajectories.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/autoswap.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/norotate.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/water-bucket.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/movement/stop-motion.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/other/hit-particles.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/movement/teleport.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/documentation/vec3.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/client/command-line.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/other/name-hider.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/combat/hit-select.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/extend-camera.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/combat/wtap.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/nocameraclip.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/mobesp.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/nametags.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/bedesp.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/breakprogress.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/antiafk.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/shaders.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/fastmine.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/ghosthand.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/freecam.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/movement/fly.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/movement/sprint.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/delay-remover.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/movement/long-jump.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/other/latency-alerts.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/fun/extra-bobbing.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/other/chat-bypass.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/other/anticheat.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/network/blink.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/client/chat-commands.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/client/irc.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/movement/targetstrafe.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/movement/dolphin.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/duels-stats.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/world/weather.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/render/hud.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/minigames/bed-wars.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/movement/keepsprint.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/tower.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/nofall.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/player/fastplace.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/movement/bhop.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/combat/antiknockback.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/network/fake-lag.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://daikirai.gitbook.io/scripting/movement/timer.md"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "one-or-more-pages-need-review"
+        ]
       }
     }
   ],
