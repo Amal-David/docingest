@@ -175,6 +175,26 @@ npm run audit:integrity
 npm run audit:integrity -- --apply
 ```
 
+## Snapshot quality backfill
+
+Before the fix in #29, a snapshot was only approved when *every* accepted page
+cleared automatic approval, so a single short page could hold back an entire
+corpus and leave a stored domain answering "Documentation not found". The fix
+applies to new crawls; snapshots already on disk keep the verdict they were
+written with.
+
+This one-time pass re-derives those verdicts from the markdown each snapshot was
+built from, so stored documentation is not stranded until someone re-crawls it.
+It only touches snapshots recorded as `one-or-more-pages-need-review`, the reason
+the old rule wrote — snapshots quarantined for challenge pages, error pages, or
+genuinely thin content are left alone. Dry-run is the default and the existing
+metadata is backed up before any write:
+
+```bash
+npm run backfill:quality
+npm run backfill:quality -- --apply
+```
+
 ## Setup Docs
 
 Use these when you need more than the happy path:

@@ -57,6 +57,7 @@ import {
   failedPageLabels,
   reconcileCrawlOutcomes,
 } from './lib/crawl-acceptance';
+import { generateTableOfContents, mergeMarkdownContent } from './lib/markdown-merge';
 import { resolveSnapshotSelector } from './lib/snapshot-selector';
 import { canonicalDomain, canonicalizeUrl } from './lib/url-canonicalization';
 import { searchApprovedSections, type ApprovedDocumentForSearch } from './lib/section-retrieval';
@@ -225,28 +226,8 @@ const STORAGE_PATH = isInServerDir
   : path.join(process.cwd(), 'server', 'storage', 'docs');
 console.log('Storage path:', STORAGE_PATH);
 
-// Helper function to generate table of contents
-const generateTableOfContents = (pages: any[]) => {
-  let toc = '# Table of Contents\n\n';
-  pages.forEach((page, index) => {
-    const title = page.type || `Section ${index + 1}`;
-    const anchor = title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-    toc += `- [${title}](#${anchor})\n`;
-  });
-  return toc + '\n---\n\n';
-};
-
-// Helper function to merge markdown content
-const mergeMarkdownContent = (pages: any[]) => {
-  let content = '';
-  pages.forEach((page) => {
-    const title = page.type || 'Untitled Section';
-    // Clean the title and create an anchor
-    const anchor = title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-    content += `# ${title}\n\n${page.content}\n\n---\n\n`;
-  });
-  return content;
-};
+// The snapshot merge format lives in ./lib/markdown-merge alongside the split
+// that reverses it, so the two cannot drift apart.
 
 function getApprovedSnapshot(metadata: VersionedDomainMetadata) {
   return metadata.schemaVersion === 3
