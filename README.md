@@ -10,25 +10,25 @@ It crawls docs, stores them as clean markdown, indexes them for search, and expo
 
 ### What works today
 
-- ✅ Index documentation sites from the web UI
-- ✅ Browse and search indexed docs at `docingest.com`
-- ✅ Open docs by domain, copy markdown, and download stored docs
-- ✅ Re-index sources when upstream docs change
-- ✅ Query docs from MCP-compatible coding tools
-- ✅ Use the package as a lightweight CLI for quick lookup
+- Index documentation sites from the web UI
+- Browse and search indexed docs at `docingest.com`
+- Open docs by domain, copy markdown, and download stored docs
+- Re-index sources when upstream docs change
+- Query docs from MCP-compatible coding tools
+- Use the package as a lightweight CLI for quick lookup
 
 ### Hosted corpus
 
-- 📚 The live `main` deployment currently serves **1,512 latest documentation sites** on `docingest.com` as of April 24, 2026
-- 🗂️ DocIngest stores versioned snapshots per domain, so one docs site can have multiple historical versions behind the scenes
-- ℹ️ The Git repository does not commit the full hosted corpus; the deployed service holds the actual indexed docs data
+- The live `main` deployment currently serves **1,635 latest documentation sites** on `docingest.com` as of August 16, 2026
+- DocIngest stores versioned snapshots per domain, so one docs site can have multiple historical versions behind the scenes
+- The Git repository does not commit the full hosted corpus; the deployed service holds the actual indexed docs data
 
-### Still early
+### Known limitations
 
-- 🧪 Search/ranking works, but needs deeper tuning
-- 🧪 Loading, empty, and success states need more polish
-- 🧪 Version-aware storage exists, but the product UX around versions is still early
-- ❌ Not yet a mature enterprise docs platform with permissions, collaboration, and admin workflows
+- Search and ranking work, but need deeper tuning
+- Loading, empty, and success states need more polish
+- Version-aware storage exists, but the product UX around versions is still early
+- Not yet a mature enterprise docs platform with permissions, collaboration, and admin workflows
 
 ## Screenshots
 
