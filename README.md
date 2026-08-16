@@ -195,6 +195,15 @@ npm run backfill:quality
 npm run backfill:quality -- --apply
 ```
 
+An apply run stops on any domain that already has a backup from an earlier run,
+so a second pass cannot quietly overwrite the original boundary. The rest of the
+batch still proceeds. Review that backup, then re-run with `--force` to continue;
+the existing backup file is kept as it is.
+
+```bash
+npm run backfill:quality -- --apply --force
+```
+
 ## Setup Docs
 
 Use these when you need more than the happy path:

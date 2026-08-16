@@ -95,9 +95,10 @@ const readMetadata = (domainPath: string) =>
 async function testOneStubNoLongerStrandsStoredDocumentation(): Promise<void> {
   await withTemporaryCorpus(async (storagePath) => {
     const pages = [...Array(99)].map((_, i) => substantial(`Guide ${i}`)).concat(stub('Stub'));
-    const { domainPath, snapshotId } = await addDomain(
+    const { domainPath, snapshotId, metadata } = await addDomain(
       storagePath, 'stranded.example.test', pages, UNANIMITY_QUALITY
     );
+    const originalContentHash = metadata.snapshots[0].contentHash;
 
     const summary = await backfillCorpus({ apply: true, force: false, storagePath });
     assert.deepEqual(summary, {
@@ -116,7 +117,7 @@ async function testOneStubNoLongerStrandsStoredDocumentation(): Promise<void> {
     assert.equal(updated.currentSnapshotId, snapshotId);
     // Quality is not part of snapshot identity; the evidence must not move.
     assert.equal(updated.snapshots[0].id, snapshotId);
-    assert.equal(updated.snapshots[0].contentHash, (await readMetadata(domainPath)).snapshots[0].contentHash);
+    assert.equal(updated.snapshots[0].contentHash, originalContentHash);
   });
 }
 

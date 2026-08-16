@@ -171,7 +171,12 @@ export async function backfillDomain(
       currentSnapshotId: metadata.currentSnapshotId,
     })?.id,
   };
-  await fs.writeJSON(metadataPath, updated, { spaces: 2 });
+  // Write through a sibling temp file so the replacement is atomic. A batch
+  // interrupted mid-write would otherwise leave a domain with truncated
+  // metadata, which reads as corrupt rather than as either verdict.
+  const pendingPath = `${metadataPath}.pending`;
+  await fs.writeJSON(pendingPath, updated, { spaces: 2 });
+  await fs.rename(pendingPath, metadataPath);
   return result;
 }
 
