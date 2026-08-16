@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import {
   assessDocumentationQuality,
+  assessSnapshotQuality,
   failedPageLabels,
   reconcileCrawlOutcomes,
 } from './crawl-acceptance';
@@ -24,6 +25,36 @@ assert.deepEqual(
 assert.deepEqual(
   assessDocumentationQuality({ type: 'Guide', content: `# Guide\n\n${'Useful documentation. '.repeat(30)}` }),
   { status: 'approved', reasons: [] }
+);
+
+const substantialPage = { type: 'Guide', content: `# Guide\n\n${'Useful documentation. '.repeat(30)}` };
+const shortPage = { type: 'Stub', content: 'Short but potentially useful.' };
+
+assert.deepEqual(assessSnapshotQuality([]), {
+  status: 'unknown',
+  reasons: ['snapshot-has-no-accepted-pages'],
+});
+assert.deepEqual(assessSnapshotQuality([substantialPage, substantialPage]), {
+  status: 'approved',
+  reasons: [],
+});
+// One short page among many substantial ones must not veto the snapshot.
+assert.deepEqual(
+  assessSnapshotQuality([...Array(99).fill(substantialPage), shortPage]),
+  { status: 'approved', reasons: [] }
+);
+// The ratio boundary is inclusive: exactly half approved still approves.
+assert.deepEqual(assessSnapshotQuality([substantialPage, shortPage]), {
+  status: 'approved',
+  reasons: [],
+});
+assert.deepEqual(assessSnapshotQuality([shortPage, shortPage]), {
+  status: 'unknown',
+  reasons: ['no-accepted-page-met-automatic-approval'],
+});
+assert.deepEqual(
+  assessSnapshotQuality([substantialPage, shortPage, shortPage, shortPage]),
+  { status: 'unknown', reasons: ['only-1-of-4-accepted-pages-met-automatic-approval'] }
 );
 
 const result = reconcileCrawlOutcomes(

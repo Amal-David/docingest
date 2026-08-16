@@ -47,6 +47,39 @@ export function assessDocumentationQuality(page: SubmittedCrawlPage): SnapshotQu
   return { status: 'approved', reasons: [] };
 }
 
+// Share of accepted pages that must clear automatic approval for the snapshot
+// itself to be approved. Requiring every page to clear it lets one short stub
+// veto an entire corpus, and an unapproved snapshot is never served.
+export const SNAPSHOT_APPROVAL_MIN_RATIO = 0.5;
+
+/**
+ * Roll per-page quality up to the snapshot the pages were merged into.
+ *
+ * Pages that look like challenges, error pages, or login walls never reach this
+ * point: `classifySubmittedPage` rejects them, so they are excluded from the
+ * accepted set. The only remaining way a page falls short of `approved` is
+ * `content-too-short-for-automatic-approval`, which says nothing about whether
+ * the surrounding corpus is real documentation.
+ */
+export function assessSnapshotQuality(pages: SubmittedCrawlPage[]): SnapshotQuality {
+  if (pages.length === 0) {
+    return { status: 'unknown', reasons: ['snapshot-has-no-accepted-pages'] };
+  }
+
+  const approved = pages.filter((page) => assessDocumentationQuality(page).status === 'approved').length;
+  if (approved === 0) {
+    return { status: 'unknown', reasons: ['no-accepted-page-met-automatic-approval'] };
+  }
+  if (approved / pages.length < SNAPSHOT_APPROVAL_MIN_RATIO) {
+    return {
+      status: 'unknown',
+      reasons: [`only-${approved}-of-${pages.length}-accepted-pages-met-automatic-approval`],
+    };
+  }
+
+  return { status: 'approved', reasons: [] };
+}
+
 export function isLikelyBlockedPage(page: SubmittedCrawlPage): boolean {
   const title = (page.type || '').toLowerCase();
   const content = (page.content || '').toLowerCase();
