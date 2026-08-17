@@ -62,7 +62,9 @@
     "test:sections": "tsx server/lib/section-retrieval.test.ts",
     "test:crawl": "tsx server/lib/crawl-outcomes.test.ts",
     "test:acceptance": "tsx server/lib/crawl-acceptance.test.ts",
+    "test:merge": "tsx server/lib/markdown-merge.test.ts",
     "test:audit": "tsx server/scripts/audit-corpus-integrity.test.ts",
+    "test:backfill": "tsx server/scripts/backfill-snapshot-quality.test.ts",
     "test:storage-paths": "tsx server/lib/storage-paths.test.ts",
     "test:ai-readable": "node --import tsx --test server/lib/ai-readable.test.ts",
     "test:indexnow": "node --import tsx --test server/lib/indexnow.test.ts",
@@ -72,7 +74,8 @@
     "dev": "concurrently \"npm run server\" \"npm run dev-start\"",
     "dev:local": "PORT=8011 REACT_APP_API_URL=http://localhost:8011/api concurrently \"npm run server\" \"npm run dev-start\"",
     "migrate:versions": "npx tsx server/scripts/migrate-to-versioning.ts",
-    "audit:integrity": "npx tsx server/scripts/audit-corpus-integrity.ts"
+    "audit:integrity": "npx tsx server/scripts/audit-corpus-integrity.ts",
+    "backfill:quality": "npx tsx server/scripts/backfill-snapshot-quality.ts"
   },
   "eslintConfig": {
     "extends": [
