@@ -1,0 +1,278 @@
+{
+  "url": "https://zitadel.com/docs",
+  "domain": "zitadel.com",
+  "lastScraped": "2026-07-23T07:26:09.505Z",
+  "totalPages": 14,
+  "successfulPages": 14,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "ZITADEL Documentation | ZITADEL Docs",
+      "url": "https://zitadel.com/docs"
+    },
+    {
+      "type": "APIs V2 (Generally Available) | ZITADEL Docs",
+      "url": "https://zitadel.com/docs/apis/v2"
+    },
+    {
+      "type": "GRPC Status Codes in ZITADEL | ZITADEL Docs",
+      "url": "https://zitadel.com/docs/apis/statuscodes"
+    },
+    {
+      "type": "Third party sub-processors for ZITADEL | ZITADEL Docs",
+      "url": "https://zitadel.com/docs/legal/subprocessors"
+    },
+    {
+      "type": "Principles | ZITADEL Docs",
+      "url": "https://zitadel.com/docs/concepts/principles"
+    },
+    {
+      "type": "Legal Agreements | ZITADEL Docs",
+      "url": "https://zitadel.com/docs/legal"
+    },
+    {
+      "type": "Key Concepts | ZITADEL Docs",
+      "url": "https://zitadel.com/docs/concepts"
+    },
+    {
+      "type": "ZITADEL API Reference Overview | ZITADEL Docs",
+      "url": "https://zitadel.com/docs/apis/introduction"
+    },
+    {
+      "type": "Annex for ZITADEL Enterprise and Support Services | ZITADEL Docs",
+      "url": "https://zitadel.com/docs/legal/annex-support-services"
+    },
+    {
+      "type": "Zitadel Roadmap | ZITADEL Docs",
+      "url": "https://zitadel.com/docs/product/roadmap"
+    },
+    {
+      "type": "Migrate from v1 APIs to v2 APIs | ZITADEL Docs",
+      "url": "https://zitadel.com/docs/apis/migration_v1_to_v2"
+    },
+    {
+      "type": "Data Processing Agreement | ZITADEL Docs",
+      "url": "https://zitadel.com/docs/legal/data-processing-agreement"
+    },
+    {
+      "type": "ZITADEL - Identity Infrastructure, Simplified",
+      "url": "https://zitadel.com/docs/apis/openidoauth/authrequest"
+    },
+    {
+      "type": "Configure ZITADEL | ZITADEL Docs",
+      "url": "https://zitadel.com/docs/self-hosting/manage/configure"
+    }
+  ],
+  "latestVersion": "c631d57394715d66125b4d1c03cf652cfd25744c2b565475a4dd7c7cacb9e00d",
+  "versions": [
+    {
+      "version": "c631d57394715d66125b4d1c03cf652cfd25744c2b565475a4dd7c7cacb9e00d",
+      "label": "latest",
+      "timestamp": "2026-07-23T07:26:09.505Z",
+      "filename": "documentation_2026-07-23T07:26:09.505Z.md",
+      "totalPages": 14,
+      "successfulPages": 14,
+      "url": "https://zitadel.com/docs",
+      "snapshotId": "c631d57394715d66125b4d1c03cf652cfd25744c2b565475a4dd7c7cacb9e00d",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://zitadel.com/docs",
+      "canonicalSeedUrl": "https://zitadel.com/docs",
+      "configuration": {
+        "url": "https://zitadel.com/docs",
+        "limit": 1000,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "includePaths": [
+          "/docs/*"
+        ],
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-07-23T07:23:39.526Z",
+      "completedAt": "2026-07-23T07:26:09.505Z",
+      "providerTotals": {
+        "discovered": 14,
+        "returned": 14,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 14,
+        "returned": 14,
+        "valid": 14,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://zitadel.com/docs",
+          "canonicalUrl": "https://zitadel.com/docs",
+          "status": "valid"
+        },
+        {
+          "url": "https://zitadel.com/docs/apis/v2",
+          "canonicalUrl": "https://zitadel.com/docs/apis/v2",
+          "status": "valid"
+        },
+        {
+          "url": "https://zitadel.com/docs/apis/statuscodes",
+          "canonicalUrl": "https://zitadel.com/docs/apis/statuscodes",
+          "status": "valid"
+        },
+        {
+          "url": "https://zitadel.com/docs/legal/subprocessors",
+          "canonicalUrl": "https://zitadel.com/docs/legal/subprocessors",
+          "status": "valid"
+        },
+        {
+          "url": "https://zitadel.com/docs/concepts/principles",
+          "canonicalUrl": "https://zitadel.com/docs/concepts/principles",
+          "status": "valid"
+        },
+        {
+          "url": "https://zitadel.com/docs/legal",
+          "canonicalUrl": "https://zitadel.com/docs/legal",
+          "status": "valid"
+        },
+        {
+          "url": "https://zitadel.com/docs/concepts",
+          "canonicalUrl": "https://zitadel.com/docs/concepts",
+          "status": "valid"
+        },
+        {
+          "url": "https://zitadel.com/docs/apis/introduction",
+          "canonicalUrl": "https://zitadel.com/docs/apis/introduction",
+          "status": "valid"
+        },
+        {
+          "url": "https://zitadel.com/docs/legal/annex-support-services",
+          "canonicalUrl": "https://zitadel.com/docs/legal/annex-support-services",
+          "status": "valid"
+        },
+        {
+          "url": "https://zitadel.com/docs/product/roadmap",
+          "canonicalUrl": "https://zitadel.com/docs/product/roadmap",
+          "status": "valid"
+        },
+        {
+          "url": "https://zitadel.com/docs/apis/migration_v1_to_v2",
+          "canonicalUrl": "https://zitadel.com/docs/apis/migration_v1_to_v2",
+          "status": "valid"
+        },
+        {
+          "url": "https://zitadel.com/docs/legal/data-processing-agreement",
+          "canonicalUrl": "https://zitadel.com/docs/legal/data-processing-agreement",
+          "status": "valid"
+        },
+        {
+          "url": "https://zitadel.com/docs/apis/openidoauth/authrequest",
+          "canonicalUrl": "https://zitadel.com/docs/apis/openidoauth/authrequest",
+          "status": "valid"
+        },
+        {
+          "url": "https://zitadel.com/docs/self-hosting/manage/configure",
+          "canonicalUrl": "https://zitadel.com/docs/self-hosting/manage/configure",
+          "status": "valid"
+        }
+      ],
+      "id": "318a68fe9feef6e8469e5b585da3521daa3db085baac5e21654978d6f3241173"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "c631d57394715d66125b4d1c03cf652cfd25744c2b565475a4dd7c7cacb9e00d",
+      "filename": "documentation_2026-07-23T07:26:09.505Z.md",
+      "contentHash": "090c1d5723ef667f42af2a53b09a3c47cc2e76a1b1afa29875242aa49620208d",
+      "sourceUrl": "https://zitadel.com/docs",
+      "canonicalSourceUrl": "https://zitadel.com/docs",
+      "capturedAt": "2026-07-23T07:26:09.505Z",
+      "crawlRunId": "318a68fe9feef6e8469e5b585da3521daa3db085baac5e21654978d6f3241173",
+      "totalPages": 14,
+      "successfulPages": 14,
+      "structure": [
+        {
+          "type": "ZITADEL Documentation | ZITADEL Docs",
+          "url": "https://zitadel.com/docs"
+        },
+        {
+          "type": "APIs V2 (Generally Available) | ZITADEL Docs",
+          "url": "https://zitadel.com/docs/apis/v2"
+        },
+        {
+          "type": "GRPC Status Codes in ZITADEL | ZITADEL Docs",
+          "url": "https://zitadel.com/docs/apis/statuscodes"
+        },
+        {
+          "type": "Third party sub-processors for ZITADEL | ZITADEL Docs",
+          "url": "https://zitadel.com/docs/legal/subprocessors"
+        },
+        {
+          "type": "Principles | ZITADEL Docs",
+          "url": "https://zitadel.com/docs/concepts/principles"
+        },
+        {
+          "type": "Legal Agreements | ZITADEL Docs",
+          "url": "https://zitadel.com/docs/legal"
+        },
+        {
+          "type": "Key Concepts | ZITADEL Docs",
+          "url": "https://zitadel.com/docs/concepts"
+        },
+        {
+          "type": "ZITADEL API Reference Overview | ZITADEL Docs",
+          "url": "https://zitadel.com/docs/apis/introduction"
+        },
+        {
+          "type": "Annex for ZITADEL Enterprise and Support Services | ZITADEL Docs",
+          "url": "https://zitadel.com/docs/legal/annex-support-services"
+        },
+        {
+          "type": "Zitadel Roadmap | ZITADEL Docs",
+          "url": "https://zitadel.com/docs/product/roadmap"
+        },
+        {
+          "type": "Migrate from v1 APIs to v2 APIs | ZITADEL Docs",
+          "url": "https://zitadel.com/docs/apis/migration_v1_to_v2"
+        },
+        {
+          "type": "Data Processing Agreement | ZITADEL Docs",
+          "url": "https://zitadel.com/docs/legal/data-processing-agreement"
+        },
+        {
+          "type": "ZITADEL - Identity Infrastructure, Simplified",
+          "url": "https://zitadel.com/docs/apis/openidoauth/authrequest"
+        },
+        {
+          "type": "Configure ZITADEL | ZITADEL Docs",
+          "url": "https://zitadel.com/docs/self-hosting/manage/configure"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "one-or-more-pages-need-review"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "url": "https://agentskills.io/what-are-skills",
+  "domain": "agentskills.io",
+  "lastScraped": "2026-08-09T21:39:26.323Z",
+  "totalPages": 11,
+  "successfulPages": 9,
+  "failedPages": [
+    "https://agentskills.io/llms.txt (checkpoint-or-challenge-title)",
+    "https://agentskills.io/ (checkpoint-or-challenge-title)"
+  ],
+  "structure": [
+    {
+      "type": "Agent Skills Overview - Agent Skills",
+      "url": "https://agentskills.io/home"
+    },
+    {
+      "type": "Client Showcase - Agent Skills",
+      "url": "https://agentskills.io/clients"
+    },
+    {
+      "type": "How to add skills support to your agent - Agent Skills",
+      "url": "https://agentskills.io/client-implementation/adding-skills-support"
+    },
+    {
+      "type": "Best practices for skill creators - Agent Skills",
+      "url": "https://agentskills.io/skill-creation/best-practices"
+    },
+    {
+      "type": "Optimizing skill descriptions - Agent Skills",
+      "url": "https://agentskills.io/skill-creation/optimizing-descriptions"
+    },
+    {
+      "type": "Evaluating skill output quality - Agent Skills",
+      "url": "https://agentskills.io/skill-creation/evaluating-skills"
+    },
+    {
+      "type": "Quickstart - Agent Skills",
+      "url": "https://agentskills.io/skill-creation/quickstart"
+    },
+    {
+      "type": "Specification - Agent Skills",
+      "url": "https://agentskills.io/specification"
+    },
+    {
+      "type": "Using scripts in skills - Agent Skills",
+      "url": "https://agentskills.io/skill-creation/using-scripts"
+    }
+  ],
+  "latestVersion": "dc87866c0c7637424ee5f9df28ae8fbc2bd51019dff420287b6f2805ac7931f9",
+  "versions": [
+    {
+      "version": "dc87866c0c7637424ee5f9df28ae8fbc2bd51019dff420287b6f2805ac7931f9",
+      "label": "latest",
+      "timestamp": "2026-08-09T21:39:26.323Z",
+      "filename": "documentation_2026-08-09T21:39:26.323Z.md",
+      "totalPages": 11,
+      "successfulPages": 9,
+      "url": "https://agentskills.io/home",
+      "snapshotId": "dc87866c0c7637424ee5f9df28ae8fbc2bd51019dff420287b6f2805ac7931f9",
+      "isLatest": true
+    },
+    {
+      "version": "02e3e077cc99e25d66577f15cef5bee0bc7e62917abbf9255eff6c8b6aa0ff42",
+      "timestamp": "2026-08-09T21:33:57.241Z",
+      "filename": "documentation_2026-08-09T21:33:57.241Z.md",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "url": "https://agentskills.io/home",
+      "snapshotId": "02e3e077cc99e25d66577f15cef5bee0bc7e62917abbf9255eff6c8b6aa0ff42",
+      "isLatest": false
+    },
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-12-25T04:40:17.555Z",
+      "filename": "documentation_2025-12-25T04:40:17.555Z.md",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "url": "https://agentskills.io/what-are-skills",
+      "isLatest": false
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "integrity-audit",
+      "seedUrl": "https://agentskills.io/what-are-skills",
+      "canonicalSeedUrl": "https://agentskills.io/what-are-skills",
+      "configuration": {
+        "sourceSchemaVersion": 2
+      },
+      "startedAt": "2025-12-25T04:40:17.555Z",
+      "completedAt": "2025-12-25T04:40:17.555Z",
+      "providerTotals": {
+        "discovered": 4,
+        "returned": 4,
+        "discoveredIsExact": false
+      },
+      "outcomes": [
+        {
+          "url": "https://agentskills.io/what-are-skills",
+          "canonicalUrl": "https://agentskills.io/what-are-skills",
+          "status": "valid"
+        }
+      ],
+      "id": "47426c5699ae608b2bde2c02d3c712341c8d2b523d4dbefdca4bc11170750d3c",
+      "totals": {
+        "discovered": 0,
+        "returned": 0,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://agentskills.io/home",
+      "canonicalSeedUrl": "https://agentskills.io/home",
+      "configuration": {
+        "url": "https://agentskills.io/home",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-09T21:33:19.950Z",
+      "completedAt": "2026-08-09T21:33:57.241Z",
+      "providerTotals": {
+        "discovered": 10,
+        "returned": 10,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 10,
+        "returned": 10,
+        "valid": 10,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://agentskills.io/home",
+          "canonicalUrl": "https://agentskills.io/home",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/client-implementation/adding-skills-support",
+          "canonicalUrl": "https://agentskills.io/client-implementation/adding-skills-support",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/clients",
+          "canonicalUrl": "https://agentskills.io/clients",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/skill-creation/optimizing-descriptions",
+          "canonicalUrl": "https://agentskills.io/skill-creation/optimizing-descriptions",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/skill-creation/evaluating-skills",
+          "canonicalUrl": "https://agentskills.io/skill-creation/evaluating-skills",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/skill-creation/best-practices",
+          "canonicalUrl": "https://agentskills.io/skill-creation/best-practices",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/skill-creation/quickstart",
+          "canonicalUrl": "https://agentskills.io/skill-creation/quickstart",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/skill-creation/using-scripts",
+          "canonicalUrl": "https://agentskills.io/skill-creation/using-scripts",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/specification",
+          "canonicalUrl": "https://agentskills.io/specification",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/llms.txt",
+          "canonicalUrl": "https://agentskills.io/llms.txt",
+          "status": "valid"
+        }
+      ],
+      "id": "a5cbe4ec4ed60be0c99d9a5bef03e7de36610b6472457f6a8d4d3ebef78f93bf"
+    },
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://agentskills.io/home",
+      "canonicalSeedUrl": "https://agentskills.io/home",
+      "configuration": {
+        "url": "https://agentskills.io/home",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-09T21:39:11.044Z",
+      "completedAt": "2026-08-09T21:39:26.323Z",
+      "providerTotals": {
+        "discovered": 11,
+        "returned": 11,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 11,
+        "returned": 11,
+        "valid": 9,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 2,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://agentskills.io/home",
+          "canonicalUrl": "https://agentskills.io/home",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/clients",
+          "canonicalUrl": "https://agentskills.io/clients",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/client-implementation/adding-skills-support",
+          "canonicalUrl": "https://agentskills.io/client-implementation/adding-skills-support",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/skill-creation/best-practices",
+          "canonicalUrl": "https://agentskills.io/skill-creation/best-practices",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/skill-creation/optimizing-descriptions",
+          "canonicalUrl": "https://agentskills.io/skill-creation/optimizing-descriptions",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/skill-creation/evaluating-skills",
+          "canonicalUrl": "https://agentskills.io/skill-creation/evaluating-skills",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/skill-creation/quickstart",
+          "canonicalUrl": "https://agentskills.io/skill-creation/quickstart",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/specification",
+          "canonicalUrl": "https://agentskills.io/specification",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/skill-creation/using-scripts",
+          "canonicalUrl": "https://agentskills.io/skill-creation/using-scripts",
+          "status": "valid"
+        },
+        {
+          "url": "https://agentskills.io/llms.txt",
+          "canonicalUrl": "https://agentskills.io/llms.txt",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://agentskills.io/",
+          "canonicalUrl": "https://agentskills.io/",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        }
+      ],
+      "id": "03d15a117ba3352dd45e6f4f38a2ff0aeab8cf20d0e3b9b887db76d625914b43"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "00870b3fcbef0d045b3f8f2c9e904e6e48404856c9893ca411e4adfa55448b94",
+      "filename": "documentation_2025-12-25T04:40:17.555Z.md",
+      "contentHash": "99dcb935275aee1db7e12bdaa15a9eeaf4512d12afe2a2c666fac5ed3b8bcc96",
+      "sourceUrl": "https://agentskills.io/what-are-skills",
+      "canonicalSourceUrl": "https://agentskills.io/what-are-skills",
+      "capturedAt": "2025-12-25T04:40:17.555Z",
+      "crawlRunId": "47426c5699ae608b2bde2c02d3c712341c8d2b523d4dbefdca4bc11170750d3c",
+      "upstreamVersion": "1.0.0",
+      "upstreamChannel": "latest",
+      "totalPages": 4,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "What are skills? - Agent Skills",
+          "url": "https://agentskills.io/what-are-skills"
+        },
+        {
+          "type": "Integrate skills into your agent - Agent Skills",
+          "url": "https://agentskills.io/integrate-skills"
+        },
+        {
+          "type": "Overview - Agent Skills",
+          "url": "https://agentskills.io/home"
+        },
+        {
+          "type": "Specification - Agent Skills",
+          "url": "https://agentskills.io/specification"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    },
+    {
+      "id": "02e3e077cc99e25d66577f15cef5bee0bc7e62917abbf9255eff6c8b6aa0ff42",
+      "filename": "documentation_2026-08-09T21:33:57.241Z.md",
+      "contentHash": "6f7109141732d8512589fb7e0ae35212ddad47dfcf915b4ac39e4fd5fdea0c82",
+      "sourceUrl": "https://agentskills.io/home",
+      "canonicalSourceUrl": "https://agentskills.io/home",
+      "capturedAt": "2026-08-09T21:33:57.241Z",
+      "crawlRunId": "a5cbe4ec4ed60be0c99d9a5bef03e7de36610b6472457f6a8d4d3ebef78f93bf",
+      "totalPages": 10,
+      "successfulPages": 10,
+      "structure": [
+        {
+          "type": "Agent Skills Overview - Agent Skills",
+          "url": "https://agentskills.io/home"
+        },
+        {
+          "type": "How to add skills support to your agent - Agent Skills",
+          "url": "https://agentskills.io/client-implementation/adding-skills-support"
+        },
+        {
+          "type": "Client Showcase - Agent Skills",
+          "url": "https://agentskills.io/clients"
+        },
+        {
+          "type": "Optimizing skill descriptions - Agent Skills",
+          "url": "https://agentskills.io/skill-creation/optimizing-descriptions"
+        },
+        {
+          "type": "Evaluating skill output quality - Agent Skills",
+          "url": "https://agentskills.io/skill-creation/evaluating-skills"
+        },
+        {
+          "type": "Best practices for skill creators - Agent Skills",
+          "url": "https://agentskills.io/skill-creation/best-practices"
+        },
+        {
+          "type": "Quickstart - Agent Skills",
+          "url": "https://agentskills.io/skill-creation/quickstart"
+        },
+        {
+          "type": "Using scripts in skills - Agent Skills",
+          "url": "https://agentskills.io/skill-creation/using-scripts"
+        },
+        {
+          "type": "Specification - Agent Skills",
+          "url": "https://agentskills.io/specification"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://agentskills.io/llms.txt"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "one-or-more-pages-need-review"
+        ]
+      }
+    },
+    {
+      "id": "dc87866c0c7637424ee5f9df28ae8fbc2bd51019dff420287b6f2805ac7931f9",
+      "filename": "documentation_2026-08-09T21:39:26.323Z.md",
+      "contentHash": "93c9545e57a5dcdca8b59c7cd140d8f077ceb39a048a14a4ed3aca74baa6f141",
+      "sourceUrl": "https://agentskills.io/home",
+      "canonicalSourceUrl": "https://agentskills.io/home",
+      "capturedAt": "2026-08-09T21:39:26.323Z",
+      "crawlRunId": "03d15a117ba3352dd45e6f4f38a2ff0aeab8cf20d0e3b9b887db76d625914b43",
+      "totalPages": 11,
+      "successfulPages": 9,
+      "structure": [
+        {
+          "type": "Agent Skills Overview - Agent Skills",
+          "url": "https://agentskills.io/home"
+        },
+        {
+          "type": "Client Showcase - Agent Skills",
+          "url": "https://agentskills.io/clients"
+        },
+        {
+          "type": "How to add skills support to your agent - Agent Skills",
+          "url": "https://agentskills.io/client-implementation/adding-skills-support"
+        },
+        {
+          "type": "Best practices for skill creators - Agent Skills",
+          "url": "https://agentskills.io/skill-creation/best-practices"
+        },
+        {
+          "type": "Optimizing skill descriptions - Agent Skills",
+          "url": "https://agentskills.io/skill-creation/optimizing-descriptions"
+        },
+        {
+          "type": "Evaluating skill output quality - Agent Skills",
+          "url": "https://agentskills.io/skill-creation/evaluating-skills"
+        },
+        {
+          "type": "Quickstart - Agent Skills",
+          "url": "https://agentskills.io/skill-creation/quickstart"
+        },
+        {
+          "type": "Specification - Agent Skills",
+          "url": "https://agentskills.io/specification"
+        },
+        {
+          "type": "Using scripts in skills - Agent Skills",
+          "url": "https://agentskills.io/skill-creation/using-scripts"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    },
+    {
+      "id": "3c5aa2e2c3fa2cccff3d5838faa42227526dde1c95871d47838c26d6ebd12f81",
+      "filename": "evidence_2026-08-09T21:39:26.323Z.md",
+      "contentHash": "40823b11dbb8295dc6e72ff3c6d07b8708234db01f66fdfacd56ed664af1ab11",
+      "sourceUrl": "https://agentskills.io/home",
+      "canonicalSourceUrl": "https://agentskills.io/home",
+      "capturedAt": "2026-08-09T21:39:26.323Z",
+      "crawlRunId": "03d15a117ba3352dd45e6f4f38a2ff0aeab8cf20d0e3b9b887db76d625914b43",
+      "totalPages": 2,
+      "successfulPages": 0,
+      "structure": [
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://agentskills.io/llms.txt"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://agentskills.io/"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "checkpoint-or-challenge-title"
+        ]
+      }
+    }
+  ],
+  "currentSnapshotId": "dc87866c0c7637424ee5f9df28ae8fbc2bd51019dff420287b6f2805ac7931f9"
+}
