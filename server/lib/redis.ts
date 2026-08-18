@@ -1,5 +1,6 @@
 import Redis from 'ioredis';
 import { buildContentIndexReplacementPlan } from './index-replacement';
+import { contentChunkPattern } from './redis-glob';
 
 // Redis connection configuration
 const REDIS_HOST = process.env.REDIS_HOST || 'localhost';
@@ -261,7 +262,7 @@ export async function removeDomainFromIndex(domain: string): Promise<boolean> {
     let cursor = '0';
     do {
       const [nextCursor, keys] = await redis.scan(
-        cursor, 'MATCH', `content:${domain}:*`, 'COUNT', 100
+        cursor, 'MATCH', contentChunkPattern(domain), 'COUNT', 100
       );
       cursor = nextCursor;
       chunkKeys.push(...keys);
