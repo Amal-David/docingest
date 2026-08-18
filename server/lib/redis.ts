@@ -1,5 +1,6 @@
 import Redis from 'ioredis';
 import { buildContentIndexReplacementPlan } from './index-replacement';
+import { contentChunkPattern } from './redis-glob';
 
 // Redis connection configuration
 const REDIS_HOST = process.env.REDIS_HOST || 'localhost';
@@ -236,6 +237,51 @@ export async function replaceDomainIndex(meta: DomainMeta, content: string): Pro
     await invalidateSearchCaches();
   } catch (err) {
     console.error('[Redis] replaceDomainIndex error:', err);
+    isConnected = false;
+    throw err;
+  }
+}
+
+/**
+ * Drop every trace of one domain from the search index.
+ *
+ * A rebuild has to reconcile removals, not just additions. When a domain stops
+ * being servable — its snapshot loses approval, or it never had one — leaving
+ * its records in place lets search keep offering a domain the API refuses.
+ * Scoped per domain so a rebuild does not have to clear the whole index and
+ * leave search empty while it repopulates.
+ */
+export async function removeDomainFromIndex(domain: string): Promise<boolean> {
+  if (!(await ensureConnection())) {
+    console.warn('[Redis] Not connected, skipping removeDomainFromIndex');
+    return false;
+  }
+
+  try {
+    const chunkKeys: string[] = [];
+    let cursor = '0';
+    do {
+      const [nextCursor, keys] = await redis.scan(
+        cursor, 'MATCH', contentChunkPattern(domain), 'COUNT', 100
+      );
+      cursor = nextCursor;
+      chunkKeys.push(...keys);
+    } while (cursor !== '0');
+
+    const pipeline = redis.pipeline();
+    pipeline.zrem(KEYS.AUTOCOMPLETE_DOMAINS, domain.toLowerCase());
+    pipeline.del(KEYS.DOMAIN_META(domain));
+    for (const key of chunkKeys) {
+      pipeline.del(key);
+    }
+    const results = await pipeline.exec();
+    await invalidateSearchCaches();
+
+    // zrem and del both report how many keys they actually touched, so this
+    // distinguishes "removed something" from "was not indexed anyway".
+    return (results || []).some(([, count]) => typeof count === 'number' && count > 0);
+  } catch (err) {
+    console.error('[Redis] removeDomainFromIndex error:', err);
     isConnected = false;
     throw err;
   }

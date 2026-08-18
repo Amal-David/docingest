@@ -97,6 +97,37 @@ Production setup guides:
 - [Redis setup](./setup/redis.md)
 - [Nginx setup](./setup/nginx.md)
 
+### Log rotation
+
+PM2 does not rotate logs on its own. The request handlers no longer log per
+domain, but a long-running deployment still accumulates output, so enable
+rotation once per host:
+
+```bash
+pm2 install pm2-logrotate
+pm2 set pm2-logrotate:max_size 100M
+pm2 set pm2-logrotate:retain 7
+pm2 set pm2-logrotate:compress true
+```
+
+### Search index parity
+
+`server/scripts/build-search-index.ts` indexes only domains with an approved
+snapshot, and only that snapshot's markdown, matching what the API serves. It
+reconciles in both directions: a domain that is no longer servable is removed
+from the index rather than left behind, so a rebuild does not need `--clear`
+and search stays available while it runs.
+
+Run it after any change that alters which snapshots are approved — a corpus
+backfill, for example — so search does not fall behind the served corpus:
+
+```bash
+cd server && npm run build-index
+```
+
+The summary reports `Removed` alongside `Indexed` and `Skipped`. A non-zero
+`Removed` means the index was ahead of the corpus and has been reconciled.
+
 ## Open Source Direction
 
 DocIngest is best understood as infrastructure for documentation retrieval:
