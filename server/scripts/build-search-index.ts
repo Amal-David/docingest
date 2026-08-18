@@ -22,6 +22,7 @@ import {
   indexContentChunks,
   clearIndex,
   getIndexStats,
+  removeDomainFromIndex,
   type DomainMeta,
 } from '../lib/redis';
 import { listDomainDirectories, readApprovedDomain } from '../lib/corpus';
@@ -33,6 +34,8 @@ interface IndexStats {
   indexed: number;
   failed: number;
   skipped: number;
+  /** Domains dropped from the index because they are no longer servable. */
+  removed: number;
   startTime: number;
 }
 
@@ -41,6 +44,7 @@ const stats: IndexStats = {
   indexed: 0,
   failed: 0,
   skipped: 0,
+  removed: 0,
   startTime: Date.now(),
 };
 
@@ -100,8 +104,16 @@ async function indexSingleDomain(domainName: string): Promise<boolean> {
     // /docs/:domain then refuses, or indexes text the reader never sees.
     const approved = await readApprovedDomain(STORAGE_PATH, domainName);
     if (!approved) {
-      log(`  [SKIP] ${domainName} has no approved snapshot to serve`);
-      stats.skipped++;
+      // A rebuild has to reconcile removals too. A domain that was indexed
+      // before it lost approval would otherwise stay searchable forever.
+      const removed = await removeDomainFromIndex(domainName);
+      if (removed) {
+        log(`  [DROP] ${domainName} is no longer servable, removed from index`);
+        stats.removed++;
+      } else {
+        log(`  [SKIP] ${domainName} has no approved snapshot to serve`);
+        stats.skipped++;
+      }
       return false;
     }
 
@@ -209,6 +221,7 @@ async function buildIndex(): Promise<void> {
   console.log(`  Total domains:     ${stats.total}`);
   console.log(`  Indexed:           ${stats.indexed}`);
   console.log(`  Skipped:           ${stats.skipped}`);
+  console.log(`  Removed:           ${stats.removed}`);
   console.log(`  Failed:            ${stats.failed}`);
   console.log(`  Time elapsed:      ${elapsed}s`);
   console.log(`  Redis memory:      ${redisStats.memoryUsage}`);

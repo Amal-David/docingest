@@ -113,13 +113,20 @@ pm2 set pm2-logrotate:compress true
 ### Search index parity
 
 `server/scripts/build-search-index.ts` indexes only domains with an approved
-snapshot, and only that snapshot's markdown, matching what the API serves. Run
-it after any change that alters which snapshots are approved — a corpus
+snapshot, and only that snapshot's markdown, matching what the API serves. It
+reconciles in both directions: a domain that is no longer servable is removed
+from the index rather than left behind, so a rebuild does not need `--clear`
+and search stays available while it runs.
+
+Run it after any change that alters which snapshots are approved — a corpus
 backfill, for example — so search does not fall behind the served corpus:
 
 ```bash
 cd server && npm run build-index
 ```
+
+The summary reports `Removed` alongside `Indexed` and `Skipped`. A non-zero
+`Removed` means the index was ahead of the corpus and has been reconciled.
 
 ## Open Source Direction
 

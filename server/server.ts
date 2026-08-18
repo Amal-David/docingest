@@ -57,7 +57,7 @@ import {
   failedPageLabels,
   reconcileCrawlOutcomes,
 } from './lib/crawl-acceptance';
-import { listDomainDirectories } from './lib/corpus';
+import { listDomainDirectories, readApprovedDomain } from './lib/corpus';
 import { generateTableOfContents, mergeMarkdownContent } from './lib/markdown-merge';
 import { resolveSnapshotSelector } from './lib/snapshot-selector';
 import { canonicalDomain, canonicalizeUrl } from './lib/url-canonicalization';
@@ -308,18 +308,13 @@ async function collectPublicSitemapDomains(): Promise<PublicSitemapDomain[]> {
   for (const domain of domains) {
     if (!isSafePublicDomain(domain)) continue;
 
-    const metadataPath = path.join(STORAGE_PATH, domain, 'metadata.json');
-    if (!await fs.pathExists(metadataPath)) continue;
-
     try {
-      const metadata = await fs.readJSON(metadataPath) as DomainMetadata;
-      const approvedSnapshot = checkHasVersioning(metadata)
-        ? getApprovedSnapshot(metadata)
-        : undefined;
-      if (!checkHasVersioning(metadata) || metadata.schemaVersion !== 3 || !approvedSnapshot) {
-        continue;
-      }
-      const rawLastmod = approvedSnapshot.capturedAt;
+      // Same servable definition the API and the search index use, so the
+      // sitemap cannot advertise a URL that /docs/:domain then refuses.
+      const approved = await readApprovedDomain(STORAGE_PATH, domain);
+      if (!approved) continue;
+
+      const rawLastmod = approved.snapshot.capturedAt;
       const lastmodDate = rawLastmod ? new Date(rawLastmod) : null;
       entries.push({
         domain,

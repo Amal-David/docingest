@@ -141,6 +141,50 @@ async function testUnservableDomainsResolveToNull(): Promise<void> {
   });
 }
 
+/**
+ * `filename` is metadata read off disk, so a record that escapes its domain
+ * directory or names something that is not a markdown file must resolve to
+ * null instead of being read.
+ */
+async function testUntrustworthySnapshotPathsAreRefused(): Promise<void> {
+  await withCorpus(async (storagePath) => {
+    const secret = path.join(storagePath, 'secret.md');
+    await fs.writeFile(secret, '# Not mine\n\nanother domain');
+
+    // A directory that happens to be named like a snapshot file.
+    const shaped = snapshotFor('dir.test', '2026-01-01T00:00:00.000Z', '# Dir\n\ndocs', APPROVED);
+    await writeDomain(storagePath, 'dir.test', []);
+    await fs.writeJSON(path.join(storagePath, 'dir.test', 'metadata.json'), {
+      url: 'https://dir.test', domain: 'dir.test', lastScraped: shaped.capturedAt,
+      latestVersion: shaped.id, totalPages: 1, successfulPages: 1, failedPages: [],
+      structure: [], schemaVersion: 3, versions: [], crawlRuns: [], snapshots: [shaped],
+    });
+    await fs.ensureDir(path.join(storagePath, 'dir.test', shaped.filename));
+    assert.equal(await readApprovedDomain(storagePath, 'dir.test'), null);
+
+    // A traversal out of the domain directory.
+    const escaping = { ...shaped, filename: '../secret.md' };
+    await fs.ensureDir(path.join(storagePath, 'escape.test'));
+    await fs.writeJSON(path.join(storagePath, 'escape.test', 'metadata.json'), {
+      url: 'https://escape.test', domain: 'escape.test', lastScraped: escaping.capturedAt,
+      latestVersion: escaping.id, totalPages: 1, successfulPages: 1, failedPages: [],
+      structure: [], schemaVersion: 3, versions: [], crawlRuns: [], snapshots: [escaping],
+    });
+    assert.equal(await readApprovedDomain(storagePath, 'escape.test'), null);
+
+    // A filename that is not markdown at all.
+    const notMarkdown = { ...shaped, filename: 'notes.txt' };
+    await fs.ensureDir(path.join(storagePath, 'txt.test'));
+    await fs.writeFile(path.join(storagePath, 'txt.test', 'notes.txt'), 'plain');
+    await fs.writeJSON(path.join(storagePath, 'txt.test', 'metadata.json'), {
+      url: 'https://txt.test', domain: 'txt.test', lastScraped: notMarkdown.capturedAt,
+      latestVersion: notMarkdown.id, totalPages: 1, successfulPages: 1, failedPages: [],
+      structure: [], schemaVersion: 3, versions: [], crawlRuns: [], snapshots: [notMarkdown],
+    });
+    assert.equal(await readApprovedDomain(storagePath, 'txt.test'), null);
+  });
+}
+
 /** currentSnapshotId selects among several approved snapshots. */
 async function testExplicitCurrentSnapshotIsHonoured(): Promise<void> {
   await withCorpus(async (storagePath) => {
@@ -161,6 +205,7 @@ void testFilesAreNotMistakenForDomains()
   .then(testApprovedSnapshotWinsOverANewerUnapprovedOne)
   .then(testUnservableDomainsResolveToNull)
   .then(testExplicitCurrentSnapshotIsHonoured)
+  .then(testUntrustworthySnapshotPathsAreRefused)
   .then(() => console.log('corpus tests passed'))
   .catch((error) => {
     console.error(error);

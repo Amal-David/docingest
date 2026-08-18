@@ -1,6 +1,7 @@
 import fs from 'fs-extra';
 import path from 'node:path';
 import { selectApprovedCurrentSnapshot } from './document-integrity';
+import { resolveSafeSnapshotPath } from './storage-paths';
 import type { DocumentationSnapshot, DomainMetadata, DomainMetadataV3 } from '../types/versioning';
 import { hasVersioning } from '../types/versioning';
 
@@ -68,8 +69,17 @@ export async function readApprovedDomain(
   // The served content is the approved snapshot's own file. Picking the
   // newest `documentation_*.md` instead would index text the API never
   // returns, because a newer snapshot can exist without being approved.
-  const contentPath = path.join(domainPath, snapshot.filename);
-  if (!await fs.pathExists(contentPath)) return null;
+  //
+  // `filename` is metadata read off disk, so it is treated as untrusted the
+  // same way the write path does: it has to stay inside the domain directory
+  // and name a real markdown file. A record pointing at a directory or at
+  // `../` must resolve to null rather than be read.
+  if (!snapshot.filename.endsWith('.md')) return null;
+  const contentPath = resolveSafeSnapshotPath(domainPath, snapshot.filename);
+  if (!contentPath) return null;
+
+  const stats = await fs.stat(contentPath).catch(() => null);
+  if (!stats?.isFile()) return null;
 
   return { domain, metadata, snapshot, contentPath };
 }
