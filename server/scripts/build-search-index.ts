@@ -24,18 +24,9 @@ import {
   getIndexStats,
   type DomainMeta,
 } from '../lib/redis';
+import { listDomainDirectories, readApprovedDomain } from '../lib/corpus';
 
 const STORAGE_PATH = path.join(process.cwd(), 'storage', 'docs');
-
-interface MetadataFile {
-  url: string;
-  domain: string;
-  lastScraped: string;
-  totalPages: number;
-  successfulPages: number;
-  failedPages: string[];
-  structure?: Array<{ type: string; url: string }>;
-}
 
 interface IndexStats {
   total: number;
@@ -102,56 +93,30 @@ function extractTitle(content: string, domain: string): string {
     .join(' ');
 }
 
-async function indexSingleDomain(domainDir: string): Promise<boolean> {
-  const domainName = path.basename(domainDir);
-
+async function indexSingleDomain(domainName: string): Promise<boolean> {
   try {
-    // Read metadata
-    const metadataPath = path.join(domainDir, 'metadata.json');
-    if (!await fs.pathExists(metadataPath)) {
-      log(`  [SKIP] No metadata.json for ${domainName}`);
+    // The API only serves domains with an approved snapshot, and only that
+    // snapshot's content. Indexing anything else puts results in search that
+    // /docs/:domain then refuses, or indexes text the reader never sees.
+    const approved = await readApprovedDomain(STORAGE_PATH, domainName);
+    if (!approved) {
+      log(`  [SKIP] ${domainName} has no approved snapshot to serve`);
       stats.skipped++;
       return false;
     }
 
-    const metadata: MetadataFile = await fs.readJSON(metadataPath);
-
-    // Find latest documentation file
-    const files = await fs.readdir(domainDir);
-    const docFiles = files
-      .filter(f => f.startsWith('documentation_') && f.endsWith('.md'))
-      .sort()
-      .reverse();
-
-    if (docFiles.length === 0) {
-      log(`  [SKIP] No documentation file for ${domainName}`);
-      stats.skipped++;
-      return false;
-    }
-
-    // Read content
-    const docPath = path.join(domainDir, docFiles[0]);
-    const content = await fs.readFile(docPath, 'utf-8');
-
-    // Extract snippet and title
-    const snippet = extractSnippet(content);
-    const title = extractTitle(content, domainName);
-
-    // Create domain metadata
+    const content = await fs.readFile(approved.contentPath, 'utf-8');
     const domainMeta: DomainMeta = {
       domain: domainName,
-      url: metadata.url || `https://${domainName}`,
-      title,
-      snippet,
-      lastScraped: metadata.lastScraped || new Date().toISOString(),
-      totalPages: metadata.totalPages || 0,
-      successfulPages: metadata.successfulPages || 0,
+      url: approved.snapshot.sourceUrl || approved.metadata.url || `https://${domainName}`,
+      title: extractTitle(content, domainName),
+      snippet: extractSnippet(content),
+      lastScraped: approved.snapshot.capturedAt,
+      totalPages: approved.snapshot.totalPages || 0,
+      successfulPages: approved.snapshot.successfulPages || 0,
     };
 
-    // Index domain
     await indexDomain(domainMeta);
-
-    // Index content chunks for full-text search
     await indexContentChunks(domainName, content);
 
     log(`  [OK] ${domainName} (${content.length} chars)`);
@@ -196,7 +161,7 @@ async function buildIndex(): Promise<void> {
 
   // Get list of domains
   console.log('\n[3/4] Indexing documentation...');
-  const domains = await fs.readdir(STORAGE_PATH);
+  const domains = await listDomainDirectories(STORAGE_PATH);
   stats.total = domains.length;
   console.log(`  Found ${stats.total} domains to index\n`);
 
@@ -215,7 +180,7 @@ async function buildIndex(): Promise<void> {
     // Process batch sequentially (not in parallel) to reduce Redis load
     for (const domain of batch) {
       try {
-        await indexSingleDomain(path.join(STORAGE_PATH, domain));
+        await indexSingleDomain(domain);
         // Small delay between domains
         await new Promise(resolve => setTimeout(resolve, 50));
       } catch (err) {

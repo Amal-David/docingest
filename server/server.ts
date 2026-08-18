@@ -57,6 +57,7 @@ import {
   failedPageLabels,
   reconcileCrawlOutcomes,
 } from './lib/crawl-acceptance';
+import { listDomainDirectories } from './lib/corpus';
 import { generateTableOfContents, mergeMarkdownContent } from './lib/markdown-merge';
 import { resolveSnapshotSelector } from './lib/snapshot-selector';
 import { canonicalDomain, canonicalizeUrl } from './lib/url-canonicalization';
@@ -301,7 +302,7 @@ let sitemapCache: { xml: string; totalDomains: number; generatedAt: number } | n
 let sitemapRefreshPromise: Promise<{ xml: string; totalDomains: number; generatedAt: number }> | null = null;
 
 async function collectPublicSitemapDomains(): Promise<PublicSitemapDomain[]> {
-  const domains = await fs.readdir(STORAGE_PATH);
+  const domains = await listDomainDirectories(STORAGE_PATH);
   const entries: PublicSitemapDomain[] = [];
 
   for (const domain of domains) {
@@ -761,8 +762,7 @@ app.get('/api/docs/list/all', async (req, res) => {
       return res.json({ docs: [], urls: [], totalDocs: 0 });
     }
 
-    const domains = await fs.readdir(STORAGE_PATH);
-    console.log('Found domains:', domains);
+    const domains = await listDomainDirectories(STORAGE_PATH);
     
     const allDocs: any[] = [];
     const allUrls: any[] = [];
@@ -773,7 +773,6 @@ app.get('/api/docs/list/all', async (req, res) => {
       
       try {
         if (await fs.pathExists(metadataPath)) {
-          console.log('Reading metadata:', metadataPath);
           const metadata = await fs.readJSON(metadataPath) as DomainMetadata;
           const approvedSnapshot = checkHasVersioning(metadata)
             ? getApprovedSnapshot(metadata)
@@ -784,7 +783,6 @@ app.get('/api/docs/list/all', async (req, res) => {
           allUrls.push(metadata);
 
           const files = await fs.readdir(domainPath);
-          console.log('Found files in domain:', files);
 
           const docFile = approvedSnapshot?.filename || files
             .filter(f => f.startsWith('documentation_') && f.endsWith('.md'))
@@ -793,7 +791,6 @@ app.get('/api/docs/list/all', async (req, res) => {
 
           if (docFile) {
             const filePath = path.join(domainPath, docFile);
-            console.log('Reading documentation file:', filePath);
             const content = await fs.readFile(filePath, 'utf-8');
             
             allDocs.push({
@@ -879,8 +876,7 @@ app.get('/api/docs/list', async (req, res) => {
       return res.json({ docs: [], urls: [], totalDocs: 0 });
     }
 
-    const domains = await fs.readdir(STORAGE_PATH);
-    console.log('Found domains:', domains);
+    const domains = await listDomainDirectories(STORAGE_PATH);
     
     const allDocs: any[] = [];
     const allUrls: any[] = [];
@@ -894,7 +890,6 @@ app.get('/api/docs/list', async (req, res) => {
           continue;
         }
 
-        console.log('Reading metadata:', metadataPath);
         const metadata = await fs.readJSON(metadataPath) as DomainMetadata;
         const approvedSnapshot = checkHasVersioning(metadata)
           ? getApprovedSnapshot(metadata)
@@ -1013,7 +1008,7 @@ app.get('/api/docs/fullsearch', async (req, res) => {
       });
     }
 
-    const domains = await fs.readdir(STORAGE_PATH);
+    const domains = await listDomainDirectories(STORAGE_PATH);
     const exactMatches = [];
     const prefixMatches = [];
     const otherMatches = [];
@@ -1164,8 +1159,7 @@ app.get('/api/docs/search', async (req, res) => {
       return res.json({ matches: [], totalMatches: 0 });
     }
 
-    const domains = await fs.readdir(STORAGE_PATH);
-    console.log('Found domains:', domains);
+    const domains = await listDomainDirectories(STORAGE_PATH);
 
     const matches: string[] = [];
     for (const domain of domains) {
@@ -1755,7 +1749,7 @@ app.get('/api/docs/autocomplete', async (req, res) => {
 
     // Fallback to filesystem search
     console.log('[Autocomplete] Redis unavailable, falling back to filesystem');
-    const domains = await fs.readdir(STORAGE_PATH);
+    const domains = await listDomainDirectories(STORAGE_PATH);
     const queryLower = query.toLowerCase();
 
     const matches = [];
@@ -1849,7 +1843,7 @@ app.get('/api/docs/sections/search', async (req, res) => {
     }
 
     const documents: ApprovedDocumentForSearch[] = [];
-    for (const domain of await fs.readdir(STORAGE_PATH)) {
+    for (const domain of await listDomainDirectories(STORAGE_PATH)) {
       const metadataPath = path.join(STORAGE_PATH, domain, 'metadata.json');
       if (!await fs.pathExists(metadataPath)) continue;
 
@@ -1917,7 +1911,7 @@ app.get('/api/admin/index/stats', async (req, res) => {
     // Always use filesystem count for totalDomains (source of truth for docs indexed)
     try {
       if (await fs.pathExists(STORAGE_PATH)) {
-        const domains = await fs.readdir(STORAGE_PATH);
+        const domains = await listDomainDirectories(STORAGE_PATH);
         const validDomains = domains.filter(d => !d.startsWith('.'));
         stats.totalDomains = validDomains.length;
       }

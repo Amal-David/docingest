@@ -63,6 +63,7 @@
     "test:crawl": "tsx server/lib/crawl-outcomes.test.ts",
     "test:acceptance": "tsx server/lib/crawl-acceptance.test.ts",
     "test:merge": "tsx server/lib/markdown-merge.test.ts",
+    "test:corpus": "tsx server/lib/corpus.test.ts",
     "test:audit": "tsx server/scripts/audit-corpus-integrity.test.ts",
     "test:backfill": "tsx server/scripts/backfill-snapshot-quality.test.ts",
     "test:storage-paths": "tsx server/lib/storage-paths.test.ts",
