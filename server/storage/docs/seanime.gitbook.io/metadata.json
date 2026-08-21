@@ -1,18 +1,27 @@
 {
   "url": "https://seanime.gitbook.io/",
   "domain": "seanime.gitbook.io",
-  "lastScraped": "2026-01-18T21:28:28.537Z",
-  "totalPages": 54,
-  "successfulPages": 54,
-  "failedPages": [],
+  "lastScraped": "2026-08-20T04:45:34.688Z",
+  "totalPages": 135,
+  "successfulPages": 131,
+  "failedPages": [
+    "https://seanime.gitbook.io/seanime-extensions/plugins/ (provider-result-had-no-extractable-content)",
+    "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/app-settings (provider-result-had-no-extractable-content)",
+    "https://seanime.gitbook.io/seanime-extensions/seanime (provider-result-had-no-extractable-content)",
+    "https://seanime.gitbook.io/seanime-extensions/content-providers (provider-result-had-no-extractable-content)"
+  ],
   "structure": [
     {
       "type": "Getting started | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/"
+      "url": "https://seanime.gitbook.io/seanime-extensions"
     },
     {
-      "type": "Getting started | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions"
+      "type": "Anime Torrent Provider | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/anime-torrent-provider"
+    },
+    {
+      "type": "Manga Provider | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/manga-provider"
     },
     {
       "type": "Core APIs | Seanime Extensions",
@@ -27,192 +36,276 @@
       "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/online-streaming-provider"
     },
     {
-      "type": "Manga Provider | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/manga-provider"
-    },
-    {
-      "type": "Write, test, share | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/write-test-share"
-    },
-    {
-      "type": "Anime Torrent Provider | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/anime-torrent-provider"
+      "type": "Custom Source | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/custom-source"
     },
     {
       "type": "Introduction | Seanime Extensions",
       "url": "https://seanime.gitbook.io/seanime-extensions/plugins/introduction"
     },
     {
-      "type": "Custom Source | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/custom-source"
+      "type": "Write, test, share | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/write-test-share"
+    },
+    {
+      "type": "Write, test, share | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/write-test-share"
     },
     {
       "type": "Permissions | Seanime Extensions",
       "url": "https://seanime.gitbook.io/seanime-extensions/plugins/permissions"
     },
     {
-      "type": "APIs | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis"
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/llms.txt"
     },
     {
-      "type": "Write, test, share | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/write-test-share"
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/write-test-share.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/seanime/core-apis.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/introduction.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/permissions.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/manga-provider.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/custom-source.md"
+    },
+    {
+      "type": "APIs | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis"
     },
     {
       "type": "Helpers | Seanime Extensions",
       "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/helpers"
     },
     {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/write-test-share.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/online-streaming-provider.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/seanime/readme.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis.md"
+    },
+    {
       "type": "Store | Seanime Extensions",
       "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/store"
-    },
-    {
-      "type": "UI | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui"
-    },
-    {
-      "type": "Storage | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/storage"
-    },
-    {
-      "type": "Basics | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/basics"
-    },
-    {
-      "type": "AniList | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/anilist"
     },
     {
       "type": "Database | Seanime Extensions",
       "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/database"
     },
     {
-      "type": "Other | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other"
+      "type": "Debug | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/debug"
     },
     {
-      "type": "Downloading | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading"
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/anime-torrent-provider.md"
     },
     {
       "type": "Permissions | Seanime Extensions",
       "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/permissions"
     },
     {
-      "type": "Hooks | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/hooks"
-    },
-    {
-      "type": "System | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system"
-    },
-    {
-      "type": "MIME | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/mime"
-    },
-    {
       "type": "Feature requests | Seanime Extensions",
       "url": "https://seanime.gitbook.io/seanime-extensions/frequently-asked/feature-requests"
     },
     {
-      "type": "Example | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/example"
+      "type": "Hooks | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/hooks"
     },
     {
-      "type": "Downloader | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/downloader"
-    },
-    {
-      "type": "User Interface | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface"
-    },
-    {
-      "type": "Discord | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/discord"
-    },
-    {
-      "type": "Filepath | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/filepath"
-    },
-    {
-      "type": "Buffers, I/O | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/buffers-i-o"
-    },
-    {
-      "type": "Command Palette | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/command-palette"
-    },
-    {
-      "type": "Commands | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/commands"
+      "type": "UI | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui"
     },
     {
       "type": "OS | Seanime Extensions",
       "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/os"
     },
     {
-      "type": "Screen | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/screen"
+      "type": "Commands | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/commands"
     },
     {
-      "type": "Torrent Client | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/torrent-client"
+      "type": "Basics | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/basics"
     },
     {
-      "type": "Toast | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/toast"
+      "type": "Downloading | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading"
+    },
+    {
+      "type": "Storage | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/storage"
+    },
+    {
+      "type": "AniList | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/anilist"
+    },
+    {
+      "type": "User Interface | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface"
+    },
+    {
+      "type": "Downloader | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/downloader"
+    },
+    {
+      "type": "MIME | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/mime"
+    },
+    {
+      "type": "Auth | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/auth"
+    },
+    {
+      "type": "Example | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/example"
+    },
+    {
+      "type": "Other | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other"
+    },
+    {
+      "type": "Cron | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/cron"
+    },
+    {
+      "type": "Discord | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/discord"
+    },
+    {
+      "type": "Extensions | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/extensions"
     },
     {
       "type": "Manga | Seanime Extensions",
       "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/manga"
     },
     {
+      "type": "Toast | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/toast"
+    },
+    {
+      "type": "Torrent Client | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/torrent-client"
+    },
+    {
+      "type": "Debrid | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/debrid"
+    },
+    {
+      "type": "Helpers | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/helpers"
+    },
+    {
+      "type": "Screen | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/screen"
+    },
+    {
+      "type": "Command Palette | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/command-palette"
+    },
+    {
       "type": "Anime/Library | Seanime Extensions",
       "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library"
-    },
-    {
-      "type": "Auto Downloader | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-downloader"
-    },
-    {
-      "type": "Auto Scanner | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-scanner"
-    },
-    {
-      "type": "Anime | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/anime"
-    },
-    {
-      "type": "Continuity | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/continuity"
-    },
-    {
-      "type": "External Player Link | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/external-player-link"
-    },
-    {
-      "type": "Filler Manager | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/filler-manager"
-    },
-    {
-      "type": "MPV | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/mpv"
     },
     {
       "type": "Tray | Seanime Extensions",
       "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/tray"
     },
     {
-      "type": "Playback (External) | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/playback-external"
+      "type": "Auto Scanner | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-scanner"
+    },
+    {
+      "type": "Scanner | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/scanner"
+    },
+    {
+      "type": "Continuity | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/continuity"
+    },
+    {
+      "type": "MPV | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/mpv"
+    },
+    {
+      "type": "Auto Downloader | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-downloader"
     },
     {
       "type": "Webview | Seanime Extensions",
       "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/webview"
     },
     {
-      "type": "Action | Seanime Extensions",
-      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/action"
+      "type": "Debridstream | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/debridstream"
+    },
+    {
+      "type": "Anime | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/anime"
+    },
+    {
+      "type": "External Player Link | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/external-player-link"
+    },
+    {
+      "type": "Auto Select | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-select"
+    },
+    {
+      "type": "Filler Manager | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/filler-manager"
+    },
+    {
+      "type": "Torrentstream | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrentstream"
+    },
+    {
+      "type": "Torrent Search | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrent-search"
+    },
+    {
+      "type": "System | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system"
+    },
+    {
+      "type": "Filepath | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/filepath"
+    },
+    {
+      "type": "Playback (External) | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/playback-external"
+    },
+    {
+      "type": "Buffers, I/O | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/buffers-i-o"
+    },
+    {
+      "type": "Shared Modules | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/shared"
     },
     {
       "type": "VideoCore | Seanime Extensions",
@@ -221,18 +314,240 @@
     {
       "type": "DOM | Seanime Extensions",
       "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/dom"
+    },
+    {
+      "type": "Action | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/action"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/store.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/helpers.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/database.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/os.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/dom.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/action.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/permissions.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/playback-external.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/hooks.md"
+    },
+    {
+      "type": "Feature requests | Seanime Extensions",
+      "url": "https://seanime.gitbook.io/seanime-extensions/frequently-asked"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/anime.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/buffers-i-o.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/shared.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/continuity.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/external-player-link.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/debridstream.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-scanner.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/webview.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/storage.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/anilist.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/filler-manager.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/commands.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/videocore.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/filepath.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrentstream.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-select.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrent-search.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/screen.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-downloader.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/tray.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/basics.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/scanner.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/mpv.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/downloader.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/cron.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/auth.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/manga.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/helpers.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/extensions.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/mime.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/torrent-client.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/discord.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/toast.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/debrid.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/command-palette.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/frequently-asked/feature-requests.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/debug.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/example.md"
     }
   ],
-  "latestVersion": "1.1.0",
+  "latestVersion": "7a0971af1fd71104395ba26f4fd495aa9d570791bc766ff0fa1bff18a18aa504",
   "versions": [
     {
-      "version": "1.0.0",
-      "timestamp": "2025-04-27T03:09:46.377Z",
-      "filename": "documentation_2025-04-27T03:09:46.377Z.md",
-      "totalPages": 54,
-      "successfulPages": 54,
-      "url": "https://seanime.gitbook.io/",
-      "isLatest": false
+      "version": "7a0971af1fd71104395ba26f4fd495aa9d570791bc766ff0fa1bff18a18aa504",
+      "label": "latest",
+      "timestamp": "2026-08-20T04:45:34.688Z",
+      "filename": "documentation_2026-08-20T04:45:34.688Z.md",
+      "totalPages": 135,
+      "successfulPages": 131,
+      "url": "https://seanime.gitbook.io/seanime-extensions/plugins/",
+      "snapshotId": "7a0971af1fd71104395ba26f4fd495aa9d570791bc766ff0fa1bff18a18aa504",
+      "isLatest": true
     },
     {
       "version": "1.1.0",
@@ -241,8 +556,16 @@
       "totalPages": 54,
       "successfulPages": 54,
       "url": "https://seanime.gitbook.io/",
-      "isLatest": true,
-      "label": "latest"
+      "isLatest": false
+    },
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-04-27T03:09:46.377Z",
+      "filename": "documentation_2025-04-27T03:09:46.377Z.md",
+      "totalPages": 54,
+      "successfulPages": 54,
+      "url": "https://seanime.gitbook.io/",
+      "isLatest": false
     }
   ],
   "schemaVersion": 3,
@@ -280,6 +603,730 @@
         "rejected": 0,
         "failed": 0
       }
+    },
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/",
+      "canonicalSeedUrl": "https://seanime.gitbook.io/seanime-extensions/plugins",
+      "configuration": {
+        "url": "https://seanime.gitbook.io/seanime-extensions/plugins/",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-20T04:44:49.125Z",
+      "completedAt": "2026-08-20T04:45:34.688Z",
+      "providerTotals": {
+        "discovered": 135,
+        "returned": 135,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 135,
+        "returned": 135,
+        "valid": 131,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 4,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins",
+          "status": "empty",
+          "reason": "provider-result-had-no-extractable-content"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/anime-torrent-provider",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/content-providers/anime-torrent-provider",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/manga-provider",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/content-providers/manga-provider",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/seanime/core-apis",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/seanime/core-apis",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/seanime/changelog",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/seanime/changelog",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/online-streaming-provider",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/content-providers/online-streaming-provider",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/custom-source",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/content-providers/custom-source",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/introduction",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/introduction",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/write-test-share",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/write-test-share",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/write-test-share",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/content-providers/write-test-share",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/permissions",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/permissions",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/app-settings",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/app-settings",
+          "status": "empty",
+          "reason": "provider-result-had-no-extractable-content"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/llms.txt",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/llms.txt",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/seanime",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/seanime",
+          "status": "empty",
+          "reason": "provider-result-had-no-extractable-content"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/write-test-share.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/write-test-share.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/seanime/core-apis.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/seanime/core-apis.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/introduction.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/introduction.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/permissions.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/permissions.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/manga-provider.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/content-providers/manga-provider.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/content-providers",
+          "status": "empty",
+          "reason": "provider-result-had-no-extractable-content"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/custom-source.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/content-providers/custom-source.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/helpers",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/helpers",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/write-test-share.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/content-providers/write-test-share.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/online-streaming-provider.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/content-providers/online-streaming-provider.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/seanime/readme.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/seanime/readme.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/store",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/store",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/database",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/database",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/debug",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/debug",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/anime-torrent-provider.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/content-providers/anime-torrent-provider.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/permissions",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/permissions",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/frequently-asked/feature-requests",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/frequently-asked/feature-requests",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/hooks",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/hooks",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/os",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/os",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/commands",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/commands",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/basics",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/basics",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/storage",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/storage",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/anilist",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/anilist",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/downloader",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/downloader",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/mime",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/mime",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/auth",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/auth",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/example",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/example",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/cron",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/cron",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/discord",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/discord",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/extensions",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/extensions",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/manga",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/manga",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/toast",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/toast",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/torrent-client",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/torrent-client",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/debrid",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/debrid",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/helpers",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/helpers",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/screen",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/screen",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/command-palette",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/command-palette",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/tray",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/tray",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-scanner",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-scanner",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/scanner",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/scanner",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/continuity",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/continuity",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/mpv",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/mpv",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-downloader",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-downloader",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/webview",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/webview",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/debridstream",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/debridstream",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/anime",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/anime",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/external-player-link",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/external-player-link",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-select",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-select",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/filler-manager",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/filler-manager",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrentstream",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrentstream",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrent-search",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrent-search",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/filepath",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/filepath",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/playback-external",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/playback-external",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/buffers-i-o",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/buffers-i-o",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/shared",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/shared",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/videocore",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/videocore",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/dom",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/dom",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/action",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/action",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/store.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/store.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/helpers.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/helpers.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/database.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/database.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/os.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/os.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/dom.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/dom.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/action.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/action.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/permissions.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/permissions.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/playback-external.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/playback-external.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/hooks.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/hooks.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/frequently-asked",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/frequently-asked",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/anime.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/anime.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/buffers-i-o.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/buffers-i-o.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/shared.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/shared.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/continuity.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/continuity.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/external-player-link.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/external-player-link.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/debridstream.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/debridstream.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-scanner.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-scanner.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/webview.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/webview.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/storage.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/storage.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/anilist.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/anilist.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/filler-manager.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/filler-manager.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/commands.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/commands.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/videocore.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/videocore.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/filepath.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/filepath.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrentstream.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrentstream.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-select.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-select.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrent-search.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrent-search.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/screen.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/screen.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-downloader.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-downloader.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/tray.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/tray.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/basics.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/basics.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/scanner.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/scanner.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/mpv.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/mpv.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/downloader.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/downloader.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/cron.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/cron.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/auth.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/auth.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/manga.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/manga.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/helpers.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/helpers.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/extensions.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/extensions.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/mime.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/mime.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/torrent-client.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/torrent-client.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/discord.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/discord.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/toast.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/toast.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/debrid.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/debrid.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/command-palette.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/command-palette.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/frequently-asked/feature-requests.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/frequently-asked/feature-requests.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/debug.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/debug.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/example.md",
+          "canonicalUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/example.md",
+          "status": "valid"
+        }
+      ],
+      "id": "aebd2095566d7d886d2d181bf83a841de15426cc6c0ad6a40887f7c886f8c680"
     }
   ],
   "snapshots": [
@@ -517,7 +1564,548 @@
         "status": "approved",
         "reasons": []
       }
+    },
+    {
+      "id": "7a0971af1fd71104395ba26f4fd495aa9d570791bc766ff0fa1bff18a18aa504",
+      "filename": "documentation_2026-08-20T04:45:34.688Z.md",
+      "contentHash": "cf8f5bd3a273377e726f09f22d7d20b19d0c05d948fbf98dc454461674c4f6e5",
+      "sourceUrl": "https://seanime.gitbook.io/seanime-extensions/plugins/",
+      "canonicalSourceUrl": "https://seanime.gitbook.io/seanime-extensions/plugins",
+      "capturedAt": "2026-08-20T04:45:34.688Z",
+      "crawlRunId": "aebd2095566d7d886d2d181bf83a841de15426cc6c0ad6a40887f7c886f8c680",
+      "totalPages": 135,
+      "successfulPages": 131,
+      "structure": [
+        {
+          "type": "Getting started | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions"
+        },
+        {
+          "type": "Anime Torrent Provider | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/anime-torrent-provider"
+        },
+        {
+          "type": "Manga Provider | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/manga-provider"
+        },
+        {
+          "type": "Core APIs | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/seanime/core-apis"
+        },
+        {
+          "type": "Changelog | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/seanime/changelog"
+        },
+        {
+          "type": "Online Streaming Provider | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/online-streaming-provider"
+        },
+        {
+          "type": "Custom Source | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/custom-source"
+        },
+        {
+          "type": "Introduction | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/introduction"
+        },
+        {
+          "type": "Write, test, share | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/write-test-share"
+        },
+        {
+          "type": "Write, test, share | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/write-test-share"
+        },
+        {
+          "type": "Permissions | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/permissions"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/llms.txt"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/write-test-share.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/seanime/core-apis.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/introduction.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/permissions.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/manga-provider.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/custom-source.md"
+        },
+        {
+          "type": "APIs | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis"
+        },
+        {
+          "type": "Helpers | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/helpers"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/write-test-share.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/online-streaming-provider.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/seanime/readme.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis.md"
+        },
+        {
+          "type": "Store | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/store"
+        },
+        {
+          "type": "Database | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/database"
+        },
+        {
+          "type": "Debug | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/debug"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/content-providers/anime-torrent-provider.md"
+        },
+        {
+          "type": "Permissions | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/permissions"
+        },
+        {
+          "type": "Feature requests | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/frequently-asked/feature-requests"
+        },
+        {
+          "type": "Hooks | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/hooks"
+        },
+        {
+          "type": "UI | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui"
+        },
+        {
+          "type": "OS | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/os"
+        },
+        {
+          "type": "Commands | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/commands"
+        },
+        {
+          "type": "Basics | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/basics"
+        },
+        {
+          "type": "Downloading | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading"
+        },
+        {
+          "type": "Storage | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/storage"
+        },
+        {
+          "type": "AniList | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/anilist"
+        },
+        {
+          "type": "User Interface | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface"
+        },
+        {
+          "type": "Downloader | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/downloader"
+        },
+        {
+          "type": "MIME | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/mime"
+        },
+        {
+          "type": "Auth | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/auth"
+        },
+        {
+          "type": "Example | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/example"
+        },
+        {
+          "type": "Other | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other"
+        },
+        {
+          "type": "Cron | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/cron"
+        },
+        {
+          "type": "Discord | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/discord"
+        },
+        {
+          "type": "Extensions | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/extensions"
+        },
+        {
+          "type": "Manga | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/manga"
+        },
+        {
+          "type": "Toast | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/toast"
+        },
+        {
+          "type": "Torrent Client | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/torrent-client"
+        },
+        {
+          "type": "Debrid | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/debrid"
+        },
+        {
+          "type": "Helpers | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/helpers"
+        },
+        {
+          "type": "Screen | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/screen"
+        },
+        {
+          "type": "Command Palette | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/command-palette"
+        },
+        {
+          "type": "Anime/Library | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library"
+        },
+        {
+          "type": "Tray | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/tray"
+        },
+        {
+          "type": "Auto Scanner | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-scanner"
+        },
+        {
+          "type": "Scanner | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/scanner"
+        },
+        {
+          "type": "Continuity | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/continuity"
+        },
+        {
+          "type": "MPV | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/mpv"
+        },
+        {
+          "type": "Auto Downloader | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-downloader"
+        },
+        {
+          "type": "Webview | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/webview"
+        },
+        {
+          "type": "Debridstream | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/debridstream"
+        },
+        {
+          "type": "Anime | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/anime"
+        },
+        {
+          "type": "External Player Link | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/external-player-link"
+        },
+        {
+          "type": "Auto Select | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-select"
+        },
+        {
+          "type": "Filler Manager | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/filler-manager"
+        },
+        {
+          "type": "Torrentstream | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrentstream"
+        },
+        {
+          "type": "Torrent Search | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrent-search"
+        },
+        {
+          "type": "System | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system"
+        },
+        {
+          "type": "Filepath | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/filepath"
+        },
+        {
+          "type": "Playback (External) | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/playback-external"
+        },
+        {
+          "type": "Buffers, I/O | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/buffers-i-o"
+        },
+        {
+          "type": "Shared Modules | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/shared"
+        },
+        {
+          "type": "VideoCore | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/videocore"
+        },
+        {
+          "type": "DOM | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/dom"
+        },
+        {
+          "type": "Action | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/action"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/store.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/helpers.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/database.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/os.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/dom.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/action.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/permissions.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/playback-external.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/hooks.md"
+        },
+        {
+          "type": "Feature requests | Seanime Extensions",
+          "url": "https://seanime.gitbook.io/seanime-extensions/frequently-asked"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/anime.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/buffers-i-o.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/shared.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/continuity.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/external-player-link.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/debridstream.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-scanner.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/webview.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/storage.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/anilist.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/filler-manager.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/commands.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/videocore.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/filepath.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrentstream.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-select.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/torrent-search.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/screen.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/auto-downloader.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/tray.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/basics.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/scanner.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library/mpv.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/downloader.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/cron.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/auth.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/manga.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/helpers.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/extensions.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/system/mime.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/torrent-client.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other/discord.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/toast.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/downloading/debrid.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/anime-library.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/user-interface/command-palette.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/frequently-asked/feature-requests.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/apis/debug.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/ui/other.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://seanime.gitbook.io/seanime-extensions/plugins/example.md"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
     }
   ],
-  "currentSnapshotId": "07204bfb3479c6c3443c499d17a9ee7f863717aaa06d12f8211b5be65dfd297d"
+  "currentSnapshotId": "7a0971af1fd71104395ba26f4fd495aa9d570791bc766ff0fa1bff18a18aa504"
 }
