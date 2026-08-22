@@ -477,6 +477,53 @@
         "rejected": 0,
         "failed": 0
       }
+    },
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://docs.flap.sh",
+      "canonicalSeedUrl": "https://docs.flap.sh/",
+      "configuration": {
+        "url": "https://docs.flap.sh",
+        "limit": 1000,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "includePaths": [
+          "https://docs.flap.sh"
+        ],
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-21T05:39:30.883Z",
+      "completedAt": "2026-08-21T05:39:46.075Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 0,
+        "discoveredIsExact": false
+      },
+      "totals": {
+        "discovered": 1,
+        "returned": 0,
+        "valid": 0,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [],
+      "id": "3373979160072432919c22f8e063f30ca22c6d8358bd372b5c58e6d226de3c45"
     }
   ],
   "snapshots": [
