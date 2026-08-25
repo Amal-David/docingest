@@ -1,0 +1,95 @@
+{
+  "url": "https://www.docsity.com/en/docs/nasm-cpr-asti-2026-updated-exam/15396275/",
+  "domain": "www.docsity.com",
+  "lastScraped": "2026-08-24T16:55:39.308Z",
+  "totalPages": 1,
+  "successfulPages": 0,
+  "failedPages": [
+    "https://www.docsity.com/en/docs/nasm-cpr-asti-2026-updated-exam/15396275/ (server-detected-blocked-content)"
+  ],
+  "structure": [],
+  "latestVersion": "",
+  "versions": [],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://www.docsity.com/en/docs/nasm-cpr-asti-2026-updated-exam/15396275/",
+      "canonicalSeedUrl": "https://www.docsity.com/en/docs/nasm-cpr-asti-2026-updated-exam/15396275",
+      "configuration": {
+        "url": "https://www.docsity.com/en/docs/nasm-cpr-asti-2026-updated-exam/15396275/",
+        "limit": 1000,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "includePaths": [
+          "/en/docs/*"
+        ],
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-24T16:55:27.399Z",
+      "completedAt": "2026-08-24T16:55:39.308Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 1,
+        "returned": 1,
+        "valid": 0,
+        "needs-review": 0,
+        "blocked": 1,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://www.docsity.com/en/docs/nasm-cpr-asti-2026-updated-exam/15396275/",
+          "canonicalUrl": "https://www.docsity.com/en/docs/nasm-cpr-asti-2026-updated-exam/15396275",
+          "status": "blocked",
+          "reason": "server-detected-blocked-content"
+        }
+      ],
+      "id": "4f2ab2275c9bee2de88480bbec9bb1011e8ffe943319c2883bd168f8e03f920a"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "866e421c859d1f5af4df7469a91ab9f3011f1e96ad8834fc1f3cd5808f61b78d",
+      "filename": "evidence_2026-08-24T16:55:39.308Z.md",
+      "contentHash": "86bd2a20b2f01a7fcdcf50ac5632c9cb8b46f5625b0d6740da42e990bcdbb64b",
+      "sourceUrl": "https://www.docsity.com/en/docs/nasm-cpr-asti-2026-updated-exam/15396275/",
+      "canonicalSourceUrl": "https://www.docsity.com/en/docs/nasm-cpr-asti-2026-updated-exam/15396275",
+      "capturedAt": "2026-08-24T16:55:39.308Z",
+      "crawlRunId": "4f2ab2275c9bee2de88480bbec9bb1011e8ffe943319c2883bd168f8e03f920a",
+      "totalPages": 1,
+      "successfulPages": 0,
+      "structure": [
+        {
+          "type": "Just a moment...",
+          "url": "https://www.docsity.com/en/docs/nasm-cpr-asti-2026-updated-exam/15396275/"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "server-detected-blocked-content"
+        ]
+      }
+    }
+  ]
+}

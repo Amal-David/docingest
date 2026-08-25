@@ -1,0 +1,299 @@
+{
+  "url": "https://docs.balancer.fi/developer-reference/",
+  "domain": "docs.balancer.fi",
+  "lastScraped": "2026-08-24T16:31:49.569Z",
+  "totalPages": 15,
+  "successfulPages": 11,
+  "failedPages": [
+    "https://docs.balancer.fi/data-and-analytics/data-and-analytics/balancer-api/balancer-api.html (checkpoint-or-challenge-title)",
+    "https://docs.balancer.fi/integration-guides/ (checkpoint-or-challenge-title)",
+    "https://docs.balancer.fi/concepts/vault/ (checkpoint-or-challenge-title)",
+    "https://docs.balancer.fi/concepts/vault/liquidity-invariant-approximation.html (checkpoint-or-challenge-title)"
+  ],
+  "structure": [
+    {
+      "type": "Overview | Balancer",
+      "url": "https://docs.balancer.fi/developer-reference/"
+    },
+    {
+      "type": "Sepolia Authorizer Permissions | Balancer",
+      "url": "https://docs.balancer.fi/developer-reference/authorizer/sepolia.html"
+    },
+    {
+      "type": "XLayer Authorizer Permissions | Balancer",
+      "url": "https://docs.balancer.fi/developer-reference/authorizer/xlayer.html"
+    },
+    {
+      "type": "Balancer Repositories | Balancer",
+      "url": "https://docs.balancer.fi/developer-reference/repositories.html"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.balancer.fi/build/README.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.balancer.fi/integration-guides/README.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.balancer.fi/concepts/core-concepts/introduction.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.balancer.fi/partner-onboarding/onboarding-overview/introduction.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.balancer.fi/data-and-analytics/README.md"
+    },
+    {
+      "type": "Unknown",
+      "url": "https://docs.balancer.fi/developer-reference/README.md"
+    },
+    {
+      "type": " | Balancer",
+      "url": "https://docs.balancer.fi/tools"
+    }
+  ],
+  "latestVersion": "76fdd667d7daba08110b8338ee49a6c021be0ce1a5867417de2c033d2dd7aad7",
+  "versions": [
+    {
+      "version": "76fdd667d7daba08110b8338ee49a6c021be0ce1a5867417de2c033d2dd7aad7",
+      "label": "latest",
+      "timestamp": "2026-08-24T16:31:49.569Z",
+      "filename": "documentation_2026-08-24T16:31:49.569Z.md",
+      "totalPages": 15,
+      "successfulPages": 11,
+      "url": "https://docs.balancer.fi/developer-reference/",
+      "snapshotId": "76fdd667d7daba08110b8338ee49a6c021be0ce1a5867417de2c033d2dd7aad7",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://docs.balancer.fi/developer-reference/",
+      "canonicalSeedUrl": "https://docs.balancer.fi/developer-reference",
+      "configuration": {
+        "url": "https://docs.balancer.fi/developer-reference/",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-24T16:30:28.376Z",
+      "completedAt": "2026-08-24T16:31:49.569Z",
+      "providerTotals": {
+        "discovered": 15,
+        "returned": 15,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 15,
+        "returned": 15,
+        "valid": 11,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 4,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.balancer.fi/developer-reference/",
+          "canonicalUrl": "https://docs.balancer.fi/developer-reference",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.balancer.fi/developer-reference/authorizer/sepolia.html",
+          "canonicalUrl": "https://docs.balancer.fi/developer-reference/authorizer/sepolia.html",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.balancer.fi/developer-reference/authorizer/xlayer.html",
+          "canonicalUrl": "https://docs.balancer.fi/developer-reference/authorizer/xlayer.html",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.balancer.fi/developer-reference/repositories.html",
+          "canonicalUrl": "https://docs.balancer.fi/developer-reference/repositories.html",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.balancer.fi/build/README.md",
+          "canonicalUrl": "https://docs.balancer.fi/build/README.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.balancer.fi/integration-guides/README.md",
+          "canonicalUrl": "https://docs.balancer.fi/integration-guides/README.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.balancer.fi/concepts/core-concepts/introduction.md",
+          "canonicalUrl": "https://docs.balancer.fi/concepts/core-concepts/introduction.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.balancer.fi/partner-onboarding/onboarding-overview/introduction.md",
+          "canonicalUrl": "https://docs.balancer.fi/partner-onboarding/onboarding-overview/introduction.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.balancer.fi/data-and-analytics/README.md",
+          "canonicalUrl": "https://docs.balancer.fi/data-and-analytics/README.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.balancer.fi/developer-reference/README.md",
+          "canonicalUrl": "https://docs.balancer.fi/developer-reference/README.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.balancer.fi/tools",
+          "canonicalUrl": "https://docs.balancer.fi/tools",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.balancer.fi/data-and-analytics/data-and-analytics/balancer-api/balancer-api.html",
+          "canonicalUrl": "https://docs.balancer.fi/data-and-analytics/data-and-analytics/balancer-api/balancer-api.html",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://docs.balancer.fi/integration-guides/",
+          "canonicalUrl": "https://docs.balancer.fi/integration-guides",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://docs.balancer.fi/concepts/vault/",
+          "canonicalUrl": "https://docs.balancer.fi/concepts/vault",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        },
+        {
+          "url": "https://docs.balancer.fi/concepts/vault/liquidity-invariant-approximation.html",
+          "canonicalUrl": "https://docs.balancer.fi/concepts/vault/liquidity-invariant-approximation.html",
+          "status": "rejected",
+          "reason": "checkpoint-or-challenge-title"
+        }
+      ],
+      "id": "2f326c8bc7b0216aa5bf6c405d498c6a5611110659a8ef9a64d32024d5a03a49"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "76fdd667d7daba08110b8338ee49a6c021be0ce1a5867417de2c033d2dd7aad7",
+      "filename": "documentation_2026-08-24T16:31:49.569Z.md",
+      "contentHash": "c6ca5d194644767b6a7b799d4ad20475003eae986f4a99a8aeb23eaafd607c14",
+      "sourceUrl": "https://docs.balancer.fi/developer-reference/",
+      "canonicalSourceUrl": "https://docs.balancer.fi/developer-reference",
+      "capturedAt": "2026-08-24T16:31:49.569Z",
+      "crawlRunId": "2f326c8bc7b0216aa5bf6c405d498c6a5611110659a8ef9a64d32024d5a03a49",
+      "totalPages": 15,
+      "successfulPages": 11,
+      "structure": [
+        {
+          "type": "Overview | Balancer",
+          "url": "https://docs.balancer.fi/developer-reference/"
+        },
+        {
+          "type": "Sepolia Authorizer Permissions | Balancer",
+          "url": "https://docs.balancer.fi/developer-reference/authorizer/sepolia.html"
+        },
+        {
+          "type": "XLayer Authorizer Permissions | Balancer",
+          "url": "https://docs.balancer.fi/developer-reference/authorizer/xlayer.html"
+        },
+        {
+          "type": "Balancer Repositories | Balancer",
+          "url": "https://docs.balancer.fi/developer-reference/repositories.html"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.balancer.fi/build/README.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.balancer.fi/integration-guides/README.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.balancer.fi/concepts/core-concepts/introduction.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.balancer.fi/partner-onboarding/onboarding-overview/introduction.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.balancer.fi/data-and-analytics/README.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.balancer.fi/developer-reference/README.md"
+        },
+        {
+          "type": " | Balancer",
+          "url": "https://docs.balancer.fi/tools"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    },
+    {
+      "id": "b984c12e74e56d6b3ea64908477f781f6ea734002cdfc44b0f42bbb0ac38c6d9",
+      "filename": "evidence_2026-08-24T16:31:49.569Z.md",
+      "contentHash": "4bdb60134b2dd2b7c5ee826ba6dbb7e8c8c8ab1c3bca2ad6a9eb93650de05510",
+      "sourceUrl": "https://docs.balancer.fi/developer-reference/",
+      "canonicalSourceUrl": "https://docs.balancer.fi/developer-reference",
+      "capturedAt": "2026-08-24T16:31:49.569Z",
+      "crawlRunId": "2f326c8bc7b0216aa5bf6c405d498c6a5611110659a8ef9a64d32024d5a03a49",
+      "totalPages": 4,
+      "successfulPages": 0,
+      "structure": [
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.balancer.fi/data-and-analytics/data-and-analytics/balancer-api/balancer-api.html"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.balancer.fi/integration-guides/"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.balancer.fi/concepts/vault/"
+        },
+        {
+          "type": "Vercel Security Checkpoint",
+          "url": "https://docs.balancer.fi/concepts/vault/liquidity-invariant-approximation.html"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "checkpoint-or-challenge-title"
+        ]
+      }
+    }
+  ],
+  "currentSnapshotId": "76fdd667d7daba08110b8338ee49a6c021be0ce1a5867417de2c033d2dd7aad7"
+}
