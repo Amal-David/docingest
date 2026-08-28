@@ -1,0 +1,105 @@
+{
+  "url": "https://potion-craft.fandom.com/wiki/Potion_Craft_Wiki",
+  "domain": "potion-craft.fandom.com",
+  "lastScraped": "2026-08-27T09:12:45.950Z",
+  "totalPages": 1,
+  "successfulPages": 1,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Potion Craft Wiki | Fandom",
+      "url": "https://potion-craft.fandom.com/wiki/Potion_Craft_Wiki"
+    }
+  ],
+  "latestVersion": "98eb6e42fd8beb7033ad0403c20ec6c526234f6484f7f83292dec4c9ab414e65",
+  "versions": [
+    {
+      "version": "98eb6e42fd8beb7033ad0403c20ec6c526234f6484f7f83292dec4c9ab414e65",
+      "label": "latest",
+      "timestamp": "2026-08-27T09:12:45.950Z",
+      "filename": "documentation_2026-08-27T09:12:45.950Z.md",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "url": "https://potion-craft.fandom.com/wiki/Potion_Craft_Wiki",
+      "snapshotId": "98eb6e42fd8beb7033ad0403c20ec6c526234f6484f7f83292dec4c9ab414e65",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://potion-craft.fandom.com/wiki/Potion_Craft_Wiki",
+      "canonicalSeedUrl": "https://potion-craft.fandom.com/wiki/Potion_Craft_Wiki",
+      "configuration": {
+        "url": "https://potion-craft.fandom.com/wiki/Potion_Craft_Wiki",
+        "limit": 1000,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-27T09:11:33.404Z",
+      "completedAt": "2026-08-27T09:12:45.950Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 1,
+        "returned": 1,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://potion-craft.fandom.com/wiki/Potion_Craft_Wiki",
+          "canonicalUrl": "https://potion-craft.fandom.com/wiki/Potion_Craft_Wiki",
+          "status": "valid"
+        }
+      ],
+      "id": "4177a4186750a83dbb76bb421538f71947e5ee71233dc57c192371b55bff7d50"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "98eb6e42fd8beb7033ad0403c20ec6c526234f6484f7f83292dec4c9ab414e65",
+      "filename": "documentation_2026-08-27T09:12:45.950Z.md",
+      "contentHash": "7932351367116fb72002a1e8747e152ff32496e3ac8b965cbf20e7332fe18be3",
+      "sourceUrl": "https://potion-craft.fandom.com/wiki/Potion_Craft_Wiki",
+      "canonicalSourceUrl": "https://potion-craft.fandom.com/wiki/Potion_Craft_Wiki",
+      "capturedAt": "2026-08-27T09:12:45.950Z",
+      "crawlRunId": "4177a4186750a83dbb76bb421538f71947e5ee71233dc57c192371b55bff7d50",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Potion Craft Wiki | Fandom",
+          "url": "https://potion-craft.fandom.com/wiki/Potion_Craft_Wiki"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "98eb6e42fd8beb7033ad0403c20ec6c526234f6484f7f83292dec4c9ab414e65"
+}
