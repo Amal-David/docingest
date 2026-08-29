@@ -1,0 +1,92 @@
+{
+  "url": "https://www.geckoterminal.com/dex-api",
+  "domain": "www.geckoterminal.com",
+  "lastScraped": "2026-08-28T21:01:09.459Z",
+  "totalPages": 1,
+  "successfulPages": 0,
+  "failedPages": [
+    "https://www.geckoterminal.com/dex-api (server-detected-blocked-content)"
+  ],
+  "structure": [],
+  "latestVersion": "",
+  "versions": [],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://www.geckoterminal.com/dex-api",
+      "canonicalSeedUrl": "https://www.geckoterminal.com/dex-api",
+      "configuration": {
+        "url": "https://www.geckoterminal.com/dex-api",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-28T21:00:59.301Z",
+      "completedAt": "2026-08-28T21:01:09.459Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 1,
+        "returned": 1,
+        "valid": 0,
+        "needs-review": 0,
+        "blocked": 1,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://www.geckoterminal.com/dex-api",
+          "canonicalUrl": "https://www.geckoterminal.com/dex-api",
+          "status": "blocked",
+          "reason": "server-detected-blocked-content"
+        }
+      ],
+      "id": "60843f5112e55825e7bee9fd0c5c9ab63a0da914502bb2e3080a595d29073cef"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "12aaca46fc4950700a36a47d037447e9dc08eb8fc24601b18dff0ab1ab0952dd",
+      "filename": "evidence_2026-08-28T21:01:09.459Z.md",
+      "contentHash": "efa3ca0bd013393d634f28e25a8c5121ccc98d8e784f3204a3ba71fe11bd5408",
+      "sourceUrl": "https://www.geckoterminal.com/dex-api",
+      "canonicalSourceUrl": "https://www.geckoterminal.com/dex-api",
+      "capturedAt": "2026-08-28T21:01:09.459Z",
+      "crawlRunId": "60843f5112e55825e7bee9fd0c5c9ab63a0da914502bb2e3080a595d29073cef",
+      "totalPages": 1,
+      "successfulPages": 0,
+      "structure": [
+        {
+          "type": "Just a moment...",
+          "url": "https://www.geckoterminal.com/dex-api"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "server-detected-blocked-content"
+        ]
+      }
+    }
+  ]
+}

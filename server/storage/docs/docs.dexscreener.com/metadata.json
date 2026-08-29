@@ -1,7 +1,7 @@
 {
   "url": "https://docs.dexscreener.com/api/reference",
   "domain": "docs.dexscreener.com",
-  "lastScraped": "2026-08-23T20:49:50.467Z",
+  "lastScraped": "2026-08-28T21:00:44.325Z",
   "totalPages": 7,
   "successfulPages": 7,
   "failedPages": [],
@@ -11,12 +11,12 @@
       "url": "https://docs.dexscreener.com/api/reference"
     },
     {
-      "type": "API Terms & Conditions | DEX Screener - Docs",
-      "url": "https://docs.dexscreener.com/api/api-terms-and-conditions"
-    },
-    {
       "type": "WebSockets | DEX Screener - Docs",
       "url": "https://docs.dexscreener.com/api/websockets"
+    },
+    {
+      "type": "API Terms & Conditions | DEX Screener - Docs",
+      "url": "https://docs.dexscreener.com/api/api-terms-and-conditions"
     },
     {
       "type": "Unknown",
@@ -35,18 +35,38 @@
       "url": "https://docs.dexscreener.com/api"
     }
   ],
-  "latestVersion": "7c2761a76c327bacef3ee484db516f6d709cabe3f2718dcc935f09f676c1ec53",
+  "latestVersion": "b6c8f29a9d2661d838346eb32c48e58f40f0136a1e789803f48ac6fdb1960b2f",
   "versions": [
     {
-      "version": "7c2761a76c327bacef3ee484db516f6d709cabe3f2718dcc935f09f676c1ec53",
+      "version": "b6c8f29a9d2661d838346eb32c48e58f40f0136a1e789803f48ac6fdb1960b2f",
       "label": "latest",
+      "timestamp": "2026-08-28T21:00:44.325Z",
+      "filename": "documentation_2026-08-28T21:00:44.325Z.md",
+      "totalPages": 7,
+      "successfulPages": 7,
+      "url": "https://docs.dexscreener.com/api/reference",
+      "snapshotId": "b6c8f29a9d2661d838346eb32c48e58f40f0136a1e789803f48ac6fdb1960b2f",
+      "isLatest": true
+    },
+    {
+      "version": "5b9e32ec25e0ead70e3ba19689362d101368d7ea0bfb7094b675691b24fcfca6",
+      "timestamp": "2026-08-28T21:00:35.033Z",
+      "filename": "documentation_2026-08-28T21:00:35.033Z.md",
+      "totalPages": 7,
+      "successfulPages": 7,
+      "url": "https://docs.dexscreener.com/api/reference",
+      "snapshotId": "5b9e32ec25e0ead70e3ba19689362d101368d7ea0bfb7094b675691b24fcfca6",
+      "isLatest": false
+    },
+    {
+      "version": "7c2761a76c327bacef3ee484db516f6d709cabe3f2718dcc935f09f676c1ec53",
       "timestamp": "2026-08-23T20:49:50.467Z",
       "filename": "documentation_2026-08-23T20:49:50.467Z.md",
       "totalPages": 7,
       "successfulPages": 7,
       "url": "https://docs.dexscreener.com/api/reference",
       "snapshotId": "7c2761a76c327bacef3ee484db516f6d709cabe3f2718dcc935f09f676c1ec53",
-      "isLatest": true
+      "isLatest": false
     },
     {
       "version": "e802a78008e856931699b92ed5deee56b7c97c179dd971cffbbcaf7cb1217035",
@@ -278,6 +298,172 @@
         }
       ],
       "id": "0cc6adc54368dd7879658a95e5027bc33989f98ff2a76957bfe3a2a84e2094b4"
+    },
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://docs.dexscreener.com/api/reference",
+      "canonicalSeedUrl": "https://docs.dexscreener.com/api/reference",
+      "configuration": {
+        "url": "https://docs.dexscreener.com/api/reference",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "includePaths": [
+          "/api/*"
+        ],
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-28T21:00:24.648Z",
+      "completedAt": "2026-08-28T21:00:35.033Z",
+      "providerTotals": {
+        "discovered": 7,
+        "returned": 7,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 7,
+        "returned": 7,
+        "valid": 7,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.dexscreener.com/api/reference",
+          "canonicalUrl": "https://docs.dexscreener.com/api/reference",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.dexscreener.com/api/api-terms-and-conditions",
+          "canonicalUrl": "https://docs.dexscreener.com/api/api-terms-and-conditions",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.dexscreener.com/api/websockets",
+          "canonicalUrl": "https://docs.dexscreener.com/api/websockets",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.dexscreener.com/api/reference.md",
+          "canonicalUrl": "https://docs.dexscreener.com/api/reference.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.dexscreener.com/api/api-terms-and-conditions.md",
+          "canonicalUrl": "https://docs.dexscreener.com/api/api-terms-and-conditions.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.dexscreener.com/api/websockets.md",
+          "canonicalUrl": "https://docs.dexscreener.com/api/websockets.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.dexscreener.com/api",
+          "canonicalUrl": "https://docs.dexscreener.com/api",
+          "status": "valid"
+        }
+      ],
+      "id": "36b934193558cb99de48c9c79a882c16e2e03718ed1b0513eab081e47a9c32be"
+    },
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://docs.dexscreener.com/api/reference",
+      "canonicalSeedUrl": "https://docs.dexscreener.com/api/reference",
+      "configuration": {
+        "url": "https://docs.dexscreener.com/api/reference",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "includePaths": [
+          "/api/*"
+        ],
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-28T21:00:34.179Z",
+      "completedAt": "2026-08-28T21:00:44.325Z",
+      "providerTotals": {
+        "discovered": 7,
+        "returned": 7,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 7,
+        "returned": 7,
+        "valid": 7,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.dexscreener.com/api/reference",
+          "canonicalUrl": "https://docs.dexscreener.com/api/reference",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.dexscreener.com/api/websockets",
+          "canonicalUrl": "https://docs.dexscreener.com/api/websockets",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.dexscreener.com/api/api-terms-and-conditions",
+          "canonicalUrl": "https://docs.dexscreener.com/api/api-terms-and-conditions",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.dexscreener.com/api/reference.md",
+          "canonicalUrl": "https://docs.dexscreener.com/api/reference.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.dexscreener.com/api/websockets.md",
+          "canonicalUrl": "https://docs.dexscreener.com/api/websockets.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.dexscreener.com/api/api-terms-and-conditions.md",
+          "canonicalUrl": "https://docs.dexscreener.com/api/api-terms-and-conditions.md",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.dexscreener.com/api",
+          "canonicalUrl": "https://docs.dexscreener.com/api",
+          "status": "valid"
+        }
+      ],
+      "id": "cf22a084392a90bba0c1462cd7383ee029d4615e67fc09e5f2cc82d7d5f08e22"
     }
   ],
   "snapshots": [
@@ -401,7 +587,97 @@
         "status": "approved",
         "reasons": []
       }
+    },
+    {
+      "id": "5b9e32ec25e0ead70e3ba19689362d101368d7ea0bfb7094b675691b24fcfca6",
+      "filename": "documentation_2026-08-28T21:00:35.033Z.md",
+      "contentHash": "5eddf49e1155040c2425e29fcfb9122504e8d7baad924c023ac672fac4fdc7e0",
+      "sourceUrl": "https://docs.dexscreener.com/api/reference",
+      "canonicalSourceUrl": "https://docs.dexscreener.com/api/reference",
+      "capturedAt": "2026-08-28T21:00:35.033Z",
+      "crawlRunId": "36b934193558cb99de48c9c79a882c16e2e03718ed1b0513eab081e47a9c32be",
+      "totalPages": 7,
+      "successfulPages": 7,
+      "structure": [
+        {
+          "type": "Reference | DEX Screener - Docs",
+          "url": "https://docs.dexscreener.com/api/reference"
+        },
+        {
+          "type": "API Terms & Conditions | DEX Screener - Docs",
+          "url": "https://docs.dexscreener.com/api/api-terms-and-conditions"
+        },
+        {
+          "type": "WebSockets | DEX Screener - Docs",
+          "url": "https://docs.dexscreener.com/api/websockets"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.dexscreener.com/api/reference.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.dexscreener.com/api/api-terms-and-conditions.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.dexscreener.com/api/websockets.md"
+        },
+        {
+          "type": "Reference | DEX Screener - Docs",
+          "url": "https://docs.dexscreener.com/api"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    },
+    {
+      "id": "b6c8f29a9d2661d838346eb32c48e58f40f0136a1e789803f48ac6fdb1960b2f",
+      "filename": "documentation_2026-08-28T21:00:44.325Z.md",
+      "contentHash": "93dacd09c0c28ecbafcd0ea887d598db01a129d75f252142bbcb7bf9327faca2",
+      "sourceUrl": "https://docs.dexscreener.com/api/reference",
+      "canonicalSourceUrl": "https://docs.dexscreener.com/api/reference",
+      "capturedAt": "2026-08-28T21:00:44.325Z",
+      "crawlRunId": "cf22a084392a90bba0c1462cd7383ee029d4615e67fc09e5f2cc82d7d5f08e22",
+      "totalPages": 7,
+      "successfulPages": 7,
+      "structure": [
+        {
+          "type": "Reference | DEX Screener - Docs",
+          "url": "https://docs.dexscreener.com/api/reference"
+        },
+        {
+          "type": "WebSockets | DEX Screener - Docs",
+          "url": "https://docs.dexscreener.com/api/websockets"
+        },
+        {
+          "type": "API Terms & Conditions | DEX Screener - Docs",
+          "url": "https://docs.dexscreener.com/api/api-terms-and-conditions"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.dexscreener.com/api/reference.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.dexscreener.com/api/websockets.md"
+        },
+        {
+          "type": "Unknown",
+          "url": "https://docs.dexscreener.com/api/api-terms-and-conditions.md"
+        },
+        {
+          "type": "Reference | DEX Screener - Docs",
+          "url": "https://docs.dexscreener.com/api"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
     }
   ],
-  "currentSnapshotId": "7c2761a76c327bacef3ee484db516f6d709cabe3f2718dcc935f09f676c1ec53"
+  "currentSnapshotId": "b6c8f29a9d2661d838346eb32c48e58f40f0136a1e789803f48ac6fdb1960b2f"
 }

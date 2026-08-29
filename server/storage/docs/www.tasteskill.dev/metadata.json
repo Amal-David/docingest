@@ -1,28 +1,52 @@
 {
   "url": "https://www.tasteskill.dev/docs",
   "domain": "www.tasteskill.dev",
-  "lastScraped": "2026-07-25T00:53:06.846Z",
-  "totalPages": 1,
-  "successfulPages": 1,
-  "failedPages": [],
+  "lastScraped": "2026-08-28T09:35:31.894Z",
+  "totalPages": 5,
+  "successfulPages": 4,
+  "failedPages": [
+    "https://www.tasteskill.dev/blog (provider-result-had-no-extractable-content)"
+  ],
   "structure": [
+    {
+      "type": "Taste Skill | The Anti-Slop Frontend Framework for AI Agents",
+      "url": "https://www.tasteskill.dev/"
+    },
     {
       "type": "Documentation | Taste Skill",
       "url": "https://www.tasteskill.dev/docs"
+    },
+    {
+      "type": "Changelog | Taste Skill",
+      "url": "https://www.tasteskill.dev/changelog"
+    },
+    {
+      "type": "Prompt Guide | Taste Skill",
+      "url": "https://www.tasteskill.dev/guide"
     }
   ],
-  "latestVersion": "23c1a818b25771397e5947aca67cbce325c5340c5b89868b51e49423cc064946",
+  "latestVersion": "6fa95936170dca2cd1a5f905e201800c1180c9a29700cacf43d0b70dcc064318",
   "versions": [
     {
-      "version": "23c1a818b25771397e5947aca67cbce325c5340c5b89868b51e49423cc064946",
+      "version": "6fa95936170dca2cd1a5f905e201800c1180c9a29700cacf43d0b70dcc064318",
       "label": "latest",
+      "timestamp": "2026-08-28T09:35:31.894Z",
+      "filename": "documentation_2026-08-28T09:35:31.894Z.md",
+      "totalPages": 5,
+      "successfulPages": 4,
+      "url": "https://www.tasteskill.dev/",
+      "snapshotId": "6fa95936170dca2cd1a5f905e201800c1180c9a29700cacf43d0b70dcc064318",
+      "isLatest": true
+    },
+    {
+      "version": "23c1a818b25771397e5947aca67cbce325c5340c5b89868b51e49423cc064946",
       "timestamp": "2026-07-25T00:53:06.846Z",
       "filename": "documentation_2026-07-25T00:53:06.846Z.md",
       "totalPages": 1,
       "successfulPages": 1,
       "url": "https://www.tasteskill.dev/docs",
       "snapshotId": "23c1a818b25771397e5947aca67cbce325c5340c5b89868b51e49423cc064946",
-      "isLatest": true
+      "isLatest": false
     }
   ],
   "schemaVersion": 3,
@@ -79,6 +103,77 @@
         }
       ],
       "id": "3a100b227c37f383886681a4a42a2e3297b27f6202713a8ff50ee1467baccb35"
+    },
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://www.tasteskill.dev/",
+      "canonicalSeedUrl": "https://www.tasteskill.dev/",
+      "configuration": {
+        "url": "https://www.tasteskill.dev/",
+        "limit": 1000,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-08-28T09:35:25.353Z",
+      "completedAt": "2026-08-28T09:35:31.894Z",
+      "providerTotals": {
+        "discovered": 5,
+        "returned": 5,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 5,
+        "returned": 5,
+        "valid": 4,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 1,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://www.tasteskill.dev/",
+          "canonicalUrl": "https://www.tasteskill.dev/",
+          "status": "valid"
+        },
+        {
+          "url": "https://www.tasteskill.dev/docs",
+          "canonicalUrl": "https://www.tasteskill.dev/docs",
+          "status": "valid"
+        },
+        {
+          "url": "https://www.tasteskill.dev/blog",
+          "canonicalUrl": "https://www.tasteskill.dev/blog",
+          "status": "empty",
+          "reason": "provider-result-had-no-extractable-content"
+        },
+        {
+          "url": "https://www.tasteskill.dev/changelog",
+          "canonicalUrl": "https://www.tasteskill.dev/changelog",
+          "status": "valid"
+        },
+        {
+          "url": "https://www.tasteskill.dev/guide",
+          "canonicalUrl": "https://www.tasteskill.dev/guide",
+          "status": "valid"
+        }
+      ],
+      "id": "98c1140286aed8bf8de60cf3a1769cb9fc13d44d310b0e579c9f6464f1341059"
     }
   ],
   "snapshots": [
@@ -102,7 +197,40 @@
         "status": "approved",
         "reasons": []
       }
+    },
+    {
+      "id": "6fa95936170dca2cd1a5f905e201800c1180c9a29700cacf43d0b70dcc064318",
+      "filename": "documentation_2026-08-28T09:35:31.894Z.md",
+      "contentHash": "86765ff065d489cef3e7d5911534aecc808bc358ab81534af8cba5ee1a9031f0",
+      "sourceUrl": "https://www.tasteskill.dev/",
+      "canonicalSourceUrl": "https://www.tasteskill.dev/",
+      "capturedAt": "2026-08-28T09:35:31.894Z",
+      "crawlRunId": "98c1140286aed8bf8de60cf3a1769cb9fc13d44d310b0e579c9f6464f1341059",
+      "totalPages": 5,
+      "successfulPages": 4,
+      "structure": [
+        {
+          "type": "Taste Skill | The Anti-Slop Frontend Framework for AI Agents",
+          "url": "https://www.tasteskill.dev/"
+        },
+        {
+          "type": "Documentation | Taste Skill",
+          "url": "https://www.tasteskill.dev/docs"
+        },
+        {
+          "type": "Changelog | Taste Skill",
+          "url": "https://www.tasteskill.dev/changelog"
+        },
+        {
+          "type": "Prompt Guide | Taste Skill",
+          "url": "https://www.tasteskill.dev/guide"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
     }
   ],
-  "currentSnapshotId": "23c1a818b25771397e5947aca67cbce325c5340c5b89868b51e49423cc064946"
+  "currentSnapshotId": "6fa95936170dca2cd1a5f905e201800c1180c9a29700cacf43d0b70dcc064318"
 }
