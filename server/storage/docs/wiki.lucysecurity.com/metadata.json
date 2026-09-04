@@ -1,14 +1,18 @@
 {
   "url": "https://wiki.lucysecurity.com/",
   "domain": "wiki.lucysecurity.com",
-  "lastScraped": "2026-01-12T09:29:40.002Z",
-  "totalPages": 58,
-  "successfulPages": 58,
+  "lastScraped": "2026-09-03T10:41:33.925Z",
+  "totalPages": 250,
+  "successfulPages": 121,
   "failedPages": [],
   "structure": [
     {
+      "type": "Application Reference | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/application-reference"
+    },
+    {
       "type": "Wiki Overview | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/"
+      "url": "https://wiki.lucysecurity.com"
     },
     {
       "type": "Guides | Lucy Awareness",
@@ -27,24 +31,28 @@
       "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/register-an-attack-domain"
     },
     {
-      "type": "Attack Settings | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/attack-settings"
-    },
-    {
       "type": "Adding a New Client | Lucy Awareness",
       "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/adding-a-new-client"
+    },
+    {
+      "type": "Installing Lucy | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/installing-lucy"
     },
     {
       "type": "Selecting an Attack | Lucy Awareness",
       "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/selecting-an-attack"
     },
     {
-      "type": "Campaign Setup | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup"
+      "type": "Attack Settings | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/attack-settings"
     },
     {
-      "type": "Installing Lucy | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/installing-lucy"
+      "type": "Whitelisting | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/whitelisting"
+    },
+    {
+      "type": "Awareness Settings | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/awareness-settings"
     },
     {
       "type": "Review | Lucy Awareness",
@@ -55,20 +63,52 @@
       "url": "https://wiki.lucysecurity.com/guides/installing-lucy/on-premise-vs-cloud-installation"
     },
     {
-      "type": "Whitelisting | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/whitelisting"
+      "type": "Campaign Setup | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup"
     },
     {
       "type": "Recipients | Lucy Awareness",
       "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/recipients"
     },
     {
-      "type": "Awareness Settings | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/awareness-settings"
-    },
-    {
       "type": "Architecture | Lucy Awareness",
       "url": "https://wiki.lucysecurity.com/guides/installing-lucy/architecture"
+    },
+    {
+      "type": "Network Communication | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/installing-lucy/network-communication"
+    },
+    {
+      "type": "Hardware Requirements | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/installing-lucy/hardware-requirements"
+    },
+    {
+      "type": "Upgrading to Lucy 6.0 | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0"
+    },
+    {
+      "type": "Docker Deployments | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0/docker-deployments"
+    },
+    {
+      "type": "Wiki-Übersicht | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de"
+    },
+    {
+      "type": "Installing Lucy | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/installing-lucy/installing-lucy"
+    },
+    {
+      "type": "Kurzanleitungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen"
+    },
+    {
+      "type": "Anleitungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen"
+    },
+    {
+      "type": "Whitelisting a Lucy Server | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server"
     },
     {
       "type": "Microsoft O365 Whitelisting | Lucy Awareness",
@@ -79,168 +119,401 @@
       "url": "https://wiki.lucysecurity.com/guides/attack-simulations"
     },
     {
-      "type": "Network Communication | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/installing-lucy/network-communication"
+      "type": "Managing Google SafeBrowsing Alerts | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/manage-blacklisted-domains/managing-google-safebrowsing-alerts"
     },
     {
-      "type": "Whitelisting a Lucy Server | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server"
+      "type": "Erstellen Sie Ihre erste Kampagne | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne"
     },
     {
-      "type": "Installing Lucy | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/installing-lucy/installing-lucy"
+      "type": "VMware Deployments | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0/vmware-deployments"
     },
     {
-      "type": "Awareness Training | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/awareness-training"
-    },
-    {
-      "type": "Attack Types | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types"
-    },
-    {
-      "type": "Hardware Requirements | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/installing-lucy/hardware-requirements"
-    },
-    {
-      "type": "Firewall Protection Interval | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/attack-simulations/firewall-protection-interval"
-    },
-    {
-      "type": "Email Tracking Technologies | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/attack-simulations/email-tracking-technologies"
+      "type": "Post Installation Setup | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/installing-lucy/post-installation-setup"
     },
     {
       "type": "Google Workspace Whitelisting | Lucy Awareness",
       "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/google-workspace-whitelisting"
     },
     {
-      "type": "Application Reference | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/application-reference"
+      "type": "Registrieren Sie eine Angriffs-Domain | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/registrieren-sie-eine-angriffs-domain"
     },
     {
-      "type": "Post Installation | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/installing-lucy/post-installation"
+      "type": "Einen neuen Client hinzufügen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/einen-neuen-client-hinzufugen"
     },
     {
-      "type": "Campaigns | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/application-reference/campaigns"
+      "type": "Lucy installieren | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren"
     },
     {
-      "type": "Ransomware Emulation | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/ransomware-emulation"
+      "type": "Einen Angriff auswählen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/einen-angriff-auswahlen"
     },
     {
-      "type": "Managing Google SafeBrowsing Alerts | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/manage-blacklisted-domains/managing-google-safebrowsing-alerts"
+      "type": "Überprüfung | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/uberprufung"
     },
     {
-      "type": "Copy a Website | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/attack-simulations/copy-a-website"
+      "type": "Empfänger | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/empfanger"
     },
     {
-      "type": "Using Multiple Awareness Trainings | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/awareness-training/awareness-only-campaigns/using-multiple-awareness-trainings"
+      "type": "Awareness-Einstellungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/awareness-einstellungen"
     },
     {
-      "type": "Notifications | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/application-reference/notifications"
+      "type": "Angriffseinstellungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/angriffseinstellungen"
     },
     {
-      "type": "Regular Expressions in Login Fields | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/attack-simulations/regular-expressions-in-login-fields"
+      "type": "Whitelistung | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/whitelistung"
     },
     {
-      "type": "Deploying Gmail | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/reporting-plugin/deploying-gmail"
-    },
-    {
-      "type": "Use extended method of tracking the end of the quiz | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/awareness-training/use-extended-method-of-tracking-the-end-of-the-quiz"
-    },
-    {
-      "type": "Lures | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/lures"
+      "type": "Kampagnen-Setup | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup"
     },
     {
       "type": "File Attack Whitelisting | Lucy Awareness",
       "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/file-attack-whitelisting"
     },
     {
-      "type": "Hyperlink Attack | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/hyperlink-attack"
+      "type": "On-Premise- vs. Cloud-Installation | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/on-premise-vs.-cloud-installation"
     },
     {
-      "type": "Advanced Information Gathering | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/attack-simulations/advanced-information-gathering"
+      "type": "Attack Types | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types"
     },
     {
-      "type": "Email Spoofing Test | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/email-spoofing-test"
+      "type": "Einen Lucy-Server auf die Whitelist setzen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen"
     },
     {
-      "type": "Deploying Office 365 | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/reporting-plugin/deploying-office-365"
+      "type": "Architektur | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/architektur"
+    },
+    {
+      "type": "Upgrade auf Lucy 6.0 | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0"
+    },
+    {
+      "type": "Hardwareanforderungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/hardwareanforderungen"
     },
     {
       "type": "Data Entry Attack | Lucy Awareness",
       "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/data-entry-attack"
     },
     {
-      "type": "QR Codes | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/qr-codes"
+      "type": "Netzwerkkommunikation | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/netzwerkkommunikation"
     },
     {
-      "type": "Redirecting Users | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/attack-simulations/redirecting-users"
+      "type": "Hyperlink Attack | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/hyperlink-attack"
     },
     {
-      "type": "Attack Settings | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/settings/attack-settings"
+      "type": "Lucy installieren | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/lucy-installieren"
     },
     {
-      "type": "Reporting Plugin | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/reporting-plugin"
+      "type": "Google Workspace-Whitelisting | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/google-workspace-whitelisting"
     },
     {
-      "type": "Deploying Outlook Native (Deprecated) | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/guides/reporting-plugin/deploying-outlook-native-deprecated"
+      "type": "Docker-Bereitstellungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0/docker-bereitstellungen"
     },
     {
-      "type": "Legal | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/legal"
+      "type": "VMware-Bereitstellungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0/vmware-bereitstellungen"
     },
     {
-      "type": "Privacy Policy | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/legal/privacy-policy"
+      "type": "Google SafeBrowsing-Warnungen verwalten | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/gesperrte-domains-verwalten/google-safebrowsing-warnungen-verwalten"
     },
     {
-      "type": "Service Level Agreement | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/legal/service-level-agreement"
+      "type": "Einrichtung nach der Installation | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/einrichtung-nach-der-installation"
     },
     {
-      "type": "Confidentiality of Campaign Data | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/legal/confidentiality-of-campaign-data"
+      "type": "Microsoft O365 auf die Whitelist setzen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/microsoft-o365-auf-die-whitelist-setzen"
     },
     {
-      "type": "Contact Us | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/contact-us"
+      "type": "Angriffssimulationen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen"
     },
     {
-      "type": "EULA | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/legal/eula"
+      "type": "Manage Blacklisted Domains | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/guides/manage-blacklisted-domains"
     },
     {
-      "type": "DPA, Customer and Partner Info | Lucy Awareness",
-      "url": "https://wiki.lucysecurity.com/legal/dpa-customer-and-partner-info"
+      "type": "Whitelisting für Dateiangriffe | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/whitelisting-fur-dateiangriffe"
     },
     {
-      "type": "Email Protection | Cloudflare",
-      "url": "https://wiki.lucysecurity.com/cdn-cgi/l/email-protection"
+      "type": "Angriffstypen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen"
+    },
+    {
+      "type": "Firewall-Schutzintervall | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/firewall-schutzintervall"
+    },
+    {
+      "type": "Awareness-Schulung | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung"
+    },
+    {
+      "type": "Dateneingabe-Angriff | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/dateneingabe-angriff"
+    },
+    {
+      "type": "Hyperlink-Angriff | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/hyperlink-angriff"
+    },
+    {
+      "type": "Köder | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/koder"
+    },
+    {
+      "type": "Ransomware-Emulation | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/ransomware-emulation"
+    },
+    {
+      "type": "Anwendungsreferenz | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz"
+    },
+    {
+      "type": "E-Mail-Tracking-Technologien | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/e-mail-tracking-technologien"
+    },
+    {
+      "type": "Benachrichtigungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/benachrichtigungen"
+    },
+    {
+      "type": "Gmail bereitstellen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin/gmail-bereitstellen"
+    },
+    {
+      "type": "Gesperrte Domains verwalten | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/gesperrte-domains-verwalten"
+    },
+    {
+      "type": "Erweiterte Informationsbeschaffung | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/erweiterte-informationsbeschaffung"
+    },
+    {
+      "type": "Eine Website kopieren | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/eine-website-kopieren"
+    },
+    {
+      "type": "Smishing | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/smishing"
+    },
+    {
+      "type": "E-Mail-Spoofing-Test | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/e-mail-spoofing-test"
+    },
+    {
+      "type": "Kampagnen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen"
+    },
+    {
+      "type": "Datei-Angriff | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/datei-angriff"
+    },
+    {
+      "type": "QR-Codes | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/qr-codes"
+    },
+    {
+      "type": "Reguläre Ausdrücke in Login-Feldern | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/regulare-ausdrucke-in-login-feldern"
+    },
+    {
+      "type": "Benutzer umleiten | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/benutzer-umleiten"
+    },
+    {
+      "type": "Die erweiterte Methode zur Verfolgung des Quizendes verwenden | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung/die-erweiterte-methode-zur-verfolgung-des-quizendes-verwenden"
+    },
+    {
+      "type": "Tragbare Medien | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/tragbare-medien"
+    },
+    {
+      "type": "Verwendung von Awareness-Gruppen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung/nur-awareness-kampagnen/verwendung-von-awareness-gruppen"
+    },
+    {
+      "type": "Expertenmodus | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/expertenmodus"
+    },
+    {
+      "type": "Reporting-Plugin | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin"
+    },
+    {
+      "type": "Office 365 bereitstellen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin/office-365-bereitstellen"
+    },
+    {
+      "type": "Bereitstellung von Outlook Native (veraltet) | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin/bereitstellung-von-outlook-native-veraltet"
+    },
+    {
+      "type": "Haupteinstellungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/haupteinstellungen"
+    },
+    {
+      "type": "Überprüfung | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/uberprufung"
+    },
+    {
+      "type": "Kampagneneinstellungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen"
+    },
+    {
+      "type": "Test für E-Mail- und Webfilter | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/test-fur-e-mail-und-webfilter"
+    },
+    {
+      "type": "Einstellungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/einstellungen"
+    },
+    {
+      "type": "Angriffssimulation | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/haupteinstellungen/angriffssimulation"
+    },
+    {
+      "type": "Berichtskonfigurationen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/optionale-einstellungen/berichtskonfigurationen"
+    },
+    {
+      "type": "Awareness-Einstellungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/einstellungen/awareness-einstellungen"
+    },
+    {
+      "type": "Kampagnen-Dashboards | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen-dashboards"
+    },
+    {
+      "type": "Ergebnisse | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/ergebnisse"
+    },
+    {
+      "type": "Empfänger | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/empfanger"
+    },
+    {
+      "type": "Optionale Einstellungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/optionale-einstellungen"
+    },
+    {
+      "type": "Technischer Malware-Test | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/technischer-malware-test"
+    },
+    {
+      "type": "Awareness-Schulung | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/haupteinstellungen/awareness-schulung"
+    },
+    {
+      "type": "Tracking & Anonymität | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/optionale-einstellungen/tracking-and-anonymitat"
+    },
+    {
+      "type": "Benutzer | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/benutzer"
+    },
+    {
+      "type": "Nur-Awareness-Kampagnen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung/nur-awareness-kampagnen"
+    },
+    {
+      "type": "Vorlagen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/vorlagen"
+    },
+    {
+      "type": "Protokolle | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/protokolle"
+    },
+    {
+      "type": "Angriffseinstellungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/einstellungen/angriffseinstellungen"
+    },
+    {
+      "type": "Adaptive Phishing-Programme | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/adaptive-phishing-programme"
+    },
+    {
+      "type": "AURA | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/aura"
+    },
+    {
+      "type": "Berichte | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/ergebnisse/berichte"
+    },
+    {
+      "type": "Malware-Toolkit-Test-Suite | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/technischer-malware-test/malware-toolkit-test-suite"
+    },
+    {
+      "type": "Einstellungen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/einstellungen"
+    },
+    {
+      "type": "Anpassung von Angriffsvorlagen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/anpassung-von-angriffsvorlagen"
+    },
+    {
+      "type": "Risiko-Score | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/benutzer/risiko-score"
+    },
+    {
+      "type": "Vorlagen herunterladen | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/vorlagen/vorlagen-herunterladen"
+    },
+    {
+      "type": "Awareness-Schulungszertifikat | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/vorlagen/awareness-schulungszertifikat"
+    },
+    {
+      "type": "Eine Kampagne starten | Lucy Awareness",
+      "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/eine-kampagne-starten"
     }
   ],
-  "latestVersion": "1.0.0",
+  "latestVersion": "4242f702880c3fd1cc88107dca9cc730fbfdfd52de57653a1ebb41b0c1299132",
   "versions": [
+    {
+      "version": "4242f702880c3fd1cc88107dca9cc730fbfdfd52de57653a1ebb41b0c1299132",
+      "label": "latest",
+      "timestamp": "2026-09-03T10:41:33.925Z",
+      "filename": "documentation_2026-09-03T10:41:33.925Z.md",
+      "totalPages": 250,
+      "successfulPages": 121,
+      "url": "https://wiki.lucysecurity.com/application-reference",
+      "snapshotId": "4242f702880c3fd1cc88107dca9cc730fbfdfd52de57653a1ebb41b0c1299132",
+      "isLatest": true
+    },
+    {
+      "version": "076c13b7bd41bd44a83d0ddd3950f3c7f0d8e6b589ebb12b37d6e0b706a06ae4",
+      "timestamp": "2026-09-03T10:40:29.970Z",
+      "filename": "documentation_2026-09-03T10:40:29.970Z.md",
+      "totalPages": 250,
+      "successfulPages": 159,
+      "url": "https://wiki.lucysecurity.com/guides/",
+      "snapshotId": "076c13b7bd41bd44a83d0ddd3950f3c7f0d8e6b589ebb12b37d6e0b706a06ae4",
+      "isLatest": false
+    },
     {
       "version": "1.0.0",
       "timestamp": "2026-01-12T09:29:40.002Z",
@@ -248,8 +521,7 @@
       "totalPages": 58,
       "successfulPages": 58,
       "url": "https://wiki.lucysecurity.com/",
-      "isLatest": true,
-      "label": "latest"
+      "isLatest": false
     }
   ],
   "schemaVersion": 3,
@@ -287,6 +559,1496 @@
         "rejected": 0,
         "failed": 0
       }
+    },
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://wiki.lucysecurity.com/guides/",
+      "canonicalSeedUrl": "https://wiki.lucysecurity.com/guides",
+      "configuration": {
+        "url": "https://wiki.lucysecurity.com/guides/",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-09-03T10:39:33.151Z",
+      "completedAt": "2026-09-03T10:40:29.970Z",
+      "providerTotals": {
+        "discovered": 250,
+        "returned": 159,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 250,
+        "returned": 159,
+        "valid": 159,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://wiki.lucysecurity.com/guides/",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/einen-angriff-auswahlen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/einen-angriff-auswahlen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/registrieren-sie-eine-angriffs-domain",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/registrieren-sie-eine-angriffs-domain",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/einen-neuen-client-hinzufugen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/einen-neuen-client-hinzufugen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/angriffseinstellungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/angriffseinstellungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/awareness-einstellungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/awareness-einstellungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com",
+          "canonicalUrl": "https://wiki.lucysecurity.com/",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/legal",
+          "canonicalUrl": "https://wiki.lucysecurity.com/legal",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/legal/service-level-agreement",
+          "canonicalUrl": "https://wiki.lucysecurity.com/legal/service-level-agreement",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/uberprufung",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/uberprufung",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/legal/confidentiality-of-campaign-data",
+          "canonicalUrl": "https://wiki.lucysecurity.com/legal/confidentiality-of-campaign-data",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/contact-us",
+          "canonicalUrl": "https://wiki.lucysecurity.com/contact-us",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/awareness-training",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/awareness-training",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/legal/eula",
+          "canonicalUrl": "https://wiki.lucysecurity.com/legal/eula",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/whitelistung",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/whitelistung",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/empfanger",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/empfanger",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/notifications",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/notifications",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/navigation-bar",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/navigation-bar",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/adding-a-new-client",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/adding-a-new-client",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/register-an-attack-domain",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/register-an-attack-domain",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/users",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/users",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/account-settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/account-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/attack-simulations",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/firewall-protection-interval",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/attack-simulations/firewall-protection-interval",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/microsoft-o365-whitelisting",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/microsoft-o365-whitelisting",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/on-premise-vs.-cloud-installation",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/on-premise-vs.-cloud-installation",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/expert-mode",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/expert-mode",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/whitelisting",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/whitelisting",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/review",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/review",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/account-settings/two-factor-authentication",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/account-settings/two-factor-authentication",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/account-settings/invoices",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/account-settings/invoices",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/reporting-plugin/deploying-gmail",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/reporting-plugin/deploying-gmail",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/legal/dpa-customer-and-partner-info",
+          "canonicalUrl": "https://wiki.lucysecurity.com/legal/dpa-customer-and-partner-info",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/legal/privacy-policy",
+          "canonicalUrl": "https://wiki.lucysecurity.com/legal/privacy-policy",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/templates",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/templates",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/support/mail-manager",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/support/mail-manager",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/users/risk-score",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/users/risk-score",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/email-tracking-technologies",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/attack-simulations/email-tracking-technologies",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/awareness-training/use-extended-method-of-tracking-the-end-of-the-quiz",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/awareness-training/use-extended-method-of-tracking-the-end-of-the-quiz",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/clients/client-invoice-settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/settings/clients/client-invoice-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/support",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/support",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/review",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/review",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/reporting-plugin/deploying-outlook-native-deprecated",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/reporting-plugin/deploying-outlook-native-deprecated",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/advanced-system-settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/settings/advanced-system-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/support/manual",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/support/manual",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/logs",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/logs",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/support/reboot",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/support/reboot",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/google-workspace-whitelisting",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/google-workspace-whitelisting",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/results",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/results",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/support/status",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/support/status",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/recipients",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/recipients",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/advanced-system-settings/ssh-password",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/settings/advanced-system-settings/ssh-password",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/users/end-users/end-user-portal-overview",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/users/end-users/end-user-portal-overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/recipients",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/recipients",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/selecting-an-attack",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/selecting-an-attack",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0/docker-deployments",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0/docker-deployments",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/copy-a-website",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/attack-simulations/copy-a-website",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/dashboards",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/dashboards",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/reporting-plugin/deploying-office-365",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/reporting-plugin/deploying-office-365",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/support/status/notifications",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/support/status/notifications",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/clients/client-invoices",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/settings/clients/client-invoices",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/templates/download-templates",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/templates/download-templates",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/benchmark-sectors",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/settings/benchmark-sectors",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/architektur",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/architektur",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0/docker-bereitstellungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0/docker-bereitstellungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/on-premise-vs-cloud-installation",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/on-premise-vs-cloud-installation",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/lucy-installieren",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/lucy-installieren",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/reporting-plugin",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/reporting-plugin",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/submitted-email-settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/settings/submitted-email-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/support/system-tests/mail-spoofing-test",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/support/system-tests/mail-spoofing-test",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/optional-settings/report-configurations",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/optional-settings/report-configurations",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/templates/campaign-templates",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/templates/campaign-templates",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/awareness-settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/awareness-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/hardwareanforderungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/hardwareanforderungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/netzwerkkommunikation",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/netzwerkkommunikation",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/network-communication",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/network-communication",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/awareness-training/awareness-only-campaigns/using-awareness-groups",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/awareness-training/awareness-only-campaigns/using-awareness-groups",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns-dashboards",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns-dashboards",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/attack-simulation",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/attack-simulation",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/results/reports",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/results/reports",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/settings/awareness-settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/settings/awareness-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/templates/awareness-training-diploma",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/templates/awareness-training-diploma",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/templates/automatic-translation",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/templates/automatic-translation",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/file-browser",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/settings/file-browser",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/attack-settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/attack-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/advanced-information-gathering",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/attack-simulations/advanced-information-gathering",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/installing-lucy",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/installing-lucy",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.7.2",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.7.2",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.6.3",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.6.3",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.6.2",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.6.2",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.7.4",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.7.4",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.6.1",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.6.1",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.5.1",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.5.1",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/optional-settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/optional-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/support/system-tests/test-email",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/support/system-tests/test-email",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/awareness-education/training",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/awareness-education/training",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/optional-settings/tracking-and-anonymity",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/optional-settings/tracking-and-anonymity",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/submitted-email-settings/custom-rules-and-score-factors",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/settings/submitted-email-settings/custom-rules-and-score-factors",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/submitted-email-settings/incident-autoresponder",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/settings/submitted-email-settings/incident-autoresponder",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/submitted-email-settings/abuse-reports",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/settings/submitted-email-settings/abuse-reports",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/backup-and-restore",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/settings/backup-and-restore",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/architecture",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/architecture",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/regular-expressions-in-login-fields",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/attack-simulations/regular-expressions-in-login-fields",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/redirecting-users",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/attack-simulations/redirecting-users",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/google-workspace-whitelisting",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/google-workspace-whitelisting",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.3.4",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.3.4",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.7.6",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.7.6",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.7.5",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.7.5",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.3.6",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.3.6",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.3",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.3",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/support/system-tests",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/support/system-tests",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/ransomware-emulation",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/ransomware-emulation",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/awareness-education/end-users",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/awareness-education/end-users",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/awareness-education",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/awareness-education",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/support/status/status",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/support/status/status",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/settings/attack-settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/settings/attack-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/support/update",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/support/update",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/hardware-requirements",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/hardware-requirements",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/aura",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/aura",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.7.1",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.7.1",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.3.3",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.3.3",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/6.0.1",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/6.0.1",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.7.3",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.7.3",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.3.5",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.3.5",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/attack-simulation/sandbox-settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/attack-simulation/sandbox-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/support/status/system-monitoring",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/support/status/system-monitoring",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/starting-a-campaign",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/starting-a-campaign",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.3.2",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.3.2",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/support/system-tests/performance-test",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/support/system-tests/performance-test",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/whitelabeling",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/settings/whitelabeling",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/adaptive-phishing-programs",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/adaptive-phishing-programs",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/manage-blacklisted-domains/managing-google-safebrowsing-alerts",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/manage-blacklisted-domains/managing-google-safebrowsing-alerts",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/release-notes/5.2.1",
+          "canonicalUrl": "https://wiki.lucysecurity.com/release-notes/5.2.1",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/optional-settings/schedule/schedule-plan",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/optional-settings/schedule/schedule-plan",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/clients",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/settings/clients",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference/users/end-users",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference/users/end-users",
+          "status": "valid"
+        }
+      ],
+      "id": "4adc3021b8731e748682969f51188d8ba8197713dcea889b0640b475af1652ea"
+    },
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://wiki.lucysecurity.com/application-reference",
+      "canonicalSeedUrl": "https://wiki.lucysecurity.com/application-reference",
+      "configuration": {
+        "url": "https://wiki.lucysecurity.com/application-reference",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-09-03T10:40:35.309Z",
+      "completedAt": "2026-09-03T10:41:33.925Z",
+      "providerTotals": {
+        "discovered": 250,
+        "returned": 121,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 250,
+        "returned": 121,
+        "valid": 121,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://wiki.lucysecurity.com/application-reference",
+          "canonicalUrl": "https://wiki.lucysecurity.com/application-reference",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com",
+          "canonicalUrl": "https://wiki.lucysecurity.com/",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/register-an-attack-domain",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/register-an-attack-domain",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/adding-a-new-client",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/adding-a-new-client",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/selecting-an-attack",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/selecting-an-attack",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/attack-settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/attack-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/whitelisting",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/whitelisting",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/awareness-settings",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/awareness-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/review",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/review",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/on-premise-vs-cloud-installation",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/on-premise-vs-cloud-installation",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/recipients",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/recipients",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/architecture",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/architecture",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/network-communication",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/network-communication",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/hardware-requirements",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/hardware-requirements",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0/docker-deployments",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0/docker-deployments",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/installing-lucy",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/installing-lucy",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/microsoft-o365-whitelisting",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/microsoft-o365-whitelisting",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/attack-simulations",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/manage-blacklisted-domains/managing-google-safebrowsing-alerts",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/manage-blacklisted-domains/managing-google-safebrowsing-alerts",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0/vmware-deployments",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0/vmware-deployments",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/post-installation-setup",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/installing-lucy/post-installation-setup",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/google-workspace-whitelisting",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/google-workspace-whitelisting",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/registrieren-sie-eine-angriffs-domain",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/registrieren-sie-eine-angriffs-domain",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/einen-neuen-client-hinzufugen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/einen-neuen-client-hinzufugen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/einen-angriff-auswahlen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/einen-angriff-auswahlen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/uberprufung",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/uberprufung",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/empfanger",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/empfanger",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/awareness-einstellungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/awareness-einstellungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/angriffseinstellungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/angriffseinstellungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/whitelistung",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/whitelistung",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/file-attack-whitelisting",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/file-attack-whitelisting",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/on-premise-vs.-cloud-installation",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/on-premise-vs.-cloud-installation",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/architektur",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/architektur",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/hardwareanforderungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/hardwareanforderungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/data-entry-attack",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/data-entry-attack",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/netzwerkkommunikation",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/netzwerkkommunikation",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/hyperlink-attack",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/hyperlink-attack",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/lucy-installieren",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/lucy-installieren",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/google-workspace-whitelisting",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/google-workspace-whitelisting",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0/docker-bereitstellungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0/docker-bereitstellungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0/vmware-bereitstellungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0/vmware-bereitstellungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/gesperrte-domains-verwalten/google-safebrowsing-warnungen-verwalten",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/gesperrte-domains-verwalten/google-safebrowsing-warnungen-verwalten",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/einrichtung-nach-der-installation",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/einrichtung-nach-der-installation",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/microsoft-o365-auf-die-whitelist-setzen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/microsoft-o365-auf-die-whitelist-setzen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/guides/manage-blacklisted-domains",
+          "canonicalUrl": "https://wiki.lucysecurity.com/guides/manage-blacklisted-domains",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/whitelisting-fur-dateiangriffe",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/whitelisting-fur-dateiangriffe",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/firewall-schutzintervall",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/firewall-schutzintervall",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/dateneingabe-angriff",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/dateneingabe-angriff",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/hyperlink-angriff",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/hyperlink-angriff",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/koder",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/koder",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/ransomware-emulation",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/ransomware-emulation",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/e-mail-tracking-technologien",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/e-mail-tracking-technologien",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/benachrichtigungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/benachrichtigungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin/gmail-bereitstellen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin/gmail-bereitstellen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/gesperrte-domains-verwalten",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/gesperrte-domains-verwalten",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/erweiterte-informationsbeschaffung",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/erweiterte-informationsbeschaffung",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/eine-website-kopieren",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/eine-website-kopieren",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/smishing",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/smishing",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/e-mail-spoofing-test",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/e-mail-spoofing-test",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/datei-angriff",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/datei-angriff",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/qr-codes",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/qr-codes",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/regulare-ausdrucke-in-login-feldern",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/regulare-ausdrucke-in-login-feldern",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/benutzer-umleiten",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/benutzer-umleiten",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung/die-erweiterte-methode-zur-verfolgung-des-quizendes-verwenden",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung/die-erweiterte-methode-zur-verfolgung-des-quizendes-verwenden",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/tragbare-medien",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/tragbare-medien",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung/nur-awareness-kampagnen/verwendung-von-awareness-gruppen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung/nur-awareness-kampagnen/verwendung-von-awareness-gruppen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/expertenmodus",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/expertenmodus",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin/office-365-bereitstellen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin/office-365-bereitstellen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin/bereitstellung-von-outlook-native-veraltet",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin/bereitstellung-von-outlook-native-veraltet",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/haupteinstellungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/haupteinstellungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/uberprufung",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/uberprufung",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/test-fur-e-mail-und-webfilter",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/test-fur-e-mail-und-webfilter",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/einstellungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/einstellungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/haupteinstellungen/angriffssimulation",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/haupteinstellungen/angriffssimulation",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/optionale-einstellungen/berichtskonfigurationen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/optionale-einstellungen/berichtskonfigurationen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/einstellungen/awareness-einstellungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/einstellungen/awareness-einstellungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen-dashboards",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen-dashboards",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/ergebnisse",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/ergebnisse",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/empfanger",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/empfanger",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/optionale-einstellungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/optionale-einstellungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/technischer-malware-test",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/technischer-malware-test",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/haupteinstellungen/awareness-schulung",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/haupteinstellungen/awareness-schulung",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/optionale-einstellungen/tracking-and-anonymitat",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/optionale-einstellungen/tracking-and-anonymitat",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/benutzer",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/benutzer",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung/nur-awareness-kampagnen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung/nur-awareness-kampagnen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/vorlagen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/vorlagen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/protokolle",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/protokolle",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/einstellungen/angriffseinstellungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/einstellungen/angriffseinstellungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/adaptive-phishing-programme",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/adaptive-phishing-programme",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/aura",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/aura",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/ergebnisse/berichte",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/ergebnisse/berichte",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/technischer-malware-test/malware-toolkit-test-suite",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/technischer-malware-test/malware-toolkit-test-suite",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/einstellungen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/einstellungen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/anpassung-von-angriffsvorlagen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/anpassung-von-angriffsvorlagen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/benutzer/risiko-score",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/benutzer/risiko-score",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/vorlagen/vorlagen-herunterladen",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/vorlagen/vorlagen-herunterladen",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/vorlagen/awareness-schulungszertifikat",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/vorlagen/awareness-schulungszertifikat",
+          "status": "valid"
+        },
+        {
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/eine-kampagne-starten",
+          "canonicalUrl": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/eine-kampagne-starten",
+          "status": "valid"
+        }
+      ],
+      "id": "80c65662eaef9a03b1d0894dca02d6bc939033cbbd2863f5383f4deda2d48182"
     }
   ],
   "snapshots": [
@@ -540,7 +2302,1161 @@
         "status": "approved",
         "reasons": []
       }
+    },
+    {
+      "id": "076c13b7bd41bd44a83d0ddd3950f3c7f0d8e6b589ebb12b37d6e0b706a06ae4",
+      "filename": "documentation_2026-09-03T10:40:29.970Z.md",
+      "contentHash": "3bb92a95603d51db98ea62b440021ffad76aae44d35230ae1e7d17d1ecb326e0",
+      "sourceUrl": "https://wiki.lucysecurity.com/guides/",
+      "canonicalSourceUrl": "https://wiki.lucysecurity.com/guides",
+      "capturedAt": "2026-09-03T10:40:29.970Z",
+      "crawlRunId": "4adc3021b8731e748682969f51188d8ba8197713dcea889b0640b475af1652ea",
+      "totalPages": 250,
+      "successfulPages": 159,
+      "structure": [
+        {
+          "type": "Guides | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/"
+        },
+        {
+          "type": "Wiki-Übersicht | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de"
+        },
+        {
+          "type": "Kurzanleitungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen"
+        },
+        {
+          "type": "Anleitungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen"
+        },
+        {
+          "type": "Erstellen Sie Ihre erste Kampagne | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne"
+        },
+        {
+          "type": "Einen Angriff auswählen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/einen-angriff-auswahlen"
+        },
+        {
+          "type": "Registrieren Sie eine Angriffs-Domain | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/registrieren-sie-eine-angriffs-domain"
+        },
+        {
+          "type": "Einen neuen Client hinzufügen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/einen-neuen-client-hinzufugen"
+        },
+        {
+          "type": "Angriffseinstellungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/angriffseinstellungen"
+        },
+        {
+          "type": "Kampagnen-Setup | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup"
+        },
+        {
+          "type": "Awareness-Einstellungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/awareness-einstellungen"
+        },
+        {
+          "type": "Wiki Overview | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com"
+        },
+        {
+          "type": "Legal | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/legal"
+        },
+        {
+          "type": "Quick Guides | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides"
+        },
+        {
+          "type": "Service Level Agreement | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/legal/service-level-agreement"
+        },
+        {
+          "type": "Überprüfung | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/uberprufung"
+        },
+        {
+          "type": "Confidentiality of Campaign Data | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/legal/confidentiality-of-campaign-data"
+        },
+        {
+          "type": "Contact Us | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/contact-us"
+        },
+        {
+          "type": "Application Reference | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference"
+        },
+        {
+          "type": "Awareness Training | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/awareness-training"
+        },
+        {
+          "type": "EULA | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/legal/eula"
+        },
+        {
+          "type": "Lucy installieren | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren"
+        },
+        {
+          "type": "Whitelistung | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/whitelistung"
+        },
+        {
+          "type": "Create Your First Campaign | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign"
+        },
+        {
+          "type": "Empfänger | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/empfanger"
+        },
+        {
+          "type": "Campaigns | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns"
+        },
+        {
+          "type": "Notifications | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/notifications"
+        },
+        {
+          "type": "Installing Lucy | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy"
+        },
+        {
+          "type": "Navigation Bar | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/navigation-bar"
+        },
+        {
+          "type": "Adding a New Client | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/adding-a-new-client"
+        },
+        {
+          "type": "Register an Attack Domain | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/register-an-attack-domain"
+        },
+        {
+          "type": "Users | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/users"
+        },
+        {
+          "type": "Account Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/account-settings"
+        },
+        {
+          "type": "Attack Simulations | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations"
+        },
+        {
+          "type": "Firewall Protection Interval | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/firewall-protection-interval"
+        },
+        {
+          "type": "Whitelisting a Lucy Server | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server"
+        },
+        {
+          "type": "Microsoft O365 Whitelisting | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/microsoft-o365-whitelisting"
+        },
+        {
+          "type": "On-Premise- vs. Cloud-Installation | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/on-premise-vs.-cloud-installation"
+        },
+        {
+          "type": "Expert Mode | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/expert-mode"
+        },
+        {
+          "type": "Whitelisting | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/whitelisting"
+        },
+        {
+          "type": "Einen Lucy-Server auf die Whitelist setzen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen"
+        },
+        {
+          "type": "Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/settings"
+        },
+        {
+          "type": "Review | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/review"
+        },
+        {
+          "type": "Upgrade auf Lucy 6.0 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0"
+        },
+        {
+          "type": "Two Factor Authentication | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/account-settings/two-factor-authentication"
+        },
+        {
+          "type": "Invoices | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/account-settings/invoices"
+        },
+        {
+          "type": "Deploying Gmail | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/reporting-plugin/deploying-gmail"
+        },
+        {
+          "type": "DPA, Customer and Partner Info | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/legal/dpa-customer-and-partner-info"
+        },
+        {
+          "type": "Privacy Policy | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/legal/privacy-policy"
+        },
+        {
+          "type": "Templates | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/templates"
+        },
+        {
+          "type": "Campaign Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings"
+        },
+        {
+          "type": "Mail Manager | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/support/mail-manager"
+        },
+        {
+          "type": "Risk Score | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/users/risk-score"
+        },
+        {
+          "type": "Email Tracking Technologies | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/email-tracking-technologies"
+        },
+        {
+          "type": "Use extended method of tracking the end of the quiz | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/awareness-training/use-extended-method-of-tracking-the-end-of-the-quiz"
+        },
+        {
+          "type": "Client Invoice Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/clients/client-invoice-settings"
+        },
+        {
+          "type": "Support | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/support"
+        },
+        {
+          "type": "Review | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/review"
+        },
+        {
+          "type": "Upgrading to Lucy 6.0 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0"
+        },
+        {
+          "type": "Deploying Outlook Native (Deprecated) | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/reporting-plugin/deploying-outlook-native-deprecated"
+        },
+        {
+          "type": "Advanced System Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/advanced-system-settings"
+        },
+        {
+          "type": "Manual | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/support/manual"
+        },
+        {
+          "type": "Logs | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/logs"
+        },
+        {
+          "type": "Reboot | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/support/reboot"
+        },
+        {
+          "type": "Google Workspace Whitelisting | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/google-workspace-whitelisting"
+        },
+        {
+          "type": "Results | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/results"
+        },
+        {
+          "type": "Status | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/support/status"
+        },
+        {
+          "type": "Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/settings"
+        },
+        {
+          "type": "Recipients | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/recipients"
+        },
+        {
+          "type": "SSH Password | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/advanced-system-settings/ssh-password"
+        },
+        {
+          "type": "End User Portal Overview | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/users/end-users/end-user-portal-overview"
+        },
+        {
+          "type": "Recipients | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/recipients"
+        },
+        {
+          "type": "Selecting an Attack | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/selecting-an-attack"
+        },
+        {
+          "type": "Docker Deployments | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0/docker-deployments"
+        },
+        {
+          "type": "Copy a Website | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/copy-a-website"
+        },
+        {
+          "type": "Dashboards | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/dashboards"
+        },
+        {
+          "type": "Deploying Office 365 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/reporting-plugin/deploying-office-365"
+        },
+        {
+          "type": "Notifications | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/support/status/notifications"
+        },
+        {
+          "type": "Client Invoices | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/clients/client-invoices"
+        },
+        {
+          "type": "Download templates | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/templates/download-templates"
+        },
+        {
+          "type": "Benchmark Sectors | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/benchmark-sectors"
+        },
+        {
+          "type": "Architektur | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/architektur"
+        },
+        {
+          "type": "Docker-Bereitstellungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0/docker-bereitstellungen"
+        },
+        {
+          "type": "On-Premise vs Cloud Installation | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/on-premise-vs-cloud-installation"
+        },
+        {
+          "type": "Lucy installieren | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/lucy-installieren"
+        },
+        {
+          "type": "Reporting Plugin | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/reporting-plugin"
+        },
+        {
+          "type": "Main Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings"
+        },
+        {
+          "type": "Submitted Email Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/submitted-email-settings"
+        },
+        {
+          "type": "Mail Spoofing Test | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/support/system-tests/mail-spoofing-test"
+        },
+        {
+          "type": "Report Configurations | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/optional-settings/report-configurations"
+        },
+        {
+          "type": "Campaign Templates | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/templates/campaign-templates"
+        },
+        {
+          "type": "Awareness Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/awareness-settings"
+        },
+        {
+          "type": "Hardwareanforderungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/hardwareanforderungen"
+        },
+        {
+          "type": "Netzwerkkommunikation | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/netzwerkkommunikation"
+        },
+        {
+          "type": "Network Communication | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/network-communication"
+        },
+        {
+          "type": "Using Awareness Groups | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/awareness-training/awareness-only-campaigns/using-awareness-groups"
+        },
+        {
+          "type": "Campaigns Dashboards | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns-dashboards"
+        },
+        {
+          "type": "Attack Simulation | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/attack-simulation"
+        },
+        {
+          "type": "Reports | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/results/reports"
+        },
+        {
+          "type": "Awareness Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/settings/awareness-settings"
+        },
+        {
+          "type": "Awareness Training Diploma | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/templates/awareness-training-diploma"
+        },
+        {
+          "type": "Automatic Translation | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/templates/automatic-translation"
+        },
+        {
+          "type": "File Browser | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/file-browser"
+        },
+        {
+          "type": "Attack Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/attack-settings"
+        },
+        {
+          "type": "Advanced Information Gathering | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/advanced-information-gathering"
+        },
+        {
+          "type": "Installing Lucy | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/installing-lucy"
+        },
+        {
+          "type": "5.7.2 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.7.2"
+        },
+        {
+          "type": "5.6.3 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.6.3"
+        },
+        {
+          "type": "5.6.2 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.6.2"
+        },
+        {
+          "type": "5.7.4 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.7.4"
+        },
+        {
+          "type": "5.6.1 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.6.1"
+        },
+        {
+          "type": "5.5.1 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.5.1"
+        },
+        {
+          "type": "Optional Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/optional-settings"
+        },
+        {
+          "type": "Test Email | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/support/system-tests/test-email"
+        },
+        {
+          "type": "Training | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/awareness-education/training"
+        },
+        {
+          "type": "Tracking & Anonymity | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/optional-settings/tracking-and-anonymity"
+        },
+        {
+          "type": "Custom Rules & Score Factors | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/submitted-email-settings/custom-rules-and-score-factors"
+        },
+        {
+          "type": "Incident Autoresponder | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/submitted-email-settings/incident-autoresponder"
+        },
+        {
+          "type": "Abuse Reports | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/submitted-email-settings/abuse-reports"
+        },
+        {
+          "type": "Backup and Restore | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/backup-and-restore"
+        },
+        {
+          "type": "Architecture | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/architecture"
+        },
+        {
+          "type": "Regular Expressions in Login Fields | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/regular-expressions-in-login-fields"
+        },
+        {
+          "type": "Redirecting Users | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/redirecting-users"
+        },
+        {
+          "type": "Google Workspace-Whitelisting | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/google-workspace-whitelisting"
+        },
+        {
+          "type": "5.3.4 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.3.4"
+        },
+        {
+          "type": "5.7.6 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.7.6"
+        },
+        {
+          "type": "5.7.5 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.7.5"
+        },
+        {
+          "type": "Release Notes | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes"
+        },
+        {
+          "type": "5.3.6 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.3.6"
+        },
+        {
+          "type": "5.3 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.3"
+        },
+        {
+          "type": "System Tests | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/support/system-tests"
+        },
+        {
+          "type": "Ransomware Emulation | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/ransomware-emulation"
+        },
+        {
+          "type": "End Users | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/awareness-education/end-users"
+        },
+        {
+          "type": "Awareness Education | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/awareness-education"
+        },
+        {
+          "type": "Status | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/support/status/status"
+        },
+        {
+          "type": "Attack Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode/settings/attack-settings"
+        },
+        {
+          "type": "Update | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/support/update"
+        },
+        {
+          "type": "Hardware Requirements | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/hardware-requirements"
+        },
+        {
+          "type": "AURA | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/aura"
+        },
+        {
+          "type": "5.7.1 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.7.1"
+        },
+        {
+          "type": "5.3.3 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.3.3"
+        },
+        {
+          "type": "6.0.1 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/6.0.1"
+        },
+        {
+          "type": "5.7.3 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.7.3"
+        },
+        {
+          "type": "5.3.5 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.3.5"
+        },
+        {
+          "type": "Sandbox Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/main-settings/attack-simulation/sandbox-settings"
+        },
+        {
+          "type": "Attack Types | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types"
+        },
+        {
+          "type": "System Monitoring | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/support/status/system-monitoring"
+        },
+        {
+          "type": "Starting a Campaign | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/starting-a-campaign"
+        },
+        {
+          "type": "5.3.2 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.3.2"
+        },
+        {
+          "type": "Performance Test | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/support/system-tests/performance-test"
+        },
+        {
+          "type": "Campaign Setup | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup"
+        },
+        {
+          "type": "Whitelabeling | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/whitelabeling"
+        },
+        {
+          "type": "Adaptive Phishing Programs | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/adaptive-phishing-programs"
+        },
+        {
+          "type": "Managing Google SafeBrowsing Alerts | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/manage-blacklisted-domains/managing-google-safebrowsing-alerts"
+        },
+        {
+          "type": "5.2.1 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/release-notes/5.2.1"
+        },
+        {
+          "type": "Schedule Plan | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/campaign-settings/optional-settings/schedule/schedule-plan"
+        },
+        {
+          "type": "Wizard Mode | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/campaigns/wizard-mode"
+        },
+        {
+          "type": "Clients | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/settings/clients"
+        },
+        {
+          "type": "End Users | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference/users/end-users"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    },
+    {
+      "id": "4242f702880c3fd1cc88107dca9cc730fbfdfd52de57653a1ebb41b0c1299132",
+      "filename": "documentation_2026-09-03T10:41:33.925Z.md",
+      "contentHash": "527ffcfa0ddf91852e3b48483eb056464f80085f7e3e838bc8a32e2a65adeb52",
+      "sourceUrl": "https://wiki.lucysecurity.com/application-reference",
+      "canonicalSourceUrl": "https://wiki.lucysecurity.com/application-reference",
+      "capturedAt": "2026-09-03T10:41:33.925Z",
+      "crawlRunId": "80c65662eaef9a03b1d0894dca02d6bc939033cbbd2863f5383f4deda2d48182",
+      "totalPages": 250,
+      "successfulPages": 121,
+      "structure": [
+        {
+          "type": "Application Reference | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/application-reference"
+        },
+        {
+          "type": "Wiki Overview | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com"
+        },
+        {
+          "type": "Guides | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides"
+        },
+        {
+          "type": "Quick Guides | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides"
+        },
+        {
+          "type": "Create Your First Campaign | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign"
+        },
+        {
+          "type": "Register an Attack Domain | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/register-an-attack-domain"
+        },
+        {
+          "type": "Adding a New Client | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/adding-a-new-client"
+        },
+        {
+          "type": "Installing Lucy | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy"
+        },
+        {
+          "type": "Selecting an Attack | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/selecting-an-attack"
+        },
+        {
+          "type": "Attack Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/attack-settings"
+        },
+        {
+          "type": "Whitelisting | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/whitelisting"
+        },
+        {
+          "type": "Awareness Settings | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/awareness-settings"
+        },
+        {
+          "type": "Review | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/review"
+        },
+        {
+          "type": "On-Premise vs Cloud Installation | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/on-premise-vs-cloud-installation"
+        },
+        {
+          "type": "Campaign Setup | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup"
+        },
+        {
+          "type": "Recipients | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/quick-guides/create-your-first-campaign/campaign-setup/recipients"
+        },
+        {
+          "type": "Architecture | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/architecture"
+        },
+        {
+          "type": "Network Communication | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/network-communication"
+        },
+        {
+          "type": "Hardware Requirements | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/hardware-requirements"
+        },
+        {
+          "type": "Upgrading to Lucy 6.0 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0"
+        },
+        {
+          "type": "Docker Deployments | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0/docker-deployments"
+        },
+        {
+          "type": "Wiki-Übersicht | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de"
+        },
+        {
+          "type": "Installing Lucy | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/installing-lucy"
+        },
+        {
+          "type": "Kurzanleitungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen"
+        },
+        {
+          "type": "Anleitungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen"
+        },
+        {
+          "type": "Whitelisting a Lucy Server | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server"
+        },
+        {
+          "type": "Microsoft O365 Whitelisting | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/microsoft-o365-whitelisting"
+        },
+        {
+          "type": "Attack Simulations | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations"
+        },
+        {
+          "type": "Managing Google SafeBrowsing Alerts | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/manage-blacklisted-domains/managing-google-safebrowsing-alerts"
+        },
+        {
+          "type": "Erstellen Sie Ihre erste Kampagne | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne"
+        },
+        {
+          "type": "VMware Deployments | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/upgrading-to-lucy-6.0/vmware-deployments"
+        },
+        {
+          "type": "Post Installation Setup | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/installing-lucy/post-installation-setup"
+        },
+        {
+          "type": "Google Workspace Whitelisting | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/google-workspace-whitelisting"
+        },
+        {
+          "type": "Registrieren Sie eine Angriffs-Domain | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/registrieren-sie-eine-angriffs-domain"
+        },
+        {
+          "type": "Einen neuen Client hinzufügen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/einen-neuen-client-hinzufugen"
+        },
+        {
+          "type": "Lucy installieren | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren"
+        },
+        {
+          "type": "Einen Angriff auswählen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/einen-angriff-auswahlen"
+        },
+        {
+          "type": "Überprüfung | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/uberprufung"
+        },
+        {
+          "type": "Empfänger | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/empfanger"
+        },
+        {
+          "type": "Awareness-Einstellungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/awareness-einstellungen"
+        },
+        {
+          "type": "Angriffseinstellungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup/angriffseinstellungen"
+        },
+        {
+          "type": "Whitelistung | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/whitelistung"
+        },
+        {
+          "type": "Kampagnen-Setup | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/kurzanleitungen/erstellen-sie-ihre-erste-kampagne/kampagnen-setup"
+        },
+        {
+          "type": "File Attack Whitelisting | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/whitelisting-a-lucy-server/file-attack-whitelisting"
+        },
+        {
+          "type": "On-Premise- vs. Cloud-Installation | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/on-premise-vs.-cloud-installation"
+        },
+        {
+          "type": "Attack Types | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types"
+        },
+        {
+          "type": "Einen Lucy-Server auf die Whitelist setzen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen"
+        },
+        {
+          "type": "Architektur | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/architektur"
+        },
+        {
+          "type": "Upgrade auf Lucy 6.0 | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0"
+        },
+        {
+          "type": "Hardwareanforderungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/hardwareanforderungen"
+        },
+        {
+          "type": "Data Entry Attack | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/data-entry-attack"
+        },
+        {
+          "type": "Netzwerkkommunikation | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/netzwerkkommunikation"
+        },
+        {
+          "type": "Hyperlink Attack | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/attack-simulations/attack-types/hyperlink-attack"
+        },
+        {
+          "type": "Lucy installieren | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/lucy-installieren"
+        },
+        {
+          "type": "Google Workspace-Whitelisting | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/google-workspace-whitelisting"
+        },
+        {
+          "type": "Docker-Bereitstellungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0/docker-bereitstellungen"
+        },
+        {
+          "type": "VMware-Bereitstellungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/upgrade-auf-lucy-6.0/vmware-bereitstellungen"
+        },
+        {
+          "type": "Google SafeBrowsing-Warnungen verwalten | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/gesperrte-domains-verwalten/google-safebrowsing-warnungen-verwalten"
+        },
+        {
+          "type": "Einrichtung nach der Installation | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/lucy-installieren/einrichtung-nach-der-installation"
+        },
+        {
+          "type": "Microsoft O365 auf die Whitelist setzen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/microsoft-o365-auf-die-whitelist-setzen"
+        },
+        {
+          "type": "Angriffssimulationen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen"
+        },
+        {
+          "type": "Manage Blacklisted Domains | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/guides/manage-blacklisted-domains"
+        },
+        {
+          "type": "Whitelisting für Dateiangriffe | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/einen-lucy-server-auf-die-whitelist-setzen/whitelisting-fur-dateiangriffe"
+        },
+        {
+          "type": "Angriffstypen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen"
+        },
+        {
+          "type": "Firewall-Schutzintervall | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/firewall-schutzintervall"
+        },
+        {
+          "type": "Awareness-Schulung | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung"
+        },
+        {
+          "type": "Dateneingabe-Angriff | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/dateneingabe-angriff"
+        },
+        {
+          "type": "Hyperlink-Angriff | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/hyperlink-angriff"
+        },
+        {
+          "type": "Köder | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/koder"
+        },
+        {
+          "type": "Ransomware-Emulation | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/ransomware-emulation"
+        },
+        {
+          "type": "Anwendungsreferenz | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz"
+        },
+        {
+          "type": "E-Mail-Tracking-Technologien | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/e-mail-tracking-technologien"
+        },
+        {
+          "type": "Benachrichtigungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/benachrichtigungen"
+        },
+        {
+          "type": "Gmail bereitstellen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin/gmail-bereitstellen"
+        },
+        {
+          "type": "Gesperrte Domains verwalten | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/gesperrte-domains-verwalten"
+        },
+        {
+          "type": "Erweiterte Informationsbeschaffung | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/erweiterte-informationsbeschaffung"
+        },
+        {
+          "type": "Eine Website kopieren | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/eine-website-kopieren"
+        },
+        {
+          "type": "Smishing | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/smishing"
+        },
+        {
+          "type": "E-Mail-Spoofing-Test | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/e-mail-spoofing-test"
+        },
+        {
+          "type": "Kampagnen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen"
+        },
+        {
+          "type": "Datei-Angriff | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/datei-angriff"
+        },
+        {
+          "type": "QR-Codes | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/qr-codes"
+        },
+        {
+          "type": "Reguläre Ausdrücke in Login-Feldern | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/regulare-ausdrucke-in-login-feldern"
+        },
+        {
+          "type": "Benutzer umleiten | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/benutzer-umleiten"
+        },
+        {
+          "type": "Die erweiterte Methode zur Verfolgung des Quizendes verwenden | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung/die-erweiterte-methode-zur-verfolgung-des-quizendes-verwenden"
+        },
+        {
+          "type": "Tragbare Medien | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/tragbare-medien"
+        },
+        {
+          "type": "Verwendung von Awareness-Gruppen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung/nur-awareness-kampagnen/verwendung-von-awareness-gruppen"
+        },
+        {
+          "type": "Expertenmodus | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/expertenmodus"
+        },
+        {
+          "type": "Reporting-Plugin | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin"
+        },
+        {
+          "type": "Office 365 bereitstellen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin/office-365-bereitstellen"
+        },
+        {
+          "type": "Bereitstellung von Outlook Native (veraltet) | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/reporting-plugin/bereitstellung-von-outlook-native-veraltet"
+        },
+        {
+          "type": "Haupteinstellungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/haupteinstellungen"
+        },
+        {
+          "type": "Überprüfung | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/uberprufung"
+        },
+        {
+          "type": "Kampagneneinstellungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen"
+        },
+        {
+          "type": "Test für E-Mail- und Webfilter | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/test-fur-e-mail-und-webfilter"
+        },
+        {
+          "type": "Einstellungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/einstellungen"
+        },
+        {
+          "type": "Angriffssimulation | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/haupteinstellungen/angriffssimulation"
+        },
+        {
+          "type": "Berichtskonfigurationen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/optionale-einstellungen/berichtskonfigurationen"
+        },
+        {
+          "type": "Awareness-Einstellungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/einstellungen/awareness-einstellungen"
+        },
+        {
+          "type": "Kampagnen-Dashboards | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen-dashboards"
+        },
+        {
+          "type": "Ergebnisse | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/ergebnisse"
+        },
+        {
+          "type": "Empfänger | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/empfanger"
+        },
+        {
+          "type": "Optionale Einstellungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/optionale-einstellungen"
+        },
+        {
+          "type": "Technischer Malware-Test | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/technischer-malware-test"
+        },
+        {
+          "type": "Awareness-Schulung | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/haupteinstellungen/awareness-schulung"
+        },
+        {
+          "type": "Tracking & Anonymität | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/optionale-einstellungen/tracking-and-anonymitat"
+        },
+        {
+          "type": "Benutzer | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/benutzer"
+        },
+        {
+          "type": "Nur-Awareness-Kampagnen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/awareness-schulung/nur-awareness-kampagnen"
+        },
+        {
+          "type": "Vorlagen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/vorlagen"
+        },
+        {
+          "type": "Protokolle | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/protokolle"
+        },
+        {
+          "type": "Angriffseinstellungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/assistentenmodus/einstellungen/angriffseinstellungen"
+        },
+        {
+          "type": "Adaptive Phishing-Programme | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/adaptive-phishing-programme"
+        },
+        {
+          "type": "AURA | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/aura"
+        },
+        {
+          "type": "Berichte | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/ergebnisse/berichte"
+        },
+        {
+          "type": "Malware-Toolkit-Test-Suite | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/angriffstypen/technischer-malware-test/malware-toolkit-test-suite"
+        },
+        {
+          "type": "Einstellungen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/einstellungen"
+        },
+        {
+          "type": "Anpassung von Angriffsvorlagen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anleitungen/angriffssimulationen/anpassung-von-angriffsvorlagen"
+        },
+        {
+          "type": "Risiko-Score | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/benutzer/risiko-score"
+        },
+        {
+          "type": "Vorlagen herunterladen | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/vorlagen/vorlagen-herunterladen"
+        },
+        {
+          "type": "Awareness-Schulungszertifikat | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/vorlagen/awareness-schulungszertifikat"
+        },
+        {
+          "type": "Eine Kampagne starten | Lucy Awareness",
+          "url": "https://wiki.lucysecurity.com/lucy-wiki-de/anwendungsreferenz/kampagnen/kampagneneinstellungen/eine-kampagne-starten"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
     }
   ],
-  "currentSnapshotId": "0a7caf355776352b5bba123d3e1d50844de057178a8706d400690bb967314da7"
+  "currentSnapshotId": "4242f702880c3fd1cc88107dca9cc730fbfdfd52de57653a1ebb41b0c1299132"
 }
