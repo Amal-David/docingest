@@ -1,0 +1,127 @@
+{
+  "url": "https://expertdocs.snorkel-ai.com/geranium-production-1",
+  "domain": "expertdocs.snorkel-ai.com",
+  "lastScraped": "2026-09-05T16:08:19.461Z",
+  "totalPages": 3,
+  "successfulPages": 2,
+  "failedPages": [
+    "https://expertdocs.snorkel-ai.com/u/signup/identifier?state=hKFo2SBGNzNlUURUWEhOdkZLbEZPZTdvNmF5aHNvcDFtSmZTU6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDZHbHpVeFk3NHY5b01Ld0pCWFpXenN3dXB2azI1Q2NBo2NpZNkgZlF4cU1ObUJwbWQzeDl2OXR4OERVWmlpMGkxaG9QTm8 (provider-page-not-submitted-to-save)"
+  ],
+  "structure": [
+    {
+      "type": "Log in | Snorkel Web App",
+      "url": "https://expertdocs.snorkel-ai.com/geranium-production-1"
+    },
+    {
+      "type": "Log in | Snorkel Web App",
+      "url": "https://expertdocs.snorkel-ai.com/u/signup/identifier?state=hKFo2SBGNzNlUURUWEhOdkZLbEZPZTdvNmF5aHNvcDFtSmZTU6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDZHbHpVeFk3NHY5b01Ld0pCWFpXenN3dXB2azI1Q2NBo2NpZNkgZlF4cU1ObUJwbWQzeDl2OXR4OERVWmlpMGkxaG9QTm8"
+    }
+  ],
+  "latestVersion": "d0525958169ef7619b80d7d69bed4f882dd3991dc8819544fb750c60cc817374",
+  "versions": [
+    {
+      "version": "d0525958169ef7619b80d7d69bed4f882dd3991dc8819544fb750c60cc817374",
+      "label": "latest",
+      "timestamp": "2026-09-05T16:08:19.461Z",
+      "filename": "documentation_2026-09-05T16:08:19.461Z.md",
+      "totalPages": 3,
+      "successfulPages": 2,
+      "url": "https://expertdocs.snorkel-ai.com/geranium-production-1",
+      "snapshotId": "d0525958169ef7619b80d7d69bed4f882dd3991dc8819544fb750c60cc817374",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://expertdocs.snorkel-ai.com/geranium-production-1",
+      "canonicalSeedUrl": "https://expertdocs.snorkel-ai.com/geranium-production-1",
+      "configuration": {
+        "url": "https://expertdocs.snorkel-ai.com/geranium-production-1",
+        "limit": 250,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-09-05T16:08:08.303Z",
+      "completedAt": "2026-09-05T16:08:19.461Z",
+      "providerTotals": {
+        "discovered": 3,
+        "returned": 3,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 3,
+        "returned": 3,
+        "valid": 2,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 1,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://expertdocs.snorkel-ai.com/geranium-production-1",
+          "canonicalUrl": "https://expertdocs.snorkel-ai.com/geranium-production-1",
+          "status": "valid"
+        },
+        {
+          "url": "https://expertdocs.snorkel-ai.com/u/signup/identifier?state=hKFo2SBGNzNlUURUWEhOdkZLbEZPZTdvNmF5aHNvcDFtSmZTU6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDZHbHpVeFk3NHY5b01Ld0pCWFpXenN3dXB2azI1Q2NBo2NpZNkgZlF4cU1ObUJwbWQzeDl2OXR4OERVWmlpMGkxaG9QTm8",
+          "canonicalUrl": "https://expertdocs.snorkel-ai.com/u/signup/identifier",
+          "status": "rejected",
+          "reason": "provider-page-not-submitted-to-save"
+        },
+        {
+          "url": "https://expertdocs.snorkel-ai.com/u/signup/identifier?state=hKFo2SBGNzNlUURUWEhOdkZLbEZPZTdvNmF5aHNvcDFtSmZTU6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDZHbHpVeFk3NHY5b01Ld0pCWFpXenN3dXB2azI1Q2NBo2NpZNkgZlF4cU1ObUJwbWQzeDl2OXR4OERVWmlpMGkxaG9QTm8",
+          "status": "valid",
+          "canonicalUrl": "https://expertdocs.snorkel-ai.com/u/signup/identifier?state=hKFo2SBGNzNlUURUWEhOdkZLbEZPZTdvNmF5aHNvcDFtSmZTU6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDZHbHpVeFk3NHY5b01Ld0pCWFpXenN3dXB2azI1Q2NBo2NpZNkgZlF4cU1ObUJwbWQzeDl2OXR4OERVWmlpMGkxaG9QTm8"
+        }
+      ],
+      "id": "8d2d49170a19b6fe5a21c617e2bf470b61888828b07169f75f04f93b7489f29c"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "d0525958169ef7619b80d7d69bed4f882dd3991dc8819544fb750c60cc817374",
+      "filename": "documentation_2026-09-05T16:08:19.461Z.md",
+      "contentHash": "14f9729aa20e1907c246c5de7be4fb02cace33ea90736506b69ae2875f958a76",
+      "sourceUrl": "https://expertdocs.snorkel-ai.com/geranium-production-1",
+      "canonicalSourceUrl": "https://expertdocs.snorkel-ai.com/geranium-production-1",
+      "capturedAt": "2026-09-05T16:08:19.461Z",
+      "crawlRunId": "8d2d49170a19b6fe5a21c617e2bf470b61888828b07169f75f04f93b7489f29c",
+      "totalPages": 3,
+      "successfulPages": 2,
+      "structure": [
+        {
+          "type": "Log in | Snorkel Web App",
+          "url": "https://expertdocs.snorkel-ai.com/geranium-production-1"
+        },
+        {
+          "type": "Log in | Snorkel Web App",
+          "url": "https://expertdocs.snorkel-ai.com/u/signup/identifier?state=hKFo2SBGNzNlUURUWEhOdkZLbEZPZTdvNmF5aHNvcDFtSmZTU6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDZHbHpVeFk3NHY5b01Ld0pCWFpXenN3dXB2azI1Q2NBo2NpZNkgZlF4cU1ObUJwbWQzeDl2OXR4OERVWmlpMGkxaG9QTm8"
+        }
+      ],
+      "quality": {
+        "status": "unknown",
+        "reasons": [
+          "no-accepted-page-met-automatic-approval"
+        ]
+      }
+    }
+  ]
+}

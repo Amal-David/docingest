@@ -1,0 +1,420 @@
+{
+  "url": "https://docs.headroomlabs.ai/docs",
+  "domain": "docs.headroomlabs.ai",
+  "lastScraped": "2026-09-05T15:49:23.623Z",
+  "totalPages": 25,
+  "successfulPages": 25,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Introduction | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs"
+    },
+    {
+      "type": "Agent Orchestration | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/agent-orchestration"
+    },
+    {
+      "type": "Agno | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/agno"
+    },
+    {
+      "type": "Anthropic SDK | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/anthropic-sdk"
+    },
+    {
+      "type": "API Reference | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/api-reference"
+    },
+    {
+      "type": "AutoGen | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/autogen"
+    },
+    {
+      "type": "Architecture | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/architecture"
+    },
+    {
+      "type": "Benchmarks | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/benchmarks"
+    },
+    {
+      "type": "Reversible Compression (CCR) | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/ccr"
+    },
+    {
+      "type": "Cache Optimization | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/cache-optimization"
+    },
+    {
+      "type": "CI/CD Flow Diagrams | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/ci-cd-flows"
+    },
+    {
+      "type": "Claude Code on Azure AI Foundry | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/claude-code-azure-foundry"
+    },
+    {
+      "type": "Claude Code on Vertex AI | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/claude-code-vertex"
+    },
+    {
+      "type": "Code Compression | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/code-compression"
+    },
+    {
+      "type": "Recover Codex State | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/codex-recovery"
+    },
+    {
+      "type": "Configuration | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/configuration"
+    },
+    {
+      "type": "Context Management | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/context-management"
+    },
+    {
+      "type": "CrewAI | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/crewai"
+    },
+    {
+      "type": "Docker-Native Install | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/docker-install"
+    },
+    {
+      "type": "Failure Learning | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/failure-learning"
+    },
+    {
+      "type": "Error Handling | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/errors"
+    },
+    {
+      "type": "Image Compression | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/image-compression"
+    },
+    {
+      "type": "How Compression Works | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/how-compression-works"
+    },
+    {
+      "type": "Filesystem Contract | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/filesystem-contract"
+    },
+    {
+      "type": "Grok Build Integration | Headroom",
+      "url": "https://docs.headroomlabs.ai/docs/grok-build"
+    }
+  ],
+  "latestVersion": "06608a87a9c67a9e7226fbc7ae95e642c431cf65a69f96e0e6136ab38cd0db60",
+  "versions": [
+    {
+      "version": "06608a87a9c67a9e7226fbc7ae95e642c431cf65a69f96e0e6136ab38cd0db60",
+      "label": "latest",
+      "timestamp": "2026-09-05T15:49:23.623Z",
+      "filename": "documentation_2026-09-05T15:49:23.623Z.md",
+      "totalPages": 25,
+      "successfulPages": 25,
+      "url": "https://docs.headroomlabs.ai/docs",
+      "snapshotId": "06608a87a9c67a9e7226fbc7ae95e642c431cf65a69f96e0e6136ab38cd0db60",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://docs.headroomlabs.ai/docs",
+      "canonicalSeedUrl": "https://docs.headroomlabs.ai/docs",
+      "configuration": {
+        "url": "https://docs.headroomlabs.ai/docs",
+        "limit": 1000,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "includePaths": [
+          "/docs/*"
+        ],
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-09-05T15:48:20.932Z",
+      "completedAt": "2026-09-05T15:49:23.623Z",
+      "providerTotals": {
+        "discovered": 25,
+        "returned": 25,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 25,
+        "returned": 25,
+        "valid": 25,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.headroomlabs.ai/docs",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/agent-orchestration",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/agent-orchestration",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/agno",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/agno",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/anthropic-sdk",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/anthropic-sdk",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/api-reference",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/api-reference",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/autogen",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/autogen",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/architecture",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/architecture",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/benchmarks",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/benchmarks",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/ccr",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/ccr",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/cache-optimization",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/cache-optimization",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/ci-cd-flows",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/ci-cd-flows",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/claude-code-azure-foundry",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/claude-code-azure-foundry",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/claude-code-vertex",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/claude-code-vertex",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/code-compression",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/code-compression",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/codex-recovery",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/codex-recovery",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/configuration",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/configuration",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/context-management",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/context-management",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/crewai",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/crewai",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/docker-install",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/docker-install",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/failure-learning",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/failure-learning",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/errors",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/errors",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/image-compression",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/image-compression",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/how-compression-works",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/how-compression-works",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/filesystem-contract",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/filesystem-contract",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.headroomlabs.ai/docs/grok-build",
+          "canonicalUrl": "https://docs.headroomlabs.ai/docs/grok-build",
+          "status": "valid"
+        }
+      ],
+      "id": "d2cce838e0e54661ce74ddaae828a37283c508231f1842a69263d0bbe6154c9a"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "06608a87a9c67a9e7226fbc7ae95e642c431cf65a69f96e0e6136ab38cd0db60",
+      "filename": "documentation_2026-09-05T15:49:23.623Z.md",
+      "contentHash": "851bcd51c5c903a91c13c5f6128890bb0d56715da28cab324caf4e472959f4ad",
+      "sourceUrl": "https://docs.headroomlabs.ai/docs",
+      "canonicalSourceUrl": "https://docs.headroomlabs.ai/docs",
+      "capturedAt": "2026-09-05T15:49:23.623Z",
+      "crawlRunId": "d2cce838e0e54661ce74ddaae828a37283c508231f1842a69263d0bbe6154c9a",
+      "totalPages": 25,
+      "successfulPages": 25,
+      "structure": [
+        {
+          "type": "Introduction | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs"
+        },
+        {
+          "type": "Agent Orchestration | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/agent-orchestration"
+        },
+        {
+          "type": "Agno | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/agno"
+        },
+        {
+          "type": "Anthropic SDK | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/anthropic-sdk"
+        },
+        {
+          "type": "API Reference | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/api-reference"
+        },
+        {
+          "type": "AutoGen | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/autogen"
+        },
+        {
+          "type": "Architecture | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/architecture"
+        },
+        {
+          "type": "Benchmarks | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/benchmarks"
+        },
+        {
+          "type": "Reversible Compression (CCR) | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/ccr"
+        },
+        {
+          "type": "Cache Optimization | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/cache-optimization"
+        },
+        {
+          "type": "CI/CD Flow Diagrams | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/ci-cd-flows"
+        },
+        {
+          "type": "Claude Code on Azure AI Foundry | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/claude-code-azure-foundry"
+        },
+        {
+          "type": "Claude Code on Vertex AI | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/claude-code-vertex"
+        },
+        {
+          "type": "Code Compression | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/code-compression"
+        },
+        {
+          "type": "Recover Codex State | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/codex-recovery"
+        },
+        {
+          "type": "Configuration | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/configuration"
+        },
+        {
+          "type": "Context Management | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/context-management"
+        },
+        {
+          "type": "CrewAI | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/crewai"
+        },
+        {
+          "type": "Docker-Native Install | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/docker-install"
+        },
+        {
+          "type": "Failure Learning | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/failure-learning"
+        },
+        {
+          "type": "Error Handling | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/errors"
+        },
+        {
+          "type": "Image Compression | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/image-compression"
+        },
+        {
+          "type": "How Compression Works | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/how-compression-works"
+        },
+        {
+          "type": "Filesystem Contract | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/filesystem-contract"
+        },
+        {
+          "type": "Grok Build Integration | Headroom",
+          "url": "https://docs.headroomlabs.ai/docs/grok-build"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "06608a87a9c67a9e7226fbc7ae95e642c431cf65a69f96e0e6136ab38cd0db60"
+}
