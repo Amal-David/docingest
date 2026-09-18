@@ -1,0 +1,105 @@
+{
+  "url": "https://docs.satflow.com/reference/overview",
+  "domain": "docs.satflow.com",
+  "lastScraped": "2026-09-17T10:48:29.229Z",
+  "totalPages": 1,
+  "successfulPages": 1,
+  "failedPages": [],
+  "structure": [
+    {
+      "type": "Overview",
+      "url": "https://docs.satflow.com/reference/overview"
+    }
+  ],
+  "latestVersion": "1e4b6dff26ee30a870df4c8f50e138e57a4b035410787ad1db09eae33dcb6b7c",
+  "versions": [
+    {
+      "version": "1e4b6dff26ee30a870df4c8f50e138e57a4b035410787ad1db09eae33dcb6b7c",
+      "label": "latest",
+      "timestamp": "2026-09-17T10:48:29.229Z",
+      "filename": "documentation_2026-09-17T10:48:29.229Z.md",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "url": "https://docs.satflow.com/reference/overview",
+      "snapshotId": "1e4b6dff26ee30a870df4c8f50e138e57a4b035410787ad1db09eae33dcb6b7c",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://docs.satflow.com/reference/overview",
+      "canonicalSeedUrl": "https://docs.satflow.com/reference/overview",
+      "configuration": {
+        "url": "https://docs.satflow.com/reference/overview",
+        "limit": 1000,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-09-17T10:46:38.570Z",
+      "completedAt": "2026-09-17T10:48:29.229Z",
+      "providerTotals": {
+        "discovered": 1,
+        "returned": 1,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 1,
+        "returned": 1,
+        "valid": 1,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 0,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.satflow.com/reference/overview",
+          "canonicalUrl": "https://docs.satflow.com/reference/overview",
+          "status": "valid"
+        }
+      ],
+      "id": "21ef61c86e79fb97e5fc0f7753e360f90fbae3482b4ade178c5a2908e4c25ddd"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "1e4b6dff26ee30a870df4c8f50e138e57a4b035410787ad1db09eae33dcb6b7c",
+      "filename": "documentation_2026-09-17T10:48:29.229Z.md",
+      "contentHash": "9dd5ad6cc3adc63c618d5d22bc08d0648b91d7a031a7f9c8cd688df27e8d4e55",
+      "sourceUrl": "https://docs.satflow.com/reference/overview",
+      "canonicalSourceUrl": "https://docs.satflow.com/reference/overview",
+      "capturedAt": "2026-09-17T10:48:29.229Z",
+      "crawlRunId": "21ef61c86e79fb97e5fc0f7753e360f90fbae3482b4ade178c5a2908e4c25ddd",
+      "totalPages": 1,
+      "successfulPages": 1,
+      "structure": [
+        {
+          "type": "Overview",
+          "url": "https://docs.satflow.com/reference/overview"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    }
+  ],
+  "currentSnapshotId": "1e4b6dff26ee30a870df4c8f50e138e57a4b035410787ad1db09eae33dcb6b7c"
+}
