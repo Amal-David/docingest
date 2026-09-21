@@ -1,0 +1,3048 @@
+{
+  "url": "https://docs.opensea.io/reference/api-overview",
+  "domain": "docs.opensea.io",
+  "lastScraped": "2026-09-20T11:29:00.783Z",
+  "totalPages": 242,
+  "successfulPages": 137,
+  "failedPages": [
+    "https://docs.opensea.io/reference/create_instant_api_key (error-page-content)",
+    "https://docs.opensea.io/reference/get_account (error-page-content)",
+    "https://docs.opensea.io/reference/get_nft (error-page-content)",
+    "https://docs.opensea.io/reference/get_chains (error-page-content)",
+    "https://docs.opensea.io/reference/resolve_account (error-page-content)",
+    "https://docs.opensea.io/reference/get_portfolio_stats (error-page-content)",
+    "https://docs.opensea.io/reference/get_collection (error-page-content)",
+    "https://docs.opensea.io/reference/clear_profile_nft_pfp (error-page-content)",
+    "https://docs.opensea.io/reference/get_collections_batch (error-page-content)",
+    "https://docs.opensea.io/reference/set_collection_visibility (error-page-content)",
+    "https://docs.opensea.io/reference/get_contract (error-page-content)",
+    "https://docs.opensea.io/reference/generate_cross_chain_listing_fulfillment_data (error-page-content)",
+    "https://docs.opensea.io/reference/get_tokens_batch (error-page-content)",
+    "https://docs.opensea.io/reference/get_best_listing_nft (error-page-content)",
+    "https://docs.opensea.io/reference/save_drop_item_media (error-page-content)",
+    "https://docs.opensea.io/reference/get_account_followers (error-page-content)",
+    "https://docs.opensea.io/reference/make_wallet_public (error-page-content)",
+    "https://docs.opensea.io/reference/list_own_agent_relationships (error-page-content)",
+    "https://docs.opensea.io/reference/get_agent_profile_relationships (error-page-content)",
+    "https://docs.opensea.io/reference/declare_agent_account (error-page-content)",
+    "https://docs.opensea.io/reference/get_collection_holders (error-page-content)",
+    "https://docs.opensea.io/reference/get_nft_collection (error-page-content)",
+    "https://docs.opensea.io/reference/propose_agent_relationship (error-page-content)",
+    "https://docs.opensea.io/reference/list_collections (error-page-content)",
+    "https://docs.opensea.io/reference/revoke_agent_relationship (error-page-content)",
+    "https://docs.opensea.io/reference/get_collection_traits (error-page-content)",
+    "https://docs.opensea.io/reference/validate_nft_metadata (error-page-content)",
+    "https://docs.opensea.io/reference/get_trending_collections (error-page-content)",
+    "https://docs.opensea.io/reference/get_collection_offer_aggregates (error-page-content)",
+    "https://docs.opensea.io/reference/get_nfts_by_account (error-page-content)",
+    "https://docs.opensea.io/reference/get_nft_metadata (error-page-content)",
+    "https://docs.opensea.io/reference/get_nfts_by_collection (error-page-content)",
+    "https://docs.opensea.io/reference/get_nft_owners (error-page-content)",
+    "https://docs.opensea.io/reference/refresh_nft_metadata (error-page-content)",
+    "https://docs.opensea.io/reference/set_profile_nft_pfp (error-page-content)",
+    "https://docs.opensea.io/reference/get_token_price_history (error-page-content)",
+    "https://docs.opensea.io/reference/get_trending_tokens (error-page-content)",
+    "https://docs.opensea.io/reference/get_tool_activity (error-page-content)",
+    "https://docs.opensea.io/reference/get_drop_by_slug (error-page-content)",
+    "https://docs.opensea.io/reference/report_tool_usage (error-page-content)",
+    "https://docs.opensea.io/reference/get_token_activity (error-page-content)",
+    "https://docs.opensea.io/reference/get_token_holders (error-page-content)",
+    "https://docs.opensea.io/reference/get_order (error-page-content)",
+    "https://docs.opensea.io/reference/build_offer_v2 (error-page-content)",
+    "https://docs.opensea.io/reference/get_swap_quote (error-page-content)",
+    "https://docs.opensea.io/reference/get_deploy_contract_receipt (error-page-content)",
+    "https://docs.opensea.io/reference/make_wallet_private (error-page-content)",
+    "https://docs.opensea.io/reference/get_token_groups (error-page-content)",
+    "https://docs.opensea.io/reference/withdraw_agent_account_declaration (error-page-content)",
+    "https://docs.opensea.io/reference/get_top_collections (error-page-content)",
+    "https://docs.opensea.io/reference/get_collection_floor_prices (error-page-content)",
+    "https://docs.opensea.io/reference/get_nfts_by_contract (error-page-content)",
+    "https://docs.opensea.io/reference/get_token_ohlcv (error-page-content)",
+    "https://docs.opensea.io/reference/get_token_balances_by_account (error-page-content)",
+    "https://docs.opensea.io/reference/get_nft_analytics (error-page-content)",
+    "https://docs.opensea.io/reference/modify_collection (error-page-content)",
+    "https://docs.opensea.io/reference/list_listings_collection_all (error-page-content)",
+    "https://docs.opensea.io/reference/unsave_tool (error-page-content)",
+    "https://docs.opensea.io/reference/sweep_collection (error-page-content)",
+    "https://docs.opensea.io/reference/get_token_liquidity_pools (error-page-content)",
+    "https://docs.opensea.io/reference/get_tool (error-page-content)",
+    "https://docs.opensea.io/reference/get_transaction_receipt (error-page-content)",
+    "https://docs.opensea.io/reference/transfer_assets (error-page-content)",
+    "https://docs.opensea.io/reference/build_drop_mint_transaction (error-page-content)",
+    "https://docs.opensea.io/reference/generate_listing_fulfillment_data_v2 (error-page-content)",
+    "https://docs.opensea.io/reference/get_account_token_activity (error-page-content)",
+    "https://docs.opensea.io/reference/list_tools (error-page-content)",
+    "https://docs.opensea.io/reference/cancel_order (error-page-content)",
+    "https://docs.opensea.io/reference/validate_drop_allowlist (error-page-content)",
+    "https://docs.opensea.io/reference/create_listing_actions (error-page-content)",
+    "https://docs.opensea.io/reference/deploy_drop_contract (error-page-content)",
+    "https://docs.opensea.io/reference/update_collection_metadata (error-page-content)",
+    "https://docs.opensea.io/reference/get_drop_eligibility (error-page-content)",
+    "https://docs.opensea.io/reference/search_tools (error-page-content)",
+    "https://docs.opensea.io/reference/upload_drop_allowlist (error-page-content)",
+    "https://docs.opensea.io/reference/get_token_group (error-page-content)",
+    "https://docs.opensea.io/reference/get_offers_collection (error-page-content)",
+    "https://docs.opensea.io/reference/create_offer_fulfillment_actions (error-page-content)",
+    "https://docs.opensea.io/reference/save_prereveal_drop_item (error-page-content)",
+    "https://docs.opensea.io/reference/upload_drop_item_media (error-page-content)",
+    "https://docs.opensea.io/reference/get_best_listings_collection (error-page-content)",
+    "https://docs.opensea.io/reference/save_self_mint_drop_item (error-page-content)",
+    "https://docs.opensea.io/reference/post_criteria_offer_v2 (error-page-content)",
+    "https://docs.opensea.io/reference/update_self_mint_drop_item (error-page-content)",
+    "https://docs.opensea.io/reference/list_saved_tools (error-page-content)",
+    "https://docs.opensea.io/reference/get_token (error-page-content)",
+    "https://docs.opensea.io/reference/save_tool (error-page-content)",
+    "https://docs.opensea.io/reference/upload_collection_image (error-page-content)",
+    "https://docs.opensea.io/reference/generate_offer_fulfillment_data_v2 (error-page-content)",
+    "https://docs.opensea.io/reference/update_drop_item (error-page-content)",
+    "https://docs.opensea.io/reference/get_top_tokens (error-page-content)",
+    "https://docs.opensea.io/reference/get_drops (error-page-content)",
+    "https://docs.opensea.io/reference/get_best_offer_nft (error-page-content)",
+    "https://docs.opensea.io/reference/get_offers_collection_trait (error-page-content)",
+    "https://docs.opensea.io/reference/save_drop_edits (error-page-content)",
+    "https://docs.opensea.io/reference/get_offers_nft (error-page-content)",
+    "https://docs.opensea.io/reference/get_nfts_batch (error-page-content)",
+    "https://docs.opensea.io/reference/get_payment_token (error-page-content)",
+    "https://docs.opensea.io/reference/get_collection_trait_floors (error-page-content)",
+    "https://docs.opensea.io/reference/search (error-page-content)",
+    "https://docs.opensea.io/reference/create_listing_fulfillment_actions (error-page-content)",
+    "https://docs.opensea.io/reference/post_swap_execute (error-page-content)",
+    "https://docs.opensea.io/reference/create_cancel_order_actions (error-page-content)",
+    "https://docs.opensea.io/reference/get_token_activity_stats (error-page-content)",
+    "https://docs.opensea.io/reference/create_offer_actions (error-page-content)"
+  ],
+  "structure": [
+    {
+      "type": "OpenSea Developer Documentation",
+      "url": "https://docs.opensea.io/"
+    },
+    {
+      "type": "Overview",
+      "url": "https://docs.opensea.io/reference/api-overview"
+    },
+    {
+      "type": "Overview",
+      "url": "https://docs.opensea.io/reference"
+    },
+    {
+      "type": "Announcements",
+      "url": "https://docs.opensea.io/changelog"
+    },
+    {
+      "type": "API keys",
+      "url": "https://docs.opensea.io/reference/api-keys"
+    },
+    {
+      "type": "Authentication",
+      "url": "https://docs.opensea.io/reference/auth"
+    },
+    {
+      "type": "LLMs and agent discovery",
+      "url": "https://docs.opensea.io/reference/llms-agent-discovery"
+    },
+    {
+      "type": "Overview",
+      "url": "https://docs.opensea.io/reference/sdks-overview"
+    },
+    {
+      "type": "NFT basics",
+      "url": "https://docs.opensea.io/docs"
+    },
+    {
+      "type": "Data and discovery",
+      "url": "https://docs.opensea.io/reference/data-and-discovery"
+    },
+    {
+      "type": "Create an item offer",
+      "url": "https://docs.opensea.io/reference/post_offer"
+    },
+    {
+      "type": "Exchange a scoped token for an access token",
+      "url": "https://docs.opensea.io/reference/exchange_scoped_token"
+    },
+    {
+      "type": "Deploy an NFT contract",
+      "url": "https://docs.opensea.io/docs/deploy-an-nft-contract"
+    },
+    {
+      "type": "Buy and sell NFTs",
+      "url": "https://docs.opensea.io/docs/buy-and-sell-nfts"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/stream-js"
+    },
+    {
+      "type": "Seaport",
+      "url": "https://docs.opensea.io/docs/seaport"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/confirm_agent_relationship"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/part-3-upload-metadata"
+    },
+    {
+      "type": "Marketplace and trading",
+      "url": "https://docs.opensea.io/reference/marketplace-and-trading"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/deploying-a-seadrop-compatible-contract"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/search-and-discovery"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/part-5-publish-your-drop"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/part-4-edit-drop-settings"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/creator-fee-enforcement"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/part-5-customize-drop-page"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/agent-tool-registry"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/transfer-and-manage-nfts"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/data-and-events"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/query-analytics-and-events"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/set-up-an-onchain-agent"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/marketplace-trading"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/agent-accounts"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/drops-faq"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/collection-offers-and-advanced-trading"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/mint-from-a-drop"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/offer-leverage"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/opensea-fees"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/media-and-traits"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/tool-manifest"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/seaport-events-and-errors"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_account_perpetual_watchlist"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/update_profile_shelf"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/list_offers_collection_all"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/remove_watchlist_entry"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/unwatch_account"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/follow_account"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_account_relationship"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/seadrop"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/create-a-drop"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_profile_shelves"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_wallet_closed_positions"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_profile_favorites"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/update_profile_settings"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/upload_profile_image"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/reorder_profile_shelves"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/create_profile_shelf"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/add_watchlist_entry"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/delete_profile_shelf"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/unlink_wallet"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/link_wallet_with_siwx"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/chain-endpoints"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/seaport"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_wallet_token_transfers"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/claim_profile_username"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/post_listing"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_profile_offers_received"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_profile_offers"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/display-an-nft"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_profile_collections"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_profile_listings"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/stream-real-time-events"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_wallet_pnl"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/build-with-ai-agents"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/build_cross_chain_drop_mint_transactions"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_collection_stats"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/list_events"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/list_events_by_collection"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/list_events_by_account"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/list_events_by_nft"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/opensea-sdk"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/stream-api"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/opensea-cli"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/mcp"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/agent-skill"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/logos"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/changelog/wallet-authentication-for-rest-and-mcp"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/changelog/new-api-endpoints"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/opensea-js"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/changelog/removing-deprecated-rest-api-endpoints-and-response-fields"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/changelog/opensea-fee-update"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/changelog/ronin-opensea-marketplace-fee-update"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/changelog/api-changes"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/changelog/new-offchain-cancel-order-api-and-list-collections-order-by-option"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/changelog/seaport-v1-6"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/changelog/12222023-updates"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/changelog/12122023-updates"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/part-2-set-up-shipyard"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/part-1-setup"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/part-1-simple-website-setup"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/part-2-fetch-an-nft-from-opensea"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/drops"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/part-1-deploy-a-smart-contract"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/watch_account"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/seaport-models"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/seaport-conduit-controller"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/seadrop"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/badges"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/seaport-hooks"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/auth-endpoints"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/account-endpoints"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/swap-tokens"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/analytics-and-events"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/nft-basics"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_portfolio_history"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/part-3-add-metadata-to-your-contract"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/part-2-edit-collection-settings"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/metadata-standards"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/x402"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/metadata-storage"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/locked-and-staked-nfts"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/contract-level-metadata"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/seaport-interface"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/seaport-enums"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_account_following"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/get_account_token_watchlist"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/unfollow_account"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/docs/updating-metadata"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/listing-endpoints"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/contract-endpoints"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/order-endpoints"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/token-endpoints"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/nft-endpoints"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/tool-endpoints-beta"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/offer-endpoints"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/drops-endpoints"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/swap-endpoints"
+    },
+    {
+      "type": "You’ve been rate limited",
+      "url": "https://docs.opensea.io/reference/search-endpoints"
+    }
+  ],
+  "latestVersion": "589c61956553a0f2f2cfc5a924dc702853aeac53905fcd1375afa3a1dc6ba146",
+  "versions": [
+    {
+      "version": "589c61956553a0f2f2cfc5a924dc702853aeac53905fcd1375afa3a1dc6ba146",
+      "label": "latest",
+      "timestamp": "2026-09-20T11:29:00.783Z",
+      "filename": "documentation_2026-09-20T11:29:00.783Z.md",
+      "totalPages": 242,
+      "successfulPages": 137,
+      "url": "https://docs.opensea.io/reference/api-overview",
+      "snapshotId": "589c61956553a0f2f2cfc5a924dc702853aeac53905fcd1375afa3a1dc6ba146",
+      "isLatest": true
+    }
+  ],
+  "schemaVersion": 3,
+  "crawlRuns": [
+    {
+      "provider": "firecrawl",
+      "seedUrl": "https://docs.opensea.io/reference/api-overview",
+      "canonicalSeedUrl": "https://docs.opensea.io/reference/api-overview",
+      "configuration": {
+        "url": "https://docs.opensea.io/reference/api-overview",
+        "limit": 1000,
+        "maxDepth": 5,
+        "allowBackwardLinks": true,
+        "ignoreQueryParameters": true,
+        "scrapeOptions": {
+          "formats": [
+            "markdown",
+            "html"
+          ],
+          "onlyMainContent": true,
+          "removeBase64Images": true,
+          "blockAds": true,
+          "timeout": 60000,
+          "waitFor": 2000,
+          "maxAge": 3600000
+        }
+      },
+      "startedAt": "2026-09-20T11:27:14.769Z",
+      "completedAt": "2026-09-20T11:29:00.783Z",
+      "providerTotals": {
+        "discovered": 242,
+        "returned": 242,
+        "discoveredIsExact": true
+      },
+      "totals": {
+        "discovered": 242,
+        "returned": 242,
+        "valid": 137,
+        "needs-review": 0,
+        "blocked": 0,
+        "empty": 0,
+        "duplicate": 0,
+        "rejected": 105,
+        "failed": 0
+      },
+      "outcomes": [
+        {
+          "url": "https://docs.opensea.io/",
+          "canonicalUrl": "https://docs.opensea.io/",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/api-overview",
+          "canonicalUrl": "https://docs.opensea.io/reference/api-overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference",
+          "canonicalUrl": "https://docs.opensea.io/reference",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/changelog",
+          "canonicalUrl": "https://docs.opensea.io/changelog",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/api-keys",
+          "canonicalUrl": "https://docs.opensea.io/reference/api-keys",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/auth",
+          "canonicalUrl": "https://docs.opensea.io/reference/auth",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/llms-agent-discovery",
+          "canonicalUrl": "https://docs.opensea.io/reference/llms-agent-discovery",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/sdks-overview",
+          "canonicalUrl": "https://docs.opensea.io/reference/sdks-overview",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs",
+          "canonicalUrl": "https://docs.opensea.io/docs",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/data-and-discovery",
+          "canonicalUrl": "https://docs.opensea.io/reference/data-and-discovery",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/create_instant_api_key",
+          "canonicalUrl": "https://docs.opensea.io/reference/create_instant_api_key",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/post_offer",
+          "canonicalUrl": "https://docs.opensea.io/reference/post_offer",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_account",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_account",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/exchange_scoped_token",
+          "canonicalUrl": "https://docs.opensea.io/reference/exchange_scoped_token",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_nft",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_nft",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/deploy-an-nft-contract",
+          "canonicalUrl": "https://docs.opensea.io/docs/deploy-an-nft-contract",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_chains",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_chains",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/buy-and-sell-nfts",
+          "canonicalUrl": "https://docs.opensea.io/docs/buy-and-sell-nfts",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/stream-js",
+          "canonicalUrl": "https://docs.opensea.io/reference/stream-js",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/seaport",
+          "canonicalUrl": "https://docs.opensea.io/docs/seaport",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/resolve_account",
+          "canonicalUrl": "https://docs.opensea.io/reference/resolve_account",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_portfolio_stats",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_portfolio_stats",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/confirm_agent_relationship",
+          "canonicalUrl": "https://docs.opensea.io/reference/confirm_agent_relationship",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/part-3-upload-metadata",
+          "canonicalUrl": "https://docs.opensea.io/docs/part-3-upload-metadata",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/marketplace-and-trading",
+          "canonicalUrl": "https://docs.opensea.io/reference/marketplace-and-trading",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/deploying-a-seadrop-compatible-contract",
+          "canonicalUrl": "https://docs.opensea.io/docs/deploying-a-seadrop-compatible-contract",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_collection",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_collection",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/clear_profile_nft_pfp",
+          "canonicalUrl": "https://docs.opensea.io/reference/clear_profile_nft_pfp",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_collections_batch",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_collections_batch",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/set_collection_visibility",
+          "canonicalUrl": "https://docs.opensea.io/reference/set_collection_visibility",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_contract",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_contract",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/generate_cross_chain_listing_fulfillment_data",
+          "canonicalUrl": "https://docs.opensea.io/reference/generate_cross_chain_listing_fulfillment_data",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_tokens_batch",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_tokens_batch",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_best_listing_nft",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_best_listing_nft",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/save_drop_item_media",
+          "canonicalUrl": "https://docs.opensea.io/reference/save_drop_item_media",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_account_followers",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_account_followers",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/search-and-discovery",
+          "canonicalUrl": "https://docs.opensea.io/docs/search-and-discovery",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/part-5-publish-your-drop",
+          "canonicalUrl": "https://docs.opensea.io/docs/part-5-publish-your-drop",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/part-4-edit-drop-settings",
+          "canonicalUrl": "https://docs.opensea.io/docs/part-4-edit-drop-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/creator-fee-enforcement",
+          "canonicalUrl": "https://docs.opensea.io/docs/creator-fee-enforcement",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/part-5-customize-drop-page",
+          "canonicalUrl": "https://docs.opensea.io/docs/part-5-customize-drop-page",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/agent-tool-registry",
+          "canonicalUrl": "https://docs.opensea.io/docs/agent-tool-registry",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/transfer-and-manage-nfts",
+          "canonicalUrl": "https://docs.opensea.io/docs/transfer-and-manage-nfts",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/data-and-events",
+          "canonicalUrl": "https://docs.opensea.io/docs/data-and-events",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/query-analytics-and-events",
+          "canonicalUrl": "https://docs.opensea.io/docs/query-analytics-and-events",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/set-up-an-onchain-agent",
+          "canonicalUrl": "https://docs.opensea.io/docs/set-up-an-onchain-agent",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/marketplace-trading",
+          "canonicalUrl": "https://docs.opensea.io/docs/marketplace-trading",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/agent-accounts",
+          "canonicalUrl": "https://docs.opensea.io/docs/agent-accounts",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/drops-faq",
+          "canonicalUrl": "https://docs.opensea.io/docs/drops-faq",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/collection-offers-and-advanced-trading",
+          "canonicalUrl": "https://docs.opensea.io/docs/collection-offers-and-advanced-trading",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/mint-from-a-drop",
+          "canonicalUrl": "https://docs.opensea.io/docs/mint-from-a-drop",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/offer-leverage",
+          "canonicalUrl": "https://docs.opensea.io/docs/offer-leverage",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/opensea-fees",
+          "canonicalUrl": "https://docs.opensea.io/docs/opensea-fees",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/make_wallet_public",
+          "canonicalUrl": "https://docs.opensea.io/reference/make_wallet_public",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/list_own_agent_relationships",
+          "canonicalUrl": "https://docs.opensea.io/reference/list_own_agent_relationships",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_agent_profile_relationships",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_agent_profile_relationships",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/declare_agent_account",
+          "canonicalUrl": "https://docs.opensea.io/reference/declare_agent_account",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_collection_holders",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_collection_holders",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_nft_collection",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_nft_collection",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/propose_agent_relationship",
+          "canonicalUrl": "https://docs.opensea.io/reference/propose_agent_relationship",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/list_collections",
+          "canonicalUrl": "https://docs.opensea.io/reference/list_collections",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/revoke_agent_relationship",
+          "canonicalUrl": "https://docs.opensea.io/reference/revoke_agent_relationship",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_collection_traits",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_collection_traits",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/validate_nft_metadata",
+          "canonicalUrl": "https://docs.opensea.io/reference/validate_nft_metadata",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_trending_collections",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_trending_collections",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_collection_offer_aggregates",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_collection_offer_aggregates",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_nfts_by_account",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_nfts_by_account",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_nft_metadata",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_nft_metadata",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_nfts_by_collection",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_nfts_by_collection",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_nft_owners",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_nft_owners",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/refresh_nft_metadata",
+          "canonicalUrl": "https://docs.opensea.io/reference/refresh_nft_metadata",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/set_profile_nft_pfp",
+          "canonicalUrl": "https://docs.opensea.io/reference/set_profile_nft_pfp",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_token_price_history",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_token_price_history",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_trending_tokens",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_trending_tokens",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_tool_activity",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_tool_activity",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_drop_by_slug",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_drop_by_slug",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/report_tool_usage",
+          "canonicalUrl": "https://docs.opensea.io/reference/report_tool_usage",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_token_activity",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_token_activity",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_token_holders",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_token_holders",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_order",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_order",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/build_offer_v2",
+          "canonicalUrl": "https://docs.opensea.io/reference/build_offer_v2",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_swap_quote",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_swap_quote",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_deploy_contract_receipt",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_deploy_contract_receipt",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/make_wallet_private",
+          "canonicalUrl": "https://docs.opensea.io/reference/make_wallet_private",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_token_groups",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_token_groups",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/withdraw_agent_account_declaration",
+          "canonicalUrl": "https://docs.opensea.io/reference/withdraw_agent_account_declaration",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_top_collections",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_top_collections",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_collection_floor_prices",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_collection_floor_prices",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_nfts_by_contract",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_nfts_by_contract",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_token_ohlcv",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_token_ohlcv",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_token_balances_by_account",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_token_balances_by_account",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_nft_analytics",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_nft_analytics",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/modify_collection",
+          "canonicalUrl": "https://docs.opensea.io/reference/modify_collection",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/list_listings_collection_all",
+          "canonicalUrl": "https://docs.opensea.io/reference/list_listings_collection_all",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/unsave_tool",
+          "canonicalUrl": "https://docs.opensea.io/reference/unsave_tool",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/sweep_collection",
+          "canonicalUrl": "https://docs.opensea.io/reference/sweep_collection",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_token_liquidity_pools",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_token_liquidity_pools",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_tool",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_tool",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_transaction_receipt",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_transaction_receipt",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/transfer_assets",
+          "canonicalUrl": "https://docs.opensea.io/reference/transfer_assets",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/build_drop_mint_transaction",
+          "canonicalUrl": "https://docs.opensea.io/reference/build_drop_mint_transaction",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/generate_listing_fulfillment_data_v2",
+          "canonicalUrl": "https://docs.opensea.io/reference/generate_listing_fulfillment_data_v2",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_account_token_activity",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_account_token_activity",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/list_tools",
+          "canonicalUrl": "https://docs.opensea.io/reference/list_tools",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/cancel_order",
+          "canonicalUrl": "https://docs.opensea.io/reference/cancel_order",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/validate_drop_allowlist",
+          "canonicalUrl": "https://docs.opensea.io/reference/validate_drop_allowlist",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/create_listing_actions",
+          "canonicalUrl": "https://docs.opensea.io/reference/create_listing_actions",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/deploy_drop_contract",
+          "canonicalUrl": "https://docs.opensea.io/reference/deploy_drop_contract",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/update_collection_metadata",
+          "canonicalUrl": "https://docs.opensea.io/reference/update_collection_metadata",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/media-and-traits",
+          "canonicalUrl": "https://docs.opensea.io/docs/media-and-traits",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/tool-manifest",
+          "canonicalUrl": "https://docs.opensea.io/docs/tool-manifest",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_drop_eligibility",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_drop_eligibility",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/search_tools",
+          "canonicalUrl": "https://docs.opensea.io/reference/search_tools",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/upload_drop_allowlist",
+          "canonicalUrl": "https://docs.opensea.io/reference/upload_drop_allowlist",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_token_group",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_token_group",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_offers_collection",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_offers_collection",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/create_offer_fulfillment_actions",
+          "canonicalUrl": "https://docs.opensea.io/reference/create_offer_fulfillment_actions",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/save_prereveal_drop_item",
+          "canonicalUrl": "https://docs.opensea.io/reference/save_prereveal_drop_item",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/upload_drop_item_media",
+          "canonicalUrl": "https://docs.opensea.io/reference/upload_drop_item_media",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_best_listings_collection",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_best_listings_collection",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/save_self_mint_drop_item",
+          "canonicalUrl": "https://docs.opensea.io/reference/save_self_mint_drop_item",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/post_criteria_offer_v2",
+          "canonicalUrl": "https://docs.opensea.io/reference/post_criteria_offer_v2",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/update_self_mint_drop_item",
+          "canonicalUrl": "https://docs.opensea.io/reference/update_self_mint_drop_item",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/list_saved_tools",
+          "canonicalUrl": "https://docs.opensea.io/reference/list_saved_tools",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_token",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_token",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/save_tool",
+          "canonicalUrl": "https://docs.opensea.io/reference/save_tool",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/upload_collection_image",
+          "canonicalUrl": "https://docs.opensea.io/reference/upload_collection_image",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/generate_offer_fulfillment_data_v2",
+          "canonicalUrl": "https://docs.opensea.io/reference/generate_offer_fulfillment_data_v2",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/update_drop_item",
+          "canonicalUrl": "https://docs.opensea.io/reference/update_drop_item",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_top_tokens",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_top_tokens",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_drops",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_drops",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_best_offer_nft",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_best_offer_nft",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_offers_collection_trait",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_offers_collection_trait",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/save_drop_edits",
+          "canonicalUrl": "https://docs.opensea.io/reference/save_drop_edits",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_offers_nft",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_offers_nft",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_nfts_batch",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_nfts_batch",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_payment_token",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_payment_token",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_collection_trait_floors",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_collection_trait_floors",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/search",
+          "canonicalUrl": "https://docs.opensea.io/reference/search",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/create_listing_fulfillment_actions",
+          "canonicalUrl": "https://docs.opensea.io/reference/create_listing_fulfillment_actions",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/post_swap_execute",
+          "canonicalUrl": "https://docs.opensea.io/reference/post_swap_execute",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/create_cancel_order_actions",
+          "canonicalUrl": "https://docs.opensea.io/reference/create_cancel_order_actions",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_token_activity_stats",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_token_activity_stats",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/create_offer_actions",
+          "canonicalUrl": "https://docs.opensea.io/reference/create_offer_actions",
+          "status": "rejected",
+          "reason": "error-page-content"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/seaport-events-and-errors",
+          "canonicalUrl": "https://docs.opensea.io/docs/seaport-events-and-errors",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_account_perpetual_watchlist",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_account_perpetual_watchlist",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/update_profile_shelf",
+          "canonicalUrl": "https://docs.opensea.io/reference/update_profile_shelf",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/list_offers_collection_all",
+          "canonicalUrl": "https://docs.opensea.io/reference/list_offers_collection_all",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/remove_watchlist_entry",
+          "canonicalUrl": "https://docs.opensea.io/reference/remove_watchlist_entry",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/unwatch_account",
+          "canonicalUrl": "https://docs.opensea.io/reference/unwatch_account",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/follow_account",
+          "canonicalUrl": "https://docs.opensea.io/reference/follow_account",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_account_relationship",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_account_relationship",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/seadrop",
+          "canonicalUrl": "https://docs.opensea.io/reference/seadrop",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/create-a-drop",
+          "canonicalUrl": "https://docs.opensea.io/docs/create-a-drop",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_profile_shelves",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_profile_shelves",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_wallet_closed_positions",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_wallet_closed_positions",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_profile_favorites",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_profile_favorites",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/update_profile_settings",
+          "canonicalUrl": "https://docs.opensea.io/reference/update_profile_settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/upload_profile_image",
+          "canonicalUrl": "https://docs.opensea.io/reference/upload_profile_image",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/reorder_profile_shelves",
+          "canonicalUrl": "https://docs.opensea.io/reference/reorder_profile_shelves",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/create_profile_shelf",
+          "canonicalUrl": "https://docs.opensea.io/reference/create_profile_shelf",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/add_watchlist_entry",
+          "canonicalUrl": "https://docs.opensea.io/reference/add_watchlist_entry",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/delete_profile_shelf",
+          "canonicalUrl": "https://docs.opensea.io/reference/delete_profile_shelf",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/unlink_wallet",
+          "canonicalUrl": "https://docs.opensea.io/reference/unlink_wallet",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/link_wallet_with_siwx",
+          "canonicalUrl": "https://docs.opensea.io/reference/link_wallet_with_siwx",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/chain-endpoints",
+          "canonicalUrl": "https://docs.opensea.io/reference/chain-endpoints",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/seaport",
+          "canonicalUrl": "https://docs.opensea.io/reference/seaport",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_wallet_token_transfers",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_wallet_token_transfers",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/claim_profile_username",
+          "canonicalUrl": "https://docs.opensea.io/reference/claim_profile_username",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/post_listing",
+          "canonicalUrl": "https://docs.opensea.io/reference/post_listing",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_profile_offers_received",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_profile_offers_received",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_profile_offers",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_profile_offers",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/display-an-nft",
+          "canonicalUrl": "https://docs.opensea.io/docs/display-an-nft",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_profile_collections",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_profile_collections",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_profile_listings",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_profile_listings",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/stream-real-time-events",
+          "canonicalUrl": "https://docs.opensea.io/docs/stream-real-time-events",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_wallet_pnl",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_wallet_pnl",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/build-with-ai-agents",
+          "canonicalUrl": "https://docs.opensea.io/docs/build-with-ai-agents",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/build_cross_chain_drop_mint_transactions",
+          "canonicalUrl": "https://docs.opensea.io/reference/build_cross_chain_drop_mint_transactions",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_collection_stats",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_collection_stats",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/list_events",
+          "canonicalUrl": "https://docs.opensea.io/reference/list_events",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/list_events_by_collection",
+          "canonicalUrl": "https://docs.opensea.io/reference/list_events_by_collection",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/list_events_by_account",
+          "canonicalUrl": "https://docs.opensea.io/reference/list_events_by_account",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/list_events_by_nft",
+          "canonicalUrl": "https://docs.opensea.io/reference/list_events_by_nft",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/opensea-sdk",
+          "canonicalUrl": "https://docs.opensea.io/reference/opensea-sdk",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/stream-api",
+          "canonicalUrl": "https://docs.opensea.io/reference/stream-api",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/opensea-cli",
+          "canonicalUrl": "https://docs.opensea.io/reference/opensea-cli",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/mcp",
+          "canonicalUrl": "https://docs.opensea.io/reference/mcp",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/agent-skill",
+          "canonicalUrl": "https://docs.opensea.io/reference/agent-skill",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/logos",
+          "canonicalUrl": "https://docs.opensea.io/docs/logos",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/changelog/wallet-authentication-for-rest-and-mcp",
+          "canonicalUrl": "https://docs.opensea.io/changelog/wallet-authentication-for-rest-and-mcp",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/changelog/new-api-endpoints",
+          "canonicalUrl": "https://docs.opensea.io/changelog/new-api-endpoints",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/opensea-js",
+          "canonicalUrl": "https://docs.opensea.io/reference/opensea-js",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/changelog/removing-deprecated-rest-api-endpoints-and-response-fields",
+          "canonicalUrl": "https://docs.opensea.io/changelog/removing-deprecated-rest-api-endpoints-and-response-fields",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/changelog/opensea-fee-update",
+          "canonicalUrl": "https://docs.opensea.io/changelog/opensea-fee-update",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/changelog/ronin-opensea-marketplace-fee-update",
+          "canonicalUrl": "https://docs.opensea.io/changelog/ronin-opensea-marketplace-fee-update",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/changelog/api-changes",
+          "canonicalUrl": "https://docs.opensea.io/changelog/api-changes",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/changelog/new-offchain-cancel-order-api-and-list-collections-order-by-option",
+          "canonicalUrl": "https://docs.opensea.io/changelog/new-offchain-cancel-order-api-and-list-collections-order-by-option",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/changelog/seaport-v1-6",
+          "canonicalUrl": "https://docs.opensea.io/changelog/seaport-v1-6",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/changelog/12222023-updates",
+          "canonicalUrl": "https://docs.opensea.io/changelog/12222023-updates",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/changelog/12122023-updates",
+          "canonicalUrl": "https://docs.opensea.io/changelog/12122023-updates",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/part-2-set-up-shipyard",
+          "canonicalUrl": "https://docs.opensea.io/docs/part-2-set-up-shipyard",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/part-1-setup",
+          "canonicalUrl": "https://docs.opensea.io/docs/part-1-setup",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/part-1-simple-website-setup",
+          "canonicalUrl": "https://docs.opensea.io/docs/part-1-simple-website-setup",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/part-2-fetch-an-nft-from-opensea",
+          "canonicalUrl": "https://docs.opensea.io/docs/part-2-fetch-an-nft-from-opensea",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/drops",
+          "canonicalUrl": "https://docs.opensea.io/docs/drops",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/part-1-deploy-a-smart-contract",
+          "canonicalUrl": "https://docs.opensea.io/docs/part-1-deploy-a-smart-contract",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/watch_account",
+          "canonicalUrl": "https://docs.opensea.io/reference/watch_account",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/seaport-models",
+          "canonicalUrl": "https://docs.opensea.io/docs/seaport-models",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/seaport-conduit-controller",
+          "canonicalUrl": "https://docs.opensea.io/docs/seaport-conduit-controller",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/seadrop",
+          "canonicalUrl": "https://docs.opensea.io/docs/seadrop",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/badges",
+          "canonicalUrl": "https://docs.opensea.io/docs/badges",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/seaport-hooks",
+          "canonicalUrl": "https://docs.opensea.io/docs/seaport-hooks",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/auth-endpoints",
+          "canonicalUrl": "https://docs.opensea.io/reference/auth-endpoints",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/account-endpoints",
+          "canonicalUrl": "https://docs.opensea.io/reference/account-endpoints",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/swap-tokens",
+          "canonicalUrl": "https://docs.opensea.io/docs/swap-tokens",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/analytics-and-events",
+          "canonicalUrl": "https://docs.opensea.io/reference/analytics-and-events",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/nft-basics",
+          "canonicalUrl": "https://docs.opensea.io/docs/nft-basics",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_portfolio_history",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_portfolio_history",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/part-3-add-metadata-to-your-contract",
+          "canonicalUrl": "https://docs.opensea.io/docs/part-3-add-metadata-to-your-contract",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/part-2-edit-collection-settings",
+          "canonicalUrl": "https://docs.opensea.io/docs/part-2-edit-collection-settings",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/metadata-standards",
+          "canonicalUrl": "https://docs.opensea.io/docs/metadata-standards",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/x402",
+          "canonicalUrl": "https://docs.opensea.io/docs/x402",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/metadata-storage",
+          "canonicalUrl": "https://docs.opensea.io/docs/metadata-storage",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/locked-and-staked-nfts",
+          "canonicalUrl": "https://docs.opensea.io/docs/locked-and-staked-nfts",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/contract-level-metadata",
+          "canonicalUrl": "https://docs.opensea.io/docs/contract-level-metadata",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/seaport-interface",
+          "canonicalUrl": "https://docs.opensea.io/docs/seaport-interface",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/seaport-enums",
+          "canonicalUrl": "https://docs.opensea.io/docs/seaport-enums",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_account_following",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_account_following",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/get_account_token_watchlist",
+          "canonicalUrl": "https://docs.opensea.io/reference/get_account_token_watchlist",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/unfollow_account",
+          "canonicalUrl": "https://docs.opensea.io/reference/unfollow_account",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/docs/updating-metadata",
+          "canonicalUrl": "https://docs.opensea.io/docs/updating-metadata",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/listing-endpoints",
+          "canonicalUrl": "https://docs.opensea.io/reference/listing-endpoints",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/contract-endpoints",
+          "canonicalUrl": "https://docs.opensea.io/reference/contract-endpoints",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/order-endpoints",
+          "canonicalUrl": "https://docs.opensea.io/reference/order-endpoints",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/token-endpoints",
+          "canonicalUrl": "https://docs.opensea.io/reference/token-endpoints",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/nft-endpoints",
+          "canonicalUrl": "https://docs.opensea.io/reference/nft-endpoints",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/tool-endpoints-beta",
+          "canonicalUrl": "https://docs.opensea.io/reference/tool-endpoints-beta",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/offer-endpoints",
+          "canonicalUrl": "https://docs.opensea.io/reference/offer-endpoints",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/drops-endpoints",
+          "canonicalUrl": "https://docs.opensea.io/reference/drops-endpoints",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/swap-endpoints",
+          "canonicalUrl": "https://docs.opensea.io/reference/swap-endpoints",
+          "status": "valid"
+        },
+        {
+          "url": "https://docs.opensea.io/reference/search-endpoints",
+          "canonicalUrl": "https://docs.opensea.io/reference/search-endpoints",
+          "status": "valid"
+        }
+      ],
+      "id": "5ebd3b5851e0a40f0ecfc05834a5c83a617367b7722cc64cfc83ed38fddddeb8"
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "589c61956553a0f2f2cfc5a924dc702853aeac53905fcd1375afa3a1dc6ba146",
+      "filename": "documentation_2026-09-20T11:29:00.783Z.md",
+      "contentHash": "e7ab967538ee2ac52ec385a82cee49169e630a0e25218f75611136b73b65eaf7",
+      "sourceUrl": "https://docs.opensea.io/reference/api-overview",
+      "canonicalSourceUrl": "https://docs.opensea.io/reference/api-overview",
+      "capturedAt": "2026-09-20T11:29:00.783Z",
+      "crawlRunId": "5ebd3b5851e0a40f0ecfc05834a5c83a617367b7722cc64cfc83ed38fddddeb8",
+      "totalPages": 242,
+      "successfulPages": 137,
+      "structure": [
+        {
+          "type": "OpenSea Developer Documentation",
+          "url": "https://docs.opensea.io/"
+        },
+        {
+          "type": "Overview",
+          "url": "https://docs.opensea.io/reference/api-overview"
+        },
+        {
+          "type": "Overview",
+          "url": "https://docs.opensea.io/reference"
+        },
+        {
+          "type": "Announcements",
+          "url": "https://docs.opensea.io/changelog"
+        },
+        {
+          "type": "API keys",
+          "url": "https://docs.opensea.io/reference/api-keys"
+        },
+        {
+          "type": "Authentication",
+          "url": "https://docs.opensea.io/reference/auth"
+        },
+        {
+          "type": "LLMs and agent discovery",
+          "url": "https://docs.opensea.io/reference/llms-agent-discovery"
+        },
+        {
+          "type": "Overview",
+          "url": "https://docs.opensea.io/reference/sdks-overview"
+        },
+        {
+          "type": "NFT basics",
+          "url": "https://docs.opensea.io/docs"
+        },
+        {
+          "type": "Data and discovery",
+          "url": "https://docs.opensea.io/reference/data-and-discovery"
+        },
+        {
+          "type": "Create an item offer",
+          "url": "https://docs.opensea.io/reference/post_offer"
+        },
+        {
+          "type": "Exchange a scoped token for an access token",
+          "url": "https://docs.opensea.io/reference/exchange_scoped_token"
+        },
+        {
+          "type": "Deploy an NFT contract",
+          "url": "https://docs.opensea.io/docs/deploy-an-nft-contract"
+        },
+        {
+          "type": "Buy and sell NFTs",
+          "url": "https://docs.opensea.io/docs/buy-and-sell-nfts"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/stream-js"
+        },
+        {
+          "type": "Seaport",
+          "url": "https://docs.opensea.io/docs/seaport"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/confirm_agent_relationship"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/part-3-upload-metadata"
+        },
+        {
+          "type": "Marketplace and trading",
+          "url": "https://docs.opensea.io/reference/marketplace-and-trading"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/deploying-a-seadrop-compatible-contract"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/search-and-discovery"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/part-5-publish-your-drop"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/part-4-edit-drop-settings"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/creator-fee-enforcement"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/part-5-customize-drop-page"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/agent-tool-registry"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/transfer-and-manage-nfts"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/data-and-events"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/query-analytics-and-events"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/set-up-an-onchain-agent"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/marketplace-trading"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/agent-accounts"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/drops-faq"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/collection-offers-and-advanced-trading"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/mint-from-a-drop"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/offer-leverage"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/opensea-fees"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/media-and-traits"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/tool-manifest"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/seaport-events-and-errors"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_account_perpetual_watchlist"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/update_profile_shelf"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/list_offers_collection_all"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/remove_watchlist_entry"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/unwatch_account"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/follow_account"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_account_relationship"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/seadrop"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/create-a-drop"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_profile_shelves"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_wallet_closed_positions"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_profile_favorites"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/update_profile_settings"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/upload_profile_image"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/reorder_profile_shelves"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/create_profile_shelf"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/add_watchlist_entry"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/delete_profile_shelf"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/unlink_wallet"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/link_wallet_with_siwx"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/chain-endpoints"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/seaport"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_wallet_token_transfers"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/claim_profile_username"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/post_listing"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_profile_offers_received"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_profile_offers"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/display-an-nft"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_profile_collections"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_profile_listings"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/stream-real-time-events"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_wallet_pnl"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/build-with-ai-agents"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/build_cross_chain_drop_mint_transactions"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_collection_stats"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/list_events"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/list_events_by_collection"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/list_events_by_account"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/list_events_by_nft"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/opensea-sdk"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/stream-api"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/opensea-cli"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/mcp"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/agent-skill"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/logos"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/changelog/wallet-authentication-for-rest-and-mcp"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/changelog/new-api-endpoints"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/opensea-js"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/changelog/removing-deprecated-rest-api-endpoints-and-response-fields"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/changelog/opensea-fee-update"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/changelog/ronin-opensea-marketplace-fee-update"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/changelog/api-changes"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/changelog/new-offchain-cancel-order-api-and-list-collections-order-by-option"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/changelog/seaport-v1-6"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/changelog/12222023-updates"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/changelog/12122023-updates"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/part-2-set-up-shipyard"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/part-1-setup"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/part-1-simple-website-setup"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/part-2-fetch-an-nft-from-opensea"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/drops"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/part-1-deploy-a-smart-contract"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/watch_account"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/seaport-models"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/seaport-conduit-controller"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/seadrop"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/badges"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/seaport-hooks"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/auth-endpoints"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/account-endpoints"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/swap-tokens"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/analytics-and-events"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/nft-basics"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_portfolio_history"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/part-3-add-metadata-to-your-contract"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/part-2-edit-collection-settings"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/metadata-standards"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/x402"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/metadata-storage"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/locked-and-staked-nfts"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/contract-level-metadata"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/seaport-interface"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/seaport-enums"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_account_following"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/get_account_token_watchlist"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/unfollow_account"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/docs/updating-metadata"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/listing-endpoints"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/contract-endpoints"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/order-endpoints"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/token-endpoints"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/nft-endpoints"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/tool-endpoints-beta"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/offer-endpoints"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/drops-endpoints"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/swap-endpoints"
+        },
+        {
+          "type": "You’ve been rate limited",
+          "url": "https://docs.opensea.io/reference/search-endpoints"
+        }
+      ],
+      "quality": {
+        "status": "approved",
+        "reasons": []
+      }
+    },
+    {
+      "id": "3cf16cd3c6b69a72b22c7f9f8de3003f22490707827997512b6b12d1069615ac",
+      "filename": "evidence_2026-09-20T11:29:00.783Z.md",
+      "contentHash": "41f0f87061c3403aa165c93536cabf4818613070d892c333d1294f3dae5cbf64",
+      "sourceUrl": "https://docs.opensea.io/reference/api-overview",
+      "canonicalSourceUrl": "https://docs.opensea.io/reference/api-overview",
+      "capturedAt": "2026-09-20T11:29:00.783Z",
+      "crawlRunId": "5ebd3b5851e0a40f0ecfc05834a5c83a617367b7722cc64cfc83ed38fddddeb8",
+      "totalPages": 105,
+      "successfulPages": 0,
+      "structure": [
+        {
+          "type": "Create an instant API key",
+          "url": "https://docs.opensea.io/reference/create_instant_api_key"
+        },
+        {
+          "type": "Get an OpenSea account profile",
+          "url": "https://docs.opensea.io/reference/get_account"
+        },
+        {
+          "type": "Get NFT",
+          "url": "https://docs.opensea.io/reference/get_nft"
+        },
+        {
+          "type": "Get supported chains",
+          "url": "https://docs.opensea.io/reference/get_chains"
+        },
+        {
+          "type": "Resolve an account identifier",
+          "url": "https://docs.opensea.io/reference/resolve_account"
+        },
+        {
+          "type": "Get portfolio stats for an account",
+          "url": "https://docs.opensea.io/reference/get_portfolio_stats"
+        },
+        {
+          "type": "Get a single collection",
+          "url": "https://docs.opensea.io/reference/get_collection"
+        },
+        {
+          "type": "Clear NFT profile picture",
+          "url": "https://docs.opensea.io/reference/clear_profile_nft_pfp"
+        },
+        {
+          "type": "Get collections by slugs",
+          "url": "https://docs.opensea.io/reference/get_collections_batch"
+        },
+        {
+          "type": "Set collection visibility",
+          "url": "https://docs.opensea.io/reference/set_collection_visibility"
+        },
+        {
+          "type": "Get contract",
+          "url": "https://docs.opensea.io/reference/get_contract"
+        },
+        {
+          "type": "Fulfill a listing using a different token",
+          "url": "https://docs.opensea.io/reference/generate_cross_chain_listing_fulfillment_data"
+        },
+        {
+          "type": "Get tokens by contract identifiers",
+          "url": "https://docs.opensea.io/reference/get_tokens_batch"
+        },
+        {
+          "type": "Get best listing by NFT",
+          "url": "https://docs.opensea.io/reference/get_best_listing_nft"
+        },
+        {
+          "type": "Save drop item media",
+          "url": "https://docs.opensea.io/reference/save_drop_item_media"
+        },
+        {
+          "type": "Get profile followers",
+          "url": "https://docs.opensea.io/reference/get_account_followers"
+        },
+        {
+          "type": "Make a registered wallet public",
+          "url": "https://docs.opensea.io/reference/make_wallet_public"
+        },
+        {
+          "type": "List the authenticated account's agent relationships",
+          "url": "https://docs.opensea.io/reference/list_own_agent_relationships"
+        },
+        {
+          "type": "Get public agent ownership relationships for a profile",
+          "url": "https://docs.opensea.io/reference/get_agent_profile_relationships"
+        },
+        {
+          "type": "Declare the authenticated account an agent",
+          "url": "https://docs.opensea.io/reference/declare_agent_account"
+        },
+        {
+          "type": "Get collection holders",
+          "url": "https://docs.opensea.io/reference/get_collection_holders"
+        },
+        {
+          "type": "Get collection by NFT",
+          "url": "https://docs.opensea.io/reference/get_nft_collection"
+        },
+        {
+          "type": "Propose an agent ownership relationship",
+          "url": "https://docs.opensea.io/reference/propose_agent_relationship"
+        },
+        {
+          "type": "Get multiple collections",
+          "url": "https://docs.opensea.io/reference/list_collections"
+        },
+        {
+          "type": "Withdraw a proposal or revoke a confirmed agent relationship",
+          "url": "https://docs.opensea.io/reference/revoke_agent_relationship"
+        },
+        {
+          "type": "Get collection traits",
+          "url": "https://docs.opensea.io/reference/get_collection_traits"
+        },
+        {
+          "type": "Validate NFT metadata",
+          "url": "https://docs.opensea.io/reference/validate_nft_metadata"
+        },
+        {
+          "type": "Get trending collections",
+          "url": "https://docs.opensea.io/reference/get_trending_collections"
+        },
+        {
+          "type": "Get collection offer aggregates",
+          "url": "https://docs.opensea.io/reference/get_collection_offer_aggregates"
+        },
+        {
+          "type": "Get NFTs by account",
+          "url": "https://docs.opensea.io/reference/get_nfts_by_account"
+        },
+        {
+          "type": "Get NFT metadata",
+          "url": "https://docs.opensea.io/reference/get_nft_metadata"
+        },
+        {
+          "type": "Get NFTs by collection",
+          "url": "https://docs.opensea.io/reference/get_nfts_by_collection"
+        },
+        {
+          "type": "Get NFT owners",
+          "url": "https://docs.opensea.io/reference/get_nft_owners"
+        },
+        {
+          "type": "Refresh NFT metadata",
+          "url": "https://docs.opensea.io/reference/refresh_nft_metadata"
+        },
+        {
+          "type": "Set NFT profile picture",
+          "url": "https://docs.opensea.io/reference/set_profile_nft_pfp"
+        },
+        {
+          "type": "Get token price history",
+          "url": "https://docs.opensea.io/reference/get_token_price_history"
+        },
+        {
+          "type": "Get trending tokens",
+          "url": "https://docs.opensea.io/reference/get_trending_tokens"
+        },
+        {
+          "type": "[Beta] Get activity for a registered tool",
+          "url": "https://docs.opensea.io/reference/get_tool_activity"
+        },
+        {
+          "type": "Get drop by collection slug",
+          "url": "https://docs.opensea.io/reference/get_drop_by_slug"
+        },
+        {
+          "type": "[Beta] Report tool usage (metrics only)",
+          "url": "https://docs.opensea.io/reference/report_tool_usage"
+        },
+        {
+          "type": "Get token swap activity",
+          "url": "https://docs.opensea.io/reference/get_token_activity"
+        },
+        {
+          "type": "Get token holders",
+          "url": "https://docs.opensea.io/reference/get_token_holders"
+        },
+        {
+          "type": "Get an order",
+          "url": "https://docs.opensea.io/reference/get_order"
+        },
+        {
+          "type": "Build a criteria offer",
+          "url": "https://docs.opensea.io/reference/build_offer_v2"
+        },
+        {
+          "type": "Get swap quote",
+          "url": "https://docs.opensea.io/reference/get_swap_quote"
+        },
+        {
+          "type": "Get deploy contract receipt",
+          "url": "https://docs.opensea.io/reference/get_deploy_contract_receipt"
+        },
+        {
+          "type": "Make a registered wallet private",
+          "url": "https://docs.opensea.io/reference/make_wallet_private"
+        },
+        {
+          "type": "Get token groups",
+          "url": "https://docs.opensea.io/reference/get_token_groups"
+        },
+        {
+          "type": "Withdraw the authenticated account's agent declaration",
+          "url": "https://docs.opensea.io/reference/withdraw_agent_account_declaration"
+        },
+        {
+          "type": "Get top collections",
+          "url": "https://docs.opensea.io/reference/get_top_collections"
+        },
+        {
+          "type": "Get collection floor price history",
+          "url": "https://docs.opensea.io/reference/get_collection_floor_prices"
+        },
+        {
+          "type": "Get NFTs by contract",
+          "url": "https://docs.opensea.io/reference/get_nfts_by_contract"
+        },
+        {
+          "type": "Get token OHLCV candles",
+          "url": "https://docs.opensea.io/reference/get_token_ohlcv"
+        },
+        {
+          "type": "Get token balances by account",
+          "url": "https://docs.opensea.io/reference/get_token_balances_by_account"
+        },
+        {
+          "type": "Get NFT analytics",
+          "url": "https://docs.opensea.io/reference/get_nft_analytics"
+        },
+        {
+          "type": "Modify collection metadata",
+          "url": "https://docs.opensea.io/reference/modify_collection"
+        },
+        {
+          "type": "Get all listings by collection",
+          "url": "https://docs.opensea.io/reference/list_listings_collection_all"
+        },
+        {
+          "type": "[Beta] Remove a saved tool",
+          "url": "https://docs.opensea.io/reference/unsave_tool"
+        },
+        {
+          "type": "Sweep buy items from a collection",
+          "url": "https://docs.opensea.io/reference/sweep_collection"
+        },
+        {
+          "type": "Get token liquidity pools",
+          "url": "https://docs.opensea.io/reference/get_token_liquidity_pools"
+        },
+        {
+          "type": "[Beta] Get a registered tool",
+          "url": "https://docs.opensea.io/reference/get_tool"
+        },
+        {
+          "type": "Get transaction receipt",
+          "url": "https://docs.opensea.io/reference/get_transaction_receipt"
+        },
+        {
+          "type": "Transfer NFTs or tokens between wallets",
+          "url": "https://docs.opensea.io/reference/transfer_assets"
+        },
+        {
+          "type": "Build mint transaction data for a drop",
+          "url": "https://docs.opensea.io/reference/build_drop_mint_transaction"
+        },
+        {
+          "type": "Fulfill a listing",
+          "url": "https://docs.opensea.io/reference/generate_listing_fulfillment_data_v2"
+        },
+        {
+          "type": "Get account token activity",
+          "url": "https://docs.opensea.io/reference/get_account_token_activity"
+        },
+        {
+          "type": "[Beta] List registered tools",
+          "url": "https://docs.opensea.io/reference/list_tools"
+        },
+        {
+          "type": "Cancel an order",
+          "url": "https://docs.opensea.io/reference/cancel_order"
+        },
+        {
+          "type": "Validate drop allowlist",
+          "url": "https://docs.opensea.io/reference/validate_drop_allowlist"
+        },
+        {
+          "type": "Get listing creation actions",
+          "url": "https://docs.opensea.io/reference/create_listing_actions"
+        },
+        {
+          "type": "Build deploy contract transaction data",
+          "url": "https://docs.opensea.io/reference/deploy_drop_contract"
+        },
+        {
+          "type": "Update collection metadata",
+          "url": "https://docs.opensea.io/reference/update_collection_metadata"
+        },
+        {
+          "type": "Get drop eligibility for the authenticated wallet",
+          "url": "https://docs.opensea.io/reference/get_drop_eligibility"
+        },
+        {
+          "type": "[Beta] Search registered tools",
+          "url": "https://docs.opensea.io/reference/search_tools"
+        },
+        {
+          "type": "Upload drop allowlist",
+          "url": "https://docs.opensea.io/reference/upload_drop_allowlist"
+        },
+        {
+          "type": "Get a token group by slug",
+          "url": "https://docs.opensea.io/reference/get_token_group"
+        },
+        {
+          "type": "Get offers by collection",
+          "url": "https://docs.opensea.io/reference/get_offers_collection"
+        },
+        {
+          "type": "Get offer fulfillment actions",
+          "url": "https://docs.opensea.io/reference/create_offer_fulfillment_actions"
+        },
+        {
+          "type": "Save prereveal drop item",
+          "url": "https://docs.opensea.io/reference/save_prereveal_drop_item"
+        },
+        {
+          "type": "Upload drop item media",
+          "url": "https://docs.opensea.io/reference/upload_drop_item_media"
+        },
+        {
+          "type": "Get best listings by collection",
+          "url": "https://docs.opensea.io/reference/get_best_listings_collection"
+        },
+        {
+          "type": "Build transaction data for creating a SelfMint drop item",
+          "url": "https://docs.opensea.io/reference/save_self_mint_drop_item"
+        },
+        {
+          "type": "Create a criteria offer",
+          "url": "https://docs.opensea.io/reference/post_criteria_offer_v2"
+        },
+        {
+          "type": "Build transaction data for updating a SelfMint drop item",
+          "url": "https://docs.opensea.io/reference/update_self_mint_drop_item"
+        },
+        {
+          "type": "[Beta] List saved tools",
+          "url": "https://docs.opensea.io/reference/list_saved_tools"
+        },
+        {
+          "type": "Get token details",
+          "url": "https://docs.opensea.io/reference/get_token"
+        },
+        {
+          "type": "[Beta] Save a tool",
+          "url": "https://docs.opensea.io/reference/save_tool"
+        },
+        {
+          "type": "Upload collection image",
+          "url": "https://docs.opensea.io/reference/upload_collection_image"
+        },
+        {
+          "type": "Fulfill an offer",
+          "url": "https://docs.opensea.io/reference/generate_offer_fulfillment_data_v2"
+        },
+        {
+          "type": "Update drop item",
+          "url": "https://docs.opensea.io/reference/update_drop_item"
+        },
+        {
+          "type": "Get top tokens",
+          "url": "https://docs.opensea.io/reference/get_top_tokens"
+        },
+        {
+          "type": "Get drops",
+          "url": "https://docs.opensea.io/reference/get_drops"
+        },
+        {
+          "type": "Get best offer by NFT",
+          "url": "https://docs.opensea.io/reference/get_best_offer_nft"
+        },
+        {
+          "type": "Get trait offers for a collection",
+          "url": "https://docs.opensea.io/reference/get_offers_collection_trait"
+        },
+        {
+          "type": "Update Creator Studio drop edits",
+          "url": "https://docs.opensea.io/reference/save_drop_edits"
+        },
+        {
+          "type": "Get offers by NFT",
+          "url": "https://docs.opensea.io/reference/get_offers_nft"
+        },
+        {
+          "type": "Get NFTs by identifiers",
+          "url": "https://docs.opensea.io/reference/get_nfts_batch"
+        },
+        {
+          "type": "Get payment token",
+          "url": "https://docs.opensea.io/reference/get_payment_token"
+        },
+        {
+          "type": "Get trait floor prices",
+          "url": "https://docs.opensea.io/reference/get_collection_trait_floors"
+        },
+        {
+          "type": "Search across OpenSea",
+          "url": "https://docs.opensea.io/reference/search"
+        },
+        {
+          "type": "Get listing fulfillment actions",
+          "url": "https://docs.opensea.io/reference/create_listing_fulfillment_actions"
+        },
+        {
+          "type": "Execute a token swap",
+          "url": "https://docs.opensea.io/reference/post_swap_execute"
+        },
+        {
+          "type": "Get order cancellation actions",
+          "url": "https://docs.opensea.io/reference/create_cancel_order_actions"
+        },
+        {
+          "type": "Get token trading activity stats",
+          "url": "https://docs.opensea.io/reference/get_token_activity_stats"
+        },
+        {
+          "type": "Get offer creation actions",
+          "url": "https://docs.opensea.io/reference/create_offer_actions"
+        }
+      ],
+      "quality": {
+        "status": "quarantined",
+        "reasons": [
+          "error-page-content"
+        ]
+      }
+    }
+  ],
+  "currentSnapshotId": "589c61956553a0f2f2cfc5a924dc702853aeac53905fcd1375afa3a1dc6ba146"
+}
